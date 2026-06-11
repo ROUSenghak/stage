@@ -1,0 +1,8 @@
+# Large DECP downloads (decp.parquet ~210 MB): re-downloadable via
+# scripts/task3_decp_fetch_profile.py, so not versioned.
+data/raw/decp/*
+
+# Python
+__pycache__/
+*.pyc
+.venv/

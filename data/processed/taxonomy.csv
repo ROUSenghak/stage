@@ -1,0 +1,11 @@
+category_id,category_label,cpv_divisions,cpv_prefixes,keywords
+CAT01,Software & Applications,48,"48","logiciel,application,progiciel,erp,crm,saas,licence,gestion,solution informatique"
+CAT02,IT Services & Consulting,72,"72","infogérance,tierce maintenance,tma,conseil informatique,assistance informatique,moa,moe,développement,intégration"
+CAT03,Cybersecurity,35,"35,72250,72310,72315","cybersécurité,sécurité informatique,pare-feu,firewall,soc,antivirus,iam,siem,pentest,audit sécurité"
+CAT04,Telecom & Networks,32,"32","télécommunication,réseau,fibre,wan,lan,téléphonie,voip,wifi,connectivité,opérateur"
+CAT05,Cloud & Infrastructure,48800,"48800,72250,72310","cloud,hébergement,datacenter,infrastructure,iaas,paas,saas,virtualisation,serveur"
+CAT06,IT Hardware & Equipment,30,"30,32420","matériel informatique,poste de travail,ordinateur,imprimante,scanner,switch,routeur,écran"
+CAT07,Digital Workplace & Collaboration,48500,"48500,72212,64200","messagerie,collaboration,visioconférence,intranet,portail,teams,office,dématérialisation"
+CAT08,Data & AI,72300,"72300,72322,72316","données,data,intelligence artificielle,ia,machine learning,big data,tableau de bord,bi,datawarehouse,analytique"
+CAT09,GIS & Mapping,72320,"72320,38221","géomatique,sig,cartographie,gis,openstreetmap,arcgis,données géographiques"
+CAT10,IT Maintenance & Support,50300,"50300,72250,72611","maintenance informatique,support,hotline,helpdesk,tierce maintenance applicative,mcoa,mcs"

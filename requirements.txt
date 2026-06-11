@@ -1,0 +1,6 @@
+# Week 1 — data exploration dependencies (Python 3.10+)
+requests>=2.31
+pandas>=2.0
+matplotlib>=3.7
+seaborn>=0.13
+pyarrow>=14         # read the tabular DECP consolidation (decp.parquet)
