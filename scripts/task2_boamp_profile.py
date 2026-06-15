@@ -1,6 +1,6 @@
 """TASK 2 — BOAMP field profiling.
 
-Reads the flattened 500-notice sample produced by Task 1 and produces a
+Reads the full flattened BOAMP dataset produced by Task 1b and produces a
 field-by-field profiling table (dtype, completeness, cardinality, sample
 values, notes), plus targeted deep-dives on the five critical fields named in
 the brief: SIRET, CPV, amount, duration, notification vs award dates.
@@ -42,7 +42,7 @@ FIELD_NOTES = {
 
 
 def main() -> None:
-    df = pd.read_csv(PROCESSED_DIR / "boamp_sample_flat.csv",
+    df = pd.read_csv(PROCESSED_DIR / "boamp_full_flat.csv",
                      dtype={"buyer_siret": str, "buyer_cp": str,
                             "cpv_principal": str})
 
@@ -50,7 +50,7 @@ def main() -> None:
     profile = profile_dataframe(df, notes=FIELD_NOTES)
     profile.to_csv(PROCESSED_DIR / "boamp_field_profile.csv", index=False)
     (PROCESSED_DIR / "boamp_field_profile.md").write_text(
-        "# BOAMP field profile (500-notice sample, PdL, 2015-2024)\n\n"
+        f"# BOAMP field profile ({len(df)}-notice full dataset, PdL, 2015-2024)\n\n"
         + to_markdown_table(profile) + "\n")
     print("=== BOAMP field profile (saved to data/processed/) ===")
     print(profile.to_string(index=False, max_colwidth=40))

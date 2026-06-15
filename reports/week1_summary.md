@@ -12,11 +12,11 @@ la Loire; 2015–2024).
 **BOAMP.** We queried the Opendatasoft Explore API (`boamp-datadila.opendatasoft.com`,
 dataset `boamp`; `api.boamp.fr` redirects there). The dataset contains 1,675,576 notices
 nationally, of which **83,920** match the five PdL departments (44/49/53/72/85) since 2015.
-We collected a sample of **500 digital notices**, stratified at exactly 50 per year
-2015–2024, by combining a server-side CPV pre-filter with client-side verification. The
-sample mixes 225 contract notices (AAPC), 217 award notices, and 58 other notices
-(rectifications, modifications, prior information). All 117 raw API pages are kept verbatim
-in `data/raw/boamp_sample/`.
+We downloaded **3,181 digital notices** covering the full 2015–2024 decade (177–398/year),
+combining a server-side CPV pre-filter with client-side verification. The corpus mixes
+1,933 contract notices (AAPC), 1,081 award notices, and 167 other notices (rectifications,
+modifications, prior information). Raw API pages are kept verbatim in
+`data/raw/boamp_full/`.
 
 **DECP.** DECP has no queryable API. We first parsed the official consolidated JSON files
 (`decp-2022.json`, 21 MB; `decp-2024.json`, 524 MB, streamed with ijson): this first pass
@@ -27,9 +27,9 @@ files). After filtering on digital CPV + PdL buyer department + 2015–2024 + cu
 versions (`donneesActuelles`), we obtained **3,039 contracts**
 (`data/processed/decp_sample_flat.csv`).
 
-| Sample | Records | Period covered | Departments (44/49/72/85/53) | CPV divisions (72/48/32/35) |
+| Dataset | Records | Period covered | Departments (44/49/72/85/53) | CPV divisions (72/48/32/35) |
 |---|---|---|---|---|
-| BOAMP | 500 | 50/year, 2015–2024 | multi-dept notices: 46/500 also list non-PdL areas | 218 / 89 / 75 / 40 (main code) |
+| BOAMP | 3,181 | 177–398/year, 2015–2024 | multi-dept notices included | 772 / 372 / 300 / 128 (AAPC only) |
 | DECP | 3,039 | 42 (2018), 361–574/year 2019–2024 | 1,438 / 528 / 508 / 362 / 203 | 1,586 / 636 / 595 / 222 |
 
 ## 2. Available Fields and Completion Rates
@@ -39,19 +39,19 @@ cardinality, sample values). The table below summarizes the fields that matter f
 internship; full tables are in `data/processed/boamp_field_profile.csv`,
 `decp_field_profile.csv` and `source_comparison.csv`.
 
-| Field | BOAMP (n=500) | DECP (n=3,039) | Preferred |
+| Field | BOAMP (n=3,181) | DECP (n=3,039) | Preferred |
 |---|---|---|---|
-| Buyer SIRET | 8.0% (100% of 2024 eForms, 0% before) | **100%** (14-digit) | DECP |
+| Buyer SIRET | 9.1% (100% of 2024 eForms, 0% before) | **100%** (14-digit) | DECP |
 | Buyer name | **100%** (declared, spelling variants) | 100% (SIRENE-normalized) | both |
 | Contract object (text) | **100%** (rich, avg. longer) | 99.9% (terse) | BOAMP |
-| CPV code | 97.8% (12.5% generic `XX000000`) | **100%** | both |
-| Amount (EUR) | 44.6% (79.3% of awards, 21.3% of AAPC) | **95.6%** | DECP |
-| Contract duration | 34.4% (74.2% of AAPC, 0.9% of awards) | **99.4%** (`dureeMois`) | DECP |
+| CPV code | 98.1% | **100%** | both |
+| Amount (EUR) | 43.0% | **95.6%** | DECP |
+| Contract duration | 47.7% (76.8% of AAPC, 2.4% of awards) | **99.4%** (`dureeMois`) | DECP |
 | Notification date | absent | **100%** | DECP |
 | Publication date | **100%** (`dateparution`) | 98.0% (can lag years behind) | BOAMP |
-| Award date | 94.9% of award notices | absent | BOAMP |
+| Award date | 93.0% of award notices | absent | BOAMP |
 | Offers received | absent | 26.4% | DECP |
-| Notice type + linked notices | **100%** (`nature`); `annonce_lie` 46.2% | absent | BOAMP |
+| Notice type + linked notices | **100%** (`nature`); `annonce_lie` 34.9% | absent | BOAMP |
 
 ## 3. Key Data Quality Observations
 
@@ -73,7 +73,7 @@ internship; full tables are in `data/processed/boamp_field_profile.csv`,
 4. **Location codes are full of traps.** In DECP, `lieuExecution.code` mixes postal,
    commune, department and region codes: we removed 18 false positives where code "44"
    typed *Code région* meant pre-2016 Lorraine, not Loire-Atlantique, and now filter on
-   the SIRENE-derived buyer department instead. In BOAMP, 46/500 notices are
+   the SIRENE-derived buyer department instead. In BOAMP, some notices are
    multi-department contracts also covering non-PdL areas (each still includes ≥1 PdL
    department).
 5. **Amounts need cleaning rules in both sources.** BOAMP: 44.6% filled, median €432k but
@@ -100,17 +100,15 @@ legacy BOAMP notices carry no SIRET — and we will prototype it in Week 2.
 
 ## 5. Scientific Question – Contract Duration Reliability
 
-We measured the reliability of the declared contract duration on the BOAMP sample. The
-field is filled on **172/500 notices (34.4%)** — it is essentially a contract-notice field
-(74.2% of AAPC vs 0.9% of award notices). Where present, it is coarse: **121/172 (70.3%)**
-of values are exactly 12, 24, 36 or 48 months and **135/172 (78.5%)** are whole-year
-multiples (median 24, IQR 12–48, max 360 months; histogram in `reports/figures/`). Buyers
-evidently declare an administrative maximum (base period + renewals), not an expected
-lifetime. We then tried to confront declared and observed durations within BOAMP: declared
-duration and award date never coexist in a single notice (0/500), so the comparison is
-structurally impossible; the only computable gap — original publication → award, on 102
-linked pairs — has a median of **4.3 months** (IQR 3.0–6.1) and measures the procurement
-*procedure*, not the contract life. **We therefore recommend:** (i) not using the declared
+We measured the reliability of the declared contract duration on the full BOAMP corpus. The
+field is filled on **1,518/3,181 notices (47.7%)** — it is essentially a contract-notice
+field (76.8% of AAPC vs 2.4% of award notices). Where present, it is coarse: **1,048/1,518
+(69.0%)** of values are exactly 12, 24, 36 or 48 months and **1,175/1,518 (77.4%)** are
+whole-year multiples (median 24, IQR 12–48, max 360 months; histogram in `reports/figures/`).
+Buyers evidently declare an administrative maximum (base period + renewals), not an expected
+lifetime. The only computable gap — original publication → award, on 546 linked pairs — has
+a median of **4.0 months** (IQR 3.0–5.6) and measures the procurement *procedure*, not the
+contract life. **We therefore recommend:** (i) not using the declared
 duration as the survival target; (ii) building the target as the observed time between
 successive notices of the same buyer/segment (Week-3 linking); (iii) keeping the declared
 duration as a covariate and as a prior for the renewal search window (declared ± 6 months);

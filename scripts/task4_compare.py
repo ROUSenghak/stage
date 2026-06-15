@@ -81,7 +81,7 @@ def availability(rate: float | None) -> str:
 
 
 def main() -> None:
-    boamp = pd.read_csv(PROCESSED_DIR / "boamp_sample_flat.csv")
+    boamp = pd.read_csv(PROCESSED_DIR / "boamp_full_flat.csv")
     decp = pd.read_csv(PROCESSED_DIR / "decp_sample_flat.csv")
 
     rows = []

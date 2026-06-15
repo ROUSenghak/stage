@@ -39,8 +39,9 @@ Taxonomy tagging
 
 Outputs
 -------
-  data/processed/boamp_clean.csv     — BOAMP analysis-ready (500 rows)
-  data/processed/decp_clean.csv      — DECP analysis-ready (~3 039 rows)
+  data/processed/boamp_clean.csv     — BOAMP 500-sample, cleaned (legacy reference only;
+                                        for the full dataset see task_boamp_full_clean.py)
+  data/processed/decp_clean.csv      — DECP analysis-ready (3,039 rows)
   data/processed/buyer_bridge.csv    — canonical buyer keys, both sources
   data/processed/week2_cleaning_report.md  — short data-quality report
 """

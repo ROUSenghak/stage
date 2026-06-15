@@ -1,16 +1,16 @@
 # Week 2 – Cleaning and Normalization Report
 
 ## Scope
-- BOAMP sample: 500 notices (PdL, digital CPV, 2015-2024)
-- DECP filtered: 3039 contracts (PdL, digital CPV, 2015-2024, current version)
+- BOAMP full dataset: 3,181 notices (PdL, digital CPV, 2015-2024)
+- DECP filtered: 3,039 contracts (PdL, digital CPV, 2015-2024, current version)
 
 ## Buyer normalization
 Canonical key strategy: **SIRET (14-digit) when valid, normalized name otherwise**.
 
 | Source | Raw unique names | Canonical keys | SIRET-anchored |
 |--------|-----------------|----------------|----------------|
-| BOAMP  | 183 | 172 | 15 rows (3.0% of notices) |
-| DECP   | 278 | 294 | 3039 rows (100.0% of contracts) |
+| BOAMP  | 525 | 502 | 156 rows (4.9% of notices) |
+| DECP   | 278 | 294 | 3,039 rows (100.0% of contracts) |
 
 Name normalization: lowercase, accent stripping, punctuation removal, legal-form suffix removal (e.g. "SARL", "Commune de").
 Cross-source bridge saved to `buyer_bridge.csv`.
@@ -24,7 +24,7 @@ Flagging rules (values **not deleted**, raw always preserved):
 
 | Source | Zero | Tiny (<1k) | Ceiling (≥10M) | Clean fill rate |
 |--------|------|------------|----------------|-----------------|
-| BOAMP  | 0 | 3 | 5 | 43.0% |
+| BOAMP  | 1 | 9 | 53 | 41.1% |
 | DECP   | 31 | 20 | 23 | 93.1% |
 
 **Remaining missing values** in amount_clean come from original NaN fields and are **not imputed at this stage** (Week-3 modeling will use median-by-segment imputation for covariates that need a numeric value).
@@ -33,10 +33,10 @@ Flagging rules (values **not deleted**, raw always preserved):
 Flagging rule: `flag_duration_suspect` = 1 when `dureeMois` / `duration_months` outside [1, 120] months.
 Suspect values are set to NaN in `duration_clean` but kept raw.
 
-| Source | Suspect flags |
-|--------|---------------|
-| BOAMP  | 1 |
-| DECP   | 6 |
+| Source | Suspect flags | Clean fill rate |
+|--------|---------------|-----------------|
+| BOAMP  | 12 | 47.3% |
+| DECP   | 6  | 99.2% |
 
 ## Taxonomy tagging (10 categories)
 CPV-prefix match first; keyword-in-objet fallback.  Full taxonomy: `taxonomy.csv`.

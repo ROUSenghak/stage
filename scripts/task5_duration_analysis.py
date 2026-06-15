@@ -34,7 +34,7 @@ ROUND_VALUES = (12, 24, 36, 48)  # whole-year durations suggesting coarse input
 
 def main() -> None:
     FIGURES_DIR.mkdir(parents=True, exist_ok=True)
-    df = pd.read_csv(PROCESSED_DIR / "boamp_sample_flat.csv")
+    df = pd.read_csv(PROCESSED_DIR / "boamp_full_flat.csv")
 
     # ---- 5.1 distribution of declared durations ---------------------------
     dur = df["duration_months"].dropna()

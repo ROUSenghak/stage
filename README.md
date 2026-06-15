@@ -14,38 +14,52 @@ pip install -r requirements.txt
 ## Run order
 
 ```bash
-python scripts/task1_boamp_fetch.py          # fetch 500-notice BOAMP sample (API)
-python scripts/task2_boamp_profile.py        # BOAMP field profiling + deep-dives
+# Phase 1 — Data acquisition
+python scripts/task1b_boamp_full_fetch.py    # full BOAMP download (3,181 notices)
 python scripts/task3_decp_fetch_profile.py   # download + filter + profile DECP (~210 MB download)
+
+# Phase 2 — Profiling and comparison (read from Phase 1 outputs)
+python scripts/task2_boamp_profile.py        # BOAMP field profiling + deep-dives
 python scripts/task4_compare.py              # BOAMP vs DECP comparison table
 python scripts/task5_duration_analysis.py    # duration-reliability analysis + figures
-python scripts/task7_week2_cleaning.py       # Week-2 cleaning, buyer normalization, taxonomy tagging
-python scripts/task6_renewal_linking.py      # Week-3 prototype: renewal links + survival-ready durations
+
+# Phase 3 — Cleaning and survival dataset
+python scripts/task7_week2_cleaning.py       # shared cleaning functions + DECP cleaning
+python scripts/task_boamp_full_clean.py      # apply cleaning to full BOAMP data
+python scripts/task6_renewal_linking.py      # DECP renewal links (survival labels)
+python scripts/task_boamp_full_survival.py   # BOAMP survival dataset (APPEL_OFFRE only)
+python scripts/task8_unified_survival.py     # combined BOAMP + DECP survival dataset
 ```
 
-Each script is independent of the next but Tasks 2/4/5 read the CSVs produced
-by Tasks 1 and 3.
+Each phase depends on the previous. Tasks 2/4/5 read the CSVs produced by task1b
+and task3. The original 500-notice sample (`task1_boamp_fetch.py`) is kept for
+reference but superseded by the full download.
 
 ## Outputs
 
 | Path | Content |
 |---|---|
-| `data/raw/boamp_sample/` | raw BOAMP API pages (JSON, verbatim) |
+| `data/raw/boamp_full/` | raw full BOAMP API pages (JSON, verbatim) |
+| `data/raw/boamp_sample/` | original 500-notice sample pages (reference only) |
 | `data/raw/decp/` | DECP download — decp.parquet (git-ignored, re-downloadable) |
-| `data/processed/boamp_sample_flat.csv` | flattened 500-notice BOAMP sample |
+| `data/processed/boamp_full_flat.csv` | **3,181 BOAMP notices, flattened** (primary) |
+| `data/processed/boamp_full_clean.csv` | **3,181 notices, cleaned** — buyer keys, amounts, durations, taxonomy |
+| `data/processed/boamp_full_survival.csv` | **1,933 APPEL_OFFRE survival records** — event/censoring, ±12 month window |
+| `data/processed/boamp_full_survival_report.md` | survival dataset composition report |
+| `data/processed/boamp_sample_flat.csv` | 500-notice BOAMP sample (reference only) |
 | `data/processed/decp_sample_flat.csv` | filtered DECP contracts (3,039) |
-| `data/processed/taxonomy.csv` | 10-category tech taxonomy (CPV + keywords) |
-| `data/processed/boamp_clean.csv` | BOAMP with buyer keys, cleaned amounts/durations, taxonomy tags |
 | `data/processed/decp_clean.csv` | DECP with buyer keys, cleaned amounts/durations, taxonomy tags |
-| `data/processed/buyer_bridge.csv` | cross-source canonical buyer key table |
-| `data/processed/week2_cleaning_report.md` | Week-2 cleaning rules, impacts, limitations |
 | `data/processed/decp_renewal_links.csv` | DECP contracts with linked renewal event/censoring durations |
-| `data/processed/decp_renewal_linking_stats.csv` | linking-rate statistics (overall + CPV division) |
-| `data/processed/decp_renewal_linking_report.md` | short method/report note for Week 3 |
+| `data/processed/unified_survival.csv` | **3,512 combined BOAMP+DECP survival records** |
+| `data/processed/unified_survival_report.md` | unified dataset composition report |
+| `data/processed/taxonomy.csv` | 10-category tech taxonomy (CPV + keywords) |
+| `data/processed/buyer_bridge.csv` | cross-source canonical buyer key table |
+| `data/processed/week2_cleaning_report.md` | cleaning rules, impacts, limitations |
+| `data/processed/decp_renewal_linking_report.md` | DECP renewal linking method note |
 | `data/processed/*_field_profile.{csv,md}` | field-by-field profiling tables |
 | `data/processed/source_comparison.{csv,md}` | BOAMP vs DECP comparison |
-| `reports/figures/` | declared-duration histogram + box plot |
-| `reports/week1_summary.md` | **one-page Week-1 summary report** |
+| `reports/figures/` | duration histograms, EDA plots |
+| `reports/week1_summary.md` | **Week-1 summary report** |
 
 ## Key technical notes
 

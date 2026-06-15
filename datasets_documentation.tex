@@ -1,0 +1,899 @@
+%% Datasets documentation -- Internship project
+%% Continuation of the BOAMP API document (section 1) written by the teammate.
+%% Covers: BOAMP dataset (section 1), DECP (section 2), processed datasets (section 3),
+%% taxonomy (section 4), and renewal-linking output (section 5).
+
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{geometry}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{xurl}
+\usepackage[breaklinks=true]{hyperref}
+
+\newcommand{\breakcode}[1]{\nolinkurl{#1}}
+
+\geometry{margin=2.5cm}
+
+\lstset{
+  basicstyle=\small\ttfamily,
+  breaklines=true,
+  frame=single,
+  backgroundcolor=\color{gray!8},
+  keywordstyle=\color{blue},
+  stringstyle=\color{red!70!black},
+  showstringspaces=false,
+}
+
+\begin{document}
+
+% ============================================================
+\section{BOAMP -- Bulletin Officiel des Annonces des Marchés Publics}
+% ============================================================
+
+\subsection{Présentation générale}
+
+Le BOAMP est le bulletin officiel des annonces de marchés publics français.
+Contrairement au DECP, qui enregistre le \emph{contrat signé}, le BOAMP
+enregistre des \emph{avis} publiés aux différentes étapes de la procédure
+d'attribution : appel d'offres, attribution, rectificatif, modification ou
+pré-information. Cette granularité événementielle est indispensable pour
+reconstituer les paires (annonce initiale, résultat d'attribution) qui
+servent de signal de renouvellement dans l'analyse de survie.
+
+Les avis sont publiés sur \texttt{boamp.fr} et interrogeables via l'API de
+recherche décrite dans le document partenaire (section~1 de l'équipe).
+
+\medskip
+\textbf{Fichier utilisé}
+
+La récupération s'effectue par des appels paginés à l'API de recherche du
+BOAMP, filtrés par département de l'acheteur et par code CPV ou descripteur.
+L'API retourne des documents JSON dont chacun comporte un champ
+\texttt{donnees} imbriqué contenant le corps complet de l'avis.
+Deux formats de \texttt{donnees} coexistent : le format \texttt{legacy}
+(2015--2023, structure à clés françaises) et le format \texttt{eforms}
+(2024, format UBL européen harmonisé). Les fichiers bruts sont stockés dans
+\texttt{data/raw/boamp\_full/}.
+
+\medskip
+\textbf{Volume et couverture}
+
+\begin{itemize}
+  \item[---] Base totale de l'API : plusieurs millions d'avis pour l'ensemble
+    de la France et de tous les secteurs depuis environ 2000
+  \item[---] Couverture temporelle dense : à partir de \textbf{2015}
+    (format de l'API stable, couverture fiable)
+  \item[---] Corpus de travail : \textbf{3\,181 avis} relatifs aux marchés
+    numériques en Pays de la Loire (2015--2024), téléchargement complet
+    sans stratification (177--398 avis par année)
+  \item[---] Répartition des formats dans le corpus : 2\,893 avis
+    \texttt{legacy} (91\,\%) et 288 avis \texttt{eforms} (9\,\%)
+\end{itemize}
+
+\medskip
+\textbf{Filtres appliqués pour constituer le corpus}
+
+\begin{itemize}
+  \item[---] Département de l'acheteur : 44, 49, 53, 72, 85 (Pays de la Loire)
+  \item[---] Code CPV ou descripteur : premiers chiffres dans \{48, 72, 32, 35\}
+    (marchés numériques / informatiques)
+  \item[---] Année de parution : 2015 à 2024
+  \item[---] Téléchargement complet (sans stratification ni limite par année)
+\end{itemize}
+
+\subsection{Principales données récupérables}
+
+Les informations accessibles sont regroupées en plusieurs catégories.
+
+\medskip
+\textbf{Identification de l'avis}
+
+\begin{itemize}
+  \item[---] \texttt{idweb} : identifiant unique de l'avis attribué par le
+    BOAMP (format \texttt{AA-NNNNN})
+  \item[---] \texttt{nature} : type d'avis (\texttt{APPEL\_OFFRE},
+    \texttt{ATTRIBUTION}, \texttt{RECTIFICATIF}, \texttt{MODIFICATION},
+    \texttt{PRE-INFORMATION})
+  \item[---] \texttt{nature\_libelle} : libellé lisible du type d'avis
+    (ex.\ \textit{Avis de marché}, \textit{Résultat de marché})
+  \item[---] \texttt{famille} : famille de publication -- \texttt{BOAMP}
+    pour les marchés nationaux, \texttt{JOUE} pour les marchés soumis à
+    publication au Journal officiel de l'Union européenne
+  \item[---] \texttt{etat} : statut de l'avis (\texttt{INITIAL} = original,
+    \texttt{RECTIFICATIF} = version corrigée)
+  \item[---] \texttt{donnees\_format} : format du champ imbriqué
+    \texttt{donnees} (\texttt{legacy} ou \texttt{eforms})
+\end{itemize}
+
+\medskip
+\textbf{Informations temporelles}
+
+\begin{itemize}
+  \item[---] \texttt{dateparution} : date de publication de l'avis ;
+    couverture 100\,\% -- point d'ancrage temporel du corpus BOAMP (date de
+    parution de l'avis, non de la signature du contrat)
+  \item[---] \texttt{datefindiffusion} : date de fin de diffusion en ligne
+  \item[---] \texttt{datelimitereponse} : date limite de remise des offres
+    par les candidats (uniquement pour les appels d'offres)
+\end{itemize}
+
+\medskip
+\textbf{Acheteur}
+
+\begin{itemize}
+  \item[---] \texttt{nomacheteur} : nom de l'acheteur en texte libre ;
+    couverture 100\,\% -- les variantes orthographiques (accents,
+    abréviations, suffixes institutionnels) nécessitent une normalisation
+  \item[---] \texttt{code\_departement} : liste des codes de département
+    associés à l'avis (lieu de l'acheteur et/ou lieu d'exécution)
+  \item[---] \texttt{buyer\_siret} : SIRET de l'acheteur extrait de
+    \texttt{donnees} ; disponible uniquement dans les avis \texttt{eforms}
+    2024 (couverture globale 8\,\% du corpus)
+\end{itemize}
+
+\medskip
+\textbf{Caractéristiques du marché}
+
+\begin{itemize}
+  \item[---] \texttt{objet} : intitulé du marché en texte libre ; couverture
+    100\,\% -- plus riche et plus long que dans le DECP, source principale
+    pour les traitements NLP de la phase 2
+  \item[---] \texttt{cpv\_principal} : code CPV principal ; couverture
+    97,8\,\% dans le corpus
+  \item[---] \texttt{cpv\_all} : liste complète des codes CPV mentionnés dans
+    l'avis (marchés multi-postes)
+  \item[---] \texttt{type\_procedure} : type de procédure structuré
+    (\texttt{OUVERT}, \texttt{PROCEDURE\_ADAPTE}, \texttt{NEGOCIE}\ldots)
+  \item[---] \texttt{type\_marche} : catégorie du marché (\texttt{SERVICES},
+    \texttt{FOURNITURES}, \texttt{TRAVAUX})
+  \item[---] \texttt{descripteur\_libelle} : mots-clés thématiques assignés
+    par le BOAMP (ex.\ \textit{Informatique -- prestations de services})
+\end{itemize}
+
+\medskip
+\textbf{Attribution et renouvellement}
+
+\begin{itemize}
+  \item[---] \texttt{titulaire} : nom du ou des attributaires ; présent
+    dans les avis d'attribution (couverture globale 37\,\% du corpus)
+  \item[---] \texttt{annonce\_lie} : liste des identifiants \texttt{idweb}
+    des avis liés -- par exemple l'appel d'offres correspondant à une
+    attribution, ou l'avis initial d'un rectificatif ; couverture 46\,\% --
+    clé principale pour le chaînage des procédures et la détection du
+    renouvellement
+  \item[---] \texttt{date\_attribution} : date d'attribution du marché,
+    extraite du champ \texttt{donnees} dans les avis d'attribution
+    (couverture 42\,\% de l'ensemble du corpus)
+\end{itemize}
+
+\medskip
+\textbf{Champ imbriqué \texttt{donnees}}
+
+Le champ \texttt{donnees} contient le corps complet de l'avis encodé en JSON.
+Son contenu varie selon le format de publication :
+
+\begin{itemize}
+  \item[---] \textbf{Format \texttt{legacy}} (460 avis, 2015--2023) : structure
+    à clés françaises. Sections typiques : \texttt{IDENTITE} (données de
+    l'acheteur -- dénomination, code postal, ville), \texttt{OBJET} (code CPV,
+    titre, durée), \texttt{PROCEDURE} (type de procédure, critères
+    d'attribution), \texttt{ATTRIBUTION} (titulaire, montant, date). C'est
+    dans ce champ que sont extraits le montant, la durée et la date
+    d'attribution renseignés dans le CSV nettoyé.
+  \item[---] \textbf{Format \texttt{eforms}} (40 avis, 2024) : structure UBL
+    européenne, clé racine \texttt{EFORMS}, hiérarchie plus complexe issue de
+    la directive européenne. Contient le SIRET de l'acheteur, absent des
+    avis legacy.
+\end{itemize}
+
+\subsection{Comparaison de couverture avec le DECP}
+\label{sec:boamp-comparaison}
+
+Le tableau de comparaison champ par champ entre BOAMP et DECP est présenté à
+la section~\ref{sec:decp-comparaison}. Les apports distinctifs du BOAMP dans
+le contexte du projet sont résumés ci-dessous.
+
+\begin{center}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Champ} & \textbf{BOAMP} & \textbf{DECP} \\
+\midrule
+SIRET acheteur          &  9\,\%   & 100\,\% \\
+Montant (EUR)           & 43\,\%   &  93\,\% \\
+Durée (mois)            & 48\,\%   &  99\,\% \\
+Date notification       &  ---     & 100\,\% \\
+Texte du marché (objet) & 100\,\% & 100\,\% \\
+Type d'avis             & 100\,\% &  ---    \\
+Liens de renouvellement & 35\,\%  &  ---    \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\begin{itemize}
+  \item[---] \textbf{Couverture temporelle pleine 2015--2024} : le corpus
+    BOAMP couvre la décennie entière, tandis que le DECP n'est dense qu'à
+    partir de 2019
+  \item[---] \textbf{Granularité événementielle} : la distinction appel
+    d'offres / attribution est structurelle dans le BOAMP, absente du DECP
+  \item[---] \textbf{Texte libre riche} : l'objet BOAMP est plus long et
+    plus détaillé, adapté aux approches NLP
+  \item[---] \textbf{Liens de chaînage} : le champ \texttt{annonce\_lie}
+    fournit des paires appel--attribution, signal direct de renouvellement
+    absent du DECP
+\end{itemize}
+
+\subsection{Exemple d'enregistrement BOAMP}
+
+\begin{lstlisting}[language={}]
+{
+  "idweb"             : "16-14558",
+  "nature"            : "APPEL_OFFRE",
+  "nature_libelle"    : "Avis de marche",
+  "famille"           : "JOUE",
+  "etat"              : "INITIAL",
+  "dateparution"      : "2016-02-02",
+  "datefindiffusion"  : "2016-03-11",
+  "datelimitereponse" : "2016-03-11T11:00:00+00:00",
+  "nomacheteur"       : "INRA Angers Nantes",
+  "code_departement"  : ["44"],
+  "objet"             : "prestation d'hebergement, support technique et
+    assistance pour la plateforme de teleformation moodle de l'INRA",
+  "type_procedure"    : "OUVERT",
+  "type_marche"       : ["SERVICES"],
+  "titulaire"         : null,
+  "annonce_lie"       : null,
+  "donnees_format"    : "legacy",
+  "donnees" : {
+    "IDENTITE"  : { "DENOMINATION" : "INRA Angers Nantes",
+                    "CP"           : "44316",
+                    "VILLE"        : "Nantes" },
+    "OBJET"     : { "CPV"          : { "PRINCIPAL" : "72415000" },
+                    "DUREE_DELAI"  : { "DUREE_MOIS" : "36" } },
+    "PROCEDURE" : { "TYPE_PROCEDURE" : { "OUVERT" : "" } },
+    ...
+  },
+  "url_avis" : "https://www.boamp.fr/pages/avis/?q=idweb:16-14558"
+}
+\end{lstlisting}
+
+\medskip
+\textbf{Cas d'usage dans le projet}
+
+\begin{itemize}
+  \item[---] Corpus principal d'EDA (semaine 1) : les 3\,181 avis constituent
+    le socle de l'exploration descriptive de la structure des marchés numériques
+    en Pays de la Loire sur la période 2015--2024
+  \item[---] Source NLP (phase 2) : le champ \texttt{objet}, plus riche que
+    son équivalent DECP, sera la source de texte pour la vectorisation et la
+    classification des marchés
+  \item[---] Détection de renouvellement : le couple \texttt{APPEL\_OFFRE} /
+    \texttt{ATTRIBUTION} lié via \texttt{annonce\_lie} constitue un signal de
+    renouvellement direct, complémentaire de l'algorithme DECP
+    (section~\ref{sec:renewal})
+  \item[---] Enrichissement croisé : la table \texttt{buyer\_bridge.csv} relie
+    les acheteurs BOAMP (clé nom normalisé) aux acheteurs DECP (clé SIRET)
+    pour les analyses longitudinales multi-sources
+\end{itemize}
+
+% ============================================================
+\section{DECP -- Données Essentielles de la Commande Publique}
+\label{sec:decp}
+% ============================================================
+
+\subsection{Présentation générale}
+
+Le jeu de données DECP constitue la source complémentaire principale du projet.
+Introduit par le décret du 25 mars 2016, il impose à toute autorité publique
+attribuant un marché supérieur à 25\,000~€ de publier un enregistrement
+structuré sur \texttt{data.gouv.fr} dans les deux mois suivant la signature.
+Ces données sont consolidées par l'AIFE (Agence pour l'Informatique Financière
+de l'État) et mises à disposition sous la forme d'un fichier Parquet unique.
+
+Contrairement au BOAMP, qui enregistre des \emph{annonces}, le DECP enregistre
+le \emph{contrat signé}. C'est donc la source de référence pour les champs
+nécessaires à l'analyse de survie (montant réel, durée déclarée, date de
+notification).
+
+\medskip
+\textbf{Fichier utilisé}
+
+La version exploitée n'est pas les fichiers JSON annuels officiels (dont la
+structure est inconsistante selon les millésimes) mais le fichier Parquet
+consolidé publié par le projet communautaire \textit{decp-processing} sur
+\breakcode{data.gouv.fr} (identifiant de ressource
+\breakcode{11cea8e8-df3e-4ed1-932b-781e2635e432}).
+Ce fichier est enrichi par des jointures SIRENE, ce qui ajoute des colonnes
+géographiques (commune, département, région) absentes du DECP brut.
+
+\medskip
+\textbf{Volume et couverture}
+
+\begin{itemize}
+  \item[---] Nombre total d'enregistrements : environ \textbf{3,1 millions} de
+    lignes pour l'ensemble de la France et de tous les secteurs
+  \item[---] Granularité : un enregistrement correspond à un contrat (ou une
+    modification de contrat)
+  \item[---] Couverture temporelle dense : à partir de \textbf{2019} (la
+    publication était obligatoire depuis 2018 mais la couverture réelle est
+    quasi nulle avant 2019)
+  \item[---] Corpus retenu après filtrage : \textbf{3\,039 contrats} portant
+    sur les marchés numériques en Pays de la Loire (2018--2024), uniquement
+    les versions courantes (\texttt{donneesActuelles = True})
+\end{itemize}
+
+\medskip
+\textbf{Filtres appliqués pour constituer le corpus de travail}
+
+\begin{itemize}
+  \item[---] Département de l'acheteur : 44, 49, 53, 72, 85 (Pays de la Loire)
+  \item[---] Code CPV : premiers chiffres dans \{48, 72, 32, 35\}
+    (marchés numériques / informatiques)
+  \item[---] Année de notification : 2015 à 2024
+  \item[---] Version courante uniquement : \texttt{donneesActuelles = True}
+    (élimine les modifications historiques en doublon)
+\end{itemize}
+
+\subsection{Principales données récupérables}
+
+Les informations accessibles sont regroupées en plusieurs catégories.
+
+\medskip
+\textbf{Identification du contrat}
+
+\begin{itemize}
+  \item[---] \texttt{uid} : identifiant unique global (concaténation de
+    \texttt{acheteur\_id} et \texttt{id})
+  \item[---] \texttt{id} : identifiant attribué par l'acheteur (non unique
+    globalement)
+  \item[---] \texttt{nature} : type de contrat (Marché, Accord-cadre, Marché
+    subséquent\ldots)
+  \item[---] \texttt{donneesActuelles} : booléen indiquant la version courante
+    du contrat
+  \item[---] \texttt{sourceDataset} : plateforme d'origine de la publication
+    (AIFE, PES, marchés-publics.info, e-marchespublics.com\ldots)
+\end{itemize}
+
+\medskip
+\textbf{Caractéristiques du marché}
+
+\begin{itemize}
+  \item[---] \texttt{objet} : intitulé du marché (texte libre, plus concis que
+    celui du BOAMP)
+  \item[---] \texttt{codeCPV} : code CPV principal ; format structuré, toujours
+    présent
+  \item[---] \texttt{procedure} : libellé de la procédure standardisé
+    (Procédure adaptée, Appel d'offres ouvert, Marché négocié\ldots)
+  \item[---] \texttt{montant} : montant du contrat en euros ; champ obligatoire
+    du DECP (couverture 98\,\% avant nettoyage)
+  \item[---] \texttt{offresRecues} : nombre d'offres reçues ; champ facultatif,
+    présent dans 26\,\% des enregistrements du corpus
+\end{itemize}
+
+\medskip
+\textbf{Informations temporelles}
+
+\begin{itemize}
+  \item[---] \texttt{dateNotification} : date de notification du contrat signé ;
+    champ obligatoire -- c'est l'\textbf{origine temporelle} de l'analyse de
+    survie
+  \item[---] \texttt{datePublicationDonnees} : date de publication en
+    open data (peut être postérieure de plusieurs mois à la signature)
+  \item[---] \texttt{dureeMois} : durée déclarée du contrat en mois ; champ
+    obligatoire (couverture 99\,\% dans le corpus)
+\end{itemize}
+
+\medskip
+\textbf{Informations géographiques et sectorielles}
+
+\begin{itemize}
+  \item[---] \texttt{lieuExecution\_code} et \texttt{lieuExecution\_typeCode} :
+    code et type du lieu d'exécution (code postal, commune, département ou
+    région)
+  \item[---] \texttt{acheteur\_departement\_code} : code du département de
+    l'acheteur (enrichissement SIRENE) -- utilisé pour le filtre géographique
+  \item[---] \texttt{acheteur\_region\_code} / \texttt{acheteur\_region\_nom} :
+    région de l'acheteur (enrichissement SIRENE)
+\end{itemize}
+
+\medskip
+\textbf{Acteurs}
+
+\begin{itemize}
+  \item[---] \texttt{acheteur\_id} : SIRET de l'acheteur (14 chiffres) ;
+    \textbf{obligatoire} dans le DECP, couverture 100\,\%
+  \item[---] \texttt{acheteur\_nom} : nom de l'acheteur (enrichissement SIRENE)
+  \item[---] \texttt{acheteur\_categorie} : catégorie de l'acheteur (Commune,
+    Groupement de communes, Département, Établissement hospitalier, EPIC\ldots)
+  \item[---] \texttt{titulaire\_id} : identifiant du titulaire (SIRET dans la
+    plupart des cas)
+  \item[---] \texttt{titulaire\_typeIdentifiant} : type d'identifiant du
+    titulaire (SIRET, TVA, HORS-UE\ldots)
+  \item[---] \texttt{titulaire\_nom} : nom du titulaire (enrichissement SIRENE)
+\end{itemize}
+
+\subsection{Comparaison de couverture avec le BOAMP}
+\label{sec:decp-comparaison}
+
+\begin{center}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Champ} & \textbf{BOAMP} & \textbf{DECP} &
+  \textbf{Source recommandée} \\
+\midrule
+SIRET acheteur    & 9\,\%   & 100\,\% & DECP \\
+Montant (EUR)     & 43\,\%  & 93\,\%  & DECP \\
+Durée (mois)      & 48\,\%  & 99\,\%  & DECP \\
+Date notification & ---     & 100\,\% & DECP \\
+Texte du marché   & 100\,\% & 100\,\% & BOAMP (plus riche) \\
+Type d'avis       & 100\,\% & ---     & BOAMP \\
+Liens de renouvellement & 35\,\% & ---  & BOAMP (\texttt{annonce\_lie}) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Exemple d'enregistrement DECP}
+
+\begin{lstlisting}[language={}]
+{
+  "uid"                    : "214401622000112024K-P0rgdsDS00",
+  "id"                     : "2024K-P0rgdsDS00",
+  "nature"                 : "March\'{e}",
+  "acheteur_id"            : "21440162200011",
+  "acheteur_nom"           : "COMMUNE DE SAINT-HERBLAIN (MAIRIE)",
+  "acheteur_departement_code" : "44",
+  "acheteur_categorie"     : "Commune",
+  "titulaire_id"           : "44905091600021",
+  "titulaire_nom"          : "AXIANS IDF",
+  "objet"                  : "Infog\'{e}rance du syst\`{e}me d'information",
+  "codeCPV"                : "72000000",
+  "procedure"              : "Proc\'{e}dure adapt\'{e}e",
+  "montant"                : 140000.0,
+  "dureeMois"              : 48.0,
+  "dateNotification"       : "2024-12-31",
+  "datePublicationDonnees" : "2025-01-10",
+  "offresRecues"           : null,
+  "donneesActuelles"       : true,
+  "sourceDataset"          : "aife_dume"
+}
+\end{lstlisting}
+
+\medskip
+\textbf{Cas d'usage dans le projet}
+
+\begin{itemize}
+  \item[---] Source principale pour l'analyse de survie : date de notification
+    (origine), durée déclarée et montant
+  \item[---] Clé SIRET de l'acheteur pour le regroupement et le suivi
+    longitudinal des contrats d'un même acheteur
+  \item[---] Base pour la construction de la variable cible de renouvellement
+    via l'algorithme de liaison (\texttt{decp\_renewal\_links.csv})
+  \item[---] Enrichissement de la couverture géographique et sectorielle du
+    corpus BOAMP (champs absents ou incomplets dans BOAMP legacy)
+\end{itemize}
+
+% ============================================================
+\section{Jeux de données traités}
+% ============================================================
+
+Les données brutes issues du BOAMP et du DECP sont transformées par un pipeline
+de nettoyage (tâche 7) qui produit deux fichiers d'analyse prêts à l'emploi.
+
+% ------------------------------------------------------------
+\subsection{\texttt{boamp\_full\_clean.csv} -- Corpus BOAMP complet nettoyé}
+% ------------------------------------------------------------
+
+\textbf{Contenu}
+
+Corpus complet de \textbf{3\,181 avis} BOAMP couvrant la période 2015--2024 en
+Pays de la Loire, domaine numérique (CPV 48 / 72 / 32 / 35), téléchargement
+exhaustif sans stratification, mixant les types d'avis (appels d'offres,
+attributions, etc.). Le fichier est le résultat de la mise à plat
+(\textit{flatten}) du champ \texttt{donnees} et des transformations de
+nettoyage.
+
+\medskip
+\textbf{Volume et structure}
+
+\begin{itemize}
+  \item[---] Dimensions : 3\,181 lignes × 44 colonnes
+  \item[---] Format : CSV (séparateur virgule, encodage UTF-8)
+  \item[---] Couverture temporelle : 2015--2024 (177--398 avis par année)
+\end{itemize}
+
+\medskip
+\textbf{Répartition des avis}
+
+\begin{itemize}
+  \item[---] \texttt{APPEL\_OFFRE} : 1\,933 avis (61\,\%)
+  \item[---] \texttt{ATTRIBUTION} : 1\,081 avis (34\,\%)
+  \item[---] \texttt{RECTIFICATIF} : 150 avis (5\,\%)
+  \item[---] \texttt{MODIFICATION} / \texttt{PRE-INFORMATION} / autres : 17 avis
+    ($<$1\,\%)
+\end{itemize}
+
+\medskip
+\textbf{Format des données dans \texttt{donnees}}
+
+\begin{itemize}
+  \item[---] \texttt{donnees\_format = legacy} : 2\,893 avis (91\,\%, format BOAMP
+    classique, clés françaises : \texttt{IDENTITE}, \texttt{OBJET},
+    \texttt{PROCEDURE}\ldots)
+  \item[---] \texttt{donnees\_format = eforms} : 288 avis (9\,\%, format UBL
+    européen 2024, clé racine \texttt{EFORMS}, structure XML imbriquée)
+\end{itemize}
+
+\medskip
+\textbf{Colonnes ajoutées lors du nettoyage}
+
+\begin{itemize}
+  \item[---] \texttt{cpv\_clean}, \texttt{cpv\_div2}, \texttt{cpv\_class4} :
+    code CPV normalisé, division (2 chiffres) et classe (4 chiffres)
+  \item[---] \texttt{buyer\_siret} : SIRET de l'acheteur extrait de
+    \texttt{donnees} (disponible uniquement pour les avis eForms 2024 ; taux
+    de renseignement : 8\,\%)
+  \item[---] \texttt{buyer\_key} : clé canonique de l'acheteur -- SIRET si
+    disponible, sinon nom normalisé (minuscules, sans accents, sans suffixes
+    juridiques)
+  \item[---] \texttt{amount\_raw}, \texttt{flag\_amount\_zero},
+    \texttt{flag\_amount\_tiny}, \texttt{flag\_amount\_ceiling},
+    \texttt{amount\_clean} : montant brut, indicateurs de valeurs aberrantes
+    et montant nettoyé (taux de renseignement après nettoyage : 41\,\%)
+  \item[---] \texttt{duration\_raw\_boamp}, \texttt{flag\_duration\_suspect},
+    \texttt{duration\_clean} : durée brute, indicateur et durée nettoyée
+    (taux de renseignement après nettoyage : 47\,\%)
+  \item[---] \texttt{category\_id}, \texttt{category\_label} : identifiant et
+    libellé de la catégorie technologique (cf.\ section~\ref{sec:taxonomy})
+\end{itemize}
+
+\medskip
+\textbf{Statistiques descriptives des champs quantitatifs}
+
+\begin{center}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Indicateur} & \textbf{Montant (EUR)} &
+  \textbf{Durée (mois)} \\
+\midrule
+Observations valides & 1\,306 & 1\,506 \\
+Moyenne              & 841\,065 & 30,9 \\
+Médiane              & 400\,000 & 24,0 \\
+Min                  & 2\,000   & 1,0 \\
+Max                  & 9\,750\,000 & 120,0 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+% ------------------------------------------------------------
+\subsection{\texttt{decp\_clean.csv} -- Corpus DECP nettoyé}
+% ------------------------------------------------------------
+
+\textbf{Contenu}
+
+Corpus filtré et nettoyé issu du fichier DECP Parquet, comprenant l'ensemble
+des contrats numériques en Pays de la Loire sur la période effective de
+couverture dense du DECP.
+
+\medskip
+\textbf{Volume et structure}
+
+\begin{itemize}
+  \item[---] Dimensions : 3\,039 lignes × 36 colonnes
+  \item[---] Format : CSV (séparateur virgule, encodage UTF-8)
+  \item[---] Couverture temporelle : 2018--2024 (couverture dense à partir de
+    2019 : 361, 433, 506, 574, 561 et 562 contrats par année de 2019 à 2024)
+\end{itemize}
+
+\medskip
+\textbf{Répartition par nature de contrat}
+
+\begin{itemize}
+  \item[---] Marchés : 1\,696 (55,8\,\%)
+  \item[---] Accords-cadres : 1\,241 (40,8\,\%)
+  \item[---] Marchés subséquents : 99 (3,3\,\%)
+  \item[---] Autres : 3 (0,1\,\%)
+\end{itemize}
+
+\medskip
+\textbf{Répartition géographique}
+
+\begin{itemize}
+  \item[---] Loire-Atlantique (44) : 1\,438 contrats (47\,\%)
+  \item[---] Maine-et-Loire (49) : 528 contrats (17\,\%)
+  \item[---] Sarthe (72) : 508 contrats (17\,\%)
+  \item[---] Vendée (85) : 362 contrats (12\,\%)
+  \item[---] Mayenne (53) : 203 contrats (7\,\%)
+\end{itemize}
+
+\medskip
+\textbf{Principales procédures observées}
+
+\begin{itemize}
+  \item[---] Procédure adaptée (MAPA) : 1\,201 contrats (39\,\%)
+  \item[---] Appel d'offres ouvert : 749 contrats (25\,\%)
+  \item[---] Marché négocié sans publicité : 220 contrats (7\,\%)
+  \item[---] Marché passé sans publicité ni mise en concurrence : 163 contrats
+    (5\,\%)
+  \item[---] Autres : 706 contrats (23\,\%)
+\end{itemize}
+
+\medskip
+\textbf{Colonnes ajoutées lors du nettoyage}
+
+Les mêmes transformations que pour \texttt{boamp\_clean.csv} sont appliquées :
+
+\begin{itemize}
+  \item[---] \texttt{buyer\_key} : clé canonique de l'acheteur -- toujours un
+    SIRET dans le DECP (100\,\% de couverture sur \texttt{acheteur\_id})
+  \item[---] \texttt{cpv\_clean}, \texttt{cpv\_div2}, \texttt{cpv\_class4} :
+    code CPV normalisé et agrégats hiérarchiques
+  \item[---] \texttt{amount\_raw}, \texttt{flag\_amount\_zero},
+    \texttt{flag\_amount\_tiny}, \texttt{flag\_amount\_ceiling},
+    \texttt{amount\_clean} : montant nettoyé (taux de renseignement : 93\,\%)
+  \item[---] \texttt{duration\_raw\_decp}, \texttt{flag\_duration\_suspect},
+    \texttt{duration\_clean} : durée nettoyée (taux de renseignement : 99\,\%)
+  \item[---] \texttt{category\_id}, \texttt{category\_label} : catégorie
+    technologique (cf.\ section~\ref{sec:taxonomy})
+\end{itemize}
+
+\medskip
+\textbf{Statistiques descriptives des champs quantitatifs}
+
+\begin{center}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Indicateur} & \textbf{Montant (EUR)} &
+  \textbf{Durée (mois)} \\
+\midrule
+Observations valides & 2\,830 & 3\,014 \\
+Moyenne              & 358\,142 & 38,2 \\
+Médiane              & 102\,382 & 48,0 \\
+1\textsuperscript{er} quartile & 49\,746 & 24,0 \\
+3\textsuperscript{e} quartile  & 240\,000 & 48,0 \\
+Min                  & 1\,000     & 1,0 \\
+Max                  & 9\,750\,000 & 120,0 \\
+Mode de la durée     & ---      & 48,0 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+% ------------------------------------------------------------
+\subsection{Règles de nettoyage communes aux deux sources}
+% ------------------------------------------------------------
+
+\textbf{Normalisation de la clé acheteur (\texttt{buyer\_key})}
+
+\begin{itemize}
+  \item[---] \textbf{Priorité 1 -- SIRET} : si un identifiant numérique de
+    14 chiffres est disponible, la clé est \texttt{SIRET:\{14 chiffres\}}
+  \item[---] \textbf{Priorité 2 -- Nom normalisé} : minuscules, suppression
+    des accents, suppression de la ponctuation, suppression des suffixes
+    juridiques (SARL, SA, SAS, Commune de, Mairie de, SDIS, CHU\ldots) ;
+    la clé est \texttt{NAME:\{nom normalisé\}}
+  \item[---] Table de correspondance inter-sources : \texttt{buyer\_bridge.csv}
+    (461 clés canoniques uniques, dont 303 ancrées sur un SIRET)
+\end{itemize}
+
+\medskip
+\textbf{Nettoyage des montants}
+
+\begin{itemize}
+  \item[---] \texttt{flag\_amount\_zero} : valeur = 0 (artefact d'encodage)
+  \item[---] \texttt{flag\_amount\_tiny} : $0 < \text{valeur} < 1\,000$~€
+    (implausible pour un marché numérique)
+  \item[---] \texttt{flag\_amount\_ceiling} : valeur $\geq 10\,000\,000$~€
+    (vraisemblablement un plafond d'accord-cadre, non le prix réel)
+  \item[---] \texttt{amount\_clean} : NaN si l'un des trois indicateurs est
+    vrai ; sinon valeur originale (aucune suppression des données brutes)
+\end{itemize}
+
+\medskip
+\textbf{Nettoyage des durées}
+
+\begin{itemize}
+  \item[---] \texttt{flag\_duration\_suspect} : durée hors de l'intervalle
+    $[1, 120]$ mois
+  \item[---] \texttt{duration\_clean} : NaN si l'indicateur est vrai, sinon
+    valeur originale
+  \item[---] Résultats : 0 valeurs suspectes dans DECP ; quelques valeurs
+    suspectes dans BOAMP (durées déclarées en jours mal converties)
+\end{itemize}
+
+% ============================================================
+\section{Taxonomie sectorielle (\texttt{taxonomy.csv})}
+\label{sec:taxonomy}
+% ============================================================
+
+\textbf{Présentation}
+
+Le fichier \texttt{taxonomy.csv} définit un référentiel de \textbf{10
+catégories technologiques} permettant de regrouper les marchés numériques
+au-delà des codes CPV bruts (dont il existe environ 9\,000 valeurs distinctes).
+Il est utilisé lors de la tâche 7 pour annoter chaque contrat avec un libellé
+métier cohérent, aussi bien dans \texttt{boamp\_clean.csv} que dans
+\texttt{decp\_clean.csv}.
+
+\medskip
+\textbf{Logique d'affectation}
+
+\begin{enumerate}
+  \item Correspondance CPV : le préfixe du code CPV normalisé est comparé
+    aux préfixes de chaque catégorie ; le préfixe le plus long gagne
+    (\textit{longest prefix match})
+  \item Repli textuel : si aucun préfixe CPV ne correspond, une recherche de
+    mots-clés (insensible à la casse) est effectuée dans le champ
+    \texttt{objet}
+  \item Valeur par défaut : \texttt{CAT\_UNKNOWN} / \textit{Unknown}
+\end{enumerate}
+
+\medskip
+\textbf{Référentiel des catégories}
+
+\begin{center}
+\begin{tabular}{clcc}
+\toprule
+\textbf{ID} & \textbf{Libellé} & \textbf{Division CPV} &
+  \textbf{Préfixes CPV} \\
+\midrule
+CAT01 & Software \& Applications          & 48     & 48 \\
+CAT02 & IT Services \& Consulting         & 72     & 72 \\
+CAT03 & Cybersecurity                     & 35     & 35, 72250, 72310, 72315 \\
+CAT04 & Telecom \& Networks               & 32     & 32 \\
+CAT05 & Cloud \& Infrastructure           & 48800  & 48800, 72250, 72310 \\
+CAT06 & IT Hardware \& Equipment          & 30     & 30, 32420 \\
+CAT07 & Digital Workplace \& Collaboration & 48500 & 48500, 72212, 64200 \\
+CAT08 & Data \& AI                        & 72300  & 72300, 72322, 72316 \\
+CAT09 & GIS \& Mapping                    & 72320  & 72320, 38221 \\
+CAT10 & IT Maintenance \& Support         & 50300  & 50300, 72250, 72611 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\medskip
+\textbf{Distribution des catégories dans le corpus}
+
+\begin{center}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Catégorie} & \textbf{BOAMP (3\,181)} &
+  \textbf{DECP (3\,039)} \\
+\midrule
+IT Services \& Consulting         & 994 (31\,\%) & 1\,321 (43\,\%) \\
+Software \& Applications          & 599 (19\,\%) &   608 (20\,\%) \\
+Telecom \& Networks               & 552 (17\,\%) &   581 (19\,\%) \\
+Cybersecurity                     & 354 (11\,\%) &   337 (11\,\%) \\
+Digital Workplace \& Collaboration & 158 (5\,\%) &   110 (4\,\%) \\
+Unknown                           & 266 (8\,\%) &     0 (0\,\%) \\
+Autres (CAT05--CAT10)             & 258 (8\,\%) &    82 (3\,\%) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\medskip
+\textbf{Limites connues}
+
+\begin{itemize}
+  \item[---] Les codes CPV génériques (ex.\ \texttt{72000000},
+    division entière) ne sont pas distingués par le repli textuel si
+    l'objet du marché est trop court ou générique ; ils tombent dans
+    \texttt{Unknown}
+  \item[---] Certaines catégories sont proches (CAT03 Cybersecurity,
+    CAT05 Cloud) et partagent des préfixes CPV : la règle du
+    \textit{longest prefix} tranche, mais peut induire des erreurs sur les
+    marchés transverses
+\end{itemize}
+
+% ============================================================
+\section{Liens de renouvellement (\texttt{decp\_renewal\_links.csv})}
+\label{sec:renewal}
+% ============================================================
+
+\textbf{Présentation}
+
+Ce fichier est le \textbf{jeu de données cible} pour l'analyse de survie.
+Il contient, pour chaque contrat du corpus DECP nettoyé, soit la durée
+observée jusqu'au renouvellement (événement), soit la durée censurée jusqu'à
+la fin d'étude (31 décembre 2024).
+
+Ni le BOAMP ni le DECP ne fournissent de champ \texttt{renewal\_of} direct.
+Le lien doit donc être reconstruit algorithmiquement.
+
+\medskip
+\textbf{Volume et structure}
+
+\begin{itemize}
+  \item[---] Dimensions : 3\,039 lignes × 13 colonnes (une ligne par contrat
+    du corpus \texttt{decp\_clean.csv})
+  \item[---] Format : CSV (séparateur virgule, encodage UTF-8)
+\end{itemize}
+
+\medskip
+\textbf{Principales données}
+
+\begin{itemize}
+  \item[---] \texttt{uid} : identifiant unique du contrat source
+    (clé de jointure vers \texttt{decp\_clean.csv})
+  \item[---] \texttt{acheteur\_id} : SIRET de l'acheteur
+  \item[---] \texttt{cpv\_div2} : division CPV (2 chiffres) utilisée pour le
+    regroupement
+  \item[---] \texttt{source\_date\_notification} : date de notification du
+    contrat source (point zéro de la durée observée)
+  \item[---] \texttt{declared\_duration\_months} : durée déclarée
+    (fallback : 24 mois si absente ou invalide)
+  \item[---] \texttt{renewal\_uid} : identifiant du contrat de renouvellement
+    identifié ; \texttt{null} si censuré
+  \item[---] \texttt{event} : 1 si un renouvellement a été trouvé, 0 sinon
+  \item[---] \texttt{observed\_duration\_months} : durée observée en mois --
+    durée jusqu'au renouvellement si \texttt{event=1}, durée jusqu'au
+    31/12/2024 si censuré
+  \item[---] \texttt{gap\_months} : écart en mois entre la date de notification
+    du contrat source et celle du renouvellement
+  \item[---] \texttt{text\_similarity} : similarité de Jaccard sur les tokens
+    des champs \texttt{objet} des deux contrats
+  \item[---] \texttt{match\_score} : score composite de correspondance
+    ($0{,}7 \times \text{similarité textuelle} + 0{,}3 \times \text{proximité temporelle}$)
+  \item[---] \texttt{is\_censored} : 1 si aucun renouvellement trouvé
+    (complément de \texttt{event})
+  \item[---] \texttt{censoring\_date} : date de censure (31/12/2024) pour les
+    observations censurées
+\end{itemize}
+
+\medskip
+\textbf{Algorithme de liaison (prototype, semaine 3)}
+
+La liaison est effectuée groupe par groupe : pour chaque paire
+(acheteur, division CPV), les contrats sont triés par date, et pour chaque
+contrat source on recherche un contrat candidat B vérifiant simultanément :
+
+\begin{enumerate}
+  \item $\text{dateNotification}(B) > \text{dateNotification}(\text{source})$
+  \item $|\,\text{gap}(B) - \text{dureeMois(source)}\,| \leq 6$ mois
+    (fenêtre temporelle de $\pm 6$ mois autour de la durée déclarée)
+  \item $\text{Jaccard}(\text{objet source}, \text{objet } B) \geq 0{,}30$
+\end{enumerate}
+
+Si plusieurs candidats passent ces filtres, le meilleur est sélectionné par le
+score composite décrit ci-dessus.
+
+\medskip
+\textbf{Résultats du prototype}
+
+\begin{center}
+\begin{tabular}{lc}
+\toprule
+\textbf{Indicateur} & \textbf{Valeur} \\
+\midrule
+Contrats analysés               & 3\,039 \\
+Renouvellements liés (événements) & 252 (8,3\,\%) \\
+Contrats censurés               & 2\,787 (91,7\,\%) \\
+Durée médiane observée (tous)   & 30,9 mois \\
+Durée médiane observée (événements) & 33,8 mois \\
+Similarité textuelle médiane (événements) & 0,60 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\medskip
+\textbf{Limites et perspectives}
+
+\begin{itemize}
+  \item[---] Taux de liaison actuel (8,3\,\%) est un \textbf{prototype de
+    référence} ; la cible est 40--60\,\% après amélioration
+  \item[---] Piste 1 : affiner le regroupement par classe CPV à 4 chiffres
+    plutôt que 2 (plus précis, réduira les faux positifs inter-catégories)
+  \item[---] Piste 2 : contrainte un-à-un (chaque contrat source ne peut être
+    lié qu'à un seul renouvellement, et vice-versa)
+  \item[---] Piste 3 : évaluation manuelle de la précision et du rappel sur un
+    échantillon de 50 paires, pour calibrer les seuils de similarité et de
+    fenêtre temporelle
+  \item[---] Piste 4 : exploiter le champ BOAMP \texttt{annonce\_lie} pour les
+    contrats croisables entre les deux sources
+\end{itemize}
+
+\end{document}
