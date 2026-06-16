@@ -14,15 +14,27 @@ to its later renewal. The link must be reconstructed from matching rules:
 
 | Signal | Field | Coverage |
 |--------|-------|----------|
-| Buyer identity | `buyer_key` (SIRET or normalized name) | 100% (SIRET: 9.1%) |
+| Buyer identity | `buyer_key` (SIRET or normalized name) | 100% (SIRET: 5.8%) |
 | CPV category | `cpv_div2`, `cpv_class4` | ~97% |
-| Contract object text | `objet` (TF-IDF cosine) | ~98% |
-| Temporal proximity | `dateparution` + `duration_clean` | pub date: 100%; duration: 48% |
+| Contract object text | `objet` (Sentence-Transformers cosine) | ~98% |
+| Temporal proximity | `dateparution` + `duration_clean` | pub date: 100%; duration: 76.6% |
 
-The main technical improvement over the existing `task_boamp_full_survival.py` baseline
-(219 events / 1 933 AO = 11.3%) is to **group by buyer only**, not by `buyer_key + cpv_div2`.
-CPV compatibility becomes a scored component instead of a hard filter, allowing the
-linking rate to increase substantially.
+Two key improvements over the existing `task_boamp_full_survival.py` baseline
+(219 events / 1,933 AO = 11.3%):
+
+1. **Group by `buyer_key` only** — CPV compatibility becomes a scored component instead
+   of a hard filter, recovering renewals where the buyer reclassified the service.
+2. **Sentence-Transformers semantic similarity** (`paraphrase-multilingual-MiniLM-L12-v2`)
+   instead of TF-IDF / Jaccard — captures meaning beyond lexical overlap, the main
+   source of improvement (+38 pp over TF-IDF alone).
+
+## Results
+
+| Method | Linked | Eligible | Rate |
+|---|---|---|---|
+| Baseline (Jaccard, buyer+CPV group) | 219 | 1,933 | 11.3% |
+| TF-IDF cosine (intermediate) | 279 | 1,100 | 25.4% |
+| **Sentence-Transformers (final)** | **697** | **1,100** | **63.4%** |
 
 ## Contents
 
@@ -32,7 +44,7 @@ boamp_renewal_linking_quality/
 ├── boamp_renewal_linking_eda_preprocessing.ipynb     ← main notebook
 └── outputs/
     ├── boamp_renewal_candidates.csv    all filtered candidate pairs
-    ├── boamp_renewal_links.csv         one row per eligible AO (event 0/1)
+    ├── boamp_renewal_links.csv         one row per eligible AO (event 0/1)  ← modeling input
     ├── boamp_linking_stats.csv         summary statistics (one row)
     └── boamp_bias_report.csv           failure-reason × CPV cross-tabulation
 ```
@@ -41,44 +53,46 @@ boamp_renewal_linking_quality/
 
 ```bash
 cd /path/to/stage-1
-# Make sure scikit-learn is installed in the venv:
-.venv/bin/python3 -m pip install scikit-learn
+# Install the notebook dependencies in the project venv:
+.venv/bin/python3 -m pip install scikit-learn sentence-transformers
 # Launch the notebook:
 .venv/bin/jupyter notebook boamp_renewal_linking_quality/boamp_renewal_linking_eda_preprocessing.ipynb
 ```
 
 Run all cells top-to-bottom. The notebook is self-contained: it loads
 `data/processed/boamp_full_clean.csv` and writes all outputs to `outputs/`.
+The Sentence-Transformers model (~120 MB) is downloaded on first run and
+cached in `~/.cache/huggingface/`.
 
 ## Dependencies
 
-Requires `scikit-learn >= 1.3` in addition to the base `requirements.txt`.
-Add `scikit-learn>=1.3` to `requirements.txt` for reproducibility.
+Requires `scikit-learn >= 1.3` and `sentence-transformers` in addition to the
+base EDA stack (`pandas`, `numpy`, `matplotlib`, `seaborn`).
 
 ## Key Outputs
 
 | File | Rows | Description |
 |------|------|-------------|
-| `boamp_renewal_candidates.csv` | variable | All pairs passing hard filters, before best-match selection |
-| `boamp_renewal_links.csv` | ~1 200 | One row per eligible AO; `event=1` if a renewal was found |
+| `boamp_renewal_candidates.csv` | 5,356 | All pairs passing hard filters, before best-match selection |
+| `boamp_renewal_links.csv` | 1,100 | One row per eligible AO; `event=1` (697) if a renewal was found — **modeling input** |
 | `boamp_linking_stats.csv` | 1 | Linking rate (primary = over eligible denominator) |
-| `boamp_bias_report.csv` | variable | Failure reason × CPV breakdown |
+| `boamp_bias_report.csv` | 71 | Failure reason × CPV breakdown |
 
 ## Linking Rate Definition
 
-- **Eligible AO**: APPEL_OFFRE notices whose expected renewal window (`estimated_end_date ± 6 months`) falls within the study period (2015-01-01 to 2024-12-31).
+- **Eligible AO**: APPEL_OFFRE notices whose expected renewal window (`estimated_end_date ± 12 months`) falls within the study period (2015-01-01 to 2024-12-31).
 - **Linked**: eligible AO for which a best-match candidate renewal was found above all thresholds.
-- **Linking rate (primary)** = linked / eligible. This is the correct denominator because right-censored AO (expected renewal after 2024) cannot possibly be linked regardless of algorithm quality.
+- **Linking rate (primary)** = linked / eligible. Right-censored AO (expected renewal after 2024) are excluded from the denominator — they cannot be linked regardless of algorithm quality.
 
 ## Assumptions
 
 1. Default duration = 48 months when `duration_clean` is missing.
-2. Temporal window = ±6 months around estimated contract end date.
-3. `annonce_lie` on ATTRIBUTION notices is a same-contract back-reference, not a renewal signal. It is used to extract a more precise contract start date.
+2. Temporal window = ±12 months around estimated contract end date.
+3. `annonce_lie` on ATTRIBUTION notices is a same-contract back-reference, not a renewal signal. Used to extract a more precise contract start date and for calibration.
 4. Declared duration is the administrative maximum (base + renewals); actual first renewal may occur earlier.
 
 ## Limitations
 
-- 90%+ of buyer keys are name-based; variant spellings of the same buyer may split records into separate groups, creating structural misses.
-- Contracts from buyers who issued only one notice within the eligible window are structurally uncoverable (~60% of eligible unlinked AO fall into this category).
-- TF-IDF captures lexical similarity, not semantic similarity. A contract re-tendered with different wording may be missed even at threshold 0.20.
+- 94.2% of buyer keys are name-based; variant spellings of the same buyer may split records into separate groups, creating structural misses.
+- Buyers who issued only one notice within the eligible window are structurally uncoverable — the main residual ceiling on the 36.6% unlinked AO.
+- CPV removed from hard filters increases recall but may introduce false positives where two unrelated contracts from the same buyer share similar text and fall in the right time window.
