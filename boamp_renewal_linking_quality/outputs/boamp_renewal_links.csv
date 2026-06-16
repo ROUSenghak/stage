@@ -1,0 +1,1101 @@
+contract_id,buyer_key,cpv_div2,category_label,contract_start,declared_duration_months,dur_was_imputed,estimated_end_date,event,renewal_contract_id,observed_duration_months,composite_score,text_similarity,cpv_match_score,temporal_score,start_date_source,link_method
+BOAMP:15-30947,NAME:smictom de la vallee de l authion,48,Software & Applications,2015-03-02,12.0,False,2016-03-01,0,,118.0,,,,,publication_date,none
+BOAMP:15-31464,NAME:de la mayenne,,Unknown,2015-03-02,36.0,False,2018-03-01,1,BOAMP:17-176560,33.54,0.5202,0.2155,0.5,0.7951,publication_date,tfidf_cosine
+BOAMP:15-31513,NAME:reze,38,Unknown,2015-03-02,48.0,False,2019-03-02,0,,118.0,,,,,publication_date,none
+BOAMP:15-20937,NAME:nantes,44,Unknown,2015-03-03,48.0,False,2019-03-03,1,BOAMP:19-17307,47.17,0.9398,0.8838,1.0,0.9312,publication_date,tfidf_cosine
+BOAMP:15-32168,NAME:des pays de la loire,72,IT Services & Consulting,2015-07-21,24.0,False,2017-07-20,1,BOAMP:17-77862,26.48,0.3995,0.2269,0.0,0.7935,attribution_award_date,tfidf_cosine
+BOAMP:15-31641,NAME:ircantec,,Data & AI,2015-03-04,12.0,False,2016-03-03,0,,117.94,,,,,publication_date,none
+BOAMP:15-31797,NAME:acoss,72,IT Services & Consulting,2015-03-04,12.0,False,2016-03-03,0,,117.94,,,,,publication_date,none
+BOAMP:15-33241,NAME:de nantes,32,Telecom & Networks,2015-09-11,48.0,True,2019-09-11,1,BOAMP:20-19986,52.96,0.621,0.2591,1.0,0.5869,attribution_award_date,tfidf_cosine
+BOAMP:15-33752,NAME:des pays de la loire,72,Cybersecurity,2015-06-29,48.0,True,2019-06-29,0,,114.09,,,,,attribution_award_date,none
+BOAMP:15-34520,NAME:d angers,32,Telecom & Networks,2015-03-06,48.0,True,2019-03-06,0,,117.87,,,,,publication_date,none
+BOAMP:15-37182,NAME:mindef dga dt scat,35,Cybersecurity,2015-03-11,48.0,False,2019-03-11,0,,117.71,,,,,publication_date,none
+BOAMP:15-42843,NAME:cte de cnes de l ile de noirmoutier,72,IT Services & Consulting,2015-03-24,48.0,False,2019-03-24,0,,117.28,,,,,publication_date,none
+BOAMP:15-44999,NAME:conseil general de la vendee,39,Cybersecurity,2015-03-24,48.0,True,2019-03-24,0,,117.28,,,,,publication_date,none
+BOAMP:15-47591,NAME:ville d angers,32,Telecom & Networks,2015-03-27,36.0,False,2018-03-26,0,,117.18,,,,,publication_date,none
+BOAMP:15-47696,NAME:ministere des affaires etrangeres,72,IT Services & Consulting,2015-03-30,48.0,False,2019-03-30,0,,117.08,,,,,publication_date,none
+BOAMP:15-31076,NAME:la roche sur yon,35,Cybersecurity,2015-04-01,48.0,False,2019-04-01,1,BOAMP:19-154710,54.34,0.355,0.2765,0.0,0.472,publication_date,tfidf_cosine
+BOAMP:15-50314,NAME:ministere des affaires etrangeres,72,IT Services & Consulting,2015-04-02,48.0,True,2019-04-02,0,,116.98,,,,,publication_date,none
+BOAMP:15-51571,NAME:residences saint alexandre,48,Software & Applications,2015-04-07,48.0,True,2019-04-07,0,,116.82,,,,,publication_date,none
+BOAMP:15-52664,NAME:ministere des affaires etrangeres,72,IT Services & Consulting,2015-04-08,48.0,False,2019-04-08,0,,116.79,,,,,publication_date,none
+BOAMP:15-53947,NAME:saint herblain,48,Software & Applications,2015-04-10,48.0,True,2019-04-10,0,,116.72,,,,,publication_date,none
+BOAMP:15-54892,NAME:85,32,Telecom & Networks,2015-04-10,48.0,True,2019-04-10,0,,116.72,,,,,publication_date,none
+BOAMP:15-54272,NAME:de cholet,,Unknown,2015-04-10,44.0,False,2018-12-09,0,,116.72,,,,,publication_date,none
+BOAMP:15-54977,NAME:conseil general de la sarthe,64,Digital Workplace & Collaboration,2015-04-13,48.0,True,2019-04-13,0,,116.62,,,,,publication_date,none
+BOAMP:15-55213,NAME:ville du croisic,32,Telecom & Networks,2015-04-13,12.0,False,2016-04-12,0,,116.62,,,,,publication_date,none
+BOAMP:15-56123,NAME:le mans metropole communaute urbaine,45,Unknown,2015-04-14,48.0,True,2019-04-14,0,,116.59,,,,,publication_date,none
+BOAMP:15-56649,NAME:des pays de la loire,72,IT Services & Consulting,2015-04-14,12.0,False,2016-04-13,0,,116.59,,,,,publication_date,none
+BOAMP:15-55527,NAME:cdc du pays de saint gilles cx de vie,48,Software & Applications,2015-04-14,48.0,True,2019-04-14,0,,116.59,,,,,publication_date,none
+BOAMP:15-56918,NAME:vallet,32,Telecom & Networks,2015-04-15,12.0,False,2016-04-14,0,,116.56,,,,,publication_date,none
+BOAMP:15-56776,NAME:ville d angers,32,Telecom & Networks,2015-04-15,48.0,True,2019-04-15,0,,116.56,,,,,publication_date,none
+BOAMP:15-58339,NAME:cnieg,72,IT Services & Consulting,2015-07-22,48.0,False,2019-07-22,0,,113.34,,,,,attribution_award_date,none
+BOAMP:15-58989,NAME:ccir pays de la loire,48,Software & Applications,2015-04-17,48.0,True,2019-04-17,0,,116.49,,,,,publication_date,none
+BOAMP:15-59370,NAME:de nantes,72,IT Services & Consulting,2015-04-20,48.0,False,2019-04-20,0,,116.39,,,,,publication_date,none
+BOAMP:15-59556,NAME:conseil general de loire atlantique,35,Cybersecurity,2015-08-24,48.0,False,2019-08-24,0,,112.25,,,,,attribution_award_date,none
+BOAMP:15-64142,NAME:de nantes,48,Software & Applications,2015-04-24,48.0,True,2019-04-24,1,BOAMP:19-59985,47.77,0.676,0.3874,0.7,0.9805,publication_date,tfidf_cosine
+BOAMP:15-50024,NAME:vendee eau,35,Cybersecurity,2015-06-25,6.0,False,2015-12-24,0,,114.22,,,,,attribution_award_date,none
+BOAMP:15-63153,NAME:vendee eau,45,Unknown,2015-04-27,48.0,True,2019-04-27,0,,116.16,,,,,publication_date,none
+BOAMP:15-64904,NAME:85,48,Software & Applications,2015-04-28,68.0,False,2020-12-26,0,,116.13,,,,,publication_date,none
+BOAMP:15-65940,NAME:pole sante sarthe et loire,72,IT Maintenance & Support,2015-04-29,48.0,True,2019-04-29,0,,116.1,,,,,publication_date,none
+BOAMP:15-65742,NAME:ville du mans,32,Telecom & Networks,2015-07-10,48.0,True,2019-07-10,1,BOAMP:19-172734,56.01,0.3793,0.2197,0.3,0.3323,attribution_award_date,tfidf_cosine
+BOAMP:15-68078,NAME:dir ouest,32,Telecom & Networks,2015-05-04,48.0,False,2019-05-04,1,BOAMP:19-71182,52.99,0.8242,0.7684,1.0,0.5842,publication_date,tfidf_cosine
+BOAMP:15-67480,NAME:syndicat departemental d energie,48,Software & Applications,2015-05-04,48.0,True,2019-05-04,0,,115.93,,,,,publication_date,none
+BOAMP:15-70236,NAME:85,72,IT Services & Consulting,2015-05-06,42.0,False,2018-11-04,0,,115.87,,,,,publication_date,none
+BOAMP:15-71156,NAME:universite d angers,48,Software & Applications,2015-10-06,48.0,False,2019-10-06,1,BOAMP:20-47300,58.94,0.7009,0.708,1.0,0.0887,attribution_award_date,tfidf_cosine
+BOAMP:15-72457,NAME:des pays de la loire,72,IT Services & Consulting,2015-05-12,12.0,False,2016-05-11,0,,115.67,,,,,publication_date,none
+BOAMP:15-78724,NAME:e collectivites vendee,72,IT Services & Consulting,2015-05-22,48.0,True,2019-05-22,0,,115.34,,,,,publication_date,none
+BOAMP:15-78916,NAME:de nantes,72,IT Services & Consulting,2015-05-22,48.0,True,2019-05-22,0,,115.34,,,,,publication_date,none
+BOAMP:15-78924,NAME:des pays de la loire,,Telecom & Networks,2015-05-26,12.0,False,2016-05-25,0,,115.21,,,,,publication_date,none
+BOAMP:15-81386,NAME:gpm de nantes st nazaire,48,Software & Applications,2015-05-28,48.0,True,2019-05-28,0,,115.14,,,,,publication_date,none
+BOAMP:15-81231,NAME:saem vendee,72,IT Services & Consulting,2015-09-28,48.0,True,2019-09-28,0,,111.1,,,,,attribution_award_date,none
+BOAMP:15-82510,NAME:cg49,,Data & AI,2015-06-01,48.0,True,2019-06-01,0,,115.01,,,,,publication_date,none
+BOAMP:15-82236,NAME:reze,38,Unknown,2015-06-01,48.0,False,2019-06-01,0,,115.01,,,,,publication_date,none
+BOAMP:15-83632,NAME:de nantes,72,IT Services & Consulting,2015-06-03,48.0,True,2019-06-03,1,BOAMP:18-76556,36.1,0.673,0.6783,1.0,0.0087,publication_date,tfidf_cosine
+BOAMP:15-85320,NAME:ministere des affaires etrangeres,48,Software & Applications,2015-06-04,48.0,True,2019-06-04,0,,114.91,,,,,publication_date,none
+BOAMP:15-84881,NAME:nantes metropole,48,Software & Applications,2015-10-14,48.0,False,2019-10-14,1,BOAMP:19-55110,41.89,0.5327,0.3991,0.5,0.4905,attribution_award_date,tfidf_cosine
+BOAMP:15-86218,NAME:de nantes,35,Cybersecurity,2015-06-05,48.0,False,2019-06-05,0,,114.88,,,,,publication_date,none
+BOAMP:15-87511,NAME:du haut anjou,,Telecom & Networks,2015-06-09,48.0,True,2019-06-09,0,,114.75,,,,,publication_date,none
+BOAMP:15-69493,NAME:ademe,72,Data & AI,2015-06-10,11.0,False,2016-05-09,0,,114.72,,,,,publication_date,none
+BOAMP:15-89415,NAME:le mans,,Software & Applications,2015-06-11,48.0,True,2019-06-11,0,,114.68,,,,,publication_date,none
+BOAMP:15-89263,NAME:vendee eau,72,Data & AI,2015-07-22,48.0,True,2019-07-22,1,BOAMP:19-75795,45.76,0.5874,0.2493,0.7,0.8135,attribution_award_date,tfidf_cosine
+BOAMP:15-90549,NAME:concarneau cornouaille agglomeration,72,IT Services & Consulting,2015-06-15,48.0,True,2019-06-15,0,,114.55,,,,,publication_date,none
+BOAMP:15-90148,NAME:concarneau cornouaille agglomeration,30,IT Hardware & Equipment,2015-06-15,48.0,True,2019-06-15,0,,114.55,,,,,publication_date,none
+BOAMP:15-92216,NAME:de nantes,72,IT Services & Consulting,2015-06-16,48.0,True,2019-06-16,0,,114.52,,,,,publication_date,none
+BOAMP:15-92588,NAME:des pays de la loire,72,IT Services & Consulting,2015-10-08,12.0,False,2016-10-07,0,,110.78,,,,,attribution_award_date,none
+BOAMP:15-94958,NAME:ville d allonnes,,Telecom & Networks,2015-06-22,48.0,True,2019-06-22,0,,114.32,,,,,publication_date,none
+BOAMP:15-93928,NAME:cte d agglomeration du choletais,39,Cloud & Infrastructure,2015-06-22,48.0,True,2019-06-22,0,,114.32,,,,,publication_date,none
+BOAMP:15-95100,NAME:le mans metropole communaute urbaine,31,Telecom & Networks,2015-06-22,48.0,True,2019-06-22,1,BOAMP:20-23864,55.85,0.5955,0.9406,0.0,0.346,publication_date,tfidf_cosine
+BOAMP:15-95253,NAME:de nantes,35,Cybersecurity,2015-06-22,48.0,True,2019-06-22,0,,114.32,,,,,publication_date,none
+BOAMP:15-95813,NAME:saint herblain,48,Software & Applications,2015-10-14,48.0,True,2019-10-14,0,,110.58,,,,,attribution_award_date,none
+BOAMP:15-96106,NAME:cnieg,72,IT Services & Consulting,2015-06-24,48.0,True,2019-06-24,0,,114.26,,,,,publication_date,none
+BOAMP:15-96786,NAME:conseil general de la sarthe,72,IT Services & Consulting,2015-06-24,48.0,True,2019-06-24,0,,114.26,,,,,publication_date,none
+BOAMP:15-96870,NAME:angers loire metropole,72,IT Services & Consulting,2015-06-25,48.0,True,2019-06-25,1,BOAMP:19-127477,58.25,0.4776,0.3084,0.7,0.1462,publication_date,tfidf_cosine
+BOAMP:15-98976,NAME:ministere des affaires etrangeres,48,Software & Applications,2015-06-29,24.0,False,2017-06-28,0,,114.09,,,,,publication_date,none
+BOAMP:15-100830,NAME:le mans metropole communaute urbaine,45,Unknown,2015-07-01,48.0,True,2019-07-01,0,,114.03,,,,,publication_date,none
+BOAMP:15-100455,NAME:nantes metropole,35,Cybersecurity,2015-11-20,48.0,False,2019-11-20,1,BOAMP:20-26585,51.12,0.3841,0.2151,0.0,0.7403,attribution_award_date,tfidf_cosine
+BOAMP:15-102510,NAME:conseil general de la sarthe,72,Digital Workplace & Collaboration,2016-01-26,48.0,True,2020-01-26,0,,107.16,,,,,attribution_award_date,none
+BOAMP:15-105085,NAME:ccir pays de la loire,48,Software & Applications,2015-07-07,48.0,True,2019-07-07,0,,113.83,,,,,publication_date,none
+BOAMP:15-104125,NAME:nantes,48,Software & Applications,2015-07-08,48.0,False,2019-07-08,0,,113.8,,,,,publication_date,none
+BOAMP:15-107245,NAME:le mans metropole communaute urbaine,48,Software & Applications,2016-02-02,48.0,True,2020-02-02,1,BOAMP:19-177021,52.04,0.5397,0.2051,0.7,0.6636,attribution_award_date,tfidf_cosine
+BOAMP:15-108955,NAME:le mans metropole communaute urbaine,,Telecom & Networks,2015-07-13,48.0,True,2019-07-13,0,,113.63,,,,,publication_date,none
+BOAMP:15-108645,NAME:talmont saint hilaire,32,Telecom & Networks,2015-07-13,48.0,True,2019-07-13,0,,113.63,,,,,publication_date,none
+BOAMP:15-111481,NAME:de nantes,48,Software & Applications,2015-07-20,48.0,True,2019-07-20,1,BOAMP:19-59985,44.91,0.6537,0.2631,1.0,0.7423,publication_date,tfidf_cosine
+BOAMP:15-111661,NAME:inra formation permanente nationale,48,Software & Applications,2015-07-21,36.0,False,2018-07-20,0,,113.37,,,,,publication_date,none
+BOAMP:15-114783,NAME:cnieg,72,IT Services & Consulting,2015-07-23,48.0,True,2019-07-23,0,,113.3,,,,,publication_date,none
+BOAMP:15-115709,NAME:saint nazaire,72,IT Services & Consulting,2015-11-26,48.0,False,2019-11-26,0,,109.17,,,,,attribution_award_date,none
+BOAMP:15-115988,NAME:angers loire metropole,32,Telecom & Networks,2015-07-27,48.0,False,2019-07-27,1,BOAMP:19-127477,57.19,0.3095,0.2817,0.0,0.2338,publication_date,tfidf_cosine
+BOAMP:15-115336,NAME:d angers,72,IT Services & Consulting,2016-07-19,60.0,False,2021-07-19,0,,101.41,,,,,attribution_award_date,none
+BOAMP:15-119589,NAME:vertou,32,Telecom & Networks,2015-08-03,48.0,True,2019-08-03,1,BOAMP:18-153394,38.93,0.5318,0.395,0.7,0.2441,publication_date,tfidf_cosine
+BOAMP:15-119639,NAME:ecole centrale de nantes,32,Telecom & Networks,2015-11-03,48.0,True,2019-11-03,0,,109.92,,,,,attribution_award_date,none
+BOAMP:15-122609,NAME:carquefou,32,Telecom & Networks,2015-12-18,60.0,False,2020-12-17,0,,108.44,,,,,attribution_award_date,none
+BOAMP:15-90876,NAME:pornic,32,Telecom & Networks,2015-08-10,48.0,True,2019-08-10,1,BOAMP:18-177300,40.41,0.4349,0.5287,0.0,0.3673,publication_date,tfidf_cosine
+BOAMP:15-124226,NAME:la sarthe,64,Digital Workplace & Collaboration,2015-08-10,48.0,True,2019-08-10,1,BOAMP:19-71679,47.73,0.8947,0.7478,1.0,0.9778,publication_date,tfidf_cosine
+BOAMP:15-133200,NAME:saelsi,32,Telecom & Networks,2015-08-31,6.0,False,2016-02-29,0,,112.02,,,,,publication_date,none
+BOAMP:15-134263,NAME:cndp,32,Telecom & Networks,2015-09-02,48.0,False,2019-09-02,0,,111.96,,,,,publication_date,none
+BOAMP:15-136371,NAME:de la mayenne,,Data & AI,2015-09-07,48.0,False,2019-09-07,0,,111.79,,,,,publication_date,none
+BOAMP:15-139094,NAME:85,35,Cybersecurity,2015-12-03,38.0,False,2019-02-01,0,,108.94,,,,,attribution_award_date,none
+BOAMP:15-141361,NAME:des pays de la loire,72,IT Services & Consulting,2015-12-07,48.0,False,2019-12-07,0,,108.8,,,,,attribution_award_date,none
+BOAMP:15-142353,NAME:ville du mans,32,Telecom & Networks,2016-01-21,48.0,True,2020-01-21,1,BOAMP:20-2441,53.25,0.7579,0.6136,1.0,0.5623,attribution_award_date,tfidf_cosine
+BOAMP:15-143083,NAME:de cholet,35,Cybersecurity,2015-09-18,48.0,False,2019-09-18,0,,111.43,,,,,publication_date,none
+BOAMP:15-144405,NAME:regie dept passages d eau de vendee,72,IT Services & Consulting,2015-09-22,48.0,True,2019-09-22,0,,111.3,,,,,publication_date,none
+BOAMP:15-146024,NAME:nantes,32,Telecom & Networks,2015-12-17,48.0,True,2019-12-17,0,,108.48,,,,,attribution_award_date,none
+BOAMP:15-150393,NAME:saumur aggloproprete,48,Software & Applications,2015-10-05,12.0,False,2016-10-04,0,,110.87,,,,,publication_date,none
+BOAMP:15-153008,NAME:ville du mans,37,Data & AI,2016-04-12,48.0,True,2020-04-12,1,BOAMP:19-172734,46.91,0.9359,0.8851,1.0,0.9093,attribution_award_date,tfidf_cosine
+BOAMP:15-154566,NAME:cnieg,72,IT Services & Consulting,2016-01-28,48.0,True,2020-01-28,1,BOAMP:20-4011,52.0,0.5553,0.2426,0.7,0.6663,attribution_award_date,tfidf_cosine
+BOAMP:15-160688,NAME:ville d angers,72,IT Services & Consulting,2015-10-20,48.0,True,2019-10-20,0,,110.38,,,,,publication_date,none
+BOAMP:15-159244,NAME:nantes metropole,48,Software & Applications,2015-10-23,12.0,False,2016-10-22,0,,110.28,,,,,publication_date,none
+BOAMP:15-164088,NAME:saint herblain,48,Cloud & Infrastructure,2015-10-28,48.0,True,2019-10-28,0,,110.12,,,,,publication_date,none
+BOAMP:15-164187,NAME:gie sesam vitale,72,IT Services & Consulting,2015-10-28,48.0,True,2019-10-28,1,BOAMP:19-169855,48.49,0.6732,0.3909,0.7,0.9593,publication_date,tfidf_cosine
+BOAMP:15-165050,NAME:angers loire metropole,72,IT Services & Consulting,2015-10-29,12.0,False,2016-10-28,0,,110.09,,,,,publication_date,none
+BOAMP:15-165845,NAME:le pellerin,35,Cybersecurity,2016-02-16,3.0,False,2016-05-17,0,,106.47,,,,,attribution_award_date,none
+BOAMP:15-168917,NAME:sictom loir et sarthe,48,Software & Applications,2015-11-09,48.0,True,2019-11-09,0,,109.72,,,,,publication_date,none
+BOAMP:15-169809,NAME:de nantes,48,Software & Applications,2015-11-09,48.0,True,2019-11-09,1,BOAMP:19-59985,41.23,0.6461,0.5849,0.7,0.4357,publication_date,tfidf_cosine
+BOAMP:15-171325,NAME:chambre agriculture pays de la loire,32,Telecom & Networks,2015-11-10,24.0,False,2017-11-09,0,,109.69,,,,,publication_date,none
+BOAMP:15-173700,NAME:reze,48,Software & Applications,2015-11-17,36.0,False,2018-11-16,0,,109.46,,,,,publication_date,none
+BOAMP:15-174987,NAME:angers loire metropole,72,IT Services & Consulting,2015-11-18,48.0,True,2019-11-18,1,BOAMP:19-136955,45.73,0.8766,0.7862,1.0,0.8108,publication_date,tfidf_cosine
+BOAMP:15-175210,NAME:nantes metropole,72,Cybersecurity,2016-02-25,48.0,True,2020-02-25,0,,106.18,,,,,attribution_award_date,none
+BOAMP:15-175690,NAME:cnieg,72,IT Services & Consulting,2016-02-23,24.0,False,2018-02-22,0,,106.24,,,,,attribution_award_date,none
+BOAMP:15-177015,NAME:conseil general de loire atlantique,18,Telecom & Networks,2016-04-28,48.0,False,2020-04-28,0,,104.11,,,,,attribution_award_date,none
+BOAMP:15-178728,NAME:le mans metropole communaute urbaine,48,Software & Applications,2016-03-14,48.0,True,2020-03-14,0,,105.58,,,,,attribution_award_date,none
+BOAMP:15-179034,NAME:c h s de la sarthe,,Data & AI,2015-11-27,48.0,False,2019-11-27,0,,109.13,,,,,publication_date,none
+BOAMP:15-179747,NAME:de nantes,48,Software & Applications,2015-11-27,48.0,True,2019-11-27,1,BOAMP:19-59985,40.64,0.6258,0.5589,0.7,0.3864,publication_date,tfidf_cosine
+BOAMP:15-178791,NAME:nantes metropole,72,Cybersecurity,2015-11-30,48.0,False,2019-11-30,1,BOAMP:19-119269,44.05,0.7583,0.5602,1.0,0.6712,publication_date,tfidf_cosine
+BOAMP:15-182957,NAME:de nantes,48,Software & Applications,2015-12-04,48.0,True,2019-12-04,1,BOAMP:19-59985,40.41,0.6145,0.54,0.7,0.3673,publication_date,tfidf_cosine
+BOAMP:15-184251,NAME:universite d angers,48,Software & Applications,2016-05-02,36.0,False,2019-05-02,0,,103.98,,,,,attribution_award_date,none
+BOAMP:15-185112,NAME:conseil general de la vendee,72,IT Services & Consulting,2015-12-10,48.0,True,2019-12-10,0,,108.71,,,,,publication_date,none
+BOAMP:15-186668,NAME:e c a s gendarmerie nationale,32,Telecom & Networks,2016-04-04,48.0,False,2020-04-04,0,,104.89,,,,,attribution_award_date,none
+BOAMP:15-187883,NAME:la sarthe,,Telecom & Networks,2015-12-16,48.0,True,2019-12-16,1,BOAMP:19-18263,43.43,0.5245,0.3143,0.5,0.6191,publication_date,tfidf_cosine
+BOAMP:15-189271,NAME:la sarthe,72,IT Services & Consulting,2015-12-18,48.0,True,2019-12-18,1,BOAMP:19-71679,43.46,0.3729,0.2463,0.0,0.6219,publication_date,tfidf_cosine
+BOAMP:15-191209,NAME:commune des herbiers,32,IT Hardware & Equipment,2015-12-24,48.0,True,2019-12-24,0,,108.25,,,,,publication_date,none
+BOAMP:15-192356,NAME:nantes metropole,72,IT Services & Consulting,2015-12-24,12.0,False,2016-12-23,1,BOAMP:17-129614,23.92,0.4373,0.2771,0.7,0.007,publication_date,tfidf_cosine
+BOAMP:16-2771,NAME:conseil general de la vendee,72,IT Services & Consulting,2016-01-08,48.0,True,2020-01-08,0,,107.75,,,,,publication_date,none
+BOAMP:16-3447,NAME:loire vendee ocean,48,Cloud & Infrastructure,2016-01-11,48.0,True,2020-01-11,0,,107.65,,,,,publication_date,none
+BOAMP:16-4040,NAME:cte de communes du pays des herbiers,72,IT Services & Consulting,2016-01-12,48.0,True,2020-01-12,0,,107.62,,,,,publication_date,none
+BOAMP:16-6135,NAME:de la sarthe,48,Digital Workplace & Collaboration,2016-04-12,48.0,True,2020-04-12,0,,104.63,,,,,attribution_award_date,none
+BOAMP:16-5206,NAME:saint nazaire,,Unknown,2016-01-14,28.0,False,2018-05-15,1,BOAMP:18-70110,28.32,0.586,0.2906,0.5,0.9735,publication_date,tfidf_cosine
+BOAMP:16-7712,NAME:cnieg,72,IT Services & Consulting,2016-05-24,24.0,False,2018-05-24,0,,103.25,,,,,attribution_award_date,none
+BOAMP:16-1046,NAME:ademe,72,Digital Workplace & Collaboration,2016-01-18,55.0,False,2020-08-18,0,,107.42,,,,,publication_date,none
+BOAMP:16-7640,NAME:de nantes,48,Software & Applications,2016-01-18,48.0,True,2020-01-18,0,,107.42,,,,,publication_date,none
+BOAMP:16-7903,NAME:ecole des mines de nantes,32,IT Hardware & Equipment,2016-04-05,48.0,True,2020-04-05,0,,104.86,,,,,attribution_award_date,none
+BOAMP:16-10778,NAME:gie sesam vitale,72,IT Maintenance & Support,2016-10-20,24.0,False,2018-10-20,0,,98.36,,,,,attribution_award_date,none
+BOAMP:16-10414,NAME:conseil general de loire atlantique,72,IT Services & Consulting,2016-01-22,24.0,False,2018-01-21,0,,107.29,,,,,publication_date,none
+BOAMP:16-10649,NAME:44,,Cybersecurity,2016-01-25,48.0,True,2020-01-25,0,,107.19,,,,,publication_date,none
+BOAMP:16-12477,NAME:gpm de nantes st nazaire,32,Telecom & Networks,2016-05-17,48.0,True,2020-05-17,0,,103.48,,,,,attribution_award_date,none
+BOAMP:16-14558,NAME:inra angers nantes,72,IT Services & Consulting,2016-07-05,36.0,False,2019-07-05,0,,101.87,,,,,attribution_award_date,none
+BOAMP:16-15282,NAME:montrevault sur evre,48,Software & Applications,2016-02-02,48.0,True,2020-02-02,0,,106.93,,,,,publication_date,none
+BOAMP:16-16627,NAME:le mans metropole communaute urbaine,72,Digital Workplace & Collaboration,2016-02-04,48.0,True,2020-02-04,1,BOAMP:19-105444,41.13,0.3629,0.3186,0.0,0.4275,publication_date,tfidf_cosine
+BOAMP:16-17002,NAME:reze,48,Software & Applications,2016-02-04,36.0,False,2019-02-03,0,,106.87,,,,,publication_date,none
+BOAMP:16-19705,NAME:concarneau cornouaille agglomeration,,Software & Applications,2016-06-21,48.0,False,2020-06-21,0,,102.33,,,,,attribution_award_date,none
+BOAMP:16-21939,NAME:reze,39,Software & Applications,2016-02-12,48.0,True,2020-02-12,0,,106.6,,,,,publication_date,none
+BOAMP:16-23686,NAME:cte cnes coeur d estuaire,72,IT Services & Consulting,2016-06-17,48.0,True,2020-06-17,0,,102.46,,,,,attribution_award_date,none
+BOAMP:16-26260,NAME:carquefou,48,Software & Applications,2016-06-09,12.0,False,2017-06-09,0,,102.73,,,,,attribution_award_date,none
+BOAMP:16-20531,NAME:dreal pays de la loire,72,IT Services & Consulting,2016-02-23,48.0,True,2020-02-23,0,,106.24,,,,,publication_date,none
+BOAMP:16-25827,NAME:cg49,72,IT Services & Consulting,2016-02-23,48.0,True,2020-02-23,0,,106.24,,,,,publication_date,none
+BOAMP:16-27767,NAME:de cholet,48,Software & Applications,2016-02-25,48.0,False,2020-02-25,0,,106.18,,,,,publication_date,none
+BOAMP:16-28465,NAME:syndicat departemental d energie,72,IT Services & Consulting,2016-03-01,48.0,True,2020-03-01,0,,106.01,,,,,publication_date,none
+BOAMP:16-30120,NAME:gie sesam vitale,72,IT Services & Consulting,2016-03-02,48.0,False,2020-03-02,1,BOAMP:20-27358,47.73,0.7782,0.4566,1.0,0.9778,publication_date,tfidf_cosine
+BOAMP:16-30715,NAME:cg49,72,IT Services & Consulting,2016-03-02,48.0,True,2020-03-02,0,,105.98,,,,,publication_date,none
+BOAMP:16-30963,NAME:la vendee,35,Cybersecurity,2016-06-09,48.0,True,2020-06-09,1,BOAMP:20-70265,51.35,0.8733,0.8226,1.0,0.7211,attribution_award_date,tfidf_cosine
+BOAMP:16-32105,NAME:carquefou,32,Telecom & Networks,2016-06-02,12.0,False,2017-06-02,0,,102.96,,,,,attribution_award_date,none
+BOAMP:16-33283,NAME:nantes metropole,72,IT Services & Consulting,2016-03-10,12.0,False,2017-03-10,0,,105.72,,,,,publication_date,none
+BOAMP:16-33632,NAME:nantes metropole,72,Digital Workplace & Collaboration,2016-03-11,48.0,False,2020-03-11,1,BOAMP:20-26585,47.44,0.6024,0.2169,0.7,0.9531,publication_date,tfidf_cosine
+BOAMP:16-27384,NAME:mindef dga do s2a,35,Cybersecurity,2016-03-15,48.0,False,2020-03-15,0,,105.55,,,,,publication_date,none
+BOAMP:16-38113,NAME:le mans metropole communaute urbaine,72,Digital Workplace & Collaboration,2016-03-16,48.0,True,2020-03-16,1,BOAMP:19-105444,39.78,0.3327,0.2991,0.0,0.3153,publication_date,tfidf_cosine
+BOAMP:16-40838,NAME:laval agglomeration,,Telecom & Networks,2016-03-22,48.0,True,2020-03-22,0,,105.32,,,,,publication_date,none
+BOAMP:16-42023,NAME:gpm de nantes st nazaire,32,Telecom & Networks,2016-03-24,48.0,True,2020-03-24,0,,105.26,,,,,publication_date,none
+BOAMP:16-42170,NAME:gpm de nantes st nazaire,48,Software & Applications,2016-07-29,48.0,True,2020-07-29,0,,101.08,,,,,attribution_award_date,none
+BOAMP:16-42996,NAME:85,,Unknown,2016-07-29,19.0,False,2018-02-27,1,BOAMP:17-20659,9.1,0.4056,0.239,0.5,0.175,attribution_award_date,tfidf_cosine
+BOAMP:16-43654,NAME:mindef dga do s2a,35,Cybersecurity,2016-03-29,48.0,True,2020-03-29,0,,105.09,,,,,publication_date,none
+BOAMP:16-45436,NAME:hopital intercommunal sevre et loire,45,Unknown,2016-09-05,48.0,True,2020-09-05,0,,99.84,,,,,attribution_award_date,none
+BOAMP:16-45870,NAME:angers loire metropole,72,IT Services & Consulting,2016-03-30,36.0,False,2019-03-30,0,,105.06,,,,,publication_date,none
+BOAMP:16-44890,NAME:de saint nazaire,,Unknown,2016-03-30,12.0,False,2017-03-30,1,BOAMP:17-56105,13.24,0.5366,0.2057,0.5,0.8967,publication_date,tfidf_cosine
+BOAMP:16-48130,NAME:la vendee,,Data & AI,2017-01-09,48.0,True,2021-01-09,0,,95.7,,,,,attribution_award_date,none
+BOAMP:16-48232,NAME:gie sesam vitale,72,IT Services & Consulting,2016-03-31,48.0,True,2020-03-31,1,BOAMP:20-27358,46.78,0.7576,0.4448,1.0,0.8984,publication_date,tfidf_cosine
+BOAMP:16-46830,NAME:universite d angers,32,Telecom & Networks,2016-06-16,36.0,False,2019-06-16,1,BOAMP:18-146489,28.12,0.4911,0.2437,0.7,0.3434,attribution_award_date,tfidf_cosine
+BOAMP:16-54252,NAME:montrevault sur evre,48,Software & Applications,2016-04-15,12.0,False,2017-04-15,0,,104.53,,,,,publication_date,none
+BOAMP:16-53642,NAME:cci de maine et loire,79,Unknown,2016-07-18,48.0,True,2020-07-18,0,,101.45,,,,,attribution_award_date,none
+BOAMP:16-54197,NAME:nantes metropole,48,Software & Applications,2016-04-17,48.0,False,2020-04-17,0,,104.47,,,,,publication_date,none
+BOAMP:16-54370,NAME:nantes metropole,48,Software & Applications,2016-04-17,48.0,False,2020-04-17,0,,104.47,,,,,publication_date,none
+BOAMP:16-55219,NAME:de la mayenne,32,Telecom & Networks,2016-04-18,48.0,False,2020-04-18,0,,104.43,,,,,publication_date,none
+BOAMP:16-34964,NAME:cour d appel de rennes,35,Cybersecurity,2016-04-19,48.0,True,2020-04-19,0,,104.4,,,,,publication_date,none
+BOAMP:16-55493,NAME:ccas d angers,48,Software & Applications,2016-04-19,14.0,False,2017-06-19,0,,104.4,,,,,publication_date,none
+BOAMP:16-56502,NAME:caf de la somme,72,Digital Workplace & Collaboration,2016-04-22,60.0,False,2021-04-22,0,,104.3,,,,,publication_date,none
+BOAMP:16-57562,NAME:angers loire metropole,72,IT Services & Consulting,2016-04-25,48.0,True,2020-04-25,0,,104.2,,,,,publication_date,none
+BOAMP:16-61061,NAME:la sarthe,72,IT Services & Consulting,2016-04-29,48.0,True,2020-04-29,0,,104.07,,,,,publication_date,none
+BOAMP:16-61484,NAME:des pays de la loire,72,IT Services & Consulting,2016-07-28,48.0,False,2020-07-28,1,BOAMP:20-12202,46.45,0.5375,0.2207,0.5,0.871,attribution_award_date,tfidf_cosine
+BOAMP:16-62960,NAME:nantes,48,Software & Applications,2016-07-07,48.0,False,2020-07-07,1,BOAMP:20-111877,52.89,0.3537,0.2131,0.0,0.5924,attribution_award_date,tfidf_cosine
+BOAMP:16-63210,NAME:de laval,32,Telecom & Networks,2016-05-03,48.0,True,2020-05-03,0,,103.94,,,,,publication_date,none
+BOAMP:16-63741,NAME:conseil general de loire atlantique,64,Telecom & Networks,2016-08-03,12.0,False,2017-08-03,0,,100.92,,,,,attribution_award_date,none
+BOAMP:16-65569,NAME:la baule escoublac,45,Unknown,2016-05-06,48.0,True,2020-05-06,0,,103.84,,,,,publication_date,none
+BOAMP:16-64280,NAME:association e toile,72,IT Services & Consulting,2016-09-12,60.0,False,2021-09-12,0,,99.61,,,,,attribution_award_date,none
+BOAMP:16-63342,NAME:nantes metropole,45,Unknown,2016-10-13,48.0,False,2020-10-13,0,,98.59,,,,,attribution_award_date,none
+BOAMP:16-66951,NAME:ehpad residences les ligeriennes,39,Data & AI,2016-05-12,3.0,False,2016-08-11,0,,103.65,,,,,publication_date,none
+BOAMP:16-67267,NAME:ademe,48,Software & Applications,2016-11-24,39.0,False,2020-02-24,0,,97.21,,,,,attribution_award_date,none
+BOAMP:16-68875,NAME:de cholet,48,Software & Applications,2016-05-12,48.0,False,2020-05-12,0,,103.65,,,,,publication_date,none
+BOAMP:16-69641,NAME:specialise de blain,48,Software & Applications,2016-05-13,48.0,True,2020-05-13,0,,103.61,,,,,publication_date,none
+BOAMP:16-63298,NAME:loire ocean metropole amenagement,45,Telecom & Networks,2016-05-17,5.0,False,2016-10-16,0,,103.48,,,,,publication_date,none
+BOAMP:16-70203,NAME:nantes,72,IT Services & Consulting,2016-07-07,37.0,False,2019-08-07,0,,101.81,,,,,attribution_award_date,none
+BOAMP:16-72442,NAME:de nantes,72,IT Services & Consulting,2016-11-16,48.0,True,2020-11-16,1,BOAMP:20-50446,47.6,0.7886,0.8005,0.5,0.9668,attribution_award_date,tfidf_cosine
+BOAMP:16-73215,NAME:nantes metropole,72,IT Services & Consulting,2016-05-23,36.0,False,2019-05-23,1,BOAMP:19-74485,38.27,0.5761,0.2224,0.7,0.8107,publication_date,tfidf_cosine
+BOAMP:16-73358,NAME:ville du mans,32,Telecom & Networks,2016-07-05,48.0,True,2020-07-05,1,BOAMP:19-172734,44.15,0.4824,0.3039,0.3,0.6794,attribution_award_date,tfidf_cosine
+BOAMP:16-73319,NAME:saint nazaire,72,IT Services & Consulting,2016-09-09,48.0,True,2020-09-09,1,BOAMP:20-70268,48.62,0.812,0.5558,1.0,0.9483,attribution_award_date,tfidf_cosine
+BOAMP:16-74130,NAME:syndicat vendee des iles,72,IT Services & Consulting,2016-07-26,48.0,False,2020-07-26,0,,101.18,,,,,attribution_award_date,none
+BOAMP:16-74267,NAME:nantes,72,IT Services & Consulting,2016-05-28,48.0,True,2020-05-28,0,,103.12,,,,,publication_date,none
+BOAMP:16-77563,NAME:lycee polyvalent leonard de vinci,32,Telecom & Networks,2016-05-30,48.0,True,2020-05-30,1,BOAMP:20-140005,53.58,0.888,0.9525,1.0,0.5349,publication_date,tfidf_cosine
+BOAMP:16-78018,NAME:o p h le mans habitat,72,IT Services & Consulting,2016-05-30,72.0,False,2022-05-30,0,,103.06,,,,,publication_date,none
+BOAMP:16-81005,NAME:arafer,48,Software & Applications,2016-06-04,12.0,False,2017-06-04,0,,102.89,,,,,publication_date,none
+BOAMP:16-81774,NAME:gie sesam vitale,72,Digital Workplace & Collaboration,2016-06-05,48.0,False,2020-06-05,0,,102.86,,,,,publication_date,none
+BOAMP:16-79797,NAME:saint nazaire,50,Telecom & Networks,2016-06-06,12.0,False,2017-06-06,0,,102.83,,,,,publication_date,none
+BOAMP:16-83187,NAME:ville d angers,32,Telecom & Networks,2016-06-07,48.0,True,2020-06-07,0,,102.79,,,,,publication_date,none
+BOAMP:16-84309,NAME:des pays de la loire,32,Telecom & Networks,2016-08-17,12.0,False,2017-08-17,0,,100.46,,,,,attribution_award_date,none
+BOAMP:16-81907,NAME:angers loire metropole,72,Cybersecurity,2016-11-28,48.0,True,2020-11-28,1,BOAMP:19-127477,41.1,0.5079,0.2448,0.7,0.4248,attribution_award_date,tfidf_cosine
+BOAMP:16-81846,NAME:nantes metropole habitat,48,Software & Applications,2016-09-27,48.0,False,2020-09-27,0,,99.11,,,,,attribution_award_date,none
+BOAMP:16-83013,NAME:dir ouest,72,IT Services & Consulting,2017-01-26,48.0,False,2021-01-26,0,,95.14,,,,,attribution_award_date,none
+BOAMP:16-79523,NAME:saint nazaire,30,IT Hardware & Equipment,2016-10-03,12.0,False,2017-10-03,1,BOAMP:17-104307,13.21,0.5073,0.2559,0.3,0.8995,attribution_award_date,tfidf_cosine
+BOAMP:16-84729,NAME:la vendee,72,Digital Workplace & Collaboration,2016-09-13,48.0,True,2020-09-13,0,,99.57,,,,,attribution_award_date,none
+BOAMP:16-85552,NAME:des pays de la loire,35,Cybersecurity,2016-10-14,12.0,False,2017-10-14,0,,98.55,,,,,attribution_award_date,none
+BOAMP:16-85545,NAME:crous de nantes,32,IT Hardware & Equipment,2016-06-11,48.0,False,2020-06-11,1,BOAMP:20-75569,52.53,0.389,0.2862,0.0,0.6225,publication_date,tfidf_cosine
+BOAMP:16-85662,NAME:des pays de la loire,72,GIS & Mapping,2016-10-14,6.0,False,2017-04-14,1,BOAMP:17-68186,9.82,0.5013,0.2251,0.5,0.6814,attribution_award_date,tfidf_cosine
+BOAMP:16-85619,NAME:des pays de la loire,32,Telecom & Networks,2016-10-12,48.0,False,2020-10-12,1,BOAMP:20-138135,51.97,0.6918,0.5823,0.7,0.6691,attribution_award_date,tfidf_cosine
+BOAMP:16-80474,NAME:com communes du pays d ancenis,48,Software & Applications,2016-12-30,48.0,False,2020-12-30,0,,96.02,,,,,attribution_award_date,none
+BOAMP:16-92101,NAME:ecole centrale de nantes,72,IT Services & Consulting,2016-10-12,41.0,False,2020-03-13,0,,98.62,,,,,attribution_award_date,none
+BOAMP:16-94328,NAME:smirgeom est sarthe,48,Software & Applications,2016-06-27,60.0,False,2021-06-27,0,,102.14,,,,,publication_date,none
+BOAMP:16-96174,NAME:des pays de la loire,48,Software & Applications,2016-10-18,12.0,False,2017-10-18,1,BOAMP:17-102708,8.97,0.6067,0.3304,0.7,0.7474,attribution_award_date,tfidf_cosine
+BOAMP:16-95884,NAME:cap atlantique,64,Telecom & Networks,2016-06-30,24.0,False,2018-06-30,0,,102.04,,,,,publication_date,none
+BOAMP:16-98551,NAME:cnieg,72,IT Services & Consulting,2016-07-01,48.0,True,2020-07-01,0,,102.0,,,,,publication_date,none
+BOAMP:16-98698,NAME:universite d angers,48,Software & Applications,2016-10-31,24.0,False,2018-10-31,1,BOAMP:18-74252,23.78,0.9964,1.0,1.0,0.982,attribution_award_date,tfidf_cosine
+BOAMP:16-97484,NAME:49,32,Telecom & Networks,2016-12-22,48.0,False,2020-12-22,0,,96.29,,,,,attribution_award_date,none
+BOAMP:16-92162,NAME:la roche sur yon,35,Cybersecurity,2016-12-19,48.0,True,2020-12-19,0,,96.39,,,,,attribution_award_date,none
+BOAMP:16-98038,NAME:cte de cnes de la vallee de clisson,72,IT Services & Consulting,2016-07-04,36.0,False,2019-07-04,0,,101.91,,,,,publication_date,none
+BOAMP:16-100426,NAME:angers loire metropole,72,IT Services & Consulting,2016-11-30,48.0,False,2020-11-30,0,,97.01,,,,,attribution_award_date,none
+BOAMP:16-98835,NAME:association e toile,72,IT Services & Consulting,2016-07-09,60.0,False,2021-07-09,0,,101.74,,,,,publication_date,none
+BOAMP:16-102238,NAME:c s t b,72,IT Services & Consulting,2016-07-09,24.0,False,2018-07-09,0,,101.74,,,,,publication_date,none
+BOAMP:16-102715,NAME:nantes metropole,32,Telecom & Networks,2016-07-11,12.0,False,2017-07-11,1,BOAMP:17-167707,16.59,0.3599,0.2161,0.0,0.6175,publication_date,tfidf_cosine
+BOAMP:16-103088,NAME:le mans metropole communaute urbaine,30,IT Hardware & Equipment,2016-11-17,6.0,False,2017-05-18,1,BOAMP:17-105683,13.07,0.7071,1.0,0.3,0.4104,attribution_award_date,tfidf_cosine
+BOAMP:16-104455,NAME:noyal chatillon sur seiche,,Data & AI,2016-07-13,48.0,True,2020-07-13,0,,101.61,,,,,publication_date,none
+BOAMP:16-103802,NAME:arafer,72,Data & AI,2016-07-13,24.0,False,2018-07-13,0,,101.61,,,,,publication_date,none
+BOAMP:16-103833,NAME:nantes metropole,48,Cloud & Infrastructure,2016-07-13,48.0,False,2020-07-13,1,BOAMP:20-49949,50.85,0.6866,0.523,0.7,0.7622,publication_date,tfidf_cosine
+BOAMP:16-106250,NAME:cpam de la sarthe,44,Unknown,2016-07-15,48.0,True,2020-07-15,0,,101.54,,,,,publication_date,none
+BOAMP:16-105530,NAME:de la mayenne,32,Telecom & Networks,2016-07-15,48.0,False,2020-07-15,0,,101.54,,,,,publication_date,none
+BOAMP:16-106204,NAME:nantes,32,Telecom & Networks,2016-11-17,48.0,True,2020-11-17,0,,97.44,,,,,attribution_award_date,none
+BOAMP:16-106449,NAME:synd mixte du pays de coutances,,Data & AI,2016-07-15,48.0,True,2020-07-15,0,,101.54,,,,,publication_date,none
+BOAMP:16-108815,NAME:la baule escoublac,45,Unknown,2016-07-21,8.0,False,2017-03-21,0,,101.35,,,,,publication_date,none
+BOAMP:16-109013,NAME:rectorat de l academie de dijon,72,IT Services & Consulting,2016-07-22,12.0,False,2017-07-22,0,,101.31,,,,,publication_date,none
+BOAMP:16-109017,NAME:gie sesam vitale,48,Software & Applications,2016-07-22,12.0,False,2017-07-22,1,BOAMP:17-85294,10.97,0.6605,0.3816,0.7,0.9144,publication_date,tfidf_cosine
+BOAMP:16-107267,NAME:saint nazaire,72,IT Services & Consulting,2016-11-09,48.0,False,2020-11-09,1,BOAMP:20-98331,44.78,0.4684,0.2428,0.3,0.7314,attribution_award_date,tfidf_cosine
+BOAMP:16-109854,NAME:centre des monuments nationaux,,Unknown,2016-07-25,48.0,True,2020-07-25,0,,101.22,,,,,publication_date,none
+BOAMP:16-99329,NAME:nantes metropole habitat,48,Software & Applications,2016-11-07,48.0,False,2020-11-07,0,,97.77,,,,,attribution_award_date,none
+BOAMP:16-110437,NAME:universite europeenne de bretagne,48,Software & Applications,2016-07-26,36.0,False,2019-07-26,0,,101.18,,,,,publication_date,none
+BOAMP:16-111867,NAME:maine et loire,72,IT Services & Consulting,2016-12-26,72.0,False,2022-12-26,0,,96.16,,,,,attribution_award_date,none
+BOAMP:16-114007,NAME:c s t b,72,IT Services & Consulting,2016-07-30,12.0,False,2017-07-30,0,,101.05,,,,,publication_date,none
+BOAMP:16-114945,NAME:de nantes,72,IT Services & Consulting,2016-08-01,24.0,False,2018-08-01,0,,100.99,,,,,publication_date,none
+BOAMP:16-118533,NAME:de la sarthe,35,Cybersecurity,2016-10-31,12.0,False,2017-10-31,0,,98.0,,,,,attribution_award_date,none
+BOAMP:16-123498,NAME:de nantes,48,Software & Applications,2016-08-22,48.0,True,2020-08-22,0,,100.3,,,,,publication_date,none
+BOAMP:16-124376,NAME:des pays de la loire,72,Digital Workplace & Collaboration,2016-10-31,24.0,False,2018-10-31,1,BOAMP:18-30222,20.34,0.6321,0.2331,1.0,0.6946,attribution_award_date,tfidf_cosine
+BOAMP:16-125901,NAME:cpam de loire atlantique,,Telecom & Networks,2016-08-26,48.0,True,2020-08-26,0,,100.16,,,,,publication_date,none
+BOAMP:16-127032,NAME:la sarthe,72,IT Services & Consulting,2016-12-07,48.0,True,2020-12-07,0,,96.78,,,,,attribution_award_date,none
+BOAMP:16-128900,NAME:communes des coevrons,72,IT Services & Consulting,2016-09-02,48.0,True,2020-09-02,0,,99.93,,,,,publication_date,none
+BOAMP:16-128870,NAME:de nantes,72,IT Maintenance & Support,2016-12-22,48.0,False,2020-12-22,1,BOAMP:20-118996,49.21,0.6704,0.2265,1.0,0.899,attribution_award_date,tfidf_cosine
+BOAMP:16-130215,NAME:la vendee,72,IT Services & Consulting,2017-02-08,12.0,False,2018-02-08,1,BOAMP:18-133090,23.0,0.7247,0.7698,1.0,0.0837,attribution_award_date,tfidf_cosine
+BOAMP:16-128161,NAME:nantes metropole,72,IT Services & Consulting,2016-09-09,48.0,False,2020-09-09,1,BOAMP:21-7561,52.3,0.856,0.8192,1.0,0.6417,publication_date,tfidf_cosine
+BOAMP:16-131471,NAME:insee,72,IT Services & Consulting,2016-12-05,48.0,True,2020-12-05,0,,96.85,,,,,attribution_award_date,none
+BOAMP:16-132878,NAME:ville d avrille,48,Software & Applications,2016-09-12,48.0,True,2020-09-12,0,,99.61,,,,,publication_date,none
+BOAMP:16-134501,NAME:gie sesam vitale,72,IT Services & Consulting,2016-09-15,12.0,False,2017-09-15,0,,99.51,,,,,publication_date,none
+BOAMP:16-135042,NAME:nantes metropole,72,IT Services & Consulting,2017-04-13,60.0,False,2022-04-13,1,BOAMP:22-111359,64.22,0.6447,0.2878,1.0,0.6479,attribution_award_date,tfidf_cosine
+BOAMP:16-136139,NAME:des pays de la loire,72,IT Services & Consulting,2016-12-27,12.0,False,2017-12-27,1,BOAMP:17-68186,7.39,0.7982,1.0,0.5,0.616,attribution_award_date,tfidf_cosine
+BOAMP:16-136057,NAME:ville du mans,32,Telecom & Networks,2016-11-15,2.0,False,2017-01-14,0,,97.5,,,,,attribution_award_date,none
+BOAMP:16-139456,NAME:44,48,Software & Applications,2016-09-23,48.0,True,2020-09-23,0,,99.24,,,,,publication_date,none
+BOAMP:16-139147,NAME:gie sesam vitale,72,Digital Workplace & Collaboration,2017-06-21,12.0,False,2018-06-21,1,BOAMP:17-93952,10.74,0.7254,0.3659,1.0,0.8952,attribution_award_date,tfidf_cosine
+BOAMP:16-139674,NAME:la sarthe,48,Cloud & Infrastructure,2017-01-06,48.0,False,2021-01-06,1,BOAMP:20-150503,50.23,0.5759,0.6577,0.0,0.8142,attribution_award_date,tfidf_cosine
+BOAMP:16-139386,NAME:de la mayenne,48,Software & Applications,2016-11-07,48.0,False,2020-11-07,0,,97.77,,,,,attribution_award_date,none
+BOAMP:16-137248,NAME:sarthe habitat,45,Unknown,2016-12-30,48.0,True,2020-12-30,0,,96.02,,,,,attribution_award_date,none
+BOAMP:16-140691,NAME:thouare sur loire,35,Cybersecurity,2016-09-29,24.0,False,2018-09-29,0,,99.05,,,,,publication_date,none
+BOAMP:16-142611,NAME:ville d orvault,48,Software & Applications,2016-09-30,48.0,False,2020-09-30,0,,99.01,,,,,publication_date,none
+BOAMP:16-146809,NAME:c h d la roche sur yon lucon montaigu,48,Software & Applications,2017-04-18,12.0,False,2018-04-18,0,,92.44,,,,,attribution_award_date,none
+BOAMP:16-149380,NAME:la chevroliere,32,Telecom & Networks,2016-10-13,3.0,False,2017-01-12,0,,98.59,,,,,publication_date,none
+BOAMP:16-151887,NAME:carquefou,32,Telecom & Networks,2017-02-01,12.0,False,2018-02-01,0,,94.94,,,,,attribution_award_date,none
+BOAMP:16-151274,NAME:ecole centrale de nantes,32,Telecom & Networks,2017-01-25,36.0,False,2020-01-25,0,,95.17,,,,,attribution_award_date,none
+BOAMP:16-153677,NAME:reze,72,Cybersecurity,2016-10-20,36.0,False,2019-10-20,0,,98.36,,,,,publication_date,none
+BOAMP:16-153566,NAME:ville d orvault,35,Cybersecurity,2016-10-20,36.0,False,2019-10-20,0,,98.36,,,,,publication_date,none
+BOAMP:16-153330,NAME:nantes metropole,48,Software & Applications,2018-01-16,60.0,False,2023-01-16,1,BOAMP:22-165917,59.03,0.4151,0.203,0.0,0.9195,attribution_award_date,tfidf_cosine
+BOAMP:16-153188,NAME:saint nazaire,45,Telecom & Networks,2016-10-26,28.0,False,2019-02-25,1,BOAMP:18-122920,25.1,0.3829,0.2032,0.0,0.7582,publication_date,tfidf_cosine
+BOAMP:16-153795,NAME:saint nazaire,32,Telecom & Networks,2016-10-26,24.0,False,2018-10-26,1,BOAMP:18-122920,25.1,0.4249,0.233,0.0,0.9085,publication_date,tfidf_cosine
+BOAMP:16-155186,NAME:vendee expansion,72,IT Services & Consulting,2016-10-26,12.0,False,2017-10-26,0,,98.16,,,,,publication_date,none
+BOAMP:16-158195,NAME:saint hilaire de riez,72,Digital Workplace & Collaboration,2016-10-28,36.0,False,2019-10-28,0,,98.09,,,,,publication_date,none
+BOAMP:16-158411,NAME:institut 4 10,48,Software & Applications,2016-10-28,12.0,False,2017-10-28,0,,98.09,,,,,publication_date,none
+BOAMP:16-161115,NAME:85,35,Cybersecurity,2017-01-25,48.0,True,2021-01-25,1,BOAMP:20-137315,50.53,0.4709,0.2199,0.3,0.7895,attribution_award_date,tfidf_cosine
+BOAMP:16-166758,NAME:ville du mans,,Unknown,2016-11-17,48.0,True,2020-11-17,1,BOAMP:21-103746,56.24,0.4634,0.3145,0.5,0.3132,publication_date,tfidf_cosine
+BOAMP:16-167180,NAME:vendee expansion,72,IT Services & Consulting,2016-12-20,12.0,False,2017-12-20,0,,96.35,,,,,attribution_award_date,none
+BOAMP:16-170680,NAME:de nantes,72,IT Services & Consulting,2016-11-25,48.0,False,2020-11-25,0,,97.17,,,,,publication_date,none
+BOAMP:16-172610,NAME:conseil general de la vendee,72,Digital Workplace & Collaboration,2017-04-13,48.0,True,2021-04-13,1,BOAMP:20-49221,41.36,0.5894,0.4376,0.7,0.4467,attribution_award_date,tfidf_cosine
+BOAMP:16-171762,NAME:carene,45,Cloud & Infrastructure,2017-03-22,18.0,False,2018-09-20,0,,93.33,,,,,attribution_award_date,none
+BOAMP:16-172095,NAME:carene,72,Cybersecurity,2016-12-02,24.0,False,2018-12-02,0,,96.94,,,,,publication_date,none
+BOAMP:16-173647,NAME:caf de la somme,72,Digital Workplace & Collaboration,2016-12-04,48.0,False,2020-12-04,0,,96.88,,,,,publication_date,none
+BOAMP:16-176618,NAME:ville d orvault,48,Software & Applications,2016-12-09,48.0,False,2020-12-09,0,,96.71,,,,,publication_date,none
+BOAMP:16-176813,NAME:cte cnes coeur d estuaire,45,Unknown,2017-05-04,48.0,True,2021-05-04,0,,91.92,,,,,attribution_award_date,none
+BOAMP:16-179721,NAME:gpm de nantes st nazaire,32,Telecom & Networks,2016-12-15,48.0,True,2020-12-15,0,,96.52,,,,,publication_date,none
+BOAMP:16-180684,NAME:fondat region ouest ligue cancer,32,Telecom & Networks,2016-12-16,1.0,False,2017-01-15,0,,96.48,,,,,publication_date,none
+BOAMP:16-182034,NAME:44,35,Cybersecurity,2016-12-22,7.0,False,2017-07-23,1,BOAMP:17-174760,13.27,0.7845,0.7225,1.0,0.4773,publication_date,tfidf_cosine
+BOAMP:16-184522,NAME:sdegm,32,Telecom & Networks,2016-12-23,48.0,False,2020-12-23,0,,96.25,,,,,publication_date,none
+BOAMP:16-183156,NAME:la sarthe,72,Digital Workplace & Collaboration,2017-04-26,48.0,False,2021-04-26,0,,92.18,,,,,attribution_award_date,none
+BOAMP:16-183705,NAME:de la mayenne,35,Cybersecurity,2016-12-24,12.0,False,2017-12-24,1,BOAMP:17-176560,11.76,0.8033,0.5182,1.0,0.9801,publication_date,tfidf_cosine
+BOAMP:16-184210,NAME:gie sesam vitale,72,IT Services & Consulting,2017-10-12,48.0,False,2021-10-12,1,BOAMP:20-70832,45.5,0.4613,0.3825,0.0,0.7916,attribution_award_date,tfidf_cosine
+BOAMP:16-184750,NAME:arafer,72,IT Maintenance & Support,2016-12-28,24.0,False,2018-12-28,0,,96.09,,,,,publication_date,none
+BOAMP:17-1971,NAME:maine loire habitat office pub habitat,48,Software & Applications,2017-01-06,48.0,False,2021-01-06,0,,95.8,,,,,publication_date,none
+BOAMP:17-2924,NAME:sictiam,72,IT Services & Consulting,2017-01-08,12.0,False,2018-01-08,0,,95.73,,,,,publication_date,none
+BOAMP:17-4904,NAME:iphv les hauts thebaudieres,48,Software & Applications,2017-01-11,48.0,True,2021-01-11,0,,95.63,,,,,publication_date,none
+BOAMP:17-8592,NAME:communes de grand lieu,35,Cybersecurity,2017-01-18,12.0,False,2018-01-18,0,,95.4,,,,,publication_date,none
+BOAMP:17-6714,NAME:universite d angers,72,IT Services & Consulting,2017-01-18,36.0,False,2020-01-18,1,BOAMP:20-114106,44.02,0.8663,1.0,1.0,0.3316,publication_date,tfidf_cosine
+BOAMP:17-8714,NAME:la sarthe,72,IT Services & Consulting,2017-01-19,48.0,True,2021-01-19,1,BOAMP:21-157552,58.38,0.3362,0.3978,0.0,0.1352,publication_date,tfidf_cosine
+BOAMP:17-9361,NAME:de nantes,48,Software & Applications,2017-01-19,48.0,True,2021-01-19,0,,95.37,,,,,publication_date,none
+BOAMP:17-10167,NAME:saint saturnin,44,Unknown,2017-01-20,48.0,True,2021-01-20,0,,95.34,,,,,publication_date,none
+BOAMP:17-8483,NAME:la sarthe,45,Telecom & Networks,2017-04-07,4.0,False,2017-08-06,0,,92.81,,,,,attribution_award_date,none
+BOAMP:17-12394,NAME:sdegm,32,Telecom & Networks,2017-01-26,48.0,True,2021-01-26,0,,95.14,,,,,publication_date,none
+BOAMP:17-13461,NAME:nantes metropole,72,IT Services & Consulting,2017-01-29,36.0,False,2020-01-29,0,,95.04,,,,,publication_date,none
+BOAMP:17-14320,NAME:agence regionale pays de la loire ti,72,IT Services & Consulting,2017-02-01,48.0,False,2021-02-01,0,,94.94,,,,,publication_date,none
+BOAMP:17-14986,NAME:de nantes,72,IT Services & Consulting,2017-06-02,12.0,False,2018-06-02,0,,90.97,,,,,attribution_award_date,none
+BOAMP:17-16256,NAME:inst interdpt bassin sevre niortaise,45,Unknown,2017-02-02,48.0,True,2021-02-02,0,,94.91,,,,,publication_date,none
+BOAMP:17-15684,NAME:saint nazaire,72,IT Services & Consulting,2017-02-03,48.0,True,2021-02-03,1,BOAMP:20-98331,41.95,0.4145,0.2258,0.3,0.4959,publication_date,tfidf_cosine
+BOAMP:17-20659,NAME:85,72,IT Services & Consulting,2017-05-02,48.0,True,2021-05-02,1,BOAMP:21-44149,46.98,0.743,0.7126,0.5,0.9148,attribution_award_date,tfidf_cosine
+BOAMP:17-19962,NAME:ecole centrale de nantes,32,Telecom & Networks,2017-04-06,12.0,False,2018-04-06,1,BOAMP:17-110921,8.41,0.486,0.4897,0.0,0.7008,attribution_award_date,tfidf_cosine
+BOAMP:17-19635,NAME:mairie du croisic,32,Telecom & Networks,2017-02-11,1.0,False,2017-03-13,0,,94.61,,,,,publication_date,none
+BOAMP:17-20825,NAME:le mans,32,Telecom & Networks,2017-04-11,48.0,False,2021-04-11,0,,92.67,,,,,attribution_award_date,none
+BOAMP:17-23389,NAME:loire ocean developpement,45,Unknown,2017-02-16,9.0,False,2017-11-16,1,BOAMP:17-123367,9.82,0.7446,0.3957,1.0,0.9314,publication_date,tfidf_cosine
+BOAMP:17-22230,NAME:saint herblain,35,Cybersecurity,2017-05-18,12.0,False,2018-05-18,0,,91.46,,,,,attribution_award_date,none
+BOAMP:17-23490,NAME:chd vendee,48,Software & Applications,2017-02-18,12.0,False,2018-02-18,0,,94.38,,,,,publication_date,none
+BOAMP:17-25253,NAME:le grand t theatre loire atlantique,48,Software & Applications,2017-02-21,48.0,True,2021-02-21,0,,94.28,,,,,publication_date,none
+BOAMP:17-25915,NAME:de nantes,48,Software & Applications,2017-02-22,48.0,True,2021-02-22,0,,94.25,,,,,publication_date,none
+BOAMP:17-26666,NAME:vendee expansion,72,IT Services & Consulting,2017-03-30,12.0,False,2018-03-30,0,,93.07,,,,,attribution_award_date,none
+BOAMP:17-27341,NAME:loire atlantique,50,Unknown,2017-02-26,44.0,False,2020-10-27,0,,94.12,,,,,publication_date,none
+BOAMP:17-29415,NAME:loire atlantique,72,IT Maintenance & Support,2017-03-03,48.0,False,2021-03-03,1,BOAMP:21-77546,51.25,0.7897,0.6097,1.0,0.7293,publication_date,tfidf_cosine
+BOAMP:17-32686,NAME:loire ocean developpement,45,Unknown,2017-03-08,10.0,False,2018-01-06,1,BOAMP:17-123367,9.17,0.7385,0.381,1.0,0.9305,publication_date,tfidf_cosine
+BOAMP:17-31647,NAME:syndicat mixte ouvert anjou numerique,32,Telecom & Networks,2018-01-22,48.0,True,2022-01-22,0,,83.28,,,,,attribution_award_date,none
+BOAMP:17-35511,NAME:communes de l ernee,48,Software & Applications,2017-03-14,48.0,True,2021-03-14,0,,93.59,,,,,publication_date,none
+BOAMP:17-35759,NAME:des pays de la loire,72,IT Services & Consulting,2017-06-02,24.0,False,2019-06-02,0,,90.97,,,,,attribution_award_date,none
+BOAMP:17-35545,NAME:de nantes,48,Software & Applications,2017-07-28,14.0,False,2018-09-27,1,BOAMP:18-159101,15.57,0.8486,0.8744,0.7,0.869,attribution_award_date,tfidf_cosine
+BOAMP:17-38797,NAME:angers loire metropole,39,Telecom & Networks,2017-08-28,12.0,False,2018-08-28,0,,88.11,,,,,attribution_award_date,none
+BOAMP:17-39457,NAME:dir interdepartementale routes ouest,72,IT Services & Consulting,2017-03-23,12.0,False,2018-03-23,1,BOAMP:18-87219,15.05,0.9492,1.0,1.0,0.7462,publication_date,tfidf_cosine
+BOAMP:17-40324,NAME:le mans metropole communaute urbaine,72,IT Services & Consulting,2017-07-10,48.0,True,2021-07-10,0,,89.72,,,,,attribution_award_date,none
+BOAMP:17-39093,NAME:vendee eau,48,Software & Applications,2017-06-29,48.0,True,2021-06-29,0,,90.08,,,,,attribution_award_date,none
+BOAMP:17-39998,NAME:saint nazaire,48,Software & Applications,2017-07-05,48.0,True,2021-07-05,0,,89.88,,,,,attribution_award_date,none
+BOAMP:17-44758,NAME:ministere des affaires etrangeres,72,IT Services & Consulting,2017-08-23,48.0,False,2021-08-23,0,,88.27,,,,,attribution_award_date,none
+BOAMP:17-44607,NAME:des pays de la loire,48,Cloud & Infrastructure,2017-07-21,48.0,False,2021-07-21,1,BOAMP:21-46043,47.31,0.4754,0.3425,0.0,0.9422,attribution_award_date,tfidf_cosine
+BOAMP:17-45104,NAME:saint herblain,32,Telecom & Networks,2017-08-09,12.0,False,2018-08-09,0,,88.73,,,,,attribution_award_date,none
+BOAMP:17-47832,NAME:centre de gestion fpt loire atlantique,32,Telecom & Networks,2017-04-05,48.0,True,2021-04-05,0,,92.87,,,,,publication_date,none
+BOAMP:17-48788,NAME:des pays de la loire,72,IT Services & Consulting,2017-07-24,24.0,False,2019-07-24,1,BOAMP:19-147943,29.11,0.5517,0.2795,0.7,0.5745,attribution_award_date,tfidf_cosine
+BOAMP:17-47703,NAME:semitan,72,IT Services & Consulting,2017-04-07,24.0,False,2019-04-07,0,,92.81,,,,,publication_date,none
+BOAMP:17-47930,NAME:la rochelle,48,Software & Applications,2017-04-07,24.0,False,2019-04-07,1,BOAMP:19-147530,30.65,0.5096,0.2385,0.7,0.4458,publication_date,tfidf_cosine
+BOAMP:17-48519,NAME:carene,48,Software & Applications,2017-04-09,48.0,False,2021-04-09,0,,92.74,,,,,publication_date,none
+BOAMP:17-42319,NAME:cte de cnes de l ile de noirmoutier,92,Unknown,2017-10-25,12.0,False,2018-10-25,0,,86.2,,,,,attribution_award_date,none
+BOAMP:17-47467,NAME:societe loire atlantique developpement,32,Telecom & Networks,2017-06-29,48.0,True,2021-06-29,0,,90.08,,,,,attribution_award_date,none
+BOAMP:17-53475,NAME:gie sesam vitale,72,IT Services & Consulting,2018-01-02,12.0,False,2019-01-02,1,BOAMP:18-8879,12.29,0.6134,0.2329,0.7,0.9761,attribution_award_date,tfidf_cosine
+BOAMP:17-55172,NAME:ville d angers,50,Unknown,2017-04-21,16.0,False,2018-08-21,0,,92.35,,,,,publication_date,none
+BOAMP:17-54861,NAME:ville d orvault,48,Software & Applications,2017-06-20,36.0,False,2020-06-19,0,,90.37,,,,,attribution_award_date,none
+BOAMP:17-57345,NAME:angers nantes opera syndicat mixte,,Cybersecurity,2017-04-25,48.0,True,2021-04-25,0,,92.21,,,,,publication_date,none
+BOAMP:17-56720,NAME:gcs esante pays de la loire,72,IT Services & Consulting,2017-08-29,12.0,False,2018-08-29,0,,88.07,,,,,attribution_award_date,none
+BOAMP:17-58486,NAME:de nantes,72,Digital Workplace & Collaboration,2017-04-28,12.0,False,2018-04-28,0,,92.12,,,,,publication_date,none
+BOAMP:17-58113,NAME:arafer,72,IT Maintenance & Support,2017-04-28,24.0,False,2019-04-28,0,,92.12,,,,,publication_date,none
+BOAMP:17-58214,NAME:nantes metropole,72,Cybersecurity,2017-04-30,48.0,False,2021-04-30,1,BOAMP:22-26998,57.85,0.5401,0.2607,1.0,0.179,publication_date,tfidf_cosine
+BOAMP:17-56890,NAME:nantes metropole,90,Unknown,2017-08-21,12.0,False,2018-08-21,0,,88.34,,,,,attribution_award_date,none
+BOAMP:17-62129,NAME:des pays de la loire,72,IT Services & Consulting,2017-05-04,18.0,False,2018-11-02,0,,91.92,,,,,publication_date,none
+BOAMP:17-61199,NAME:vendee expansion,72,IT Services & Consulting,2017-05-04,12.0,False,2018-05-04,0,,91.92,,,,,publication_date,none
+BOAMP:17-61541,NAME:de nantes,72,IT Services & Consulting,2017-07-21,48.0,False,2021-07-21,1,BOAMP:21-76925,50.79,0.9357,0.9556,1.0,0.7676,attribution_award_date,tfidf_cosine
+BOAMP:17-62974,NAME:cap atlantique,48,Software & Applications,2017-05-05,48.0,False,2021-05-05,0,,91.89,,,,,publication_date,none
+BOAMP:17-62873,NAME:universite d angers,72,IT Services & Consulting,2017-05-07,36.0,False,2020-05-06,1,BOAMP:20-114106,40.44,0.926,1.0,1.0,0.63,publication_date,tfidf_cosine
+BOAMP:17-56105,NAME:de saint nazaire,48,Software & Applications,2017-05-07,60.0,False,2022-05-07,0,,91.82,,,,,publication_date,none
+BOAMP:17-66007,NAME:le mans,72,IT Services & Consulting,2017-05-12,48.0,True,2021-05-12,0,,91.66,,,,,publication_date,none
+BOAMP:17-67752,NAME:gpm de nantes st nazaire,32,Telecom & Networks,2017-05-16,48.0,True,2021-05-16,0,,91.52,,,,,publication_date,none
+BOAMP:17-69161,NAME:ville du mans,37,Data & AI,2017-05-17,48.0,True,2021-05-17,1,BOAMP:21-103746,50.3,0.7661,0.8235,0.5,0.8087,publication_date,tfidf_cosine
+BOAMP:17-69162,NAME:le mans metropole communaute urbaine,72,IT Services & Consulting,2017-10-30,30.0,False,2020-04-30,0,,86.04,,,,,attribution_award_date,none
+BOAMP:17-68186,NAME:des pays de la loire,72,IT Services & Consulting,2017-08-09,12.0,False,2018-08-09,1,BOAMP:18-30222,11.07,0.5446,0.2126,0.5,0.9226,attribution_award_date,tfidf_cosine
+BOAMP:17-59442,NAME:ademe,72,IT Services & Consulting,2017-05-19,48.0,False,2021-05-19,0,,91.43,,,,,publication_date,none
+BOAMP:17-68883,NAME:arafer,72,IT Maintenance & Support,2017-05-19,24.0,False,2019-05-19,0,,91.43,,,,,publication_date,none
+BOAMP:17-71849,NAME:des pays de la loire,72,Digital Workplace & Collaboration,2017-08-09,12.0,False,2018-08-09,0,,88.73,,,,,attribution_award_date,none
+BOAMP:17-71852,NAME:49,35,Cybersecurity,2017-05-24,48.0,True,2021-05-24,0,,91.26,,,,,publication_date,none
+BOAMP:17-73536,NAME:nantes metropole,48,Software & Applications,2017-10-26,60.0,False,2022-10-26,1,BOAMP:22-154717,60.91,0.573,0.2827,0.5,0.9244,attribution_award_date,tfidf_cosine
+BOAMP:17-73142,NAME:le mans metropole communaute urbaine,48,Software & Applications,2017-08-22,36.0,False,2020-08-21,0,,88.3,,,,,attribution_award_date,none
+BOAMP:17-73357,NAME:syndicat departemental d energie,32,Telecom & Networks,2017-10-26,12.0,False,2018-10-26,0,,86.17,,,,,attribution_award_date,none
+BOAMP:17-72992,NAME:groupe d etude et de controle des vari,72,IT Services & Consulting,2017-07-17,24.0,False,2019-07-17,0,,89.49,,,,,attribution_award_date,none
+BOAMP:17-74632,NAME:nantes,48,Software & Applications,2017-05-31,48.0,True,2021-05-31,0,,91.03,,,,,publication_date,none
+BOAMP:17-75817,NAME:chemille en anjou,48,Software & Applications,2017-05-31,48.0,True,2021-05-31,0,,91.03,,,,,publication_date,none
+BOAMP:17-76729,NAME:dir interregionale sces penitentiaires,32,Telecom & Networks,2017-06-01,48.0,True,2021-06-01,0,,91.0,,,,,publication_date,none
+BOAMP:17-76616,NAME:nantes metropole,72,Cybersecurity,2017-06-03,48.0,False,2021-06-03,1,BOAMP:21-97876,49.38,0.4429,0.2896,0.0,0.8853,publication_date,tfidf_cosine
+BOAMP:17-77862,NAME:des pays de la loire,34,Unknown,2017-10-04,12.0,False,2018-10-04,0,,86.89,,,,,attribution_award_date,none
+BOAMP:17-78402,NAME:85,,Telecom & Networks,2017-06-06,48.0,False,2021-06-06,0,,90.83,,,,,publication_date,none
+BOAMP:17-78663,NAME:les quinconces l espal,32,Telecom & Networks,2017-06-06,48.0,True,2021-06-06,0,,90.83,,,,,publication_date,none
+BOAMP:17-79002,NAME:lycee polyvalent leonard de vinci,32,Telecom & Networks,2017-06-07,48.0,True,2021-06-07,1,BOAMP:20-140005,41.33,0.8888,1.0,1.0,0.4439,publication_date,tfidf_cosine
+BOAMP:17-68985,NAME:nantes metropole,48,Software & Applications,2017-10-16,48.0,False,2021-10-16,0,,86.5,,,,,attribution_award_date,none
+BOAMP:17-80207,NAME:thouare sur loire,,Unknown,2017-06-08,48.0,True,2021-06-08,0,,90.77,,,,,publication_date,none
+BOAMP:17-80194,NAME:loire atlantique,72,IT Services & Consulting,2017-06-08,48.0,False,2021-06-08,0,,90.77,,,,,publication_date,none
+BOAMP:17-80573,NAME:44,32,Telecom & Networks,2017-10-17,48.0,False,2021-10-17,0,,86.47,,,,,attribution_award_date,none
+BOAMP:17-80380,NAME:maine loire habitat office pub habitat,32,Telecom & Networks,2017-10-03,48.0,False,2021-10-03,0,,86.93,,,,,attribution_award_date,none
+BOAMP:17-82963,NAME:ville du mans,32,Telecom & Networks,2017-10-09,48.0,True,2021-10-09,0,,86.73,,,,,attribution_award_date,none
+BOAMP:17-85841,NAME:des pays de la loire,48,Software & Applications,2017-10-23,12.0,False,2018-10-23,0,,86.27,,,,,attribution_award_date,none
+BOAMP:17-85294,NAME:gie sesam vitale,48,Software & Applications,2017-06-21,12.0,False,2018-06-21,0,,90.34,,,,,publication_date,none
+BOAMP:17-88463,NAME:cesame de sainte gemmes sur loire,32,Telecom & Networks,2017-06-25,39.0,False,2020-09-24,0,,90.21,,,,,publication_date,none
+BOAMP:17-90424,NAME:regie dept passages d eau de vendee,72,IT Services & Consulting,2017-06-27,48.0,True,2021-06-27,0,,90.14,,,,,publication_date,none
+BOAMP:17-90049,NAME:gie sesam vitale,35,Cybersecurity,2017-06-28,12.0,False,2018-06-28,0,,90.11,,,,,publication_date,none
+BOAMP:17-91935,NAME:nantes metropole,32,Telecom & Networks,2017-07-01,48.0,False,2021-07-01,1,BOAMP:21-163822,53.52,0.7407,0.5816,1.0,0.5404,publication_date,tfidf_cosine
+BOAMP:17-91530,NAME:de la mayenne,45,Unknown,2018-05-29,24.0,False,2020-05-28,0,,79.11,,,,,attribution_award_date,none
+BOAMP:17-93042,NAME:gie sesam vitale,72,IT Services & Consulting,2017-07-02,24.0,False,2019-07-02,0,,89.98,,,,,publication_date,none
+BOAMP:17-93666,NAME:de nantes,72,IT Services & Consulting,2017-07-03,48.0,True,2021-07-03,0,,89.95,,,,,publication_date,none
+BOAMP:17-93952,NAME:gie sesam vitale,72,Digital Workplace & Collaboration,2018-05-14,24.0,False,2020-05-13,1,BOAMP:20-16671,32.19,0.5489,0.4013,0.7,0.3171,attribution_award_date,tfidf_cosine
+BOAMP:17-97519,NAME:thouare sur loire,72,Digital Workplace & Collaboration,2017-07-07,48.0,True,2021-07-07,0,,89.82,,,,,publication_date,none
+BOAMP:17-97609,NAME:44,35,Cybersecurity,2017-07-07,48.0,True,2021-07-07,1,BOAMP:21-38984,44.51,0.8092,0.8558,0.7,0.7095,publication_date,tfidf_cosine
+BOAMP:17-94724,NAME:saint nazaire,32,Telecom & Networks,2017-10-03,36.0,False,2020-10-02,1,BOAMP:20-98331,34.0,0.4099,0.2332,0.0,0.8334,attribution_award_date,tfidf_cosine
+BOAMP:17-98996,NAME:saint herblain,72,IT Services & Consulting,2017-07-11,36.0,False,2020-07-10,0,,89.68,,,,,publication_date,none
+BOAMP:17-96902,NAME:saint nazaire,48,Software & Applications,2017-07-13,48.0,False,2021-07-13,1,BOAMP:20-98331,36.7,0.2421,0.2012,0.0,0.0579,publication_date,tfidf_cosine
+BOAMP:17-82154,NAME:nantes metropole,79,Unknown,2017-07-13,36.0,False,2020-07-12,0,,89.62,,,,,publication_date,none
+BOAMP:17-100085,NAME:angers loire metropole,42,Unknown,2017-11-10,24.0,False,2019-11-10,1,BOAMP:19-35566,15.83,0.3018,0.2196,0.0,0.3195,attribution_award_date,tfidf_cosine
+BOAMP:17-101340,NAME:crous de rennes,32,Telecom & Networks,2017-07-15,48.0,True,2021-07-15,0,,89.55,,,,,publication_date,none
+BOAMP:17-102708,NAME:des pays de la loire,48,Software & Applications,2017-07-18,36.0,False,2020-07-17,1,BOAMP:20-65753,36.14,0.6292,0.2661,0.7,0.9886,publication_date,tfidf_cosine
+BOAMP:17-102482,NAME:de nantes,72,IT Services & Consulting,2017-07-18,48.0,True,2021-07-18,0,,89.45,,,,,publication_date,none
+BOAMP:17-102187,NAME:universite d angers,32,Telecom & Networks,2017-07-19,36.0,False,2020-07-18,1,BOAMP:21-43310,44.45,0.2906,0.2034,0.0,0.296,publication_date,tfidf_cosine
+BOAMP:17-100105,NAME:saint nazaire,48,Software & Applications,2017-07-20,12.0,False,2018-07-20,0,,89.39,,,,,publication_date,none
+BOAMP:17-103193,NAME:des pays de la loire,48,Software & Applications,2018-03-19,48.0,True,2022-03-19,1,BOAMP:22-72517,50.1,0.7541,0.7852,0.5,0.8251,attribution_award_date,tfidf_cosine
+BOAMP:17-102923,NAME:des pays de la loire,48,Software & Applications,2017-07-20,48.0,False,2021-07-20,0,,89.39,,,,,publication_date,none
+BOAMP:17-103816,NAME:dirisi,32,Telecom & Networks,2017-12-20,66.0,False,2023-06-21,0,,84.36,,,,,attribution_award_date,none
+BOAMP:17-102568,NAME:carene,48,Software & Applications,2017-07-21,48.0,False,2021-07-21,0,,89.36,,,,,publication_date,none
+BOAMP:17-104235,NAME:gie sesam vitale,48,Software & Applications,2017-07-22,36.0,False,2020-07-21,0,,89.32,,,,,publication_date,none
+BOAMP:17-104895,NAME:de cholet,35,Cybersecurity,2017-10-09,48.0,True,2021-10-09,0,,86.73,,,,,attribution_award_date,none
+BOAMP:17-104307,NAME:saint nazaire,39,Unknown,2017-11-09,48.0,False,2021-11-09,1,BOAMP:21-169350,52.79,0.6335,0.4709,0.7,0.6006,attribution_award_date,tfidf_cosine
+BOAMP:17-105683,NAME:le mans metropole communaute urbaine,39,Software & Applications,2017-12-20,2.0,False,2018-02-18,0,,84.36,,,,,attribution_award_date,none
+BOAMP:17-106453,NAME:saint etienne de montluc,,Telecom & Networks,2017-07-24,48.0,True,2021-07-24,0,,89.26,,,,,publication_date,none
+BOAMP:17-106009,NAME:nantes metropole,72,Cybersecurity,2017-11-26,48.0,False,2021-11-26,1,BOAMP:21-97876,43.59,0.3924,0.2896,0.0,0.6328,attribution_award_date,tfidf_cosine
+BOAMP:17-106845,NAME:beaucouze,45,Unknown,2017-07-28,14.0,False,2018-09-27,1,BOAMP:19-21081,19.94,0.3467,0.2392,0.0,0.5049,publication_date,tfidf_cosine
+BOAMP:17-109941,NAME:saint nazaire,48,Software & Applications,2017-11-13,12.0,False,2018-11-13,1,BOAMP:18-122920,12.52,0.4703,0.3223,0.0,0.957,attribution_award_date,tfidf_cosine
+BOAMP:17-110921,NAME:ecole centrale de nantes,48,Software & Applications,2017-12-18,48.0,False,2021-12-18,0,,84.43,,,,,attribution_award_date,none
+BOAMP:17-103068,NAME:communaute d agglomeration la rochelle,32,Telecom & Networks,2017-08-10,48.0,True,2021-08-10,0,,88.7,,,,,publication_date,none
+BOAMP:17-115008,NAME:17,,Data & AI,2017-08-10,12.0,False,2018-08-10,0,,88.7,,,,,publication_date,none
+BOAMP:17-114118,NAME:des pays de la loire,48,Software & Applications,2017-12-28,48.0,True,2021-12-28,1,BOAMP:22-72517,52.76,0.7309,0.838,0.5,0.6034,attribution_award_date,tfidf_cosine
+BOAMP:17-114694,NAME:hop intercommunal du baugeois et val,32,Telecom & Networks,2017-12-12,12.0,False,2018-12-12,0,,84.63,,,,,attribution_award_date,none
+BOAMP:17-111330,NAME:nantes metropole,72,Cybersecurity,2018-01-16,12.0,False,2019-01-16,1,BOAMP:19-36958,16.36,0.6365,0.2729,1.0,0.6367,attribution_award_date,tfidf_cosine
+BOAMP:17-115598,NAME:drac pays de la loire,92,Data & AI,2017-08-12,5.0,False,2018-01-11,0,,88.63,,,,,publication_date,none
+BOAMP:17-117075,NAME:syndicat mixte pour le dvlpt numerique,72,IT Services & Consulting,2017-08-17,48.0,True,2021-08-17,1,BOAMP:21-133433,49.61,0.9077,0.8361,1.0,0.8662,publication_date,tfidf_cosine
+BOAMP:17-117591,NAME:la fleche,45,Unknown,2017-08-18,48.0,True,2021-08-18,0,,88.44,,,,,publication_date,none
+BOAMP:17-118765,NAME:des pays de la loire,48,Software & Applications,2017-12-14,12.0,False,2018-12-14,0,,84.56,,,,,attribution_award_date,none
+BOAMP:17-119142,NAME:prefecture,72,IT Services & Consulting,2017-08-23,48.0,True,2021-08-23,0,,88.27,,,,,publication_date,none
+BOAMP:17-120212,NAME:des pays de la loire,72,IT Services & Consulting,2017-12-15,12.0,False,2018-12-15,0,,84.53,,,,,attribution_award_date,none
+BOAMP:17-115928,NAME:ademe,72,IT Services & Consulting,2018-04-24,48.0,False,2022-04-24,0,,80.26,,,,,attribution_award_date,none
+BOAMP:17-120545,NAME:e collectivites vendee,72,IT Services & Consulting,2017-11-06,12.0,False,2018-11-06,0,,85.81,,,,,attribution_award_date,none
+BOAMP:17-123450,NAME:loire atlantique,48,Software & Applications,2017-09-03,48.0,False,2021-09-03,0,,87.91,,,,,publication_date,none
+BOAMP:17-123584,NAME:communes du perche,45,Data & AI,2017-12-04,7.0,False,2018-07-05,0,,84.89,,,,,attribution_award_date,none
+BOAMP:17-124242,NAME:de la sarthe,35,Cybersecurity,2017-10-27,48.0,True,2021-10-27,0,,86.14,,,,,attribution_award_date,none
+BOAMP:17-123595,NAME:metropole nantes metropole,44,Telecom & Networks,2018-01-18,12.0,False,2019-01-18,0,,83.41,,,,,attribution_award_date,none
+BOAMP:17-124586,NAME:universite d angers,72,IT Services & Consulting,2017-12-15,36.0,False,2020-12-14,1,BOAMP:20-114106,33.15,0.9525,1.0,1.0,0.7623,attribution_award_date,tfidf_cosine
+BOAMP:17-128615,NAME:inserm,72,IT Services & Consulting,2017-09-14,24.0,False,2019-09-14,0,,87.55,,,,,publication_date,none
+BOAMP:17-129931,NAME:cmar pays de la loire,72,IT Services & Consulting,2017-09-17,48.0,False,2021-09-17,0,,87.45,,,,,publication_date,none
+BOAMP:17-127198,NAME:carene,44,Unknown,2017-12-19,12.0,False,2018-12-19,0,,84.4,,,,,attribution_award_date,none
+BOAMP:17-130980,NAME:e collectivites vendee,72,IT Services & Consulting,2017-09-17,48.0,False,2021-09-17,0,,87.45,,,,,publication_date,none
+BOAMP:17-117419,NAME:dsna,32,Telecom & Networks,2017-12-13,48.0,False,2021-12-13,0,,84.59,,,,,attribution_award_date,none
+BOAMP:17-133782,NAME:pornichet,72,IT Services & Consulting,2017-09-22,12.0,False,2018-09-22,0,,87.29,,,,,publication_date,none
+BOAMP:17-135447,NAME:nantes,,Data & AI,2017-09-26,48.0,True,2021-09-26,0,,87.16,,,,,publication_date,none
+BOAMP:17-134575,NAME:ministere des affaires etrangeres,72,Cybersecurity,2018-01-16,48.0,False,2022-01-16,0,,83.48,,,,,attribution_award_date,none
+BOAMP:17-135932,NAME:chambre de commerce et d industrie,45,Unknown,2017-09-28,48.0,True,2021-09-28,0,,87.09,,,,,publication_date,none
+BOAMP:17-136551,NAME:dir interdepartementale routes ouest,72,IT Services & Consulting,2017-09-30,48.0,False,2021-09-30,0,,87.02,,,,,publication_date,none
+BOAMP:17-130666,NAME:ademe,72,IT Maintenance & Support,2017-10-01,48.0,False,2021-10-01,0,,86.99,,,,,publication_date,none
+BOAMP:17-138140,NAME:la baule,32,Telecom & Networks,2017-10-04,12.0,False,2018-10-04,0,,86.89,,,,,publication_date,none
+BOAMP:17-140377,NAME:des pays de la loire,72,Cybersecurity,2017-12-14,24.0,False,2019-12-14,0,,84.56,,,,,attribution_award_date,none
+BOAMP:17-141116,NAME:ville du mans,18,Telecom & Networks,2017-10-06,48.0,True,2021-10-06,1,BOAMP:22-73696,58.31,0.8064,0.9456,1.0,0.1407,publication_date,tfidf_cosine
+BOAMP:17-140760,NAME:plate forme achats finances nord est,35,Cybersecurity,2017-10-08,12.0,False,2018-10-08,0,,86.76,,,,,publication_date,none
+BOAMP:17-140948,NAME:des pays de la loire,48,Software & Applications,2017-12-30,48.0,True,2021-12-30,1,BOAMP:22-85365,58.28,0.6756,0.9298,0.5,0.1435,attribution_award_date,tfidf_cosine
+BOAMP:17-142028,NAME:nantes,72,IT Services & Consulting,2017-10-11,47.0,False,2021-09-10,0,,86.66,,,,,publication_date,none
+BOAMP:17-142035,NAME:des pays de la loire,48,Software & Applications,2017-12-26,48.0,False,2021-12-26,0,,84.17,,,,,attribution_award_date,none
+BOAMP:17-144102,NAME:nantes,35,Cybersecurity,2018-02-01,48.0,True,2022-02-01,0,,82.95,,,,,attribution_award_date,none
+BOAMP:17-143241,NAME:nantes metropole,48,Software & Applications,2018-06-20,60.0,False,2023-06-20,1,BOAMP:22-154717,53.12,0.5957,0.5885,0.5,0.4267,attribution_award_date,tfidf_cosine
+BOAMP:17-148560,NAME:cc du pays de chantonnay,72,IT Services & Consulting,2017-10-22,48.0,False,2021-10-22,0,,86.3,,,,,publication_date,none
+BOAMP:17-147216,NAME:loire ocean developpement,45,Unknown,2017-10-23,54.0,False,2022-04-23,0,,86.27,,,,,publication_date,none
+BOAMP:17-152746,NAME:ctre hosp universitaire angers,48,Software & Applications,2017-12-08,48.0,False,2021-12-08,0,,84.76,,,,,attribution_award_date,none
+BOAMP:17-155889,NAME:institut mines telecom atlantique,32,Telecom & Networks,2018-02-09,6.0,False,2018-08-10,0,,82.69,,,,,attribution_award_date,none
+BOAMP:17-158731,NAME:la vendee,72,IT Services & Consulting,2018-02-27,48.0,True,2022-02-27,0,,82.1,,,,,attribution_award_date,none
+BOAMP:17-159373,NAME:de nantes,72,IT Services & Consulting,2018-04-03,48.0,False,2022-04-03,1,BOAMP:22-87982,50.66,0.7628,0.5176,1.0,0.7786,attribution_award_date,tfidf_cosine
+BOAMP:17-158224,NAME:nantes metropole,48,Software & Applications,2018-04-24,48.0,False,2022-04-24,1,BOAMP:21-143183,42.05,0.4959,0.3001,0.5,0.5042,attribution_award_date,tfidf_cosine
+BOAMP:17-159853,NAME:angers loire metropole,72,IT Services & Consulting,2017-11-13,36.0,False,2020-11-12,0,,85.58,,,,,publication_date,none
+BOAMP:17-161917,NAME:loire atlantique,72,IT Maintenance & Support,2017-11-18,12.0,False,2018-11-18,0,,85.41,,,,,publication_date,none
+BOAMP:17-161006,NAME:angers loire metropole,48,Software & Applications,2018-11-21,48.0,False,2022-11-21,0,,73.32,,,,,attribution_award_date,none
+BOAMP:17-163707,NAME:gie sesam vitale,72,IT Services & Consulting,2017-11-22,24.0,False,2019-11-22,0,,85.28,,,,,publication_date,none
+BOAMP:17-161606,NAME:carene,32,Telecom & Networks,2017-11-23,48.0,True,2021-11-23,0,,85.25,,,,,publication_date,none
+BOAMP:17-165149,NAME:oniris,72,Digital Workplace & Collaboration,2017-11-25,12.0,False,2018-11-25,0,,85.18,,,,,publication_date,none
+BOAMP:17-165815,NAME:dreal bretagne,48,Software & Applications,2018-06-05,48.0,False,2022-06-05,1,BOAMP:22-44037,45.63,0.5268,0.5408,0.0,0.8026,attribution_award_date,tfidf_cosine
+BOAMP:17-165817,NAME:dreal bretagne,48,Software & Applications,2018-05-18,48.0,False,2022-05-18,1,BOAMP:22-44037,46.22,0.7204,1.0,0.0,0.8518,attribution_award_date,tfidf_cosine
+BOAMP:17-166932,NAME:casier judiciaire national,32,Telecom & Networks,2017-11-27,48.0,True,2021-11-27,0,,85.12,,,,,publication_date,none
+BOAMP:17-167643,NAME:loire atlantique,32,Telecom & Networks,2017-11-28,12.0,False,2018-11-28,0,,85.09,,,,,publication_date,none
+BOAMP:17-167707,NAME:nantes metropole,48,Software & Applications,2017-11-28,48.0,False,2021-11-28,1,BOAMP:21-143183,46.88,0.5427,0.2161,0.5,0.9066,publication_date,tfidf_cosine
+BOAMP:17-168569,NAME:nantes metropole,72,GIS & Mapping,2017-11-29,48.0,True,2021-11-29,1,BOAMP:22-21573,50.39,0.8394,0.6984,1.0,0.8005,publication_date,tfidf_cosine
+BOAMP:17-171316,NAME:des pays de la loire,72,Cybersecurity,2018-03-22,48.0,False,2022-03-22,0,,81.34,,,,,attribution_award_date,none
+BOAMP:17-172862,NAME:alter public,72,Digital Workplace & Collaboration,2017-12-08,72.0,False,2023-12-08,0,,84.76,,,,,publication_date,none
+BOAMP:17-173975,NAME:des pays de la loire,48,Software & Applications,2017-12-13,24.0,False,2019-12-13,0,,84.59,,,,,publication_date,none
+BOAMP:17-174760,NAME:44,35,Cybersecurity,2018-01-30,48.0,True,2022-01-30,1,BOAMP:21-38984,37.71,0.6353,0.5168,1.0,0.1428,attribution_award_date,tfidf_cosine
+BOAMP:17-173663,NAME:nantes metropole,48,Software & Applications,2017-12-16,60.0,False,2022-12-16,1,BOAMP:22-154717,59.23,0.6601,0.4949,0.5,0.9359,publication_date,tfidf_cosine
+BOAMP:17-176560,NAME:de la mayenne,35,Cybersecurity,2017-12-17,24.0,False,2019-12-17,1,BOAMP:20-52846,34.86,0.6765,0.6437,1.0,0.0954,publication_date,tfidf_cosine
+BOAMP:17-177418,NAME:saint nazaire,32,Telecom & Networks,2017-12-20,48.0,False,2021-12-20,0,,84.36,,,,,publication_date,none
+BOAMP:17-129614,NAME:nantes metropole,72,Cybersecurity,2017-12-21,48.0,False,2021-12-21,1,BOAMP:22-39891,50.89,0.5628,0.2147,0.7,0.7594,publication_date,tfidf_cosine
+BOAMP:17-179962,NAME:des pays de la loire,45,Telecom & Networks,2017-12-21,6.0,False,2018-06-21,1,BOAMP:18-95630,6.57,0.9905,1.0,1.0,0.9525,publication_date,tfidf_cosine
+BOAMP:17-178496,NAME:saint nazaire,32,Telecom & Networks,2017-12-21,48.0,True,2021-12-21,0,,84.33,,,,,publication_date,none
+BOAMP:17-179112,NAME:nantes metropole,72,IT Services & Consulting,2017-12-22,48.0,False,2021-12-22,0,,84.3,,,,,publication_date,none
+BOAMP:18-265,NAME:des pays de la loire,32,Telecom & Networks,2018-06-27,12.0,False,2019-06-27,0,,78.15,,,,,attribution_award_date,none
+BOAMP:18-546,NAME:angers loire metropole,48,Software & Applications,2018-04-25,24.0,False,2020-04-24,0,,80.22,,,,,attribution_award_date,none
+BOAMP:18-2518,NAME:de nantes,72,IT Services & Consulting,2018-01-09,12.0,False,2019-01-09,0,,83.71,,,,,publication_date,none
+BOAMP:18-4239,NAME:ca pornic agglo pays de retz,35,Cybersecurity,2018-03-19,12.0,False,2019-03-19,0,,81.44,,,,,attribution_award_date,none
+BOAMP:18-6884,NAME:de nantes,72,IT Services & Consulting,2018-01-16,12.0,False,2019-01-16,0,,83.48,,,,,publication_date,none
+BOAMP:18-6138,NAME:44,48,Software & Applications,2018-04-12,48.0,False,2022-04-12,1,BOAMP:22-39410,47.17,0.8612,1.0,0.5,0.9312,attribution_award_date,tfidf_cosine
+BOAMP:18-3854,NAME:la roche sur yon,44,Unknown,2018-04-05,3.0,False,2018-07-05,0,,80.88,,,,,attribution_award_date,none
+BOAMP:18-8070,NAME:angers loire metropole,72,IT Services & Consulting,2018-01-18,36.0,False,2021-01-17,0,,83.41,,,,,publication_date,none
+BOAMP:18-8615,NAME:gcs esante pays de la loire,72,IT Services & Consulting,2018-01-20,48.0,True,2022-01-20,0,,83.34,,,,,publication_date,none
+BOAMP:18-8280,NAME:la roche sur yon agglomeration,48,Software & Applications,2018-05-02,48.0,False,2022-05-02,0,,79.99,,,,,attribution_award_date,none
+BOAMP:18-8879,NAME:gie sesam vitale,72,IT Services & Consulting,2019-01-11,24.0,False,2021-01-10,1,BOAMP:20-16671,24.24,0.6457,0.312,0.7,0.9796,attribution_award_date,tfidf_cosine
+BOAMP:18-10415,NAME:nantes,35,Cybersecurity,2018-04-23,30.0,False,2020-10-22,1,BOAMP:21-14714,33.34,0.3781,0.2096,0.0,0.7213,attribution_award_date,tfidf_cosine
+BOAMP:18-9170,NAME:communaute communes la chataigneraie,48,Software & Applications,2018-01-24,48.0,False,2022-01-24,0,,83.21,,,,,publication_date,none
+BOAMP:18-11225,NAME:nantes metropole,72,IT Services & Consulting,2018-01-27,48.0,False,2022-01-27,1,BOAMP:22-94904,53.29,0.6586,0.6793,0.5,0.5596,publication_date,tfidf_cosine
+BOAMP:18-12557,NAME:la cite des congres de nantes,32,Telecom & Networks,2018-01-28,12.0,False,2019-01-28,0,,83.08,,,,,publication_date,none
+BOAMP:18-12119,NAME:des pays de la loire,72,IT Services & Consulting,2018-04-27,48.0,True,2022-04-27,1,BOAMP:21-116891,44.55,0.6361,0.5466,0.5,0.7122,attribution_award_date,tfidf_cosine
+BOAMP:18-13131,NAME:cte de communes d erdre et gesvres,48,Software & Applications,2018-01-29,39.0,False,2021-04-30,0,,83.05,,,,,publication_date,none
+BOAMP:18-13243,NAME:universite d angers,72,IT Services & Consulting,2018-04-17,48.0,False,2022-04-17,0,,80.49,,,,,attribution_award_date,none
+BOAMP:18-14081,NAME:cdc du pays de saint gilles cx de vie,48,Software & Applications,2018-02-02,48.0,False,2022-02-02,0,,82.92,,,,,publication_date,none
+BOAMP:18-15680,NAME:saint nazaire,72,IT Services & Consulting,2018-02-07,48.0,False,2022-02-07,0,,82.75,,,,,publication_date,none
+BOAMP:18-17886,NAME:la vendee,72,IT Services & Consulting,2018-05-31,12.0,False,2019-05-31,0,,79.04,,,,,attribution_award_date,none
+BOAMP:18-18750,NAME:comsopgn,,Telecom & Networks,2018-02-08,12.0,False,2019-02-08,0,,82.72,,,,,publication_date,none
+BOAMP:18-18602,NAME:nantes,72,IT Services & Consulting,2018-02-09,48.0,False,2022-02-09,0,,82.69,,,,,publication_date,none
+BOAMP:18-21470,NAME:ville d evron,32,Telecom & Networks,2018-06-05,48.0,False,2022-06-05,0,,78.88,,,,,attribution_award_date,none
+BOAMP:18-22345,NAME:uniha gcs,72,IT Services & Consulting,2018-02-17,12.0,False,2019-02-17,0,,82.42,,,,,publication_date,none
+BOAMP:18-22305,NAME:uniha gcs,72,IT Services & Consulting,2018-02-17,12.0,False,2019-02-17,0,,82.42,,,,,publication_date,none
+BOAMP:18-25344,NAME:conseil general de la vendee,,GIS & Mapping,2018-02-21,3.0,False,2018-05-23,0,,82.29,,,,,publication_date,none
+BOAMP:18-25585,NAME:angers loire metropole,32,Telecom & Networks,2018-02-22,12.0,False,2019-02-22,0,,82.26,,,,,publication_date,none
+BOAMP:18-26430,NAME:gie sesam vitale,72,IT Services & Consulting,2019-01-11,48.0,False,2023-01-11,1,BOAMP:22-159813,46.75,0.6394,0.4632,0.5,0.8956,attribution_award_date,tfidf_cosine
+BOAMP:18-26654,NAME:gip vendee numerique,32,Telecom & Networks,2019-07-01,48.0,True,2023-07-01,0,,66.03,,,,,attribution_award_date,none
+BOAMP:18-26824,NAME:des pays de la loire,72,Digital Workplace & Collaboration,2018-06-25,12.0,False,2019-06-25,1,BOAMP:19-1779,10.61,0.6879,0.2776,1.0,0.8843,attribution_award_date,tfidf_cosine
+BOAMP:18-27476,NAME:universite d angers,32,Telecom & Networks,2018-06-01,12.0,False,2019-06-01,0,,79.01,,,,,attribution_award_date,none
+BOAMP:18-29896,NAME:cnieg,72,IT Services & Consulting,2018-03-02,48.0,True,2022-03-02,0,,82.0,,,,,publication_date,none
+BOAMP:18-28651,NAME:nantes metropole,72,IT Services & Consulting,2018-03-03,60.0,False,2023-03-03,1,BOAMP:23-144303,67.58,0.6999,0.8779,0.5,0.3687,publication_date,tfidf_cosine
+BOAMP:18-28473,NAME:ademe,72,IT Services & Consulting,2018-03-03,12.0,False,2019-03-03,0,,81.96,,,,,publication_date,none
+BOAMP:18-30222,NAME:des pays de la loire,72,Digital Workplace & Collaboration,2018-07-12,12.0,False,2019-07-12,1,BOAMP:18-128655,6.01,0.5389,0.2842,0.7,0.501,attribution_award_date,tfidf_cosine
+BOAMP:18-30024,NAME:angers loire metropole,48,Software & Applications,2018-03-04,60.0,False,2023-03-04,0,,81.93,,,,,publication_date,none
+BOAMP:18-32739,NAME:la baule,32,Telecom & Networks,2018-03-08,12.0,False,2019-03-08,0,,81.8,,,,,publication_date,none
+BOAMP:18-31687,NAME:des pays de la loire,48,Software & Applications,2018-06-28,48.0,False,2022-06-28,1,BOAMP:22-29878,48.42,0.5721,0.2605,0.5,0.9647,attribution_award_date,tfidf_cosine
+BOAMP:18-31507,NAME:laval spla,45,Unknown,2018-05-14,11.0,False,2019-04-13,0,,79.6,,,,,attribution_award_date,none
+BOAMP:18-34848,NAME:spic arena loire trelaze,79,Unknown,2018-03-14,48.0,True,2022-03-14,0,,81.6,,,,,publication_date,none
+BOAMP:18-35039,NAME:reseau canope,79,Unknown,2018-09-11,12.0,False,2019-09-11,0,,75.66,,,,,attribution_award_date,none
+BOAMP:18-35804,NAME:ccir pays de la loire,30,IT Hardware & Equipment,2018-03-16,48.0,True,2022-03-16,0,,81.54,,,,,publication_date,none
+BOAMP:18-37425,NAME:nantes,72,IT Services & Consulting,2018-07-03,48.0,False,2022-07-03,1,BOAMP:23-40733,59.1,0.6758,0.6521,1.0,0.075,attribution_award_date,tfidf_cosine
+BOAMP:18-36652,NAME:saint nazaire,48,Software & Applications,2018-03-20,48.0,False,2022-03-20,0,,81.41,,,,,publication_date,none
+BOAMP:18-38804,NAME:la baule,32,Telecom & Networks,2018-03-20,48.0,True,2022-03-20,0,,81.41,,,,,publication_date,none
+BOAMP:18-38591,NAME:saint nazaire,48,Software & Applications,2018-03-21,48.0,False,2022-03-21,1,BOAMP:23-24849,59.07,0.2518,0.2156,0.0,0.0777,publication_date,tfidf_cosine
+BOAMP:18-38747,NAME:ville du mans,75,GIS & Mapping,2018-08-30,12.0,False,2019-08-30,0,,76.05,,,,,attribution_award_date,none
+BOAMP:18-40625,NAME:angers loire metropole,32,Telecom & Networks,2018-03-23,48.0,False,2022-03-23,1,BOAMP:22-51760,49.38,0.9771,1.0,1.0,0.8853,publication_date,tfidf_cosine
+BOAMP:18-40176,NAME:gie sesam vitale,48,Software & Applications,2018-03-24,24.0,False,2020-03-23,1,BOAMP:19-163024,28.35,0.5209,0.6086,0.0,0.6374,publication_date,tfidf_cosine
+BOAMP:18-40946,NAME:synd dep d energie et d eqpt de vendee,32,Telecom & Networks,2018-07-11,48.0,True,2022-07-11,0,,77.69,,,,,attribution_award_date,none
+BOAMP:18-42613,NAME:la vendee,72,IT Services & Consulting,2018-07-19,12.0,False,2019-07-19,0,,77.43,,,,,attribution_award_date,none
+BOAMP:18-41248,NAME:saint nazaire,48,Software & Applications,2018-03-30,48.0,False,2022-03-30,1,BOAMP:23-24849,58.77,0.2509,0.201,0.0,0.1024,publication_date,tfidf_cosine
+BOAMP:18-46804,NAME:des pays de la loire,66,Software & Applications,2018-04-05,12.0,False,2019-04-05,0,,80.88,,,,,publication_date,none
+BOAMP:18-46346,NAME:universite d angers,32,Telecom & Networks,2018-04-06,36.0,False,2021-04-05,1,BOAMP:21-43310,35.87,0.4293,0.2034,0.0,0.9895,publication_date,tfidf_cosine
+BOAMP:18-41182,NAME:cdc du pays de saint gilles cx de vie,30,IT Hardware & Equipment,2018-04-08,60.0,False,2023-04-08,0,,80.78,,,,,publication_date,none
+BOAMP:18-51459,NAME:des pays de la loire,32,Telecom & Networks,2018-04-15,48.0,False,2022-04-15,1,BOAMP:22-20320,47.93,0.472,0.308,0.0,0.9942,publication_date,tfidf_cosine
+BOAMP:18-43289,NAME:ademe,72,Data & AI,2018-04-18,14.0,False,2019-06-18,0,,80.45,,,,,publication_date,none
+BOAMP:18-52389,NAME:uniha gcs,72,IT Services & Consulting,2018-04-18,12.0,False,2019-04-18,0,,80.45,,,,,publication_date,none
+BOAMP:18-55455,NAME:sdis49,72,IT Services & Consulting,2018-04-20,48.0,False,2022-04-20,0,,80.39,,,,,publication_date,none
+BOAMP:18-53378,NAME:nantes metropole,72,IT Services & Consulting,2018-04-20,48.0,False,2022-04-20,1,BOAMP:22-52027,47.77,0.9202,0.8101,1.0,0.9805,publication_date,tfidf_cosine
+BOAMP:18-52482,NAME:cdc du pays de saint gilles cx de vie,48,Software & Applications,2018-10-19,48.0,False,2022-10-19,0,,74.41,,,,,attribution_award_date,none
+BOAMP:18-54467,NAME:nantes,72,IT Services & Consulting,2018-08-21,48.0,False,2022-08-21,0,,76.35,,,,,attribution_award_date,none
+BOAMP:18-53804,NAME:nantes metropole,48,Software & Applications,2018-08-21,48.0,False,2022-08-21,1,BOAMP:21-143183,38.14,0.41,0.2484,0.5,0.1784,attribution_award_date,tfidf_cosine
+BOAMP:18-56546,NAME:nantes metropole,48,Software & Applications,2018-04-24,48.0,False,2022-04-24,1,BOAMP:22-154717,54.99,0.4989,0.351,0.5,0.4172,publication_date,tfidf_cosine
+BOAMP:18-58630,NAME:la sarthe,72,IT Services & Consulting,2018-07-02,48.0,True,2022-07-02,0,,77.99,,,,,attribution_award_date,none
+BOAMP:18-55179,NAME:carene,32,Telecom & Networks,2018-04-27,48.0,True,2022-04-27,0,,80.16,,,,,publication_date,none
+BOAMP:18-57918,NAME:agce pour l enst fr a l etranger,72,IT Services & Consulting,2018-04-27,24.0,False,2020-04-26,0,,80.16,,,,,publication_date,none
+BOAMP:18-58840,NAME:la cite des congres de nantes,30,IT Hardware & Equipment,2018-04-28,12.0,False,2019-04-28,0,,80.12,,,,,publication_date,none
+BOAMP:18-61507,NAME:ecole centrale de nantes,48,Software & Applications,2018-05-03,48.0,True,2022-05-03,0,,79.96,,,,,publication_date,none
+BOAMP:18-60154,NAME:angers loire metropole,32,Telecom & Networks,2018-12-06,12.0,False,2019-12-06,0,,72.83,,,,,attribution_award_date,none
+BOAMP:18-61256,NAME:nantes metropole,72,IT Services & Consulting,2018-07-10,48.0,False,2022-07-10,1,BOAMP:22-94454,54.83,0.6803,0.4854,1.0,0.4309,attribution_award_date,tfidf_cosine
+BOAMP:18-61655,NAME:nantes metropole,72,Cybersecurity,2018-07-10,48.0,False,2022-07-10,1,BOAMP:22-94454,54.83,0.7508,0.8491,0.7,0.4309,attribution_award_date,tfidf_cosine
+BOAMP:18-62528,NAME:la cite des congres de nantes,32,Telecom & Networks,2018-05-06,6.0,False,2018-11-04,0,,79.86,,,,,publication_date,none
+BOAMP:18-62916,NAME:cdc du pays de saint gilles cx de vie,64,Digital Workplace & Collaboration,2019-06-05,48.0,False,2023-06-05,0,,66.89,,,,,attribution_award_date,none
+BOAMP:18-66502,NAME:agce pour l enst fr a l etranger,72,IT Services & Consulting,2018-05-16,48.0,False,2022-05-16,0,,79.53,,,,,publication_date,none
+BOAMP:18-62604,NAME:nantes,72,Digital Workplace & Collaboration,2018-07-23,48.0,False,2022-07-23,1,BOAMP:22-54094,48.16,0.8583,0.8399,0.7,0.9866,attribution_award_date,tfidf_cosine
+BOAMP:18-67939,NAME:le voyage a nantes,35,Cybersecurity,2018-05-20,48.0,False,2022-05-20,0,,79.4,,,,,publication_date,none
+BOAMP:18-66863,NAME:nantes metropole,72,IT Services & Consulting,2018-08-10,12.0,False,2019-08-10,0,,76.71,,,,,attribution_award_date,none
+BOAMP:18-70110,NAME:saint nazaire,90,Unknown,2018-05-25,12.0,False,2019-05-25,1,BOAMP:18-122920,6.18,0.3896,0.3416,0.0,0.5147,publication_date,tfidf_cosine
+BOAMP:18-71355,NAME:ville du mans,72,Digital Workplace & Collaboration,2018-10-17,60.0,False,2023-10-17,0,,74.47,,,,,attribution_award_date,none
+BOAMP:18-71689,NAME:des pays de la loire,48,Software & Applications,2018-10-08,48.0,False,2022-10-08,0,,74.77,,,,,attribution_award_date,none
+BOAMP:18-72093,NAME:ccir pays de la loire,30,IT Hardware & Equipment,2018-10-23,48.0,True,2022-10-23,0,,74.28,,,,,attribution_award_date,none
+BOAMP:18-73364,NAME:carene,72,IT Services & Consulting,2018-06-01,36.0,False,2021-05-31,0,,79.01,,,,,publication_date,none
+BOAMP:18-74871,NAME:mairie du croisic,,Unknown,2018-06-01,12.0,False,2019-06-01,0,,79.01,,,,,publication_date,none
+BOAMP:18-74252,NAME:universite d angers,48,Software & Applications,2018-10-25,24.0,False,2020-10-24,1,BOAMP:20-106379,22.14,0.969,1.0,1.0,0.8452,attribution_award_date,tfidf_cosine
+BOAMP:18-76556,NAME:de nantes,72,IT Services & Consulting,2018-06-06,48.0,True,2022-06-06,1,BOAMP:21-78563,36.1,0.662,0.6506,1.0,0.0087,publication_date,tfidf_cosine
+BOAMP:18-79401,NAME:des pays de la loire,72,Cybersecurity,2018-10-09,6.0,False,2019-04-09,0,,74.74,,,,,attribution_award_date,none
+BOAMP:18-79743,NAME:lycee polyvalent leonard de vinci,32,Telecom & Networks,2018-06-11,48.0,True,2022-06-11,1,BOAMP:22-1668,42.84,0.914,1.0,1.0,0.5699,publication_date,tfidf_cosine
+BOAMP:18-80935,NAME:cmar pays de la loire,45,Unknown,2018-06-12,48.0,True,2022-06-12,0,,78.65,,,,,publication_date,none
+BOAMP:18-80158,NAME:loire atlantique,72,IT Services & Consulting,2018-06-13,12.0,False,2019-06-13,0,,78.61,,,,,publication_date,none
+BOAMP:18-79940,NAME:esat foyers,48,Software & Applications,2018-06-13,48.0,False,2022-06-13,0,,78.61,,,,,publication_date,none
+BOAMP:18-86992,NAME:ville d arnage,72,IT Services & Consulting,2018-06-22,48.0,True,2022-06-22,0,,78.32,,,,,publication_date,none
+BOAMP:18-87166,NAME:des pays de la loire,48,Software & Applications,2018-10-01,24.0,False,2020-09-30,0,,75.0,,,,,attribution_award_date,none
+BOAMP:18-87219,NAME:dir interdepartementale routes ouest,72,IT Services & Consulting,2018-06-24,12.0,False,2019-06-24,0,,78.25,,,,,publication_date,none
+BOAMP:18-87467,NAME:sna ouest,32,Telecom & Networks,2018-08-09,4.0,False,2018-12-08,0,,76.74,,,,,attribution_award_date,none
+BOAMP:18-91062,NAME:ville d arnage,48,Software & Applications,2018-06-29,48.0,True,2022-06-29,0,,78.09,,,,,publication_date,none
+BOAMP:18-89409,NAME:crous de nantes,48,Software & Applications,2018-06-29,36.0,False,2021-06-28,1,BOAMP:22-38732,46.68,0.44,0.6701,0.0,0.1098,publication_date,tfidf_cosine
+BOAMP:18-91090,NAME:angers loire metropole,48,Software & Applications,2018-06-29,48.0,False,2022-06-29,0,,78.09,,,,,publication_date,none
+BOAMP:18-90097,NAME:nantes metropole,48,Software & Applications,2019-04-05,60.0,False,2024-04-04,1,BOAMP:23-125766,53.65,0.4791,0.2751,0.5,0.4705,attribution_award_date,tfidf_cosine
+BOAMP:18-90616,NAME:cerema dtermed,72,Digital Workplace & Collaboration,2018-07-01,48.0,True,2022-07-01,0,,78.02,,,,,publication_date,none
+BOAMP:18-90932,NAME:agence regionale pays de la loire ti,72,IT Services & Consulting,2018-07-01,48.0,False,2022-07-01,0,,78.02,,,,,publication_date,none
+BOAMP:18-88858,NAME:saint nazaire,48,Software & Applications,2018-11-05,24.0,False,2020-11-04,0,,73.85,,,,,attribution_award_date,none
+BOAMP:18-91798,NAME:communes de grand lieu,,Unknown,2018-07-02,7.0,False,2019-01-31,0,,77.99,,,,,publication_date,none
+BOAMP:18-91441,NAME:cholet,48,Software & Applications,2019-01-03,48.0,True,2023-01-03,1,BOAMP:23-24020,52.2,0.4228,0.3571,0.0,0.6499,attribution_award_date,tfidf_cosine
+BOAMP:18-94803,NAME:de nantes,32,Telecom & Networks,2018-07-06,12.0,False,2019-07-06,0,,77.86,,,,,publication_date,none
+BOAMP:18-93359,NAME:spr pays de la loire,45,Unknown,2018-07-06,18.0,False,2020-01-04,1,BOAMP:18-93488,9.99,0.8664,1.0,1.0,0.3322,publication_date,tfidf_cosine
+BOAMP:18-93488,NAME:spr pays de la loire,45,Unknown,2019-05-06,18.0,False,2020-11-03,0,,67.87,,,,,attribution_award_date,none
+BOAMP:18-95630,NAME:des pays de la loire,45,Unknown,2018-07-09,48.0,True,2022-07-09,0,,77.76,,,,,publication_date,none
+BOAMP:18-96170,NAME:ctre hosp universitaire angers,45,Cloud & Infrastructure,2018-07-12,12.0,False,2019-07-12,1,BOAMP:19-37169,9.63,0.3912,0.2019,0.0,0.8021,publication_date,tfidf_cosine
+BOAMP:18-96470,NAME:loire atlantique,48,Software & Applications,2018-12-04,12.0,False,2019-12-04,0,,72.9,,,,,attribution_award_date,none
+BOAMP:18-98583,NAME:ville des sables d olonne,72,IT Services & Consulting,2018-07-13,2.0,False,2018-09-11,0,,77.63,,,,,publication_date,none
+BOAMP:18-60137,NAME:nantes,72,IT Services & Consulting,2019-04-29,48.0,False,2023-04-29,0,,68.1,,,,,attribution_award_date,none
+BOAMP:18-97260,NAME:saint nazaire,30,IT Hardware & Equipment,2018-11-29,48.0,False,2022-11-29,0,,73.06,,,,,attribution_award_date,none
+BOAMP:18-98603,NAME:reseau canope,72,Cybersecurity,2018-11-12,24.0,False,2020-11-11,0,,73.62,,,,,attribution_award_date,none
+BOAMP:18-101437,NAME:la rochelle,48,Software & Applications,2018-07-18,48.0,True,2022-07-18,0,,77.46,,,,,publication_date,none
+BOAMP:18-100479,NAME:loire atlantique developpement gie,72,IT Services & Consulting,2018-07-19,24.0,False,2020-07-18,0,,77.43,,,,,publication_date,none
+BOAMP:18-101350,NAME:nantes,30,IT Hardware & Equipment,2018-12-21,48.0,False,2022-12-21,0,,72.34,,,,,attribution_award_date,none
+BOAMP:18-101085,NAME:maine loire habitat office pub habitat,72,IT Services & Consulting,2018-12-13,60.0,False,2023-12-13,1,BOAMP:23-72834,56.6,0.7856,0.793,0.7,0.7169,attribution_award_date,tfidf_cosine
+BOAMP:18-103319,NAME:prefet de la region pays de la loire,72,IT Services & Consulting,2018-07-20,12.0,False,2019-07-20,0,,77.4,,,,,publication_date,none
+BOAMP:18-103911,NAME:nantes metropole,32,Telecom & Networks,2018-07-26,48.0,False,2022-07-26,1,BOAMP:22-102623,47.93,0.9527,0.8846,1.0,0.9942,publication_date,tfidf_cosine
+BOAMP:18-105237,NAME:des pays de la loire,35,Cybersecurity,2018-07-26,12.0,False,2019-07-26,1,BOAMP:19-32405,11.04,0.8886,0.7616,1.0,0.9198,publication_date,tfidf_cosine
+BOAMP:18-110962,NAME:regie dept passages d eau de vendee,72,IT Services & Consulting,2018-08-02,48.0,True,2022-08-02,1,BOAMP:21-135182,38.21,0.8368,1.0,1.0,0.1839,publication_date,tfidf_cosine
+BOAMP:18-110102,NAME:challans,48,Software & Applications,2018-10-23,12.0,False,2019-10-23,0,,74.28,,,,,attribution_award_date,none
+BOAMP:18-117157,NAME:le mans,72,IT Services & Consulting,2018-08-20,12.0,False,2019-08-20,1,BOAMP:19-46630,7.13,0.3625,0.2342,0.0,0.5941,publication_date,tfidf_cosine
+BOAMP:18-110801,NAME:cte reg peches maritimes elevages mari,48,Software & Applications,2018-08-21,48.0,True,2022-08-21,0,,76.35,,,,,publication_date,none
+BOAMP:18-114671,NAME:sainte luce sur loire,45,Unknown,2018-08-23,16.0,False,2019-12-23,0,,76.28,,,,,publication_date,none
+BOAMP:18-120601,NAME:de nantes,72,IT Services & Consulting,2018-08-28,12.0,False,2019-08-28,0,,76.12,,,,,publication_date,none
+BOAMP:18-121819,NAME:de nantes,72,IT Services & Consulting,2018-08-30,48.0,True,2022-08-30,1,BOAMP:22-87982,45.76,0.8362,0.6839,1.0,0.8135,publication_date,tfidf_cosine
+BOAMP:18-122920,NAME:saint nazaire,72,IT Services & Consulting,2018-11-29,48.0,False,2022-11-29,1,BOAMP:23-24849,50.76,0.5633,0.2106,0.7,0.7704,attribution_award_date,tfidf_cosine
+BOAMP:18-123694,NAME:la sarthe,72,IT Services & Consulting,2018-09-04,48.0,True,2022-09-04,1,BOAMP:21-138241,40.57,0.7944,0.7956,1.0,0.381,publication_date,tfidf_cosine
+BOAMP:18-124536,NAME:le pouliguen,35,Cybersecurity,2018-09-06,12.0,False,2019-09-06,0,,75.82,,,,,publication_date,none
+BOAMP:18-125586,NAME:agce pour l enst fr a l etranger,72,IT Services & Consulting,2018-09-07,48.0,False,2022-09-07,0,,75.79,,,,,publication_date,none
+BOAMP:18-125410,NAME:association songo,32,Telecom & Networks,2018-09-07,48.0,True,2022-09-07,0,,75.79,,,,,publication_date,none
+BOAMP:18-126368,NAME:la sarthe,72,IT Services & Consulting,2018-11-12,48.0,True,2022-11-12,1,BOAMP:22-77622,46.68,0.978,1.0,1.0,0.8902,attribution_award_date,tfidf_cosine
+BOAMP:18-126631,NAME:la mayenne,42,Unknown,2018-09-11,48.0,False,2022-09-11,0,,75.66,,,,,publication_date,none
+BOAMP:18-127908,NAME:la sarthe,72,IT Services & Consulting,2018-09-13,48.0,True,2022-09-13,1,BOAMP:22-60784,46.48,0.7362,0.4037,1.0,0.8737,publication_date,tfidf_cosine
+BOAMP:18-127661,NAME:ccir pays de la loire,72,IT Services & Consulting,2018-09-13,48.0,True,2022-09-13,0,,75.59,,,,,publication_date,none
+BOAMP:18-126992,NAME:esat foyers,48,Software & Applications,2018-09-13,48.0,False,2022-09-13,0,,75.59,,,,,publication_date,none
+BOAMP:18-127511,NAME:le mans,35,Cybersecurity,2019-02-20,48.0,True,2023-02-20,1,BOAMP:22-148365,51.35,0.6627,0.9212,0.0,0.7211,attribution_award_date,tfidf_cosine
+BOAMP:18-127938,NAME:loire atlantique,45,Unknown,2018-09-15,20.0,False,2020-05-15,0,,75.53,,,,,publication_date,none
+BOAMP:18-128159,NAME:nantes metropole,72,IT Services & Consulting,2018-09-15,48.0,False,2022-09-15,0,,75.53,,,,,publication_date,none
+BOAMP:18-128655,NAME:des pays de la loire,72,IT Services & Consulting,2019-01-11,48.0,False,2023-01-11,1,BOAMP:23-20260,49.05,0.5614,0.2596,0.5,0.9127,attribution_award_date,tfidf_cosine
+BOAMP:18-128950,NAME:universite d angers,32,Telecom & Networks,2019-01-17,48.0,False,2023-01-17,1,BOAMP:22-150817,50.36,0.85,0.7234,1.0,0.8032,attribution_award_date,tfidf_cosine
+BOAMP:18-129941,NAME:bretagne developpement innovation,72,IT Services & Consulting,2018-09-20,24.0,False,2020-09-19,0,,75.36,,,,,publication_date,none
+BOAMP:18-129881,NAME:laval agglomeration,48,Software & Applications,2018-12-10,48.0,False,2022-12-10,0,,72.7,,,,,attribution_award_date,none
+BOAMP:18-133090,NAME:la vendee,72,IT Services & Consulting,2019-01-09,24.0,False,2021-01-08,1,BOAMP:20-155309,26.02,0.8831,0.7918,1.0,0.8318,attribution_award_date,tfidf_cosine
+BOAMP:18-134465,NAME:44,35,Cybersecurity,2018-01-03,12.0,False,2019-01-03,0,,83.9,,,,,attribution_award_date,none
+BOAMP:18-135728,NAME:sec gal pour l adm min interieur ouest,45,Unknown,2019-12-13,34.0,False,2022-10-12,0,,60.61,,,,,attribution_award_date,none
+BOAMP:18-125716,NAME:mancelle d habitation,72,IT Services & Consulting,2019-03-29,36.0,False,2022-03-28,0,,69.12,,,,,attribution_award_date,none
+BOAMP:18-137958,NAME:le grand t theatre loire atlantique,72,IT Services & Consulting,2018-10-03,48.0,True,2022-10-03,0,,74.93,,,,,publication_date,none
+BOAMP:18-137945,NAME:ville d ecouflant,,Cloud & Infrastructure,2018-10-03,3.0,False,2019-01-02,0,,74.93,,,,,publication_date,none
+BOAMP:18-139266,NAME:semitan mandataire de la cun,72,IT Services & Consulting,2019-03-01,54.0,False,2023-08-30,0,,70.04,,,,,attribution_award_date,none
+BOAMP:18-141219,NAME:institut regional administration lyon,48,Software & Applications,2018-10-09,48.0,True,2022-10-09,1,BOAMP:21-150615,37.19,0.3071,0.3432,0.0,0.099,publication_date,tfidf_cosine
+BOAMP:18-144441,NAME:cap atlantique,30,IT Hardware & Equipment,2018-10-17,12.0,False,2019-10-17,0,,74.47,,,,,publication_date,none
+BOAMP:18-144285,NAME:agce pour l enst fr a l etranger,72,IT Services & Consulting,2019-02-12,48.0,False,2023-02-12,0,,70.6,,,,,attribution_award_date,none
+BOAMP:18-146310,NAME:pornichet,45,Unknown,2018-10-18,48.0,True,2022-10-18,0,,74.44,,,,,publication_date,none
+BOAMP:18-146639,NAME:le mans metropole communaute urbaine,39,Unknown,2019-03-26,12.0,False,2020-03-25,1,BOAMP:20-16573,10.32,0.4069,0.2125,0.0,0.8596,attribution_award_date,tfidf_cosine
+BOAMP:18-146489,NAME:universite d angers,32,Telecom & Networks,2018-10-20,48.0,False,2022-10-20,1,BOAMP:22-131126,47.4,0.6987,0.2716,1.0,0.9504,publication_date,tfidf_cosine
+BOAMP:18-146220,NAME:spr pays de la loire,45,Unknown,2018-10-20,3.0,False,2019-01-19,0,,74.38,,,,,publication_date,none
+BOAMP:18-146989,NAME:metropole nantes metropole,48,Software & Applications,2018-10-22,48.0,True,2022-10-22,1,BOAMP:22-50379,41.59,0.4832,0.2877,0.5,0.4658,publication_date,tfidf_cosine
+BOAMP:18-148384,NAME:ccir pays de la loire,72,IT Services & Consulting,2018-12-26,48.0,False,2022-12-26,0,,72.17,,,,,attribution_award_date,none
+BOAMP:18-149889,NAME:la rochelle,48,Software & Applications,2018-10-26,48.0,False,2022-10-26,0,,74.18,,,,,publication_date,none
+BOAMP:18-149893,NAME:loire atlantique,72,IT Maintenance & Support,2018-10-26,12.0,False,2019-10-26,0,,74.18,,,,,publication_date,none
+BOAMP:18-150422,NAME:des pays de la loire,72,Digital Workplace & Collaboration,2018-10-27,24.0,False,2020-10-26,0,,74.15,,,,,publication_date,none
+BOAMP:18-150889,NAME:la vendee,48,Software & Applications,2019-02-25,48.0,True,2023-02-25,0,,70.17,,,,,attribution_award_date,none
+BOAMP:18-151695,NAME:agce pour l enst fr a l etranger,72,IT Services & Consulting,2018-10-28,24.0,False,2020-10-27,0,,74.11,,,,,publication_date,none
+BOAMP:18-152399,NAME:la sarthe,35,Cybersecurity,2019-02-25,48.0,False,2023-02-25,1,BOAMP:23-137663,55.29,0.3878,0.2108,0.3,0.3926,attribution_award_date,tfidf_cosine
+BOAMP:18-153394,NAME:vertou,32,Telecom & Networks,2018-10-31,48.0,True,2022-10-31,0,,74.01,,,,,publication_date,none
+BOAMP:18-153265,NAME:semitan,48,Software & Applications,2019-05-17,24.0,False,2021-05-16,0,,67.51,,,,,attribution_award_date,none
+BOAMP:18-154720,NAME:communes pays flechois,45,Unknown,2018-11-05,48.0,True,2022-11-05,0,,73.85,,,,,publication_date,none
+BOAMP:18-154770,NAME:la sarthe,32,Telecom & Networks,2018-11-05,48.0,False,2022-11-05,1,BOAMP:21-157552,36.86,0.2756,0.2782,0.0,0.0716,publication_date,tfidf_cosine
+BOAMP:18-154990,NAME:de la mayenne,48,Software & Applications,2018-11-10,48.0,False,2022-11-10,0,,73.69,,,,,publication_date,none
+BOAMP:18-157794,NAME:communaute communes pays de redon,48,Software & Applications,2018-11-12,48.0,True,2022-11-12,0,,73.62,,,,,publication_date,none
+BOAMP:18-158821,NAME:mindef sga dcsid esid bordeaux,45,Data & AI,2018-11-13,48.0,True,2022-11-13,0,,73.59,,,,,publication_date,none
+BOAMP:18-159087,NAME:universite d angers,,Cloud & Infrastructure,2018-11-14,11.0,False,2019-10-14,1,BOAMP:19-82021,6.27,0.7446,0.8708,0.5,0.6062,publication_date,tfidf_cosine
+BOAMP:18-159101,NAME:de nantes,48,Software & Applications,2018-11-14,48.0,True,2022-11-14,1,BOAMP:23-42778,52.53,0.4146,0.3503,0.0,0.6225,publication_date,tfidf_cosine
+BOAMP:18-158087,NAME:sm megalis,32,Telecom & Networks,2018-11-15,36.0,False,2021-11-14,0,,73.52,,,,,publication_date,none
+BOAMP:18-160377,NAME:de la sarthe,48,Software & Applications,2019-03-29,48.0,True,2023-03-29,0,,69.12,,,,,attribution_award_date,none
+BOAMP:18-163164,NAME:sisto,44,Data & AI,2018-11-22,48.0,True,2022-11-22,0,,73.29,,,,,publication_date,none
+BOAMP:18-165012,NAME:le mans,32,Telecom & Networks,2018-11-26,12.0,False,2019-11-26,0,,73.16,,,,,publication_date,none
+BOAMP:18-167367,NAME:si energies de maine et loire,48,Software & Applications,2018-11-30,48.0,False,2022-11-30,0,,73.03,,,,,publication_date,none
+BOAMP:18-166821,NAME:cnieg,72,Digital Workplace & Collaboration,2019-03-08,12.0,False,2020-03-07,1,BOAMP:20-64610,18.5,0.5302,0.2835,0.7,0.4587,attribution_award_date,tfidf_cosine
+BOAMP:18-167431,NAME:cnieg,72,IT Maintenance & Support,2019-03-08,24.0,False,2021-03-07,0,,69.81,,,,,attribution_award_date,none
+BOAMP:18-168544,NAME:nantes metropole,35,Cybersecurity,2019-03-19,12.0,False,2020-03-18,1,BOAMP:19-156899,10.15,0.5924,0.2456,0.7,0.8459,attribution_award_date,tfidf_cosine
+BOAMP:18-169881,NAME:loire ocean metropole amenagement,45,Unknown,2018-12-06,35.0,False,2021-11-05,0,,72.83,,,,,publication_date,none
+BOAMP:18-170789,NAME:ctre hosp universitaire angers,32,Telecom & Networks,2019-04-19,48.0,False,2023-04-19,0,,68.43,,,,,attribution_award_date,none
+BOAMP:18-171623,NAME:le mans,32,Telecom & Networks,2018-12-10,48.0,True,2022-12-10,0,,72.7,,,,,publication_date,none
+BOAMP:18-173792,NAME:si energies de maine et loire,48,Software & Applications,2018-12-13,48.0,True,2022-12-13,0,,72.6,,,,,publication_date,none
+BOAMP:18-173960,NAME:cnieg,72,IT Services & Consulting,2018-12-15,24.0,False,2020-12-14,0,,72.54,,,,,publication_date,none
+BOAMP:18-174875,NAME:nantes metropole,72,IT Services & Consulting,2018-12-18,48.0,False,2022-12-18,0,,72.44,,,,,publication_date,none
+BOAMP:18-177619,NAME:ville du mans,72,IT Services & Consulting,2019-02-27,9.0,False,2019-11-27,0,,70.11,,,,,attribution_award_date,none
+BOAMP:18-175843,NAME:gie des epl de vendee,72,IT Services & Consulting,2019-03-20,12.0,False,2020-03-19,0,,69.42,,,,,attribution_award_date,none
+BOAMP:18-177187,NAME:gie des epl de vendee,72,IT Services & Consulting,2019-06-12,12.0,False,2020-06-11,0,,66.66,,,,,attribution_award_date,none
+BOAMP:18-177300,NAME:pornic,51,Unknown,2018-12-22,24.0,False,2020-12-21,0,,72.31,,,,,publication_date,none
+BOAMP:18-179065,NAME:agce pour l enst fr a l etranger,72,IT Services & Consulting,2019-03-25,48.0,False,2023-03-25,0,,69.25,,,,,attribution_award_date,none
+BOAMP:18-180161,NAME:ctre hosp universitaire angers,32,Telecom & Networks,2019-03-08,12.0,False,2020-03-07,1,BOAMP:20-6008,15.08,0.4189,0.3005,0.0,0.7434,attribution_award_date,tfidf_cosine
+BOAMP:18-173397,NAME:syndicat trivalis,,Data & AI,2018-12-26,48.0,True,2022-12-26,0,,72.17,,,,,publication_date,none
+BOAMP:19-3707,NAME:le mans,48,Software & Applications,2019-01-09,36.0,False,2022-01-08,1,BOAMP:21-139293,37.98,0.5939,0.3797,0.5,0.8353,publication_date,tfidf_cosine
+BOAMP:19-1779,NAME:des pays de la loire,72,Digital Workplace & Collaboration,2019-05-14,12.0,False,2020-05-13,0,,67.61,,,,,attribution_award_date,none
+BOAMP:19-3078,NAME:laval agglomeration,45,Unknown,2019-01-10,22.0,False,2020-11-09,0,,71.68,,,,,publication_date,none
+BOAMP:19-2530,NAME:ctre national d enst a distance,72,Cybersecurity,2019-01-10,12.0,False,2020-01-10,0,,71.68,,,,,publication_date,none
+BOAMP:19-8964,NAME:la sarthe,72,IT Services & Consulting,2019-01-17,48.0,True,2023-01-17,1,BOAMP:21-138241,36.14,0.4478,0.3012,0.7,0.0114,publication_date,tfidf_cosine
+BOAMP:19-8916,NAME:angers loire metropole,48,Software & Applications,2019-01-17,12.0,False,2020-01-17,0,,71.45,,,,,publication_date,none
+BOAMP:19-9782,NAME:com d agglo reg nazairienne estuaire,72,IT Services & Consulting,2019-01-18,12.0,False,2020-01-18,0,,71.42,,,,,publication_date,none
+BOAMP:19-7404,NAME:dir interdepartementale routes ouest,72,IT Services & Consulting,2020-06-04,12.0,False,2021-06-04,0,,54.89,,,,,attribution_award_date,none
+BOAMP:19-8820,NAME:agce pour l enst fr a l etranger,72,IT Services & Consulting,2019-06-25,24.0,False,2021-06-24,0,,66.23,,,,,attribution_award_date,none
+BOAMP:19-10579,NAME:ville d angers,35,Cybersecurity,2019-01-21,48.0,False,2023-01-21,0,,71.32,,,,,publication_date,none
+BOAMP:19-10428,NAME:la vendee,35,Cybersecurity,2019-05-16,12.0,False,2020-05-15,0,,67.54,,,,,attribution_award_date,none
+BOAMP:19-12872,NAME:communaute d agglomeration du niortais,48,Software & Applications,2019-01-24,48.0,False,2023-01-24,0,,71.22,,,,,publication_date,none
+BOAMP:19-13483,NAME:oniris,48,Software & Applications,2020-04-02,8.0,False,2020-12-01,0,,56.96,,,,,attribution_award_date,none
+BOAMP:19-16528,NAME:cdc du pays de saint gilles cx de vie,71,Unknown,2019-01-31,36.0,False,2022-01-30,0,,70.99,,,,,publication_date,none
+BOAMP:19-15670,NAME:ctre hosp universitaire angers,72,IT Services & Consulting,2019-07-30,48.0,False,2023-07-30,1,BOAMP:22-114884,36.83,0.3102,0.3661,0.0,0.0689,attribution_award_date,tfidf_cosine
+BOAMP:19-16942,NAME:nantes metropole,72,IT Services & Consulting,2019-04-29,48.0,False,2023-04-29,0,,68.1,,,,,attribution_award_date,none
+BOAMP:19-17531,NAME:association songo,32,Telecom & Networks,2019-05-09,6.0,False,2019-11-07,0,,67.77,,,,,attribution_award_date,none
+BOAMP:19-17058,NAME:des pays de la loire,72,IT Services & Consulting,2019-05-24,12.0,False,2020-05-23,0,,67.28,,,,,attribution_award_date,none
+BOAMP:19-15197,NAME:syndicat trivalis,,Unknown,2019-02-04,48.0,True,2023-02-04,0,,70.86,,,,,publication_date,none
+BOAMP:19-18202,NAME:villemomble,35,Cybersecurity,2019-02-04,48.0,False,2023-02-04,0,,70.86,,,,,publication_date,none
+BOAMP:19-18263,NAME:la sarthe,72,IT Services & Consulting,2019-07-30,12.0,False,2020-07-29,0,,65.08,,,,,attribution_award_date,none
+BOAMP:19-17307,NAME:nantes,44,Unknown,2019-02-06,48.0,False,2023-02-06,0,,70.8,,,,,publication_date,none
+BOAMP:19-21081,NAME:beaucouze,32,Telecom & Networks,2019-03-27,24.0,False,2021-03-26,0,,69.19,,,,,attribution_award_date,none
+BOAMP:19-22390,NAME:agrocampus ouest,48,Software & Applications,2019-05-21,24.0,False,2021-05-20,0,,67.38,,,,,attribution_award_date,none
+BOAMP:19-22007,NAME:smictom de la vallee de l authion,45,Unknown,2019-02-13,9.0,False,2019-11-13,0,,70.57,,,,,publication_date,none
+BOAMP:19-21908,NAME:loire atlantique,35,Cybersecurity,2019-02-13,12.0,False,2020-02-13,0,,70.57,,,,,publication_date,none
+BOAMP:19-27651,NAME:comm comm de doue la fontaine,48,Software & Applications,2019-02-20,48.0,True,2023-02-20,0,,70.34,,,,,publication_date,none
+BOAMP:19-28845,NAME:la mayenne,72,Digital Workplace & Collaboration,2019-02-21,48.0,False,2023-02-21,0,,70.3,,,,,publication_date,none
+BOAMP:19-33752,NAME:chbr reg metiers artisanat nouv aquit,72,IT Services & Consulting,2019-03-01,48.0,True,2023-03-01,0,,70.04,,,,,publication_date,none
+BOAMP:19-32405,NAME:des pays de la loire,35,Cybersecurity,2019-06-27,12.0,False,2020-06-26,0,,66.16,,,,,attribution_award_date,none
+BOAMP:19-34598,NAME:gpm de nantes st nazaire,72,IT Services & Consulting,2019-03-05,48.0,True,2023-03-05,1,BOAMP:23-101411,52.4,0.5482,0.2412,0.7,0.6335,publication_date,tfidf_cosine
+BOAMP:19-34512,NAME:ministere des affaires etrangeres,32,Telecom & Networks,2019-03-06,6.0,False,2019-09-04,0,,69.88,,,,,publication_date,none
+BOAMP:19-35566,NAME:angers loire metropole,72,IT Services & Consulting,2019-03-07,48.0,True,2023-03-07,1,BOAMP:22-15069,38.21,0.2683,0.2037,0.0,0.1839,publication_date,tfidf_cosine
+BOAMP:19-35540,NAME:maine et loire,72,Cybersecurity,2019-07-03,30.0,False,2022-01-01,0,,65.97,,,,,attribution_award_date,none
+BOAMP:19-37169,NAME:ctre hosp universitaire angers,32,Telecom & Networks,2019-05-01,12.0,False,2020-04-30,1,BOAMP:20-6008,13.3,0.4485,0.3005,0.0,0.8913,attribution_award_date,tfidf_cosine
+BOAMP:19-36958,NAME:nantes metropole,72,Cybersecurity,2019-05-29,48.0,False,2023-05-29,1,BOAMP:22-108057,38.27,0.8067,0.922,1.0,0.1893,attribution_award_date,tfidf_cosine
+BOAMP:19-39464,NAME:universite du maine,64,Cybersecurity,2019-06-19,12.0,False,2020-06-18,0,,66.43,,,,,attribution_award_date,none
+BOAMP:19-39750,NAME:gpm de nantes st nazaire,32,Telecom & Networks,2019-11-05,48.0,True,2023-11-05,0,,61.86,,,,,attribution_award_date,none
+BOAMP:19-41115,NAME:prefet de la region pays de la loire,31,Unknown,2019-06-11,24.0,False,2021-06-10,0,,66.69,,,,,attribution_award_date,none
+BOAMP:19-43213,NAME:ctre hosp universitaire angers,72,IT Services & Consulting,2019-03-20,48.0,True,2023-03-20,0,,69.42,,,,,publication_date,none
+BOAMP:19-46630,NAME:le mans,35,Cybersecurity,2019-03-25,18.0,False,2020-09-22,1,BOAMP:20-70746,18.73,0.5028,0.4123,0.0,0.9396,publication_date,tfidf_cosine
+BOAMP:19-47604,NAME:sgami ouest bzamp,45,Telecom & Networks,2019-03-26,12.0,False,2020-03-25,0,,69.22,,,,,publication_date,none
+BOAMP:19-48376,NAME:gpm de nantes st nazaire,32,Telecom & Networks,2019-08-12,48.0,False,2023-08-12,0,,64.65,,,,,attribution_award_date,none
+BOAMP:19-51014,NAME:ministere des affaires etrangeres,32,IT Hardware & Equipment,2019-03-29,12.0,False,2020-03-28,0,,69.12,,,,,publication_date,none
+BOAMP:19-50622,NAME:iphv les hauts thebaudieres,72,IT Services & Consulting,2019-03-29,48.0,True,2023-03-29,0,,69.12,,,,,publication_date,none
+BOAMP:19-49300,NAME:cholet,32,Telecom & Networks,2019-07-08,24.0,False,2021-07-07,0,,65.8,,,,,attribution_award_date,none
+BOAMP:19-50035,NAME:rennes 1,32,IT Hardware & Equipment,2019-03-30,12.0,False,2020-03-29,0,,69.09,,,,,publication_date,none
+BOAMP:19-51024,NAME:ville d ancenis saint gereon,35,Cybersecurity,2019-07-11,48.0,True,2023-07-11,0,,65.7,,,,,attribution_award_date,none
+BOAMP:19-51224,NAME:gie sesam vitale,48,Software & Applications,2020-03-03,36.0,False,2023-03-03,0,,57.95,,,,,attribution_award_date,none
+BOAMP:19-51855,NAME:la vendee,39,Cybersecurity,2019-04-01,12.0,False,2020-03-31,0,,69.02,,,,,publication_date,none
+BOAMP:19-52455,NAME:ars pays de la loire,48,Cloud & Infrastructure,2019-05-22,12.0,False,2020-05-21,0,,67.35,,,,,attribution_award_date,none
+BOAMP:19-48030,NAME:maine et loire,72,IT Services & Consulting,2019-07-02,48.0,False,2023-07-02,1,BOAMP:23-43054,47.01,0.9537,0.9254,1.0,0.9175,attribution_award_date,tfidf_cosine
+BOAMP:19-53794,NAME:maine et loire,48,Software & Applications,2019-04-05,48.0,True,2023-04-05,1,BOAMP:23-106776,51.71,0.5198,0.2665,0.5,0.691,publication_date,tfidf_cosine
+BOAMP:19-56150,NAME:des pays de la loire,48,Software & Applications,2019-04-10,48.0,False,2023-04-10,1,BOAMP:22-40744,38.37,0.7145,1.0,0.5,0.1975,publication_date,tfidf_cosine
+BOAMP:19-55808,NAME:gcs e sante pays de la loire,72,IT Services & Consulting,2019-06-19,48.0,False,2023-06-19,0,,66.43,,,,,attribution_award_date,none
+BOAMP:19-56876,NAME:loire atlantique,45,Unknown,2019-04-11,24.0,False,2021-04-10,0,,68.69,,,,,publication_date,none
+BOAMP:19-55110,NAME:nantes metropole,48,Software & Applications,2019-04-11,48.0,True,2023-04-11,1,BOAMP:23-60788,48.75,0.7375,1.0,0.0,0.9374,publication_date,tfidf_cosine
+BOAMP:19-62635,NAME:la roche sur yon,50,Cybersecurity,2019-10-18,48.0,False,2023-10-18,0,,62.45,,,,,attribution_award_date,none
+BOAMP:19-64938,NAME:cholet,32,Telecom & Networks,2019-04-24,48.0,False,2023-04-24,1,BOAMP:23-24020,48.55,0.5934,0.4441,0.3,0.9538,publication_date,tfidf_cosine
+BOAMP:19-54309,NAME:loire atlantique,32,Telecom & Networks,2020-06-22,48.0,True,2024-06-22,0,,54.3,,,,,attribution_award_date,none
+BOAMP:19-66871,NAME:communes de grand lieu,72,IT Services & Consulting,2019-04-26,48.0,False,2023-04-26,0,,68.2,,,,,publication_date,none
+BOAMP:19-66602,NAME:ctre hosp universitaire angers,48,Software & Applications,2019-04-26,48.0,True,2023-04-26,0,,68.2,,,,,publication_date,none
+BOAMP:19-69736,NAME:nantes metropole,32,Telecom & Networks,2019-05-05,48.0,True,2023-05-05,0,,67.9,,,,,publication_date,none
+BOAMP:19-70735,NAME:la sarthe,30,IT Hardware & Equipment,2019-08-02,48.0,True,2023-08-02,1,BOAMP:23-137663,50.1,0.8133,0.8082,0.7,0.8251,attribution_award_date,tfidf_cosine
+BOAMP:19-71182,NAME:dir ouest,32,Telecom & Networks,2019-10-03,48.0,False,2023-10-03,1,BOAMP:23-73840,48.46,0.7061,0.9092,0.0,0.962,attribution_award_date,tfidf_cosine
+BOAMP:19-67059,NAME:nantes metropole,48,Software & Applications,2019-05-08,48.0,False,2023-05-08,0,,67.81,,,,,publication_date,none
+BOAMP:19-71679,NAME:la sarthe,64,Digital Workplace & Collaboration,2019-08-02,48.0,False,2023-08-02,1,BOAMP:23-56040,44.78,0.387,0.2267,0.0,0.7314,attribution_award_date,tfidf_cosine
+BOAMP:19-75615,NAME:44,72,IT Maintenance & Support,2019-05-14,48.0,True,2023-05-14,0,,67.61,,,,,publication_date,none
+BOAMP:19-75795,NAME:vendee eau,72,Cybersecurity,2019-05-15,48.0,True,2023-05-15,1,BOAMP:22-100677,41.85,0.4579,0.2134,0.5,0.4877,publication_date,tfidf_cosine
+BOAMP:19-74485,NAME:nantes metropole,72,IT Services & Consulting,2019-08-01,48.0,False,2023-08-01,1,BOAMP:23-37068,49.93,0.8811,0.7833,1.0,0.8388,attribution_award_date,tfidf_cosine
+BOAMP:19-78493,NAME:ctre hosp universitaire angers,32,Telecom & Networks,2019-05-20,48.0,True,2023-05-20,0,,67.41,,,,,publication_date,none
+BOAMP:19-78854,NAME:vendee habitat oph de vendee,64,Digital Workplace & Collaboration,2019-08-06,12.0,False,2020-08-05,0,,64.85,,,,,attribution_award_date,none
+BOAMP:19-80774,NAME:ville du mans,,Unknown,2019-05-23,24.0,False,2021-05-22,1,BOAMP:21-103746,26.12,0.6935,0.6346,0.5,0.8236,publication_date,tfidf_cosine
+BOAMP:19-80016,NAME:universite du maine,32,Telecom & Networks,2019-10-10,24.0,False,2021-10-09,0,,62.71,,,,,attribution_award_date,none
+BOAMP:19-81470,NAME:loire atlantique,32,Telecom & Networks,2019-05-24,12.0,False,2020-05-23,0,,67.28,,,,,publication_date,none
+BOAMP:19-82021,NAME:universite d angers,45,Cloud & Infrastructure,2019-05-24,11.0,False,2020-04-22,0,,67.28,,,,,publication_date,none
+BOAMP:19-80203,NAME:nantes,32,Telecom & Networks,2019-05-24,48.0,False,2023-05-24,0,,67.28,,,,,publication_date,none
+BOAMP:19-79147,NAME:la roche sur yon agglomeration,45,Unknown,2019-05-26,19.0,False,2020-12-24,1,BOAMP:21-63730,28.42,0.3589,0.4145,0.0,0.2153,publication_date,tfidf_cosine
+BOAMP:19-85688,NAME:angers loire metropole,72,IT Services & Consulting,2019-12-09,24.0,False,2021-12-08,0,,60.74,,,,,attribution_award_date,none
+BOAMP:19-87143,NAME:reze,,Software & Applications,2019-06-05,48.0,False,2023-06-05,0,,66.89,,,,,publication_date,none
+BOAMP:19-87510,NAME:gpm de nantes st nazaire,48,Software & Applications,2019-06-06,48.0,True,2023-06-06,1,BOAMP:22-92345,39.55,0.5466,0.2185,1.0,0.2961,publication_date,tfidf_cosine
+BOAMP:19-87023,NAME:sec gal pour l adm min interieur ouest,45,Unknown,2019-12-16,34.0,False,2022-10-15,0,,60.51,,,,,attribution_award_date,none
+BOAMP:19-88976,NAME:com d agglo reg nazairienne estuaire,35,Cybersecurity,2019-09-20,5.0,False,2020-02-19,0,,63.37,,,,,attribution_award_date,none
+BOAMP:19-91357,NAME:verrieres en anjou,45,Data & AI,2019-06-14,11.0,False,2020-05-13,0,,66.59,,,,,publication_date,none
+BOAMP:19-90615,NAME:saint nazaire,50,Telecom & Networks,2019-06-14,48.0,False,2023-06-14,0,,66.59,,,,,publication_date,none
+BOAMP:19-91082,NAME:maine et loire,32,Telecom & Networks,2019-06-16,12.0,False,2020-06-15,1,BOAMP:19-185581,6.14,0.7774,1.0,0.5,0.5119,publication_date,tfidf_cosine
+BOAMP:19-93739,NAME:communaute d agglomeration du niortais,48,Software & Applications,2019-06-20,48.0,False,2023-06-20,0,,66.39,,,,,publication_date,none
+BOAMP:19-95263,NAME:coulaines,72,IT Services & Consulting,2019-06-20,48.0,True,2023-06-20,0,,66.39,,,,,publication_date,none
+BOAMP:19-97686,NAME:synd dep d energie et d eqpt de vendee,48,Software & Applications,2020-02-10,48.0,False,2024-02-10,0,,58.67,,,,,attribution_award_date,none
+BOAMP:19-99589,NAME:bauge en anjou,72,IT Services & Consulting,2019-09-24,48.0,False,2023-09-24,0,,63.24,,,,,attribution_award_date,none
+BOAMP:19-100067,NAME:sec gal pour l adm min interieur ouest,,Unknown,2019-06-30,48.0,True,2023-06-30,0,,66.06,,,,,publication_date,none
+BOAMP:19-99928,NAME:sec gal pour l adm min interieur ouest,,Unknown,2019-06-30,10.0,False,2020-04-29,1,BOAMP:21-12643,18.96,0.4127,0.2175,0.5,0.2537,publication_date,tfidf_cosine
+BOAMP:19-103125,NAME:cnieg,72,IT Services & Consulting,2019-07-04,12.0,False,2020-07-03,0,,65.93,,,,,publication_date,none
+BOAMP:19-103833,NAME:metropole nantes metropole,48,Software & Applications,2019-07-05,4.0,False,2019-11-03,0,,65.9,,,,,publication_date,none
+BOAMP:19-104228,NAME:saint herblain,72,IT Services & Consulting,2019-07-05,48.0,True,2023-07-05,1,BOAMP:23-171468,53.12,0.6143,0.2491,1.0,0.5733,publication_date,tfidf_cosine
+BOAMP:19-102776,NAME:reze,48,Software & Applications,2019-11-06,48.0,True,2023-11-06,0,,61.83,,,,,attribution_award_date,none
+BOAMP:19-103897,NAME:la mayenne,72,IT Services & Consulting,2019-10-21,48.0,False,2023-10-21,1,BOAMP:23-168051,49.34,0.6199,0.2932,0.7,0.8881,attribution_award_date,tfidf_cosine
+BOAMP:19-105133,NAME:chateau gontier,35,Cybersecurity,2019-07-10,12.0,False,2020-07-09,0,,65.74,,,,,publication_date,none
+BOAMP:19-105083,NAME:nantes metropole,48,Software & Applications,2019-07-10,48.0,False,2023-07-10,0,,65.74,,,,,publication_date,none
+BOAMP:19-106429,NAME:ccir pays de la loire,48,Software & Applications,2019-10-21,48.0,False,2023-10-21,0,,62.35,,,,,attribution_award_date,none
+BOAMP:19-106682,NAME:gie loire ocean,72,IT Services & Consulting,2019-11-21,12.0,False,2020-11-20,0,,61.33,,,,,attribution_award_date,none
+BOAMP:19-108442,NAME:vendee,72,IT Services & Consulting,2019-12-17,12.0,False,2020-12-16,0,,60.48,,,,,attribution_award_date,none
+BOAMP:19-110311,NAME:epf de la vendee,72,IT Services & Consulting,2019-07-16,48.0,True,2023-07-16,0,,65.54,,,,,publication_date,none
+BOAMP:19-109687,NAME:semitan mandataire de nantes metropole,48,Software & Applications,2020-10-08,36.0,False,2023-10-08,0,,50.76,,,,,attribution_award_date,none
+BOAMP:19-111839,NAME:loire atlantique,64,Telecom & Networks,2019-07-20,12.0,False,2020-07-19,0,,65.41,,,,,publication_date,none
+BOAMP:19-112517,NAME:gip vendee numerique,71,Unknown,2019-10-07,24.0,False,2021-10-06,0,,62.81,,,,,attribution_award_date,none
+BOAMP:19-114079,NAME:baie de somme habitat,72,Cybersecurity,2019-09-27,48.0,False,2023-09-27,0,,63.14,,,,,attribution_award_date,none
+BOAMP:19-115344,NAME:fondation partenariale polytech,32,Telecom & Networks,2020-04-16,48.0,True,2024-04-16,0,,56.5,,,,,attribution_award_date,none
+BOAMP:19-117328,NAME:ctre hosp universitaire angers,72,IT Services & Consulting,2019-07-26,48.0,True,2023-07-26,1,BOAMP:23-96123,47.44,0.4361,0.2387,0.0,0.9531,publication_date,tfidf_cosine
+BOAMP:19-118102,NAME:le mans,32,Telecom & Networks,2019-11-28,48.0,False,2023-11-28,0,,61.1,,,,,attribution_award_date,none
+BOAMP:19-118142,NAME:comcom estuaire et sillon,71,Unknown,2019-11-29,48.0,True,2023-11-29,0,,61.07,,,,,attribution_award_date,none
+BOAMP:19-109269,NAME:nantes,35,Cybersecurity,2019-08-02,24.0,False,2021-08-01,0,,64.98,,,,,publication_date,none
+BOAMP:19-119207,NAME:le mans metropole communaute urbaine,39,Unknown,2019-12-23,10.0,False,2020-10-22,0,,60.28,,,,,attribution_award_date,none
+BOAMP:19-119269,NAME:nantes metropole,72,Cybersecurity,2019-08-02,48.0,False,2023-08-02,1,BOAMP:23-144303,50.59,0.6017,0.4247,0.5,0.7841,publication_date,tfidf_cosine
+BOAMP:19-120649,NAME:le mans,33,Data & AI,2020-02-04,48.0,True,2024-02-04,0,,58.87,,,,,attribution_award_date,none
+BOAMP:19-123299,NAME:mindef ema dc sca pfaf co rennes,32,Telecom & Networks,2019-11-27,12.0,False,2020-11-26,0,,61.14,,,,,attribution_award_date,none
+BOAMP:19-124424,NAME:chd vendee,48,Software & Applications,2020-04-21,48.0,False,2024-04-21,0,,56.34,,,,,attribution_award_date,none
+BOAMP:19-125270,NAME:ctre hosp universitaire angers,72,IT Services & Consulting,2019-08-14,48.0,False,2023-08-14,0,,64.59,,,,,publication_date,none
+BOAMP:19-126819,NAME:conseil general de la vendee,,Unknown,2019-08-19,48.0,True,2023-08-19,0,,64.42,,,,,publication_date,none
+BOAMP:19-128681,NAME:des pays de la loire,72,IT Services & Consulting,2019-12-11,12.0,False,2020-12-10,0,,60.68,,,,,attribution_award_date,none
+BOAMP:19-130305,NAME:communes de grand lieu,35,Cybersecurity,2019-12-20,48.0,True,2023-12-20,0,,60.38,,,,,attribution_award_date,none
+BOAMP:19-131601,NAME:44,35,Cybersecurity,2019-08-29,48.0,True,2023-08-29,0,,64.09,,,,,publication_date,none
+BOAMP:19-131225,NAME:44,35,Cybersecurity,2019-08-29,48.0,True,2023-08-29,0,,64.09,,,,,publication_date,none
+BOAMP:19-131092,NAME:44,35,Cybersecurity,2019-08-30,12.0,False,2020-08-29,0,,64.06,,,,,publication_date,none
+BOAMP:19-136955,NAME:angers loire metropole,72,IT Services & Consulting,2019-09-10,12.0,False,2020-09-09,0,,63.7,,,,,publication_date,none
+BOAMP:19-137030,NAME:des pays de la loire,48,Software & Applications,2019-09-12,24.0,False,2021-09-11,0,,63.63,,,,,publication_date,none
+BOAMP:19-138013,NAME:chbr reg metiers artisanat nouv aquit,48,Software & Applications,2019-12-13,36.0,False,2022-12-12,0,,60.61,,,,,attribution_award_date,none
+BOAMP:19-141668,NAME:85,35,Cybersecurity,2020-02-14,6.0,False,2020-08-14,0,,58.54,,,,,attribution_award_date,none
+BOAMP:19-142610,NAME:maine et loire,32,Telecom & Networks,2019-09-20,48.0,True,2023-09-20,0,,63.37,,,,,publication_date,none
+BOAMP:19-145053,NAME:la sarthe,72,IT Services & Consulting,2019-09-24,48.0,False,2023-09-24,1,BOAMP:23-137663,48.36,0.4411,0.2426,0.0,0.9702,publication_date,tfidf_cosine
+BOAMP:19-145845,NAME:ctre hosp universitaire angers,72,IT Services & Consulting,2019-09-26,48.0,True,2023-09-26,0,,63.17,,,,,publication_date,none
+BOAMP:19-144868,NAME:conseil general de la vendee,48,Cloud & Infrastructure,2019-09-26,24.0,False,2021-09-25,0,,63.17,,,,,publication_date,none
+BOAMP:19-146419,NAME:la sarthe,32,Telecom & Networks,2020-02-10,48.0,False,2024-02-10,1,BOAMP:23-137663,43.79,0.4993,0.3612,0.3,0.6493,attribution_award_date,tfidf_cosine
+BOAMP:19-147943,NAME:des pays de la loire,72,IT Services & Consulting,2019-12-27,24.0,False,2021-12-26,1,BOAMP:21-26779,17.58,0.5372,0.2981,0.7,0.4646,attribution_award_date,tfidf_cosine
+BOAMP:19-147530,NAME:la rochelle,48,Software & Applications,2019-10-27,48.0,False,2023-10-27,0,,62.16,,,,,attribution_award_date,none
+BOAMP:19-150722,NAME:coueron,31,Unknown,2019-10-04,48.0,True,2023-10-04,0,,62.91,,,,,publication_date,none
+BOAMP:19-150176,NAME:chd vendee,72,IT Services & Consulting,2019-12-27,48.0,False,2023-12-27,0,,60.15,,,,,attribution_award_date,none
+BOAMP:19-151799,NAME:dir interregionale sces penitentiaires,45,Unknown,2019-10-07,48.0,True,2023-10-07,0,,62.81,,,,,publication_date,none
+BOAMP:19-152227,NAME:ville du mans,72,IT Services & Consulting,2020-06-16,48.0,False,2024-06-16,0,,54.5,,,,,attribution_award_date,none
+BOAMP:19-153997,NAME:mauges sur loire,48,Software & Applications,2019-10-10,48.0,True,2023-10-10,0,,62.71,,,,,publication_date,none
+BOAMP:19-154710,NAME:la roche sur yon,72,IT Services & Consulting,2019-10-11,24.0,False,2021-10-10,0,,62.68,,,,,publication_date,none
+BOAMP:19-155590,NAME:du marais poitevi,72,Digital Workplace & Collaboration,2019-12-20,48.0,False,2023-12-20,0,,60.38,,,,,attribution_award_date,none
+BOAMP:19-156899,NAME:nantes metropole,35,Cybersecurity,2020-01-22,48.0,False,2024-01-22,1,BOAMP:23-144303,44.91,0.471,0.4312,0.0,0.7423,attribution_award_date,tfidf_cosine
+BOAMP:19-157359,NAME:saint nazaire,32,Telecom & Networks,2019-12-26,12.0,False,2020-12-25,0,,60.18,,,,,attribution_award_date,none
+BOAMP:19-156761,NAME:ville d alencon,71,Software & Applications,2020-03-27,24.0,False,2022-03-27,0,,57.16,,,,,attribution_award_date,none
+BOAMP:19-159241,NAME:ecole nationale superieure maritime,48,Software & Applications,2019-10-20,12.0,False,2020-10-19,0,,62.39,,,,,publication_date,none
+BOAMP:19-160018,NAME:lycee polyvalent leonard de vinci,32,Telecom & Networks,2019-10-21,1.0,False,2019-11-20,1,BOAMP:20-140005,12.88,0.802,1.0,1.0,0.0102,publication_date,tfidf_cosine
+BOAMP:19-160471,NAME:le mans metropole communaute urbaine,72,Data & AI,2020-03-16,48.0,False,2024-03-16,1,BOAMP:23-154026,43.63,0.5863,0.3353,0.7,0.6356,attribution_award_date,tfidf_cosine
+BOAMP:19-160506,NAME:mauges sur loire,35,Cybersecurity,2020-01-09,36.0,False,2023-01-08,0,,59.72,,,,,attribution_award_date,none
+BOAMP:19-161349,NAME:cci metropolitaine bretagne ouest,48,Software & Applications,2019-10-25,48.0,True,2023-10-25,0,,62.22,,,,,publication_date,none
+BOAMP:19-165120,NAME:de nantes,32,Telecom & Networks,2019-10-30,12.0,False,2020-10-29,0,,62.06,,,,,publication_date,none
+BOAMP:19-164716,NAME:conservatoire du littoral,72,Cybersecurity,2019-10-31,48.0,False,2023-10-31,1,BOAMP:23-117051,48.49,0.8318,0.7873,0.7,0.9593,publication_date,tfidf_cosine
+BOAMP:19-169855,NAME:gie sesam vitale,72,IT Services & Consulting,2019-11-12,36.0,False,2022-11-11,1,BOAMP:23-38767,40.34,0.5786,0.315,0.7,0.6382,publication_date,tfidf_cosine
+BOAMP:19-172484,NAME:spr pays de la loire,72,IT Services & Consulting,2020-02-10,18.0,False,2021-08-10,0,,58.67,,,,,attribution_award_date,none
+BOAMP:19-172734,NAME:ville du mans,37,Data & AI,2020-03-10,48.0,False,2024-03-10,0,,57.72,,,,,attribution_award_date,none
+BOAMP:19-174809,NAME:la sarthe,72,IT Services & Consulting,2019-11-20,48.0,True,2023-11-20,1,BOAMP:23-137663,46.48,0.419,0.2356,0.0,0.8737,publication_date,tfidf_cosine
+BOAMP:19-174098,NAME:des pays de la loire,72,IT Services & Consulting,2019-11-21,24.0,False,2021-11-20,1,BOAMP:21-116891,25.72,0.5331,0.2171,0.5,0.8564,publication_date,tfidf_cosine
+BOAMP:19-175237,NAME:champagne,45,Unknown,2019-11-21,48.0,True,2023-11-21,0,,61.33,,,,,publication_date,none
+BOAMP:19-174412,NAME:semitan,72,IT Services & Consulting,2020-06-22,24.0,False,2022-06-22,1,BOAMP:22-141031,33.41,0.5535,0.276,1.0,0.2158,attribution_award_date,tfidf_cosine
+BOAMP:19-177026,NAME:arafer,32,Telecom & Networks,2019-11-27,48.0,False,2023-11-27,0,,61.14,,,,,publication_date,none
+BOAMP:19-178175,NAME:saint nazaire,48,Software & Applications,2020-03-12,48.0,False,2024-03-12,0,,57.65,,,,,attribution_award_date,none
+BOAMP:19-177220,NAME:shema,45,Unknown,2019-11-28,18.0,False,2021-05-28,1,BOAMP:20-71239,6.24,0.6584,0.9485,0.5,0.0201,publication_date,tfidf_cosine
+BOAMP:19-172419,NAME:syndicat trivalis,45,Unknown,2019-11-29,48.0,True,2023-11-29,0,,61.07,,,,,publication_date,none
+BOAMP:19-179524,NAME:mauges sur loire,32,Telecom & Networks,2020-03-13,48.0,True,2024-03-13,1,BOAMP:23-49047,37.02,0.5868,0.6118,0.7,0.0853,attribution_award_date,tfidf_cosine
+BOAMP:19-180395,NAME:e collectivites vendee,48,Software & Applications,2020-04-10,24.0,False,2022-04-10,0,,56.7,,,,,attribution_award_date,none
+BOAMP:19-181049,NAME:cci de region bretagne,72,Digital Workplace & Collaboration,2020-10-05,12.0,False,2021-10-05,0,,50.85,,,,,attribution_award_date,none
+BOAMP:19-181393,NAME:la vendee,72,IT Services & Consulting,2020-03-11,48.0,True,2024-03-11,0,,57.69,,,,,attribution_award_date,none
+BOAMP:19-184534,NAME:bouguenais,79,Telecom & Networks,2019-12-11,12.0,False,2020-12-10,1,BOAMP:20-61130,10.38,0.4079,0.2122,0.0,0.8651,publication_date,tfidf_cosine
+BOAMP:19-184300,NAME:cdc du pays de saint gilles cx de vie,32,Telecom & Networks,2019-12-12,24.0,False,2021-12-11,0,,60.64,,,,,publication_date,none
+BOAMP:19-184490,NAME:des pays de la loire,72,IT Services & Consulting,2020-03-30,48.0,False,2024-03-30,0,,57.06,,,,,attribution_award_date,none
+BOAMP:19-187147,NAME:saint nazaire,48,Software & Applications,2020-03-26,48.0,False,2024-03-26,0,,57.19,,,,,attribution_award_date,none
+BOAMP:19-187630,NAME:conseil general de la vendee,32,Telecom & Networks,2020-04-15,48.0,True,2024-04-15,0,,56.54,,,,,attribution_award_date,none
+BOAMP:19-185581,NAME:maine et loire,,Data & AI,2019-12-20,12.0,False,2020-12-19,0,,60.38,,,,,publication_date,none
+BOAMP:19-190109,NAME:montrevault sur evre,35,Cybersecurity,2019-12-20,48.0,True,2023-12-20,0,,60.38,,,,,publication_date,none
+BOAMP:19-189641,NAME:cnes terres de montaigu,72,Cybersecurity,2020-08-03,24.0,False,2022-08-03,0,,52.92,,,,,attribution_award_date,none
+BOAMP:19-190328,NAME:universite d angers,32,Telecom & Networks,2019-12-22,48.0,False,2023-12-22,0,,60.32,,,,,publication_date,none
+BOAMP:20-4011,NAME:cnieg,72,IT Services & Consulting,2020-05-29,24.0,False,2022-05-29,0,,55.09,,,,,attribution_award_date,none
+BOAMP:20-6019,NAME:cte de communes de la blain,48,Software & Applications,2020-01-14,24.0,False,2022-01-13,0,,59.56,,,,,publication_date,none
+BOAMP:20-5957,NAME:des pays de la loire,72,IT Services & Consulting,2020-01-16,12.0,False,2021-01-15,0,,59.49,,,,,publication_date,none
+BOAMP:20-6008,NAME:ctre hosp universitaire angers,50,Data & AI,2020-06-09,12.0,False,2021-06-09,0,,54.73,,,,,attribution_award_date,none
+BOAMP:20-6485,NAME:cnieg,72,Cybersecurity,2020-05-25,24.0,False,2022-05-25,0,,55.22,,,,,attribution_award_date,none
+BOAMP:20-8882,NAME:ville d angers,,Unknown,2020-01-20,12.0,False,2021-01-19,0,,59.36,,,,,publication_date,none
+BOAMP:20-9474,NAME:loire atlantique,35,Cybersecurity,2020-01-21,36.0,False,2023-01-20,0,,59.33,,,,,publication_date,none
+BOAMP:20-8874,NAME:ministere des affaires etrangeres,72,IT Services & Consulting,2020-10-14,12.0,False,2021-10-14,0,,50.56,,,,,attribution_award_date,none
+BOAMP:20-8819,NAME:reze,18,Unknown,2020-10-15,12.0,False,2021-10-15,0,,50.53,,,,,attribution_award_date,none
+BOAMP:20-12202,NAME:des pays de la loire,72,IT Services & Consulting,2020-06-11,12.0,False,2021-06-11,1,BOAMP:22-20320,22.04,0.7076,1.0,0.5,0.1631,attribution_award_date,tfidf_cosine
+BOAMP:20-11443,NAME:saint nazaire,79,Cybersecurity,2020-05-29,12.0,False,2021-05-29,0,,55.09,,,,,attribution_award_date,none
+BOAMP:20-16671,NAME:gie sesam vitale,72,IT Maintenance & Support,2021-01-18,24.0,False,2023-01-18,1,BOAMP:22-159813,22.5,0.7449,0.6122,0.7,0.8753,attribution_award_date,tfidf_cosine
+BOAMP:20-20633,NAME:semitan,35,Cybersecurity,2020-02-10,12.0,False,2021-02-09,0,,58.67,,,,,publication_date,none
+BOAMP:20-23104,NAME:reseau canope,72,IT Services & Consulting,2020-02-15,12.0,False,2021-02-14,0,,58.51,,,,,publication_date,none
+BOAMP:20-23300,NAME:cc pays de craon,45,Unknown,2020-02-16,36.0,False,2023-02-15,0,,58.48,,,,,publication_date,none
+BOAMP:20-27109,NAME:bouguenais,32,Telecom & Networks,2020-02-23,12.0,False,2021-02-22,1,BOAMP:20-61130,7.95,0.9325,1.0,1.0,0.6625,publication_date,tfidf_cosine
+BOAMP:20-32737,NAME:des pays de la loire,72,Digital Workplace & Collaboration,2020-03-05,12.0,False,2021-03-05,0,,57.88,,,,,publication_date,none
+BOAMP:20-34709,NAME:vendee expansion,79,IT Hardware & Equipment,2020-03-08,6.0,False,2020-09-06,0,,57.79,,,,,publication_date,none
+BOAMP:20-36082,NAME:commune du croisic,,Unknown,2020-03-10,1.0,False,2020-04-09,0,,57.72,,,,,publication_date,none
+BOAMP:20-35774,NAME:loire atlantique,72,IT Services & Consulting,2020-10-26,12.0,False,2021-10-26,1,BOAMP:21-77546,7.46,0.6214,0.4303,0.7,0.6214,attribution_award_date,tfidf_cosine
+BOAMP:20-49128,NAME:epf de la vendee,79,Unknown,2020-07-07,6.0,False,2021-01-05,0,,53.81,,,,,attribution_award_date,none
+BOAMP:20-52846,NAME:de la mayenne,35,Cybersecurity,2020-11-12,12.0,False,2021-11-12,0,,49.61,,,,,attribution_award_date,none
+BOAMP:20-51762,NAME:srd,72,IT Services & Consulting,2020-07-16,12.0,False,2021-07-16,0,,53.52,,,,,attribution_award_date,none
+BOAMP:20-54010,NAME:adoma,32,Telecom & Networks,2020-04-19,24.0,False,2022-04-19,0,,56.41,,,,,publication_date,none
+BOAMP:20-54626,NAME:reseau canope,48,Software & Applications,2020-04-22,12.0,False,2021-04-22,0,,56.31,,,,,publication_date,none
+BOAMP:20-56147,NAME:ombree d anjou,32,Telecom & Networks,2020-04-23,12.0,False,2021-04-23,0,,56.27,,,,,publication_date,none
+BOAMP:20-56877,NAME:ville d ecouflant,32,Telecom & Networks,2020-04-24,4.0,False,2020-08-23,0,,56.24,,,,,publication_date,none
+BOAMP:20-58079,NAME:la vendee,79,IT Maintenance & Support,2020-08-20,36.0,False,2023-08-20,1,BOAMP:23-43183,34.72,0.8876,0.7723,1.0,0.8937,attribution_award_date,tfidf_cosine
+BOAMP:20-57925,NAME:la roche sur yon agglomeration,32,Telecom & Networks,2020-09-24,24.0,False,2022-09-24,0,,51.22,,,,,attribution_award_date,none
+BOAMP:20-61130,NAME:bouguenais,32,Telecom & Networks,2020-10-22,12.0,False,2021-10-22,1,BOAMP:21-102565,9.03,0.4715,0.24,0.3,0.7528,attribution_award_date,tfidf_cosine
+BOAMP:20-62727,NAME:de nantes,72,IT Services & Consulting,2020-08-05,12.0,False,2021-08-05,0,,52.86,,,,,attribution_award_date,none
+BOAMP:20-65753,NAME:des pays de la loire,48,Software & Applications,2020-07-22,12.0,False,2021-07-22,1,BOAMP:21-67771,14.55,0.6675,0.4626,0.7,0.7872,attribution_award_date,tfidf_cosine
+BOAMP:20-68352,NAME:loire atlantique,72,IT Maintenance & Support,2020-05-28,12.0,False,2021-05-28,1,BOAMP:21-51620,10.68,0.7096,0.5165,0.7,0.8897,publication_date,tfidf_cosine
+BOAMP:20-68923,NAME:de nantes,72,IT Services & Consulting,2020-05-29,12.0,False,2021-05-29,0,,55.09,,,,,publication_date,none
+BOAMP:20-70268,NAME:saint nazaire,72,IT Services & Consulting,2020-09-28,25.0,False,2022-10-29,0,,51.08,,,,,attribution_award_date,none
+BOAMP:20-70265,NAME:la vendee,35,Cybersecurity,2020-09-19,12.0,False,2021-09-19,0,,51.38,,,,,attribution_award_date,none
+BOAMP:20-70855,NAME:des pays de la loire,32,Telecom & Networks,2020-06-02,12.0,False,2021-06-02,0,,54.96,,,,,publication_date,none
+BOAMP:20-70746,NAME:le mans,45,Unknown,2020-10-15,36.0,False,2023-10-15,0,,50.53,,,,,attribution_award_date,none
+BOAMP:20-71239,NAME:shema,45,Telecom & Networks,2020-06-05,18.0,False,2021-12-04,0,,54.86,,,,,publication_date,none
+BOAMP:20-72064,NAME:dir ouest,32,Telecom & Networks,2020-06-06,8.0,False,2021-02-04,0,,54.83,,,,,publication_date,none
+BOAMP:20-72791,NAME:mash,72,IT Services & Consulting,2020-09-21,16.0,False,2022-01-21,1,BOAMP:21-126360,13.21,0.9534,1.0,1.0,0.7672,attribution_award_date,tfidf_cosine
+BOAMP:20-75569,NAME:crous de nantes,72,IT Services & Consulting,2020-10-27,12.0,False,2021-10-27,1,BOAMP:22-38732,18.73,0.5388,0.3147,0.7,0.4396,attribution_award_date,tfidf_cosine
+BOAMP:20-77757,NAME:saint malo,50,Unknown,2020-06-19,12.0,False,2021-06-19,0,,54.4,,,,,publication_date,none
+BOAMP:20-78639,NAME:bauge en anjou,39,Unknown,2020-09-21,6.0,False,2021-03-22,0,,51.31,,,,,attribution_award_date,none
+BOAMP:20-84141,NAME:communaute urbaine d alencon,72,IT Services & Consulting,2020-10-30,12.0,False,2021-10-30,0,,50.03,,,,,attribution_award_date,none
+BOAMP:20-85580,NAME:communes vie et boulogne,72,IT Services & Consulting,2020-07-05,24.0,False,2022-07-05,0,,53.88,,,,,publication_date,none
+BOAMP:20-91479,NAME:vendee eau,72,IT Services & Consulting,2021-01-07,24.0,False,2023-01-07,0,,47.77,,,,,attribution_award_date,none
+BOAMP:20-85492,NAME:angers loire metropole,32,Telecom & Networks,2020-12-03,24.0,False,2022-12-03,0,,48.92,,,,,attribution_award_date,none
+BOAMP:20-94462,NAME:le mans,48,Software & Applications,2020-10-06,12.0,False,2021-10-06,0,,50.82,,,,,attribution_award_date,none
+BOAMP:20-96647,NAME:reze,48,Software & Applications,2020-11-02,12.0,False,2021-11-02,0,,49.93,,,,,attribution_award_date,none
+BOAMP:20-97584,NAME:gie sesam vitale,72,IT Services & Consulting,2020-07-31,36.0,False,2023-07-31,0,,53.02,,,,,publication_date,none
+BOAMP:20-98331,NAME:saint nazaire,79,Unknown,2020-08-03,36.0,False,2023-08-03,0,,52.92,,,,,publication_date,none
+BOAMP:20-98264,NAME:nantes metropole,72,IT Services & Consulting,2020-08-05,18.0,False,2022-02-03,0,,52.86,,,,,publication_date,none
+BOAMP:20-98214,NAME:nantes metropole,72,IT Services & Consulting,2020-08-05,18.0,False,2022-02-03,0,,52.86,,,,,publication_date,none
+BOAMP:20-98937,NAME:cap atlantique,35,Cybersecurity,2020-12-30,12.0,False,2021-12-30,0,,48.03,,,,,attribution_award_date,none
+BOAMP:20-100172,NAME:communaute urbaine d alencon,72,IT Services & Consulting,2020-08-07,1.0,False,2020-09-06,0,,52.79,,,,,publication_date,none
+BOAMP:20-106379,NAME:universite d angers,48,Software & Applications,2020-08-29,36.0,False,2023-08-29,1,BOAMP:22-124106,24.61,0.5601,1.0,0.0,0.0505,publication_date,tfidf_cosine
+BOAMP:20-107792,NAME:com d agglo reg nazairienne estuaire,72,IT Services & Consulting,2021-01-07,12.0,False,2022-01-07,1,BOAMP:21-67958,8.77,0.5602,0.2225,0.7,0.7309,attribution_award_date,tfidf_cosine
+BOAMP:20-109382,NAME:saint nazaire,30,IT Hardware & Equipment,2020-12-03,12.0,False,2021-12-03,1,BOAMP:21-169350,16.0,0.5758,0.5435,0.3,0.6668,attribution_award_date,tfidf_cosine
+BOAMP:20-110872,NAME:cte de cnes du pays d ancenis,50,Telecom & Networks,2020-09-09,36.0,False,2023-09-09,0,,51.71,,,,,publication_date,none
+BOAMP:20-110309,NAME:des pays de la loire,72,IT Services & Consulting,2021-01-11,6.0,False,2021-07-12,0,,47.63,,,,,attribution_award_date,none
+BOAMP:20-111698,NAME:des pays de la loire,32,Telecom & Networks,2020-12-04,12.0,False,2021-12-04,1,BOAMP:21-67771,10.12,0.4994,0.4519,0.0,0.8432,attribution_award_date,tfidf_cosine
+BOAMP:20-114032,NAME:carquefou,35,Cybersecurity,2020-09-17,12.0,False,2021-09-17,0,,51.45,,,,,publication_date,none
+BOAMP:20-114106,NAME:universite d angers,72,IT Services & Consulting,2020-09-19,36.0,False,2023-09-19,0,,51.38,,,,,publication_date,none
+BOAMP:20-114714,NAME:loire atlantique,72,IT Maintenance & Support,2021-02-01,12.0,False,2022-02-01,0,,46.94,,,,,attribution_award_date,none
+BOAMP:20-115241,NAME:le mans,48,Software & Applications,2021-02-08,12.0,False,2022-02-08,0,,46.71,,,,,attribution_award_date,none
+BOAMP:20-117677,NAME:loire atlantique,30,IT Hardware & Equipment,2021-01-19,12.0,False,2022-01-19,0,,47.37,,,,,attribution_award_date,none
+BOAMP:20-118247,NAME:saint herblain,72,Cybersecurity,2020-12-16,24.0,False,2022-12-16,1,BOAMP:21-157863,14.03,0.4856,0.3171,0.7,0.169,attribution_award_date,tfidf_cosine
+BOAMP:20-119807,NAME:ca saumur val de loire,,IT Maintenance & Support,2020-10-01,36.0,False,2023-10-01,0,,50.99,,,,,publication_date,none
+BOAMP:20-120399,NAME:universite d angers,90,Unknown,2021-02-02,36.0,False,2024-02-02,0,,46.91,,,,,attribution_award_date,none
+BOAMP:20-120545,NAME:dir interdepartementale des rte ouest,32,Telecom & Networks,2020-12-03,12.0,False,2021-12-03,0,,48.92,,,,,attribution_award_date,none
+BOAMP:20-124045,NAME:des pays de la loire,72,Cybersecurity,2021-02-02,24.0,False,2023-02-02,0,,46.91,,,,,attribution_award_date,none
+BOAMP:20-125567,NAME:des pays de la loire,48,Cloud & Infrastructure,2021-02-26,12.0,False,2022-02-26,1,BOAMP:22-20320,13.5,0.411,0.215,0.0,0.8748,attribution_award_date,tfidf_cosine
+BOAMP:20-133527,NAME:la vendee,72,IT Services & Consulting,2021-03-01,24.0,False,2023-03-01,0,,46.02,,,,,attribution_award_date,none
+BOAMP:20-137453,NAME:ombree d anjou,,Data & AI,2020-11-09,4.0,False,2021-03-10,0,,49.7,,,,,publication_date,none
+BOAMP:20-138135,NAME:des pays de la loire,32,Telecom & Networks,2021-02-10,12.0,False,2022-02-10,1,BOAMP:21-130956,10.35,0.4056,0.2078,0.0,0.8624,attribution_award_date,tfidf_cosine
+BOAMP:20-142134,NAME:nantes metropole,32,Telecom & Networks,2020-11-20,5.5,False,2021-05-06,0,,49.34,,,,,publication_date,none
+BOAMP:20-142015,NAME:des pays de la loire,72,IT Services & Consulting,2020-11-21,36.0,False,2023-11-21,1,BOAMP:22-162091,24.57,0.3157,0.3903,0.0,0.0477,publication_date,tfidf_cosine
+BOAMP:20-143091,NAME:nantes,38,Unknown,2021-04-27,12.0,False,2022-04-27,0,,44.15,,,,,attribution_award_date,none
+BOAMP:20-148013,NAME:loire atlantique,45,Data & AI,2020-12-05,22.0,False,2022-10-05,0,,48.85,,,,,publication_date,none
+BOAMP:20-149977,NAME:cte cnes du pays de chateau de gontier,64,Digital Workplace & Collaboration,2020-12-11,24.0,False,2022-12-11,0,,48.65,,,,,publication_date,none
+BOAMP:20-154115,NAME:sem cenovia,34,Cybersecurity,2021-02-11,3.0,False,2021-05-13,0,,46.62,,,,,attribution_award_date,none
+BOAMP:20-155284,NAME:des pays de la loire,79,Unknown,2020-12-20,12.0,False,2021-12-20,1,BOAMP:21-130956,12.06,0.6194,0.2384,0.7,0.9953,publication_date,tfidf_cosine
+BOAMP:20-155309,NAME:la vendee,72,IT Services & Consulting,2021-03-11,24.0,False,2023-03-11,1,BOAMP:22-166698,21.25,0.6907,0.3411,1.0,0.7712,attribution_award_date,tfidf_cosine
+BOAMP:21-11209,NAME:reseau canope,72,IT Services & Consulting,2021-01-25,5.0,False,2021-06-26,0,,47.17,,,,,publication_date,none
+BOAMP:21-12643,NAME:sec gal pour l adm min interieur ouest,45,Telecom & Networks,2021-01-27,6.0,False,2021-07-28,0,,47.11,,,,,publication_date,none
+BOAMP:21-16407,NAME:communaute d agglomeration du niortais,72,IT Services & Consulting,2021-02-04,12.0,False,2022-02-04,0,,46.85,,,,,publication_date,none
+BOAMP:21-16505,NAME:des pays de la loire,72,Cybersecurity,2021-05-10,12.0,False,2022-05-10,1,BOAMP:21-116891,8.11,0.5013,0.2276,0.5,0.6762,attribution_award_date,tfidf_cosine
+BOAMP:21-20759,NAME:arafer,,Cloud & Infrastructure,2021-02-12,24.0,False,2023-02-12,0,,46.58,,,,,publication_date,none
+BOAMP:21-19596,NAME:ville d alencon,72,IT Services & Consulting,2021-05-19,12.0,False,2022-05-19,0,,43.43,,,,,attribution_award_date,none
+BOAMP:21-22700,NAME:ministere des affaires etrangeres,72,IT Services & Consulting,2021-03-12,24.0,False,2023-03-12,1,BOAMP:23-61473,25.79,0.6721,0.5672,0.5,0.851,attribution_award_date,tfidf_cosine
+BOAMP:21-25043,NAME:carquefou,,Data & AI,2021-02-23,6.0,False,2021-08-24,0,,46.22,,,,,publication_date,none
+BOAMP:21-25103,NAME:commune les sables d olonne,22,Cybersecurity,2021-02-25,12.0,False,2022-02-25,0,,46.16,,,,,publication_date,none
+BOAMP:21-26779,NAME:des pays de la loire,72,Cybersecurity,2021-06-14,24.0,False,2023-06-14,1,BOAMP:23-160148,29.11,0.5591,0.2981,0.7,0.5745,attribution_award_date,tfidf_cosine
+BOAMP:21-29818,NAME:soc publique reg abe de fontevraud,32,Telecom & Networks,2021-05-10,5.0,False,2021-10-09,1,BOAMP:22-28887,11.4,0.8933,1.0,1.0,0.4667,attribution_award_date,tfidf_cosine
+BOAMP:21-30450,NAME:crdc le lieu unique,32,Telecom & Networks,2021-03-11,5.0,False,2021-08-10,0,,45.7,,,,,publication_date,none
+BOAMP:21-32692,NAME:ircec,72,IT Maintenance & Support,2021-03-13,12.0,False,2022-03-13,0,,45.63,,,,,publication_date,none
+BOAMP:21-35939,NAME:loire atlantique,72,IT Services & Consulting,2021-03-19,12.0,False,2022-03-19,0,,45.43,,,,,publication_date,none
+BOAMP:21-36205,NAME:loire atlantique,72,IT Services & Consulting,2021-03-20,12.0,False,2022-03-20,0,,45.4,,,,,publication_date,none
+BOAMP:21-37354,NAME:le mans,48,Software & Applications,2021-03-21,12.0,False,2022-03-21,1,BOAMP:22-39260,11.83,0.4308,0.2093,0.0,0.9855,publication_date,tfidf_cosine
+BOAMP:21-39936,NAME:saint etienne de montluc,32,Telecom & Networks,2021-06-24,4.0,False,2021-10-23,0,,42.25,,,,,attribution_award_date,none
+BOAMP:21-46043,NAME:des pays de la loire,72,IT Services & Consulting,2021-06-30,12.0,False,2022-06-30,1,BOAMP:22-29878,12.35,0.5511,0.5174,0.0,0.9707,attribution_award_date,tfidf_cosine
+BOAMP:21-50713,NAME:le mans,,Software & Applications,2021-04-15,12.0,False,2022-04-15,1,BOAMP:21-170353,13.57,0.5425,0.2341,0.5,0.8694,publication_date,tfidf_cosine
+BOAMP:21-51104,NAME:gie sesam vitale,72,IT Services & Consulting,2022-02-21,12.0,False,2023-02-21,1,BOAMP:22-159813,9.4,0.6644,0.457,0.7,0.783,attribution_award_date,tfidf_cosine
+BOAMP:21-51620,NAME:loire atlantique,72,IT Services & Consulting,2021-04-18,12.0,False,2022-04-18,0,,44.45,,,,,publication_date,none
+BOAMP:21-53976,NAME:la mayenne,72,IT Services & Consulting,2021-04-22,12.0,False,2022-04-22,1,BOAMP:22-130851,20.37,0.5425,0.2049,1.0,0.3027,publication_date,tfidf_cosine
+BOAMP:21-53955,NAME:dir interdepartementale des rte ouest,72,IT Services & Consulting,2021-04-24,12.0,False,2022-04-24,0,,44.25,,,,,publication_date,none
+BOAMP:21-53968,NAME:loire atlantique,72,IT Services & Consulting,2021-04-24,12.0,False,2022-04-24,0,,44.25,,,,,publication_date,none
+BOAMP:21-57207,NAME:des pays de la loire,35,Cybersecurity,2021-04-30,7.0,False,2021-11-29,0,,44.05,,,,,publication_date,none
+BOAMP:21-57288,NAME:ville d angers,45,Data & AI,2021-08-31,30.0,False,2024-03-01,0,,40.01,,,,,attribution_award_date,none
+BOAMP:21-62138,NAME:des pays de la loire,35,Cybersecurity,2021-05-07,4.0,False,2021-09-05,0,,43.82,,,,,publication_date,none
+BOAMP:21-50135,NAME:cte de communes du pays des herbiers,18,Unknown,2021-08-09,12.0,False,2022-08-09,1,BOAMP:23-101767,23.32,0.3236,0.4057,0.0,0.0563,attribution_award_date,tfidf_cosine
+BOAMP:21-68348,NAME:inra angers nantes,32,Telecom & Networks,2021-12-14,12.0,False,2022-12-14,0,,36.56,,,,,attribution_award_date,none
+BOAMP:21-67771,NAME:des pays de la loire,48,Cloud & Infrastructure,2021-10-08,12.0,False,2022-10-08,1,BOAMP:23-69310,19.42,0.3165,0.2252,0.0,0.3821,attribution_award_date,tfidf_cosine
+BOAMP:21-69124,NAME:loire atlantique,35,Cybersecurity,2021-05-23,12.0,False,2022-05-23,0,,43.3,,,,,publication_date,none
+BOAMP:21-67894,NAME:ca agglomeration du choletais,43,Data & AI,2021-12-09,12.0,False,2022-12-09,0,,36.73,,,,,attribution_award_date,none
+BOAMP:21-76925,NAME:de nantes,72,IT Services & Consulting,2021-10-14,12.0,False,2022-10-14,0,,38.57,,,,,attribution_award_date,none
+BOAMP:21-77546,NAME:loire atlantique,72,IT Maintenance & Support,2021-06-10,12.0,False,2022-06-10,0,,42.71,,,,,publication_date,none
+BOAMP:21-77933,NAME:angers loire tourisme expo congres,72,Digital Workplace & Collaboration,2021-07-27,12.0,False,2022-07-27,0,,41.16,,,,,attribution_award_date,none
+BOAMP:21-78101,NAME:le mans metropole communaute urbaine,39,Unknown,2021-11-16,4.0,False,2022-03-17,1,BOAMP:22-105384,14.59,0.7541,0.8265,1.0,0.1178,attribution_award_date,tfidf_cosine
+BOAMP:21-78393,NAME:loire atlantique,72,IT Services & Consulting,2021-06-11,12.0,False,2022-06-11,0,,42.67,,,,,publication_date,none
+BOAMP:21-79975,NAME:epsilon centrale d achat informatique,72,IT Services & Consulting,2021-06-13,24.0,False,2023-06-13,0,,42.61,,,,,publication_date,none
+BOAMP:21-81812,NAME:cc loire layon aubance,48,Cloud & Infrastructure,2021-10-27,12.0,False,2022-10-27,0,,38.14,,,,,attribution_award_date,none
+BOAMP:21-82013,NAME:office francais de la biodiversite,72,Cybersecurity,2021-06-18,18.0,False,2022-12-17,0,,42.44,,,,,publication_date,none
+BOAMP:21-86124,NAME:sydela,32,Telecom & Networks,2021-06-23,24.0,False,2023-06-23,0,,42.28,,,,,publication_date,none
+BOAMP:21-87993,NAME:prefecture d eure et loir,45,Unknown,2021-06-25,8.0,False,2022-02-23,0,,42.21,,,,,publication_date,none
+BOAMP:21-86348,NAME:semitan,72,IT Services & Consulting,2021-11-29,24.0,False,2023-11-29,1,BOAMP:22-141031,16.16,0.521,0.4415,0.5,0.3469,attribution_award_date,tfidf_cosine
+BOAMP:21-86773,NAME:des pays de la loire,79,Unknown,2021-06-26,24.0,False,2023-06-26,0,,42.18,,,,,publication_date,none
+BOAMP:21-88585,NAME:ensa nantes,32,Telecom & Networks,2021-10-27,12.0,False,2022-10-27,0,,38.14,,,,,attribution_award_date,none
+BOAMP:21-88617,NAME:ca saumur val de loire,48,Software & Applications,2021-06-30,12.0,False,2022-06-30,0,,42.05,,,,,publication_date,none
+BOAMP:21-89893,NAME:communaute d agglomeration du niortais,72,IT Services & Consulting,2021-07-02,24.0,False,2023-07-02,0,,41.98,,,,,publication_date,none
+BOAMP:21-91773,NAME:gie sesam vitale,72,Digital Workplace & Collaboration,2021-07-04,24.0,False,2023-07-04,1,BOAMP:22-74813,21.42,0.6675,0.5888,0.5,0.7849,publication_date,tfidf_cosine
+BOAMP:21-93999,NAME:ombree d anjou,35,Cybersecurity,2021-07-09,12.0,False,2022-07-09,0,,41.75,,,,,publication_date,none
+BOAMP:21-97121,NAME:grand lieu communaute,72,Cybersecurity,2021-10-11,24.0,False,2023-10-11,0,,38.67,,,,,attribution_award_date,none
+BOAMP:21-99793,NAME:sgami ouest,32,Telecom & Networks,2021-07-16,5.0,False,2021-12-15,0,,41.52,,,,,publication_date,none
+BOAMP:21-101248,NAME:saint nazaire,48,Software & Applications,2021-11-03,12.0,False,2022-11-03,0,,37.91,,,,,attribution_award_date,none
+BOAMP:21-102565,NAME:bouguenais,35,Cybersecurity,2021-07-24,7.0,False,2022-02-22,0,,41.26,,,,,publication_date,none
+BOAMP:21-103746,NAME:ville du mans,,Data & AI,2021-07-26,24.0,False,2023-07-26,0,,41.2,,,,,publication_date,none
+BOAMP:21-114338,NAME:cc du pays de st fulgent les essarts,72,IT Services & Consulting,2021-08-24,18.0,False,2023-02-22,0,,40.24,,,,,publication_date,none
+BOAMP:21-118586,NAME:le mans,35,Cybersecurity,2021-09-05,12.0,False,2022-09-05,1,BOAMP:22-66076,8.15,0.6681,0.7683,0.3,0.6789,publication_date,tfidf_cosine
+BOAMP:21-120100,NAME:larmor plage,35,Cybersecurity,2021-09-10,6.0,False,2022-03-11,0,,39.68,,,,,publication_date,none
+BOAMP:21-125862,NAME:groupement d achats de l herm,15,Unknown,2021-09-22,12.0,False,2022-09-22,0,,39.29,,,,,publication_date,none
+BOAMP:21-125536,NAME:crous de nantes,72,IT Services & Consulting,2021-09-22,12.0,False,2022-09-22,0,,39.29,,,,,publication_date,none
+BOAMP:21-125688,NAME:vendee expansion,72,IT Services & Consulting,2021-12-08,12.0,False,2022-12-08,0,,36.76,,,,,attribution_award_date,none
+BOAMP:21-126360,NAME:mash,72,IT Services & Consulting,2021-10-28,6.0,False,2022-04-28,0,,38.11,,,,,attribution_award_date,none
+BOAMP:21-126684,NAME:des pays de la loire,72,Cybersecurity,2022-01-10,24.0,False,2024-01-10,0,,35.68,,,,,attribution_award_date,none
+BOAMP:21-128976,NAME:creha ouest,72,IT Services & Consulting,2022-02-21,12.0,False,2023-02-21,0,,34.3,,,,,attribution_award_date,none
+BOAMP:21-121431,NAME:ville d angers,32,Telecom & Networks,2021-09-30,12.0,False,2022-09-30,0,,39.03,,,,,publication_date,none
+BOAMP:21-129937,NAME:nantes,72,IT Services & Consulting,2021-10-01,24.0,False,2023-10-01,0,,38.99,,,,,publication_date,none
+BOAMP:21-130956,NAME:des pays de la loire,79,Software & Applications,2021-12-22,24.0,False,2023-12-22,1,BOAMP:23-73693,17.31,0.4187,0.2629,0.3,0.4427,attribution_award_date,tfidf_cosine
+BOAMP:21-137487,NAME:vendee expansion,72,IT Services & Consulting,2021-12-08,12.0,False,2022-12-08,1,BOAMP:22-93332,9.59,0.6981,0.3456,1.0,0.7994,attribution_award_date,tfidf_cosine
+BOAMP:21-137461,NAME:cnes terres de montaigu,45,Unknown,2021-10-15,12.0,False,2022-10-15,0,,38.53,,,,,publication_date,none
+BOAMP:21-141754,NAME:vendee grand littoral,45,Software & Applications,2021-10-21,5.0,False,2022-03-22,0,,38.34,,,,,publication_date,none
+BOAMP:21-142218,NAME:prefet de la region pays de la loire,79,Unknown,2022-03-10,12.0,False,2023-03-10,0,,33.74,,,,,attribution_award_date,none
+BOAMP:21-142703,NAME:chambre reg agri pays de la loire,72,Digital Workplace & Collaboration,2021-10-27,18.0,False,2023-04-27,0,,38.14,,,,,publication_date,none
+BOAMP:21-144079,NAME:ecole national sup d arts et metiers,32,Telecom & Networks,2021-10-28,24.0,False,2023-10-28,0,,38.11,,,,,publication_date,none
+BOAMP:21-139944,NAME:ca pornic agglo pays de retz,30,IT Hardware & Equipment,2022-01-24,24.0,False,2024-01-24,0,,35.22,,,,,attribution_award_date,none
+BOAMP:21-146075,NAME:thouare sur loire,72,IT Services & Consulting,2021-10-31,24.0,False,2023-10-31,0,,38.01,,,,,publication_date,none
+BOAMP:21-148591,NAME:laval agglomeration,32,Telecom & Networks,2021-11-10,6.0,False,2022-05-11,0,,37.68,,,,,publication_date,none
+BOAMP:21-148611,NAME:le mans metropole communaute urbaine,39,Unknown,2022-02-14,4.0,False,2022-06-15,1,BOAMP:22-105384,11.63,0.8034,0.8265,1.0,0.3642,attribution_award_date,tfidf_cosine
+BOAMP:21-150615,NAME:institut regional administration lyon,72,IT Services & Consulting,2021-11-14,12.0,False,2022-11-14,0,,37.55,,,,,publication_date,none
+BOAMP:21-152470,NAME:nantes,32,Telecom & Networks,2021-11-17,24.0,False,2023-11-17,0,,37.45,,,,,publication_date,none
+BOAMP:21-151331,NAME:fondation partenariale polytech,72,Digital Workplace & Collaboration,2021-11-17,12.0,False,2022-11-17,0,,37.45,,,,,publication_date,none
+BOAMP:21-153244,NAME:reseau canope,30,IT Hardware & Equipment,2021-11-20,24.0,False,2023-11-20,0,,37.35,,,,,publication_date,none
+BOAMP:21-155430,NAME:gpm de nantes st nazaire,48,Software & Applications,2021-11-26,8.0,False,2022-07-27,0,,37.16,,,,,publication_date,none
+BOAMP:21-161507,NAME:sydela,32,Telecom & Networks,2022-01-27,24.0,False,2024-01-27,0,,35.12,,,,,attribution_award_date,none
+BOAMP:21-159075,NAME:loire ocean metropole amenagement,45,Unknown,2022-06-07,24.0,False,2024-06-06,0,,30.81,,,,,attribution_award_date,none
+BOAMP:21-161904,NAME:cd 44,72,IT Maintenance & Support,2022-03-09,12.0,False,2023-03-09,1,BOAMP:22-90329,11.5,0.6891,0.2437,1.0,0.9582,attribution_award_date,tfidf_cosine
+BOAMP:21-170353,NAME:le mans,48,Software & Applications,2022-06-02,12.0,False,2023-06-02,0,,30.98,,,,,attribution_award_date,none
+BOAMP:22-13142,NAME:des pays de la loire,72,IT Services & Consulting,2022-07-11,12.0,False,2023-07-11,1,BOAMP:23-69310,10.35,0.5829,0.2135,0.7,0.8624,attribution_award_date,tfidf_cosine
+BOAMP:22-15926,NAME:la garnache,32,Telecom & Networks,2022-01-31,3.0,False,2022-05-02,0,,34.99,,,,,publication_date,none
+BOAMP:22-12758,NAME:ville d angers,35,Cybersecurity,2022-06-17,12.0,False,2023-06-17,1,BOAMP:23-47137,13.04,0.8077,0.7502,0.7,0.9132,attribution_award_date,tfidf_cosine
+BOAMP:22-15069,NAME:angers loire metropole,32,Telecom & Networks,2022-05-13,12.0,False,2023-05-13,1,BOAMP:23-13928,14.26,0.497,0.2739,0.3,0.8119,attribution_award_date,tfidf_cosine
+BOAMP:22-21573,NAME:nantes metropole,72,GIS & Mapping,2022-02-10,8.0,False,2022-10-11,1,BOAMP:22-111359,6.27,0.5804,0.2105,0.7,0.8562,publication_date,tfidf_cosine
+BOAMP:22-25102,NAME:des pays de la loire,48,Software & Applications,2022-02-19,12.0,False,2023-02-19,0,,34.36,,,,,publication_date,none
+BOAMP:22-24902,NAME:angers loire metropole,48,Cloud & Infrastructure,2022-02-21,7.0,False,2022-09-22,0,,34.3,,,,,publication_date,none
+BOAMP:22-28144,NAME:vendee expansion,72,IT Services & Consulting,2022-02-23,12.0,False,2023-02-23,1,BOAMP:22-93332,7.06,0.6296,0.2796,1.0,0.5886,publication_date,tfidf_cosine
+BOAMP:22-28887,NAME:soc publique reg abe de fontevraud,32,Telecom & Networks,2022-04-22,4.0,False,2022-08-21,1,BOAMP:23-31948,10.61,0.8148,1.0,0.7,0.4491,attribution_award_date,tfidf_cosine
+BOAMP:22-30678,NAME:la mayenne,72,Data & AI,2022-03-01,12.0,False,2023-03-01,0,,34.03,,,,,publication_date,none
+BOAMP:22-29878,NAME:des pays de la loire,48,Software & Applications,2022-07-11,12.0,False,2023-07-11,0,,29.7,,,,,attribution_award_date,none
+BOAMP:22-32770,NAME:des pays de la loire,48,Software & Applications,2022-03-05,12.0,False,2023-03-05,0,,33.9,,,,,publication_date,none
+BOAMP:22-35887,NAME:clisson sevre et maine agglo,45,Telecom & Networks,2022-06-21,12.0,False,2023-06-21,0,,30.35,,,,,attribution_award_date,none
+BOAMP:22-38732,NAME:crous de nantes,72,IT Services & Consulting,2022-05-20,12.0,False,2023-05-20,0,,31.41,,,,,attribution_award_date,none
+BOAMP:22-39639,NAME:la mayenne,72,Digital Workplace & Collaboration,2022-03-17,12.0,False,2023-03-17,0,,33.51,,,,,publication_date,none
+BOAMP:22-38397,NAME:groupement d interet public pix,72,IT Services & Consulting,2022-03-17,12.0,False,2023-03-17,0,,33.51,,,,,publication_date,none
+BOAMP:22-41063,NAME:cesson sevigne,18,Unknown,2022-06-17,12.0,False,2023-06-17,0,,30.49,,,,,attribution_award_date,none
+BOAMP:22-51860,NAME:la vendee,72,IT Services & Consulting,2022-08-12,12.0,False,2023-08-12,0,,28.65,,,,,attribution_award_date,none
+BOAMP:22-52158,NAME:cd 44,72,IT Services & Consulting,2022-04-11,19.0,False,2023-11-10,0,,32.69,,,,,publication_date,none
+BOAMP:22-55032,NAME:cd 44,72,IT Services & Consulting,2022-04-17,12.0,False,2023-04-17,1,BOAMP:22-90329,10.22,0.5857,0.2261,0.7,0.8514,publication_date,tfidf_cosine
+BOAMP:22-58525,NAME:communes de nozay,72,IT Services & Consulting,2022-09-09,18.0,False,2024-03-09,0,,27.73,,,,,attribution_award_date,none
+BOAMP:22-61807,NAME:cd 44,72,IT Services & Consulting,2022-04-29,12.0,False,2023-04-29,0,,32.1,,,,,publication_date,none
+BOAMP:22-64560,NAME:insee,72,Cybersecurity,2022-08-16,12.0,False,2023-08-16,0,,28.52,,,,,attribution_award_date,none
+BOAMP:22-66076,NAME:le mans,32,Telecom & Networks,2022-05-11,12.0,False,2023-05-11,0,,31.7,,,,,publication_date,none
+BOAMP:22-69458,NAME:le mans,32,Telecom & Networks,2022-10-19,12.0,False,2023-10-19,0,,26.41,,,,,attribution_award_date,none
+BOAMP:22-72719,NAME:ville d angers,35,Cybersecurity,2022-08-04,12.0,False,2023-08-04,1,BOAMP:23-47137,11.47,0.9035,0.9684,0.7,0.9554,attribution_award_date,tfidf_cosine
+BOAMP:22-73696,NAME:ville du mans,18,Telecom & Networks,2022-08-16,12.0,False,2023-08-16,0,,28.52,,,,,attribution_award_date,none
+BOAMP:22-78731,NAME:la baule escoublac,18,Unknown,2022-06-05,12.0,False,2023-06-05,0,,30.88,,,,,publication_date,none
+BOAMP:22-87982,NAME:de nantes,72,IT Services & Consulting,2022-06-23,12.0,False,2023-06-23,0,,30.29,,,,,publication_date,none
+BOAMP:22-90330,NAME:loire atlantique developpement,72,IT Maintenance & Support,2022-06-30,12.0,False,2023-06-30,0,,30.06,,,,,publication_date,none
+BOAMP:22-90329,NAME:cd 44,72,IT Maintenance & Support,2023-02-22,12.0,False,2024-02-22,0,,22.27,,,,,attribution_award_date,none
+BOAMP:22-93332,NAME:vendee expansion,72,IT Services & Consulting,2022-09-26,12.0,False,2023-09-26,0,,27.17,,,,,attribution_award_date,none
+BOAMP:22-94809,NAME:com d agglo reg nazairienne estuaire,48,Software & Applications,2022-12-06,6.0,False,2023-06-06,0,,24.84,,,,,attribution_award_date,none
+BOAMP:22-95015,NAME:des pays de la loire,32,Telecom & Networks,2022-07-09,12.0,False,2023-07-09,0,,29.76,,,,,publication_date,none
+BOAMP:22-95969,NAME:universite d angers,32,Telecom & Networks,2022-07-10,6.0,False,2023-01-08,1,BOAMP:23-165727,16.66,0.4181,0.4268,0.3,0.112,publication_date,tfidf_cosine
+BOAMP:22-99915,NAME:ctre hosp universitaire angers,45,Cloud & Infrastructure,2023-01-01,12.0,False,2024-01-01,0,,23.98,,,,,attribution_award_date,none
+BOAMP:22-102191,NAME:rectorat division scus,32,Telecom & Networks,2022-07-24,1.0,False,2022-08-23,0,,29.27,,,,,publication_date,none
+BOAMP:22-102718,NAME:vallons de l erdre,72,IT Services & Consulting,2022-11-28,12.0,False,2023-11-28,0,,25.1,,,,,attribution_award_date,none
+BOAMP:22-112462,NAME:semitan,72,IT Services & Consulting,2022-08-17,3.0,False,2022-11-16,0,,28.48,,,,,publication_date,none
+BOAMP:22-118541,NAME:dgac dsna,72,IT Services & Consulting,2022-09-02,12.0,False,2023-09-02,0,,27.96,,,,,publication_date,none
+BOAMP:22-120791,NAME:angers loire metropole,32,Telecom & Networks,2022-09-11,12.0,False,2023-09-11,0,,27.66,,,,,publication_date,none
+BOAMP:22-123056,NAME:de loire atlanti,72,IT Services & Consulting,2023-02-09,12.0,False,2024-02-09,0,,22.7,,,,,attribution_award_date,none
+BOAMP:22-126881,NAME:de loire atlanti,32,Telecom & Networks,2022-09-21,12.0,False,2023-09-21,0,,27.33,,,,,publication_date,none
+BOAMP:22-128177,NAME:vendee,72,IT Services & Consulting,2022-12-13,12.0,False,2023-12-13,0,,24.61,,,,,attribution_award_date,none
+BOAMP:22-134715,NAME:de loire atlanti,48,Software & Applications,2022-10-07,12.0,False,2023-10-07,0,,26.81,,,,,publication_date,none
+BOAMP:22-141252,NAME:reseau canope,72,Digital Workplace & Collaboration,2022-10-20,12.0,False,2023-10-20,0,,26.38,,,,,publication_date,none
+BOAMP:22-141594,NAME:angers loire metropole,72,IT Services & Consulting,2022-10-21,12.0,False,2023-10-21,0,,26.35,,,,,publication_date,none
+BOAMP:22-144511,NAME:ubs,38,Unknown,2022-10-28,6.0,False,2023-04-28,0,,26.12,,,,,publication_date,none
+BOAMP:22-148365,NAME:le mans,50,Unknown,2023-06-02,12.0,False,2024-06-01,0,,18.99,,,,,attribution_award_date,none
+BOAMP:22-150567,NAME:geves,35,Cybersecurity,2022-11-12,12.0,False,2023-11-12,0,,25.62,,,,,publication_date,none
+BOAMP:22-153148,NAME:des pays de la loire,72,IT Services & Consulting,2022-11-19,5.0,False,2023-04-20,0,,25.39,,,,,publication_date,none
+BOAMP:22-162609,NAME:angers loire metropole,48,Software & Applications,2022-12-09,12.0,False,2023-12-09,0,,24.74,,,,,publication_date,none
+BOAMP:22-162095,NAME:la mayenne,72,IT Services & Consulting,2022-12-09,12.0,False,2023-12-09,1,BOAMP:23-66104,9.13,0.6414,0.2231,1.0,0.7611,publication_date,tfidf_cosine
+BOAMP:22-165707,NAME:le mans,72,Cybersecurity,2022-12-15,12.0,False,2023-12-15,0,,24.54,,,,,publication_date,none
+BOAMP:22-166133,NAME:gie des epl de vendee,48,Software & Applications,2022-12-18,12.0,False,2023-12-18,0,,24.44,,,,,publication_date,none
+BOAMP:22-166149,NAME:gie des epl de vendee,48,Software & Applications,2023-02-20,2.0,False,2023-04-21,0,,22.34,,,,,attribution_award_date,none
+BOAMP:23-12742,NAME:ubs,43,Unknown,2023-01-28,4.0,False,2023-05-29,0,,23.09,,,,,publication_date,none
+BOAMP:23-30054,NAME:maine et loire,35,Cybersecurity,2023-03-07,3.0,False,2023-06-06,0,,21.85,,,,,publication_date,none
+BOAMP:23-31948,NAME:soc publique reg abe de fontevraud,32,Telecom & Networks,2023-03-11,4.0,False,2023-07-10,0,,21.71,,,,,publication_date,none
+BOAMP:23-48831,NAME:nantes,32,Telecom & Networks,2023-04-12,6.0,False,2023-10-11,0,,20.66,,,,,publication_date,none
+BOAMP:23-56091,NAME:ubs,32,Telecom & Networks,2023-04-26,4.0,False,2023-08-25,0,,20.2,,,,,publication_date,none
+BOAMP:23-98097,NAME:vendee grand littoral,48,Software & Applications,2023-07-11,3.0,False,2023-10-10,0,,17.71,,,,,publication_date,none
+BOAMP:23-137061,NAME:clisson,32,Telecom & Networks,2023-10-03,2.0,False,2023-12-02,0,,14.95,,,,,publication_date,none
