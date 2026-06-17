@@ -1,9 +1,15 @@
-# Week 1 — Exploration and Mapping of Data Sources (BOAMP / DECP)
+# Phase 1 — BOAMP-First Data Exploration and Renewal Linking
 
-First week of the Gigalis predictive-modeling internship: explore and document
-the open public-procurement data sources **before writing any modeling code**.
+This repository documents the Phase 1 BOAMP-first workflow for the Gigalis
+predictive-modeling internship. The current official modeling path is
+**BOAMP-only**: raw BOAMP acquisition, BOAMP cleaning, BOAMP renewal linking,
+and export of one survival-analysis-ready table for Phase 2.
+
 Scope: digital contracts (CPV 48 software, 72 IT services, 32 telecom,
 35 security), Pays de la Loire (departments 44/49/53/72/85), 2015–2024.
+
+DECP exploration remains in the repository as documented research and a later
+enrichment path, but it is **not part of the current official Phase 2 handoff**.
 
 ## Setup
 
@@ -11,29 +17,42 @@ Scope: digital contracts (CPV 48 software, 72 IT services, 32 telecom,
 pip install -r requirements.txt
 ```
 
-## Run order
+## Official run order (BOAMP-only)
 
 ```bash
-# Phase 1 — Data acquisition
+# Phase 1 — BOAMP acquisition and profiling
 python scripts/task1b_boamp_full_fetch.py    # full BOAMP download (3,181 notices)
-python scripts/task3_decp_fetch_profile.py   # download + filter + profile DECP (~210 MB download)
-
-# Phase 2 — Profiling and comparison (read from Phase 1 outputs)
 python scripts/task2_boamp_profile.py        # BOAMP field profiling + deep-dives
-python scripts/task4_compare.py              # BOAMP vs DECP comparison table
 python scripts/task5_duration_analysis.py    # duration-reliability analysis + figures
 
-# Phase 3 — Cleaning and survival dataset
-python scripts/task7_week2_cleaning.py       # shared cleaning functions + DECP cleaning
+# Phase 2 — BOAMP cleaning and renewal linking
 python scripts/task_boamp_full_clean.py      # apply cleaning to full BOAMP data
-python scripts/task6_renewal_linking.py      # DECP renewal links (survival labels)
-python scripts/task_boamp_full_survival.py   # BOAMP survival dataset (APPEL_OFFRE only)
-python scripts/task8_unified_survival.py     # combined BOAMP + DECP survival dataset
+python scripts/task_boamp_full_survival.py   # BOAMP scripted baseline (Jaccard)
+
+# Phase 3 — official Phase 2 handoff (from the BOAMP notebooks)
+# Run the BOAMP notebooks top-to-bottom first, then export the official processed CSV:
+python scripts/task9_boamp_phase2_handoff.py
 ```
 
-Each phase depends on the previous. Tasks 2/4/5 read the CSVs produced by task1b
-and task3. The original 500-notice sample (`task1_boamp_fetch.py`) is kept for
-reference but superseded by the full download.
+The official Phase 2 modeling input is
+`data/processed/boamp_phase2_survival.csv`, exported from the BOAMP renewal-linking
+notebook output `boamp_renewal_linking_quality/outputs/boamp_renewal_links.csv`.
+
+The original 500-notice sample (`task1_boamp_fetch.py`) is kept for reference
+but superseded by the full download.
+
+## Optional exploratory paths
+
+These files remain useful for source comparison and later enrichment, but are
+currently out of scope for the official BOAMP-only handoff:
+
+```bash
+python scripts/task3_decp_fetch_profile.py   # DECP source exploration
+python scripts/task4_compare.py              # BOAMP vs DECP comparison table
+python scripts/task7_week2_cleaning.py       # shared cleaning functions + DECP cleaning
+python scripts/task6_renewal_linking.py      # DECP renewal-linking baseline
+python scripts/task8_unified_survival.py     # mixed BOAMP + DECP survival dataset
+```
 
 ## Outputs
 
@@ -41,16 +60,22 @@ reference but superseded by the full download.
 |---|---|
 | `data/raw/boamp_full/` | raw full BOAMP API pages (JSON, verbatim) |
 | `data/raw/boamp_sample/` | original 500-notice sample pages (reference only) |
-| `data/raw/decp/` | DECP download — decp.parquet (git-ignored, re-downloadable) |
 | `data/processed/boamp_full_flat.csv` | **3,181 BOAMP notices, flattened** (primary) |
 | `data/processed/boamp_full_clean.csv` | **3,181 notices, cleaned** — buyer keys, amounts, durations, taxonomy |
+| `data/processed/boamp_phase2_survival.csv` | **official BOAMP-only Phase 2 handoff** — one row per eligible AO with event/censoring |
+| `data/processed/boamp_phase2_survival_report.md` | BOAMP-only handoff dataset report |
 | `data/processed/boamp_full_survival.csv` | **1,933 APPEL_OFFRE survival records** — event/censoring, ±12 month window |
 | `data/processed/boamp_full_survival_report.md` | survival dataset composition report |
 | `data/processed/boamp_sample_flat.csv` | 500-notice BOAMP sample (reference only) |
+| `boamp_renewal_linking_quality/outputs/boamp_renewal_links.csv` | **official BOAMP renewal-linking notebook output** — 1,100 eligible AO, 697 linked |
+| `boamp_renewal_linking_quality/outputs/boamp_linking_stats.csv` | linking-rate summary for the BOAMP-only final method |
+| `boamp_renewal_linking_quality/outputs/boamp_bias_report.csv` | bias/failure-reason report for the BOAMP-only final method |
+| `boamp_renewal_linking_quality/outputs/boamp_renewal_candidates.csv` | candidate-pair table before best-match selection |
+| `data/raw/decp/` | DECP download — decp.parquet (git-ignored, re-downloadable; exploratory only) |
 | `data/processed/decp_sample_flat.csv` | filtered DECP contracts (3,039) |
 | `data/processed/decp_clean.csv` | DECP with buyer keys, cleaned amounts/durations, taxonomy tags |
 | `data/processed/decp_renewal_links.csv` | DECP contracts with linked renewal event/censoring durations |
-| `data/processed/unified_survival.csv` | **3,512 combined BOAMP+DECP survival records** |
+| `data/processed/unified_survival.csv` | combined BOAMP+DECP survival records (exploratory only) |
 | `data/processed/unified_survival_report.md` | unified dataset composition report |
 | `data/processed/taxonomy.csv` | 10-category tech taxonomy (CPV + keywords) |
 | `data/processed/buyer_bridge.csv` | cross-source canonical buyer key table |
@@ -79,4 +104,8 @@ reference but superseded by the full download.
   schema-inconsistent across vintages (`marches: [...]` vs
   `marches.marche: [...]`) and are not per-year censuses — kept only as a
   documented fallback.
+- The current official survival-modeling handoff is BOAMP-only because BOAMP
+  and DECP do not share a reliable direct linking key for a robust contract-level
+  merge. DECP remains a later enrichment path rather than a prerequisite for
+  Phase 2.
 - Week 1 deliberately contains **no modeling** (see internship guide §4.1.1).

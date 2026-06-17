@@ -2,10 +2,10 @@
 
 ## Purpose
 
-This folder contains a self-contained EDA and preprocessing workflow for the BOAMP
-dataset, focused on constructing renewal links between original procurement calls and
-their subsequent renewals. It is **independent of DECP** and does not share output
-files with the main `scripts/` pipeline.
+This folder contains the current **official BOAMP-only renewal-linking workflow**.
+It constructs renewal links between original procurement calls and their subsequent
+renewals without relying on DECP. The notebook output is the source for the
+official Phase 2 handoff exported to `data/processed/boamp_phase2_survival.csv`.
 
 ## Background
 
@@ -44,7 +44,7 @@ boamp_renewal_linking_quality/
 ├── boamp_renewal_linking_eda_preprocessing.ipynb     ← main notebook
 └── outputs/
     ├── boamp_renewal_candidates.csv    all filtered candidate pairs
-    ├── boamp_renewal_links.csv         one row per eligible AO (event 0/1)  ← modeling input
+   ├── boamp_renewal_links.csv         one row per eligible AO (event 0/1)  ← official linking output
     ├── boamp_linking_stats.csv         summary statistics (one row)
     └── boamp_bias_report.csv           failure-reason × CPV cross-tabulation
 ```
@@ -64,6 +64,12 @@ Run all cells top-to-bottom. The notebook is self-contained: it loads
 The Sentence-Transformers model (~120 MB) is downloaded on first run and
 cached in `~/.cache/huggingface/`.
 
+Then export the official processed handoff file:
+
+```bash
+python scripts/task9_boamp_phase2_handoff.py
+```
+
 ## Dependencies
 
 Requires `scikit-learn >= 1.3` and `sentence-transformers` in addition to the
@@ -74,9 +80,15 @@ base EDA stack (`pandas`, `numpy`, `matplotlib`, `seaborn`).
 | File | Rows | Description |
 |------|------|-------------|
 | `boamp_renewal_candidates.csv` | 5,356 | All pairs passing hard filters, before best-match selection |
-| `boamp_renewal_links.csv` | 1,100 | One row per eligible AO; `event=1` (697) if a renewal was found — **modeling input** |
+| `boamp_renewal_links.csv` | 1,100 | One row per eligible AO; `event=1` (697) if a renewal was found — **official BOAMP linking output** |
 | `boamp_linking_stats.csv` | 1 | Linking rate (primary = over eligible denominator) |
-| `boamp_bias_report.csv` | 71 | Failure reason × CPV breakdown |
+| `boamp_bias_report.csv` | 62 | Failure reason × CPV breakdown |
+
+The standardized Phase 2 handoff exported by `task9_boamp_phase2_handoff.py`
+is written to `data/processed/boamp_phase2_survival.csv`.
+
+The academic PDF figures used by `reports/phase1_technical_report.tex` are
+generated directly inside `boamp_renewal_linking_quality/data.ipynb`.
 
 ## Linking Rate Definition
 
