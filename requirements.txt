@@ -1,8 +1,12 @@
-# Week 1 — data exploration dependencies (Python 3.10+)
-requests>=2.31
-pandas>=2.0
-matplotlib>=3.7
-seaborn>=0.13
-pyarrow>=14         # read the tabular DECP consolidation (decp.parquet)
-scikit-learn>=1.3
-sentence-transformers>=2.2
+# Phase 1 dependencies (Python 3.10+)
+# Versions verified against Python 3.12 / .venv on 2026-06-17
+
+requests>=2.31,<3.0
+pandas>=2.0,<4.0
+matplotlib>=3.7,<4.0
+seaborn>=0.13,<1.0
+pyarrow>=14,<20          # read the tabular DECP consolidation (decp.parquet)
+scikit-learn>=1.3,<2.0
+scipy>=1.11,<2.0
+tqdm>=4.60,<5.0
+sentence-transformers>=2.2,<6.0

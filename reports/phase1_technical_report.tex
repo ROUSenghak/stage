@@ -5,10 +5,12 @@
 \usepackage{booktabs}
 \usepackage{array}
 \usepackage{longtable}
+\usepackage{tabularx}
 \usepackage{geometry}
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{graphicx}
+\usepackage{pdflscape}
 \usepackage{multirow}
 \usepackage{caption}
 \usepackage{subcaption}
@@ -19,12 +21,18 @@
 \usepackage{enumitem}
 \usepackage{textcomp}
 \usepackage{float}
-\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+\usepackage{ragged2e}
+\usepackage{makecell}
+\newcolumntype{P}[1]{>{\RaggedRight\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\Centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\RaggedLeft\arraybackslash}p{#1}}
 
-\geometry{margin=2.5cm, top=3cm, bottom=3cm}
+\geometry{margin=2.2cm, top=2.8cm, bottom=2.8cm}
 \setstretch{1.15}
 \setlength{\headheight}{14pt}
 \setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.16}
+\captionsetup[table]{skip=7pt}
 \setlength{\emergencystretch}{3em}
 
 \definecolor{darkblue}{RGB}{0,51,102}
@@ -82,10 +90,11 @@ The final method links 697 out of 1,100 eligible source contracts, or 63.4\%.
 The gain comes mainly from two methodological changes: using Sentence-Transformer
 embeddings instead of lexical Jaccard/TF-IDF matching, and treating CPV as a
 scored compatibility signal rather than as a hard grouping constraint. The
-largest remaining weakness is buyer identification: only 5.9\% of buyers are
-identified by SIRET, so most grouping relies on normalised buyer names. This can
-fragment the same public entity into several buyer keys and create false
-negatives.
+largest remaining weakness is buyer identification: only 5.9\% of unique buyer
+identities (28 of 475) carry a SIRET code; at the notice level, 2.7\% of all
+notices (87 of 3,188) have SIRET-identified buyers. Most grouping therefore
+relies on normalised buyer names, which can fragment the same public entity
+into several buyer keys and create false negatives.
 
 The \texttt{event} variable should be interpreted carefully. \texttt{event = 1}
 means that the algorithm found a plausible renewal candidate. \texttt{event = 0}
@@ -155,7 +164,7 @@ MODIFICATION                             & 5              &  0.2\% \\
 INTENTION\_CONCLURE                      & 4              &  0.1\% \\
 PERIODIQUE                               & 1              &  0.0\% \\
 \midrule
-\textbf{Total}                           & \textbf{3,181} & 100\% \\
+\textbf{Total}                           & \textbf{3,188} & 100\% \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -173,7 +182,7 @@ Table~\ref{tab:columns} describes all 44 columns in
 fields and fields added by the cleaning pipeline.
 
 \scriptsize
-\begin{longtable}{@{}P{3.8cm}P{1.3cm}P{1.3cm}P{8.0cm}@{}}
+\begin{longtable}{@{}P{4.30cm}P{1.25cm}P{1.25cm}P{8.00cm}@{}}
 \caption{Full column dictionary --- \texttt{boamp\_full\_clean.csv}}
 \label{tab:columns} \\
 \toprule
@@ -251,8 +260,8 @@ fields and fields added by the cleaning pipeline.
 \texttt{url\_avis}    & string & 100\% & Direct URL to the notice on boamp.fr. \\
 \texttt{donnees\_format} & string & 100\% & Data format flag (\texttt{legacy} 87.3\%, \texttt{json} 12.7\%). \\
 
-\multicolumn{4}{@{}P{14.4cm}@{}}{\scriptsize $^\dagger$ Column added or derived by the cleaning pipeline. Not present in the original BOAMP API response.} \\
-\multicolumn{4}{@{}P{14.4cm}@{}}{\scriptsize $^*$ \texttt{date\_attribution} is 0\% for AO notices; it is populated on ATTRIBUTION notices and used indirectly via \texttt{annonce\_lie}.} \\
+\multicolumn{4}{@{}P{0.96\textwidth}@{}}{\scriptsize $^\dagger$ Column added or derived by the cleaning pipeline. Not present in the original BOAMP API response.} \\
+\multicolumn{4}{@{}P{0.96\textwidth}@{}}{\scriptsize $^*$ \texttt{date\_attribution} is 0\% for AO notices; it is populated on ATTRIBUTION notices and used indirectly via \texttt{annonce\_lie}.} \\
 \end{longtable}
 \normalsize
 
@@ -298,8 +307,9 @@ CAT10 & GIS \& Mapping                &   5 &  0.3\% \\
 Metric & Value \\
 \midrule
 Total unique buyers (\texttt{buyer\_key}) & 475 \\
-Buyers identified by SIRET & 28 (5.9\%) \\
+Buyers identified by SIRET (unique buyer keys) & 28 (5.9\%) \\
 Buyers identified by normalised name only & 447 (94.1\%) \\
+Notices with SIRET-identified buyer & 87 (2.7\%) \\
 Buyers with $\geq 2$ AO notices & 225 (47.4\%) \\
 Buyers with $\geq 5$ AO notices & 78 (16.4\%) \\
 \midrule
@@ -332,7 +342,7 @@ architecture adopted for the rest of the analysis.
 $n_{\text{DECP}}=3{,}039$)}
 \label{tab:source_comparison}
 \small
-\begin{tabular}{@{}p{3.6cm}crcr p{2.6cm}@{}}
+\begin{tabular}{@{}P{3.8cm}C{1.3cm}R{1.0cm}C{1.3cm}R{1.0cm}P{2.5cm}@{}}
 \toprule
 Field & \multicolumn{2}{c}{BOAMP} & \multicolumn{2}{c}{DECP} & Recommended \\
       & Avail.? & Fill\% & Avail.? & Fill\% & source \\
@@ -493,10 +503,14 @@ date minus the contract start date.
 Nine data quality issues were identified through systematic EDA. Each directly
 affects the accuracy or recall of the renewal linking algorithm.
 
-\begin{table}[h]
+\clearpage
+\begin{landscape}
+\thispagestyle{empty}
+\begin{table}[p]
 \centering
 \caption{Data quality issues and their impact on the linking algorithm}
-\begin{tabular}{clp{5.2cm}p{3.5cm}}
+\small
+\begin{tabularx}{\linewidth}{@{}C{0.7cm}P{4.3cm}X X@{}}
 \toprule
 \# & Issue & Observation & Impact on linking \\
 \midrule
@@ -528,8 +542,11 @@ affects the accuracy or recall of the renewal linking algorithm.
   & Present only on ATTRIBUTION notices (82.9\%); refers to same-contract back-link, not a renewal
   & Used as calibration signal, not as a direct renewal label \\[4pt]
 \bottomrule
-\end{tabular}
+\end{tabularx}
+\normalsize
 \end{table}
+\end{landscape}
+\clearpage
 
 % =============================================================================
 \section{Preprocessing Pipeline}
@@ -804,7 +821,7 @@ Always 1.0 within the same-buyer grouping loop:
 \begin{table}[h]
 \centering
 \caption{Weight rationale}
-\begin{tabular}{lcp{8cm}}
+\begin{tabular}{@{}P{2.5cm}R{1.4cm}P{9.0cm}@{}}
 \toprule
 Component & Weight & Rationale \\
 \midrule
@@ -897,7 +914,7 @@ notebook linking output and contains one row per eligible
 \textit{APPEL\_OFFRE} (1,100 rows, 26 columns).
 
 \small
-\begin{longtable}{p{4.8cm} p{1.5cm} p{7.0cm}}
+\begin{longtable}{@{}P{5.0cm}P{1.7cm}P{9.0cm}@{}}
 \caption{Column dictionary --- \texttt{boamp\_phase2\_survival.csv} (modeling input)}
 \label{tab:links_cols} \\
 \toprule
@@ -1045,7 +1062,7 @@ vs.\ $3.7$ months for non-imputed).}
 \begin{table}[h]
 \centering
 \caption{Linking rate by method}
-\begin{tabular}{p{8.3cm}rrr}
+\begin{tabular}{@{}P{8.7cm}R{1.6cm}R{2.2cm}R{1.5cm}@{}}
 \toprule
 Method & Linked & Denominator & Rate \\
 \midrule
@@ -1077,7 +1094,7 @@ Of the 403 unlinked eligible AO, three failure modes are identified:
 \centering
 \caption{Failure mode breakdown (403 unlinked eligible AO)}
 \small
-\begin{tabular}{p{4.3cm}rrp{7.1cm}}
+\begin{tabular}{@{}P{4.4cm}R{1.2cm}R{1.4cm}P{7.5cm}@{}}
 \toprule
 Failure reason & Count & Share & Description \\
 \midrule
@@ -1558,11 +1575,14 @@ activity, which is the expected direction.
 
 \subsection{Summary of Reliability Findings}
 
-\begin{table}[H]
+\clearpage
+\begin{landscape}
+\thispagestyle{empty}
+\begin{table}[p]
 \centering
 \caption{Reliability check results for \texttt{boamp\_renewal\_links.csv}}
 \small
-\begin{tabular}{p{5.5cm} p{3.5cm} p{4.0cm}}
+\begin{tabularx}{\linewidth}{@{}X P{4.2cm} X@{}}
 \toprule
 Check & Result & Interpretation \\
 \midrule
@@ -1577,9 +1597,11 @@ Low text-similarity links ($s_{\text{text}} < 0.30$) & 89 pairs (12.8\%) & Highe
 Ambiguous score margin ($<0.05$) & 44.7\% of multi-cand. & Structural; not tunable \\[4pt]
 HIGH + MEDIUM tier share & 528 / 697 (75.8\%) & Reliable core for modeling \\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \normalsize
 \end{table}
+\end{landscape}
+\clearpage
 
 % =============================================================================
 \clearpage
@@ -1594,7 +1616,7 @@ analysis.
 \centering
 \caption{Output files produced by the BOAMP linking workflow}
 \small
-\begin{tabular}{@{}p{6.1cm}>{\raggedleft\arraybackslash}p{1.2cm}p{5.7cm}@{}}
+\begin{tabular}{@{}P{6.4cm}R{1.2cm}P{6.4cm}@{}}
 \toprule
 File & Rows & Purpose \\
 \midrule
