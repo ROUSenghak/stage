@@ -6,3 +6,11 @@ data/raw/decp/*
 __pycache__/
 *.pyc
 .venv/
+
+# Generated LaTeX build artifacts
+reports/*.aux
+reports/*.log
+reports/*.out
+
+# Notebook-local duplicate report output folders (canonical outputs are under reports/)
+notebooks/reports/

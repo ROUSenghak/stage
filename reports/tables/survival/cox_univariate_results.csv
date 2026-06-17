@@ -1,0 +1,11 @@
+covariate,HR,HR_lower,HR_upper,p_value,concordance
+declared_duration_months,0.985,0.981,0.989,0.0,0.6596
+dur_was_imputed,0.652,0.548,0.776,0.0,0.5712
+start_year,1.167,1.119,1.217,0.0,0.591
+cat_cox_IT Services & Consulting,1.152,0.98,1.355,0.0855,0.5118
+cat_cox_Other,0.846,0.704,1.017,0.0758,0.5054
+cat_cox_Software & Applications,1.085,0.905,1.301,0.3772,0.4982
+cat_cox_Telecom & Networks,0.896,0.736,1.092,0.2768,0.5054
+proc_cox_OUVERT,1.113,0.958,1.293,0.1624,0.5261
+proc_cox_Other_proc,0.665,0.392,1.129,0.1308,0.5045
+proc_cox_PROCEDURE_ADAPTE,0.91,0.779,1.063,0.2322,0.5223

@@ -90,11 +90,10 @@ The final method links 697 out of 1,100 eligible source contracts, or 63.4\%.
 The gain comes mainly from two methodological changes: using Sentence-Transformer
 embeddings instead of lexical Jaccard/TF-IDF matching, and treating CPV as a
 scored compatibility signal rather than as a hard grouping constraint. The
-largest remaining weakness is buyer identification: only 5.9\% of unique buyer
-identities (28 of 475) carry a SIRET code; at the notice level, 2.7\% of all
-notices (87 of 3,188) have SIRET-identified buyers. Most grouping therefore
-relies on normalised buyer names, which can fragment the same public entity
-into several buyer keys and create false negatives.
+largest remaining weakness is buyer identification: only 12.8\% of unique buyer
+entities are identified by SIRET, so most grouping relies on
+normalised buyer names. This can fragment the same public entity into several
+buyer keys and create false negatives.
 
 The \texttt{event} variable should be interpreted carefully. \texttt{event = 1}
 means that the algorithm found a plausible renewal candidate. \texttt{event = 0}
@@ -164,7 +163,7 @@ MODIFICATION                             & 5              &  0.2\% \\
 INTENTION\_CONCLURE                      & 4              &  0.1\% \\
 PERIODIQUE                               & 1              &  0.0\% \\
 \midrule
-\textbf{Total}                           & \textbf{3,188} & 100\% \\
+\textbf{Total}                           & \textbf{3,181} & 100\% \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -213,7 +212,7 @@ fields and fields added by the cleaning pipeline.
 \texttt{code\_departement} & string & 100\%  & French department code (e.g.\ \texttt{44} for Loire-Atlantique). \\
 \texttt{buyer\_siret}    & string  & 9.1\%  & SIRET number (14-digit unique company ID). Low coverage. \\
 \texttt{buyer\_cp}       & string  & 96.5\% & Postal code of the buyer. \\
-\texttt{buyer\_ville}    & string  & 100\%  & City name of the buyer. \\
+\texttt{buyer\_ville}    & string  & 99.6\% & City name of the buyer. \\
 \texttt{buyer\_key}$^\dagger$ & string & 100\% & \textbf{Constructed key}: \texttt{SIRET:XXXXXXXX} when SIRET is available, else \texttt{NAME:normalised\_name}. Used as the grouping key for renewal matching. \\[6pt]
 
 \multicolumn{4}{l}{\textit{--- Contract classification ---}} \\[2pt]
@@ -221,8 +220,8 @@ fields and fields added by the cleaning pipeline.
 \texttt{nature}          & string  & 100\%  & Notice type (see Table 1 above). \\
 \texttt{nature\_libelle} & string  & 100\%  & Human-readable notice type label. \\
 \texttt{type\_procedure} & string  & 98.5\% & Procurement procedure: OUVERT (62.4\%), PROCEDURE\_ADAPTE (24.3\%), NEGOCIE (8.9\%), RESTREINT (1.9\%), other. \\
-\texttt{type\_marche}    & string  & 91.6\% & Contract type: SERVICES (53.6\%), FOURNITURES (26.2\%), TRAVAUX (12.0\%), mixed. \\
-\texttt{type\_avis}      & string  & 100\%  & Notice subtype codes (e.g.\ \texttt{5|1|}). \\
+\texttt{type\_marche}    & string  & 91.6\% & Contract type: SERVICES (53.6\%), FOURNITURES (32.0\%), TRAVAUX (5.4\%), mixed. \\
+\texttt{type\_avis}      & string  & 95.1\% & Notice subtype codes (e.g.\ \texttt{5|1|}). 100\% on AO notices. \\
 \texttt{etat}            & string  & 100\%  & Publication state (\texttt{INITIAL} 97.6\%, \texttt{ANNULE}, \texttt{RECTIFIE}). \\
 \texttt{contractfolderid} & string & 9.8\%  & Internal contract folder ID. Very sparse; not used. \\[6pt]
 
@@ -233,11 +232,11 @@ fields and fields added by the cleaning pipeline.
 \texttt{annonce\_lie}        & string  & 2.9\%  & Back-reference to an earlier notice. On ATTRIBUTION records: 82.9\% filled. Used as partial ground truth for calibration. \\[6pt]
 
 \multicolumn{4}{l}{\textit{--- CPV codes ---}} \\[2pt]
-\texttt{cpv\_principal}  & float   & 96.8\% & Raw CPV code (8-digit integer) as published. \\
+\texttt{cpv\_principal}  & float   & 98.1\% & Raw CPV code (8-digit integer) as published. \\
 \texttt{cpv\_all}        & string  & 100\%  & Pipe-delimited list of all CPV codes for the notice. \\
-\texttt{cpv\_clean}$^\dagger$ & float & 96.8\% & Cleaned primary CPV code. Generic codes (ending in \texttt{000000}) flagged separately. \\
-\texttt{cpv\_div2}$^\dagger$  & float & 96.8\% & First 2 digits of CPV (division-level, e.g.\ 72 = IT services). Range: 15--98. \\
-\texttt{cpv\_class4}$^\dagger$ & float & 96.8\% & First 4 digits of CPV (class-level granularity). \\
+\texttt{cpv\_clean}$^\dagger$ & float & 98.1\% & Cleaned primary CPV code. Generic codes (ending in \texttt{000000}) flagged separately. \\
+\texttt{cpv\_div2}$^\dagger$  & float & 98.1\% & First 2 digits of CPV (division-level, e.g.\ 72 = IT services). Range: 15--98. \\
+\texttt{cpv\_class4}$^\dagger$ & float & 98.1\% & First 4 digits of CPV (class-level granularity). \\
 \texttt{category\_id}$^\dagger$ & string & 100\% & Internal category code (CAT01--CAT11) derived from CPV. \\
 \texttt{category\_label}$^\dagger$ & string & 100\% & Human-readable category (see Table~\ref{tab:categories}). \\[6pt]
 
@@ -279,17 +278,17 @@ exclusively the ICT/digital services scope of the Gigalis portfolio.
 \toprule
 Category ID & Label & Count & Share \\
 \midrule
-CAT02 & IT Services \& Consulting     & 312 & 16.1\% \\
-CAT01 & Software \& Applications      & 209 & 10.8\% \\
-CAT03 & Telecom \& Networks           & 204 & 10.6\% \\
-CAT04 & Cybersecurity                 & 121 &  6.3\% \\
----   & Unknown (CPV missing)         & 108 &  5.6\% \\
-CAT05 & Digital Workplace \& Collab.  &  45 &  2.3\% \\
-CAT06 & Data \& AI                    &  34 &  1.8\% \\
-CAT07 & IT Maintenance \& Support     &  22 &  1.1\% \\
-CAT08 & IT Hardware \& Equipment      &  21 &  1.1\% \\
-CAT09 & Cloud \& Infrastructure       &  19 &  1.0\% \\
-CAT10 & GIS \& Mapping                &   5 &  0.3\% \\
+CAT02 & IT Services \& Consulting     & 583 & 30.2\% \\
+CAT01 & Software \& Applications      & 373 & 19.3\% \\
+CAT03 & Telecom \& Networks           & 337 & 17.4\% \\
+CAT04 & Cybersecurity                 & 211 & 10.9\% \\
+---   & Unknown (CPV missing)         & 176 &  9.1\% \\
+CAT05 & Digital Workplace \& Collab.  &  89 &  4.6\% \\
+CAT06 & Data \& AI                    &  54 &  2.8\% \\
+CAT08 & IT Hardware \& Equipment      &  45 &  2.3\% \\
+CAT07 & IT Maintenance \& Support     &  31 &  1.6\% \\
+CAT09 & Cloud \& Infrastructure       &  25 &  1.3\% \\
+CAT10 & GIS \& Mapping                &   9 &  0.5\% \\
 \midrule
       & \textbf{Total AO}             & \textbf{1,933} & 100\% \\
 \bottomrule
@@ -307,9 +306,8 @@ CAT10 & GIS \& Mapping                &   5 &  0.3\% \\
 Metric & Value \\
 \midrule
 Total unique buyers (\texttt{buyer\_key}) & 475 \\
-Buyers identified by SIRET (unique buyer keys) & 28 (5.9\%) \\
-Buyers identified by normalised name only & 447 (94.1\%) \\
-Notices with SIRET-identified buyer & 87 (2.7\%) \\
+Buyers identified by SIRET & 61 (12.8\%) \\
+Buyers identified by normalised name only & 414 (87.2\%) \\
 Buyers with $\geq 2$ AO notices & 225 (47.4\%) \\
 Buyers with $\geq 5$ AO notices & 78 (16.4\%) \\
 \midrule
@@ -323,7 +321,7 @@ Angers Loire M\'etropole  &  46 \\
 \end{tabular}
 \end{table}
 
-The dominance of name-based buyer keys (94.1\%) is the primary structural
+The dominance of name-based buyer keys (87.2\%) is the primary structural
 risk: variant spellings of the same buyer (e.g.\ ``Nantes'' vs.\ ``Nantes
 M\'etropole'' vs.\ ``NM'') fragment the buyer group, creating structural
 misses that the algorithm cannot recover.
@@ -1001,8 +999,8 @@ Score & Mean & Std & Min & Q25 & Median & Q75 & Max \\
 \includegraphics[width=0.96\textwidth]{figures/fig_score_distributions}
 \caption{Score distributions for the 697 linked contracts (\texttt{event = 1}).
 \textbf{Left:} composite score $S(i,j^*)$ with confidence-tier shading: LOW
-(composite $< 0.50$, red, $n = 169$), MEDIUM ($0.50$--$0.70$, orange, $n = 347$),
-HIGH ($\geq 0.70$, green, $n = 181$). The dashed line marks the mean (0.624).
+(composite $< 0.50$, red, $n = 144$), MEDIUM ($0.50$--$0.70$, orange, $n = 348$),
+HIGH ($\geq 0.70$, green, $n = 205$). The dashed line marks the mean (0.624).
 \textbf{Right:} text similarity $s_{\text{text}}(i,j^*)$ with the hard-filter
 threshold at 0.20 (dotted red). The shaded band (0.20--0.30) flags 89 pairs
 (12.8\%) whose semantic similarity is low, representing the highest false-positive
@@ -1453,7 +1451,7 @@ similarity, and CPV compatibility.
         calibrates text similarity thresholds but is not a direct renewal label.
         The true precision of the 697 links is unknown without manual validation.
 
-  \item \textbf{Name-based buyer fragmentation.} 94.2\% of buyer keys are
+  \item \textbf{Name-based buyer fragmentation.} 87.2\% of buyer keys are
         name-based. Variant spellings of the same public entity (abbreviations,
         accents, word order) create separate groups, producing structural false
         negatives that cannot be recovered by tuning thresholds alone.
@@ -1502,9 +1500,9 @@ composite score $S(i,j^*)$:
 \toprule
 Tier & Criterion & Count & Share \\
 \midrule
-HIGH   & $S(i,j^*) \geq 0.70$ & 181 & 26.0\% \\
-MEDIUM & $0.50 \leq S(i,j^*) < 0.70$ & 347 & 49.8\% \\
-LOW    & $S(i,j^*) < 0.50$ & 169 & 24.2\% \\
+HIGH   & $S(i,j^*) \geq 0.70$ & 205 & 29.4\% \\
+MEDIUM & $0.50 \leq S(i,j^*) < 0.70$ & 348 & 49.9\% \\
+LOW    & $S(i,j^*) < 0.50$ & 144 & 20.7\% \\
 \midrule
 \multicolumn{2}{l}{Censored (event = 0)} & 403 & --- \\
 \bottomrule
@@ -1515,10 +1513,10 @@ LOW    & $S(i,j^*) < 0.50$ & 169 & 24.2\% \\
 \centering
 \includegraphics[width=0.90\textwidth]{figures/fig_confidence_tiers}
 \caption{Confidence tier breakdown across all 1,100 eligible contracts. Green
-= HIGH ($S \geq 0.70$, $n = 181$); orange = MEDIUM ($0.50 \leq S < 0.70$,
-$n = 347$); red = LOW ($S < 0.50$, $n = 169$); light blue = censored
-(event = 0, $n = 403$). The HIGH and MEDIUM tiers together cover 528 of the
-697 linked contracts (75.8\%), providing a reliable core dataset for survival
+= HIGH ($S \geq 0.70$, $n = 205$); orange = MEDIUM ($0.50 \leq S < 0.70$,
+$n = 348$); red = LOW ($S < 0.50$, $n = 144$); light blue = censored
+(event = 0, $n = 403$). The HIGH and MEDIUM tiers together cover 553 of the
+697 linked contracts (79.3\%), providing a reliable core dataset for survival
 modeling. LOW-tier links represent the greatest false-positive risk and should
 be downgraded to censored in the sensitivity check.}
 \label{fig:confidence_tiers}
@@ -1528,7 +1526,7 @@ For the survival model in Phase~2, the recommended protocol is:
 
 \begin{enumerate}
   \item \textbf{Primary model}: all 697 events (composite $\geq 0.20$, text $\geq 0.20$).
-  \item \textbf{Sensitivity check}: 528 events only (drop LOW tier, i.e.\ composite $\geq 0.50$).
+  \item \textbf{Sensitivity check}: 553 events only (drop LOW tier, i.e.\ composite $\geq 0.50$).
   \item If hazard ratios and survival curve shapes are stable between the two
         runs, the LOW-confidence links are not distorting conclusions --- they add noise
         but not bias. If results change substantially, report the sensitivity-check
@@ -1595,7 +1593,7 @@ Year-by-year rate stability (2015--2022) & 50--75\% & Stable; 2023 drop is struc
 \texttt{annonce\_lie} calibration & 68.2\% vs.\ 63.4\% & Positive signal \\[4pt]
 Low text-similarity links ($s_{\text{text}} < 0.30$) & 89 pairs (12.8\%) & Highest false-positive risk \\[4pt]
 Ambiguous score margin ($<0.05$) & 44.7\% of multi-cand. & Structural; not tunable \\[4pt]
-HIGH + MEDIUM tier share & 528 / 697 (75.8\%) & Reliable core for modeling \\
+HIGH + MEDIUM tier share & 553 / 697 (79.3\%) & Reliable core for modeling \\
 \bottomrule
 \end{tabularx}
 \normalsize
