@@ -14,23 +14,23 @@
 
 | Notice type | Count | % |
 |---|---|---|
-| APPEL_OFFRE (calls for tender) | 1,933 | 60.6% |
-| ATTRIBUTION (award notices) | 1,086 | 34.1% |
+| APPEL_OFFRE (calls for tender) | 1,933 | 60.8% |
+| ATTRIBUTION (award notices) | 1,081 | 34.0% |
 | RECTIFICATIF (corrections) | 150 | 4.7% |
 | PRE-INFORMATION | 7 | 0.2% |
 | MODIFICATION | 5 | 0.2% |
 | INTENTION_CONCLURE | 4 | 0.1% |
 | PERIODIQUE | 1 | 0.0% |
-| **Total** | **3,188** | 100% |
+| **Total** | **3,181** | 100% |
 
-Raw data fetched via the BOAMP Opendatasoft Explore API (`scripts/task1b_boamp_full_fetch.py`), stored as 465 JSON files in `data/raw/boamp_full/`. All notices published 2015–2024 in the five PdL departments with digital-sector CPV codes were retained.
+Raw data fetched via the BOAMP Opendatasoft Explore API (`scripts/task1b_boamp_full_fetch.py`), stored as 348 JSON files in `data/raw/boamp_full/`. All notices published 2015–2024 in the five PdL departments with digital-sector CPV codes were retained.
 
 ### 1.2 Field coverage
 
 | Field | BOAMP fill rate | Notes |
 |---|---|---|
 | `objet` (contract description) | 100% | Primary NLP input for linking |
-| `nomacheteur` (buyer name) | 100% | Free-text; 525 raw unique names → 475 canonical keys |
+| `nomacheteur` (buyer name) | 100% | Free-text; 525 raw unique names → 502 canonical keys |
 | CPV code (`cpv_principal`) | 98.1% | Missing 62 notices; missing filled from supplementary lot CPVs where possible |
 | `type_procedure` | 92.9% | Covers 8 procedure types |
 | Amount (`amount_eur`) | 43.0% | See §3.2 |
@@ -69,10 +69,10 @@ The canonical buyer key `buyer_key` follows the rule:
 | Metric | Value |
 |---|---|
 | Raw unique buyer names | 525 |
-| Canonical buyer keys | 475 |
-| Keys with SIRET (unique buyer level) | 28 (5.9% of 475 keys) |
-| Notices with SIRET-identified buyer | 87 (2.7% of 3,188 notices) |
-| Keys with name-based identifier | 447 (94.1%) |
+| Canonical buyer keys | 502 |
+| Keys with SIRET (unique buyer level) | 74 (14.7% of 502 keys) |
+| Notices with SIRET-identified buyer | 156 (4.9% of 3,181 notices) |
+| Keys with name-based identifier | 428 (85.3%) |
 
 **Risk:** Name-based keys fragment buyers with typographic variants (e.g., "Ville de Nantes" vs "V. de Nantes"). This is the primary source of false negatives in renewal linking. Cross-buyer linking is not in scope for Phase 1.
 
@@ -126,7 +126,7 @@ The low BOAMP fill rate reflects the mandatory reporting shift to eForms in 2024
 
 | Step | Count |
 |---|---|
-| Total BOAMP notices | 3,188 |
+| Total BOAMP notices | 3,181 |
 | APPEL_OFFRE notices | 1,933 |
 | Ineligible (estimated end date after 2024-12-31) | 833 |
 | **Eligible source contracts** | **1,100** |
@@ -218,7 +218,7 @@ For Phase 2 sensitivity analysis, a conservative scenario drops LOW-tier links t
 
 3. **Duration imputation bias.** 23.4% of AO have missing durations imputed to 48 months. The estimated end date for those contracts is a rough guess; the temporal score and eligibility determination are less reliable for this subset. The `dur_was_imputed` flag identifies them.
 
-4. **Right-censoring may be informative.** Unlinked contracts (event = 0) may systematically differ from linked contracts on observables (CPV, amount, buyer size). A formal test (logistic regression: event ~ covariates) is recommended before Phase 2 modeling.
+4. **Right-censoring may be informative.** Unlinked contracts (event = 0) may systematically differ from linked contracts on observables (CPV, amount, buyer size). A formal diagnostic (logistic regression: event ~ covariates) was run and is reported in §9.
 
 5. **Scope limitation.** Only BOAMP is used; DECP would improve buyer SIRET coverage and contract amounts. A cross-source join is deferred to Phase 3.
 
@@ -245,3 +245,76 @@ Key survival columns:
 | `category_label` | Technology category (11 values including Unknown) |
 | `cpv_div2` | 2-digit CPV division |
 | `amount_clean` | Contract amount EUR (43% fill; use with missing indicator) |
+
+---
+
+## 9. Selection-Bias Diagnostic
+
+The 403 censored contracts (event = 0) may differ systematically from the 697 linked contracts (event = 1) on observables. If so, the event indicator is partly determined by contract characteristics rather than by whether a renewal occurred, which would bias Phase 2 survival estimates.
+
+**Important caveat:** This is a diagnostic, not a causal model. It tests whether linked and unlinked contracts differ on observed covariates. It cannot test whether the linking algorithm itself introduces bias.
+
+### 9.1 Event rate by start year
+
+| Start year | n | Event rate (%) |
+|---|---|---|
+| 2015 | 116 | 68.1 |
+| 2016 | 170 | 55.9 |
+| 2017 | 187 | 66.8 |
+| 2018 | 189 | 63.5 |
+| 2019 | 178 | 69.1 |
+| 2020 | 97 | 61.9 |
+| 2021 | 90 | 50.0 |
+| 2022 | 61 | 75.4 |
+| 2023 | 12 | 33.3 |
+
+**Interpretation:** The 2023 cohort (n = 12, 33.3%) has a notably low event rate. These contracts are eligible (estimated end date ≤ 2024-12-31) but the renewal observation window is compressed — a plausible renewal published after late 2024 falls outside the study period. This is a structural observation ceiling, not an algorithmic failure. The 2023 cohort should be treated with caution in Phase 2, or excluded from time-stratified analyses. No other year shows a persistent bias relative to the overall 63.4% rate.
+
+### 9.2 Event rate by buyer key type
+
+All 1,100 eligible APPEL_OFFRE contracts have name-based buyer keys (`NAME:`). No SIRET-anchored contracts appear in the eligible set because BOAMP SIRET coverage is limited to eForms notices (2024+), which fall after the renewal-observation window for pre-2024 contracts. The buyer key type cannot differentiate linked from unlinked contracts in this dataset.
+
+### 9.3 Event rate by duration imputation
+
+| dur_was_imputed | n | Event rate (%) |
+|---|---|---|
+| False (declared duration available) | 824 | 64.0 |
+| True (imputed to 48 months) | 276 | 61.6 |
+
+**Interpretation:** The 2.4 pp difference is small. Imputed-duration contracts have a slightly lower event rate, consistent with less standardised procurement cycles being harder to match. This difference does not warrant excluding imputed rows from Phase 2; `dur_was_imputed` is already included as a covariate in the survival dataset.
+
+### 9.4 Event rate by CPV division (top 10 by volume)
+
+| CPV div | Label | n | Event rate (%) |
+|---|---|---|---|
+| 72 | IT services | 414 | 68.8 |
+| 48 | Software | 211 | 71.1 |
+| 32 | Telecom equipment | 178 | 57.9 |
+| 35 | Security equipment | 77 | 53.2 |
+| 45 | Construction | 61 | 45.9 |
+| 30 | Office equipment | 15 | 46.7 |
+| 79 | Business services | 14 | 71.4 |
+| 39 | Furniture | 13 | 69.2 |
+| 64 | Post/telecom services | 10 | 50.0 |
+| 50 | Repair services | 9 | 66.7 |
+
+**Interpretation:** CPV 48 (71.1%) and 72 (68.8%) — the two core digital categories — have the highest event rates. CPV 45 (construction, 45.9%) has the lowest rate among high-volume divisions; construction contracts have structurally lower renewal probability than IT service contracts. This reflects a real underlying difference in procurement cycles, not an algorithmic artifact. CPV division is included as a covariate in the Phase 2 survival model.
+
+### 9.5 Logistic regression diagnostic
+
+A logistic regression (`event ~ CPV division + buyer_type + declared_duration_months + start_year + dur_was_imputed`) was estimated on all 1,100 eligible contracts. Top coefficients by absolute value:
+
+| Predictor | Coefficient | Direction |
+|---|---|---|
+| cpv_div2 = 90 (sanitation) | +0.80 | higher event rate |
+| cpv_div2 = 37 (musical instruments) | +0.77 | higher event rate |
+| cpv_div2 = 92 (recreation) | −0.72 | lower event rate |
+| cpv_div2 = 43 (mining equipment) | −0.72 | lower event rate |
+| cpv_div2 = 71 (architectural services) | −0.68 | lower event rate |
+| cpv_div2 = 48 (software) | +0.57 | higher event rate |
+| cpv_div2 = 72 (IT services) | +0.50 | higher event rate |
+| cpv_div2 = 79 (business services) | +0.49 | higher event rate |
+
+N = 1,100. Intercept ≈ −0.01. Coefficients for rare CPV divisions (n < 10) have high variance and should not be over-interpreted.
+
+**Conclusion:** The dominant predictor of event rate is CPV division, which is substantive rather than algorithmic (different procurement categories genuinely renew at different rates). Start year and duration imputation have minimal additional effect once CPV is controlled for. No large unexplained residual bias was found. The main structural risk for Phase 2 is the 2023 cohort's compressed observation window, which `start_year` as a covariate will partially absorb. No exclusions or weighting are required before Phase 2; sensitivity analyses using HIGH-confidence links only (§6) provide an additional bias check.

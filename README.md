@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 ```bash
 # Phase 1 — BOAMP acquisition and profiling
-python scripts/task1b_boamp_full_fetch.py    # full BOAMP download (3,188 notices)
+python scripts/task1b_boamp_full_fetch.py    # full BOAMP download (3,181 notices)
 python scripts/task2_boamp_profile.py        # BOAMP field profiling + deep-dives
 python scripts/task5_duration_analysis.py    # duration-reliability analysis + figures
 
@@ -64,8 +64,8 @@ python scripts/task8_unified_survival.py     # mixed BOAMP + DECP survival datas
 |---|---|
 | `data/raw/boamp_full/` | raw full BOAMP API pages (JSON, verbatim) |
 | `data/raw/boamp_sample/` | original 500-notice sample pages (reference only) |
-| `data/processed/boamp_full_flat.csv` | **3,188 BOAMP notices, flattened** (primary) |
-| `data/processed/boamp_full_clean.csv` | **3,188 notices, cleaned** — buyer keys, amounts, durations, taxonomy |
+| `data/processed/boamp_full_flat.csv` | **3,181 BOAMP notices, flattened** (primary) |
+| `data/processed/boamp_full_clean.csv` | **3,181 notices, cleaned** — buyer keys, amounts, durations, taxonomy |
 | `data/processed/boamp_phase2_survival.csv` | **official BOAMP-only Phase 2 handoff** — one row per eligible AO with event/censoring |
 | `data/processed/boamp_phase2_survival_report.md` | BOAMP-only handoff dataset report |
 | `data/processed/boamp_full_survival.csv` | **1,933 APPEL_OFFRE survival records** — event/censoring, ±12 month window |

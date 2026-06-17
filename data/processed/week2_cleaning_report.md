@@ -56,6 +56,6 @@ CPV-prefix match first; keyword-in-objet fallback.  Full taxonomy: `taxonomy.csv
 | CAT_UNKNOWN | 37 | 0 |
 
 ## Known limitations
-1. BOAMP SIRET coverage is only 3.0% of notices: legacy notices carry no SIRET. Name-based matching is imprecise for common institutional names (e.g. "SDIS 44").
+1. BOAMP SIRET-anchored buyer_key coverage is 4.9% of notices (156 of 3,181 have a `SIRET:`-prefixed canonical key). The `buyer_siret` API field is filled for 9.1% of notices but includes SIREN-only and partially-invalid identifiers that do not pass validation. Legacy notices (pre-2024) carry no SIRET; only eForms notices (2024+) do reliably. Name-based matching is imprecise for common institutional names (e.g. "SDIS 44").
 2. Amount ceilings (≥10 M) for framework agreements cannot be distinguished automatically without human review.
 3. Taxonomy tagging via CPV prefix is deterministic but will miss contracts with generic CPV codes (e.g. 72000000) not rescued by keyword fallback.
