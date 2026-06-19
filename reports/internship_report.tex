@@ -1,0 +1,516 @@
+\documentclass[11pt,a4paper]{article}
+
+% ---------------------------------------------------------------------------
+% Gigalis internship report -- Predictive modeling of public digital procurement
+% Standalone, self-contained, Overleaf-ready (compile with pdfLaTeX, run twice).
+% All figures are reused from reports/figures/ (relative paths from reports/).
+% ---------------------------------------------------------------------------
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+
+\geometry{margin=2.3cm}
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0pt}
+\captionsetup{font=small,labelfont=bf}
+
+\definecolor{darkblue}{RGB}{0,51,102}
+\hypersetup{colorlinks=true,linkcolor=darkblue,urlcolor=darkblue,citecolor=darkblue}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\small Gigalis Internship --- Final Report}
+\lhead{\small Predictive Procurement Modeling}
+\cfoot{\thepage}
+\setlength{\headheight}{14pt}
+
+\title{\textbf{Predicting Contract Renewal in Public Digital Procurement}\\[0.4em]
+  \large A Survival-Analysis Approach on BOAMP Notices for Gigalis}
+\author{Internship Report --- Gigalis (Pays de la Loire)}
+\date{June 2026}
+
+\begin{document}
+\maketitle
+\thispagestyle{fancy}
+
+% ===========================================================================
+\begin{abstract}
+\noindent
+This report presents the work carried out during a data-science internship for
+\textbf{Gigalis}, a public-interest group and central purchasing body in the
+Pays de la Loire region. The goal is to move the analysis of public digital
+procurement from a descriptive view (``what happened?'') towards a predictive
+one (``when will a contract be re-tendered?''). The central methodological
+obstacle is that the French procurement publication system (BOAMP) contains
+\emph{no explicit field} marking whether a call for tenders renews an earlier
+contract. The renewal relationship must therefore be reconstructed from
+observable signals. We build an auditable, reproducible \emph{proxy} renewal
+event using Sentence-Transformer text embeddings combined with CPV, temporal,
+and buyer signals, and we use it as the event variable for survival analysis.
+On 1{,}100 eligible source contracts the linking method recovers a plausible
+renewal for 697 of them (\textbf{63.4\%}), against an 11.3\% lexical baseline.
+Survival modeling on this dataset gives a global Kaplan--Meier median survival
+of \textbf{48 months}, a Cox proportional-hazards concordance of
+\textbf{0.6528}, and a best-fitting log-normal parametric model. We report these
+results honestly together with their limitations: the renewal event is a proxy,
+buyer identification is weak, and two originally planned components (a trained
+NLP classifier and change-point detection) are not yet implemented.
+\end{abstract}
+
+% ===========================================================================
+\section{Introduction and Problem Statement}
+
+\subsection{Context}
+Gigalis is a \emph{groupement d'int\'er\^et public} that operates a central
+purchasing body for digital services in the Pays de la Loire region. As part of
+building a ``data control tower'', the organisation wants to anticipate when its
+digital contracts (software, IT services, telecommunications, security) are
+likely to come up for renewal, rather than only describing past activity. The
+practical value is operational: a reliable renewal forecast helps plan
+re-tendering workloads and negotiate from a stronger position.
+
+\subsection{The core difficulty}
+Public procurement in France is published through two main open-data channels:
+\textbf{BOAMP} (\emph{Bulletin officiel des annonces des march\'es publics}, the
+tender and award notices) and \textbf{DECP} (\emph{Donn\'ees essentielles de la
+commande publique}, the awarded-contract records). Neither source contains a
+\emph{renewal link}: a notice does not state ``this tender replaces contract
+\textit{X} that is expiring''. Yet the renewal event is exactly the quantity we
+want to model. The problem is therefore twofold:
+
+\begin{enumerate}[leftmargin=1.4em,itemsep=2pt]
+  \item \textbf{Event reconstruction.} Infer, from text, classification, timing,
+        and buyer identity, which later notice is the renewal of an earlier
+        contract --- producing a binary \texttt{event} variable and a survival
+        time.
+  \item \textbf{Survival modeling.} Given this reconstructed event, estimate how
+        the probability of renewal evolves over time and which contract
+        characteristics drive it.
+\end{enumerate}
+
+\subsection{Research question and scope}
+\emph{Given a digital procurement contract, when is it likely to be renewed or
+re-tendered, and which factors influence that timing?} The study is deliberately
+scoped to keep the data tractable and the modeling honest:
+
+\begin{itemize}[leftmargin=1.4em,itemsep=2pt]
+  \item \textbf{Sectors:} CPV divisions 48 (software), 72 (IT services),
+        32 (telecom), 35 (security).
+  \item \textbf{Territory:} departments 44, 49, 53, 72, 85 (Pays de la Loire).
+  \item \textbf{Period:} 2015--2024.
+  \item \textbf{Official modeling path:} \textbf{BOAMP-only}. DECP is explored
+        as a richer but non-linkable source and kept for future enrichment
+        (Section~\ref{sec:data}).
+\end{itemize}
+
+% ===========================================================================
+\section{Data and Scope}
+\label{sec:data}
+
+\subsection{Sources}
+\paragraph{BOAMP (official path).} BOAMP is queried through the Opendatasoft
+Explore API (dataset \texttt{boamp}). After filtering to the target CPV
+divisions, territory, and period, the acquisition yields \textbf{3{,}181
+notices}. One technical subtlety is that CPV codes are embedded inside a
+JSON-encoded field in \emph{two} different serialisations: the legacy BOAMP
+format (notices up to 2023) and the EU eForms/UBL format (2024 onward); both are
+parsed and cross-checked. From the notices, the \texttt{APPEL\_OFFRE} (call for
+tenders) records define the survival population: \textbf{1{,}933 source
+contracts}.
+
+\paragraph{DECP (exploratory only).} DECP is obtained from the consolidated
+tabular file on data.gouv.fr (\textasciitilde210~MB). It contains
+\textbf{3{,}039} digital contracts for the same scope and is far better
+populated than BOAMP (100\% SIRET identifiers, 95.6\% amounts, 99.4\%
+durations). However, BOAMP and DECP \emph{do not share a reliable common key},
+so a robust contract-level merge is not achievable. DECP is therefore documented
+and retained as a future enrichment path, but it is \textbf{not} part of the
+official BOAMP-only modeling handoff.
+
+\subsection{Taxonomy}
+To analyse renewal by technology family, each contract is tagged with one of ten
+categories (CAT01--CAT10: Software \& Applications, IT Services \& Consulting,
+Telecom \& Networks, Cybersecurity, Cloud \& Infrastructure, Data \& AI, etc.).
+This taxonomy is a \textbf{deterministic rule-based mapping} from CPV codes and
+description keywords --- it is \emph{not} a trained classifier. This is an
+important honesty point: the project plan originally foresaw a learned NLP
+classifier, but the implemented component is rule-based.
+
+\subsection{Data quality}
+The data-quality assessment drives every downstream modeling choice
+(Table~\ref{tab:dq}). The decisive weaknesses are buyer identification and
+duration granularity.
+
+\begin{table}[H]
+\centering
+\caption{Key BOAMP data-quality findings and their modeling consequence.}
+\label{tab:dq}
+\small
+\begin{tabular}{@{}p{5.4cm}p{3.0cm}p{6.0cm}@{}}
+\toprule
+\textbf{Finding} & \textbf{Value (BOAMP)} & \textbf{Consequence} \\
+\midrule
+Buyer SIRET coverage & \textasciitilde9\% & Grouping relies on normalised buyer
+\emph{names}; one entity may fragment into several keys. \\
+Amount fill rate & \textasciitilde41--43\% & Amount used cautiously, not as a
+core covariate. \\
+Declared duration granularity & 69\% exactly 12/24/36/48 mo & Duration treated
+as a \emph{covariate}, not as the survival target. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{0.48\textwidth}
+  \centering\includegraphics[width=\linewidth]{figures/boamp_completion.png}
+  \caption{BOAMP field completeness.}
+\end{subfigure}\hfill
+\begin{subfigure}{0.48\textwidth}
+  \centering\includegraphics[width=\linewidth]{figures/boamp_cpv.png}
+  \caption{Distribution by CPV division.}
+\end{subfigure}
+\caption{BOAMP corpus profile: field completeness (left) shows the sparse
+amount/SIRET fields that constrain modeling; CPV distribution (right) is
+dominated by divisions 72 and 48.}
+\label{fig:profile}
+\end{figure}
+
+% ===========================================================================
+\section{Method}
+
+The pipeline has four stages: cleaning, renewal-event reconstruction, survival
+dataset construction, and survival modeling.
+
+\subsection{Cleaning}
+Raw notices are normalised: amounts are filtered for zero, suspiciously small,
+and ceiling-flagged values; durations are parsed and, when missing, imputed to a
+default (a binary \texttt{dur\_was\_imputed} flag records every imputation);
+buyer names are normalised into a \texttt{buyer\_key}; and the taxonomy tags are
+applied. The cleaned corpus is the input to linking.
+
+\subsection{Renewal-event reconstruction (core contribution)}
+\label{sec:linking}
+A renewal is reconstructed by matching each source \texttt{APPEL\_OFFRE} to a
+later candidate notice from the same buyer.
+
+\paragraph{Eligibility.} A source contract is \emph{eligible} only if its
+expected renewal window (start date plus declared duration) falls inside the
+2015--2024 study period. Contracts whose renewal would necessarily occur after
+2024-12-31 are right-censored \emph{before} analysis. This reduces the
+1{,}933 source contracts to \textbf{1{,}100 eligible} (833 censored upfront).
+Restricting evaluation to eligible contracts is what makes the linking rate
+meaningful rather than mechanically deflated.
+
+\paragraph{Composite score.} For an eligible source $i$ and candidate $j$, a
+composite similarity score combines four signals:
+\begin{equation}
+  S(i,j) = 0.40\,s_{\text{text}} + 0.25\,s_{\text{cpv}}
+         + 0.20\,s_{\text{temp}} + 0.15\,s_{\text{buyer}}.
+  \label{eq:score}
+\end{equation}
+\begin{itemize}[leftmargin=1.4em,itemsep=1pt]
+  \item $s_{\text{text}}$: cosine similarity of multilingual Sentence-Transformer
+        embeddings (\nolinkurl{paraphrase-multilingual-MiniLM-L12-v2}) of the
+        contract descriptions. This is the strongest discriminator and the main
+        improvement over the lexical baseline.
+  \item $s_{\text{cpv}}$: graded CPV compatibility (1.0 identical, 0.7 same
+        division, 0.3 same section, 0.5 if either CPV is missing) --- a
+        \emph{scored} signal, not a hard filter, because buyers sometimes
+        reclassify.
+  \item $s_{\text{temp}}$: temporal proximity to the expected renewal date.
+  \item $s_{\text{buyer}}$: buyer-identity agreement.
+\end{itemize}
+Hard filters (same buyer, candidate strictly later, minimum text similarity
+$0.20$) prune the candidate set; the best-scoring candidate is then selected.
+Accepted links are graded into confidence tiers (low $<0.50$, medium
+$0.50$--$0.70$, high $\geq 0.70$), which supports the sensitivity analysis.
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{0.48\textwidth}
+  \centering\includegraphics[width=\linewidth]{figures/fig_score_distributions.png}
+  \caption{Score-component distributions.}
+\end{subfigure}\hfill
+\begin{subfigure}{0.48\textwidth}
+  \centering\includegraphics[width=\linewidth]{figures/fig_confidence_tiers.png}
+  \caption{Composite score with confidence tiers.}
+\end{subfigure}
+\caption{Linking diagnostics. The composite score (right) spreads accepted links
+across confidence tiers, motivating the conservative sensitivity variant in
+Section~\ref{sec:results}.}
+\label{fig:linkdiag}
+\end{figure}
+
+\subsection{Survival dataset construction}
+Each eligible contract becomes one survival row:
+\begin{itemize}[leftmargin=1.4em,itemsep=1pt]
+  \item \texttt{event = 1} if a plausible renewal link was found; the survival
+        time is the observed gap (months) to the renewal.
+  \item \texttt{event = 0} if no link was found before study end; the survival
+        time is the censoring time from start date to 2024-12-31.
+\end{itemize}
+The result, \nolinkurl{boamp_phase2_survival.csv}, has one row per eligible
+contract with the following covariates:
+\begin{itemize}[leftmargin=1.4em,itemsep=1pt]
+  \item \nolinkurl{declared_duration_months}
+  \item \nolinkurl{dur_was_imputed}
+  \item \nolinkurl{start_year}
+  \item category and procedure type
+\end{itemize}
+
+\subsection{Survival models}
+Using this dataset we fit: (i) non-parametric \textbf{Kaplan--Meier} estimators,
+globally and stratified by category, declared-duration group, and imputation
+flag, with \textbf{log-rank} tests for differences; (ii) a \textbf{Cox
+proportional-hazards} model (univariate and multivariate); and (iii)
+\textbf{parametric} accelerated-failure-time models (Weibull, log-normal,
+log-logistic) compared by AIC. A sensitivity analysis re-runs the whole modeling
+chain on a stricter, high-confidence subset of links.
+
+% ===========================================================================
+\section{Results}
+\label{sec:results}
+
+\subsection{Renewal linking}
+The method links \textbf{697 of 1{,}100} eligible source contracts, a linking
+rate of \textbf{63.4\%}, versus \textbf{11.3\%} for the lexical
+(Jaccard/TF-IDF) baseline (Table~\ref{tab:link}). The gain comes from two
+changes: semantic embeddings instead of lexical overlap, and treating CPV as a
+graded score rather than a hard grouping constraint.
+
+\begin{table}[H]
+\centering
+\caption{Renewal-linking outcome on BOAMP source contracts.}
+\label{tab:link}
+\small
+\begin{tabular}{@{}lr@{}}
+\toprule
+\textbf{Quantity} & \textbf{Value} \\
+\midrule
+Source \texttt{APPEL\_OFFRE} contracts & 1{,}933 \\
+Right-censored before analysis & 833 \\
+Eligible source contracts & 1{,}100 \\
+Linked renewals (event $=1$) & 697 (63.4\%) \\
+Right-censored (event $=0$) & 403 (36.6\%) \\
+Lexical baseline linking rate & 11.3\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Renewal rates vary by technology family (Table~\ref{tab:bycat}): Software \&
+Applications (70.8\%) and IT Services \& Consulting (67.6\%) renew most often,
+while Data \& AI (41.2\%) and IT Hardware (47.6\%) renew least. Small categories
+(e.g.\ GIS \& Mapping, $n=5$) are statistically underpowered and should be read
+with caution.
+
+\begin{table}[H]
+\centering
+\caption{Event rate by category on the 1{,}100 eligible contracts.}
+\label{tab:bycat}
+\small
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+\textbf{Category} & \textbf{n} & \textbf{events} & \textbf{rate \%} \\
+\midrule
+IT Services \& Consulting          & 312 & 211 & 67.6 \\
+Software \& Applications           & 209 & 148 & 70.8 \\
+Telecom \& Networks                & 204 & 120 & 58.8 \\
+Cybersecurity                      & 121 &  76 & 62.8 \\
+Unknown                            & 108 &  58 & 53.7 \\
+Digital Workplace \& Collaboration &  45 &  29 & 64.4 \\
+Data \& AI                         &  34 &  14 & 41.2 \\
+IT Maintenance \& Support          &  22 &  14 & 63.6 \\
+IT Hardware \& Equipment           &  21 &  10 & 47.6 \\
+Cloud \& Infrastructure            &  19 &  13 & 68.4 \\
+GIS \& Mapping                     &   5 &   4 & 80.0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Survival analysis}
+The global Kaplan--Meier estimator gives a \textbf{median survival of 48
+months} --- consistent with the prevalence of 48-month framework contracts.
+Stratified curves (Figure~\ref{fig:km}) separate clearly by declared-duration
+group and by imputation flag, both highly significant under the log-rank test
+($p < 0.001$, Table~\ref{tab:logrank}); the difference \emph{across categories}
+is not significant ($p = 0.18$), indicating that timing is driven more by
+contract duration than by technology family.
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{0.48\textwidth}
+  \centering\includegraphics[width=\linewidth]{figures/survival/km_global.png}
+  \caption{Global Kaplan--Meier curve.}
+\end{subfigure}\hfill
+\begin{subfigure}{0.48\textwidth}
+  \centering\includegraphics[width=\linewidth]{figures/survival/km_by_category.png}
+  \caption{Kaplan--Meier by category.}
+\end{subfigure}
+\caption{Survival to renewal. The global median is 48 months; category curves
+overlap substantially (log-rank $p=0.18$).}
+\label{fig:km}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\caption{Log-rank tests for differences in renewal timing.}
+\label{tab:logrank}
+\small
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+\textbf{Stratifying variable} & \textbf{statistic} & \textbf{p} & \textbf{df} \\
+\midrule
+Category (multivariate)        &  6.23 & 0.182 & 4 \\
+Duration was imputed           & 24.58 & $<0.001$ & 1 \\
+Declared-duration group        & 62.30 & $<0.001$ & 2 \\
+Procedure type (collapsed)     &  2.06 & 0.357 & 2 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Cox model.} The multivariate Cox model reaches an in-sample
+concordance of \textbf{0.6528}. Two predictors are statistically significant
+(Table~\ref{tab:cox}): a longer declared duration lowers the renewal hazard
+(HR $=0.990$ per month, $p<0.001$), and later start years carry a higher hazard
+(HR $=1.098$ per year, $p<0.001$). Neither technology category nor procedure
+type is significant once duration and start year are controlled for, echoing the
+log-rank result.
+
+\begin{table}[H]
+\centering
+\caption{Cox proportional-hazards model: significant covariates (multivariate).}
+\label{tab:cox}
+\small
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+\textbf{Covariate} & \textbf{HR} & \textbf{95\% CI} & \textbf{p} \\
+\midrule
+\texttt{declared\_duration\_months} & 0.990 & [0.986, 0.995] & $<0.001$ \\
+\texttt{start\_year}                & 1.098 & [1.054, 1.143] & $<0.001$ \\
+\texttt{dur\_was\_imputed}          & 0.862 & [0.716, 1.037] & 0.116 \\
+Category / procedure terms          & \multicolumn{3}{c}{not significant ($p>0.1$)} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{0.48\textwidth}
+  \centering\includegraphics[width=\linewidth]{figures/survival/cox_forest_plot.png}
+  \caption{Cox hazard ratios (forest plot).}
+\end{subfigure}\hfill
+\begin{subfigure}{0.48\textwidth}
+  \centering\includegraphics[width=\linewidth]{figures/survival/weibull_survival.png}
+  \caption{Parametric survival fit.}
+\end{subfigure}
+\caption{Cox effect sizes (left) and parametric fit (right). Confidence
+intervals crossing 1.0 confirm the non-significant category/procedure terms.}
+\label{fig:cox}
+\end{figure}
+
+\paragraph{Parametric models.} Among accelerated-failure-time models, the
+\textbf{log-normal} fits best (AIC $=7{,}119.9$, concordance $0.6707$), ahead of
+log-logistic ($7{,}196.1$) and Weibull ($7{,}319.8$). The right-skewed renewal-gap
+distribution is therefore better captured by a log-normal than by a Weibull
+hazard.
+
+\begin{table}[H]
+\centering
+\caption{Parametric model comparison (lower AIC is better).}
+\label{tab:aic}
+\small
+\begin{tabular}{@{}lrr@{}}
+\toprule
+\textbf{Model} & \textbf{AIC} & \textbf{Concordance} \\
+\midrule
+Log-normal   & 7{,}119.9 & 0.6707 \\
+Log-logistic & 7{,}196.1 & 0.6752 \\
+Weibull      & 7{,}319.8 & 0.6346 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Sensitivity.} Re-running the chain on high-confidence links only
+(composite $\geq 0.50$) drops events from 697 to 553 (50.3\%) and shifts the KM
+median from 48 to 53 months, with Cox concordance moving modestly from 0.6528 to
+0.6202 (Table~\ref{tab:sens}). The qualitative conclusions are stable under the
+stricter event definition, which is the main purpose of the check.
+
+\begin{table}[H]
+\centering
+\caption{Sensitivity to the event definition.}
+\label{tab:sens}
+\small
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+\textbf{Variant} & \textbf{events} & \textbf{rate \%} & \textbf{KM median} & \textbf{Cox C} \\
+\midrule
+A --- baseline (all links)        & 697 & 63.4 & 48 & 0.6528 \\
+B --- conservative ($\geq 0.50$)  & 553 & 50.3 & 53 & 0.6202 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ===========================================================================
+\section{Limitations and Honest Appraisal}
+
+The results are useful but bounded, and the boundaries matter:
+
+\begin{itemize}[leftmargin=1.4em,itemsep=2pt]
+  \item \textbf{The event is a proxy.} \texttt{event = 1} means ``a plausible
+        renewal link was found'', not a legally certified renewal. The pipeline
+        is designed to be transparent and auditable, not to prove renewal.
+  \item \textbf{Weak buyer identification.} Only \textasciitilde13\% of unique
+        buyers carry a SIRET; the rest are matched by normalised name, which can
+        split one public entity (e.g.\ ``Ville de Nantes'' vs ``Nantes
+        M\'etropole'') into several keys and create false negatives.
+  \item \textbf{Short-text false positives.} Generic descriptions (``prestations
+        informatiques'') can match spuriously despite the semantic embeddings.
+  \item \textbf{Structural censoring.} Contracts started in 2021--2024 are
+        largely censored, since a typical 48-month contract would renew after the
+        2024-12-31 cut-off; the positive \texttt{start\_year} hazard partly
+        reflects this.
+  \item \textbf{Modest discrimination.} A concordance around 0.65 means useful
+        but far-from-perfect ranking; predictions should inform planning, not
+        replace judgement.
+\end{itemize}
+
+\paragraph{Not implemented.} For full transparency, two components of the
+original project plan are \emph{not} part of this study: a \textbf{trained NLP
+classifier} (the taxonomy here is rule-based) and \textbf{change-point / trend
+detection}. The DECP linking remains at the lexical baseline only; the
+Sentence-Transformer method was applied to BOAMP, not yet to DECP.
+
+% ===========================================================================
+\section{Conclusion and Future Work}
+
+This internship delivered an end-to-end, reproducible pipeline that turns raw
+BOAMP notices into a survival-ready dataset and a first predictive view of
+contract renewal for Gigalis. The key methodological contribution is the
+reconstruction of a renewal event from unlabelled procurement notices using
+Sentence-Transformer embeddings, lifting the linking rate from 11.3\% to 63.4\%
+on eligible contracts. The survival analysis shows that renewal timing is driven
+mainly by declared contract duration (median survival 48 months) rather than by
+technology family, with a log-normal model giving the best parametric fit.
+
+Future work follows directly from the limitations: (i) apply the
+Sentence-Transformer linking method to DECP and attempt a BOAMP--DECP merge for
+amount/SIRET enrichment; (ii) strengthen buyer resolution using SIRET and a
+controlled directory of regional public entities; (iii) replace the rule-based
+taxonomy with a trained text classifier; and (iv) add change-point and trend
+detection to monitor shifts in procurement behaviour over time.
+
+\end{document}

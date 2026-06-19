@@ -1,23 +1,23 @@
 field,dtype,non_null,missing_pct,n_unique,sample_values,notes
-uid,object,3039,0.0,2869,214401622000112024K-P0rgdsDS00 ; 2444005520002625-1065514 ; 200033298000152024M02124000000 ; 244900015000112024A24129P,Globally unique row id (acheteur_id + contract id).
-id,object,3039,0.0,2768,2024K-P0rgdsDS00 ; 25-1065514 ; 2024M02124000000 ; 2024A24129P,"Contract identifier (buyer-assigned, not globally unique)."
-nature,object,3036,0.1,7,Marché ; Accord-cadre ; MARCHE ; Marché subséquent,Marché / Marché subséquent / Marché de partenariat…
-objet,object,3037,0.1,2389,TIERCE MAINTENANCE APPLICATIVE DU LOGICIEL CAP COLLECTIF AIN… ; Marché négocié sans publicité et sans mise en concurrence re… ; Prestations d’utilisation d’une plateforme SME Système Manag… ; MAINTENANCE DU LOGICIEL IWS MAIRIE 5/5 ET PRESTATIONS ASSOCI…,Free-text contract object; terser than BOAMP's.
+uid,str,3039,0.0,2869,214401622000112024K-P0rgdsDS00 ; 2444005520002625-1065514 ; 200033298000152024M02124000000 ; 244900015000112024A24129P,Globally unique row id (acheteur_id + contract id).
+id,str,3039,0.0,2768,2024K-P0rgdsDS00 ; 25-1065514 ; 2024M02124000000 ; 2024A24129P,"Contract identifier (buyer-assigned, not globally unique)."
+nature,str,3036,0.1,7,Marché ; Accord-cadre ; MARCHE ; Marché subséquent,Marché / Marché subséquent / Marché de partenariat…
+objet,str,3037,0.1,2389,TIERCE MAINTENANCE APPLICATIVE DU LOGICIEL CAP COLLECTIF AIN… ; Marché négocié sans publicité et sans mise en concurrence re… ; Prestations d’utilisation d’une plateforme SME Système Manag… ; MAINTENANCE DU LOGICIEL IWS MAIRIE 5/5 ET PRESTATIONS ASSOCI…,Free-text contract object; terser than BOAMP's.
 codeCPV,object,3039,0.0,287,72267000 ; 48000000 ; 72314000 ; 72261000,Single CPV code; structured.
-procedure,object,2596,14.6,14,Marché passé sans publicité ni mise en concurrence préalable ; Procédure adaptée ; Appel d'offres ouvert ; Marché négocié sans publicité ni mise en concurrence préalab…,"Procedure label, standardized vocabulary."
+procedure,str,2596,14.6,14,Marché passé sans publicité ni mise en concurrence préalable ; Procédure adaptée ; Appel d'offres ouvert ; Marché négocié sans publicité ni mise en concurrence préalab…,"Procedure label, standardized vocabulary."
 dureeMois,float64,3020,0.6,84,48.0 ; 60.0 ; 12.0 ; 9.0,Contract duration in months; mandatory DECP field.
 dateNotification,object,3039,0.0,1156,2024-12-31 ; 2024-12-27 ; 2024-12-26 ; 2024-12-24,Contract notification date; mandatory DECP field — survival-time origin.
 datePublicationDonnees,object,2979,2.0,1154,2025-03-13 ; 2025-01-16 ; 2025-01-29 ; 2025-01-06,Open-data publication date (can lag years).
 montant,float64,2904,4.4,1434,140000.0 ; 174400.0 ; 80000.0 ; 220999.0,Contract amount EUR; mandatory; watch aberrant lows/ceilings.
 offresRecues,float64,801,73.6,24,1.0 ; 3.0 ; 4.0 ; 2.0,Number of offers received.
 donneesActuelles,object,3039,0.0,1,True,True = current version of the contract (modifications collapsed).
-sourceDataset,object,3039,0.0,17,aife_dume ; e-marchespublics.com_dematis ; scrap_marches-securises.fr ; pes_marche_2024,"Upstream publishing platform (PES, AIFE, AWS…)."
-acheteur_id,object,3039,0.0,294,21440162200011 ; 24440055200026 ; 20003329800015 ; 24490001500011,Buyer SIRET (14 digits); mandatory DECP field.
-acheteur_nom,object,3039,0.0,278,COMMUNE DE SAINT-HERBLAIN (MAIRIE) ; COMMUNAUTE DE COMMUNES DU PAYS D'ANCENIS ; COMMUNAUTE DE COMMUNES DES COEVRONS ; COMMUNAUTE URBAINE ANGERS LOIRE METROPOLE,Buyer name (SIRENE enrichment by decp-processing).
-acheteur_departement_code,object,3039,0.0,5,44 ; 53 ; 49 ; 72,Buyer department (SIRENE enrichment) — used for the PdL filter.
-acheteur_categorie,object,2573,15.3,8,Commune ; Groupement de communes ; Département ; Syndicat mixte,Buyer category (SIRENE enrichment).
-titulaire_id,object,2902,4.5,1324,80337757100044 ; 42050508300030 ; 53380571900036 ; 38908006000079,Winner identifier (SIRET mostly).
-titulaire_typeIdentifiant,object,2901,4.5,7,SIRET ; HORS-UE ; UE ; HORS_UE,Identifier type of the winner (SIRET/TVA/HORS-UE…).
-titulaire_nom,object,2843,6.4,1155,CAP COLLECTIF ; TRADIM ; EVELER ; ISILOG,Winner name (SIRENE enrichment).
-lieuExecution_code,object,3035,0.1,206,44 ; 44150 ; 53600 ; 49000,Execution location code (postal/commune/department/région…).
-lieuExecution_typeCode,object,3035,0.1,12,Code département ; Code postal ; Code commune ; Code departement,Type of the location code — beware: région '44' = pre-2016 Lorraine.
+sourceDataset,str,3039,0.0,17,aife_dume ; e-marchespublics.com_dematis ; scrap_marches-securises.fr ; pes_marche_2024,"Upstream publishing platform (PES, AIFE, AWS…)."
+acheteur_id,str,3039,0.0,294,21440162200011 ; 24440055200026 ; 20003329800015 ; 24490001500011,Buyer SIRET (14 digits); mandatory DECP field.
+acheteur_nom,str,3039,0.0,278,COMMUNE DE SAINT-HERBLAIN (MAIRIE) ; COMMUNAUTE DE COMMUNES DU PAYS D'ANCENIS ; COMMUNAUTE DE COMMUNES DES COEVRONS ; COMMUNAUTE URBAINE ANGERS LOIRE METROPOLE,Buyer name (SIRENE enrichment by decp-processing).
+acheteur_departement_code,str,3039,0.0,5,44 ; 53 ; 49 ; 72,Buyer department (SIRENE enrichment) — used for the PdL filter.
+acheteur_categorie,str,2573,15.3,8,Commune ; Groupement de communes ; Département ; Syndicat mixte,Buyer category (SIRENE enrichment).
+titulaire_id,str,2902,4.5,1324,80337757100044 ; 42050508300030 ; 53380571900036 ; 38908006000079,Winner identifier (SIRET mostly).
+titulaire_typeIdentifiant,str,2901,4.5,7,SIRET ; HORS-UE ; UE ; HORS_UE,Identifier type of the winner (SIRET/TVA/HORS-UE…).
+titulaire_nom,str,2843,6.4,1155,CAP COLLECTIF ; TRADIM ; EVELER ; ISILOG,Winner name (SIRENE enrichment).
+lieuExecution_code,str,3035,0.1,206,44 ; 44150 ; 53600 ; 49000,Execution location code (postal/commune/department/région…).
+lieuExecution_typeCode,str,3035,0.1,12,Code département ; Code postal ; Code commune ; Code departement,Type of the location code — beware: région '44' = pre-2016 Lorraine.

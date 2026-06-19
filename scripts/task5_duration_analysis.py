@@ -20,6 +20,10 @@ Outputs:
   stats printed to stdout
 """
 
+import os
+
+os.environ.setdefault("MPLCONFIGDIR", "/tmp/matplotlib")
+
 import matplotlib
 matplotlib.use("Agg")  # headless environment: render to files only
 
@@ -30,9 +34,48 @@ import seaborn as sns
 from utils import PROCESSED_DIR, FIGURES_DIR
 
 ROUND_VALUES = (12, 24, 36, 48)  # whole-year durations suggesting coarse input
+COLORS = {
+    "blue": "#2f5d8c",
+    "green": "#4f8a5b",
+    "red": "#a33f3f",
+}
+SAVE_KW = {"dpi": 300, "bbox_inches": "tight", "facecolor": "white"}
+
+
+def configure_style() -> None:
+    sns.set_theme(
+        context="paper",
+        style="whitegrid",
+        rc={
+            "axes.edgecolor": "#333333",
+            "axes.labelcolor": "#222222",
+            "axes.linewidth": 0.8,
+            "axes.titlesize": 11,
+            "axes.titleweight": "bold",
+            "figure.dpi": 220,
+            "font.family": "serif",
+            "font.size": 9,
+            "grid.color": "#e6e6e6",
+            "grid.linewidth": 0.7,
+            "legend.frameon": False,
+            "savefig.dpi": 300,
+            "xtick.color": "#333333",
+            "ytick.color": "#333333",
+        },
+    )
+
+
+def finish_axes(ax: plt.Axes, *, grid_axis: str = "y") -> None:
+    ax.grid(True, axis=grid_axis, color="#e6e6e6", linewidth=0.7)
+    ax.grid(False, axis="x" if grid_axis == "y" else "y")
+    ax.spines["top"].set_visible(False)
+    ax.spines["right"].set_visible(False)
+    ax.spines["left"].set_color("#333333")
+    ax.spines["bottom"].set_color("#333333")
 
 
 def main() -> None:
+    configure_style()
     FIGURES_DIR.mkdir(parents=True, exist_ok=True)
     df = pd.read_csv(PROCESSED_DIR / "boamp_full_flat.csv")
 
@@ -52,23 +95,31 @@ def main() -> None:
     for label, count in flags.items():
         print(f"  {label}: {count} ({count/len(dur):.1%})")
 
-    sns.set_theme(style="whitegrid")
     fig, ax = plt.subplots(figsize=(8, 4.5))
-    sns.histplot(dur, bins=range(0, int(dur.max()) + 6, 3), ax=ax)
+    sns.histplot(
+        dur,
+        bins=range(0, int(dur.max()) + 6, 3),
+        color=COLORS["blue"],
+        edgecolor="white",
+        linewidth=0.5,
+        ax=ax,
+    )
     for val in ROUND_VALUES:  # mark the whole-year spikes
-        ax.axvline(val, color="red", linestyle=":", alpha=0.6)
+        ax.axvline(val, color=COLORS["red"], linestyle=":", linewidth=1.2)
     ax.set(title="Declared contract duration — BOAMP digital contracts PdL "
                  "(red lines: 12/24/36/48 months)",
            xlabel="duration (months)", ylabel="notices")
+    finish_axes(ax)
     fig.tight_layout()
-    fig.savefig(FIGURES_DIR / "duration_hist.png", dpi=150)
+    fig.savefig(FIGURES_DIR / "duration_hist.png", **SAVE_KW)
 
     fig, ax = plt.subplots(figsize=(8, 2.4))
-    sns.boxplot(x=dur, ax=ax)
+    sns.boxplot(x=dur, color=COLORS["green"], linewidth=0.8, fliersize=2, ax=ax)
     ax.set(title="Declared contract duration — box plot",
            xlabel="duration (months)")
+    finish_axes(ax, grid_axis="x")
     fig.tight_layout()
-    fig.savefig(FIGURES_DIR / "duration_box.png", dpi=150)
+    fig.savefig(FIGURES_DIR / "duration_box.png", **SAVE_KW)
     print(f"\nFigures saved to {FIGURES_DIR}")
 
     # ---- 5.2 observed procedure gap vs declared duration ------------------
