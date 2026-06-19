@@ -249,7 +249,7 @@ fields and fields added by the cleaning pipeline.
 \texttt{cpv\_clean}$^\dagger$ & float & 98.1\% & Cleaned primary CPV code. Generic codes (ending in \texttt{000000}) flagged separately. \\
 \texttt{cpv\_div2}$^\dagger$  & float & 98.1\% & First 2 digits of CPV (division-level, e.g.\ 72 = IT services). Range: 15--98. \\
 \texttt{cpv\_class4}$^\dagger$ & float & 98.1\% & First 4 digits of CPV (class-level granularity). \\
-\texttt{category\_id}$^\dagger$ & string & 100\% & Internal category code (CAT01--CAT11) derived from CPV. \\
+\texttt{category\_id}$^\dagger$ & string & 100\% & Internal category code (CAT01--CAT10, plus CAT\_UNKNOWN) derived from CPV. \\
 \texttt{category\_label}$^\dagger$ & string & 100\% & Human-readable category (see Table~\ref{tab:categories}). \\[6pt]
 
 \multicolumn{4}{l}{\textit{--- Contract amount ---}} \\[2pt]
@@ -279,8 +279,9 @@ fields and fields added by the cleaning pipeline.
 % =============================================================================
 \subsection{Contract Category Distribution}
 
-The 11 internal categories are derived from the CPV 2-digit division and cover
-exclusively the ICT/digital services scope of the Gigalis portfolio.
+The 10 internal categories (CAT01--CAT10, plus an Unknown bucket for missing CPV)
+are derived from the CPV classification and cover exclusively the ICT/digital
+services scope of the Gigalis portfolio.
 
 \begin{table}[h]
 \centering
@@ -292,15 +293,15 @@ Category ID & Label & Count & Share \\
 \midrule
 CAT02 & IT Services \& Consulting     & 583 & 30.2\% \\
 CAT01 & Software \& Applications      & 373 & 19.3\% \\
-CAT03 & Telecom \& Networks           & 337 & 17.4\% \\
-CAT04 & Cybersecurity                 & 211 & 10.9\% \\
+CAT04 & Telecom \& Networks           & 337 & 17.4\% \\
+CAT03 & Cybersecurity                 & 211 & 10.9\% \\
 ---   & Unknown (CPV missing)         & 176 &  9.1\% \\
-CAT05 & Digital Workplace \& Collab.  &  89 &  4.6\% \\
-CAT06 & Data \& AI                    &  54 &  2.8\% \\
-CAT08 & IT Hardware \& Equipment      &  45 &  2.3\% \\
-CAT07 & IT Maintenance \& Support     &  31 &  1.6\% \\
-CAT09 & Cloud \& Infrastructure       &  25 &  1.3\% \\
-CAT10 & GIS \& Mapping                &   9 &  0.5\% \\
+CAT07 & Digital Workplace \& Collab.  &  89 &  4.6\% \\
+CAT08 & Data \& AI                    &  54 &  2.8\% \\
+CAT06 & IT Hardware \& Equipment      &  45 &  2.3\% \\
+CAT10 & IT Maintenance \& Support     &  31 &  1.6\% \\
+CAT05 & Cloud \& Infrastructure       &  25 &  1.3\% \\
+CAT09 & GIS \& Mapping                &   9 &  0.5\% \\
 \midrule
       & \textbf{Total AO}             & \textbf{1,933} & 100\% \\
 \bottomrule
@@ -436,9 +437,9 @@ Duration (months) & Count & Share & Cumulative \\
 The diagnostic signal is the extreme clustering at round multiples of 12. Real
 contract durations driven by operational timelines would produce a continuous
 distribution with noise. Instead, nearly 70\% of all values fall on exactly
-four integers --- all multiples of 12 months --- and even the 5th and 6th most
-common values (60 and 72 months) represent administrative 5-year and 6-year
-ceilings, not empirically measured durations.
+four integers --- all multiples of 12 months --- and the next clear spikes are
+the administrative 5-year and 6-year ceilings (60 and 72 months), which again
+reflect legal maxima rather than empirically measured durations.
 
 \begin{figure}[H]
 \centering
@@ -525,7 +526,7 @@ affects the accuracy or recall of the renewal linking algorithm.
 \# & Issue & Observation & Impact on linking \\
 \midrule
 1 & SIRET coverage low
-  & Only 5.8\% of \textit{APPEL\_OFFRE} notices have a SIRET (9.1\% across all 3,181 notices; 12.8\% of the 475 unique buyer keys are SIRET-anchored); the rest use normalised name as buyer key
+  & Only 5.8\% of \textit{APPEL\_OFFRE} notices have a SIRET-anchored \texttt{buyer\_key}. The SIRET \emph{field} is present on 9.8\% of AO (9.1\% across all 3,181 notices), but $\sim$46\% of those values fail validation and fall back to the name key; 12.8\% of the 475 unique buyer keys are SIRET-anchored. The rest use normalised name as buyer key
   & Variant spellings split buyer groups $\Rightarrow$ structural misses \\[4pt]
 2 & Buyer name variants
   & Same buyer appears under multiple spellings after normalisation
@@ -959,7 +960,7 @@ notebook linking output and contains one row per eligible
 
 \multicolumn{3}{l}{\textit{--- Buyer and classification ---}} \\[2pt]
 \texttt{source}            & string  & Constant value \texttt{BOAMP}; makes the handoff schema explicit. \\
-\texttt{buyer\_key}         & string  & Buyer identifier (\texttt{SIRET:...} or \texttt{NAME:...}). 308 unique buyers. In practice every row in the final eligible cohort carries a \texttt{NAME:}-based key: no SIRET was populated for any of the 1,100 eligible digital-sector AO contracts, so the \texttt{NAME:} fallback applied universally and name-based grouping governs the entire modeled cohort (and its full candidate pool). The SIRET-anchoring described above is the general schema rule; it has no effect on this particular cohort. \\
+\texttt{buyer\_key}         & string  & Buyer identifier (\texttt{SIRET:...} or \texttt{NAME:...}). 308 unique buyers. In practice every row in the final eligible cohort carries a \texttt{NAME:}-based key: no SIRET was populated for any of the 1,100 eligible digital-sector AO contracts, so the \texttt{NAME:} fallback applied universally and name-based grouping governs the entire modeled cohort (and its full candidate pool). This is structural, not incidental: every SIRET-anchored AO is a 2024 eForms notice, and all 2024 contracts are censored upfront (their estimated renewal window falls after the 2024-12-31 study end), so SIRET coverage in the eligible cohort is necessarily zero. SIRET enrichment can therefore only help future (post-2024) data, not the historical survival window. \\
 \texttt{cpv\_div2}          & float   & 2-digit CPV division of the source contract. 95.3\% coverage. \\
 \texttt{category\_label}    & string  & Internal category (11 levels; see Table~\ref{tab:categories}). \\[6pt]
 
@@ -1173,7 +1174,10 @@ rate (orange line, right axis) as a function of the minimum text-similarity
 threshold. At the current threshold of 0.20 (dotted red line), 697 events
 are retained (63.4\%). Raising the threshold to 0.30 reduces the count to
 607 (55.2\%) and eliminates the 89 pairs with the weakest semantic similarity;
-raising it to 0.50 yields 309 events (28.1\%). This analysis informs the
+raising it to 0.50 yields 309 events (28.1\%). Note that this 0.50 threshold is
+on \emph{text similarity} $s_{\text{text}}$ and is distinct from the Model~B
+sensitivity definition in Section~\ref{sec:phase2}, which thresholds the
+\emph{composite} score $S(i,j^*) \geq 0.50$ (553 events). This analysis informs the
 sensitivity check in Phase~2: the survival model should be run at both 0.20
 and 0.30 to assess whether conclusions are stable.}
 \label{fig:threshold_sensitivity}
@@ -1631,7 +1635,8 @@ HIGH + MEDIUM tier share & 553 / 697 (79.3\%) & Reliable core for modeling \\
 \clearpage
 \section{Output Files Summary}
 
-\noindent The notebook produces four output files. The main modeling table is
+\noindent The notebook produces five output files (four in the \texttt{outputs/}
+directory plus the \texttt{boamp\_phase2\_survival.csv} handoff). The main modeling table is
 the renewal links file. The other files preserve candidate pairs, aggregate
 linking statistics, and diagnostic failure patterns for audit and sensitivity
 analysis.
@@ -1956,7 +1961,9 @@ PROCEDURE\_ADAPTE                          & 0.910 & [0.779,\ 1.063] & 0.232 & 0
 
 Table~\ref{tab:cox_multi} reports the final multivariate Cox model including
 all covariates. Two predictors are statistically significant at the 1\% level:
-\texttt{declared\_duration\_months} and \texttt{start\_year}. The model
+\texttt{declared\_duration\_months} and \texttt{start\_year}. The model is fitted
+on the 1,097 contracts (696 events) with complete category and procedure
+covariates; three rows are dropped for missing covariate values. The model
 concordance (C-index) is \textbf{0.6528}, indicating moderate in-sample ranking
 ability beyond a random ranking.
 

@@ -476,7 +476,10 @@ The results are useful but bounded, and the boundaries matter:
   \item \textbf{Weak buyer identification.} Only \textasciitilde13\% of unique
         buyers carry a SIRET; the rest are matched by normalised name, which can
         split one public entity (e.g.\ ``Ville de Nantes'' vs ``Nantes
-        M\'etropole'') into several keys and create false negatives.
+        M\'etropole'') into several keys and create false negatives. The SIRET
+        field appears \emph{only} in 2024 eForms notices, which are all censored
+        upfront, so the modeled cohort is matched by name alone --- SIRET
+        enrichment can help future data but not the historical window.
   \item \textbf{Short-text false positives.} Generic descriptions (``prestations
         informatiques'') can match spuriously despite the semantic embeddings.
   \item \textbf{Structural censoring.} Contracts started in 2021--2024 are
