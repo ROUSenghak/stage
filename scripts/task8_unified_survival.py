@@ -36,6 +36,14 @@ STUDY_END = pd.Timestamp("2024-12-31")
 DECP_START = "2018-01-01"   # string — compared against start_date column
 
 
+def normalize_cpv_div2(series: pd.Series) -> pd.Series:
+    """Return CPV divisions as two-character strings across CSV dtype quirks."""
+    values = series.astype("string").str.strip()
+    values = values.str.replace(r"\.0$", "", regex=True)
+    values = values.mask(values.isin(["", "nan", "None", "<NA>"]))
+    return values.str.extract(r"(\d{2})", expand=False).fillna(values)
+
+
 # ── BOAMP pre-2018 supplement ────────────────────────────────────────────────
 
 def build_boamp_survival() -> pd.DataFrame:
@@ -122,6 +130,7 @@ def main() -> None:
 
     unified = pd.concat([decp_survival, boamp_survival], ignore_index=True)
     unified = unified[unified["observed_duration_months"] > 0].copy()
+    unified["cpv_div2"] = normalize_cpv_div2(unified["cpv_div2"])
     unified = unified.sort_values("start_date").reset_index(drop=True)
 
     out_csv = PROCESSED_DIR / "unified_survival.csv"

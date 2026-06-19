@@ -238,6 +238,41 @@ $0.20$) prune the candidate set; the best-scoring candidate is then selected.
 Accepted links are graded into confidence tiers (low $<0.50$, medium
 $0.50$--$0.70$, high $\geq 0.70$), which supports the sensitivity analysis.
 
+\paragraph{Score margin and a strict high-confidence flag.} The absolute
+composite score says how good the chosen candidate is, but not how
+\emph{separable} it is from its rivals. For each source we therefore also record
+the gap to the runner-up,
+\begin{equation}
+  \Delta_i = S(i, j^{(1)}) - S(i, j^{(2)}),
+  \label{eq:margin}
+\end{equation}
+where $j^{(1)}$ and $j^{(2)}$ are the best- and second-best-scoring candidates.
+A small $\Delta_i$ flags an ambiguous winner. Of the 697 links, 135 have a single
+candidate (margin undefined) and 562 have $\ge 2$; among the latter the median
+separation is comfortable but 251 links sit below $\Delta = 0.05$
+(Figure~\ref{fig:margin}). We define a conservative
+\nolinkurl{high_confidence_strict} indicator that requires \emph{both} a high
+absolute score \emph{and} a clear margin,
+\[
+  \texttt{event}=1 \;\wedge\; S \ge 0.70 \;\wedge\; \Delta \ge 0.05,
+\]
+which 132 links satisfy. Single-candidate links have an undefined margin and are
+deliberately \emph{not} auto-promoted to strict; they are tracked separately so
+``clear winner among several candidates'' is never conflated with ``only
+candidate available''. This flag is \emph{not} a new ground truth --- it is a
+conservative sensitivity definition used to bound, not correct, the renewal
+signal (Model~C in Section~\ref{sec:results}).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.72\textwidth]{figures/fig_score_margin.png}
+\caption{Best-minus-second-best composite-score margin for multi-candidate
+links. The dotted line marks the strict threshold $\Delta = 0.05$ and the dashed
+line $\Delta = 0.10$; the mass below $0.05$ is the ambiguous tail removed under
+Model~C.}
+\label{fig:margin}
+\end{figure}
+
 \begin{figure}[H]
 \centering
 \begin{subfigure}{0.48\textwidth}
@@ -443,23 +478,36 @@ Weibull      & 7{,}319.8 & 0.6346 \\
 \end{tabular}
 \end{table}
 
-\paragraph{Sensitivity.} Re-running the chain on high-confidence links only
-(composite $\geq 0.50$) drops events from 697 to 553 (50.3\%) and shifts the KM
-median from 48 to 53 months, with Cox concordance moving modestly from 0.6528 to
-0.6202 (Table~\ref{tab:sens}). The qualitative conclusions are stable under the
-stricter event definition, which is the main purpose of the check.
+\paragraph{Sensitivity.} We stress-test the event definition with two stricter
+variants (Table~\ref{tab:sens}). Model~B keeps only composite $\geq 0.50$ links,
+dropping events from 697 to 553 (50.3\%) and shifting the KM median from 48 to 53
+months, with Cox concordance moving modestly from 0.6528 to 0.6202. Model~C is
+far more aggressive: it keeps \texttt{event}$=1$ only for the 132
+\nolinkurl{high_confidence_strict} links (high score \emph{and} a clear margin
+over the runner-up, Eq.~\ref{eq:margin}) and \emph{censors all other originally
+linked contracts at study end}. The event rate collapses to 12.0\% and the KM
+median is no longer reached, so the apparent \emph{level} of renewal risk falls
+sharply --- as expected when most of the proxy events are removed. Crucially,
+the Cox concordance barely moves (0.6155), meaning the \emph{ranking} of renewal
+risk by covariate is robust even under the strictest definition. Model~C is a
+conservative lower bound, not a corrected ground-truth estimate; the qualitative
+conclusions are stable across all three variants, which is the purpose of the
+check.
 
 \begin{table}[H]
 \centering
-\caption{Sensitivity to the event definition.}
+\caption{Sensitivity to the event definition. Model~C requires both a high
+composite score ($\geq 0.70$) and a clear margin over the second-best candidate
+($\Delta \geq 0.05$); ``--'' marks a KM median that is never reached.}
 \label{tab:sens}
 \small
 \begin{tabular}{@{}lrrrr@{}}
 \toprule
 \textbf{Variant} & \textbf{events} & \textbf{rate \%} & \textbf{KM median} & \textbf{Cox C} \\
 \midrule
-A --- baseline (all links)        & 697 & 63.4 & 48 & 0.6528 \\
-B --- conservative ($\geq 0.50$)  & 553 & 50.3 & 53 & 0.6202 \\
+A --- baseline (all links)            & 697 & 63.4 & 48 & 0.6528 \\
+B --- conservative ($\geq 0.50$)      & 553 & 50.3 & 53 & 0.6202 \\
+C --- strict high-confidence          & 132 & 12.0 & -- & 0.6155 \\
 \bottomrule
 \end{tabular}
 \end{table}

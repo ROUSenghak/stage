@@ -1555,15 +1555,21 @@ be downgraded to censored in the sensitivity check.}
 For the survival model in Phase~2, the recommended protocol is:
 
 \begin{enumerate}
-  \item \textbf{Primary model}: all 697 events (composite $\geq 0.20$, text $\geq 0.20$).
-  \item \textbf{Sensitivity check}: 553 events only (drop LOW tier, i.e.\ composite $\geq 0.50$).
-  \item If hazard ratios and survival curve shapes are stable between the two
-        runs, the LOW-confidence links are not distorting conclusions --- they add noise
+  \item \textbf{Model A --- Primary}: all 697 events (composite $\geq 0.20$, text $\geq 0.20$).
+  \item \textbf{Model B --- Sensitivity check}: 553 events only (drop LOW tier, i.e.\ composite $\geq 0.50$).
+  \item \textbf{Model C --- Strict high-confidence}: 132 events only, keeping
+        \texttt{event} = 1 only where the absolute score is high \emph{and} the
+        margin over the second-best candidate is clear
+        (\texttt{high\_confidence\_strict}, Section~\ref{sec:margin}); all other
+        originally linked contracts are downgraded to censored at study end.
+  \item If hazard ratios and survival curve shapes are stable across these runs,
+        the lower-confidence links are not distorting conclusions --- they add noise
         but not bias. If results change substantially, report the sensitivity-check
         model as the primary.
 \end{enumerate}
 
 \subsection{Score Disambiguation: Margin Between Best and Second-Best Candidate}
+\label{sec:margin}
 
 For source contracts that had more than one candidate, the margin between the
 best and second-best composite score measures how clearly the algorithm resolved
@@ -1590,6 +1596,25 @@ distinguish the best candidate from the runner-up with high certainty. This is
 a structural property of the data (multiple contracts from the same buyer in
 similar time windows) and cannot be resolved by tuning thresholds. Manual
 validation of a stratified sample is the appropriate mitigation.
+
+\paragraph{Operationalizing the margin: \texttt{high\_confidence\_strict}.}
+We turn this diagnostic into an explicit, conservative flag, written to
+\texttt{boamp\_renewal\_links.csv}, the Phase~2 handoff, and a dedicated
+\texttt{boamp\_link\_confidence\_diagnostics.csv}. A link is \emph{strict
+high-confidence} when it satisfies \emph{both} conditions
+\[
+  \texttt{event}=1 \;\wedge\; S(i,j^*) \geq 0.70 \;\wedge\;
+  \Delta \geq 0.05, \qquad \Delta = S(i,j^{(1)}) - S(i,j^{(2)}),
+\]
+i.e.\ a high absolute score \emph{and} a clear separation from the runner-up.
+Of the 697 links, \textbf{132} qualify. Single-candidate sources ($n = 135$)
+have an undefined margin and are recorded as \texttt{single\_candidate\_match}
+rather than auto-promoted to strict, so a ``clear winner among several
+candidates'' is never conflated with an ``only candidate available''. This flag
+is deliberately conservative: it is \emph{not} a new ground truth but a
+sensitivity definition used to bound the renewal signal in Model~C
+(Section~\ref{sec:reliability} protocol; results in
+Table~\ref{tab:sensitivity}).
 
 \subsection{Ground-Truth Calibration}
 
@@ -1623,6 +1648,7 @@ Year-by-year rate stability (2015--2022) & 50--75\% & Stable; 2023 drop is struc
 \texttt{annonce\_lie} calibration & 68.2\% vs.\ 63.4\% & Positive signal \\[4pt]
 Low text-similarity links ($s_{\text{text}} < 0.30$) & 89 pairs (12.8\%) & Highest false-positive risk \\[4pt]
 Ambiguous score margin ($<0.05$) & 44.7\% of multi-cand. & Structural; not tunable \\[4pt]
+Strict high-confidence links & 132 / 697 (18.9\%) & $S \geq 0.70$ \& $\Delta \geq 0.05$; Model~C core \\[4pt]
 HIGH + MEDIUM tier share & 553 / 697 (79.3\%) & Reliable core for modeling \\
 \bottomrule
 \end{tabularx}
@@ -2087,25 +2113,29 @@ late times.}
 \label{fig:aft}
 \end{figure}
 
-\subsection{Sensitivity Analysis: Model A vs.\ Model B}
+\subsection{Sensitivity Analysis: Model A vs.\ Model B vs.\ Model C}
 
-Two model configurations were compared to assess the impact of low-confidence
-links (Section~\ref{sec:reliability}) on the survival estimates.
+Three model configurations were compared to assess the impact of low-confidence
+links (Section~\ref{sec:reliability}) on the survival estimates. Model~B drops
+the LOW tier (composite $< 0.50$); Model~C is the strict margin-based definition
+of Section~\ref{sec:margin}, which retains only links that are both high-scoring
+and clearly separated from the runner-up.
 
 \begin{table}[H]
 \centering
-\caption{Sensitivity analysis: Model A (baseline) vs.\ Model B (conservative)}
+\caption{Sensitivity analysis: Model A (baseline) vs.\ Model B (conservative)
+vs.\ Model C (strict high-confidence)}
 \label{tab:sensitivity}
-\begin{tabular}{@{}P{6.5cm}R{2.0cm}R{2.0cm}@{}}
+\begin{tabular}{@{}P{5.5cm}R{2.0cm}R{2.0cm}R{2.2cm}@{}}
 \toprule
-Metric & Model A & Model B \\
+Metric & Model A & Model B & Model C \\
 \midrule
-Event threshold & composite $\geq 0.20$ & composite $\geq 0.50$ \\
-Events & 697 & 553 \\
-Censored & 403 & 547 \\
-Event rate & 63.4\% & 50.3\% \\
-KM median survival & 48.0 mo & 53.0 mo \\
-Cox C-index & 0.6528 & 0.6202 \\
+Event criterion & composite $\geq 0.20$ & composite $\geq 0.50$ & $S \geq 0.70$ \& $\Delta \geq 0.05$ \\
+Events & 697 & 553 & 132 \\
+Censored & 403 & 547 & 968 \\
+Event rate & 63.4\% & 50.3\% & 12.0\% \\
+KM median survival & 48.0 mo & 53.0 mo & not reached \\
+Cox C-index & 0.6528 & 0.6202 & 0.6155 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2113,23 +2143,29 @@ Cox C-index & 0.6528 & 0.6202 \\
 \noindent\textbf{Interpretation.} Restricting to high- and medium-confidence
 links (Model B) shifts the KM median upward by 5 months, consistent with the
 excluded LOW-tier links being concentrated at shorter observed gaps (lower text
-similarity often corresponds to borderline temporal matches). The Cox concordance
-decreases slightly from 0.653 to 0.620 because the smaller event count reduces
-statistical power, not because the conservative definition produces a worse
-model. The qualitative conclusions --- declared duration and start year as the
-dominant predictors, no significant category or procedure effect --- are stable
-across both models.
+similarity often corresponds to borderline temporal matches). Model~C is far
+more aggressive --- by censoring all but the 132 strict links, the event rate
+collapses to 12.0\% and the KM median is no longer reached, so the apparent
+\emph{level} of renewal risk drops sharply, exactly as expected when most proxy
+events are removed. The decisive observation is that the Cox concordance is
+essentially unchanged across all three definitions (0.653, 0.620, 0.616): the
+smaller event counts reduce power but the \emph{ranking} of renewal risk by
+covariate is robust. The qualitative conclusions --- declared duration and start
+year as the dominant predictors, no significant category or procedure effect ---
+are stable across all three models. Model~C is a conservative lower bound, not a
+corrected ground-truth estimate.
 
-Figure~\ref{fig:sensitivity} overlays the KM curves from both models.
+Figure~\ref{fig:sensitivity} overlays the KM curves from the three models.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.88\textwidth]{figures/survival/sensitivity_km_comparison}
-\caption{Kaplan--Meier comparison: Model A (all 697 linked contracts, blue) vs.\
-Model B (553 high/medium-confidence contracts, orange). The conservative model
-produces a higher median estimate (53.0 mo vs.\ 48.0 mo) but the overall curve
-shapes and confidence intervals are broadly consistent, confirming that the
-LOW-confidence links add noise but do not introduce systematic bias.}
+\caption{Kaplan--Meier comparison: Model A (all 697 linked contracts) vs.\
+Model B (553 high/medium-confidence contracts) vs.\ Model C (132 strict
+high-confidence links). Models~A and~B share broadly consistent curve shapes;
+Model~C sits far higher (most contracts censored), so its survival curve never
+reaches 0.5. The stable Cox concordance across all three confirms that
+lower-confidence links add noise but do not introduce systematic bias.}
 \label{fig:sensitivity}
 \end{figure}
 

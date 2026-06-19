@@ -117,6 +117,20 @@ def main() -> None:
             "flag_amount_zero": df.get("flag_amount_zero"),
             "flag_amount_tiny": df.get("flag_amount_tiny"),
             "flag_amount_ceiling": df.get("flag_amount_ceiling"),
+            # Strict high-confidence diagnostics (TASK 10). Passed through unchanged;
+            # absent if task10 has not been run yet.
+            "best_composite_score": pd.to_numeric(
+                df.get("best_composite_score"), errors="coerce"
+            ),
+            "second_best_composite_score": pd.to_numeric(
+                df.get("second_best_composite_score"), errors="coerce"
+            ),
+            "score_margin": pd.to_numeric(df.get("score_margin"), errors="coerce"),
+            "n_candidates_for_source": pd.to_numeric(
+                df.get("n_candidates_for_source"), errors="coerce"
+            ),
+            "single_candidate_match": df.get("single_candidate_match"),
+            "high_confidence_strict": df.get("high_confidence_strict"),
         }
     )
 

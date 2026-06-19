@@ -2,33 +2,33 @@
 
 | field | dtype | non_null | missing_pct | n_unique | sample_values | notes |
 |---|---|---|---|---|---|---|
-| idweb | str | 3181 | 0.0 | 3181 | 15-30947 ; 15-31464 ; 15-31513 ; 15-20937 | BOAMP notice identifier (YY-NNNNNN); unique key, always present. |
-| dateparution | str | 3181 | 0.0 | 1871 | 2015-03-02 ; 2015-03-03 ; 2015-03-04 ; 2015-03-05 | Publication date on BOAMP; the only universally present date. |
-| datefindiffusion | str | 3181 | 0.0 | 1885 | 2015-03-27 ; 2015-04-24 ; 2015-04-17 ; 2015-04-14 |  |
-| datelimitereponse | str | 828 | 74.0 | 741 | 2015-03-27T11:30:00+00:00 ; 2015-04-24T15:00:00+00:00 ; 2015-04-17T11:00:00+00:00 ; 2015-04-14T11:00:00+00:00 | Offer deadline; only meaningful for contract notices. |
-| nomacheteur | str | 3181 | 0.0 | 525 | SMICTOM de la Vallée de l'Authion ; Sdis de la Mayenne ; Ville de Rezé ; Ville de Nantes | Buyer name, free text; many spelling variants per buyer. |
-| code_departement | str | 3181 | 0.0 | 303 | 49 ; 53 ; 44 ; 72 | Department list ('\|'-joined); JOUE notices may list all 5 PdL departments. |
-| famille | str | 3181 | 0.0 | 5 | JOUE ; FNS ; MAPA ; DSP | JOUE (EU threshold) vs FNS (national); drives form completeness. |
-| nature | str | 3181 | 0.0 | 7 | APPEL_OFFRE ; ATTRIBUTION ; PRE-INFORMATION ; INTENTION_CONCLURE | APPEL_OFFRE / ATTRIBUTION / RECTIFICATIF…; structured code. |
-| nature_libelle | str | 3181 | 0.0 | 7 | Avis de marché ; Résultat de marché ; Avis informatif ; Avis d'intention de conclure |  |
-| type_procedure | str | 2956 | 7.1 | 8 | OUVERT ; NEGOCIE ; PROCEDURE_ADAPTE ; DIALOGUE_COMPETITIF | Structured procedure code (OUVERT, PROCEDURE_ADAPTE…). |
-| type_marche | str | 2962 | 6.9 | 5 | SERVICES ; FOURNITURES ; TRAVAUX ; SERVICES\|FOURNITURES |  |
-| type_avis | str | 3026 | 4.9 | 7 | 5\|1\| ; \|10\|6 ; \|10\|8 ; 5\|\|3 |  |
-| descripteur_libelle | str | 3181 | 0.0 | 599 | Informatique (matériel)\|Location\|Logiciel\|Maintenance ; Groupe électrogène\|Matériel électrique\|Matériel de secours e… ; Horodateur\|Matériel électrique ; Outillage | BOAMP in-house thesaurus, NOT CPV; well filled. |
-| objet | str | 3181 | 0.0 | 2182 | Acquisition de systèmes d'identification embarqués, location… ; fourniture de petits materiels d'incendie et de secours et p… ; fourniture et pose d'horodateurs et de bornes d'arret minute… ; fourniture d'outillages, d'equipements techniques et de cons… | Free-text contract object; main NLP input for Phase 2. |
-| titulaire | str | 879 | 72.4 | 785 | SIS ; ASI ; TRYADE ; DCS EASYWARE | Winning supplier name(s); award notices only. |
-| annonce_lie | str | 1109 | 65.1 | 1103 | 14-175328 ; 14-163454 ; 14-175676 ; 14-154990 | Linked notice idwebs; key for AAPC<->award linking (Week 3). |
-| contractfolderid | str | 288 | 90.9 | 214 | 1cc5a74e-3bc9-484f-825b-df46dbd6916d ; 074bcfdb-0518-4346-a1c3-86cd0d60a303 ; 91aece74-7207-4e17-b2cc-14697a146a8d ; 1d202127-4262-44c9-91f4-aab10975833f |  |
-| etat | str | 3181 | 0.0 | 4 | INITIAL ; ANNULATION ; RECTIFICATIF ; MODIFICATION |  |
-| url_avis | str | 3181 | 0.0 | 3181 | https://www.boamp.fr/pages/avis/?q=idweb:15-30947 ; https://www.boamp.fr/pages/avis/?q=idweb:15-31464 ; https://www.boamp.fr/pages/avis/?q=idweb:15-31513 ; https://www.boamp.fr/pages/avis/?q=idweb:15-20937 |  |
-| donnees_format | str | 3181 | 0.0 | 2 | legacy ; eforms | legacy (pre-2024 forms) vs eforms (EU UBL, 2024+). |
-| cpv_principal | str | 3119 | 1.9 | 444 | 48000000 ; 38720000 ; 44512000 ; 48814300 | Main CPV; structured code, see specificity deep-dive. |
-| cpv_all | str | 3181 | 0.0 | 911 | 48000000 ; None\|35311400\|31121000\|34928410\|44423200\|43830000\|35111100\|4… ; 38720000\|31224500\|48620000 ; 44512000\|None\|31000000\|44810000\|31500000\|44522200\|44521100\|3… | Main + per-lot CPV codes ('\|'-joined). |
-| buyer_siret | str | 288 | 90.9 | 130 | 443928874 ; 83095506800044 ; 21850047800209 ; 17440005100010 | Buyer SIRET; almost only present in eForms notices (2024+). |
-| buyer_cp | str | 3069 | 3.5 | 321 | 49250 ; 53005 ; 44403 ; 44000 |  |
-| buyer_ville | str | 3168 | 0.4 | 422 | Beaufort en vallee ; Laval cedex ; Rezé Cedex ; nantes |  |
+| idweb | object | 3181 | 0.0 | 3181 | 15-30947 ; 15-31464 ; 15-31513 ; 15-20937 | BOAMP notice identifier (YY-NNNNNN); unique key, always present. |
+| dateparution | object | 3181 | 0.0 | 1871 | 2015-03-02 ; 2015-03-03 ; 2015-03-04 ; 2015-03-05 | Publication date on BOAMP; the only universally present date. |
+| datefindiffusion | object | 3181 | 0.0 | 1885 | 2015-03-27 ; 2015-04-24 ; 2015-04-17 ; 2015-04-14 |  |
+| datelimitereponse | object | 828 | 74.0 | 741 | 2015-03-27T11:30:00+00:00 ; 2015-04-24T15:00:00+00:00 ; 2015-04-17T11:00:00+00:00 ; 2015-04-14T11:00:00+00:00 | Offer deadline; only meaningful for contract notices. |
+| nomacheteur | object | 3181 | 0.0 | 525 | SMICTOM de la Vallée de l'Authion ; Sdis de la Mayenne ; Ville de Rezé ; Ville de Nantes | Buyer name, free text; many spelling variants per buyer. |
+| code_departement | object | 3181 | 0.0 | 303 | 49 ; 53 ; 44 ; 72 | Department list ('\|'-joined); JOUE notices may list all 5 PdL departments. |
+| famille | object | 3181 | 0.0 | 5 | JOUE ; FNS ; MAPA ; DSP | JOUE (EU threshold) vs FNS (national); drives form completeness. |
+| nature | object | 3181 | 0.0 | 7 | APPEL_OFFRE ; ATTRIBUTION ; PRE-INFORMATION ; INTENTION_CONCLURE | APPEL_OFFRE / ATTRIBUTION / RECTIFICATIF…; structured code. |
+| nature_libelle | object | 3181 | 0.0 | 7 | Avis de marché ; Résultat de marché ; Avis informatif ; Avis d'intention de conclure |  |
+| type_procedure | object | 2956 | 7.1 | 8 | OUVERT ; NEGOCIE ; PROCEDURE_ADAPTE ; DIALOGUE_COMPETITIF | Structured procedure code (OUVERT, PROCEDURE_ADAPTE…). |
+| type_marche | object | 2962 | 6.9 | 5 | SERVICES ; FOURNITURES ; TRAVAUX ; SERVICES\|FOURNITURES |  |
+| type_avis | object | 3026 | 4.9 | 7 | 5\|1\| ; \|10\|6 ; \|10\|8 ; 5\|\|3 |  |
+| descripteur_libelle | object | 3181 | 0.0 | 599 | Informatique (matériel)\|Location\|Logiciel\|Maintenance ; Groupe électrogène\|Matériel électrique\|Matériel de secours e… ; Horodateur\|Matériel électrique ; Outillage | BOAMP in-house thesaurus, NOT CPV; well filled. |
+| objet | object | 3181 | 0.0 | 2182 | Acquisition de systèmes d'identification embarqués, location… ; fourniture de petits materiels d'incendie et de secours et p… ; fourniture et pose d'horodateurs et de bornes d'arret minute… ; fourniture d'outillages, d'equipements techniques et de cons… | Free-text contract object; main NLP input for Phase 2. |
+| titulaire | object | 879 | 72.4 | 785 | SIS ; ASI ; TRYADE ; DCS EASYWARE | Winning supplier name(s); award notices only. |
+| annonce_lie | object | 1109 | 65.1 | 1103 | 14-175328 ; 14-163454 ; 14-175676 ; 14-154990 | Linked notice idwebs; key for AAPC<->award linking (Week 3). |
+| contractfolderid | object | 288 | 90.9 | 214 | 1cc5a74e-3bc9-484f-825b-df46dbd6916d ; 074bcfdb-0518-4346-a1c3-86cd0d60a303 ; 91aece74-7207-4e17-b2cc-14697a146a8d ; 1d202127-4262-44c9-91f4-aab10975833f |  |
+| etat | object | 3181 | 0.0 | 4 | INITIAL ; ANNULATION ; RECTIFICATIF ; MODIFICATION |  |
+| url_avis | object | 3181 | 0.0 | 3181 | https://www.boamp.fr/pages/avis/?q=idweb:15-30947 ; https://www.boamp.fr/pages/avis/?q=idweb:15-31464 ; https://www.boamp.fr/pages/avis/?q=idweb:15-31513 ; https://www.boamp.fr/pages/avis/?q=idweb:15-20937 |  |
+| donnees_format | object | 3181 | 0.0 | 2 | legacy ; eforms | legacy (pre-2024 forms) vs eforms (EU UBL, 2024+). |
+| cpv_principal | object | 3119 | 1.9 | 444 | 48000000 ; 38720000 ; 44512000 ; 48814300 | Main CPV; structured code, see specificity deep-dive. |
+| cpv_all | object | 3181 | 0.0 | 911 | 48000000 ; None\|35311400\|31121000\|34928410\|44423200\|43830000\|35111100\|4… ; 38720000\|31224500\|48620000 ; 44512000\|None\|31000000\|44810000\|31500000\|44522200\|44521100\|3… | Main + per-lot CPV codes ('\|'-joined). |
+| buyer_siret | object | 288 | 90.9 | 130 | 443928874 ; 83095506800044 ; 21850047800209 ; 17440005100010 | Buyer SIRET; almost only present in eForms notices (2024+). |
+| buyer_cp | object | 3069 | 3.5 | 321 | 49250 ; 53005 ; 44403 ; 44000 |  |
+| buyer_ville | object | 3168 | 0.4 | 422 | Beaufort en vallee ; Laval cedex ; Rezé Cedex ; nantes |  |
 | amount_eur | float64 | 1369 | 57.0 | 776 | 150000.0 ; 800000.0 ; 230957.2 ; 187264.29 | Estimated or awarded amount; see deep-dive (0/ceiling values). |
 | duration_months | float64 | 1518 | 52.3 | 73 | 12.0 ; 36.0 ; 48.0 ; 24.0 | Declared duration normalized to months; see Task 5. |
-| duration_source_field | str | 1518 | 52.3 | 2 | DUREE_MOIS ; cbc:DurationMeasure | Original field the duration came from. |
-| date_attribution | str | 1013 | 68.2 | 803 | 2015-02-17 ; 2015-02-19 ; 2015-03-02 ; 2015-03-11 | Award date; award notices only, placeholder dates excluded. |
-| date_publication_anterieure | str | 593 | 81.4 | 470 | 2014-11-21 ; 2014-10-30 ; 2014-10-25 ; 2014-06-28 | Publication date of the original contract notice, as recalled inside award notices. |
+| duration_source_field | object | 1518 | 52.3 | 2 | DUREE_MOIS ; cbc:DurationMeasure | Original field the duration came from. |
+| date_attribution | object | 1013 | 68.2 | 803 | 2015-02-17 ; 2015-02-19 ; 2015-03-02 ; 2015-03-11 | Award date; award notices only, placeholder dates excluded. |
+| date_publication_anterieure | object | 593 | 81.4 | 470 | 2014-11-21 ; 2014-10-30 ; 2014-10-25 ; 2014-06-28 | Publication date of the original contract notice, as recalled inside award notices. |
