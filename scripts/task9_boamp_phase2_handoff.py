@@ -113,6 +113,9 @@ def main() -> None:
             "composite_score": pd.to_numeric(df.get("composite_score"), errors="coerce"),
             "text_similarity": pd.to_numeric(df.get("text_similarity"), errors="coerce"),
             "cpv_match_score": pd.to_numeric(df.get("cpv_match_score"), errors="coerce"),
+            # True when CPV was present and contributed to the composite; False/NaN
+            # when CPV was missing and the remaining weights were renormalized.
+            "cpv_used_in_score": df.get("cpv_used_in_score"),
             "temporal_score": pd.to_numeric(df.get("temporal_score"), errors="coerce"),
             "flag_amount_zero": df.get("flag_amount_zero"),
             "flag_amount_tiny": df.get("flag_amount_tiny"),

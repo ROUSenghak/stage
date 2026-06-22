@@ -146,6 +146,8 @@ S(i,j) = 0.40 × text_similarity
         + 0.15 × buyer_match_score
 ```
 
+`cpv_match_score` is a hierarchy-based CPV compatibility score (1.00 same 8-digit code → 0.80 category → 0.60 class → 0.40 group → 0.20 division → 0.00 different division; generic catch-all codes capped at 0.20). When a candidate pair has a **missing** CPV, CPV is excluded from the composite score and the remaining component weights are renormalized (divide by 0.75); it is never assigned a neutral 0.5.
+
 **Hard filters:** `text_similarity ≥ 0.20`; gap δ(i,j) ∈ [6, 72] months.  
 **Best match:** the candidate with the highest composite score is selected; `event = 1` if composite ≥ 0.0 after filtering.
 
@@ -187,12 +189,12 @@ Among the 403 unlinked eligible contracts:
 | Failure reason | Count | % of unlinked |
 |---|---|---|
 | NO_TEMPORAL_PARTNER | 339 | 84.1% |
-| TEXT_MISMATCH | 40 | 9.9% |
-| CPV_MISMATCH | 24 | 6.0% |
+| TEXT_MISMATCH | 32 | 7.9% |
+| CPV_MISMATCH | 32 | 7.9% |
 
 **NO_TEMPORAL_PARTNER** (84.1%) means no candidate from the same buyer fell within the ±12-month temporal window around the expected renewal date. This is a structural ceiling: the buyer may not have renewed, or the renewal was published outside the study window. It cannot be improved by threshold tuning.
 
-**TEXT_MISMATCH** (9.9%) and **CPV_MISMATCH** (6.0%) identify cases where a temporal partner existed but failed the similarity or CPV threshold. These are recoverable at the cost of increased false positives.
+**TEXT_MISMATCH** (7.9%) and **CPV_MISMATCH** (7.9%) identify cases where a temporal partner existed but failed the similarity or CPV check. CPV_MISMATCH counts sources whose every candidate had a valid but incompatible CPV division (score 0.0); sources with a missing CPV are excluded from this label since CPV is dropped from their composite. These are recoverable at the cost of increased false positives.
 
 ---
 
@@ -202,11 +204,11 @@ Links are stratified into three confidence tiers based on composite score:
 
 | Tier | Composite threshold | Count | % of linked |
 |---|---|---|---|
-| HIGH | ≥ 0.70 | 181 | 26.0% |
-| MEDIUM | 0.50 – 0.70 | 347 | 49.8% |
-| LOW | < 0.50 | 169 | 24.2% |
+| HIGH | ≥ 0.70 | 122 | 17.5% |
+| MEDIUM | 0.50 – 0.70 | 372 | 53.4% |
+| LOW | < 0.50 | 203 | 29.1% |
 
-For Phase 2 sensitivity analysis, a conservative scenario drops LOW-tier links to `event = 0` (528 events instead of 697). The recommended primary analysis uses all 697 events with composite score as a continuous covariate.
+For Phase 2 sensitivity analysis, a conservative scenario drops LOW-tier links to `event = 0` (494 events instead of 697). The recommended primary analysis uses all 697 events with composite score as a continuous covariate.
 
 ---
 
@@ -214,7 +216,7 @@ For Phase 2 sensitivity analysis, a conservative scenario drops LOW-tier links t
 
 1. **No ground truth.** No external validation set exists for BOAMP renewal links. Calibration uses `annonce_lie` back-references (68.2% recall on same-contract pairs) as a proxy, but systematic precision estimation is not possible.
 
-2. **Buyer fragmentation.** 94.1% of buyer keys are name-based. A single public entity with naming variants across years will appear as multiple buyer keys, blocking valid links. This is the primary source of false negatives.
+2. **Buyer fragmentation.** 94.1% of buyer keys are name-based. A single public entity with naming variants across years will appear as multiple buyer keys, blocking valid links. This is the primary source of false negatives. Enriching buyer identification with SIRET/SIREN data is a planned future improvement; it requires a cross-source join not available in the current BOAMP-only pipeline.
 
 3. **Duration imputation bias.** 23.4% of AO have missing durations imputed to 48 months. The estimated end date for those contracts is a rough guess; the temporal score and eligibility determination are less reliable for this subset. The `dur_was_imputed` flag identifies them.
 
@@ -222,7 +224,7 @@ For Phase 2 sensitivity analysis, a conservative scenario drops LOW-tier links t
 
 5. **Scope limitation.** Only BOAMP is used; DECP would improve buyer SIRET coverage and contract amounts. A cross-source join is deferred to Phase 3.
 
-6. **False positives among LOW-tier links.** 169 links (24.2% of events) have composite < 0.50; among these, 89 have text similarity between 0.20 and 0.30, which is below the calibrated 0.30 threshold for same-contract pairs. These should be treated as uncertain in Phase 2 sensitivity analyses.
+6. **False positives among LOW-tier links.** 203 links (29.1% of events) have composite < 0.50; among these, 54 have text similarity between 0.20 and 0.30, which is below the calibrated 0.30 threshold for same-contract pairs. These should be treated as uncertain in Phase 2 sensitivity analyses.
 
 ---
 
@@ -317,4 +319,4 @@ A logistic regression (`event ~ CPV division + buyer_type + declared_duration_mo
 
 N = 1,100. Intercept ≈ −0.01. Coefficients for rare CPV divisions (n < 10) have high variance and should not be over-interpreted.
 
-**Conclusion:** The dominant predictor of event rate is CPV division, which is substantive rather than algorithmic (different procurement categories genuinely renew at different rates). Start year and duration imputation have minimal additional effect once CPV is controlled for. No large unexplained residual bias was found. The main structural risk for Phase 2 is the 2023 cohort's compressed observation window, which `start_year` as a covariate will partially absorb. No exclusions or weighting are required before Phase 2; sensitivity analyses using HIGH-confidence links only (§6) provide an additional bias check.
+**Conclusion:** The dominant predictor of event rate is CPV division, which is substantive rather than algorithmic (different procurement categories genuinely renew at different rates). Start year and duration imputation have minimal additional effect once CPV is controlled for. No dominant unexplained residual bias was identified among the observable covariates, though the analysis cannot rule out bias driven by unobserved factors (e.g., buyer size, contract complexity). The main structural risk for Phase 2 is the 2023 cohort's compressed observation window, which `start_year` as a covariate will partially absorb. The sensitivity analyses using HIGH-confidence links only (§6) provide an additional bias check; these should be interpreted as indicative rather than definitive.

@@ -275,8 +275,8 @@ Le fichier est le résultat de la mise à plat (\textit{flatten}) du champ
 \textbf{Colonnes ajoutées lors du nettoyage}
 
 \begin{itemize}
-  \item[---] \texttt{cpv\_clean}, \texttt{cpv\_div2}, \texttt{cpv\_class4} :
-    code CPV normalisé, division (2 chiffres) et classe (4 chiffres)
+  \item[---] \texttt{cpv\_clean}, \texttt{cpv\_full8}, \texttt{cpv\_div2}, \texttt{cpv\_group3}, \texttt{cpv\_class4}, \texttt{cpv\_category5}, \texttt{cpv\_is\_missing}, \texttt{cpv\_is\_generic} :
+    code CPV normalisé (8 chiffres) et toute la hiérarchie -- division (2), groupe (3), classe (4), catégorie (5 chiffres) -- plus les indicateurs CPV manquant / générique
   \item[---] \texttt{buyer\_siret} : SIRET de l'acheteur extrait de
     \texttt{donnees} (disponible uniquement pour les avis eForms 2024 ; taux
     de renseignement : 8\,\%)

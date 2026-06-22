@@ -63,7 +63,7 @@ On 1{,}100 eligible source contracts the linking method recovers a plausible
 renewal for 697 of them (\textbf{63.4\%}), against an 11.3\% lexical baseline.
 Survival modeling on this dataset gives a global Kaplan--Meier median survival
 of \textbf{48 months}, a Cox proportional-hazards concordance of
-\textbf{0.6528}, and a best-fitting log-normal parametric model. We report these
+\textbf{0.6537}, and a best-fitting log-normal parametric model. We report these
 results honestly together with their limitations: the renewal event is a proxy,
 buyer identification is weak, and two originally planned components (a trained
 NLP classifier and change-point detection) are not yet implemented.
@@ -172,6 +172,95 @@ as a \emph{covariate}, not as the survival target. \\
 \end{tabular}
 \end{table}
 
+\subsection{Dataset construction and missing-value handling}
+The project dataset is not a direct download of ``contract renewals''. It is a
+constructed analytical dataset. BOAMP publishes individual notices, so the work
+first converts notice-level data into a contract-level table suitable for
+survival analysis.
+
+\begin{enumerate}[leftmargin=1.4em,itemsep=2pt]
+  \item \textbf{Extract and flatten.} The BOAMP API output is flattened into
+        \nolinkurl{boamp_full_flat.csv}: 3{,}181 notices and 30 raw/flattened
+        fields.
+  \item \textbf{Clean without hiding uncertainty.} The cleaned file,
+        \nolinkurl{boamp_full_clean.csv}, keeps the original fields and adds
+        controlled columns such as \nolinkurl{buyer_key}, \nolinkurl{cpv_clean},
+        \nolinkurl{amount_clean}, \nolinkurl{duration_clean}, and category
+        labels.
+  \item \textbf{Define possible contracts.} Only the 1{,}933
+        \nolinkurl{APPEL_OFFRE} notices are treated as source contracts,
+        because these are the records that can later be renewed.
+  \item \textbf{Define the observable modeling cohort.} The final denominator
+        keeps 1{,}100 contracts whose expected renewal window is observable
+        before 2024-12-31. The remaining 833 are too recent to evaluate fairly.
+  \item \textbf{Build the survival handoff.} The final
+        \nolinkurl{boamp_phase2_survival.csv} file contains one row per
+        eligible contract, with the event indicator, observed or censored
+        duration, covariates, and link-confidence diagnostics.
+\end{enumerate}
+
+The missing-value policy is deliberately conservative: raw fields are preserved,
+quality problems are flagged, and imputation is used only when the next
+algorithmic step requires a value. In particular:
+
+\begin{itemize}[leftmargin=1.4em,itemsep=2pt]
+  \item \textbf{Buyer identity.} If a valid 14-digit SIRET exists, the buyer key
+        is SIRET-based. Otherwise the pipeline uses a normalised buyer name.
+        This is necessary for grouping, but it is also the main source of false
+        negatives because spelling variants can split the same buyer.
+  \item \textbf{Amounts.} BOAMP amounts are sparse: only 21.4\% of call-for-tender
+        notices have a valid \nolinkurl{amount_clean}. Zero, tiny
+        ($<1{,}000$ EUR), and very large (at least 10M EUR) values are flagged and
+        removed from the cleaned amount, while the raw amount remains stored.
+        Amount is therefore not used as a core matching signal.
+  \item \textbf{Durations.} Suspect durations outside 1--120 months are flagged.
+        Missing or suspect durations are imputed to 48 months only for building
+        the renewal search window; the binary \nolinkurl{dur_was_imputed} flag
+        records this. The declared duration is a covariate and search prior, not
+        the survival target.
+  \item \textbf{CPV codes.} CPV is cleaned into the full hierarchy
+        (\nolinkurl{cpv_div2}, \nolinkurl{cpv_group3}, \nolinkurl{cpv_class4},
+        \nolinkurl{cpv_category5}) and used for taxonomy and matching. If CPV is
+        missing in a candidate pair, it is excluded from the composite score and
+        the remaining component weights are renormalized, rather than being given
+        an arbitrary neutral value or causing an automatic rejection.
+  \item \textbf{Renewal labels.} BOAMP has no explicit renewal flag. The
+        \nolinkurl{event} variable is reconstructed by linking later notices
+        from the same buyer with compatible text, CPV, and timing. Thus
+        \nolinkurl{event = 0} means no renewal was observed before the study
+        end under the algorithm; it is not proof that the contract was never
+        renewed.
+\end{itemize}
+
+This distinction is crucial for explaining the model: missing amounts are a
+data-quality limitation, imputed durations are a controlled assumption, and
+right-censored contracts are valid survival observations rather than bad rows.
+
+\begin{table}[H]
+\centering
+\caption{Quick practical reading of common dataset cases.}
+\label{tab:quick_dataset_examples}
+\small
+\begin{tabular}{@{}p{3.2cm}p{5.4cm}p{5.6cm}@{}}
+\toprule
+\textbf{Case} & \textbf{Example in the data} & \textbf{How to read it quickly} \\
+\midrule
+Missing amount & A BOAMP call for tender can have \texttt{amount\_clean = NaN}.
+& The contract is still usable for linking. It only means amount is not reliable enough to use as a main signal. \\[3pt]
+
+Missing duration & \texttt{dur\_was\_imputed = True}, for example when a duration is set to 48 months.
+& The row stays in the dataset, but I know the renewal search window is based on an assumption. \\[3pt]
+
+Linked renewal & \texttt{event = 1}, with a filled \texttt{renewal\_contract\_id}.
+& The algorithm found a later notice that looks like a renewal; the observed duration is the gap to that later notice. \\[3pt]
+
+No observed renewal & \texttt{event = 0}, with \texttt{censoring\_duration\_months} filled.
+& This is not a failed row. It means the contract was observed until study end without an accepted renewal link. \\
+\bottomrule
+\end{tabular}
+\normalsize
+\end{table}
+
 \begin{figure}[H]
 \centering
 \begin{subfigure}{0.48\textwidth}
@@ -214,22 +303,26 @@ expected renewal window (start date plus declared duration) falls inside the
 Restricting evaluation to eligible contracts is what makes the linking rate
 meaningful rather than mechanically deflated.
 
-\paragraph{Composite score.} For an eligible source $i$ and candidate $j$, a
-composite similarity score combines four signals:
+\paragraph{Composite score.} For an eligible source $i$ and candidate $j$ with a
+CPV on both sides, a composite similarity score combines four signals:
 \begin{equation}
   S(i,j) = 0.40\,s_{\text{text}} + 0.25\,s_{\text{cpv}}
          + 0.20\,s_{\text{temp}} + 0.15\,s_{\text{buyer}}.
   \label{eq:score}
 \end{equation}
+When CPV is missing on either side it is excluded and the remaining weights are
+renormalized: $S = (0.40\,s_{\text{text}} + 0.20\,s_{\text{temp}} + 0.15\,s_{\text{buyer}})/0.75$.
 \begin{itemize}[leftmargin=1.4em,itemsep=1pt]
   \item $s_{\text{text}}$: cosine similarity of multilingual Sentence-Transformer
         embeddings (\nolinkurl{paraphrase-multilingual-MiniLM-L12-v2}) of the
         contract descriptions. This is the strongest discriminator and the main
         improvement over the lexical baseline.
-  \item $s_{\text{cpv}}$: graded CPV compatibility (1.0 identical, 0.7 same
-        division, 0.3 same section, 0.5 if either CPV is missing) --- a
-        \emph{scored} signal, not a hard filter, because buyers sometimes
-        reclassify.
+  \item $s_{\text{cpv}}$: hierarchy-graded CPV compatibility following the
+        official CPV nomenclature (1.0 same full 8-digit code, 0.8 category,
+        0.6 class, 0.4 group, 0.2 division, 0.0 different division; generic
+        catch-all codes capped at 0.2; missing CPV excluded, weights
+        renormalized) --- a \emph{scored} signal, not a hard filter, because
+        buyers sometimes reclassify.
   \item $s_{\text{temp}}$: temporal proximity to the expected renewal date.
   \item $s_{\text{buyer}}$: buyer-identity agreement.
 \end{itemize}
@@ -249,14 +342,14 @@ the gap to the runner-up,
 where $j^{(1)}$ and $j^{(2)}$ are the best- and second-best-scoring candidates.
 A small $\Delta_i$ flags an ambiguous winner. Of the 697 links, 135 have a single
 candidate (margin undefined) and 562 have $\ge 2$; among the latter the median
-separation is comfortable but 251 links sit below $\Delta = 0.05$
+separation is comfortable but 273 links sit below $\Delta = 0.05$
 (Figure~\ref{fig:margin}). We define a conservative
 \nolinkurl{high_confidence_strict} indicator that requires \emph{both} a high
 absolute score \emph{and} a clear margin,
 \[
   \texttt{event}=1 \;\wedge\; S \ge 0.70 \;\wedge\; \Delta \ge 0.05,
 \]
-which 132 links satisfy. Single-candidate links have an undefined margin and are
+which 90 links satisfy. Single-candidate links have an undefined margin and are
 deliberately \emph{not} auto-promoted to strict; they are tracked separately so
 ``clear winner among several candidates'' is never conflated with ``only
 candidate available''. This flag is \emph{not} a new ground truth --- it is a
@@ -381,7 +474,7 @@ months} --- consistent with the prevalence of 48-month framework contracts.
 Stratified curves (Figure~\ref{fig:km}) separate clearly by declared-duration
 group and by imputation flag, both highly significant under the log-rank test
 ($p < 0.001$, Table~\ref{tab:logrank}); the difference \emph{across categories}
-is not significant ($p = 0.18$), indicating that timing is driven more by
+is not significant ($p = 0.15$), indicating that timing is driven more by
 contract duration than by technology family.
 
 \begin{figure}[H]
@@ -395,7 +488,7 @@ contract duration than by technology family.
   \caption{Kaplan--Meier by category.}
 \end{subfigure}
 \caption{Survival to renewal. The global median is 48 months; category curves
-overlap substantially (log-rank $p=0.18$).}
+overlap substantially (log-rank $p=0.15$).}
 \label{fig:km}
 \end{figure}
 
@@ -408,19 +501,19 @@ overlap substantially (log-rank $p=0.18$).}
 \toprule
 \textbf{Stratifying variable} & \textbf{statistic} & \textbf{p} & \textbf{df} \\
 \midrule
-Category (multivariate)        &  6.23 & 0.182 & 4 \\
-Duration was imputed           & 24.58 & $<0.001$ & 1 \\
-Declared-duration group        & 62.30 & $<0.001$ & 2 \\
-Procedure type (collapsed)     &  2.06 & 0.357 & 2 \\
+Category (multivariate)        &  6.75 & 0.150 & 4 \\
+Duration was imputed           & 24.41 & $<0.001$ & 1 \\
+Declared-duration group        & 62.43 & $<0.001$ & 2 \\
+Procedure type (collapsed)     &  2.10 & 0.349 & 2 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 \paragraph{Cox model.} The multivariate Cox model reaches an in-sample
-concordance of \textbf{0.6528}. Two predictors are statistically significant
+concordance of \textbf{0.6537}. Two predictors are statistically significant
 (Table~\ref{tab:cox}): a longer declared duration lowers the renewal hazard
 (HR $=0.990$ per month, $p<0.001$), and later start years carry a higher hazard
-(HR $=1.098$ per year, $p<0.001$). Neither technology category nor procedure
+(HR $=1.097$ per year, $p<0.001$). Neither technology category nor procedure
 type is significant once duration and start year are controlled for, echoing the
 log-rank result.
 
@@ -434,8 +527,8 @@ log-rank result.
 \textbf{Covariate} & \textbf{HR} & \textbf{95\% CI} & \textbf{p} \\
 \midrule
 \texttt{declared\_duration\_months} & 0.990 & [0.986, 0.995] & $<0.001$ \\
-\texttt{start\_year}                & 1.098 & [1.054, 1.143] & $<0.001$ \\
-\texttt{dur\_was\_imputed}          & 0.862 & [0.716, 1.037] & 0.116 \\
+\texttt{start\_year}                & 1.097 & [1.053, 1.142] & $<0.001$ \\
+\texttt{dur\_was\_imputed}          & 0.864 & [0.718, 1.040] & 0.123 \\
 Category / procedure terms          & \multicolumn{3}{c}{not significant ($p>0.1$)} \\
 \bottomrule
 \end{tabular}
@@ -457,8 +550,8 @@ intervals crossing 1.0 confirm the non-significant category/procedure terms.}
 \end{figure}
 
 \paragraph{Parametric models.} Among accelerated-failure-time models, the
-\textbf{log-normal} fits best (AIC $=7{,}119.9$, concordance $0.6707$), ahead of
-log-logistic ($7{,}196.1$) and Weibull ($7{,}319.8$). The right-skewed renewal-gap
+\textbf{log-normal} fits best (AIC $=7{,}119.8$, concordance $0.6723$), ahead of
+log-logistic ($7{,}194.3$) and Weibull ($7{,}320.3$). The right-skewed renewal-gap
 distribution is therefore better captured by a log-normal than by a Weibull
 hazard.
 
@@ -471,24 +564,24 @@ hazard.
 \toprule
 \textbf{Model} & \textbf{AIC} & \textbf{Concordance} \\
 \midrule
-Log-normal   & 7{,}119.9 & 0.6707 \\
-Log-logistic & 7{,}196.1 & 0.6752 \\
-Weibull      & 7{,}319.8 & 0.6346 \\
+Log-normal   & 7{,}119.8 & 0.6723 \\
+Log-logistic & 7{,}194.3 & 0.6771 \\
+Weibull      & 7{,}320.3 & 0.6355 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 \paragraph{Sensitivity.} We stress-test the event definition with two stricter
 variants (Table~\ref{tab:sens}). Model~B keeps only composite $\geq 0.50$ links,
-dropping events from 697 to 553 (50.3\%) and shifting the KM median from 48 to 53
-months, with Cox concordance moving modestly from 0.6528 to 0.6202. Model~C is
-far more aggressive: it keeps \texttt{event}$=1$ only for the 132
+dropping events from 697 to 494 (44.9\%) so that the KM median is no longer
+reached, with Cox concordance moving modestly from 0.6537 to 0.6041. Model~C is
+far more aggressive: it keeps \texttt{event}$=1$ only for the 90
 \nolinkurl{high_confidence_strict} links (high score \emph{and} a clear margin
 over the runner-up, Eq.~\ref{eq:margin}) and \emph{censors all other originally
-linked contracts at study end}. The event rate collapses to 12.0\% and the KM
+linked contracts at study end}. The event rate collapses to 8.2\% and the KM
 median is no longer reached, so the apparent \emph{level} of renewal risk falls
 sharply --- as expected when most of the proxy events are removed. Crucially,
-the Cox concordance barely moves (0.6155), meaning the \emph{ranking} of renewal
+the Cox concordance barely moves (0.6179), meaning the \emph{ranking} of renewal
 risk by covariate is robust even under the strictest definition. Model~C is a
 conservative lower bound, not a corrected ground-truth estimate; the qualitative
 conclusions are stable across all three variants, which is the purpose of the
@@ -505,9 +598,9 @@ composite score ($\geq 0.70$) and a clear margin over the second-best candidate
 \toprule
 \textbf{Variant} & \textbf{events} & \textbf{rate \%} & \textbf{KM median} & \textbf{Cox C} \\
 \midrule
-A --- baseline (all links)            & 697 & 63.4 & 48 & 0.6528 \\
-B --- conservative ($\geq 0.50$)      & 553 & 50.3 & 53 & 0.6202 \\
-C --- strict high-confidence          & 132 & 12.0 & -- & 0.6155 \\
+A --- baseline (all links)            & 697 & 63.4 & 48 & 0.6537 \\
+B --- conservative ($\geq 0.50$)      & 494 & 44.9 & -- & 0.6041 \\
+C --- strict high-confidence          &  90 &  8.2 & -- & 0.6179 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -543,7 +636,10 @@ The results are useful but bounded, and the boundaries matter:
 original project plan are \emph{not} part of this study: a \textbf{trained NLP
 classifier} (the taxonomy here is rule-based) and \textbf{change-point / trend
 detection}. The DECP linking remains at the lexical baseline only; the
-Sentence-Transformer method was applied to BOAMP, not yet to DECP.
+Sentence-Transformer method was applied to BOAMP, not yet to DECP. Exploratory
+DECP renewal links and a combined \texttt{unified\_survival.csv} (3{,}512
+BOAMP+DECP rows) do exist in the repository, but they are unvalidated and are
+not part of the official BOAMP-only results reported here.
 
 % ===========================================================================
 \section{Conclusion and Future Work}

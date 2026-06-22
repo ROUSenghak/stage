@@ -4,13 +4,22 @@ data/raw/decp/*
 
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 .venv/
+.tools/
 
 # Generated LaTeX build artifacts
-reports/*.aux
-reports/*.log
-reports/*.out
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
 
 # Notebook-local duplicate report output folders (canonical outputs are under reports/)
 notebooks/reports/

@@ -1,0 +1,266 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{ragged2e}
+\usepackage{makecell}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{setspace}
+\usepackage{parskip}
+
+\geometry{margin=2.1cm, top=2.2cm, bottom=2.3cm}
+\setstretch{1.05}
+\setlength{\parskip}{0.45em}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+
+\definecolor{darkblue}{RGB}{0,51,102}
+\hypersetup{colorlinks=true, linkcolor=darkblue, urlcolor=darkblue}
+
+\newcolumntype{L}[1]{>{\RaggedRight\arraybackslash}p{#1}}
+\newcolumntype{Y}{>{\RaggedRight\arraybackslash}X}
+
+\title{\textbf{Data Quality Report --- BOAMP Renewal Modeling Dataset}\\[0.3em]
+\large Gigalis Internship --- Phase 1 Deliverable L1}
+\author{Internship Project --- Gigalis}
+\date{June 2026}
+
+\begin{document}
+
+\maketitle
+
+\section{Objective and Scope}
+
+This report documents the quality of the BOAMP corpus used to construct the
+renewal proxy and the survival modeling dataset. The scope is the BOAMP-only
+pipeline for digital-sector public procurement notices in Pays de la Loire over
+2015--2024. The official modeling population is the set of eligible
+\texttt{APPEL\_OFFRE} contracts retained in
+\texttt{data/processed/boamp\_phase2\_survival.csv}. In this report,
+\texttt{event = 1} denotes a \emph{proxy renewal event} found by the linking
+algorithm; \texttt{event = 0} denotes right-censoring or no observed link under
+the rule before the study end date. It does not prove that no renewal occurred.
+
+\section{Raw Corpus Overview}
+
+The cleaned BOAMP corpus is stored in
+\texttt{data/processed/boamp\_full\_clean.csv}. It contains 3{,}181 notices
+published between 2015-03-02 and 2024-12-29.
+
+\begin{table}[H]
+\centering
+\caption{Raw BOAMP notice types}
+\small
+\begin{tabular}{lrr}
+\toprule
+Notice type & Count & Share \\
+\midrule
+APPEL\_OFFRE & 1{,}933 & 60.8\% \\
+ATTRIBUTION & 1{,}081 & 34.0\% \\
+RECTIFICATIF & 150 & 4.7\% \\
+PRE-INFORMATION & 7 & 0.2\% \\
+MODIFICATION & 5 & 0.2\% \\
+INTENTION\_CONCLURE & 4 & 0.1\% \\
+PERIODIQUE & 1 & 0.0\% \\
+\midrule
+Total & 3{,}181 & 100.0\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The renewal-linking pipeline uses only the 1{,}933 \texttt{APPEL\_OFFRE}
+notices as possible source contracts. \texttt{ATTRIBUTION} notices are used as
+an auxiliary source to refine contract start dates when a BOAMP back-reference
+is available.
+
+\section{Final Modeling Population}
+
+The study population is narrower than the raw corpus because not every notice is
+a candidate source contract and not every source contract has an observable
+renewal window before the 2024-12-31 study end.
+
+\begin{table}[H]
+\centering
+\caption{Population construction summary}
+\small
+\begin{tabularx}{\linewidth}{L{4.2cm}L{1.6cm}Y}
+\toprule
+Population & Count & Interpretation \\
+\midrule
+Raw BOAMP notices & 3{,}181 & Full digital-sector corpus downloaded from the BOAMP API. \\
+APPEL\_OFFRE source notices & 1{,}933 & Potential source contracts for renewal linking. \\
+Eligible source contracts & 1{,}100 & APPEL\_OFFRE contracts whose estimated end date falls before study end. \\
+Linked proxy-renewal events & 697 & \texttt{event = 1}; a plausible later BOAMP notice was linked. \\
+Right-censored contracts & 403 & \texttt{event = 0}; no observed link under the rule before study end. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The linking rate in the eligible population is 63.36\% ($697 / 1{,}100$). This
+is the denominator that matters for Phase 2 survival modeling. The lexical
+baseline retained in the repository for comparison is 11.3\%.
+
+\section{Missing-Value and Cleaning Summary}
+
+Table~\ref{tab:quality} summarizes the main variable-level quality issues that
+carry forward into modeling.
+
+\begin{table}[H]
+\centering
+\caption{Variable quality and cleaning decisions}
+\label{tab:quality}
+\scriptsize
+\begin{tabularx}{\linewidth}{L{3.3cm}L{2.5cm}Y Y}
+\toprule
+Variable & Issue & Cleaning / treatment & Modeling impact \\
+\midrule
+\texttt{buyer\_siret} / \texttt{buyer\_key} & Raw \texttt{buyer\_siret} coverage is 9.1\% in the 3{,}181-row corpus; all 1{,}100 eligible contracts use a name-based \texttt{buyer\_key}. & Build \texttt{buyer\_key} as \texttt{SIRET:...} when valid, else \texttt{NAME:...}; no manual buyer reconciliation. & Buyer-name fragmentation is the main source of false negatives in linking. \\
+\texttt{CPV} fields & \texttt{cpv\_principal} is missing for 1.9\% of the raw corpus; generic codes reduce specificity. Eligible \texttt{cpv\_div2} coverage is 95.3\%. & Clean and standardize CPV; generic codes are capped at division-level similarity; missing CPV is excluded from the composite score with weight renormalization. & Missing or generic CPV weakens auditability and may reduce match discrimination. \\
+\texttt{amount\_clean} & Valid amount coverage is 41.1\% in the full corpus and 21.4\% among \texttt{APPEL\_OFFRE}; 20.3\% in the eligible handoff. & Flag zero, tiny, and ceiling values; set flagged amounts to missing. & Amount is too sparse to act as a linking signal and must be handled as optional context only. \\
+\makecell[l]{\texttt{declared\_duration\_months}\\\texttt{duration\_clean}} & Raw cleaned duration coverage is 47.3\% overall and 76.6\% for \texttt{APPEL\_OFFRE}. In the eligible cohort, 25.1\% are imputed. & Remove suspect durations and impute missing eligible durations to 48 months with \texttt{dur\_was\_imputed}. & Duration affects eligibility and temporal search windows, so imputed rows are less reliable. \\
+\texttt{start\_date} & No missing values in the eligible handoff, but 59.3\% use publication date and 40.7\% use an attribution-derived award date. & Use award date via \texttt{annonce\_lie} when available, else publication date. & Temporal scores contain date noise because publication is not always the operational contract start. \\
+\texttt{type\_procedure} & 0.3\% missing in the eligible handoff. & Retain as-is; no imputation required. & Low risk for descriptive summaries and covariate use. \\
+\texttt{type\_marche} & 14.4\% missing in the eligible handoff. & Retain missing values explicitly. & Missingness may blur segment-level interpretation. \\
+\texttt{event} / renewal link & No explicit BOAMP renewal identifier exists; \texttt{event} is algorithmic rather than observed ground truth. & Use the linking algorithm to build a proxy event; keep confidence diagnostics. & False positives and false negatives remain possible, so event quality must be interpreted as bounded evidence. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Key Data Quality Issues}
+
+The dominant data quality problems are structural rather than cosmetic. Buyer
+identity is weak because the eligible cohort has no SIRET-anchored
+\texttt{buyer\_key}; most grouping therefore relies on normalized buyer names.
+Enriching buyer identification with SIRET/SIREN data is a planned future
+improvement that requires a cross-source join unavailable in the current
+BOAMP-only pipeline. CPV coverage is high but not perfect, and generic CPV
+values reduce matching precision. Contract amount is sparse on source notices,
+so it cannot support renewal linking. BOAMP also has no explicit renewal label,
+which means the linking output is necessarily an inferred event proxy.
+
+\section{Duration Field Reliability}
+
+Declared duration is not the survival target. In the \texttt{APPEL\_OFFRE}
+population, the cleaned declared duration field is heavily concentrated on
+administrative values of 12, 24, 36, and 48 months.
+
+\begin{table}[H]
+\centering
+\caption{Declared duration concentration in APPEL\_OFFRE notices}
+\small
+\begin{tabular}{lrr}
+\toprule
+Duration value & Count & Share of non-missing durations \\
+\midrule
+48 months & 462 & 31.2\% \\
+12 months & 316 & 21.4\% \\
+24 months & 151 & 10.2\% \\
+36 months & 99 & 6.7\% \\
+Subtotal exactly 12/24/36/48 & 1{,}028 & 69.5\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+This concentration is more consistent with administrative ceilings than with
+realized renewal timing. For that reason, \texttt{declared\_duration\_months}
+is used as a covariate and as a temporal search prior, while
+\texttt{observed\_duration\_months} is the survival time used in Phase 2.
+
+\section{Renewal Linking Quality}
+
+BOAMP provides no explicit renewal ID, so the renewal variable is constructed by
+matching later notices from the same \texttt{buyer\_key} using text, CPV, and
+timing. The eligible modeling dataset contains 697 linked proxy-renewal events
+and 403 right-censored contracts.
+
+\begin{table}[H]
+\centering
+\caption{Linking outcome summary}
+\small
+\begin{tabularx}{\linewidth}{L{4.7cm}L{2cm}Y}
+\toprule
+Metric & Value & Interpretation \\
+\midrule
+Linked events & 697 & Proxy renewal events retained in the official BOAMP handoff. \\
+Right-censored & 403 & No observed link before study end under the chosen rule. \\
+Linking rate & 63.36\% & Share of eligible contracts with \texttt{event = 1}. \\
+Strict high-confidence links & 90 & Conservative subset with composite score $\geq 0.70$ and score margin $\geq 0.05$. \\
+Single-candidate links & 135 & Linked contracts with only one surviving candidate after filtering. \\
+Ambiguous multi-candidate links & 273 of 562 & 48.58\% of multi-candidate events have a score margin below 0.05. \\
+Main unlinked failure mode & 339 of 403 & Most unlinked contracts have no temporal partner in the search window. \\
+Secondary failure modes & 32 text, 32 CPV & Some eligible contracts had a temporal partner but failed semantic or CPV checks. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The confidence diagnostics are useful for sensitivity analysis, not as legal
+ground truth. A strict subset can bound the event definition, but it does not
+prove that the remaining links are false.
+
+\section{Biases and Limitations}
+
+Selection bias remains possible because contracts with no temporal partner cannot
+be linked even if a real-world renewal occurred outside the observable window.
+Buyer fragmentation can create false negatives, while generic or repetitive
+contract descriptions can create false positives. Missing or generic CPV reduces
+auditability. Contracts from late 2023 face compressed observation windows, and
+2024 contracts are structurally excluded from the eligible denominator because
+their expected renewal window falls after study end. Manual validation is still
+required to estimate the precision of the proxy renewal event.
+
+\begin{table}[H]
+\centering
+\caption{Principal data quality risks}
+\small
+\begin{tabularx}{\linewidth}{L{3.2cm}Y Y}
+\toprule
+Risk & Evidence in current data & Modeling impact \\
+\midrule
+Buyer fragmentation & All 1{,}100 eligible rows use name-based \texttt{buyer\_key} values; no SIRET-anchored keys appear in the eligible cohort. SIRET/SIREN enrichment is a planned future improvement. & Structural false negatives when the same buyer appears under multiple spellings. \\
+Generic or missing CPV & Raw CPV missingness is 1.9\%; generic codes are capped at low similarity. & Lower match precision and weaker audit trail for some links. \\
+Sparse amount field & Only 21.4\% of source \texttt{APPEL\_OFFRE} notices have a usable amount. & Amount cannot serve as a reliable matching signal or segmentation variable. \\
+Administrative duration values & 69.5\% of observed source durations equal 12, 24, 36, or 48 months. & Declared duration should not be interpreted as realized renewal time. \\
+Observation-window censoring & 403 eligible contracts are right-censored; late cohorts have less time to reveal renewals. & Apparent non-renewal may reflect study-end truncation rather than true absence of renewal. \\
+Proxy event definition & BOAMP contains no explicit renewal label. & Event quality depends on the linking rule and should be stress-tested with confidence diagnostics. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Reproducibility}
+
+This report is reproducible from tracked project outputs. The core files are:
+
+\begin{itemize}
+	\item \path{data/processed/boamp_full_clean.csv}
+	\item \path{data/processed/boamp_phase2_survival.csv}
+	\item \path{boamp_renewal_linking_quality/outputs/boamp_linking_stats.csv}
+	\item \path{boamp_renewal_linking_quality/outputs/boamp_renewal_links.csv}
+	\item \path{boamp_renewal_linking_quality/outputs/boamp_renewal_candidates.csv}
+	\item \path{boamp_renewal_linking_quality/outputs/boamp_bias_report.csv}
+	\item \path{boamp_renewal_linking_quality/outputs/boamp_link_confidence_diagnostics.csv}
+\end{itemize}
+
+The relevant pipeline steps are implemented in \path{scripts/task_boamp_full_clean.py},
+\path{scripts/task9_boamp_phase2_handoff.py}, and
+\path{scripts/task10_link_confidence_diagnostics.py}. No manual, untracked data
+manipulation is required to reproduce the counts reported here.
+
+\section{Conclusion}
+
+The BOAMP dataset satisfies the internship guide's minimum data-quality
+requirement for Phase 1 because it provides a documented corpus, explicit
+cleaning rules, missingness information, a transparent linking rate, and a
+survival-ready population of more than 800 eligible contracts with either
+observed or censored duration. The main limitation is conceptual rather than
+technical: \texttt{event} remains a proxy renewal event, not legal ground truth,
+so later manual validation is still needed to estimate precision.
+
+\end{document}

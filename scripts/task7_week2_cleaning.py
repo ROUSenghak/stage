@@ -104,10 +104,31 @@ def canonical_buyer_key(siret: str | None, name: str | None) -> str:
 # ── CPV normalization ────────────────────────────────────────────────────────
 
 def clean_cpv(raw) -> str | None:
+    """Normalize a raw CPV value to its 8-digit main code (or None).
+
+    Robust to floats, ints, strings and ``"…\\.0"`` artifacts; preserves the
+    8-digit width so leading zeros are not lost. The 9th digit after a dash (or
+    a 9-digit no-dash value) is a check digit and is dropped.
+
+    Examples
+    --------
+    ``72000000`` / ``72000000.0`` / ``"72000000-9"`` / ``72000000-9`` → ``"72000000"``
+    ``3000000`` (leading zero lost on int storage)                    → ``"03000000"``
+    """
     if pd.isna(raw):
         return None
-    code = str(raw).split("-")[0].strip()
-    digits = re.sub(r"\D", "", code)[:8]
+    # Drop the dash check digit first, then any float artifact like ".0".
+    code = str(raw).strip().split("-")[0].strip()
+    if code.endswith(".0"):
+        code = code[:-2]
+    digits = re.sub(r"\D", "", code)
+    if not digits:
+        return None
+    # A 9-digit value carries the check digit without a dash → keep first 8.
+    digits = digits[:8]
+    # CPV codes are 8 digits; a 7-digit value lost a leading zero on numeric storage.
+    if len(digits) == 7:
+        digits = "0" + digits
     return digits if len(digits) >= 2 else None
 
 

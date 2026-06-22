@@ -41,9 +41,17 @@ def main() -> None:
         for s, n in zip(boamp["buyer_siret"], boamp["nomacheteur"])
     ]
 
+    # CPV hierarchy: 8-digit full code → 5-digit category → 4-digit class →
+    # 3-digit group → 2-digit division (https://www.code-commande-publique.com/cpv-nomenclature/).
     boamp["cpv_clean"] = boamp["cpv_principal"].map(clean_cpv)
+    boamp["cpv_full8"] = boamp["cpv_clean"]
     boamp["cpv_div2"] = boamp["cpv_clean"].str[:2]
+    boamp["cpv_group3"] = boamp["cpv_clean"].str[:3]
     boamp["cpv_class4"] = boamp["cpv_clean"].str[:4]
+    boamp["cpv_category5"] = boamp["cpv_clean"].str[:5]
+    boamp["cpv_is_missing"] = boamp["cpv_clean"].isna()
+    # Generic / catch-all codes end in many zeros (e.g. 72000000) — division-level only.
+    boamp["cpv_is_generic"] = boamp["cpv_clean"].fillna("").str.endswith("000000")
 
     amt_flags = apply_amount_flags(boamp["amount_eur"])
     boamp = pd.concat([boamp, amt_flags], axis=1)
