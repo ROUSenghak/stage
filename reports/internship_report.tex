@@ -67,6 +67,9 @@ of \textbf{48 months}, a Cox proportional-hazards concordance of
 results honestly together with their limitations: the renewal event is a proxy,
 buyer identification is weak, and two originally planned components (a trained
 NLP classifier and change-point detection) are not yet implemented.
+The fitted log-normal AFT model has further been translated into 12- and 24-month
+renewal-risk indicators at contract, buyer, and segment level, providing an
+operational prioritisation signal for Gigalis account managers.
 \end{abstract}
 
 % ===========================================================================
@@ -605,6 +608,67 @@ C --- strict high-confidence          &  90 &  8.2 & -- & 0.6179 \\
 \end{tabular}
 \end{table}
 
+\subsection{Operational 12/24-Month Renewal-Risk Indicators}
+\label{sec:operational}
+
+The log-normal AFT model, once fitted on historical survival times, can be
+evaluated forward in time for each eligible contract. For a contract $i$ with
+age $a_i$ months at the prediction date, the conditional probability of an
+identifiable renewal within the next $h$ months is
+\[
+  \hat{p}_{i,h}
+  =
+  \Pr(T_i \leq a_i+h \mid T_i>a_i, X_i)
+  =
+  \frac{\hat{S}(a_i \mid X_i)-\hat{S}(a_i+h \mid X_i)}
+       {\hat{S}(a_i \mid X_i)}
+\]
+where $h \in \{12, 24\}$ and $\hat{S}(t \mid X_i)$ is the log-normal AFT
+predicted survival. The probability is evaluated at the contract's \emph{current}
+age, giving a conditional (not unconditional) renewal probability.
+
+Applying this to the 1{,}097 scored contracts yields a mean 12-month probability
+of 0.190 and a mean 24-month probability of 0.332; no contract exceeds 0.435 at
+12 months. The expected number of identifiable renewals sums to 208 within
+12 months and 365 within 24 months. All contracts fall below the \emph{high}
+risk threshold ($p \geq 0.50$); 222 are in the \emph{medium} band
+(0.25--0.50) and 875 are \emph{low} ($<0.25$). Table~\ref{tab:risk_summary}
+summarises these figures.
+
+\begin{table}[H]
+\centering
+\caption{Operational renewal-risk summary across 1{,}097 scored contracts.}
+\label{tab:risk_summary}
+\small
+\begin{tabular}{@{}lr@{}}
+\toprule
+\textbf{Metric} & \textbf{Value} \\
+\midrule
+Contracts scored                          & 1{,}097 \\
+Mean $\hat{p}_{12}$                       & 0.190 \\
+Mean $\hat{p}_{24}$                       & 0.332 \\
+Expected renewals within 12 months        & 208 \\
+Expected renewals within 24 months        & 365 \\
+Top buyer (expected 12-month renewals)    & Pays de la Loire (18.6) \\
+Top segment (expected 12-month renewals)  & IT Services \& Consulting (61.6) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+At buyer level, the ranking aggregates contract-level probabilities into an
+expected renewal volume (the sum of $\hat{p}_{i,12}$ over all contracts of that
+buyer), giving account managers a volume-based prioritisation signal rather than
+a binary prediction. At segment level, IT Services \& Consulting contributes the
+largest expected renewal volume in the next 12 months (61.6 contracts), followed
+by Telecom \& Networks (37.6) and Software \& Applications (37.5).
+
+\textbf{Caution.} These probabilities estimate the risk of an
+\emph{identifiable BOAMP renewal under the current proxy-linking rule}. They
+should be interpreted as prioritisation indicators, not as legally verified
+renewal probabilities. Manual validation of linked renewal pairs remains
+necessary to estimate the precision of the proxy event variable and to calibrate
+the operational risk thresholds.
+
 % ===========================================================================
 \section{Limitations and Honest Appraisal}
 
@@ -651,13 +715,19 @@ reconstruction of a renewal event from unlabelled procurement notices using
 Sentence-Transformer embeddings, lifting the linking rate from 11.3\% to 63.4\%
 on eligible contracts. The survival analysis shows that renewal timing is driven
 mainly by declared contract duration (median survival 48 months) rather than by
-technology family, with a log-normal model giving the best parametric fit.
+technology family, with a log-normal model giving the best parametric fit. The
+project now additionally delivers an operational renewal-risk ranking layer:
+contract-level 12- and 24-month conditional renewal probabilities, ranked at
+buyer and segment level, providing a volume-based prioritisation signal for
+account managers (Section~\ref{sec:operational}).
 
-Future work follows directly from the limitations: (i) apply the
-Sentence-Transformer linking method to DECP and attempt a BOAMP--DECP merge for
-amount/SIRET enrichment; (ii) strengthen buyer resolution using SIRET and a
-controlled directory of regional public entities; (iii) replace the rule-based
-taxonomy with a trained text classifier; and (iv) add change-point and trend
-detection to monitor shifts in procurement behaviour over time.
+Future work follows directly from the limitations: (i) filter predictions to
+currently active contracts and re-evaluate contract age at a live prediction
+date; (ii) manual validation of a sample of linked renewal pairs to calibrate
+the proxy-event precision and the operational risk thresholds --- this step is
+\emph{not yet done}; (iii) SIRET/SIREN enrichment to strengthen buyer
+resolution beyond normalised names; (iv) replace the rule-based taxonomy with a
+trained text classifier; and (v) add change-point and trend detection to monitor
+shifts in procurement behaviour over time. Items (ii)--(v) remain open.
 
 \end{document}
