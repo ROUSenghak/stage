@@ -282,12 +282,9 @@ GIS \& Mapping                     &   5 &   4 & 80.0 \\
 
 \textbf{Link quality.} Of the 697 accepted links: 135 are single-candidate
 (no competing match); of the remaining 562 multi-candidate links, 273 (49\%)
-have a score margin below 0.05, flagging an ambiguous winner.
-Of the 697 links, 90 (12.9\%) satisfy the \texttt{high\_confidence\_strict}
-criterion ($S \geq 0.70$ and margin $\geq 0.05$, multi-candidate only); these
-form the Model~C core (Table~\ref{tab:sens}). A stricter four-tier robustness
-analysis further narrows to 53 links ($S \geq 0.80$ and margin $\geq 0.05$,
-7.6\% of events). This low high-confidence rate motivates the manual
+have a score margin below 0.05, flagging an ambiguous winner. Only 53 links
+(7.6\%) satisfy the strict high-confidence criterion (score $\geq 0.80$ and
+margin $\geq 0.05$). This low high-confidence rate motivates the manual
 validation step (not yet done; see Section~\ref{sec:open}).
 
 \textbf{Main unlinked failure mode.} 339 of 403 unlinked contracts (84\%) have
@@ -447,8 +444,8 @@ Output: \nolinkurl{reports/tables/survival/top20_renewal_risk.csv}.
 
 \begin{itemize}[leftmargin=1.4em,itemsep=2pt]
   \item \textbf{Manual validation of linked pairs.} The 150-row sample is ready;
-        the review has not been executed. Until done, there are no independently
-        verified precision/recall estimates for the linking step.
+        the review has not been executed. Until done, there are no ground-truth
+        precision / recall estimates for the linking step.
   \item \textbf{Trained NLP classifier.} The technology taxonomy is rule-based
         (CPV + keywords). The planned learned classifier was not implemented.
   \item \textbf{Change-point / trend detection (Phase 4).} Scoped but not
@@ -495,8 +492,8 @@ actionable 12/24-month renewal-risk rankings.
 
 \textbf{Immediate next steps (prioritised):}
 \begin{enumerate}[leftmargin=1.4em,itemsep=2pt]
-  \item \textbf{Execute manual validation} of the 150-row sample to obtain
-        independently verified precision/recall estimates for the linking step
+  \item \textbf{Execute manual validation} of the 150-row sample to get
+        ground-truth precision/recall for the linking step
         (\texttt{event\_validation/}).
   \item \textbf{Re-score contracts at a live prediction date} (current scores
         use end-of-study ages).

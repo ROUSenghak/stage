@@ -256,7 +256,7 @@ fields and fields added by the cleaning pipeline.
 \texttt{objet}               & string  & 100\%  & Free-text contract description. Mean length: 105 characters (range: 6--201). The primary text signal for semantic matching. \\
 \texttt{descripteur\_libelle} & string & 100\%  & Thematic descriptor in natural language (e.g.\ ``Informatique (prestations de services)''). 549 unique values. \\
 \texttt{titulaire}           & string  & 0\%    & Winning contractor (populated only on ATTRIBUTION, not AO). \\
-\texttt{annonce\_lie}        & string  & 2.9\%  & Back-reference to an earlier notice. On ATTRIBUTION records: 82.9\% filled. Used as indirect external calibration signal (back-reference on ATTRIBUTION notices). \\[6pt]
+\texttt{annonce\_lie}        & string  & 2.9\%  & Back-reference to an earlier notice. On ATTRIBUTION records: 82.9\% filled. Used as partial ground truth for calibration. \\[6pt]
 
 \multicolumn{4}{l}{\textit{--- CPV codes ---}} \\[2pt]
 \texttt{cpv\_principal}  & float   & 98.1\% & Raw CPV code (8-digit integer) as published. \\
@@ -1208,7 +1208,7 @@ notebook linking output and contains one row per eligible
 \texttt{declared\_duration\_months} & float & Contract duration as declared (or imputed). Mean: 31.5 months. \\
 \texttt{dur\_was\_imputed}  & bool    & True if duration was set to the default 48-month imputation (25.1\% of rows). \\
 \texttt{estimated\_end\_date} & date  & $\hat{e}_i = t_i + d_i$; defines the renewal search window. \\
-\texttt{observed\_duration\_months} & float & Survival time in months, always filled. For \texttt{event=1}: observed gap to the linked BOAMP renewal candidate $\Delta(i,j^*)$. For \texttt{event=0}: right-censoring duration from contract start to end of study period. \\
+\texttt{observed\_duration\_months} & float & Survival time in months, always filled. For \texttt{event=1}: actual renewal gap $\Delta(i,j^*)$. For \texttt{event=0}: right-censoring duration from contract start to end of study period. \\
 \texttt{renewal\_duration\_months} & float & Observed renewal gap for linked contracts only. Filled on 63.4\% of rows (the \texttt{event=1} subset). \\
 \texttt{censoring\_duration\_months} & float & Observed time-to-study-end for censored contracts only. Filled on 36.6\% of rows (the \texttt{event=0} subset). \\[6pt]
 
@@ -1813,13 +1813,8 @@ HIGH: $S \geq 0.80$ and margin $\geq 0.05$ ($n = 53$, 7.6\% of 697 events);
 MEDIUM: $0.70 \leq S < 0.80$ or ($S \geq 0.70$ and margin $< 0.05$)
 ($n = 170$, 24.4\%); LOW: $S < 0.70$ ($n = 339$, 48.6\%); SINGLE:
 single-candidate links with undefined margin ($n = 135$, 19.4\%).
-The \texttt{high\_confidence\_strict} flag used in Model~C
-(Section~\ref{sec:reliability}) selects 90 events satisfying $S \geq 0.70$
-and margin $\geq 0.05$ on multi-candidate links. This covers the entire HIGH
-tier ($n = 53$, $S \geq 0.80$) plus the subset of MEDIUM-tier links whose
-score clears 0.70 and whose margin also exceeds 0.05 ($n = 37$).
-Single-candidate links are recorded separately and are not included in
-Model~C.}
+The strict high-confidence threshold used in Model~C (Section~\ref{sec:reliability})
+corresponds to the HIGH and SINGLE tiers being distinguished from the rest.}
 \label{fig:confidence_tiers_4}
 \end{figure}
 
@@ -1887,7 +1882,7 @@ sensitivity definition used to bound the renewal signal in Model~C
 (Section~\ref{sec:reliability} protocol; results in
 Table~\ref{tab:sensitivity}).
 
-\subsection{Indirect External Calibration (\texttt{annonce\_lie})}
+\subsection{Ground-Truth Calibration}
 
 An indirect calibration is possible using the \texttt{annonce\_lie} field on
 ATTRIBUTION notices. These notices back-reference the original call-for-tender,
@@ -2405,7 +2400,7 @@ vs.\ Model C (strict high-confidence)}
 \toprule
 Metric & Model A & Model B & Model C \\
 \midrule
-Event criterion & text $\geq 0.20$ (all accepted) & composite $\geq 0.50$ & $S \geq 0.70$ \& $\Delta \geq 0.05$ \\
+Event criterion & composite $\geq 0.20$ & composite $\geq 0.50$ & $S \geq 0.70$ \& $\Delta \geq 0.05$ \\
 Events & 697 & 494 & 90 \\
 Censored & 403 & 606 & 1\,010 \\
 Event rate & 63.4\% & 44.9\% & 8.2\% \\
@@ -2422,15 +2417,13 @@ concentrated at shorter observed gaps (lower text similarity often corresponds t
 borderline temporal matches). Model~C is far more aggressive --- by censoring
 all but the 90 strict links, the event rate collapses to 8.2\% and the KM
 median is no longer reached, so the apparent \emph{level} of renewal risk drops
-sharply, exactly as expected when most proxy events are removed. The absolute
-event rate and KM survival level are therefore sensitive to the event definition.
-The decisive observation is that the Cox concordance remains stable across all
-three definitions (0.652, 0.644, 0.630): the smaller event counts reduce power
-but the \emph{ranking} of renewal risk by covariate is robust. The qualitative
+sharply, exactly as expected when most proxy events are removed. The decisive
+observation is that the Cox concordance remains stable across all three
+definitions (0.652, 0.644, 0.630): the smaller event counts reduce power but the
+\emph{ranking} of renewal risk by covariate is robust. The qualitative
 conclusions --- declared duration and start year as the dominant predictors, no
 significant category or procedure effect --- are stable across all three models.
-Model~C is a conservative lower bound, not a corrected estimate of the true
-event rate.
+Model~C is a conservative lower bound, not a corrected ground-truth estimate.
 
 Figure~\ref{fig:sensitivity} overlays the KM curves from the three models.
 
@@ -2465,8 +2458,8 @@ balance between linked and censored contracts.
 \subsubsection*{1. Full Threshold Sensitivity (7 Scenarios)}
 
 Table~\ref{tab:threshold_full} extends the sweep across seven
-scenarios: from the baseline (all accepted links, no composite floor) up to
-score $\geq 0.90$, plus the strict high-confidence variant.
+score-acceptance thresholds from 0.35 (baseline) to 0.90, plus the
+strict high-confidence variant.
 
 \begin{table}[H]
 \centering
@@ -2480,7 +2473,7 @@ reached within study window. HR values are from the multivariate Cox model.}
 \textbf{Scenario} & \textbf{events} & \textbf{rate\%} & \textbf{KM med.} &
 \textbf{Cox C} & \textbf{HR dur.} & \textbf{HR yr} \\
 \midrule
-Baseline (all accepted links)$^\dagger$   & 697 & 63.4 & 48.1 & 0.6524 & 0.992 & 1.094 \\
+Baseline (all, $\geq 0.35$)               & 697 & 63.4 & 48.1 & 0.6524 & 0.992 & 1.094 \\
 Score $\geq 0.50$                          & 494 & 44.9 & 52.7 & 0.6436 & 0.992 & 1.074 \\
 Score $\geq 0.60$                          & 251 & 22.8 & $\infty$ & 0.6221 & 0.995 & 1.068 \\
 Score $\geq 0.70$                          & 122 & 11.1 & $\infty$ & 0.6317 & 0.995 & 1.035 \\
@@ -2489,11 +2482,6 @@ Score $\geq 0.90$                          &  22 &  2.0 & $\infty$ & 0.5558 & 1.
 Strict H.C.\ ($S\!\geq\!0.70$, $\Delta\!\geq\!0.05$) & 104 & 9.5 & $\infty$ & 0.6375 & 0.995 & 1.046 \\
 \bottomrule
 \end{tabular}
-\smallskip\\
-{\footnotesize $^\dagger$ Baseline retains all accepted links
-(\texttt{text\_similarity} $\geq 0.20$ hard filter only; no composite floor).
-The observed minimum composite score for accepted links is approximately 0.37,
-arising from the weighting formula applied to passing pairs.}
 \end{table}
 
 \textbf{Key observations.} (i) The Cox C-index stays above 0.59 across all
@@ -2521,9 +2509,8 @@ C~= 0.630) that excludes single-candidate links.
   \centering
   \includegraphics[width=\linewidth]{figures/robustness/event_rate_by_threshold}
   \caption{Event rate and Cox C-index as a function of score threshold. The
-  C-index plateau from the baseline through score $\geq 0.70$ (range
-  0.622--0.652) confirms that adding lower-confidence links does not degrade
-  ranking ability.}
+  C-index plateau between 0.35 and 0.70 (range 0.622--0.652) confirms that
+  adding lower-confidence links does not degrade ranking ability.}
 \end{subfigure}
 \caption{Full threshold sensitivity: survival model robustness across 7 event
 definitions.}
@@ -2728,11 +2715,9 @@ expected renewal windows fall after the 2024-12-31 study close.
         Cox model, only \texttt{declared\_duration\_months} (HR = 0.991,
         $p < 0.001$) and \texttt{start\_year} (HR = 1.094, $p < 0.001$) are
         significant. Shorter declared durations predict faster renewal.
-        The positive \texttt{start\_year} hazard ratio should be interpreted
-        cautiously: it may reflect calendar-period effects, publication
-        practices, and study-window truncation (2021--2024 contracts are
-        largely right-censored) rather than a genuine acceleration of
-        procurement renewal cycles.
+        The positive \texttt{start\_year} hazard ratio indicates that more
+        recent contracts renew faster, possibly reflecting an accelerating
+        procurement cycle or left-truncation of older contracts in the study period.
 
   \item \textbf{No significant category or procedure effect.} None of the
         ICT service categories or procurement procedure types differ
@@ -2745,12 +2730,10 @@ expected renewal windows fall after the 2024-12-31 study close.
         model is the worst fit.
 
   \item \textbf{Sensitivity check supports qualitative stability.} Restricting to
-        medium- and high-confidence links (Model B) shifts the KM median from
-        48.1 to 52.7 months, while leaving covariate effects qualitatively
-        unchanged. Model C is far more aggressive: censoring all but the 90
-        strict high-confidence links collapses the event rate to 8.2\% and the
-        KM median is no longer reached. The primary model (Model A) is retained
-        as the official result.
+        high/medium-confidence links (Model B) shifts the survival curve upward
+        so the median is no longer reached, but leaves the covariate effects
+        qualitatively unchanged. The primary model (Model A) is retained as the
+        official result.
 
 \end{enumerate}
 
