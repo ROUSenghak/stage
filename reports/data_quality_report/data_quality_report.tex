@@ -192,8 +192,8 @@ Metric & Value & Interpretation \\
 Linked events & 697 & Proxy renewal events retained in the official BOAMP handoff. \\
 Right-censored & 403 & No observed link before study end under the chosen rule. \\
 Linking rate & 63.36\% & Share of eligible contracts with \texttt{event = 1}. \\
-Strict high-confidence links & 90 & Conservative subset with composite score $\geq 0.70$ and score margin $\geq 0.05$. \\
-Single-candidate links & 135 & Linked contracts with only one surviving candidate after filtering. \\
+Strict high-confidence links & 90 & Conservative subset with composite score $\geq 0.70$ and score margin $\geq 0.05$, \emph{excluding} the 135 single-candidate links (margin undefined). A broader count of 104 results when single-candidate links with score $\geq 0.70$ are also included. \\
+Single-candidate links & 135 & Linked contracts with only one surviving candidate after filtering; margin is undefined for these. \\
 Ambiguous multi-candidate links & 273 of 562 & 48.58\% of multi-candidate events have a score margin below 0.05. \\
 Main unlinked failure mode & 339 of 403 & Most unlinked contracts have no temporal partner in the search window. \\
 Secondary failure modes & 32 text, 32 CPV & Some eligible contracts had a temporal partner but failed semantic or CPV checks. \\

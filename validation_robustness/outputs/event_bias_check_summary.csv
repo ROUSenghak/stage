@@ -1,0 +1,8 @@
+variable,type,event1_value,event0_value,difference,smd_or_pct_diff,metric
+Declared duration (months),numeric,32.32 ± 17.04,30.03 ± 18.62,2.286,0.128,SMD
+Contract start year,numeric,2018.04 ± 2.01,2018.10 ± 2.08,-0.059,-0.029,SMD
+N candidates considered,numeric,7.68 ± 7.98,0.00 ± 0.00,7.684,1.362,SMD
+Duration imputed,binary proportion,24.4%,26.3%,-0.019,-0.019,Δ proportion
+Amount non-missing,binary proportion,16.6%,26.6%,-0.099,-0.099,Δ proportion
+CPV code present,binary proportion,95.8%,94.3%,0.015,0.015,Δ proportion
+Buyer identified by SIRET,binary proportion,0.0%,0.0%,0.0,0.0,Δ proportion

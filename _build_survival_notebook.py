@@ -273,27 +273,52 @@ print(missing.to_frame('n_missing').assign(
 # SECTION 6 — Academic-style plot setup
 # ─────────────────────────────────────────────────────────────────────────────
 cells.append(md("## 6. Academic-Style Plot Setup"))
-cells.append(code("""plt.rcParams.update({
-    'font.family':       'serif',
-    'font.size':         11,
-    'axes.titlesize':    13,
-    'axes.labelsize':    11,
-    'axes.spines.top':   False,
-    'axes.spines.right': False,
-    'legend.frameon':    False,
-    'figure.dpi':        150,
-    'savefig.dpi':       300,
-    'savefig.bbox':      'tight',
+cells.append(code("""# ── Academic figure style ─────────────────────────────────────────────────
+try:
+    plt.style.use("seaborn-v0_8-paper")
+except OSError:
+    try:
+        plt.style.use("seaborn-paper")
+    except OSError:
+        pass
+
+plt.rcParams.update({
+    'font.family':          'serif',
+    'font.size':            11,
+    'axes.titlesize':       13,
+    'axes.labelsize':       12,
+    'axes.spines.top':      False,
+    'axes.spines.right':    False,
+    'axes.grid':            True,
+    'grid.alpha':           0.25,
+    'grid.linestyle':       '--',
+    'grid.linewidth':       0.6,
+    'legend.frameon':       True,
+    'legend.framealpha':    0.85,
+    'legend.edgecolor':     '0.8',
+    'lines.linewidth':      1.8,
+    'figure.dpi':           120,
+    'savefig.dpi':          300,
+    'savefig.bbox':         'tight',
+    'xtick.direction':      'out',
+    'ytick.direction':      'out',
+    'xtick.minor.visible':  True,
+    'ytick.minor.visible':  True,
 })
 
 PALETTE = ['#1b6ca8', '#e05c00', '#2a9d1e', '#9c27b0', '#c9b400']
 
 def save_fig(name):
+    \"\"\"Save the active figure to FIG_DIR, then show it inline.\"\"\"
+    plt.tight_layout()
     path = FIG_DIR / name
-    plt.savefig(path, dpi=300, bbox_inches='tight')
+    fig = plt.gcf()
+    fig.savefig(path, dpi=300, bbox_inches='tight')
+    plt.show()
+    plt.close(fig)
     print(f"Saved → {path}")
 
-print("Plot defaults configured.")
+print("Academic plot style configured.")
 """))
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -339,9 +364,7 @@ ax.set_title("Global Kaplan-Meier Estimate\\n"
 ax.set_ylim(0, 1.05)
 ax.text(0.98, 0.98, "Events: 697 / 1,100 (63.4%)",
         transform=ax.transAxes, ha='right', va='top', fontsize=9, color='dimgray')
-plt.tight_layout()
 save_fig("km_global.png")
-plt.show()
 """))
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -377,9 +400,7 @@ ax.set_ylabel("Survival probability S(t)")
 ax.set_title("Kaplan-Meier by Service Category")
 ax.set_ylim(0, 1.05)
 ax.legend(fontsize=8, loc='upper right')
-plt.tight_layout()
 save_fig("km_by_category.png")
-plt.show()
 """))
 
 cells.append(code("""# 8.2 By dur_was_imputed
@@ -399,9 +420,7 @@ ax.set_ylabel("Survival probability S(t)")
 ax.set_title("Kaplan-Meier by Duration Imputation Status")
 ax.set_ylim(0, 1.05)
 ax.legend(fontsize=9)
-plt.tight_layout()
 save_fig("km_by_imputed.png")
-plt.show()
 """))
 
 cells.append(code("""# 8.3 By declared_duration_months grouped
@@ -427,9 +446,7 @@ ax.set_ylabel("Survival probability S(t)")
 ax.set_title("Kaplan-Meier by Declared Contract Duration Group")
 ax.set_ylim(0, 1.05)
 ax.legend(fontsize=9)
-plt.tight_layout()
 save_fig("km_by_declared_group.png")
-plt.show()
 """))
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -598,9 +615,7 @@ ax.set_yticklabels(summary_cox.index.tolist(), fontsize=9)
 ax.set_xlabel("Hazard Ratio (95% CI)")
 ax.set_title("Cox PH Model — Multivariate Hazard Ratios\\n"
              f"(N={len(df_cox_enc):,}, Events={int(df_cox_enc['event'].sum())})")
-plt.tight_layout()
 save_fig("cox_forest_plot.png")
-plt.show()
 """))
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -635,9 +650,7 @@ ax.set_ylabel("log(−log S(t))")
 ax.set_title("Log-Log Plot — Proportional Hazards Visual Check\\n"
              "(dur_was_imputed; parallel lines ≈ PH holds)")
 ax.legend()
-plt.tight_layout()
 save_fig("cox_assumptions.png")
-plt.show()
 """))
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -737,9 +750,7 @@ ax.set_ylabel("Survival probability S(t)")
 ax.set_title("Sensitivity Analysis: Model A vs. Model B KM Curves")
 ax.set_ylim(0, 1.05)
 ax.legend(fontsize=9)
-plt.tight_layout()
 save_fig("sensitivity_km_comparison.png")
-plt.show()
 """))
 
 cells.append(code("""# Cox concordance comparison
@@ -834,9 +845,7 @@ ax.set_title("Parametric Survival Models — Predicted S(t) at Reference Covaria
              "(declared duration = median, imputed = 0, start_year = median)")
 ax.set_ylim(0, 1.05)
 ax.legend()
-plt.tight_layout()
 save_fig("weibull_survival.png")
-plt.show()
 """))
 
 cells.append(code("""# Predicted S(t) at key time points for the best model

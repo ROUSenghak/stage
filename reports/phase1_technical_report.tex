@@ -40,14 +40,14 @@
 
 \pagestyle{fancy}
 \fancyhf{}
-\rhead{\small BOAMP Renewal Linking --- Technical Report}
+\rhead{\small BOAMP Renewal Linking --- Detailed Technical Report}
 \lhead{\small Gigalis Internship --- Phase 1 \& 2}
 \cfoot{\thepage}
 
 \title{
   \textbf{BOAMP Procurement Renewal Linking}\\[0.4em]
   \large Final Technical Report --- Phase 1 and Phase 2\\[0.3em]
-  \normalsize Data Audit, Preprocessing, Renewal Event Construction, and Survival Analysis
+  \normalsize Detailed Reference for Data Audit, Preprocessing, Renewal Event Construction, and Survival Analysis
 }
 \author{Internship Project --- Gigalis}
 \date{June 2026}
@@ -58,13 +58,15 @@
 \thispagestyle{fancy}
 
 \begin{abstract}
-This report covers the complete Phase 1 and Phase 2 methodology for
-reconstructing renewal links and fitting survival models on BOAMP public
-procurement data. BOAMP notices do not contain an explicit field identifying
-whether a call-for-tender (\textit{appel d'offre}) renews a previous contract.
-The renewal relationship must therefore be inferred from observable signals:
-buyer identity, contract description, CPV classification, and timing relative
-to the expected contract end date.
+This report is the \textbf{detailed technical reference} for the internship
+work. It is intended to document the concrete implementation choices, data
+audit, preprocessing rules, intermediate diagnostics, renewal-linking logic,
+and survival-modeling outputs in a form that can be checked, reproduced, and
+handed off. BOAMP notices do not contain an explicit field identifying whether
+a call-for-tender (\textit{appel d'offre}) renews a previous contract. The
+renewal relationship must therefore be inferred from observable signals: buyer
+identity, contract description, CPV classification, and timing relative to the
+expected contract end date.
 
 \textbf{Phase 1.} Starting from 1,933 \textit{APPEL\_OFFRE} notices over
 2015--2024, the pipeline defines 1,100 eligible source contracts and links 697
@@ -77,15 +79,14 @@ contract with a binary \texttt{event} indicator and an
 
 \textbf{Phase 2.} Survival analysis on the 1,100-contract dataset (697 events,
 403 right-censored) yields a global Kaplan--Meier median survival of 48 months.
-The Cox proportional hazards model achieves an in-sample concordance of 0.6537 (C-index);
+The Cox proportional hazards model achieves an in-sample concordance of 0.6524 (C-index);
 the best-fitting parametric model is log-normal with AIC = 7\,119.8 and
 concordance 0.6723. Statistically significant predictors are
-\texttt{declared\_duration\_months} (HR = 0.990, $p < 0.001$) and
-\texttt{start\_year} (HR = 1.097, $p < 0.001$). A sensitivity analysis
+\texttt{declared\_duration\_months} (HR = 0.991, $p < 0.001$) and
+\texttt{start\_year} (HR = 1.094, $p < 0.001$). A sensitivity analysis
 restricting to high-confidence links (composite $\geq 0.50$, 494 events)
-yields a Cox concordance of 0.6041 (the median survival is not reached under
-this stricter definition), supporting the stability of the main qualitative
-conclusions under a stricter event definition. Finally, the survival model is
+yields a KM median of 52.7 months and Cox concordance of 0.6436, supporting
+the stability of the main qualitative conclusions under a stricter event definition. Finally, the survival model is
 translated into operational 12- and 24-month renewal-risk indicators at contract,
 buyer, and segment level --- probabilities of an identifiable BOAMP renewal under
 the proxy-linking rule, intended as prioritisation indicators rather than legally
@@ -94,6 +95,11 @@ verified renewal probabilities.
 
 \section*{Executive Summary}
 \addcontentsline{toc}{section}{Executive Summary}
+
+This document is written for detailed verification. A reader who only wants a
+fast overview of the internship scope, workstreams, and headline results should
+start with the separate \textbf{internship report}. This technical report is
+the place for the exact mechanics.
 
 The objective of Phase 1 is not to prove with legal certainty that two BOAMP
 notices are renewals of one another. The objective is to build a transparent,
@@ -1793,6 +1799,25 @@ be downgraded to censored in the sensitivity check.}
 \label{fig:confidence_tiers}
 \end{figure}
 
+A finer four-tier classification from the robustness validation further
+distinguishes \emph{single-candidate} links (only one candidate survived
+filtering; margin is undefined) from multi-candidate links, and applies a
+stricter HIGH threshold ($S \geq 0.80$ and margin $\geq 0.05$).
+Figure~\ref{fig:confidence_tiers_4} summarises this breakdown.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.88\textwidth]{figures/robustness/confidence_tier_breakdown}
+\caption{Four-tier confidence classification from the robustness analysis.
+HIGH: $S \geq 0.80$ and margin $\geq 0.05$ ($n = 53$, 7.6\% of 697 events);
+MEDIUM: $0.70 \leq S < 0.80$ or ($S \geq 0.70$ and margin $< 0.05$)
+($n = 170$, 24.4\%); LOW: $S < 0.70$ ($n = 339$, 48.6\%); SINGLE:
+single-candidate links with undefined margin ($n = 135$, 19.4\%).
+The strict high-confidence threshold used in Model~C (Section~\ref{sec:reliability})
+corresponds to the HIGH and SINGLE tiers being distinguished from the rest.}
+\label{fig:confidence_tiers_4}
+\end{figure}
+
 For the survival model in Phase~2, the recommended protocol is:
 
 \begin{enumerate}
@@ -2235,20 +2260,20 @@ all covariates. Two predictors are statistically significant at the 1\% level:
 \texttt{declared\_duration\_months} and \texttt{start\_year}. The model is fitted
 on the 1,097 contracts (696 events) with complete category and procedure
 covariates; three rows are dropped for missing covariate values. The model
-concordance (C-index) is \textbf{0.6537}, indicating moderate in-sample ranking
+concordance (C-index) is \textbf{0.6524}, indicating moderate in-sample ranking
 ability beyond a random ranking.
 
 \begin{table}[H]
 \centering
-\caption{Multivariate Cox proportional hazards model (C-index = 0.6537)}
+\caption{Multivariate Cox proportional hazards model (C-index = 0.6524)}
 \label{tab:cox_multi}
 \small
 \begin{tabular}{@{}P{5.8cm}R{1.2cm}R{3.0cm}R{2.0cm}@{}}
 \toprule
 Covariate & HR & 95\% CI & $p$-value \\
 \midrule
-\texttt{declared\_duration\_months}        & 0.990 & [0.986,\ 0.995] & $<0.001$\rlap{$^{***}$} \\
-\texttt{start\_year}                       & 1.097 & [1.053,\ 1.142] & $<0.001$\rlap{$^{***}$} \\
+\texttt{declared\_duration\_months}        & 0.991 & [0.987,\ 0.995] & $<0.001$\rlap{$^{***}$} \\
+\texttt{start\_year}                       & 1.094 & [1.050,\ 1.140] & $<0.001$\rlap{$^{***}$} \\
 \texttt{dur\_was\_imputed}                 & 0.864 & [0.718,\ 1.040] & 0.123 \\
 \midrule
 \multicolumn{4}{l}{\textit{--- Category (ref: Cybersecurity) ---}} \\
@@ -2295,7 +2320,7 @@ mildly non-linear relationship between declared duration and the log-hazard
 rather than a true reversal of effect over time. Two facts limit the practical
 impact: (i) the parametric AFT models reported below do not rely on the PH
 assumption and yield the same directional conclusions; and (ii) the
-\texttt{declared\_duration\_months} hazard ratio (HR = 0.990) is consistent in
+\texttt{declared\_duration\_months} hazard ratio (HR = 0.991) is consistent in
 sign and magnitude across the univariate, multivariate, and sensitivity
 specifications. A fully rigorous treatment would stratify on binned declared
 duration or add a time interaction; this is flagged as future work.
@@ -2379,41 +2404,303 @@ Event criterion & composite $\geq 0.20$ & composite $\geq 0.50$ & $S \geq 0.70$ 
 Events & 697 & 494 & 90 \\
 Censored & 403 & 606 & 1\,010 \\
 Event rate & 63.4\% & 44.9\% & 8.2\% \\
-KM median survival & 48.1 mo & not reached & not reached \\
-Cox C-index & 0.6537 & 0.6041 & 0.6179 \\
+KM median survival & 48.1 mo & 52.7 mo & not reached \\
+Cox C-index & 0.6524 & 0.6436 & 0.6295 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 \noindent\textbf{Interpretation.} Restricting to high- and medium-confidence
-links (Model B) shifts the survival curve upward enough that the KM median is no
-longer reached within the observation window, consistent with the excluded
-LOW-tier links being concentrated at shorter observed gaps (lower text
-similarity often corresponds to borderline temporal matches). Model~C is far
-more aggressive --- by censoring all but the 90 strict links, the event rate
-collapses to 8.2\% and the KM median is likewise not reached, so the apparent
-\emph{level} of renewal risk drops sharply, exactly as expected when most proxy
-events are removed. The decisive observation is that the Cox concordance is
-essentially unchanged across all three definitions (0.654, 0.604, 0.618): the
-smaller event counts reduce power but the \emph{ranking} of renewal risk by
-covariate is robust. The qualitative conclusions --- declared duration and start
-year as the dominant predictors, no significant category or procedure effect ---
-are stable across all three models. Model~C is a conservative lower bound, not a
-corrected ground-truth estimate.
+links (Model B) shifts the survival curve upward, with the KM median rising from
+48.1 to 52.7 months, consistent with the excluded LOW-tier links being
+concentrated at shorter observed gaps (lower text similarity often corresponds to
+borderline temporal matches). Model~C is far more aggressive --- by censoring
+all but the 90 strict links, the event rate collapses to 8.2\% and the KM
+median is no longer reached, so the apparent \emph{level} of renewal risk drops
+sharply, exactly as expected when most proxy events are removed. The decisive
+observation is that the Cox concordance remains stable across all three
+definitions (0.652, 0.644, 0.630): the smaller event counts reduce power but the
+\emph{ranking} of renewal risk by covariate is robust. The qualitative
+conclusions --- declared duration and start year as the dominant predictors, no
+significant category or procedure effect --- are stable across all three models.
+Model~C is a conservative lower bound, not a corrected ground-truth estimate.
 
 Figure~\ref{fig:sensitivity} overlays the KM curves from the three models.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.88\textwidth]{figures/survival/sensitivity_km_comparison}
-\caption{Kaplan--Meier comparison: Model A (all 697 linked contracts) vs.\
-Model B (494 high/medium-confidence contracts) vs.\ Model C (90 strict
-high-confidence links). Models~A and~B share broadly consistent curve shapes;
-Model~C sits far higher (most contracts censored), so its survival curve never
-reaches 0.5. The stable Cox concordance across all three confirms that
-lower-confidence links add noise but do not appear to introduce a dominant systematic bias in the ranking of renewal risk.}
+\caption{Kaplan--Meier comparison: Model A (all 697 linked contracts, median
+48.1 mo) vs.\ Model B (494 high/medium-confidence contracts, median 52.7 mo)
+vs.\ Model C (90 strict high-confidence links, median not reached). Models~A
+and~B share broadly consistent curve shapes; Model~C sits far higher (most
+contracts censored), so its survival curve never reaches 0.5. The stable Cox
+concordance across all three (0.652, 0.644, 0.630) confirms that lower-confidence
+links add noise but do not appear to introduce a dominant systematic bias in the
+ranking of renewal risk.}
 \label{fig:sensitivity}
 \end{figure}
+
+% =============================================================================
+\subsection{Extended Robustness and Validation Checks}
+\label{sec:robustness_ext}
+
+The three-model sensitivity comparison (Models A/B/C) in the preceding
+subsection tests the event definition at three levels. This subsection presents
+five additional robustness checks derived from the dedicated validation analysis
+(\texttt{validation\_robustness/}). They address, respectively: the full
+threshold sweep beyond just $\geq 0.50$; the effect of removing uncertain links
+entirely; the quality of the individual score components; the discriminative
+ability of the scoring function against null comparators; and the covariate
+balance between linked and censored contracts.
+
+% ---------------------------------------------------------------------------
+\subsubsection*{1. Full Threshold Sensitivity (7 Scenarios)}
+
+Table~\ref{tab:threshold_full} extends the sweep across seven
+score-acceptance thresholds from 0.35 (baseline) to 0.90, plus the
+strict high-confidence variant.
+
+\begin{table}[H]
+\centering
+\caption{Full threshold sensitivity: survival model outcomes under increasingly
+strict event definitions. KM median in months; ``$\infty$'' = median never
+reached within study window. HR values are from the multivariate Cox model.}
+\label{tab:threshold_full}
+\scriptsize
+\begin{tabular}{@{}p{4.2cm}rrrrrrr@{}}
+\toprule
+\textbf{Scenario} & \textbf{events} & \textbf{rate\%} & \textbf{KM med.} &
+\textbf{Cox C} & \textbf{HR dur.} & \textbf{HR yr} \\
+\midrule
+Baseline (all, $\geq 0.35$)               & 697 & 63.4 & 48.1 & 0.6524 & 0.992 & 1.094 \\
+Score $\geq 0.50$                          & 494 & 44.9 & 52.7 & 0.6436 & 0.992 & 1.074 \\
+Score $\geq 0.60$                          & 251 & 22.8 & $\infty$ & 0.6221 & 0.995 & 1.068 \\
+Score $\geq 0.70$                          & 122 & 11.1 & $\infty$ & 0.6317 & 0.995 & 1.035 \\
+Score $\geq 0.80$                          &  66 &  6.0 & $\infty$ & 0.5935 & 0.999 & 1.015 \\
+Score $\geq 0.90$                          &  22 &  2.0 & $\infty$ & 0.5558 & 1.001 & 1.013 \\
+Strict H.C.\ ($S\!\geq\!0.70$, $\Delta\!\geq\!0.05$) & 104 & 9.5 & $\infty$ & 0.6375 & 0.995 & 1.046 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Key observations.} (i) The Cox C-index stays above 0.59 across all
+thresholds, including the extreme $\geq 0.90$ case (22 events). (ii) The
+direction of both significant hazard ratios (HR~$<$~1 for declared duration,
+HR~$>$~1 for start year) is preserved at every threshold, confirming directional
+stability. (iii) The KM median becomes non-identifiable once the event rate
+falls below $\approx$23\%, because the study window is too short to observe the
+median survival under such sparse events. (iv) The strict H.C.\ variant (104
+events including single-candidate links with $S \geq 0.70$) gives
+C~= 0.638 --- higher than the strict\_hc\_only variant (90 events,
+C~= 0.630) that excludes single-candidate links.
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{0.49\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{figures/robustness/km_curves_by_threshold}
+  \caption{KM survival curves at each threshold. Tighter thresholds shift the
+  curve upward (fewer events, slower apparent renewal). The baseline and
+  $\geq 0.50$ curves nearly overlap, indicating the LOW-tier links do not
+  strongly distort the level.}
+\end{subfigure}\hfill
+\begin{subfigure}{0.49\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{figures/robustness/event_rate_by_threshold}
+  \caption{Event rate and Cox C-index as a function of score threshold. The
+  C-index plateau between 0.35 and 0.70 (range 0.622--0.652) confirms that
+  adding lower-confidence links does not degrade ranking ability.}
+\end{subfigure}
+\caption{Full threshold sensitivity: survival model robustness across 7 event
+definitions.}
+\label{fig:threshold_full}
+\end{figure}
+
+% ---------------------------------------------------------------------------
+\subsubsection*{2. Uncertain-Link Exclusion Analysis}
+
+Rather than downgrading uncertain links to censored (as in Model~C), an
+alternative strategy is to \emph{remove} them from the denominator entirely,
+reducing the analysis sample to contracts with either a clearly linked event or
+a definitively unlinked censoring.
+
+\begin{table}[H]
+\centering
+\caption{Uncertain-link exclusion: three analysis variants. \texttt{exclude\_uncertain}
+removes all contracts with score $< 0.50$ or margin $< 0.05$ (reducing
+$N$ from 1{,}100 to 763). \texttt{strict\_hc\_only} keeps all 1{,}100
+contracts but censors all but the 90 strict high-confidence events.}
+\label{tab:exclusion}
+\small
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+\textbf{Variant} & \textbf{$N$} & \textbf{events} & \textbf{rate\%} &
+\textbf{KM med.} & \textbf{Cox C} \\
+\midrule
+Baseline               & 1{,}100 & 697 & 63.4 & 48.1 mo & 0.6524 \\
+Exclude uncertain      &   763   & 360 & 47.2 & 59.0 mo & 0.6014 \\
+Strict H.C.\ only      & 1{,}100 &  90 &  8.2 & $\infty$ & 0.6295 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Excluding uncertain links shifts the KM median upward to 59.0 months and the
+C-index to 0.601, still above the 0.5 random-chance floor. The qualitative
+conclusion --- declared duration and start year as dominant predictors ---
+persists. The drop in C-index relative to the baseline (0.652 $\to$ 0.601)
+reflects both the reduced sample size and the removal of the higher-variance
+LOW-tier links that, despite their uncertainty, still carry discriminative
+signal for ranking.
+
+% ---------------------------------------------------------------------------
+\subsubsection*{3. Score Component Diagnostics}
+
+Table~\ref{tab:score_diag} shows the distribution of each scoring component
+across the 697 accepted links. The temporal score is the highest-mean component;
+the CPV match score is the lowest, reflecting frequent reclassification across
+procurement cycles. The score margin median (0.052) is just above the 0.05
+ambiguity threshold, meaning roughly half of multi-candidate links are near the
+boundary.
+
+\begin{table}[H]
+\centering
+\caption{Score component distributions for the 697 event-1 links. CPV
+count (646) is lower because 51 links have a missing CPV on at least one side.
+Score margin is defined only for 562 multi-candidate links.}
+\label{tab:score_diag}
+\small
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+\textbf{Component} & \textbf{$n$} & \textbf{Mean} & \textbf{Std} &
+\textbf{Q1} & \textbf{Median} & \textbf{Q3} \\
+\midrule
+Composite score  & 697 & 0.579 & 0.141 & 0.489 & 0.555 & 0.653 \\
+Text similarity  & 697 & 0.517 & 0.200 & 0.368 & 0.475 & 0.619 \\
+CPV match score  & 646 & 0.301 & 0.366 & 0.000 & 0.200 & 0.400 \\
+Temporal score   & 697 & 0.706 & 0.253 & 0.587 & 0.775 & 0.914 \\
+Score margin ($\Delta$) & 562 & 0.088 & 0.105 & 0.019 & 0.052 & 0.108 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Figure~\ref{fig:score_duration} checks whether composite score correlates with
+declared contract duration, which would indicate that short-duration contracts
+are systematically harder to link (a selection bias concern). No strong
+correlation is observed, supporting the use of score-based thresholds
+independently of contract duration.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.78\textwidth]{figures/robustness/score_vs_duration}
+\caption{Composite score vs.\ declared contract duration (months) for the 697
+accepted links. No strong duration-linked selection bias is apparent; short
+contracts (12 months) and long contracts (48+ months) achieve similar score
+distributions.}
+\label{fig:score_duration}
+\end{figure}
+
+% ---------------------------------------------------------------------------
+\subsubsection*{4. Placebo / Negative-Control Check}
+
+To verify that the scoring function discriminates rather than assigning high
+scores uniformly, three groups are compared: the winning link (real event),
+the runner-up (the second-best candidate, not accepted), and a synthetic
+``no-buyer'' candidate constructed by stripping the buyer-identity signal.
+
+\begin{table}[H]
+\centering
+\caption{Placebo check: composite score distributions for real winning links,
+runner-up candidates, and synthetic no-buyer candidates.
+$\%\,{\geq}\,0.70$ = fraction reaching the HIGH confidence threshold.}
+\label{tab:placebo}
+\small
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+\textbf{Group} & \textbf{$n$} & \textbf{Mean} & \textbf{Median} &
+\textbf{\% $\geq 0.70$} \\
+\midrule
+Real winning links (event $=1$)    & 697   & 0.579 & 0.555 & 17.5 \\
+Runner-up (rejected candidate)     & 4{,}659 & 0.435 & 0.431 & 0.5 \\
+Synthetic no-buyer                 & 697   & 0.425 & 0.399 & 6.2 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.82\textwidth]{figures/robustness/placebo_score_distribution}
+\caption{Score distribution for real winning links (green), runner-up
+candidates (orange), and synthetic no-buyer candidates (red). The clear
+separation --- winner mean 0.579 vs.\ runner-up 0.435 --- confirms that the
+composite score discriminates meaningfully. Only 0.5\% of runner-ups exceed
+the 0.70 HIGH threshold, compared to 17.5\% of winners.}
+\label{fig:placebo}
+\end{figure}
+
+The gap between winners (0.579) and runner-ups (0.435) represents the net
+discriminative contribution of the four scoring components. The synthetic
+no-buyer group (0.425) is slightly below runner-ups because some runner-up
+candidates share the same buyer and thus retain the buyer-identity signal; the
+small difference (0.435 vs.\ 0.425) confirms the buyer component contributes
+positively but is not the dominant signal (the text and temporal components
+explain most of the winner/runner-up gap).
+
+% ---------------------------------------------------------------------------
+\subsubsection*{5. Event / Censoring Bias Check}
+
+An important validity concern is whether the contracts that received
+\texttt{event = 1} differ systematically from censored contracts on the
+covariates used in the survival model. A systematic difference could introduce
+bias into the Cox hazard ratios if the censoring is informative.
+
+\begin{table}[H]
+\centering
+\caption{Covariate balance between event-1 (linked) and event-0 (censored)
+contracts. SMD = standardised mean difference; $\Delta$ = difference in
+proportions. SMD $< 0.20$ is conventionally considered small.}
+\label{tab:bias}
+\small
+\begin{tabular}{@{}p{5.0cm}p{3.0cm}p{3.0cm}r@{}}
+\toprule
+\textbf{Variable} & \textbf{event = 1 ($n$ = 697)} & \textbf{event = 0 ($n$ = 403)} &
+\textbf{SMD / $\Delta$} \\
+\midrule
+Declared duration (months) & 32.3 $\pm$ 17.0 & 30.0 $\pm$ 18.6 & 0.128 \\
+Contract start year        & 2018.0 $\pm$ 2.0 & 2018.1 $\pm$ 2.1 & $-$0.029 \\
+Duration imputed           & 24.4\%           & 26.3\%           & $-$0.019 \\
+Amount non-missing         & 16.6\%           & 26.6\%           & $-$0.099 \\
+CPV code present           & 95.8\%           & 94.3\%           & 0.015 \\
+Buyer identified by SIRET  & 0.0\%            & 0.0\%            & 0.000 \\
+\midrule
+N candidates considered    & 7.7 $\pm$ 8.0  & 0.0 $\pm$ 0.0  & 1.362 (structural) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.88\textwidth]{figures/robustness/event_bias_plots}
+\caption{Covariate balance plots comparing event-1 and event-0 contracts.
+Bars show the standardised mean difference (numeric variables) or difference in
+proportions (binary variables). All modeling covariates have SMD~$<$~0.15,
+indicating good balance. The large SMD for N\_candidates (1.36) is structural
+and expected: censored contracts have no temporal partner by definition, so
+zero candidates were evaluated.}
+\label{fig:bias}
+\end{figure}
+
+\textbf{Interpretation.} All covariates used in the survival model
+(declared duration, start year, imputation flag) have SMD below 0.15, indicating
+that the linked and censored groups are well balanced on these dimensions. The
+one notable imbalance is amount non-missing ($\Delta = -0.099$): censored
+contracts are more likely to have a reported amount, suggesting that
+amount-bearing contracts are slightly harder to re-link --- possibly because
+high-value contracts are more likely to be renegotiated without a new
+BOAMP call. This does not affect the survival model (amount is not a covariate)
+but is worth monitoring in future analyses. The dominant source of censoring
+is structural right-censoring of the 2022--2024 cohort, whose contracts'
+expected renewal windows fall after the 2024-12-31 study close.
 
 \subsection{Summary of Phase 2 Findings}
 
@@ -2425,8 +2712,8 @@ lower-confidence links add noise but do not appear to introduce a dominant syste
         roughly 25\% of contracts renew within 24 months.
 
   \item \textbf{Two statistically significant predictors.} In the multivariate
-        Cox model, only \texttt{declared\_duration\_months} (HR = 0.990,
-        $p < 0.001$) and \texttt{start\_year} (HR = 1.098, $p < 0.001$) are
+        Cox model, only \texttt{declared\_duration\_months} (HR = 0.991,
+        $p < 0.001$) and \texttt{start\_year} (HR = 1.094, $p < 0.001$) are
         significant. Shorter declared durations predict faster renewal.
         The positive \texttt{start\_year} hazard ratio indicates that more
         recent contracts renew faster, possibly reflecting an accelerating

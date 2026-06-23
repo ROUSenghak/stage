@@ -11,6 +11,11 @@ Scope: digital contracts (CPV 48 software, 72 IT services, 32 telecom,
 DECP exploration remains in the repository as documented research and a later
 enrichment path, but it is **not part of the current official Phase 2 handoff**.
 
+## Reading guide
+
+- `reports/internship_report.tex`: quick orientation report to scan the internship scope, main tasks, headline results, and where each part of the work sits.
+- `reports/phase1_technical_report.tex`: detailed technical reference for the exact data audit, preprocessing, renewal-linking logic, diagnostics, and modeling choices.
+
 ## Setup
 
 ```bash
