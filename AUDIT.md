@@ -50,15 +50,23 @@ official path **BOAMP-only**.
 | Quantity | Value | Source file |
 |---|---|---|
 | Source AO → censored upfront → eligible | 1,933 → 833 → 1,100 | `boamp_renewal_linking_quality/outputs/boamp_linking_stats.csv` |
-| Linked renewals / linking rate | 697 / **63.36%** (≈63.4%) | `data/processed/boamp_phase2_survival.csv` |
+| Linked renewals / linking rate | 705 / **64.09%** (≈64.1%) | `data/processed/boamp_phase2_survival.csv` |
 | Lexical baseline | 11.3% | `boamp_linking_stats.csv` |
-| `high_confidence_strict` | 132 | survival CSV |
-| single-candidate / multi-candidate / margin<0.05 | 135 / 562 / 251 | survival CSV |
+| `high_confidence_strict` | 100 | survival CSV |
+| single-candidate / multi-candidate / margin<0.05 | 133 / 572 / 265 | survival CSV |
 | `dur_was_imputed` | 276 (25.1%) | survival CSV |
-| Composite mean (events) | 0.6238 | survival CSV |
-| Sensitivity A / B / C (events·KMmed·CoxC) | 697·48.0·0.6528 / 553·53.0·0.6202 / 132·∞·0.6155 | `reports/tables/survival/sensitivity_comparison.csv` |
-| Best parametric (AIC / C) | Log-normal 7119.89 / 0.6707 | `reports/tables/survival/parametric_aic_comparison.csv` |
-| Cox HRs (significant) | declared_duration 0.990 (p≈3e-5), start_year 1.098 | `reports/tables/survival/cox_multivariate_results.csv` |
+| Composite mean (events) | 0.5872 | survival CSV |
+| Sensitivity A / B (events·KMmed·CoxC) | 705·48.2·0.6541 / 497·inf·0.6061 | `reports/tables/survival/sensitivity_comparison.csv` |
+| Best parametric (AIC / C) | Log-normal 7176.5 / 0.6719 | `reports/tables/survival/parametric_aic_comparison.csv` |
+| Cox HRs (significant) | declared_duration 0.990 (p≈3e-5), start_year 1.097 (p≈8e-6) | `reports/tables/survival/cox_multivariate_results.csv` |
+
+**Note (2026-06-24 re-run with SIREN enrichment):** The phase-2 linking notebook was re-run
+using `buyer_key_enriched` as the active grouping key. The 23 SIREN buyer merges expanded the
+candidate pool, adding 8 renewal links (+0.7 pp). The composite score mean for events dropped
+from 0.624 to 0.587 because new inter-alias links tend to have lower margins (previously
+no candidates existed). Qualitative conclusions are unchanged: declared_duration and start_year
+remain the only significant Cox predictors (HR 0.990 and 1.097); LogNormal AFT best by AIC;
+risk tiers 0 High / 222 Medium / 875 Low.
 
 **Conclusion on the PDFs:** every headline linking and survival number is correct and reproducible
 from the current files.
@@ -101,7 +109,7 @@ items (1) and (2).
   diagnostics columns; Phase-4 next-step note added listing the exploratory DECP/unified artefacts.
 - `reports/internship_report.tex`: "Not implemented" paragraph now states that exploratory DECP links
   and `unified_survival.csv` exist in the repo but are unvalidated and outside the official results.
-- No verified headline number was altered (1,100 / 697 / 63.4% / 48.0 / 0.6528 / 7119.9 / A·B·C).
+- Headline numbers updated 2026-06-24 after SIREN enrichment re-run: 697→705 events, 63.4%→64.1%, KM 48.0→48.2 mo, C-index 0.6528→0.6541, LogNormal AIC 7119.9→7176.5.
 
 ## 8. Out of scope (not done)
 Applying the Sentence-Transformer linker to DECP; validating `unified_survival.csv`.
@@ -166,9 +174,39 @@ latexmk -pdf reports/internship_report.tex
 - `compute_cpv_score` crafted-pair tests (identical / cat5 / class4 / group3 / div2 / diff-div / generic same+diff div / missing→NaN) — all pass.
 - event=1: `cpv_used_in_score==False` ⇔ `cpv_match_score` is NaN (0 violations); composite ∈ [0,1].
 - `cpv_used_in_score` present in links.csv and phase2_survival.csv; handoff = 1,100 rows / 697 events.
-- All four notebooks executed end-to-end without error; both PDFs compiled (58 pp / 36 pp).
+- All four notebooks executed end-to-end without error; both PDFs compiled.
+  Page counts as of 2026-06-24: phase1_technical_report.pdf = 69 pp; internship_report.pdf = 7 pp; data_quality_report.pdf = 9 pp.
 
 ## G. Warnings / remaining issues
 - No system LaTeX; TinyTeX was installed under `~/.TinyTeX` (no sudo) to build the PDFs.
 - Business interpretation is unchanged: declared duration and start year remain the only significant Cox predictors; qualitative conclusions stable across Models A/B/C. Model B's KM median is now "not reached" (was 53 mo) because dropping the larger LOW tier (203 vs 144) lifts the curve above 0.5.
 - The exploratory Jaccard baseline (`task_boamp_full_survival.py`) and DECP path were **not** rerun — they are not consumed by the official Phase 2 handoff. The reported 11.3% baseline is unaffected.
+
+## H. SIREN buyer enrichment (completed 2026-06-24)
+
+New pipeline: `buyer_siren_enrichment/` (7 steps + `run_all.py`).
+Method: for each unique `nomacheteur`, query API Recherche d'Entreprises; score candidates with
+`rapidfuzz.fuzz.token_sort_ratio`; classify confidence (HIGH ≥ 85, or ≥ 75 + single or margin ≥ 10;
+MEDIUM ≥ 70; LOW ≥ 55; else NO_MATCH). Only HIGH matches get `buyer_key_enriched = "SIREN:" + siren`.
+
+| Metric | Value | Source |
+|---|---|---|
+| Unique buyers queried | 525 | `boamp_buyer_siren_enriched.csv` |
+| HIGH confidence | 275 (52.4%) | same |
+| MEDIUM | 21 (4.0%) | same |
+| LOW | 32 (6.1%) | same |
+| NO_MATCH | 197 (37.5%) | same |
+| Keys upgraded to SIREN: prefix | 275 | same |
+| SIREN group merges (deduplication) | 23 | `enrichment_quality_summary.csv` |
+| APPEL_OFFRE notices with HIGH-conf SIREN | 1,131 / 1,933 (58.5%) | same |
+| Jaccard baseline event rate | 219 / 1,933 = 11.3% | `boamp_full_survival.csv` |
+| SIREN-enriched Jaccard event rate | 234 / 1,933 = 12.1% | `boamp_full_survival_enriched.csv` |
+| Delta events | +15 (+0.8 pp) | `baseline_vs_siren_enriched_linking_comparison.csv` |
+| Log-rank p-value (baseline vs enriched) | 0.47 (not significant) | `baseline_vs_siren_enriched_survival_comparison.csv` |
+| Phase-2 cohort (sentence-transformer) | **705 events / 1,100 contracts** (updated: 23 SIREN merges expanded candidate pool, +8 events vs pre-enrichment 697) | `boamp_phase2_survival.csv` |
+
+Design constraint verified: 0 MEDIUM, 0 LOW rows have `SIREN:` prefix in `buyer_key_enriched`.
+`scripts/task_sirene_enrichment.py` is the deprecated predecessor; its output `boamp_full_clean_sirene.csv`
+is a legacy file superseded by `data/processed/boamp_full_clean_siren_enriched.csv`.
+Reports updated: `data_quality_report.tex` has full SIREN section; `internship_report.tex` and
+`phase1_technical_report.tex` updated to mark enrichment as completed (both PDFs recompiled 2026-06-24).

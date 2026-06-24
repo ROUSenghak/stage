@@ -7,6 +7,7 @@
 \usepackage{longtable}
 \usepackage{tabularx}
 \usepackage{geometry}
+\usepackage{xurl}
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{graphicx}
@@ -23,9 +24,10 @@
 \usepackage{float}
 \usepackage{ragged2e}
 \usepackage{makecell}
-\newcolumntype{P}[1]{>{\RaggedRight\arraybackslash}p{#1}}
+\newcolumntype{P}[1]{>{\RaggedRight\arraybackslash\hspace{0pt}}p{#1}}
 \newcolumntype{C}[1]{>{\Centering\arraybackslash}p{#1}}
 \newcolumntype{R}[1]{>{\RaggedLeft\arraybackslash}p{#1}}
+\newcolumntype{Y}{>{\RaggedRight\arraybackslash}X}
 
 \geometry{margin=2.2cm, top=2.8cm, bottom=2.8cm}
 \setstretch{1.15}
@@ -69,23 +71,23 @@ identity, contract description, CPV classification, and timing relative to the
 expected contract end date.
 
 \textbf{Phase 1.} Starting from 1,933 \textit{APPEL\_OFFRE} notices over
-2015--2024, the pipeline defines 1,100 eligible source contracts and links 697
-of them to a later renewal candidate, giving a final linking rate of 63.4\%.
+2015--2024, the pipeline defines 1,100 eligible source contracts and links 705
+of them to a later renewal candidate, giving a final linking rate of 64.1\%.
 The linking algorithm uses Sentence-Transformer embeddings with a four-component
 composite score. The official Phase-2 modeling input,
 \texttt{boamp\_phase2\_survival.csv}, contains one row per eligible source
 contract with a binary \texttt{event} indicator and an
 \texttt{observed\_duration\_months} survival time.
 
-\textbf{Phase 2.} Survival analysis on the 1,100-contract dataset (697 events,
-403 right-censored) yields a global Kaplan--Meier median survival of 48 months.
-The Cox proportional hazards model achieves an in-sample concordance of 0.6524 (C-index);
-the best-fitting parametric model is log-normal with AIC = 7\,119.8 and
-concordance 0.6723. Statistically significant predictors are
-\texttt{declared\_duration\_months} (HR = 0.991, $p < 0.001$) and
-\texttt{start\_year} (HR = 1.094, $p < 0.001$). A sensitivity analysis
-restricting to high-confidence links (composite $\geq 0.50$, 494 events)
-yields a KM median of 52.7 months and Cox concordance of 0.6436, supporting
+\textbf{Phase 2.} Survival analysis on the 1,100-contract dataset (705 events,
+395 right-censored) yields a global Kaplan--Meier median survival of 48.2 months.
+The Cox proportional hazards model achieves an in-sample concordance of 0.6541 (C-index);
+the best-fitting parametric model is log-normal with AIC = 7\,176.5 and
+concordance 0.6719. Statistically significant predictors are
+\texttt{declared\_duration\_months} (HR = 0.990, $p < 0.001$) and
+\texttt{start\_year} (HR = 1.097, $p < 0.001$). A sensitivity analysis
+restricting to high-confidence links (composite $\geq 0.50$, 497 events)
+yields a Cox concordance of 0.6061 (KM median not reached, event rate 45.2\%), supporting
 the stability of the main qualitative conclusions under a stricter event definition. Finally, the survival model is
 translated into operational 12- and 24-month renewal-risk indicators at contract,
 buyer, and segment level --- probabilities of an identifiable BOAMP renewal under
@@ -108,7 +110,7 @@ final algorithm uses four signals: semantic similarity of the contract
 description, CPV compatibility, temporal proximity to the expected renewal date,
 and buyer identity.
 
-The final method links 697 out of 1,100 eligible source contracts, or 63.4\%.
+The final method links 705 out of 1,100 eligible source contracts, or 64.1\%.
 The gain comes mainly from two methodological changes: using Sentence-Transformer
 embeddings instead of lexical Jaccard/TF-IDF matching, and treating CPV as a
 scored compatibility signal rather than as a hard grouping constraint. The
@@ -173,7 +175,9 @@ treatment are made explicit for survival modeling.
 
 \subsection{Source and Extraction}
 
-The dataset was extracted from the BOAMP API and covers notices published from \textbf{2015-03-02 to 2024-12-29}. The raw file after initial cleaning is \texttt{data/processed/boamp\_full\_clean.csv}.
+The dataset was extracted from the BOAMP API and covers notices published from
+\textbf{2015-03-02 to 2024-12-29}. The raw file after initial cleaning is
+\nolinkurl{data/processed/boamp_full_clean.csv}.
 
 \begin{table}[h]
 \centering
@@ -517,7 +521,7 @@ The declared duration $d_i$ is retained for three specific purposes:
 \end{equation}
 
 stored in \texttt{observed\_duration\_months} in \texttt{boamp\_renewal\_links.csv}.
-This quantity is available only for the 697 linked contracts (\texttt{event = 1})
+This quantity is available only for the 705 linked contracts (\texttt{event = 1})
 and is the correct input duration for the Cox and Kaplan--Meier models in
 Phase 2. For right-censored contracts (\texttt{event = 0}), the survival
 model requires a censoring time, which is typically taken as the study end
@@ -542,7 +546,7 @@ source into a contract-level survival dataset.
 
 \begin{enumerate}
   \item \textbf{Raw notice corpus.} The API extraction and flattening step
-        produces \texttt{boamp\_full\_flat.csv} with 3,181 BOAMP notices and 30
+        produces \nolinkurl{boamp_full_flat.csv} with 3,181 BOAMP notices and 30
         raw/flattened columns.
   \item \textbf{Cleaned analytical corpus.} The cleaning step produces
         \texttt{boamp\_full\_clean.csv} with 3,181 notices and 44 columns. This
@@ -560,7 +564,7 @@ source into a contract-level survival dataset.
         eligible contracts; the other 833 source notices are too recent to be
         evaluated fairly.
   \item \textbf{Survival handoff.} The final file,
-        \texttt{boamp\_phase2\_survival.csv}, has one row per eligible contract,
+        \nolinkurl{boamp_phase2_survival.csv}, has one row per eligible contract,
         with \texttt{event}, \texttt{observed\_duration\_months}, renewal
         diagnostics, and covariates used by Phase 2.
 \end{enumerate}
@@ -576,12 +580,13 @@ The guiding rule is \textbf{flag first, preserve raw values, impute only when a
 downstream algorithm truly needs a value}. Missingness is treated as information
 about data quality, not as something to hide.
 
-\begin{table}[H]
+\begin{landscape}
+\begin{table}[p]
 \centering
 \caption{Main missing-value and quality-control decisions}
 \label{tab:missing_value_control}
-\small
-\begin{tabularx}{\textwidth}{@{}P{3.4cm}P{3.1cm}X X@{}}
+\footnotesize
+\begin{tabularx}{\linewidth}{@{}P{3.8cm}P{4.2cm}Y Y@{}}
 \toprule
 \textbf{Field} & \textbf{Observed quality} & \textbf{Handling rule} & \textbf{Reason} \\
 \midrule
@@ -612,6 +617,7 @@ Renewal outcome & BOAMP has no explicit renewal label.
 \end{tabularx}
 \normalsize
 \end{table}
+\end{landscape}
 
 \subsection{Practical Examples From Current Rows}
 
@@ -621,12 +627,13 @@ is applied in different situations: a row can have missing amount, missing CPV,
 or an imputed duration and still be usable, provided the uncertainty is carried
 forward explicitly.
 
-\begin{table}[H]
+\begin{landscape}
+\begin{table}[p]
 \centering
 \caption{Examples of raw-to-modeling transformations}
 \label{tab:dataset_examples}
-\small
-\begin{tabularx}{\textwidth}{@{}P{2.7cm}X X X@{}}
+\footnotesize
+\begin{tabularx}{\linewidth}{@{}P{3.4cm}Y Y Y@{}}
 \toprule
 \textbf{Example} & \textbf{Raw evidence} & \textbf{Pipeline decision} & \textbf{Interpretation} \\
 \midrule
@@ -653,6 +660,7 @@ SIRET fallback to name key
 \end{tabularx}
 \normalsize
 \end{table}
+\end{landscape}
 
 \paragraph{Worked link example.}
 For \texttt{15-31464}, the source notice is published on 2015-03-02 with a
@@ -677,7 +685,7 @@ Kaplan--Meier and Cox modeling.
 
 \subsection{Why Right-Censoring Is Not Missing Data}
 
-The final dataset contains 697 linked renewals and 403 unlinked eligible
+The final dataset contains 705 linked renewals and 395 unlinked eligible
 contracts. The unlinked rows remain in the survival dataset because they still
 carry valid information: they survived without an observed renewal until the
 last date we could observe them. In survival-analysis notation, those rows have
@@ -689,10 +697,10 @@ The interpretation is therefore:
 
 \begin{itemize}
   \item \texttt{event = 1}: the algorithm found a plausible later renewal
-        notice; \texttt{renewal\_duration\_months} is observed.
+        notice; \nolinkurl{renewal_duration_months} is observed.
   \item \texttt{event = 0}: no accepted renewal was observed before study end;
-        \texttt{censoring\_duration\_months} is observed.
-  \item \texttt{observed\_duration\_months}: always filled, using the renewal
+        \nolinkurl{censoring_duration_months} is observed.
+  \item \nolinkurl{observed_duration_months}: always filled, using the renewal
         gap for events and the time-to-study-end for censored rows.
 \end{itemize}
 
@@ -1073,7 +1081,7 @@ component weights are renormalized by their sum
 \end{equation}
 
 Missing CPV is therefore never assigned an arbitrary neutral $0.5$. A boolean
-\texttt{cpv\_used\_in\_score} column records, per pair, whether CPV contributed.
+\nolinkurl{cpv_used_in_score} column records, per pair, whether CPV contributed.
 
 \begin{table}[h]
 \centering
@@ -1159,9 +1167,9 @@ contract $i$.
   \frac{\sum_{i \in \mathcal{A}_{\text{elig}}} Y_i}
        {|\mathcal{A}_{\text{elig}}|}
   =
-  \frac{697}{1{,}100}
+  \frac{705}{1{,}100}
   =
-  63.4\%.
+  64.1\%.
 \end{equation}
 
 The value $Y_i = 0$ should be interpreted as an unobserved link under the
@@ -1199,7 +1207,7 @@ notebook linking output and contains one row per eligible
 
 \multicolumn{3}{l}{\textit{--- Buyer and classification ---}} \\[2pt]
 \texttt{source}            & string  & Constant value \texttt{BOAMP}; makes the handoff schema explicit. \\
-\texttt{buyer\_key}         & string  & Buyer identifier (\texttt{SIRET:...} or \texttt{NAME:...}). 308 unique buyers. In practice every row in the final eligible cohort carries a \texttt{NAME:}-based key: no SIRET was populated for any of the 1,100 eligible digital-sector AO contracts, so the \texttt{NAME:} fallback applied universally and name-based grouping governs the entire modeled cohort (and its full candidate pool). This is structural, not incidental: every SIRET-anchored AO is a 2024 eForms notice, and all 2024 contracts are censored upfront (their estimated renewal window falls after the 2024-12-31 study end), so SIRET coverage in the eligible cohort is necessarily zero. SIRET enrichment can therefore only help future (post-2024) data, not the historical survival window. \\
+\texttt{buyer\_key}         & string  & Active grouping key for the survival pipeline (\texttt{SIREN:...} or \texttt{NAME:...}). 305 unique buyers after SIREN enrichment. The pipeline uses \texttt{buyer\_key\_enriched}: buyers matched with HIGH confidence via the API Recherche d'Entreprises are upgraded from \texttt{NAME:} to a \texttt{SIREN:\{9-digit\}} prefix, merging name aliases for the same legal entity. Of the 1,100 eligible contracts, 660 carry a \texttt{SIREN:} key and 440 a \texttt{NAME:} key (zero \texttt{SIRET:}: 2024 eForms notices are all censored). The 23 SIREN-based merges added 8 renewal events versus the name-only baseline (705 vs.\ 697). \\
 \texttt{cpv\_div2}          & float   & 2-digit CPV division of the source contract. 95.3\% coverage. \\
 \texttt{category\_label}    & string  & Internal category (11 levels; see Table~\ref{tab:categories}). \\[6pt]
 
@@ -1209,22 +1217,22 @@ notebook linking output and contains one row per eligible
 \texttt{dur\_was\_imputed}  & bool    & True if duration was set to the default 48-month imputation (25.1\% of rows). \\
 \texttt{estimated\_end\_date} & date  & $\hat{e}_i = t_i + d_i$; defines the renewal search window. \\
 \texttt{observed\_duration\_months} & float & Survival time in months, always filled. For \texttt{event=1}: observed gap to the linked BOAMP renewal candidate $\Delta(i,j^*)$. For \texttt{event=0}: right-censoring duration from contract start to end of study period. \\
-\texttt{renewal\_duration\_months} & float & Observed renewal gap for linked contracts only. Filled on 63.4\% of rows (the \texttt{event=1} subset). \\
-\texttt{censoring\_duration\_months} & float & Observed time-to-study-end for censored contracts only. Filled on 36.6\% of rows (the \texttt{event=0} subset). \\[6pt]
+\texttt{renewal\_duration\_months} & float & Observed renewal gap for linked contracts only. Filled on 64.1\% of rows (the \texttt{event=1} subset). \\
+\nolinkurl{censoring_duration_months} & float & Observed time-to-study-end for censored contracts only. Filled on 36.6\% of rows (the \texttt{event=0} subset). \\[6pt]
 
 \multicolumn{3}{l}{\textit{--- Outcome variable ---}} \\[2pt]
-\texttt{event}              & int     & \textbf{Target variable}. 1 = plausible renewal link found (697), 0 = no renewal link observed under the algorithm (403). \\[6pt]
+\texttt{event}              & int     & \textbf{Target variable}. 1 = plausible renewal link found (705), 0 = no renewal link observed under the algorithm (395). \\[6pt]
 
 \multicolumn{3}{l}{\textit{--- Matching scores (linked rows only) ---}} \\[2pt]
-\texttt{composite\_score}   & float   & $S(i,j^*)$. Mean: 0.579, range: 0.245--0.998. \\
-\texttt{text\_similarity}   & float   & $s_{\text{text}}(i,j^*)$. Mean: 0.517, range: 0.204--1.000. \\
-\texttt{cpv\_match\_score}  & float   & $s_{\text{cpv}}(i,j^*)$. Mean: 0.301, range: 0.000--1.000 (over the 646 links with a CPV; NaN for the 51 missing-CPV links). \\
+\texttt{composite\_score}   & float   & $S(i,j^*)$. Mean: 0.587, range: 0.245--0.998. \\
+\texttt{text\_similarity}   & float   & $s_{\text{text}}(i,j^*)$. Mean: 0.513, range: 0.200--1.000. \\
+\texttt{cpv\_match\_score}  & float   & $s_{\text{cpv}}(i,j^*)$. Mean: 0.348, range: 0.000--1.000 (over the 654 links with a CPV; NaN for the 51 missing-CPV links). \\
 \texttt{cpv\_used\_in\_score} & bool  & True when CPV contributed to $S$ (646 links); False when CPV was missing and the weights were renormalized (51 links). \\
-\texttt{temporal\_score}    & float   & $s_{\text{temp}}(i,j^*)$. Mean: 0.706, range: 0.006--1.000. \\[6pt]
+\texttt{temporal\_score}    & float   & $s_{\text{temp}}(i,j^*)$. Mean: 0.701, range: 0.006--1.000. \\[6pt]
 
 \multicolumn{3}{l}{\textit{--- Metadata ---}} \\[2pt]
 \texttt{start\_date\_source} & string & How $t_i$ was obtained: \texttt{publication\_date} (59.3\%) or \texttt{attribution\_award\_date} (40.7\%). \\
-\texttt{link\_method}       & string  & Algorithm used: \texttt{sentence\_transformers} (697 rows) or \texttt{none} (403 rows). \\[6pt]
+\texttt{link\_method}       & string  & Algorithm used: \texttt{sentence\_transformers} (705 rows) or \texttt{none} (395 rows). \\[6pt]
 
 \multicolumn{3}{l}{\textit{--- Covariates (joined from \texttt{boamp\_full\_clean.csv}) ---}} \\[2pt]
 \texttt{amount\_clean}      & float   & Contract amount (EUR) after quality filtering; NaN when any amount flag is True. Fill rate: 20.3\% (BOAMP-only limitation). \\
@@ -1236,18 +1244,18 @@ notebook linking output and contains one row per eligible
 
 \multicolumn{3}{l}{\textit{--- Link confidence diagnostics (added in the Phase-2 handoff) ---}} \\[2pt]
 \texttt{best\_composite\_score}   & float & $S(i,j^{(1)})$: composite score of the best candidate (the selected link for \texttt{event}=1). \\
-\texttt{second\_best\_composite\_score} & float & $S(i,j^{(2)})$: composite score of the runner-up. NaN for single-candidate sources. \\
+\nolinkurl{second_best_composite_score} & float & $S(i,j^{(2)})$: composite score of the runner-up. NaN for single-candidate sources. \\
 \texttt{score\_margin}        & float & $\Delta = S(i,j^{(1)}) - S(i,j^{(2)})$. Best-minus-second-best gap; NaN when only one candidate. \\
-\texttt{n\_candidates\_for\_source} & int & Number of filtered candidates for the source (135 sources have exactly one; 562 have $\geq 2$). \\
-\texttt{single\_candidate\_match} & bool & True when the source had a single candidate (135 rows); margin undefined, not auto-promoted to strict. \\
-\texttt{high\_confidence\_strict} & bool & True iff \texttt{event}=1 $\wedge\ S \geq 0.70 \wedge \Delta \geq 0.05$ (90 rows). Conservative sensitivity flag for Model C (Section~\ref{sec:margin}). \\
+\texttt{n\_candidates\_for\_source} & int & Number of filtered candidates for the source (133 sources have exactly one; 572 have $\geq 2$). \\
+\texttt{single\_candidate\_match} & bool & True when the source had a single candidate (133 rows); margin undefined, not auto-promoted to strict. \\
+\texttt{high\_confidence\_strict} & bool & True iff \texttt{event}=1 $\wedge\ S \geq 0.70 \wedge \Delta \geq 0.05$ (100 rows). Conservative sensitivity flag for Model C (Section~\ref{sec:margin}). \\
 \end{longtable}
 \normalsize
 
 \subsection{Score Distributions for Linked Contracts}
 
 Table~\ref{tab:score_dist} reports the distribution of matching scores among
-the 697 linked contracts. These statistics are useful diagnostics, but they
+the 705 linked contracts. These statistics are useful diagnostics, but they
 should not be interpreted as independent validation: the same scores are used
 by the algorithm to select the links. The low minimum values, especially for
 the composite, CPV, and temporal scores, indicate that some accepted links are
@@ -1255,7 +1263,7 @@ low-confidence cases that should be checked in the Phase 2 validation sample.
 
 \begin{table}[H]
 \centering
-\caption{Descriptive statistics of matching scores (event=1 rows only, n=697; \texttt{cpv\_match\_score} over the 646 links with a non-missing CPV)}
+\caption{Descriptive statistics of matching scores (event=1 rows only, n=705; \texttt{cpv\_match\_score} over the 646 links with a non-missing CPV)}
 \label{tab:score_dist}
 \begin{tabular}{lrrrrrrr}
 \toprule
@@ -1272,10 +1280,10 @@ Score & Mean & Std & Min & Q25 & Median & Q75 & Max \\
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.96\textwidth]{figures/fig_score_distributions}
-\caption{Score distributions for the 697 linked contracts (\texttt{event = 1}).
+\caption{Score distributions for the 705 linked contracts (\texttt{event = 1}).
 \textbf{Left:} composite score $S(i,j^*)$ with confidence-tier shading: LOW
-(composite $< 0.50$, red, $n = 203$), MEDIUM ($0.50$--$0.70$, orange, $n = 372$),
-HIGH ($\geq 0.70$, green, $n = 122$). The dashed line marks the mean (0.579).
+(composite $< 0.50$, red, $n = 208$), MEDIUM ($0.50$--$0.70$, orange, $n = 349$),
+HIGH ($\geq 0.70$, green, $n = 148$). The dashed line marks the mean (0.587).
 \textbf{Right:} text similarity $s_{\text{text}}(i,j^*)$ with the hard-filter
 threshold at 0.20 (dotted red). The shaded band (0.20--0.30) flags 81 pairs
 (11.6\%) whose semantic similarity is low, representing the highest false-positive
@@ -1300,7 +1308,7 @@ define the candidate window and the temporal score.
  & Mean & Std & Min & Q25 & Median & Q75 & Max \\
 \midrule
 \texttt{declared\_duration\_months} (all 1,100) & 31.5 & 17.7 & 1 & 12 & 36 & 48 & 72 \\
-\texttt{observed\_duration\_months} (697 linked) & 32.3 & 17.0 & 6 & 13 & 37 & 48 & 71 \\
+\texttt{observed\_duration\_months} (705 linked) & 32.3 & 17.0 & 6 & 13 & 37 & 48 & 71 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1316,14 +1324,14 @@ review of a stratified sample of linked pairs.
 \centering
 \includegraphics[width=0.82\textwidth]{figures/fig_temporal_error}
 \caption{Distribution of the temporal error $\Delta(i,j^*) - d_i$ (observed gap
-minus declared duration) for the 697 linked contracts. Blue bars correspond to
-the 527 contracts with a valid non-imputed duration; orange bars to the 170
+minus declared duration) for the 705 linked contracts. Blue bars correspond to
+the 534 contracts with a valid non-imputed duration; orange bars to the 171
 contracts whose duration was imputed to 48 months. The overall mean error is
-$-0.04$ months (effectively zero bias) with a standard deviation of 4.87 months.
+$-0.04$ months (effectively zero bias) with a standard deviation of 4.70 months.
 All pairs fall within $\pm 12$ months by construction of the hard filter, but
 the near-zero mean is consistent with the absence of a systematic temporal shift in the matches, though it cannot rule out residual bias from unobserved confounders.
-Imputed-duration contracts show slightly larger spread (mean $|$error$| = 4.1$
-vs.\ $3.7$ months for non-imputed).}
+Imputed-duration contracts show slightly larger spread (mean $|$error$| = 3.7$
+vs.\ $3.5$ months for non-imputed).}
 \label{fig:temporal_error}
 \end{figure}
 
@@ -1337,11 +1345,11 @@ vs.\ $3.7$ months for non-imputed).}
 \caption{Linking rate by method}
 \begin{tabular}{@{}P{8.7cm}R{1.6cm}R{2.2cm}R{1.5cm}@{}}
 \toprule
-Method & Linked & Denominator & Rate \\
+Method & Linked & Denom. & Rate \\
 \midrule
 Baseline (Jaccard + buyer $\times$ CPV groupby) & 219 & 1,933 & 11.3\% \\
 TF-IDF cosine (intermediate)                    & 279 & 1,100 & 25.4\% \\
-\textbf{Sentence-Transformers (final)}          & \textbf{697} & \textbf{1,100} & \textbf{63.4\%} \\
+\textbf{Sentence-Transformers (final)}          & \textbf{705} & \textbf{1,100} & \textbf{64.1\%} \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1361,21 +1369,21 @@ The two key changes responsible for the improvement are:
 
 \subsection{Failure Analysis}
 
-Of the 403 unlinked eligible AO, three failure modes are identified:
+Of the 395 unlinked eligible AO, three failure modes are identified:
 
 \begin{table}[h]
 \centering
-\caption{Failure mode breakdown (403 unlinked eligible AO)}
+\caption{Failure mode breakdown (395 unlinked eligible AO)}
 \small
 \begin{tabular}{@{}P{4.4cm}R{1.2cm}R{1.4cm}P{7.5cm}@{}}
 \toprule
 Failure reason & Count & Share & Description \\
 \midrule
-\texttt{NO\_TEMPORAL\_PARTNER} & 339 & 84.1\% & No other AO from the same buyer fell in the $\pm$12-month window. Likely structural (buyer issued only one contract in the period). \\[4pt]
-\texttt{TEXT\_MISMATCH}        &  32 &  7.9\% & Temporal candidates existed but all had $s_{\text{text}} < 0.20$. Text was too dissimilar even at the semantic level. \\[4pt]
-\texttt{CPV\_MISMATCH}         &  32 &  7.9\% & Temporal candidates existed, but all candidates from the same buyer had a \emph{valid but incompatible} CPV division ($s_{\text{cpv}} = 0$); sources with a missing CPV are excluded from this label. A diagnostic warning, not a CPV hard gate in the final scoring rule. \\
+\texttt{NO\_TEMPORAL\_PARTNER} & 331 & 83.8\% & No other AO from the same buyer fell in the $\pm$12-month window. Likely structural (buyer issued only one contract in the period). \\[4pt]
+\texttt{TEXT\_MISMATCH}        &  32 &  8.1\% & Temporal candidates existed but all had $s_{\text{text}} < 0.20$. Text was too dissimilar even at the semantic level. \\[4pt]
+\texttt{CPV\_MISMATCH}         &  32 &  8.1\% & Temporal candidates existed, but all candidates from the same buyer had a \emph{valid but incompatible} CPV division ($s_{\text{cpv}} = 0$); sources with a missing CPV are excluded from this label. A diagnostic warning, not a CPV hard gate in the final scoring rule. \\
 \midrule
-\textbf{Total unlinked}        & \textbf{403} & 100\% & \\
+\textbf{Total unlinked}        & \textbf{395} & 100\% & \\
 \bottomrule
 \end{tabular}
 \normalsize
@@ -1419,13 +1427,13 @@ is raised from the current value of 0.20 to 0.50.
 \includegraphics[width=0.82\textwidth]{figures/fig_threshold_sensitivity}
 \caption{Number of linked events (blue bars, left axis) and eligible linking
 rate (orange line, right axis) as a function of the minimum text-similarity
-threshold. At the current threshold of 0.20 (dotted red line), 697 events
-are retained (63.4\%). Raising the threshold to 0.30 reduces the count to
+threshold. At the current threshold of 0.20 (dotted red line), 705 events
+are retained (64.1\%). Raising the threshold to 0.30 reduces the count to
 616 (56.0\%) and eliminates the 81 pairs with the weakest semantic similarity;
 raising it to 0.50 yields 315 events (28.6\%). Note that this 0.50 threshold is
 on \emph{text similarity} $s_{\text{text}}$ and is distinct from the Model~B
 sensitivity definition in Section~\ref{sec:phase2}, which thresholds the
-\emph{composite} score $S(i,j^*) \geq 0.50$ (494 events). This analysis informs the
+\emph{composite} score $S(i,j^*) \geq 0.50$ (497 events). This analysis informs the
 sensitivity check in Phase~2: the survival model should be run at both 0.20
 and 0.30 to assess whether conclusions are stable.}
 \label{fig:threshold_sensitivity}
@@ -1435,7 +1443,7 @@ and 0.30 to assess whether conclusions are stable.}
 \section{Worked Example}
 
 Table~\ref{tab:example} illustrates the score computation for the first pair in
-\texttt{boamp\_renewal\_candidates.csv}.
+\nolinkurl{boamp_renewal_candidates.csv}.
 
 \begin{table}[h]
 \centering
@@ -1726,7 +1734,7 @@ similarity, and CPV compatibility.
   \item \textbf{No explicit ground truth.} BOAMP does not provide a renewal
         field. The \texttt{annonce\_lie} signal on ATTRIBUTION notices
         calibrates text similarity thresholds but is not a direct renewal label.
-        The true precision of the 697 links is unknown without manual validation.
+        The true precision of the 705 links is unknown without manual validation.
 
   \item \textbf{Name-based buyer fragmentation.} 87.2\% of buyer keys are
         name-based. Variant spellings of the same public entity (abbreviations,
@@ -1760,8 +1768,8 @@ similarity, and CPV compatibility.
 \label{sec:reliability}
 
 This section consolidates the quantitative reliability checks performed on
-\texttt{boamp\_renewal\_links.csv} before it is used as input to the survival
-model. The goal is to characterise the confidence gradient across the 697
+\nolinkurl{boamp_renewal_links.csv} before it is used as input to the survival
+model. The goal is to characterise the confidence gradient across the 705
 linked pairs and provide a principled basis for the threshold sensitivity
 analysis recommended in Phase~2.
 
@@ -1772,16 +1780,16 @@ composite score $S(i,j^*)$:
 
 \begin{table}[H]
 \centering
-\caption{Confidence tiers for linked contracts (event = 1, $n = 697$)}
+\caption{Confidence tiers for linked contracts (event = 1, $n = 705$)}
 \begin{tabular}{lccc}
 \toprule
 Tier & Criterion & Count & Share \\
 \midrule
-HIGH   & $S(i,j^*) \geq 0.70$ & 122 & 17.5\% \\
-MEDIUM & $0.50 \leq S(i,j^*) < 0.70$ & 372 & 53.4\% \\
-LOW    & $S(i,j^*) < 0.50$ & 203 & 29.1\% \\
+HIGH   & $S(i,j^*) \geq 0.70$ & 148 & 21.0\% \\
+MEDIUM & $0.50 \leq S(i,j^*) < 0.70$ & 349 & 49.5\% \\
+LOW    & $S(i,j^*) < 0.50$ & 208 & 29.5\% \\
 \midrule
-\multicolumn{2}{l}{Censored (event = 0)} & 403 & --- \\
+\multicolumn{2}{l}{Censored (event = 0)} & 395 & --- \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1790,10 +1798,10 @@ LOW    & $S(i,j^*) < 0.50$ & 203 & 29.1\% \\
 \centering
 \includegraphics[width=0.90\textwidth]{figures/fig_confidence_tiers}
 \caption{Confidence tier breakdown across all 1,100 eligible contracts. Green
-= HIGH ($S \geq 0.70$, $n = 122$); orange = MEDIUM ($0.50 \leq S < 0.70$,
-$n = 372$); red = LOW ($S < 0.50$, $n = 203$); light blue = censored
-(event = 0, $n = 403$). The HIGH and MEDIUM tiers together cover 494 of the
-697 linked contracts (70.9\%), providing a reliable core dataset for survival
+= HIGH ($S \geq 0.70$, $n = 148$); orange = MEDIUM ($0.50 \leq S < 0.70$,
+$n = 349$); red = LOW ($S < 0.50$, $n = 208$); light blue = censored
+(event = 0, $n = 395$). The HIGH and MEDIUM tiers together cover 497 of the
+705 linked contracts (70.5\%), providing a reliable core dataset for survival
 modeling. LOW-tier links represent the greatest false-positive risk and should
 be downgraded to censored in the sensitivity check.}
 \label{fig:confidence_tiers}
@@ -1809,15 +1817,15 @@ Figure~\ref{fig:confidence_tiers_4} summarises this breakdown.
 \centering
 \includegraphics[width=0.88\textwidth]{figures/robustness/confidence_tier_breakdown}
 \caption{Four-tier confidence classification from the robustness analysis.
-HIGH: $S \geq 0.80$ and margin $\geq 0.05$ ($n = 53$, 7.6\% of 697 events);
+HIGH: $S \geq 0.80$ and margin $\geq 0.05$ ($n = 60$, 8.5\% of 705 events);
 MEDIUM: $0.70 \leq S < 0.80$ or ($S \geq 0.70$ and margin $< 0.05$)
-($n = 170$, 24.4\%); LOW: $S < 0.70$ ($n = 339$, 48.6\%); SINGLE:
-single-candidate links with undefined margin ($n = 135$, 19.4\%).
+($n = 72$, 10.2\%); LOW: $S < 0.70$ ($n = 440$, 62.4\%); SINGLE:
+single-candidate links with undefined margin ($n = 133$, 18.9\%).
 The \texttt{high\_confidence\_strict} flag used in Model~C
-(Section~\ref{sec:reliability}) selects 90 events satisfying $S \geq 0.70$
+(Section~\ref{sec:reliability}) selects 100 events satisfying $S \geq 0.70$
 and margin $\geq 0.05$ on multi-candidate links. This covers the entire HIGH
-tier ($n = 53$, $S \geq 0.80$) plus the subset of MEDIUM-tier links whose
-score clears 0.70 and whose margin also exceeds 0.05 ($n = 37$).
+tier ($n = 60$, $S \geq 0.80$) plus the subset of MEDIUM-tier links whose
+score clears 0.70 and whose margin also exceeds 0.05 ($n = 40$).
 Single-candidate links are recorded separately and are not included in
 Model~C.}
 \label{fig:confidence_tiers_4}
@@ -1826,9 +1834,9 @@ Model~C.}
 For the survival model in Phase~2, the recommended protocol is:
 
 \begin{enumerate}
-  \item \textbf{Model A --- Primary}: all 697 events (composite $\geq 0.20$, text $\geq 0.20$).
-  \item \textbf{Model B --- Sensitivity check}: 494 events only (drop LOW tier, i.e.\ composite $\geq 0.50$).
-  \item \textbf{Model C --- Strict high-confidence}: 90 events only, keeping
+  \item \textbf{Model A --- Primary}: all 705 events (composite $\geq 0.20$, text $\geq 0.20$).
+  \item \textbf{Model B --- Sensitivity check}: 497 events only (drop LOW tier, i.e.\ composite $\geq 0.50$).
+  \item \textbf{Model C --- Strict high-confidence}: 100 events only, keeping
         \texttt{event} = 1 only where the absolute score is high \emph{and} the
         margin over the second-best candidate is clear
         (\texttt{high\_confidence\_strict}, Section~\ref{sec:margin}); all other
@@ -1851,17 +1859,17 @@ alternative renewal link was nearly as plausible as the selected one.
 \centering
 \includegraphics[width=0.82\textwidth]{figures/fig_score_margin}
 \caption{Distribution of the score margin (best composite $-$ second-best
-composite) for the 562 multi-candidate source contracts. The dotted red line
-marks the 0.05 threshold below which 48.6\% of pairs are considered
+composite) for the 572 multi-candidate source contracts. The dotted red line
+marks the 0.05 threshold below which 46.3\% of pairs are considered
 \textit{ambiguous}: the algorithm selected one candidate, but an alternative
 was within 0.05 of the same score. The dashed green line at 0.10 marks the
-\textit{clear winner} zone (28.1\% of pairs). These ambiguous pairs are
+\textit{clear winner} zone (29.5\% of pairs). These ambiguous pairs are
 concentrated in the LOW and MEDIUM confidence tiers and are the primary
 motivation for the manual validation sample recommended in Section~11.}
 \label{fig:score_margin}
 \end{figure}
 
-The 48.6\% ambiguous-margin rate does not mean the algorithm chose wrongly in
+The 46.3\% ambiguous-margin rate does not mean the algorithm chose wrongly in
 those cases --- it means the available signals were not strong enough to
 distinguish the best candidate from the runner-up with high certainty. This is
 a structural property of the data (multiple contracts from the same buyer in
@@ -1878,7 +1886,7 @@ high-confidence} when it satisfies \emph{both} conditions
   \Delta \geq 0.05, \qquad \Delta = S(i,j^{(1)}) - S(i,j^{(2)}),
 \]
 i.e.\ a high absolute score \emph{and} a clear separation from the runner-up.
-Of the 697 links, \textbf{90} qualify. Single-candidate sources ($n = 135$)
+Of the 705 links, \textbf{100} qualify. Single-candidate sources ($n = 133$)
 have an undefined margin and are recorded as \texttt{single\_candidate\_match}
 rather than auto-promoted to strict, so a ``clear winner among several
 candidates'' is never conflated with an ``only candidate available''. This flag
@@ -1893,7 +1901,7 @@ An indirect calibration is possible using the \texttt{annonce\_lie} field on
 ATTRIBUTION notices. These notices back-reference the original call-for-tender,
 providing external evidence of real procurement activity on those AO records.
 Among the 466 eligible AO notices that are referenced by at least one
-ATTRIBUTION notice, 318 were linked (68.2\%), compared to 63.4\% overall.
+ATTRIBUTION notice, 318 were linked (68.2\%), compared to 64.1\% overall.
 The algorithm performs \textit{better} on contracts with external evidence of
 activity, which is the expected direction.
 
@@ -1916,11 +1924,11 @@ Temporal error mean (observed $-$ declared) & $-0.04$ months & No systematic tem
 Temporal error std & 4.87 months & Tight; consistent with $\pm$12 mo window \\[4pt]
 Duration imputed vs.\ non-imputed $|$error$|$ & 4.1 vs.\ 3.7 mo & Negligible difference \\[4pt]
 Year-by-year rate stability (2015--2022) & 50--75\% & Stable; 2023 drop is structural \\[4pt]
-\texttt{annonce\_lie} calibration & 68.2\% vs.\ 63.4\% & Positive signal \\[4pt]
+\texttt{annonce\_lie} calibration & 68.2\% vs.\ 64.1\% & Positive signal \\[4pt]
 Low text-similarity links ($s_{\text{text}} < 0.30$) & 81 pairs (11.6\%) & Highest false-positive risk \\[4pt]
-Ambiguous score margin ($<0.05$) & 48.6\% of multi-cand. & Structural; not tunable \\[4pt]
-Strict high-confidence links & 90 / 697 (12.9\%) & $S \geq 0.70$ \& $\Delta \geq 0.05$; Model~C core \\[4pt]
-HIGH + MEDIUM tier share & 494 / 697 (70.9\%) & Reliable core for modeling \\
+Ambiguous score margin ($<0.05$) & 46.3\% of multi-cand. & Structural; not tunable \\[4pt]
+Strict high-confidence links & 100 / 705 (14.2\%) & $S \geq 0.70$ \& $\Delta \geq 0.05$; Model~C core \\[4pt]
+HIGH + MEDIUM tier share & 497 / 705 (70.5\%) & Reliable core for modeling \\
 \bottomrule
 \end{tabularx}
 \normalsize
@@ -1980,8 +1988,8 @@ time-to-study-end for censored ones). The event indicator is \texttt{event}
 Metric & Value \\
 \midrule
 Total contracts (rows)          & 1,100 \\
-Events (\texttt{event = 1})     & 697 (63.4\%) \\
-Censored (\texttt{event = 0})   & 403 (36.6\%) \\
+Events (\texttt{event = 1})     & 705 (64.1\%) \\
+Censored (\texttt{event = 0})   & 395 (35.9\%) \\
 Median observed duration (all)  & 46.8 months \\
 Median renewal gap (events)     & 37.0 months \\
 Study period                    & 2015-03-02 to 2024-12-29 \\
@@ -2130,7 +2138,7 @@ $k$ should be approximately parallel.
 \subsubsection*{Global Kaplan--Meier Curve}
 
 Figure~\ref{fig:km_global} shows the overall survival function estimated from
-all 1,100 contracts. The global KM median survival is \textbf{48.1 months},
+all 1,100 contracts. The global KM median survival is \textbf{48.2 months},
 consistent with the dominant 48-month administrative duration cluster in the
 declared duration distribution. The 95\% confidence interval widens beyond
 60 months as fewer contracts remain at risk.
@@ -2141,7 +2149,7 @@ declared duration distribution. The 95\% confidence interval widens beyond
 \caption{Global Kaplan--Meier survival curve for all 1,100 eligible contracts.
 The solid blue line is the KM estimate; the shaded band is the 95\% pointwise
 confidence interval. Censored observations are marked by tick marks.
-Median survival = 48.0 months (vertical dashed line).}
+Median survival = 48.2 months (vertical dashed line).}
 \label{fig:km_global}
 \end{figure}
 
@@ -2237,7 +2245,7 @@ signal (concordance 0.660), followed by imputation status (0.571).
 \small
 \begin{tabular}{@{}P{5.0cm}R{1.3cm}R{2.8cm}R{1.8cm}R{2.0cm}@{}}
 \toprule
-Covariate & HR & 95\% CI & $p$-value & Concordance \\
+Covariate & HR & 95\% CI & $p$-value & C-index \\
 \midrule
 \texttt{declared\_duration\_months}        & 0.985 & [0.981,\ 0.989] & $<0.001$ & 0.660 \\
 \texttt{dur\_was\_imputed}                 & 0.653 & [0.549,\ 0.777] & $<0.001$ & 0.571 \\
@@ -2265,12 +2273,12 @@ all covariates. Two predictors are statistically significant at the 1\% level:
 \texttt{declared\_duration\_months} and \texttt{start\_year}. The model is fitted
 on the 1,097 contracts (696 events) with complete category and procedure
 covariates; three rows are dropped for missing covariate values. The model
-concordance (C-index) is \textbf{0.6524}, indicating moderate in-sample ranking
+concordance (C-index) is \textbf{0.6541}, indicating moderate in-sample ranking
 ability beyond a random ranking.
 
 \begin{table}[H]
 \centering
-\caption{Multivariate Cox proportional hazards model (C-index = 0.6524)}
+\caption{Multivariate Cox proportional hazards model (C-index = 0.6541)}
 \label{tab:cox_multi}
 \small
 \begin{tabular}{@{}P{5.8cm}R{1.2cm}R{3.0cm}R{2.0cm}@{}}
@@ -2406,26 +2414,26 @@ vs.\ Model C (strict high-confidence)}
 Metric & Model A & Model B & Model C \\
 \midrule
 Event criterion & text $\geq 0.20$ (all accepted) & composite $\geq 0.50$ & $S \geq 0.70$ \& $\Delta \geq 0.05$ \\
-Events & 697 & 494 & 90 \\
-Censored & 403 & 606 & 1\,010 \\
-Event rate & 63.4\% & 44.9\% & 8.2\% \\
-KM median survival & 48.1 mo & 52.7 mo & not reached \\
-Cox C-index & 0.6524 & 0.6436 & 0.6295 \\
+Events & 705 & 497 & 100 \\
+Censored & 395 & 603 & 1\,000 \\
+Event rate & 64.1\% & 45.2\% & 9.1\% \\
+KM median survival & 48.2 mo & not reached & --- \\
+Cox C-index & 0.6541 & 0.6061 & 0.6333 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 \noindent\textbf{Interpretation.} Restricting to high- and medium-confidence
 links (Model B) shifts the survival curve upward, with the KM median rising from
-48.1 to 52.7 months, consistent with the excluded LOW-tier links being
+48.2 months (Model A); Model B median is not reached (event rate 45.2\%, below 50\%),
 concentrated at shorter observed gaps (lower text similarity often corresponds to
 borderline temporal matches). Model~C is far more aggressive --- by censoring
-all but the 90 strict links, the event rate collapses to 8.2\% and the KM
-median is no longer reached, so the apparent \emph{level} of renewal risk drops
+all but the 100 strict links, the event rate is 9.1\% and the KM
+median is not reached, so the apparent \emph{level} of renewal risk drops
 sharply, exactly as expected when most proxy events are removed. The absolute
 event rate and KM survival level are therefore sensitive to the event definition.
 The decisive observation is that the Cox concordance remains stable across all
-three definitions (0.652, 0.644, 0.630): the smaller event counts reduce power
+three definitions (0.654, 0.606, 0.633): the smaller event counts reduce power
 but the \emph{ranking} of renewal risk by covariate is robust. The qualitative
 conclusions --- declared duration and start year as the dominant predictors, no
 significant category or procedure effect --- are stable across all three models.
@@ -2437,12 +2445,12 @@ Figure~\ref{fig:sensitivity} overlays the KM curves from the three models.
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.88\textwidth]{figures/survival/sensitivity_km_comparison}
-\caption{Kaplan--Meier comparison: Model A (all 697 linked contracts, median
-48.1 mo) vs.\ Model B (494 high/medium-confidence contracts, median 52.7 mo)
-vs.\ Model C (90 strict high-confidence links, median not reached). Models~A
+\caption{Kaplan--Meier comparison: Model A (all 705 linked contracts, median
+48.2 mo) vs.\ Model B (497 high/medium-confidence contracts, median not reached)
+vs.\ Model C (100 strict high-confidence links, median not reached). Models~A
 and~B share broadly consistent curve shapes; Model~C sits far higher (most
 contracts censored), so its survival curve never reaches 0.5. The stable Cox
-concordance across all three (0.652, 0.644, 0.630) confirms that lower-confidence
+concordance across all three (0.654, 0.606, 0.633) confirms that lower-confidence
 links add noise but do not appear to introduce a dominant systematic bias in the
 ranking of renewal risk.}
 \label{fig:sensitivity}
@@ -2475,18 +2483,18 @@ strict event definitions. KM median in months; ``$\infty$'' = median never
 reached within study window. HR values are from the multivariate Cox model.}
 \label{tab:threshold_full}
 \scriptsize
-\begin{tabular}{@{}p{4.2cm}rrrrrrr@{}}
+\begin{tabular}{@{}p{4.0cm}rrrrrr@{}}
 \toprule
 \textbf{Scenario} & \textbf{events} & \textbf{rate\%} & \textbf{KM med.} &
 \textbf{Cox C} & \textbf{HR dur.} & \textbf{HR yr} \\
 \midrule
-Baseline (all accepted links)$^\dagger$   & 697 & 63.4 & 48.1 & 0.6524 & 0.992 & 1.094 \\
-Score $\geq 0.50$                          & 494 & 44.9 & 52.7 & 0.6436 & 0.992 & 1.074 \\
-Score $\geq 0.60$                          & 251 & 22.8 & $\infty$ & 0.6221 & 0.995 & 1.068 \\
-Score $\geq 0.70$                          & 122 & 11.1 & $\infty$ & 0.6317 & 0.995 & 1.035 \\
-Score $\geq 0.80$                          &  66 &  6.0 & $\infty$ & 0.5935 & 0.999 & 1.015 \\
-Score $\geq 0.90$                          &  22 &  2.0 & $\infty$ & 0.5558 & 1.001 & 1.013 \\
-Strict H.C.\ ($S\!\geq\!0.70$, $\Delta\!\geq\!0.05$) & 104 & 9.5 & $\infty$ & 0.6375 & 0.995 & 1.046 \\
+Baseline (all accepted links)$^\dagger$   & 705 & 64.1 & 48.2 & 0.6541 & 0.990 & 1.097 \\
+Score $\geq 0.50$                          & 497 & 45.2 & 52.8 & 0.645  & 0.992 & 1.074 \\
+Score $\geq 0.60$                          & 275 & 25.0 & $\infty$ & 0.623  & 0.995 & 1.072 \\
+Score $\geq 0.70$                          & 148 & 13.5 & $\infty$ & 0.620  & 0.997 & 1.053 \\
+Score $\geq 0.80$                          &  79 &  7.2 & $\infty$ & 0.535  & 1.001 & 1.023 \\
+Score $\geq 0.90$                          &  25 &  2.3 & $\infty$ & 0.550  & 1.001 & 1.016 \\
+Strict H.C.\ ($S\!\geq\!0.70$, $\Delta\!\geq\!0.05$) & 116 & 10.5 & $\infty$ & 0.647  & 0.995 & 1.052 \\
 \bottomrule
 \end{tabular}
 \smallskip\\
@@ -2496,16 +2504,16 @@ The observed minimum composite score for accepted links is approximately 0.37,
 arising from the weighting formula applied to passing pairs.}
 \end{table}
 
-\textbf{Key observations.} (i) The Cox C-index stays above 0.59 across all
-thresholds, including the extreme $\geq 0.90$ case (22 events). (ii) The
+\textbf{Key observations.} (i) The Cox C-index stays above 0.53 across all
+thresholds, including the extreme $\geq 0.90$ case (25 events). (ii) The
 direction of both significant hazard ratios (HR~$<$~1 for declared duration,
 HR~$>$~1 for start year) is preserved at every threshold, confirming directional
 stability. (iii) The KM median becomes non-identifiable once the event rate
-falls below $\approx$23\%, because the study window is too short to observe the
-median survival under such sparse events. (iv) The strict H.C.\ variant (104
+falls below $\approx$25\%, because the study window is too short to observe the
+median survival under such sparse events. (iv) The strict H.C.\ variant (116
 events including single-candidate links with $S \geq 0.70$) gives
-C~= 0.638 --- higher than the strict\_hc\_only variant (90 events,
-C~= 0.630) that excludes single-candidate links.
+C~= 0.647 --- higher than the strict\_hc\_only variant (100 events,
+C~= 0.633) that excludes single-candidate links.
 
 \begin{figure}[H]
 \centering
@@ -2522,7 +2530,7 @@ C~= 0.630) that excludes single-candidate links.
   \includegraphics[width=\linewidth]{figures/robustness/event_rate_by_threshold}
   \caption{Event rate and Cox C-index as a function of score threshold. The
   C-index plateau from the baseline through score $\geq 0.70$ (range
-  0.622--0.652) confirms that adding lower-confidence links does not degrade
+  0.620--0.654) confirms that adding lower-confidence links does not degrade
   ranking ability.}
 \end{subfigure}
 \caption{Full threshold sensitivity: survival model robustness across 7 event
@@ -2542,26 +2550,26 @@ a definitively unlinked censoring.
 \centering
 \caption{Uncertain-link exclusion: three analysis variants. \texttt{exclude\_uncertain}
 removes all contracts with score $< 0.50$ or margin $< 0.05$ (reducing
-$N$ from 1{,}100 to 763). \texttt{strict\_hc\_only} keeps all 1{,}100
-contracts but censors all but the 90 strict high-confidence events.}
+$N$ from 1{,}100 to 767). \texttt{strict\_hc\_only} keeps all 1{,}100
+contracts but censors all but the 100 strict high-confidence events.}
 \label{tab:exclusion}
 \small
-\begin{tabular}{@{}lrrrrrr@{}}
+\begin{tabular}{@{}lrrrrr@{}}
 \toprule
 \textbf{Variant} & \textbf{$N$} & \textbf{events} & \textbf{rate\%} &
 \textbf{KM med.} & \textbf{Cox C} \\
 \midrule
-Baseline               & 1{,}100 & 697 & 63.4 & 48.1 mo & 0.6524 \\
-Exclude uncertain      &   763   & 360 & 47.2 & 59.0 mo & 0.6014 \\
-Strict H.C.\ only      & 1{,}100 &  90 &  8.2 & $\infty$ & 0.6295 \\
+Baseline               & 1{,}100 & 705 & 64.1 & 48.2 mo & 0.6541 \\
+Exclude uncertain      &   767   & 372 & 48.5 & 54.8 mo & 0.6012 \\
+Strict H.C.\ only      & 1{,}100 & 100 &  9.1 & $\infty$ & 0.6333 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-Excluding uncertain links shifts the KM median upward to 59.0 months and the
+Excluding uncertain links shifts the KM median upward to 54.8 months and the
 C-index to 0.601, still above the 0.5 random-chance floor. The qualitative
 conclusion --- declared duration and start year as dominant predictors ---
-persists. The drop in C-index relative to the baseline (0.652 $\to$ 0.601)
+persists. The drop in C-index relative to the baseline (0.654 $\to$ 0.601)
 reflects both the reduced sample size and the removal of the higher-variance
 LOW-tier links that, despite their uncertainty, still carry discriminative
 signal for ranking.
@@ -2570,17 +2578,17 @@ signal for ranking.
 \subsubsection*{3. Score Component Diagnostics}
 
 Table~\ref{tab:score_diag} shows the distribution of each scoring component
-across the 697 accepted links. The temporal score is the highest-mean component;
+across the 705 accepted links. The temporal score is the highest-mean component;
 the CPV match score is the lowest, reflecting frequent reclassification across
-procurement cycles. The score margin median (0.052) is just above the 0.05
+procurement cycles. The score margin median (0.054) is just above the 0.05
 ambiguity threshold, meaning roughly half of multi-candidate links are near the
 boundary.
 
 \begin{table}[H]
 \centering
-\caption{Score component distributions for the 697 event-1 links. CPV
+\caption{Score component distributions for the 705 event-1 links. CPV
 count (646) is lower because 51 links have a missing CPV on at least one side.
-Score margin is defined only for 562 multi-candidate links.}
+Score margin is defined only for 572 multi-candidate links.}
 \label{tab:score_diag}
 \small
 \begin{tabular}{@{}lrrrrrr@{}}
@@ -2588,11 +2596,11 @@ Score margin is defined only for 562 multi-candidate links.}
 \textbf{Component} & \textbf{$n$} & \textbf{Mean} & \textbf{Std} &
 \textbf{Q1} & \textbf{Median} & \textbf{Q3} \\
 \midrule
-Composite score  & 697 & 0.579 & 0.141 & 0.489 & 0.555 & 0.653 \\
-Text similarity  & 697 & 0.517 & 0.200 & 0.368 & 0.475 & 0.619 \\
+Composite score  & 705 & 0.587 & 0.148 & 0.489 & 0.558 & 0.677 \\
+Text similarity  & 705 & 0.513 & 0.199 & 0.360 & 0.474 & 0.618 \\
 CPV match score  & 646 & 0.301 & 0.366 & 0.000 & 0.200 & 0.400 \\
-Temporal score   & 697 & 0.706 & 0.253 & 0.587 & 0.775 & 0.914 \\
-Score margin ($\Delta$) & 562 & 0.088 & 0.105 & 0.019 & 0.052 & 0.108 \\
+Temporal score   & 705 & 0.701 & 0.253 & 0.573 & 0.768 & 0.913 \\
+Score margin ($\Delta$) & 572 & 0.091 & 0.104 & 0.021 & 0.054 & 0.117 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2606,7 +2614,7 @@ independently of contract duration.
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.78\textwidth]{figures/robustness/score_vs_duration}
-\caption{Composite score vs.\ declared contract duration (months) for the 697
+\caption{Composite score vs.\ declared contract duration (months) for the 705
 accepted links. No strong duration-linked selection bias is apparent; short
 contracts (12 months) and long contracts (48+ months) achieve similar score
 distributions.}
@@ -2633,9 +2641,9 @@ $\%\,{\geq}\,0.70$ = fraction reaching the HIGH confidence threshold.}
 \textbf{Group} & \textbf{$n$} & \textbf{Mean} & \textbf{Median} &
 \textbf{\% $\geq 0.70$} \\
 \midrule
-Real winning links (event $=1$)    & 697   & 0.579 & 0.555 & 17.5 \\
+Real winning links (event $=1$)    & 705   & 0.587 & 0.558 & 19.1 \\
 Runner-up (rejected candidate)     & 4{,}659 & 0.435 & 0.431 & 0.5 \\
-Synthetic no-buyer                 & 697   & 0.425 & 0.399 & 6.2 \\
+Synthetic no-buyer                 & 705   & 0.425 & 0.399 & 6.2 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2676,17 +2684,17 @@ proportions. SMD $< 0.20$ is conventionally considered small.}
 \small
 \begin{tabular}{@{}p{5.0cm}p{3.0cm}p{3.0cm}r@{}}
 \toprule
-\textbf{Variable} & \textbf{event = 1 ($n$ = 697)} & \textbf{event = 0 ($n$ = 403)} &
+\textbf{Variable} & \textbf{event = 1 ($n$ = 705)} & \textbf{event = 0 ($n$ = 395)} &
 \textbf{SMD / $\Delta$} \\
 \midrule
-Declared duration (months) & 32.3 $\pm$ 17.0 & 30.0 $\pm$ 18.6 & 0.128 \\
+Declared duration (months) & 32.4 $\pm$ 17.0 & 29.9 $\pm$ 18.6 & 0.139 \\
 Contract start year        & 2018.0 $\pm$ 2.0 & 2018.1 $\pm$ 2.1 & $-$0.029 \\
-Duration imputed           & 24.4\%           & 26.3\%           & $-$0.019 \\
-Amount non-missing         & 16.6\%           & 26.6\%           & $-$0.099 \\
-CPV code present           & 95.8\%           & 94.3\%           & 0.015 \\
+Duration imputed           & 24.3\%           & 26.6\%           & $-$0.023 \\
+Amount non-missing         & 16.7\%           & 26.6\%           & $-$0.098 \\
+CPV code present           & 95.9\%           & 94.2\%           & 0.017 \\
 Buyer identified by SIRET  & 0.0\%            & 0.0\%            & 0.000 \\
 \midrule
-N candidates considered    & 7.7 $\pm$ 8.0  & 0.0 $\pm$ 0.0  & 1.362 (structural) \\
+N candidates considered    & 7.8 $\pm$ 8.2  & 0.0 $\pm$ 0.0  & 1.351 (structural) \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -2697,7 +2705,7 @@ N candidates considered    & 7.7 $\pm$ 8.0  & 0.0 $\pm$ 0.0  & 1.362 (structural
 \caption{Covariate balance plots comparing event-1 and event-0 contracts.
 Bars show the standardised mean difference (numeric variables) or difference in
 proportions (binary variables). All modeling covariates have SMD~$<$~0.15,
-indicating good balance. The large SMD for N\_candidates (1.36) is structural
+indicating good balance. The large SMD for N\_candidates (1.35) is structural
 and expected: censored contracts have no temporal partner by definition, so
 zero candidates were evaluated.}
 \label{fig:bias}
@@ -2740,15 +2748,15 @@ expected renewal windows fall after the 2024-12-31 study close.
         for all). Log-rank tests confirm this at the bivariate level.
 
   \item \textbf{Log-normal AFT model preferred.} Among parametric models, the
-        log-normal achieves the best trade-off between fit (AIC = 7\,119.8) and
+        log-normal achieves the best trade-off between fit (AIC = 7\,176.5) and
         concordance (0.672), outperforming the Cox model marginally. The Weibull
         model is the worst fit.
 
   \item \textbf{Sensitivity check supports qualitative stability.} Restricting to
         medium- and high-confidence links (Model B) shifts the KM median from
-        48.1 to 52.7 months, while leaving covariate effects qualitatively
-        unchanged. Model C is far more aggressive: censoring all but the 90
-        strict high-confidence links collapses the event rate to 8.2\% and the
+        48.2 months (Model A) while leaving covariate effects qualitatively
+        unchanged. Model C is far more aggressive: censoring all but the 100
+        strict high-confidence links collapses the event rate to 9.1\% and the
         KM median is no longer reached. The primary model (Model A) is retained
         as the official result.
 
@@ -2809,16 +2817,16 @@ thresholds, to be calibrated later with the supervisor and with the manual-valid
 
 \begin{table}[H]
 \centering
-\caption{Operational prediction output files (in \texttt{reports/tables/survival/})}
+\caption{Operational prediction output files (in \nolinkurl{reports/tables/survival/})}
 \label{tab:predfiles}
 \footnotesize
 \begin{tabular}{@{}P{5.0cm}R{0.9cm}P{9.2cm}@{}}
 \toprule
 File & Rows & Purpose / main columns \\
 \midrule
-\texttt{renewal\_risk\_\allowbreak 12\_24\_\allowbreak months.csv} & 1{,}097 & Contract-level predictions: one row per scored contract. Main columns: \texttt{contract\_id}, \texttt{buyer\_key}, \texttt{category\_label}, \texttt{age\_months}, \texttt{p\_renewal\_12m}, \texttt{p\_renewal\_24m}, \texttt{risk\_tier}, \texttt{model\_used}. \\
-\texttt{buyer\_renewal\_\allowbreak risk\_ranking.csv} & 306 & Buyer-level ranking by expected renewals. Main columns: \texttt{buyer\_key}, \texttt{n\_contracts}, \texttt{expected\_renewals\_12m}/\texttt{\_24m}, \texttt{max}/\texttt{mean\_p\_renewal\_12m}, \texttt{high\_risk\_contracts\_count}. \\
-\texttt{segment\_renewal\_\allowbreak risk\_ranking.csv} & 11 & Segment-level ranking by expected renewals. Main columns: \texttt{category\_label}, \texttt{n\_contracts}, \texttt{expected\_renewals\_12m}/\texttt{\_24m}, \texttt{mean\_p\_renewal\_12m}/\texttt{\_24m}, \texttt{high\_risk\_contracts\_count}. \\
+\nolinkurl{renewal_risk_12_24_months.csv} & 1{,}097 & Contract-level predictions: one row per scored contract. Main columns: \nolinkurl{contract_id}, \nolinkurl{buyer_key}, \nolinkurl{category_label}, \nolinkurl{age_months}, \nolinkurl{p_renewal_12m}, \nolinkurl{p_renewal_24m}, \nolinkurl{risk_tier}, \nolinkurl{model_used}. \\
+\nolinkurl{buyer_renewal_risk_ranking.csv} & 306 & Buyer-level ranking by expected renewals. Main columns: \nolinkurl{buyer_key}, \nolinkurl{n_contracts}, \nolinkurl{expected_renewals_12m}/\nolinkurl{_24m}, \nolinkurl{max}/\nolinkurl{mean_p_renewal_12m}, \nolinkurl{high_risk_contracts_count}. \\
+\nolinkurl{segment_renewal_risk_ranking.csv} & 11 & Segment-level ranking by expected renewals. Main columns: \nolinkurl{category_label}, \nolinkurl{n_contracts}, \nolinkurl{expected_renewals_12m}/\nolinkurl{_24m}, \nolinkurl{mean_p_renewal_12m}/\nolinkurl{_24m}, \nolinkurl{high_risk_contracts_count}. \\
 \bottomrule
 \end{tabular}
 \normalsize
@@ -2969,5 +2977,51 @@ Phase 2, including the operational renewal-risk prediction layer
         artefacts already exist (\texttt{decp\_renewal\_links.csv}, \texttt{buyer\_bridge.csv},
         \texttt{unified\_survival.csv}) but remain outside the validated BOAMP-only handoff.
 \end{enumerate}
+
+\paragraph*{Buyer SIREN enrichment (completed 2026-06-24) --- results incorporated.}
+A buyer-name resolution pipeline (\texttt{buyer\_siren\_enrichment/}, 7 steps)
+was built and executed after the initial linking.
+It queries the API Recherche d'Entreprises to map each unique
+\texttt{nomacheteur} string to a SIREN identifier, enabling deduplication
+of buyer aliases that name normalisation cannot resolve.
+Results: 275 of 525 unique buyers (52.4\%) matched with HIGH confidence;
+23 previously fragmented buyer groups were merged.
+On the \textbf{auxiliary Jaccard comparison} (all 1,933 AO; output files:
+\nolinkurl{boamp_full_survival.csv} name-based baseline and
+\nolinkurl{boamp_full_survival_enriched.csv} in
+\nolinkurl{boamp_renewal_linking_siren_enriched/outputs/}, kept as
+\textbf{legacy comparison artifacts} to evaluate the Jaccard method only ---
+not the current-stage survival dataset), the event rate rose from 11.3\% to
+12.1\% ($+$15 events; log-rank $p = 0.47$, not significant).
+\textbf{The sentence-transformer pipeline was then fully re-run} with
+\texttt{buyer\_key\_enriched} as the active grouping key.
+The 23 SIREN merges expanded the candidate pool for affected source contracts,
+producing \textbf{705 renewal events} (vs.\ 697 before enrichment, $+$8).
+Key impacts on the survival analysis:
+\begin{itemize}
+  \item Linking rate: 64.1\% (705/1,100) vs.\ 63.4\% pre-enrichment.
+  \item Gross events up by 8; however, Model~B (composite $\geq 0.50$) fell
+        from 553 to 497 --- new cross-alias candidates reshuffled some best
+        links toward lower-margin pairs, shifting the confidence distribution.
+  \item Strict H.C.\ (Model~C) increased from 90 to 100 events.
+  \item Survival model qualitatively unchanged: KM median 48.2 mo, Cox
+        C-index 0.6541, same two significant predictors, same risk tiers.
+\end{itemize}
+Additionally, the official phase-2 dataset has been \textbf{annotated} with
+buyer enrichment metadata in
+\nolinkurl{data/processed/boamp_phase2_survival_siren_enriched.csv}
+(1,100 rows, four added columns: \texttt{buyer\_key\_enriched},
+\texttt{enriched\_siren}, \texttt{enrichment\_confidence},
+\texttt{enrichment\_score}, added by left-join; the event and survival-time
+columns are unchanged).
+Enrichment-confidence breakdown over the 1,100 phase-2 rows:
+\textbf{HIGH 660 (60.0\%)}, MEDIUM 77, LOW 45, NO\_MATCH 318.
+The 440 rows without a HIGH-confidence match retain the original name-based
+buyer key. Note that HIGH-confidence automated matching is not equivalent to
+manual validation; rare false positives at HIGH confidence remain possible.
+
+All figures and tables in this report reflect the enriched re-run.
+Full SIREN methodology is in the Data Quality Report,
+Section ``SIREN/SIRET Enrichment of Buyer Identifiers''.
 
 \end{document}

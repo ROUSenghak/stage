@@ -1,0 +1,526 @@
+buyer_name_raw,buyer_name_clean,buyer_key,dept_code,city,postal_code,n_notices,n_appel_offre,has_existing_boamp_siret,existing_siret_values
+SMICTOM de la Vallée de l'Authion,smictom de la vallee de l authion,NAME:smictom de la vallee de l authion,49,Beaufort en Anjou,49250,2,2,False,
+Sdis de la Mayenne,de la mayenne,NAME:de la mayenne,53,Laval cedex,53005,8,5,False,
+Ville de Rezé,reze,NAME:reze,44,Rezé Cedex,44403,8,8,True,21440143200015
+Ville de Nantes,nantes,NAME:nantes,44,Nantes,44094,22,15,True,17440005100010|21440109300015
+SDIS de la Sarthe,de la sarthe,NAME:de la sarthe,72,COULAINES,72190,15,8,True,443928874
+Conseil régional des Pays de la Loire,des pays de la loire,NAME:des pays de la loire,44,Nantes cedex 9,44966,202,109,False,
+IRCANTEC,ircantec,NAME:ircantec,49,Angers,49939,1,1,False,
+ACOSS,acoss,NAME:acoss,75,MONTREUIL,93100,3,3,True,13000686900015|18003501600054
+CHU de Nantes,de nantes,NAME:de nantes,44,Nantes cedex,44093,117,61,True,174400051
+Ville de Bouguenais,bouguenais,NAME:bouguenais,44,BOUGUENAIS CEDEX,44341,16,6,False,
+CHU d'Angers,d angers,NAME:d angers,49,Angers cédex 9,49933,3,2,False,
+MINDEF/DGA/DT/SCAT,mindef dga dt scat,NAME:mindef dga dt scat,18,Bourges cedex,18021,1,1,False,
+CNIEG,cnieg,NAME:cnieg,44,NANTES,44200,32,18,True,47865038500014
+Le Mans Métropole - Communauté Urbaine,le mans metropole communaute urbaine,NAME:le mans metropole communaute urbaine,72,Le Mans,72039,71,35,False,
+Cté de Cnes de l'Ile de Noirmoutier,cte de cnes de l ile de noirmoutier,NAME:cte de cnes de l ile de noirmoutier,85,Noirmoutier-en-l'ile,85330,4,2,False,
+Conseil général de la Vendée,conseil general de la vendee,NAME:conseil general de la vendee,85,La Roche sur Yon,85923,25,14,False,
+Ville du Mans,ville du mans,NAME:ville du mans,72,LE MANS,72039,45,23,True,443928874
+Ville d'Angers,ville d angers,NAME:ville d angers,49,Angers Cedex 02,49020,22,16,False,
+Ministère des Affaires étrangères,ministere des affaires etrangeres,NAME:ministere des affaires etrangeres,75,Paris,75015,21,13,False,
+SDIS du Maine et Loire,du maine et loire,NAME:du maine et loire,49,Beaucouzé,49071,1,0,False,
+Ville de La Roche-sur-Yon,la roche sur yon,NAME:la roche sur yon,85,La Roche-sur-Yon,85000,3,2,False,
+RESIDENCES SAINT ALEXANDRE,residences saint alexandre,NAME:residences saint alexandre,85,Mortagne sur sevre,85290,1,1,False,
+Commune de Saint-Herblain,saint herblain,NAME:saint herblain,44,Saint herblain cedex,44802,23,15,False,
+SDIS 85,85,NAME:85,85,LA ROCHE SUR YON Cedex,85017,22,13,True,28850001000013
+Centre Hospitalier de Cholet,de cholet,NAME:de cholet,49,Cholet Cedex,49325,6,5,False,
+Conseil Général de la Sarthe,conseil general de la sarthe,NAME:conseil general de la sarthe,72,Le Mans,72072,3,3,False,
+Ville du Croisic,ville du croisic,NAME:ville du croisic,44,le croisic,44490,1,1,False,
+Nantes Métropole,nantes metropole,NAME:nantes metropole,44,Nantes cedex 9,44923,200,134,True,24440040400129
+CDC du Pays de Saint Gilles Cx de Vie,cdc du pays de saint gilles cx de vie,NAME:cdc du pays de saint gilles cx de vie,85,Saint gilles croix de vie,85806,13,7,False,
+VALLET,vallet,NAME:vallet,44,Vallet,44330,1,1,False,
+CCIR Pays de la Loire,ccir pays de la loire,NAME:ccir pays de la loire,44,Nantes Cedex 4,44105,12,8,False,
+Conseil général de Loire-Atlantique,conseil general de loire atlantique,NAME:conseil general de loire atlantique,44,Nantes,44041,8,4,False,
+Vendée Eau,vendee eau,NAME:vendee eau,85,La roche-sur-yon cedex,85036,7,4,False,
+Pole Santé Sarthe et Loire,pole sante sarthe et loire,NAME:pole sante sarthe et loire,72,La flèche cedex,72205,1,1,False,
+DIR Ouest,dir ouest,NAME:dir ouest,35,Rennes cedex,35031,11,6,True,13000170400589
+Ville de Saint Sébastien sur Loire,saint sebastien sur loire,NAME:saint sebastien sur loire,44,Saint-Sébastien-sur-Loire,44230,5,3,False,
+Syndicat Départemental d'Energie,syndicat departemental d energie,NAME:syndicat departemental d energie,85,LA ROCHE SUR YON,85000,4,3,False,
+Université d'Angers,universite d angers,NAME:universite d angers,49,Angers cedex 01,49035,86,38,True,443928874
+O.P.H LE MANS HABITAT,o p h le mans habitat,NAME:o p h le mans habitat,72,Le Mans,72055,4,1,False,
+e-Collectivités Vendée,e collectivites vendee,NAME:e collectivites vendee,85,La Roche sur Yon Cedex,85006,8,6,False,
+GPM de Nantes - St Nazaire,gpm de nantes st nazaire,NAME:gpm de nantes st nazaire,44,Nantes,44186,29,22,False,
+SAEM Vendée,saem vendee,NAME:saem vendee,85,La Roche sur Yon,85000,3,1,False,
+CG49,cg49,NAME:cg49,49,Angers cedex 9,49941,3,3,False,
+GIE SESAM Vitale,gie sesam vitale,NAME:gie sesam vitale,72,Le mans cedex 2,72019,66,40,False,
+Centre Hospitalier du Haut Anjou,du haut anjou,NAME:du haut anjou,53,Chateau gontier,53204,1,1,False,
+ADEME,ademe,NAME:ademe,49,ANGERS,49004,13,8,False,
+CH LE MANS,le mans,NAME:le mans,72,Le mans cedex 09,72037,53,31,False,
+Centre hospitalier de Saumur,de saumur,NAME:de saumur,49,Saumur Cedex,49403,1,0,False,
+Concarneau Cornouaille Agglomération,concarneau cornouaille agglomeration,NAME:concarneau cornouaille agglomeration,29,Concarneau cedex,29186,4,3,False,
+Ville d'Allonnes,ville d allonnes,NAME:ville d allonnes,72,Allonnes,72700,1,1,False,
+Cté d'Agglomération du Choletais,cte d agglomeration du choletais,NAME:cte d agglomeration du choletais,49,Cholet cedex,49321,1,1,False,
+Angers Loire Métropole,angers loire metropole,NAME:angers loire metropole,49,Angers,49020,74,46,False,
+GCS eSanté Pays de la Loire,gcs esante pays de la loire,NAME:gcs esante pays de la loire,44,NANTES,44200,6,2,False,
+Syndicat Trivalis,syndicat trivalis,NAME:syndicat trivalis,85,La Roche sur Yon,85015,4,3,False,
+Ville de Talmont Saint Hilaire,talmont saint hilaire,NAME:talmont saint hilaire,85,talmont saint hilaire,85440,1,1,False,
+INRA - Formation permanente nationale,inra formation permanente nationale,NAME:inra formation permanente nationale,44,Nantes,44316,1,1,False,
+Commune de Saint-Nazaire,saint nazaire,NAME:saint nazaire,44,Saint-Nazaire cédex,44606,38,24,False,
+commune de Le Pellerin,le pellerin,NAME:le pellerin,44,Le Pellerin,44640,3,1,False,
+Ville de Vertou,vertou,NAME:vertou,44,Vertou Cedex,44123,1,1,False,
+Ecole Centrale de Nantes,ecole centrale de nantes,NAME:ecole centrale de nantes,44,Nantes,44321,12,6,True,19440100600011
+Ville de Carquefou,carquefou,NAME:carquefou,44,Carquefou Cedex,44471,10,6,False,
+Commune de Pornic,pornic,NAME:pornic,44,Nantes cedex,44214,2,2,False,
+Département de la Sarthe,la sarthe,NAME:la sarthe,72,Le Mans,72072,20,11,True,443928874
+Sarthe Habitat,sarthe habitat,NAME:sarthe habitat,72,Le Mans Cedex 2,72019,3,1,False,
+SAELSI,saelsi,NAME:saelsi,75,Paris cedex 08,75008,1,1,False,
+CNDP,cndp,NAME:cndp,86,Futuroscope cedex,86961,1,1,False,
+Régie Dépt Passages d'Eau de Vendée,regie dept passages d eau de vendee,NAME:regie dept passages d eau de vendee,85,LA BARRE DE MONTS,85550,7,6,False,
+Saumur Agglopropreté,saumur aggloproprete,NAME:saumur aggloproprete,49,Saumur,49400,1,1,False,
+SICTOM Loir et Sarthe,sictom loir et sarthe,NAME:sictom loir et sarthe,49,Tiercé,49125,1,1,False,
+Chambre Agriculture Pays de la Loire,chambre agriculture pays de la loire,NAME:chambre agriculture pays de la loire,49,ANGERS,49105,2,1,False,
+C.H.S. de la Sarthe,c h s de la sarthe,NAME:c h s de la sarthe,72,Allonnes Cedex,72703,1,1,False,
+E.C.A.S. gendarmerie nationale,e c a s gendarmerie nationale,NAME:e c a s gendarmerie nationale,36,Le blanc,36300,1,1,False,
+S.I. d' énergies de Maine et Loire,s i d energies de maine et loire,NAME:s i d energies de maine et loire,49,Angers cedex 1,49001,1,0,False,
+Commune des Herbiers,commune des herbiers,NAME:commune des herbiers,85,Les Herbiers,85502,3,2,False,
+Centre Hospitalier Loire Vendée Océan,loire vendee ocean,NAME:loire vendee ocean,85,Challans Cedex,85302,1,1,False,
+Cté de Communes du Pays des Herbiers,cte de communes du pays des herbiers,NAME:cte de communes du pays des herbiers,85,Les Herbiers,85504,5,3,False,
+Ecole des Mines de Nantes,ecole des mines de nantes,NAME:ecole des mines de nantes,44,Nantes,44307,2,1,False,
+SDIS 44,44,NAME:44,44,La chapelle sur erdre,44243,31,19,False,
+INRA Angers Nantes,inra angers nantes,NAME:inra angers nantes,44,NANTES,44316,2,1,False,
+MONTREVAULT-SUR-ÈVRE,montrevault sur evre,NAME:montrevault sur evre,49,Montrevault-sur-Èvre Cedex,49117,3,3,False,
+Conseil départemental de la Mayenne,de la mayenne,NAME:de la mayenne,53,Laval cedex,53014,15,5,False,
+Cté Cnes Coeur d'Estuaire,cte cnes coeur d estuaire,NAME:cte cnes coeur d estuaire,44,Saint Etienne de Montluc,44360,4,2,False,
+DREAL Pays de la Loire,dreal pays de la loire,NAME:dreal pays de la loire,44,NANTES Cedex 2,44263,1,1,False,
+Département de la Vendée,la vendee,NAME:la vendee,85,La Roche Sur Yon,85923,72,29,True,443928874
+MINDEF/DGA/DO/S2A,mindef dga do s2a,NAME:mindef dga do s2a,18,Bourges,18021,3,2,False,
+Laval Agglomération,laval agglomeration,NAME:laval agglomeration,53,Laval cedex,53008,9,6,False,
+Hopital Intercommunal Sèvre et Loire,hopital intercommunal sevre et loire,NAME:hopital intercommunal sevre et loire,44,Vertou,44122,2,1,False,
+Centre Hospitalier de Saint-Nazaire,de saint nazaire,NAME:de saint nazaire,44,Saint Nazaire,44600,3,2,False,
+CCI de Maine et Loire,cci de maine et loire,NAME:cci de maine et loire,49,ANGERS,49006,3,2,False,
+COMSOPGN,comsopgn,NAME:comsopgn,72,LE BLANC,36300,5,2,False,
+Cour d'Appel de Rennes,cour d appel de rennes,NAME:cour d appel de rennes,22,Rennes cedex,35011,1,1,False,
+CCAS d'Angers,ccas d angers,NAME:ccas d angers,49,Angers,49020,1,1,False,
+CAF de la Somme,caf de la somme,NAME:caf de la somme,80,Amiens,80000,3,2,False,
+Université de Nantes,nantes,NAME:nantes,44,Nantes cedex 1,44035,45,23,False,
+Centre hospitalier de Laval,de laval,NAME:de laval,53,Laval,53015,1,1,False,
+Office Public de l'Habitat,office public de l habitat,NAME:office public de l habitat,49,Angers cedex 01,49001,1,0,False,
+VILLE DE LA BAULE-ESCOUBLAC,la baule escoublac,NAME:la baule escoublac,44,La baule cedex,44504,2,2,False,
+ASSOCIATION E-TOILE,association e toile,NAME:association e toile,14,CAEN,14053,5,3,False,
+EHPAD RESIDENCES LES LIGERIENNES,ehpad residences les ligeriennes,NAME:ehpad residences les ligeriennes,49,Saint Georges sur Loire,49170,1,1,False,
+Centre Hospitalier Spécialisé de Blain,specialise de blain,NAME:specialise de blain,44,BLAIN,44130,1,1,False,
+Loire Océan Métropole Aménagement,loire ocean metropole amenagement,NAME:loire ocean metropole amenagement,44,Nantes,44035,9,6,False,
+Loire Ocean developpement,loire ocean developpement,NAME:loire ocean developpement,44,Saint-Herblain cédex,44035,7,5,False,
+Département de Maine-et-Loire,maine et loire,NAME:maine et loire,49,Angers Cedex 9,49941,23,14,False,
+Nantes Métropole Habitat,nantes metropole habitat,NAME:nantes metropole habitat,44,Nantes Cedex 1,44036,5,2,False,
+Syndicat Vendée des Iles,syndicat vendee des iles,NAME:syndicat vendee des iles,85,SAINT-JEAN-DE-MONTS Cedex,85167,2,1,False,
+LYCEE POLYVALENT LEONARD DE VINCI,lycee polyvalent leonard de vinci,NAME:lycee polyvalent leonard de vinci,85,MONTAIGU,85600,6,6,False,
+ARAFER,arafer,NAME:arafer,72,Le Mans,72019,13,9,False,
+CROUS de Nantes,crous de nantes,NAME:crous de nantes,44,Nantes cedex 3,44322,9,5,False,
+Com Communes du Pays d'Ancenis,com communes du pays d ancenis,NAME:com communes du pays d ancenis,44,Ancenis,44156,2,1,False,
+SMIRGEOM Est Sarthe,smirgeom est sarthe,NAME:smirgeom est sarthe,72,Saint Calais,72120,1,1,False,
+CAP ATLANTIQUE,cap atlantique,NAME:cap atlantique,44,LA BAULE,44503,6,4,True,443928874
+SDIS 49,49,NAME:49,49,Beaucouzé,49071,4,2,False,
+Cté de Cnes de la Vallée de Clisson,cte de cnes de la vallee de clisson,NAME:cte de cnes de la vallee de clisson,44,Clisson,44194,1,1,False,
+C.S.T.B.,c s t b,NAME:c s t b,6,champs sur marne,77420,2,2,False,
+Ville de Noyal-Châtillon sur Seiche,noyal chatillon sur seiche,NAME:noyal chatillon sur seiche,35,Noyal-châtillon sur seiche,35230,1,1,False,
+CPAM de la Sarthe,cpam de la sarthe,NAME:cpam de la sarthe,72,LE MANS,72000,2,1,False,
+SYND MIXTE DU PAYS DE COUTANCES,synd mixte du pays de coutances,NAME:synd mixte du pays de coutances,50,Coutances,50200,1,1,False,
+Rectorat de l'Académie de Dijon,rectorat de l academie de dijon,NAME:rectorat de l academie de dijon,21,DIJON,21000,1,1,False,
+C.H.D La Roche Sur Yon-Luçon-Montaigu,c h d la roche sur yon lucon montaigu,NAME:c h d la roche sur yon lucon montaigu,85,La roche sur yon cedex 9,85925,3,1,False,
+Centre des monuments nationaux,centre des monuments nationaux,NAME:centre des monuments nationaux,75,Paris,75186,1,1,False,
+Université Européenne de Bretagne,universite europeenne de bretagne,NAME:universite europeenne de bretagne,35,Rennes cedex,35044,1,1,False,
+CPAM de Loire-Atlantique,cpam de loire atlantique,NAME:cpam de loire atlantique,44,Nantes cedex 09,44958,1,1,False,
+COMMUNAUTE de COMMUNES des COEVRONS,communes des coevrons,NAME:communes des coevrons,53,CHATRES la FORET,53600,1,1,False,
+INSEE,insee,NAME:insee,44,Montrouge cedex,92120,5,2,False,
+Ville d'Avrillé,ville d avrille,NAME:ville d avrille,49,Avrillé,49241,1,1,False,
+Ville de Thouaré-sur-Loire,thouare sur loire,NAME:thouare sur loire,44,Carquefou Cédex,44473,5,4,False,
+Ville d'Orvault,ville d orvault,NAME:ville d orvault,44,Orvault,44706,8,7,False,
+Commune de la Chevrolière,la chevroliere,NAME:la chevroliere,44,La Chevroliere,44118,1,1,False,
+Vendée Expansion,vendee expansion,NAME:vendee expansion,85,La roche sur yon cedex,85005,19,10,False,
+Ville de Saint-Hilaire-de-Riez,saint hilaire de riez,NAME:saint hilaire de riez,85,Saint Hilaire de Riez,85270,1,1,False,
+INSTITUT 4.10,institut 4 10,NAME:institut 4 10,75,Nantes,44400,1,1,False,
+DIRISI,dirisi,NAME:dirisi,29,Brest-cedex-9,29240,9,4,False,
+CARENE,carene,NAME:carene,44,Saint-Nazaire cédex,44605,12,8,False,
+FONDAT REGION OUEST LIGUE CANCER,fondat region ouest ligue cancer,NAME:fondat region ouest ligue cancer,35,Rennes Cedex,35042,1,1,False,
+CENTRE COMMUNAL D ACTION SOCIALE,centre communal d action sociale,NAME:centre communal d action sociale,49,ANGERS,49130,2,1,False,
+SDEGM,sdegm,NAME:sdegm,53,CHANGE,53810,2,2,False,
+MAINE LOIRE HABITAT OFFICE PUB HABITAT,maine loire habitat office pub habitat,NAME:maine loire habitat office pub habitat,49,Angers,49001,7,4,False,
+SICTIAM,sictiam,NAME:sictiam,6,Vallauris,06225,1,1,False,
+IPHV LES HAUTS THEBAUDIERES,iphv les hauts thebaudieres,NAME:iphv les hauts thebaudieres,44,Vertou Cedex,44122,2,2,False,
+Communauté de Communes de Grand Lieu,communes de grand lieu,NAME:communes de grand lieu,44,La chevroliere,44118,5,4,False,
+MAIRIE DE SAINT SATURNIN,saint saturnin,NAME:saint saturnin,72,Saint Saturnin,72650,1,1,False,
+Agence Régionale Pays de la Loire TI,agence regionale pays de la loire ti,NAME:agence regionale pays de la loire ti,44,Nantes,44202,2,2,False,
+Inst. Interdpt bassin Sèvre Niortaise,inst interdpt bassin sevre niortaise,NAME:inst interdpt bassin sevre niortaise,85,Niort cedex,79028,1,1,False,
+Mairie du croisic,mairie du croisic,NAME:mairie du croisic,44,LE CROISIC,44490,2,2,False,
+CHD VENDEE,chd vendee,NAME:chd vendee,85,La roche sur yon cedex 9,85925,21,8,True,50937719800023|52859061500035
+Le Grand T - Théâtre Loire-Atlantique,le grand t theatre loire atlantique,NAME:le grand t theatre loire atlantique,44,Nantes,44000,2,2,False,
+Conseil départemental Loire-Atlantique,loire atlantique,NAME:loire atlantique,44,NANTES,44041,47,29,False,
+SYNDICAT MIXTE OUVERT ANJOU NUMERIQUE,syndicat mixte ouvert anjou numerique,NAME:syndicat mixte ouvert anjou numerique,49,Angers cedex 9,49941,2,1,False,
+Communauté de communes de l'Ernée,communes de l ernee,NAME:communes de l ernee,53,ERNEE,38170,2,1,True,443928874
+DIR INTERDEPARTEMENTALE ROUTES OUEST,dir interdepartementale routes ouest,NAME:dir interdepartementale routes ouest,35,Rennes cedex,35061,7,4,False,
+Centre de Gestion FPT Loire-Atlantique,centre de gestion fpt loire atlantique,NAME:centre de gestion fpt loire atlantique,44,Nantes cedex 2,44262,1,1,False,
+SEMITAN,semitan,NAME:semitan,44,Nantes cedex 1,44046,38,23,True,443928874
+Ville de La Rochelle,la rochelle,NAME:la rochelle,17,La Rochelle,17086,1,1,False,
+Société Loire Atlantique Développement,societe loire atlantique developpement,NAME:societe loire atlantique developpement,44,Nantes Cedex 2,44262,2,1,False,
+ANGERS NANTES OPERA syndicat mixte,angers nantes opera syndicat mixte,NAME:angers nantes opera syndicat mixte,44,NANTES CEDEX 1,44009,3,3,False,
+Groupe d'étude et de contrôle des vari,groupe d etude et de controle des vari,NAME:groupe d etude et de controle des vari,49,Beaucouzé,49071,2,1,False,
+COMMUNE DE CHEMILLE EN ANJOU,chemille en anjou,NAME:chemille en anjou,49,CHEMILLE-EN-ANJOU,49120,1,1,False,
+DIR INTERREGIONALE SCES PENITENTIAIRES,dir interregionale sces penitentiaires,NAME:dir interregionale sces penitentiaires,35,Rennes cedex,35031,2,2,False,
+Les Quinconces l'Espal,les quinconces l espal,NAME:les quinconces l espal,72,Le Mans,72000,1,1,False,
+CESAME - CH de Sainte Gemmes sur Loire,cesame de sainte gemmes sur loire,NAME:cesame de sainte gemmes sur loire,49,les ponts de cé cedex,49137,1,1,False,
+CROUS de Rennes,crous de rennes,NAME:crous de rennes,35,Rennes,35064,1,1,False,
+Mairie de Saint Etienne de Montluc,saint etienne de montluc,NAME:saint etienne de montluc,44,Saint Etienne de Montluc,44360,4,3,False,
+Ville de Beaucouzé,beaucouze,NAME:beaucouze,49,BEAUCOUZE,49071,4,2,False,
+COMMUNAUTE D AGGLOMERATION LA ROCHELLE,communaute d agglomeration la rochelle,NAME:communaute d agglomeration la rochelle,17,la Rochelle,17086,3,1,False,
+SDIS 17,17,NAME:17,17,PERIGNY Cedex,17187,1,1,False,
+HOP INTERCOMMUNAL DU BAUGEOIS ET VAL,hop intercommunal du baugeois et val,NAME:hop intercommunal du baugeois et val,49,Baugé en anjou,49150,2,1,False,
+DRAC Pays de la Loire,drac pays de la loire,NAME:drac pays de la loire,85,Nantes cédex 1,44035,1,1,False,
+SYNDICAT MIXTE POUR LE DVLPT NUMERIQUE,syndicat mixte pour le dvlpt numerique,NAME:syndicat mixte pour le dvlpt numerique,72,Parigné-l'Evêque,72250,2,2,False,
+Commune de La Flèche,la fleche,NAME:la fleche,72,LA FLECHE,72200,1,1,False,
+Préfecture,prefecture,NAME:prefecture,44,Nantes,44035,1,1,False,
+Communauté de Communes du Perche,communes du perche,NAME:communes du perche,28,Nogent-le-Rotrou,28400,2,1,False,
+METROPOLE NANTES METROPOLE,metropole nantes metropole,NAME:metropole nantes metropole,44,Nantes cedex 9,44923,7,5,False,
+INSERM,inserm,NAME:inserm,70,Paris,75654,1,1,False,
+CMAR Pays de La Loire,cmar pays de la loire,NAME:cmar pays de la loire,44,Sainte Luce sur Loire Cedex,44985,5,3,False,
+DSNA,dsna,NAME:dsna,31,Toulouse cedex 1,31035,2,1,False,
+Ville de Pornichet,pornichet,NAME:pornichet,44,PORNICHET,44380,1,1,False,
+Chambre de Commerce et d'Industrie,chambre de commerce et d industrie,NAME:chambre de commerce et d industrie,85,La roche sur yon,85000,1,1,False,
+Commune de La Baule,la baule,NAME:la baule,44,LA BAULE CEDEX,44504,5,3,False,
+Plate Forme Achats Finances Nord Est,plate forme achats finances nord est,NAME:plate forme achats finances nord est,57,Metz cedex 1,57044,3,1,False,
+CC DU PAYS DE CHANTONNAY,cc du pays de chantonnay,NAME:cc du pays de chantonnay,85,Chantonnay,85111,1,1,False,
+CTRE HOSP UNIVERSITAIRE ANGERS,ctre hosp universitaire angers,NAME:ctre hosp universitaire angers,49,Angers cédex 9,49933,29,20,False,
+Institut Mines-Télécom Atlantique,institut mines telecom atlantique,NAME:institut mines telecom atlantique,44,Nantes cedex 3,44307,2,1,False,
+MAYENNE TRES HAUT DEBIT,mayenne tres haut debit,NAME:mayenne tres haut debit,53,LAVAL,53000,1,0,False,
+ONIRIS,oniris,NAME:oniris,44,Nantes cedex 3,44307,8,5,False,
+DREAL BRETAGNE,dreal bretagne,NAME:dreal bretagne,35,Rennes cedex,35065,5,3,False,
+Casier judiciaire national,casier judiciaire national,NAME:casier judiciaire national,44,NANTES Cedex 3,44317 ,2,2,True,12001002000028
+ALTER Public,alter public,NAME:alter public,49,Angers,49101,1,1,False,
+CA PORNIC AGGLO PAYS DE RETZ,ca pornic agglo pays de retz,NAME:ca pornic agglo pays de retz,44,PORNIC cedex,44215,5,3,False,
+VILLE DE LA ROCHE SUR YON,la roche sur yon,NAME:la roche sur yon,85,La Roche-sur-Yon,85000,6,4,False,
+AUTORITE REGULATION ACTIVITES FERROVIA,autorite regulation activites ferrovia,NAME:autorite regulation activites ferrovia,75,Le Mans Cedex 02,72019,1,0,False,
+LA ROCHE-SUR-YON AGGLOMERATION,la roche sur yon agglomeration,NAME:la roche sur yon agglomeration,85,La Roche-sur-Yon,85000,10,4,False,
+Communauté Communes La Chataigneraie,communaute communes la chataigneraie,NAME:communaute communes la chataigneraie,85,La Châtaigneraie,85120,3,1,False,
+La Cité des Congrès de Nantes,la cite des congres de nantes,NAME:la cite des congres de nantes,44,Nantes,44041,15,10,False,
+Cté de Communes d'Erdre et Gesvres,cte de communes d erdre et gesvres,NAME:cte de communes d erdre et gesvres,44,Grandchamp des Fontaines,44119,2,2,False,
+Ville d'Evron,ville d evron,NAME:ville d evron,53,EVRON,53600,2,1,False,
+UniHA GCS,uniha gcs,NAME:uniha gcs,69,Lyon,69003,3,3,False,
+GIP Vendée Numérique,gip vendee numerique,NAME:gip vendee numerique,85,La Roche sur Yon,85923,4,2,False,
+LAVAL SPLA,laval spla,NAME:laval spla,53,Laval,53005,2,1,False,
+SPIC - ARENA LOIRE TRELAZE,spic arena loire trelaze,NAME:spic arena loire trelaze,49,Trélazé,49800,3,2,False,
+Réseau Canopé,reseau canope,NAME:reseau canope,86,Futuroscope cedex,86961,13,9,True,18004301001485
+SYND DEP D ENERGIE ET D EQPT DE VENDEE,synd dep d energie et d eqpt de vendee,NAME:synd dep d energie et d eqpt de vendee,85,La Roche sur Yon,85036,8,5,False,
+SDIS49,sdis49,NAME:sdis49,49,Beaucouzé,49071,19,9,False,
+DEPARTEMENT DE LA SARTHE,la sarthe,NAME:la sarthe,72,Le Mans,72072,40,25,False,
+AGCE POUR L ENST FR A L ETRANGER,agce pour l enst fr a l etranger,NAME:agce pour l enst fr a l etranger,75,Paris,75014,12,8,False,
+ECOLE CENTRALE DE NANTES,ecole centrale de nantes,NAME:ecole centrale de nantes,44,NANTES Cedex 3,44321,1,1,False,
+Le Voyage à Nantes,le voyage a nantes,NAME:le voyage a nantes,44,NANTES CEDEX1,44022,1,1,False,
+ESAT Foyers,esat foyers,NAME:esat foyers,44,SAVENAY,44260,3,3,False,
+Ville d'Arnage,ville d arnage,NAME:ville d arnage,72,Arnage,72230,2,2,False,
+SNA/ouest,sna ouest,NAME:sna ouest,29,Bouguenais,44343,2,1,False,
+CEREMA - DTerMed,cerema dtermed,NAME:cerema dtermed,13,Aix en provence cedex 3,13593,1,1,False,
+Ville de Cholet,cholet,NAME:cholet,49,Cholet cedex,49321,9,5,False,
+SPR Pays de la Loire,spr pays de la loire,NAME:spr pays de la loire,49,Nantes,44202,7,4,False,
+ville de Sainte-Luce-sur-Loire,sainte luce sur loire,NAME:sainte luce sur loire,44,Sainte-Luce-sur-Loire,44981,2,1,False,
+ville des Sables d'Olonne,ville des sables d olonne,NAME:ville des sables d olonne,85,Les Sables d'Olonne cedex,85108,1,1,False,
+COMMUNE DE NANTES,nantes,NAME:nantes,44,Nantes,44094,15,9,False,
+Université de La Rochelle,la rochelle,NAME:la rochelle,17,La rochelle,17031,4,3,False,
+Loire Atlantique Développement - GIE,loire atlantique developpement gie,NAME:loire atlantique developpement gie,44,44262 NANTES,,2,1,False,
+préfet de la région Pays de la Loire,prefet de la region pays de la loire,NAME:prefet de la region pays de la loire,44,Nantes cedex 1,44035,6,4,False,
+Commune de Challans,challans,NAME:challans,85,challans,85300,3,2,True,21850047800209
+CTE REG PECHES MARITIMES ELEVAGES MARI,cte reg peches maritimes elevages mari,NAME:cte reg peches maritimes elevages mari,85,Les Sables d'Olonne,85100,2,1,False,
+COMMUNE DE SAINT NAZAIRE,saint nazaire,NAME:saint nazaire,44,Saint Nazaire,44600,40,22,False,
+Ville de Le Pouliguen,le pouliguen,NAME:le pouliguen,44,LE POULIGUEN,44510,1,1,False,
+association songo,association songo,NAME:association songo,44,Nantes,44200,3,2,False,
+DEPARTEMENT DE LA MAYENNE,la mayenne,NAME:la mayenne,53,LAVAL,53014,42,24,False,
+Bretagne Développement Innovation,bretagne developpement innovation,NAME:bretagne developpement innovation,35,Cesson-sévigné,35510,1,1,False,
+SEC GAL POUR L ADM MIN INTERIEUR OUEST,sec gal pour l adm min interieur ouest,NAME:sec gal pour l adm min interieur ouest,49,Rennes cedex 2,35207,7,5,False,
+Mancelle d'habitation,mancelle d habitation,NAME:mancelle d habitation,72,LE MANS,,2,1,False,
+Ville d'Ecouflant,ville d ecouflant,NAME:ville d ecouflant,49,Ecouflant,49000,2,2,False,
+"SEMITAN, mandataire de la CUN",semitan mandataire de la cun,NAME:semitan mandataire de la cun,44,Nantes Cedex 1,44046,2,1,False,
+Institut Régional Administration Lyon,institut regional administration lyon,NAME:institut regional administration lyon,69,Villeurbanne cedex,69616,2,2,False,
+VILLE DE PORNICHET,pornichet,NAME:pornichet,44,PORNICHET,44380,1,1,False,
+COMMUNE DE VERTOU,vertou,NAME:vertou,44,VERTOU,44123,2,2,False,
+Communauté de communes Pays Fléchois,communes pays flechois,NAME:communes pays flechois,72,LA FLECHE CEDEX,72202,1,1,False,
+COMMUNAUTE COMMUNES PAYS DE REDON,communaute communes pays de redon,NAME:communaute communes pays de redon,35,Redon,35600,1,1,False,
+MINDEF/SGA/DCSID/ESID Bordeaux,mindef sga dcsid esid bordeaux,NAME:mindef sga dcsid esid bordeaux,17,Rochefort air,17133,1,1,False,
+SM Mégalis,sm megalis,NAME:sm megalis,44,NANTES,44966,2,1,False,
+SISTO,sisto,NAME:sisto,49,SEGRE,49500,1,1,False,
+SI ENERGIES DE MAINE ET LOIRE,si energies de maine et loire,NAME:si energies de maine et loire,49,Angers cedex 1,49001,5,4,False,
+GIE des EPL de Vendée,gie des epl de vendee,NAME:gie des epl de vendee,85,La roche sur yon cedex,85005,10,7,False,
+CTRE NATIONAL D ENST A DISTANCE,ctre national d enst a distance,NAME:ctre national d enst a distance,85,Chasseneuil futuroscope cedex,86963,1,1,False,
+COM D AGGLO REG NAZAIRIENNE ESTUAIRE,com d agglo reg nazairienne estuaire,NAME:com d agglo reg nazairienne estuaire,44,Saint-Nazaire,44605,24,12,False,
+Communauté d'agglomération du Niortais,communaute d agglomeration du niortais,NAME:communaute d agglomeration du niortais,79,Niort cedex,79027,11,9,False,
+Ville de Villemomble,villemomble,NAME:villemomble,93,Villemomble,93250,1,1,False,
+Agrocampus Ouest,agrocampus ouest,NAME:agrocampus ouest,35,RENNES,,2,1,False,
+Comm Comm de Doué la Fontaine,comm comm de doue la fontaine,NAME:comm comm de doue la fontaine,49,Doué-en-anjou,49700,1,1,False,
+CHBR REG METIERS ARTISANAT NOUV AQUIT,chbr reg metiers artisanat nouv aquit,NAME:chbr reg metiers artisanat nouv aquit,33,Bordeaux,33000,3,2,False,
+Université du Maine,universite du maine,NAME:universite du maine,72,Le mans,72085,4,2,False,
+SGAMI OUEST BZAMP,sgami ouest bzamp,NAME:sgami ouest bzamp,72,Rennes cédex 2,35207,1,1,False,
+université de Rennes 1,rennes 1,NAME:rennes 1,35,Rennes,35065,1,1,False,
+Ville d'Ancenis-Saint-Géréon,ville d ancenis saint gereon,NAME:ville d ancenis saint gereon,44,Ancenis-Saint-Géréon,44156,2,1,False,
+ARS Pays de La Loire,ars pays de la loire,NAME:ars pays de la loire,44,Nantes cedex 2,44262,2,1,False,
+GCS E SANTE PAYS DE LA LOIRE,gcs e sante pays de la loire,NAME:gcs e sante pays de la loire,44,Nantes,44200,2,1,False,
+Ville de Talmont - Saint Hilaire,talmont saint hilaire,NAME:talmont saint hilaire,85,Talmont - Saint Hilaire,85440,2,2,False,
+VENDEE EAU,vendee eau,NAME:vendee eau,85,La Roche sur Yon,85036,10,6,False,
+Vendée Habitat - OPH de Vendée,vendee habitat oph de vendee,NAME:vendee habitat oph de vendee,85,LA ROCHE SUR YON,85002,4,3,False,
+COMMUNE DE REZE,reze,NAME:reze,44,Rezé,44403,8,5,False,
+COMMUNE DE VERRIERES EN ANJOU,verrieres en anjou,NAME:verrieres en anjou,49,Verrières en Anjou,49480,1,1,False,
+ville de Coulaines,coulaines,NAME:coulaines,72,Coulaines,72190,2,2,False,
+MAIRIE DE BAUGE EN ANJOU,bauge en anjou,NAME:bauge en anjou,49,BAUGE-EN-ANJOU,49150,5,3,False,
+Mairie de Coueron,coueron,NAME:coueron,44,Coueron,44220,6,5,False,
+Ville de Château-Gontier,chateau gontier,NAME:chateau gontier,53,Château-Gontier-Sur-Mayenne,,1,1,False,
+GIE Loire Océan,gie loire ocean,NAME:gie loire ocean,44,Nantes Cédex 01,44035,2,1,False,
+VENDEE,vendee,NAME:vendee,85,La Roche sur Yon,85000,15,7,False,
+EPF de la Vendée,epf de la vendee,NAME:epf de la vendee,85,La Roche sur Yon,85000,3,2,False,
+SEMITAN mandataire de Nantes Métropole,semitan mandataire de nantes metropole,NAME:semitan mandataire de nantes metropole,44,Nantes Cedex 1,44046,14,7,False,
+Baie de Somme Habitat,baie de somme habitat,NAME:baie de somme habitat,44,SAINT-HERBLIN,44800,2,1,False,
+FONDATION PARTENARIALE POLYTECH,fondation partenariale polytech,NAME:fondation partenariale polytech,44,Marseille,13007,4,2,False,
+Comcom Estuaire et Sillon,comcom estuaire et sillon,NAME:comcom estuaire et sillon,44,SAVENAY,44260,4,2,False,
+MINDEF/EMA/DC SCA/PFAF CO Rennes,mindef ema dc sca pfaf co rennes,NAME:mindef ema dc sca pfaf co rennes,37,Rennes cedex 9,35998,2,1,False,
+CHU NANTES,nantes,SIRET:17440005100010,44,Nantes cedex,44041,13,5,True,17440005100010|26440013600471
+MAIRIE DE CORDEMAIS,cordemais,NAME:cordemais,44,CORDEMAIS,44360,1,1,False,
+COMMUNE DE MAUGES SUR LOIRE,mauges sur loire,NAME:mauges sur loire,49,Mauges sur Loire,49620,8,5,False,
+ETABLISSEMENT PUBLIC DU MARAIS POITEVI,du marais poitevi,NAME:du marais poitevi,85,Luçon,85400,2,1,False,
+Ville d'Alençon,ville d alencon,NAME:ville d alencon,61,Alencon,61014,5,3,False,
+ECOLE NATIONALE SUPERIEURE MARITIME,ecole nationale superieure maritime,NAME:ecole nationale superieure maritime,76,Le havre,76600,3,2,False,
+CCI METROPOLITAINE BRETAGNE OUEST,cci metropolitaine bretagne ouest,NAME:cci metropolitaine bretagne ouest,29,Brest cedex 2,29238,2,2,False,
+Conservatoire du littoral,conservatoire du littoral,NAME:conservatoire du littoral,17,Rochefort cedex,17306,5,2,False,
+Sembreizh société,sembreizh societe,NAME:sembreizh societe,35,CESSON SEVIGNE,35510,2,2,False,
+Commune de Champagné,champagne,NAME:champagne,72,Champagné,72470,1,1,False,
+SHEMA,shema,NAME:shema,14,CAEN,14018,4,3,False,
+S. M. Sarthois d'Aménagement Numérique,s m sarthois d amenagement numerique,NAME:s m sarthois d amenagement numerique,72,Le Mans,72072,1,0,False,
+CCI de région Bretagne,cci de region bretagne,NAME:cci de region bretagne,35,Rennes cedex,35044,2,1,False,
+COMMUNE DE BEAUFORT EN ANJOU,beaufort en anjou,NAME:beaufort en anjou,49,Beaufort-en-Anjou,49250,2,1,False,
+Communauté de Cnes Terres de Montaigu,cnes terres de montaigu,NAME:cnes terres de montaigu,85,MONTAIGU-VENDEE Cedex,85607,4,3,False,
+SYDELA,sydela,NAME:sydela,44,Orvault,44701,5,3,False,
+Cté de Communes de la Région de Blain,cte de communes de la blain,NAME:cte de communes de la blain,44,Blain,44130,7,5,False,
+INRA ANGERS NANTES,inra angers nantes,NAME:inra angers nantes,44,Nantes,44300,4,2,False,
+CCI Nantes Saint-Nazaire,cci nantes saint nazaire,NAME:cci nantes saint nazaire,44,Nantes,44300,7,4,False,
+CC PAYS DE CRAON,cc pays de craon,NAME:cc pays de craon,53,Craon,53400,2,1,False,
+SGAMI OUEST,sgami ouest,NAME:sgami ouest,35,Rennes cedex 2,35207,6,2,False,
+COMMUNE DU CROISIC,commune du croisic,NAME:commune du croisic,44,LE CROISIC,44490,1,1,False,
+CCI DE REG CTRE VAL DE LOIRE,cci de reg ctre val de loire,NAME:cci de reg ctre val de loire,45,Fleury-les-Aubrais,45404,2,1,False,
+SRD,srd,NAME:srd,86,POITIERS,,3,1,False,
+Adoma,adoma,NAME:adoma,75,Paris,75013,1,1,False,
+COMMUNE DE OMBREE D ANJOU,ombree d anjou,NAME:ombree d anjou,49,Ombrée d'Anjou,49420,4,4,False,
+Rectorat de l'Académie de Nantes,rectorat de l academie de nantes,NAME:rectorat de l academie de nantes,44,NANTES,44326,4,3,False,
+SAINT NAZAIRE AGGLOMERATION TOURISME,saint nazaire agglomeration tourisme,NAME:saint nazaire agglomeration tourisme,44,Saint-nazaire,44600,1,1,False,
+MASH,mash,NAME:mash,44,Saint Herblain,44800,7,3,False,
+Commune de Notre Dame des Landes,notre dame des landes,NAME:notre dame des landes,44,Notre Dame des Landes,44130,1,1,False,
+Ville de Saint-Malo,saint malo,NAME:saint malo,35,Saint-Malo,35418,1,1,False,
+MAUGES COMMUNAUTE,mauges communaute,NAME:mauges communaute,49,Beaupréau-en-Mauges,49602,4,2,False,
+Communauté urbaine d'Alençon,communaute urbaine d alencon,NAME:communaute urbaine d alencon,61,Alençon,61014,3,2,False,
+Communauté de Communes Vie et Boulogne,communes vie et boulogne,NAME:communes vie et boulogne,85,Le Poiré sur Vie,85170,1,1,False,
+DRAGAGES PORTS,dragages ports,NAME:dragages ports,76,Rouen cedex 1,76107,3,2,True,317665420
+Espacil Habitat,espacil habitat,NAME:espacil habitat,35,RENNES,,1,1,False,
+Cap Atlantique,cap atlantique,NAME:cap atlantique,44,LA BAULE,44503,6,3,False,
+ComCom des Vallées du Haut-Anjou,comcom des vallees du haut anjou,NAME:comcom des vallees du haut anjou,49,Le Lion d'Angers,49220,5,2,False,
+MINDEF/SGA/SPAC/S-Direction des achats,mindef sga spac s direction des achats,NAME:mindef sga spac s direction des achats,75,Paris Cedex 15,75509,2,0,False,
+Loire Atlantique développement,loire atlantique developpement,NAME:loire atlantique developpement,44,Nantes,44262,5,2,False,
+Cté de Cnes du Pays d'Ancenis,cte de cnes du pays d ancenis,NAME:cte de cnes du pays d ancenis,44,Ancenis-Saint-Géréon,44156,7,5,False,
+CA SAUMUR VAL DE LOIRE,ca saumur val de loire,NAME:ca saumur val de loire,49,Nantes,44041,4,4,True,17440005100010
+Commune de Saintes,saintes,NAME:saintes,17,Saintes,17100,1,1,False,
+DIR INTERDEPARTEMENTALE DES RTE OUEST,dir interdepartementale des rte ouest,NAME:dir interdepartementale des rte ouest,35,Rennes cedex,35031,6,2,False,
+CHAMBRE REG AGRI PAYS DE LA LOIRE,chambre reg agri pays de la loire,NAME:chambre reg agri pays de la loire,14,ANGERS,49105,2,2,False,
+CIF GIE GEIPCI,cif gie geipci,NAME:cif gie geipci,44,NANTES,44000,3,2,False,
+COMMUNE LES SABLES D OLONNE,commune les sables d olonne,NAME:commune les sables d olonne,85,Les Sables d'Olonne,85100,4,2,False,
+Cté cnes du Pays de Château de Gontier,cte cnes du pays de chateau de gontier,NAME:cte cnes du pays de chateau de gontier,53,Château-Gontier-sur-Mayenne,,1,1,False,
+SEM CENOVIA,sem cenovia,NAME:sem cenovia,72,Le Mans,72015,2,1,False,
+CENTRE DE GESTION DE LA FONCTION PUBLI,centre de gestion de la fonction publi,NAME:centre de gestion de la fonction publi,85,La Roche sur Yon,85000,1,1,False,
+Orchestre National des Pays de la Loir,orchestre national des pays de la loir,NAME:orchestre national des pays de la loir,49,Angers cedex 02,49052,1,1,False,
+SOC PUBLIQUE REG ABE DE FONTEVRAUD,soc publique reg abe de fontevraud,NAME:soc publique reg abe de fontevraud,49,FONTEVRAUD L'ABBAYE,49590,8,4,False,
+CRDC LE LIEU UNIQUE,crdc le lieu unique,NAME:crdc le lieu unique,44,NANTES cedex 1,44013,1,1,False,
+IRCEC,ircec,NAME:ircec,75,PARIS CEDEX 09,75440,1,1,False,
+Communauté Communes Parthenay-Gâtine,communaute communes parthenay gatine,NAME:communaute communes parthenay gatine,79,Parthenay,79200,2,2,False,
+Podeliha,podeliha,NAME:podeliha,49,Angers,49000,2,2,False,
+Communauté de communes de sablé,communes de sable,NAME:communes de sable,72,Sablé sur Sarthe,,2,1,False,
+SIRI 49,siri 49,NAME:siri 49,49,Avrillé,49240,2,1,False,
+CNAM,cnam,NAME:cnam,75,Paris cedex 03,75141,1,1,False,
+SYNDICAT MIXTE GIGALIS,syndicat mixte gigalis,NAME:syndicat mixte gigalis,44,Nantes Cedex 9,44966,3,3,False,
+EC SUP BEAUX ARTS TOURS ANGERS MANS,ec sup beaux arts tours angers mans,NAME:ec sup beaux arts tours angers mans,37,Angers,49100,1,1,False,
+Mairie de Blain,blain,NAME:blain,44,Blain,44130,2,1,False,
+Centre Hospitalier de Laval (53),de laval 53,NAME:de laval 53,53,Laval Cedex,53015,9,5,False,
+CA Agglomération du Choletais,ca agglomeration du choletais,NAME:ca agglomeration du choletais,49,Cholet,49321,2,1,False,
+DESTINATION RENNES Tourisme Congrès,destination rennes tourisme congres,NAME:destination rennes tourisme congres,35,Rennes cedex,35064,3,3,False,
+ANGERS LOIRE TOURISME EXPO CONGRES,angers loire tourisme expo congres,NAME:angers loire tourisme expo congres,49,Angers,49051,6,2,False,
+COMMUNAUTE DE COMMUNES DU SUD ESTUAIRE,communes du sud estuaire,NAME:communes du sud estuaire,44,Paimboeuf,44560,2,1,False,
+EPSILON CENTRALE D'ACHAT INFORMATIQUE,epsilon centrale d achat informatique,NAME:epsilon centrale d achat informatique,33,BORDEAUX Cedex,33077,2,2,False,
+CC Loire Layon Aubance,cc loire layon aubance,NAME:cc loire layon aubance,49,ST GEORGES SUR LOIRE,49170,2,1,False,
+Ministère de l'éducation nationale,ministere de l education nationale,NAME:ministere de l education nationale,75,Paris,75732,2,1,False,
+OFFICE FRANCAIS DE LA BIODIVERSITE,office francais de la biodiversite,NAME:office francais de la biodiversite,94,Vincennes,94300,5,2,False,
+PREFECTURE D'EURE-ET-LOIR,prefecture d eure et loir,NAME:prefecture d eure et loir,28,Chartres,28019,1,1,False,
+COMMUNE DE BOUAYE,bouaye,NAME:bouaye,44,Bouaye,44830,3,2,False,
+ENSA Nantes,ensa nantes,NAME:ensa nantes,44,Nantes cedex 2,44262,2,1,False,
+MAIRIE DE LA CHAPELLE SUR ERDRE,la chapelle sur erdre,NAME:la chapelle sur erdre,44,La chapelle sur erdre,44240,1,1,False,
+Ville de Parthenay,parthenay,NAME:parthenay,79,Parthenay,79200,1,1,False,
+Grand Lieu Communauté,grand lieu communaute,NAME:grand lieu communaute,44,La Chevrolière,44118,2,1,False,
+CC Océan Marais de Monts,cc ocean marais de monts,NAME:cc ocean marais de monts,85,Saint Jean de Monts,85167,5,4,False,
+DIR REG ENVIR AMENAGEMENT LOGT BRETAGN,dir reg envir amenagement logt bretagn,NAME:dir reg envir amenagement logt bretagn,35,Rennes cedex,35065,1,1,False,
+CC DU PAYS DE ST FULGENT LES ESSARTS,cc du pays de st fulgent les essarts,NAME:cc du pays de st fulgent les essarts,85,Saint-Fulgent,85250,1,1,False,
+SATT OUEST VALORISATION,satt ouest valorisation,NAME:satt ouest valorisation,35,Rennes,35708,1,1,False,
+Ville de Larmor-plage,larmor plage,NAME:larmor plage,56,larmor-plage,56260,1,1,False,
+CD 44,cd 44,NAME:cd 44,44,Nantes,44041,14,6,False,
+MEDDE / DGAC / SCN / SSIM,medde dgac scn ssim,NAME:medde dgac scn ssim,91,Athis-Mons,91200,2,1,False,
+Groupement d'achats de l'Herm,groupement d achats de l herm,NAME:groupement d achats de l herm,85,Saint Michel En L Herm,85580,1,1,False,
+CA LES SABLES D OLONNE AGGLOMERATION,ca les sables d olonne agglomeration,NAME:ca les sables d olonne agglomeration,85,Les Sales d'Olonne,85100,4,2,False,
+CREHA Ouest,creha ouest,NAME:creha ouest,44,Saint-Herblain,44800,2,1,False,
+CENTRE DE GESTION 87,centre de gestion 87,NAME:centre de gestion 87,87,LIMOGES,87000,1,1,False,
+SDE35,sde35,NAME:sde35,35,THORIGNE FOUILLARD,35236,3,3,False,
+Gcs E-Sante Pays de la Loire,gcs e sante pays de la loire,NAME:gcs e sante pays de la loire,44,Nantes,44200,5,2,True,53820845500021
+TERRITOIRE D'ENERGIE MAYENNE,territoire d energie mayenne,NAME:territoire d energie mayenne,53,Changé,53810,1,1,False,
+Vendée Grand Littoral,vendee grand littoral,NAME:vendee grand littoral,85,Talmont Saint Hilaire,85440,3,3,False,
+SCA/PFAF SO,sca pfaf so,NAME:sca pfaf so,31,Bordeaux,33000,1,1,False,
+Ecole National Sup. d'Arts et Métiers,ecole national sup d arts et metiers,NAME:ecole national sup d arts et metiers,75,Paris,75013,1,1,False,
+COMMUNAUTE COMMUNES HUISNE SARTHOISE,communaute communes huisne sarthoise,NAME:communaute communes huisne sarthoise,72,LA FERTE-BERNARD,72400,1,1,False,
+GEVES,geves,NAME:geves,49,Beaucouzé cedex,49071,8,3,False,
+LA GARNACHE,la garnache,NAME:la garnache,85,LA GARNACHE,85710,3,2,False,
+Région Bretagne,region bretagne,NAME:region bretagne,22,RENNES,35711,2,2,False,
+"Syndicat Mixte "" Sarthe Numérique """,syndicat mixte sarthe numerique,NAME:syndicat mixte sarthe numerique,72,Le Mans,72072,2,0,False,
+COMMUNE DE LA FERTE-BERNARD,la ferte bernard,NAME:la ferte bernard,72,La Ferte-Bernard,72400,1,1,False,
+Clisson Sèvre et Maine Agglo,clisson sevre et maine agglo,NAME:clisson sevre et maine agglo,44,Clisson,44190,3,2,False,
+CORLAB,corlab,NAME:corlab,22,SERENT,56460,2,2,False,
+GROUPEMENT D INTERET PUBLIC PIX,groupement d interet public pix,NAME:groupement d interet public pix,75,Paris,75019,1,1,False,
+COMMUNE DE CESSON SEVIGNE,cesson sevigne,NAME:cesson sevigne,35,Cesson sévigné,35510,7,4,False,
+URSSAF des Pays de la Loire,urssaf des pays de la loire,NAME:urssaf des pays de la loire,44,Nantes cedex 9,44933,2,1,False,
+Territoire d'Énergie de Mayenne,territoire d energie de mayenne,NAME:territoire d energie de mayenne,53,Changé,53810,2,1,False,
+CCAS coulaines,ccas coulaines,NAME:ccas coulaines,72,Coulaines,72190,1,1,False,
+CCI Pays de la Loire,cci pays de la loire,NAME:cci pays de la loire,44,Nantes,44100,8,6,False,
+Commune de Saint Mars du Désert,saint mars du desert,NAME:saint mars du desert,44,SAINT-MARS-DU-DESERT,44850,1,1,False,
+ADAR44,adar44,NAME:adar44,44,Orvault,44703,2,1,False,
+Commune Bagnoles de l'Orne Normandie,commune bagnoles de l orne normandie,NAME:commune bagnoles de l orne normandie,61,BAGNOLES DE L'ORNE,61140,2,1,False,
+Mairie de Saint-Gilles-Croix-de-Vie,saint gilles croix de vie,NAME:saint gilles croix de vie,85,Saint-Gilles-Croix-de-Vie,85806,1,1,False,
+Communauté de Communes de Nozay,communes de nozay,NAME:communes de nozay,44,NOZAY,44170,2,1,False,
+Université de Rennes 1,rennes 1,NAME:rennes 1,35,Rennes,35065,1,1,False,
+Commune d'Ancenis-Saint-Géréon,commune d ancenis saint gereon,NAME:commune d ancenis saint gereon,44,Ancenis-Saint-Géréon,44156,2,2,False,
+Mairie de Sucé sur Erdre,suce sur erdre,NAME:suce sur erdre,44,SUCE-SUR-ERDRE,44240,1,1,False,
+Mairie de La Baule-Escoublac,la baule escoublac,NAME:la baule escoublac,44,LA BAULE-ESCOUBLAC,44500,3,2,False,
+ANGERS LOIRE ECO,angers loire eco,NAME:angers loire eco,49,ANGERS Cedex 2,49104,1,1,False,
+EPCC Les Quinconces & L'Espal,epcc les quinconces l espal,NAME:epcc les quinconces l espal,72,Le Mans,72000,1,1,False,
+Agence de l'eau Loire-Bretagne,agence de l eau loire bretagne,NAME:agence de l eau loire bretagne,45,Orleans cedex2,45063,1,1,False,
+GIP RESAH,gip resah,NAME:gip resah,44,ANGERS,44120,15,0,False,
+Rectorat Division Scus,rectorat division scus,NAME:rectorat division scus,44,Nantes,44326,1,1,False,
+Commune de VALLONS-DE-L'ERDRE,vallons de l erdre,NAME:vallons de l erdre,44,VALLONS-DE-L'ERDRE,44540,3,2,False,
+CONSEIL DEPARTEMENTAL DE LOIRE-ATLANTI,de loire atlanti,NAME:de loire atlanti,44,NANTES,44041,18,11,False,
+St Gilles Croix de Vie Agglomération,st gilles croix de vie agglomeration,NAME:st gilles croix de vie agglomeration,85,Givrand,85800,4,2,False,
+Rectorat de Rennes,rectorat de rennes,NAME:rectorat de rennes,35,Rennes cedex,35705,1,0,False,
+DGAC DSNA,dgac dsna,NAME:dgac dsna,33,,,1,1,False,
+Agence Régionale de Santé (ARS),agence regionale de sante ars,NAME:agence regionale de sante ars,69,Lyon cedex 3,69418,1,1,False,
+Théatre Le Quai,theatre le quai,NAME:theatre le quai,49,ANGERS cedex 02,49101,1,1,False,
+GCSMS PART'AGE 72,gcsms part age 72,NAME:gcsms part age 72,72,BALLON-SAINT MARS,72290,1,1,False,
+COMMUNE DE MURS ERIGNE,murs erigne,NAME:murs erigne,49,Mûrs Erigné,49610,1,1,False,
+DEPARTEMENT DE VENDEE,vendee,NAME:vendee,85,La Roche sur Yon,85021,2,1,False,
+Ville de Chemillé en Anjou,chemille en anjou,NAME:chemille en anjou,49,Chemillé en Anjou,49120,3,2,False,
+UBS,ubs,NAME:ubs,56,Lorient,56321,4,4,False,
+CC Sud Vendée Littoral,cc sud vendee littoral,NAME:cc sud vendee littoral,85,LUÇON,85400,1,1,False,
+SPM - DSAF - BCP,spm dsaf bcp,NAME:spm dsaf bcp,75,Paris cedex 07,75334,1,0,False,
+SPL EAU DU BASSIN RENNAIS,spl eau du bassin rennais,NAME:spl eau du bassin rennais,35,RENNES CEDEX,35000,2,2,False,
+Communauté de communes BAUGEOIS VALLEE,communes baugeois vallee,NAME:communes baugeois vallee,49,Baugé en Anjou,49150,3,2,False,
+COM DE COMMUNES DE BELLE ILE EN MER,com de communes de belle ile en mer,NAME:com de communes de belle ile en mer,56,Le Palais,56360,2,1,False,
+DEPAFI,depafi,NAME:depafi,75,Paris,75800,3,1,False,
+ville de Bouchemaine,bouchemaine,NAME:bouchemaine,49,Bouchemaine,49080,1,1,False,
+Commune d'Indre,commune d indre,NAME:commune d indre,44,Indre,44610,1,1,False,
+Ville de Lagord,lagord,NAME:lagord,17,LAGORD,17140,2,1,False,
+Afac-Agroforesteries,afac agroforesteries,NAME:afac agroforesteries,34,Paris,75011,2,1,False,
+CENOVIA CITES,cenovia cites,NAME:cenovia cites,72,Le Mans,72015,3,2,True,443928874
+SPL GOLFE DU MORBIHAN VANNES TOURISME,spl golfe du morbihan vannes tourisme,NAME:spl golfe du morbihan vannes tourisme,56,Vannes,56000,1,1,False,
+UNICANCER ACHATS,unicancer achats,NAME:unicancer achats,49,Saint herblain,44805,1,1,False,
+TERRITOIRE ENERGIE LOIRE ATLANTIQUE,territoire energie loire atlantique,NAME:territoire energie loire atlantique,44,ORVAULT,,6,3,False,
+UNIVERSITE GUSTAVE EIFFEL,universite gustave eiffel,NAME:universite gustave eiffel,77,Marne la Vallée,77454,3,3,False,
+GRETA-CFA LOIRE-ATLANTIQUE,greta cfa loire atlantique,NAME:greta cfa loire atlantique,44,NANTES,44000,1,1,False,
+Cté Cnes LES PORTES BRIARDES,cte cnes les portes briardes,NAME:cte cnes les portes briardes,77,Ozoir-la-Ferrière,77330,1,1,False,
+Mairie de Guérande,guerande,NAME:guerande,44,GUERANDE,44351,1,1,False,
+DSI de Pôle emploi,dsi de pole emploi,NAME:dsi de pole emploi,93,Montreuil,93100,2,1,False,
+SPL Laval Mayenne Aménagements,spl laval mayenne amenagements,NAME:spl laval mayenne amenagements,53,Laval,53000,5,3,False,
+Pays de Blain Communauté,pays de blain communaute,NAME:pays de blain communaute,44,Blain,44130,2,1,False,
+LE PLONGEOIR - CITE DU CIRQUE,le plongeoir cite du cirque,NAME:le plongeoir cite du cirque,72,Le Mans,72100,2,2,False,
+Préfecture 85,prefecture 85,NAME:prefecture 85,85,La roche sur yon,85922,1,1,False,
+SONADEV,sonadev,NAME:sonadev,44,Saint-Nazaire,44601,1,1,False,
+Ville de Montaigu-Vendée,montaigu vendee,NAME:montaigu vendee,85,Montaigu-Vendée,85600,1,1,False,
+Mairie de Clisson,clisson,NAME:clisson,44,CLISSON,44190,1,1,False,
+EPMP,epmp,NAME:epmp,85,LUCON,85400,2,1,False,
+CARIFOREF,cariforef,NAME:cariforef,44,NANTES,44041,2,1,True,92084215000012
+IRA DE LYON,ira de lyon,NAME:ira de lyon,69,Villeurbanne cedex,69616,1,1,False,
+COMMUNAUTE DE COMMUNES DE L ERNEE,communes de l ernee,NAME:communes de l ernee,53,Ernee,53500,1,1,False,
+Conseil Départemental de la Mayenne,de la mayenne,NAME:de la mayenne,53,Seyssinet-Pariset,38170,7,5,True,443928874
+SOCIETE PUBLIQUE REGIONALE ABBAYE DE FONTEVRAUD,societe publique regionale abbaye de fontevraud,NAME:societe publique regionale abbaye de fontevraud,49,Seyssinet-Pariset,38170,5,3,True,443928874
+VILLE DE SAINT NAZAIRE,saint nazaire,NAME:saint nazaire,44,Seyssinet-Pariset,38170,9,4,True,443928874
+Destination Angers,destination angers,SIRET:83095506800044,49,Angers,49051,5,4,True,83095506800044
+Tribunal administratif de Nantes,tribunal administratif de nantes,SIRET:17440005100010,44,Nantes Cedex,44041,1,1,True,17440005100010
+Conseil départemental Loire Atlantique,loire atlantique,NAME:loire atlantique,44,Seyssinet-Pariset,38170,14,9,True,443928874
+GIE des EPL des Pays de la Loire,gie des epl des pays de la loire,SIRET:52921080900016,44,Nantes,44 200,1,1,True,52921080900016
+BACKNET SOLUTIONS,backnet solutions,SIRET:48756658000014,49,LA VALETTE DU VAR,01600,1,0,True,48756658000014
+Société d'aménagement de la Métropole Ouest Atlantique,societe d amenagement de la metropole ouest atlantique,SIRET:17350111500013,44,Rennes,35031 ,1,1,True,17350111500013
+Nantes Université,nantes universite,SIRET:17440005100010,44,NANTES,44041,5,3,True,13002928300012|17440005100010|13002974700016
+Tribunal Administratif de Nantes,tribunal administratif de nantes,SIRET:17440005100010,44,Nantes cedex,44041,1,1,True,17440005100010
+Le Mans Métropole,le mans metropole,NAME:le mans metropole,72,Seyssinet-Pariset,38170,17,12,True,443928874
+Syndicat Départemental d'Energie et d'Equipement de la Vendée (85),syndicat departemental d energie et d equipement de la vendee 85,SIRET:20004248900019,85,LA ROCHE SUR YON Cedex,85000,1,1,True,20004248900019
+Vendée Eau (85),vendee eau 85,SIRET:25850022200033,85,La Roche sur Yon,85036,2,1,True,25850022200033
+LPO Touchard Washington,lpo touchard washington,NAME:lpo touchard washington,72,Seyssinet-Pariset,38170,1,1,True,443928874
+Syndicat Mixte e-Collectivités Vendée,syndicat mixte e collectivites vendee,SIRET:20004311500019,85,La Roche sur Yon Cedex,85006,1,0,True,20004311500019
+Communauté de communes du Pays Sabolien,communes du pays sabolien,NAME:communes du pays sabolien,72,Seyssinet-Pariset,38170,1,1,True,443928874
+GIE SESAM VITALE,gie sesam vitale,SIRET:39172288100052,72,Le mans cedex 2,72019,5,5,True,17440005100010|39172288100052
+GIE SESAM-Vitale,gie sesam vitale,SIRET:17440005100010,72, Nantes cedex ,44041,1,1,True,17440005100010
+SDIS44,sdis44,SIRET:17350111500864,44,Nantes,44243,2,1,True,17350111500864
+Commune Mauges sur Loire,commune mauges sur loire,SIRET:20005433600017,49,MAUGES SUR LOIRE,49620,2,1,True,20005433600017
+Ville de La Baule Escoublac,la baule escoublac,NAME:la baule escoublac,44,Seyssinet-Pariset,38170,2,1,True,443928874
+Pays de Saint Gilles Croix de Vie Agglomération (85),pays de saint gilles croix de vie agglomeration 85,SIRET:20002377800018,85,Saint Gilles Croix de Vie,85806,2,1,True,20002377800018
+MAIRIE DE REZE,reze,NAME:reze,44,Seyssinet-Pariset,38170,4,2,True,443928874
+BATIMENT CFA NORMANDIE,batiment cfa normandie,SIRET:77811608700157,76,SAINT ETIENNE DU ROUVRAY,76800,4,3,True,77811608700157
+"Terres de Montaigu, Communauté d'Agglomération (85)",terres de montaigu communaute d agglomeration 85,SIRET:20007023300016,85,Montaigu-Vendée,85600,3,2,True,20007023300016
+Université de Rennes,rennes,SIRET:13003051300019,35,Rennes cedex,35000,2,2,True,13003051300019
+Ville d'Angers Loire Metropole (49),ville d angers loire metropole 49,SIRET:24490001500011,49,ANGERS cedex 02,49020,1,1,True,24490001500011
+ARS Pays de la Loire,ars pays de la loire,SIRET:47806779600084,44,PARIS,75016,1,0,True,47806779600084
+SERVICE DEPARTEMENTAL D'INCENDIE ET DE SECOURS DE MAINE ET LOIRE,service departemental d incendie et de secours de maine et loire,SIRET:17440051000010,49,Beaucouzé,44041,2,1,True,17440051000010|28490001600023
+CH DU MANS,du mans,SIRET:26720016000013,72,Le mans cedex 9,72037,2,2,True,26720016000013
+Le Plongeoir - Cité du Cirque,le plongeoir cite du cirque,NAME:le plongeoir cite du cirque,72,Seyssinet-Pariset,38170,1,0,True,443928874
+Ville des Sables d’Olonne,ville des sables d olonne,SIRET:20008213900011,85,LES SABLES D’OLONNE,85118,2,1,True,20008213900011
+Chambre de Commerce et d'Industrie Région Pays de la Loire,chambre de commerce et d industrie region pays de la loire,SIRET:18440128900022,44,Saint-Herblain,,2,2,True,18440128900022|18440128900386
+CHAMBRE DE COMMERCE D INDUSTRIE DE MAINE LOIRE,chambre de commerce d industrie de maine loire,SIRET:13000460900017,49,Angers,49100,1,1,True,13000460900017
+Plateforme régionale des achats (PFRA) des Pays de la Loire,plateforme regionale des achats pfra des pays de la loire,SIRET:11000201100044,44,NANTES,44000,2,2,True,17440000200039|11000201100044
+Les Sables d'Olonne Agglomération,les sables d olonne agglomeration,SIRET:20007116500167,85,LES SABLES D’OLONNE,85118,2,1,True,20007116500167
+NANTES UNIVERSITE,nantes universite,SIRET:13002974700016,44,Nantes,44000,2,1,True,17440005100010|13002974700016
+Direction interdépartementale des routes ouest DIR Ouest,direction interdepartementale des routes ouest dir ouest,SIRET:17350005900014,35,Rennes,35044,2,2,True,17350005900014
+GROUPEMENT TRANSAMO - CENOVIA,groupement transamo cenovia,NAME:groupement transamo cenovia,72,Seyssinet-Pariset,38170,2,1,True,443928874
+CHU ANGERS Etablissement support du Groupement Hospitalier de Territoire de Maine et Loire,angers etablissement support du groupement hospitalier de territoire de maine et loire,NAME:angers etablissement support du groupement hospitalier de territoire de maine et loire,49,Angers Cedex 9,49933,1,1,False,
+Département des Côtes d'Armor,departement des cotes d armor,SIRET:22220001600327,22,St brieuc cedex 1,22023,1,1,True,22220001600327
+Tribunal administratif de Paris,tribunal administratif de paris,SIRET:17750005500013,75,Paris,75181,1,1,True,17750005500013
+Cholet Agglomération,cholet agglomeration,SIRET:20007167800011,49,Cholet cedex,49321,2,1,True,20007167800011
+Grand Port Maritime de Nantes Saint-Nazaire,grand port maritime de nantes saint nazaire,SIRET:77560485300041,44,Nantes,44186,1,0,True,77560485300041
+SMIDAP,smidap,SIRET:25440139100027,44,NANTES,44200,2,1,True,25440139100027
+"Rectorat de la région académique Grand Est, rectorat de l'académie de Nancy-Metz",rectorat de la region academique grand est rectorat de l academie de nancy metz,SIRET:13002953100055,54,Nancy,54000,1,1,True,13002953100055
+Nantes metropole,nantes metropole,SIRET:24440040400129,44,Nantes,44923 cedex9,3,3,True,24440040400129
+Ville de LE POULIGUEN,le pouliguen,NAME:le pouliguen,44,Seyssinet-Pariset,38170,1,1,True,443928874
+GCS BIOLOGIE 85,gcs biologie 85,SIRET:13002103300019,85,LA ROCHE SUR YON CEDEX 9,85925,1,0,True,13002103300019
+Mairie de Saint-Herblain,saint herblain,SIRET:21440162200011,44,Saint herblain cedex,44802,2,1,True,21440162200011
+Ville de NANTES,nantes,SIRET:21440109300015,44,NANTES,44000,1,0,True,21440109300015
+Centre de Gestion de la fonction publique territoriale de Loire-Atlantique,centre de gestion de la fonction publique territoriale de loire atlantique,SIRET:28440002500011,44,NANTES CEDEX 2,44262,1,1,True,28440002500011
+Ministère de la justice - SG/2S2M/SDIT,ministere de la justice sg 2s2m sdit,NAME:ministere de la justice sg 2s2m sdit,75,Paris cedex 01,75042,2,1,False,
+Territoire d'énergie Loire-Atlantique,territoire d energie loire atlantique,NAME:territoire d energie loire atlantique,44,Seyssinet-Pariset,38170,2,1,True,443928874
+GIE LOIRE OCEAN,gie loire ocean,SIRET:53961650800021,44,Nantes,44000,1,0,True,53961650800021
+INESAAE - L'Institut Agro,inesaae l institut agro,SIRET:13002622200013,21,Paris,75016,3,2,True,13002622200013
+SAEM VENDEE - Vendée Globe,saem vendee vendee globe,SIRET:45151864100035,85,La Roche sur Yon,85000,2,2,True,45151864100035
+Angers Loire Metropole (49),angers loire metropole 49,SIRET:24490001500011,49,ANGERS,49020,1,0,True,24490001500011
+Ville de Luçon (85),lucon 85,SIRET:21850128600015,85,Luçon,85403,1,1,True,21850128600015
+Association E-TOILE,association e toile,SIRET:80355563000018,14,CAEN,14053,2,1,True,80355563000018
+Mayenne Très Haut Débit,mayenne tres haut debit,NAME:mayenne tres haut debit,53,Seyssinet-Pariset,38170,1,1,True,443928874
+Nantes métropole,nantes metropole,SIRET:24440040400129,44,Nantes cedex 9,44923,5,5,True,24440040400129
+Direction de l'administration pénitentiaire,direction de l administration penitentiaire,SIRET:12001201800111,75,Paris cedex 01,75042,3,3,True,11000201100044|12001201800111
+REGION DES PAYS DE LA LOIRE,region des pays de la loire,SIRET:23440003400026,44,NANTES,44000,3,0,True,23440003400026
+Saint-Nazaire Agglomération -  la CARENE,saint nazaire agglomeration la carene,NAME:saint nazaire agglomeration la carene,44,Seyssinet-Pariset,38170,3,3,False,
+VILLE DE LAVAL,laval,SIRET:17440005100010,53,Nantes,44041,1,1,True,17440005100010
+SPL ANGERS LOIRE TOURISME EXPO CONGRES (ALTEC) - DESTINATION ANGERS,spl angers loire tourisme expo congres altec destination angers,SIRET:83095506800044,49,Angers,49051,2,0,True,83095506800044
+Mairie Tours,mairie tours,SIRET:21370261600011,37,Tours cedex 9,37926,1,1,True,21370261600011
+La Roche sur Yon Agglomération (85),la roche sur yon agglomeration 85,SIRET:24850058900085,85,La Roche sur Yon,85021,2,2,True,24850058900085
+Rectorat de NANTES,rectorat de nantes,SIRET:11000201100044,44,Nantes,44326,1,1,True,11000201100044
+AUDENCIA EESC,audencia eesc,NAME:audencia eesc,44,Seyssinet-Pariset,38170,1,1,False,
+Groupement d'intérêt public Vendée Numérique,groupement d interet public vendee numerique,NAME:groupement d interet public vendee numerique,85,Seyssinet-Pariset,38170,1,0,False,
+Communauté d'Agglomération du Niortais,communaute d agglomeration du niortais,SIRET:20004131700013,79,Niort cedex,79027,1,1,True,20004131700013
+IMT ATLANTIQUE BRETAGNE - PAYS DE LA LOIRE,imt atlantique bretagne pays de la loire,SIRET:18009202500121,44,Nantes cedex 3,44307,1,1,True,18009202500121
+IMT Atlantique Bretagne - Pays de la Loire,imt atlantique bretagne pays de la loire,SIRET:18009202500121,44,Nantes cedex 3,44307,1,1,True,18009202500121
+"SEMITAN, mandataire de Nantes Métropole",semitan mandataire de nantes metropole,NAME:semitan mandataire de nantes metropole,44,Seyssinet-Pariset,38170,1,1,False,
+REGION PAYS DE LA LOIRE,region pays de la loire,SIRET:17440005100010,44,Nantes,44000,1,1,True,17440005100010
+France Velo Tourisme,france velo tourisme,SIRET:51532951400035,44,Nantes,44000,1,1,True,51532951400035
+Syndicat Mixte pour le Développement Numérique,syndicat mixte pour le developpement numerique,NAME:syndicat mixte pour le developpement numerique,72,Seyssinet-Pariset,38170,1,1,False,
+La Cité des Congrès de Nantes agissant au nom et pour le compte de Nantes Métropole,la cite des congres de nantes agissant au nom et pour le compte de nantes metropole,NAME:la cite des congres de nantes agissant au nom et pour le compte de nantes metropole,44,Nantes,44041,1,0,False,
+Ville de Trélazé (49),trelaze 49,SIRET:21490353600016,49,Trélazé,49800,1,1,True,21490353600016
+Université Rennes 2,universite rennes 2,SIRET:19350937900015,35,Rennes,35000,1,1,True,19350937900015
+Commune de Beaupréau en Mauges,beaupreau en mauges,SIRET:20005361900017,49,BEAUPREAU EN MAUGES,49602,1,1,True,20005361900017
+ECOLE NATIONALE SUPERIEURE D'ARTS ET METIERS,ecole nationale superieure d arts et metiers,SIRET:19753472000010,75,Paris,75013,1,1,True,19753472000010
+CCI Région Pays de la Loire,cci region pays de la loire,SIRET:18440128900022,44,Saint-Herblain,44800,1,1,True,18440128900022
+COMMUNE DE BEAUFORT-EN-ANJOU,beaufort en anjou,SIRET:20005889900010,49,Beaufort-en-anjou,49250,1,1,True,20005889900010
+CNIEG (Caisse Nationale des Industries Electriques et Gazières),cnieg caisse nationale des industries electriques et gazieres,NAME:cnieg caisse nationale des industries electriques et gazieres,44,Nantes,44200,1,1,False,
+PETR Pays Vallée du Loir,petr pays vallee du loir,NAME:petr pays vallee du loir,72,Seyssinet-Pariset,38170,1,1,False,
+SPL LE MANS EVENEMENTS,spl le mans evenements,NAME:spl le mans evenements,72,Seyssinet-Pariset,38170,1,1,False,
+Vendée Expansion - SEM,vendee expansion sem,SIRET:54665016900057,85,LA ROCHE SUR YON Cedex,85005,1,1,True,54665016900057
+Région des Pays de la Loire,region des pays de la loire,SIRET:23440003400026,44,NANTES cedex 9,44966,1,1,True,23440003400026

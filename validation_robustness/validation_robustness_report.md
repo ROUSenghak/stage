@@ -32,27 +32,27 @@ Throughout this report:
 
 ## 3. Threshold Sensitivity Analysis
 
-The baseline event definition assigns `event=1` to all 697 contracts for
-which a composite-score match was found (event rate 63.4%, KM median
-48.1 months, Cox C-index 0.6524).
+The baseline event definition assigns `event=1` to all 705 contracts for
+which a composite-score match was found (event rate 64.1%, KM median
+48.2 months, Cox C-index 0.6536).
 
 | Scenario | N events | Event rate | KM median (mo) | Cox C-index | HR declared_dur | HR start_year |
 |---|---|---|---|---|---|---|
-| baseline | 697 | 63.4% | 48.1 | 0.6524 | 0.9915 | 1.0938 |
-| score≥0.50 | 494 | 44.9% | 52.7 | 0.6436 | 0.9922 | 1.0743 |
-| score≥0.60 | 251 | 22.8% | inf | 0.6221 | 0.9949 | 1.0684 |
-| score≥0.70 | 122 | 11.1% | inf | 0.6317 | 0.9949 | 1.0347 |
-| score≥0.80 | 66 | 6.0% | inf | 0.5935 | 0.9987 | 1.0149 |
-| score≥0.90 | 22 | 2.0% | inf | 0.5558 | 1.0005 | 1.0131 |
-| strict_hc (≥0.70+m≥0.05) | 104 | 9.5% | inf | 0.6375 | 0.9952 | 1.0459 |
+| baseline | 705 | 64.1% | 48.2 | 0.6536 | 0.9916 | 1.0936 |
+| score≥0.50 | 497 | 45.2% | 52.8 | 0.645 | 0.9917 | 1.0738 |
+| score≥0.60 | 275 | 25.0% | inf | 0.6234 | 0.9952 | 1.0721 |
+| score≥0.70 | 148 | 13.5% | inf | 0.6201 | 0.9972 | 1.0527 |
+| score≥0.80 | 79 | 7.2% | inf | 0.5346 | 1.0014 | 1.023 |
+| score≥0.90 | 25 | 2.3% | inf | 0.5503 | 1.001 | 1.0157 |
+| strict_hc (≥0.70+m≥0.05) | 116 | 10.5% | inf | 0.6466 | 0.9949 | 1.0521 |
 
 **Stability assessment:**
 
-The declared_duration HR direction (0.9915 at baseline, i.e., longer
+The declared_duration HR direction (0.9916 at baseline, i.e., longer
 declared contracts have lower renewal hazard) is expected to remain negative across all
-feasible thresholds (≥0.50 through ≥0.70). Similarly, the start_year HR (1.0938
+feasible thresholds (≥0.50 through ≥0.70). Similarly, the start_year HR (1.0936
 at baseline) reflects a temporal trend in the study cohort. Readers should note that the
-Cox model at score≥0.80 (122 events) and score≥0.90
+Cox model at score≥0.80 (148 events) and score≥0.90
 are substantially underpowered — those C-index estimates are indicative only.
 
 ---
@@ -64,37 +64,37 @@ borderline zone (0.65–0.75) or where the margin over the runner-up is small (<
 
 | Variant | N total | N events | Event rate | KM median (mo) | Cox C-index |
 |---|---|---|---|---|---|
-| baseline | 1100 | 697 | 63.4% | 48.1 | 0.6524 |
-| exclude_uncertain | 763 | 360 | 47.2% | 59.0 | 0.6014 |
-| strict_hc_only | 1100 | 90 | 8.2% | inf | 0.6295 |
+| baseline | 1100 | 705 | 64.1% | 48.2 | 0.6536 |
+| exclude_uncertain | 767 | 372 | 48.5% | 54.8 | 0.6012 |
+| strict_hc_only | 1100 | 100 | 9.1% | inf | 0.6333 |
 
 **Conclusion:** If survival probabilities and HR directions are similar between
 `baseline` and `exclude_uncertain`, the main conclusions are not driven by
-borderline links. The `strict_hc_only` variant (90 events)
+borderline links. The `strict_hc_only` variant (100 events)
 provides a conservative lower bound on the event rate.
 
 ---
 
 ## 5. Score & Margin Diagnostics
 
-Score-component descriptive statistics (event=1 links only, n=697):
+Score-component descriptive statistics (event=1 links only, n=705):
 
 | Metric | Mean | Std | Median | Q1 | Q3 |
 |---|---|---|---|---|---|
-| composite_score | 0.5791 | 0.1414 | 0.5548 | 0.4892 | 0.6532 |
-| text_similarity | 0.5172 | 0.2002 | 0.4752 | 0.3675 | 0.6193 |
-| cpv_match_score | 0.3009 | 0.3656 | 0.2000 | 0.0000 | 0.4000 |
-| temporal_score | 0.7059 | 0.2526 | 0.7747 | 0.5869 | 0.9135 |
-| score_margin | 0.0883 | 0.1054 | 0.0517 | 0.0190 | 0.1075 |
+| composite_score | 0.5872 | 0.1481 | 0.5576 | 0.4892 | 0.6774 |
+| text_similarity | 0.5127 | 0.1991 | 0.4741 | 0.3597 | 0.6180 |
+| cpv_match_score | 0.3480 | 0.3983 | 0.2000 | 0.0000 | 0.8000 |
+| temporal_score | 0.7012 | 0.2530 | 0.7685 | 0.5733 | 0.9127 |
+| score_margin | 0.0906 | 0.1043 | 0.0542 | 0.0207 | 0.1165 |
 
-**Confidence tier breakdown (697 event=1 links):**
+**Confidence tier breakdown (705 event=1 links):**
 
 | Tier | Count | % of events |
 |---|---|---|
-| HIGH | 53 | 7.6% |
-| MEDIUM | 170 | 24.4% |
-| LOW | 339 | 48.6% |
-| SINGLE | 135 | 19.4% |
+| HIGH | 60 | 8.5% |
+| MEDIUM | 186 | 26.4% |
+| LOW | 326 | 46.2% |
+| SINGLE | 133 | 18.9% |
 
 HIGH-confidence links (composite_score ≥ 0.80 AND margin ≥ 0.05) represent a small
 but reliably matched subset. MEDIUM- and LOW-confidence links form the bulk of the
@@ -109,12 +109,12 @@ Comparison of contract characteristics between `event=1` and `event=0` groups:
 
 | Variable | event=1 | event=0 | Difference / SMD |
 |---|---|---|---|
-| Declared duration (months) | 32.32 ± 17.04 | 30.03 ± 18.62 | 0.128 (SMD) |
-| Contract start year | 2018.04 ± 2.01 | 2018.10 ± 2.08 | -0.029 (SMD) |
-| N candidates considered | 7.68 ± 7.98 | 0.00 ± 0.00 | 1.362 (SMD) |
-| Duration imputed | 24.4% | 26.3% | -0.019 (Δ proportion) |
-| Amount non-missing | 16.6% | 26.6% | -0.099 (Δ proportion) |
-| CPV code present | 95.8% | 94.3% | 0.015 (Δ proportion) |
+| Declared duration (months) | 32.37 ± 17.03 | 29.89 ± 18.64 | 0.139 (SMD) |
+| Contract start year | 2018.04 ± 2.01 | 2018.11 ± 2.09 | -0.034 (SMD) |
+| N candidates considered | 7.83 ± 8.19 | 0.00 ± 0.00 | 1.351 (SMD) |
+| Duration imputed | 24.3% | 26.6% | -0.023 (Δ proportion) |
+| Amount non-missing | 16.7% | 26.6% | -0.098 (Δ proportion) |
+| CPV code present | 95.9% | 94.2% | 0.017 (Δ proportion) |
 | Buyer identified by SIRET | 0.0% | 0.0% | 0.0 (Δ proportion) |
 
 **Informative-censoring assessment:**
@@ -136,9 +136,9 @@ less time to generate a detectable renewal within the study window.
 
 | Group | N | Mean score | Median score | % ≥ 0.70 |
 |---|---|---|---|---|
-| real_links (winners) | 697 | 0.5791 | 0.5548 | 17.5% |
-| runner_up (non-winning) | 4659 | 0.4345 | 0.4309 | 0.5% |
-| synthetic_no_buyer | 697 | 0.4254 | 0.3987 | 6.2% |
+| real_links (winners) | 705 | 0.5872 | 0.5576 | 21.0% |
+| runner_up (non-winning) | 4814 | 0.4388 | 0.4320 | 1.2% |
+| synthetic_no_buyer | 705 | 0.4336 | 0.4030 | 7.1% |
 
 **Interpretation:**
 
