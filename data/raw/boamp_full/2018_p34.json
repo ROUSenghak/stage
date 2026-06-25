@@ -3582,67 +3582,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-180981"
   },
   {
-   "idweb": "18-181736",
-   "id": "18_181736",
-   "contractfolderid": null,
-   "objet": "Assurance dommages-ouvrage dans le cadre de la reconstruction du centre départemental enfance familles (CDEF) à Saint Sébastien sur Loire",
-   "filename": "BOAMP-N-IC-AA_2018_362012",
-   "famille": "FNS",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2018-12-28",
-   "datefindiffusion": "2019-02-28",
-   "datelimitereponse": null,
-   "nomacheteur": "Conseil départemental Loire-Atlantique",
-   "titulaire": [
-    "Société SMACL"
-   ],
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "ATTRIBUTION",
-   "sousnature": null,
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "20"
-   ],
-   "dc": [
-    "20"
-   ],
-   "descripteur_libelle": [
-    "Assurance"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-181736\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-181736.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-12-28\", \"DATE_FIN_DIFFUSION\": \"2019-02-28\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"20\", \"LIBELLE\": \"Assurance\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Assurance dommages-ouvrage dans le cadre de la reconstruction du centre départemental enfance familles (CDEF) à Saint Sébastien sur Loire\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Conseil départemental Loire-Atlantique\", \"CORRESPONDANT\": \"M. GROSVALET Philippe, Le Président du Conseil départemental\", \"ADRESSE\": \"3, Quai Ceineray CS 94109\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"02-40-99-10-00\", \"FAX\": \"02-40-99-11-48\", \"MEL\": \"contact@loire-atlantique.fr\", \"URL\": \"http://www.loire-atlantique.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marches.loire-atlantique.fr\"}, \"TYPE_ORGANISME\": {\"DEPARTEMENT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"6a\"}, \"OBJET_COMPLET\": \"Assurance dommages-ouvrage dans le cadre de la reconstruction du centre départemental enfance familles (CDEF) à Saint Sébastien sur Loire\", \"CPV\": {\"PRINCIPAL\": \"66515000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"22 rue Robert Douineau\", \"CP\": \"44230\", \"VILLE\": \"SAINT SEBASTIEN SUR LOIRE\", \"CODE_NUTS\": \"FRG01\"}, \"AMP_NON\": \"\"}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"70\", \"#text\": \"Prix des prestations\"}, {\"@POIDS\": \"30\", \"#text\": \"Etendue des garanties\"}]}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"DESCRIPTION\": \"I225RM\", \"TITULAIRE\": {\"DENOMINATION\": \"Société SMACL\", \"ADRESSE\": \"141, avenue Salvador Allende Cedex 09 BP 9\", \"CP\": \"79031\", \"VILLE\": \"NIORT CEDEX\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-12-11\", \"NB_OFFRE_RECU\": \"8\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"44344.50\"}}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette Cedex 1 BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr/\"}}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-181736"
-  },
-  {
    "idweb": "18-180701",
    "id": "18_180701",
    "contractfolderid": null,
@@ -3710,6 +3649,67 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-180701\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-126264\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-09-10\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-09-12\", \"DATE_FIN_DIFFUSION\": \"2018-10-11\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"176\", \"NUM_ANNONCE\": \"398459\", \"DATE_PUBLICATION\": \"2018-09-13\"}}]}}, \"NOM_HTML\": \"18-180701.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-12-28\", \"DATE_FIN_DIFFUSION\": \"2019-03-25\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"52\", \"LIBELLE\": \"Carburant, hydrocarbure\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Fourniture de carburants nécessaire au fonctionnement des services de Le Mans Métropole - année 2019 - 2020 - 2021 - 2022\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Le Mans Métropole - Communauté Urbaine\", \"CODE_IDENT_NATIONAL\": \"24720013200014\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, Cs 40010 - 16 avenue François Mitterrand - Le Condorcet, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"Le Mans\", \"TEL\": \"(+33) 2-43-47-37-31\", \"FAX\": \"(+33) 2-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de carburants nécessaire au fonctionnement des services de Le Mans Métropole - année 2019\", \"REF_MARCHE\": \"Ip 18-0108\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Accord cadre sans montant minimum et sans maximumPrincipe de l'accord cadre : l'accord cadre ne constitue pas un marché mais un contrat qui a pour objet de sélectionner des prestataires qui pourront se voir confier des commandes dans le cadre de marchés subséquents.Les présents accords cadre sont conclus pour une période de validité courant à compter du 1er janvier 2019 au 31 décembre 2019, et en cas de renouvellement pour trois autres périodes de douze mois chacune.Ils sont conclus pour des besoins dont la survenance est échelonnée au cours de la période de validité.Pour chacun des lots, lors de la survenance des besoins, le pouvoir adjudicateur précisera les besoins et sollicitera les titulaires des accords cadre pour obtenir une offre. C'est l'objet des marchés subséquents\", \"CPV\": {\"PRINCIPAL\": \"09134200\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"1508332\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Gazole\", \"DESCRIPTION\": \"Estimation quantitative annuelle : 980 000 litresEstimation financière annuelle H.T. : 1 166 666 euro(s)\", \"CPV\": {\"PRINCIPAL\": \"09134220\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Des modifications, des contrats similaires, des contrats complémentaires pourront être conclus au cours de l'exécution du contrat dans le respect des dispositions du décret 2016-360 du 25 mars 2016 et du Code Général des Collectivités Territoriales\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Super sans plomb\", \"DESCRIPTION\": \"Estimation quantitative annuelle : 180 000 litresEstimation financière annuelle H.T. : 225 000 euro(s)\", \"CPV\": {\"PRINCIPAL\": \"09132100\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Des modifications, des contrats similaires, des contrats complémentaires pourront être conclus au cours de l'exécution du contrat dans le respect des dispositions du décret 2016-360 du 25 mars 2016 et du Code Général des Collectivités Territoriales\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Gazole non routier\", \"DESCRIPTION\": \"Estimation quantitative annuelle : 160 000 litresEstimation financière annuelle H.T. : 116 666 euro(s)\", \"CPV\": {\"PRINCIPAL\": \"09134220\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Des modifications, des contrats similaires, des contrats complémentaires pourront être conclus au cours de l'exécution du contrat dans le respect des dispositions du décret 2016-360 du 25 mars 2016 et du Code Général des Collectivités Territoriales\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"176\", \"NUM_ANNONCE\": \"398459\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Gazole\", \"TITULAIRE\": {\"DENOMINATION\": \"Cpo\", \"ADRESSE\": \"Route de Pompierre Bp 48612\", \"CP\": \"44100\", \"VILLE\": \"Nantes\", \"CODE_NUTS\": \"FRG01\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-12-20\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"1166666\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Gazole\", \"TITULAIRE\": {\"DENOMINATION\": \"Rossi Carburants\", \"ADRESSE\": \"11, Bis Rue Mickael Faraday\", \"CP\": \"72100\", \"VILLE\": \"Le Mans\", \"CODE_NUTS\": \"FRG04\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-12-20\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"1166666\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"2\", \"INTITULE\": \"Super sans plomb\", \"TITULAIRE\": {\"DENOMINATION\": \"Cpo\", \"ADRESSE\": \"Route de Pompierre Bp 48612\", \"CP\": \"44100\", \"VILLE\": \"Nantes\", \"CODE_NUTS\": \"FRG01\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-12-20\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"225000\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"2\", \"INTITULE\": \"Super sans plomb\", \"TITULAIRE\": {\"DENOMINATION\": \"Rossi Carburants\", \"ADRESSE\": \"11, Bis Rue Mickael Faraday\", \"CP\": \"72100\", \"VILLE\": \"Le Mans\", \"CODE_NUTS\": \"FRG04\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-12-20\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"225000\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"3\", \"INTITULE\": \"Gazole non routier\", \"TITULAIRE\": {\"DENOMINATION\": \"Cpo\", \"ADRESSE\": \"Route de Pompierre Bp 48612\", \"CP\": \"44100\", \"VILLE\": \"Nantes\", \"CODE_NUTS\": \"FRG01\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-12-20\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"116666\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"3\", \"INTITULE\": \"Gazole non routier\", \"TITULAIRE\": {\"DENOMINATION\": \"Bollore Energy\", \"ADRESSE\": \"22 rue Pierre Martin\", \"CP\": \"72100\", \"VILLE\": \"Le Mans\", \"CODE_NUTS\": \"FRG04\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-12-20\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"116666\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"3\", \"INTITULE\": \"Gazole non routier\", \"TITULAIRE\": {\"DENOMINATION\": \"Rossi Carburants\", \"ADRESSE\": \"11, Bis Rue Mickael Faraday\", \"CP\": \"72100\", \"VILLE\": \"Le Mans\", \"CODE_NUTS\": \"FRG04\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-12-20\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"116000\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les accords cadre ci-dessus à marchés subséquents, sans minimum et sans maximum ont été attribués sur la base d'un prix unitaire Ttc au litre qui constitue une information non communicable ; Les valeurs financières définies ne correspondent donc qu'à une estimation de la dépense annuelle par lot.Publication au Joue le 13/09/2018 (2018/S176-398459).Nombre d'offres reçues : Pme (1) - par voie électronique (2) - autre état membre ou pays tiers (0) -Critère d'attribution : prix le plus bas.Les accords cadre sont consultables au siège du pouvoir adjudicateur sur demande auprès du service des Marchés Publics. Date d'envoi du présent avis au JOUE et au BOAMP : 26 décembre 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso\", \"CP\": \"44042\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://pays-de-la-loire.direccte.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-180701"
+  },
+  {
+   "idweb": "18-181736",
+   "id": "18_181736",
+   "contractfolderid": null,
+   "objet": "Assurance dommages-ouvrage dans le cadre de la reconstruction du centre départemental enfance familles (CDEF) à Saint Sébastien sur Loire",
+   "filename": "BOAMP-N-IC-AA_2018_362012",
+   "famille": "FNS",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2018-12-28",
+   "datefindiffusion": "2019-02-28",
+   "datelimitereponse": null,
+   "nomacheteur": "Conseil départemental Loire-Atlantique",
+   "titulaire": [
+    "Société SMACL"
+   ],
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "ATTRIBUTION",
+   "sousnature": null,
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "20"
+   ],
+   "dc": [
+    "20"
+   ],
+   "descripteur_libelle": [
+    "Assurance"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-181736\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-181736.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-12-28\", \"DATE_FIN_DIFFUSION\": \"2019-02-28\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"20\", \"LIBELLE\": \"Assurance\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Assurance dommages-ouvrage dans le cadre de la reconstruction du centre départemental enfance familles (CDEF) à Saint Sébastien sur Loire\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Conseil départemental Loire-Atlantique\", \"CORRESPONDANT\": \"M. GROSVALET Philippe, Le Président du Conseil départemental\", \"ADRESSE\": \"3, Quai Ceineray CS 94109\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"02-40-99-10-00\", \"FAX\": \"02-40-99-11-48\", \"MEL\": \"contact@loire-atlantique.fr\", \"URL\": \"http://www.loire-atlantique.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marches.loire-atlantique.fr\"}, \"TYPE_ORGANISME\": {\"DEPARTEMENT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"6a\"}, \"OBJET_COMPLET\": \"Assurance dommages-ouvrage dans le cadre de la reconstruction du centre départemental enfance familles (CDEF) à Saint Sébastien sur Loire\", \"CPV\": {\"PRINCIPAL\": \"66515000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"22 rue Robert Douineau\", \"CP\": \"44230\", \"VILLE\": \"SAINT SEBASTIEN SUR LOIRE\", \"CODE_NUTS\": \"FRG01\"}, \"AMP_NON\": \"\"}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"70\", \"#text\": \"Prix des prestations\"}, {\"@POIDS\": \"30\", \"#text\": \"Etendue des garanties\"}]}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"DESCRIPTION\": \"I225RM\", \"TITULAIRE\": {\"DENOMINATION\": \"Société SMACL\", \"ADRESSE\": \"141, avenue Salvador Allende Cedex 09 BP 9\", \"CP\": \"79031\", \"VILLE\": \"NIORT CEDEX\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-12-11\", \"NB_OFFRE_RECU\": \"8\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"44344.50\"}}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette Cedex 1 BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr/\"}}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-181736"
   },
   {
    "idweb": "18-180686",

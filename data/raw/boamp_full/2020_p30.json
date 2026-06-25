@@ -1337,68 +1337,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-146097"
   },
   {
-   "idweb": "20-146628",
-   "id": "20_146628",
-   "contractfolderid": null,
-   "objet": "Organisation de séjours en été 2021 pour enfants et adolescents de 6 à 17 ans",
-   "filename": "MAPA-AO_2020_336005",
-   "famille": "MAPA",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés <90 k€ (MAPA)",
-   "dateparution": "2020-12-01",
-   "datefindiffusion": "2021-01-15",
-   "datelimitereponse": "2021-01-15T16:00:00+00:00",
-   "nomacheteur": "Ville d'Allonnes",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "274",
-    "367"
-   ],
-   "dc": [
-    "274",
-    "367"
-   ],
-   "descripteur_libelle": [
-    "Prestations de services",
-    "Voyage"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-146628\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"20-146628.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-12-01\", \"DATE_LIMITE_REPONSE\": \"2021-01-15T17:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2021-01-15\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}, {\"CODE\": \"367\", \"LIBELLE\": \"Voyage\"}]}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Organisation de séjours en été 2021 pour enfants et adolescents de 6 à 17 ans\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville d'Allonnes\", \"CORRESPONDANT\": \"LEPROUST Gilles, Maire\", \"ADRESSE\": \"Esplanade Nelson Mandela\", \"CP\": \"72700\", \"VILLE\": \"Allonnes\", \"MEL\": \"marches.publics@ville-allonnes.fr\", \"URL\": \"http://allonnes.fr/\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Organisation de séjours en été 2021 pour enfants et adolescents de 6 à 17 ans\", \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"QUANTITE\": \"Organisation de séjours en été 2021 pour enfants et adolescents de 6 à 17 ans\"}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"12\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"DESCRIPTION\": \"Thématique montagne ou campagne en France\"}, {\"NUM\": \"2\", \"DESCRIPTION\": \"Thématique montagne ou campagne en France\"}, {\"NUM\": \"3\", \"DESCRIPTION\": \"Thématique montagne ou campagne en France\"}, {\"NUM\": \"4\", \"DESCRIPTION\": \"Thématique montagne ou campagne en France\"}, {\"NUM\": \"5\", \"DESCRIPTION\": \"Thématique mer ou océan en France\"}, {\"NUM\": \"6\", \"DESCRIPTION\": \"Thématique mer ou océan en France\"}, {\"NUM\": \"7\", \"DESCRIPTION\": \"Thématique océan en France\"}, {\"NUM\": \"8\", \"DESCRIPTION\": \"Thématique mer ou océan en France\"}, {\"NUM\": \"9\", \"DESCRIPTION\": \"Thématique écocitoyenneté\"}, {\"NUM\": \"10\", \"DESCRIPTION\": \"Thématique écocitoyenneté\"}, {\"NUM\": \"11\", \"DESCRIPTION\": \"Séjour de montagne\"}, {\"NUM\": \"12\", \"DESCRIPTION\": \"Séjour nature environnement\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"80\", \"#text\": \"Qualité des prestations proposées\"}, {\"@POIDS\": \"20\", \"#text\": \"Prix\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2021-01-15T17:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Pas de garanties particulières exigées\", \"FINANCEMENT\": \"Paiement à 30 jours de réception de facture conforme. Budget principal\", \"FORME_JURIDIQUE\": \"Pas de forme juridique de groupement exigée\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire obligatoirement par le candidat, à l'appui de sa candidature\", \"Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire\", \"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels\", \"Présentation d'une liste des principales fournitures ou des principaux services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Les livraisons et les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique\", \"Indication des titres d'études et professionnels de l'opérateur économique\", \"Indication des titres d'études et professionnels des cadres de l'entreprise et notamment des responsables de prestation de services ou de conduite des travaux de même nature que celle du marché\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"2020S10\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.marches-publics.infoCode NUTS : FRG04Lot 1 - Thématique montagne ou campagne en FranceLot 2 - Thématique montagne ou campagne en FranceLot 3 - Thématique montagne ou campagne en FranceLot 4 - Thématique montagne ou campagne en FranceLot 5 - Thématique mer ou océan en FranceLot 6 - Thématique mer ou océan en FranceLot 7 - Thématique océan en FranceLot 8 - Thématique mer ou océan en FranceLot 9 - Thématique écocitoyennetéLot 10 - Thématique écocitoyennetéLot 11 - Séjour de montagneLot 12 - Séjour nature environnementMarché périodique : NONCalendrier prévisionnel de publication des prochains avis :Le marché s'inscrit dans un projet/programme financé par des fonds communautaires : NONRéférences du ou des projet(s) et / ou programme(s) :Les personnes morales sont tenues d'indiquer les noms et qualifications professionnelles des membres du personnel chargés de la prestation : NONMarchés réservés : NONL'execution du marché est soumise à d'autres conditions particulières : NONLa prestation est réservée à une profession particulière : NonInstance chargée des procédures de recours : Tribunal administratif de Nantes, 6, allée de l'Ile-Gloriette, BP 2411144041 NantesTél : 0240994600 Fax : 0240994658Mel : greffe.ta-nantes@juradm.fr\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Mairie d'Allonnes : Service Marchés publics\", \"ADRESSE\": \"Esplanade Nelson Mandela BP 15\", \"CP\": \"72700\", \"VILLE\": \"ALLONNES\", \"TEL\": \"02-43-83-42-24\", \"MEL\": \"marches.publics@ville-allonnes.fr\", \"URL\": \"http://www.marches-publics.info/\"}}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-146628"
-  },
-  {
    "idweb": "20-146953",
    "id": "20_146953",
    "contractfolderid": null,
@@ -1517,6 +1455,68 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-146968\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"20-146968.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-12-01\", \"DATE_LIMITE_REPONSE\": \"2020-12-22T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2020-12-22\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}, {\"CODE\": \"455\", \"LIBELLE\": \"Ingénierie\"}]}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Accord-cadre d'assistance à la maîtrise d'ouvrage pour les études exploitation du réseau tramway\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"SEMITAN mandataire de Nantes Métropole\", \"CORRESPONDANT\": \"Service Achats-Marchés\", \"ADRESSE\": \"3 Rue Bellier - BP 64605\", \"CP\": \"44046\", \"VILLE\": \"Nantes Cedex 1\", \"TEL\": \"02-51-81-77-00\", \"MEL\": \"marchespublics@semitan.fr\", \"URL\": \"http://www.tan.fr\", \"URL_PROFIL_ACHETEUR\": \"http://marchespublics.semitan.fr\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"ENTITE_ADJUDICATRICE\": {\"SER_CHEMIN_FER_TRAM_BUS\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Accord-cadre d'assistance à la Maîtrise d'Ouvrage pour les études exploitation du réseau tramway\", \"CPV\": [{\"PRINCIPAL\": \"71300000\"}, {\"PRINCIPAL\": \"71311200\"}, {\"PRINCIPAL\": \"71336000\"}, {\"PRINCIPAL\": \"79314000\"}], \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG01\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\", \"VALEUR_MIN\": {\"@DEVISE\": \"EUR\", \"#text\": \"0\"}, \"VALEUR_MAX\": {\"@DEVISE\": \"EUR\", \"#text\": \"210000\"}}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"La présente consultation concerne un accord-cadre pour assister la maîtrise d'ouvrage dans l'évaluation des impacts des projets de développement du réseau sur l'exploitation actuelle du tramway du réseau Nantais.Chaque mission fait l'objet d'un bon de commande correspondant à un devis définissant l'objet de la prestation demandée et le délai afférent et contre signé par la personne représentant du mandataire du maitre d'ouvrage.Le présent accord cadre est passé pour une période de trente-six (36) mois à compter de la date de sa notification. Il est reconductible tacitement deux (2) fois un an.La consultation s'adresse à des entreprises compétentes dans le domaine des études d'exploitation dans le domaine des transports guidés.\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2020-12-22T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Production d'une garantie à première demande pour le versement de l'avance le cas échéant. Cette garantie ne pourra pas prendre la forme d'une caution.\", \"FINANCEMENT\": \"Les sommes dues au(x) titulaire(s) et au(x) sous-traitant(s) de premier rang éventuel(s) de l'accord-cadre, seront payées dans le délai global de paiement de 30 jours, à compter de la date de réception des factures ou des demandes de paiement équivalentes.\", \"FORME_JURIDIQUE\": \"L'offre, qu'elle soit présentée par une seule entreprise ou par un groupement, devra indiquer tous les sous-traitants connus lors de son dépôt. Elle devra également indiquer les prestations (et leur montant) dont la sous-traitance est envisagée, la dénomination et la qualité des sous-traitants qui l'exécuteront à la place du titulaire.En cas de groupement, la forme souhaitée par le mandataire du maître d'ouvrage est un groupement solidaire. Si le groupement attributaire de l'accord-cadre est d'une forme différente, il pourra se voir contraint d'assurer sa transformation pour se conformer au souhait du mandataire du maître d'ouvrage tel qu'il est indiqué ci-dessus.Les entreprises ont la possibilité de présenter pour l'accord-cadre plusieurs offres en agissant à la fois en qualité de candidats individuels ou de membres d'un ou plusieurs groupements.Dans ce cas, un candidat ne pourra être désigné mandataire que d'un seul groupement.\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"- Une lettre de candidature accompagnée des pièces présentant la société candidate (dont notamment le nom, la raison sociale, la forme juridique etc..). Le candidat pourra utiliser le formulaire DC1 ;- Les documents attestant les pouvoirs de la personne habilitée pour engager le candidat et l'habilitation du mandataire par ses cotraitants en cas de groupement, le cas échéant ;- La copie du ou des jugements prononcés, si le candidat est en redressement judiciaire ;- Une déclaration sur l'honneur, dûment datée et signée pour justifier qu'il n'entre dans aucun des cas mentionnés aux articles L. 2141-1 à 2141-5, L. 2141-7 à L. 2141-11 et R. 2143-8 du code de la commande publique et notamment qu'il est en règle au regard des articles L.5212-1 à L.5212-11 du code du travail concernant l'emploi des travailleurs handicapés ;- Une attestation d'assurance de responsabilité civile professionnelle en cours de validité.\", \"CAP_ECO\": \"- Une déclaration concernant le chiffre d'affaires global de l'entreprise et le chiffre d'affaires concernant les services objet de l'accord-cadre, réalisés au cours des trois derniers exercices disponibles (le candidat pourra utiliser le formulaire DC2) ;- Un extrait Kbis de moins de 3 mois.\", \"CAP_TECH\": \"- Une déclaration indiquant le matériel et description de l'équipement technique et informatique (logiciels) du candidat,- Une déclaration indiquant les mesures employées par l'opérateur économique pour s'assurer de la qualité et des moyens d'étude et de recherche de son entreprise ;- Une liste des principales prestations comparables effectuées au cours des trois dernières années, choisies en fonction des compétences demandées à l'article 2.6, pour des projets de nature et d'importance similaire au projet objet de la consultation. Les prestations sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique ;- Compétence technique sur les 3 domaines suivants :- Simulation d'exploitation de projets transport (opentrack)- Expertise avec étude de points singuliers (carrefours, débranchement, voie unique...) d'un réseau de transport,- Expertise sur la robustesse, l'optimisation, la régularité de réseaux TCSP.- Chaque référence (10 max par compétence) fera apparaître par rubrique :- Les coordonnées du Maître d'ouvrage,- Le montant de la mission,- La composition de l'équipe titulaire,- La nature des missions effectuées personnellement par le candidat.- Une déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années ;- Les certificats de qualifications professionnelles : la preuve de la capacité du candidat peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de prestations attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat.\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"20M89/323\", \"CONDITIONS_REMISE_OFFRES\": \"Les plis doivent être remis de façon dématérialisée sur le profil acheteur de la SEMITAN http://marchespublics.semitan.fr\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Le DCE peut être téléchargé de façon complète, libre et directe sur le profil acheteur de la SEMITAN http://marchespublics.semitan.fr\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 Allée Ile Gloriette, B.P. 24111\", \"CP\": \"44000\", \"VILLE\": \"Nantes Cedex 1\", \"TEL\": \"02-40-99-46-00\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-146968"
+  },
+  {
+   "idweb": "20-146628",
+   "id": "20_146628",
+   "contractfolderid": null,
+   "objet": "Organisation de séjours en été 2021 pour enfants et adolescents de 6 à 17 ans",
+   "filename": "MAPA-AO_2020_336005",
+   "famille": "MAPA",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés <90 k€ (MAPA)",
+   "dateparution": "2020-12-01",
+   "datefindiffusion": "2021-01-15",
+   "datelimitereponse": "2021-01-15T16:00:00+00:00",
+   "nomacheteur": "Ville d'Allonnes",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "274",
+    "367"
+   ],
+   "dc": [
+    "274",
+    "367"
+   ],
+   "descripteur_libelle": [
+    "Prestations de services",
+    "Voyage"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-146628\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"20-146628.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-12-01\", \"DATE_LIMITE_REPONSE\": \"2021-01-15T17:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2021-01-15\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}, {\"CODE\": \"367\", \"LIBELLE\": \"Voyage\"}]}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Organisation de séjours en été 2021 pour enfants et adolescents de 6 à 17 ans\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville d'Allonnes\", \"CORRESPONDANT\": \"LEPROUST Gilles, Maire\", \"ADRESSE\": \"Esplanade Nelson Mandela\", \"CP\": \"72700\", \"VILLE\": \"Allonnes\", \"MEL\": \"marches.publics@ville-allonnes.fr\", \"URL\": \"http://allonnes.fr/\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Organisation de séjours en été 2021 pour enfants et adolescents de 6 à 17 ans\", \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"QUANTITE\": \"Organisation de séjours en été 2021 pour enfants et adolescents de 6 à 17 ans\"}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"12\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"DESCRIPTION\": \"Thématique montagne ou campagne en France\"}, {\"NUM\": \"2\", \"DESCRIPTION\": \"Thématique montagne ou campagne en France\"}, {\"NUM\": \"3\", \"DESCRIPTION\": \"Thématique montagne ou campagne en France\"}, {\"NUM\": \"4\", \"DESCRIPTION\": \"Thématique montagne ou campagne en France\"}, {\"NUM\": \"5\", \"DESCRIPTION\": \"Thématique mer ou océan en France\"}, {\"NUM\": \"6\", \"DESCRIPTION\": \"Thématique mer ou océan en France\"}, {\"NUM\": \"7\", \"DESCRIPTION\": \"Thématique océan en France\"}, {\"NUM\": \"8\", \"DESCRIPTION\": \"Thématique mer ou océan en France\"}, {\"NUM\": \"9\", \"DESCRIPTION\": \"Thématique écocitoyenneté\"}, {\"NUM\": \"10\", \"DESCRIPTION\": \"Thématique écocitoyenneté\"}, {\"NUM\": \"11\", \"DESCRIPTION\": \"Séjour de montagne\"}, {\"NUM\": \"12\", \"DESCRIPTION\": \"Séjour nature environnement\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"80\", \"#text\": \"Qualité des prestations proposées\"}, {\"@POIDS\": \"20\", \"#text\": \"Prix\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2021-01-15T17:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Pas de garanties particulières exigées\", \"FINANCEMENT\": \"Paiement à 30 jours de réception de facture conforme. Budget principal\", \"FORME_JURIDIQUE\": \"Pas de forme juridique de groupement exigée\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire obligatoirement par le candidat, à l'appui de sa candidature\", \"Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire\", \"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels\", \"Présentation d'une liste des principales fournitures ou des principaux services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Les livraisons et les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique\", \"Indication des titres d'études et professionnels de l'opérateur économique\", \"Indication des titres d'études et professionnels des cadres de l'entreprise et notamment des responsables de prestation de services ou de conduite des travaux de même nature que celle du marché\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"2020S10\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.marches-publics.infoCode NUTS : FRG04Lot 1 - Thématique montagne ou campagne en FranceLot 2 - Thématique montagne ou campagne en FranceLot 3 - Thématique montagne ou campagne en FranceLot 4 - Thématique montagne ou campagne en FranceLot 5 - Thématique mer ou océan en FranceLot 6 - Thématique mer ou océan en FranceLot 7 - Thématique océan en FranceLot 8 - Thématique mer ou océan en FranceLot 9 - Thématique écocitoyennetéLot 10 - Thématique écocitoyennetéLot 11 - Séjour de montagneLot 12 - Séjour nature environnementMarché périodique : NONCalendrier prévisionnel de publication des prochains avis :Le marché s'inscrit dans un projet/programme financé par des fonds communautaires : NONRéférences du ou des projet(s) et / ou programme(s) :Les personnes morales sont tenues d'indiquer les noms et qualifications professionnelles des membres du personnel chargés de la prestation : NONMarchés réservés : NONL'execution du marché est soumise à d'autres conditions particulières : NONLa prestation est réservée à une profession particulière : NonInstance chargée des procédures de recours : Tribunal administratif de Nantes, 6, allée de l'Ile-Gloriette, BP 2411144041 NantesTél : 0240994600 Fax : 0240994658Mel : greffe.ta-nantes@juradm.fr\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Mairie d'Allonnes : Service Marchés publics\", \"ADRESSE\": \"Esplanade Nelson Mandela BP 15\", \"CP\": \"72700\", \"VILLE\": \"ALLONNES\", \"TEL\": \"02-43-83-42-24\", \"MEL\": \"marches.publics@ville-allonnes.fr\", \"URL\": \"http://www.marches-publics.info/\"}}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-146628"
   },
   {
    "idweb": "20-146622",

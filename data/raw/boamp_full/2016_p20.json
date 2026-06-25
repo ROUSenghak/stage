@@ -1110,65 +1110,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-116176"
   },
   {
-   "idweb": "16-117346",
-   "id": "16_117346",
-   "contractfolderid": null,
-   "objet": "Acquisition de véhicules à moteur dans le cadre du renouvellement du parc automobile de trivalis",
-   "filename": "BOAMP-N-IC-AA_2016_217012",
-   "famille": "FNS",
-   "code_departement": [
-    "85"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2016-08-04",
-   "datefindiffusion": "2016-10-08",
-   "datelimitereponse": null,
-   "nomacheteur": "Syndicat Trivalis",
-   "titulaire": [
-    "LA ROCHE AUTOMOBILES"
-   ],
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "ATTRIBUTION",
-   "sousnature": null,
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "475"
-   ],
-   "dc": [
-    "475"
-   ],
-   "descripteur_libelle": [
-    "Véhicules (acquisition)"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "16-48834"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"16-48834\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-05-02\", \"DATE_FIN_DIFFUSION\": \"2016-05-24\"}}}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-117346\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-48834\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-05-02\", \"DATE_FIN_DIFFUSION\": \"2016-05-24\"}}}}, \"NOM_HTML\": \"16-117346.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-08-04\", \"DATE_FIN_DIFFUSION\": \"2016-10-08\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"475\", \"LIBELLE\": \"Véhicules (acquisition)\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"Acquisition de véhicules à moteur dans le cadre du renouvellement du parc automobile de trivalis\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Syndicat Trivalis\", \"CORRESPONDANT\": \"M. Le Président de Trivalis\", \"ADRESSE\": \"31 rue de l'AtlantiqueCS 30605\", \"CP\": \"85015\", \"VILLE\": \"La Roche-sur-Yon\", \"TEL\": \"(+33)2-51-45-14-51\", \"FAX\": \"(+33)2-51-45-14-50\", \"MEL\": \"contact@trivalis.fr\", \"URL\": \"http://www.trivalis.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-securises.fr\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ENVIRONNEMENT\": \"\", \"AUTRE\": \"Syndicat mixte départemental d'études et de traitement des déchets ménagers et assimilés de la Vendée\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Acquisition de véhicules à moteur dans le cadre du renouvellement du parc automobile de Trivalis\", \"CPV\": {\"PRINCIPAL\": \"34100000\"}, \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FR515\"}, \"AMP_NON\": \"\"}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"2016_M067\", \"DESCRIPTION\": \"Acquisition de véhicules à moteur dans le cadre du renouvellement du parc automobile de Trivalis\", \"TITULAIRE\": {\"DENOMINATION\": \"LA ROCHE AUTOMOBILES\", \"ADRESSE\": \"168 Route de Nantes\", \"CP\": \"85000\", \"VILLE\": \"La Roche sur Yon\", \"TEL\": \"(+33) 2-51-45-18-18\", \"FAX\": \"(+33) 2-51-62-50-48\", \"MEL\": \"pascal.levelu@jeanrouyerautomobiles.fr\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-07-27\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"207319.24\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette, CS 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradmn.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette, CS 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradmn.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-117346"
-  },
-  {
    "idweb": "16-115324",
    "id": "16_115324",
    "contractfolderid": null,
@@ -1302,6 +1243,65 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-116173\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-39691\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-03-23\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-03-24\", \"DATE_FIN_DIFFUSION\": \"2016-05-10\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"061\", \"NUM_ANNONCE\": \"104729\", \"DATE_PUBLICATION\": \"2016-03-26\"}}]}}, \"NOM_HTML\": \"16-116173.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-08-04\", \"DATE_FIN_DIFFUSION\": \"2016-09-03\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"239\", \"LIBELLE\": \"Nettoyage de locaux\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"entretien ménager des parties communes sur divers sites\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Sarthe Habitat\", \"ADJUDICATEUR_NUTS\": \"FR514\", \"ADRESSE\": \"158 avenue BolléeCS 81933\", \"CP\": \"72019\", \"VILLE\": \"Le Mans cédex 2\", \"MEL\": \"sylvia.gasnier@sarthe-habitat.fr\", \"URL\": \"http://www.sarthe-habitat.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"MIN_AUTORITE_NATIONALE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"LOG_DEV_COL\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Entretien ménager des parties communes sur divers sites\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Entretien ménager des parties communes du patrimoine de SARTHE HABITAT\", \"CPV\": {\"PRINCIPAL\": \"90911200\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"01 - Agence Le Mans et ses environs\", \"DESCRIPTION\": \"Entretien ménager des parties communes du patrimoine de SARTHE HABITAT\", \"CPV\": {\"PRINCIPAL\": \"90911200\"}, \"CODE_NUTS\": \"FR514\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"02 - Agence Haute Sarthe\", \"DESCRIPTION\": \"Entretien ménager des parties communes du patrimoine de SARTHE HABITAT\", \"CPV\": {\"PRINCIPAL\": \"90911200\"}, \"CODE_NUTS\": \"FR514\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"03 - Agence SUD-EST\", \"DESCRIPTION\": \"ENTRETIEN MENAGER DES PARTIES COMMUNES DU PATRIMOINE DE SARTHE HABITAT\", \"CPV\": {\"PRINCIPAL\": \"90911200\"}, \"CODE_NUTS\": \"FR514\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"04 - Agence Allonnes et ses environs\", \"DESCRIPTION\": \"Entretien ménager des parties communes du patrimoine de SARTHE HABITAT\", \"CPV\": {\"PRINCIPAL\": \"90911200\"}, \"CODE_NUTS\": \"FR514\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"05 - Agence Sablé-sur-Sarthe et ses environs\", \"DESCRIPTION\": \"Entretien ménager des parties communes du patrimoine de SARTHE HABITAT\", \"CPV\": {\"PRINCIPAL\": \"90911200\"}, \"CODE_NUTS\": \"FR514\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"06 - Agence La Flèche et ses environs\", \"DESCRIPTION\": \"Entretien ménager des parties communes du patrimoine de SARTHE HABITAT\", \"CPV\": {\"PRINCIPAL\": \"90911200\"}, \"CODE_NUTS\": \"FR514\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_NON\": \"\"}, \"ATTRIBUTION\": {\"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2016/195\", \"NUM_LOT\": \"01 - Agence Le Mans et ses environs\", \"TITULAIRE\": {\"DENOMINATION\": \"SAS OUEST NETTOYAGE\", \"ADRESSE\": \"20 rue Hippolyte Foucault\", \"CP\": \"72000\", \"VILLE\": \"Le Mans\", \"CODE_NUTS\": \"FR514\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-07-19\", \"NB_OFFRE_RECU\": \"8\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"439144.60\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2016/196\", \"NUM_LOT\": \"02 - Agence Haute Sarthe\", \"TITULAIRE\": {\"DENOMINATION\": \"SAS GSF AURIGA\", \"ADRESSE\": \"8 rue Xavier Bichat\", \"CP\": \"72000\", \"VILLE\": \"Le Mans\", \"CODE_NUTS\": \"FR514\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-07-19\", \"NB_OFFRE_RECU\": \"8\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"151290.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2016/197\", \"NUM_LOT\": \"03 - Agence SUD-EST\", \"TITULAIRE\": {\"DENOMINATION\": \"ONET SERVICES\", \"ADRESSE\": \"71 route du Chêne\", \"CP\": \"72230\", \"VILLE\": \"Arnage\", \"CODE_NUTS\": \"FR514\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-07-19\", \"NB_OFFRE_RECU\": \"6\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"200906\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2016/198\", \"NUM_LOT\": \"04 - Agence Allonnes et ses environs\", \"TITULAIRE\": {\"DENOMINATION\": \"SOS ENVIRONNEMENT NETTOYAGE\", \"ADRESSE\": \"3 Impasse de Chanteloup\", \"CP\": \"72700\", \"VILLE\": \"Rouillon\", \"CODE_NUTS\": \"FR514\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-07-19\", \"NB_OFFRE_RECU\": \"7\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"352059.64\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2016/199\", \"NUM_LOT\": \"05 - Agence Sablé-sur-Sarthe et ses environs\", \"TITULAIRE\": {\"DENOMINATION\": \"ONET SERVICES\", \"ADRESSE\": \"71 route du Chêne\", \"CP\": \"72230\", \"VILLE\": \"Arnage\", \"CODE_NUTS\": \"FR514\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-07-19\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"297989\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2016/200\", \"NUM_LOT\": \"06 - Agence La Flèche et ses environs\", \"TITULAIRE\": {\"DENOMINATION\": \"DECA PROPRETE\", \"ADRESSE\": \"rue Marie Harel\", \"CP\": \"61000\", \"VILLE\": \"Alençon\", \"CODE_NUTS\": \"FR253\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-07-19\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"27635.44\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 2 août 2016.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes cédex 1\", \"TEL\": \"(+33) -02-40-99-46-00\", \"FAX\": \"(+33) -02-40-99-46-58\"}}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-116173"
+  },
+  {
+   "idweb": "16-117346",
+   "id": "16_117346",
+   "contractfolderid": null,
+   "objet": "Acquisition de véhicules à moteur dans le cadre du renouvellement du parc automobile de trivalis",
+   "filename": "BOAMP-N-IC-AA_2016_217012",
+   "famille": "FNS",
+   "code_departement": [
+    "85"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2016-08-04",
+   "datefindiffusion": "2016-10-08",
+   "datelimitereponse": null,
+   "nomacheteur": "Syndicat Trivalis",
+   "titulaire": [
+    "LA ROCHE AUTOMOBILES"
+   ],
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "ATTRIBUTION",
+   "sousnature": null,
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "475"
+   ],
+   "dc": [
+    "475"
+   ],
+   "descripteur_libelle": [
+    "Véhicules (acquisition)"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "16-48834"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"16-48834\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-05-02\", \"DATE_FIN_DIFFUSION\": \"2016-05-24\"}}}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-117346\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-48834\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-05-02\", \"DATE_FIN_DIFFUSION\": \"2016-05-24\"}}}}, \"NOM_HTML\": \"16-117346.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-08-04\", \"DATE_FIN_DIFFUSION\": \"2016-10-08\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"475\", \"LIBELLE\": \"Véhicules (acquisition)\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"Acquisition de véhicules à moteur dans le cadre du renouvellement du parc automobile de trivalis\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Syndicat Trivalis\", \"CORRESPONDANT\": \"M. Le Président de Trivalis\", \"ADRESSE\": \"31 rue de l'AtlantiqueCS 30605\", \"CP\": \"85015\", \"VILLE\": \"La Roche-sur-Yon\", \"TEL\": \"(+33)2-51-45-14-51\", \"FAX\": \"(+33)2-51-45-14-50\", \"MEL\": \"contact@trivalis.fr\", \"URL\": \"http://www.trivalis.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-securises.fr\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ENVIRONNEMENT\": \"\", \"AUTRE\": \"Syndicat mixte départemental d'études et de traitement des déchets ménagers et assimilés de la Vendée\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Acquisition de véhicules à moteur dans le cadre du renouvellement du parc automobile de Trivalis\", \"CPV\": {\"PRINCIPAL\": \"34100000\"}, \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FR515\"}, \"AMP_NON\": \"\"}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"2016_M067\", \"DESCRIPTION\": \"Acquisition de véhicules à moteur dans le cadre du renouvellement du parc automobile de Trivalis\", \"TITULAIRE\": {\"DENOMINATION\": \"LA ROCHE AUTOMOBILES\", \"ADRESSE\": \"168 Route de Nantes\", \"CP\": \"85000\", \"VILLE\": \"La Roche sur Yon\", \"TEL\": \"(+33) 2-51-45-18-18\", \"FAX\": \"(+33) 2-51-62-50-48\", \"MEL\": \"pascal.levelu@jeanrouyerautomobiles.fr\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-07-27\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"207319.24\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette, CS 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradmn.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette, CS 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradmn.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-117346"
   },
   {
    "idweb": "16-117063",
@@ -1680,6 +1680,67 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-115391"
   },
   {
+   "idweb": "16-115732",
+   "id": "16_115732",
+   "contractfolderid": null,
+   "objet": "assurance atteintes à l'environnement pour la communauté d'agglomération saumur loire développement",
+   "filename": "BOAMP-J-IC-AA_2016_218004",
+   "famille": "JOUE",
+   "code_departement": [
+    "49"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2016-08-05",
+   "datefindiffusion": "2016-10-03",
+   "datelimitereponse": null,
+   "nomacheteur": "Cté d'agglo Saumur Loire Développement",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "ATTRIBUTION",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "20"
+   ],
+   "dc": [
+    "20"
+   ],
+   "descripteur_libelle": [
+    "Assurance"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "16-39944"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"16-39944\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-03-31\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-03-31\", \"DATE_FIN_DIFFUSION\": \"2016-05-11\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"066\", \"NUM_ANNONCE\": \"115483\", \"DATE_PUBLICATION\": \"2016-04-05\"}}]}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-115732\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-39944\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-03-31\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-03-31\", \"DATE_FIN_DIFFUSION\": \"2016-05-11\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"066\", \"NUM_ANNONCE\": \"115483\", \"DATE_PUBLICATION\": \"2016-04-05\"}}]}}, \"NOM_HTML\": \"16-115732.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-08-05\", \"DATE_FIN_DIFFUSION\": \"2016-10-03\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"20\", \"LIBELLE\": \"Assurance\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"assurance atteintes à l'environnement pour la communauté d'agglomération saumur loire développement\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Cté d'agglo Saumur Loire Développement\", \"ADJUDICATEUR_NUTS\": \"FR512\", \"ADRESSE\": \"11, Rue du Maréchal Leclerc CS 54030\", \"CP\": \"49408\", \"VILLE\": \"Saumur Cedex\", \"TEL\": \"(+33) 2-41-40-45-65\", \"FAX\": \"(+33) 2-41-40-45-66\", \"MEL\": \"commandes.publiques@agglo-saumur.fr\", \"URL\": \"http://www.agglo-saumur.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.eu-supply.com/saumur_agglomeration.asp\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Assurance atteintes à lenvironnement pour la Communauté d'Agglomération Saumur Loire Développement\", \"REF_MARCHE\": \"A.O.O. 2016-001\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Assurance atteintes à lenvironnement pour la Communauté d'Agglomération Saumur Loire Développement\", \"CPV\": {\"PRINCIPAL\": \"66516000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Assurance atteintes à lenvironnement pour la Communauté d'Agglomération Saumur Loire Développement\", \"CPV\": {\"PRINCIPAL\": \"66516000\"}, \"CODE_NUTS\": \"FR512\", \"LIEU_PRINCIPAL\": \"Communauté d'Agglomération Saumur Loire Développement Siège social : 11 Rue du maréchal Leclerc à Saumur, 49408 Saumur.\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"40%\", \"#text\": \"valeur technique\"}, {\"@POIDS\": \"10%\", \"#text\": \"assistance technique\"}]}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"50%\", \"#text\": \"tarifs appliqués\"}}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2015\", \"NUM_PARUTION\": \"223\", \"NUM_ANNONCE\": \"406744\", \"DATE_PUBLICATION\": \"2015-11-18\"}}}, \"ATTRIBUTION\": {\"DECISION\": {\"ATTRIBUE\": \"\", \"INTITULE\": \"Assurance atteintes à lenvironnement pour la Communauté d'Agglomération Saumur Loire Développement\", \"TITULAIRE\": [{\"DENOMINATION\": \"Cabinet HAMON mandataire du Groupement Cabinet HAMON - AXA\", \"ADRESSE\": \"32 rue Beaurepaire\", \"CP\": \"49400\", \"VILLE\": \"Saumur\", \"CODE_NUTS\": \"FR512\", \"PME_OUI\": \"\"}, {\"DENOMINATION\": \"AXA\", \"ADRESSE\": \"313 Terrasses de l'Arche\", \"CP\": \"92727\", \"VILLE\": \"Nanterre cedex\", \"CODE_NUTS\": \"FR105\", \"PME_NON\": \"\"}], \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-07-20\", \"NB_OFFRE_RECU\": \"3\", \"NB_OFFRE_RECU_PME\": \"0\", \"NB_OFFRE_RECU_ELECT\": \"2\", \"GROUPEMENT_ECONOMIQUE\": \"\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"9900\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Le marché est conclu sur la base dune prime annuelle dun montant de : 10 857,79 euros (T.T.C.) pour la souscription de la formule de base  Garanties avec Franchise de 5000 euros. Date d'envoi du présent avis au JOUE et au BOAMP : 3 août 2016.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette CS 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Greffe du Tribunal administratif de Nantes\", \"ADRESSE\": \"adresse précitée\", \"VILLE\": \"Nantes Cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-115732"
+  },
+  {
    "idweb": "16-117003",
    "id": "16_117003",
    "contractfolderid": null,
@@ -1806,67 +1867,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-117003\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-78256\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-05-31\", \"DATE_FIN_DIFFUSION\": \"2016-06-25\"}}}}, \"NOM_HTML\": \"16-117003.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-08-05\", \"DATE_FIN_DIFFUSION\": \"2016-09-05\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"30\", \"LIBELLE\": \"Bardage\"}, {\"CODE\": \"33\", \"LIBELLE\": \"Bâtiment\"}, {\"CODE\": \"57\", \"LIBELLE\": \"Charpente\"}, {\"CODE\": \"61\", \"LIBELLE\": \"Chauffage (travaux)\"}, {\"CODE\": \"63\", \"LIBELLE\": \"Cloison, faux plafond\"}, {\"CODE\": \"64\", \"LIBELLE\": \"Clôture\"}, {\"CODE\": \"105\", \"LIBELLE\": \"Electricité (travaux)\"}, {\"CODE\": \"116\", \"LIBELLE\": \"Espaces verts\"}, {\"CODE\": \"117\", \"LIBELLE\": \"Etanchéité\"}, {\"CODE\": \"144\", \"LIBELLE\": \"Gros oeuvre\"}, {\"CODE\": \"222\", \"LIBELLE\": \"Menuiserie\"}, {\"CODE\": \"264\", \"LIBELLE\": \"Peinture (travaux)\"}, {\"CODE\": \"270\", \"LIBELLE\": \"Plomberie (travaux)\"}, {\"CODE\": \"306\", \"LIBELLE\": \"Réseaux divers\"}, {\"CODE\": \"308\", \"LIBELLE\": \"Revêtements de sols\"}, {\"CODE\": \"309\", \"LIBELLE\": \"Revêtements muraux\"}, {\"CODE\": \"341\", \"LIBELLE\": \"Terrassement\"}, {\"CODE\": \"345\", \"LIBELLE\": \"Tous corps d'état\"}, {\"CODE\": \"360\", \"LIBELLE\": \"Ventilation\"}, {\"CODE\": \"365\", \"LIBELLE\": \"Voirie\"}]}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"construction d'un atelier relais - commune de combrée\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CDC de Pouancé-Combrée\", \"CORRESPONDANT\": \"Marie-Jo HAMARD\", \"ADRESSE\": \"4 Rue A.Gaubert et S.Micolau\", \"CP\": \"49420\", \"VILLE\": \"Pouance\", \"TEL\": \"02-41-92-35-19\", \"FAX\": \"02-41-92-76-97\", \"MEL\": \"i.baraise@cc-pouance-combree.fr\", \"URL\": \"http://www.cc-pouance-combree.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.groupe-ada.com\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"OBJET\": {\"OBJET_COMPLET\": \"Construction d'un atelier relais - commune de Combrée\", \"CPV\": {\"PRINCIPAL\": \"45000000\"}, \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FR512\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"prix des prestations\"}, {\"@POIDS\": \"40\", \"#text\": \"Valeur technique appréciée au regard du mémoire technique\"}]}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_LOT\": \"1\", \"DESCRIPTION\": \"gros oeuvre\", \"TITULAIRE\": {\"DENOMINATION\": \"GCA\", \"ADRESSE\": \"Rue Félix Henri Richard\", \"CP\": \"35640\", \"VILLE\": \"Martigné Ferchaud\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-07-19\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"35109.05\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"2\", \"DESCRIPTION\": \"Charpente et bardage métal\", \"TITULAIRE\": {\"DENOMINATION\": \"Demy (options incluses)\", \"ADRESSE\": \"51 rue St Denis\", \"CP\": \"53500\", \"VILLE\": \"Ernée\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-07-19\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"66525\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"3\", \"DESCRIPTION\": \"Etanchéité\", \"TITULAIRE\": {\"DENOMINATION\": \"Soprema\", \"ADRESSE\": \"la Boitière\", \"CP\": \"49124\", \"VILLE\": \"Le Plessis Grammoire\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-07-19\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"25071.16\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"4\", \"DESCRIPTION\": \"Menuiseries extérieures\", \"TITULAIRE\": {\"DENOMINATION\": \"Aunette frères (option incluse)\", \"ADRESSE\": \"La croix rouge\", \"CP\": \"44110\", \"VILLE\": \"Villepot\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-07-19\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"16695\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"5\", \"DESCRIPTION\": \"Menuiseries intérieures\", \"TITULAIRE\": {\"DENOMINATION\": \"Monnier\", \"ADRESSE\": \"La Jarriais\", \"CP\": \"53800\", \"VILLE\": \"St martin du limet\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-07-19\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"6934.88\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"6\", \"DESCRIPTION\": \"Cloisons sèches - doublages - Plafonds\", \"TITULAIRE\": {\"DENOMINATION\": \"Coignard\", \"ADRESSE\": \"6 Route de la Confluence\", \"CP\": \"49000\", \"VILLE\": \"Ecouflant\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-07-19\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"7480.89\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"7\", \"DESCRIPTION\": \"Faux plafonds\", \"TITULAIRE\": {\"DENOMINATION\": \"Rousteau\", \"ADRESSE\": \"ZA des Landes\", \"CP\": \"49125\", \"VILLE\": \"Tiercé\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-07-19\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"2192.58\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"8\", \"DESCRIPTION\": \"Electricité\", \"TITULAIRE\": {\"DENOMINATION\": \"Yasar tse\", \"ADRESSE\": \"3 rue des frères Mongolfier\", \"CP\": \"49240\", \"VILLE\": \"Avrillé\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-07-19\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"20559.99\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"9\", \"DESCRIPTION\": \"Chauffage- ventilation- plomberie\", \"TITULAIRE\": {\"DENOMINATION\": \"Alexen\", \"ADRESSE\": \"34 bis rue de la Libération\", \"CP\": \"44110\", \"VILLE\": \"Châteaubriant\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-07-19\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"16920\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"10\", \"DESCRIPTION\": \"Revêtements de sols et murs\", \"TITULAIRE\": {\"DENOMINATION\": \"LBS Carrelage\", \"ADRESSE\": \"les Croisettes\", \"CP\": \"35390\", \"VILLE\": \"St Sulpice des Landes\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-07-19\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"7442.04\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"11\", \"DESCRIPTION\": \"Peinture\", \"TITULAIRE\": {\"DENOMINATION\": \"Planchenault - Bohuon\", \"ADRESSE\": \"Zi du Val Fleury\", \"CP\": \"44110\", \"VILLE\": \"Châteaubriant\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-07-19\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"2833.97\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"12\", \"DESCRIPTION\": \"Terrassement - voiries -réseaux\", \"TITULAIRE\": {\"DENOMINATION\": \"Pigeon TP\", \"ADRESSE\": \"Route de Craon\", \"CP\": \"53800\", \"VILLE\": \"Renazé\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-07-19\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"34576.68\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"13\", \"DESCRIPTION\": \"Clôtures - espaces verts\", \"TITULAIRE\": {\"DENOMINATION\": \"Segré Espaces verts\", \"ADRESSE\": \"rue Louis Lépine\", \"CP\": \"49500\", \"VILLE\": \"Segré\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-07-19\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"11582.22\"}}}]}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-117003"
-  },
-  {
-   "idweb": "16-115732",
-   "id": "16_115732",
-   "contractfolderid": null,
-   "objet": "assurance atteintes à l'environnement pour la communauté d'agglomération saumur loire développement",
-   "filename": "BOAMP-J-IC-AA_2016_218004",
-   "famille": "JOUE",
-   "code_departement": [
-    "49"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2016-08-05",
-   "datefindiffusion": "2016-10-03",
-   "datelimitereponse": null,
-   "nomacheteur": "Cté d'agglo Saumur Loire Développement",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "ATTRIBUTION",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "20"
-   ],
-   "dc": [
-    "20"
-   ],
-   "descripteur_libelle": [
-    "Assurance"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "16-39944"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"16-39944\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-03-31\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-03-31\", \"DATE_FIN_DIFFUSION\": \"2016-05-11\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"066\", \"NUM_ANNONCE\": \"115483\", \"DATE_PUBLICATION\": \"2016-04-05\"}}]}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-115732\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-39944\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-03-31\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-03-31\", \"DATE_FIN_DIFFUSION\": \"2016-05-11\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"066\", \"NUM_ANNONCE\": \"115483\", \"DATE_PUBLICATION\": \"2016-04-05\"}}]}}, \"NOM_HTML\": \"16-115732.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-08-05\", \"DATE_FIN_DIFFUSION\": \"2016-10-03\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"20\", \"LIBELLE\": \"Assurance\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"assurance atteintes à l'environnement pour la communauté d'agglomération saumur loire développement\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Cté d'agglo Saumur Loire Développement\", \"ADJUDICATEUR_NUTS\": \"FR512\", \"ADRESSE\": \"11, Rue du Maréchal Leclerc CS 54030\", \"CP\": \"49408\", \"VILLE\": \"Saumur Cedex\", \"TEL\": \"(+33) 2-41-40-45-65\", \"FAX\": \"(+33) 2-41-40-45-66\", \"MEL\": \"commandes.publiques@agglo-saumur.fr\", \"URL\": \"http://www.agglo-saumur.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.eu-supply.com/saumur_agglomeration.asp\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Assurance atteintes à lenvironnement pour la Communauté d'Agglomération Saumur Loire Développement\", \"REF_MARCHE\": \"A.O.O. 2016-001\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Assurance atteintes à lenvironnement pour la Communauté d'Agglomération Saumur Loire Développement\", \"CPV\": {\"PRINCIPAL\": \"66516000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Assurance atteintes à lenvironnement pour la Communauté d'Agglomération Saumur Loire Développement\", \"CPV\": {\"PRINCIPAL\": \"66516000\"}, \"CODE_NUTS\": \"FR512\", \"LIEU_PRINCIPAL\": \"Communauté d'Agglomération Saumur Loire Développement Siège social : 11 Rue du maréchal Leclerc à Saumur, 49408 Saumur.\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"40%\", \"#text\": \"valeur technique\"}, {\"@POIDS\": \"10%\", \"#text\": \"assistance technique\"}]}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"50%\", \"#text\": \"tarifs appliqués\"}}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2015\", \"NUM_PARUTION\": \"223\", \"NUM_ANNONCE\": \"406744\", \"DATE_PUBLICATION\": \"2015-11-18\"}}}, \"ATTRIBUTION\": {\"DECISION\": {\"ATTRIBUE\": \"\", \"INTITULE\": \"Assurance atteintes à lenvironnement pour la Communauté d'Agglomération Saumur Loire Développement\", \"TITULAIRE\": [{\"DENOMINATION\": \"Cabinet HAMON mandataire du Groupement Cabinet HAMON - AXA\", \"ADRESSE\": \"32 rue Beaurepaire\", \"CP\": \"49400\", \"VILLE\": \"Saumur\", \"CODE_NUTS\": \"FR512\", \"PME_OUI\": \"\"}, {\"DENOMINATION\": \"AXA\", \"ADRESSE\": \"313 Terrasses de l'Arche\", \"CP\": \"92727\", \"VILLE\": \"Nanterre cedex\", \"CODE_NUTS\": \"FR105\", \"PME_NON\": \"\"}], \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-07-20\", \"NB_OFFRE_RECU\": \"3\", \"NB_OFFRE_RECU_PME\": \"0\", \"NB_OFFRE_RECU_ELECT\": \"2\", \"GROUPEMENT_ECONOMIQUE\": \"\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"9900\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Le marché est conclu sur la base dune prime annuelle dun montant de : 10 857,79 euros (T.T.C.) pour la souscription de la formule de base  Garanties avec Franchise de 5000 euros. Date d'envoi du présent avis au JOUE et au BOAMP : 3 août 2016.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette CS 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Greffe du Tribunal administratif de Nantes\", \"ADRESSE\": \"adresse précitée\", \"VILLE\": \"Nantes Cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-115732"
   },
   {
    "idweb": "16-118095",
@@ -3591,6 +3591,65 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-118029"
   },
   {
+   "idweb": "16-120738",
+   "id": "16_120738",
+   "contractfolderid": null,
+   "objet": "marché d'entretien et de maintenance de mobilier",
+   "filename": "BOAMP-N-AO_2016_224011",
+   "famille": "FNS",
+   "code_departement": [
+    "49"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2016-08-11",
+   "datefindiffusion": "2016-10-07",
+   "datelimitereponse": "2016-10-07T15:00:00+00:00",
+   "nomacheteur": "Département de Maine-et-Loire",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "231"
+   ],
+   "dc": [
+    "231"
+   ],
+   "descripteur_libelle": [
+    "Mobilier urbain"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-120738\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-120738.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-08-11\", \"DATE_LIMITE_REPONSE\": \"2016-10-07T16:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2016-10-07\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"231\", \"LIBELLE\": \"Mobilier urbain\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"marché d'entretien et de maintenance de mobilier\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Département de Maine-et-Loire\", \"CORRESPONDANT\": \"Olivier PICHAUD\", \"ADRESSE\": \"DGA Territoires -Direction des transports et de la mobilité -Hotel du Département -Place Michel Debré-CS 94104\", \"CP\": \"49941\", \"VILLE\": \"Angers\", \"TEL\": \"02-41-81-45-04\", \"MEL\": \"o.pichaud@maine-et-loire.fr\", \"URL\": \"http://www.maine-et-loire.fr/\", \"URL_PROFIL_ACHETEUR\": \"https://www.anjoumarchespublics.fr\"}, \"TYPE_ORGANISME\": {\"DEPARTEMENT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"transports publics de personnes\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"1\"}, \"OBJET_COMPLET\": \"Entretien et petite maintenance du mobilier du réseau départemental de transports interurbains Anjoubus\", \"CPV\": [{\"PRINCIPAL\": \"90910000\"}, {\"PRINCIPAL\": \"50324200\"}], \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"département de Maine-et-Loire et limitrophes (44, 53, 72)\", \"CODE_NUTS\": \"FR512\"}, \"AMP_OUI\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Marché ordinaire portant sur la réalisation des prestations d'entretien, de petite maintenance préventive et de petite maintenance curative du mobilier départemental (abris, poteaux, panonceaux de TAD) du réseau des transports publics interurbains Anjoubus, à l'exclusion des opérations de grosse maintenance\", \"QUANTITE\": \"Le parc à entretenir compte 187 abris, 365 poteaux et 87 panonceaux de TAD (Transport à la demande). Ces quantités peuvent évoluer en plus ou en moins au cours du marché. Les prestations comprises dans l'entretien et la petite maintenance sont décrites dans le cahier des clauses administratives et techniques particulières fourni dans le dossier de consultation des entreprises\", \"OPTIONS\": {\"OUI\": \"\"}, \"RECONDUCTIONS\": {\"NB_RECONDUCTIONS\": \"1\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"24\", \"DATE_EXECUTION\": \"2016-11-02\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2016-10-07T16:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Si le candidat retenu demande une avance, il lui sera demandé de constituer au préalable une caution personnelle et solidaire conformément aux articles 110, 122 et 123 du Décret no2016-360 relatif aux marchés publics\", \"FINANCEMENT\": \"Modalités de financement : budget général du Département (imputation 011-821-6156). -Modalités de versement des sommes dues au transporteur : le paiement sera effectué par virement administratif, le comptable assignataire étant la paierie départementale.-Rémunération du transporteur : le règlement des sommes dues interviendra sur présentation des factures trimestrielles datées du dernier jour du mois du service fait, dans un délai maximum de 30 jours à compter de la réception de ces pièces\", \"FORME_JURIDIQUE\": \"Dans le cas où des entreprises souhaiteraient se grouper pour faire acte de candidature, elles devront préciser la forme du groupement (solidaire ou conjoint). Les dossiers de candidature et de soumission devront être signés soit par l'ensemble des entreprises concernées, soit par un mandataire justifiant des habilitations reçues en ce domaine.-La constitution d'un groupement ne doit pas avoir pour effet de fausser le jeu normal de la concurrence. L'offre d'un tel groupement serait considérée comme irrecevable et écartée\", \"AUTRES_CONDITIONS_PART_OUI\": \"Le titulaire veillera à utiliser des produits efficaces, mais qui ne soient pas abrasifs, qui ne détériorent pas le mobilier et dont l'impact environnemental reste limité. Ils devront être conformes aux normes environnementales en vigueur\", \"UNITE_MONETAIRE_EUR\": \"\"}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"Ne seront pas retenues les entreprises ne présentant pas de garanties professionnelles, sociales et financières suffisantes pour garantir la continuité du service et réaliser les prestations dans les conditions de sécurité, de fiabilité décrites dans le CCATP\", \"SITUATION_JURIDIQUE\": \"- Ne pas avoir subi de déchéance de contrats au cours des trois années précédant la présente consultation ;-- N'entrer dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles 45 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 ; -- Être en règle au regard des articles L. 5212-1 à L. 5212-11 du code du travail concernant l'emploi des travailleurs handicapés\", \"CAP_TECH\": \"- Présenter les garanties professionnelles permettant d'assurer la continuité du service public et d'exécuter les prestations\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire obligatoirement par le candidat, à l'appui de sa candidature\", \"Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire\", \"Déclaration sur l'honneur du candidat justifiant qu'il n'entre dans aucun des cas mentionnés à l'article 43 du code des marchés publics, concernant les interdictions de soumissionner\", \"Déclaration sur l'honneur du candidat attestant qu'il est en règle, au cours de l'année précédant celle au cours de laquelle a lieu le lancement de la consultation, au regard des articles L. 5212-1, L. 5212-2, L. 5212 5 et L. 5212-9 du code du travail, concernant l'emploi des travailleurs handicapés\", \"Si le candidat est établi en France, une déclaration sur l'honneur du candidat justifiant que le travail est effectué par des salariés employés régulièrement au regard des articles L. 1221-10, L. 3243-2 et R. 3243-1 du code du travail (dans le cas où le candidat emploie des salariés, conformément à l'article D. 8222-5-3° du code du travail)\", \"Si le candidat est établi ou domicilié à l'étranger, une déclaration sur l'honneur du candidat attestant qu'il fournit à ses salariés des bulletins de paie comportant les mentions prévues à l'article R. 3243-1 du code du travail, ou des documents équivalents\", \"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels\", \"Présentation d'une liste des principales fournitures ou des principaux services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Les livraisons et les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique\", \"Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation de marchés de même nature\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC3, Acte d'engagement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC4, Déclaration de sous-traitance (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"S'il s'appuie, pour présenter sa candidature, sur les capacités professionnelles, techniques et financières d'autres opérateurs économiques, le candidat produit les mêmes documents concernant cet opérateur économique que ceux qui lui sont exigés par l'acheteur public. Le candidat doit également apporter la preuve que chacun de ces opérateurs économiques mettra à sa disposition les moyens nécessaires, pendant toute la durée d'exécution du marché public ou de l'accord-cadre\", \"Si les documents fournis par le candidat ne sont pas établis en langue française, ils doivent être accompagnés d'une traduction en français, certifiée conforme à l'original par un traducteur assermenté\", \"Les pièces prévues aux articles D. 8222-5 ou D. 8222-7 et D. 8222-8 du code du travail\", \"Si l'attributaire est établi en France, les attestations et certificats délivrés par les administrations et organismes compétents prouvant qu'il a satisfait à ses obligations fiscales et sociales ou un état annuel des certificats reçus\", \"Si l'attributaire est établi dans un Etat autre que la France, un certificat établi par les administrations et organismes du pays d'origine. Lorsqu'un tel certificat n'est pas délivré par le pays concerné, il peut être remplacé par une déclaration sous serment, ou dans les Etats où un tel serment n'existe pas, par une déclaration solennelle faite par l'intéressé devant l'autorité judiciaire ou administrative compétente, un notaire ou un organisme professionnel qualifié du pays\", \"Si les documents fournis par le candidat ne sont pas établis en langue française, ils doivent être accompagnés d'une traduction en français, certifiée conforme à l'original par un traducteur assermenté\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"MAPA 2016-02\", \"CONDITIONS_REMISE_OFFRES\": \"Les candidatures et les offres peuvent être remises par voie électronique ou papier. Les candidats doivent faire le choix entre l'une ou l'autre des procédures. Le règlement de la consultation précise, dans son article 11, les conditions propres à chaque procédure\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Le DCE est délivré gratuitement :-- par téléchargement sur le profil d'acheteur du Département (https://www.anjoumarchespublics.fr/), -- ou, par envoi par voie postale, sur demande écrite à l'adresse mentionnée au point 1 (courriel ou courrier, précisant le nom de l'entreprise, son adresse postale, son no de téléphone et son adresse e-mail),-- ou, par retrait sur place contre récépissé : se présenter à la DGA Territoires, Direction des transports et de la mobilité, 15 rue Hanneloup, 2e étage, à Angers en indiquant au préalable la date de passage envisagée pour le retrait.-Les candidats souhaitant obtenir des précisions sont invités à formuler leurs questions via le profil d'acheteur ou par courriel à l'adresse suivante (o.pichaud@maine-et-loire.fr), au plus tard le 30/09/2016.-Renseignements d'ordre administratif : Olivier PICHAUD - tél 02 41 81 45 04 - o.pichaud@maine-et-loire.fr -Renseignements d'ordre technique : Vincent CORBEAU - tél 02 4181 49 73 - v.corbeau@maine-et-loire.fr\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'ile Gloriette -B.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.tanantes@juradm.fr\", \"URL\": \"http://www.conseil-etat.fr\"}}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-120738"
+  },
+  {
    "idweb": "16-118729",
    "id": "16_118729",
    "contractfolderid": null,
@@ -3650,65 +3709,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-118729\", \"TYPE_AVIS\": {\"FAMILLE\": {\"DSP\": \"\"}, \"PERIMETRE\": {\"DSP\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-118729.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-08-11\", \"DATE_FIN_DIFFUSION\": \"2016-09-30\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"75\", \"LIBELLE\": \"Crédit-bail\"}, {\"CODE\": \"249\", \"LIBELLE\": \"Ordures ménagères (prestations)\"}, {\"CODE\": \"406\", \"LIBELLE\": \"Délégation de service public\"}]}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"convention tripartite relative au financement de l'unité de valorisation énergétique des déchets (uved) et de l'unité de traitement des machefers (utm) de le mans métropole\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Le Mans Métropole\", \"CORRESPONDANT\": \"M. Jean-Claude BOULARD, Président de Le Mans Métropole\", \"CONTACT\": \"service propreté et ordures ménagères - Anne Huger\", \"ADRESSE\": \"CS40010\", \"CP\": \"72039\", \"VILLE\": \"LE MANS cedex 9\", \"MEL\": \"anne.huger@lemans.fr\", \"URL\": \"http://www.lemans.fr\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"Communauté urbaine\"}, \"OBJET\": {\"TITRE_MARCHE\": \"convention tripartite relative au financement de l'unité de valorisation énergétique des déchets (UVED) et de l'unité de traitement des machefers (UTM) de Le Mans Métropole\", \"OBJET_COMPLET\": \"Au terme d'une procédure de délégation de service public Le Mans Métropole a par délibération du 30 juin 2016 approuvé le choix du candidat GEVAL comme titulaire du contrat de DSP pour l'exploitation de l'UVED et de l'UTM. Ce contrat prévoit que le financement d'une partie des travaux est assuré par des organismes prêteurs dont l'établissement bancaire DEUTSCHE PFANBRIEFBANK AG est mandataire dans le cadre d'une convention de cession à titre d'escompte de certaines créances que le Délégataire détient au titre du contrat de DSP, ladite cession a fait l'objet d'un acte d'acceptation par Le Mans Métropole le 27 juillet 2016 et dans le cadre d'une convention tripartite conclu le 27 juillet 2016 entre Le Mans Métropole, DEUTSCHE PFRANBRIEBANK AG et le Délégataire.\", \"CPV\": [{\"PRINCIPAL\": \"70200000\"}, {\"PRINCIPAL\": \"90513300\"}], \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"territoire de la communauté urbaine\"}, \"DELEGATION\": {\"TEXTE_APPLICATION\": \"Dans le cadre de la délégation de service public pour l'exploitation de l'UVED et de l'UTM, la convention tripartite est relative au financement des investissements.\", \"DOMAINE\": {\"ORDURES_MEN_DECHETS\": \"\"}, \"DUREE_AN\": \"12\", \"DUREE_MOIS\": \"6\", \"AUTRES_PRECISIONS\": \"La cession de créances est programmée sur 150 mois. Le Mans Métropole a accepté la cession aux prêteurs - dont le mandataireest DEUTSCHE PFANBRIEFBANK AG - des créances que le Délégataire détient sur la Collectivité au titre des redevances RPF1. Dans ce cadre le Délégataire a cédé à l'établissement DEUTSCHEPFANBRIEFBANK un montant de 13.568.007 euros (valeur 3 mai 2016) de ses créances correspondant à une partie des coûts d'investissement et de financement des travaux imposés par le contrat de DSP.\"}}, \"PROCEDURE\": {\"FONDS_COMMUNAUTAIRES_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_LIBRE\": \"La convention tripartite est passée dans le cadre du financement d'une partie des travaux prévus au contrat de DSP pour l'exploitation de l'UVED et de l'UTM.L'acte d'acceptation ne produira ses effets qu'après que lesinvestissements auront été réalisés conformément aux prescriptions du contrat de délégation de service public, constatation qui sera matérialisée par la signature par Le Mans Métropole du plus tardif des procès-verbaux de constat d'atteinte des performances garanties visé au contrat de DSP.\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"13569007\"}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"PROCEDURES_RECOURS_PRECISIONS\": \"Les tiers ayant intérêt à agir peuvent introduire un recours de plein contentieux contestant la validité du contrat dans un délai de 2 mois à compter de la publication du présent avis, conformément à l'arrêt Tarn et Garonne (CE, 4 avril 2014). Pour plus d'informations, s'adresser au greffe du tribunal administratif de Nantes.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'ile-gloriette B.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES Cedex\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ADMIN\": \"\"}, \"DENOMINATION\": \"LE MANS METROPOLE - service propreté et ordures ménagères\", \"ADRESSE\": \"CS40010\", \"CP\": \"72039\", \"VILLE\": \"LE MANS cedex 9\", \"TEL\": \"02-43-47-47-70\", \"MEL\": \"anne.huger@lemans.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-118729"
-  },
-  {
-   "idweb": "16-120738",
-   "id": "16_120738",
-   "contractfolderid": null,
-   "objet": "marché d'entretien et de maintenance de mobilier",
-   "filename": "BOAMP-N-AO_2016_224011",
-   "famille": "FNS",
-   "code_departement": [
-    "49"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2016-08-11",
-   "datefindiffusion": "2016-10-07",
-   "datelimitereponse": "2016-10-07T15:00:00+00:00",
-   "nomacheteur": "Département de Maine-et-Loire",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "231"
-   ],
-   "dc": [
-    "231"
-   ],
-   "descripteur_libelle": [
-    "Mobilier urbain"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-120738\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-120738.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-08-11\", \"DATE_LIMITE_REPONSE\": \"2016-10-07T16:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2016-10-07\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"231\", \"LIBELLE\": \"Mobilier urbain\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"marché d'entretien et de maintenance de mobilier\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Département de Maine-et-Loire\", \"CORRESPONDANT\": \"Olivier PICHAUD\", \"ADRESSE\": \"DGA Territoires -Direction des transports et de la mobilité -Hotel du Département -Place Michel Debré-CS 94104\", \"CP\": \"49941\", \"VILLE\": \"Angers\", \"TEL\": \"02-41-81-45-04\", \"MEL\": \"o.pichaud@maine-et-loire.fr\", \"URL\": \"http://www.maine-et-loire.fr/\", \"URL_PROFIL_ACHETEUR\": \"https://www.anjoumarchespublics.fr\"}, \"TYPE_ORGANISME\": {\"DEPARTEMENT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"transports publics de personnes\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"1\"}, \"OBJET_COMPLET\": \"Entretien et petite maintenance du mobilier du réseau départemental de transports interurbains Anjoubus\", \"CPV\": [{\"PRINCIPAL\": \"90910000\"}, {\"PRINCIPAL\": \"50324200\"}], \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"département de Maine-et-Loire et limitrophes (44, 53, 72)\", \"CODE_NUTS\": \"FR512\"}, \"AMP_OUI\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Marché ordinaire portant sur la réalisation des prestations d'entretien, de petite maintenance préventive et de petite maintenance curative du mobilier départemental (abris, poteaux, panonceaux de TAD) du réseau des transports publics interurbains Anjoubus, à l'exclusion des opérations de grosse maintenance\", \"QUANTITE\": \"Le parc à entretenir compte 187 abris, 365 poteaux et 87 panonceaux de TAD (Transport à la demande). Ces quantités peuvent évoluer en plus ou en moins au cours du marché. Les prestations comprises dans l'entretien et la petite maintenance sont décrites dans le cahier des clauses administratives et techniques particulières fourni dans le dossier de consultation des entreprises\", \"OPTIONS\": {\"OUI\": \"\"}, \"RECONDUCTIONS\": {\"NB_RECONDUCTIONS\": \"1\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"24\", \"DATE_EXECUTION\": \"2016-11-02\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2016-10-07T16:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Si le candidat retenu demande une avance, il lui sera demandé de constituer au préalable une caution personnelle et solidaire conformément aux articles 110, 122 et 123 du Décret no2016-360 relatif aux marchés publics\", \"FINANCEMENT\": \"Modalités de financement : budget général du Département (imputation 011-821-6156). -Modalités de versement des sommes dues au transporteur : le paiement sera effectué par virement administratif, le comptable assignataire étant la paierie départementale.-Rémunération du transporteur : le règlement des sommes dues interviendra sur présentation des factures trimestrielles datées du dernier jour du mois du service fait, dans un délai maximum de 30 jours à compter de la réception de ces pièces\", \"FORME_JURIDIQUE\": \"Dans le cas où des entreprises souhaiteraient se grouper pour faire acte de candidature, elles devront préciser la forme du groupement (solidaire ou conjoint). Les dossiers de candidature et de soumission devront être signés soit par l'ensemble des entreprises concernées, soit par un mandataire justifiant des habilitations reçues en ce domaine.-La constitution d'un groupement ne doit pas avoir pour effet de fausser le jeu normal de la concurrence. L'offre d'un tel groupement serait considérée comme irrecevable et écartée\", \"AUTRES_CONDITIONS_PART_OUI\": \"Le titulaire veillera à utiliser des produits efficaces, mais qui ne soient pas abrasifs, qui ne détériorent pas le mobilier et dont l'impact environnemental reste limité. Ils devront être conformes aux normes environnementales en vigueur\", \"UNITE_MONETAIRE_EUR\": \"\"}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"Ne seront pas retenues les entreprises ne présentant pas de garanties professionnelles, sociales et financières suffisantes pour garantir la continuité du service et réaliser les prestations dans les conditions de sécurité, de fiabilité décrites dans le CCATP\", \"SITUATION_JURIDIQUE\": \"- Ne pas avoir subi de déchéance de contrats au cours des trois années précédant la présente consultation ;-- N'entrer dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles 45 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 ; -- Être en règle au regard des articles L. 5212-1 à L. 5212-11 du code du travail concernant l'emploi des travailleurs handicapés\", \"CAP_TECH\": \"- Présenter les garanties professionnelles permettant d'assurer la continuité du service public et d'exécuter les prestations\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire obligatoirement par le candidat, à l'appui de sa candidature\", \"Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire\", \"Déclaration sur l'honneur du candidat justifiant qu'il n'entre dans aucun des cas mentionnés à l'article 43 du code des marchés publics, concernant les interdictions de soumissionner\", \"Déclaration sur l'honneur du candidat attestant qu'il est en règle, au cours de l'année précédant celle au cours de laquelle a lieu le lancement de la consultation, au regard des articles L. 5212-1, L. 5212-2, L. 5212 5 et L. 5212-9 du code du travail, concernant l'emploi des travailleurs handicapés\", \"Si le candidat est établi en France, une déclaration sur l'honneur du candidat justifiant que le travail est effectué par des salariés employés régulièrement au regard des articles L. 1221-10, L. 3243-2 et R. 3243-1 du code du travail (dans le cas où le candidat emploie des salariés, conformément à l'article D. 8222-5-3° du code du travail)\", \"Si le candidat est établi ou domicilié à l'étranger, une déclaration sur l'honneur du candidat attestant qu'il fournit à ses salariés des bulletins de paie comportant les mentions prévues à l'article R. 3243-1 du code du travail, ou des documents équivalents\", \"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels\", \"Présentation d'une liste des principales fournitures ou des principaux services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Les livraisons et les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique\", \"Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation de marchés de même nature\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC3, Acte d'engagement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC4, Déclaration de sous-traitance (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"S'il s'appuie, pour présenter sa candidature, sur les capacités professionnelles, techniques et financières d'autres opérateurs économiques, le candidat produit les mêmes documents concernant cet opérateur économique que ceux qui lui sont exigés par l'acheteur public. Le candidat doit également apporter la preuve que chacun de ces opérateurs économiques mettra à sa disposition les moyens nécessaires, pendant toute la durée d'exécution du marché public ou de l'accord-cadre\", \"Si les documents fournis par le candidat ne sont pas établis en langue française, ils doivent être accompagnés d'une traduction en français, certifiée conforme à l'original par un traducteur assermenté\", \"Les pièces prévues aux articles D. 8222-5 ou D. 8222-7 et D. 8222-8 du code du travail\", \"Si l'attributaire est établi en France, les attestations et certificats délivrés par les administrations et organismes compétents prouvant qu'il a satisfait à ses obligations fiscales et sociales ou un état annuel des certificats reçus\", \"Si l'attributaire est établi dans un Etat autre que la France, un certificat établi par les administrations et organismes du pays d'origine. Lorsqu'un tel certificat n'est pas délivré par le pays concerné, il peut être remplacé par une déclaration sous serment, ou dans les Etats où un tel serment n'existe pas, par une déclaration solennelle faite par l'intéressé devant l'autorité judiciaire ou administrative compétente, un notaire ou un organisme professionnel qualifié du pays\", \"Si les documents fournis par le candidat ne sont pas établis en langue française, ils doivent être accompagnés d'une traduction en français, certifiée conforme à l'original par un traducteur assermenté\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"MAPA 2016-02\", \"CONDITIONS_REMISE_OFFRES\": \"Les candidatures et les offres peuvent être remises par voie électronique ou papier. Les candidats doivent faire le choix entre l'une ou l'autre des procédures. Le règlement de la consultation précise, dans son article 11, les conditions propres à chaque procédure\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Le DCE est délivré gratuitement :-- par téléchargement sur le profil d'acheteur du Département (https://www.anjoumarchespublics.fr/), -- ou, par envoi par voie postale, sur demande écrite à l'adresse mentionnée au point 1 (courriel ou courrier, précisant le nom de l'entreprise, son adresse postale, son no de téléphone et son adresse e-mail),-- ou, par retrait sur place contre récépissé : se présenter à la DGA Territoires, Direction des transports et de la mobilité, 15 rue Hanneloup, 2e étage, à Angers en indiquant au préalable la date de passage envisagée pour le retrait.-Les candidats souhaitant obtenir des précisions sont invités à formuler leurs questions via le profil d'acheteur ou par courriel à l'adresse suivante (o.pichaud@maine-et-loire.fr), au plus tard le 30/09/2016.-Renseignements d'ordre administratif : Olivier PICHAUD - tél 02 41 81 45 04 - o.pichaud@maine-et-loire.fr -Renseignements d'ordre technique : Vincent CORBEAU - tél 02 4181 49 73 - v.corbeau@maine-et-loire.fr\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'ile Gloriette -B.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.tanantes@juradm.fr\", \"URL\": \"http://www.conseil-etat.fr\"}}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-120738"
   },
   {
    "idweb": "16-119286",

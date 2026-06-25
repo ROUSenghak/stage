@@ -3996,65 +3996,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-91332"
   },
   {
-   "idweb": "16-91726",
-   "id": "16_91726",
-   "contractfolderid": null,
-   "objet": "Réfection de la travée en fonte du pont de la Grande Planche -RD 763 sur la Boire des Filières à Lire",
-   "filename": "BOAMP-N-IC-AA_2016_174012",
-   "famille": "FNS",
-   "code_departement": [
-    "49"
-   ],
-   "code_departement_prestation": "49",
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2016-06-22",
-   "datefindiffusion": "2016-09-21",
-   "datelimitereponse": null,
-   "nomacheteur": "Département de Maine-et-Loire",
-   "titulaire": [
-    "MARC SA"
-   ],
-   "perimetre": "CMP-2006",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "ATTRIBUTION",
-   "sousnature": null,
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "252"
-   ],
-   "dc": [
-    "252"
-   ],
-   "descripteur_libelle": [
-    "Ouvrage d'art"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "16-36813"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"16-36813\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-03-15\", \"DATE_FIN_DIFFUSION\": \"2016-04-26\"}}}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-91726\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-36813\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-03-15\", \"DATE_FIN_DIFFUSION\": \"2016-04-26\"}}}}, \"NOM_HTML\": \"16-91726.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-06-22\", \"DATE_FIN_DIFFUSION\": \"2016-09-21\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"252\", \"LIBELLE\": \"Ouvrage d'art\"}}, \"DEP_PUBLICATION\": \"49\", \"DEP_PRESTATION\": \"49\", \"RESUME_OBJET\": \"Réfection de la travée en fonte du pont de la Grande Planche -RD 763 sur la Boire des Filières à Lire\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Département de Maine-et-Loire\", \"CORRESPONDANT\": \"Mme Danielle Manceau\", \"ADRESSE\": \"Direction des finances, des affaires juridiques et de l'évaluation - Place Michel Debré - CS 94104\", \"CP\": \"49941\", \"VILLE\": \"Angers cedex 09\", \"TEL\": \"02-41-81-45-83\", \"FAX\": \"02-41-81-47-83\", \"URL\": \"http://www.maine-et-loire.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.anjoumarchespublics.fr\"}, \"TYPE_ORGANISME\": {\"DEPARTEMENT\": \"\"}, \"OBJET\": {\"OBJET_COMPLET\": \"Réfection de la travée en fonte du pont de la Grande Planche - RD763 sur la boire des Filières - Commune de LIRE\", \"CPV\": [{\"PRINCIPAL\": \"45221119\"}, {\"PRINCIPAL\": \"45442200\"}], \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FR512\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIORITES\": {\"CRITERE\": [{\"@ORDRE\": \"1\", \"#text\": \"Prix des prestations\"}, {\"@ORDRE\": \"2\", \"#text\": \"Valeur technique des prestations\"}, {\"@ORDRE\": \"3\", \"#text\": \"Performance en matière de protection de l'environnement\"}]}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"2016-48\", \"DESCRIPTION\": \"Réfection de la travée en fonte du pont de la Grande Planche - RD763 sur la boire des Filières - Commune de LIRE\", \"TITULAIRE\": {\"DENOMINATION\": \"MARC SA\", \"ADRESSE\": \"114, rue des Fougères\", \"CP\": \"50110\", \"VILLE\": \"Tourlaville\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-05-30\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"280478.00\"}}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6, allée de l'Ile Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6, allée de l'Ile Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-91726"
-  },
-  {
    "idweb": "16-91241",
    "id": "16_91241",
    "contractfolderid": null,
@@ -4115,6 +4056,65 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-91241\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-91241.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-06-22\", \"DATE_FIN_DIFFUSION\": \"2016-07-21\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"266\", \"LIBELLE\": \"Pièces détachées\"}, {\"CODE\": \"271\", \"LIBELLE\": \"Pneumatiques\"}]}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Acquisition de pièces de rechange, pneumatiques et produits consommables pour l'entretien et la réparation des véhicules et matériels pour l'année 2016 - renouvelable en 2017 - 2018 - 2019\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Le Mans Métropole - Communauté Urbaine\", \"CODE_IDENT_NATIONAL\": \"24720013200014\", \"ADJUDICATEUR_NUTS\": \"FR514\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, Cs 40010 - 16 avenue François Mitterrand - Le Condorcet, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"Le Mans\", \"TEL\": \"(+33) 2-43-47-37-31\", \"FAX\": \"(+33) 2-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.sarthe-marchespublics.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\", \"URL_PARTICIPATION\": \"http://www.sarthe-marchespublics.fr\", \"URL_DOCUMENT\": \"http://www.sarthe-marchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Acquisition de pièces de rechange, pneumatiques et produits consommables pour l'entretien et la réparation des véhicules et matériels pour l'année 2016 - renouvelable en 2017 - 2018 - 2019\", \"REF_MARCHE\": \"Ip 16006\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Cette consultation s'effectue dans le cadre d'un groupement de commandes conformément à l'article 28 de l'Ordonnance nº2015-899 du 23 juillet 2015 avec les organismes suivants :-Le Mans Métropole - Communauté Urbaine-Ville du MansIl s'agit d'un accord-cadre à bons de commande sans minimum, ni maximum et un opérateur économique conclu pour l'année 2016 renouvelable en 2017, 2018 et 2019\", \"CPV\": {\"PRINCIPAL\": \"34210000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"20000\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"NB_LOT_OFFRE_MAX\": \"1\", \"LOTS\": {\"LOT\": {\"NUM\": \"5\", \"INTITULE\": \"Lot 5 : Produits divers pour atelier et carrosserie\", \"DESCRIPTION\": \"divers produits tels des bombes de peinture, de la colle, des disques à poncer, différents liquide - frein, refroidissement.... - etc\", \"CPV\": {\"PRINCIPAL\": \"39831500\"}, \"CODE_NUTS\": \"FR514\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"20000\"}, \"DUREE_MOIS\": \"3\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"3 reconductions sont prévues\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Des modifications, des contrats similaires, des contrats complémentaires pourront être conclus au cours de l'exécution du contrat dans le respect des dispositions du décret 2016-360 du 25 mars 2016 et du Code Général des Collectivités Territoriales\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"La durée initiale de 3 mois correspond à l'année 2016\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"A titre indicatif : deuxième semestre 2019\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2016-07-21T17:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"-Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas des interdictions de soumissionner-Renseignements sur le respect de l'obligation d'emploi mentionnée aux articles L. 5212-1 à L. 5212-11 du Code du travail ;\", \"CAP_ECO\": \"-Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires du domaine d'activité concernant les fournitures objet du contrat, réalisés au cours des trois derniers exercices disponibles ou tout autre document;\", \"CAP_TECH\": \"-Tous éléments permettant de vérifier la capacité technique et professionnelle à exécuter le marché\", \"MARCHE_RESERVE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2016-07-25\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Retrouvez cet avis intégral, l'accès au dossier et le guichet de dépôt sur http://www.sarthe-marchespublics.frLe DCE peut être téléchargé jusqu'au jour de la date et heure limite de remise des offres. Les offres peuvent être transmises par lettre recommandée avec accusé de réception ou déposées contre récépissé au Pôle Marchés et Achats Publics ou par voie électronique. Les modalités de transmission électronique des plis sont définies dans le règlement de la consultation. Critères de sélection candidats 1 Aptitude à exercer l'activité professionnelle - 2 Capacités techniques et professionnelles - 3 Capacité économique et financièreRenseignements administratifs :I; PREVOST 02.43.47.43.78Renseignements techniques : X. BRISSAULT 02.43.47.46.36. Date d'envoi du présent avis au JOUE et au BOAMP : 20 juin 2016.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso\", \"CP\": \"44042\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://pays-de-la-loire.direccte.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"Ville du Mans\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, Place St Pierre\", \"CP\": \"72039\", \"VILLE\": \"Le Mans\", \"CODE_NUTS\": \"FR514\", \"TEL\": \"(+33) 2-43-47-37-31\", \"FAX\": \"(+33) 2-43-47-37-40\", \"MEL\": \"marches@ville-lemans.fr\", \"URL\": \"http://www.sarthe-marchespublics.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-91241"
+  },
+  {
+   "idweb": "16-91726",
+   "id": "16_91726",
+   "contractfolderid": null,
+   "objet": "Réfection de la travée en fonte du pont de la Grande Planche -RD 763 sur la Boire des Filières à Lire",
+   "filename": "BOAMP-N-IC-AA_2016_174012",
+   "famille": "FNS",
+   "code_departement": [
+    "49"
+   ],
+   "code_departement_prestation": "49",
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2016-06-22",
+   "datefindiffusion": "2016-09-21",
+   "datelimitereponse": null,
+   "nomacheteur": "Département de Maine-et-Loire",
+   "titulaire": [
+    "MARC SA"
+   ],
+   "perimetre": "CMP-2006",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "ATTRIBUTION",
+   "sousnature": null,
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "252"
+   ],
+   "dc": [
+    "252"
+   ],
+   "descripteur_libelle": [
+    "Ouvrage d'art"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "16-36813"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"16-36813\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-03-15\", \"DATE_FIN_DIFFUSION\": \"2016-04-26\"}}}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-91726\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-36813\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-03-15\", \"DATE_FIN_DIFFUSION\": \"2016-04-26\"}}}}, \"NOM_HTML\": \"16-91726.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-06-22\", \"DATE_FIN_DIFFUSION\": \"2016-09-21\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"252\", \"LIBELLE\": \"Ouvrage d'art\"}}, \"DEP_PUBLICATION\": \"49\", \"DEP_PRESTATION\": \"49\", \"RESUME_OBJET\": \"Réfection de la travée en fonte du pont de la Grande Planche -RD 763 sur la Boire des Filières à Lire\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Département de Maine-et-Loire\", \"CORRESPONDANT\": \"Mme Danielle Manceau\", \"ADRESSE\": \"Direction des finances, des affaires juridiques et de l'évaluation - Place Michel Debré - CS 94104\", \"CP\": \"49941\", \"VILLE\": \"Angers cedex 09\", \"TEL\": \"02-41-81-45-83\", \"FAX\": \"02-41-81-47-83\", \"URL\": \"http://www.maine-et-loire.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.anjoumarchespublics.fr\"}, \"TYPE_ORGANISME\": {\"DEPARTEMENT\": \"\"}, \"OBJET\": {\"OBJET_COMPLET\": \"Réfection de la travée en fonte du pont de la Grande Planche - RD763 sur la boire des Filières - Commune de LIRE\", \"CPV\": [{\"PRINCIPAL\": \"45221119\"}, {\"PRINCIPAL\": \"45442200\"}], \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FR512\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIORITES\": {\"CRITERE\": [{\"@ORDRE\": \"1\", \"#text\": \"Prix des prestations\"}, {\"@ORDRE\": \"2\", \"#text\": \"Valeur technique des prestations\"}, {\"@ORDRE\": \"3\", \"#text\": \"Performance en matière de protection de l'environnement\"}]}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"2016-48\", \"DESCRIPTION\": \"Réfection de la travée en fonte du pont de la Grande Planche - RD763 sur la boire des Filières - Commune de LIRE\", \"TITULAIRE\": {\"DENOMINATION\": \"MARC SA\", \"ADRESSE\": \"114, rue des Fougères\", \"CP\": \"50110\", \"VILLE\": \"Tourlaville\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-05-30\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"280478.00\"}}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6, allée de l'Ile Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6, allée de l'Ile Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-91726"
   },
   {
    "idweb": "16-92609",
@@ -5495,65 +5495,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-93582"
   },
   {
-   "idweb": "16-93513",
-   "id": "16_93513",
-   "contractfolderid": null,
-   "objet": "Acquisition d'appareils électroménagers domestiques - Année 2016 - Renouvelable en 2017, 2018 et 2019",
-   "filename": "BOAMP-N-IC-AA_2016_176006",
-   "famille": "FNS",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2016-06-24",
-   "datefindiffusion": "2016-08-07",
-   "datelimitereponse": null,
-   "nomacheteur": "Ville du Mans",
-   "titulaire": [
-    "LEGER"
-   ],
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "ATTRIBUTION",
-   "sousnature": null,
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "108"
-   ],
-   "dc": [
-    "108"
-   ],
-   "descripteur_libelle": [
-    "Electroménager"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "16-27780"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"16-27780\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-02-25\", \"DATE_FIN_DIFFUSION\": \"2016-03-25\"}}}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-93513\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-27780\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-02-25\", \"DATE_FIN_DIFFUSION\": \"2016-03-25\"}}}}, \"NOM_HTML\": \"16-93513.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-06-24\", \"DATE_FIN_DIFFUSION\": \"2016-08-07\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"108\", \"LIBELLE\": \"Electroménager\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Acquisition d'appareils électroménagers domestiques - Année 2016 - Renouvelable en 2017, 2018 et 2019\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville du Mans\", \"CORRESPONDANT\": \"Le Maire\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, CS 40010 - 16 avenue François Mitterrand, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"LE MANS\", \"TEL\": \"02-43-47-47-47\", \"FAX\": \"02-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Acquisition d'appareils électroménagers domestiques - Année 2016 - Renouvelable en 2017, 2018 et 2019\", \"CPV\": {\"PRINCIPAL\": \"39710000\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"Prix des prestations\"}, {\"@POIDS\": \"30\", \"#text\": \"Valeur technique environnementale\"}, {\"@POIDS\": \"10\", \"#text\": \"Service après vente\"}]}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"DESCRIPTION\": \"Acquisition d'appareils électroménagers domestiques - Année 2016 - Renouvelable en 2017, 2018 et 2019\", \"TITULAIRE\": {\"DENOMINATION\": \"LEGER\", \"ADRESSE\": \"Rue Antoine Becquerel\", \"CP\": \"72026\", \"VILLE\": \"Le Mans\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-06-22\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"30000\"}}}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-93513"
-  },
-  {
    "idweb": "16-78175",
    "id": "16_78175",
    "contractfolderid": null,
@@ -5625,6 +5566,65 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-78175\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-7760\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-01-25\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-01-26\", \"DATE_FIN_DIFFUSION\": \"2016-03-07\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"020\", \"NUM_ANNONCE\": \"031079\", \"DATE_PUBLICATION\": \"2016-01-29\"}}]}}, \"NOM_HTML\": \"16-78175.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-06-24\", \"DATE_FIN_DIFFUSION\": \"2016-07-07\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"88\", \"LIBELLE\": \"Denrées alimentaires\"}, {\"CODE\": \"276\", \"LIBELLE\": \"Produits de l'agriculture\"}]}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"fourniture de viandes fraîches respectueuses de l'environnement, de boeuf, de veau, d'agneau, de poulet et de porc ; et de boeuf issu de l'agriculture biologique\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de La Roche-sur-Yon\", \"ADJUDICATEUR_NUTS\": \"FR515\", \"CP\": \"85000\", \"VILLE\": \"La Roche-sur-Yon\", \"MEL\": \"pavageaug@ville-larochesuryon.fr\", \"URL\": \"http://www.ville-larochesuryon.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"collectivité territoriale\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de viandes fraîches respectueuses de l'environnement, de boeuf, de veau, d'agneau, de poulet et de porc ; et de boeuf issu de l'agriculture biologique\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Fourniture de viandes fraîches respectueuses de l'environnement, de buf, de veau, d'agneau, de poulet et de porc ; et de buf issu de l'agriculture biologique\", \"CPV\": {\"PRINCIPAL\": \"15119000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"1400000\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Viandes fraîches de boeuf de qualité supérieure\", \"DESCRIPTION\": \"Viandes fraîches de buf de qualité supérieure\", \"CPV\": {\"PRINCIPAL\": \"15119000\"}, \"CODE_NUTS\": \"FR515\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"50 %\", \"#text\": \"Qualité technique\"}, {\"@POIDS\": \"20 %\", \"#text\": \"Service, démarche environnementale\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"30 %\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"option races à viandes\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Viandes fraîches de veau de qualité supérieure - muscle et découpe sous vide\", \"DESCRIPTION\": \"viandes fraîches de veau de qualité supérieure - muscle et découpe sous vide\", \"CPV\": {\"PRINCIPAL\": \"15119000\"}, \"CODE_NUTS\": \"FR515\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"Qualité technique\"}, {\"@POIDS\": \"20\", \"#text\": \"Service, démarche environnementale\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"30\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"option veau abattu à 5 mois et nourri à base de lait ou de produits laitiers\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Viandes fraîches d'agneau de qualité supérieure - muscle et découpe sous vide\", \"DESCRIPTION\": \"Viandes fraîches d'agneau de qualité supérieure - muscle et découpe sous vide\", \"CPV\": {\"PRINCIPAL\": \"15119000\"}, \"CODE_NUTS\": \"FR515\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"Qualité technique\"}, {\"@POIDS\": \"20\", \"#text\": \"Service, démarche environnementale\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"30\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Option agneau de lait\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"4\", \"INTITULE\": \"Viandes fraîches de poulet issues de la filière nutrition oméga3 ou équivalent - muscle et découpe sous vide\", \"DESCRIPTION\": \"Viandes fraîches de poulet issues de la filière nutrition oméga3 ou équivalent - muscle et découpe sous vide\", \"CPV\": {\"PRINCIPAL\": \"15119000\"}, \"CODE_NUTS\": \"FR515\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"Qualité technique\"}, {\"@POIDS\": \"20\", \"#text\": \"Service, démarche environnementale\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"30\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"5\", \"INTITULE\": \"Viandes fraîches de porc de qualité de type \\\"fermière\\\" ou équivalent - muscle, découpe et préparation à base de viandes crues sous vide\", \"DESCRIPTION\": \"Viandes fraîches de porc de qualité de type \\\"fermière\\\" ou équivalent - muscle, découpe et préparation à base de viandes crues sous vide\", \"CPV\": {\"PRINCIPAL\": \"15119000\"}, \"CODE_NUTS\": \"FR515\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"Qualité technique\"}, {\"@POIDS\": \"20\", \"#text\": \"Service, démarche environnementale\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"30\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"6\", \"INTITULE\": \"Viandes fraîches de boeuf issu de l'agriculture biologique ou équivalent - muscle et découpe sous vide\", \"DESCRIPTION\": \"Viandes fraîches de boeuf issu de l'agriculture biologique ou équivalent - muscle et découpe sous vide\", \"CPV\": {\"PRINCIPAL\": \"15119000\"}, \"CODE_NUTS\": \"FR515\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"50 %\", \"#text\": \"Qualité technique\"}, {\"@POIDS\": \"20 %\", \"#text\": \"Service, démarche environnementale\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"30 %\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"020\", \"NUM_ANNONCE\": \"031079\", \"DATE_PUBLICATION\": \"2016-01-29\"}}}, \"ATTRIBUTION\": {\"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"V16-028\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Viandes fraîches de boeuf de qualité supérieure\", \"TITULAIRE\": {\"DENOMINATION\": \"ACHILLE BERTRAND\", \"CP\": \"85505\", \"VILLE\": \"Les Herbiers\", \"CODE_NUTS\": \"FR515\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-05-25\", \"NB_OFFRE_RECU\": \"4\", \"NB_OFFRE_RECU_PME\": \"2\", \"NB_OFFRE_RECU_ELECT\": \"0\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"320000\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"V16-029\", \"NUM_LOT\": \"2\", \"INTITULE\": \"Viandes fraîches de veau de qualité supérieure - Muscle et découpe sous vide\", \"TITULAIRE\": {\"DENOMINATION\": \"VENDEE LOIRE VIANDES\", \"CP\": \"85304\", \"VILLE\": \"Challans\", \"CODE_NUTS\": \"FR515\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-05-25\", \"NB_OFFRE_RECU\": \"2\", \"NB_OFFRE_RECU_PME\": \"2\", \"NB_OFFRE_RECU_ELECT\": \"0\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"320000\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"V16-030\", \"NUM_LOT\": \"3\", \"INTITULE\": \"Viandes fraîches d'agneau de qualité supérieure - muscle et découpe sous vide\", \"TITULAIRE\": {\"DENOMINATION\": \"BIGARD\", \"CP\": \"81115\", \"VILLE\": \"CASTRES\", \"CODE_NUTS\": \"FR627\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-05-25\", \"NB_OFFRE_RECU\": \"2\", \"NB_OFFRE_RECU_PME\": \"1\", \"NB_OFFRE_RECU_ELECT\": \"0\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"160000\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"V16-031\", \"NUM_LOT\": \"4\", \"INTITULE\": \"Viandes fraîches de poulet issues de la filière nutrition oméga 3 ou équivalent - muscle et découpe sous vide\", \"TITULAIRE\": {\"DENOMINATION\": \"ARRIVE\", \"CP\": \"85250\", \"VILLE\": \"Saint-Fulgent\", \"CODE_NUTS\": \"FR515\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-05-25\", \"NB_OFFRE_RECU\": \"4\", \"NB_OFFRE_RECU_PME\": \"2\", \"NB_OFFRE_RECU_ELECT\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"240000\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"V16-032\", \"NUM_LOT\": \"5\", \"INTITULE\": \"Viandes fraîches de porc de qualité de tpe \\\"fermier\\\" ou équivalent - muscle\", \"TITULAIRE\": {\"DENOMINATION\": \"SOCOPA VIANDES\", \"CP\": \"27110\", \"VILLE\": \"Le Neubourg\", \"CODE_NUTS\": \"FR231\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-05-26\", \"NB_OFFRE_RECU\": \"5\", \"NB_OFFRE_RECU_PME\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"280000\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"V16-033\", \"NUM_LOT\": \"6\", \"INTITULE\": \"Viandes fraîches de boeuf issu de l'agriculture biologique ou équivalent - muscle et découpe sous vide\", \"TITULAIRE\": {\"DENOMINATION\": \"SOCOPA VIANDES\", \"CP\": \"27110\", \"VILLE\": \"Le Neubourg\", \"CODE_NUTS\": \"FR231\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-05-26\", \"NB_OFFRE_RECU\": \"5\", \"NB_OFFRE_RECU_PME\": \"2\", \"NB_OFFRE_RECU_ELECT\": \"0\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"80000\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 22 juin 2016.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Ville de La Roche-sur-Yon\", \"CP\": \"85000\", \"VILLE\": \"La Roche-sur-Yon\", \"CODE_NUTS\": \"FR515\", \"MEL\": \"loussouarnm@ville-larochesuryon.fr\", \"URL\": \"http://www.ville-larochesuryon.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-78175"
+  },
+  {
+   "idweb": "16-93513",
+   "id": "16_93513",
+   "contractfolderid": null,
+   "objet": "Acquisition d'appareils électroménagers domestiques - Année 2016 - Renouvelable en 2017, 2018 et 2019",
+   "filename": "BOAMP-N-IC-AA_2016_176006",
+   "famille": "FNS",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2016-06-24",
+   "datefindiffusion": "2016-08-07",
+   "datelimitereponse": null,
+   "nomacheteur": "Ville du Mans",
+   "titulaire": [
+    "LEGER"
+   ],
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "ATTRIBUTION",
+   "sousnature": null,
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "108"
+   ],
+   "dc": [
+    "108"
+   ],
+   "descripteur_libelle": [
+    "Electroménager"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "16-27780"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"16-27780\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-02-25\", \"DATE_FIN_DIFFUSION\": \"2016-03-25\"}}}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-93513\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-27780\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-02-25\", \"DATE_FIN_DIFFUSION\": \"2016-03-25\"}}}}, \"NOM_HTML\": \"16-93513.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-06-24\", \"DATE_FIN_DIFFUSION\": \"2016-08-07\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"108\", \"LIBELLE\": \"Electroménager\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Acquisition d'appareils électroménagers domestiques - Année 2016 - Renouvelable en 2017, 2018 et 2019\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville du Mans\", \"CORRESPONDANT\": \"Le Maire\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, CS 40010 - 16 avenue François Mitterrand, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"LE MANS\", \"TEL\": \"02-43-47-47-47\", \"FAX\": \"02-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Acquisition d'appareils électroménagers domestiques - Année 2016 - Renouvelable en 2017, 2018 et 2019\", \"CPV\": {\"PRINCIPAL\": \"39710000\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"Prix des prestations\"}, {\"@POIDS\": \"30\", \"#text\": \"Valeur technique environnementale\"}, {\"@POIDS\": \"10\", \"#text\": \"Service après vente\"}]}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"DESCRIPTION\": \"Acquisition d'appareils électroménagers domestiques - Année 2016 - Renouvelable en 2017, 2018 et 2019\", \"TITULAIRE\": {\"DENOMINATION\": \"LEGER\", \"ADRESSE\": \"Rue Antoine Becquerel\", \"CP\": \"72026\", \"VILLE\": \"Le Mans\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-06-22\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"30000\"}}}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-93513"
   },
   {
    "idweb": "16-94252",

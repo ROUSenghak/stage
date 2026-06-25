@@ -724,70 +724,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-43348"
   },
   {
-   "idweb": "17-43993",
-   "id": "17_43993",
-   "contractfolderid": null,
-   "objet": "TRAVAUX D'AMENAGEMENT INTERIEUR DE BUREAUX SUR UN PLATEAU DE 329m2 POUR VENDEE NUMERIQUE",
-   "filename": "BOAMP-N-AO_2017_089005",
-   "famille": "FNS",
-   "code_departement": [
-    "85"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2017-03-30",
-   "datefindiffusion": "2017-04-28",
-   "datelimitereponse": "2017-04-28T11:00:00+00:00",
-   "nomacheteur": "GIP Vendée Numérique",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "47",
-    "63",
-    "264",
-    "270"
-   ],
-   "dc": [
-    "47",
-    "63",
-    "264",
-    "270"
-   ],
-   "descripteur_libelle": [
-    "Câblage",
-    "Cloison, faux plafond",
-    "Peinture (travaux)",
-    "Plomberie (travaux)"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-43993\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-43993.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-03-30\", \"DATE_LIMITE_REPONSE\": \"2017-04-28T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2017-04-28\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"47\", \"LIBELLE\": \"Câblage\"}, {\"CODE\": \"63\", \"LIBELLE\": \"Cloison, faux plafond\"}, {\"CODE\": \"264\", \"LIBELLE\": \"Peinture (travaux)\"}, {\"CODE\": \"270\", \"LIBELLE\": \"Plomberie (travaux)\"}]}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"TRAVAUX D'AMENAGEMENT INTERIEUR DE BUREAUX SUR UN PLATEAU DE 329m2 POUR VENDEE NUMERIQUE\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"GIP Vendée Numérique\", \"CORRESPONDANT\": \"Guimbretière Philippe, Directeur\", \"ADRESSE\": \"40 rue du Maréchal Foch\", \"CP\": \"85923\", \"VILLE\": \"La Roche sur Yon\", \"MEL\": \"contact@vendeenumerique.fr\", \"URL\": \"http://vendee.fr\", \"URL_PROFIL_ACHETEUR\": \"http://marchespublics.vendee.fr\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"développement numérique\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"TRAVAUX D'AMENAGEMENT INTERIEUR DE BUREAUX SUR UN PLATEAU DE 329m2 POUR VENDEE NUMERIQUE\", \"CPV\": {\"PRINCIPAL\": \"45300000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Volume 3 (2eme Etage) du bâtiment SCINTEO, 123 Boulevard Louis Blanc\", \"CP\": \"85000\", \"VILLE\": \"La Roche sur Yon\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"La prestation est divisée en 4 lots:- lot no 01 Cloisons sèches, cloisons modulaires, menuiseries intérieures, faux plafond, vitrophanie, stores, agencement- lot no 02 Revêtements de sols, peinture, faïence- lot no 03 Electricité courants forts et faibles- lot no 04 Ventilation et plomberie sanitaires\", \"QUANTITE\": \"Le projet consiste à équiper un plateau existant en cloisons, y ocmpris modulaires, avec parties en vitrophanie, en agencement pour placard fixe et partie sanitaires, en mise en oeuvre de plinthes, de peinture, de travaux sur le sol (moquette, carrelage) et la pose de faience, les travaux d'installation de courants électriques forts et faibles, d'éclairage, de plomberie, d'installation de sanitaires et d'une ventilation\"}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"2\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"DESCRIPTION\": \"Cloisons sèches, cloisons modulaires, menuiseries intérieures, faux plafond, vitrophanie, stores, agencement\", \"DUREE_JOURS\": \"44\", \"INFO_COMPL\": \"Le délai est défini en jours calendaires\"}, {\"NUM\": \"2\", \"DESCRIPTION\": \"Revêtements de sols, peinture, faïence\", \"DUREE_JOURS\": \"22\", \"INFO_COMPL\": \"Le délai est défini en jours calendaires\"}, {\"NUM\": \"3\", \"DESCRIPTION\": \"Electricité courants forts et faibles\", \"DUREE_JOURS\": \"38\", \"INFO_COMPL\": \"Le délai est défini en jours calendaires\"}, {\"NUM\": \"4\", \"DESCRIPTION\": \"Ventilation et plomberie sanitaires\", \"DUREE_JOURS\": \"23\", \"INFO_COMPL\": \"Le délai est défini en jours calendaires\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"Prix\"}, {\"@POIDS\": \"20\", \"#text\": \"Délai d'exécution\"}, {\"@POIDS\": \"15\", \"#text\": \"Valeur technique de l'offre appréciée à l'aide du mémoire technique\"}, {\"@POIDS\": \"15\", \"#text\": \"Organisation des moyens humains\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-04-28T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Sauf renoncement du titulaire porté à l'acte d'engagement, le versement d'une avance sera effectué pour chaque lot dont le montant est supérieur à 50 000 euros hors taxes dans les cas et selon les modalités ci-après stipulés.L'avance ne pourra être versée qu'après constitution de la garantie à première demande prévue à l'article 112 du décret du 25 mars 2016 relatif aux marchés publics. Cette garantie à première demande ne pourra pas être remplacée par une caution personnelle et solidaire.Chaque acompte fera l'objet d'une retenue de garantie au taux de 5,00% dans les conditions prévues aux articles 122 à 124 du décret du 25 mars 2016 relatif aux marchés publics.\", \"FINANCEMENT\": \"Paiement par mandat administratif suivi d'un virement.Le comptable assignataire des paiements est l'agent comptable, désigné par le Directeur départemental des finances publiques, du GIP Vendée Numérique.Le délai global de paiement ne pourra excéder 30 jours conformément aux dispositions du décret no 2013-269 du 29 mars 2013 relatif à la lutte contre les retards de paiement dans les contrats de la commande publique.Le taux des intérêts moratoires est égal au taux d'intérêt de la principale facilité de refinancement appliquée par la Banque centrale européenne à son opération de refinancement principal la plus récente effectuée avant le premier jour de calendrier du semestre de l'année civile au cours duquel les intérêts moratoires ont commencé à courir, majoré de huit points. Le retard de paiement donne également lieu, de plein droit et sans autre formalité, au versement d'une indemnité forfaitaire pour frais de recouvrement, dont le montant est fixé par décret. Lorsque les frais de recouvrement exposés sont supérieurs au montant de cette indemnité forfaitaire, le créancier peut demander une indemnisation complémentaire, sur justification.Il ne sera pas accordé d'avance\", \"FORME_JURIDIQUE\": \"Chaque marché public sera conclu soit avec un candidat unique, soit avec un groupement conjoint ou solidaire. Toutefois, en cas de groupement conjoint, le mandataire devra être solidaire de ses cotraitants\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels\", \"Présentation d'une liste des travaux exécutés au cours des cinq dernières années, appuyée d'attestations de bonne exécution pour les travaux les plus importants. Ces attestations indiquent le montant, l'époque et le lieu d'exécution des travaux et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin\", \"Autres renseignements demandés\", \"Une adresse mail valide afin que le Département puisse informer les candidats du rejet de leur offre ou candidature ou du fait que leur offre a été retenue\", \"Autres renseignements demandés\", \"une déclaration sur l'honneur, dûment datée et signée par le candidat indiquant qu'il n'entre dans aucun des cas mentionnés à l'article 48 I 1° du décret du 25 mars 2016 relatif aux marchés publics concernant les interdictions de soumissionner ;\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"VN-2017-3\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Retrouvez cet avis intégral, l'accès au dossier et le guichet de dépôt sur http://marchespublics.vendee.frDépôt par porteur : VENDEE NUMERIQUE - POLE TECHNIQUE DU CONSEIL DEPARTEMENTAL - 190 BOULEVARD BRIAND - 85000 LA ROCHE SUR YONL'acheteur se réserve le droit d'apporter des modifications de détail au dossier de consultation. Celles-ci doivent être communiquées au plus tard 6 jours avant la date limite fixée pour la remise des offres. Les candidats devront alors répondre sur la base du dossier modifié. Si, pendant l'étude du dossier par les candidats, la date limite fixée pour la remise des offres est reportée, la disposition précédente est applicable en fonction de cette nouvelle date. Les candidats pourront consulter ou télécharger le dossier de consultation des entreprises en se connectant sur le profil d'acheteur du Département.La remise des offres sur support physique électronique n'est pas autorisée.Instance chargée des procédures de recours:Tribunal de Grande Instance de La Roche sur Yon, 55 Bd Briand - BP833 - 85021 La roche sur Yon Cedex - Tel 02.51.47.61.00\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"VENDEE NUMERIQUE\", \"ADRESSE\": \"40 rue Maréchal FOCH Cedex 9\", \"CP\": \"85923\", \"VILLE\": \"LA ROCHE SUR YON\"}, {\"TYPE\": {\"ADMIN\": \"\"}, \"DENOMINATION\": \"VENDEE NUMERIQUE : Philippe GUIMBRETIERE / Christophe LOURME\", \"ADRESSE\": \"40 rue Marcéhal FOCH\", \"CP\": \"85923\", \"VILLE\": \"La Roche sur Yon\", \"TEL\": \"02-51-44-20-40\", \"URL\": \"http://marchespublics.vendee.fr\"}, {\"TYPE\": {\"TECH\": \"\"}, \"DENOMINATION\": \"VENDEE NUMERIQUE : Philippe GUIMBRETIERE / Christophe LOURME\", \"TEL\": \"02-51-44-20-40\", \"URL\": \"http://marchespublics.vendee.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-43993"
-  },
-  {
    "idweb": "17-43007",
    "id": "17_43007",
    "contractfolderid": null,
@@ -916,6 +852,70 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-43165"
   },
   {
+   "idweb": "17-43993",
+   "id": "17_43993",
+   "contractfolderid": null,
+   "objet": "TRAVAUX D'AMENAGEMENT INTERIEUR DE BUREAUX SUR UN PLATEAU DE 329m2 POUR VENDEE NUMERIQUE",
+   "filename": "BOAMP-N-AO_2017_089005",
+   "famille": "FNS",
+   "code_departement": [
+    "85"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2017-03-30",
+   "datefindiffusion": "2017-04-28",
+   "datelimitereponse": "2017-04-28T11:00:00+00:00",
+   "nomacheteur": "GIP Vendée Numérique",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "47",
+    "63",
+    "264",
+    "270"
+   ],
+   "dc": [
+    "47",
+    "63",
+    "264",
+    "270"
+   ],
+   "descripteur_libelle": [
+    "Câblage",
+    "Cloison, faux plafond",
+    "Peinture (travaux)",
+    "Plomberie (travaux)"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-43993\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-43993.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-03-30\", \"DATE_LIMITE_REPONSE\": \"2017-04-28T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2017-04-28\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"47\", \"LIBELLE\": \"Câblage\"}, {\"CODE\": \"63\", \"LIBELLE\": \"Cloison, faux plafond\"}, {\"CODE\": \"264\", \"LIBELLE\": \"Peinture (travaux)\"}, {\"CODE\": \"270\", \"LIBELLE\": \"Plomberie (travaux)\"}]}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"TRAVAUX D'AMENAGEMENT INTERIEUR DE BUREAUX SUR UN PLATEAU DE 329m2 POUR VENDEE NUMERIQUE\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"GIP Vendée Numérique\", \"CORRESPONDANT\": \"Guimbretière Philippe, Directeur\", \"ADRESSE\": \"40 rue du Maréchal Foch\", \"CP\": \"85923\", \"VILLE\": \"La Roche sur Yon\", \"MEL\": \"contact@vendeenumerique.fr\", \"URL\": \"http://vendee.fr\", \"URL_PROFIL_ACHETEUR\": \"http://marchespublics.vendee.fr\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"développement numérique\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"TRAVAUX D'AMENAGEMENT INTERIEUR DE BUREAUX SUR UN PLATEAU DE 329m2 POUR VENDEE NUMERIQUE\", \"CPV\": {\"PRINCIPAL\": \"45300000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Volume 3 (2eme Etage) du bâtiment SCINTEO, 123 Boulevard Louis Blanc\", \"CP\": \"85000\", \"VILLE\": \"La Roche sur Yon\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"La prestation est divisée en 4 lots:- lot no 01 Cloisons sèches, cloisons modulaires, menuiseries intérieures, faux plafond, vitrophanie, stores, agencement- lot no 02 Revêtements de sols, peinture, faïence- lot no 03 Electricité courants forts et faibles- lot no 04 Ventilation et plomberie sanitaires\", \"QUANTITE\": \"Le projet consiste à équiper un plateau existant en cloisons, y ocmpris modulaires, avec parties en vitrophanie, en agencement pour placard fixe et partie sanitaires, en mise en oeuvre de plinthes, de peinture, de travaux sur le sol (moquette, carrelage) et la pose de faience, les travaux d'installation de courants électriques forts et faibles, d'éclairage, de plomberie, d'installation de sanitaires et d'une ventilation\"}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"2\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"DESCRIPTION\": \"Cloisons sèches, cloisons modulaires, menuiseries intérieures, faux plafond, vitrophanie, stores, agencement\", \"DUREE_JOURS\": \"44\", \"INFO_COMPL\": \"Le délai est défini en jours calendaires\"}, {\"NUM\": \"2\", \"DESCRIPTION\": \"Revêtements de sols, peinture, faïence\", \"DUREE_JOURS\": \"22\", \"INFO_COMPL\": \"Le délai est défini en jours calendaires\"}, {\"NUM\": \"3\", \"DESCRIPTION\": \"Electricité courants forts et faibles\", \"DUREE_JOURS\": \"38\", \"INFO_COMPL\": \"Le délai est défini en jours calendaires\"}, {\"NUM\": \"4\", \"DESCRIPTION\": \"Ventilation et plomberie sanitaires\", \"DUREE_JOURS\": \"23\", \"INFO_COMPL\": \"Le délai est défini en jours calendaires\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"Prix\"}, {\"@POIDS\": \"20\", \"#text\": \"Délai d'exécution\"}, {\"@POIDS\": \"15\", \"#text\": \"Valeur technique de l'offre appréciée à l'aide du mémoire technique\"}, {\"@POIDS\": \"15\", \"#text\": \"Organisation des moyens humains\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-04-28T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Sauf renoncement du titulaire porté à l'acte d'engagement, le versement d'une avance sera effectué pour chaque lot dont le montant est supérieur à 50 000 euros hors taxes dans les cas et selon les modalités ci-après stipulés.L'avance ne pourra être versée qu'après constitution de la garantie à première demande prévue à l'article 112 du décret du 25 mars 2016 relatif aux marchés publics. Cette garantie à première demande ne pourra pas être remplacée par une caution personnelle et solidaire.Chaque acompte fera l'objet d'une retenue de garantie au taux de 5,00% dans les conditions prévues aux articles 122 à 124 du décret du 25 mars 2016 relatif aux marchés publics.\", \"FINANCEMENT\": \"Paiement par mandat administratif suivi d'un virement.Le comptable assignataire des paiements est l'agent comptable, désigné par le Directeur départemental des finances publiques, du GIP Vendée Numérique.Le délai global de paiement ne pourra excéder 30 jours conformément aux dispositions du décret no 2013-269 du 29 mars 2013 relatif à la lutte contre les retards de paiement dans les contrats de la commande publique.Le taux des intérêts moratoires est égal au taux d'intérêt de la principale facilité de refinancement appliquée par la Banque centrale européenne à son opération de refinancement principal la plus récente effectuée avant le premier jour de calendrier du semestre de l'année civile au cours duquel les intérêts moratoires ont commencé à courir, majoré de huit points. Le retard de paiement donne également lieu, de plein droit et sans autre formalité, au versement d'une indemnité forfaitaire pour frais de recouvrement, dont le montant est fixé par décret. Lorsque les frais de recouvrement exposés sont supérieurs au montant de cette indemnité forfaitaire, le créancier peut demander une indemnisation complémentaire, sur justification.Il ne sera pas accordé d'avance\", \"FORME_JURIDIQUE\": \"Chaque marché public sera conclu soit avec un candidat unique, soit avec un groupement conjoint ou solidaire. Toutefois, en cas de groupement conjoint, le mandataire devra être solidaire de ses cotraitants\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels\", \"Présentation d'une liste des travaux exécutés au cours des cinq dernières années, appuyée d'attestations de bonne exécution pour les travaux les plus importants. Ces attestations indiquent le montant, l'époque et le lieu d'exécution des travaux et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin\", \"Autres renseignements demandés\", \"Une adresse mail valide afin que le Département puisse informer les candidats du rejet de leur offre ou candidature ou du fait que leur offre a été retenue\", \"Autres renseignements demandés\", \"une déclaration sur l'honneur, dûment datée et signée par le candidat indiquant qu'il n'entre dans aucun des cas mentionnés à l'article 48 I 1° du décret du 25 mars 2016 relatif aux marchés publics concernant les interdictions de soumissionner ;\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"VN-2017-3\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Retrouvez cet avis intégral, l'accès au dossier et le guichet de dépôt sur http://marchespublics.vendee.frDépôt par porteur : VENDEE NUMERIQUE - POLE TECHNIQUE DU CONSEIL DEPARTEMENTAL - 190 BOULEVARD BRIAND - 85000 LA ROCHE SUR YONL'acheteur se réserve le droit d'apporter des modifications de détail au dossier de consultation. Celles-ci doivent être communiquées au plus tard 6 jours avant la date limite fixée pour la remise des offres. Les candidats devront alors répondre sur la base du dossier modifié. Si, pendant l'étude du dossier par les candidats, la date limite fixée pour la remise des offres est reportée, la disposition précédente est applicable en fonction de cette nouvelle date. Les candidats pourront consulter ou télécharger le dossier de consultation des entreprises en se connectant sur le profil d'acheteur du Département.La remise des offres sur support physique électronique n'est pas autorisée.Instance chargée des procédures de recours:Tribunal de Grande Instance de La Roche sur Yon, 55 Bd Briand - BP833 - 85021 La roche sur Yon Cedex - Tel 02.51.47.61.00\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"VENDEE NUMERIQUE\", \"ADRESSE\": \"40 rue Maréchal FOCH Cedex 9\", \"CP\": \"85923\", \"VILLE\": \"LA ROCHE SUR YON\"}, {\"TYPE\": {\"ADMIN\": \"\"}, \"DENOMINATION\": \"VENDEE NUMERIQUE : Philippe GUIMBRETIERE / Christophe LOURME\", \"ADRESSE\": \"40 rue Marcéhal FOCH\", \"CP\": \"85923\", \"VILLE\": \"La Roche sur Yon\", \"TEL\": \"02-51-44-20-40\", \"URL\": \"http://marchespublics.vendee.fr\"}, {\"TYPE\": {\"TECH\": \"\"}, \"DENOMINATION\": \"VENDEE NUMERIQUE : Philippe GUIMBRETIERE / Christophe LOURME\", \"TEL\": \"02-51-44-20-40\", \"URL\": \"http://marchespublics.vendee.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-43993"
+  },
+  {
    "idweb": "17-42947",
    "id": "17_42947",
    "contractfolderid": null,
@@ -1036,6 +1036,65 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-42995"
   },
   {
+   "idweb": "17-44065",
+   "id": "17_44065",
+   "contractfolderid": null,
+   "objet": "Accord-cadre pour l'entretien de la végétation des voies communales et des chemins ruraux hors agglomération des Communes de la Communauté de communes du Val de Sarthe",
+   "filename": "BOAMP-N-AO_2017_089005",
+   "famille": "FNS",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2017-03-30",
+   "datefindiffusion": "2017-04-20",
+   "datelimitereponse": "2017-04-20T16:00:00+00:00",
+   "nomacheteur": "Cté de Communes du Val de Sarthe",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "358"
+   ],
+   "dc": [
+    "358"
+   ],
+   "descripteur_libelle": [
+    "Végétaux"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-44065\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-44065.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-03-30\", \"DATE_LIMITE_REPONSE\": \"2017-04-20T17:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2017-04-20\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"358\", \"LIBELLE\": \"Végétaux\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Accord-cadre pour l'entretien de la végétation des voies communales et des chemins ruraux hors agglomération des Communes de la Communauté de communes du Val de Sarthe\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Cté de Communes du Val de Sarthe\", \"CORRESPONDANT\": \"FRANCO Emmanuel, Président\", \"ADRESSE\": \"27 rue du 11 Novembre BP 26\", \"CP\": \"72210\", \"VILLE\": \"LA SUZE SUR SARTHE\", \"TEL\": \"02-43-83-51-12\", \"FAX\": \"02-43-83-51-13\", \"MEL\": \"finance@cc-valdesarthe.fr\", \"URL\": \"http://val-de-sarthe.fr\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Accord-cadre pour l'entretien de la végétation des voies communales et des chemins ruraux hors agglomération des Communes de la Communauté de communes du Val de Sarthe\", \"CPV\": {\"PRINCIPAL\": \"77340000\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"CARACTERISTIQUES\": {\"QUANTITE\": \"Lieu d'exécution :Lot 1 : Communes de Chemiré le Gaudin, Etival lès le Mans, Guécélard, Louplande, Souligné Flacé, Spay, Voivres lès le Mans.Lot 2 : Communes de Fercé sur Sarthe, Fillé sur Sarthe, La Suze sur Sarthe, Malicorne sur Sarthe, Mézeray, Parigné le Pôlin, Roëzé sur Sarthe, Saint Jean du Bois.\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"DESCRIPTION\": \"Communes de Chemiré le Gaudin, Etival lès le Mans, Guécélard, Louplande, Souligné Flacé, Spay, Voivres lès le Mans\", \"VALEUR_MIN\": {\"@DEVISE\": \"EUR\", \"#text\": \"50000\"}, \"VALEUR_MAX\": {\"@DEVISE\": \"EUR\", \"#text\": \"100000\"}}, {\"NUM\": \"2\", \"DESCRIPTION\": \"Communes de Fercé sur Sarthe, Fillé sur Sarthe, La Suze sur Sarthe, Malicorne sur Sarthe, Mézeray, Parigné le Pôlin, Roëzé sur Sarthe, Saint Jean du Bois\", \"VALEUR_MIN\": {\"@DEVISE\": \"EUR\", \"#text\": \"50000\"}, \"VALEUR_MAX\": {\"@DEVISE\": \"EUR\", \"#text\": \"100000\"}}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-04-20T17:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"BG-2017-822-2\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Retrouvez cet avis intégral, l'accès au dossier et le guichet de dépôt sur http://www.marches-publics.info\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Communauté de communes du Val de Sarthe : Monsieur le Président\", \"ADRESSE\": \"27 rue du 11 Novembre BP 26\", \"CP\": \"72210\", \"VILLE\": \"La Suze sur sarthe\", \"TEL\": \"02-43-83-51-12\", \"FAX\": \"02-43-83-51-13\", \"MEL\": \"communaute@cc-valdesarthe.fr\", \"URL\": \"http://www.marches-publics.info/\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-44065"
+  },
+  {
    "idweb": "17-44267",
    "id": "17_44267",
    "contractfolderid": null,
@@ -1095,29 +1154,29 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-44267"
   },
   {
-   "idweb": "17-44065",
-   "id": "17_44065",
+   "idweb": "17-3271",
+   "id": "17_3271",
    "contractfolderid": null,
-   "objet": "Accord-cadre pour l'entretien de la végétation des voies communales et des chemins ruraux hors agglomération des Communes de la Communauté de communes du Val de Sarthe",
-   "filename": "BOAMP-N-AO_2017_089005",
-   "famille": "FNS",
+   "objet": "marché de maîtrise d'oeuvre sur travaux de construction du bassin de stockage-restitution barbin à nantes",
+   "filename": "BOAMP-J-AO_2017_089009",
+   "famille": "JOUE",
    "code_departement": [
-    "72"
+    "44"
    ],
    "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "famille_libelle": "Marchés européens",
    "dateparution": "2017-03-30",
    "datefindiffusion": "2017-04-20",
-   "datelimitereponse": "2017-04-20T16:00:00+00:00",
-   "nomacheteur": "Cté de Communes du Val de Sarthe",
+   "datelimitereponse": null,
+   "nomacheteur": "METROPOLE NANTES METROPOLE",
    "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
+   "perimetre": "DIRECTIVE-25",
+   "type_procedure": "NEGOCIE",
    "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "procedure_libelle": "Procédure Négociée",
+   "procedure_categorise": "NEGOCIE/",
    "nature": "APPEL_OFFRE",
-   "sousnature": null,
+   "sousnature": "STANDARD",
    "nature_libelle": "Avis de marché",
    "sousnature_libelle": null,
    "nature_categorise": "appeloffre/standard",
@@ -1127,13 +1186,13 @@
    "marche_public_simplifie_label": null,
    "etat": "INITIAL",
    "descripteur_code": [
-    "358"
+    "197"
    ],
    "dc": [
-    "358"
+    "197"
    ],
    "descripteur_libelle": [
-    "Végétaux"
+    "Maîtrise d'oeuvre"
    ],
    "type_marche": [
     "SERVICES"
@@ -1149,9 +1208,9 @@
    "annonce_lie": null,
    "annonces_anterieures": null,
    "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-44065\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-44065.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-03-30\", \"DATE_LIMITE_REPONSE\": \"2017-04-20T17:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2017-04-20\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"358\", \"LIBELLE\": \"Végétaux\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Accord-cadre pour l'entretien de la végétation des voies communales et des chemins ruraux hors agglomération des Communes de la Communauté de communes du Val de Sarthe\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Cté de Communes du Val de Sarthe\", \"CORRESPONDANT\": \"FRANCO Emmanuel, Président\", \"ADRESSE\": \"27 rue du 11 Novembre BP 26\", \"CP\": \"72210\", \"VILLE\": \"LA SUZE SUR SARTHE\", \"TEL\": \"02-43-83-51-12\", \"FAX\": \"02-43-83-51-13\", \"MEL\": \"finance@cc-valdesarthe.fr\", \"URL\": \"http://val-de-sarthe.fr\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Accord-cadre pour l'entretien de la végétation des voies communales et des chemins ruraux hors agglomération des Communes de la Communauté de communes du Val de Sarthe\", \"CPV\": {\"PRINCIPAL\": \"77340000\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"CARACTERISTIQUES\": {\"QUANTITE\": \"Lieu d'exécution :Lot 1 : Communes de Chemiré le Gaudin, Etival lès le Mans, Guécélard, Louplande, Souligné Flacé, Spay, Voivres lès le Mans.Lot 2 : Communes de Fercé sur Sarthe, Fillé sur Sarthe, La Suze sur Sarthe, Malicorne sur Sarthe, Mézeray, Parigné le Pôlin, Roëzé sur Sarthe, Saint Jean du Bois.\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"DESCRIPTION\": \"Communes de Chemiré le Gaudin, Etival lès le Mans, Guécélard, Louplande, Souligné Flacé, Spay, Voivres lès le Mans\", \"VALEUR_MIN\": {\"@DEVISE\": \"EUR\", \"#text\": \"50000\"}, \"VALEUR_MAX\": {\"@DEVISE\": \"EUR\", \"#text\": \"100000\"}}, {\"NUM\": \"2\", \"DESCRIPTION\": \"Communes de Fercé sur Sarthe, Fillé sur Sarthe, La Suze sur Sarthe, Malicorne sur Sarthe, Mézeray, Parigné le Pôlin, Roëzé sur Sarthe, Saint Jean du Bois\", \"VALEUR_MIN\": {\"@DEVISE\": \"EUR\", \"#text\": \"50000\"}, \"VALEUR_MAX\": {\"@DEVISE\": \"EUR\", \"#text\": \"100000\"}}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-04-20T17:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"BG-2017-822-2\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Retrouvez cet avis intégral, l'accès au dossier et le guichet de dépôt sur http://www.marches-publics.info\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Communauté de communes du Val de Sarthe : Monsieur le Président\", \"ADRESSE\": \"27 rue du 11 Novembre BP 26\", \"CP\": \"72210\", \"VILLE\": \"La Suze sur sarthe\", \"TEL\": \"02-43-83-51-12\", \"FAX\": \"02-43-83-51-13\", \"MEL\": \"communaute@cc-valdesarthe.fr\", \"URL\": \"http://www.marches-publics.info/\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-44065"
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-3271\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-25\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-3271.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-03-30\", \"DATE_FIN_DIFFUSION\": \"2017-04-20\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"197\", \"LIBELLE\": \"Maîtrise d'oeuvre\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"marché de maîtrise d'oeuvre sur travaux de construction du bassin de stockage-restitution barbin à nantes\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"METROPOLE NANTES METROPOLE\", \"ADJUDICATEUR_NUTS\": \"FR511\", \"ADRESSE\": \"2 cours du Champ de Mars\", \"CP\": \"44923\", \"VILLE\": \"Nantes cedex 9\", \"MEL\": \"estelle.talhouarn@nantesmetropole.fr\", \"URL\": \"http://www.nantesmetropole.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.nantesmetropole.fr\", \"URL_PARTICIPATION\": \"https://marchespublics.nantesmetropole.fr\", \"URL_DOCUMENT\": \"https://marchespublics.nantesmetropole.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"ENTITE_ADJUDICATRICE\": {\"EAU\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Marché de maîtrise d'oeuvre sur travaux de construction du bassin de stockage-restitution Barbin à Nantes\", \"REF_MARCHE\": \"17JJC203\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Prestations de maîtrise duvre pour les travaux de construction du bassin de stockage-restitution Barbin à Nantes. A titre indicatif, le volume de bassin prévu est de 6 500 m³. Le bassin sera construit dans le quartier Hauts Pavés-Saint Félix à Nantes, en rive droite de l'Erdre, entre la rue de l'Ouche de Versailles et le Quai de Versailles.Une démolition préalable des bâtiments présents sur la parcelle est à prévoir, les travaux de démolition étant envisagés via un lot de travaux spécifique.Les éléments de la mission de maîtrise duvre sont : EP, AVP, PRO, ACT, VISA, DET, OPC, AOR et les missions géotechniques G1, G2 et G4.Missions complémentaires :MC1 : assistance au maître douvrage pour mettre en uvre la consultation et linformation des usagers ou du publicMC2 : coordination ou participation à la coordination des actions effectuées par les intervenants extérieurs à la maîtrise duvre\", \"CPV\": {\"PRINCIPAL\": \"71310000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Prestations de maîtrise duvre pour les travaux de construction du bassin de stockage-restitution Barbin à Nantes. A titre indicatif, le volume de bassin prévu est de 6 500 m³. Le bassin sera construit dans le quartier Hauts Pavés-Saint Félix à Nantes, en rive droite de l'Erdre, entre la rue de l'Ouche de Versailles et le Quai de Versailles.Une démolition préalable des bâtiments présents sur la parcelle est à prévoir, les travaux de démolition étant envisagés via un lot de travaux spécifique.Les éléments de la mission de maîtrise duvre sont : EP, AVP, PRO, ACT, VISA, DET, OPC, AOR et les missions géotechniques G1, G2 et G4.Missions complémentaires :MC1 : assistance au maître douvrage pour mettre en uvre la consultation et linformation des usagers ou du publicMC2 : coordination ou participation à la coordination des actions effectuées par les intervenants extérieurs à la maîtrise duvre\", \"CPV\": {\"PRINCIPAL\": \"71310000\"}, \"CODE_NUTS\": \"FR511\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"72\", \"RENOUVELLEMENT_NON\": \"\", \"NB_CANDIDATS\": {\"NB_OFFRE\": \"5\", \"LIMITATION_CANDIDATS\": \"Au cas où le nombre de candidatures admises serait supérieur à 5, les candidatures seront sélectionnées, selon les critères suivants classés par ordre de priorité décroissant : 1- Capacité à réaliser une opération de complexité similaire2- Adéquation des moyens humains en volume et compétences3- Pertinence des références sur les techniques de soutènement\"}, \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"NEGOCIE\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-04-20T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"6\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FORME_JURIDIQUE\": \"Groupement conjoint avec mandataire solidaire. Il est interdit aux candidats de présenter pour le marché plusieurs candidatures en agissant à la fois :- en qualité de candidats individuels et de membres d'un ou plusieurs groupements ;- en qualité de membres de plusieurs groupements.\", \"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Les critères intervenant pour la sélection des candidatures sont : Aptitude à exercerl'activité professionnelle, capacité économique et financière, capacités techniques et professionnelle Les renseignements concernant la situation juridique de lentreprise : Lettre de candidature (imprimé DC1) que la candidature soit présentée à titre individuel ou en groupementDomaines de compétence de l'équipe : hydraulique, génie civil, électromécanique, automatismes, géotechnique et hydrogéologie.\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"Déclaration concernant le chiffre daffaires global et le chiffre daffaires concernant les prestations objet du marché, réalisés au cours des trois derniers exercices disponibles.\", \"CAP_ECO_NIVEAU_MINI\": \"Le candidat devra justifier d'un chiffre d'affaires annuel supérieur à 800 000 euro H.T. au cours des trois derniers exercices disponibles, dont 200 000 euro H.T. dans les domaines, objet du marché.\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"Déclaration indiquant les effectifs moyens annuels du candidat et limportance du personnel dencadrement pour chacune des trois dernières années (en annexe au DC2 si utilisation de ce document et tout document complémentaire) ;Liste des réalisations les plus récentes (3 minimum) d'ouvrages de rétention en béton enterrés de 6 000 m³ ou plus effectués au cours des dix dernières années (depuis début 2007), indiquant le descriptif et le montant des travaux, la profondeur de louvrage, la technique de soutènement, la date et le destinataire public ou privé. Les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de lopérateur économique ;Liste des autres références en lien avec les domaines de spécialisation de l'équipe ;Indication des titres détude et professionnels de l'opérateur économique et/ou des cadres de l'entreprise, et notamment des responsables de prestation de services de même nature que celle du marché\", \"CAP_TECH_NIVEAU_MINI\": \"Le candidat devra justifier d'une expérience dans les domaines objet du présent marché (ouvrage hydraulique enterré de plus de 4 000 m³  de volume utile de profondeur minimum 10 mètres avec parois verticales en milieu urbain ou industriel) au cours des cinq derniers exercices disponibles.Le candidat devra justifier pour chacune des trois dernières années disponibles, d'un effectif moyen annuel d'au moins 30 personnes avec au moins 6 personnels d'encadrement, 10 ingénieurs d'études qualifiés dans les domaines du génie Civil, de l'assainissement, et de l'électromécanique. Le candidat devra également justifier de sa compétence de géotechnicien.\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_OUI\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_NON\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Durée du marché : Depuis la date de notification du marché au titulaire jusqu'à l'expiration du délai de garantie de parfait achèvement éventuellement prolongé conformément au C.C.A.G. (durée prévisionnelle 6 ans).Les candidats ne sont pas tenus de fournir les documents justificatifs et moyens de preuve que l'entité adjudicatrice peut obtenir directement par le biais d'un système électronique de mise à disposition d'informations administré par un organisme officiel ou d'un espace de stockage numérique, à condition que figurent dans le dossier de candidature toutes les informations nécessaires à la consultation de ce système ou de cet espace et que l'accès à ceux-ci soit gratuit. A ce titre, l'acheteur met à disposition des candidats un coffre-fort électronique. Il permet de stocker des documents qui seront accessibles à l'acheteur public lors de la réponse à une consultation. La transmission électronique des candidatures n'est pas obligatoire. La présenteconsultation peut faire l'objet d'une transmission des candidatures par voie électronique. Les candidats qui souhaitent déposer leurcandidature par voie électronique doivent le faire via le site https://marchespublics.nantesmetropole.fr. Modalités de transmission de lacandidature: Le fichier devra être nommé xxx-xxx-xxx-candidature.zip, xxx-xxx-xxx correspondant au numéro de SIREN de l'entreprisecandidate. Ce fichier contiendra tous les documents demandés dans le présent avis d'appel public à la concurrence. Les documentscontenus devront être présentés dans l'un des formats suivants:  format Acrobat (.pdf ) (version Acrobat 7 et antérieures)  formatsopen document: Texte ODF (open document format) (odt ) (exemple: Libreoffice 4 et antérieures) Classeur ODF (open documentformat) (ods) (exemple: Libreoffice 4 et antérieures) La lettre de consultation sera transmise par voie électronique pour les candidatsretenus ayant transmis leur candidature par voie électronique. Cette lettre contiendra les modalités de remise des offres sur le profilacheteur. Copie de sauvegarde: Le candidat qui transmet sa candidature par voie électronique peut l'accompagner d'une copie desauvegarde sur un support physique ou sur un support papier. Cette copie de sauvegarde doit parvenir dans les délais impartis pour laremise des candidatures. La copie de sauvegarde doit être placée dans un pli scellé comportant la mention visible: copie de sauvegardeCalendrier prévisionnel :Remise des offres par les candidats retenus : juin 2017Notification du contrat : janvier 2018. Date d'envoi du présent avis au JOUE et au BOAMP : 28 mars 2017.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Nantes Métropole\", \"ADRESSE\": \"2 rue Alfred Rebelliau\", \"CP\": \"44923\", \"VILLE\": \"Nantes cedex 9\", \"CODE_NUTS\": \"FR511\", \"MEL\": \"maeva.gueguen@nantesmetropole.fr\", \"URL\": \"http://www.nantesmetropole.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Nantes Métropole\", \"ADRESSE\": \"Mme Estelle TALHOUARN - Tel : 02.40.41.51.20Hôtel de Ville - Service des Marchés Publics29 rue de Strasbourg - 3e étage\", \"CP\": \"44094\", \"VILLE\": \"Nantes cedex 1\", \"CODE_NUTS\": \"FR511\", \"MEL\": \"estelle.talhouarn@nantesmetropole.fr\", \"URL\": \"http://www.nantesmetropole.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée Ile GlorietteBP 24111\", \"CP\": \"44000\", \"VILLE\": \"Nantes cedex 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée Ile GlorietteBP 24111\", \"CP\": \"44000\", \"VILLE\": \"Nantes cedex 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-3271"
   },
   {
    "idweb": "17-44279",
@@ -1225,65 +1284,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-44279\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-44279.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-03-30\", \"DATE_LIMITE_REPONSE\": \"2017-04-24T11:30:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2017-04-24\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"57\", \"LIBELLE\": \"Charpente\"}, {\"CODE\": \"59\", \"LIBELLE\": \"Chauffage (exploitation, entretien)\"}, {\"CODE\": \"60\", \"LIBELLE\": \"Chauffage (matériel)\"}, {\"CODE\": \"254\", \"LIBELLE\": \"Ouvrage métallique\"}, {\"CODE\": \"360\", \"LIBELLE\": \"Ventilation\"}]}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": [\"35\", \"44\", \"53\", \"22\", \"56\"], \"RESUME_OBJET\": \"Opération de travaux concernant des travaux la mise en conformité aéraulique du bâtiment 10B - Campus de Beaulieu à Rennes ; - Procédure de passation : procédure adaptée en application du décret 20..\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Université de Rennes 1\", \"CORRESPONDANT\": \"M. NOEL Gilles, Université de Rennes 1\", \"ADRESSE\": \"2 rue du thabor\", \"CP\": \"35065\", \"VILLE\": \"Rennes\", \"TEL\": \"02-23-23-63-11\", \"MEL\": \"marches@listes.univ-rennes1.fr\", \"URL\": \"http://www.univ-rennes1.fr/\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=327852&orgAcronyme=f2h\"}, \"TYPE_ORGANISME\": {\"ETAT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Ministère de l'enseignement supérieur et de la recherche\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Opération de travaux concernant des travaux la mise en conformité aéraulique du bâtiment 10B - Campus de Beaulieu à Rennes ; - Procédure de passation : procédure adaptée en application du décret 2016-360 du 25 mars 2016 relatif aux marchés publics, Article 27 intégrant le dispositif MPS. Après analyse des offres, le pouvoir adjudicateur se réserve la possibilité d'engager des négociations de manière écrite avec les candidats les mieux-disants. Ces négociations pourront porter à la fois sur l'offre technique et sur l'offre financière du candidat ; - Consultation allotie en 2 lots conclus de manière séparés ; - Le marché se compose d'une tranche ferme, suivant les prescriptions du Cahier des Clauses techniques Particulières ; - Variantes pour prestations alternatives acceptées ; - Date prévisionnelle de démarrage des travaux : fin mai 2017 ; - Durée globale d'exécution : 11,5 mois à compter de la date fixée par l'ordre de service de démarrage prescrivant aux entrepreneurs de commencer l'exécution des travaux ; - Visite du site d'exécution des prestations : obligatoire.Attention : la remise des offres devra être effectuée de manière totalement dématérialisée sur la plateforme des achats de l'Etat [PLACE].\", \"CPV\": [{\"PRINCIPAL\": \"45223210\"}, {\"PRINCIPAL\": \"45331000\"}], \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Campus de Beaulieu à Rennes\", \"CP\": \"35042\", \"VILLE\": \"Rennes\", \"CODE_NUTS\": \"FR523\"}, \"AMP_OUI\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Travaux de mise en conformité aéraulique du bâtiment 10B du Campus de Beaulieu :Lot no1 - Charpente métallique :Les travaux comprendront :- les études d'exécution, la fabrication et le montage des ouvrages de charpente métallique ;- les structures métalliques support des conduits aérauliques ;- les sujétions de fixation sur les ouvrages béton existants et les reprises d'étanchéité afférentes.Lot no2 Chauffage - ventilation :Les travaux comprendront :- l'augmentation de la puissance de sous station secondaire du bâtiment 10B ;- le remplacement des systèmes de compensation des sorbonnes ;- la mise en place d'un système de régulation pour la compensation des sorbonnes ;- 'l'organisation' des rejets des sorbonnes et hotte en toiture.\", \"QUANTITE\": \"Opération de travaux concernant des travaux la mise en conformité aéraulique du bâtiment 10B - Campus de Beaulieu à Rennes ; - Procédure de passation : procédure adaptée en application du décret 2016-360 du 25 mars 2016 relatif aux marchés publics, Article 27 intégrant le dispositif MPS. Après analyse des offres, le pouvoir adjudicateur se réserve la possibilité d'engager des négociations de manière écrite avec les candidats les mieux-disants. Ces négociations pourront porter à la fois sur l'offre technique et sur l'offre financière du candidat ; - Consultation allotie en 2 lots conclus de manière séparés ; - Le marché se compose d'une tranche ferme, suivant les prescriptions du Cahier des Clauses techniques Particulières ; - Variantes pour prestations alternatives acceptées ; - Date prévisionnelle de démarrage des travaux : fin mai 2017 ; - Durée globale d'exécution : 11,5 mois à compter de la date fixée par l'ordre de service de démarrage prescrivant aux entrepreneurs de commencer l'exécution des travaux ; - Visite du site d'exécution des prestations : obligatoire.Attention : la remise des offres devra être effectuée de manière totalement dématérialisée sur la plateforme des achats de l'Etat [PLACE].\"}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"12\", \"DATE_LIVRAISON\": \"2017-05-29\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Charpente métallique\", \"DESCRIPTION\": \"Les travaux comprendront :- les études d'exécution , la fabrication et le montage des ouvrages de charpente métallique ;- les structures métalliques support des conduits aérauliques ;- les sujétions de fixation sur les ouvrages béton existants et les reprises d'étanchéité afférentes.\", \"CPV\": {\"PRINCIPAL\": \"45223210\"}}, {\"NUM\": \"2\", \"INTITULE\": \"Chauffage - ventilation\", \"DESCRIPTION\": \"Les travaux comprendront :- l'augmentation de la puissance de la sous station secondaire du bâtiment 10B ;- le remplacement des systèmes de compensation des sorbonnes ;- la mise en place d'un système de régulation pour la compensation des sorbonnes ;- 'l'organisation' des rejets des sorbonnes et hotte en toiture.\", \"CPV\": {\"PRINCIPAL\": \"45331000\"}}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"40\", \"#text\": \"Valeur technique des prestations\"}, {\"@POIDS\": \"60\", \"#text\": \"Prix des prestations\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-04-24T11:30:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Dans un délai de quinze jours à compter de la notification du marché et avant tout commencement d'exécution, l'entrepreneur doit justifier qu'il est titulaire :- d'une assurance garantissant les tiers en cas d'accidents ou de dommages causés par l'exécution des travaux.- d'une assurance couvrant les responsabilités résultant des principes dont s'inspirent les articles 1792 à 1792-2 et 2270 du code civil, au moyen d'une attestation portant de l'étendue de la garantie.\", \"FINANCEMENT\": \"Attention : A compter du 1er mars 2017, les factures seront transmises à l'adresse suivante :Université de Rennes 1 Agence Comptable Campus de Beaulieu - Bâtiment 24 263 avenue du Général Leclerc CS 74205 35042 Rennes CedexConformément à l'article 13.1.6 du CCAG, les projets de décompte seront présentés au maître d'oeuvre selon l'instruction annoncée par la circulaire N° 2005-20 du 2 Mars 2005, relative à la constatation et à la liquidation des dépenses.Les projets de décompte, seront adressés en 3 exemplaires originaux par lettre recommandée avec accusé de réception, à l'adresse suivante :Université de Rennes 1Direction des Ressources Immobilières Campus de Beaulieu - Bâtiment 20263 av du Général LeclercCS 7420535042 RENNES Cedex\", \"FORME_JURIDIQUE\": \"Les candidats peuvent se présenter sous la forme de groupements d'opérateurs économiques, qu'il s'agisse d'un groupement conjoint ou d'un groupement solidaire.En application de l'article 45-I du Décrets marchés publics, la personne publique interdit aux candidats de présenter leurs offres en agissant en qualité de mandataire de plusieurs groupements. En application de l'article 45-III du Décret marchés publics, à un groupement conjoint, le mandataire du groupement sera solidaire, pour l'exécution du marché, de chacun des membres du groupement pour ses obligations contractuelles à l'égard de l'acheteur public.\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": [\"en\", \"fr\"]}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire obligatoirement par le candidat, à l'appui de sa candidature\", \"Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire\", \"Déclaration sur l'honneur du candidat justifiant qu'il n'entre dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles 45 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 ou, pour les marchés publics de défense ou de sécurité, qu'il n'entre dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles 45 ,46 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 (si cette déclaration n'est pas déjà demandée dans le cadre du formulaire DC1, ci-après)\", \"Déclaration sur l'honneur du candidat attestant qu'il est en règle, au cours de l'année précédant celle au cours de laquelle a lieu le lancement de la consultation, au regard des articles L. 5212-1, L. 5212-2, L. 5212 5 et L. 5212-9 du code du travail, concernant l'emploi des travailleurs handicapés\", \"Si le candidat est établi en France, une déclaration sur l'honneur du candidat justifiant que le travail est effectué par des salariés employés régulièrement au regard des articles L. 1221-10, L. 3243-2 et R. 3243-1 du code du travail (dans le cas où le candidat emploie des salariés, conformément à l'article D. 8222-5-3° du code du travail)\", \"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels\", \"Bilans ou extraits de bilans, concernant les trois dernières années, des opérateurs économiques pour lesquels l'établissement des bilans est obligatoire en vertu de la loi\", \"Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années\", \"Présentation d'une liste des travaux exécutés au cours des cinq dernières années, appuyée d'attestations de bonne exécution pour les travaux les plus importants. Ces attestations indiquent le montant, l'époque et le lieu d'exécution des travaux et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin\", \"Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation de marchés de même nature\", \"Certificats de qualifications professionnelles. La preuve de la capacité du candidat peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de travaux attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC4, Déclaration de sous-traitance (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Si les documents fournis par le candidat ne sont pas établis en langue française, ils doivent être accompagnés d'une traduction en français, certifiée conforme à l'original par un traducteur assermenté\"]}, \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"2016063PAT\", \"CONDITIONS_ET_MODE_PAIEMENT_OBTENIR_DOCUMENTS\": \"Dossier téléchargeable gratuitement sur le profil acheteur :https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=327852&orgAcronyme=f2h\", \"DATE_LIMITE_OBTENTION_DOCUMENTS\": \"2017-04-24\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Rennes\", \"ADRESSE\": \"2 contour de la motte\", \"CP\": \"35000\", \"VILLE\": \"Rennes\", \"TEL\": \"02-23-21-28-28\", \"FAX\": \"02-99-63-56-84\", \"MEL\": \"greffe.ta-rennes@juradm.fr\", \"URL\": \"http://rennes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"DIRECCTE DES PAYS DE LA LOIRE Comité consultatif interrégional de règlement des litiges ou litiges aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso - BP 24209\", \"CP\": \"44042\", \"VILLE\": \"Nantes\", \"TEL\": \"02-53-46-79-83\", \"FAX\": \"02-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Rennes\", \"ADRESSE\": \"2 contour de la motte\", \"CP\": \"35000\", \"VILLE\": \"Rennes\", \"TEL\": \"02-23-21-28-28\", \"FAX\": \"02-99-63-56-84\", \"MEL\": \"greffe.ta-rennes@juradm.fr\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"URL\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=327852&orgAcronyme=f2h\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-44279"
-  },
-  {
-   "idweb": "17-3271",
-   "id": "17_3271",
-   "contractfolderid": null,
-   "objet": "marché de maîtrise d'oeuvre sur travaux de construction du bassin de stockage-restitution barbin à nantes",
-   "filename": "BOAMP-J-AO_2017_089009",
-   "famille": "JOUE",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2017-03-30",
-   "datefindiffusion": "2017-04-20",
-   "datelimitereponse": null,
-   "nomacheteur": "METROPOLE NANTES METROPOLE",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-25",
-   "type_procedure": "NEGOCIE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Négociée",
-   "procedure_categorise": "NEGOCIE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "197"
-   ],
-   "dc": [
-    "197"
-   ],
-   "descripteur_libelle": [
-    "Maîtrise d'oeuvre"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-3271\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-25\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-3271.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-03-30\", \"DATE_FIN_DIFFUSION\": \"2017-04-20\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"197\", \"LIBELLE\": \"Maîtrise d'oeuvre\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"marché de maîtrise d'oeuvre sur travaux de construction du bassin de stockage-restitution barbin à nantes\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"METROPOLE NANTES METROPOLE\", \"ADJUDICATEUR_NUTS\": \"FR511\", \"ADRESSE\": \"2 cours du Champ de Mars\", \"CP\": \"44923\", \"VILLE\": \"Nantes cedex 9\", \"MEL\": \"estelle.talhouarn@nantesmetropole.fr\", \"URL\": \"http://www.nantesmetropole.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.nantesmetropole.fr\", \"URL_PARTICIPATION\": \"https://marchespublics.nantesmetropole.fr\", \"URL_DOCUMENT\": \"https://marchespublics.nantesmetropole.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"ENTITE_ADJUDICATRICE\": {\"EAU\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Marché de maîtrise d'oeuvre sur travaux de construction du bassin de stockage-restitution Barbin à Nantes\", \"REF_MARCHE\": \"17JJC203\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Prestations de maîtrise duvre pour les travaux de construction du bassin de stockage-restitution Barbin à Nantes. A titre indicatif, le volume de bassin prévu est de 6 500 m³. Le bassin sera construit dans le quartier Hauts Pavés-Saint Félix à Nantes, en rive droite de l'Erdre, entre la rue de l'Ouche de Versailles et le Quai de Versailles.Une démolition préalable des bâtiments présents sur la parcelle est à prévoir, les travaux de démolition étant envisagés via un lot de travaux spécifique.Les éléments de la mission de maîtrise duvre sont : EP, AVP, PRO, ACT, VISA, DET, OPC, AOR et les missions géotechniques G1, G2 et G4.Missions complémentaires :MC1 : assistance au maître douvrage pour mettre en uvre la consultation et linformation des usagers ou du publicMC2 : coordination ou participation à la coordination des actions effectuées par les intervenants extérieurs à la maîtrise duvre\", \"CPV\": {\"PRINCIPAL\": \"71310000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Prestations de maîtrise duvre pour les travaux de construction du bassin de stockage-restitution Barbin à Nantes. A titre indicatif, le volume de bassin prévu est de 6 500 m³. Le bassin sera construit dans le quartier Hauts Pavés-Saint Félix à Nantes, en rive droite de l'Erdre, entre la rue de l'Ouche de Versailles et le Quai de Versailles.Une démolition préalable des bâtiments présents sur la parcelle est à prévoir, les travaux de démolition étant envisagés via un lot de travaux spécifique.Les éléments de la mission de maîtrise duvre sont : EP, AVP, PRO, ACT, VISA, DET, OPC, AOR et les missions géotechniques G1, G2 et G4.Missions complémentaires :MC1 : assistance au maître douvrage pour mettre en uvre la consultation et linformation des usagers ou du publicMC2 : coordination ou participation à la coordination des actions effectuées par les intervenants extérieurs à la maîtrise duvre\", \"CPV\": {\"PRINCIPAL\": \"71310000\"}, \"CODE_NUTS\": \"FR511\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"72\", \"RENOUVELLEMENT_NON\": \"\", \"NB_CANDIDATS\": {\"NB_OFFRE\": \"5\", \"LIMITATION_CANDIDATS\": \"Au cas où le nombre de candidatures admises serait supérieur à 5, les candidatures seront sélectionnées, selon les critères suivants classés par ordre de priorité décroissant : 1- Capacité à réaliser une opération de complexité similaire2- Adéquation des moyens humains en volume et compétences3- Pertinence des références sur les techniques de soutènement\"}, \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"NEGOCIE\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-04-20T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"6\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FORME_JURIDIQUE\": \"Groupement conjoint avec mandataire solidaire. Il est interdit aux candidats de présenter pour le marché plusieurs candidatures en agissant à la fois :- en qualité de candidats individuels et de membres d'un ou plusieurs groupements ;- en qualité de membres de plusieurs groupements.\", \"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Les critères intervenant pour la sélection des candidatures sont : Aptitude à exercerl'activité professionnelle, capacité économique et financière, capacités techniques et professionnelle Les renseignements concernant la situation juridique de lentreprise : Lettre de candidature (imprimé DC1) que la candidature soit présentée à titre individuel ou en groupementDomaines de compétence de l'équipe : hydraulique, génie civil, électromécanique, automatismes, géotechnique et hydrogéologie.\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"Déclaration concernant le chiffre daffaires global et le chiffre daffaires concernant les prestations objet du marché, réalisés au cours des trois derniers exercices disponibles.\", \"CAP_ECO_NIVEAU_MINI\": \"Le candidat devra justifier d'un chiffre d'affaires annuel supérieur à 800 000 euro H.T. au cours des trois derniers exercices disponibles, dont 200 000 euro H.T. dans les domaines, objet du marché.\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"Déclaration indiquant les effectifs moyens annuels du candidat et limportance du personnel dencadrement pour chacune des trois dernières années (en annexe au DC2 si utilisation de ce document et tout document complémentaire) ;Liste des réalisations les plus récentes (3 minimum) d'ouvrages de rétention en béton enterrés de 6 000 m³ ou plus effectués au cours des dix dernières années (depuis début 2007), indiquant le descriptif et le montant des travaux, la profondeur de louvrage, la technique de soutènement, la date et le destinataire public ou privé. Les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de lopérateur économique ;Liste des autres références en lien avec les domaines de spécialisation de l'équipe ;Indication des titres détude et professionnels de l'opérateur économique et/ou des cadres de l'entreprise, et notamment des responsables de prestation de services de même nature que celle du marché\", \"CAP_TECH_NIVEAU_MINI\": \"Le candidat devra justifier d'une expérience dans les domaines objet du présent marché (ouvrage hydraulique enterré de plus de 4 000 m³  de volume utile de profondeur minimum 10 mètres avec parois verticales en milieu urbain ou industriel) au cours des cinq derniers exercices disponibles.Le candidat devra justifier pour chacune des trois dernières années disponibles, d'un effectif moyen annuel d'au moins 30 personnes avec au moins 6 personnels d'encadrement, 10 ingénieurs d'études qualifiés dans les domaines du génie Civil, de l'assainissement, et de l'électromécanique. Le candidat devra également justifier de sa compétence de géotechnicien.\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_OUI\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_NON\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Durée du marché : Depuis la date de notification du marché au titulaire jusqu'à l'expiration du délai de garantie de parfait achèvement éventuellement prolongé conformément au C.C.A.G. (durée prévisionnelle 6 ans).Les candidats ne sont pas tenus de fournir les documents justificatifs et moyens de preuve que l'entité adjudicatrice peut obtenir directement par le biais d'un système électronique de mise à disposition d'informations administré par un organisme officiel ou d'un espace de stockage numérique, à condition que figurent dans le dossier de candidature toutes les informations nécessaires à la consultation de ce système ou de cet espace et que l'accès à ceux-ci soit gratuit. A ce titre, l'acheteur met à disposition des candidats un coffre-fort électronique. Il permet de stocker des documents qui seront accessibles à l'acheteur public lors de la réponse à une consultation. La transmission électronique des candidatures n'est pas obligatoire. La présenteconsultation peut faire l'objet d'une transmission des candidatures par voie électronique. Les candidats qui souhaitent déposer leurcandidature par voie électronique doivent le faire via le site https://marchespublics.nantesmetropole.fr. Modalités de transmission de lacandidature: Le fichier devra être nommé xxx-xxx-xxx-candidature.zip, xxx-xxx-xxx correspondant au numéro de SIREN de l'entreprisecandidate. Ce fichier contiendra tous les documents demandés dans le présent avis d'appel public à la concurrence. Les documentscontenus devront être présentés dans l'un des formats suivants:  format Acrobat (.pdf ) (version Acrobat 7 et antérieures)  formatsopen document: Texte ODF (open document format) (odt ) (exemple: Libreoffice 4 et antérieures) Classeur ODF (open documentformat) (ods) (exemple: Libreoffice 4 et antérieures) La lettre de consultation sera transmise par voie électronique pour les candidatsretenus ayant transmis leur candidature par voie électronique. Cette lettre contiendra les modalités de remise des offres sur le profilacheteur. Copie de sauvegarde: Le candidat qui transmet sa candidature par voie électronique peut l'accompagner d'une copie desauvegarde sur un support physique ou sur un support papier. Cette copie de sauvegarde doit parvenir dans les délais impartis pour laremise des candidatures. La copie de sauvegarde doit être placée dans un pli scellé comportant la mention visible: copie de sauvegardeCalendrier prévisionnel :Remise des offres par les candidats retenus : juin 2017Notification du contrat : janvier 2018. Date d'envoi du présent avis au JOUE et au BOAMP : 28 mars 2017.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Nantes Métropole\", \"ADRESSE\": \"2 rue Alfred Rebelliau\", \"CP\": \"44923\", \"VILLE\": \"Nantes cedex 9\", \"CODE_NUTS\": \"FR511\", \"MEL\": \"maeva.gueguen@nantesmetropole.fr\", \"URL\": \"http://www.nantesmetropole.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Nantes Métropole\", \"ADRESSE\": \"Mme Estelle TALHOUARN - Tel : 02.40.41.51.20Hôtel de Ville - Service des Marchés Publics29 rue de Strasbourg - 3e étage\", \"CP\": \"44094\", \"VILLE\": \"Nantes cedex 1\", \"CODE_NUTS\": \"FR511\", \"MEL\": \"estelle.talhouarn@nantesmetropole.fr\", \"URL\": \"http://www.nantesmetropole.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée Ile GlorietteBP 24111\", \"CP\": \"44000\", \"VILLE\": \"Nantes cedex 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée Ile GlorietteBP 24111\", \"CP\": \"44000\", \"VILLE\": \"Nantes cedex 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-3271"
   },
   {
    "idweb": "17-42534",
@@ -1990,6 +1990,65 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-45651"
   },
   {
+   "idweb": "17-43585",
+   "id": "17_43585",
+   "contractfolderid": null,
+   "objet": "La fourniture et la livraison de peintures routières solvantées et aqueuses",
+   "filename": "BOAMP-J-AO_2017_090003",
+   "famille": "JOUE",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2017-03-31",
+   "datefindiffusion": "2017-05-02",
+   "datelimitereponse": null,
+   "nomacheteur": "Conseil départemental Loire-Atlantique",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": "1",
+   "marche_public_simplifie_label": "Marché public simplifié",
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "263"
+   ],
+   "dc": [
+    "263"
+   ],
+   "descripteur_libelle": [
+    "Peinture (fourniture)"
+   ],
+   "type_marche": [
+    "FOURNITURES"
+   ],
+   "type_marche_facette": [
+    "Fournitures"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-43585\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-43585.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-03-31\", \"DATE_FIN_DIFFUSION\": \"2017-05-02\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"263\", \"LIBELLE\": \"Peinture (fourniture)\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"La fourniture et la livraison de peintures routières solvantées et aqueuses\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Conseil départemental Loire-Atlantique\", \"ADJUDICATEUR_NUTS\": \"FR511\", \"ADRESSE\": \"3, Quai Ceineray CS 94109\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-10-00\", \"FAX\": \"(+33) 2-40-99-11-48\", \"MEL\": \"contact@loire-atlantique.fr\", \"URL\": \"http://www.loire-atlantique.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marches.loire-atlantique.fr\", \"URL_INFORMATION\": \"https://marches.loire-atlantique.fr\", \"URL_PARTICIPATION\": \"https://marches.loire-atlantique.fr\", \"URL_DOCUMENT\": \"https://marches.loire-atlantique.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"La fourniture et la livraison de peintures routières solvantées et aqueuses\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"La fourniture et la livraison de peintures routières solvantées et aqueuses\", \"CPV\": {\"PRINCIPAL\": \"44811000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"1200000.00\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Attribution d'un marché unique. Montant total des prestations pour la période initiale de l'accord-cadre : Période no1 Maximum HT 300 000,00 euro(s) Période no2 Maximum HT 300 000,00 euro(s) Période no3 Maximum HT 300 000,00 euro(s) Période no4 Maximum HT 300 000,00 euro(s) Total : 1 200 000,00 euro(s)\", \"CPV\": {\"PRINCIPAL\": \"44811000\"}, \"CODE_NUTS\": \"FR511\", \"LIEU_PRINCIPAL\": \"Département de Loire-Atlantique Loire-Atlantique Matériels et Travaux 2, rue du Tisserand - CP 1404 44806 SAINT HERBLAIN\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"25\", \"#text\": \"Valeur technique\"}, {\"@POIDS\": \"5\", \"#text\": \"Performances en matière de protection de l'environnement\"}]}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"70\", \"#text\": \"Coût de mise en oeuvre réelle\"}}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"1200000.00\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Nombre de périodes de reconduction fixé à 3, durée de chaque période de reconduction de 12 mois, et durée maximale du contrat, toutes périodes confondues, de 1 an et 36 mois.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-05-02T16:30:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"MPS - Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas des interdictions de soumissionner; Renseignements sur le respect de l'obligation d'emploi mentionnée aux articles L. 5212-1 à L. 5212-11 du Code du travail; Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire ou procédure équivalente pour les candidats étrangers;\", \"CAP_ECO\": \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures objet du contrat, réalisé au cours des trois derniers exercices disponibles.;\", \"MARCHE_RESERVE_NON\": \"\", \"CONDITION_PARTICULIERE_EXECUTION\": \"Début d'exécution de l'accord-cadre à compter de la date de notification du contrat.\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"PERS_OUVERTURE_OFFRES_OUI\": \"Nantes. La séance d'ouverture des plis n'est pas publique. Date et heure données à titre indicatif\", \"DATE_OUVERTURE_OFFRES\": \"2017-05-04\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La candidature peut etre présentée soit sous la forme des formulaires DC1 et DC2 (disponibles gratuitement sur le site www.economie.gouv.fr.), soit sous la forme d'un Document Unique de Marché Européen (DUME). La transmission des plis par voie papier est autorisée : Poste avec AR, Dépôt contre récépissé La transmission des documents par voie électronique est effectuée sur le profil d'acheteur. En revanche, la transmission des documents sur un support physique électronique (CD-ROM, clé usb...) n'est pas autorisée. Le choix du mode de transmission est global et irréversible. Les candidats doivent appliquer le meme mode de transmission à l'ensemble des documents transmis au pouvoir adjudicateur. La transmission des documents par voie électronique est effectuée sur le profil d'acheteur. La transmission des plis sur un support physique électronique (CD-ROM, clé usb...) est également autorisée. Le choix du mode de transmission est global et irréversible. Les candidats doivent appliquer le meme mode de transmission à l'ensemble des documents transmis au pouvoir adjudicateur. Aucun format électronique n'est préconisé pour la transmission des documents. Cependant, les fichiers devront etre transmis dans des formats largement disponibles. Les formats électroniques dans lesquels les documents peuvent etre transmis sont les suivants : Chaque pièce pour laquelle une signature est exigée doit faire l'objet d'une signature électronique individuelle et conforme au format XAdES, CAdES ou PAdES. La seule signature électronique du pli n'emporte pas valeur d'engagement du candidat. Le niveau de sécurité requis pour le certificat de signature électronique est le niveau (**) du RGS. Après attribution, l'offre électronique retenue sera transformée en offre papier pour donner lieu à la signature manuscrite de l'accord-cadre par les parties. Les frais d'accès au réseau et de recours à la signature électronique sont à la charge des candidats. Les prestations sont réglées par des prix unitaires selon les stipulations de l'acte d'engagement . Les prix sont révisés annuellement . Le pouvoir adjudicateur ne souhaite imposer aucune forme de groupement à l'attributaire de l'accord cadre. Numéro de la consultation : HAC00PA. Date d'envoi du présent avis au JOUE et au BOAMP : 29 mars 2017.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé pré-contractuel prévu aux articles L.551-1 à L.551-12 du Code de justice administrative (CJA), et pouvant etre exercé avant la signature du contrat. Référé contractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant etre exercé dans les délais prévus à l'article R. 551-7 du CJA. Recours pour excès de pouvoir contre une décision administrative prévu aux articles R. 421-1 à R. 421-7 du CJA, et pouvant etre exercé dans les 2 mois suivant la notification ou publication de la décision de l'organisme (le recours ne peut plus, toutefois, etre exercé après la signature du contrat). Recours de pleine juridiction ouvert aux tiers justifiant d'un intéret lésé, et pouvant etre exercé dans les deux mois suivant la date à laquelle la conclusion du contrat est rendue publique.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, Allée de l'ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\"}, {\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Département de Loire-Atlantique\", \"ADRESSE\": \"3, Quai Ceineray CS 94109\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"CODE_NUTS\": \"FR511\", \"TEL\": \"(+33) 2-40-99-09-63\", \"MEL\": \"brigitte.dugast@loire-atlantique.fr\", \"URL\": \"http://www.loire-atlantique.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Département de Loire-Atlantique\", \"ADRESSE\": \"3, Quai Ceineray CS 94109\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"CODE_NUTS\": \"FR511\", \"TEL\": \"(+33) 2-40-99-09-63\", \"MEL\": \"brigitte.dugast@loire-atlantique.fr\", \"URL\": \"https://marches.loire-atlantique.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-43585"
+  },
+  {
    "idweb": "17-44872",
    "id": "17_44872",
    "contractfolderid": null,
@@ -2162,65 +2221,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-45555\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-45555.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-03-31\", \"DATE_LIMITE_REPONSE\": \"2017-04-26T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2017-04-26\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"141\", \"LIBELLE\": \"Génie civil\"}, {\"CODE\": \"252\", \"LIBELLE\": \"Ouvrage d'art\"}, {\"CODE\": \"455\", \"LIBELLE\": \"Ingénierie\"}]}, \"DEP_PUBLICATION\": [\"44\", \"49\"], \"RESUME_OBJET\": \"Travaux pour la construction d'un pont lieu-dit 'Les Fourcins'\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Cté de Cnes du Pays d'Ancenis\", \"CORRESPONDANT\": \"CHUITON Céline\", \"ADRESSE\": \"CA Les Ursulines - CS 50201\", \"CP\": \"44156\", \"VILLE\": \"Ancenis cedex\", \"TEL\": \"02-40-96-66-37\", \"FAX\": \"02-40-98-82-90\", \"MEL\": \"milieux-aquatiques@pays-ancenis.com\", \"URL\": \"http://www.pays-ancenis.com/fr/\", \"URL_PROFIL_ACHETEUR\": \"http://www.pays-ancenis.e-marchespublics.com/\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Travaux pour la construction d'un pont au lieu-dit 'Les Fourcins'\", \"CPV\": {\"PRINCIPAL\": \"45220000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Commune de la Roche Blanche et commune de Vair-sur-Loire\"}, \"AMP_NON\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Les travaux à réaliser sont les suivants :-Démolition de l'ouvrage existant,-Fourniture et mise en oeuvre d'un pont cadre,-Reprise des berges en technique végétale,-Rechargement du lit de la rivière.Le présent marché est un marché à prix mixtes. Les travaux seront réglés suivant les quantités et ouvrages réellement exécutés par application des prix unitaires et forfaitaires dont le libellé est détaillé dans le bordereau des prix (BP).Le prix est actualisable selon les modalités fixées à l'article 3.2 du CCAP. Il est non révisable.Le présent marché prendra effet à compter de sa date de notification (valant ordre de service de commencer la période de préparation), et s'achèvera après réception et acceptation des prestations par la COMPA. Un ordre de service pour le démarrage des travaux sera établi.Le délai d'exécution des travaux est laissé à l'initiative des candidats qui devront le (ou les) préciser dans l'Acte d'Engagement. Ce délai ne pourra toutefois pas dépasser un ' délai plafond ' de 4.5 mois, incluant une période de préparation de 2 mois maximum.L'entreprise devra obtenir le visa de l'ouvrage pont cadre sous 2 semaines maximum pour permettre la commande des éléments préfabriqués.A titre indicatif, date prévisionnelle de début des prestations : fin mai 2017.Les prestations devront être réalisées au plus tard le 30 septembre 2017\", \"QUANTITE\": \"Travaux pour la construction d'un pont au lieu-dit 'Les Fourcins'\", \"OPTIONS\": {\"OUI\": \"\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"Prix des prestations apprécié au vu du montant total en euros T.T.C. du détail estimatif\"}, {\"@POIDS\": \"40\", \"#text\": \"Valeur technique appréciée au vu de la qualité de la note méthodologique et au vu des sous critères enoncés au RC\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-04-26T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"90\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Budget de la compa. A noter que la COMPA recevra des subventions de l'agence de l'eau loire bretagne et de la région des pays de la loire (environ 80%).\", \"FORME_JURIDIQUE\": \"Dans le cas où le candidat ferait une offre sous la forme d'un groupement, il n'est pas imposé de forme au groupement retenu après attribution du marché. L'offre, qu'elle soit présentée par une seule entreprise ou par un groupement, devra indiquer tous les sous-traitants connus lors de son dépôt (bureau d'études structures en particulier). Elle devra également indiquer les prestations (et leur montant) dont la sous-traitance est envisagée, la dénomination et la qualité des sous-traitants qui l'exécuteront à la place du titulaire.Les pièces administratives et techniques, décrites à l'article relatif aux 'Documents à produire', concernant chaque membre du groupement devront être fournies. En outre, à la lettre de candidature dûment complétée et signée in fine (emploi du formulaire DC1 mis à jour au 26/10/2016 recommandé) seront joints, lorsque le mandataire sera habilité par les membres du groupement à signer l'acte d'engagement, les pouvoirs correspondants.\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire obligatoirement par le candidat, à l'appui de sa candidature\", \"Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire\", \"Déclaration sur l'honneur du candidat justifiant qu'il n'entre dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles 45 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 ou, pour les marchés publics de défense ou de sécurité, qu'il n'entre dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles 45 ,46 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 (si cette déclaration n'est pas déjà demandée dans le cadre du formulaire DC1, ci-après)\", \"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels\", \"Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années\", \"Présentation d'une liste des travaux exécutés au cours des cinq dernières années, appuyée d'attestations de bonne exécution pour les travaux les plus importants. Ces attestations indiquent le montant, l'époque et le lieu d'exécution des travaux et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin\", \"Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation de marchés de même nature\", \"Certificats de qualifications professionnelles. La preuve de la capacité du candidat peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de travaux attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat\", \"Les certificats de qualifications et/ou de qualité suivants ou équivalents :- 1132 : Génie Civil : Ouvrages de technicité courante en milieu maritime ou fluvial,- 1432 : Ouvrages en site maritime ou fluvial : Pose de blocs ou d'éléments de protection par engin de levage depuis la berge quel que soit le mode de transport de ces enrochements par moyens terrestres,- 211 Démolition abattage : Par engin mécanique.\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Si les documents fournis par le candidat ne sont pas établis en langue française, ils doivent être accompagnés d'une traduction en français, certifiée conforme à l'original par un traducteur assermenté\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"17TVXFOURCPA\", \"CONDITIONS_REMISE_OFFRES\": \"Les candidats devront transmettre leur offre sous pli cacheté portant la mention suivante :'MAPA 17TVXFOURCPA - Offre pour le marché de travaux de construction d'un pont au lieu-dit ' Les Fourcins ' - NE PAS OUVRIR'Les offres seront:- Soit déposées contre récépissé à la Communauté de Communes du Pays d'Ancenis aux horaires suivants :du lundi au vendredi de 9h à 12h et de 14h à 16h.- Soit envoyées par tout moyen permettant de déterminer de manière certaine, la date et l'heure de la réception à :Monsieur le PrésidentCommunauté de communes du Pays d'AncenisCentre administratif 'les Ursulines'CS 5020144156 ANCENIS Cedex- Soit déposées par voie électronique selon la procédure décrite au R.C.\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Examen des candidatures : Conformité administrative et technique au regard des pièces exigées à l'appui de la candidature (DC1, DC2 à jour au 26 octobre 2016 ou équivalents, garanties financières, capacités techniques, références, moyens humains et matériels).Une visite facultative est prévue le mardi 18 avril à 10h00. Les candidats doivent se faire connaître auprès de la COMPA au plus tard la veille de la visite. Le rendez-vous est prévu à 10h00 au Pont des Fourcins (commune de la Roche Blanche). Pour obtenir tout renseignement complémentaire qui leur serait nécessaire au cours de leur étude, les candidats devront s'adresser à :Correspondant : Guillaume ROCHER, Service ' Energies - Milieux aquatiques 'Téléphone : 02.40.96.31.89Courriel : milieux-aquatiques@pays-ancenis.com\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, Allée Ile Gloriette, BP 2411\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\"}}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-45555"
-  },
-  {
-   "idweb": "17-43585",
-   "id": "17_43585",
-   "contractfolderid": null,
-   "objet": "La fourniture et la livraison de peintures routières solvantées et aqueuses",
-   "filename": "BOAMP-J-AO_2017_090003",
-   "famille": "JOUE",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2017-03-31",
-   "datefindiffusion": "2017-05-02",
-   "datelimitereponse": null,
-   "nomacheteur": "Conseil départemental Loire-Atlantique",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": "1",
-   "marche_public_simplifie_label": "Marché public simplifié",
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "263"
-   ],
-   "dc": [
-    "263"
-   ],
-   "descripteur_libelle": [
-    "Peinture (fourniture)"
-   ],
-   "type_marche": [
-    "FOURNITURES"
-   ],
-   "type_marche_facette": [
-    "Fournitures"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-43585\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-43585.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-03-31\", \"DATE_FIN_DIFFUSION\": \"2017-05-02\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"263\", \"LIBELLE\": \"Peinture (fourniture)\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"La fourniture et la livraison de peintures routières solvantées et aqueuses\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Conseil départemental Loire-Atlantique\", \"ADJUDICATEUR_NUTS\": \"FR511\", \"ADRESSE\": \"3, Quai Ceineray CS 94109\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-10-00\", \"FAX\": \"(+33) 2-40-99-11-48\", \"MEL\": \"contact@loire-atlantique.fr\", \"URL\": \"http://www.loire-atlantique.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marches.loire-atlantique.fr\", \"URL_INFORMATION\": \"https://marches.loire-atlantique.fr\", \"URL_PARTICIPATION\": \"https://marches.loire-atlantique.fr\", \"URL_DOCUMENT\": \"https://marches.loire-atlantique.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"La fourniture et la livraison de peintures routières solvantées et aqueuses\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"La fourniture et la livraison de peintures routières solvantées et aqueuses\", \"CPV\": {\"PRINCIPAL\": \"44811000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"1200000.00\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Attribution d'un marché unique. Montant total des prestations pour la période initiale de l'accord-cadre : Période no1 Maximum HT 300 000,00 euro(s) Période no2 Maximum HT 300 000,00 euro(s) Période no3 Maximum HT 300 000,00 euro(s) Période no4 Maximum HT 300 000,00 euro(s) Total : 1 200 000,00 euro(s)\", \"CPV\": {\"PRINCIPAL\": \"44811000\"}, \"CODE_NUTS\": \"FR511\", \"LIEU_PRINCIPAL\": \"Département de Loire-Atlantique Loire-Atlantique Matériels et Travaux 2, rue du Tisserand - CP 1404 44806 SAINT HERBLAIN\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"25\", \"#text\": \"Valeur technique\"}, {\"@POIDS\": \"5\", \"#text\": \"Performances en matière de protection de l'environnement\"}]}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"70\", \"#text\": \"Coût de mise en oeuvre réelle\"}}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"1200000.00\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Nombre de périodes de reconduction fixé à 3, durée de chaque période de reconduction de 12 mois, et durée maximale du contrat, toutes périodes confondues, de 1 an et 36 mois.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-05-02T16:30:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"MPS - Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas des interdictions de soumissionner; Renseignements sur le respect de l'obligation d'emploi mentionnée aux articles L. 5212-1 à L. 5212-11 du Code du travail; Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire ou procédure équivalente pour les candidats étrangers;\", \"CAP_ECO\": \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures objet du contrat, réalisé au cours des trois derniers exercices disponibles.;\", \"MARCHE_RESERVE_NON\": \"\", \"CONDITION_PARTICULIERE_EXECUTION\": \"Début d'exécution de l'accord-cadre à compter de la date de notification du contrat.\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"PERS_OUVERTURE_OFFRES_OUI\": \"Nantes. La séance d'ouverture des plis n'est pas publique. Date et heure données à titre indicatif\", \"DATE_OUVERTURE_OFFRES\": \"2017-05-04\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La candidature peut etre présentée soit sous la forme des formulaires DC1 et DC2 (disponibles gratuitement sur le site www.economie.gouv.fr.), soit sous la forme d'un Document Unique de Marché Européen (DUME). La transmission des plis par voie papier est autorisée : Poste avec AR, Dépôt contre récépissé La transmission des documents par voie électronique est effectuée sur le profil d'acheteur. En revanche, la transmission des documents sur un support physique électronique (CD-ROM, clé usb...) n'est pas autorisée. Le choix du mode de transmission est global et irréversible. Les candidats doivent appliquer le meme mode de transmission à l'ensemble des documents transmis au pouvoir adjudicateur. La transmission des documents par voie électronique est effectuée sur le profil d'acheteur. La transmission des plis sur un support physique électronique (CD-ROM, clé usb...) est également autorisée. Le choix du mode de transmission est global et irréversible. Les candidats doivent appliquer le meme mode de transmission à l'ensemble des documents transmis au pouvoir adjudicateur. Aucun format électronique n'est préconisé pour la transmission des documents. Cependant, les fichiers devront etre transmis dans des formats largement disponibles. Les formats électroniques dans lesquels les documents peuvent etre transmis sont les suivants : Chaque pièce pour laquelle une signature est exigée doit faire l'objet d'une signature électronique individuelle et conforme au format XAdES, CAdES ou PAdES. La seule signature électronique du pli n'emporte pas valeur d'engagement du candidat. Le niveau de sécurité requis pour le certificat de signature électronique est le niveau (**) du RGS. Après attribution, l'offre électronique retenue sera transformée en offre papier pour donner lieu à la signature manuscrite de l'accord-cadre par les parties. Les frais d'accès au réseau et de recours à la signature électronique sont à la charge des candidats. Les prestations sont réglées par des prix unitaires selon les stipulations de l'acte d'engagement . Les prix sont révisés annuellement . Le pouvoir adjudicateur ne souhaite imposer aucune forme de groupement à l'attributaire de l'accord cadre. Numéro de la consultation : HAC00PA. Date d'envoi du présent avis au JOUE et au BOAMP : 29 mars 2017.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé pré-contractuel prévu aux articles L.551-1 à L.551-12 du Code de justice administrative (CJA), et pouvant etre exercé avant la signature du contrat. Référé contractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant etre exercé dans les délais prévus à l'article R. 551-7 du CJA. Recours pour excès de pouvoir contre une décision administrative prévu aux articles R. 421-1 à R. 421-7 du CJA, et pouvant etre exercé dans les 2 mois suivant la notification ou publication de la décision de l'organisme (le recours ne peut plus, toutefois, etre exercé après la signature du contrat). Recours de pleine juridiction ouvert aux tiers justifiant d'un intéret lésé, et pouvant etre exercé dans les deux mois suivant la date à laquelle la conclusion du contrat est rendue publique.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, Allée de l'ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\"}, {\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Département de Loire-Atlantique\", \"ADRESSE\": \"3, Quai Ceineray CS 94109\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"CODE_NUTS\": \"FR511\", \"TEL\": \"(+33) 2-40-99-09-63\", \"MEL\": \"brigitte.dugast@loire-atlantique.fr\", \"URL\": \"http://www.loire-atlantique.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Département de Loire-Atlantique\", \"ADRESSE\": \"3, Quai Ceineray CS 94109\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"CODE_NUTS\": \"FR511\", \"TEL\": \"(+33) 2-40-99-09-63\", \"MEL\": \"brigitte.dugast@loire-atlantique.fr\", \"URL\": \"https://marches.loire-atlantique.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-43585"
   },
   {
    "idweb": "17-39639",
@@ -4461,66 +4461,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-46824"
   },
   {
-   "idweb": "17-47522",
-   "id": "17_47522",
-   "contractfolderid": null,
-   "objet": "Fourniture et montage de mobiliers pour le SDIS de la Vendée",
-   "filename": "BOAMP-N-IC-AA_2017_095006",
-   "famille": "FNS",
-   "code_departement": [
-    "85"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2017-04-05",
-   "datefindiffusion": "2017-04-26",
-   "datelimitereponse": null,
-   "nomacheteur": "SDIS 85",
-   "titulaire": [
-    "SARL MECANOGRAPHIE CAILLET-BRIANCEAU",
-    "CVC CASIERS VESTIAIRES CONSIGNES"
-   ],
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "ATTRIBUTION",
-   "sousnature": null,
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "230"
-   ],
-   "dc": [
-    "230"
-   ],
-   "descripteur_libelle": [
-    "Mobilier"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "17-5077"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"17-5077\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-01-11\", \"DATE_FIN_DIFFUSION\": \"2017-01-26\"}}}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-47522\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-5077\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-01-11\", \"DATE_FIN_DIFFUSION\": \"2017-01-26\"}}}}, \"NOM_HTML\": \"17-47522.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-04-05\", \"DATE_FIN_DIFFUSION\": \"2017-04-26\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"230\", \"LIBELLE\": \"Mobilier\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"Fourniture et montage de mobiliers pour le SDIS de la Vendée\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"SDIS 85\", \"CORRESPONDANT\": \"M. Le directeur départemental des services d'incendie et de secours de la vendée, Mme Martine Chaillout chef du service de la commande publique\", \"ADRESSE\": \"Les Oudairies BP 695\", \"CP\": \"85017\", \"VILLE\": \"LA ROCHE SUR YON Cedex\", \"TEL\": \"02-51-45-10-10\", \"FAX\": \"02-51-45-49-51\", \"MEL\": \"scop@sdis-vendee.fr\", \"URL\": \"http://www.sdis85.com\", \"URL_PROFIL_ACHETEUR\": \"http://sdis85.e-marchespublics.com\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ORDRE_SEC_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Fourniture et montage de mobiliers pour le SDIS de la Vendée\", \"CPV\": [{\"PRINCIPAL\": \"39100000\"}, {\"PRINCIPAL\": \"39130000\"}, {\"PRINCIPAL\": \"39143110\"}, {\"PRINCIPAL\": \"39143121\"}], \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Direction et centres de secours du SDIS de la Vendée\", \"CODE_NUTS\": \"FR515\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"Prix (jugés sur les prix remisés du BPU et, pour le lot no1, sur un panel de prix remisés issus du catalogue - éco participation incluse)\"}, {\"@POIDS\": \"35\", \"#text\": \"Qualité (jugée sur la sécurité, la durabilité et l'ergonomie)\"}, {\"@POIDS\": \"15\", \"#text\": \"Service après-vente et garantie (jugés sur les conditions et délais de service après-vente ainsi que sur la durée et les modalités de garantie)\"}]}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_LOT\": \"1\", \"DESCRIPTION\": \"Mobilier de bureau et de couchage pour les centres de secours et l'état-major du SDIS de la Vendée\", \"TITULAIRE\": {\"DENOMINATION\": \"SARL MECANOGRAPHIE CAILLET-BRIANCEAU\", \"ADRESSE\": \"1 place du Marché\", \"CP\": \"85000\", \"VILLE\": \"LA ROCHE SUR YON\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-03-31\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT_MINI\": {\"@DEVISE\": \"EUR\", \"#text\": \"10000\"}, \"MONTANT_MAXI\": {\"@DEVISE\": \"EUR\", \"#text\": \"60000\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"2\", \"DESCRIPTION\": \"Armoires vestiaires pour les centres de secours et l'état-major du SDIS de la Vendée\", \"TITULAIRE\": {\"DENOMINATION\": \"CVC CASIERS VESTIAIRES CONSIGNES\", \"ADRESSE\": \"8 route des Lirots - Les Gâtines d'Oulins\", \"CP\": \"28260\", \"VILLE\": \"OULINS\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-04-03\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT_MINI\": {\"@DEVISE\": \"EUR\", \"#text\": \"1000\"}, \"MONTANT_MAXI\": {\"@DEVISE\": \"EUR\", \"#text\": \"20000\"}}}]}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette CS 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES cedex\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-47522"
-  },
-  {
    "idweb": "17-45746",
    "id": "17_45746",
    "contractfolderid": null,
@@ -4582,6 +4522,66 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-45746\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-17043\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-02-03\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-02-05\", \"DATE_FIN_DIFFUSION\": \"2017-03-14\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"027\", \"NUM_ANNONCE\": \"047753\", \"DATE_PUBLICATION\": \"2017-02-08\"}}]}}, \"NOM_HTML\": \"17-45746.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-04-05\", \"DATE_FIN_DIFFUSION\": \"2017-04-28\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"332\", \"LIBELLE\": \"Sécurité incendie\"}}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"La présente consultation a pour objet les prestations de maintenance préventive et corrective, en vue d'assurer le bon fonctionnement des systèmes de sécurité incendie\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"EPSM de la Sarthe\", \"ADJUDICATEUR_NUTS\": \"FR514\", \"ADRESSE\": \"20 AVENUE DU 19 MARS 1962\", \"CP\": \"72703\", \"VILLE\": \"ALLONNES CEDEX\", \"TEL\": \"(+33) 2-43-43-51-52\", \"FAX\": \"(+33) 2-43-43-51-50\", \"MEL\": \"dla.marches@epsm-sarthe.fr\", \"URL\": \"http://www.achat-hopital.com\", \"URL_PROFIL_ACHETEUR\": \"http://www.epsm-sarthe.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"EPSM\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"VERIFICATIONS REGLEMENTAIRES ET MAINTENANCE CORRECTIVE DES MOYENS DE SECOURS INCENDIE DES ETABLISSEMENTS RECEVANT DU PUBLIC\", \"REF_MARCHE\": \"2017-01\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"La présente consultation a pour objet les prestations de maintenance préventive et corrective, par une société agréée selon la règlementation, en vue dassurer le bon fonctionnement des systèmes de sécurité incendie\", \"CPV\": {\"PRINCIPAL\": \"71315400\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Maintenance préventive et corrective, par une société agréée selon la règlementation,  des systèmes de sécurité incendie (S.S.I) de catégorie A et B mis en place sur les sites de l'EPSM de la Sarthe\", \"CPV\": {\"PRINCIPAL\": \"71315400\"}, \"CODE_NUTS\": \"FR514\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Vérification de la centrale incendie CTA (centrale traitement dair)\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_NON\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2017\", \"NUM_PARUTION\": \"027\", \"NUM_ANNONCE\": \"047753\", \"DATE_PUBLICATION\": \"2017-02-08\"}}}, \"ATTRIBUTION\": {\"DECISION\": {\"INFRUCTUEUX\": \"\", \"NUM_MARCHE\": \"2017-01\", \"INTITULE\": \"Vérifications règlementaires et maintenance des SSI\"}}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 3 avril 2017.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée Ile Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES CEDEX\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif de règlement amiable des litiges relatifs aux marchés publics\", \"ADRESSE\": \"6 rue Louise Weiss - Télédoc 353\", \"CP\": \"75703\", \"VILLE\": \"PARIS CEDEX 13\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-45746"
+  },
+  {
+   "idweb": "17-47522",
+   "id": "17_47522",
+   "contractfolderid": null,
+   "objet": "Fourniture et montage de mobiliers pour le SDIS de la Vendée",
+   "filename": "BOAMP-N-IC-AA_2017_095006",
+   "famille": "FNS",
+   "code_departement": [
+    "85"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2017-04-05",
+   "datefindiffusion": "2017-04-26",
+   "datelimitereponse": null,
+   "nomacheteur": "SDIS 85",
+   "titulaire": [
+    "SARL MECANOGRAPHIE CAILLET-BRIANCEAU",
+    "CVC CASIERS VESTIAIRES CONSIGNES"
+   ],
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "ATTRIBUTION",
+   "sousnature": null,
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "230"
+   ],
+   "dc": [
+    "230"
+   ],
+   "descripteur_libelle": [
+    "Mobilier"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "17-5077"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"17-5077\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-01-11\", \"DATE_FIN_DIFFUSION\": \"2017-01-26\"}}}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-47522\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-5077\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-01-11\", \"DATE_FIN_DIFFUSION\": \"2017-01-26\"}}}}, \"NOM_HTML\": \"17-47522.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-04-05\", \"DATE_FIN_DIFFUSION\": \"2017-04-26\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"230\", \"LIBELLE\": \"Mobilier\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"Fourniture et montage de mobiliers pour le SDIS de la Vendée\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"SDIS 85\", \"CORRESPONDANT\": \"M. Le directeur départemental des services d'incendie et de secours de la vendée, Mme Martine Chaillout chef du service de la commande publique\", \"ADRESSE\": \"Les Oudairies BP 695\", \"CP\": \"85017\", \"VILLE\": \"LA ROCHE SUR YON Cedex\", \"TEL\": \"02-51-45-10-10\", \"FAX\": \"02-51-45-49-51\", \"MEL\": \"scop@sdis-vendee.fr\", \"URL\": \"http://www.sdis85.com\", \"URL_PROFIL_ACHETEUR\": \"http://sdis85.e-marchespublics.com\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ORDRE_SEC_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Fourniture et montage de mobiliers pour le SDIS de la Vendée\", \"CPV\": [{\"PRINCIPAL\": \"39100000\"}, {\"PRINCIPAL\": \"39130000\"}, {\"PRINCIPAL\": \"39143110\"}, {\"PRINCIPAL\": \"39143121\"}], \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Direction et centres de secours du SDIS de la Vendée\", \"CODE_NUTS\": \"FR515\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"Prix (jugés sur les prix remisés du BPU et, pour le lot no1, sur un panel de prix remisés issus du catalogue - éco participation incluse)\"}, {\"@POIDS\": \"35\", \"#text\": \"Qualité (jugée sur la sécurité, la durabilité et l'ergonomie)\"}, {\"@POIDS\": \"15\", \"#text\": \"Service après-vente et garantie (jugés sur les conditions et délais de service après-vente ainsi que sur la durée et les modalités de garantie)\"}]}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_LOT\": \"1\", \"DESCRIPTION\": \"Mobilier de bureau et de couchage pour les centres de secours et l'état-major du SDIS de la Vendée\", \"TITULAIRE\": {\"DENOMINATION\": \"SARL MECANOGRAPHIE CAILLET-BRIANCEAU\", \"ADRESSE\": \"1 place du Marché\", \"CP\": \"85000\", \"VILLE\": \"LA ROCHE SUR YON\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-03-31\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT_MINI\": {\"@DEVISE\": \"EUR\", \"#text\": \"10000\"}, \"MONTANT_MAXI\": {\"@DEVISE\": \"EUR\", \"#text\": \"60000\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"2\", \"DESCRIPTION\": \"Armoires vestiaires pour les centres de secours et l'état-major du SDIS de la Vendée\", \"TITULAIRE\": {\"DENOMINATION\": \"CVC CASIERS VESTIAIRES CONSIGNES\", \"ADRESSE\": \"8 route des Lirots - Les Gâtines d'Oulins\", \"CP\": \"28260\", \"VILLE\": \"OULINS\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-04-03\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT_MINI\": {\"@DEVISE\": \"EUR\", \"#text\": \"1000\"}, \"MONTANT_MAXI\": {\"@DEVISE\": \"EUR\", \"#text\": \"20000\"}}}]}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette CS 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES cedex\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-47522"
   },
   {
    "idweb": "17-43982",
@@ -5506,6 +5506,67 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-40712"
   },
   {
+   "idweb": "17-46741",
+   "id": "17_46741",
+   "contractfolderid": null,
+   "objet": "Etudes géotechniques pour les bâtiments départementaux, y compris les collèges publics, et les bâtiments du service départemental d'incendie et de secours de Loire-Atlantique.",
+   "filename": "BOAMP-J-IC-AA_2017_096004",
+   "famille": "JOUE",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2017-04-06",
+   "datefindiffusion": "2017-05-29",
+   "datelimitereponse": null,
+   "nomacheteur": "Conseil départemental Loire-Atlantique",
+   "titulaire": [
+    "Société FONDASOL"
+   ],
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "ATTRIBUTION",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "455"
+   ],
+   "dc": [
+    "455"
+   ],
+   "descripteur_libelle": [
+    "Ingénierie"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-46741\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-46741.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-04-06\", \"DATE_FIN_DIFFUSION\": \"2017-05-29\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"455\", \"LIBELLE\": \"Ingénierie\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Etudes géotechniques pour les bâtiments départementaux, y compris les collèges publics, et les bâtiments du service départemental d'incendie et de secours de Loire-Atlantique.\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Conseil départemental Loire-Atlantique\", \"ADJUDICATEUR_NUTS\": \"FR511\", \"ADRESSE\": \"3, Quai Ceineray CS 94109\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-10-00\", \"FAX\": \"(+33) 2-40-99-11-48\", \"MEL\": \"contact@loire-atlantique.fr\", \"URL\": \"https://marches.loire-atlantique.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marches.loire-atlantique.fr\", \"URL_INFORMATION\": \"https://marchesloire-atlantique.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Etudes géotechniques pour les batiments départementaux, y compris les collèges publics, et les batiments du service départemental d'incendie et de secours de Loire-Atlantique.\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Dans le cadre des opérations de construction et des travaux dans les batiments départementaux et les collèges publics, dont le Département assure la maîtrise d'ouvrage, et dans les batiments du SDIS 44, l'intervention de prestataires extérieurs pour la réalisation de diverses études s'avère nécessaire. C'est notamment le cas en matière d'études géotechniques qui peuvent etre nécessaires dès la faisabilité de l'opération jusqu'à la réception des ouvrages.\", \"CPV\": {\"PRINCIPAL\": \"45111250\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"250000.00\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Dans le cadre des opérations de construction et des travaux dans les batiments départementaux et les collèges publics, dont le Département assure la maîtrise d'ouvrage, et dans les batiments du SDIS 44, l'intervention de prestataires extérieurs pour la réalisation de diverses études s'avère nécessaire. C'est notamment le cas en matière d'études géotechniques qui peuvent etre nécessaires dès la faisabilité de l'opération jusqu'à la réception des ouvrages.\", \"CPV\": {\"PRINCIPAL\": \"45111250\"}, \"CODE_NUTS\": \"FR511\", \"LIEU_PRINCIPAL\": \"Département de Loire-Atlantique 44000 NANTES\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"70.0\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"30.0\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"GAG00\", \"INTITULE\": \"Etudes géotechniques pour les batiments départementaux, y compris les collèges publics, et les batiments du service départemental d'incendie et de secours de Loire-Atlantique.\", \"TITULAIRE\": {\"DENOMINATION\": \"Société FONDASOL\", \"ADRESSE\": \"290, rue des galoubets mft\", \"CP\": \"84140\", \"VILLE\": \"MONTFAVET\", \"CODE_NUTS\": \"FR\", \"TEL\": \"(+33) -51-77-86-50\", \"FAX\": \"(+33) -51-78-65-15\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-03-24\", \"NB_OFFRE_RECU\": \"6\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"1000000.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Dans le respect des secrets protégés par la loi, les pièces du marché peuvent etre consultées sur rendez-vous auprès de Mme Michelle BUANNIC (tél : 02.40.99.14.94, mail : mbuannic@loire-atlantique.fr) à l'adresse suivante : Département de Loire-Atlantique - Direction patrimoine immobilier - Sous-direction opérations immobilières - 8 rue Sully à Nantes. Marché à bons de commande avec un montant minimum de 20 000.00 euros HT annuel et un montant maximum de 250 000.00 euros HT annuel, pour une durée d'une année renouvelable trois fois une année.. Date d'envoi du présent avis au JOUE et au BOAMP : 4 avril 2017.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé pré-contractuel prévu aux articles L.551-1 à L.551-12 du Code de justice administrative (CJA), et pouvant etre exercé avant la signature du contrat. Référé contractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant etre exercé dans les délais prévus à l'article R. 551-7 du CJA. Recours pour excès de pouvoir contre une décision administrative prévu aux articles R. 421-1 à R. 421-7 du CJA, et pouvant etre exercé dans les 2 mois suivant la notification ou publication de la décision de l'organisme (le recours ne peut plus, toutefois, etre exercé après la signature du contrat). Recours de pleine juridiction ouvert aux tiers justifiant d'un intéret lésé, et pouvant etre exercé dans les deux mois suivant la date à laquelle la conclusion du contrat est rendue publique.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, Allée de l'ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\"}}}, \"ANNEXE_D1\": \"\"}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-46741"
+  },
+  {
    "idweb": "17-47181",
    "id": "17_47181",
    "contractfolderid": null,
@@ -5570,67 +5631,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-47181\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-47181.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-04-06\", \"DATE_LIMITE_REPONSE\": \"2017-04-28T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2017-04-28\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"18\", \"LIBELLE\": \"Assainissement\"}, {\"CODE\": \"48\", \"LIBELLE\": \"Canalisations\"}]}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": [\"79\", \"85\", \"44\", \"49\", \"86\", \"17\", \"16\"], \"RESUME_OBJET\": \"réhabilitation sans tranchée du réseau d'assainissement, communes de parthenay et de pompaire - 79\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Communauté Communes Parthenay-Gâtine\", \"CORRESPONDANT\": \"marches-publics@cc-parthenay-gatine.fr\", \"ADRESSE\": \"CS 80192\", \"CP\": \"79205\", \"VILLE\": \"Parthenay Cedex\", \"TEL\": \"05-49-94-03-77\", \"FAX\": \"05-49-94-90-41\", \"MEL\": \"marches-publics@cc-parthenay-gatine.fr\", \"URL\": \"http://www.cc-parthenay-gatine.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.achatpublic.com\"}, \"TYPE_ORGANISME\": {\"EPN\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"ENTITE_ADJUDICATRICE\": {\"EAU\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Réhabilitation sans tranchée du réseau d'assainissement, Communes de Parthenay et de Pompaire - 79\", \"CPV\": {\"PRINCIPAL\": \"45232410\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Communes de Parthenay et Pompaire\", \"CP\": \"79200\", \"CODE_NUTS\": \"FR533\"}, \"AMP_OUI\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Réhabilitation du réseau d'assainissement et d'une bâche de pompage à Pompaire et réhabilitation du réseau d'assainissement à Parthenay.Délai maximum global du marché 5 mois : le candidat proposer un délai moindre dans son offre, en adéquation avec la nautre des prestations à effectuerDes variantes sont autorisées dans la mesure où les solutions variantes apportent des garanties au moins égales à la solution de base, notamment en termes de caractéristiques de résistance mécanique et d'étanchéité des conduites, et de facilité d'écoulement des effluents\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-04-28T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Retenue de garantie de 5 % ou caution bancaire libérée à l'issue de la période de garantie de 12 moisPossibilité de versement d'une avance de 5 % contre la constitution d'une caution bancaire du montant de cette avance\", \"FINANCEMENT\": \"délai global de paiement de 30 jours par virement administratif. Versement d'acomptes\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire obligatoirement par le candidat, à l'appui de sa candidature\", \"Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire\", \"Déclaration sur l'honneur du candidat justifiant qu'il n'entre dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles 45 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 ou, pour les marchés publics de défense ou de sécurité, qu'il n'entre dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles 45 ,46 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 (si cette déclaration n'est pas déjà demandée dans le cadre du formulaire DC1, ci-après)\", \"Déclaration sur l'honneur du candidat attestant qu'il est en règle, au cours de l'année précédant celle au cours de laquelle a lieu le lancement de la consultation, au regard des articles L. 5212-1, L. 5212-2, L. 5212 5 et L. 5212-9 du code du travail, concernant l'emploi des travailleurs handicapés\", \"Si le candidat est établi en France, une déclaration sur l'honneur du candidat justifiant que le travail est effectué par des salariés employés régulièrement au regard des articles L. 1221-10, L. 3243-2 et R. 3243-1 du code du travail (dans le cas où le candidat emploie des salariés, conformément à l'article D. 8222-5-3° du code du travail)\", \"Si le candidat est établi ou domicilié à l'étranger, une déclaration sur l'honneur du candidat attestant qu'il fournit à ses salariés des bulletins de paie comportant les mentions prévues à l'article R. 3243-1 du code du travail, ou des documents équivalents\", \"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Si les documents fournis par le candidat ne sont pas établis en langue française, ils doivent être accompagnés d'une traduction en français, certifiée conforme à l'original par un traducteur assermenté\", \"Les pièces prévues aux articles D. 8222-5 ou D. 8222-7 et D. 8222-8 du code du travail\", \"Si l'attributaire est établi en France, les attestations et certificats délivrés par les administrations et organismes compétents prouvant qu'il a satisfait à ses obligations fiscales et sociales ou un état annuel des certificats reçus\", \"Si l'attributaire est établi dans un Etat autre que la France, un certificat établi par les administrations et organismes du pays d'origine. Lorsqu'un tel certificat n'est pas délivré par le pays concerné, il peut être remplacé par une déclaration sous serment, ou dans les Etats où un tel serment n'existe pas, par une déclaration solennelle faite par l'intéressé devant l'autorité judiciaire ou administrative compétente, un notaire ou un organisme professionnel qualifié du pays\", \"Si les documents fournis par le candidat ne sont pas établis en langue française, ils doivent être accompagnés d'une traduction en français, certifiée conforme à l'original par un traducteur assermenté\", \"Autres renseignements demandés\", \"Présentation d'une liste des principaux travaux similaires effectués au cours des trois dernières années\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"CONDITIONS_REMISE_OFFRES\": \"Les offres peuvent être adressées ou remises dans les conditions suivantes :- Par transmission électronique à l'adresse suivante : https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2017_rxQFEdnOK4- Sur un support papier et adressées par lettre recommandée avec demande d'avis de réception postal. - Sur un support papier et remises sous pli cacheté au service destinataire contre récépissé\", \"CONDITIONS_ET_MODE_PAIEMENT_OBTENIR_DOCUMENTS\": \"Le dossier de consultation est téléchargeable gratuitement sur le site : https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2017_rxQFEdnOK4\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"TECH\": \"\"}, \"DENOMINATION\": \"Maître d'oeuvre : Entreprise Setec Hydratec\", \"CORRESPONDANT\": \"Fabrice Gratelle, responsable d'affaires\", \"ADRESSE\": \"11 Rue Hoche\", \"CP\": \"49100\", \"VILLE\": \"Angers\", \"TEL\": \"02-41-57-05-73\", \"FAX\": \"02-41-57-05-97\", \"MEL\": \"hydratec.angers@hydra.setec.fr\"}, {\"TYPE\": {\"ADMIN\": \"\"}, \"DENOMINATION\": \"Communauté de Communes Parthenay-Gâtine\", \"CORRESPONDANT\": \"Service Marchés Publics\", \"CP\": \"79205\", \"VILLE\": \"Parthenay Cedex\", \"TEL\": \"05-49-94-90-61\", \"MEL\": \"marches-publics@cc-parthenay-gatine.fr\", \"URL\": \"http://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2017_rxQFEdnOK4\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Communauté de Communes de Parthenay, pour un dépôt en LRAR ou un dépôt contre récépissé (article 22 du RC)\", \"CORRESPONDANT\": \"Service Marchés Publics\", \"ADRESSE\": \"Hôtel de Ville et de Communauté2 Rue de la CitadelleCS 80192\", \"CP\": \"79205\", \"VILLE\": \"Parthenay Cedex\", \"TEL\": \"05-49-94-03-77\", \"URL\": \"http://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2017_rxQFEdnOK4\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Poitiers\", \"ADRESSE\": \"15 Rue de Blossac\", \"CP\": \"86000\", \"VILLE\": \"Poitiers\", \"TEL\": \"05-49-60-79-19\", \"MEL\": \"greffe.ta-poitiers@juradm.fr\", \"URL\": \"http://poitiers.tribunal-administratif.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-47181"
-  },
-  {
-   "idweb": "17-46741",
-   "id": "17_46741",
-   "contractfolderid": null,
-   "objet": "Etudes géotechniques pour les bâtiments départementaux, y compris les collèges publics, et les bâtiments du service départemental d'incendie et de secours de Loire-Atlantique.",
-   "filename": "BOAMP-J-IC-AA_2017_096004",
-   "famille": "JOUE",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2017-04-06",
-   "datefindiffusion": "2017-05-29",
-   "datelimitereponse": null,
-   "nomacheteur": "Conseil départemental Loire-Atlantique",
-   "titulaire": [
-    "Société FONDASOL"
-   ],
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "ATTRIBUTION",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "455"
-   ],
-   "dc": [
-    "455"
-   ],
-   "descripteur_libelle": [
-    "Ingénierie"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-46741\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-46741.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-04-06\", \"DATE_FIN_DIFFUSION\": \"2017-05-29\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"455\", \"LIBELLE\": \"Ingénierie\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Etudes géotechniques pour les bâtiments départementaux, y compris les collèges publics, et les bâtiments du service départemental d'incendie et de secours de Loire-Atlantique.\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Conseil départemental Loire-Atlantique\", \"ADJUDICATEUR_NUTS\": \"FR511\", \"ADRESSE\": \"3, Quai Ceineray CS 94109\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-10-00\", \"FAX\": \"(+33) 2-40-99-11-48\", \"MEL\": \"contact@loire-atlantique.fr\", \"URL\": \"https://marches.loire-atlantique.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marches.loire-atlantique.fr\", \"URL_INFORMATION\": \"https://marchesloire-atlantique.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Etudes géotechniques pour les batiments départementaux, y compris les collèges publics, et les batiments du service départemental d'incendie et de secours de Loire-Atlantique.\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Dans le cadre des opérations de construction et des travaux dans les batiments départementaux et les collèges publics, dont le Département assure la maîtrise d'ouvrage, et dans les batiments du SDIS 44, l'intervention de prestataires extérieurs pour la réalisation de diverses études s'avère nécessaire. C'est notamment le cas en matière d'études géotechniques qui peuvent etre nécessaires dès la faisabilité de l'opération jusqu'à la réception des ouvrages.\", \"CPV\": {\"PRINCIPAL\": \"45111250\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"250000.00\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Dans le cadre des opérations de construction et des travaux dans les batiments départementaux et les collèges publics, dont le Département assure la maîtrise d'ouvrage, et dans les batiments du SDIS 44, l'intervention de prestataires extérieurs pour la réalisation de diverses études s'avère nécessaire. C'est notamment le cas en matière d'études géotechniques qui peuvent etre nécessaires dès la faisabilité de l'opération jusqu'à la réception des ouvrages.\", \"CPV\": {\"PRINCIPAL\": \"45111250\"}, \"CODE_NUTS\": \"FR511\", \"LIEU_PRINCIPAL\": \"Département de Loire-Atlantique 44000 NANTES\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"70.0\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"30.0\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"GAG00\", \"INTITULE\": \"Etudes géotechniques pour les batiments départementaux, y compris les collèges publics, et les batiments du service départemental d'incendie et de secours de Loire-Atlantique.\", \"TITULAIRE\": {\"DENOMINATION\": \"Société FONDASOL\", \"ADRESSE\": \"290, rue des galoubets mft\", \"CP\": \"84140\", \"VILLE\": \"MONTFAVET\", \"CODE_NUTS\": \"FR\", \"TEL\": \"(+33) -51-77-86-50\", \"FAX\": \"(+33) -51-78-65-15\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-03-24\", \"NB_OFFRE_RECU\": \"6\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"1000000.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Dans le respect des secrets protégés par la loi, les pièces du marché peuvent etre consultées sur rendez-vous auprès de Mme Michelle BUANNIC (tél : 02.40.99.14.94, mail : mbuannic@loire-atlantique.fr) à l'adresse suivante : Département de Loire-Atlantique - Direction patrimoine immobilier - Sous-direction opérations immobilières - 8 rue Sully à Nantes. Marché à bons de commande avec un montant minimum de 20 000.00 euros HT annuel et un montant maximum de 250 000.00 euros HT annuel, pour une durée d'une année renouvelable trois fois une année.. Date d'envoi du présent avis au JOUE et au BOAMP : 4 avril 2017.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé pré-contractuel prévu aux articles L.551-1 à L.551-12 du Code de justice administrative (CJA), et pouvant etre exercé avant la signature du contrat. Référé contractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant etre exercé dans les délais prévus à l'article R. 551-7 du CJA. Recours pour excès de pouvoir contre une décision administrative prévu aux articles R. 421-1 à R. 421-7 du CJA, et pouvant etre exercé dans les 2 mois suivant la notification ou publication de la décision de l'organisme (le recours ne peut plus, toutefois, etre exercé après la signature du contrat). Recours de pleine juridiction ouvert aux tiers justifiant d'un intéret lésé, et pouvant etre exercé dans les deux mois suivant la date à laquelle la conclusion du contrat est rendue publique.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, Allée de l'ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\"}}}, \"ANNEXE_D1\": \"\"}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-46741"
   },
   {
    "idweb": "17-47099",

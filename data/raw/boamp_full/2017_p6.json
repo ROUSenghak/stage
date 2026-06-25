@@ -1921,61 +1921,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-17998"
   },
   {
-   "idweb": "17-29117",
-   "id": "17_29117",
-   "contractfolderid": null,
-   "objet": "Réfection Unité 43 - Bâtiment Fontenoy niveau 4",
-   "filename": "BOAMP-N-AO_2017_060011",
-   "famille": "FNS",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2017-03-01",
-   "datefindiffusion": "2017-03-31",
-   "datelimitereponse": "2017-03-24T10:00:00+00:00",
-   "nomacheteur": "CH LE MANS",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "345"
-   ],
-   "dc": [
-    "345"
-   ],
-   "descripteur_libelle": [
-    "Tous corps d'état"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-29117\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-29117.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-03-01\", \"DATE_LIMITE_REPONSE\": \"2017-03-24T11:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2017-03-31\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"345\", \"LIBELLE\": \"Tous corps d'état\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Réfection Unité 43 - Bâtiment Fontenoy niveau 4\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CH LE MANS\", \"CORRESPONDANT\": \"des Marchés Cellule Centrale\", \"ADRESSE\": \"194 avenue Rubillard\", \"CP\": \"72037\", \"VILLE\": \"Le mans cedex 09\", \"TEL\": \"02-44-71-02-97\", \"FAX\": \"02-43-43-44-11\", \"MEL\": \"celluledesmarches@ch-lemans.fr\", \"URL\": \"http://www.ch-lemans.fr/\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Réfection Unité 43 - Bâtiment Fontenoy niveau 4\", \"CPV\": {\"PRINCIPAL\": \"45454100\"}, \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FR514\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Les candidats sont avisés qu'ils doivent répondre obligatoirement à l'offre de base.Des solutions alternatives peuvent être présentées avec l'offre de base sous réserve qu'elles soient conformes au descriptif des Cahiers des Clauses Techniques Particulières (CCTP).Elles devront être rédigées de manière distincte à l'offre de base et accompagnées d'une note explicative de synthèse.La proposition sera obligatoirement accompagnée d'un descriptif permettant une comparaison aisée avec l'offre de base.\", \"QUANTITE\": \"Réfection Unité 43 - Bâtiment Fontenoy niveau 4\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Démolitions - Plâtrerie sèche - Menuiserie plafond\", \"DESCRIPTION\": \"Démolitions - Plâtrerie sèche - Menuiserie plafond\", \"CPV\": [{\"PRINCIPAL\": \"45454100\"}, {\"PRINCIPAL\": \"45111100\"}, {\"PRINCIPAL\": \"45410000\"}, {\"PRINCIPAL\": \"45421000\"}]}, {\"NUM\": \"2\", \"INTITULE\": \"Peinture - sol\", \"DESCRIPTION\": \"Peinture - Sol\", \"CPV\": [{\"PRINCIPAL\": \"45454100\"}, {\"PRINCIPAL\": \"45442100\"}, {\"PRINCIPAL\": \"45430000\"}]}, {\"NUM\": \"3\", \"INTITULE\": \"Electricité (informatique, courants forts, courants faibles et SSI)\", \"DESCRIPTION\": \"Electricité (informatique, courants forts, courants faibles et SSI)\", \"CPV\": [{\"PRINCIPAL\": \"45454100\"}, {\"PRINCIPAL\": \"45310000\"}]}, {\"NUM\": \"4\", \"INTITULE\": \"Plomberie - Chauffage - Ventilation\", \"DESCRIPTION\": \"Plomberie - Chauffage - Ventilation\", \"CPV\": [{\"PRINCIPAL\": \"45454100\"}, {\"PRINCIPAL\": \"45330000\"}, {\"PRINCIPAL\": \"45331000\"}]}, {\"NUM\": \"5\", \"INTITULE\": \"Fluides médicaux\", \"DESCRIPTION\": \"Fluides médicaux\", \"CPV\": [{\"PRINCIPAL\": \"45454100\"}, {\"PRINCIPAL\": \"24111500\"}, {\"PRINCIPAL\": \"24111900\"}]}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"5\", \"#text\": \"Lots 1 et 2 - Critère 1 : Présentation et précision du devis\"}, {\"@POIDS\": \"10\", \"#text\": \"Lots 1 et 2 - Critère 2.1 : Organisation interne de l'entreprise et du chantier pour réaliser les travaux en intégrant l'hygiène, la sécurité, le maintien des organisations et prestations du CHM\"}, {\"@POIDS\": \"5\", \"#text\": \"Lots 1 et 2 - Critère 2.2 : Développement de la formation pour améliorer la qualité, la technique et la sécurité du chantier en lien avec l'objet du marché (le candidat fournit les attestations de formation des employés qui réalisent les travaux)\"}, {\"@POIDS\": \"10\", \"#text\": \"Lots 1 et 2 - Critère 3 : Capacité de l'entreprise à respecter le planning prévisionnel des travaux intégrant la préparation du chantier et les délais d'approvisionnement, et en indiquant les moyens humains prévus pour les phases importantes\"}, {\"@POIDS\": \"70\", \"#text\": \"Lots 1 et 2 - Critère 4 : Prix\"}, {\"@POIDS\": \"15\", \"#text\": \"Lot 3 - Critère 1 : Qualité de l'offre, dont la qualité du matériel prévue et précision du devis (détail par prestation, par local et unité de chiffrage)\"}, {\"@POIDS\": \"30\", \"#text\": \"Lot 3 - Critère 2 : Organisation de l'entreprise, y compris les moyens humains et matériels prévus pour la réalisation du chantier et respect du planning de travaux du CCTP\"}, {\"@POIDS\": \"15\", \"#text\": \"Lot 3 - Critère 3 : Qualification du personnel prévu pour cette opération (y compris sous-traitant)\"}, {\"@POIDS\": \"40\", \"#text\": \"Lot 3 - Critère 4 : Prix\"}, {\"@POIDS\": \"30\", \"#text\": \"Lots 4 et 5 - Critère 1.1 : Qualité du matériel prévu dans l'offre\"}, {\"@POIDS\": \"10\", \"#text\": \"Lots 4 et 5 - Critère 1.2 : Précision et niveau de détail du devis\"}, {\"@POIDS\": \"10\", \"#text\": \"Lots 4 et 5 - Critère 2.1 : Description des moyens humains et organisationnels mis en oeuvre pour faciliter le respect du planning de l'opération et de l'organisation du CHM\"}, {\"@POIDS\": \"10\", \"#text\": \"Lots 4 et 5 - Critère 2.2 : Capacité technique de l'entreprise à respecter le planning prévisionnel des travaux intégrant la préparation du chantier et les délais d'approvisionnement\"}, {\"@POIDS\": \"40\", \"#text\": \"Lots 4 et 5 - Critère 3 : Prix\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-03-24T11:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Fonds propresDélai de paiement : 50 jours\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO\": \"Le chiffre d'affaires global et, si possible, le chiffre d'affaires concernant les travaux, fournitures ou services objets du marché, réalisés au cours des trois derniers exercices,\", \"CAP_TECH\": \"Sont requises :. les effectifs moyens annuels de personnels et l'importance du personnel d'encadrement pour chacune des trois dernières années,. la liste des principales fournitures ou principaux travaux ou services effectués au cours des trois dernières années indiquant le montant, la date et le destinataire public ou privé à propos de l'objet précis du marchés,. le savoir-faire environnemental (charte de l'entreprise, objectifs cibles, moyens humains et matériels dédiés dans le domaine, formation du personnel).\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Autres renseignements demandés\", \"Cf. ATTRI1 joint en annexe du DCE\", \"Cf. Règlement de consultation\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"DT2017-008\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La visite des lieux est fortement conseillée ; l'attestation de visite signée sera à remettre avec les offres.Les dates de ces visites proposées sont au choix le jeudi 9 mars 2017 à 14h00 ou le jeudi 16 mars 2017 à 14h00, le rendez-vous est donné au niveau 2 en salle de réunion du bâtiment des Services Techniques.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé précontractuel depuis le début de la procédure jusqu'à la signature du contrat : devant le tribunal administratif de Nantes (article L551-1 du code de justice administrative)\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des litiges relatifs aux marchés publics\", \"ADRESSE\": \"8 rue de Châteaubriand\", \"CP\": \"44000\", \"VILLE\": \"Nantes\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-29117"
-  },
-  {
    "idweb": "17-28007",
    "id": "17_28007",
    "contractfolderid": null,
@@ -2036,6 +1981,61 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-28007\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-28007.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-03-01\", \"DATE_FIN_DIFFUSION\": \"2017-05-14\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"196\", \"LIBELLE\": \"Maintenance\"}}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\", \"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"EXPLOITATION ET MAINTENANCE DES CHAMBRES FROIDES DE GRANDE CAPACITE \\\" FROID INDUSTRIEL \\\" DE L'EFS PAYS DE LA LOIRE\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Etablissement Français du Sang\", \"ADJUDICATEUR_NUTS\": \"FR51\", \"ADRESSE\": \"34 boulevard Jean Monnet, BP 91115 À l'attention de: M. Frédéric DEHAUT\", \"CP\": \"44011\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-40-12-33-00\", \"FAX\": \"(+33) 2-40-12-33-93\", \"MEL\": \"marches-publics.pdl@efs.sante.fr\", \"URL\": \"http://www.dondusang.net\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.gouv.fr\", \"URL_DOCUMENT\": \"https://www.marches-publics.gouv.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"EXPLOITATION ET MAINTENANCE DES CHAMBRES FROIDES DE GRANDE CAPACITE \\\" FROID INDUSTRIEL \\\" DE L'EFS PAYS DE LA LOIRE\", \"REF_MARCHE\": \"2017EFSPDLO070\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"La présente consultation est passée selon la procédure d'appel d'offres ouvert en application de l'article 42-1°a) de l'ordonnance no2015-899 du 23 juillet 2015 relative aux marchés publics et des articles 25, 66, 67 et 68 du décret no2016-360 du 25 mars 2016 relatif aux marchés publics.Il s'agit d'un accord-cadre fixant toutes les stipulations contractuelles et exécuté au fur et à mesure de l'émission de bons de commande, conformément à l'article 4 de l'ordonnance et aux articles 78-I alinéa 3 et 80 du décret. L'accord-cadre est conclu avec un minimum et un maximum de commandes exprimés en valeur. Le présent marché public est conclu à compter de sa date de notification et s'exécute jusqu'au 31 mai 2019 Les prestations s'exécutent à compter du 12 Juin 2017 0H00 ou à 0H00 le jour ouvré suivant la notification si celle-ci est plus tardive.\", \"CPV\": {\"PRINCIPAL\": \"50730000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS_RESERVE_POUVOIR_ADJUDICATEUR\": \"NEANT\", \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"DESCRIPTION\": \"Exploitation et la maintenance des chambres froides de grande capacité \\\" froid industriel \\\" \\\" zone 44 Loire-Atlantique \\\"Engagement minimum pour 24 mois: 18 000euro(s) HTEngagement maximum pour 24 mois: 200 000 euro(s)HTEngagement minimum pour 48 mois: 35 000 euro(s) HTEngagement maximum pour 48 mois: 300 000euro(s)HT\", \"CPV\": {\"PRINCIPAL\": \"50730000\"}, \"CODE_NUTS\": \"FR511\", \"LIEU_PRINCIPAL\": \"Nantes Centre Hôtel Dieu/ Saint Herblain ABG /Saint Nazaire\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DATE_DEBUT\": \"2017-06-12\", \"DATE_FIN\": \"2019-05-31\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"L'accord-cadre pourra faire l'objet d'une procédure négociée avec le titulaire pour la réalisation de prestations similaires en application de l'article 30-I-7° du décret pour une durée de 24 ou 48 mois.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"DESCRIPTION\": \"Exploitation et la maintenance des chambres froides de grande capacité \\\" froid industriel \\\" \\\" zone 49 Maine et Loire \\\" et \\\" zone 85 Vendée \\\"Engagement minimum pour 24 mois:20 000euro(s) HTEngagement maximum pour 24 mois:200 000 euro(s) HTEngagement minimum pour 48 mois:40 000 euro(s)HTEngagement maximum pour 48 mois:300 000 euro(s) HT\", \"CPV\": {\"PRINCIPAL\": \"50730000\"}, \"CODE_NUTS\": [\"FR512\", \"FR515\"], \"LIEU_PRINCIPAL\": \"Angers/La Roche sur Yon\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DATE_DEBUT\": \"2017-06-12\", \"DATE_FIN\": \"2019-05-31\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"L'accord-cadre pourra faire l'objet d'une procédure négociée avec le titulaire pour la réalisation de prestations similaires en application de l'article 30-I-7° du décret pour une durée de 24 ou 48 mois.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"DESCRIPTION\": \"Exploitation et la maintenance des chambres froides de grande capacité \\\" froid industriel \\\" \\\" zone 72 Sarthe \\\" et \\\" zone 53 Mayenne'Engagement minimum pour 24 mois:7 500 euro(s) HTEngagement maximum pour 24 mois:100 000 euro(s) HTEngagement minimum pour 48 mois:15 000 euro(s) HTEngagement maximum pour 48 mois:150 000 euro(s) HT\", \"CPV\": {\"PRINCIPAL\": \"50730000\"}, \"CODE_NUTS\": [\"FR513\", \"FR514\"], \"LIEU_PRINCIPAL\": \"Laval / Le Mans\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DATE_DEBUT\": \"2017-06-12\", \"DATE_FIN\": \"2019-05-31\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"L'accord-cadre pourra faire l'objet d'une procédure négociée avec le titulaire pour la réalisation de prestations similaires en application de l'article 30-I-7° du décret pour une durée de 24 ou 48 mois.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-04-14T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"6\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"* Une lettre de candidature ( DC1) datée et signée par une personne compétente à l'effet d'engager le candidat* un document permettant de justifier de la qualité du signataire à engager le candidat * une déclaration sur l'honneur attestant que le candidat ne fait pas l'objet d'une interdiction de soumissionner telles que définies aux articles 45 et 48 de l'ordonnance no2015-899 du 23 juillet 2015 ;* si le candidat est en redressement judiciaire, la copie du ou des jugements l'autorisant à poursuivre son activité ;\", \"CAP_ECO\": \"* une déclaration concernant le chiffre d'affaires annuel global du candidat et le chiffre d'affaires du domaine d'activité faisant l'objet du présent marché, sur les trois derniers exercices disponibles\", \"CAP_TECH\": \"* une déclaration indiquant l'effectif moyen annuel et l'importance du personnel d'encadrement pour les trois dernières années ;*une présentation d'une liste des principaux services effectués au cours des trois dernières années, indiquant le destinataire public ou privé. Ces prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique;Les candidats utiliseront les formulaires de déclaration du candidat Dc1 et Dc2 fournis dans le dossier de consultation. Les rubriques considérées desdits formulaires devront être renseignées et complétées de telle sorte que les informations ci-avant sollicitées soient bien fournies.Pièces à fournir en cas de groupement et de sous-traitance: se référer au règlement de consultation.\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2017-04-14\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les critères et les sous-critères sont renseignés dans le règlement de consultation. Les offres variables ne sont pas autorisées.Le contenu détaillé des pièces à fournir dans la candidature est précisé à l'article 6.1 du règlement de consultation.La visite des locaux est obligatoire pour chacun des sites des lots de la présente consultation.Néanmoins, si le candidat estime qu'il dispose déjà d'une connaissance approfondie des équipements et des installations techniques à maintenir, il doit en apporter la justification, et ce, pour chacun des lots. Dans ce cas, il peut décider de ne pas visiter les sites du ou des lots auxquels il candidate. Le calendrier des visites est défini dans l'annexe 1 du RC (entre le 9 et le 21 mars 2017). Le candidat choisit une des dates proposées et prend rendez-vous par téléphone auprès des interlocuteurs désignés dans cette même annexe. Cette prise de rendez-vous est obligatoire.Le candidat qui n'aurait pas visité l'ensemble des locaux du ou des lot(s) au(x)quels il postule, hormis s'il est en mesure de justifier par un autre moyen, qu'il dispose déjà d'une connaissance approfondie des équipements et des installations techniques à maintenir, verra son offre rejetée.Le dossier de consultation est téléchargeable en se connectant à http://www.marches-publics.gouv.fr (réf pour accéder au dossier sur la plate-forme: 2017EFSPDLO070) Il est fortement recommandé aux candidats de s'inscrire et de s'identifier préalablement sur la plateforme avant de télécharger le dossier de consultation, pour être informés des compléments qui lui seraient apportés. Les candidats qui ne s'identifieront pas préalablement ne pourront être alertés. Aucun dossier de la consultation ne sera transmis sous format papier ou sur support électronique. Les plis peuvent être déposés:- par voie non dématérialisée: par courrier donnant date certaine de leur réceptionà l'efspdl, 34 boulevard Jean Monnet, B.P. 91115, 44011 Nantes Cedex1, FRANCE, ou remis en main propre à la même adresse du lundi au vendredi de 9:00 à 12:00 et de 14:00à 16:00,- par voie dématérialisée: dans les conditions fixées dans le règlement de consultation qui peut être téléchargé librement en se connectant à: http://www.marches-publics.gouv.fr.. Date d'envoi du présent avis au JOUE et au BOAMP : 27 février 2017.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"- avant la signature du marché, un référé précontractuel sur le fondement des articles L. 551-1 et suivants etR. 551-1 et suivants du code de justice administrative,- ou à défaut, le référé contractuel prévu aux articles L. 551-13 et suivants du code de justice administrative,dans un délai de 31 jours à compter de la publication d'un avis d'attribution du contrat au JOUE ou dans les 6mois à compter du lendemain du jour de la conclusion du contrat, si aucun avis d'attribution n'a été publié ou siaucune notification de la conclusion du contrat n'a été effectuée- dans un délai de 2 mois après accomplissement des mesures de publicité appropriées, un recours de pleine juridiction contestant la validité du contrat ou de certaines de ses clauses non réglementaires qui en sont divisibles.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée Île Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée Île Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-28007"
+  },
+  {
+   "idweb": "17-29117",
+   "id": "17_29117",
+   "contractfolderid": null,
+   "objet": "Réfection Unité 43 - Bâtiment Fontenoy niveau 4",
+   "filename": "BOAMP-N-AO_2017_060011",
+   "famille": "FNS",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2017-03-01",
+   "datefindiffusion": "2017-03-31",
+   "datelimitereponse": "2017-03-24T10:00:00+00:00",
+   "nomacheteur": "CH LE MANS",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "345"
+   ],
+   "dc": [
+    "345"
+   ],
+   "descripteur_libelle": [
+    "Tous corps d'état"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-29117\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-29117.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-03-01\", \"DATE_LIMITE_REPONSE\": \"2017-03-24T11:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2017-03-31\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"345\", \"LIBELLE\": \"Tous corps d'état\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Réfection Unité 43 - Bâtiment Fontenoy niveau 4\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CH LE MANS\", \"CORRESPONDANT\": \"des Marchés Cellule Centrale\", \"ADRESSE\": \"194 avenue Rubillard\", \"CP\": \"72037\", \"VILLE\": \"Le mans cedex 09\", \"TEL\": \"02-44-71-02-97\", \"FAX\": \"02-43-43-44-11\", \"MEL\": \"celluledesmarches@ch-lemans.fr\", \"URL\": \"http://www.ch-lemans.fr/\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Réfection Unité 43 - Bâtiment Fontenoy niveau 4\", \"CPV\": {\"PRINCIPAL\": \"45454100\"}, \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FR514\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Les candidats sont avisés qu'ils doivent répondre obligatoirement à l'offre de base.Des solutions alternatives peuvent être présentées avec l'offre de base sous réserve qu'elles soient conformes au descriptif des Cahiers des Clauses Techniques Particulières (CCTP).Elles devront être rédigées de manière distincte à l'offre de base et accompagnées d'une note explicative de synthèse.La proposition sera obligatoirement accompagnée d'un descriptif permettant une comparaison aisée avec l'offre de base.\", \"QUANTITE\": \"Réfection Unité 43 - Bâtiment Fontenoy niveau 4\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Démolitions - Plâtrerie sèche - Menuiserie plafond\", \"DESCRIPTION\": \"Démolitions - Plâtrerie sèche - Menuiserie plafond\", \"CPV\": [{\"PRINCIPAL\": \"45454100\"}, {\"PRINCIPAL\": \"45111100\"}, {\"PRINCIPAL\": \"45410000\"}, {\"PRINCIPAL\": \"45421000\"}]}, {\"NUM\": \"2\", \"INTITULE\": \"Peinture - sol\", \"DESCRIPTION\": \"Peinture - Sol\", \"CPV\": [{\"PRINCIPAL\": \"45454100\"}, {\"PRINCIPAL\": \"45442100\"}, {\"PRINCIPAL\": \"45430000\"}]}, {\"NUM\": \"3\", \"INTITULE\": \"Electricité (informatique, courants forts, courants faibles et SSI)\", \"DESCRIPTION\": \"Electricité (informatique, courants forts, courants faibles et SSI)\", \"CPV\": [{\"PRINCIPAL\": \"45454100\"}, {\"PRINCIPAL\": \"45310000\"}]}, {\"NUM\": \"4\", \"INTITULE\": \"Plomberie - Chauffage - Ventilation\", \"DESCRIPTION\": \"Plomberie - Chauffage - Ventilation\", \"CPV\": [{\"PRINCIPAL\": \"45454100\"}, {\"PRINCIPAL\": \"45330000\"}, {\"PRINCIPAL\": \"45331000\"}]}, {\"NUM\": \"5\", \"INTITULE\": \"Fluides médicaux\", \"DESCRIPTION\": \"Fluides médicaux\", \"CPV\": [{\"PRINCIPAL\": \"45454100\"}, {\"PRINCIPAL\": \"24111500\"}, {\"PRINCIPAL\": \"24111900\"}]}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"5\", \"#text\": \"Lots 1 et 2 - Critère 1 : Présentation et précision du devis\"}, {\"@POIDS\": \"10\", \"#text\": \"Lots 1 et 2 - Critère 2.1 : Organisation interne de l'entreprise et du chantier pour réaliser les travaux en intégrant l'hygiène, la sécurité, le maintien des organisations et prestations du CHM\"}, {\"@POIDS\": \"5\", \"#text\": \"Lots 1 et 2 - Critère 2.2 : Développement de la formation pour améliorer la qualité, la technique et la sécurité du chantier en lien avec l'objet du marché (le candidat fournit les attestations de formation des employés qui réalisent les travaux)\"}, {\"@POIDS\": \"10\", \"#text\": \"Lots 1 et 2 - Critère 3 : Capacité de l'entreprise à respecter le planning prévisionnel des travaux intégrant la préparation du chantier et les délais d'approvisionnement, et en indiquant les moyens humains prévus pour les phases importantes\"}, {\"@POIDS\": \"70\", \"#text\": \"Lots 1 et 2 - Critère 4 : Prix\"}, {\"@POIDS\": \"15\", \"#text\": \"Lot 3 - Critère 1 : Qualité de l'offre, dont la qualité du matériel prévue et précision du devis (détail par prestation, par local et unité de chiffrage)\"}, {\"@POIDS\": \"30\", \"#text\": \"Lot 3 - Critère 2 : Organisation de l'entreprise, y compris les moyens humains et matériels prévus pour la réalisation du chantier et respect du planning de travaux du CCTP\"}, {\"@POIDS\": \"15\", \"#text\": \"Lot 3 - Critère 3 : Qualification du personnel prévu pour cette opération (y compris sous-traitant)\"}, {\"@POIDS\": \"40\", \"#text\": \"Lot 3 - Critère 4 : Prix\"}, {\"@POIDS\": \"30\", \"#text\": \"Lots 4 et 5 - Critère 1.1 : Qualité du matériel prévu dans l'offre\"}, {\"@POIDS\": \"10\", \"#text\": \"Lots 4 et 5 - Critère 1.2 : Précision et niveau de détail du devis\"}, {\"@POIDS\": \"10\", \"#text\": \"Lots 4 et 5 - Critère 2.1 : Description des moyens humains et organisationnels mis en oeuvre pour faciliter le respect du planning de l'opération et de l'organisation du CHM\"}, {\"@POIDS\": \"10\", \"#text\": \"Lots 4 et 5 - Critère 2.2 : Capacité technique de l'entreprise à respecter le planning prévisionnel des travaux intégrant la préparation du chantier et les délais d'approvisionnement\"}, {\"@POIDS\": \"40\", \"#text\": \"Lots 4 et 5 - Critère 3 : Prix\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-03-24T11:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Fonds propresDélai de paiement : 50 jours\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO\": \"Le chiffre d'affaires global et, si possible, le chiffre d'affaires concernant les travaux, fournitures ou services objets du marché, réalisés au cours des trois derniers exercices,\", \"CAP_TECH\": \"Sont requises :. les effectifs moyens annuels de personnels et l'importance du personnel d'encadrement pour chacune des trois dernières années,. la liste des principales fournitures ou principaux travaux ou services effectués au cours des trois dernières années indiquant le montant, la date et le destinataire public ou privé à propos de l'objet précis du marchés,. le savoir-faire environnemental (charte de l'entreprise, objectifs cibles, moyens humains et matériels dédiés dans le domaine, formation du personnel).\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Autres renseignements demandés\", \"Cf. ATTRI1 joint en annexe du DCE\", \"Cf. Règlement de consultation\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"DT2017-008\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La visite des lieux est fortement conseillée ; l'attestation de visite signée sera à remettre avec les offres.Les dates de ces visites proposées sont au choix le jeudi 9 mars 2017 à 14h00 ou le jeudi 16 mars 2017 à 14h00, le rendez-vous est donné au niveau 2 en salle de réunion du bâtiment des Services Techniques.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé précontractuel depuis le début de la procédure jusqu'à la signature du contrat : devant le tribunal administratif de Nantes (article L551-1 du code de justice administrative)\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des litiges relatifs aux marchés publics\", \"ADRESSE\": \"8 rue de Châteaubriand\", \"CP\": \"44000\", \"VILLE\": \"Nantes\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-29117"
   },
   {
    "idweb": "17-28909",
@@ -2590,6 +2590,61 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-30239"
   },
   {
+   "idweb": "17-29713",
+   "id": "17_29713",
+   "contractfolderid": null,
+   "objet": "Travaux de rénovation des sous-stations sur 5 sites du Crous de Nantes.",
+   "filename": "BOAMP-N-AO_2017_061005",
+   "famille": "FNS",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2017-03-02",
+   "datefindiffusion": "2017-05-24",
+   "datelimitereponse": null,
+   "nomacheteur": "CROUS de Nantes",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "5"
+   ],
+   "dc": [
+    "5"
+   ],
+   "descripteur_libelle": [
+    "Alarme"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-29713\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-29713.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-03-02\", \"DATE_FIN_DIFFUSION\": \"2017-05-24\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"5\", \"LIBELLE\": \"Alarme\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Travaux de rénovation des sous-stations sur 5 sites du Crous de Nantes.\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CROUS de Nantes\", \"CORRESPONDANT\": \"M. FALIP Jean-Marie, Directeur\", \"ADRESSE\": \"2 Boulevard Guy Mollet BP 52213\", \"CP\": \"44322\", \"VILLE\": \"Nantes cedex 3\", \"TEL\": \"02-40-37-13-86\", \"MEL\": \"immobilier.marches@crous-nantes.fr\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"hébergement, restauration, aide sociale et culturelle aux étudiants\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Travaux de rénovation des sous-stations sur 5 sites du Crous de Nantes.\", \"CPV\": {\"PRINCIPAL\": \"45259900\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Nantes\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"CODE_NUTS\": \"FR511\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Variante économique autorisée présentée sur devis complémentaire\", \"QUANTITE\": \"Démarrage prévisionnel :  * Période de préparation : juin 2017  *Délai prévisionnel d'exécution des travaux : 13 semaines (y compris la période de préparation)*Contrôle des températures et du traitement de l'eau (5 jours avant la remise en chauffe : fin septembre)Le calendrier détaillé d'exécution sera finalisé par l'entrepreneur dans le cadre de l'offre qu'il remettra.\"}, \"DUREE_DELAI\": {\"DATE_DEBUT\": \"2017-06-01\", \"DATE_FIN\": \"2017-09-30\", \"DATE_LIVRAISON\": \"2017-06-01\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Une retenue de garantie sera exercée au taux de cinq pour cent (5 %) des montants des travaux. La retenue de garantie peut être remplacée par une garantie à première demande ou une caution personnelle et solidaire.En cas de sous-traitance, la retenue est appliquée globalement au titulaire du marché, sauf stipulationsparticulières mentionnées à l'acte spécial.\", \"FINANCEMENT\": \"Le financement de l'opération est assuré par l'Etat.Le délai global de paiement est de 30 jours à compter de la réception des factures par le CROUS. Le défaut de paiement dans les délais fait courir de plein droit des intérêts moratoires au bénéfice du titulaire. Le taux des intérêts moratoires est égal au taux d'intérêt de la principale facilité de refinancement appliquée par la Banque centrale européenne majoré de 8 points.\", \"FORME_JURIDIQUE\": \"Solidaire au moment de l'attribution\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"Lors de l'examen des candidatures, ne seront pas admises :- Les candidatures qui ne sont pas recevables en application des articles 45 à 50 de l'ordonnance 2015-899 du 23 juillet 2015 et des articles 48, 49 et 51 du décret 2016-360 du 25 mars 2016 ;- Les candidatures qui ne sont pas accompagnées des pièces mentionnées aux articles 50 à 54 du décret 2016-360 du 25 mars 2016 et fixées dans l'avis d'appel public à la concurrence ;- Les candidatures qui ne présentent pas des garanties techniques suffisantes notamment en appréciant les conditions de déroulement des marchés que le candidat a pu réaliser pour l'acheteur public au cours des 3 dernières années.Les candidatures sont sélectionnées en application de de l'article 55 du décret 2016-360 du 25 mars 2016.\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Présentation d'une liste des travaux exécutés au cours des cinq dernières années, appuyée d'attestations de bonne exécution pour les travaux les plus importants. Ces attestations indiquent le montant, l'époque et le lieu d'exécution des travaux et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin\", \"Certificats de qualifications professionnelles. La preuve de la capacité du candidat peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de travaux attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC3, Acte d'engagement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC4, Déclaration de sous-traitance (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Attestations d'assurance civile et décennale et RIB au stade de l'attribution\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"17 PAT 07 T\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Greffe du Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greff.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"URL\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2017_c7XZTpmbVo&v=1&selected=0\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-29713"
+  },
+  {
    "idweb": "17-30189",
    "id": "17_30189",
    "contractfolderid": null,
@@ -2652,116 +2707,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-30189"
   },
   {
-   "idweb": "17-29713",
-   "id": "17_29713",
-   "contractfolderid": null,
-   "objet": "Travaux de rénovation des sous-stations sur 5 sites du Crous de Nantes.",
-   "filename": "BOAMP-N-AO_2017_061005",
-   "famille": "FNS",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2017-03-02",
-   "datefindiffusion": "2017-05-24",
-   "datelimitereponse": null,
-   "nomacheteur": "CROUS de Nantes",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "5"
-   ],
-   "dc": [
-    "5"
-   ],
-   "descripteur_libelle": [
-    "Alarme"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-29713\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-29713.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-03-02\", \"DATE_FIN_DIFFUSION\": \"2017-05-24\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"5\", \"LIBELLE\": \"Alarme\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Travaux de rénovation des sous-stations sur 5 sites du Crous de Nantes.\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CROUS de Nantes\", \"CORRESPONDANT\": \"M. FALIP Jean-Marie, Directeur\", \"ADRESSE\": \"2 Boulevard Guy Mollet BP 52213\", \"CP\": \"44322\", \"VILLE\": \"Nantes cedex 3\", \"TEL\": \"02-40-37-13-86\", \"MEL\": \"immobilier.marches@crous-nantes.fr\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"hébergement, restauration, aide sociale et culturelle aux étudiants\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Travaux de rénovation des sous-stations sur 5 sites du Crous de Nantes.\", \"CPV\": {\"PRINCIPAL\": \"45259900\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Nantes\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"CODE_NUTS\": \"FR511\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Variante économique autorisée présentée sur devis complémentaire\", \"QUANTITE\": \"Démarrage prévisionnel :  * Période de préparation : juin 2017  *Délai prévisionnel d'exécution des travaux : 13 semaines (y compris la période de préparation)*Contrôle des températures et du traitement de l'eau (5 jours avant la remise en chauffe : fin septembre)Le calendrier détaillé d'exécution sera finalisé par l'entrepreneur dans le cadre de l'offre qu'il remettra.\"}, \"DUREE_DELAI\": {\"DATE_DEBUT\": \"2017-06-01\", \"DATE_FIN\": \"2017-09-30\", \"DATE_LIVRAISON\": \"2017-06-01\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Une retenue de garantie sera exercée au taux de cinq pour cent (5 %) des montants des travaux. La retenue de garantie peut être remplacée par une garantie à première demande ou une caution personnelle et solidaire.En cas de sous-traitance, la retenue est appliquée globalement au titulaire du marché, sauf stipulationsparticulières mentionnées à l'acte spécial.\", \"FINANCEMENT\": \"Le financement de l'opération est assuré par l'Etat.Le délai global de paiement est de 30 jours à compter de la réception des factures par le CROUS. Le défaut de paiement dans les délais fait courir de plein droit des intérêts moratoires au bénéfice du titulaire. Le taux des intérêts moratoires est égal au taux d'intérêt de la principale facilité de refinancement appliquée par la Banque centrale européenne majoré de 8 points.\", \"FORME_JURIDIQUE\": \"Solidaire au moment de l'attribution\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"Lors de l'examen des candidatures, ne seront pas admises :- Les candidatures qui ne sont pas recevables en application des articles 45 à 50 de l'ordonnance 2015-899 du 23 juillet 2015 et des articles 48, 49 et 51 du décret 2016-360 du 25 mars 2016 ;- Les candidatures qui ne sont pas accompagnées des pièces mentionnées aux articles 50 à 54 du décret 2016-360 du 25 mars 2016 et fixées dans l'avis d'appel public à la concurrence ;- Les candidatures qui ne présentent pas des garanties techniques suffisantes notamment en appréciant les conditions de déroulement des marchés que le candidat a pu réaliser pour l'acheteur public au cours des 3 dernières années.Les candidatures sont sélectionnées en application de de l'article 55 du décret 2016-360 du 25 mars 2016.\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Présentation d'une liste des travaux exécutés au cours des cinq dernières années, appuyée d'attestations de bonne exécution pour les travaux les plus importants. Ces attestations indiquent le montant, l'époque et le lieu d'exécution des travaux et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin\", \"Certificats de qualifications professionnelles. La preuve de la capacité du candidat peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de travaux attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC3, Acte d'engagement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC4, Déclaration de sous-traitance (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Attestations d'assurance civile et décennale et RIB au stade de l'attribution\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"17 PAT 07 T\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Greffe du Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greff.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"URL\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2017_c7XZTpmbVo&v=1&selected=0\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-29713"
-  },
-  {
-   "idweb": "17-30222",
-   "id": "17_30222",
-   "contractfolderid": null,
-   "objet": "Fourniture, installation, mise en service, maintenance préventive et consommables pour équipements d'ORL sur le site de La Roche Sur Yon du CHD Vendée.",
-   "filename": "BOAMP-N-AO_2017_061011",
-   "famille": "FNS",
-   "code_departement": [
-    "85"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2017-03-02",
-   "datefindiffusion": "2017-03-24",
-   "datelimitereponse": "2017-03-24T16:00:00+00:00",
-   "nomacheteur": "CHD VENDEE",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "212"
-   ],
-   "dc": [
-    "212"
-   ],
-   "descripteur_libelle": [
-    "Matériel médical"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-30222\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-30222.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-03-02\", \"DATE_LIMITE_REPONSE\": \"2017-03-24T17:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2017-03-24\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"212\", \"LIBELLE\": \"Matériel médical\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"Fourniture, installation, mise en service, maintenance préventive et consommables pour équipements d'ORL sur le site de La Roche Sur Yon du CHD Vendée.\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CHD VENDEE\", \"CORRESPONDANT\": \"M. RICHIR Y., Directeur Général\", \"ADRESSE\": \"Les Oudairies\", \"CP\": \"85925\", \"VILLE\": \"La roche sur yon cedex 9\", \"TEL\": \"02-51-44-61-03\", \"URL\": \"http://www.chd-vendee.fr/\"}, \"TYPE_ORGANISME\": {\"EPN\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Fourniture, installation, mise en service, maintenance préventive et consommables pour équipements d'ORL sur le site de La Roche Sur Yon du CHD Vendée.\", \"CPV\": [{\"PRINCIPAL\": \"33100000\"}, {\"PRINCIPAL\": \"50324200\"}, {\"PRINCIPAL\": \"33140000\"}], \"AMP_OUI\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"FOURNITURE, INSTALLATION, MISE EN SERVICE, MAINTENANCE PREVENTIVE ET CONSOMMABLES POUR EQUIPEMENTS D'ORL\", \"QUANTITE\": \"Le marché comporte quatre lots.\", \"OPTIONS\": {\"OUI\": \"\", \"DESCRIPTION\": \"Le CHD Vendée se réserve la possibilité de recourir aux marchés complémentaires de fourniture selon les termes de l'article 30 - I- 4°a) du Décret no 2016-360.Le CHD Vendée se réserve la possibilité de recourir aux marchés de services ayant pour objet la réalisation de prestations similaires selon les termes de l'article 30 - I - 7° du Décret no 2016-360.Le recours aux marchés complémentaires et aux marchés de prestations similaires ne pourra dépasser le seuil procédural au-dessus duquel une mise en concurrence doit être établie selon une procédure formalisée (soit 209 000 euros HT).\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Fourniture, installation, mise en service et maintenance préventive et à l'attachement d'un système de monitorage de nerf pour le bloc opératoire du CHD Vendée site de la Roche sur Yon\", \"DESCRIPTION\": \"Fourniture, installation, mise en service et maintenance préventive et à l'attachement d'un système de monitorage de nerf pour le bloc opératoire du CHD Vendée site de la Roche sur Yon. Fourniture de consommables nécessaires au bon fonctionnement et à l'exploitation des équipements.\", \"CPV\": [{\"PRINCIPAL\": \"33100000\"}, {\"PRINCIPAL\": \"50324200\"}, {\"PRINCIPAL\": \"33140000\"}]}, {\"NUM\": \"2\", \"INTITULE\": \"Fourniture, installation, mise en service et maintenance à l'attachement du système de VHIT pour les consultations d'ORL du CHD Vendée site de la Roche sur Yon,\", \"DESCRIPTION\": \"Fourniture, installation, mise en service et maintenance à l'attachement du système de VHIT pour les consultations d'ORL du CHD Vendée site de la Roche sur Yon,\", \"CPV\": [{\"PRINCIPAL\": \"33100000\"}, {\"PRINCIPAL\": \"50324200\"}]}, {\"NUM\": \"3\", \"INTITULE\": \"Fourniture, installation, mise en service et maintenance à l'attachement de systèmes de Vidéonystagmographie pour les consultations d'ORL du CHD Vendée site de la Roche sur Yon\", \"DESCRIPTION\": \"Fourniture, installation, mise en service et maintenance à l'attachement de systèmes de Vidéonystagmographie pour les consultations d'ORL du CHD Vendée site de la Roche sur Yon.\", \"CPV\": [{\"PRINCIPAL\": \"33100000\"}, {\"PRINCIPAL\": \"50324200\"}]}, {\"NUM\": \"4\", \"INTITULE\": \"Fourniture, installation, mise en service et maintenance à l'attachement d'équipement de moteurs chirurgicaux pour le service du bloc opératoire ORL du CHD Vendée site de la Roche sur Yon\", \"DESCRIPTION\": \"Fourniture, installation, mise en service et maintenance à l'attachement d'équipement de moteurs chirurgicaux pour le service du bloc opératoire ORL du CHD Vendée site de la Roche sur Yon. Fourniture de consommables nécessaires au bon fonctionnement et à l'exploitation des équipements.\", \"CPV\": [{\"PRINCIPAL\": \"33100000\"}, {\"PRINCIPAL\": \"50324200\"}, {\"PRINCIPAL\": \"33140000\"}]}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-03-24T17:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"200\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"CHD-DAL_217-029\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La consultation est lancée sous la forme d'une procédure adaptée en application de l'article 27 du Décret no 2016-360.La consultation est un accord-cadre mono attributaire sans minimum et avec maximum en vertu de l'article 78 du Décret no 2016-360. Les quantités maximales correspondent au seuil procédural au-dessus duquel une mise en concurrence doit être établie selon une procédure formalisée (soit 209 000 euros HT).L'accord-cadre s'exécutera au fur et à mesure de l'émission de bons de commande dans les conditions fixées à l'article 80 du Décret no 2016-360.Remarque sur les modalités d'attribution des lots :Chaque lot sera attribué individuellement et dans son intégralité à un titulaire unique. Le CHD Vendée se réserve la possibilité d'attribuer un ou plusieurs lots à un titulaire unique.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette BP24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 01\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-00\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Greffe du Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 01\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-00\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"DENOMINATION\": \"CHD VENDEE\", \"CORRESPONDANT\": \"Des marchés Cellule\", \"ADRESSE\": \"Les Oudairies\", \"CP\": \"85925\", \"VILLE\": \"La roche sur yon cedex 9\", \"TEL\": \"02-51-44-61-03\", \"MEL\": \"marches@chd-vendee.fr\", \"URL\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=323741&orgAcronyme=x7c\"}, {\"TYPE\": {\"ADMIN\": \"\"}, \"DENOMINATION\": \"CHD Vendée\", \"CORRESPONDANT\": \"Marchés Cellule des\", \"ADRESSE\": \"Les Oudairies\", \"CP\": \"85925\", \"VILLE\": \"La roche sur yon cedex 9\", \"TEL\": \"02-51-44-61-03\", \"MEL\": \"marches@chd-vendee.fr\"}, {\"TYPE\": {\"TECH\": \"\"}, \"DENOMINATION\": \"CHD Vendée\", \"CORRESPONDANT\": \"GILLIER Anne Laure\", \"ADRESSE\": \"Ingénieur biomédical Les Oudairies\", \"CP\": \"85925\", \"VILLE\": \"La roche sur yon cedex 9\", \"TEL\": \"02-51-08-05-55\", \"MEL\": \"biomedical@chd-vendee.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-30222"
-  },
-  {
    "idweb": "17-15764",
    "id": "17_15764",
    "contractfolderid": null,
@@ -2822,6 +2767,61 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-15764\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-15764.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-03-02\", \"DATE_FIN_DIFFUSION\": \"2017-04-05\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"325\", \"LIBELLE\": \"Stand\"}}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": [\"49\", \"75\"], \"RESUME_OBJET\": \"conception, réalisation, montage et démontage du stand modulable et réutilisable ademe et club ademe international\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"ADEME\", \"CONTACT\": \"Jeanne TILLY\", \"ADJUDICATEUR_NUTS\": \"FR\", \"ADRESSE\": \"20 avenue du GrésilléBP 90406\", \"VILLE\": \"Angers\", \"MEL\": \"jeanne.tilly@ademe.fr\", \"URL\": \"http://www.ademe.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-publics.gouv.fr/?page=entreprise.AccueilEntreprise\", \"URL_DOCUMENT\": \"https://www.marches-publics.gouv.fr/?page=entreprise.AccueilEntreprise\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ENVIRONNEMENT\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Conception, réalisation, montage et démontage du stand modulable et réutilisable ADEME et Club ADEME International\", \"REF_MARCHE\": \"17MAR_stand\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"La présente consultation se rapporte à la conception, réalisation et au montage et démontage du stand modulable et réutilisable ADEME &amp; Club ADEME International.\", \"CPV\": {\"PRINCIPAL\": \"39154100\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"350000\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Conception, réalisation, montage et démontage d'un stand modulable et réutilisable ADEME et Club ADEME International\", \"CPV\": {\"PRINCIPAL\": \"39154100\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-04-05T16:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"a)lettre de candidature et, habilitation du mandataire par ses co-traitants, complétée par le candidat individuel ou, cas échéant, par tous les membres du groupement ; b)déclaration sur l'honneur pour justifier qu'il n'entre dans aucun des cas mentionnés aux articles 45 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 et notamment qu'il est en règle au regard des articles L. 5212-1 à L.5212-11 du code du travail concernant l'emploi des travailleurs handicapés c)déclaration du CA global du candidat et, le cas échéant, le chiffre d'affaires du domaine d'activité portant sur les trois derniers exercices disponibles ; f) en cas de redressement judiciaire la copie du jugement prononcé à cet effet g)En cas de groupement chaque membre du groupement devra remettre lensemble des pièces b) à f) susvisées. Possibilité de fournir les pièces a et b sous forme de DC1 et pièces c à e sous forme de DC2. Possibilité également de fournir les informations via un DUME.\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"d)\\tUne liste et la description des principales prestations similaires, dans le domaine de la conception et réalisation de stands modulables et réutilisables, réalisées au cours des 3 dernières années indiquant notamment l'objet, le montant, la date et le destinataire public ou privé, ou une démonstration de la capacité du candidat à réaliser ces prestations ;e)\\tUne présentation des moyens humains et matériels dont dispose le candidat ;\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2017-04-06\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_NON\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Possibilité d'utiliser le numéro de référence 17MAR_stand pour retrouver la consultation sur le profil d'acheteur  PLACE visé dans le présent avis. . Date d'envoi du présent avis au JOUE et au BOAMP : 28 février 2017.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé pré-contractuel : cf. article L.551-1 et suiv. du Code de justice administrative.Référé contractuel : cf article L.5551-13 et suivi du Code de justice administrative.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'ile glorietteCS 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"MEL\": \"greffe.tanantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de lîle -glorietteCS2411\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"MEL\": \"greffe.tanantes@juradm.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-15764"
+  },
+  {
+   "idweb": "17-30222",
+   "id": "17_30222",
+   "contractfolderid": null,
+   "objet": "Fourniture, installation, mise en service, maintenance préventive et consommables pour équipements d'ORL sur le site de La Roche Sur Yon du CHD Vendée.",
+   "filename": "BOAMP-N-AO_2017_061011",
+   "famille": "FNS",
+   "code_departement": [
+    "85"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2017-03-02",
+   "datefindiffusion": "2017-03-24",
+   "datelimitereponse": "2017-03-24T16:00:00+00:00",
+   "nomacheteur": "CHD VENDEE",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "212"
+   ],
+   "dc": [
+    "212"
+   ],
+   "descripteur_libelle": [
+    "Matériel médical"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-30222\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-30222.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-03-02\", \"DATE_LIMITE_REPONSE\": \"2017-03-24T17:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2017-03-24\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"212\", \"LIBELLE\": \"Matériel médical\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"Fourniture, installation, mise en service, maintenance préventive et consommables pour équipements d'ORL sur le site de La Roche Sur Yon du CHD Vendée.\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CHD VENDEE\", \"CORRESPONDANT\": \"M. RICHIR Y., Directeur Général\", \"ADRESSE\": \"Les Oudairies\", \"CP\": \"85925\", \"VILLE\": \"La roche sur yon cedex 9\", \"TEL\": \"02-51-44-61-03\", \"URL\": \"http://www.chd-vendee.fr/\"}, \"TYPE_ORGANISME\": {\"EPN\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Fourniture, installation, mise en service, maintenance préventive et consommables pour équipements d'ORL sur le site de La Roche Sur Yon du CHD Vendée.\", \"CPV\": [{\"PRINCIPAL\": \"33100000\"}, {\"PRINCIPAL\": \"50324200\"}, {\"PRINCIPAL\": \"33140000\"}], \"AMP_OUI\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"FOURNITURE, INSTALLATION, MISE EN SERVICE, MAINTENANCE PREVENTIVE ET CONSOMMABLES POUR EQUIPEMENTS D'ORL\", \"QUANTITE\": \"Le marché comporte quatre lots.\", \"OPTIONS\": {\"OUI\": \"\", \"DESCRIPTION\": \"Le CHD Vendée se réserve la possibilité de recourir aux marchés complémentaires de fourniture selon les termes de l'article 30 - I- 4°a) du Décret no 2016-360.Le CHD Vendée se réserve la possibilité de recourir aux marchés de services ayant pour objet la réalisation de prestations similaires selon les termes de l'article 30 - I - 7° du Décret no 2016-360.Le recours aux marchés complémentaires et aux marchés de prestations similaires ne pourra dépasser le seuil procédural au-dessus duquel une mise en concurrence doit être établie selon une procédure formalisée (soit 209 000 euros HT).\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Fourniture, installation, mise en service et maintenance préventive et à l'attachement d'un système de monitorage de nerf pour le bloc opératoire du CHD Vendée site de la Roche sur Yon\", \"DESCRIPTION\": \"Fourniture, installation, mise en service et maintenance préventive et à l'attachement d'un système de monitorage de nerf pour le bloc opératoire du CHD Vendée site de la Roche sur Yon. Fourniture de consommables nécessaires au bon fonctionnement et à l'exploitation des équipements.\", \"CPV\": [{\"PRINCIPAL\": \"33100000\"}, {\"PRINCIPAL\": \"50324200\"}, {\"PRINCIPAL\": \"33140000\"}]}, {\"NUM\": \"2\", \"INTITULE\": \"Fourniture, installation, mise en service et maintenance à l'attachement du système de VHIT pour les consultations d'ORL du CHD Vendée site de la Roche sur Yon,\", \"DESCRIPTION\": \"Fourniture, installation, mise en service et maintenance à l'attachement du système de VHIT pour les consultations d'ORL du CHD Vendée site de la Roche sur Yon,\", \"CPV\": [{\"PRINCIPAL\": \"33100000\"}, {\"PRINCIPAL\": \"50324200\"}]}, {\"NUM\": \"3\", \"INTITULE\": \"Fourniture, installation, mise en service et maintenance à l'attachement de systèmes de Vidéonystagmographie pour les consultations d'ORL du CHD Vendée site de la Roche sur Yon\", \"DESCRIPTION\": \"Fourniture, installation, mise en service et maintenance à l'attachement de systèmes de Vidéonystagmographie pour les consultations d'ORL du CHD Vendée site de la Roche sur Yon.\", \"CPV\": [{\"PRINCIPAL\": \"33100000\"}, {\"PRINCIPAL\": \"50324200\"}]}, {\"NUM\": \"4\", \"INTITULE\": \"Fourniture, installation, mise en service et maintenance à l'attachement d'équipement de moteurs chirurgicaux pour le service du bloc opératoire ORL du CHD Vendée site de la Roche sur Yon\", \"DESCRIPTION\": \"Fourniture, installation, mise en service et maintenance à l'attachement d'équipement de moteurs chirurgicaux pour le service du bloc opératoire ORL du CHD Vendée site de la Roche sur Yon. Fourniture de consommables nécessaires au bon fonctionnement et à l'exploitation des équipements.\", \"CPV\": [{\"PRINCIPAL\": \"33100000\"}, {\"PRINCIPAL\": \"50324200\"}, {\"PRINCIPAL\": \"33140000\"}]}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-03-24T17:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"200\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"CHD-DAL_217-029\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La consultation est lancée sous la forme d'une procédure adaptée en application de l'article 27 du Décret no 2016-360.La consultation est un accord-cadre mono attributaire sans minimum et avec maximum en vertu de l'article 78 du Décret no 2016-360. Les quantités maximales correspondent au seuil procédural au-dessus duquel une mise en concurrence doit être établie selon une procédure formalisée (soit 209 000 euros HT).L'accord-cadre s'exécutera au fur et à mesure de l'émission de bons de commande dans les conditions fixées à l'article 80 du Décret no 2016-360.Remarque sur les modalités d'attribution des lots :Chaque lot sera attribué individuellement et dans son intégralité à un titulaire unique. Le CHD Vendée se réserve la possibilité d'attribuer un ou plusieurs lots à un titulaire unique.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette BP24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 01\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-00\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Greffe du Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 01\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-00\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"DENOMINATION\": \"CHD VENDEE\", \"CORRESPONDANT\": \"Des marchés Cellule\", \"ADRESSE\": \"Les Oudairies\", \"CP\": \"85925\", \"VILLE\": \"La roche sur yon cedex 9\", \"TEL\": \"02-51-44-61-03\", \"MEL\": \"marches@chd-vendee.fr\", \"URL\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=323741&orgAcronyme=x7c\"}, {\"TYPE\": {\"ADMIN\": \"\"}, \"DENOMINATION\": \"CHD Vendée\", \"CORRESPONDANT\": \"Marchés Cellule des\", \"ADRESSE\": \"Les Oudairies\", \"CP\": \"85925\", \"VILLE\": \"La roche sur yon cedex 9\", \"TEL\": \"02-51-44-61-03\", \"MEL\": \"marches@chd-vendee.fr\"}, {\"TYPE\": {\"TECH\": \"\"}, \"DENOMINATION\": \"CHD Vendée\", \"CORRESPONDANT\": \"GILLIER Anne Laure\", \"ADRESSE\": \"Ingénieur biomédical Les Oudairies\", \"CP\": \"85925\", \"VILLE\": \"La roche sur yon cedex 9\", \"TEL\": \"02-51-08-05-55\", \"MEL\": \"biomedical@chd-vendee.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-30222"
   },
   {
    "idweb": "17-28268",
@@ -3810,63 +3810,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-30909"
   },
   {
-   "idweb": "17-30315",
-   "id": "17_30315",
-   "contractfolderid": null,
-   "objet": "Aménagement pour des chambres de détenus - Bâtiment Fontenoy",
-   "filename": "BOAMP-N-AO_2017_062005",
-   "famille": "FNS",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2017-03-03",
-   "datefindiffusion": "2017-03-21",
-   "datelimitereponse": null,
-   "nomacheteur": "CH LE MANS",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "ANNULATION",
-   "descripteur_code": [
-    "345"
-   ],
-   "dc": [
-    "345"
-   ],
-   "descripteur_libelle": [
-    "Tous corps d'état"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": [
-    "17-28417"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"17-28417\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-02-28\", \"DATE_FIN_DIFFUSION\": \"2017-03-31\"}}}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-30315\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"ANNULATION\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-28417\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-02-28\", \"DATE_FIN_DIFFUSION\": \"2017-03-31\"}}}}, \"NOM_HTML\": \"17-30315.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-03-03\", \"DATE_FIN_DIFFUSION\": \"2017-03-21\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"345\", \"LIBELLE\": \"Tous corps d'état\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Aménagement pour des chambres de détenus - Bâtiment Fontenoy\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CH LE MANS\", \"CORRESPONDANT\": \"des Marchés Cellule Centrale\", \"ADRESSE\": \"194 avenue Rubillard\", \"CP\": \"72037\", \"VILLE\": \"Le mans cedex 09\", \"TEL\": \"02-44-71-02-97\", \"FAX\": \"02-43-43-44-11\", \"MEL\": \"celluledesmarches@ch-lemans.fr\", \"URL\": \"http://www.ch-lemans.fr/\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"\"}, \"OBJET\": {\"OBJET_COMPLET\": \"Aménagement pour des chambres de détenus - Bâtiment Fontenoy\", \"CPV\": {\"PRINCIPAL\": \"45454100\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"ANNULATION\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-28417\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-02-28\", \"DATE_FIN_DIFFUSION\": \"2017-03-31\"}}}, \"MOTIF\": \"La consultation est déclarée SANS SUITE pour motif d'intérêt général en raison d'une modification du besoin.\"}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-30315"
-  },
-  {
    "idweb": "17-28945",
    "id": "17_28945",
    "contractfolderid": null,
@@ -3998,6 +3941,63 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-29158\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-29158.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-03-03\", \"DATE_FIN_DIFFUSION\": \"2017-03-28\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"211\", \"LIBELLE\": \"Matériel d'imprimerie\"}, {\"CODE\": \"305\", \"LIBELLE\": \"Reprographie\"}]}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": [\"17\", \"33\", \"16\", \"44\", \"75\", \"79\", \"85\", \"86\"], \"RESUME_OBJET\": \"2017.00006.00.17.00\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Université de La Rochelle\", \"CONTACT\": \"Service achat-marchés\", \"ADJUDICATEUR_NUTS\": \"FR532\", \"ADRESSE\": \"23 Avenue Albert Einstein BP 33060\", \"CP\": \"17031\", \"VILLE\": \"La rochelle\", \"TEL\": \"(+33) 5-46-45-91-14\", \"MEL\": \"marches-publics@univ-lr.fr\", \"URL\": \"http://www.univ-larochelle.fr/\", \"URL_PARTICIPATION\": \"http://www.marches-publics.gouv.fr\", \"URL_DOCUMENT\": \"https://www.marches-publics.gouv.fr/index.php?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=323414&orgAcronyme=f2h\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"EDUCATION\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"2017.00006.00.17.00\", \"REF_MARCHE\": \"2017.000006.00.17.00\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Fourniture en location et la maintenance d'appareils d'impression (imprimantes et imprimantes multifonctions monochrome et couleur), ainsi que l'ensemble de prestations associées (notamment organisation logistique pour le déploiement, expertise et conseil pour la rationalisation du parc, mise en service, formation, etc...).\", \"CPV\": {\"PRINCIPAL\": \"30121000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Fourniture en location et la maintenance d'appareils d'impression (imprimantes et imprimantes multifonctions monochrome et couleur), ainsi que l'ensemble de prestations associées (notamment organisation logistique pour le déploiement, expertise et conseil pour la rationalisation du parc, mise en service, formation, etc...).\", \"CPV\": {\"PRINCIPAL\": \"30121000\"}, \"CODE_NUTS\": \"FR532\", \"LIEU_PRINCIPAL\": \"La rochelle 17031 La rochelle\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"60\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Détail dans le bordereau de prix unitaires\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-03-31T10:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"6\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO\": \"voir RC\", \"CAP_ECO_NIVEAU_MINI\": \"voir RC\", \"CAP_TECH\": \"voir RC\", \"CAP_TECH_NIVEAU_MINI\": \"voir RC\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2017-03-31\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 1 mars 2017.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de poitiers\", \"ADRESSE\": \"15 rue de Blossac, BP 541\", \"CP\": \"86020\", \"VILLE\": \"Poitiers\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"4, esplanade Charles De Gaulle\", \"CP\": \"33077\", \"VILLE\": \"Bordeaux cedex\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Université de la rochelle\", \"ADRESSE\": \"23 av albert einstein\", \"CP\": \"17031\", \"VILLE\": \"La rochelle\"}, {\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Université de la rochelle\", \"CONTACT\": \"Service achats-marchés\", \"ADRESSE\": \"23 avenue Albert Einstein BP 33060\", \"CP\": \"17031\", \"VILLE\": \"La rochelle\", \"CODE_NUTS\": \"FR532\", \"TEL\": \"(+33) 5-46-45-91-14\", \"MEL\": \"marches-publics@univ-lr.fr\", \"URL\": \"http://www.marches-publics.gouv.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Université de la rochelle\", \"CONTACT\": \"Service achats- marchés\", \"ADRESSE\": \"23 avenue Albert Einstein BP 33060\", \"CP\": \"17031\", \"VILLE\": \"La rochelle\", \"CODE_NUTS\": \"FR532\", \"TEL\": \"(+33) 5-46-45-91-14\", \"MEL\": \"marches-publics@univ-lr.fr\", \"URL\": \"http://www.marches-publics.gouv.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-29158"
+  },
+  {
+   "idweb": "17-30315",
+   "id": "17_30315",
+   "contractfolderid": null,
+   "objet": "Aménagement pour des chambres de détenus - Bâtiment Fontenoy",
+   "filename": "BOAMP-N-AO_2017_062005",
+   "famille": "FNS",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2017-03-03",
+   "datefindiffusion": "2017-03-21",
+   "datelimitereponse": null,
+   "nomacheteur": "CH LE MANS",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "ANNULATION",
+   "descripteur_code": [
+    "345"
+   ],
+   "dc": [
+    "345"
+   ],
+   "descripteur_libelle": [
+    "Tous corps d'état"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": [
+    "17-28417"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"17-28417\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-02-28\", \"DATE_FIN_DIFFUSION\": \"2017-03-31\"}}}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-30315\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"ANNULATION\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-28417\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-02-28\", \"DATE_FIN_DIFFUSION\": \"2017-03-31\"}}}}, \"NOM_HTML\": \"17-30315.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-03-03\", \"DATE_FIN_DIFFUSION\": \"2017-03-21\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"345\", \"LIBELLE\": \"Tous corps d'état\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Aménagement pour des chambres de détenus - Bâtiment Fontenoy\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CH LE MANS\", \"CORRESPONDANT\": \"des Marchés Cellule Centrale\", \"ADRESSE\": \"194 avenue Rubillard\", \"CP\": \"72037\", \"VILLE\": \"Le mans cedex 09\", \"TEL\": \"02-44-71-02-97\", \"FAX\": \"02-43-43-44-11\", \"MEL\": \"celluledesmarches@ch-lemans.fr\", \"URL\": \"http://www.ch-lemans.fr/\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"\"}, \"OBJET\": {\"OBJET_COMPLET\": \"Aménagement pour des chambres de détenus - Bâtiment Fontenoy\", \"CPV\": {\"PRINCIPAL\": \"45454100\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"ANNULATION\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-28417\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-02-28\", \"DATE_FIN_DIFFUSION\": \"2017-03-31\"}}}, \"MOTIF\": \"La consultation est déclarée SANS SUITE pour motif d'intérêt général en raison d'une modification du besoin.\"}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-30315"
   },
   {
    "idweb": "17-29529",

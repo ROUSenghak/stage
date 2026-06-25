@@ -4914,6 +4914,65 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-138348"
   },
   {
+   "idweb": "19-139299",
+   "id": "19_139299",
+   "contractfolderid": null,
+   "objet": "maintenance 2019-2023 des fermetures automatiques du patrimoine de la ville de nantes et de son ccas et de nantes métropole",
+   "filename": "BOAMP-J-AO_2019_258003",
+   "famille": "JOUE",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2019-09-15",
+   "datefindiffusion": "2019-10-15",
+   "datelimitereponse": null,
+   "nomacheteur": "Ville de Nantes",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "196"
+   ],
+   "dc": [
+    "196"
+   ],
+   "descripteur_libelle": [
+    "Maintenance"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-139299\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-139299.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-09-15\", \"DATE_FIN_DIFFUSION\": \"2019-10-15\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"196\", \"LIBELLE\": \"Maintenance\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"maintenance 2019-2023 des fermetures automatiques du patrimoine de la ville de nantes et de son ccas et de nantes métropole\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Nantes\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"2 rue de l'Hôtel de Ville\", \"CP\": \"44094\", \"VILLE\": \"Nantes cedex 1\", \"MEL\": \"laure.talguen@nantesmetropole.fr\", \"URL\": \"https://www.nantesmetropole.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.nantesmetropole.fr\", \"URL_PARTICIPATION\": \"https://marchespublics.nantesmetropole.fr\", \"URL_DOCUMENT\": \"https://marchespublics.nantesmetropole.fr\", \"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Maintenance 2019-2023 des fermetures automatiques du patrimoine de la ville de Nantes et de son CCAS et de Nantes Métropole\", \"REF_MARCHE\": \"2019-375\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Le présent marché a pour objet la Maintenance des fermetures automatiques du patrimoine de la Ville de Nantes et son C.C.A.S. et de Nantes Métropole pour les années 2019 à 2023.Ce marché est lancé en groupement de commandes entre la Ville de Nantes, son C.C.A.S et Nantes Métropole, dont la Ville de Nantes est le coordonnateur.Il sagit dun marché ordinaire traité à prix mixtes et décomposé en trois parties :- pour la maintenance préventive : à prix forfaire annuel ;- pour la maintenance corrective (pièces inférieures à 1 500 euro H.T.) : à prix forfaitaire annuel ;- pour la maintenance corrective (pièces supérieures à 1 500euro H.T. et vandalisme avéré) : à prix unitaire via lémission de bons de commande émis par le représentant du pouvoir adjudicateur au fur et à mesure de lapparition des besoins. A titre indicatif et relativement à cette partie du marché traitée à prix unitaires, le nombre de bons de commande est estimé à 10 par lot et par an.\", \"CPV\": {\"PRINCIPAL\": \"50324200\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"NB_LOT_ATTRIB_MAX\": \"1\", \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Ensemble des installations existantes dans les bâtiments de la Ville de Nantes et son C.C.A.S.\", \"DESCRIPTION\": \"Ensemble des installations existantes dans les bâtiments de la Ville de Nantes et son C.C.A.S.Il est précisé que le montant maximum du marché, pour la durée totale du marché et pour lensemble des prestations (traitées à prix forfaitaire et à prix unitaires) est fixé à :- lot no1 : 999 999 euro H.T. pour la Ville de Nantes et 220 000 euro H.T. pour son C.C.A.S\", \"CPV\": {\"PRINCIPAL\": \"50324200\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Ensemble des installations existantes dans les bâtiments de Nantes Métropole\", \"DESCRIPTION\": \"Ensemble des installations existantes dans les bâtiments de Nantes MétropoleIl est précisé que le montant maximum du marché, pour la durée totale du marché et pour lensemble des prestations (traitées à prix forfaitaire et à prix unitaires) est fixé à :- lot no2 : 999 999 euro H.T. pour Nantes Métropole\", \"CPV\": {\"PRINCIPAL\": \"50324200\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-10-15T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"5\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Les critères intervenant pour la sélection des candidatures sont :Aptitude à exercer l'activité professionnelle, capacité économique et financière, capacités techniques et professionnellesLes renseignements concernant la situation juridique de lentreprise :- Lettre de candidature (imprimé DC1) que la candidature soit présentée à titre individuel ou en groupement\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"- Déclaration concernant le chiffre d'affaires global du candidat et le chiffre d'affaires du domaine d'activité faisant l'objet du marché public, portant sur les trois derniers exercices disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles (imprimé DC2) - Preuve dune assurance pour les risques professionnels\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"- Déclaration indiquant les effectifs moyens annuels du candidat et limportance du personnel dencadrement pour chacune des trois dernières années (en annexe au DC2 si utilisation de ce document et tout document complémentaire) - Description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation du marché public (en annexe au DC2 si utilisation de ce document et tout document complémentaire)- Liste des principaux services fournis au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique (en annexe au DC2 si utilisation de ce document et tout document complémentaire)\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-10-15\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_NON\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Les réponses des opérateurs économiques doivent être obligatoirement transmises par voie dématérialisée, cest à dire déposées sur le profil acheteur à ladresse suivante : https://marchespublics.nantesmetropole.fr/Les candidats pourront présenter une offre pour un ou plusieurs lots. Toutefois, compte-tenu du volume du besoin et lexigence de célérité des interventions, un même candidat ne pourra être attributaire que d'un seul des 2 lots, sauf à justifier dans le cadre de mémoire technique (modèle joint) de ses capacités sur le plan technique et humain à intervenir concomitamment sur les 2 lots. Les candidats sont invités à fournir un ordre de préférence dans lacte dengagement s'ils soumissionnent à plusieurs lots.. Date d'envoi du présent avis au JOUE et au BOAMP : 13 septembre 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"Nantes Métropole\", \"ADRESSE\": \"2 cours du Champ de Mars\", \"CP\": \"44923\", \"VILLE\": \"Nantes cedex 9\", \"CODE_NUTS\": \"FRG01\", \"MEL\": \"laure.talguen@nantesmetropole.fr\", \"URL\": \"https://www.nantesmetropole.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"CCAS\", \"ADRESSE\": \"1bis Place Saint-Similien\", \"CP\": \"44036\", \"VILLE\": \"Nantes\", \"CODE_NUTS\": \"FRG01\", \"MEL\": \"laure.talguen@nantesmetropole.fr\", \"URL\": \"https://www.nantes.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-139299"
+  },
+  {
    "idweb": "19-139314",
    "id": "19_139314",
    "contractfolderid": null,
@@ -4980,65 +5039,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-139314"
   },
   {
-   "idweb": "19-139299",
-   "id": "19_139299",
-   "contractfolderid": null,
-   "objet": "maintenance 2019-2023 des fermetures automatiques du patrimoine de la ville de nantes et de son ccas et de nantes métropole",
-   "filename": "BOAMP-J-AO_2019_258003",
-   "famille": "JOUE",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2019-09-15",
-   "datefindiffusion": "2019-10-15",
-   "datelimitereponse": null,
-   "nomacheteur": "Ville de Nantes",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "196"
-   ],
-   "dc": [
-    "196"
-   ],
-   "descripteur_libelle": [
-    "Maintenance"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-139299\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-139299.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-09-15\", \"DATE_FIN_DIFFUSION\": \"2019-10-15\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"196\", \"LIBELLE\": \"Maintenance\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"maintenance 2019-2023 des fermetures automatiques du patrimoine de la ville de nantes et de son ccas et de nantes métropole\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Nantes\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"2 rue de l'Hôtel de Ville\", \"CP\": \"44094\", \"VILLE\": \"Nantes cedex 1\", \"MEL\": \"laure.talguen@nantesmetropole.fr\", \"URL\": \"https://www.nantesmetropole.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.nantesmetropole.fr\", \"URL_PARTICIPATION\": \"https://marchespublics.nantesmetropole.fr\", \"URL_DOCUMENT\": \"https://marchespublics.nantesmetropole.fr\", \"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Maintenance 2019-2023 des fermetures automatiques du patrimoine de la ville de Nantes et de son CCAS et de Nantes Métropole\", \"REF_MARCHE\": \"2019-375\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Le présent marché a pour objet la Maintenance des fermetures automatiques du patrimoine de la Ville de Nantes et son C.C.A.S. et de Nantes Métropole pour les années 2019 à 2023.Ce marché est lancé en groupement de commandes entre la Ville de Nantes, son C.C.A.S et Nantes Métropole, dont la Ville de Nantes est le coordonnateur.Il sagit dun marché ordinaire traité à prix mixtes et décomposé en trois parties :- pour la maintenance préventive : à prix forfaire annuel ;- pour la maintenance corrective (pièces inférieures à 1 500 euro H.T.) : à prix forfaitaire annuel ;- pour la maintenance corrective (pièces supérieures à 1 500euro H.T. et vandalisme avéré) : à prix unitaire via lémission de bons de commande émis par le représentant du pouvoir adjudicateur au fur et à mesure de lapparition des besoins. A titre indicatif et relativement à cette partie du marché traitée à prix unitaires, le nombre de bons de commande est estimé à 10 par lot et par an.\", \"CPV\": {\"PRINCIPAL\": \"50324200\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"NB_LOT_ATTRIB_MAX\": \"1\", \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Ensemble des installations existantes dans les bâtiments de la Ville de Nantes et son C.C.A.S.\", \"DESCRIPTION\": \"Ensemble des installations existantes dans les bâtiments de la Ville de Nantes et son C.C.A.S.Il est précisé que le montant maximum du marché, pour la durée totale du marché et pour lensemble des prestations (traitées à prix forfaitaire et à prix unitaires) est fixé à :- lot no1 : 999 999 euro H.T. pour la Ville de Nantes et 220 000 euro H.T. pour son C.C.A.S\", \"CPV\": {\"PRINCIPAL\": \"50324200\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Ensemble des installations existantes dans les bâtiments de Nantes Métropole\", \"DESCRIPTION\": \"Ensemble des installations existantes dans les bâtiments de Nantes MétropoleIl est précisé que le montant maximum du marché, pour la durée totale du marché et pour lensemble des prestations (traitées à prix forfaitaire et à prix unitaires) est fixé à :- lot no2 : 999 999 euro H.T. pour Nantes Métropole\", \"CPV\": {\"PRINCIPAL\": \"50324200\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-10-15T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"5\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Les critères intervenant pour la sélection des candidatures sont :Aptitude à exercer l'activité professionnelle, capacité économique et financière, capacités techniques et professionnellesLes renseignements concernant la situation juridique de lentreprise :- Lettre de candidature (imprimé DC1) que la candidature soit présentée à titre individuel ou en groupement\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"- Déclaration concernant le chiffre d'affaires global du candidat et le chiffre d'affaires du domaine d'activité faisant l'objet du marché public, portant sur les trois derniers exercices disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles (imprimé DC2) - Preuve dune assurance pour les risques professionnels\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"- Déclaration indiquant les effectifs moyens annuels du candidat et limportance du personnel dencadrement pour chacune des trois dernières années (en annexe au DC2 si utilisation de ce document et tout document complémentaire) - Description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation du marché public (en annexe au DC2 si utilisation de ce document et tout document complémentaire)- Liste des principaux services fournis au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique (en annexe au DC2 si utilisation de ce document et tout document complémentaire)\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-10-15\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_NON\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Les réponses des opérateurs économiques doivent être obligatoirement transmises par voie dématérialisée, cest à dire déposées sur le profil acheteur à ladresse suivante : https://marchespublics.nantesmetropole.fr/Les candidats pourront présenter une offre pour un ou plusieurs lots. Toutefois, compte-tenu du volume du besoin et lexigence de célérité des interventions, un même candidat ne pourra être attributaire que d'un seul des 2 lots, sauf à justifier dans le cadre de mémoire technique (modèle joint) de ses capacités sur le plan technique et humain à intervenir concomitamment sur les 2 lots. Les candidats sont invités à fournir un ordre de préférence dans lacte dengagement s'ils soumissionnent à plusieurs lots.. Date d'envoi du présent avis au JOUE et au BOAMP : 13 septembre 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"Nantes Métropole\", \"ADRESSE\": \"2 cours du Champ de Mars\", \"CP\": \"44923\", \"VILLE\": \"Nantes cedex 9\", \"CODE_NUTS\": \"FRG01\", \"MEL\": \"laure.talguen@nantesmetropole.fr\", \"URL\": \"https://www.nantesmetropole.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"CCAS\", \"ADRESSE\": \"1bis Place Saint-Similien\", \"CP\": \"44036\", \"VILLE\": \"Nantes\", \"CODE_NUTS\": \"FRG01\", \"MEL\": \"laure.talguen@nantesmetropole.fr\", \"URL\": \"https://www.nantes.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-139299"
-  },
-  {
    "idweb": "19-139260",
    "id": "19_139260",
    "contractfolderid": null,
@@ -5097,6 +5097,71 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-139260\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-139260.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-09-15\", \"DATE_FIN_DIFFUSION\": \"2019-10-16\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"21\", \"LIBELLE\": \"Audit\"}}, \"DEP_PUBLICATION\": [\"75\", \"44\"], \"RESUME_OBJET\": \"Mission d'audit, de conseil et d'accompagnement à la préparation de la certification des comptes annuels de l'AEFE\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"AGCE POUR L ENST FR A L ETRANGER\", \"ADJUDICATEUR_NUTS\": \"FR101\", \"ADRESSE\": \"23 place de Catalogne\", \"CP\": \"75014\", \"VILLE\": \"Paris\", \"TEL\": \"(+33) 1-53-69-38-57\", \"MEL\": \"commande-publique.aefe@diplomatie.gouv.fr\", \"URL\": \"http://www.aefe.fr\", \"URL_PARTICIPATION\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=459383&orgAcronyme=c8v\", \"URL_DOCUMENT\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=459383&orgAcronyme=c8v\", \"URL_OUTIL_LOGICIEL\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=459383&orgAcronyme=c8v\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"EDUCATION\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Mission d'audit, de conseil et d'accompagnement à la préparation de la certification des comptes annuels de l'AEFE\", \"REF_MARCHE\": \"AF2019.04\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Le présent accord-cadre a pour objet la réalisation d?une mission de conseil et d?accompagnement à la préparation de la certification des comptes annuels de l?AEFE et la réalisation d?une certification à blanc (pré-certification) des comptes 2020.\", \"CPV\": {\"PRINCIPAL\": \"79212300\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"350000\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Le présent accord-cadre a pour objet la réalisation d?une mission de conseil et d?accompagnement à la préparation de la certification des comptes annuels de l?AEFE et la réalisation d?une certification à blanc (pré-certification) des comptes 2020.\", \"CPV\": {\"PRINCIPAL\": \"79212000\"}, \"CODE_NUTS\": [\"FR101\", \"FRG01\"], \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"350000\"}, \"DATE_DEBUT\": \"2020-03-30\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-10-16T16:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"6\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO_MARCHE_OUI\": \"\", \"CAP_TECH_OFFRE_OUI\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-10-17\", \"LIEU_OUVERTURE_OFFRES\": \"Paris 23 place de catalogne\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_OUI\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 13 septembre 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Paris\", \"ADRESSE\": \"7 rue Jouy\", \"CP\": \"75004\", \"VILLE\": \"Paris\", \"URL\": \"http://paris.tribunal-administratif.fr/\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Paris\", \"ADRESSE\": \"7 rue Jouy\", \"CP\": \"75004\", \"VILLE\": \"Paris\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-139260"
+  },
+  {
+   "idweb": "19-139291",
+   "id": "19_139291",
+   "contractfolderid": null,
+   "objet": "Les prestations de sécurité événementielle et incendie et le gardiennage des espaces culturels et théâtres de L'espal et des Quinconces - Année 2019 - Renouvelable en 2020, 2021 et",
+   "filename": "BOAMP-J-IC-AA_2019_258004",
+   "famille": "JOUE",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2019-09-15",
+   "datefindiffusion": "2019-12-11",
+   "datelimitereponse": null,
+   "nomacheteur": "Les Quinconces l'Espal",
+   "titulaire": [
+    "S3m Securite"
+   ],
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "ATTRIBUTION",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": [
+    "sociaux"
+   ],
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "331"
+   ],
+   "dc": [
+    "331"
+   ],
+   "descripteur_libelle": [
+    "Surveillance"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "19-60911"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"19-60911\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-04-16\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-04-18\", \"DATE_FIN_DIFFUSION\": \"2019-05-29\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"077\", \"NUM_ANNONCE\": \"183512\", \"DATE_PUBLICATION\": \"2019-04-18\"}}]}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-139291\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"19-60911\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-04-16\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-04-18\", \"DATE_FIN_DIFFUSION\": \"2019-05-29\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"077\", \"NUM_ANNONCE\": \"183512\", \"DATE_PUBLICATION\": \"2019-04-18\"}}]}}, \"NOM_HTML\": \"19-139291.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-09-15\", \"DATE_FIN_DIFFUSION\": \"2019-12-11\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"331\", \"LIBELLE\": \"Surveillance\"}}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\"}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Les prestations de sécurité événementielle et incendie et le gardiennage des espaces culturels et théâtres de L'espal et des Quinconces - Année 2019 - Renouvelable en 2020, 2021 et\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Les Quinconces l'Espal\", \"CODE_IDENT_NATIONAL\": \"40256198900011\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"60/62 rue de l'Estérel\", \"CP\": \"72000\", \"VILLE\": \"Le Mans\", \"MEL\": \"pauline.quantin@lemans.fr\", \"URL\": \"http://www.quinconces-espal.com\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"LOIS_CULT_REL\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Les prestations de sécurité événementielle et incendie et le gardiennage des espaces culturels et th\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Marché en appel d'offres ouvert avec bons de commande.Période initiale de 12 mois, renouvelable 3 fois\", \"CPV\": {\"PRINCIPAL\": \"71700000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"107650\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Marché en appel d'offres ouvert avec bons de commande.Période initiale de 12 mois, renouvelable 3 fois\", \"CPV\": [{\"PRINCIPAL\": \"79710000\"}, {\"PRINCIPAL\": \"79713000\"}, {\"PRINCIPAL\": \"79714000\"}], \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"40\", \"#text\": \"Valeur technique de l'offre appréciée à l'aide du mémoire technique\"}, {\"@POIDS\": \"10\", \"#text\": \"Qualité relationnelle avec l'acheteur et le personnel\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"50\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"077\", \"NUM_ANNONCE\": \"183512\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"TITULAIRE\": {\"DENOMINATION\": \"S3m Securite\", \"ADRESSE\": \"505 Place des Champs Elysées\", \"CP\": \"91080\", \"VILLE\": \"Courcouronnes\", \"CODE_NUTS\": \"FR104\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-06-25\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"107650.2\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 13 septembre 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso\", \"CP\": \"44042\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://pays-de-la-loire.direccte.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-139291"
   },
   {
    "idweb": "19-138388",
@@ -5219,71 +5284,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-139763\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-139763.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-09-15\", \"DATE_FIN_DIFFUSION\": \"2020-03-31\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"115\", \"LIBELLE\": \"Equipements spécialisés\"}}, \"DEP_PUBLICATION\": [\"44\", \"75\"], \"RESUME_OBJET\": \"EBs GMPS3\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"GROUPEMENT D'INTERET PUBLIC ARRONAX\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"1 , rue ARONNAX\", \"CP\": \"44817\", \"VILLE\": \"Saint-herblain\", \"TEL\": \"(+33) 2-28-21-21-21\", \"MEL\": \"orsonneau@arronax-nantes.fr\", \"URL\": \"http://www.arronax-nantes.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchesonline.achatpublic.com/sdm/ent/gen/ent_recherche.do\", \"URL_PARTICIPATION\": \"https://publication.marchesonline.com/publication/extern/apcConsultationAcces.do?idConsultation=MzI0NjQxNw%3D%3D\", \"URL_DOCUMENT\": \"https://publication.marchesonline.com/publication/extern/apcConsultationAcces.do?idConsultation=MzI0NjQxNw%3D%3D\", \"URL_OUTIL_LOGICIEL\": \"https://publication.marchesonline.com/publication/extern/apcConsultationAcces.do?idConsultation=MzI0NjQxNw%3D%3D\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Recherche\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"EBs GMPS3\", \"REF_MARCHE\": \"EBs GMPS3\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"La fourniture, l'installation, les tests et la mise en service opérationnelle, et la maintenance d'enceintes blindées utilisées pour la production de radiopharmaceutiques.\", \"CPV\": {\"PRINCIPAL\": \"31640000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"500000\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Fourniture, l'installation, les tests et la mise en service opérationnelle, et la maintenance d'enceintes blindées utilisées pour la production de radiopharmaceutiques.\", \"CPV\": [{\"PRINCIPAL\": \"31640000\"}, {\"PRINCIPAL\": \"33000000\"}, {\"PRINCIPAL\": \"35113200\"}, {\"PRINCIPAL\": \"35113210\"}], \"CODE_NUTS\": \"FRG01\", \"LIEU_PRINCIPAL\": \"Saint herblain\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"500000\"}, \"DUREE_MOIS\": \"60\", \"RENOUVELLEMENT_NON\": \"\", \"NB_CANDIDATS\": {\"NB_MAX_OFFRE\": \"4\", \"NB_MIN_OFFRE\": \"1\", \"LIMITATION_CANDIDATS\": \"Critère 1: Garanties professionnelles en matière de fournitures et services comparables (compétences, références). Pondération 50%Critère 2:Capacités financières (chiffre d'affaires global des 3 derniers exercices connus), concernant les fournitures et services auxquels se réfère le marché. Pondération 25%Critère 3:Capacités techniques (moyens humains et matériels). Pondération 25%La procédure avec négociation peut se dérouler en phases successives de manière à réduire le nombre d'offres à négocier en appliquant les critères d'attribution définis dans les documents de la consultation.\"}, \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Aucune forme de groupement imposée.Si groupement conjoint,le mandataire sera solidaire de chacun des membres du groupement pour l'exécution de ses obligations à l'égard du pouvoir adjudicateur.Il est interdit aux candidats de remettre plusieurs offres en qualité de candidats individuels et de membres d'un ou plusieurs groupements ;ou en qualité de membres de plus d'un groupement\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"NEGOCIE\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_OUI\": \"\"}, \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-10-18T12:00:00+01:00\", \"LIMITE_ENVOI_INVIT\": \"2019-11-04\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"6\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": [\"en\", \"fr\"]}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Renseignements et formalités nécessaires pour évaluer si ces exigences sont remplies : pour justifier de ces obligations, le candidat devra utiliser les formulaires (DC1 et DC2 à jour) de la Direction des affaires juridiques du ministère de l'économie, de l'industrie et de l'emploi téléchargeable sur le site www.economie.gouv.fr.Il est rappelé que pour justifier de ses capacités professionnelles, techniques et financières, le candidat peut demander que soient également prises en compte les capacités professionnelles, techniques et financières d'autres opérateurs économiques, quelle que soit la nature juridique des liens existants entre ces opérateurs et lui. Dans ce cas, il justifie des capacités de ce ou ces opérateurs économiques et apporte la preuve qu'il en disposera pour l'exécution du marché, par la production d'un engagement écrit de l'opérateur économique.Le dossier à remettre par chaque candidat comprendra les pièces suivantes :- Une lettre de candidature (DC1 à jour) et, le cas échéant, d'habilitation du mandataire par ses cotraitants datée et signée (NB : pas d'obligation de signature électronique à ce stade). Dans tous les cas, l'attention du candidat est attirée sur le fait que le DC1 ou la lettre de candidature contiennent les déclarations sur l'honneur actualisées et visées aux articles L. 2141-1 et suivants et L. 2141-7 et suivants du code de la commande publique. Aucune autre attestation sur l'honneur n'est nécessaire dès lors que ce formulaire est fourni ; - Copie du ou des jugements prononcés si le candidat est en redressement judiciaire au sens de l'article L. 631-1 du Code du commerce ou une procédure équivalente régie par un droit étranger;- Preuve de la capacité de la personne signataire à engager la société, et preuve d'une inscription au registre professionnel.\", \"CAP_ECO\": \"Renseignements et formalités nécessaires pour évaluer si ces exigences sont remplies : déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures et services objets du marché, réalisés au cours des 3 derniers exercices disponibles.Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels.\", \"CAP_TECH\": \"Renseignements et formalités nécessaires pour évaluer si ces exigences sont remplies :-Déclaration indiquant les effectifs moyens annuels et l'importance du personnel d'encadrement sur les 3 dernières années ;-Déclaration indiquant l'outillage, le matériel et les équipements techniques dont le candidat dispose pour la réalisation de marchés de même nature ;-Liste des principales fournitures et principaux services effectués au cours des 3 dernières années indiquant le montant, la date et le destinataire public ou privé. Les fournitures et prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique ;\", \"MARCHE_RESERVE_NON\": \"\", \"CONDITION_PARTICULIERE_EXECUTION\": \"Le présent marché prévoit le versement d'avance au profit du titulaire dans les conditions définies à l'article R.2191-3 et s. du Code de la commande publique, sauf si le titulaire le refuse. Le bénéficiaire de l'avance est informé que le GIP (article R2191-8 du code de la commande publique) demande le cas échéant la constitution d'une garantie à première demande pour tout ou partie du remboursement de l'avance. Celle-ci pourra être remplacée par une caution personnelle et solidaire. Financement assuré par fonds propres du GIP ARRONAX et subventions. Paiement par virement administratif, sur demande de paiement établie en fonction des prestations réalisées. Forme des prix : Les prix (forfaitaires et unitaires) sont fermes. Le mode de règlement est le virement par mandat administratif. Le délai maximum de paiement est fixé dans les conditions prévues par la règlementation en vigueur (loi no2013-110 du 28 janvier 2013 et décret no2013-269 du 29 mars 2013).\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_OUI\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Quantité ou étendue globale: Le présent marché a pour objet la fourniture, l'installation, les tests et la mise en service opérationnelle, et la maintenance d'enceintes blindées utilisées pour la production de radiopharmaceutiques. Il comporte les variantes obligatoires suivantes :- Fourniture, installation, mise en service opérationnelle et maintenance d'un automate de répartition aseptiqueLe marché entre en vigueur à compter de sa notification (date prévisionnelle de notification : février 2020). Eu égard à la maintenance, il est d'une durée de 5ansLes dossiers doivent être transmis par voie électronique via le profil acheteur : www.marchesonline.comTout dépôt sur une plate-forme de dématérialisation, sur un site Internet ou sur une adresse électronique autre est nul et non avenuLes fichiers doivent obligatoirement être remis par les candidats sous l'un des formats suivants:.pdf,doc,rtf,xls,ppt,jpg ou .jpegPour compresser les fichiers, les logiciels du type 7-zip ou .zip doivent être utilisésLes candidats qui recourent à un format autre que ceux listés ci-dessus devront, sous peine d'irrecevabilité des candidatures concernées, mettre à la disposition de la personne publique les moyens de lire les documents en question.Chaque candidat doit préalablement contrôler tout fichier constitutif de la candidature et de l'offre par un antivirus tenu à jour. Tout document électronique envoyé par un candidat dans lequel un virus informatique est détecté par l'acheteur peut faire l'objet par ce dernier d'un archivage de sécurité sans lecture dudit document. Ce document est dès lors réputé n'avoir jamais été reçu et le candidat en est informéIl est possible d'envoyer une copie de sauvegarde selon les modalités suivantesLe candidat qui effectue à la fois une transmission électronique et, à titre de copie de sauvegarde, une transmission sur support physique électronique ou papier doit faire parvenir cette copie sous forme d'enveloppe cachetée, dans les délais impartis pour la remise des candidatures ou des offresL'enveloppe d'envoi doit comporter la mention \\\"COPIE DE SAUVEGARDE\\\"La copie de sauvegarde ne peut être ouverte que dans les cas suivants:- Lorsqu'un programme informatique malveillant (ou virus) est détecté par l'acheteur;- Lorsque la candidature ou l'offre électronique est réceptionnée hors délai, si l'acheteur dispose d'éléments tangibles montrant que le pli a commencé à être transmis avant l'échéance de fermeture de la remise des plis et si la copie de sauvegarde est, elle, parvenue dans les délais;- Lorsque la candidature ou l'offre électronique n'a pas pu être ouverte par l'acheteur.Les documents justifiant de l'absence de motifs d'exclusion des candidatures (art. R2144-1, R.2144-3 et R.2144-4 du Code de la commande publique) doivent avoir été demandés aux candidats au plus tard lors de l'envoi de l'invitation à participer aux négociations (article R.2144-5 du Code de la commande publique). Aussi, afin d'éviter toute demande ultérieure, il est suggéré aux candidats de produire lesdits avec leur candidature. En vertu de l'article R.2143-5 du Code de la commande publique, l'acheteur accepte tout document équivalent d'un autre Etat membre de l'Union européenne. Il n'est pas imposé la remise de documents sous forme d'original, de copie certifiée conforme ou de traduction certifiée, sauf lorsque cela est justifié par une raison impérieuse d'intérêt général.L'acheteur retiendra 4 candidats pour présenter une offre, sous réserve du dépôt de candidatures recevables suffisantes et sur la base des critères de sélection des candidatures. Une lettre de consultation sera adressée aux candidats admis à présenter une offre, indiquant les modalités d'accès au dossier de consultation via le profil acheteur.Le fuseau horaire de référence sera celui de (Gmt+02:00) Paris, Bruxelles, Copenhague, Madrid.Date d'envoi du présent avis au JOUE et au BOAMP : 13-09-2019. Date d'envoi du présent avis au JOUE et au BOAMP : 13 septembre 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette CS 24111 - 44041 Nantes Cedex\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr/\"}}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-139763"
-  },
-  {
-   "idweb": "19-139291",
-   "id": "19_139291",
-   "contractfolderid": null,
-   "objet": "Les prestations de sécurité événementielle et incendie et le gardiennage des espaces culturels et théâtres de L'espal et des Quinconces - Année 2019 - Renouvelable en 2020, 2021 et",
-   "filename": "BOAMP-J-IC-AA_2019_258004",
-   "famille": "JOUE",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2019-09-15",
-   "datefindiffusion": "2019-12-11",
-   "datelimitereponse": null,
-   "nomacheteur": "Les Quinconces l'Espal",
-   "titulaire": [
-    "S3m Securite"
-   ],
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "ATTRIBUTION",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": [
-    "sociaux"
-   ],
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "331"
-   ],
-   "dc": [
-    "331"
-   ],
-   "descripteur_libelle": [
-    "Surveillance"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "19-60911"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"19-60911\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-04-16\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-04-18\", \"DATE_FIN_DIFFUSION\": \"2019-05-29\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"077\", \"NUM_ANNONCE\": \"183512\", \"DATE_PUBLICATION\": \"2019-04-18\"}}]}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-139291\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"19-60911\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-04-16\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-04-18\", \"DATE_FIN_DIFFUSION\": \"2019-05-29\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"077\", \"NUM_ANNONCE\": \"183512\", \"DATE_PUBLICATION\": \"2019-04-18\"}}]}}, \"NOM_HTML\": \"19-139291.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-09-15\", \"DATE_FIN_DIFFUSION\": \"2019-12-11\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"331\", \"LIBELLE\": \"Surveillance\"}}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\"}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Les prestations de sécurité événementielle et incendie et le gardiennage des espaces culturels et théâtres de L'espal et des Quinconces - Année 2019 - Renouvelable en 2020, 2021 et\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Les Quinconces l'Espal\", \"CODE_IDENT_NATIONAL\": \"40256198900011\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"60/62 rue de l'Estérel\", \"CP\": \"72000\", \"VILLE\": \"Le Mans\", \"MEL\": \"pauline.quantin@lemans.fr\", \"URL\": \"http://www.quinconces-espal.com\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"LOIS_CULT_REL\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Les prestations de sécurité événementielle et incendie et le gardiennage des espaces culturels et th\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Marché en appel d'offres ouvert avec bons de commande.Période initiale de 12 mois, renouvelable 3 fois\", \"CPV\": {\"PRINCIPAL\": \"71700000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"107650\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Marché en appel d'offres ouvert avec bons de commande.Période initiale de 12 mois, renouvelable 3 fois\", \"CPV\": [{\"PRINCIPAL\": \"79710000\"}, {\"PRINCIPAL\": \"79713000\"}, {\"PRINCIPAL\": \"79714000\"}], \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"40\", \"#text\": \"Valeur technique de l'offre appréciée à l'aide du mémoire technique\"}, {\"@POIDS\": \"10\", \"#text\": \"Qualité relationnelle avec l'acheteur et le personnel\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"50\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"077\", \"NUM_ANNONCE\": \"183512\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"TITULAIRE\": {\"DENOMINATION\": \"S3m Securite\", \"ADRESSE\": \"505 Place des Champs Elysées\", \"CP\": \"91080\", \"VILLE\": \"Courcouronnes\", \"CODE_NUTS\": \"FR104\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-06-25\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"107650.2\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 13 septembre 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso\", \"CP\": \"44042\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://pays-de-la-loire.direccte.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-139291"
   },
   {
    "idweb": "19-139772",

@@ -896,65 +896,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-127121"
   },
   {
-   "idweb": "20-126972",
-   "id": "20_126972",
-   "contractfolderid": null,
-   "objet": "Services de télécommunications",
-   "filename": "BOAMP-N-AO_2020_290005",
-   "famille": "FNS",
-   "code_departement": [
-    "85"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2020-10-16",
-   "datefindiffusion": "2020-11-16",
-   "datelimitereponse": "2020-11-16T11:00:00+00:00",
-   "nomacheteur": "Ville de Talmont Saint Hilaire",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "338"
-   ],
-   "dc": [
-    "338"
-   ],
-   "descripteur_libelle": [
-    "Télécommunications"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-126972\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"20-126972.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-10-16\", \"DATE_LIMITE_REPONSE\": \"2020-11-16T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2020-11-16\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"338\", \"LIBELLE\": \"Télécommunications\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"Services de télécommunications\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Talmont Saint Hilaire\", \"CORRESPONDANT\": \"M. le Maire de Talmont Saint Hilaire\", \"ADRESSE\": \"3 rue de l'Hôtel de villeBP 66\", \"CP\": \"85440\", \"VILLE\": \"Talmont Saint Hilaire\", \"MEL\": \"marchespublics@talmontsainthilaire.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-securises.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"5\"}, \"OBJET_COMPLET\": \"la fourniture de services de télécommunication avec la fourniture limitée d'accessoires pour les besoins de la Mairie de Talmont Saint Hilaire.\", \"CPV\": [{\"PRINCIPAL\": \"64200000\"}, {\"PRINCIPAL\": \"64210000\"}, {\"PRINCIPAL\": \"64212000\"}, {\"PRINCIPAL\": \"72400000\"}], \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG05\"}, \"AMP_NON\": \"\", \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\", \"DUREE_AN\": \"4\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Lot 1 téléphonie fixe simple - avec un maximum annuel de 13 000 euro HTLot 2 téléphonie mobile - avec un maximum annuel de 19 000 euro HTLot 3 accès à internet et Trunk SIP - avec un maximum annuel de 21 000 euro HT\"}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"48\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIORITES\": {\"CRITERE\": [{\"@ORDRE\": \"1\", \"#text\": \"valeur technique sur 60 points\"}, {\"@ORDRE\": \"2\", \"#text\": \"prix sur 30 points\"}, {\"@ORDRE\": \"3\", \"#text\": \"délai sur 10 points\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2020-11-16T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_PARTICIPATION\": {\"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"le dossier de consultation est téléchargeable sur www.marches-securises.fr\"}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-126972"
-  },
-  {
    "idweb": "20-125761",
    "id": "20_125761",
    "contractfolderid": null,
@@ -1019,6 +960,65 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-125761\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"20-74416\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2020-06-10\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2020-06-12\", \"DATE_FIN_DIFFUSION\": \"2020-07-15\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2020\", \"NUM_PARUTION\": \"113\", \"NUM_ANNONCE\": \"274448\", \"DATE_PUBLICATION\": \"2020-06-12\"}}]}}, \"NOM_HTML\": \"20-125761.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-10-16\", \"DATE_FIN_DIFFUSION\": \"2021-01-11\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"71\", \"LIBELLE\": \"Conteneur, poubelles\"}, {\"CODE\": \"196\", \"LIBELLE\": \"Maintenance\"}]}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Maintenance préventive et curative du parc de conteneurs enterrés sur le territoire de Le Mans Métropole 1 an renouvelable 3 foisLot no 1 : Maintenance des conteneurs enterré\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Le Mans Métropole - Communauté Urbaine\", \"CODE_IDENT_NATIONAL\": \"24720013200014\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, Cs40010- 16 avenue François Mitterrand, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"Le Mans\", \"TEL\": \"(+33) 2-43-47-37-31\", \"FAX\": \"(+33) 2-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Maintenance préventive et curative du parc de conteneurs enterrés sur le territoire de Le Mans Métropole 1 an renouvelable 3 foisLot no 1 : Maintenance des conteneurs enterrés de marque Citec\", \"REF_MARCHE\": \"2019_0171_fcs_cl_2/Jo\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Accord cadre passé avec minimum annuel de 6000 euro(s) Ht\", \"CPV\": {\"PRINCIPAL\": \"50514000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"116083.71\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Accord cadre passé avec minimum annuel de 6000 euro(s) Ht\", \"CPV\": {\"PRINCIPAL\": \"50514000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"1\", \"#text\": \"Le prix n'est pas le seul critère d'attribution et tous les critères sont énoncés uniquement dans les documents du marché.\"}}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Des modifications, des contrats similaires, des contrats complémentaires pourront être conclus au cours de l'exécution du contrat dans le respect des dispositions du Code de la Commande Publique et du Code Général des Collectivités Territoriales\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2020\", \"NUM_PARUTION\": \"113\", \"NUM_ANNONCE\": \"274448\", \"DATE_PUBLICATION\": \"2020-06-12\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"TITULAIRE\": {\"DENOMINATION\": \"Ese France\", \"ADRESSE\": \"42, rue Paul Sabatier\", \"CP\": \"71530\", \"VILLE\": \"Crissey\", \"CODE_NUTS\": \"FRC13\", \"PAYS\": \"FR\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2020-10-13\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"116083.71\"}, \"SOUSTRAITANCE_OUI\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les critères retenus pour le jugement des offres étaient pondérés de la manière suivante :Prix des prestations de maintenance 36% - Prix des pièces détachées 24 % - Pertinence de l'organisation et du déroulement des prestations 12% - Moyens matériels adaptés, affectés à la réalisation des prestations 9% - Moyens humains adaptés, affectées à la réalisation des prestations 9% - Protocole adapté de sécurisation des sites d'intervention 5% - Pertinence des moyens matériels dédiés en matière de sécurité 5%Nombre d'offres reçues : Pme (1) - par voie électronique (2) - autre état membre ou pays tiers (0)Parution Joue :2020/S 113-274448 le 12/06/2020Le marché correspondant est un accord cadre à bons de commande avec minimum de 6000 euro(s) pour une année et sans maximum d'un an reconductible 3 fois.Le montant indiqué résulte d'un échantillonnage.Le marché est consultable au siège du pouvoir adjudicateur sur demande auprès du service des Marchés Publics. Date d'envoi du présent avis au JOUE et au BOAMP : 14 octobre 2020.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso\", \"CP\": \"44042\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://pays-de-la-loire.direccte.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-125761"
+  },
+  {
+   "idweb": "20-126972",
+   "id": "20_126972",
+   "contractfolderid": null,
+   "objet": "Services de télécommunications",
+   "filename": "BOAMP-N-AO_2020_290005",
+   "famille": "FNS",
+   "code_departement": [
+    "85"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2020-10-16",
+   "datefindiffusion": "2020-11-16",
+   "datelimitereponse": "2020-11-16T11:00:00+00:00",
+   "nomacheteur": "Ville de Talmont Saint Hilaire",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "338"
+   ],
+   "dc": [
+    "338"
+   ],
+   "descripteur_libelle": [
+    "Télécommunications"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-126972\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"20-126972.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-10-16\", \"DATE_LIMITE_REPONSE\": \"2020-11-16T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2020-11-16\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"338\", \"LIBELLE\": \"Télécommunications\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"Services de télécommunications\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Talmont Saint Hilaire\", \"CORRESPONDANT\": \"M. le Maire de Talmont Saint Hilaire\", \"ADRESSE\": \"3 rue de l'Hôtel de villeBP 66\", \"CP\": \"85440\", \"VILLE\": \"Talmont Saint Hilaire\", \"MEL\": \"marchespublics@talmontsainthilaire.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-securises.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"5\"}, \"OBJET_COMPLET\": \"la fourniture de services de télécommunication avec la fourniture limitée d'accessoires pour les besoins de la Mairie de Talmont Saint Hilaire.\", \"CPV\": [{\"PRINCIPAL\": \"64200000\"}, {\"PRINCIPAL\": \"64210000\"}, {\"PRINCIPAL\": \"64212000\"}, {\"PRINCIPAL\": \"72400000\"}], \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG05\"}, \"AMP_NON\": \"\", \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\", \"DUREE_AN\": \"4\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Lot 1 téléphonie fixe simple - avec un maximum annuel de 13 000 euro HTLot 2 téléphonie mobile - avec un maximum annuel de 19 000 euro HTLot 3 accès à internet et Trunk SIP - avec un maximum annuel de 21 000 euro HT\"}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"48\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIORITES\": {\"CRITERE\": [{\"@ORDRE\": \"1\", \"#text\": \"valeur technique sur 60 points\"}, {\"@ORDRE\": \"2\", \"#text\": \"prix sur 30 points\"}, {\"@ORDRE\": \"3\", \"#text\": \"délai sur 10 points\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2020-11-16T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_PARTICIPATION\": {\"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"le dossier de consultation est téléchargeable sur www.marches-securises.fr\"}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-126972"
   },
   {
    "idweb": "20-127135",
@@ -4531,69 +4531,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-128008"
   },
   {
-   "idweb": "20-127967",
-   "id": "20_127967",
-   "contractfolderid": null,
-   "objet": "Suivi Animation pour une Opération Programmée d'Amélioration de l'Habitat",
-   "filename": "BOAMP-J-IC-AA_2020_295004",
-   "famille": "JOUE",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2020-10-21",
-   "datefindiffusion": "2021-01-16",
-   "datelimitereponse": null,
-   "nomacheteur": "CC DES VALLEES DE LA BRAYE ET ANILLE",
-   "titulaire": [
-    "Citemetrie Sas"
-   ],
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "ATTRIBUTION",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "455"
-   ],
-   "dc": [
-    "455"
-   ],
-   "descripteur_libelle": [
-    "Ingénierie"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "20-89173"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"20-89173\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2020-07-10\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2020-07-12\", \"DATE_FIN_DIFFUSION\": \"2020-08-10\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2020\", \"NUM_PARUTION\": \"134\", \"NUM_ANNONCE\": \"330062\", \"DATE_PUBLICATION\": \"2020-07-14\"}}]}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-127967\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"20-89173\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2020-07-10\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2020-07-12\", \"DATE_FIN_DIFFUSION\": \"2020-08-10\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2020\", \"NUM_PARUTION\": \"134\", \"NUM_ANNONCE\": \"330062\", \"DATE_PUBLICATION\": \"2020-07-14\"}}]}}, \"NOM_HTML\": \"20-127967.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-10-21\", \"DATE_FIN_DIFFUSION\": \"2021-01-16\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"455\", \"LIBELLE\": \"Ingénierie\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Suivi Animation pour une Opération Programmée d'Amélioration de l'Habitat\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CC DES VALLEES DE LA BRAYE ET ANILLE\", \"CODE_IDENT_NATIONAL\": \"20007269200011\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"10 rue Saint Pierre\", \"CP\": \"72120\", \"VILLE\": \"Saint Calais\", \"TEL\": \"(+33) 2-43-35-16-26\", \"MEL\": \"ccvba@cc-vba.com\", \"URL\": \"http://www.cc-vba.com\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.info/\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"autre\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Suivi Animation pour une Opération Programmée d'Amélioration de l'Habitat\", \"REF_MARCHE\": \"2020100m2\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Animation information coordination,Repérage et diagnostic, Accompagnement social et sanitaire des ménages, Assistance technique, financière et administrative, Suivi évaluation en continu\", \"CPV\": {\"PRINCIPAL\": \"71300000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"201213.5\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Animation information coordination,Repérage et diagnostic, Accompagnement social et sanitaire des ménages, Assistance technique, financière et administrative, Suivi évaluation en continu\", \"CPV\": {\"PRINCIPAL\": \"71300000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"50\", \"#text\": \"Valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"50\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2020\", \"NUM_PARUTION\": \"134\", \"NUM_ANNONCE\": \"330062\", \"DATE_PUBLICATION\": \"2020-07-14\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"TITULAIRE\": {\"DENOMINATION\": \"Citemetrie Sas\", \"ADRESSE\": \"23 rue de la Tombe Issoire\", \"CP\": \"75014\", \"VILLE\": \"Paris\", \"CODE_NUTS\": \"FR101\", \"PAYS\": \"FR\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2020-09-23\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"201213.5\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 19 octobre 2020.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}}}, \"ANNEXE_D1\": \"\"}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-127967"
-  },
-  {
    "idweb": "20-102883",
    "id": "20_102883",
    "contractfolderid": null,
@@ -4711,6 +4648,69 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-129727\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"20-129727.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-10-21\", \"DATE_FIN_DIFFUSION\": \"2020-11-24\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"160\", \"LIBELLE\": \"Impression\"}}, \"DEP_PUBLICATION\": [\"44\", \"49\"], \"RESUME_OBJET\": \"L'objet de cette consultation est la réalisation de travaux d'impression pour le compte de l'ONPL. La consultation comporte 5 lots, d'attribution distincte.Les candidats pourront\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Orchestre National des Pays de la Loir\", \"CORRESPONDANT\": \"Mme VERONIQUE DOUAUD-CLOCHARD, Responsable finances\", \"ADRESSE\": \"26 avenue MontaigneBP 15 246\", \"CP\": \"49052\", \"VILLE\": \"Angers cedex 02\", \"TEL\": \"02-41-24-16-95\", \"MEL\": \"vdouaud@onpl.fr\", \"URL\": \"http://ONPL.FR\", \"URL_PROFIL_ACHETEUR\": \"https://www.achatpublic.com/sdm/ent/gen/index.jsp\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"27\"}, \"OBJET_COMPLET\": \"L'objet de cette consultation est la réalisation de travaux d'impression pour le compte de l'ONPL. La consultation comporte 5 lots, d'attribution distincte.Les candidats pourront répondre à un lot, plusieurs lots, ou tous les lots de la consultation.Lot 1 : Travaux d'impression offset (hors travaux référencés aux lots 2 et 3)Lot 2 : Réalisation de la brochure de saison Lot 3 : Réalisation de la revue trimestrielle \\\" L'Orchestre \\\" et tirés à part Lot 4 : Travaux d'impression en sérigraphie\", \"CPV\": [{\"PRINCIPAL\": \"22100000\"}, {\"PRINCIPAL\": \"22140000\"}], \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"CARACTERISTIQUES\": {\"QUANTITE\": \"L'objet de cette consultation est la réalisation de travaux d'impression pour le compte de l'ONPL. La consultation comporte 5 lots, d'attribution distincte.Les candidats pourront répondre à un lot, plusieurs lots, ou tous les lots de la consultation.Lot 1 : Travaux d'impression offset (hors travaux référencés aux lots 2 et 3)Lot 2 : Réalisation de la brochure de saison Lot 3 : Réalisation de la revue trimestrielle \\\" L'Orchestre \\\" et tirés à part Lot 4 : Travaux d'impression en sérigraphie\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Lot 1 - Travaux d'impression offset (hors travaux référencés aux lots 2 et 3)\", \"DESCRIPTION\": \"L'accord-cadre a pour objet la réalisation de divers supports de communication de l'ONPL : affiches, tracts, dépliants, documents de correspondance... Les produits à réaliser sont listés et décrits de manière exhaustive dans le tableau d'offre de prix.\", \"CPV\": {\"PRINCIPAL\": \"22000000\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"73000\"}, \"DUREE_MOIS\": \"24\"}, {\"NUM\": \"2\", \"INTITULE\": \"Lot 2 - Réalisation de la brochure de saison\", \"DESCRIPTION\": \"Le marché a pour objet la réalisation des brochures de saison de l'ONPL (1 version Nantes et 1 version Angers).\", \"CPV\": {\"PRINCIPAL\": \"22150000\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"50000\"}, \"DUREE_MOIS\": \"24\"}, {\"NUM\": \"3\", \"INTITULE\": \"Lot 3 - Réalisation de la revue trimestrielle \\\" L'Orchestre \\\" et tirés à part\", \"DESCRIPTION\": \"Le marché a pour objet la réalisation de la revue trimestrielle \\\" L'Orchestre \\\" (3 parutions par an) et de tirés à part.\", \"CPV\": {\"PRINCIPAL\": \"22150000\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"50000\"}, \"DUREE_MOIS\": \"24\"}, {\"NUM\": \"4\", \"INTITULE\": \"Lot 4 - Travaux d'impression en sérigraphie\", \"DESCRIPTION\": \"L'accord-cadre a pour objet la réalisation d'affiches 80x120cm, 120x176 cm, 4X3, 8m2 et 350x120 cm (\\\" Colonne Morris \\\") en sérigraphie ou en numérique. Cet élément sera à préciser dans le BPU lot 4.\", \"CPV\": {\"PRINCIPAL\": \"22000000\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"20000\"}, \"DUREE_MOIS\": \"24\"}, {\"NUM\": \"5\", \"INTITULE\": \"Lot 5 - Impression de la billetterie de l'Orchestre.\", \"DESCRIPTION\": \"L'accord-cadre a pour objet l'impression de la billetterie de l'Orchestre.\", \"CPV\": {\"PRINCIPAL\": \"22000000\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"7000\"}, \"DUREE_MOIS\": \"24\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_PARTICIPATION\": {\"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"04PA20\"}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-129727"
+  },
+  {
+   "idweb": "20-127967",
+   "id": "20_127967",
+   "contractfolderid": null,
+   "objet": "Suivi Animation pour une Opération Programmée d'Amélioration de l'Habitat",
+   "filename": "BOAMP-J-IC-AA_2020_295004",
+   "famille": "JOUE",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2020-10-21",
+   "datefindiffusion": "2021-01-16",
+   "datelimitereponse": null,
+   "nomacheteur": "CC DES VALLEES DE LA BRAYE ET ANILLE",
+   "titulaire": [
+    "Citemetrie Sas"
+   ],
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "ATTRIBUTION",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "455"
+   ],
+   "dc": [
+    "455"
+   ],
+   "descripteur_libelle": [
+    "Ingénierie"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "20-89173"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"20-89173\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2020-07-10\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2020-07-12\", \"DATE_FIN_DIFFUSION\": \"2020-08-10\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2020\", \"NUM_PARUTION\": \"134\", \"NUM_ANNONCE\": \"330062\", \"DATE_PUBLICATION\": \"2020-07-14\"}}]}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-127967\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"20-89173\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2020-07-10\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2020-07-12\", \"DATE_FIN_DIFFUSION\": \"2020-08-10\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2020\", \"NUM_PARUTION\": \"134\", \"NUM_ANNONCE\": \"330062\", \"DATE_PUBLICATION\": \"2020-07-14\"}}]}}, \"NOM_HTML\": \"20-127967.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-10-21\", \"DATE_FIN_DIFFUSION\": \"2021-01-16\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"455\", \"LIBELLE\": \"Ingénierie\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Suivi Animation pour une Opération Programmée d'Amélioration de l'Habitat\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CC DES VALLEES DE LA BRAYE ET ANILLE\", \"CODE_IDENT_NATIONAL\": \"20007269200011\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"10 rue Saint Pierre\", \"CP\": \"72120\", \"VILLE\": \"Saint Calais\", \"TEL\": \"(+33) 2-43-35-16-26\", \"MEL\": \"ccvba@cc-vba.com\", \"URL\": \"http://www.cc-vba.com\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.info/\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"autre\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Suivi Animation pour une Opération Programmée d'Amélioration de l'Habitat\", \"REF_MARCHE\": \"2020100m2\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Animation information coordination,Repérage et diagnostic, Accompagnement social et sanitaire des ménages, Assistance technique, financière et administrative, Suivi évaluation en continu\", \"CPV\": {\"PRINCIPAL\": \"71300000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"201213.5\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Animation information coordination,Repérage et diagnostic, Accompagnement social et sanitaire des ménages, Assistance technique, financière et administrative, Suivi évaluation en continu\", \"CPV\": {\"PRINCIPAL\": \"71300000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"50\", \"#text\": \"Valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"50\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2020\", \"NUM_PARUTION\": \"134\", \"NUM_ANNONCE\": \"330062\", \"DATE_PUBLICATION\": \"2020-07-14\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"TITULAIRE\": {\"DENOMINATION\": \"Citemetrie Sas\", \"ADRESSE\": \"23 rue de la Tombe Issoire\", \"CP\": \"75014\", \"VILLE\": \"Paris\", \"CODE_NUTS\": \"FR101\", \"PAYS\": \"FR\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2020-09-23\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"201213.5\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 19 octobre 2020.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}}}, \"ANNEXE_D1\": \"\"}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-127967"
   },
   {
    "idweb": "20-127647",
@@ -5820,6 +5820,66 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-118014"
   },
   {
+   "idweb": "20-130533",
+   "id": "20_130533",
+   "contractfolderid": null,
+   "objet": "Numéro de la consultation : 2_2020058. Travaux d'électricité et de câblage informatique pour la réhabilitation, l'aménagement et/ou la construction de bâtiments de la Communauté urbaine d&ap",
+   "filename": "BOAMP-N-AO_2020_297005",
+   "famille": "FNS",
+   "code_departement": [
+    "61",
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2020-10-23",
+   "datefindiffusion": "2020-11-12",
+   "datelimitereponse": "2020-11-12T11:00:00+00:00",
+   "nomacheteur": "Communauté urbaine d'Alençon",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "105"
+   ],
+   "dc": [
+    "105"
+   ],
+   "descripteur_libelle": [
+    "Electricité (travaux)"
+   ],
+   "type_marche": [
+    "TRAVAUX"
+   ],
+   "type_marche_facette": [
+    "Travaux"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-130533\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"20-130533.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-10-23\", \"DATE_LIMITE_REPONSE\": \"2020-11-12T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2020-11-12\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"105\", \"LIBELLE\": \"Electricité (travaux)\"}}, \"DEP_PUBLICATION\": [\"61\", \"72\"], \"RESUME_OBJET\": \"Numéro de la consultation : 2_2020058. Travaux d'électricité et de câblage informatique pour la réhabilitation, l'aménagement et/ou la construction de bâtiments de la Communauté urbaine d&ap\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Communauté urbaine d'Alençon\", \"CORRESPONDANT\": \"PUEYO Joaquim, Président\", \"ADRESSE\": \"18 rue de Bretagne\", \"CP\": \"61014\", \"VILLE\": \"Alençon\", \"TEL\": \"02-33-32-40-00\", \"MEL\": \"scp@ville-alencon.fr\", \"URL\": \"http://www.cu-alencon.fr/\", \"URL_PROFIL_ACHETEUR\": \"http://agysoft.marches-publics.info\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"Numéro de la consultation : 2_2020058. Travaux d'électricité et de câblage informatique pour la réhabilitation, l'aménagement et/ou la construction de bâtiments de la Communauté urbaine d'Alençon\", \"CPV\": {\"PRINCIPAL\": \"45311000\"}, \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRD13\"}, \"AMP_NON\": \"\", \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\", \"DUREE_MOIS\": \"12\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"150000\"}}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Forme de marché : accord-cadre à bons de commande avec montant maximum de 75 000 euros Ht par an. Attribution d'un marché unique\", \"QUANTITE\": \"Accord-cadre conclu pour une période initiale de 1 an. La durée de la période initiale des prestations de 1 an. Nombre de périodes de reconduction fixé à 1, durée de chaque période de reconduction de 1 an, et durée maximale du contrat, toutes périodes confondues, de 2 ans\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"150000\"}, \"OPTIONS\": {\"OUI\": \"\", \"DESCRIPTION\": \"Possibilité de confier ultérieurement au titulaire du marché un ou plusieurs marchés ayant pour objet la réalisation de prestations similaires\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"12\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2020-11-12T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Prestations réglées par des prix forfaitaires et prix unitaires. Prix main d'oeuvre révisables annuellement, prix fourniture ajustables. Aucune avance prévue. Délai global de paiement des prestations de 30 jours\", \"FORME_JURIDIQUE\": \"En cas de groupement d'opérateurs économiques, la forme souhaitée par le pouvoir adjudicateur est un groupement solidaire ou conjoint avec mandataire solidaire. Interdiction de présenter plusieurs offres en agissant à la fois en qualité de candidats individuels et de membres d'un ou plusieurs groupements ou en qualité de membres de plusieurs groupements\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"- Formulaire DC1, Lettre de candidature _ Habilitation du mandataire par ses co-traitants.(disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat)- Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement.(disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat)Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas d'interdiction de soumissionner;\", \"CAP_TECH\": \"Liste des travaux exécutés au cours des cinq dernières années, appuyée d'attestations de bonne exécution pour les plus importants (montant, époque, lieu d'exécution, s'ils ont été effectués selon les règles de l'art et menés à bonne fin);\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"2_2020058/BO\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://agysoft.marches-publics.infoLa transmission des documents par voie électronique est effectuée sur le profil d'acheteur (https://marches-publics.cu-alencon.fr).Aucune offre papier ne sera acceptée. Les modalités de transmission des plis par voie électronique sont définies dans le règlement de la consultation. Le dossier de consultation est téléchargeable gratuitement sur le site cité ci-avant. Numéro de la consultation : 2_2020058. Les voies de recours ouvertes aux candidats sont les suivantes :- Référé précontractuel prévu aux articles L.551-1 à L.551-12 du Code de justice administrative (CJA), et pouvant être exercé avant la signature du contrat.- Référé contractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant être exercé dans les délais prévus à l'article R. 551-7 du CJA.- Recours de pleine juridiction ouvert aux tiers justifiant d'un intérêt lésé, et pouvant être exercé dans les deux mois suivant la date à laquelle la conclusion du contrat est rendue publique.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Caen\", \"ADRESSE\": \"3, rue Arthur Leduc Cedex 4 BP 25086\", \"CP\": \"14050\", \"VILLE\": \"Caen\", \"TEL\": \"02-31-70-72-72\", \"FAX\": \"02-31-52-42-17\", \"MEL\": \"greffe.ta-caen@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Caen\", \"ADRESSE\": \"3, rue Arthur Leduc Cedex 4 BP 25086\", \"CP\": \"14050\", \"VILLE\": \"Caen\", \"TEL\": \"02-31-70-72-72\", \"FAX\": \"02-31-52-42-17\", \"MEL\": \"greffe.ta-caen@juradm.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-130533"
+  },
+  {
    "idweb": "20-129683",
    "id": "20_129683",
    "contractfolderid": null,
@@ -5880,66 +5940,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-129683\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": [{\"REFERENCE\": {\"IDWEB\": \"19-80477\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"CONCOURS\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-05-22\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-05-24\", \"DATE_FIN_DIFFUSION\": \"2019-06-24\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"101\", \"NUM_ANNONCE\": \"245339\", \"DATE_PUBLICATION\": \"2019-05-27\"}}]}, {\"REFERENCE\": {\"IDWEB\": \"20-124868\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"CONCOURS\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2020-10-12\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2020-10-14\", \"DATE_FIN_DIFFUSION\": \"2020-12-12\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2020\", \"NUM_PARUTION\": \"202\", \"NUM_ANNONCE\": \"491101\", \"DATE_PUBLICATION\": \"2020-10-16\"}}]}]}, \"NOM_HTML\": \"20-129683.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-10-23\", \"DATE_FIN_DIFFUSION\": \"2020-12-21\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"197\", \"LIBELLE\": \"Maîtrise d'oeuvre\"}}, \"DEP_PUBLICATION\": [\"49\", \"44\", \"53\", \"72\", \"85\"], \"RESUME_OBJET\": \"mission de maitrise d'oeuvre relative a la reconstruction des locaux de restauration et de services au lycee paul emile victor a avrille (49) concours restreint sur esquisse (rectificatif)\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Conseil régional des Pays de la Loire\", \"ADJUDICATEUR_NUTS\": \"FRG\", \"ADRESSE\": \"1 rue de la Loire\", \"CP\": \"44966\", \"VILLE\": \"Nantes cedex 9\", \"TEL\": \"(+33) 2-28-20-58-38\", \"FAX\": \"(+33) 2-28-20-50-27\", \"MEL\": \"demandedce@paysdelaloire.fr\", \"URL\": \"http://www.paysdelaloire.fr\", \"URL_PROFIL_ACHETEUR\": \"http://marchespublics.paysdelaloire.fr\"}, \"OBJET\": {\"TITRE_MARCHE\": \"MISSION DE MAITRISE D'OEUVRE RELATIVE A LA RECONSTRUCTION DES LOCAUX DE RESTAURATION ET DE SERVICES AU LYCEE PAUL EMILE VICTOR A AVRILLE (49) CONCOURS RESTREINT SUR ESQUISSE\", \"REF_MARCHE\": \"49AN-15D08588-MOE\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Le présent concours a pour objet la sélection d'un projet demaîtrise d'oeuvre dans le cadre de la Reconstruction des locaux de restauration et de services aulycée PE Victor à Avrillé (49).\", \"CPV\": {\"PRINCIPAL\": \"71200000\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"20-124868\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"CONCOURS\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2020-10-12\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2020-10-14\", \"DATE_FIN_DIFFUSION\": \"2020-12-12\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2020\", \"NUM_PARUTION\": \"202\", \"NUM_ANNONCE\": \"491101\", \"DATE_PUBLICATION\": \"2020-10-16\"}}]}, \"MODIFICATION\": {\"RUB_INIT\": \"V.3.3)\", \"TEXTE\": {\"INIT\": \"TRISTAN BRISARD ARCHITECTE, 5 rue Olympe de Gouges ; 17 quai FrançoisMitterrand., 44200, Nantes, FR, Code NUTS : FRG01Le lauréat est une PME : ouiEVEN Structures, 5 rue des Petites Maulévries, 49007, Angers, FR, Code NUTS : FRG02Le lauréat est une PME : ouiISOCRATE, 6 rue de Sassafras, 44301, Nantes, FR, Code NUTS : FRG01Le lauréat est une PME : ouiCMB, 160 avenue Bollée, 72016, LE MANS, FR, Code NUTS : FRG04Le lauréat est une PME : ouiBEGC, 101 boulevard Dalby, 44000, Nantes, FR, Code NUTS : FRG01Le lauréat est une PME : ouiACOUSTIBEL, 22 rue de Turgé, 35310, Chavagne, FR, Code NUTS : FRH03Le lauréat est une PME : ouiURBATERRA, 46 rue Jean Bodin, 49000, Angers, FR, Code NUTS : FRG02Le lauréat est une PME : oui\", \"LIRE\": \"TRISTAN BRISARD ARCHITECTE, 5 rue Olympe de Gouges ; 17 quai FrançoisMitterrand., 44200, Nantes, FR, Code NUTS : FRG01Le lauréat est une PME : oui\"}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 21 octobre 2020.\"}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-129683"
-  },
-  {
-   "idweb": "20-130533",
-   "id": "20_130533",
-   "contractfolderid": null,
-   "objet": "Numéro de la consultation : 2_2020058. Travaux d'électricité et de câblage informatique pour la réhabilitation, l'aménagement et/ou la construction de bâtiments de la Communauté urbaine d&ap",
-   "filename": "BOAMP-N-AO_2020_297005",
-   "famille": "FNS",
-   "code_departement": [
-    "61",
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2020-10-23",
-   "datefindiffusion": "2020-11-12",
-   "datelimitereponse": "2020-11-12T11:00:00+00:00",
-   "nomacheteur": "Communauté urbaine d'Alençon",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "105"
-   ],
-   "dc": [
-    "105"
-   ],
-   "descripteur_libelle": [
-    "Electricité (travaux)"
-   ],
-   "type_marche": [
-    "TRAVAUX"
-   ],
-   "type_marche_facette": [
-    "Travaux"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-130533\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"20-130533.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-10-23\", \"DATE_LIMITE_REPONSE\": \"2020-11-12T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2020-11-12\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"105\", \"LIBELLE\": \"Electricité (travaux)\"}}, \"DEP_PUBLICATION\": [\"61\", \"72\"], \"RESUME_OBJET\": \"Numéro de la consultation : 2_2020058. Travaux d'électricité et de câblage informatique pour la réhabilitation, l'aménagement et/ou la construction de bâtiments de la Communauté urbaine d&ap\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Communauté urbaine d'Alençon\", \"CORRESPONDANT\": \"PUEYO Joaquim, Président\", \"ADRESSE\": \"18 rue de Bretagne\", \"CP\": \"61014\", \"VILLE\": \"Alençon\", \"TEL\": \"02-33-32-40-00\", \"MEL\": \"scp@ville-alencon.fr\", \"URL\": \"http://www.cu-alencon.fr/\", \"URL_PROFIL_ACHETEUR\": \"http://agysoft.marches-publics.info\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"Numéro de la consultation : 2_2020058. Travaux d'électricité et de câblage informatique pour la réhabilitation, l'aménagement et/ou la construction de bâtiments de la Communauté urbaine d'Alençon\", \"CPV\": {\"PRINCIPAL\": \"45311000\"}, \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRD13\"}, \"AMP_NON\": \"\", \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\", \"DUREE_MOIS\": \"12\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"150000\"}}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Forme de marché : accord-cadre à bons de commande avec montant maximum de 75 000 euros Ht par an. Attribution d'un marché unique\", \"QUANTITE\": \"Accord-cadre conclu pour une période initiale de 1 an. La durée de la période initiale des prestations de 1 an. Nombre de périodes de reconduction fixé à 1, durée de chaque période de reconduction de 1 an, et durée maximale du contrat, toutes périodes confondues, de 2 ans\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"150000\"}, \"OPTIONS\": {\"OUI\": \"\", \"DESCRIPTION\": \"Possibilité de confier ultérieurement au titulaire du marché un ou plusieurs marchés ayant pour objet la réalisation de prestations similaires\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"12\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2020-11-12T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Prestations réglées par des prix forfaitaires et prix unitaires. Prix main d'oeuvre révisables annuellement, prix fourniture ajustables. Aucune avance prévue. Délai global de paiement des prestations de 30 jours\", \"FORME_JURIDIQUE\": \"En cas de groupement d'opérateurs économiques, la forme souhaitée par le pouvoir adjudicateur est un groupement solidaire ou conjoint avec mandataire solidaire. Interdiction de présenter plusieurs offres en agissant à la fois en qualité de candidats individuels et de membres d'un ou plusieurs groupements ou en qualité de membres de plusieurs groupements\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"- Formulaire DC1, Lettre de candidature _ Habilitation du mandataire par ses co-traitants.(disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat)- Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement.(disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat)Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas d'interdiction de soumissionner;\", \"CAP_TECH\": \"Liste des travaux exécutés au cours des cinq dernières années, appuyée d'attestations de bonne exécution pour les plus importants (montant, époque, lieu d'exécution, s'ils ont été effectués selon les règles de l'art et menés à bonne fin);\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"2_2020058/BO\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://agysoft.marches-publics.infoLa transmission des documents par voie électronique est effectuée sur le profil d'acheteur (https://marches-publics.cu-alencon.fr).Aucune offre papier ne sera acceptée. Les modalités de transmission des plis par voie électronique sont définies dans le règlement de la consultation. Le dossier de consultation est téléchargeable gratuitement sur le site cité ci-avant. Numéro de la consultation : 2_2020058. Les voies de recours ouvertes aux candidats sont les suivantes :- Référé précontractuel prévu aux articles L.551-1 à L.551-12 du Code de justice administrative (CJA), et pouvant être exercé avant la signature du contrat.- Référé contractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant être exercé dans les délais prévus à l'article R. 551-7 du CJA.- Recours de pleine juridiction ouvert aux tiers justifiant d'un intérêt lésé, et pouvant être exercé dans les deux mois suivant la date à laquelle la conclusion du contrat est rendue publique.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Caen\", \"ADRESSE\": \"3, rue Arthur Leduc Cedex 4 BP 25086\", \"CP\": \"14050\", \"VILLE\": \"Caen\", \"TEL\": \"02-31-70-72-72\", \"FAX\": \"02-31-52-42-17\", \"MEL\": \"greffe.ta-caen@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Caen\", \"ADRESSE\": \"3, rue Arthur Leduc Cedex 4 BP 25086\", \"CP\": \"14050\", \"VILLE\": \"Caen\", \"TEL\": \"02-31-70-72-72\", \"FAX\": \"02-31-52-42-17\", \"MEL\": \"greffe.ta-caen@juradm.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-130533"
   },
   {
    "idweb": "20-130599",

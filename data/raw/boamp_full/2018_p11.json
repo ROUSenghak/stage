@@ -4861,80 +4861,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-57732"
   },
   {
-   "idweb": "18-56138",
-   "id": "18_56138",
-   "contractfolderid": null,
-   "objet": "fourniture et livraison de consommables pour impression pour les services de l'université de rennes 1",
-   "filename": "BOAMP-J-IC-AA_2018_115004",
-   "famille": "JOUE",
-   "code_departement": [
-    "35",
-    "22",
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-04-25",
-   "datefindiffusion": "2018-06-30",
-   "datelimitereponse": null,
-   "nomacheteur": "université de Rennes 1",
-   "titulaire": [
-    "OSILOG"
-   ],
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "ATTRIBUTION",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "16",
-    "68",
-    "207",
-    "211"
-   ],
-   "dc": [
-    "16",
-    "68",
-    "207",
-    "211"
-   ],
-   "descripteur_libelle": [
-    "Articles de bureau et articles scolaires",
-    "Consommables informatiques",
-    "Matériel de bureau",
-    "Matériel d'imprimerie"
-   ],
-   "type_marche": [
-    "FOURNITURES"
-   ],
-   "type_marche_facette": [
-    "Fournitures"
-   ],
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "18-2995"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"18-2995\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-01-09\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-01-11\", \"DATE_FIN_DIFFUSION\": \"2018-02-12\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"007\", \"NUM_ANNONCE\": \"011040\", \"DATE_PUBLICATION\": \"2018-01-11\"}}]}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-56138\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-2995\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-01-09\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-01-11\", \"DATE_FIN_DIFFUSION\": \"2018-02-12\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"007\", \"NUM_ANNONCE\": \"011040\", \"DATE_PUBLICATION\": \"2018-01-11\"}}]}}, \"NOM_HTML\": \"18-56138.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-04-25\", \"DATE_FIN_DIFFUSION\": \"2018-06-30\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"16\", \"LIBELLE\": \"Articles de bureau et articles scolaires\"}, {\"CODE\": \"68\", \"LIBELLE\": \"Consommables informatiques\"}, {\"CODE\": \"207\", \"LIBELLE\": \"Matériel de bureau\"}, {\"CODE\": \"211\", \"LIBELLE\": \"Matériel d'imprimerie\"}]}, \"DEP_PUBLICATION\": [\"35\", \"22\", \"44\"], \"RESUME_OBJET\": \"fourniture et livraison de consommables pour impression pour les services de l'université de rennes 1\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"université de Rennes 1\", \"CONTACT\": \"Pôle des Achats\", \"ADJUDICATEUR_NUTS\": \"FRH0\", \"ADRESSE\": \"2 rue du Thabor CS46510\", \"CP\": \"35065\", \"VILLE\": \"Rennes\", \"TEL\": \"(+33) 2-23-23-36-70\", \"MEL\": \"achats@listes.univ-rennes1.fr\", \"URL\": \"http://www.univ-rennes1.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&amp;AllCons&amp;refConsultation=361989&amp;orgAcronyme=f2h\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Etablissement public\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"enseignement supérieur et recherche\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture et livraison de consommables pour impression pour les services de lUniversité de Rennes 1\", \"REF_MARCHE\": \"2017072AOF\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Fourniture et livraison de consommables pour impression pour les services de lUniversité de Rennes 1\", \"CPV\": {\"PRINCIPAL\": \"30125100\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"220332\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Accord-cadre à bons de commande mono-attributaire sans minimum ni maximum conclu suivant les dispositions del'ordonnance 2015-899 du 23 juillet 2015 et des articles 66 à 68 et 78 &amp; 80 du Décret 2016-360 du 25 mars 2016 relatif aux marchés publics.Accord-cadre conclu pour une période ferme d'un an, reconductible par tacite reconduction trois fois pour une durée supplémentaire d'un an, sansque sa durée globale ne puisse dépasser quatre ans.\", \"CPV\": [{\"PRINCIPAL\": \"30125100\"}, {\"PRINCIPAL\": \"30125110\"}], \"CODE_NUTS\": \"FRH0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"40\", \"#text\": \"Qualité de service\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"60\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2018\", \"NUM_PARUTION\": \"007\", \"NUM_ANNONCE\": \"011040\", \"DATE_PUBLICATION\": \"2018-01-11\"}}}, \"ATTRIBUTION\": {\"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2017072AOF0100\", \"INTITULE\": \"Fourniture et livraison de consommables pour impression pour les services de lUniversité de Rennes 1\", \"TITULAIRE\": {\"DENOMINATION\": \"OSILOG\", \"CP\": \"78322\", \"VILLE\": \"LA VERRIERE\", \"CODE_NUTS\": \"FR103\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-03-30\", \"NB_OFFRE_RECU\": \"7\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"220332\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 23 avril 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Rennes\", \"ADRESSE\": \"Hôtel de Bizien3, Contour de la MotteCS 44416\", \"CP\": \"35044\", \"VILLE\": \"Rennes Cedex\", \"TEL\": \"(+33) 2-23-21-28-28\", \"MEL\": \"greffe.ta-rennes@juradm.fr\", \"URL\": \"http://www.rennes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Rennes\", \"ADRESSE\": \"Hôtel de Bizien3, Contour de la MotteCS 44416\", \"CP\": \"35044\", \"VILLE\": \"Rennes Cedex\", \"TEL\": \"(+33) 2-23-21-28-28\", \"MEL\": \"greffe.ta-rennes@juradm.fr\", \"URL\": \"http://www.rennes.tribunal-administratif.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-56138"
-  },
-  {
    "idweb": "18-57328",
    "id": "18_57328",
    "contractfolderid": null,
@@ -5111,6 +5037,80 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-56017\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-56017.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-04-25\", \"DATE_FIN_DIFFUSION\": \"2018-06-01\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"77\", \"LIBELLE\": \"Cuisine (équipement)\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"La fourniture de trancheurs semi-automatiques.\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CTRE HOSP UNIVERSITAIRE ANGERS\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"4 rue Larrey\", \"CP\": \"49933\", \"VILLE\": \"Angers cédex 9\", \"TEL\": \"(+33) 2-41-35-33-21\", \"FAX\": \"(+33) 2-41-35-55-04\", \"MEL\": \"bureaumarche@chu-angers.fr\", \"URL\": \"https://www.chu-angers.fr\", \"URL_PARTICIPATION\": \"https://www.marches-publics.gouv.fr/index.php?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=375382&orgAcronyme=x7c\", \"URL_DOCUMENT\": \"https://www.marches-publics.gouv.fr/index.php?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=375382&orgAcronyme=x7c\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"ETABLISSEMENT PUBLIC DE SANTE\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"La fourniture de trancheurs semi-automatiques.\", \"REF_MARCHE\": \"DAGPSI2018AO005TRANCHEUR\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Appel d'offres ouvert pour la fourniture de trancheurs semi-automatiques pour le Centre de Santé Mentale Angevin CESAME passé en application des articles 42.1 a de l'ordonnance no2015-899 et 66 alinéa 2 - 67 et 68 du Décret 2016-360 du 25 mars 2016 relatif aux marchés Publics. Les prestations objet du présent marché feront l'objet d'un accord-cadre à bons de commande avec minimum et maximum en quantité, passé en application des articles 78 et 80 du décret 2016-360.\", \"CPV\": {\"PRINCIPAL\": \"39221000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Les prestations objet du présent marché sont regroupées en un lot unique\", \"CPV\": {\"PRINCIPAL\": \"39221000\"}, \"CODE_NUTS\": \"FRG02\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"6\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-06-01T17:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"3\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-06-04\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"L'unité monétaire : euros. Renseignements : administratifs et techniques : Département \\\" Achats généraux, prestations de services et intellectuelles \\\" du GHT 49, 02.41.49.63.00, dagpsi@ch-cholet.fr. Date d'envoi du présent avis au JOUE et au BOAMP : 23 avril 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée ile gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Greffe du Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée ile gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-56017"
+  },
+  {
+   "idweb": "18-56138",
+   "id": "18_56138",
+   "contractfolderid": null,
+   "objet": "fourniture et livraison de consommables pour impression pour les services de l'université de rennes 1",
+   "filename": "BOAMP-J-IC-AA_2018_115004",
+   "famille": "JOUE",
+   "code_departement": [
+    "35",
+    "22",
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-04-25",
+   "datefindiffusion": "2018-06-30",
+   "datelimitereponse": null,
+   "nomacheteur": "université de Rennes 1",
+   "titulaire": [
+    "OSILOG"
+   ],
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "ATTRIBUTION",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "16",
+    "68",
+    "207",
+    "211"
+   ],
+   "dc": [
+    "16",
+    "68",
+    "207",
+    "211"
+   ],
+   "descripteur_libelle": [
+    "Articles de bureau et articles scolaires",
+    "Consommables informatiques",
+    "Matériel de bureau",
+    "Matériel d'imprimerie"
+   ],
+   "type_marche": [
+    "FOURNITURES"
+   ],
+   "type_marche_facette": [
+    "Fournitures"
+   ],
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "18-2995"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"18-2995\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-01-09\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-01-11\", \"DATE_FIN_DIFFUSION\": \"2018-02-12\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"007\", \"NUM_ANNONCE\": \"011040\", \"DATE_PUBLICATION\": \"2018-01-11\"}}]}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-56138\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-2995\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-01-09\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-01-11\", \"DATE_FIN_DIFFUSION\": \"2018-02-12\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"007\", \"NUM_ANNONCE\": \"011040\", \"DATE_PUBLICATION\": \"2018-01-11\"}}]}}, \"NOM_HTML\": \"18-56138.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-04-25\", \"DATE_FIN_DIFFUSION\": \"2018-06-30\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"16\", \"LIBELLE\": \"Articles de bureau et articles scolaires\"}, {\"CODE\": \"68\", \"LIBELLE\": \"Consommables informatiques\"}, {\"CODE\": \"207\", \"LIBELLE\": \"Matériel de bureau\"}, {\"CODE\": \"211\", \"LIBELLE\": \"Matériel d'imprimerie\"}]}, \"DEP_PUBLICATION\": [\"35\", \"22\", \"44\"], \"RESUME_OBJET\": \"fourniture et livraison de consommables pour impression pour les services de l'université de rennes 1\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"université de Rennes 1\", \"CONTACT\": \"Pôle des Achats\", \"ADJUDICATEUR_NUTS\": \"FRH0\", \"ADRESSE\": \"2 rue du Thabor CS46510\", \"CP\": \"35065\", \"VILLE\": \"Rennes\", \"TEL\": \"(+33) 2-23-23-36-70\", \"MEL\": \"achats@listes.univ-rennes1.fr\", \"URL\": \"http://www.univ-rennes1.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&amp;AllCons&amp;refConsultation=361989&amp;orgAcronyme=f2h\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Etablissement public\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"enseignement supérieur et recherche\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture et livraison de consommables pour impression pour les services de lUniversité de Rennes 1\", \"REF_MARCHE\": \"2017072AOF\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Fourniture et livraison de consommables pour impression pour les services de lUniversité de Rennes 1\", \"CPV\": {\"PRINCIPAL\": \"30125100\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"220332\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Accord-cadre à bons de commande mono-attributaire sans minimum ni maximum conclu suivant les dispositions del'ordonnance 2015-899 du 23 juillet 2015 et des articles 66 à 68 et 78 &amp; 80 du Décret 2016-360 du 25 mars 2016 relatif aux marchés publics.Accord-cadre conclu pour une période ferme d'un an, reconductible par tacite reconduction trois fois pour une durée supplémentaire d'un an, sansque sa durée globale ne puisse dépasser quatre ans.\", \"CPV\": [{\"PRINCIPAL\": \"30125100\"}, {\"PRINCIPAL\": \"30125110\"}], \"CODE_NUTS\": \"FRH0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"40\", \"#text\": \"Qualité de service\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"60\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2018\", \"NUM_PARUTION\": \"007\", \"NUM_ANNONCE\": \"011040\", \"DATE_PUBLICATION\": \"2018-01-11\"}}}, \"ATTRIBUTION\": {\"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2017072AOF0100\", \"INTITULE\": \"Fourniture et livraison de consommables pour impression pour les services de lUniversité de Rennes 1\", \"TITULAIRE\": {\"DENOMINATION\": \"OSILOG\", \"CP\": \"78322\", \"VILLE\": \"LA VERRIERE\", \"CODE_NUTS\": \"FR103\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-03-30\", \"NB_OFFRE_RECU\": \"7\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"220332\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 23 avril 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Rennes\", \"ADRESSE\": \"Hôtel de Bizien3, Contour de la MotteCS 44416\", \"CP\": \"35044\", \"VILLE\": \"Rennes Cedex\", \"TEL\": \"(+33) 2-23-21-28-28\", \"MEL\": \"greffe.ta-rennes@juradm.fr\", \"URL\": \"http://www.rennes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Rennes\", \"ADRESSE\": \"Hôtel de Bizien3, Contour de la MotteCS 44416\", \"CP\": \"35044\", \"VILLE\": \"Rennes Cedex\", \"TEL\": \"(+33) 2-23-21-28-28\", \"MEL\": \"greffe.ta-rennes@juradm.fr\", \"URL\": \"http://www.rennes.tribunal-administratif.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-56138"
   },
   {
    "idweb": "18-56204",
@@ -5361,65 +5361,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-57969"
   },
   {
-   "idweb": "18-57491",
-   "id": "18_57491",
-   "contractfolderid": null,
-   "objet": "Aménagement d'un carrefour giratoire RD338 / RD 310Travaux d'éclairage public La Hutte Commune de Saint-Germain-sur-Sarthe",
-   "filename": "BOAMP-N-AO_2018_115005",
-   "famille": "FNS",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2018-04-25",
-   "datefindiffusion": "2018-05-16",
-   "datelimitereponse": "2018-05-16T10:30:00+00:00",
-   "nomacheteur": "DEPARTEMENT DE LA SARTHE",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": "1",
-   "marche_public_simplifie_label": "Marché public simplifié",
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "102"
-   ],
-   "dc": [
-    "102"
-   ],
-   "descripteur_libelle": [
-    "Eclairage public"
-   ],
-   "type_marche": [
-    "TRAVAUX"
-   ],
-   "type_marche_facette": [
-    "Travaux"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-57491\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-57491.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-04-25\", \"DATE_LIMITE_REPONSE\": \"2018-05-16T11:30:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-05-16\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"102\", \"LIBELLE\": \"Eclairage public\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Aménagement d'un carrefour giratoire RD338 / RD 310Travaux d'éclairage public La Hutte Commune de Saint-Germain-sur-Sarthe\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"DEPARTEMENT DE LA SARTHE\", \"CORRESPONDANT\": \"le Président\", \"ADRESSE\": \"Hôtel du département, Place Aristide Briand\", \"CP\": \"72072\", \"VILLE\": \"Le Mans\", \"MEL\": \"scp@sarthe.fr\", \"URL\": \"http://www.sarthe.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"DEPARTEMENT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"Aménagement d'un carrefour giratoire RD338 / RD 310Travaux d'éclairage public La Hutte Commune de Saint-Germain-sur-Sarthe\", \"CPV\": {\"PRINCIPAL\": \"45316110\"}, \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG04\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Le délai d'exécution des travaux est fixé à 30 jours calendaires\", \"QUANTITE\": \"Aménagement d'un carrefour giratoire RD338 / RD 310Travaux d'éclairage public La Hutte Commune de Saint-Germain-sur-Sarthe\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"Le prix des prestations (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"50\", \"#text\": \"La valeur technique des prestations (voir détail dans le règlement de la consultation)\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-05-16T11:30:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Paiement par virement à 30 jours, sur fonds propres.Conformément à l'article 110 du Décret no2016-360 du 25 mars 2016 relatif aux marchés publics, une avance sera versée au titulaire, sauf indication contraire dans l'acte d'engagement\", \"FORME_JURIDIQUE\": \"Le marché sera conclu soit avec un prestataire unique,soit avec des prestataires groupés solidaires ; soit avec des prestataires groupés conjoints.\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Voir annexes 1 à 3 du Règlement de la Consultation (Dispositif Marché Public simplifié)\", \"CAP_ECO\": \"Voir annexes 1 à 3 du Règlement de la Consultation (Dispositif Marché Public simplifié)\", \"CAP_TECH\": \"La présentation d'une liste des principaux services en cours d'exécution ou exécutés au cours des 2 dernières années, indiquant notamment le montant, la date et le maître de l'ouvrage public ou privé\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"18AT-SCP-2374-X\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.sarthe-marchespublics.frCe marché est conforme au dispositif d'expérimentation MPS (Marché Public Simplifié), et permet aux entreprises de candidater sur la base de leur seul numéro de SIRET.Le mode de transmission des éléments de la candidature et de l'offre est dématérialisé. La réponse électronique est indispensable mais aucune signature n'est exigée. La signature sera demandée à posteriori qu'au seul candidat retenu. Voir détails dans le règlement de la consultation.Pour obtenir tous les renseignements d'ordre administratif et technique qui leur seraient nécessaires au cours de leur étude, les candidats sont invités au plus tard 10 jours avant la date limite de remise des offres à passer par le module 'Correspondre avec l'acheteur' de laplateforme www.sarthe-marchespublics.fr.En cas de dysfonctionnement, vous pouvez contacter le secrétariat du Service de la Commande Publique au 02.43.54.72.66.Une réponse sera alors adressée en temps utile à tous les candidats au plus tard 8 jours avant la date limite de remise des offres.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"Immeuble Skyline, 22 mail Pablo Picasso Cedex 1 BP 24209\", \"CP\": \"44202\", \"VILLE\": \"NANTES\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://www.marche-public.fr/Marches-publics/Definitions/Entrees/CCRA.htm\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-57491"
-  },
-  {
    "idweb": "18-56229",
    "id": "18_56229",
    "contractfolderid": null,
@@ -5480,6 +5421,65 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-56229\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-56229.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-04-25\", \"DATE_FIN_DIFFUSION\": \"2018-06-01\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"20\", \"LIBELLE\": \"Assurance\"}}, \"DEP_PUBLICATION\": [\"49\", \"44\", \"56\", \"79\"], \"RESUME_OBJET\": \"marche d'assurance de prevoyance statutaire (2019-2023) - groupement de commandes\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Cholet\", \"CONTACT\": \"service Marchés-Contrats, à l'attention de M. le maire\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"Groupement de commandes : Ville de Cholet / Centre Intercommunal d'Action Sociale du Choletais (CIAS)Hôtel de VilleRue Saint BonaventureB.P. 32135\", \"CP\": \"49321\", \"VILLE\": \"Cholet cedex\", \"TEL\": \"(+33) 2-44-09-26-90\", \"FAX\": \"(+33) 2-44-09-26-98\", \"MEL\": \"marches-ville@ville-cholet.fr\", \"URL\": \"http://www.ville-cholet.fr\", \"URL_DOCUMENT\": \"http://www.anjoumarchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"MIN_AUTORITE_NATIONALE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"marche d'assurance de prevoyance statutaire (2019-2023) - groupement de commandes\", \"REF_MARCHE\": \"VDC18S0003\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Groupement de commandes : Ville de Cholet / Centre Intercommunal d'Action Sociale du Choletais (CIAS).La consultation porte sur le marche d'assurance de prevoyance statutaire (2019-2023) - groupement de commandes\", \"CPV\": {\"PRINCIPAL\": \"66512000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"marche d'assurance de prévoyance statutaire (2019-2023)\", \"CPV\": {\"PRINCIPAL\": \"66512000\"}, \"CODE_NUTS\": \"FRG02\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"2349950\"}, \"DUREE_MOIS\": \"60\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_OUI\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Variantes imposées\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Durée du marché : A compter du 1er janvier 2019 jusqu'au 31 décembre 2023 avec possibilité de résiliation annuelle à léchéance.\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-06-01T12:15:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"-Situation propre des opérateurs économiques, y compris exigences relatives à l'inscription au registre du commerce ou de la profession :Renseignements et formalités prévus aux articles 48, 50 à 54 du Décret no 2016-360 du 25 mars 2016 relatif aux marchés publics et précisés dans le règlement de la consultation.\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_TECH_OFFRE_OUI\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"PERS_OUVERTURE_OFFRES_OUI\": \"Date et heure ci-dessus prévisionnelle\", \"DATE_OUVERTURE_OFFRES\": \"2018-06-04\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_NON\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Les dossiers sont délivrés gratuitement sur place ou sur demande écrite (fax ou courrier). Les offres devront être envoyées par la poste sous pli recommandé avec avis de réception, ou par tout autre moyen permettant de donner une date certaine de réception.- Transmission par voie électronique autorisée : Le dossier de consultation peut être retiré sous forme électronique sur le site www.anjoumarchespublics.fr , sous la référence VDC18S0003.. Date d'envoi du présent avis au JOUE et au BOAMP : 23 avril 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile GlorietteBP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 1\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile GlorietteBP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 1\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-56229"
+  },
+  {
+   "idweb": "18-57491",
+   "id": "18_57491",
+   "contractfolderid": null,
+   "objet": "Aménagement d'un carrefour giratoire RD338 / RD 310Travaux d'éclairage public La Hutte Commune de Saint-Germain-sur-Sarthe",
+   "filename": "BOAMP-N-AO_2018_115005",
+   "famille": "FNS",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2018-04-25",
+   "datefindiffusion": "2018-05-16",
+   "datelimitereponse": "2018-05-16T10:30:00+00:00",
+   "nomacheteur": "DEPARTEMENT DE LA SARTHE",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": "1",
+   "marche_public_simplifie_label": "Marché public simplifié",
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "102"
+   ],
+   "dc": [
+    "102"
+   ],
+   "descripteur_libelle": [
+    "Eclairage public"
+   ],
+   "type_marche": [
+    "TRAVAUX"
+   ],
+   "type_marche_facette": [
+    "Travaux"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-57491\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-57491.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-04-25\", \"DATE_LIMITE_REPONSE\": \"2018-05-16T11:30:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-05-16\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"102\", \"LIBELLE\": \"Eclairage public\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Aménagement d'un carrefour giratoire RD338 / RD 310Travaux d'éclairage public La Hutte Commune de Saint-Germain-sur-Sarthe\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"DEPARTEMENT DE LA SARTHE\", \"CORRESPONDANT\": \"le Président\", \"ADRESSE\": \"Hôtel du département, Place Aristide Briand\", \"CP\": \"72072\", \"VILLE\": \"Le Mans\", \"MEL\": \"scp@sarthe.fr\", \"URL\": \"http://www.sarthe.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"DEPARTEMENT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"Aménagement d'un carrefour giratoire RD338 / RD 310Travaux d'éclairage public La Hutte Commune de Saint-Germain-sur-Sarthe\", \"CPV\": {\"PRINCIPAL\": \"45316110\"}, \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG04\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Le délai d'exécution des travaux est fixé à 30 jours calendaires\", \"QUANTITE\": \"Aménagement d'un carrefour giratoire RD338 / RD 310Travaux d'éclairage public La Hutte Commune de Saint-Germain-sur-Sarthe\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"Le prix des prestations (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"50\", \"#text\": \"La valeur technique des prestations (voir détail dans le règlement de la consultation)\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-05-16T11:30:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Paiement par virement à 30 jours, sur fonds propres.Conformément à l'article 110 du Décret no2016-360 du 25 mars 2016 relatif aux marchés publics, une avance sera versée au titulaire, sauf indication contraire dans l'acte d'engagement\", \"FORME_JURIDIQUE\": \"Le marché sera conclu soit avec un prestataire unique,soit avec des prestataires groupés solidaires ; soit avec des prestataires groupés conjoints.\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Voir annexes 1 à 3 du Règlement de la Consultation (Dispositif Marché Public simplifié)\", \"CAP_ECO\": \"Voir annexes 1 à 3 du Règlement de la Consultation (Dispositif Marché Public simplifié)\", \"CAP_TECH\": \"La présentation d'une liste des principaux services en cours d'exécution ou exécutés au cours des 2 dernières années, indiquant notamment le montant, la date et le maître de l'ouvrage public ou privé\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"18AT-SCP-2374-X\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.sarthe-marchespublics.frCe marché est conforme au dispositif d'expérimentation MPS (Marché Public Simplifié), et permet aux entreprises de candidater sur la base de leur seul numéro de SIRET.Le mode de transmission des éléments de la candidature et de l'offre est dématérialisé. La réponse électronique est indispensable mais aucune signature n'est exigée. La signature sera demandée à posteriori qu'au seul candidat retenu. Voir détails dans le règlement de la consultation.Pour obtenir tous les renseignements d'ordre administratif et technique qui leur seraient nécessaires au cours de leur étude, les candidats sont invités au plus tard 10 jours avant la date limite de remise des offres à passer par le module 'Correspondre avec l'acheteur' de laplateforme www.sarthe-marchespublics.fr.En cas de dysfonctionnement, vous pouvez contacter le secrétariat du Service de la Commande Publique au 02.43.54.72.66.Une réponse sera alors adressée en temps utile à tous les candidats au plus tard 8 jours avant la date limite de remise des offres.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"Immeuble Skyline, 22 mail Pablo Picasso Cedex 1 BP 24209\", \"CP\": \"44202\", \"VILLE\": \"NANTES\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://www.marche-public.fr/Marches-publics/Definitions/Entrees/CCRA.htm\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-57491"
   },
   {
    "idweb": "18-50454",

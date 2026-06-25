@@ -1539,67 +1539,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-181549"
   },
   {
-   "idweb": "16-182696",
-   "id": "16_182696",
-   "contractfolderid": null,
-   "objet": "Transformation de locaux associatifs en pôle d'appui médical",
-   "filename": "BOAMP-N-AO_2016_356005",
-   "famille": "FNS",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2016-12-21",
-   "datefindiffusion": "2017-01-27",
-   "datelimitereponse": "2017-01-27T11:00:00+00:00",
-   "nomacheteur": "CDC DES RIVES DE SARTHE",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "33",
-    "144",
-    "222"
-   ],
-   "dc": [
-    "33",
-    "144",
-    "222"
-   ],
-   "descripteur_libelle": [
-    "Bâtiment",
-    "Gros oeuvre",
-    "Menuiserie"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-182696\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-182696.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-12-21\", \"DATE_LIMITE_REPONSE\": \"2017-01-27T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2017-01-27\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"33\", \"LIBELLE\": \"Bâtiment\"}, {\"CODE\": \"144\", \"LIBELLE\": \"Gros oeuvre\"}, {\"CODE\": \"222\", \"LIBELLE\": \"Menuiserie\"}]}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Transformation de locaux associatifs en pôle d'appui médical\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CDC DES RIVES DE SARTHE\", \"CORRESPONDANT\": \"Boedec Pascal, Secrétaire Général\", \"ADRESSE\": \"6 rue Jules Ferry\", \"CP\": \"72380\", \"VILLE\": \"Sainte Jamme sur Sarthe\", \"TEL\": \"02-43-20-03-94\", \"MEL\": \"cdcrives.sarthe@wanadoo.fr\"}, \"OBJET\": {\"OBJET_COMPLET\": \"Transformation de locaux associatifs en pôle d'appui médical\", \"CPV\": {\"PRINCIPAL\": \"45215100\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"1 Rue des Hortensias\", \"CP\": \"72650\", \"VILLE\": \"LA BAZOGE\"}, \"AMP_NON\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Travaux de réhabilitation, restructuration et transformation de locaux associatifs existants en pôle d'appui médical\", \"QUANTITE\": \"Surface plancher après restructuration 397m2\"}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"7\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"DESCRIPTION\": \"Désamiantage\", \"CPV\": {\"PRINCIPAL\": \"45262660\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"7000\"}}, {\"NUM\": \"2\", \"DESCRIPTION\": \"Gros oeuvre\", \"CPV\": {\"PRINCIPAL\": \"45262311\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"62000\"}}, {\"NUM\": \"3\", \"DESCRIPTION\": \"Ossature bois\", \"CPV\": {\"PRINCIPAL\": \"45261100\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"16000\"}}, {\"NUM\": \"4\", \"DESCRIPTION\": \"Etanchéité\", \"CPV\": {\"PRINCIPAL\": \"45261420\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"7000\"}}, {\"NUM\": \"5\", \"DESCRIPTION\": \"Menuiseries extérieures - serrurerie\", \"CPV\": {\"PRINCIPAL\": \"45421100\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"62000\"}}, {\"NUM\": \"6\", \"DESCRIPTION\": \"Menuiseries intérieures\", \"CPV\": {\"PRINCIPAL\": \"45421000\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"23000\"}}, {\"NUM\": \"7\", \"DESCRIPTION\": \"Plâtrerie - cloisons sèches\", \"CPV\": {\"PRINCIPAL\": \"45421152\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"35000\"}}, {\"NUM\": \"8\", \"DESCRIPTION\": \"Vêtures/ Isolation extérieure\", \"CPV\": {\"PRINCIPAL\": \"45262650\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"48000\"}}, {\"NUM\": \"9\", \"DESCRIPTION\": \"Plafonds suspendus\", \"CPV\": {\"PRINCIPAL\": \"45421146\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"17000\"}}, {\"NUM\": \"10\", \"DESCRIPTION\": \"Carrelage-Faïence\", \"CPV\": {\"PRINCIPAL\": \"45431000\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"30000\"}}, {\"NUM\": \"11\", \"DESCRIPTION\": \"Peinture\", \"CPV\": {\"PRINCIPAL\": \"45442100\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"26000\"}}, {\"NUM\": \"12\", \"DESCRIPTION\": \"Ventilation - Plomberie\", \"CPV\": {\"PRINCIPAL\": \"45332000\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"28000\"}}, {\"NUM\": \"13\", \"DESCRIPTION\": \"Electricité - Chauffage\", \"CPV\": {\"PRINCIPAL\": \"45311000\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"57000\"}}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"Prix\"}, {\"@POIDS\": \"40\", \"#text\": \"Valeur technique de l'offre appréciée à l'aide du mémoire technique\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-01-27T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"90\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"voir article 5 CCAP\", \"FINANCEMENT\": \"Les sommes dues au(x) titulaire(s) et au(x) sous-traitant(s) de premier rang éventuel(s) du marché, seront payées dans un délai global de 30 jours à compter de la date de réception des factures ou des décomptes ou des demandes de paiement équivalentes\", \"FORME_JURIDIQUE\": \"groupement conjoint avec mandataire solidaire\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire obligatoirement par le candidat, à l'appui de sa candidature\", \"Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire\", \"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels\", \"Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années\", \"Présentation d'une liste des travaux exécutés au cours des cinq dernières années, appuyée d'attestations de bonne exécution pour les travaux les plus importants. Ces attestations indiquent le montant, l'époque et le lieu d'exécution des travaux et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin\", \"Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation de marchés de même nature\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Retrouvez cet avis intégral, l'accès au dossier et le guichet de dépôt sur http://www.marches-publics.info\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"COMMUNAUTE DE COMMUNES MAINE COEUR DE SARTHE\", \"ADRESSE\": \"MAISON DE L'INTERCOMMUNALITE - PLACE DE LA REPUBLIQUE\", \"CP\": \"72290\", \"VILLE\": \"BALLON\", \"TEL\": \"02-43-27-37-20\", \"URL\": \"http://www.marches-publics.info/\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-182696"
-  },
-  {
    "idweb": "16-181565",
    "id": "16_181565",
    "contractfolderid": null,
@@ -1729,6 +1668,67 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-181110\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": [{\"REFERENCE\": {\"IDWEB\": \"16-136809\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-09-19\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-09-21\", \"DATE_FIN_DIFFUSION\": \"2016-11-18\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"183\", \"NUM_ANNONCE\": \"328352\", \"DATE_PUBLICATION\": \"2016-09-22\"}}]}, {\"REFERENCE\": {\"IDWEB\": \"16-138985\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}, \"DATE_ENVOI\": \"2016-09-23\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-09-25\", \"DATE_FIN_DIFFUSION\": \"2016-11-30\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"186\", \"NUM_ANNONCE\": \"334109\", \"DATE_PUBLICATION\": \"2016-09-27\"}}]}]}, \"NOM_HTML\": \"16-181110.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-12-21\", \"DATE_FIN_DIFFUSION\": \"2017-02-28\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}, {\"CODE\": \"347\", \"LIBELLE\": \"Transport\"}]}, \"DEP_PUBLICATION\": [\"44\", \"53\", \"49\", \"72\", \"85\"], \"RESUME_OBJET\": \"Marchés publics de services de transport et d'affranchissement du courrier de Pôle emploi Pays de la Loire\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Pôle emploi Pays de la Loire\", \"ADJUDICATEUR_NUTS\": \"FR51\", \"ADRESSE\": \"1 rue de la Cale Crucy - CS 67910\", \"CP\": \"44179\", \"VILLE\": \"Nantes cedex 4\", \"MEL\": \"dr-marches.44116@pole-emploi.fr\", \"URL\": \"http://www.pole-emploi.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-public.gouv.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Emploi\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Marchés publics de services de transport et d'affranchissement du courrier de Pôle emploi Pays de la Loire\", \"REF_MARCHE\": \"2016_004\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"La consultation vise à la conclusion de marchés publics ayant pour objet l'organisation de navettes intersites pour le transport des documents internes dans des sacoches et des colis, ainsi que l'affranchissement du courrier externe pour Pôle emploi Pays de la Loire. Ces prestations sont décrites au Contrat et au Cahier des Charges Fonctionnel et Technique (CCFT)\", \"CPV\": {\"PRINCIPAL\": \"64120000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"510616\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Navettes et gestion du courrier\", \"DESCRIPTION\": \"Organisation de navettes intersites pour le transport des documents internes dans des sacoches et des colis pour Pôle emploi Pays de la Loire\", \"CPV\": {\"PRINCIPAL\": \"64120000\"}, \"CODE_NUTS\": \"FR51\", \"LIEU_PRINCIPAL\": \"Pays de la Loire\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"30\", \"#text\": \"Organisation dont 25% organisation pour la bonne exécution (15% organisation générale, 10% coordination navettes) et 5% sécurisation navettes (2% traçage, 3% dysfonctionnements/actions correctives)\"}, {\"@POIDS\": \"10\", \"#text\": \"Moyens humains dont 3% recrutement et 7% gestion des intervenants (dont 3% organisation de l'encadrement et 4% modalités de remplacement)\"}, {\"@POIDS\": \"5\", \"#text\": \"Gestion des aspects relatifs à la qualité et au pilotage du marché\"}, {\"@POIDS\": \"5\", \"#text\": \"Développement durable dont 3% formation aux enjeux RSE des intervenants et 2% parc de véhicules\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"50\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Affranchissement\", \"DESCRIPTION\": \"Affranchissement du courrier externe de Pôle emploi Pays de la Loire\", \"CPV\": {\"PRINCIPAL\": \"30131600\"}, \"CODE_NUTS\": \"FR51\", \"LIEU_PRINCIPAL\": \"Pays de la Loire\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"25\", \"#text\": \"Organisation et méthodes dont 10% modalités de prise en charge (7% moyens de réception, 3% traçage) et 15% modalités de traitement (10% préparation courriers, 5% remise pour distribution)\"}, {\"@POIDS\": \"10\", \"#text\": \"Qualité et pilotage du marché dont 5% dysfonctionnements et actions correctives et 5% méthodes de suivi qualitatif\"}, {\"@POIDS\": \"5\", \"#text\": \"Moyens humains et techniques dont 2% organisation de l'encadrement des intervenants et 3% organisation de la continuité de service\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"60\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"183\", \"NUM_ANNONCE\": \"328352\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2016_004\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Organisation de navettes intersites pour le transport des documents internes dans des sacoches et des colis pour Pôle emploi Pays de la Loire\", \"TITULAIRE\": {\"DENOMINATION\": \"TCS\", \"CODE_IDENT_NATIONAL\": \"351987086\", \"ADRESSE\": \"3 rue Joseph Bonnet BP 40001\", \"CP\": \"33015\", \"VILLE\": \"BORDEAUX\", \"CODE_NUTS\": \"FR612\", \"URL\": \"http://www.tcs.fr\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-12-05\", \"NB_OFFRE_RECU\": \"3\", \"ESTIMATION_INITIALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"400000\"}, \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"441496\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2016_004\", \"NUM_LOT\": \"2\", \"INTITULE\": \"Affranchissement\", \"TITULAIRE\": {\"DENOMINATION\": \"COURRIER PLUS\", \"CODE_IDENT_NATIONAL\": \"479389405\", \"ADRESSE\": \"4 bis rue Courtois\", \"CP\": \"59000\", \"VILLE\": \"LILLE\", \"CODE_NUTS\": \"FR30\", \"URL\": \"http://www.courrierplus.fr\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-12-05\", \"NB_OFFRE_RECU\": \"6\", \"ESTIMATION_INITIALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"250000\"}, \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"69120\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 19 décembre 2016.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"a. Avant la conclusion du contrat, recours sur la base de l'article L551-1 du code de justice administrative et/ou, contre un acte détachable du contrat, de l'article R421-1 du même code dans un délai de 2 mois à compter de l'accomplissement des formalités de publicité del'acte attaqué, le cas échéant assorti d'une demande de suspension sur le fondement de l'article L521-1 du même code - b. Après la conclusion du contrat : 1°) recours sur la base de l'article L551-13 du même code dans un délai de 31 jours à compter de la publication de l'avis d'attribution du contrat ; 2°) recours de pleine juridiction contestant la validité du contrat ou de certaines de ses clauses, dans un délai de 2 mois à compter de la publication de l'avis d'attribution du contrat, le cas échéant assorti d'une demande de suspension sur lefondement précité et/ou d'une demande indemnitaire ; en cas de demande indemnitaire, recours administratif préalable auprès du directeur régional aux coordonnées en tête d'avis et recours de pleine juridiction dans un délai de 2 mois à compter de la décision expresse de rejet ou sans condition de délai (sauf prescription) à défaut.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette CS 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.tanantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-181110"
+  },
+  {
+   "idweb": "16-182696",
+   "id": "16_182696",
+   "contractfolderid": null,
+   "objet": "Transformation de locaux associatifs en pôle d'appui médical",
+   "filename": "BOAMP-N-AO_2016_356005",
+   "famille": "FNS",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2016-12-21",
+   "datefindiffusion": "2017-01-27",
+   "datelimitereponse": "2017-01-27T11:00:00+00:00",
+   "nomacheteur": "CDC DES RIVES DE SARTHE",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "33",
+    "144",
+    "222"
+   ],
+   "dc": [
+    "33",
+    "144",
+    "222"
+   ],
+   "descripteur_libelle": [
+    "Bâtiment",
+    "Gros oeuvre",
+    "Menuiserie"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-182696\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-182696.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-12-21\", \"DATE_LIMITE_REPONSE\": \"2017-01-27T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2017-01-27\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"33\", \"LIBELLE\": \"Bâtiment\"}, {\"CODE\": \"144\", \"LIBELLE\": \"Gros oeuvre\"}, {\"CODE\": \"222\", \"LIBELLE\": \"Menuiserie\"}]}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Transformation de locaux associatifs en pôle d'appui médical\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CDC DES RIVES DE SARTHE\", \"CORRESPONDANT\": \"Boedec Pascal, Secrétaire Général\", \"ADRESSE\": \"6 rue Jules Ferry\", \"CP\": \"72380\", \"VILLE\": \"Sainte Jamme sur Sarthe\", \"TEL\": \"02-43-20-03-94\", \"MEL\": \"cdcrives.sarthe@wanadoo.fr\"}, \"OBJET\": {\"OBJET_COMPLET\": \"Transformation de locaux associatifs en pôle d'appui médical\", \"CPV\": {\"PRINCIPAL\": \"45215100\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"1 Rue des Hortensias\", \"CP\": \"72650\", \"VILLE\": \"LA BAZOGE\"}, \"AMP_NON\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Travaux de réhabilitation, restructuration et transformation de locaux associatifs existants en pôle d'appui médical\", \"QUANTITE\": \"Surface plancher après restructuration 397m2\"}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"7\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"DESCRIPTION\": \"Désamiantage\", \"CPV\": {\"PRINCIPAL\": \"45262660\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"7000\"}}, {\"NUM\": \"2\", \"DESCRIPTION\": \"Gros oeuvre\", \"CPV\": {\"PRINCIPAL\": \"45262311\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"62000\"}}, {\"NUM\": \"3\", \"DESCRIPTION\": \"Ossature bois\", \"CPV\": {\"PRINCIPAL\": \"45261100\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"16000\"}}, {\"NUM\": \"4\", \"DESCRIPTION\": \"Etanchéité\", \"CPV\": {\"PRINCIPAL\": \"45261420\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"7000\"}}, {\"NUM\": \"5\", \"DESCRIPTION\": \"Menuiseries extérieures - serrurerie\", \"CPV\": {\"PRINCIPAL\": \"45421100\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"62000\"}}, {\"NUM\": \"6\", \"DESCRIPTION\": \"Menuiseries intérieures\", \"CPV\": {\"PRINCIPAL\": \"45421000\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"23000\"}}, {\"NUM\": \"7\", \"DESCRIPTION\": \"Plâtrerie - cloisons sèches\", \"CPV\": {\"PRINCIPAL\": \"45421152\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"35000\"}}, {\"NUM\": \"8\", \"DESCRIPTION\": \"Vêtures/ Isolation extérieure\", \"CPV\": {\"PRINCIPAL\": \"45262650\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"48000\"}}, {\"NUM\": \"9\", \"DESCRIPTION\": \"Plafonds suspendus\", \"CPV\": {\"PRINCIPAL\": \"45421146\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"17000\"}}, {\"NUM\": \"10\", \"DESCRIPTION\": \"Carrelage-Faïence\", \"CPV\": {\"PRINCIPAL\": \"45431000\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"30000\"}}, {\"NUM\": \"11\", \"DESCRIPTION\": \"Peinture\", \"CPV\": {\"PRINCIPAL\": \"45442100\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"26000\"}}, {\"NUM\": \"12\", \"DESCRIPTION\": \"Ventilation - Plomberie\", \"CPV\": {\"PRINCIPAL\": \"45332000\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"28000\"}}, {\"NUM\": \"13\", \"DESCRIPTION\": \"Electricité - Chauffage\", \"CPV\": {\"PRINCIPAL\": \"45311000\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"57000\"}}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"Prix\"}, {\"@POIDS\": \"40\", \"#text\": \"Valeur technique de l'offre appréciée à l'aide du mémoire technique\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-01-27T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"90\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"voir article 5 CCAP\", \"FINANCEMENT\": \"Les sommes dues au(x) titulaire(s) et au(x) sous-traitant(s) de premier rang éventuel(s) du marché, seront payées dans un délai global de 30 jours à compter de la date de réception des factures ou des décomptes ou des demandes de paiement équivalentes\", \"FORME_JURIDIQUE\": \"groupement conjoint avec mandataire solidaire\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire obligatoirement par le candidat, à l'appui de sa candidature\", \"Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire\", \"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels\", \"Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années\", \"Présentation d'une liste des travaux exécutés au cours des cinq dernières années, appuyée d'attestations de bonne exécution pour les travaux les plus importants. Ces attestations indiquent le montant, l'époque et le lieu d'exécution des travaux et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin\", \"Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation de marchés de même nature\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Retrouvez cet avis intégral, l'accès au dossier et le guichet de dépôt sur http://www.marches-publics.info\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"COMMUNAUTE DE COMMUNES MAINE COEUR DE SARTHE\", \"ADRESSE\": \"MAISON DE L'INTERCOMMUNALITE - PLACE DE LA REPUBLIQUE\", \"CP\": \"72290\", \"VILLE\": \"BALLON\", \"TEL\": \"02-43-27-37-20\", \"URL\": \"http://www.marches-publics.info/\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-182696"
   },
   {
    "idweb": "16-180110",

@@ -73,7 +73,7 @@ source contracts the linking method recovers a plausible renewal for 705 of them
 (\textbf{64.1\%}), against an 11.3\% lexical baseline. Survival modeling gives a
 global Kaplan--Meier median survival of \textbf{48.2 months}, a Cox concordance
 of \textbf{0.6541}, and a best-fitting log-normal parametric model (AIC
-7{,}176.5). The fitted model is translated into 12- and 24-month renewal-risk
+7{,}176.6). The fitted model is translated into 12- and 24-month renewal-risk
 indicators at contract, buyer, and segment level. Buyer identities were
 consolidated by a SIREN enrichment step (completed 2026-06-24). The headline
 caveat: \texttt{event} is a proxy, and its precision has not yet been validated
@@ -199,7 +199,7 @@ Cox PH model
   & same notebook + \nolinkurl{reports/tables/survival/} \\[3pt]
 Parametric AFT models
   & \textcolor{done}{Done}
-  & Log-normal best (AIC 7,176.5)
+  & Log-normal best (AIC 7,176.6)
   & same notebook \\[3pt]
 Sensitivity analysis
   & \textcolor{done}{Done}
@@ -303,7 +303,7 @@ legally verified renewal probabilities. Output:
 Source contracts (\texttt{APPEL\_OFFRE}) & 1{,}933 \\
 Eligible (renewal window observable) & 1{,}100 \\
 Linked renewals (\texttt{event}~$=1$) & 705 \quad(64.1\%) \\
-Right-censored (\texttt{event}~$=0$) & 395 \quad(36.6\%) \\
+Right-censored (\texttt{event}~$=0$) & 395 \quad(35.9\%) \\
 Lexical baseline linking rate & 11.3\% \\
 \bottomrule
 \end{tabular}
@@ -395,7 +395,7 @@ Category / procedure terms          & \multicolumn{3}{c}{not significant ($p>0.1
 \end{tabular}
 \end{table}
 
-\paragraph{Parametric AFT models.} Log-normal fits best (AIC 7{,}176.5,
+\paragraph{Parametric AFT models.} Log-normal fits best (AIC 7{,}176.6,
 concordance 0.672), outperforming log-logistic (7{,}248.8) and Weibull
 (7{,}380.3). Full results:
 \nolinkurl{reports/tables/survival/parametric_aic_comparison.csv}.

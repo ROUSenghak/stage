@@ -549,68 +549,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-167195"
   },
   {
-   "idweb": "18-168157",
-   "id": "18_168157",
-   "contractfolderid": null,
-   "objet": "Fournitures de services de télécommunications pour la commune d'Avrillé et la commune d'Ecouflant",
-   "filename": "BOAMP-N-AO_2018_337010",
-   "famille": "FNS",
-   "code_departement": [
-    "49"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2018-12-03",
-   "datefindiffusion": "2019-01-11",
-   "datelimitereponse": "2019-01-11T11:00:00+00:00",
-   "nomacheteur": "Ville d'Avrillé",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": "1",
-   "marche_public_simplifie_label": "Marché public simplifié",
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "338",
-    "339"
-   ],
-   "dc": [
-    "338",
-    "339"
-   ],
-   "descripteur_libelle": [
-    "Télécommunications",
-    "Matériel de téléphonie"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-168157\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-168157.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-12-03\", \"DATE_LIMITE_REPONSE\": \"2019-01-11T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2019-01-11\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"338\", \"LIBELLE\": \"Télécommunications\"}, {\"CODE\": \"339\", \"LIBELLE\": \"Matériel de téléphonie\"}]}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Fournitures de services de télécommunications pour la commune d'Avrillé et la commune d'Ecouflant\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville d'Avrillé\", \"CORRESPONDANT\": \"M. Le Maire de la commune d'Avrillé\", \"ADRESSE\": \"Hôtel de Ville CS 50109\", \"CP\": \"49241\", \"VILLE\": \"AVRILLE\", \"MEL\": \"commandepublique@ville-avrille.fr\", \"URL\": \"https://alm.marches-securises.fr\", \"URL_PROFIL_ACHETEUR\": \"https://alm.marches-securises.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Numéro de la consultation : 18016 Fournitures de services de télécommunications pour la commune d'Avrillé et la commune d'Ecouflant\", \"CPV\": {\"PRINCIPAL\": \"64200000\"}, \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG02\"}, \"AMP_NON\": \"\", \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"DUREE_AN\": \"2\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"170000.00\"}}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Forme de marché : à bons de commande avec maximum. Attribution d'un accord-cadre pour chaque lot.\", \"QUANTITE\": \"Accord-cadre conclu pour une période initiale de 1 an, à compter du 01/04/2019 jusqu'au 31/03/2020. Nombre de périodes de reconduction fixé à 1, durée de chaque période de reconduction de 1 an, et durée maximale du contrat, toutes périodes confondues, de 2 ans.\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"170000.00\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"12\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"01\", \"DESCRIPTION\": \"Téléphonie fixe et internet\", \"CPV\": {\"PRINCIPAL\": \"64200000\"}, \"QUANTITE\": \"Période initiale(euros HT): Max 45000,00 Période 2: Max 35000,00\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"80000.00\"}, \"DUREE_MOIS\": \"12\"}, {\"NUM\": \"02\", \"DESCRIPTION\": \"Téléphonie mobile\", \"CPV\": {\"PRINCIPAL\": \"64200000\"}, \"QUANTITE\": \"Période initiale(euros HT): Max 35000,00 Période 2: Max 25000,00\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"60000.00\"}, \"DUREE_MOIS\": \"12\"}, {\"NUM\": \"03\", \"DESCRIPTION\": \"Téléphonie fixe analogique\", \"CPV\": {\"PRINCIPAL\": \"64200000\"}, \"QUANTITE\": \"Période initiale(euros HT): Max 15000,00 Ces montants seront identiques pour les périodes de reconduction\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"30000.00\"}, \"DUREE_MOIS\": \"12\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-01-11T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Aucune clause de garantie financière prévue. Garantie à première demande couvrant 100,0 % du montant de l'avance.\", \"FINANCEMENT\": \"Prestations réglées par des prix unitaires Prix ajustables annuellement. Avance de 5,0 % accordée dans les conditions prévues au contrat. Délai global de paiement des prestations de 30 jours. Modalités de financement des prestations : Les paiements s'effectuent par virement administratif.\", \"FORME_JURIDIQUE\": \"groupement conjoint avec mandataire solidaire\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Références requises mentionnées dans les documents de la consultation.\", \"CAP_ECO\": \"Références requises mentionnées dans les documents de la consultation.\", \"CAP_TECH\": \"Références requises mentionnées dans les documents de la consultation.\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Précision sur l'organisme acheteur mentionné dans le premier paragraphe du présent avis d'appel public à la concurrence :La présente consultation est lancée par la commune d'Avrillé, coordonnateur du groupement de commandes constitué par les communes d'Avrillé et Ecouflant. En conséquence, la commune d'Avrillé agit pour le compte dudit groupement.La transmission des documents par voie électronique est effectuée sur le profil d'acheteur. Les modalités de transmission des plis par voie électronique sont définies dans le règlement de la consultation. Les modalités de transmission des échantillons (lot 02 téléphonie mobile) sont définies dans le règlement de la consultation.La signature électronique des documents n'est pas exigée dans le cadre de cette consultation.La durée de 12 mois mentionnée dans le présent avis correspond à la période initiale de l'accord-cadre.Le montant de 170 000 euros HT mentionné dans le présent avis correspondau montant maximal de l' accord-cadre, tous lots et périodes (initiale et reconduction) compris.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"URL\": \"https://alm.marches-securises.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'île Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES CEDEX\", \"MEL\": \"greffe.ta-nante@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr/\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'île Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES CEDEX\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'île Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES CEDEX\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"URL\": \"https://alm.marches-securises.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-168157"
-  },
-  {
    "idweb": "18-167126",
    "id": "18_167126",
    "contractfolderid": null,
@@ -724,6 +662,68 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-167264\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-158308\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-11-13\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-11-15\", \"DATE_FIN_DIFFUSION\": \"2018-12-14\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"220\", \"NUM_ANNONCE\": \"502804\", \"DATE_PUBLICATION\": \"2018-11-15\"}}]}}, \"NOM_HTML\": \"18-167264.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-12-03\", \"DATE_FIN_DIFFUSION\": \"2018-12-14\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"479\", \"LIBELLE\": \"Amiante (désamiantage)\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"marchés de travaux pour la rénovation du musée dobrée à nantes - lot 1 - désamiantage (rectificatif)\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Conseil départemental Loire-Atlantique\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"3, Quai Ceineray CS 94109\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-10-00\", \"FAX\": \"(+33) 2-40-99-11-48\", \"MEL\": \"contact@loire-atlantique.fr\", \"URL\": \"http://www.loire-atlantique.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marches.loire-atlantique.fr\"}, \"OBJET\": {\"TITRE_MARCHE\": \"Marchés de travaux pour la rénovation du musée Dobrée à Nantes - lot 1 - Désamiantage\", \"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"Marchés de travaux pour la rénovation du musée Dobrée à Nantes - lot 1 - Désamiantage\", \"CPV\": {\"PRINCIPAL\": \"45262660\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-158308\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-11-13\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-11-15\", \"DATE_FIN_DIFFUSION\": \"2018-12-14\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"220\", \"NUM_ANNONCE\": \"502804\", \"DATE_PUBLICATION\": \"2018-11-15\"}}]}, \"MODIFICATION\": {\"RUB_INIT\": \"VI.3\", \"TEXTE\": {\"INIT\": \"Une visite sur site est obligatoire. L'offre d'un candidat qui n'a paseffectué cette visite sera déclarée irrégulière. Les conditions de visites sont les suivantes :Quatre matinées seront consacrées aux visites : les 22 , 23 , 27 et 28 novembre de 9 heures à 12heures. Il conviendra de prendre obligatoirement rendez-vous avec Monsieur Alain RICHARD(conducteur d'opérations au Département) au 02 40 99 16 15.\", \"LIRE\": \"Une visite sur site est obligatoire. L'offre d'un candidat qui n'a pas effectué cette visite ne pourra être analysée.Les conditions de visites sont les suivantes :Quatre matinées seront consacrées aux visites : les 22, 23, 27 et 28 novembre de 9h00 à 12h00.Pour tout créneau supplémentaire il conviendra de prendre obligatoirement rendez-vous avec Monsieur Alain RICHARD (conducteur d'opérations au Département) au 02 40 99 16 15.\"}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 30 novembre 2018.\"}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-167264"
+  },
+  {
+   "idweb": "18-168157",
+   "id": "18_168157",
+   "contractfolderid": null,
+   "objet": "Fournitures de services de télécommunications pour la commune d'Avrillé et la commune d'Ecouflant",
+   "filename": "BOAMP-N-AO_2018_337010",
+   "famille": "FNS",
+   "code_departement": [
+    "49"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2018-12-03",
+   "datefindiffusion": "2019-01-11",
+   "datelimitereponse": "2019-01-11T11:00:00+00:00",
+   "nomacheteur": "Ville d'Avrillé",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": "1",
+   "marche_public_simplifie_label": "Marché public simplifié",
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "338",
+    "339"
+   ],
+   "dc": [
+    "338",
+    "339"
+   ],
+   "descripteur_libelle": [
+    "Télécommunications",
+    "Matériel de téléphonie"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-168157\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-168157.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-12-03\", \"DATE_LIMITE_REPONSE\": \"2019-01-11T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2019-01-11\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"338\", \"LIBELLE\": \"Télécommunications\"}, {\"CODE\": \"339\", \"LIBELLE\": \"Matériel de téléphonie\"}]}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Fournitures de services de télécommunications pour la commune d'Avrillé et la commune d'Ecouflant\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville d'Avrillé\", \"CORRESPONDANT\": \"M. Le Maire de la commune d'Avrillé\", \"ADRESSE\": \"Hôtel de Ville CS 50109\", \"CP\": \"49241\", \"VILLE\": \"AVRILLE\", \"MEL\": \"commandepublique@ville-avrille.fr\", \"URL\": \"https://alm.marches-securises.fr\", \"URL_PROFIL_ACHETEUR\": \"https://alm.marches-securises.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Numéro de la consultation : 18016 Fournitures de services de télécommunications pour la commune d'Avrillé et la commune d'Ecouflant\", \"CPV\": {\"PRINCIPAL\": \"64200000\"}, \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG02\"}, \"AMP_NON\": \"\", \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"DUREE_AN\": \"2\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"170000.00\"}}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Forme de marché : à bons de commande avec maximum. Attribution d'un accord-cadre pour chaque lot.\", \"QUANTITE\": \"Accord-cadre conclu pour une période initiale de 1 an, à compter du 01/04/2019 jusqu'au 31/03/2020. Nombre de périodes de reconduction fixé à 1, durée de chaque période de reconduction de 1 an, et durée maximale du contrat, toutes périodes confondues, de 2 ans.\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"170000.00\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"12\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"01\", \"DESCRIPTION\": \"Téléphonie fixe et internet\", \"CPV\": {\"PRINCIPAL\": \"64200000\"}, \"QUANTITE\": \"Période initiale(euros HT): Max 45000,00 Période 2: Max 35000,00\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"80000.00\"}, \"DUREE_MOIS\": \"12\"}, {\"NUM\": \"02\", \"DESCRIPTION\": \"Téléphonie mobile\", \"CPV\": {\"PRINCIPAL\": \"64200000\"}, \"QUANTITE\": \"Période initiale(euros HT): Max 35000,00 Période 2: Max 25000,00\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"60000.00\"}, \"DUREE_MOIS\": \"12\"}, {\"NUM\": \"03\", \"DESCRIPTION\": \"Téléphonie fixe analogique\", \"CPV\": {\"PRINCIPAL\": \"64200000\"}, \"QUANTITE\": \"Période initiale(euros HT): Max 15000,00 Ces montants seront identiques pour les périodes de reconduction\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"30000.00\"}, \"DUREE_MOIS\": \"12\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-01-11T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Aucune clause de garantie financière prévue. Garantie à première demande couvrant 100,0 % du montant de l'avance.\", \"FINANCEMENT\": \"Prestations réglées par des prix unitaires Prix ajustables annuellement. Avance de 5,0 % accordée dans les conditions prévues au contrat. Délai global de paiement des prestations de 30 jours. Modalités de financement des prestations : Les paiements s'effectuent par virement administratif.\", \"FORME_JURIDIQUE\": \"groupement conjoint avec mandataire solidaire\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Références requises mentionnées dans les documents de la consultation.\", \"CAP_ECO\": \"Références requises mentionnées dans les documents de la consultation.\", \"CAP_TECH\": \"Références requises mentionnées dans les documents de la consultation.\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Précision sur l'organisme acheteur mentionné dans le premier paragraphe du présent avis d'appel public à la concurrence :La présente consultation est lancée par la commune d'Avrillé, coordonnateur du groupement de commandes constitué par les communes d'Avrillé et Ecouflant. En conséquence, la commune d'Avrillé agit pour le compte dudit groupement.La transmission des documents par voie électronique est effectuée sur le profil d'acheteur. Les modalités de transmission des plis par voie électronique sont définies dans le règlement de la consultation. Les modalités de transmission des échantillons (lot 02 téléphonie mobile) sont définies dans le règlement de la consultation.La signature électronique des documents n'est pas exigée dans le cadre de cette consultation.La durée de 12 mois mentionnée dans le présent avis correspond à la période initiale de l'accord-cadre.Le montant de 170 000 euros HT mentionné dans le présent avis correspondau montant maximal de l' accord-cadre, tous lots et périodes (initiale et reconduction) compris.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"URL\": \"https://alm.marches-securises.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'île Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES CEDEX\", \"MEL\": \"greffe.ta-nante@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr/\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'île Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES CEDEX\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'île Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES CEDEX\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"URL\": \"https://alm.marches-securises.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-168157"
   },
   {
    "idweb": "18-167334",
@@ -1436,65 +1436,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-168919"
   },
   {
-   "idweb": "18-168340",
-   "id": "18_168340",
-   "contractfolderid": null,
-   "objet": "Gestion et gardiennage de la déchetterie intercommunale (2)",
-   "filename": "BOAMP-J-AO_2018_339009",
-   "famille": "JOUE",
-   "code_departement": [
-    "85"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-12-05",
-   "datefindiffusion": "2019-01-02",
-   "datelimitereponse": null,
-   "nomacheteur": "CC Océan Marais de Monts",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "405"
-   ],
-   "dc": [
-    "405"
-   ],
-   "descripteur_libelle": [
-    "Déchetterie (exploitation)"
-   ],
-   "type_marche": [
-    "TRAVAUX"
-   ],
-   "type_marche_facette": [
-    "Travaux"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-168340\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-168340.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-12-05\", \"DATE_FIN_DIFFUSION\": \"2019-01-02\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"405\", \"LIBELLE\": \"Déchetterie (exploitation)\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"Gestion et gardiennage de la déchetterie intercommunale (2)\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CC Océan Marais de Monts\", \"CODE_IDENT_NATIONAL\": \"24850025800046\", \"CONTACT\": \"Monsieur André RICOLLEAU, Président\", \"ADJUDICATEUR_NUTS\": \"FR\", \"ADRESSE\": \"46 place de la Paix BP 721\", \"CP\": \"85167\", \"VILLE\": \"SAINT-JEAN-DE-MONTS Cedex\", \"TEL\": \"(+33) 2-51-58-07-89\", \"FAX\": \"(+33) 2-51-59-66-13\", \"MEL\": \"info@omdm.fr\", \"URL\": \"http://www.oceanmaraisdemonts.fr/\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-securises.fr\", \"URL_DOCUMENT\": \"http://www.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Gestion et gardiennage de la déchetterie intercommunale (2)\", \"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"Relance suite à déclaration sans suite\", \"CPV\": {\"PRINCIPAL\": \"90500000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Les prestations portent sur l'accueil du public, le contrôle d'accès, la surveillance, le rechargement des matériaux, la gestion des enlèvements des déchets et l'entretien de la déchetterie.\", \"CPV\": {\"PRINCIPAL\": \"90530000\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché pourra être reconduit 3 fois, par période de 12 mois, soit une date limite de fin fixée au plus tard au 28/02/2023.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-01-14T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO_MARCHE_NON\": \"\", \"CAP_TECH_OFFRE_NON\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-02-06\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 3 décembre 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES Cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradmin.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"DIRRECTE des Pays de la Loire - CCRA\", \"ADRESSE\": \"22 mail Pablo Picasso BP 242009\", \"CP\": \"44042\", \"VILLE\": \"Nantes Cedex1\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 0-25-34-67-97\", \"MEL\": \"paysdl.ccina@dirrecte.gouv.fr\", \"URL\": \"http://pays-de-la-loire.direccte.gouv.fr/\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"CCOMDM - Service Commande Publique\", \"ADRESSE\": \"46 place de la Paix BP 721\", \"CP\": \"85167\", \"VILLE\": \"Saint Jean de Monts\", \"TEL\": \"(+33) 2-51-58-07-89\", \"MEL\": \"accueil@omdm.fr\", \"URL\": \"http://www.cc.oceanmaraisdemonts.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-168340"
-  },
-  {
    "idweb": "18-165875",
    "id": "18_165875",
    "contractfolderid": null,
@@ -1555,6 +1496,65 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-165875\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-165875.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-12-05\", \"DATE_LIMITE_REPONSE\": \"2019-01-15T12:15:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2019-01-15\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"87\", \"LIBELLE\": \"Démolition\"}, {\"CODE\": \"479\", \"LIBELLE\": \"Amiante (désamiantage)\"}]}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Désamiantage et déconstruction des anciennes halles de cholet\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Cholet\", \"CORRESPONDANT\": \"Monsieur le Maire\", \"ADRESSE\": \"Hôtel de VilleService Marchés-ContratsRue Saint BonaventureBP 32135\", \"CP\": \"49321\", \"VILLE\": \"Cholet cedex\", \"TEL\": \"04-44-09-26-90\", \"FAX\": \"02-44-09-26-98\", \"URL\": \"http://www.cholet.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.anjoumarchespublics.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"TRAVAUX\": {\"EXECUTION\": \"\"}}, \"OBJET_COMPLET\": \"Désamiantage et déconstruction des anciennes halles de Cholet\", \"CPV\": {\"PRINCIPAL\": \"45223220\"}, \"AMP_OUI\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Le marché porte sur les travaux de désamiantage et de déconstruction des anciennes Halles situées Place du 8 mai 1945 à Cholet. L'attention des candidats est attirée sur le fait que les entreprises doivent intervenir en présence d'amiante dans les matériaux de tous les bâtiments concernés par les travaux.Le bâtiment à détruire est de type M de 2ème catégorie.Les prestations relèvent de la catégorie 3 au sens du Code du travail (Loi no 93-1418 sur 31 décembre 1993).Délai global d'exécution : Le délai global d'exécution de l'ensemble des travaux est fixé à 19 semaines, à compter de l'ordre de service de démarrage des travaux, (hors préparation fixée à 5 semaines à compter de la notification du marché - plan de retrait / pas de délais supplémentaire pour congés et intempéries).Les candidats peuvent visiter les lieux d'exécution du marché. En raison de l'occupation des locaux et compte tenu de l'activité commerciale et par mesure d'hygiène, les visites ne pourront avoir lieu et ne sont autorisées qu'aux dates suivantes :- le jeudi 13 décembre 2018 à 14h30,- le lundi 17 décembre à 10h00,- le mardi 18 décembre à 14h30.Les travaux devront être terminés fin de semaine 49 au plus tard.\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-01-15T12:15:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_TECH\": \"Justificatifs demandés\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"CONDITIONS_REMISE_OFFRES\": \"La transmission des candidatures et des offres des entreprises est réalisée obligatoirement par voie électronique à l'adresse suivante : www.anjoumarchespublics.fr\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Le dossier de consultation doit être retiré sous forme électronique sur le site www.anjoumarchespublics.fr.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile GlorietteBP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES CEDEX 1\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile GlorietteBP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES CEDEX 1\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-165875"
+  },
+  {
+   "idweb": "18-168340",
+   "id": "18_168340",
+   "contractfolderid": null,
+   "objet": "Gestion et gardiennage de la déchetterie intercommunale (2)",
+   "filename": "BOAMP-J-AO_2018_339009",
+   "famille": "JOUE",
+   "code_departement": [
+    "85"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-12-05",
+   "datefindiffusion": "2019-01-02",
+   "datelimitereponse": null,
+   "nomacheteur": "CC Océan Marais de Monts",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "405"
+   ],
+   "dc": [
+    "405"
+   ],
+   "descripteur_libelle": [
+    "Déchetterie (exploitation)"
+   ],
+   "type_marche": [
+    "TRAVAUX"
+   ],
+   "type_marche_facette": [
+    "Travaux"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-168340\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-168340.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-12-05\", \"DATE_FIN_DIFFUSION\": \"2019-01-02\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"405\", \"LIBELLE\": \"Déchetterie (exploitation)\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"Gestion et gardiennage de la déchetterie intercommunale (2)\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CC Océan Marais de Monts\", \"CODE_IDENT_NATIONAL\": \"24850025800046\", \"CONTACT\": \"Monsieur André RICOLLEAU, Président\", \"ADJUDICATEUR_NUTS\": \"FR\", \"ADRESSE\": \"46 place de la Paix BP 721\", \"CP\": \"85167\", \"VILLE\": \"SAINT-JEAN-DE-MONTS Cedex\", \"TEL\": \"(+33) 2-51-58-07-89\", \"FAX\": \"(+33) 2-51-59-66-13\", \"MEL\": \"info@omdm.fr\", \"URL\": \"http://www.oceanmaraisdemonts.fr/\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-securises.fr\", \"URL_DOCUMENT\": \"http://www.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Gestion et gardiennage de la déchetterie intercommunale (2)\", \"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"Relance suite à déclaration sans suite\", \"CPV\": {\"PRINCIPAL\": \"90500000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Les prestations portent sur l'accueil du public, le contrôle d'accès, la surveillance, le rechargement des matériaux, la gestion des enlèvements des déchets et l'entretien de la déchetterie.\", \"CPV\": {\"PRINCIPAL\": \"90530000\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché pourra être reconduit 3 fois, par période de 12 mois, soit une date limite de fin fixée au plus tard au 28/02/2023.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-01-14T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO_MARCHE_NON\": \"\", \"CAP_TECH_OFFRE_NON\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-02-06\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 3 décembre 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES Cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradmin.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"DIRRECTE des Pays de la Loire - CCRA\", \"ADRESSE\": \"22 mail Pablo Picasso BP 242009\", \"CP\": \"44042\", \"VILLE\": \"Nantes Cedex1\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 0-25-34-67-97\", \"MEL\": \"paysdl.ccina@dirrecte.gouv.fr\", \"URL\": \"http://pays-de-la-loire.direccte.gouv.fr/\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"CCOMDM - Service Commande Publique\", \"ADRESSE\": \"46 place de la Paix BP 721\", \"CP\": \"85167\", \"VILLE\": \"Saint Jean de Monts\", \"TEL\": \"(+33) 2-51-58-07-89\", \"MEL\": \"accueil@omdm.fr\", \"URL\": \"http://www.cc.oceanmaraisdemonts.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-168340"
   },
   {
    "idweb": "18-169312",
@@ -1995,65 +1995,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-167927"
   },
   {
-   "idweb": "18-169061",
-   "id": "18_169061",
-   "contractfolderid": null,
-   "objet": "Concession de services pour la gestion du centre aquatique intercommunal Océabul",
-   "filename": "BOAMP-J-AO_2018_340009",
-   "famille": "JOUE",
-   "code_departement": [
-    "85"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-12-06",
-   "datefindiffusion": "2018-12-23",
-   "datelimitereponse": null,
-   "nomacheteur": "CC Océan Marais de Monts",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": null,
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure NC",
-   "procedure_categorise": "/",
-   "nature": "PRE-INFORMATION",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis informatif",
-   "sousnature_libelle": null,
-   "nature_categorise": "information/standard",
-   "nature_categorise_libelle": "Avis informatif/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "265"
-   ],
-   "dc": [
-    "265"
-   ],
-   "descripteur_libelle": [
-    "Piscine"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "",
-    "3"
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-169061\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"PRE-INFORMATION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-169061.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-12-06\", \"DATE_FIN_DIFFUSION\": \"2018-12-23\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"265\", \"LIBELLE\": \"Piscine\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"Concession de services pour la gestion du centre aquatique intercommunal Océabul\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CC Océan Marais de Monts\", \"ADJUDICATEUR_NUTS\": \"FR\", \"ADRESSE\": \"46 place de la PaixBP 721\", \"CP\": \"85167\", \"VILLE\": \"Saint Jean de Monts\", \"TEL\": \"(+33) 2-51-58-07-89\", \"MEL\": \"geraldine.frotin@omdm.fr\", \"URL\": \"http://www.cc.oceanmaraisdemonts.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Concession de services pour la gestion du centre aquatique intercommunal Océabul\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"La Communauté de communes envisage la possibilité de déléguer aux frais et risques de l'exploitant la gestion du centre aquatique.\", \"CPV\": {\"PRINCIPAL\": \"92610000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"DATE_LANCEMENT\": \"2018-12-20\", \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"La Communauté de communes envisage la possibilité de déléguer aux frais et risques de l'exploitant la gestion du centre aquatique intercommunal.Date prévisionnelle de :- publication du DCE fixée au 20/12/2018- remise des offres fixée au 23/01/2019.\", \"CPV\": {\"PRINCIPAL\": \"92610000\"}, \"CODE_NUTS\": \"FR\"}}}, \"PROCEDURE\": {\"AMP_OUI\": \"\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_NON\": \"\"}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\"}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 4 décembre 2018.\"}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-169061"
-  },
-  {
    "idweb": "18-170038",
    "id": "18_170038",
    "contractfolderid": null,
@@ -2111,6 +2052,65 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-170038\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-170038.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-12-06\", \"DATE_LIMITE_REPONSE\": \"2019-01-11T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2019-01-11\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"264\", \"LIBELLE\": \"Peinture (travaux)\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"18S0111 Marquages d'animation centre-ville piétonnier de la Ville de Saint-Nazaire\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"COMMUNE DE SAINT NAZAIRE\", \"CORRESPONDANT\": \"SAMZUN DAVID, Monsieur Le Maire\", \"ADRESSE\": \"Place François Blancho\", \"CP\": \"44600\", \"VILLE\": \"Saint Nazaire\", \"MEL\": \"marchespublics@agglo-carene.fr\", \"URL\": \"http://www.saintnazaire.fr/\", \"URL_PROFIL_ACHETEUR\": \"http://www.agglo-carene.fr/demarches-et-infos-pratiques/marches-publics-414.html\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"18S0111 Marquages d'animation centre-ville piétonnier de la Ville de Saint-Nazaire\", \"CPV\": [{\"PRINCIPAL\": \"34922100\"}, {\"PRINCIPAL\": \"45233221\"}, {\"PRINCIPAL\": \"45442100\"}], \"AMP_OUI\": \"\", \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\", \"DUREE_MOIS\": \"48\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"QUANTITE\": \"18S0111 Marquages d'animation centre-ville piétonnier de la Ville de Saint-Nazaire\"}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"48\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-01-11T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"2-18S0111\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.agglo-carene.fr/demarches-et-infos-pratiques/marches-publics-414.htmlPour toute précision complémentaire se référer au cahier des charges. Retrait du dossier de consultation : http://www.agglo-carene.fr/demarches-et-infos-pratiques/marches-publics-414.html\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"ADMIN\": \"\"}, \"DENOMINATION\": \"Profil d'acheteur :\", \"ADRESSE\": \"http://www.agglo-carene.fr/demarches-et-infos-pratiques/marches-publics-414.html\", \"CP\": \"44600\", \"VILLE\": \"SAINT-NAZAIRE\"}, {\"TYPE\": {\"TECH\": \"\"}, \"DENOMINATION\": \"Profil d'acheteur :\", \"ADRESSE\": \"http://www.agglo-carene.fr/demarches-et-infos-pratiques/marches-publics-414.html\", \"CP\": \"44600\", \"VILLE\": \"SAINT-NAZAIRE\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-170038"
+  },
+  {
+   "idweb": "18-169061",
+   "id": "18_169061",
+   "contractfolderid": null,
+   "objet": "Concession de services pour la gestion du centre aquatique intercommunal Océabul",
+   "filename": "BOAMP-J-AO_2018_340009",
+   "famille": "JOUE",
+   "code_departement": [
+    "85"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-12-06",
+   "datefindiffusion": "2018-12-23",
+   "datelimitereponse": null,
+   "nomacheteur": "CC Océan Marais de Monts",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": null,
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure NC",
+   "procedure_categorise": "/",
+   "nature": "PRE-INFORMATION",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis informatif",
+   "sousnature_libelle": null,
+   "nature_categorise": "information/standard",
+   "nature_categorise_libelle": "Avis informatif/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "265"
+   ],
+   "dc": [
+    "265"
+   ],
+   "descripteur_libelle": [
+    "Piscine"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "",
+    "3"
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-169061\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"PRE-INFORMATION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-169061.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-12-06\", \"DATE_FIN_DIFFUSION\": \"2018-12-23\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"265\", \"LIBELLE\": \"Piscine\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"Concession de services pour la gestion du centre aquatique intercommunal Océabul\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CC Océan Marais de Monts\", \"ADJUDICATEUR_NUTS\": \"FR\", \"ADRESSE\": \"46 place de la PaixBP 721\", \"CP\": \"85167\", \"VILLE\": \"Saint Jean de Monts\", \"TEL\": \"(+33) 2-51-58-07-89\", \"MEL\": \"geraldine.frotin@omdm.fr\", \"URL\": \"http://www.cc.oceanmaraisdemonts.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Concession de services pour la gestion du centre aquatique intercommunal Océabul\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"La Communauté de communes envisage la possibilité de déléguer aux frais et risques de l'exploitant la gestion du centre aquatique.\", \"CPV\": {\"PRINCIPAL\": \"92610000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"DATE_LANCEMENT\": \"2018-12-20\", \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"La Communauté de communes envisage la possibilité de déléguer aux frais et risques de l'exploitant la gestion du centre aquatique intercommunal.Date prévisionnelle de :- publication du DCE fixée au 20/12/2018- remise des offres fixée au 23/01/2019.\", \"CPV\": {\"PRINCIPAL\": \"92610000\"}, \"CODE_NUTS\": \"FR\"}}}, \"PROCEDURE\": {\"AMP_OUI\": \"\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_NON\": \"\"}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\"}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 4 décembre 2018.\"}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-169061"
   },
   {
    "idweb": "18-166019",
@@ -3017,6 +3017,73 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-168643"
   },
   {
+   "idweb": "18-168508",
+   "id": "18_168508",
+   "contractfolderid": null,
+   "objet": "aménagement du côté sud et d'un terminus bus de la route du loroux bottereau entre la herdrie et la rue des landes de la plée, de l'impasse du launay bruneau, ...",
+   "filename": "BOAMP-N-AO_2018_341011",
+   "famille": "FNS",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2018-12-07",
+   "datefindiffusion": "2019-01-11",
+   "datelimitereponse": "2019-01-11T11:00:00+00:00",
+   "nomacheteur": "Nantes Métropole",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": [
+    "sociaux"
+   ],
+   "marche_public_simplifie": "1",
+   "marche_public_simplifie_label": "Marché public simplifié",
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "102",
+    "306",
+    "365"
+   ],
+   "dc": [
+    "102",
+    "306",
+    "365"
+   ],
+   "descripteur_libelle": [
+    "Eclairage public",
+    "Réseaux divers",
+    "Voirie"
+   ],
+   "type_marche": [
+    "TRAVAUX"
+   ],
+   "type_marche_facette": [
+    "Travaux"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-168508\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-168508.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-12-07\", \"DATE_LIMITE_REPONSE\": \"2019-01-11T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2019-01-11\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"102\", \"LIBELLE\": \"Eclairage public\"}, {\"CODE\": \"306\", \"LIBELLE\": \"Réseaux divers\"}, {\"CODE\": \"365\", \"LIBELLE\": \"Voirie\"}]}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\"}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"aménagement du côté sud et d'un terminus bus de la route du loroux bottereau entre la herdrie et la rue des landes de la plée, de l'impasse du launay bruneau, ...\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Nantes Métropole\", \"CORRESPONDANT\": \"Mme la Présidente\", \"ADRESSE\": \"2 cours du Champ de Mars\", \"CP\": \"44923\", \"VILLE\": \"Nantes cedex 9\", \"URL\": \"http://www.nantesmetropole.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marchespublics.nantesmetropole.fr\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\", \"ENVIRONNEMENT\": \"\", \"AFF_ECO_FIN\": \"\", \"LOG_DEV_COL\": \"\", \"AUTRE\": \"transport, voirie\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"TRAVAUX\": {\"EXECUTION\": \"\"}}, \"OBJET_COMPLET\": \"Aménagement du côté sud et d'un terminus bus de la Route du Loroux Bottereau entre la Herdrie et la rue des Landes de la Plée, de l'impasse du Launay Bruneau, de l'amorce de la rue de la Basse Lande et d'une liaison structurante pour les modes actifs entre l'impasse Launay Bruneau et la rue des Camps Ménauds.\", \"CPV\": {\"PRINCIPAL\": \"90611000\"}, \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG01\"}, \"AMP_OUI\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Le présent marché de travaux a pour objet à titre principal l'aménagement d'une voie verte, d'un giratoire et réfection de l'éclairage publique route du Loroux-Bottereau et impasse du Launay Bruneau sur la Commune de Basse-Goulaine.Ce marché prend la forme d'un marché ordinaire. A titre accessoire, et dans le cadre de l'exécution, ce marché comporte pour chacun des lots une prestation d'insertion professionnelle des personnes en difficultés.\"}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"4\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Voirie\", \"DESCRIPTION\": \"Voirie\", \"CPV\": {\"PRINCIPAL\": \"90611000\"}, \"INFO_COMPL\": \"Pour le lot 1 uniquement : les concurrents peuvent également présenter, conformément à l'article 58 du Décret nº2016-360 du 25 mars 2016, une offre comportant des variantes.\"}, {\"NUM\": \"2\", \"INTITULE\": \"Eclairage public, réseaux souples\", \"DESCRIPTION\": \"Eclairage public, réseaux souples\", \"CPV\": {\"PRINCIPAL\": \"34993000\"}}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-01-11T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"5\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FORME_JURIDIQUE\": \"L'acheteur ne souhaite imposer aucune forme de groupement à l'attributaire du marché.\", \"AUTRES_CONDITIONS_PART_OUI\": \"A titre accessoire, et dans le cadre de l'exécution, ce marché comporte pour chacun des lots une prestation d'insertion professionnelle des personnes en difficultés.\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"Aptitude à exercer l'activité professionnelle, capacité économique et financière, capacités techniques et professionnelles\", \"SITUATION_JURIDIQUE\": \"- Lettre de candidature (imprimé DC1) que la candidature soit présentée à titre individuel ou en groupement\", \"CAP_ECO\": \"- Déclaration concernant le chiffre d'affaires global du candidat et, le cas échéant, le chiffre d'affaires du domaine d'activité faisant l'objet du marché public, portant au maximum sur les trois derniers exercices disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles (imprimé DC2) - Preuve d'une assurance pour les risques professionnels\", \"CAP_TECH\": \"- Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années (en annexe au DC2 si utilisation de ce document et tout document complémentaire)  - Description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation du marché public (en annexe au DC2 si utilisation de ce document et tout document complémentaire) - Liste des travaux exécutés au cours des cinq dernières années, assortie d'attestations de bonne exécution pour les travaux les plus importants. Ces attestations indiquent le montant, la date et le lieu d'exécution des travaux et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin (en annexe au DC2 si utilisation de ce document et tout document complémentaire ) - Les qualifications suivantes sont demandées dans le cadre de cette opération :\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"18EP012\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"ADMIN\": \"\"}, \"DENOMINATION\": \"Nantes Métropole\", \"CORRESPONDANT\": \"Céline MOUSSION\", \"ADRESSE\": \"Direction de la Commande PubliqueService des Marchés Publics29 rue de Strasbourg\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33)2-40-41-51-16\", \"MEL\": \"celine.moussion@nantesmetropole.fr\", \"URL\": \"http://www.marchespublics.nantesmetropole.fr\"}, {\"TYPE\": {\"TECH\": \"\"}, \"DENOMINATION\": \"Nantes Métropole\", \"CORRESPONDANT\": \"Sibyl PODDANY\", \"ADRESSE\": \"Pôle Loire, Sèvre et VignobleService Projets6 rue Marie Curie\", \"CP\": \"44120\", \"VILLE\": \"Vertou\", \"TEL\": \"(+33)2-72-01-26-34\", \"MEL\": \"sibyl.poddany@nantesmetropole.fr\", \"URL\": \"http://www.marchespublics.nantesmetropole.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'ile GlorietteBP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-40-99-46-00\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'ile GlorietteBP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-40-99-46-00\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-168508"
+  },
+  {
    "idweb": "18-161111",
    "id": "18_161111",
    "contractfolderid": null,
@@ -3090,73 +3157,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-161111"
   },
   {
-   "idweb": "18-168508",
-   "id": "18_168508",
-   "contractfolderid": null,
-   "objet": "aménagement du côté sud et d'un terminus bus de la route du loroux bottereau entre la herdrie et la rue des landes de la plée, de l'impasse du launay bruneau, ...",
-   "filename": "BOAMP-N-AO_2018_341011",
-   "famille": "FNS",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2018-12-07",
-   "datefindiffusion": "2019-01-11",
-   "datelimitereponse": "2019-01-11T11:00:00+00:00",
-   "nomacheteur": "Nantes Métropole",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": [
-    "sociaux"
-   ],
-   "marche_public_simplifie": "1",
-   "marche_public_simplifie_label": "Marché public simplifié",
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "102",
-    "306",
-    "365"
-   ],
-   "dc": [
-    "102",
-    "306",
-    "365"
-   ],
-   "descripteur_libelle": [
-    "Eclairage public",
-    "Réseaux divers",
-    "Voirie"
-   ],
-   "type_marche": [
-    "TRAVAUX"
-   ],
-   "type_marche_facette": [
-    "Travaux"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-168508\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-168508.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-12-07\", \"DATE_LIMITE_REPONSE\": \"2019-01-11T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2019-01-11\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"102\", \"LIBELLE\": \"Eclairage public\"}, {\"CODE\": \"306\", \"LIBELLE\": \"Réseaux divers\"}, {\"CODE\": \"365\", \"LIBELLE\": \"Voirie\"}]}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\"}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"aménagement du côté sud et d'un terminus bus de la route du loroux bottereau entre la herdrie et la rue des landes de la plée, de l'impasse du launay bruneau, ...\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Nantes Métropole\", \"CORRESPONDANT\": \"Mme la Présidente\", \"ADRESSE\": \"2 cours du Champ de Mars\", \"CP\": \"44923\", \"VILLE\": \"Nantes cedex 9\", \"URL\": \"http://www.nantesmetropole.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marchespublics.nantesmetropole.fr\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\", \"ENVIRONNEMENT\": \"\", \"AFF_ECO_FIN\": \"\", \"LOG_DEV_COL\": \"\", \"AUTRE\": \"transport, voirie\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"TRAVAUX\": {\"EXECUTION\": \"\"}}, \"OBJET_COMPLET\": \"Aménagement du côté sud et d'un terminus bus de la Route du Loroux Bottereau entre la Herdrie et la rue des Landes de la Plée, de l'impasse du Launay Bruneau, de l'amorce de la rue de la Basse Lande et d'une liaison structurante pour les modes actifs entre l'impasse Launay Bruneau et la rue des Camps Ménauds.\", \"CPV\": {\"PRINCIPAL\": \"90611000\"}, \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG01\"}, \"AMP_OUI\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Le présent marché de travaux a pour objet à titre principal l'aménagement d'une voie verte, d'un giratoire et réfection de l'éclairage publique route du Loroux-Bottereau et impasse du Launay Bruneau sur la Commune de Basse-Goulaine.Ce marché prend la forme d'un marché ordinaire. A titre accessoire, et dans le cadre de l'exécution, ce marché comporte pour chacun des lots une prestation d'insertion professionnelle des personnes en difficultés.\"}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"4\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Voirie\", \"DESCRIPTION\": \"Voirie\", \"CPV\": {\"PRINCIPAL\": \"90611000\"}, \"INFO_COMPL\": \"Pour le lot 1 uniquement : les concurrents peuvent également présenter, conformément à l'article 58 du Décret nº2016-360 du 25 mars 2016, une offre comportant des variantes.\"}, {\"NUM\": \"2\", \"INTITULE\": \"Eclairage public, réseaux souples\", \"DESCRIPTION\": \"Eclairage public, réseaux souples\", \"CPV\": {\"PRINCIPAL\": \"34993000\"}}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-01-11T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"5\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FORME_JURIDIQUE\": \"L'acheteur ne souhaite imposer aucune forme de groupement à l'attributaire du marché.\", \"AUTRES_CONDITIONS_PART_OUI\": \"A titre accessoire, et dans le cadre de l'exécution, ce marché comporte pour chacun des lots une prestation d'insertion professionnelle des personnes en difficultés.\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"Aptitude à exercer l'activité professionnelle, capacité économique et financière, capacités techniques et professionnelles\", \"SITUATION_JURIDIQUE\": \"- Lettre de candidature (imprimé DC1) que la candidature soit présentée à titre individuel ou en groupement\", \"CAP_ECO\": \"- Déclaration concernant le chiffre d'affaires global du candidat et, le cas échéant, le chiffre d'affaires du domaine d'activité faisant l'objet du marché public, portant au maximum sur les trois derniers exercices disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles (imprimé DC2) - Preuve d'une assurance pour les risques professionnels\", \"CAP_TECH\": \"- Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années (en annexe au DC2 si utilisation de ce document et tout document complémentaire)  - Description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation du marché public (en annexe au DC2 si utilisation de ce document et tout document complémentaire) - Liste des travaux exécutés au cours des cinq dernières années, assortie d'attestations de bonne exécution pour les travaux les plus importants. Ces attestations indiquent le montant, la date et le lieu d'exécution des travaux et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin (en annexe au DC2 si utilisation de ce document et tout document complémentaire ) - Les qualifications suivantes sont demandées dans le cadre de cette opération :\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"18EP012\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"ADMIN\": \"\"}, \"DENOMINATION\": \"Nantes Métropole\", \"CORRESPONDANT\": \"Céline MOUSSION\", \"ADRESSE\": \"Direction de la Commande PubliqueService des Marchés Publics29 rue de Strasbourg\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33)2-40-41-51-16\", \"MEL\": \"celine.moussion@nantesmetropole.fr\", \"URL\": \"http://www.marchespublics.nantesmetropole.fr\"}, {\"TYPE\": {\"TECH\": \"\"}, \"DENOMINATION\": \"Nantes Métropole\", \"CORRESPONDANT\": \"Sibyl PODDANY\", \"ADRESSE\": \"Pôle Loire, Sèvre et VignobleService Projets6 rue Marie Curie\", \"CP\": \"44120\", \"VILLE\": \"Vertou\", \"TEL\": \"(+33)2-72-01-26-34\", \"MEL\": \"sibyl.poddany@nantesmetropole.fr\", \"URL\": \"http://www.marchespublics.nantesmetropole.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'ile GlorietteBP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-40-99-46-00\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'ile GlorietteBP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-40-99-46-00\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-168508"
-  },
-  {
    "idweb": "18-171240",
    "id": "18_171240",
    "contractfolderid": null,
@@ -3223,63 +3223,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-171240"
   },
   {
-   "idweb": "18-170763",
-   "id": "18_170763",
-   "contractfolderid": null,
-   "objet": "FOURNITURE DE PROGRAMMES D'EVALUATION EXTERNE DE LA QUALITE POUR LES LABORATOIRES DE BIOLOGIE MEDICALE DES ETABLISSEMENTS DU GHT 49",
-   "filename": "BOAMP-N-AO_2018_341005",
-   "famille": "FNS",
-   "code_departement": [
-    "49"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2018-12-07",
-   "datefindiffusion": "2018-12-18",
-   "datelimitereponse": null,
-   "nomacheteur": "CTRE HOSP UNIVERSITAIRE ANGERS",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "RECTIFICATIF",
-   "descripteur_code": [
-    "181"
-   ],
-   "dc": [
-    "181"
-   ],
-   "descripteur_libelle": [
-    "Laboratoire (fourniture)"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": [
-    "18-163647"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"18-163647\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-11-22\", \"DATE_FIN_DIFFUSION\": \"2018-12-07\"}}}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-170763\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-163647\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-11-22\", \"DATE_FIN_DIFFUSION\": \"2018-12-07\"}}}}, \"NOM_HTML\": \"18-170763.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-12-07\", \"DATE_FIN_DIFFUSION\": \"2018-12-18\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"181\", \"LIBELLE\": \"Laboratoire (fourniture)\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"FOURNITURE DE PROGRAMMES D'EVALUATION EXTERNE DE LA QUALITE POUR LES LABORATOIRES DE BIOLOGIE MEDICALE DES ETABLISSEMENTS DU GHT 49\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CTRE HOSP UNIVERSITAIRE ANGERS\", \"CORRESPONDANT\": \"Mme GENERALE LA DIRECTRICE, CENTRE HOSPITALIER UNIVERSITAIRE D'ANGERS\", \"ADRESSE\": \"4 rue Larrey\", \"CP\": \"49933\", \"VILLE\": \"Angers cédex 9\", \"TEL\": \"02-41-35-33-21\", \"FAX\": \"02-41-35-55-04\", \"URL\": \"https://www.chu-angers.fr\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"\"}, \"OBJET\": {\"OBJET_COMPLET\": \"FOURNITURE DE PROGRAMMES D'EVALUATION EXTERNE DE LA QUALITE POUR LES LABORATOIRES DE BIOLOGIE MEDICALE DES ETABLISSEMENTS DU GHT 49\", \"CPV\": {\"PRINCIPAL\": \"85145000\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-163647\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-11-22\", \"DATE_FIN_DIFFUSION\": \"2018-12-07\"}}}, \"MODIFICATION\": {\"RUB_INIT\": \"Date limite de réception des offres\", \"TXT_INIT\": \"2018-12-07T14:00:00+01:00\", \"LIRE\": \"2018-12-18T14:00:00+01:00\"}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-170763"
-  },
-  {
    "idweb": "18-169352",
    "id": "18_169352",
    "contractfolderid": null,
@@ -3341,6 +3284,63 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-169352\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-142484\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-10-11\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-10-13\", \"DATE_FIN_DIFFUSION\": \"2018-11-09\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"199\", \"NUM_ANNONCE\": \"450450\", \"DATE_PUBLICATION\": \"2018-10-16\"}}]}}, \"NOM_HTML\": \"18-169352.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-12-07\", \"DATE_FIN_DIFFUSION\": \"2018-12-14\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"475\", \"LIBELLE\": \"Véhicules (acquisition)\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"FOUNITURE D'UNE BENNE A ORDURES MENAGERES 19 T SUR UN CHASSIS GNV COMPRESSE\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Saumur Agglopropreté\", \"CONTACT\": \"Madame la Directrice Générale\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"201 boulevard Jean Moulin - BP 90036\", \"CP\": \"49401\", \"VILLE\": \"SAUMUR Cedex\", \"TEL\": \"(+33) 1-02-41-50-44-67\", \"MEL\": \"accueil@agglopropre49.fr\", \"URL\": \"http://http://www.agglopropre49.fr/\", \"URL_PROFIL_ACHETEUR\": \"http://agglopropre49.e-marchespublics.com\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Organisme de droit privé\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ENVIRONNEMENT\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"FOUNITURE D'UNE BENNE A ORDURES MENAGERES SUR UN CHASSIS GNV COMPRESSE\", \"REF_MARCHE\": \"SPL 2018-04\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"FOUNITURE D'UNE BENNE A ORDURES MENAGERES 19 T SUR UN CHASSIS GNV COMPRESSE\", \"CPV\": {\"PRINCIPAL\": \"90513000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"253680\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Fourniture d'une benne à ordures ménagères sur un châssis GNV compressé\", \"CPV\": [{\"PRINCIPAL\": \"90513000\"}, {\"PRINCIPAL\": \"50114000\"}], \"CODE_NUTS\": \"FRG02\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"30\", \"#text\": \"Valeur technique\"}, {\"@POIDS\": \"15\", \"#text\": \"Garantie constructeur (caisson et lève-conteneur)\"}, {\"@POIDS\": \"5\", \"#text\": \"Valeur environnentale\"}]}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"50\", \"#text\": \"Prix fourniutre et coût maintenance\"}}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AMP_OUI\": \"\"}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"SPL 2018-04\", \"INTITULE\": \"FOURNITURE D'UNE BENNE A ORDURES MENAGERES SUR UN CHASSIS GNV COMPRESSE\", \"TITULAIRE\": {\"DENOMINATION\": \"EUROVOIRIE\", \"ADRESSE\": \"40, avenue Eugène Gazeau\", \"CP\": \"60300\", \"VILLE\": \"SENLIS\", \"CODE_NUTS\": \"FRE22\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-11-19\", \"NB_OFFRE_RECU\": \"3\", \"NB_OFFRE_RECU_ELECT\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"253680\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 5 décembre 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal de Grande Instance\", \"ADRESSE\": \"7, rue Pierre Abellard - CS 73127\", \"CP\": \"35031\", \"VILLE\": \"RENNES\"}}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-169352"
+  },
+  {
+   "idweb": "18-170763",
+   "id": "18_170763",
+   "contractfolderid": null,
+   "objet": "FOURNITURE DE PROGRAMMES D'EVALUATION EXTERNE DE LA QUALITE POUR LES LABORATOIRES DE BIOLOGIE MEDICALE DES ETABLISSEMENTS DU GHT 49",
+   "filename": "BOAMP-N-AO_2018_341005",
+   "famille": "FNS",
+   "code_departement": [
+    "49"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2018-12-07",
+   "datefindiffusion": "2018-12-18",
+   "datelimitereponse": null,
+   "nomacheteur": "CTRE HOSP UNIVERSITAIRE ANGERS",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "RECTIFICATIF",
+   "descripteur_code": [
+    "181"
+   ],
+   "dc": [
+    "181"
+   ],
+   "descripteur_libelle": [
+    "Laboratoire (fourniture)"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": [
+    "18-163647"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"18-163647\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-11-22\", \"DATE_FIN_DIFFUSION\": \"2018-12-07\"}}}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-170763\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-163647\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-11-22\", \"DATE_FIN_DIFFUSION\": \"2018-12-07\"}}}}, \"NOM_HTML\": \"18-170763.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-12-07\", \"DATE_FIN_DIFFUSION\": \"2018-12-18\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"181\", \"LIBELLE\": \"Laboratoire (fourniture)\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"FOURNITURE DE PROGRAMMES D'EVALUATION EXTERNE DE LA QUALITE POUR LES LABORATOIRES DE BIOLOGIE MEDICALE DES ETABLISSEMENTS DU GHT 49\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CTRE HOSP UNIVERSITAIRE ANGERS\", \"CORRESPONDANT\": \"Mme GENERALE LA DIRECTRICE, CENTRE HOSPITALIER UNIVERSITAIRE D'ANGERS\", \"ADRESSE\": \"4 rue Larrey\", \"CP\": \"49933\", \"VILLE\": \"Angers cédex 9\", \"TEL\": \"02-41-35-33-21\", \"FAX\": \"02-41-35-55-04\", \"URL\": \"https://www.chu-angers.fr\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"\"}, \"OBJET\": {\"OBJET_COMPLET\": \"FOURNITURE DE PROGRAMMES D'EVALUATION EXTERNE DE LA QUALITE POUR LES LABORATOIRES DE BIOLOGIE MEDICALE DES ETABLISSEMENTS DU GHT 49\", \"CPV\": {\"PRINCIPAL\": \"85145000\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-163647\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-11-22\", \"DATE_FIN_DIFFUSION\": \"2018-12-07\"}}}, \"MODIFICATION\": {\"RUB_INIT\": \"Date limite de réception des offres\", \"TXT_INIT\": \"2018-12-07T14:00:00+01:00\", \"LIRE\": \"2018-12-18T14:00:00+01:00\"}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-170763"
   },
   {
    "idweb": "18-170532",
@@ -5460,74 +5460,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-172782"
   },
   {
-   "idweb": "18-156928",
-   "id": "18_156928",
-   "contractfolderid": null,
-   "objet": "Fourniture de gaz naturel pour les services du Département de Maine-et-Loire et du Service départemental d'incendie et de secours (SDIS) de Maine-et-Loire",
-   "filename": "BOAMP-J-IC-AA_2018_346004",
-   "famille": "JOUE",
-   "code_departement": [
-    "49"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-12-12",
-   "datefindiffusion": "2019-03-05",
-   "datelimitereponse": null,
-   "nomacheteur": "Département de Maine-et-Loire",
-   "titulaire": [
-    "EDF SA",
-    "Eni gas &amp; Power France",
-    "SAS GAZ DE BORDEAUX",
-    "TOTAL ENERGIE GAZ SA",
-    "SAS GAZ DE BORDEAUX",
-    "TOTAL ENERGIE GAZ SA"
-   ],
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "ATTRIBUTION",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "443"
-   ],
-   "dc": [
-    "443"
-   ],
-   "descripteur_libelle": [
-    "Electricité, gaz (fourniture)"
-   ],
-   "type_marche": [
-    "FOURNITURES"
-   ],
-   "type_marche_facette": [
-    "Fournitures"
-   ],
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "18-120311"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"18-120311\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-09-06\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-09-08\", \"DATE_FIN_DIFFUSION\": \"2018-10-09\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"174\", \"NUM_ANNONCE\": \"393998\", \"DATE_PUBLICATION\": \"2018-09-11\"}}]}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-156928\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-120311\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-09-06\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-09-08\", \"DATE_FIN_DIFFUSION\": \"2018-10-09\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"174\", \"NUM_ANNONCE\": \"393998\", \"DATE_PUBLICATION\": \"2018-09-11\"}}]}}, \"NOM_HTML\": \"18-156928.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-12-12\", \"DATE_FIN_DIFFUSION\": \"2019-03-05\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"443\", \"LIBELLE\": \"Electricité, gaz (fourniture)\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Fourniture de gaz naturel pour les services du Département de Maine-et-Loire et du Service départemental d'incendie et de secours (SDIS) de Maine-et-Loire\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Département de Maine-et-Loire\", \"CODE_IDENT_NATIONAL\": \"22490001900015\", \"CONTACT\": \"Service de la commande publique et des assurances\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"Hôtel du Département - Direction des finances, des affaires juridiques et de l'évaluation - 48 B boulevard Foch - CS 94104\", \"CP\": \"49941\", \"VILLE\": \"ANGERS Cedex 9\", \"TEL\": \"(+33) -02-41-81-44-19\", \"MEL\": \"commande-publique@maine-et-loire.fr\", \"URL\": \"http://www.maine-et-loire.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.anjoumarchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de gaz naturel pour les services du Département de Maine-et-Loire et du Service départemental d'incendie et de secours (SDIS) de Maine-et-Loire\", \"REF_MARCHE\": \"AC/FCS/2018/46\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Fourniture de gaz naturel\", \"CPV\": {\"PRINCIPAL\": \"09123000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"5598295.30\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Fourniture de gaz naturel - Tarif T3\", \"DESCRIPTION\": \"Fourniture de gaz naturel\", \"CPV\": {\"PRINCIPAL\": \"09123000\"}, \"CODE_NUTS\": \"FRG02\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"75%\", \"#text\": \"Valeur technique de l'offre\"}, {\"@POIDS\": \"20%\", \"#text\": \"Service après-vente et assistance technique\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"5%\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Fourniture de gaz naturel - T2\", \"DESCRIPTION\": \"Fourniture de gaz naturel\", \"CPV\": {\"PRINCIPAL\": \"09123000\"}, \"CODE_NUTS\": \"FRG02\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"75%\", \"#text\": \"Valeur technique de l'offre\"}, {\"@POIDS\": \"20%\", \"#text\": \"Service après-vente et assistance technique\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"5%\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2018\", \"NUM_PARUTION\": \"174\", \"NUM_ANNONCE\": \"393998\", \"DATE_PUBLICATION\": \"2018-09-11\"}}}, \"ATTRIBUTION\": {\"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2018-127\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Fourniture de gaz naturel - Tarif T3\", \"TITULAIRE\": {\"DENOMINATION\": \"EDF SA\", \"ADRESSE\": \"11 rue Edmé Mariotte - CS 50805\", \"CP\": \"44308\", \"VILLE\": \"NANTES CEDEX 3\", \"CODE_NUTS\": \"FRG01\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-10-29\", \"NB_OFFRE_RECU\": \"4\", \"NB_OFFRE_RECU_ELECT\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"1076787.20\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2018-128\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Fourniture de gaz naturel - Tarif T3\", \"TITULAIRE\": {\"DENOMINATION\": \"Eni gas &amp; Power France\", \"ADRESSE\": \"24 rue Jacques Ibert\", \"CP\": \"92533\", \"VILLE\": \"LEVALLOIS-PERRET CEDEX\", \"CODE_NUTS\": \"FR105\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-10-29\", \"NB_OFFRE_RECU\": \"4\", \"NB_OFFRE_RECU_ELECT\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"1038791.80\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2018-129\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Fourniture de gaz naturel - Tarif T3\", \"TITULAIRE\": {\"DENOMINATION\": \"SAS GAZ DE BORDEAUX\", \"ADRESSE\": \"6 place Ravezies\", \"CP\": \"33075\", \"VILLE\": \"BORDEAUX\", \"CODE_NUTS\": \"FRI1\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-10-26\", \"NB_OFFRE_RECU\": \"4\", \"NB_OFFRE_RECU_ELECT\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"1060882.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2018-130\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Fourniture de gaz naturel - Tarif T3\", \"TITULAIRE\": {\"DENOMINATION\": \"TOTAL ENERGIE GAZ SA\", \"ADRESSE\": \"71 boulevard National - CS 20004\", \"CP\": \"92257\", \"VILLE\": \"LA GARENNE COLOMBES\", \"CODE_NUTS\": \"FR105\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-10-26\", \"NB_OFFRE_RECU\": \"4\", \"NB_OFFRE_RECU_ELECT\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"1060509.70\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2018-131\", \"NUM_LOT\": \"2\", \"INTITULE\": \"Fourniture de gaz naturel - T2\", \"TITULAIRE\": {\"DENOMINATION\": \"SAS GAZ DE BORDEAUX\", \"ADRESSE\": \"6 place Ravezies\", \"CP\": \"33075\", \"VILLE\": \"BORDEAUX\", \"CODE_NUTS\": \"FRI1\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-10-26\", \"NB_OFFRE_RECU\": \"2\", \"NB_OFFRE_RECU_ELECT\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"686991.80\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2018-132\", \"NUM_LOT\": \"2\", \"INTITULE\": \"Fourniture de gaz naturel - T2\", \"TITULAIRE\": {\"DENOMINATION\": \"TOTAL ENERGIE GAZ SA\", \"ADRESSE\": \"71 boulevard National - CS 20004\", \"CP\": \"92257\", \"VILLE\": \"LA GARENNE COLOMBES\", \"CODE_NUTS\": \"FR105\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-10-26\", \"NB_OFFRE_RECU\": \"2\", \"NB_OFFRE_RECU_ELECT\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"674332.72\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La valeur totale indiquée pour chaque lot et chaque titulaire correspondant à un montant estimatif pour 4 ans. Seul un titulaire sera retenu lors de la passation des marchés subséquents. Date de signature du marché : 25/10/2018. Le contrat est consultable au Conseil départemental de Maine-et-Loire sur prise de rendez-vous. Date d'envoi du présent avis au JOUE et au BOAMP : 10 décembre 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"Service Départemental d'Incendie et de Secours\", \"CONTACT\": \"M. Laurent Plassais\", \"ADRESSE\": \"6 avenue du Grand Périgné - CS 90087\", \"CP\": \"49071\", \"VILLE\": \"Beaucouzé cedex\", \"CODE_NUTS\": \"FRG02\", \"TEL\": \"(+33) -02-41-33-21-49\", \"MEL\": \"laurent.plassais@sdis49.fr\", \"URL\": \"http://www.sdis49.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"(+33) -02-40-99-46-00\", \"FAX\": \"(+33) -02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Greffe du tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"(+33) -02-40-99-46-00\", \"FAX\": \"(+33) -02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-156928"
-  },
-  {
    "idweb": "18-173532",
    "id": "18_173532",
    "contractfolderid": null,
@@ -5644,6 +5576,74 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-173533\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-173533.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-12-12\", \"DATE_LIMITE_REPONSE\": \"2019-01-11T11:30:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2019-01-11\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"197\", \"LIBELLE\": \"Maîtrise d'oeuvre\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Mission de maîtrise d'oeuvre relative à la restructuration d'un plateau de bureaux au 3ème étage de la Tour Emeraude au Mans\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"DEPARTEMENT DE LA SARTHE\", \"CORRESPONDANT\": \"le Président\", \"ADRESSE\": \"Hôtel du département, Place Aristide Briand\", \"CP\": \"72072\", \"VILLE\": \"Le Mans\", \"MEL\": \"scp@cg72.fr\", \"URL\": \"http://www.sarthe.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"DEPARTEMENT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Mission de maîtrise d'oeuvre relative à la restructuration d'un plateau de bureaux au 3ème étage de la Tour Emeraude au Mans\", \"CPV\": {\"PRINCIPAL\": \"71210000\"}, \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG04\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Plateau de bureaux d'une surface de 1 350m² devant recevoir deux directions du Département de la Sarthe\", \"QUANTITE\": \"A titre indicatif, les travaux débuteront au mois de juillet 2019Les délais d'exécution des documents d'étude et du dossier des ouvrages exécutés sont les suivants :- APS : 3 semaines (**)- APD : 4 semaines (**)- PRO : 4 semaines (**)- DCE : 1 semaine (**)- EXE partiel : 2 semaines (**)- ACT : 2 semaines (***)DOE : 1 semaine (*****)(*) A compter de la notification du marché.(**) A compter de la date de l'accusé de réception par le maître d'oeuvre du prononcé de la validation du document d'études précédant dans l'ordre chronologique de déroulement de l'opération.(***) A compter de la date de réception des offres pour analyse.(****) A compter de la réception des travaux.\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"La valeur technique des prestations (voir le détail dans le règlement de consultation)\"}, {\"@POIDS\": \"40\", \"#text\": \"Le prix des prestations (voir détail dans le règlement de la consultation)\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-01-11T11:30:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Paiement par virement à 30 jours, sur fonds propres.***Une avance est accordée au titulaire du marché, sauf indication contraire dans l'acte d'engagement, lorsque le montant initial du marché est supérieur à 50 000 euros HT, étant précisé qu'en application de l'article 135 du Décret no2016-360 du 25 mars 2016 relatif aux marchés publics, l'assiette de l'avance est réduite des prestations sous-traitées faisant l'objet d'un paiement direct\", \"FORME_JURIDIQUE\": \"Le marché sera conclu avec une équipe constituée comme suit :- Un architecte ou architecte d'intérieur ;- Du/des bureau(x) d'études comprenant les compétences suivantes : thermique, fluides, économie de la construction ou compétence justifiée par mandataire ;- Un coordonnateur Ordonnancement, Pilotage et Coordination (OPC) ou compétences justifiées par mandataire en interne.Les candidats sont libres de proposer en complément des domaines listés ci avant d'autres compétences leur paraissant nécessaires pour réaliser à bien la mission\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": \"Situation juridique - références requises :Voir annexes 1 à 3 du Règlement de la Consultation (Dispositif Marché Public simplifié).***Capacité économique et financière : Références requises :Voir annexes 1 à 3 du Règlement de la Consultation (Dispositif Marché Public simplifié).***Capacité technique - références requises :* Une liste des principaux services fournis au cours des trois dernières années indiquant le montant, la date et le destinataire public ou privé de moins de trois ans pour des prestations de même nature attestant de la compétence du candidat à réaliser les prestations du marché. Cette liste devra indiquer par référence, le montant en euros HT de l'opération (travaux, maîtrise d'oeuvre, frais divers) ou de la prestation, la période (date de démarrage et de fin), le maître de l'ouvrage (public ou privé) ;* une copie du/des certificat(s) de qualification professionnelle, si le candidat en disposeA noter que le candidat peut apporter, par tout autre moyen de preuves, sa capacité technique et professionnelle à exécuter les travaux, objet du marché, dans les règles de l'art\"}, \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"18AS-DIMG-2495-T\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.sarthe-marchespublics.frCe marché est conforme au dispositif d'expérimentation MPS (Marché Public Simplifié), et permet aux entreprises de candidater sur la base de leur seul numéro de SIRET.Le mode de transmission des éléments de la candidature et de l'offre est dématérialisé. La réponse électronique est indispensable mais aucune signature n'est exigée. La signature sera demandée à posteriori qu'au seul candidat retenu. Voir détails dans le règlement de la consultation.***Pour obtenir tous les renseignements d'ordre administratif et technique qui leur seraient nécessaires au cours de leur étude, les candidats sont invités au plus tard 10 jours avant la date limite de remise des offres à passer par le module \\\" Correspondre avec l'acheteur \\\" de la plate-forme www.sarthe-marchespublics.frEn cas de dysfonctionnement, vous pouvez contacter le secrétariat du Service de la Commande Publique au 02.43.54.72.66.Une réponse sera alors adressée en temps utile à tous les candidats au plus tard 8 jours avant la date limite de remise des offres.Les candidats souhaitant se rendre sur le site devront s'adresser pour les visites à : Monsieur PATY au 02 44 02 40 42.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"Immeuble Skyline, 22 mail Pablo Picasso Cedex 1 BP 24209\", \"CP\": \"44202\", \"VILLE\": \"NANTES\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://www.marche-public.fr/Marches-publics/Definitions/Entrees/CCRA.htm\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-173533"
+  },
+  {
+   "idweb": "18-156928",
+   "id": "18_156928",
+   "contractfolderid": null,
+   "objet": "Fourniture de gaz naturel pour les services du Département de Maine-et-Loire et du Service départemental d'incendie et de secours (SDIS) de Maine-et-Loire",
+   "filename": "BOAMP-J-IC-AA_2018_346004",
+   "famille": "JOUE",
+   "code_departement": [
+    "49"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-12-12",
+   "datefindiffusion": "2019-03-05",
+   "datelimitereponse": null,
+   "nomacheteur": "Département de Maine-et-Loire",
+   "titulaire": [
+    "EDF SA",
+    "Eni gas &amp; Power France",
+    "SAS GAZ DE BORDEAUX",
+    "TOTAL ENERGIE GAZ SA",
+    "SAS GAZ DE BORDEAUX",
+    "TOTAL ENERGIE GAZ SA"
+   ],
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "ATTRIBUTION",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "443"
+   ],
+   "dc": [
+    "443"
+   ],
+   "descripteur_libelle": [
+    "Electricité, gaz (fourniture)"
+   ],
+   "type_marche": [
+    "FOURNITURES"
+   ],
+   "type_marche_facette": [
+    "Fournitures"
+   ],
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "18-120311"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"18-120311\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-09-06\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-09-08\", \"DATE_FIN_DIFFUSION\": \"2018-10-09\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"174\", \"NUM_ANNONCE\": \"393998\", \"DATE_PUBLICATION\": \"2018-09-11\"}}]}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-156928\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-120311\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-09-06\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-09-08\", \"DATE_FIN_DIFFUSION\": \"2018-10-09\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"174\", \"NUM_ANNONCE\": \"393998\", \"DATE_PUBLICATION\": \"2018-09-11\"}}]}}, \"NOM_HTML\": \"18-156928.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-12-12\", \"DATE_FIN_DIFFUSION\": \"2019-03-05\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"443\", \"LIBELLE\": \"Electricité, gaz (fourniture)\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Fourniture de gaz naturel pour les services du Département de Maine-et-Loire et du Service départemental d'incendie et de secours (SDIS) de Maine-et-Loire\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Département de Maine-et-Loire\", \"CODE_IDENT_NATIONAL\": \"22490001900015\", \"CONTACT\": \"Service de la commande publique et des assurances\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"Hôtel du Département - Direction des finances, des affaires juridiques et de l'évaluation - 48 B boulevard Foch - CS 94104\", \"CP\": \"49941\", \"VILLE\": \"ANGERS Cedex 9\", \"TEL\": \"(+33) -02-41-81-44-19\", \"MEL\": \"commande-publique@maine-et-loire.fr\", \"URL\": \"http://www.maine-et-loire.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.anjoumarchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de gaz naturel pour les services du Département de Maine-et-Loire et du Service départemental d'incendie et de secours (SDIS) de Maine-et-Loire\", \"REF_MARCHE\": \"AC/FCS/2018/46\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Fourniture de gaz naturel\", \"CPV\": {\"PRINCIPAL\": \"09123000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"5598295.30\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Fourniture de gaz naturel - Tarif T3\", \"DESCRIPTION\": \"Fourniture de gaz naturel\", \"CPV\": {\"PRINCIPAL\": \"09123000\"}, \"CODE_NUTS\": \"FRG02\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"75%\", \"#text\": \"Valeur technique de l'offre\"}, {\"@POIDS\": \"20%\", \"#text\": \"Service après-vente et assistance technique\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"5%\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Fourniture de gaz naturel - T2\", \"DESCRIPTION\": \"Fourniture de gaz naturel\", \"CPV\": {\"PRINCIPAL\": \"09123000\"}, \"CODE_NUTS\": \"FRG02\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"75%\", \"#text\": \"Valeur technique de l'offre\"}, {\"@POIDS\": \"20%\", \"#text\": \"Service après-vente et assistance technique\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"5%\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2018\", \"NUM_PARUTION\": \"174\", \"NUM_ANNONCE\": \"393998\", \"DATE_PUBLICATION\": \"2018-09-11\"}}}, \"ATTRIBUTION\": {\"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2018-127\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Fourniture de gaz naturel - Tarif T3\", \"TITULAIRE\": {\"DENOMINATION\": \"EDF SA\", \"ADRESSE\": \"11 rue Edmé Mariotte - CS 50805\", \"CP\": \"44308\", \"VILLE\": \"NANTES CEDEX 3\", \"CODE_NUTS\": \"FRG01\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-10-29\", \"NB_OFFRE_RECU\": \"4\", \"NB_OFFRE_RECU_ELECT\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"1076787.20\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2018-128\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Fourniture de gaz naturel - Tarif T3\", \"TITULAIRE\": {\"DENOMINATION\": \"Eni gas &amp; Power France\", \"ADRESSE\": \"24 rue Jacques Ibert\", \"CP\": \"92533\", \"VILLE\": \"LEVALLOIS-PERRET CEDEX\", \"CODE_NUTS\": \"FR105\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-10-29\", \"NB_OFFRE_RECU\": \"4\", \"NB_OFFRE_RECU_ELECT\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"1038791.80\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2018-129\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Fourniture de gaz naturel - Tarif T3\", \"TITULAIRE\": {\"DENOMINATION\": \"SAS GAZ DE BORDEAUX\", \"ADRESSE\": \"6 place Ravezies\", \"CP\": \"33075\", \"VILLE\": \"BORDEAUX\", \"CODE_NUTS\": \"FRI1\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-10-26\", \"NB_OFFRE_RECU\": \"4\", \"NB_OFFRE_RECU_ELECT\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"1060882.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2018-130\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Fourniture de gaz naturel - Tarif T3\", \"TITULAIRE\": {\"DENOMINATION\": \"TOTAL ENERGIE GAZ SA\", \"ADRESSE\": \"71 boulevard National - CS 20004\", \"CP\": \"92257\", \"VILLE\": \"LA GARENNE COLOMBES\", \"CODE_NUTS\": \"FR105\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-10-26\", \"NB_OFFRE_RECU\": \"4\", \"NB_OFFRE_RECU_ELECT\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"1060509.70\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2018-131\", \"NUM_LOT\": \"2\", \"INTITULE\": \"Fourniture de gaz naturel - T2\", \"TITULAIRE\": {\"DENOMINATION\": \"SAS GAZ DE BORDEAUX\", \"ADRESSE\": \"6 place Ravezies\", \"CP\": \"33075\", \"VILLE\": \"BORDEAUX\", \"CODE_NUTS\": \"FRI1\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-10-26\", \"NB_OFFRE_RECU\": \"2\", \"NB_OFFRE_RECU_ELECT\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"686991.80\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2018-132\", \"NUM_LOT\": \"2\", \"INTITULE\": \"Fourniture de gaz naturel - T2\", \"TITULAIRE\": {\"DENOMINATION\": \"TOTAL ENERGIE GAZ SA\", \"ADRESSE\": \"71 boulevard National - CS 20004\", \"CP\": \"92257\", \"VILLE\": \"LA GARENNE COLOMBES\", \"CODE_NUTS\": \"FR105\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-10-26\", \"NB_OFFRE_RECU\": \"2\", \"NB_OFFRE_RECU_ELECT\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"674332.72\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La valeur totale indiquée pour chaque lot et chaque titulaire correspondant à un montant estimatif pour 4 ans. Seul un titulaire sera retenu lors de la passation des marchés subséquents. Date de signature du marché : 25/10/2018. Le contrat est consultable au Conseil départemental de Maine-et-Loire sur prise de rendez-vous. Date d'envoi du présent avis au JOUE et au BOAMP : 10 décembre 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"Service Départemental d'Incendie et de Secours\", \"CONTACT\": \"M. Laurent Plassais\", \"ADRESSE\": \"6 avenue du Grand Périgné - CS 90087\", \"CP\": \"49071\", \"VILLE\": \"Beaucouzé cedex\", \"CODE_NUTS\": \"FRG02\", \"TEL\": \"(+33) -02-41-33-21-49\", \"MEL\": \"laurent.plassais@sdis49.fr\", \"URL\": \"http://www.sdis49.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"(+33) -02-40-99-46-00\", \"FAX\": \"(+33) -02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Greffe du tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"(+33) -02-40-99-46-00\", \"FAX\": \"(+33) -02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-156928"
   },
   {
    "idweb": "18-173063",
@@ -5780,77 +5780,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-172042"
   },
   {
-   "idweb": "18-172925",
-   "id": "18_172925",
-   "contractfolderid": null,
-   "objet": "Extension de l'Aire d'Accueil des Gens du Voyage de Geneston",
-   "filename": "BOAMP-N-IC-AA_2018_346006",
-   "famille": "FNS",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2018-12-12",
-   "datefindiffusion": "2019-01-31",
-   "datelimitereponse": null,
-   "nomacheteur": "Communauté de Communes de Grand Lieu",
-   "titulaire": [
-    "COLAS CENTRE OUEST - ETABLISSEMENT GADAIS",
-    "BOUYGUES ENERGIES & SERVICES",
-    "SARL BROSSEAU PAYSAGISTE",
-    "SANI MODUL",
-    "SANI MODUL",
-    "SAS ATYS CONCEPT"
-   ],
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "ATTRIBUTION",
-   "sousnature": null,
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "341",
-    "430"
-   ],
-   "dc": [
-    "341",
-    "430"
-   ],
-   "descripteur_libelle": [
-    "Terrassement",
-    "Aire d'accueil"
-   ],
-   "type_marche": [
-    "TRAVAUX"
-   ],
-   "type_marche_facette": [
-    "Travaux"
-   ],
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "18-91798"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"18-91798\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-07-02\", \"DATE_FIN_DIFFUSION\": \"2018-07-27\"}}}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-172925\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-91798\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-07-02\", \"DATE_FIN_DIFFUSION\": \"2018-07-27\"}}}}, \"NOM_HTML\": \"18-172925.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-12-12\", \"DATE_FIN_DIFFUSION\": \"2019-01-31\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"341\", \"LIBELLE\": \"Terrassement\"}, {\"CODE\": \"430\", \"LIBELLE\": \"Aire d'accueil\"}]}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Extension de l'Aire d'Accueil des Gens du Voyage de Geneston\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Communauté de Communes de Grand Lieu\", \"CORRESPONDANT\": \"M. Johann BOBLIN, Président\", \"ADRESSE\": \"1 rue de la Guillauderie - Parc d'activités de Tournebride - CS 30003\", \"CP\": \"44118\", \"VILLE\": \"La chevroliere\", \"TEL\": \"02-51-70-91-11\", \"FAX\": \"02-51-70-91-10\", \"MEL\": \"grandlieu@cc-grandlieu.fr\", \"URL\": \"http://www.cc-grandlieu.fr/\", \"URL_PROFIL_ACHETEUR\": \"https://www.achatpublic.com/sdm/ent/gen/index.jsp\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"TRAVAUX\": {\"EXECUTION\": \"\"}}, \"OBJET_COMPLET\": \"Extension de l'Aire d'Accueil des Gens du Voyage de Geneston\", \"CPV\": [{\"PRINCIPAL\": \"45112500\"}, {\"PRINCIPAL\": \"45311000\"}, {\"PRINCIPAL\": \"45112700\"}, {\"PRINCIPAL\": \"45210000\"}, {\"PRINCIPAL\": \"32260000\"}], \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Route de Saint Philbert\", \"CP\": \"44140\", \"VILLE\": \"Geneston\", \"CODE_NUTS\": \"FRG01\"}, \"AMP_OUI\": \"\"}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"La valeur technique de l'offre au regard du mémoire technique\"}, {\"@POIDS\": \"40\", \"#text\": \"Le prix des prestations\"}]}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_LOT\": \"1\", \"DESCRIPTION\": \"Lot 1 - Terrassement, assainissement, chaussée, tranchée technique et signalisation\", \"TITULAIRE\": {\"DENOMINATION\": \"COLAS CENTRE OUEST - ETABLISSEMENT GADAIS\", \"ADRESSE\": \"La gorsonnière - bp 3\", \"CP\": \"44116\", \"VILLE\": \"Vieillevigne\", \"TEL\": \"02-40-02-09-09\", \"FAX\": \"02-40-26-53-87\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-11-27\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"242561.79\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"2\", \"DESCRIPTION\": \"Lot 2 - Raccordement réseaux\", \"TITULAIRE\": {\"DENOMINATION\": \"BOUYGUES ENERGIES & SERVICES\", \"ADRESSE\": \"12 avenue de la vertonne - bp 2419\", \"CP\": \"44124\", \"VILLE\": \"Vertou cedex\", \"TEL\": \"02-78-62-22-22\", \"FAX\": \"02-40-05-44-62\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-11-29\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"28984.50\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"3\", \"DESCRIPTION\": \"Lot 3 - Aménagements paysagers\", \"TITULAIRE\": {\"DENOMINATION\": \"SARL BROSSEAU PAYSAGISTE\", \"ADRESSE\": \"Parc vendée sud loire 2\", \"CP\": \"85600\", \"VILLE\": \"Boufféré\", \"TEL\": \"02-51-46-49-63\", \"FAX\": \"02-51-48-84-63\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-11-27\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"28414.10\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"4\", \"DESCRIPTION\": \"Lot 4 - Construction de locaux sanitaires et équipements des emplacements\", \"TITULAIRE\": {\"DENOMINATION\": \"SANI MODUL\", \"ADRESSE\": \"218 rue de la ronce - za la ronce\", \"CP\": \"76230\", \"VILLE\": \"Isneauville\", \"TEL\": \"02-35-34-10-11\", \"FAX\": \"02-35-23-43-42\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-12-11\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"195460.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"5\", \"DESCRIPTION\": \"Lot 5 - Construction de local de gestion et réhabilitation des locaux existants\", \"TITULAIRE\": {\"DENOMINATION\": \"SANI MODUL\", \"ADRESSE\": \"218 rue de la ronce - za la ronce\", \"CP\": \"76230\", \"VILLE\": \"Isneauville\", \"TEL\": \"02-35-34-10-11\", \"FAX\": \"02-35-23-43-42\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-12-11\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"119647.00\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"6\", \"DESCRIPTION\": \"Lot 6 - Télégestion\", \"TITULAIRE\": {\"DENOMINATION\": \"SAS ATYS CONCEPT\", \"ADRESSE\": \"40 impasse des deux crastes\", \"CP\": \"33260\", \"VILLE\": \"La test de buch\", \"TEL\": \"05-57-72-09-01\", \"FAX\": \"05-57-72-07-01\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-11-29\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"22500.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr/\"}}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-172925"
-  },
-  {
    "idweb": "18-171943",
    "id": "18_171943",
    "contractfolderid": null,
@@ -5973,6 +5902,77 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-170896\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-135082\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-09-27\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-09-29\", \"DATE_FIN_DIFFUSION\": \"2018-10-31\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"189\", \"NUM_ANNONCE\": \"426601\", \"DATE_PUBLICATION\": \"2018-10-02\"}}]}}, \"NOM_HTML\": \"18-170896.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-12-12\", \"DATE_FIN_DIFFUSION\": \"2019-03-09\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"199\", \"LIBELLE\": \"Matériaux routiers\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"fourniture de matériaux pour l'entretien de chaussées départementales de maine-et-loire (atd de baugé, atd du lion d'angers et angers)\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Département de Maine-et-Loire\", \"CODE_IDENT_NATIONAL\": \"22490001900015\", \"CONTACT\": \"Service de la commande publique et des assurances\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"Hôtel du Département - Direction des finances, des affaires juridiques et de l'évaluation - CS 94104\", \"CP\": \"49941\", \"VILLE\": \"Angers cedex 9\", \"TEL\": \"(+33) -02-41-81-45-83\", \"FAX\": \"(+33) -02-41-81-47-83\", \"MEL\": \"commande-publique@maine-et-loire.fr\", \"URL\": \"http://www.maine-et-loire.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.anjoumarchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de matériaux pour l'entretien de chaussées départementales de Maine-et-Loire (ATD de Baugé, ATD du Lion d'Angers et Angers)\", \"REF_MARCHE\": \"FCS/2018/59\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Fourniture de matériaux pour l'entretien de chaussées départementales de Maine-et-Loire\", \"CPV\": {\"PRINCIPAL\": \"44113310\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"320000\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"matériaux de carrière\", \"DESCRIPTION\": \"Matériaux de carrière\", \"CPV\": {\"PRINCIPAL\": \"14212000\"}, \"CODE_NUTS\": \"FRG02\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"fourniture de BBE stockable pour mise en oeuvre manuellle\", \"DESCRIPTION\": \"Fourniture de BBE stockable pour mise en uvre manuelle\", \"CPV\": {\"PRINCIPAL\": \"44113310\"}, \"CODE_NUTS\": \"FRG02\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"fourniture de BBE pour mise en oeuvre mécanique\", \"DESCRIPTION\": \"Fourniture de BBE stockable pour mise en uvre mécanique\", \"CPV\": {\"PRINCIPAL\": \"44113310\"}, \"CODE_NUTS\": \"FRG02\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2018\", \"NUM_PARUTION\": \"189\", \"NUM_ANNONCE\": \"426601\", \"DATE_PUBLICATION\": \"2018-10-02\"}}}, \"ATTRIBUTION\": {\"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2018-146\", \"NUM_LOT\": \"1\", \"INTITULE\": \"matériaux de carrière\", \"TITULAIRE\": {\"DENOMINATION\": \"SAS HERVE\", \"ADRESSE\": \"Route d'Ancenis\", \"CP\": \"44670\", \"VILLE\": \"Juigné les Moutiers\", \"CODE_NUTS\": \"FRG01\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-12-05\", \"NB_OFFRE_RECU\": \"2\", \"NB_OFFRE_RECU_ELECT\": \"2\", \"OFFRE_BASSE\": {\"@DEVISE\": \"EUR\", \"#text\": \"15000\"}, \"OFFRE_ELEVEE\": {\"@DEVISE\": \"EUR\", \"#text\": \"60000\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2018-147\", \"NUM_LOT\": \"2\", \"INTITULE\": \"fourniture de BBE stockable pour mise en oeuvre manuellle\", \"TITULAIRE\": {\"DENOMINATION\": \"COLAS CENTRE OUEST Agence Anjou\", \"ADRESSE\": \"3 allée au poirier CS 13526\", \"CP\": \"49035\", \"VILLE\": \"ANGERS CEDEX 1\", \"CODE_NUTS\": \"FRG02\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-12-05\", \"NB_OFFRE_RECU\": \"1\", \"NB_OFFRE_RECU_ELECT\": \"1\", \"OFFRE_BASSE\": {\"@DEVISE\": \"EUR\", \"#text\": \"5000\"}, \"OFFRE_ELEVEE\": {\"@DEVISE\": \"EUR\", \"#text\": \"20000\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2018-148\", \"NUM_LOT\": \"3\", \"INTITULE\": \"fourniture de BBE pour mise en oeuvre mécanique\", \"TITULAIRE\": {\"DENOMINATION\": \"COLAS CENTRE OUEST Agence Anjou\", \"ADRESSE\": \"3 allée au poirier CS 13526\", \"CP\": \"49035\", \"VILLE\": \"ANGERS CEDEX 1\", \"CODE_NUTS\": \"FRG02\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-12-05\", \"NB_OFFRE_RECU\": \"2\", \"NB_OFFRE_RECU_ELECT\": \"2\", \"OFFRE_BASSE\": {\"@DEVISE\": \"EUR\", \"#text\": \"80000\"}, \"OFFRE_ELEVEE\": {\"@DEVISE\": \"EUR\", \"#text\": \"240000\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Marchés reconductibles 2 fois par période annuelle. Date de signature des marchés : 04/12/2018. Les contrats sont consultables au Conseil départemental de Maine-et-Loire sur prise de rendez-vous. Date d'envoi du présent avis au JOUE et au BOAMP : 10 décembre 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'ile Gloriette - B.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"(+33) -02-40-99-46-00\", \"FAX\": \"(+33) -02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'ile Gloriette - B.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"(+33) -02-40-99-46-00\", \"FAX\": \"(+33) -02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-170896"
+  },
+  {
+   "idweb": "18-172925",
+   "id": "18_172925",
+   "contractfolderid": null,
+   "objet": "Extension de l'Aire d'Accueil des Gens du Voyage de Geneston",
+   "filename": "BOAMP-N-IC-AA_2018_346006",
+   "famille": "FNS",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2018-12-12",
+   "datefindiffusion": "2019-01-31",
+   "datelimitereponse": null,
+   "nomacheteur": "Communauté de Communes de Grand Lieu",
+   "titulaire": [
+    "COLAS CENTRE OUEST - ETABLISSEMENT GADAIS",
+    "BOUYGUES ENERGIES & SERVICES",
+    "SARL BROSSEAU PAYSAGISTE",
+    "SANI MODUL",
+    "SANI MODUL",
+    "SAS ATYS CONCEPT"
+   ],
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "ATTRIBUTION",
+   "sousnature": null,
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "341",
+    "430"
+   ],
+   "dc": [
+    "341",
+    "430"
+   ],
+   "descripteur_libelle": [
+    "Terrassement",
+    "Aire d'accueil"
+   ],
+   "type_marche": [
+    "TRAVAUX"
+   ],
+   "type_marche_facette": [
+    "Travaux"
+   ],
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "18-91798"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"18-91798\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-07-02\", \"DATE_FIN_DIFFUSION\": \"2018-07-27\"}}}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-172925\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-91798\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-07-02\", \"DATE_FIN_DIFFUSION\": \"2018-07-27\"}}}}, \"NOM_HTML\": \"18-172925.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-12-12\", \"DATE_FIN_DIFFUSION\": \"2019-01-31\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"341\", \"LIBELLE\": \"Terrassement\"}, {\"CODE\": \"430\", \"LIBELLE\": \"Aire d'accueil\"}]}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Extension de l'Aire d'Accueil des Gens du Voyage de Geneston\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Communauté de Communes de Grand Lieu\", \"CORRESPONDANT\": \"M. Johann BOBLIN, Président\", \"ADRESSE\": \"1 rue de la Guillauderie - Parc d'activités de Tournebride - CS 30003\", \"CP\": \"44118\", \"VILLE\": \"La chevroliere\", \"TEL\": \"02-51-70-91-11\", \"FAX\": \"02-51-70-91-10\", \"MEL\": \"grandlieu@cc-grandlieu.fr\", \"URL\": \"http://www.cc-grandlieu.fr/\", \"URL_PROFIL_ACHETEUR\": \"https://www.achatpublic.com/sdm/ent/gen/index.jsp\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"TRAVAUX\": {\"EXECUTION\": \"\"}}, \"OBJET_COMPLET\": \"Extension de l'Aire d'Accueil des Gens du Voyage de Geneston\", \"CPV\": [{\"PRINCIPAL\": \"45112500\"}, {\"PRINCIPAL\": \"45311000\"}, {\"PRINCIPAL\": \"45112700\"}, {\"PRINCIPAL\": \"45210000\"}, {\"PRINCIPAL\": \"32260000\"}], \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Route de Saint Philbert\", \"CP\": \"44140\", \"VILLE\": \"Geneston\", \"CODE_NUTS\": \"FRG01\"}, \"AMP_OUI\": \"\"}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"La valeur technique de l'offre au regard du mémoire technique\"}, {\"@POIDS\": \"40\", \"#text\": \"Le prix des prestations\"}]}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_LOT\": \"1\", \"DESCRIPTION\": \"Lot 1 - Terrassement, assainissement, chaussée, tranchée technique et signalisation\", \"TITULAIRE\": {\"DENOMINATION\": \"COLAS CENTRE OUEST - ETABLISSEMENT GADAIS\", \"ADRESSE\": \"La gorsonnière - bp 3\", \"CP\": \"44116\", \"VILLE\": \"Vieillevigne\", \"TEL\": \"02-40-02-09-09\", \"FAX\": \"02-40-26-53-87\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-11-27\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"242561.79\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"2\", \"DESCRIPTION\": \"Lot 2 - Raccordement réseaux\", \"TITULAIRE\": {\"DENOMINATION\": \"BOUYGUES ENERGIES & SERVICES\", \"ADRESSE\": \"12 avenue de la vertonne - bp 2419\", \"CP\": \"44124\", \"VILLE\": \"Vertou cedex\", \"TEL\": \"02-78-62-22-22\", \"FAX\": \"02-40-05-44-62\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-11-29\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"28984.50\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"3\", \"DESCRIPTION\": \"Lot 3 - Aménagements paysagers\", \"TITULAIRE\": {\"DENOMINATION\": \"SARL BROSSEAU PAYSAGISTE\", \"ADRESSE\": \"Parc vendée sud loire 2\", \"CP\": \"85600\", \"VILLE\": \"Boufféré\", \"TEL\": \"02-51-46-49-63\", \"FAX\": \"02-51-48-84-63\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-11-27\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"28414.10\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"4\", \"DESCRIPTION\": \"Lot 4 - Construction de locaux sanitaires et équipements des emplacements\", \"TITULAIRE\": {\"DENOMINATION\": \"SANI MODUL\", \"ADRESSE\": \"218 rue de la ronce - za la ronce\", \"CP\": \"76230\", \"VILLE\": \"Isneauville\", \"TEL\": \"02-35-34-10-11\", \"FAX\": \"02-35-23-43-42\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-12-11\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"195460.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"5\", \"DESCRIPTION\": \"Lot 5 - Construction de local de gestion et réhabilitation des locaux existants\", \"TITULAIRE\": {\"DENOMINATION\": \"SANI MODUL\", \"ADRESSE\": \"218 rue de la ronce - za la ronce\", \"CP\": \"76230\", \"VILLE\": \"Isneauville\", \"TEL\": \"02-35-34-10-11\", \"FAX\": \"02-35-23-43-42\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-12-11\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"119647.00\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"6\", \"DESCRIPTION\": \"Lot 6 - Télégestion\", \"TITULAIRE\": {\"DENOMINATION\": \"SAS ATYS CONCEPT\", \"ADRESSE\": \"40 impasse des deux crastes\", \"CP\": \"33260\", \"VILLE\": \"La test de buch\", \"TEL\": \"05-57-72-09-01\", \"FAX\": \"05-57-72-07-01\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-11-29\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"22500.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr/\"}}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-172925"
   },
   {
    "idweb": "18-173228",

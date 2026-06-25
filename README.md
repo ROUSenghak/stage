@@ -76,7 +76,7 @@ python scripts/task8_unified_survival.py     # mixed BOAMP + DECP survival datas
 | `data/processed/boamp_full_survival.csv` | **1,933 APPEL_OFFRE survival records** — event/censoring, ±12 month window |
 | `data/processed/boamp_full_survival_report.md` | survival dataset composition report |
 | `data/processed/boamp_sample_flat.csv` | 500-notice BOAMP sample (reference only) |
-| `boamp_renewal_linking_quality/outputs/boamp_renewal_links.csv` | **official BOAMP renewal-linking notebook output** — 1,100 eligible AO, 697 linked |
+| `boamp_renewal_linking_quality/outputs/boamp_renewal_links.csv` | **official BOAMP renewal-linking notebook output** — 1,100 eligible AO, 705 linked |
 | `boamp_renewal_linking_quality/outputs/boamp_linking_stats.csv` | linking-rate summary for the BOAMP-only final method |
 | `boamp_renewal_linking_quality/outputs/boamp_bias_report.csv` | bias/failure-reason report for the BOAMP-only final method |
 | `boamp_renewal_linking_quality/outputs/boamp_renewal_candidates.csv` | candidate-pair table before best-match selection |

@@ -921,6 +921,65 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-58508"
   },
   {
+   "idweb": "18-57768",
+   "id": "18_57768",
+   "contractfolderid": null,
+   "objet": "Accord cadre multi-attributaires concernant les marchés de fourniture et d'acheminement de gaz naturel et électricité",
+   "filename": "BOAMP-J-AO_2018_117003",
+   "famille": "JOUE",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-04-27",
+   "datefindiffusion": "2018-05-28",
+   "datelimitereponse": null,
+   "nomacheteur": "Conseil départemental Loire-Atlantique",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": "1",
+   "marche_public_simplifie_label": "Marché public simplifié",
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "443"
+   ],
+   "dc": [
+    "443"
+   ],
+   "descripteur_libelle": [
+    "Electricité, gaz (fourniture)"
+   ],
+   "type_marche": [
+    "FOURNITURES"
+   ],
+   "type_marche_facette": [
+    "Fournitures"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-57768\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-57768.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-04-27\", \"DATE_FIN_DIFFUSION\": \"2018-05-28\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"443\", \"LIBELLE\": \"Electricité, gaz (fourniture)\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Accord cadre multi-attributaires concernant les marchés de fourniture et d'acheminement de gaz naturel et électricité\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Conseil départemental Loire-Atlantique\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"3, Quai Ceineray CS 94109\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-10-00\", \"FAX\": \"(+33) 2-40-99-11-48\", \"MEL\": \"contact@loire-atlantique.fr\", \"URL\": \"http://www.loire-atlantique.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marches.loire-atlantique.fr\", \"URL_INFORMATION\": \"http://marches.loire-atlantique.fr\", \"URL_PARTICIPATION\": \"https://marches.loire-atlantique.fr\", \"URL_DOCUMENT\": \"http://marches.loire-atlantique.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Accord cadre multi-attributaires concernant les marchés de fourniture et d'acheminement de gaz naturel et électricité\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Accord cadre multi-attributaires concernant les marchés de fourniture et d'acheminement de gaz naturel et électricitéAccord-cadre avec maximum Attribution d'un accord-cadre pour chaque lot.\", \"CPV\": {\"PRINCIPAL\": \"09123000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"25200000.00\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Gaz Naturel\", \"DESCRIPTION\": \"Fourniture et acheminement de gaz naturel\", \"CPV\": {\"PRINCIPAL\": \"09123000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"9000000.00\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Aucune\"}, {\"NUM\": \"2\", \"INTITULE\": \"Electricité\", \"DESCRIPTION\": \"Fourniture et acheminement d'électricité : Points de comptage et d'estimation HTA ou BT de puissance supérieure à 36 kVA\", \"CPV\": {\"PRINCIPAL\": \"09310000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"16200000.00\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Aucune\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"PLUSIEURS_OPERATEURS\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-05-28T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"MPS - Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas des interdictions de soumissionner;\", \"CAP_ECO\": \"MPS Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du contrat, réalisées au cours des trois derniers exercices disponibles; Preuve d'une assurance pour les risques professionnels ;\", \"CAP_TECH\": \"MPS - Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années; Liste des principales prestations effectuées au cours des trois dernières années, indiquant le montant, la date et le destinataire. Elles sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration du candidat; Autorisation de fourniture d?énergie conformément aux articles L.333-1 et suivants du Code de l'énergie.; Copie de l'autorisation de fourniture de gaz naturel, prévue à l'article 5 de la no2003-8 du 3 janvier 2003 délivrée par le ministre chargé de l?énergie conformément au décret 2004-250 du 19 mars 2004;\", \"MARCHE_RESERVE_NON\": \"\", \"CONDITION_PARTICULIERE_EXECUTION\": \"Début d'exécution de l'accord-cadre à compter de la date de notification du contrat.Prestations réglées par des prix unitaires Prix fermes. Aucune avance prévue. Délai global de paiement des prestations de 30 jours. Modalités de financement des prestations : : le financement est assuré par les ressources budgétaires propres de chaque membre du groupement de commandes .\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"PERS_OUVERTURE_OFFRES_OUI\": \"Nantes. La séance d'ouverture des plis n'est pas publique. Date et heure données à titre indicatif\", \"DATE_OUVERTURE_OFFRES\": \"2018-05-28\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La candidature peut être présentée soit sous la forme des formulaires DC1 et DC2 (disponibles gratuitement sur le site www.economie.gouv.fr.), soit sous la forme d'un Document Unique de Marché Européen (DUME). Le pouvoir adjudicateur impose la transmission des plis par voie électronique. Par conséquent, la transmission par voie papier n'est pas autorisée. La transmission des documents par voie électronique est effectuée sur le profil d'acheteur. Les modalités de transmission des plis par voie électronique sont définies dans le règlement de la consultation. Numéro de la consultation : 18MA00. Date d'envoi du présent avis au JOUE et au BOAMP : 25 avril 2018.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé pré-contractuel prévu aux articles L.551-1 à L.551-12 du Code de justice administrative (CJA), et pouvant être exercé avant la signature du contrat. Référé contractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant être exercé dans les délais prévus à l'article R. 551-7 du CJA. Recours pour excès de pouvoir contre une décision administrative prévu aux articles R. 421-1 à R. 421-7 du CJA, et pouvant être exercé dans les 2 mois suivant la notification ou publication de la décision de l'organisme (le recours ne peut plus, toutefois, être exercé après la signature du contrat). Recours de pleine juridiction ouvert aux tiers justifiant d'un intérêt lésé, et pouvant être exercé dans les deux mois suivant la date à laquelle la conclusion du contrat est rendue publique.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette Cedex 1 BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr/\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité de règlement amiable\", \"ADRESSE\": \"22, Mail Pablo Picasso Cedex 01\", \"CP\": \"44042\", \"VILLE\": \"NANTES\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Département de Loire-Atlantique\", \"ADRESSE\": \"3, Quai Ceineray CS 94109\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"CODE_NUTS\": \"FRG01\", \"MEL\": \"emmanuel.libert@loire-atlantique.fr\", \"URL\": \"https://marches.loire-atlantique.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-57768"
+  },
+  {
    "idweb": "18-57917",
    "id": "18_57917",
    "contractfolderid": null,
@@ -982,65 +1041,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-57917\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-8982\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-01-19\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-01-21\", \"DATE_FIN_DIFFUSION\": \"2018-02-20\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"015\", \"NUM_ANNONCE\": \"030897\", \"DATE_PUBLICATION\": \"2018-01-23\"}}]}}, \"NOM_HTML\": \"18-57917.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-04-27\", \"DATE_FIN_DIFFUSION\": \"2018-06-25\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"COMMUNE DE LA TURBALLE - AMENAGEMENT DU PORT DEPARTEMENTAL - ASSISTANCE À MAITRISE D'OUVRAGE GENERALE\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Conseil départemental Loire-Atlantique\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"3, Quai Ceineray CS 94109\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-10-00\", \"FAX\": \"(+33) 2-40-99-11-48\", \"MEL\": \"contact@loire-atlantique.fr\", \"URL\": \"http://www.loire-atlantique.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marches.loire-atlantique.fr\", \"URL_INFORMATION\": \"https://marches.loire-atlantique.fr\", \"URL_PARTICIPATION\": \"https://marches.loire-atlantique.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"COMMUNE DE LA TURBALLE - AMENAGEMENT DU PORT DEPARTEMENTAL - ASSISTANCE À MAITRISE D'OUVRAGE GENERALE\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"La mission d'assistance à maîtrise d'ouvrage a pour objectif d'accompagner le maître d'ouvrage dans la réalisation de l'aménagement du port de la Turballe, du début des études opérationnelles et des concertations, jusqu'à la réception des derniers travaux. Les phases de travaux 2 et 3 sont définies comme \\\" complémentaires \\\" étant donné le caractère \\\" non finalisé \\\" du montage du financement de l'aménagement global au moment du lancement de la consultation objet du présent marché. L'objectif du maître d'ouvrage est clairement de réaliser l'ensemble des 3 phases d'aménagement.\", \"CPV\": {\"PRINCIPAL\": \"71300000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"483000.00\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"La mission d'assistance à maîtrise d'ouvrage a pour objectif d'accompagner le maître d'ouvrage dans la réalisation de l'aménagement du port de la Turballe, du début des études opérationnelles et des concertations, jusqu'à la réception des derniers travaux. Les phases de travaux 2 et 3 sont définies comme \\\" complémentaires \\\" étant donné le caractère \\\" non finalisé \\\" du montage du financement de l'aménagement global au moment du lancement de la consultation objet du présent marché. L'objectif du maître d'ouvrage est clairement de réaliser l'ensemble des 3 phases d'aménagement.\", \"CPV\": [{\"PRINCIPAL\": \"71000000\"}, {\"PRINCIPAL\": \"71400000\"}], \"CODE_NUTS\": \"FRG01\", \"LIEU_PRINCIPAL\": \"Territoire de la commune de la Turballe. 44420 LA TURBALLE\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"35.0\", \"#text\": \"Critère no1 Réponse aux besoins\"}, {\"@POIDS\": \"50.0\", \"#text\": \"Critère no2 Organisation et moyens\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"15.0\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"2 tranche(s) optionnelle(s) : TO no TO001 :Tranche complémentaire 1 : Assistance au suivi de la phase 2 d'aménagement du port de la Turballe/ Délai : 2 ans TO no TO002 :Tranche complémentaire 2 : Assistance au suivi de la phase 3 d'aménagement du port de la Turballe/ Délai : 3 ans\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\"}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"H258NC\", \"INTITULE\": \"COMMUNE DE LA TURBALLE - AMENAGEMENT DU PORT DEPARTEMENTAL - ASSISTANCE À MAITRISE D'OUVRAGE GENERALE\", \"TITULAIRE\": {\"DENOMINATION\": \"EGIS PORTS\", \"ADRESSE\": \"15, avenue du centre\", \"CP\": \"78286\", \"VILLE\": \"GUYANCOURT\", \"CODE_NUTS\": \"FR\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-04-20\", \"NB_OFFRE_RECU\": \"5\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"768450.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La consultation du(des) contrat(s) peut être effectuée à l'adresse de l'organisme acheteur. Les tiers justifiant d'un intérêt lésé peuvent exercer un recours de pleine juridiction devant le juge administratif dans un délai de deux mois à compter de la publication du présent avis. Dans le respect des secrets protégés par la loi, les pièces du marché peuvent être consultées sur rendez-vous auprès de Mme BAUDRY Catherine, 02.40.99.14.09 (catherine.baudry@loire-atlantique.fr) à l'adresse suivante : Immeuble Jean-Baptiste Daviais - 8, rue Sully - 44041 NANTES.. Date d'envoi du présent avis au JOUE et au BOAMP : 25 avril 2018.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé pré-contractuel prévu aux articles L.551-1 à L.551-12 du Code de justice administrative (CJA), et pouvant être exercé avant la signature du contrat. Référé contractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant être exercé dans les délais prévus à l'article R. 551-7 du CJA. Recours pour excès de pouvoir contre une décision administrative prévu aux articles R. 421-1 à R. 421-7 du CJA, et pouvant être exercé dans les 2 mois suivant la notification ou publication de la décision de l'organisme (le recours ne peut plus, toutefois, être exercé après la signature du contrat). Recours de pleine juridiction ouvert aux tiers justifiant d'un intérêt lésé, et pouvant être exercé dans les deux mois suivant la date à laquelle la conclusion du contrat est rendue publique.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"22, Mail Pablo Picasso Cedex 01 BP 24209\", \"CP\": \"44042\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr/\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité de règlement amiable\", \"ADRESSE\": \"22, Mail Pablo Picasso Cedex 01\", \"CP\": \"44042\", \"VILLE\": \"NANTES\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-57917"
-  },
-  {
-   "idweb": "18-57768",
-   "id": "18_57768",
-   "contractfolderid": null,
-   "objet": "Accord cadre multi-attributaires concernant les marchés de fourniture et d'acheminement de gaz naturel et électricité",
-   "filename": "BOAMP-J-AO_2018_117003",
-   "famille": "JOUE",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-04-27",
-   "datefindiffusion": "2018-05-28",
-   "datelimitereponse": null,
-   "nomacheteur": "Conseil départemental Loire-Atlantique",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": "1",
-   "marche_public_simplifie_label": "Marché public simplifié",
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "443"
-   ],
-   "dc": [
-    "443"
-   ],
-   "descripteur_libelle": [
-    "Electricité, gaz (fourniture)"
-   ],
-   "type_marche": [
-    "FOURNITURES"
-   ],
-   "type_marche_facette": [
-    "Fournitures"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-57768\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-57768.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-04-27\", \"DATE_FIN_DIFFUSION\": \"2018-05-28\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"443\", \"LIBELLE\": \"Electricité, gaz (fourniture)\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Accord cadre multi-attributaires concernant les marchés de fourniture et d'acheminement de gaz naturel et électricité\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Conseil départemental Loire-Atlantique\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"3, Quai Ceineray CS 94109\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-10-00\", \"FAX\": \"(+33) 2-40-99-11-48\", \"MEL\": \"contact@loire-atlantique.fr\", \"URL\": \"http://www.loire-atlantique.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marches.loire-atlantique.fr\", \"URL_INFORMATION\": \"http://marches.loire-atlantique.fr\", \"URL_PARTICIPATION\": \"https://marches.loire-atlantique.fr\", \"URL_DOCUMENT\": \"http://marches.loire-atlantique.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Accord cadre multi-attributaires concernant les marchés de fourniture et d'acheminement de gaz naturel et électricité\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Accord cadre multi-attributaires concernant les marchés de fourniture et d'acheminement de gaz naturel et électricitéAccord-cadre avec maximum Attribution d'un accord-cadre pour chaque lot.\", \"CPV\": {\"PRINCIPAL\": \"09123000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"25200000.00\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Gaz Naturel\", \"DESCRIPTION\": \"Fourniture et acheminement de gaz naturel\", \"CPV\": {\"PRINCIPAL\": \"09123000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"9000000.00\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Aucune\"}, {\"NUM\": \"2\", \"INTITULE\": \"Electricité\", \"DESCRIPTION\": \"Fourniture et acheminement d'électricité : Points de comptage et d'estimation HTA ou BT de puissance supérieure à 36 kVA\", \"CPV\": {\"PRINCIPAL\": \"09310000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"16200000.00\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Aucune\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"PLUSIEURS_OPERATEURS\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-05-28T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"MPS - Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas des interdictions de soumissionner;\", \"CAP_ECO\": \"MPS Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du contrat, réalisées au cours des trois derniers exercices disponibles; Preuve d'une assurance pour les risques professionnels ;\", \"CAP_TECH\": \"MPS - Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années; Liste des principales prestations effectuées au cours des trois dernières années, indiquant le montant, la date et le destinataire. Elles sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration du candidat; Autorisation de fourniture d?énergie conformément aux articles L.333-1 et suivants du Code de l'énergie.; Copie de l'autorisation de fourniture de gaz naturel, prévue à l'article 5 de la no2003-8 du 3 janvier 2003 délivrée par le ministre chargé de l?énergie conformément au décret 2004-250 du 19 mars 2004;\", \"MARCHE_RESERVE_NON\": \"\", \"CONDITION_PARTICULIERE_EXECUTION\": \"Début d'exécution de l'accord-cadre à compter de la date de notification du contrat.Prestations réglées par des prix unitaires Prix fermes. Aucune avance prévue. Délai global de paiement des prestations de 30 jours. Modalités de financement des prestations : : le financement est assuré par les ressources budgétaires propres de chaque membre du groupement de commandes .\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"PERS_OUVERTURE_OFFRES_OUI\": \"Nantes. La séance d'ouverture des plis n'est pas publique. Date et heure données à titre indicatif\", \"DATE_OUVERTURE_OFFRES\": \"2018-05-28\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La candidature peut être présentée soit sous la forme des formulaires DC1 et DC2 (disponibles gratuitement sur le site www.economie.gouv.fr.), soit sous la forme d'un Document Unique de Marché Européen (DUME). Le pouvoir adjudicateur impose la transmission des plis par voie électronique. Par conséquent, la transmission par voie papier n'est pas autorisée. La transmission des documents par voie électronique est effectuée sur le profil d'acheteur. Les modalités de transmission des plis par voie électronique sont définies dans le règlement de la consultation. Numéro de la consultation : 18MA00. Date d'envoi du présent avis au JOUE et au BOAMP : 25 avril 2018.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé pré-contractuel prévu aux articles L.551-1 à L.551-12 du Code de justice administrative (CJA), et pouvant être exercé avant la signature du contrat. Référé contractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant être exercé dans les délais prévus à l'article R. 551-7 du CJA. Recours pour excès de pouvoir contre une décision administrative prévu aux articles R. 421-1 à R. 421-7 du CJA, et pouvant être exercé dans les 2 mois suivant la notification ou publication de la décision de l'organisme (le recours ne peut plus, toutefois, être exercé après la signature du contrat). Recours de pleine juridiction ouvert aux tiers justifiant d'un intérêt lésé, et pouvant être exercé dans les deux mois suivant la date à laquelle la conclusion du contrat est rendue publique.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette Cedex 1 BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr/\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité de règlement amiable\", \"ADRESSE\": \"22, Mail Pablo Picasso Cedex 01\", \"CP\": \"44042\", \"VILLE\": \"NANTES\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Département de Loire-Atlantique\", \"ADRESSE\": \"3, Quai Ceineray CS 94109\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"CODE_NUTS\": \"FRG01\", \"MEL\": \"emmanuel.libert@loire-atlantique.fr\", \"URL\": \"https://marches.loire-atlantique.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-57768"
   },
   {
    "idweb": "18-57335",
@@ -1294,6 +1294,65 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-55179"
   },
   {
+   "idweb": "18-57807",
+   "id": "18_57807",
+   "contractfolderid": null,
+   "objet": "Assurance des véhicules et des risques annexes",
+   "filename": "BOAMP-J-AO_2018_117003",
+   "famille": "JOUE",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-04-27",
+   "datefindiffusion": "2018-06-27",
+   "datelimitereponse": null,
+   "nomacheteur": "Commune de La Baule",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "20"
+   ],
+   "dc": [
+    "20"
+   ],
+   "descripteur_libelle": [
+    "Assurance"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-57807\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-57807.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-04-27\", \"DATE_FIN_DIFFUSION\": \"2018-06-27\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"20\", \"LIBELLE\": \"Assurance\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Assurance des véhicules et des risques annexes\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Commune de La Baule\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"7, avenue Olivier Guichard BP 171\", \"CP\": \"44504\", \"VILLE\": \"LA BAULE CEDEX\", \"TEL\": \"(+33) 2-51-75-77-70\", \"MEL\": \"marches-publics@mairie-labaule.fr\", \"URL\": \"http://achatpublic.com\", \"URL_PROFIL_ACHETEUR\": \"http://achatpublic.com\", \"URL_INFORMATION\": \"http://www.achatpublic.com\", \"URL_PARTICIPATION\": \"http://www.achatpublic.com\", \"URL_DOCUMENT\": \"http://www.achatpublic.com\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Assurance des véhicules et des risques annexes\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Assurance des véhicules et des risques annexes\", \"CPV\": {\"PRINCIPAL\": \"66514110\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Forme de marché : ordinaire. Attribution d'un marché unique.\", \"CPV\": {\"PRINCIPAL\": \"66514110\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-06-27T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"6\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas d'interdiction de soumissionner; Renseignements sur le respect de l'obligation d'emploi mentionnée aux articles L. 5212-1 à L. 5212-11 du Code du travail; Attestation de responsabilité civile et de garantie financière, attestation d'inscription à l'ORIAS; Les pouvoirs de la personne habilitée pour engager le candidat. Qualité selon laquelle il agit : agent, courtier, mutuelle, s'il intervient en qualité de courtier, il devra fournir une copie du mandat pour agir au nom de la (les) compagnie(s) qu'il a saisie et l'étendue de celui Compagnie qui effectue la proposition et son engagement de souscription ; copie du ou des jugement(s) prononcé(s) si l'entreprise est en redressement judiciaire.;\", \"CAP_ECO\": \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du contrat, réalisées au cours des trois derniers exercices disponibles; Les moyens techniques et humains ; qualification du candidat et certification - désignation détaillée au règlement de la consultation.;\", \"MARCHE_RESERVE_NON\": \"\", \"CONDITION_PARTICULIERE_EXECUTION\": \"Prestations supplémentaires éventuelles définies au cahier des charges.Prestations réglées par des prix unitaires Prix ajustables mensuellement. Avance de 5.0 % accordée dans les conditions prévues au contrat. Délai global de paiement des prestations de 30 jours. Modalités de financement des prestations : Fonds propres.\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-06-27\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La candidature est présentée soit sous la forme des formulaires DC1 et DC2 (disponibles gratuitement sur le site www.economie.gouv.fr.), soit sous la forme d'un Document Unique de Marché Européen (DUME). La transmission des plis par voie papier est autorisée : Poste avec AR, Dépôt contre récépissé La transmission des documents par voie électronique est effectuée sur le profil d'acheteur. Les modalités de transmission des plis par voie électronique sont définies dans le règlement de la consultation. Le dossier de consultation des entreprises peut être obtenu gratuitement : - en le téléchargeant à l'adresse suivante http://www.achatpublic.com ou sur demande écrite. Les conditions de remise des offres sont décrites dans le règlement de consultation. Numéro de la consultation : 18027SAO. Date d'envoi du présent avis au JOUE et au BOAMP : 25 avril 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette Cedex 1 BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr/\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette Cedex 1 BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr/\"}, {\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"MAIRIE DE LA BAULE Service des marchés publics\", \"ADRESSE\": \"3, Avenue des Noelles BP 64\", \"CP\": \"44503\", \"VILLE\": \"LA BAULE CEDEX\", \"CODE_NUTS\": \"FRG01\", \"TEL\": \"(+33) 2-51-75-77-70\", \"MEL\": \"marches-publics@mairie-labaule.fr\", \"URL\": \"http://www.achatpublic.com\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"MAIRIE DE LA BAULE Service des marchés publics\", \"ADRESSE\": \"3, Avenue des Noelles BP 64\", \"CP\": \"44503\", \"VILLE\": \"LA BAULE CEDEX\", \"CODE_NUTS\": \"FRG01\", \"TEL\": \"(+33) 2-51-75-77-70\", \"MEL\": \"marches-publics@mairie-labaule.fr\", \"URL\": \"http://www.achatpublic.com\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-57807"
+  },
+  {
    "idweb": "18-59000",
    "id": "18_59000",
    "contractfolderid": null,
@@ -1543,65 +1602,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-59745\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-59745.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-04-27\", \"DATE_LIMITE_REPONSE\": \"2018-05-29T17:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-05-29\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"197\", \"LIBELLE\": \"Maîtrise d'oeuvre\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Maitrise d'ouvrage pour le renouvellement et le renforcement du réseau de distribution d'eau du territoire syndical\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"SIAEP RG VIVE PARENCE\", \"CORRESPONDANT\": \"Lagoute André, Président\", \"ADRESSE\": \"2 rue de la Poste\", \"CP\": \"72110\", \"VILLE\": \"Torcé-en-Vallée\", \"TEL\": \"02-43-29-20-46\", \"MEL\": \"mairie.torce.72@wanadoo.fr\"}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Maitrise d'ouvrage pour le renouvellement et le renforcement du réseau de distribution d'eau du territoire syndical\", \"CPV\": {\"PRINCIPAL\": \"71242000\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Alimentation en eau potable\", \"QUANTITE\": \"Commune de TORCE EN VALLEE :- Renouvellement et renforcement de canalisations DN 150 AC en Ø 160 PVC sur 110 ml.- Raccordement des canalisations existantes avec reprise de 7 branchements environ.Commune de BONNETABLE :- 110 et 90 PVC sur 110 et 70 ml (à justifier par le BET en accord avec l'exploitant).- Raccordement des canalisations existantes avec reprise de 20 branchements environ\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"170000\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-05-29T17:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Pour retrouver cet avis intégral, poser des questions à l'acheteur, déposer un pli, allez sur http://www.marches-publics.info\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\"}}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-59745"
-  },
-  {
-   "idweb": "18-57807",
-   "id": "18_57807",
-   "contractfolderid": null,
-   "objet": "Assurance des véhicules et des risques annexes",
-   "filename": "BOAMP-J-AO_2018_117003",
-   "famille": "JOUE",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-04-27",
-   "datefindiffusion": "2018-06-27",
-   "datelimitereponse": null,
-   "nomacheteur": "Commune de La Baule",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "20"
-   ],
-   "dc": [
-    "20"
-   ],
-   "descripteur_libelle": [
-    "Assurance"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-57807\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-57807.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-04-27\", \"DATE_FIN_DIFFUSION\": \"2018-06-27\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"20\", \"LIBELLE\": \"Assurance\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Assurance des véhicules et des risques annexes\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Commune de La Baule\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"7, avenue Olivier Guichard BP 171\", \"CP\": \"44504\", \"VILLE\": \"LA BAULE CEDEX\", \"TEL\": \"(+33) 2-51-75-77-70\", \"MEL\": \"marches-publics@mairie-labaule.fr\", \"URL\": \"http://achatpublic.com\", \"URL_PROFIL_ACHETEUR\": \"http://achatpublic.com\", \"URL_INFORMATION\": \"http://www.achatpublic.com\", \"URL_PARTICIPATION\": \"http://www.achatpublic.com\", \"URL_DOCUMENT\": \"http://www.achatpublic.com\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Assurance des véhicules et des risques annexes\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Assurance des véhicules et des risques annexes\", \"CPV\": {\"PRINCIPAL\": \"66514110\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Forme de marché : ordinaire. Attribution d'un marché unique.\", \"CPV\": {\"PRINCIPAL\": \"66514110\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-06-27T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"6\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas d'interdiction de soumissionner; Renseignements sur le respect de l'obligation d'emploi mentionnée aux articles L. 5212-1 à L. 5212-11 du Code du travail; Attestation de responsabilité civile et de garantie financière, attestation d'inscription à l'ORIAS; Les pouvoirs de la personne habilitée pour engager le candidat. Qualité selon laquelle il agit : agent, courtier, mutuelle, s'il intervient en qualité de courtier, il devra fournir une copie du mandat pour agir au nom de la (les) compagnie(s) qu'il a saisie et l'étendue de celui Compagnie qui effectue la proposition et son engagement de souscription ; copie du ou des jugement(s) prononcé(s) si l'entreprise est en redressement judiciaire.;\", \"CAP_ECO\": \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du contrat, réalisées au cours des trois derniers exercices disponibles; Les moyens techniques et humains ; qualification du candidat et certification - désignation détaillée au règlement de la consultation.;\", \"MARCHE_RESERVE_NON\": \"\", \"CONDITION_PARTICULIERE_EXECUTION\": \"Prestations supplémentaires éventuelles définies au cahier des charges.Prestations réglées par des prix unitaires Prix ajustables mensuellement. Avance de 5.0 % accordée dans les conditions prévues au contrat. Délai global de paiement des prestations de 30 jours. Modalités de financement des prestations : Fonds propres.\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-06-27\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La candidature est présentée soit sous la forme des formulaires DC1 et DC2 (disponibles gratuitement sur le site www.economie.gouv.fr.), soit sous la forme d'un Document Unique de Marché Européen (DUME). La transmission des plis par voie papier est autorisée : Poste avec AR, Dépôt contre récépissé La transmission des documents par voie électronique est effectuée sur le profil d'acheteur. Les modalités de transmission des plis par voie électronique sont définies dans le règlement de la consultation. Le dossier de consultation des entreprises peut être obtenu gratuitement : - en le téléchargeant à l'adresse suivante http://www.achatpublic.com ou sur demande écrite. Les conditions de remise des offres sont décrites dans le règlement de consultation. Numéro de la consultation : 18027SAO. Date d'envoi du présent avis au JOUE et au BOAMP : 25 avril 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette Cedex 1 BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr/\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette Cedex 1 BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr/\"}, {\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"MAIRIE DE LA BAULE Service des marchés publics\", \"ADRESSE\": \"3, Avenue des Noelles BP 64\", \"CP\": \"44503\", \"VILLE\": \"LA BAULE CEDEX\", \"CODE_NUTS\": \"FRG01\", \"TEL\": \"(+33) 2-51-75-77-70\", \"MEL\": \"marches-publics@mairie-labaule.fr\", \"URL\": \"http://www.achatpublic.com\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"MAIRIE DE LA BAULE Service des marchés publics\", \"ADRESSE\": \"3, Avenue des Noelles BP 64\", \"CP\": \"44503\", \"VILLE\": \"LA BAULE CEDEX\", \"CODE_NUTS\": \"FRG01\", \"TEL\": \"(+33) 2-51-75-77-70\", \"MEL\": \"marches-publics@mairie-labaule.fr\", \"URL\": \"http://www.achatpublic.com\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-57807"
   },
   {
    "idweb": "18-57524",
@@ -2091,72 +2091,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-59653"
   },
   {
-   "idweb": "18-59184",
-   "id": "18_59184",
-   "contractfolderid": null,
-   "objet": "Mise à disposition de personnel médical intérimaire",
-   "filename": "BOAMP-J-IC-AA_2018_118003",
-   "famille": "JOUE",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-04-28",
-   "datefindiffusion": "2018-05-11",
-   "datelimitereponse": null,
-   "nomacheteur": "CH LE MANS",
-   "titulaire": [
-    "RANDSTAD - SELECT TT",
-    "ADECCO MEDICAL",
-    "ARC INTERIM",
-    "DOC INT"
-   ],
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "ATTRIBUTION",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "461"
-   ],
-   "dc": [
-    "461"
-   ],
-   "descripteur_libelle": [
-    "Mise à disposition de personnel"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "18-569"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"18-569\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-01-03\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-01-05\", \"DATE_FIN_DIFFUSION\": \"2018-03-25\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"003\", \"NUM_ANNONCE\": \"003371\", \"DATE_PUBLICATION\": \"2018-01-05\"}}]}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-59184\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-569\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-01-03\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-01-05\", \"DATE_FIN_DIFFUSION\": \"2018-03-25\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"003\", \"NUM_ANNONCE\": \"003371\", \"DATE_PUBLICATION\": \"2018-01-05\"}}]}}, \"NOM_HTML\": \"18-59184.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-04-28\", \"DATE_FIN_DIFFUSION\": \"2018-05-11\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"461\", \"LIBELLE\": \"Mise à disposition de personnel\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Mise à disposition de personnel médical intérimaire\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CH LE MANS\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"Etablissement support du GHT 72 sis 194 avenue Rubillard\", \"CP\": \"72037\", \"VILLE\": \"Le mans cedex 09\", \"TEL\": \"(+33) 2-44-71-02-97\", \"FAX\": \"(+33) 2-43-43-44-11\", \"MEL\": \"celluledesmarches@ch-lemans.fr\", \"URL\": \"http://www.ch-lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.gouv.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Etablissement public de santé\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Mise à disposition de personnel médical intérimaire\", \"REF_MARCHE\": \"INTR18-001\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Mise à disposition de personnel médical intérimaire\", \"CPV\": {\"PRINCIPAL\": \"79620000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"6000000\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Mise à disposition de personnel médical intérimaire\", \"CPV\": [{\"PRINCIPAL\": \"79620000\"}, {\"PRINCIPAL\": \"85100000\"}, {\"PRINCIPAL\": \"85141000\"}], \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"Critère 1 - Valeur technique\"}, {\"@POIDS\": \"30\", \"#text\": \"Sous-critère 1.1 : L'organisation mise en place pour répondre au besoin\"}, {\"@POIDS\": \"30\", \"#text\": \"Sous-critère 1.2 : La qualité du recrutement\"}]}, \"CRITERES_COUT\": {\"CRITERE\": [{\"@POIDS\": \"40\", \"#text\": \"Critère 2 - Prix\"}, {\"@POIDS\": \"10\", \"#text\": \"Sous-critère 2.1 : Rémunération nette de l'intérimaire\"}, {\"@POIDS\": \"30\", \"#text\": \"Sous-critère 2.2 : Taux des honoraires pratiqués par la société intérimaire\"}]}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AMP_NON\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"003\", \"NUM_ANNONCE\": \"003371\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"181300\", \"NUM_LOT\": \"1\", \"INTITULE\": \"mise à disposition de personnel médical intérimaire\", \"TITULAIRE\": {\"DENOMINATION\": \"RANDSTAD - SELECT TT\", \"ADRESSE\": \"276 avenue du Président Wilson\", \"CP\": \"93210\", \"VILLE\": \"SAINT DENIS LA PLAINE\", \"CODE_NUTS\": \"FR106\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-04-06\", \"NB_OFFRE_RECU\": \"6\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"6000000\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"181301\", \"NUM_LOT\": \"1\", \"INTITULE\": \"mise à disposition de personnel médical intérimaire\", \"TITULAIRE\": {\"DENOMINATION\": \"ADECCO MEDICAL\", \"ADRESSE\": \"2 rue Henri Legay\", \"CP\": \"69100\", \"VILLE\": \"VILLEURBANNE\", \"CODE_NUTS\": \"FRK2\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-04-06\", \"NB_OFFRE_RECU\": \"6\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"6000000\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"181302\", \"NUM_LOT\": \"1\", \"INTITULE\": \"mise à disposition de personnel médical intérimaire\", \"TITULAIRE\": {\"DENOMINATION\": \"ARC INTERIM\", \"ADRESSE\": \"2 rue Adolphe Mille\", \"CP\": \"75019\", \"VILLE\": \"PARIS\", \"CODE_NUTS\": \"FR1\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-04-06\", \"NB_OFFRE_RECU\": \"6\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"6000000\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"181303\", \"NUM_LOT\": \"1\", \"INTITULE\": \"mise à disposition de personnel médical intérimaire\", \"TITULAIRE\": {\"DENOMINATION\": \"DOC INT\", \"ADRESSE\": \"35 rue DANTON\", \"CP\": \"92300\", \"VILLE\": \"LEVALLOIS PERRET\", \"CODE_NUTS\": \"FR105\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-04-06\", \"NB_OFFRE_RECU\": \"6\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"6000000\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Le marché est multi attributaire.Les sociétés, dont l'offre a été retenue, sont classées comme suit :1. RANDSTAD - SELECT TT2. ADECCO MEDICAL3. ARC INTERIM4. DOC INT. Date d'envoi du présent avis au JOUE et au BOAMP : 27 avril 2018.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé précontractuel depuis le début de la procédure jusqu'à la signature du contrat : devant le tribunal administratif de Nantes (articles L551-1 du code de justice administrative)\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des litiges relatifs aux marchés publics\", \"ADRESSE\": \"8 rue Châteaubriand\", \"CP\": \"44000\", \"VILLE\": \"Nantes\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\"}]}}, \"ANNEXE_D1\": \"\"}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-59184"
-  },
-  {
    "idweb": "18-59030",
    "id": "18_59030",
    "contractfolderid": null,
@@ -2336,6 +2270,72 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-59213\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-25\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-59213.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-04-28\", \"DATE_FIN_DIFFUSION\": \"2018-06-10\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"6\", \"LIBELLE\": \"Alimentation en eau potable\"}, {\"CODE\": \"111\", \"LIBELLE\": \"Equipement hydraulique\"}]}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Construction d'une usine de décarbonatation - déferrisation et d'infrastructures d'eau potable - Marche 2 : Forages\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"SYND INTERCOMMUNAL PROD DISTRIB EAU PO\", \"CODE_IDENT_NATIONAL\": \"20003707500021\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"11 boulevard de l'Europe\", \"CP\": \"72600\", \"VILLE\": \"Mamers\", \"TEL\": \"(+33) 2-43-34-88-10\", \"MEL\": \"sidpep72@orange.fr\", \"URL\": \"http://www.sarthe-marchespublics.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\", \"URL_PARTICIPATION\": \"http://www.sarthe-marchespublics.fr\", \"URL_DOCUMENT\": \"http://www.sarthe-marchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"ENTITE_ADJUDICATRICE\": {\"EAU\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Construction d'une usine de décarbonatation - déferrisation et d'infrastructures d'eau potable - Marche 2 : Forages\", \"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"Le marché 2 du programme concerne les travaux d'équipement en vue de l'exploitation de 4 forages existants et du changement des groupes de pompage de l'usine de Pentvert. Il intègre l'équipement définitifs des 4 forages et de l'usine de Pentvert (pompes et canalisations), la réalisation des locaux associés, les Vrd et le raccordement aux réseaux.Lieu d'exécution : 5 sites : Mamers, Marollette et Saint Rémy des Monts (2 forages), ainsi que sur le site de l'usine de Pentvert à Saosnes.Les travaux de construction d'une usine de décarbonatation - déferrisation et d'infrastructures d'eau potable sont dévolus en 4 marchés :marché no1 : 'usine'marché no 2 : 'forages'marché no 3 : 'réservoir'marché no 4 : 'canalisations'\", \"CPV\": {\"PRINCIPAL\": \"45232152\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Le marché 2 du programme concerne les travaux d'équipement en vue de l'exploitation de 4 forages existants et du changement des groupes de pompage de l'usine de Pentvert. Il intègre l'équipement définitifs des 4 forages et de l'usine de Pentvert (pompes et canalisations), la réalisation des locaux associés, les Vrd et le raccordement aux réseaux.Lieu d'exécution : 5 sites : Mamers, Marollette et Saint Rémy des Monts (2 forages), ainsi que sur le site de l'usine de Pentvert à Saosnes.Les travaux de construction d'une usine de décarbonatation - déferrisation et d'infrastructures d'eau potable sont dévolus en 4 marchés :marché no1 : 'usine'marché no 2 : 'forages'marché no 3 : 'réservoir'marché no 4 : 'canalisations'\", \"CPV\": {\"PRINCIPAL\": \"45232152\"}, \"CODE_NUTS\": \"FRG04\", \"LIEU_PRINCIPAL\": \"Bel Air<br/>72600 - Mamers\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"16\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-06-19T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"6\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FORME_JURIDIQUE\": \"Le marché sera conclu soit :- soit avec une entreprise seule,- soit avec un groupement solidaire ou un groupement conjoint dont le mandataire est responsable solidairement de tous les autres membres du groupement à l'égard du maître d'ouvrage pour l'exécution du marché\", \"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Liste et description succincte des conditions :Les candidats devront fournir notamment une lettre de candidature, une déclaration sur l'honneur justifiant qu'il n'entrent pas dans un des cas d'exclusion mentionnés aux articles 45 et 48 de l'ordonnance no 2015-899, une attestation d'assurance de responsabilité civile en cours de validité.Les modalités de présentation des documents et le détail de ces exigences sont précisés dans le règlement de consultation\", \"CAP_ECO\": \"Les critères sont précisés dans le règlement de la consultation\", \"CAP_ECO_NIVEAU_MINI\": \"Les niveaux minimaux requis sont, le cas échéant précisés dans le règlement de la consultation\", \"CAP_TECH\": \"Application des dispositions de l'arrêté du 29/03/2016 fixant la liste des renseignements et des documents pouvant être demandés aux candidats aux marchés publics, selon les critères définis dans le règlement de la consultation\", \"CAP_TECH_NIVEAU_MINI\": \"Ils sont définis le cas échéant dans le règlement de la consultation\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-06-19\", \"LIEU_OUVERTURE_OFFRES\": \"Mamers\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.sarthe-marchespublics.fr -Les prestations du présent marché ont pour objet la construction de 4 bâtiments de forage pour des forages existants à vocation d'eau potable à équiper pour une exploitation définitive, situés respectivement à Mamers, Marollette et Saint Rémy des Monts, autour de Mamers (Sarthe), ainsi que du changement des groupes de pompage de l'usine de Pentvert située à Saosnes (Sarthe).Les études comprennent notamment :- les études d'exécution;- la réalisation des travaux de génie civil (locaux),- la fourniture, le montage des équipements de pompage et de tuyauterie,- le raccordement aux réseaux,- les essais de mise en service des ouvrages.Les travaux seront réalisés sur un site en exploitation. La continuité de service de l'eau potable devra être assurée tout au long des travaux en 2 phases, 2 nouveaux forages d'abord, rénovation de 2 forages existants et changement du groupe de pompage ensuite une fois l'usine d'eau potable réalisée. Date d'envoi du présent avis au JOUE et au BOAMP : 27 avril 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Sidpep\", \"ADRESSE\": \"11 boulevard de l'Europe\", \"CP\": \"72600\", \"VILLE\": \"Mamers\", \"CODE_NUTS\": \"FRG04\", \"TEL\": \"(+33) 2-43-34-88-10\", \"MEL\": \"sidpep72@orange.fr\", \"URL\": \"http://www.sarthe-marchespublics.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-59213"
+  },
+  {
+   "idweb": "18-59184",
+   "id": "18_59184",
+   "contractfolderid": null,
+   "objet": "Mise à disposition de personnel médical intérimaire",
+   "filename": "BOAMP-J-IC-AA_2018_118003",
+   "famille": "JOUE",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-04-28",
+   "datefindiffusion": "2018-05-11",
+   "datelimitereponse": null,
+   "nomacheteur": "CH LE MANS",
+   "titulaire": [
+    "RANDSTAD - SELECT TT",
+    "ADECCO MEDICAL",
+    "ARC INTERIM",
+    "DOC INT"
+   ],
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "ATTRIBUTION",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "461"
+   ],
+   "dc": [
+    "461"
+   ],
+   "descripteur_libelle": [
+    "Mise à disposition de personnel"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "18-569"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"18-569\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-01-03\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-01-05\", \"DATE_FIN_DIFFUSION\": \"2018-03-25\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"003\", \"NUM_ANNONCE\": \"003371\", \"DATE_PUBLICATION\": \"2018-01-05\"}}]}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-59184\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-569\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-01-03\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-01-05\", \"DATE_FIN_DIFFUSION\": \"2018-03-25\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"003\", \"NUM_ANNONCE\": \"003371\", \"DATE_PUBLICATION\": \"2018-01-05\"}}]}}, \"NOM_HTML\": \"18-59184.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-04-28\", \"DATE_FIN_DIFFUSION\": \"2018-05-11\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"461\", \"LIBELLE\": \"Mise à disposition de personnel\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Mise à disposition de personnel médical intérimaire\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CH LE MANS\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"Etablissement support du GHT 72 sis 194 avenue Rubillard\", \"CP\": \"72037\", \"VILLE\": \"Le mans cedex 09\", \"TEL\": \"(+33) 2-44-71-02-97\", \"FAX\": \"(+33) 2-43-43-44-11\", \"MEL\": \"celluledesmarches@ch-lemans.fr\", \"URL\": \"http://www.ch-lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.gouv.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Etablissement public de santé\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Mise à disposition de personnel médical intérimaire\", \"REF_MARCHE\": \"INTR18-001\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Mise à disposition de personnel médical intérimaire\", \"CPV\": {\"PRINCIPAL\": \"79620000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"6000000\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Mise à disposition de personnel médical intérimaire\", \"CPV\": [{\"PRINCIPAL\": \"79620000\"}, {\"PRINCIPAL\": \"85100000\"}, {\"PRINCIPAL\": \"85141000\"}], \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"Critère 1 - Valeur technique\"}, {\"@POIDS\": \"30\", \"#text\": \"Sous-critère 1.1 : L'organisation mise en place pour répondre au besoin\"}, {\"@POIDS\": \"30\", \"#text\": \"Sous-critère 1.2 : La qualité du recrutement\"}]}, \"CRITERES_COUT\": {\"CRITERE\": [{\"@POIDS\": \"40\", \"#text\": \"Critère 2 - Prix\"}, {\"@POIDS\": \"10\", \"#text\": \"Sous-critère 2.1 : Rémunération nette de l'intérimaire\"}, {\"@POIDS\": \"30\", \"#text\": \"Sous-critère 2.2 : Taux des honoraires pratiqués par la société intérimaire\"}]}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AMP_NON\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"003\", \"NUM_ANNONCE\": \"003371\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"181300\", \"NUM_LOT\": \"1\", \"INTITULE\": \"mise à disposition de personnel médical intérimaire\", \"TITULAIRE\": {\"DENOMINATION\": \"RANDSTAD - SELECT TT\", \"ADRESSE\": \"276 avenue du Président Wilson\", \"CP\": \"93210\", \"VILLE\": \"SAINT DENIS LA PLAINE\", \"CODE_NUTS\": \"FR106\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-04-06\", \"NB_OFFRE_RECU\": \"6\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"6000000\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"181301\", \"NUM_LOT\": \"1\", \"INTITULE\": \"mise à disposition de personnel médical intérimaire\", \"TITULAIRE\": {\"DENOMINATION\": \"ADECCO MEDICAL\", \"ADRESSE\": \"2 rue Henri Legay\", \"CP\": \"69100\", \"VILLE\": \"VILLEURBANNE\", \"CODE_NUTS\": \"FRK2\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-04-06\", \"NB_OFFRE_RECU\": \"6\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"6000000\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"181302\", \"NUM_LOT\": \"1\", \"INTITULE\": \"mise à disposition de personnel médical intérimaire\", \"TITULAIRE\": {\"DENOMINATION\": \"ARC INTERIM\", \"ADRESSE\": \"2 rue Adolphe Mille\", \"CP\": \"75019\", \"VILLE\": \"PARIS\", \"CODE_NUTS\": \"FR1\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-04-06\", \"NB_OFFRE_RECU\": \"6\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"6000000\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"181303\", \"NUM_LOT\": \"1\", \"INTITULE\": \"mise à disposition de personnel médical intérimaire\", \"TITULAIRE\": {\"DENOMINATION\": \"DOC INT\", \"ADRESSE\": \"35 rue DANTON\", \"CP\": \"92300\", \"VILLE\": \"LEVALLOIS PERRET\", \"CODE_NUTS\": \"FR105\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-04-06\", \"NB_OFFRE_RECU\": \"6\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"6000000\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Le marché est multi attributaire.Les sociétés, dont l'offre a été retenue, sont classées comme suit :1. RANDSTAD - SELECT TT2. ADECCO MEDICAL3. ARC INTERIM4. DOC INT. Date d'envoi du présent avis au JOUE et au BOAMP : 27 avril 2018.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé précontractuel depuis le début de la procédure jusqu'à la signature du contrat : devant le tribunal administratif de Nantes (articles L551-1 du code de justice administrative)\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des litiges relatifs aux marchés publics\", \"ADRESSE\": \"8 rue Châteaubriand\", \"CP\": \"44000\", \"VILLE\": \"Nantes\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\"}]}}, \"ANNEXE_D1\": \"\"}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-59184"
   },
   {
    "idweb": "18-58840",
@@ -5434,73 +5434,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-62062"
   },
   {
-   "idweb": "18-62687",
-   "id": "18_62687",
-   "contractfolderid": null,
-   "objet": "Conception et fabrication d'un dispositif ambulatoire miniaturisé de mesure de l'exposition à la lumière et de l'activité des personnes",
-   "filename": "BOAMP-N-AO_2018_124009",
-   "famille": "FNS",
-   "code_departement": [
-    "69",
-    "6",
-    "13",
-    "38",
-    "44",
-    "67",
-    "92",
-    "31",
-    "59"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2018-05-04",
-   "datefindiffusion": "2018-05-30",
-   "datelimitereponse": null,
-   "nomacheteur": "ENTPE",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "204"
-   ],
-   "dc": [
-    "204"
-   ],
-   "descripteur_libelle": [
-    "Matériel électronique"
-   ],
-   "type_marche": [
-    "FOURNITURES"
-   ],
-   "type_marche_facette": [
-    "Fournitures"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-62687\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-62687.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-05-04\", \"DATE_FIN_DIFFUSION\": \"2018-05-30\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"204\", \"LIBELLE\": \"Matériel électronique\"}}, \"DEP_PUBLICATION\": [\"69\", \"6\", \"13\", \"38\", \"44\", \"67\", \"92\", \"31\", \"59\"], \"RESUME_OBJET\": \"Conception et fabrication d'un dispositif ambulatoire miniaturisé de mesure de l'exposition à la lumière et de l'activité des personnes\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"ENTPE\", \"CORRESPONDANT\": \"M. CHAUDONNERET Jean, ENTPE\", \"ADRESSE\": \"3, rue Maurice Audin\", \"CP\": \"69120\", \"VILLE\": \"Vaulx en velin\", \"TEL\": \"04-72-04-71-64\", \"MEL\": \"achatpublic@entpe.fr\", \"URL\": \"http://www.entpe.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=373703&orgAcronyme=d4t\"}, \"TYPE_ORGANISME\": {\"EPN\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"EDUCATION\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"FOURNITURES\": {\"ACHAT\": \"\"}}, \"OBJET_COMPLET\": \"Conception et fabrication d'un dispositif ambulatoire miniaturisé de mesure de l'exposition à la lumière et de l'activité des personnes\", \"CPV\": [{\"PRINCIPAL\": \"38341200\"}, {\"PRINCIPAL\": \"31712000\"}], \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"3, rue Maurice Audin\", \"CP\": \"69120\", \"VILLE\": \"Vaulx en velin\", \"CODE_NUTS\": \"FRK26\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\", \"DUREE_MOIS\": \"40\", \"VALEUR_MIN\": {\"@DEVISE\": \"EUR\", \"#text\": \"70000\"}, \"VALEUR_MAX\": {\"@DEVISE\": \"EUR\", \"#text\": \"135000\"}}, \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Conception et fabrication d'un dispositif ambulatoire miniaturisé de mesure de l'exposition à la lumière et de l'activité des personnes\", \"QUANTITE\": \"Maquette et prototype, présérie de 5 unités, fourniture de 25 à 100 unités\", \"VALEUR_MIN\": {\"@DEVISE\": \"EUR\", \"#text\": \"70000\"}, \"VALEUR_MAX\": {\"@DEVISE\": \"EUR\", \"#text\": \"135000\"}, \"OPTIONS\": {\"OUI\": \"\", \"DESCRIPTION\": \"Extension éventuelle de la garantie à 5 ans\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"40\", \"DATE_EXECUTION\": \"2018-06-30\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"UNITE_MONETAIRE_EUR\": \"\"}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC4, Déclaration de sous-traitance (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Les pièces prévues aux articles D. 8222-5 ou D. 8222-7 et D. 8222-8 du code du travail\", \"Si l'attributaire est établi en France, les attestations et certificats délivrés par les administrations et organismes compétents prouvant qu'il a satisfait à ses obligations fiscales et sociales ou un état annuel des certificats reçus\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"ENTPE_LGCB_2018_DosimetreLumiere\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Lyon\", \"ADRESSE\": \"184, rue Duguesclin\", \"CP\": \"69433\", \"VILLE\": \"Lyon cedex 03\", \"MEL\": \"greffe.ta-lyon@juradm.fr\", \"URL\": \"http://lyon.tribunal-administratif.fr\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"URL\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=373703&orgAcronyme=d4t\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"URL\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=373703&orgAcronyme=d4t\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-62687"
-  },
-  {
    "idweb": "18-37571",
    "id": "18_37571",
    "contractfolderid": null,
@@ -5617,6 +5550,73 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-59412\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-59412.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-05-04\", \"DATE_FIN_DIFFUSION\": \"2018-06-07\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"410\", \"LIBELLE\": \"Formation\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Formation professionnelle obligatoire des assistants maternels pour les années 2019, 2020 et 2021\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Département de Maine-et-Loire\", \"CODE_IDENT_NATIONAL\": \"22490001900015\", \"CONTACT\": \"Service de la commande publique et des assurances\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"Hôtel du Département - Direction des finances, des affaires juridiques et de l'évaluation - 48 B boulevard Foch - CS 94104\", \"CP\": \"49941\", \"VILLE\": \"Angers cedex 9\", \"TEL\": \"(+33) -02-41-81-44-19\", \"MEL\": \"commande-publique@maine-et-loire.fr\", \"URL\": \"http://www.maine-et-loire.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.anjoumarchespublics.fr\", \"URL_PARTICIPATION\": \"https://www.anjoumarchespublics.fr\", \"URL_DOCUMENT\": \"https://www.anjoumarchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Formation professionnelle obligatoire des assistants maternels pour les années 2019, 2020 et 2021\", \"REF_MARCHE\": \"PI/2018/35\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"- Les prestations comprennent 3 modules : * Module 1 : formation préalable à l'accueil (60 heures), * Module 2 : formation aux premiers secours, * Module 3 : formation en cours d'emploi (60 heures)- Accord-cadre à bons de commande conclu avec un seul opérateur économique en application de l'article 4 de l'ordonnance du 23 juillet 2015 relative aux marchés publics et des articles 78 et 80 du décret du 25 mars 2016 relatif aux marchés publics- le marché est passé avec un minimum et un maximum annuels exprimés en quantités (nombre de groupes) : module 1 : 20 groupes minimum et 30 groupes maximum; module 2 : 25 groupes minimum et 35 groupes maximum; module 3 : 14 groupes minimum et 22 groupes maximum- Le marché est passé pour une période initiale d'un an à compter du 1er janvier 2019; il est ensuite reconductible deux fois par période annuelle par tacite reconduction\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Formation professionnelle obligatoire des assistants maternels\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}, \"CODE_NUTS\": \"FRG02\", \"LIEU_PRINCIPAL\": \"Département de Maine-et-Loire\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"NEGOCIE\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_LIBRE\": \"- Procédure adaptée ouverte (article 42-2 de l'ordonnance du 23 juillet 2015 et article 28 du décret du 25 mars 2016) - Les variantes à l'initiative des soumissionnaires ne sont pas autorisées- La consultation ne comporte pas de variantes exigée par l'acheteur- Une phase de négociation est envisagée, mais le pouvoir adjudicateur se réserve la possibilité d'attribuer le marché sur la base des offres initiales sans négociation- Délai global de paiement de 30 jours\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-06-07T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CRITERES_PARTICIPATION\": \"Le candidat produit : - 1°) une lettre de candidature selon le modèle joint ou équivalent, avec une déclaration sur l'honneur justifiant qu'il n'entre dans aucun des cas d'interdiction de soumissionner mentionnés aux articles 45 et 48 de l'ordonnance du 23 juillet 2015 - 2°) une déclaration selon le modèle joint ou équivalent avec mention du chiffre d'affaires global et du chiffre d'affaires du domaine d'activités faisant l'objet du marché, sur les trois derniers exercices disponibles - 3°) une liste des principaux services effectués au cours des 3 dernières années avec indication des montants, dates et destinataires - 4°) une déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pendant les 3 dernières années\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 2 mai 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Département de Maine-et-Loire\", \"CONTACT\": \"Direction générale adjointe développement social et solidarité - Service de protection maternelle et infantile - Mme Béatrice Robert\", \"CP\": \"49941\", \"VILLE\": \"Angers cedex 9\", \"CODE_NUTS\": \"FRG02\", \"TEL\": \"(+33) -02-41-81-44-03\", \"MEL\": \"b.robert@maine-et-loire.fr\", \"URL\": \"http://www.maine-et-loire.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"(+33) -02-40-99-46-00\", \"FAX\": \"(+33) -02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Greffe du Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"(+33) -02-40-99-46-00\", \"FAX\": \"(+33) -02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-59412"
+  },
+  {
+   "idweb": "18-62687",
+   "id": "18_62687",
+   "contractfolderid": null,
+   "objet": "Conception et fabrication d'un dispositif ambulatoire miniaturisé de mesure de l'exposition à la lumière et de l'activité des personnes",
+   "filename": "BOAMP-N-AO_2018_124009",
+   "famille": "FNS",
+   "code_departement": [
+    "69",
+    "6",
+    "13",
+    "38",
+    "44",
+    "67",
+    "92",
+    "31",
+    "59"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2018-05-04",
+   "datefindiffusion": "2018-05-30",
+   "datelimitereponse": null,
+   "nomacheteur": "ENTPE",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "204"
+   ],
+   "dc": [
+    "204"
+   ],
+   "descripteur_libelle": [
+    "Matériel électronique"
+   ],
+   "type_marche": [
+    "FOURNITURES"
+   ],
+   "type_marche_facette": [
+    "Fournitures"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-62687\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-62687.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-05-04\", \"DATE_FIN_DIFFUSION\": \"2018-05-30\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"204\", \"LIBELLE\": \"Matériel électronique\"}}, \"DEP_PUBLICATION\": [\"69\", \"6\", \"13\", \"38\", \"44\", \"67\", \"92\", \"31\", \"59\"], \"RESUME_OBJET\": \"Conception et fabrication d'un dispositif ambulatoire miniaturisé de mesure de l'exposition à la lumière et de l'activité des personnes\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"ENTPE\", \"CORRESPONDANT\": \"M. CHAUDONNERET Jean, ENTPE\", \"ADRESSE\": \"3, rue Maurice Audin\", \"CP\": \"69120\", \"VILLE\": \"Vaulx en velin\", \"TEL\": \"04-72-04-71-64\", \"MEL\": \"achatpublic@entpe.fr\", \"URL\": \"http://www.entpe.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=373703&orgAcronyme=d4t\"}, \"TYPE_ORGANISME\": {\"EPN\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"EDUCATION\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"FOURNITURES\": {\"ACHAT\": \"\"}}, \"OBJET_COMPLET\": \"Conception et fabrication d'un dispositif ambulatoire miniaturisé de mesure de l'exposition à la lumière et de l'activité des personnes\", \"CPV\": [{\"PRINCIPAL\": \"38341200\"}, {\"PRINCIPAL\": \"31712000\"}], \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"3, rue Maurice Audin\", \"CP\": \"69120\", \"VILLE\": \"Vaulx en velin\", \"CODE_NUTS\": \"FRK26\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\", \"DUREE_MOIS\": \"40\", \"VALEUR_MIN\": {\"@DEVISE\": \"EUR\", \"#text\": \"70000\"}, \"VALEUR_MAX\": {\"@DEVISE\": \"EUR\", \"#text\": \"135000\"}}, \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Conception et fabrication d'un dispositif ambulatoire miniaturisé de mesure de l'exposition à la lumière et de l'activité des personnes\", \"QUANTITE\": \"Maquette et prototype, présérie de 5 unités, fourniture de 25 à 100 unités\", \"VALEUR_MIN\": {\"@DEVISE\": \"EUR\", \"#text\": \"70000\"}, \"VALEUR_MAX\": {\"@DEVISE\": \"EUR\", \"#text\": \"135000\"}, \"OPTIONS\": {\"OUI\": \"\", \"DESCRIPTION\": \"Extension éventuelle de la garantie à 5 ans\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"40\", \"DATE_EXECUTION\": \"2018-06-30\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"UNITE_MONETAIRE_EUR\": \"\"}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC4, Déclaration de sous-traitance (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Les pièces prévues aux articles D. 8222-5 ou D. 8222-7 et D. 8222-8 du code du travail\", \"Si l'attributaire est établi en France, les attestations et certificats délivrés par les administrations et organismes compétents prouvant qu'il a satisfait à ses obligations fiscales et sociales ou un état annuel des certificats reçus\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"ENTPE_LGCB_2018_DosimetreLumiere\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Lyon\", \"ADRESSE\": \"184, rue Duguesclin\", \"CP\": \"69433\", \"VILLE\": \"Lyon cedex 03\", \"MEL\": \"greffe.ta-lyon@juradm.fr\", \"URL\": \"http://lyon.tribunal-administratif.fr\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"URL\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=373703&orgAcronyme=d4t\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"URL\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=373703&orgAcronyme=d4t\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-62687"
   },
   {
    "idweb": "18-60154",

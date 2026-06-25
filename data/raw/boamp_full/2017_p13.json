@@ -653,72 +653,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-44821"
   },
   {
-   "idweb": "17-63741",
-   "id": "17_63741",
-   "contractfolderid": null,
-   "objet": "Missions de réaménagement du centre ville de Laval",
-   "filename": "BOAMP-J-IC-AA_2017_131004",
-   "famille": "JOUE",
-   "code_departement": [
-    "53"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2017-05-11",
-   "datefindiffusion": "2017-07-09",
-   "datelimitereponse": null,
-   "nomacheteur": "Ville de Laval",
-   "titulaire": [
-    "GROUPEMENT EPPC /CUSHMAN & WAKEFIELD",
-    "INGEROP CONSEIL ET INGENIERIE",
-    "GROUPEMENT STRATEACT/PALABREO"
-   ],
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "NEGOCIE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Négociée",
-   "procedure_categorise": "NEGOCIE/",
-   "nature": "ATTRIBUTION",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "118"
-   ],
-   "dc": [
-    "118"
-   ],
-   "descripteur_libelle": [
-    "Etude"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "16-163186",
-    "16-173155"
-   ],
-   "annonces_anterieures": "[{\"REFERENCE\": {\"IDWEB\": \"16-163186\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-11-10\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-11-12\", \"DATE_FIN_DIFFUSION\": \"2016-12-15\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"220\", \"NUM_ANNONCE\": \"400989\", \"DATE_PUBLICATION\": \"2016-11-15\"}}]}, {\"REFERENCE\": {\"IDWEB\": \"16-173155\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}, \"DATE_ENVOI\": \"2016-12-01\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-12-03\", \"DATE_FIN_DIFFUSION\": \"2016-12-15\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"235\", \"NUM_ANNONCE\": \"428665\", \"DATE_PUBLICATION\": \"2016-12-06\"}}]}]",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-63741\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": [{\"REFERENCE\": {\"IDWEB\": \"16-163186\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-11-10\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-11-12\", \"DATE_FIN_DIFFUSION\": \"2016-12-15\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"220\", \"NUM_ANNONCE\": \"400989\", \"DATE_PUBLICATION\": \"2016-11-15\"}}]}, {\"REFERENCE\": {\"IDWEB\": \"16-173155\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}, \"DATE_ENVOI\": \"2016-12-01\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-12-03\", \"DATE_FIN_DIFFUSION\": \"2016-12-15\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"235\", \"NUM_ANNONCE\": \"428665\", \"DATE_PUBLICATION\": \"2016-12-06\"}}]}]}, \"NOM_HTML\": \"17-63741.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-05-11\", \"DATE_FIN_DIFFUSION\": \"2017-07-09\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"118\", \"LIBELLE\": \"Etude\"}}, \"DEP_PUBLICATION\": \"53\", \"RESUME_OBJET\": \"Missions de réaménagement du centre ville de Laval\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Laval\", \"ADJUDICATEUR_NUTS\": \"FR513\", \"ADRESSE\": \"Place du 11 novembre - CS 71327\", \"CP\": \"53013\", \"VILLE\": \"Laval cedex\", \"TEL\": \"(+33) -02-43-49-43-00\", \"FAX\": \"(+33) -02-43-49-43-26\", \"MEL\": \"commande.publique@laval.fr\", \"URL\": \"http://www.laval.fr\", \"URL_PROFIL_ACHETEUR\": \"https://laval.achatpublic.com\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Missions de réaménagement du centre ville de Laval\", \"REF_MARCHE\": \"16-105\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Missions de réaménagement du centre ville de Laval\", \"CPV\": {\"PRINCIPAL\": \"71241000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"247771.25\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"DESCRIPTION\": \"Urbanisme - paysage - infrastructures\", \"CPV\": [{\"PRINCIPAL\": \"71241000\"}, {\"PRINCIPAL\": \"71240000\"}], \"CODE_NUTS\": \"FR513\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Valeur technique au regard du mémoire technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"DESCRIPTION\": \"Commerce - montage immobilier et juridique\", \"CPV\": {\"PRINCIPAL\": \"71241000\"}, \"CODE_NUTS\": \"FR513\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Valeur technique au regard du mémoire technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"DESCRIPTION\": \"Déplacement - mobilité\", \"CPV\": {\"PRINCIPAL\": \"71241000\"}, \"CODE_NUTS\": \"FR513\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Valeur technique au regard du mémoire technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"4\", \"DESCRIPTION\": \"Communication - concertation\", \"CPV\": {\"PRINCIPAL\": \"71241000\"}, \"CODE_NUTS\": \"FR513\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Valeur technique au regard du mémoire technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"NEGOCIE\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"220\", \"NUM_ANNONCE\": \"400989\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"SANS_SUITE\": \"\", \"NUM_MARCHE\": \"2016G105\", \"NUM_LOT\": \"01\", \"INTITULE\": \"Urbanisme, paysage, programmation urbaine, infrastructures\"}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2016G105\", \"NUM_LOT\": \"02\", \"INTITULE\": \"Commerce-montage immobilier et juridique\", \"TITULAIRE\": {\"DENOMINATION\": \"GROUPEMENT EPPC /CUSHMAN & WAKEFIELD\", \"ADRESSE\": \"172 Avenue Jean Moulin\", \"CP\": \"78170\", \"VILLE\": \"LA CELLE SAINT CLOUD\", \"CODE_NUTS\": \"FR103\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-04-29\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"68231.25\"}, \"SOUSTRAITANCE_OUI\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"11000\"}}}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2016G105\", \"NUM_LOT\": \"03\", \"INTITULE\": \"Déplacement-mobilité\", \"TITULAIRE\": {\"DENOMINATION\": \"INGEROP CONSEIL ET INGENIERIE\", \"ADRESSE\": \"18 RUE DES DEUX GARES CS 70081\", \"CP\": \"92563\", \"VILLE\": \"RUEIL MALMAISON CEDEX\", \"CODE_NUTS\": \"FR105\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-05-02\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"100725.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2016G105\", \"NUM_LOT\": \"04\", \"INTITULE\": \"Communication-concertation\", \"TITULAIRE\": {\"DENOMINATION\": \"GROUPEMENT STRATEACT/PALABREO\", \"ADRESSE\": \"91 Avenue de la République\", \"CP\": \"75011\", \"VILLE\": \"PARIS\", \"CODE_NUTS\": \"FR101\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-05-02\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"78815.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 9 mai 2017.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Avant la signature du marché pour le référé pré-contractuel;- trente et un jours suivant la publication de l'avis d'attribution ou à défaut six mois à compter du lendemain de la conclusion du marché pour le référé contractuel;- deux mois à compter de la décision faisant grief pour le recours en excès de pouvoir;- deux mois à compter de la publicité relative à la signature et à la consultation du contrat\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) -02-40-99-46-00\", \"FAX\": \"(+33) -02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif inter-régional de règlement amiable des litiges\", \"ADRESSE\": \"6 quai Ceineray\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) -02-40-08-64-32\"}]}}, \"ANNEXE_D1\": \"\"}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-63741"
-  },
-  {
    "idweb": "17-61141",
    "id": "17_61141",
    "contractfolderid": null,
@@ -851,6 +785,72 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-61141\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-61141.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-05-11\", \"DATE_FIN_DIFFUSION\": \"2017-06-13\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"3\", \"LIBELLE\": \"Acier\"}, {\"CODE\": \"33\", \"LIBELLE\": \"Bâtiment\"}, {\"CODE\": \"38\", \"LIBELLE\": \"Bois\"}, {\"CODE\": \"53\", \"LIBELLE\": \"Carrelage\"}, {\"CODE\": \"59\", \"LIBELLE\": \"Chauffage (exploitation, entretien)\"}, {\"CODE\": \"61\", \"LIBELLE\": \"Chauffage (travaux)\"}, {\"CODE\": \"63\", \"LIBELLE\": \"Cloison, faux plafond\"}, {\"CODE\": \"74\", \"LIBELLE\": \"Couverture\"}, {\"CODE\": \"105\", \"LIBELLE\": \"Electricité (travaux)\"}, {\"CODE\": \"117\", \"LIBELLE\": \"Etanchéité\"}, {\"CODE\": \"144\", \"LIBELLE\": \"Gros oeuvre\"}, {\"CODE\": \"169\", \"LIBELLE\": \"Isolation\"}, {\"CODE\": \"195\", \"LIBELLE\": \"Maçonnerie\"}, {\"CODE\": \"222\", \"LIBELLE\": \"Menuiserie\"}, {\"CODE\": \"223\", \"LIBELLE\": \"Métallerie\"}, {\"CODE\": \"264\", \"LIBELLE\": \"Peinture (travaux)\"}, {\"CODE\": \"270\", \"LIBELLE\": \"Plomberie (travaux)\"}, {\"CODE\": \"299\", \"LIBELLE\": \"Ravalement\"}, {\"CODE\": \"308\", \"LIBELLE\": \"Revêtements de sols\"}, {\"CODE\": \"309\", \"LIBELLE\": \"Revêtements muraux\"}, {\"CODE\": \"319\", \"LIBELLE\": \"Sanitaire\"}, {\"CODE\": \"321\", \"LIBELLE\": \"Serrurerie\"}, {\"CODE\": \"360\", \"LIBELLE\": \"Ventilation\"}, {\"CODE\": \"372\", \"LIBELLE\": \"Zinguerie\"}, {\"CODE\": \"414\", \"LIBELLE\": \"Occultation\"}]}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\", \"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"Travaux d'aménagement, de rénovation, de grosses réparations et d'entretien dans les bâtiments\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"VILLE DE LA ROCHE SUR YON\", \"CONTACT\": \"Anne TIERCE\", \"ADJUDICATEUR_NUTS\": \"FR515\", \"ADRESSE\": \"1 Place Napoléon  - BP 829\", \"CP\": \"85021\", \"VILLE\": \"La Roche-sur-Yon\", \"TEL\": \"(+33) -02-51-47-49-14\", \"FAX\": \"(+33) -02-51-47-49-72\", \"MEL\": \"anne.tierce@larochesuryon.fr\", \"URL\": \"http://www.ville-larochesuryon.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-securises.fr\", \"URL_PARTICIPATION\": \"https://www.marches-securises.fr\", \"URL_DOCUMENT\": \"https://www.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Travaux daménagement, de rénovation, de grosses réparations et dentretien dans les bâtiments\", \"REF_MARCHE\": \"17RSYG-027\", \"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"Travaux daménagement, de rénovation, de grosses réparations et dentretien dans les bâtiments. Groupement de commandes : Ville de La Roche-sur-Yon (coordonnateur)- La Roche-sur-Yon Agglomération- Centre Communal d'Action Sociale de La Roche-sur-Yon.Consultation allotie : 13 lots. Pour chaque lot,  un accord-cadre à bons de commande sans montant minimum ni maximum sera conclu à compter de sa date de notification pour 12 mois renouvelable 3 fois 1 an  conformément aux dispositions des articles 78 et 80 du décret no 2016-360 du 25 mars 2016 relatif aux marchés publics.  Pour les lots no1 à 11,  accord-cadre mono attributairePour les lots no12 et no13, accord-cadre conclu avec 2 opérateurs économiques.Pour le lot no7, clause d'insertion sociale applicable.Lieu dexécution : Territoires de la Ville de La Roche-sur-Yon et de La Roche-sur-Yon Agglomération.Pour les lots no8 et no11, les bons de commandes seront émis à compter du 11 octobre 2017.\", \"CPV\": {\"PRINCIPAL\": \"45259000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"5780000\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Gros-OEuvre  Maçonnerie  Ravalement\", \"DESCRIPTION\": \"Accord-cadre mono-attributaire.\", \"CPV\": [{\"PRINCIPAL\": \"45223220\"}, {\"PRINCIPAL\": \"45262522\"}], \"CODE_NUTS\": \"FR515\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"99000\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Accord-cadre reconductible 3 fois 12 mois, partacite reconduction.\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Reconduction, voir ci-dessus.\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Cloisons  Doublage  Isolation  Plafonds suspendus\", \"DESCRIPTION\": \"Accord-cadre mono-attributaire\", \"CPV\": [{\"PRINCIPAL\": \"44112300\"}, {\"PRINCIPAL\": \"45320000\"}, {\"PRINCIPAL\": \"45421146\"}], \"CODE_NUTS\": \"FR515\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"118000\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Accord-cadre reconductible 3 fois 12 mois, partacite reconduction.\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Reconduction, voir ci-dessus.\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Menuiseries bois et PVC\", \"DESCRIPTION\": \"Accord-cadre mono-attributaire\", \"CPV\": {\"PRINCIPAL\": \"45421000\"}, \"CODE_NUTS\": \"FR515\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"70000\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Accord-cadre reconductible 3 fois 12 mois, partacite reconduction.\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Reconduction, voir ci-dessus.\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"4\", \"INTITULE\": \"Menuiseries aluminium et acier\", \"DESCRIPTION\": \"Accord-cadre mono-attributaire\", \"CPV\": {\"PRINCIPAL\": \"45421000\"}, \"CODE_NUTS\": \"FR515\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"140000\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Accord-cadre reconductible 3 fois 12 mois, par tacite reconduction\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Reconduction, voir ci-dessus.\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"5\", \"INTITULE\": \"Métallerie  Serrurerie\", \"DESCRIPTION\": \"Accord-cadre mono-attributaire\", \"CPV\": {\"PRINCIPAL\": \"44316500\"}, \"CODE_NUTS\": \"FR515\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"83000\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Accord-cadre reconductible 3 fois 12 mois, par tacite reconduction\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Reconduction, voir ci-dessus.\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"6\", \"INTITULE\": \"Couverture  Zinguerie\", \"DESCRIPTION\": \"Accord cadre mono attributaire\", \"CPV\": {\"PRINCIPAL\": \"45261210\"}, \"CODE_NUTS\": \"FR515\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"99000\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Accord-cadre reconductible 3 fois 12 mois, par tacite reconduction\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Reconduction, voir ci-dessus.\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"7\", \"INTITULE\": \"Etanchéité\", \"DESCRIPTION\": \"Accord cadre mono-attributaire.Application d'une obligation d'insertion pour les  bons de commandes supérieurs ou égaux à 70 000 euros HT, sur la base de 35 heures par tranche de 70 000 HT facturés par bon de commande.\", \"CPV\": {\"PRINCIPAL\": \"45261420\"}, \"CODE_NUTS\": \"FR515\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"130000\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Accord-cadre reconductible 3 fois 12 mois, par tacite reconduction\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Reconduction, voir ci-dessus.\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"8\", \"INTITULE\": \"Carrelage  Faïence\", \"DESCRIPTION\": \"Accord cadre mono attributaire.Les bons de commandes seront émis à compter du 11 octobre 2017.\", \"CPV\": {\"PRINCIPAL\": \"45431000\"}, \"CODE_NUTS\": \"FR515\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"33000\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Accord-cadre reconductible 3 fois 12 mois, par tacite reconduction\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Reconduction, voir ci-dessus.\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"9\", \"INTITULE\": \"Peinture  Revêtements muraux\", \"DESCRIPTION\": \"Accord cadre mono attributaire\", \"CPV\": {\"PRINCIPAL\": \"45233200\"}, \"CODE_NUTS\": \"FR515\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"90000\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Accord-cadre reconductible 3 fois 12 mois, par tacite reconduction\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Reconduction, voir ci-dessus.\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"10\", \"INTITULE\": \"Revêtements de sols souples\", \"DESCRIPTION\": \"Accord cadre mono attributaire\", \"CPV\": {\"PRINCIPAL\": \"44112200\"}, \"CODE_NUTS\": \"FR515\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"38000\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Accord-cadre reconductible 3 fois 12 mois, par tacite reconduction\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Reconduction, voir ci-dessus.\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"11\", \"INTITULE\": \"Occultations\", \"DESCRIPTION\": \"Accord cadre mono attributaire.Les bons de commandes seront émis à compter du 11 octobre 2017.\", \"CPV\": {\"PRINCIPAL\": \"39515100\"}, \"CODE_NUTS\": \"FR515\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"10000\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Accord-cadre reconductible 3 fois 12 mois, par tacite reconduction.\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Reconduction, voir ci-dessus.\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"12\", \"INTITULE\": \"Plomberie  Sanitaires  Chauffage  Ventilation\", \"DESCRIPTION\": \"Accord cadre conclu avec deux opérateurs économiques. Les commandes leur seront attribuées selon la méthode dite \\\" du tour de rôle\\\", où, pour chaque bon de commande, le choix du titulaire seffectue par roulement. Le premier titulaire sera déterminé selon lordre de classement des offres.\", \"CPV\": [{\"PRINCIPAL\": \"45330000\"}, {\"PRINCIPAL\": \"45232460\"}, {\"PRINCIPAL\": \"45331000\"}], \"CODE_NUTS\": \"FR515\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"320000\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Accord-cadre reconductible 3 fois 12 mois, par tacite reconduction.\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Reconduction, voir ci-dessus.\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"13\", \"INTITULE\": \"Electricité - Courants forts et courants faibles\", \"DESCRIPTION\": \"Accord cadre conclu avec deux opérateurs économiques. Les commandes leur seront attribuées selon la méthode dite \\\" du tour de rôle\\\", où, pour chaque bon de commande, le choix du titulaire seffectue par roulement. Le premier titulaire sera déterminé selon lordre de classement des offres.\", \"CPV\": {\"PRINCIPAL\": \"09310000\"}, \"CODE_NUTS\": \"FR515\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"215000\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Accord-cadre reconductible 3 fois 12 mois, par tacite reconduction\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Reconduction, voir ci-dessus.\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-06-13T12:30:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"Cf Règlement de la consultation\", \"CAP_ECO_NIVEAU_MINI\": \"Cf Règlement de la consultation\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"Cf Règlement de la consultation\", \"CAP_TECH_NIVEAU_MINI\": \"Cf Règlement de la consultation\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2017-06-13\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_NON\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Pièces à produire par les candidats : voir règlement de la consultation. Modalités de retrait du dossier de consultation : Dossier téléchargeable gratuitement sur:  https://www.marches-securises.fr  - Référence La-Roche-sur-Yon_85_20170503W2_01Modalités de remise des offres : voir règlement de la consultation. Demandes de renseignements complémentaires : seules les demandes adressées au plus tard le 2 juin 2017 feront lobjet dune réponse de la part du pouvoir adjudicateur au plus tard le 6 juin 2017 à tous les candidats ayant reçu le dossier.Paiement sur fonds propres (mandat administratif). Certaines prestations sont susceptibles d'être cofinancées par des fonds européens (FEDER).Pour information, l'estimation renseignée par lot est annuelle.. Date d'envoi du présent avis au JOUE et au BOAMP : 9 mai 2017.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Ville de La Roche-sur-Yon\", \"ADRESSE\": \"Service des Marchés Publics10 Place François Mitterrand\", \"CP\": \"85000\", \"VILLE\": \"La Roche-sur-Yon\", \"CODE_NUTS\": \"FR515\", \"TEL\": \"(+33) 2-51-47-45-73\", \"FAX\": \"(+33) 2-51-47-49-72\", \"MEL\": \"anne.tierce@larochesuryon.fr\", \"URL\": \"http://www.marches-securises.fr\"}, {\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"CCAS de La Roche-sur-Yon\", \"ADRESSE\": \"1, place Napoléon\", \"CP\": \"85000\", \"VILLE\": \"La Roche-sur-Yon\", \"CODE_NUTS\": \"FR515\", \"MEL\": \"anne.tierce@larochesuryon.fr\", \"URL\": \"http://www.ville-larochesuryon.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'île Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunaladministratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'île Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunaladministratif.fr\"}, {\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"La Roche-sur-Yon Agglomération\", \"ADRESSE\": \"54, rue René Goscinny\", \"CP\": \"85000\", \"VILLE\": \"La Roche-sur-Yon\", \"CODE_NUTS\": \"FR515\", \"MEL\": \"anne.tierce@larochesuryon.fr\", \"URL\": \"http://www.larochesuryonagglomeration.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-61141"
+  },
+  {
+   "idweb": "17-63741",
+   "id": "17_63741",
+   "contractfolderid": null,
+   "objet": "Missions de réaménagement du centre ville de Laval",
+   "filename": "BOAMP-J-IC-AA_2017_131004",
+   "famille": "JOUE",
+   "code_departement": [
+    "53"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2017-05-11",
+   "datefindiffusion": "2017-07-09",
+   "datelimitereponse": null,
+   "nomacheteur": "Ville de Laval",
+   "titulaire": [
+    "GROUPEMENT EPPC /CUSHMAN & WAKEFIELD",
+    "INGEROP CONSEIL ET INGENIERIE",
+    "GROUPEMENT STRATEACT/PALABREO"
+   ],
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "NEGOCIE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Négociée",
+   "procedure_categorise": "NEGOCIE/",
+   "nature": "ATTRIBUTION",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "118"
+   ],
+   "dc": [
+    "118"
+   ],
+   "descripteur_libelle": [
+    "Etude"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "16-163186",
+    "16-173155"
+   ],
+   "annonces_anterieures": "[{\"REFERENCE\": {\"IDWEB\": \"16-163186\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-11-10\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-11-12\", \"DATE_FIN_DIFFUSION\": \"2016-12-15\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"220\", \"NUM_ANNONCE\": \"400989\", \"DATE_PUBLICATION\": \"2016-11-15\"}}]}, {\"REFERENCE\": {\"IDWEB\": \"16-173155\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}, \"DATE_ENVOI\": \"2016-12-01\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-12-03\", \"DATE_FIN_DIFFUSION\": \"2016-12-15\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"235\", \"NUM_ANNONCE\": \"428665\", \"DATE_PUBLICATION\": \"2016-12-06\"}}]}]",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-63741\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": [{\"REFERENCE\": {\"IDWEB\": \"16-163186\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-11-10\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-11-12\", \"DATE_FIN_DIFFUSION\": \"2016-12-15\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"220\", \"NUM_ANNONCE\": \"400989\", \"DATE_PUBLICATION\": \"2016-11-15\"}}]}, {\"REFERENCE\": {\"IDWEB\": \"16-173155\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}, \"DATE_ENVOI\": \"2016-12-01\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-12-03\", \"DATE_FIN_DIFFUSION\": \"2016-12-15\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"235\", \"NUM_ANNONCE\": \"428665\", \"DATE_PUBLICATION\": \"2016-12-06\"}}]}]}, \"NOM_HTML\": \"17-63741.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-05-11\", \"DATE_FIN_DIFFUSION\": \"2017-07-09\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"118\", \"LIBELLE\": \"Etude\"}}, \"DEP_PUBLICATION\": \"53\", \"RESUME_OBJET\": \"Missions de réaménagement du centre ville de Laval\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Laval\", \"ADJUDICATEUR_NUTS\": \"FR513\", \"ADRESSE\": \"Place du 11 novembre - CS 71327\", \"CP\": \"53013\", \"VILLE\": \"Laval cedex\", \"TEL\": \"(+33) -02-43-49-43-00\", \"FAX\": \"(+33) -02-43-49-43-26\", \"MEL\": \"commande.publique@laval.fr\", \"URL\": \"http://www.laval.fr\", \"URL_PROFIL_ACHETEUR\": \"https://laval.achatpublic.com\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Missions de réaménagement du centre ville de Laval\", \"REF_MARCHE\": \"16-105\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Missions de réaménagement du centre ville de Laval\", \"CPV\": {\"PRINCIPAL\": \"71241000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"247771.25\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"DESCRIPTION\": \"Urbanisme - paysage - infrastructures\", \"CPV\": [{\"PRINCIPAL\": \"71241000\"}, {\"PRINCIPAL\": \"71240000\"}], \"CODE_NUTS\": \"FR513\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Valeur technique au regard du mémoire technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"DESCRIPTION\": \"Commerce - montage immobilier et juridique\", \"CPV\": {\"PRINCIPAL\": \"71241000\"}, \"CODE_NUTS\": \"FR513\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Valeur technique au regard du mémoire technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"DESCRIPTION\": \"Déplacement - mobilité\", \"CPV\": {\"PRINCIPAL\": \"71241000\"}, \"CODE_NUTS\": \"FR513\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Valeur technique au regard du mémoire technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"4\", \"DESCRIPTION\": \"Communication - concertation\", \"CPV\": {\"PRINCIPAL\": \"71241000\"}, \"CODE_NUTS\": \"FR513\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Valeur technique au regard du mémoire technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"NEGOCIE\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"220\", \"NUM_ANNONCE\": \"400989\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"SANS_SUITE\": \"\", \"NUM_MARCHE\": \"2016G105\", \"NUM_LOT\": \"01\", \"INTITULE\": \"Urbanisme, paysage, programmation urbaine, infrastructures\"}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2016G105\", \"NUM_LOT\": \"02\", \"INTITULE\": \"Commerce-montage immobilier et juridique\", \"TITULAIRE\": {\"DENOMINATION\": \"GROUPEMENT EPPC /CUSHMAN & WAKEFIELD\", \"ADRESSE\": \"172 Avenue Jean Moulin\", \"CP\": \"78170\", \"VILLE\": \"LA CELLE SAINT CLOUD\", \"CODE_NUTS\": \"FR103\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-04-29\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"68231.25\"}, \"SOUSTRAITANCE_OUI\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"11000\"}}}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2016G105\", \"NUM_LOT\": \"03\", \"INTITULE\": \"Déplacement-mobilité\", \"TITULAIRE\": {\"DENOMINATION\": \"INGEROP CONSEIL ET INGENIERIE\", \"ADRESSE\": \"18 RUE DES DEUX GARES CS 70081\", \"CP\": \"92563\", \"VILLE\": \"RUEIL MALMAISON CEDEX\", \"CODE_NUTS\": \"FR105\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-05-02\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"100725.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2016G105\", \"NUM_LOT\": \"04\", \"INTITULE\": \"Communication-concertation\", \"TITULAIRE\": {\"DENOMINATION\": \"GROUPEMENT STRATEACT/PALABREO\", \"ADRESSE\": \"91 Avenue de la République\", \"CP\": \"75011\", \"VILLE\": \"PARIS\", \"CODE_NUTS\": \"FR101\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-05-02\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"78815.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 9 mai 2017.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Avant la signature du marché pour le référé pré-contractuel;- trente et un jours suivant la publication de l'avis d'attribution ou à défaut six mois à compter du lendemain de la conclusion du marché pour le référé contractuel;- deux mois à compter de la décision faisant grief pour le recours en excès de pouvoir;- deux mois à compter de la publicité relative à la signature et à la consultation du contrat\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) -02-40-99-46-00\", \"FAX\": \"(+33) -02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif inter-régional de règlement amiable des litiges\", \"ADRESSE\": \"6 quai Ceineray\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) -02-40-08-64-32\"}]}}, \"ANNEXE_D1\": \"\"}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-63741"
   },
   {
    "idweb": "17-65592",
@@ -1231,63 +1231,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-63883"
   },
   {
-   "idweb": "17-64389",
-   "id": "17_64389",
-   "contractfolderid": null,
-   "objet": "Concours Maîtrise d'oeuvre. Projet de construction d'une nouvelle résidence EHPAD de 82 lits à St Brévin-les-Pins (44)",
-   "filename": "BOAMP-J-IC-AA_2017_131004",
-   "famille": "JOUE",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2017-05-11",
-   "datefindiffusion": "2017-06-30",
-   "datelimitereponse": null,
-   "nomacheteur": "EHPAD Mer et Pins",
-   "titulaire": [
-    "CABINET D'ARCHITECTURE WILLIAM GOHIER"
-   ],
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "RESTREINT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Restreinte",
-   "procedure_categorise": "RESTREINT/",
-   "nature": "ATTRIBUTION",
-   "sousnature": "CONCOURS",
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": "Concours",
-   "nature_categorise": "attribution/concours",
-   "nature_categorise_libelle": "Résultat de marché/Concours",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "197"
-   ],
-   "dc": [
-    "197"
-   ],
-   "descripteur_libelle": [
-    "Maîtrise d'oeuvre"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-64389\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"CONCOURS\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-64389.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-05-11\", \"DATE_FIN_DIFFUSION\": \"2017-06-30\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"197\", \"LIBELLE\": \"Maîtrise d'oeuvre\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Concours Maîtrise d'oeuvre. Projet de construction d'une nouvelle résidence EHPAD de 82 lits à St Brévin-les-Pins (44)\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"EHPAD Mer et Pins\", \"ADJUDICATEUR_NUTS\": \"FR51\", \"ADRESSE\": \"63 avenue de Bodon\", \"CP\": \"44250\", \"VILLE\": \"St-Brévin-les-Pins\", \"TEL\": \"(+33) 2-51-74-71-33\", \"FAX\": \"(+33) 2-51-74-71-04\", \"MEL\": \"herve.lefloch@ehpad-mer-et-pins.com\", \"URL\": \"http://www.e-marchespublics.fr/\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Etablissement Public Autonome\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"action sociale et médico-sociale\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Projet de construction d'une nouvelle résidence EHPAD de 82 lits à St Brévin-les-Pins (44)\", \"CPV\": {\"PRINCIPAL\": \"71000000\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Construction d'un nouveau bâtiment accueillant un EHPAD de 82 lits avec unités Alzheimer. Le nouveau bâtiment n'accueillera pas de cuisine de préparation ni de buanderie, ces fonctions étant centralisées à l'échelle de l'établissement La surface dans oeuvre du projet est de 4200 mètres carrés SDO et la durée du chantier est de 18 mois hors période de préparation et de réception. Le projet prévoit une démarche environnementale. Le budget prévisionnel total du coût des travaux Tous Corps d'Etat pour ce projet est de 6 500 000 euros HT en valeur octobre 2016, y compris V.R.D. et impact RT2012.\", \"CPV\": {\"PRINCIPAL\": \"71000000\"}, \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"RESTREINT\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_LIBRE\": \"Critère 1 - Insertion dans le site et image donnéeCritère 2 - Cohérence fonctionnelle d'ensembleCritère 3 - Cohérence fonctionnelle par entitéCritère 4 - Dimensionnement et faisabilité technique au regard de l'adéquation à l'enveloppe financière et au calendrierCritère 5 - Qualité environnementale du projet\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"TITULAIRE\": {\"DENOMINATION\": \"CABINET D'ARCHITECTURE WILLIAM GOHIER\", \"ADRESSE\": \"14 Rue Dupont des Loges\", \"CP\": \"35000\", \"VILLE\": \"RENNES\", \"CODE_NUTS\": \"FR523\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-05-05\", \"NB_OFFRE_RECU\": \"3\", \"CONCOURS_PRIME\": {\"@DEVISE\": \"EUR\", \"#text\": \"20000\"}}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les candidats désirant concourir doivent présenter un dossier de candidature comportant obligatoirement, et dans la présentation demandée, les pièces mentionnées au règlement de consultation, l'ensemble du dossier étant impérativement rédigé en langue française et exprimé en euros.Le règlement de consultation et ses annexes sont téléchargeables à l'adresse suivante : http://www.e-marchespublics.fr/Il peut être obtenu sur demande écrite auprès de la société A2mo par fax au : 02.99.86.30.17 ou par courriel à a.pasquier@a2mo.fr .. Date d'envoi du présent avis au JOUE et au BOAMP : 9 mai 2017.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Introduction des recours :- recours gracieux dans un délai de deux mois à compter de la notification ou de la publication de la décision faisant grief.- référé précontractuel conformément aux dispositions de l'article L. 551-1 du code de justice administrative, pouvant être introduit depuis le début de la procédure de passation jusqu'à la signature du contrat.- recours contractuel dans un délai d'un mois à compter de la publication d'un avis d'attribution au Journal Officiel de l'union Européenne (décret no 2009-1456 du 27 novembre 2009).- recours pour excès de pouvoir contre les actes détachables du contrat et/ou référé suspension (article L. 521-1 du code de justice administrative) dans un délai de deux mois à compter de la notification ou de la publication de la décision attaquée (article R. 421-1 ducode de justice administrative).- recours de pleine juridiction exercé par tout concurrent évincé de la conclusion d'un contrat administratif contestant la validité de ce contrat ou de certaines de ses clauses, assorti le cas échéant de demandes indemnitaires, dans un délai de deux mois à compter de l'accomplissement des mesures de publicité appropriées (conséquence de la jurisprudence du Conseil d'etat du 16 juillet 2007, Société Tropic Travaux Signalisation - req. no 291545).\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes.\", \"ADRESSE\": \"6, allée de l'ile-gloriette B.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"44041 Nantes Cedex\"}}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-64389"
-  },
-  {
    "idweb": "17-60399",
    "id": "17_60399",
    "contractfolderid": null,
@@ -1344,6 +1287,63 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-60399\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-60399.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-05-11\", \"DATE_LIMITE_REPONSE\": \"2017-06-08T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2017-06-08\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"57\", \"LIBELLE\": \"Charpente\"}, {\"CODE\": \"74\", \"LIBELLE\": \"Couverture\"}]}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"centre technique des garennes, situé rue Gutenberg à Sainte-Luce-sur-Loire. - remplacement des couvertures\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Nantes Métropole\", \"CORRESPONDANT\": \"Mme la Présidente\", \"ADRESSE\": \"2 cours du Champ de Mars\", \"CP\": \"44923\", \"VILLE\": \"Nantes cedex 9\", \"URL_PROFIL_ACHETEUR\": \"http://marchespublics.nantesmetropole.fr\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\", \"ENVIRONNEMENT\": \"\", \"AFF_ECO_FIN\": \"\", \"LOG_DEV_COL\": \"\", \"AUTRE\": \"transport, voirie\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Centre technique des Garennes, situé rue Gutenberg à Sainte-Luce-Sur-Loire- Remplacement des couvertures .\", \"CPV\": [{\"PRINCIPAL\": \"45261210\"}, {\"PRINCIPAL\": \"45261100\"}], \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Sainte-Luce-Sur-Loire\", \"CODE_NUTS\": \"FR511\"}, \"AMP_OUI\": \"\", \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Le présent marché de travaux a pour objet : Centre technique des Garennes, situé Rue Gutenberg à Sainte-Luce-sur-Loire - Remplacement des couvertures .\", \"QUANTITE\": \"A titre indicatif, les travaux débuteront en septembre 2017.\"}, \"DUREE_DELAI\": {\"DATE_LIVRAISON\": \"2017-09-01\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Couverture\", \"DESCRIPTION\": \"Couverture\", \"CPV\": {\"PRINCIPAL\": \"45261210\"}}, {\"NUM\": \"2\", \"INTITULE\": \"Charpente métallique\", \"DESCRIPTION\": \"Charpente métallique\", \"CPV\": {\"PRINCIPAL\": \"45261100\"}}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-06-08T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"5\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FORME_JURIDIQUE\": \"L'acheteur ne souhaite imposer aucune forme de groupement à l'attributaire du marché.\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"Aptitude à exercer l'activité professionnelle, capacité économique et financière, capacités techniques et professionnelles\", \"SITUATION_JURIDIQUE\": \"Lettre de candidature (imprimé DC1) que la candidature soit présentée à titre individuel ou en groupement\", \"CAP_ECO\": \"-Déclaration concernant le chiffre d'affaires global du candidat et, le cas échéant, le chiffre d'affaires du domaine d'activité faisant l'objet du marché public, portant au maximum sur les trois derniers exercices disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles (cadre D1 du document DC2 à remplir si utilisation de ce document)\", \"CAP_TECH\": \"-Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années (en annexe au DC2 si utilisation de ce document et tout document complémentaire) -Description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation du marché public (en annexe au DC2 si utilisation de ce document et tout document complémentaire)-Liste des travaux exécutés au cours des cinq dernières années, assortie d'attestations de bonne exécution pour les travaux les plus importants. Ces attestations indiquent le montant, la date et le lieu d'exécution des travaux et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin (en annexe au DC2 si utilisation de ce document et tout document complémentaire)\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"17VDD03\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Une visite préalable à toute remise d'offre est fortement recommandée.Pour la visite sur site, prendre rendez-vous auprès de M. Dimitri RIBALTCHENKO au 02 40 41 90 72\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"ADMIN\": \"\"}, \"DENOMINATION\": \"NANTES METROPOLEDirection de la commande publique\", \"CORRESPONDANT\": \"Céline MOUSSION\", \"ADRESSE\": \"Direction de la commande publiqueService des marchés publics29 rue de Strasbourg\", \"CP\": \"44094\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33)2-40-41-51-16\", \"MEL\": \"celine.moussion@nantesmetropole.fr\", \"URL\": \"http://marchespublics.nantesmetropole.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"NANTES METROPOLEDirection de la commande publique\", \"CORRESPONDANT\": \"Céline MOUSSION\", \"ADRESSE\": \"Direction de la commande publiqueService des marchés publics29 rue de Strasbourgouvert de 8h30 à 12h30 et de 13h30 à 17h30\", \"CP\": \"44094\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33)2-40-41-51-16\", \"MEL\": \"celine.moussion@nantesmetropole.fr\", \"URL\": \"http://marchespublics.nantesmetropole.fr\"}, {\"TYPE\": {\"TECH\": \"\"}, \"CORRESPONDANT\": \"M. Dimitri RIBALTCHENKO\", \"ADRESSE\": \"NANTES METROPOLEDépartement BATISCAP 311 Boulevard de Stalingrad\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33)2-40-41-90-72\", \"FAX\": \"(+33)2-40-41-90-71\", \"MEL\": \"dimitri.ribaltchenko@nantesmetropole.fr\", \"URL\": \"http://marchespublics.nantesmetropole.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île GlorietteB.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île GlorietteB.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-60399"
+  },
+  {
+   "idweb": "17-64389",
+   "id": "17_64389",
+   "contractfolderid": null,
+   "objet": "Concours Maîtrise d'oeuvre. Projet de construction d'une nouvelle résidence EHPAD de 82 lits à St Brévin-les-Pins (44)",
+   "filename": "BOAMP-J-IC-AA_2017_131004",
+   "famille": "JOUE",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2017-05-11",
+   "datefindiffusion": "2017-06-30",
+   "datelimitereponse": null,
+   "nomacheteur": "EHPAD Mer et Pins",
+   "titulaire": [
+    "CABINET D'ARCHITECTURE WILLIAM GOHIER"
+   ],
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "RESTREINT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Restreinte",
+   "procedure_categorise": "RESTREINT/",
+   "nature": "ATTRIBUTION",
+   "sousnature": "CONCOURS",
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": "Concours",
+   "nature_categorise": "attribution/concours",
+   "nature_categorise_libelle": "Résultat de marché/Concours",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "197"
+   ],
+   "dc": [
+    "197"
+   ],
+   "descripteur_libelle": [
+    "Maîtrise d'oeuvre"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-64389\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"CONCOURS\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-64389.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-05-11\", \"DATE_FIN_DIFFUSION\": \"2017-06-30\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"197\", \"LIBELLE\": \"Maîtrise d'oeuvre\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Concours Maîtrise d'oeuvre. Projet de construction d'une nouvelle résidence EHPAD de 82 lits à St Brévin-les-Pins (44)\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"EHPAD Mer et Pins\", \"ADJUDICATEUR_NUTS\": \"FR51\", \"ADRESSE\": \"63 avenue de Bodon\", \"CP\": \"44250\", \"VILLE\": \"St-Brévin-les-Pins\", \"TEL\": \"(+33) 2-51-74-71-33\", \"FAX\": \"(+33) 2-51-74-71-04\", \"MEL\": \"herve.lefloch@ehpad-mer-et-pins.com\", \"URL\": \"http://www.e-marchespublics.fr/\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Etablissement Public Autonome\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"action sociale et médico-sociale\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Projet de construction d'une nouvelle résidence EHPAD de 82 lits à St Brévin-les-Pins (44)\", \"CPV\": {\"PRINCIPAL\": \"71000000\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Construction d'un nouveau bâtiment accueillant un EHPAD de 82 lits avec unités Alzheimer. Le nouveau bâtiment n'accueillera pas de cuisine de préparation ni de buanderie, ces fonctions étant centralisées à l'échelle de l'établissement La surface dans oeuvre du projet est de 4200 mètres carrés SDO et la durée du chantier est de 18 mois hors période de préparation et de réception. Le projet prévoit une démarche environnementale. Le budget prévisionnel total du coût des travaux Tous Corps d'Etat pour ce projet est de 6 500 000 euros HT en valeur octobre 2016, y compris V.R.D. et impact RT2012.\", \"CPV\": {\"PRINCIPAL\": \"71000000\"}, \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"RESTREINT\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_LIBRE\": \"Critère 1 - Insertion dans le site et image donnéeCritère 2 - Cohérence fonctionnelle d'ensembleCritère 3 - Cohérence fonctionnelle par entitéCritère 4 - Dimensionnement et faisabilité technique au regard de l'adéquation à l'enveloppe financière et au calendrierCritère 5 - Qualité environnementale du projet\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"TITULAIRE\": {\"DENOMINATION\": \"CABINET D'ARCHITECTURE WILLIAM GOHIER\", \"ADRESSE\": \"14 Rue Dupont des Loges\", \"CP\": \"35000\", \"VILLE\": \"RENNES\", \"CODE_NUTS\": \"FR523\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-05-05\", \"NB_OFFRE_RECU\": \"3\", \"CONCOURS_PRIME\": {\"@DEVISE\": \"EUR\", \"#text\": \"20000\"}}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les candidats désirant concourir doivent présenter un dossier de candidature comportant obligatoirement, et dans la présentation demandée, les pièces mentionnées au règlement de consultation, l'ensemble du dossier étant impérativement rédigé en langue française et exprimé en euros.Le règlement de consultation et ses annexes sont téléchargeables à l'adresse suivante : http://www.e-marchespublics.fr/Il peut être obtenu sur demande écrite auprès de la société A2mo par fax au : 02.99.86.30.17 ou par courriel à a.pasquier@a2mo.fr .. Date d'envoi du présent avis au JOUE et au BOAMP : 9 mai 2017.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Introduction des recours :- recours gracieux dans un délai de deux mois à compter de la notification ou de la publication de la décision faisant grief.- référé précontractuel conformément aux dispositions de l'article L. 551-1 du code de justice administrative, pouvant être introduit depuis le début de la procédure de passation jusqu'à la signature du contrat.- recours contractuel dans un délai d'un mois à compter de la publication d'un avis d'attribution au Journal Officiel de l'union Européenne (décret no 2009-1456 du 27 novembre 2009).- recours pour excès de pouvoir contre les actes détachables du contrat et/ou référé suspension (article L. 521-1 du code de justice administrative) dans un délai de deux mois à compter de la notification ou de la publication de la décision attaquée (article R. 421-1 ducode de justice administrative).- recours de pleine juridiction exercé par tout concurrent évincé de la conclusion d'un contrat administratif contestant la validité de ce contrat ou de certaines de ses clauses, assorti le cas échéant de demandes indemnitaires, dans un délai de deux mois à compter de l'accomplissement des mesures de publicité appropriées (conséquence de la jurisprudence du Conseil d'etat du 16 juillet 2007, Société Tropic Travaux Signalisation - req. no 291545).\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes.\", \"ADRESSE\": \"6, allée de l'ile-gloriette B.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"44041 Nantes Cedex\"}}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-64389"
   },
   {
    "idweb": "17-62006",
@@ -5995,120 +5995,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-69912"
   },
   {
-   "idweb": "17-70957",
-   "id": "17_70957",
-   "contractfolderid": null,
-   "objet": "Acquisition d'un caisson à trappes - Service Propreté",
-   "filename": "MAPA-AO_2017_139007",
-   "famille": "MAPA",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés <90 k€ (MAPA)",
-   "dateparution": "2017-05-19",
-   "datefindiffusion": "2017-06-09",
-   "datelimitereponse": "2017-06-09T16:00:00+00:00",
-   "nomacheteur": "Le Mans Métropole - Communauté Urbaine",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "1"
-   ],
-   "dc": [
-    "1"
-   ],
-   "descripteur_libelle": [
-    "Abris"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-70957\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-70957.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-05-19\", \"DATE_LIMITE_REPONSE\": \"2017-06-09T17:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2017-06-09\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"1\", \"LIBELLE\": \"Abris\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Acquisition d'un caisson à trappes - Service Propreté\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Le Mans Métropole - Communauté Urbaine\", \"CORRESPONDANT\": \"Le Président\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, CS 40010 - 16 avenue François Mitterrand - Le Condorcet, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"Le Mans\", \"TEL\": \"02-43-47-37-31\", \"FAX\": \"02-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Acquisition d'un caisson à trappes - Service Propreté\", \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Voir Acte d'engagement valant Cahier des Clauses Particulières.\", \"QUANTITE\": \"Acquisition d'un caisson à trappes - Service Propreté\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-06-09T17:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Il n'est pas prévu de retenue de garantie.Aucune avance ne sera versée.Prix global forfaitaire\", \"FINANCEMENT\": \"Le paiement est effectué par virement selon les règles de la comptabilité publique après exécution des prestations et présentation de facture. Délai global de paiement de 30 jours.Le marché est financé sur fonds propres du budget principal de la collectivité\", \"FORME_JURIDIQUE\": \"groupement solidaire\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"05/2/2017/Proprete\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.sarthe-marchespublics.frType de marché de Fournitures :Conditions et mode de paiement pour obtenir les documents contractuels et additionnels :Documents payant : NONL'execution du marché est soumise à d'autres conditions particulières : NONLa procédure d'achat du présent avis est couverte par l'accord sur les marchés publics de l'OMC : NONInstance chargée des procédures de recours : Tribunal administratif de Nantes, 6, allée de l'Ile-Gloriette, BP 2411144041 NantesTél : 0240994600 Fax : 0240994658Mel : greffe.ta-nantes@juradm.frWeb : http://nantes.tribunal-administratif.frOrgane chargé des procédures de médiation : Comité Consultatif de règlement amiable des différends ou litiges relatifs aux marchés publics, 22 mail Pablo Picasso, BP 2420944042 NantesCedex 1Tél : 0253467983 Fax : 0253467979Mel : Paysdl.ccira@direccte.gouv.frWeb : http://pays-de-la-loire.direccte.gouv.frService auprès duquel des renseignements peuvent être obtenus concernant l'introduction des recours : Tribunal administratif de Nantes, 6, allée de l'Ile-Gloriette, BP 2411144041 NantesTél : 0240994600 Fax : 0240994658Mel : greffe.ta-nantes@juradm.frWeb : http://nantes.tribunal-administratif.frConditions et mode de paiement pour obtenir les documents contractuels:un DCE (composé d'un acte d'engagement valant cahier des clauses particulières et d'une annexe) est disponible et sera adressé gratuitement aux entreprises en ayant fait la demande par courrier, télécopie, mail ou remis sur place à l'adresse suivante : Service Propreté de Le Mans Métropole, 206 rue de l'Angevinière, 72039 Le Mans cedex 9 ou faxées au 02.43.47.43.46.Il est également téléchargeable sur le profil : http://www.sarthe-marchespublics.fr.Le dossier de consultation peut être demandé jusqu'au jour de la date limite de remise des offres.Les offres seront constituées d'un mémoire technique en français avec photos servant à apprécier la conformité de l'offre, de l'acte d'engagement et de l'annexe dûment complétés.Conditions de remise des offres :Les offres devront être remises sur place contre récépissé ou adressées par la poste par pli recommandé avec avis de réception postal à l'adresse suivante : Service Propreté de Le Mans Métropole, 206 rue de l'Angevinière, CS40010, 72039 Le Mans cedex 9 - Tel : 02-43-47-46-67heures d'ouverture : du lundi au vendredi : 9 h 00 - 12 h 15 // 13 h 30 - 17 h 00Elles peuvent également être envoyées par fax au 02-43-47-43-46 ou par mail à l'adresse suivante : proprete@lemans.fr. Dans ces cas, seul l'attributaire devra fournir les documents signés en original.Correspondants : Anthony Chancerel(technique), au 02-43-47-49-83 et auprès de Laurence Bossé (administratif) au 02-43-47-46-67.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Le Mans Métropole - Communauté Urbaine\", \"ADRESSE\": \"Service Propreté, 206 rue de l'Angevinière, CS40010 Cedex 9\", \"CP\": \"72039\", \"VILLE\": \"LE MANS\"}}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-70957"
-  },
-  {
-   "idweb": "17-70308",
-   "id": "17_70308",
-   "contractfolderid": null,
-   "objet": "Remplacement des plateformes élévatrices PMR - Musée de Tessé - 2 avenue de Paderborn - 72000 Le Mans",
-   "filename": "BOAMP-N-IC-AA_2017_139006",
-   "famille": "FNS",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2017-05-19",
-   "datefindiffusion": "2017-07-03",
-   "datelimitereponse": null,
-   "nomacheteur": "Ville du Mans",
-   "titulaire": [
-    "SIMPLY ACCESS"
-   ],
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "ATTRIBUTION",
-   "sousnature": null,
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "11"
-   ],
-   "dc": [
-    "11"
-   ],
-   "descripteur_libelle": [
-    "Appareil élévateur"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "17-26805"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"17-26805\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-02-23\", \"DATE_FIN_DIFFUSION\": \"2017-03-20\"}}}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-70308\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-26805\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-02-23\", \"DATE_FIN_DIFFUSION\": \"2017-03-20\"}}}}, \"NOM_HTML\": \"17-70308.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-05-19\", \"DATE_FIN_DIFFUSION\": \"2017-07-03\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"11\", \"LIBELLE\": \"Appareil élévateur\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Remplacement des plateformes élévatrices PMR - Musée de Tessé - 2 avenue de Paderborn - 72000 Le Mans\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville du Mans\", \"CORRESPONDANT\": \"Le Maire\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, CS 40010 - 16 avenue François Mitterrand, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"LE MANS\", \"TEL\": \"02-43-47-47-47\", \"FAX\": \"02-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Remplacement des plateformes élévatrices PMR - Musée de Tessé - 2 avenue de Paderborn - 72000 Le Mans\", \"CPV\": {\"PRINCIPAL\": \"45313100\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"DESCRIPTION\": \"Remplacement des plateformes élévatrices PMR - Musée de Tessé - 2 avenue de Paderborn - 72000 Le Mans\", \"TITULAIRE\": {\"DENOMINATION\": \"SIMPLY ACCESS\", \"ADRESSE\": \"2 allée Ernest Nouel\", \"CP\": \"41100\", \"VILLE\": \"VENDOME\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-05-15\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"57756.21\"}}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-70308"
-  },
-  {
    "idweb": "17-59442",
    "id": "17_59442",
    "contractfolderid": null,
@@ -6237,6 +6123,123 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-68974\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-68974.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-05-19\", \"DATE_FIN_DIFFUSION\": \"2017-06-23\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"365\", \"LIBELLE\": \"Voirie\"}}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\"}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"travaux d'aménagement, de rénovation, de réparation et d'entretien, pour les réseaux, espaces publics privés et communaux\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville - Les Ponts-de-Cé\", \"CONTACT\": \"nathalie.prodhomme@ville-lespontsdece.fr\", \"ADJUDICATEUR_NUTS\": \"FR\", \"ADRESSE\": \"7 rue Charles de GaulleBP 60029\", \"CP\": \"49135\", \"VILLE\": \"LES PONTS DE CE\", \"MEL\": \"nathalie.prodhomme@ville-lespontsdece.fr\", \"URL\": \"http://alm.marches-securises.fr\", \"URL_PROFIL_ACHETEUR\": \"http://alm.marches-securises.fr\", \"URL_PARTICIPATION\": \"http://alm.marches-securises.fr\", \"URL_DOCUMENT\": \"http://alm.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AGENCE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"COLLECTIVITE TERRITORIALE\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Travaux d'aménagement, de rénovation, de réparation et d'entretien, pour les réseaux, espaces publics privés et communaux\", \"REF_MARCHE\": \"17-005\", \"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"Travaux d'aménagement, de rénovation, de réparation et d'entretien, pour les réseaux, espaces publics privés et communaux\", \"CPV\": {\"PRINCIPAL\": \"45111291\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"1828284\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Travaux d'aménagement, de rénovation, deréparation et d'entretien, pour les réseaux, espacespublics privés et communaux\", \"CPV\": {\"PRINCIPAL\": \"45111291\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Reconduction tacite\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-06-23T16:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO_MARCHE_NON\": \"\", \"CAP_TECH_OFFRE_NON\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"CONDITION_PARTICULIERE_EXECUTION\": \"Cette consultation comporte des conditions d'exécution à caractère social dont le détail est indiqué dans le CCAP. Le respect de ces dispositions est une condition de la conformité de l'offre\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2017-06-27\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_NON\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 17 mai 2017.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Ville les Ponts de Cé\", \"ADRESSE\": \"7 rue Charles de GaulleBP 60029\", \"VILLE\": \"LES PONTS DE CE\", \"CODE_NUTS\": \"FR\", \"MEL\": \"nathalie.prodhomme@ville-lespontsdece.fr\", \"URL\": \"http://alm.marches-securises.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Ville les Ponts de Cé\", \"ADRESSE\": \"7 rue Charles de GaulleBP 60029\", \"VILLE\": \"LES PONTS DE CE\", \"CODE_NUTS\": \"FR\", \"MEL\": \"nathalie.prodhomme@ville-lespontsdece.fr\", \"URL\": \"http://alm.marches-securises.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée île Gloriette\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-46-00\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-68974"
+  },
+  {
+   "idweb": "17-70308",
+   "id": "17_70308",
+   "contractfolderid": null,
+   "objet": "Remplacement des plateformes élévatrices PMR - Musée de Tessé - 2 avenue de Paderborn - 72000 Le Mans",
+   "filename": "BOAMP-N-IC-AA_2017_139006",
+   "famille": "FNS",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2017-05-19",
+   "datefindiffusion": "2017-07-03",
+   "datelimitereponse": null,
+   "nomacheteur": "Ville du Mans",
+   "titulaire": [
+    "SIMPLY ACCESS"
+   ],
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "ATTRIBUTION",
+   "sousnature": null,
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "11"
+   ],
+   "dc": [
+    "11"
+   ],
+   "descripteur_libelle": [
+    "Appareil élévateur"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "17-26805"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"17-26805\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-02-23\", \"DATE_FIN_DIFFUSION\": \"2017-03-20\"}}}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-70308\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-26805\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-02-23\", \"DATE_FIN_DIFFUSION\": \"2017-03-20\"}}}}, \"NOM_HTML\": \"17-70308.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-05-19\", \"DATE_FIN_DIFFUSION\": \"2017-07-03\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"11\", \"LIBELLE\": \"Appareil élévateur\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Remplacement des plateformes élévatrices PMR - Musée de Tessé - 2 avenue de Paderborn - 72000 Le Mans\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville du Mans\", \"CORRESPONDANT\": \"Le Maire\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, CS 40010 - 16 avenue François Mitterrand, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"LE MANS\", \"TEL\": \"02-43-47-47-47\", \"FAX\": \"02-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Remplacement des plateformes élévatrices PMR - Musée de Tessé - 2 avenue de Paderborn - 72000 Le Mans\", \"CPV\": {\"PRINCIPAL\": \"45313100\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"DESCRIPTION\": \"Remplacement des plateformes élévatrices PMR - Musée de Tessé - 2 avenue de Paderborn - 72000 Le Mans\", \"TITULAIRE\": {\"DENOMINATION\": \"SIMPLY ACCESS\", \"ADRESSE\": \"2 allée Ernest Nouel\", \"CP\": \"41100\", \"VILLE\": \"VENDOME\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-05-15\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"57756.21\"}}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-70308"
+  },
+  {
+   "idweb": "17-70419",
+   "id": "17_70419",
+   "contractfolderid": null,
+   "objet": "RD104 et giratoire RD306/RD104 - Terrassements Assainissement Chaussée - Commune de La Flèche",
+   "filename": "BOAMP-N-AO_2017_139005",
+   "famille": "FNS",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2017-05-19",
+   "datefindiffusion": "2017-06-12",
+   "datelimitereponse": "2017-06-12T10:30:00+00:00",
+   "nomacheteur": "Département de la Sarthe",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": "1",
+   "marche_public_simplifie_label": "Marché public simplifié",
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "141",
+    "341"
+   ],
+   "dc": [
+    "141",
+    "341"
+   ],
+   "descripteur_libelle": [
+    "Génie civil",
+    "Terrassement"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-70419\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-70419.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-05-19\", \"DATE_LIMITE_REPONSE\": \"2017-06-12T11:30:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2017-06-12\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"141\", \"LIBELLE\": \"Génie civil\"}, {\"CODE\": \"341\", \"LIBELLE\": \"Terrassement\"}]}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"RD104 et giratoire RD306/RD104 - Terrassements Assainissement Chaussée - Commune de La Flèche\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Département de la Sarthe\", \"CORRESPONDANT\": \"le Président\", \"ADRESSE\": \"Hôtel du département, Place Aristide Briand\", \"CP\": \"72072\", \"VILLE\": \"Le Mans\", \"MEL\": \"scp@sarthe.fr\", \"URL\": \"http://www.sarthe.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"DEPARTEMENT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"RD104 et giratoire RD306/RD104 - Terrassements Assainissement Chaussée - Commune de La Flèche\", \"CPV\": [{\"PRINCIPAL\": \"45112500\"}, {\"PRINCIPAL\": \"45232410\"}], \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FR514\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Les travaux seront réalisés en plusieurs phases que l'entreprise devra détailler dans son planning\", \"QUANTITE\": \"Caractéristiques principales des travaux :- Déblais pleine fouille et calibrage : 1 910 m3- Fourniture et mise en oeuvre de GNT 0/120, 0/31.5, 0/20: 5 650 t- Béton désactivé : 510 m2- Buse PEHD Ø300 : 680 m- Buse Ø400 135A : 60 m- Buse Ø315 PVC : 82 m- Diverses bordures (I2, T2, A2, quai bus et P1) : 1480 m- Enrobés GB 0/14, GB 0/10, BBSG 0/10 : 3440 t- Fourreau éclairage public et câble de terre : 700 m- Socle pour candélabre : 23 U\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"Le prix des prestations (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"40\", \"#text\": \"La valeur technique (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"10\", \"#text\": \"Les performances en matière de protection de l'environnement (voir détail dans le règlement de la consultation)\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-06-12T11:30:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Paiement par virement à 30 jours, sur fonds propres.Conformément à l'article 110 du Décret no2016-360 du 25 mars 2016, une avance est accordée au titulaire du marché, sauf indication contraire dans l'acte d'engagement\", \"FORME_JURIDIQUE\": \"Le marché sera conclu soit avec un prestataire unique ; soit avec des prestataires groupés. En cas de groupement conjoint, le mandataire sera solidaire des autres membres du groupement, à l'égard du pouvoir adjudicateur, pour toutes les obligations contractuelles liées au marché.\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Voir annexes 1 à 3 du Règlement de la Consultation (Dispositif Marché Public simplifié)\", \"CAP_ECO\": \"Voir annexes 1 à 3 du Règlement de la Consultation (Dispositif Marché Public simplifié)\", \"CAP_TECH\": \"La présentation d'une liste des travaux en cours d'exécution ou exécutés au cours des 5 dernières années, indiquant notamment le montant, la date et le maître de l'ouvrage public ou privé\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"17AT-ROU-2166-X\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.sarthe-marchespublics.frCe marché est conforme au dispositif d'expérimentation MPS (Marché Public Simplifié), et permet aux entreprises de candidater sur la base de leur seul numéro de SIRET.Le mode de transmission des éléments de la candidature et de l'offre est dématérialisé. La réponse électronique est indispensable mais aucune signature n'est exigée. La signature sera demandée à posteriori qu'au seul candidat retenu. Voir détails dans le règlement de la consultation.Pour obtenir tous les renseignements d'ordre administratif et technique qui leur seraient nécessaires au cours de leur étude, les candidats sont invités au plus tard 10 jours avant la date limite de remise des offres à passer par le module \\\" Correspondre avec l'acheteur \\\" de la plate-forme www.sarthe-marchespublics.frEn cas de dysfonctionnement, vous pouvez contacter le secrétariat du Service de la Commande Publique au 02.43.54.72.66.Une réponse sera alors adressée en temps utile à tous les candidats au plus tard 6 jours avant la date limite de remise des offres.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"Immeuble Skyline, 22 mail Pablo Picasso Cedex 1 BP 24209\", \"CP\": \"44202\", \"VILLE\": \"NANTES\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://www.marche-public.fr/Marches-publics/Definitions/Entrees/CCRA.htm\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-70419"
   }
  ]
 }

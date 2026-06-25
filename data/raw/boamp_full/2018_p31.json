@@ -591,6 +591,65 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-162326"
   },
   {
+   "idweb": "18-162252",
+   "id": "18_162252",
+   "contractfolderid": null,
+   "objet": "Collecte, transport, tri et conditionnement des déchets recyclables de mayenne communauté",
+   "filename": "BOAMP-J-AO_2018_326009",
+   "famille": "JOUE",
+   "code_departement": [
+    "53"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-11-22",
+   "datefindiffusion": "2019-02-03",
+   "datelimitereponse": null,
+   "nomacheteur": "Mayenne Communauté",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "249"
+   ],
+   "dc": [
+    "249"
+   ],
+   "descripteur_libelle": [
+    "Ordures ménagères (prestations)"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-162252\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-162252.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-11-22\", \"DATE_FIN_DIFFUSION\": \"2019-02-03\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"249\", \"LIBELLE\": \"Ordures ménagères (prestations)\"}}, \"DEP_PUBLICATION\": \"53\", \"RESUME_OBJET\": \"Collecte, transport, tri et conditionnement des déchets recyclables de mayenne communauté\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Mayenne Communauté\", \"ADJUDICATEUR_NUTS\": \"FRG03\", \"ADRESSE\": \"10 rue de Verdun, www.klekoon.com\", \"CP\": \"53100\", \"VILLE\": \"Mayenne\", \"TEL\": \"(+33) 2-43-30-21-21\", \"MEL\": \"marchespublics@mairie-mayenne.net\", \"URL\": \"http://www.mairie-mayenne.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.klekoon.com\", \"URL_PARTICIPATION\": \"http://www.klekoon.com\", \"URL_DOCUMENT\": \"http://www.klekoon.com\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Collecte, transport, tri et conditionnement des déchets recyclables de Mayenne Communauté\", \"REF_MARCHE\": \"18SER16\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Collecte, transport, tri et conditionnement des déchets recyclables de Mayenne Communauté\", \"CPV\": {\"PRINCIPAL\": \"90514000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Collecte, transport, tri et conditionnement des emballages recyclables issus de la collecte sélective\", \"DESCRIPTION\": \"Collecte, transport, tri et conditionnement des emballages recyclables issus de la collecte sélective\", \"CPV\": [{\"PRINCIPAL\": \"90514000\"}, {\"PRINCIPAL\": \"90511100\"}, {\"PRINCIPAL\": \"90512000\"}, {\"PRINCIPAL\": \"90513000\"}], \"CODE_NUTS\": \"FRG03\", \"LIEU_PRINCIPAL\": \"Mayenne Communauté\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché est conclu pour une période initiale de 2 ans reconductible 2 fois un an, soit une durée maximale de 4 ans, reconductions comprises.L'exécution des prestations démarrent au 01/04/2019.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Collecte du verre ménager issu de la collecte sélective et transport vers leur exutoire\", \"DESCRIPTION\": \"Collecte du verre ménager issu de la collecte sélective et transport vers leur exutoire\", \"CPV\": [{\"PRINCIPAL\": \"90514000\"}, {\"PRINCIPAL\": \"90511100\"}, {\"PRINCIPAL\": \"90512000\"}, {\"PRINCIPAL\": \"90513000\"}], \"CODE_NUTS\": \"FRG03\", \"LIEU_PRINCIPAL\": \"Mayenne Communauté\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché est conclu pour une période initiale de 2 ans reconductible 2 fois un an, soit une durée maximale de 4 ans, reconductions comprises.L'exécution des prestations démarrent au 01/04/2019.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Collecte, transport, tri et conditionnement des cartons issus des déchetteries\", \"DESCRIPTION\": \"Collecte, transport, tri et conditionnement des cartons issus des déchetteries\", \"CPV\": [{\"PRINCIPAL\": \"90514000\"}, {\"PRINCIPAL\": \"90511100\"}, {\"PRINCIPAL\": \"90513000\"}, {\"PRINCIPAL\": \"90512000\"}], \"CODE_NUTS\": \"FRG03\", \"LIEU_PRINCIPAL\": \"Mayenne Communauté\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché est conclu pour une période initiale de 2 ans reconductible 2 fois un an, soit une durée maximale de 4 ans, reconductions comprises.L'exécution des prestations démarrent au 01/04/2019.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-01-03T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas d'interdiction de soumissionner;Renseignements sur le respect de l'obligation d'emploi mentionnée aux articles L. 5212-1 à L. 5212-11 du Code du travail;Copie du ou des jugements prononcés si le candidat est en redressement judiciaire;Autorisation spécifique ou preuve de lappartenance à une organisation spécifique permettant de fournir le service dans le pays dorigine du candidat ;\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du contrat, réalisées au cours des trois derniers exercices disponibles;Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels;Bilans ou extraits de bilans, concernant les trois dernières années, des opérateurs économiques pour lesquels l'établissement des bilans est obligatoire en vertu de la loi;\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années;Liste des principales prestations effectuées au cours des trois dernières années, indiquant le montant, la date et le destinataire. Elles sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration du candidat;Indication des titres d'études et professionnels de l'opérateur économique et/ou des cadres de l'entreprise, et notamment des responsables de prestation de services ou de conduite des travaux de même nature que celle du contrat;Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation du contrat;Arrêté préfectoral dautorisation dexploiter du centre de tri et de transfert;Indication des mesures de gestion environnementale que le candidat pourra appliquer lors de l'exécution du contrat\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_OUI\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-01-03\", \"LIEU_OUVERTURE_OFFRES\": \"Service Commande Publique\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Facturation en ligne via CHORUS. Date d'envoi du présent avis au JOUE et au BOAMP : 20 novembre 2018.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé pré-contractuel prévu aux articles L.551-1 à L.551-12 du Code de justice administrative (CJA), et pouvant être exercé avant la signature du contrat. Référé contractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant être exercé dans les délais prévus à l'article R. 551-7 du CJA. Recours pour excès de pouvoir contre une décision administrative prévu aux articles R. 421-1 à R. 421-7 du CJA, et pouvant être exercé dans les 2 mois suivant la notification ou publication de la décision de l'organisme (le recours ne peut plus, toutefois, être exercé après la signature du contrat). Recours de pleine juridiction ouvert aux tiers justifiant dun intérêt lésé, et pouvant être exercé dans les deux mois suivant la date à laquelle la conclusion du contrat est rendue publique.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Mayenne Communauté - Service Commande Publique\", \"CP\": \"53100\", \"VILLE\": \"Mayenne\", \"CODE_NUTS\": \"FRG03\", \"TEL\": \"(+33) 2-43-30-21-21\", \"MEL\": \"marchespublics@mairie-mayenne.net\", \"URL\": \"http://www.mairie-mayenne.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 rue de l'Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-162252"
+  },
+  {
    "idweb": "18-163388",
    "id": "18_163388",
    "contractfolderid": null,
@@ -655,65 +714,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-163388\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-162143\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-11-20\", \"DATE_FIN_DIFFUSION\": \"2018-12-10\"}}}}, \"NOM_HTML\": \"18-163388.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-11-22\", \"DATE_FIN_DIFFUSION\": \"2018-12-10\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"196\", \"LIBELLE\": \"Maintenance\"}, {\"CODE\": \"217\", \"LIBELLE\": \"Matériel de secours et d'incendie\"}, {\"CODE\": \"221\", \"LIBELLE\": \"Mécanique\"}, {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}]}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"VERIFICATIONS ET CONTROLES PERIODIQUES DES MOYENS AERIENS\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"SDIS de la Sarthe\", \"CORRESPONDANT\": \"LE MÈNER Dominique, Président du Conseil d'Administration du SDIS72\", \"ADRESSE\": \"15 boulevard Saint Michel\", \"CP\": \"72190\", \"VILLE\": \"COULAINES\", \"TEL\": \"02-43-54-65-50\", \"MEL\": \"samp@sdis72.fr\", \"URL\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Secours à personnes\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"VERIFICATIONS ET CONTROLES PERIODIQUES DES MOYENS AERIENS\", \"CPV\": {\"PRINCIPAL\": \"50222000\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-162143\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-11-20\", \"DATE_FIN_DIFFUSION\": \"2018-12-10\"}}}, \"MODIFICATION\": {\"RUB_INIT\": \"Date limite de réception des offres\", \"TXT_INIT\": \"2018-12-10T09:00:00+01:00\", \"LIRE\": \"2018-12-10T23:59:00+01:00\"}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-163388"
-  },
-  {
-   "idweb": "18-162252",
-   "id": "18_162252",
-   "contractfolderid": null,
-   "objet": "Collecte, transport, tri et conditionnement des déchets recyclables de mayenne communauté",
-   "filename": "BOAMP-J-AO_2018_326009",
-   "famille": "JOUE",
-   "code_departement": [
-    "53"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-11-22",
-   "datefindiffusion": "2019-02-03",
-   "datelimitereponse": null,
-   "nomacheteur": "Mayenne Communauté",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "249"
-   ],
-   "dc": [
-    "249"
-   ],
-   "descripteur_libelle": [
-    "Ordures ménagères (prestations)"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-162252\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-162252.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-11-22\", \"DATE_FIN_DIFFUSION\": \"2019-02-03\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"249\", \"LIBELLE\": \"Ordures ménagères (prestations)\"}}, \"DEP_PUBLICATION\": \"53\", \"RESUME_OBJET\": \"Collecte, transport, tri et conditionnement des déchets recyclables de mayenne communauté\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Mayenne Communauté\", \"ADJUDICATEUR_NUTS\": \"FRG03\", \"ADRESSE\": \"10 rue de Verdun, www.klekoon.com\", \"CP\": \"53100\", \"VILLE\": \"Mayenne\", \"TEL\": \"(+33) 2-43-30-21-21\", \"MEL\": \"marchespublics@mairie-mayenne.net\", \"URL\": \"http://www.mairie-mayenne.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.klekoon.com\", \"URL_PARTICIPATION\": \"http://www.klekoon.com\", \"URL_DOCUMENT\": \"http://www.klekoon.com\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Collecte, transport, tri et conditionnement des déchets recyclables de Mayenne Communauté\", \"REF_MARCHE\": \"18SER16\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Collecte, transport, tri et conditionnement des déchets recyclables de Mayenne Communauté\", \"CPV\": {\"PRINCIPAL\": \"90514000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Collecte, transport, tri et conditionnement des emballages recyclables issus de la collecte sélective\", \"DESCRIPTION\": \"Collecte, transport, tri et conditionnement des emballages recyclables issus de la collecte sélective\", \"CPV\": [{\"PRINCIPAL\": \"90514000\"}, {\"PRINCIPAL\": \"90511100\"}, {\"PRINCIPAL\": \"90512000\"}, {\"PRINCIPAL\": \"90513000\"}], \"CODE_NUTS\": \"FRG03\", \"LIEU_PRINCIPAL\": \"Mayenne Communauté\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché est conclu pour une période initiale de 2 ans reconductible 2 fois un an, soit une durée maximale de 4 ans, reconductions comprises.L'exécution des prestations démarrent au 01/04/2019.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Collecte du verre ménager issu de la collecte sélective et transport vers leur exutoire\", \"DESCRIPTION\": \"Collecte du verre ménager issu de la collecte sélective et transport vers leur exutoire\", \"CPV\": [{\"PRINCIPAL\": \"90514000\"}, {\"PRINCIPAL\": \"90511100\"}, {\"PRINCIPAL\": \"90512000\"}, {\"PRINCIPAL\": \"90513000\"}], \"CODE_NUTS\": \"FRG03\", \"LIEU_PRINCIPAL\": \"Mayenne Communauté\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché est conclu pour une période initiale de 2 ans reconductible 2 fois un an, soit une durée maximale de 4 ans, reconductions comprises.L'exécution des prestations démarrent au 01/04/2019.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Collecte, transport, tri et conditionnement des cartons issus des déchetteries\", \"DESCRIPTION\": \"Collecte, transport, tri et conditionnement des cartons issus des déchetteries\", \"CPV\": [{\"PRINCIPAL\": \"90514000\"}, {\"PRINCIPAL\": \"90511100\"}, {\"PRINCIPAL\": \"90513000\"}, {\"PRINCIPAL\": \"90512000\"}], \"CODE_NUTS\": \"FRG03\", \"LIEU_PRINCIPAL\": \"Mayenne Communauté\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché est conclu pour une période initiale de 2 ans reconductible 2 fois un an, soit une durée maximale de 4 ans, reconductions comprises.L'exécution des prestations démarrent au 01/04/2019.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-01-03T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas d'interdiction de soumissionner;Renseignements sur le respect de l'obligation d'emploi mentionnée aux articles L. 5212-1 à L. 5212-11 du Code du travail;Copie du ou des jugements prononcés si le candidat est en redressement judiciaire;Autorisation spécifique ou preuve de lappartenance à une organisation spécifique permettant de fournir le service dans le pays dorigine du candidat ;\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du contrat, réalisées au cours des trois derniers exercices disponibles;Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels;Bilans ou extraits de bilans, concernant les trois dernières années, des opérateurs économiques pour lesquels l'établissement des bilans est obligatoire en vertu de la loi;\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années;Liste des principales prestations effectuées au cours des trois dernières années, indiquant le montant, la date et le destinataire. Elles sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration du candidat;Indication des titres d'études et professionnels de l'opérateur économique et/ou des cadres de l'entreprise, et notamment des responsables de prestation de services ou de conduite des travaux de même nature que celle du contrat;Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation du contrat;Arrêté préfectoral dautorisation dexploiter du centre de tri et de transfert;Indication des mesures de gestion environnementale que le candidat pourra appliquer lors de l'exécution du contrat\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_OUI\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-01-03\", \"LIEU_OUVERTURE_OFFRES\": \"Service Commande Publique\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Facturation en ligne via CHORUS. Date d'envoi du présent avis au JOUE et au BOAMP : 20 novembre 2018.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé pré-contractuel prévu aux articles L.551-1 à L.551-12 du Code de justice administrative (CJA), et pouvant être exercé avant la signature du contrat. Référé contractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant être exercé dans les délais prévus à l'article R. 551-7 du CJA. Recours pour excès de pouvoir contre une décision administrative prévu aux articles R. 421-1 à R. 421-7 du CJA, et pouvant être exercé dans les 2 mois suivant la notification ou publication de la décision de l'organisme (le recours ne peut plus, toutefois, être exercé après la signature du contrat). Recours de pleine juridiction ouvert aux tiers justifiant dun intérêt lésé, et pouvant être exercé dans les deux mois suivant la date à laquelle la conclusion du contrat est rendue publique.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Mayenne Communauté - Service Commande Publique\", \"CP\": \"53100\", \"VILLE\": \"Mayenne\", \"CODE_NUTS\": \"FRG03\", \"TEL\": \"(+33) 2-43-30-21-21\", \"MEL\": \"marchespublics@mairie-mayenne.net\", \"URL\": \"http://www.mairie-mayenne.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 rue de l'Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-162252"
   },
   {
    "idweb": "18-163164",
@@ -1906,65 +1906,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-162702"
   },
   {
-   "idweb": "18-164080",
-   "id": "18_164080",
-   "contractfolderid": null,
-   "objet": "Numéro de la consultation : TVX 18-10 Effacement des réseaux sur le tour de cote au Croisic",
-   "filename": "BOAMP-N-AO_2018_327011",
-   "famille": "FNS",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2018-11-23",
-   "datefindiffusion": "2018-12-18",
-   "datelimitereponse": "2018-12-18T11:00:00+00:00",
-   "nomacheteur": "COMMUNE DU CROISIC",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "306"
-   ],
-   "dc": [
-    "306"
-   ],
-   "descripteur_libelle": [
-    "Réseaux divers"
-   ],
-   "type_marche": [
-    "TRAVAUX"
-   ],
-   "type_marche_facette": [
-    "Travaux"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-164080\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-164080.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-11-23\", \"DATE_LIMITE_REPONSE\": \"2018-12-18T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-12-18\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"306\", \"LIBELLE\": \"Réseaux divers\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Numéro de la consultation : TVX 18-10 Effacement des réseaux sur le tour de cote au Croisic\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"COMMUNE DU CROISIC\", \"CORRESPONDANT\": \"Mme QUELLARD Michèle, Maire\", \"ADRESSE\": \"5 rue Jules Ferry\", \"CP\": \"44490\", \"VILLE\": \"LE CROISIC\", \"TEL\": \"02-28-56-78-50\", \"MEL\": \"correspondre@aws-france.com\", \"URL\": \"http://www.lecroisic.fr/\", \"URL_PROFIL_ACHETEUR\": \"http://agysoft.marches-publics.info/\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"Numéro de la consultation : TVX 18-10 Effacement des réseaux sur le tour de cote au Croisic\", \"CPV\": [{\"PRINCIPAL\": \"32400000\"}, {\"PRINCIPAL\": \"45113000\"}], \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG01\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Forme de marché : ordinaire. Attribution d'un marché unique\", \"QUANTITE\": \"Numéro de la consultation : TVX 18-10 Effacement des réseaux sur le tour de cote au Croisic\"}, \"DUREE_DELAI\": {\"DUREE_JOURS\": \"252\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-12-18T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Retenue de garantie de 5,0 %, qui peut être remplacée par une garantie à première demande ou une caution personnelle et solidaire. Garantie à première demande ou caution personnelle et solidaire couvrant 100,0 % du montant de l'avance\", \"FINANCEMENT\": \"Prestations réglées par des prix unitaires Prix révisables mensuellement. Avance de 5,0 % accordée dans les conditions prévues au contrat. Délai global de paiement des prestations de 30 jours\", \"FORME_JURIDIQUE\": \"Aucune forme de groupement imposée à l'attributaire du marché\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Références requises mentionnées dans les documents de la consultation\", \"CAP_ECO\": \"Références requises mentionnées dans les documents de la consultation\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"TVX 18-10/BO\", \"CONDITIONS_REMISE_OFFRES\": \"La candidature est présentée soit sous la forme des formulaires DC1 et DC2 (disponibles gratuitement sur le site www.economie.gouv.fr.), soit sous la forme d'un Document Unique de Marché Européen (DUME). La transmission des plis par voie électronique est imposée pour cette consultation. Par conséquent, la transmission par voie papier n'est pas autorisée\", \"DATE_LIMITE_OBTENTION_DOCUMENTS\": \"2018-12-18\", \"DOCUMENT_PAYANT_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://agysoft.marches-publics.info/Dépôt par porteur : i.paul@lecroisic.frLa transmission des documents par voie électronique est effectuée sur le profil d'acheteur. Les modalités de transmission des plis par voie électronique sont définies dans le règlement de la consultation. Numéro de la consultation : TVX 18-10 Une visite sur site est obligatoire. L'offre d'un candidat qui n'a pas effectué cette visite sera déclarée irrégulière. Les conditions de visites sont les suivantes : Prendre contact avec M. COVIN ou M. CHRETIEN au 02.28.56.78.50\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Commune du Croisic\", \"ADRESSE\": \"5 rue Jules Ferry\", \"CP\": \"44490\", \"VILLE\": \"LE CROISIC\", \"TEL\": \"02-28-56-78-50\", \"MEL\": \"i.paul@lecroisic.fr\", \"URL\": \"http://agysoft.marches-publics.info/\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"DENOMINATION\": \"Commune du Croisic\", \"ADRESSE\": \"5 rue Jules Ferry\", \"CP\": \"44490\", \"VILLE\": \"LE CROISIC\", \"TEL\": \"02-28-56-78-50\", \"MEL\": \"i.paul@lecroisic.fr\", \"URL\": \"http://agysoft.marches-publics.info/\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Commune du Croisic\", \"ADRESSE\": \"5 rue Jules Ferry\", \"CP\": \"44490\", \"VILLE\": \"LE CROISIC\", \"TEL\": \"02-28-56-78-50\", \"MEL\": \"i.paul@lecroisic.fr\", \"URL\": \"http://agysoft.marches-publics.info/\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-164080"
-  },
-  {
    "idweb": "18-162802",
    "id": "18_162802",
    "contractfolderid": null,
@@ -2024,6 +1965,65 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-162802\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-160935\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-11-16\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-11-18\", \"DATE_FIN_DIFFUSION\": \"2018-12-19\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"224\", \"NUM_ANNONCE\": \"512776\", \"DATE_PUBLICATION\": \"2018-11-21\"}}]}}, \"NOM_HTML\": \"18-162802.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-11-23\", \"DATE_FIN_DIFFUSION\": \"2018-12-19\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}, {\"CODE\": \"433\", \"LIBELLE\": \"Assistance à maîtrise d'ouvrage\"}]}, \"DEP_PUBLICATION\": [\"72\", \"75\"], \"RESUME_OBJET\": \"Prestations d'assistance à maîtrise d'ouvrage pour l'interprétation technique, financière,et administrative de dossiers, et l'identification et la saisie de données\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"ARAFER\", \"CODE_IDENT_NATIONAL\": \"13001232100050\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"48 bd Robert Jarry, Cs 81915\", \"CP\": \"72019\", \"VILLE\": \"Le Mans Cedex 2\", \"TEL\": \"(+33) 2-43-20-04-30\", \"FAX\": \"(+33) 2-43-24-78-23\", \"MEL\": \"marches.arafer@arafer.fr\", \"URL\": \"http://www.arafer.fr\", \"URL_PROFIL_ACHETEUR\": \"http://agysoft.marches-publics.info\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Transport mutimodal\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Prestations d'assistance à maîtrise d'ouvrage pour l'interprétation technique, financière,et administrative de dossiers, et l'identification et la saisie de données\", \"REF_MARCHE\": \"18pi004\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Prestations d'assistance à maîtrise d'ouvrage pour l'interprétation technique, financière et administrative de dossiers, et l'identification et la saisie de données relatives au cout des projets d'investissement sur le réseau autoroutier français.La présente consultation a été lancée après une première procédure déclarée sans suite dont l'avis de marché a été publié au Journal officiel de l'Union européenne le 7 août 2018 sous le numéro 2018/S 150-344572.L'avis de marché a été publié au Journal officiel de l'Union européenne le 27 octobre 2018 sous le numéro 2018/S 208-475390\", \"CPV\": {\"PRINCIPAL\": \"71311300\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-160935\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-11-16\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-11-18\", \"DATE_FIN_DIFFUSION\": \"2018-12-19\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"224\", \"NUM_ANNONCE\": \"512776\", \"DATE_PUBLICATION\": \"2018-11-21\"}}]}, \"MODIFICATION\": {\"RUB_INIT\": \"II.2.4\", \"TEXTE\": {\"LIRE\": \"Ajouter : L'Autorité souhaite étoffer une base de données \\\" Prix \\\" relative au coût estimé des opérations d'investissement sur le réseau autoroutier concédé à différents stades d'avancement (volet \\\" Macro \\\", ex : dossier d'avant-projet relatif à la construction d'un échangeur autoroutier) et au niveau de prix de certaines prestations standardisées récurrentes externalisées par les sociétés concessionnaires (volet \\\" micro \\\", ex : prix unitaire de fourniture et mise en oeuvre d'enrobé). L'incrémentation de cette base de données s'opère notamment par le renseignement de différents supports de saisie.La présente mission, qui comprend le renseignement de ces supports pour chacun des dossiers qui seront mis à la disposition du futur titulaire par l'Autorité, est décomposée en 3 phases techniques :-Phase 1 : tâches préparatoires (méthode, contrôle qualité, adaptation du support de saisie, etc.) ;-Phase 2 : prestations relatives au volet Macro : interprétation des dossiers d'étude, et saisie de données ;-Phase 3 : prestations relatives au volet Micro : interprétation des dossiers \\\" marchés \\\", et saisie de données.Concernant le volet Macro (dossiers d'étude préliminaires, Avp, Pro, etc.), il s'agit principalement d'identifier et/ou de reconstituer certaines informations techniques descriptives (exemple : pour le complément d'un échangeur : nombre de bretelles à créer, surface globale d'enrobés, nombre et surface des ouvrages d'art créés, etc.) et d'extraire certaines données financières générales (conditions économiques de référence, ventilation des coûts selon quelques postes de dépenses standardisés, etc.).Concernant le volet Micro (marchés de travaux), il s'agit principalement d'identifier les niveaux de prix unitaires pour des prestations déjà listées par l'Autorité (ex : prix à la tonne de fourniture et mise en oeuvre de Bbme, prix au m3 de déblais, etc.) assortis d'éléments contextuels du dossier exploité (objet et montant global du marché, quantité prévisionnelle de la prestation de base concernée, conditions économiques, etc.).L'Autorité souhaite ainsi attirer l'attention des candidats sur les compétences nécessaires à la bonne interprétation des dossiers d'étude (connaissances générales en infrastructures, capacité à exploiter des plans techniques et des estimations financières notamment) et des marchés de travaux (connaissances générales en marchés publics, capacité à exploiter les pièces d'un marché telles que le bordereau des prix unitaires ou le détail estimatif). Ces dossiers proviennent d'une collecte de données menée par l'Autorité auprès des sociétés concessionnaires d'autoroutes et de différents bureaux d'étude. Cette collecte a permis de compiler plus de 430 dossiers d'études pour le volet Macro (volume supérieur à 15,8 Go / 2 900 fichiers et 600 dossiers) et plus de 330 marchés de travaux pour le volet Micro (volume supérieur à 38,6 Go / 6 650 fichiers et 1 240 dossiers).Les candidats sélectionnés et désireux de remettre une offre se verront remettre un dossier \\\" test \\\", constitué de plusieurs dossiers d'étude et dossiers marchés, en l'échange de la signature d'un accord de confidentialité ad hoc visant à préserver le secret des affaires relatif auxdits dossiers (produits par des tiers). La signature de cet accord par le candidat sélectionné conditionnera la transmission par l'Autorité du dossier de consultation des entreprises (Dce) et du dossier \\\" test \\\"\"}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 20 novembre 2018.\"}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-162802"
+  },
+  {
+   "idweb": "18-164080",
+   "id": "18_164080",
+   "contractfolderid": null,
+   "objet": "Numéro de la consultation : TVX 18-10 Effacement des réseaux sur le tour de cote au Croisic",
+   "filename": "BOAMP-N-AO_2018_327011",
+   "famille": "FNS",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2018-11-23",
+   "datefindiffusion": "2018-12-18",
+   "datelimitereponse": "2018-12-18T11:00:00+00:00",
+   "nomacheteur": "COMMUNE DU CROISIC",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "306"
+   ],
+   "dc": [
+    "306"
+   ],
+   "descripteur_libelle": [
+    "Réseaux divers"
+   ],
+   "type_marche": [
+    "TRAVAUX"
+   ],
+   "type_marche_facette": [
+    "Travaux"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-164080\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-164080.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-11-23\", \"DATE_LIMITE_REPONSE\": \"2018-12-18T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-12-18\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"306\", \"LIBELLE\": \"Réseaux divers\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Numéro de la consultation : TVX 18-10 Effacement des réseaux sur le tour de cote au Croisic\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"COMMUNE DU CROISIC\", \"CORRESPONDANT\": \"Mme QUELLARD Michèle, Maire\", \"ADRESSE\": \"5 rue Jules Ferry\", \"CP\": \"44490\", \"VILLE\": \"LE CROISIC\", \"TEL\": \"02-28-56-78-50\", \"MEL\": \"correspondre@aws-france.com\", \"URL\": \"http://www.lecroisic.fr/\", \"URL_PROFIL_ACHETEUR\": \"http://agysoft.marches-publics.info/\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"Numéro de la consultation : TVX 18-10 Effacement des réseaux sur le tour de cote au Croisic\", \"CPV\": [{\"PRINCIPAL\": \"32400000\"}, {\"PRINCIPAL\": \"45113000\"}], \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG01\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Forme de marché : ordinaire. Attribution d'un marché unique\", \"QUANTITE\": \"Numéro de la consultation : TVX 18-10 Effacement des réseaux sur le tour de cote au Croisic\"}, \"DUREE_DELAI\": {\"DUREE_JOURS\": \"252\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-12-18T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Retenue de garantie de 5,0 %, qui peut être remplacée par une garantie à première demande ou une caution personnelle et solidaire. Garantie à première demande ou caution personnelle et solidaire couvrant 100,0 % du montant de l'avance\", \"FINANCEMENT\": \"Prestations réglées par des prix unitaires Prix révisables mensuellement. Avance de 5,0 % accordée dans les conditions prévues au contrat. Délai global de paiement des prestations de 30 jours\", \"FORME_JURIDIQUE\": \"Aucune forme de groupement imposée à l'attributaire du marché\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Références requises mentionnées dans les documents de la consultation\", \"CAP_ECO\": \"Références requises mentionnées dans les documents de la consultation\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"TVX 18-10/BO\", \"CONDITIONS_REMISE_OFFRES\": \"La candidature est présentée soit sous la forme des formulaires DC1 et DC2 (disponibles gratuitement sur le site www.economie.gouv.fr.), soit sous la forme d'un Document Unique de Marché Européen (DUME). La transmission des plis par voie électronique est imposée pour cette consultation. Par conséquent, la transmission par voie papier n'est pas autorisée\", \"DATE_LIMITE_OBTENTION_DOCUMENTS\": \"2018-12-18\", \"DOCUMENT_PAYANT_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://agysoft.marches-publics.info/Dépôt par porteur : i.paul@lecroisic.frLa transmission des documents par voie électronique est effectuée sur le profil d'acheteur. Les modalités de transmission des plis par voie électronique sont définies dans le règlement de la consultation. Numéro de la consultation : TVX 18-10 Une visite sur site est obligatoire. L'offre d'un candidat qui n'a pas effectué cette visite sera déclarée irrégulière. Les conditions de visites sont les suivantes : Prendre contact avec M. COVIN ou M. CHRETIEN au 02.28.56.78.50\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Commune du Croisic\", \"ADRESSE\": \"5 rue Jules Ferry\", \"CP\": \"44490\", \"VILLE\": \"LE CROISIC\", \"TEL\": \"02-28-56-78-50\", \"MEL\": \"i.paul@lecroisic.fr\", \"URL\": \"http://agysoft.marches-publics.info/\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"DENOMINATION\": \"Commune du Croisic\", \"ADRESSE\": \"5 rue Jules Ferry\", \"CP\": \"44490\", \"VILLE\": \"LE CROISIC\", \"TEL\": \"02-28-56-78-50\", \"MEL\": \"i.paul@lecroisic.fr\", \"URL\": \"http://agysoft.marches-publics.info/\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Commune du Croisic\", \"ADRESSE\": \"5 rue Jules Ferry\", \"CP\": \"44490\", \"VILLE\": \"LE CROISIC\", \"TEL\": \"02-28-56-78-50\", \"MEL\": \"i.paul@lecroisic.fr\", \"URL\": \"http://agysoft.marches-publics.info/\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-164080"
   },
   {
    "idweb": "18-164301",
@@ -4320,6 +4320,67 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-165787"
   },
   {
+   "idweb": "18-166015",
+   "id": "18_166015",
+   "contractfolderid": null,
+   "objet": "Hébergement pour des participants à des actions de formation organisées par la délégation des Pays de la Loire sur les départements de la Loire - Atlantique, de la Sarthe et de la Vendée.",
+   "filename": "BOAMP-N-AO_2018_332005",
+   "famille": "FNS",
+   "code_departement": [
+    "44",
+    "72",
+    "85"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2018-11-28",
+   "datefindiffusion": "2018-12-20",
+   "datelimitereponse": "2018-12-20T11:00:00+00:00",
+   "nomacheteur": "CNFPT - Délégation Pays de la Loire",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "466"
+   ],
+   "dc": [
+    "466"
+   ],
+   "descripteur_libelle": [
+    "Prestation hotelière"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-166015\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-166015.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-11-28\", \"DATE_LIMITE_REPONSE\": \"2018-12-20T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-12-20\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"466\", \"LIBELLE\": \"Prestation hotelière\"}}, \"DEP_PUBLICATION\": [\"44\", \"72\", \"85\"], \"RESUME_OBJET\": \"Hébergement pour des participants à des actions de formation organisées par la délégation des Pays de la Loire sur les départements de la Loire - Atlantique, de la Sarthe et de la Vendée.\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CNFPT - Délégation Pays de la Loire\", \"CORRESPONDANT\": \"M. GASNIER Daniel, CNFPT - Délégation Pays de la Loire\", \"ADRESSE\": \"60 boulevard Victor Beaussier - CS 40205\", \"CP\": \"49002\", \"VILLE\": \"Angers cedex 1\", \"TEL\": \"02-41-77-37-37\", \"FAX\": \"02-41-77-37-38\", \"URL\": \"http://www.cnfpt.fr\"}, \"TYPE_ORGANISME\": {\"EPN\": \"\"}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"17\"}, \"OBJET_COMPLET\": \"Hébergement pour des participants à des actions de formation organisées par la délégation des Pays de la Loire sur les départements de la Loire - Atlantique, de la Sarthe et de la Vendée.\", \"CPV\": {\"PRINCIPAL\": \"55000000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Pays de la loire, sarthe et vendée\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"QUANTITE\": \"Hébergement pour des participants à des actions de formation organisées par la délégation des Pays de la Loire sur les départements de la Loire - Atlantique, de la Sarthe et de la Vendée.\"}, \"DUREE_DELAI\": {\"DATE_DEBUT\": \"2019-02-01\", \"DATE_FIN\": \"2020-01-31\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Site Nantes\", \"DESCRIPTION\": \"Hébergement pour des participants à des actions de formation sur le département de la Loire-Atlantique\", \"CPV\": {\"PRINCIPAL\": \"55000000\"}, \"QUANTITE\": \"500 nuitées minimum et 1 500 nuitées maximum\", \"DATE_DEBUT\": \"2019-02-01\", \"DATE_FIN\": \"2020-01-31\", \"DATE_EXECUTION\": \"2019-02-01\"}, {\"NUM\": \"2\", \"INTITULE\": \"Site Le Mans\", \"DESCRIPTION\": \"Hébergement pour des participants à des actions de formation organisées sur le département de la Sarthe.\", \"CPV\": {\"PRINCIPAL\": \"55000000\"}, \"QUANTITE\": \"120 nuitées minimum et 600 nuitées maximum\", \"DATE_DEBUT\": \"2019-02-01\", \"DATE_FIN\": \"2020-01-31\"}, {\"NUM\": \"3\", \"INTITULE\": \"Site La Roche sur Yon\", \"DESCRIPTION\": \"Hébergement pour des participants à des actions de formation organisées sur le département de la Vendée.\", \"CPV\": {\"PRINCIPAL\": \"55000000\"}, \"QUANTITE\": \"80 nuitées minimum et 350 nuitées maximum\", \"DATE_DEBUT\": \"2019-02-01\", \"DATE_FIN\": \"2020-01-31\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-12-20T12:00:00+01:00\"}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Autres renseignements demandés\", \"Voir le règlement de la consultation\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"17-18.11.27-HEB\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île-gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"URL\": \"https://www.marchespublics.cnfpt.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=10901&orgAcronyme=t5y\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-166015"
+  },
+  {
    "idweb": "18-120986",
    "id": "18_120986",
    "contractfolderid": null,
@@ -4581,67 +4642,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-164543\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-123721\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-09-06\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-09-08\", \"DATE_FIN_DIFFUSION\": \"2018-10-09\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"173\", \"NUM_ANNONCE\": \"392649\", \"DATE_PUBLICATION\": \"2018-09-08\"}}]}}, \"NOM_HTML\": \"18-164543.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-11-28\", \"DATE_FIN_DIFFUSION\": \"2019-01-26\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"249\", \"LIBELLE\": \"Ordures ménagères (prestations)\"}}, \"DEP_PUBLICATION\": [\"72\", \"35\", \"44\"], \"RESUME_OBJET\": \"collecte en apport volontaire du verre, des ordures ménagères et des emballages\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Communauté de communes de sablé\", \"ADJUDICATEUR_NUTS\": \"FR\", \"ADRESSE\": \"Place Raphaël Elizé\", \"CP\": \"72300\", \"VILLE\": \"Sablé sur sarthe\", \"MEL\": \"marchespublics@sablesursarthe.fr\", \"URL\": \"http://www.sablesursarthe.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Collecte en apport volontaire du verre, des ordures ménagères et des emballages\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Collecte en apport volontaire du verre, des ordures ménagères et des emballages\", \"CPV\": {\"PRINCIPAL\": \"90511000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"78305\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Collecte en apport volontaire des verres\", \"DESCRIPTION\": \"Collecte en apport volontaire des verres\", \"CPV\": {\"PRINCIPAL\": \"90511000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"40\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"60\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Collecte en apport volontaire des ordures ménagères résiduelles et des emballages\", \"DESCRIPTION\": \"Collecte en apport volontaire des ordures ménagères résiduelles et des emballages\", \"CPV\": {\"PRINCIPAL\": \"90511000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"40\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"60\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2018\", \"NUM_PARUTION\": \"173\", \"NUM_ANNONCE\": \"392649\", \"DATE_PUBLICATION\": \"2018-09-08\"}}}, \"ATTRIBUTION\": {\"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"553\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Collecte en apport volontaire du verre\", \"TITULAIRE\": {\"DENOMINATION\": \"SUEZ RV OUEST\", \"VILLE\": \"Nantes\", \"CODE_NUTS\": \"FRG\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-11-23\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"45580.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"554\", \"NUM_LOT\": \"2\", \"INTITULE\": \"Collecte en apport volontaire des ordures ménagères résiduelles et des emballages\", \"TITULAIRE\": {\"DENOMINATION\": \"BRANGEON ENVIRONNEMENT\", \"VILLE\": \"La Pommeraye\", \"CODE_NUTS\": \"FRG\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-11-23\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"32725.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 26 novembre 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"VILLE\": \"Nantes\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif de règlement amiable des litiges\", \"VILLE\": \"Nantes\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-164543"
-  },
-  {
-   "idweb": "18-166015",
-   "id": "18_166015",
-   "contractfolderid": null,
-   "objet": "Hébergement pour des participants à des actions de formation organisées par la délégation des Pays de la Loire sur les départements de la Loire - Atlantique, de la Sarthe et de la Vendée.",
-   "filename": "BOAMP-N-AO_2018_332005",
-   "famille": "FNS",
-   "code_departement": [
-    "44",
-    "72",
-    "85"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2018-11-28",
-   "datefindiffusion": "2018-12-20",
-   "datelimitereponse": "2018-12-20T11:00:00+00:00",
-   "nomacheteur": "CNFPT - Délégation Pays de la Loire",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "466"
-   ],
-   "dc": [
-    "466"
-   ],
-   "descripteur_libelle": [
-    "Prestation hotelière"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-166015\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-166015.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-11-28\", \"DATE_LIMITE_REPONSE\": \"2018-12-20T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-12-20\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"466\", \"LIBELLE\": \"Prestation hotelière\"}}, \"DEP_PUBLICATION\": [\"44\", \"72\", \"85\"], \"RESUME_OBJET\": \"Hébergement pour des participants à des actions de formation organisées par la délégation des Pays de la Loire sur les départements de la Loire - Atlantique, de la Sarthe et de la Vendée.\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CNFPT - Délégation Pays de la Loire\", \"CORRESPONDANT\": \"M. GASNIER Daniel, CNFPT - Délégation Pays de la Loire\", \"ADRESSE\": \"60 boulevard Victor Beaussier - CS 40205\", \"CP\": \"49002\", \"VILLE\": \"Angers cedex 1\", \"TEL\": \"02-41-77-37-37\", \"FAX\": \"02-41-77-37-38\", \"URL\": \"http://www.cnfpt.fr\"}, \"TYPE_ORGANISME\": {\"EPN\": \"\"}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"17\"}, \"OBJET_COMPLET\": \"Hébergement pour des participants à des actions de formation organisées par la délégation des Pays de la Loire sur les départements de la Loire - Atlantique, de la Sarthe et de la Vendée.\", \"CPV\": {\"PRINCIPAL\": \"55000000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Pays de la loire, sarthe et vendée\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"QUANTITE\": \"Hébergement pour des participants à des actions de formation organisées par la délégation des Pays de la Loire sur les départements de la Loire - Atlantique, de la Sarthe et de la Vendée.\"}, \"DUREE_DELAI\": {\"DATE_DEBUT\": \"2019-02-01\", \"DATE_FIN\": \"2020-01-31\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Site Nantes\", \"DESCRIPTION\": \"Hébergement pour des participants à des actions de formation sur le département de la Loire-Atlantique\", \"CPV\": {\"PRINCIPAL\": \"55000000\"}, \"QUANTITE\": \"500 nuitées minimum et 1 500 nuitées maximum\", \"DATE_DEBUT\": \"2019-02-01\", \"DATE_FIN\": \"2020-01-31\", \"DATE_EXECUTION\": \"2019-02-01\"}, {\"NUM\": \"2\", \"INTITULE\": \"Site Le Mans\", \"DESCRIPTION\": \"Hébergement pour des participants à des actions de formation organisées sur le département de la Sarthe.\", \"CPV\": {\"PRINCIPAL\": \"55000000\"}, \"QUANTITE\": \"120 nuitées minimum et 600 nuitées maximum\", \"DATE_DEBUT\": \"2019-02-01\", \"DATE_FIN\": \"2020-01-31\"}, {\"NUM\": \"3\", \"INTITULE\": \"Site La Roche sur Yon\", \"DESCRIPTION\": \"Hébergement pour des participants à des actions de formation organisées sur le département de la Vendée.\", \"CPV\": {\"PRINCIPAL\": \"55000000\"}, \"QUANTITE\": \"80 nuitées minimum et 350 nuitées maximum\", \"DATE_DEBUT\": \"2019-02-01\", \"DATE_FIN\": \"2020-01-31\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-12-20T12:00:00+01:00\"}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Autres renseignements demandés\", \"Voir le règlement de la consultation\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"17-18.11.27-HEB\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île-gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"URL\": \"https://www.marchespublics.cnfpt.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=10901&orgAcronyme=t5y\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-166015"
   },
   {
    "idweb": "18-166031",

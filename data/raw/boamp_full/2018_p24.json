@@ -1536,65 +1536,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-126276"
   },
   {
-   "idweb": "18-127010",
-   "id": "18_127010",
-   "contractfolderid": null,
-   "objet": "Fourniture de milieux de cultures et de réactifs de microbiologie pour le Laboratoire de l'Environnement et de l'Alimentation de la Vendée",
-   "filename": "BOAMP-J-AO_2018_256009",
-   "famille": "JOUE",
-   "code_departement": [
-    "85"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-09-13",
-   "datefindiffusion": "2018-10-16",
-   "datelimitereponse": null,
-   "nomacheteur": "DEPARTEMENT DE VENDEE",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "181"
-   ],
-   "dc": [
-    "181"
-   ],
-   "descripteur_libelle": [
-    "Laboratoire (fourniture)"
-   ],
-   "type_marche": [
-    "FOURNITURES"
-   ],
-   "type_marche_facette": [
-    "Fournitures"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-127010\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-127010.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-09-13\", \"DATE_FIN_DIFFUSION\": \"2018-10-16\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"181\", \"LIBELLE\": \"Laboratoire (fourniture)\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"Fourniture de milieux de cultures et de réactifs de microbiologie pour le Laboratoire de l'Environnement et de l'Alimentation de la Vendée\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"DEPARTEMENT DE VENDEE\", \"CODE_IDENT_NATIONAL\": \"22850001300765\", \"ADJUDICATEUR_NUTS\": \"FRG05\", \"ADRESSE\": \"Laboratoire de l'environnement et de l'alimentation de la Vendée, Rond-point Georges Duval, Cs 80802\", \"CP\": \"85021\", \"VILLE\": \"La Roche sur Yon\", \"TEL\": \"(+33) 2-28-85-83-84\", \"MEL\": \"marchespublics@vendee.fr\", \"URL\": \"http://vendee.fr\", \"URL_PROFIL_ACHETEUR\": \"http://marchespublics.vendee.fr\", \"URL_PARTICIPATION\": \"http://marchespublics.vendee.fr\", \"URL_DOCUMENT\": \"http://marchespublics.vendee.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de milieux de cultures et de réactifs de microbiologie pour le Laboratoire de l'Environnement et de l'Alimentation de la Vendée\", \"REF_MARCHE\": \"18s0098pp\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Il s'agit d'accords-cadres à bons de commande, sans montant minimum annuel ni montant maximum annuel, mais avec des quantités prévisionnelles annuelles indiquées dans le bordereau des prix unitaires (Bpu).Le marché précédent était divisé en 40 lots, avec des lots présentant peu de référence. L'organisation du laboratoire a été revue et permet une rationalisation des lots, chaque lot présente plusieurs références permettant des commandes groupées.Le coût annuel des dépenses est évalué à 134 500 euro(s) Ht pour l'ensemble des lots\", \"CPV\": {\"PRINCIPAL\": \"24931250\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Milieux de culture standards pour analyses microbiologiques\", \"DESCRIPTION\": \"Sans montant minimum annuel ni montant maximum annuel, mais avec des quantités prévisionnelles annuelles indiquées dans le bordereau des prix unitaires (Bpu)\", \"CPV\": [{\"PRINCIPAL\": \"24931250\"}, {\"PRINCIPAL\": \"24959200\"}, {\"PRINCIPAL\": \"33651510\"}, {\"PRINCIPAL\": \"33954000\"}], \"CODE_NUTS\": \"FRG05\", \"LIEU_PRINCIPAL\": \"Rond-Point Georges Duval<br/>85000 - La Roche Sur Yon\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"65\", \"#text\": \"Valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"35\"}}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le contrat pourra ensuite être renouvelé, à sa date anniversaire, trois fois pour des périodes équivalentes par reconduction tacite, sans pouvoir dépasser une durée totale de quatre ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Milieux de culture prêts à l'emploi\", \"DESCRIPTION\": \"Sans montant minimum annuel ni montant maximum annuel, mais avec des quantités prévisionnelles annuelles indiquées dans le bordereau des prix unitaires (Bpu)\", \"CPV\": [{\"PRINCIPAL\": \"24931250\"}, {\"PRINCIPAL\": \"24959200\"}, {\"PRINCIPAL\": \"33651510\"}, {\"PRINCIPAL\": \"33954000\"}], \"CODE_NUTS\": \"FRG05\", \"LIEU_PRINCIPAL\": \"Rond-Point Georges Duval<br/>85000 - La Roche Sur Yon\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"65\", \"#text\": \"Valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"35\"}}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le contrat pourra ensuite être renouvelé, à sa date anniversaire, trois fois pour des périodes équivalentes par reconduction tacite, sans pouvoir dépasser une durée totale de quatre ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Milieux de culture pour analyses microbiologiques spécifiques\", \"DESCRIPTION\": \"Sans montant minimum annuel ni montant maximum annuel, mais avec des quantités prévisionnelles annuelles indiquées dans le bordereau des prix unitaires (Bpu)\", \"CPV\": [{\"PRINCIPAL\": \"24931250\"}, {\"PRINCIPAL\": \"24959200\"}, {\"PRINCIPAL\": \"33651510\"}, {\"PRINCIPAL\": \"33954000\"}], \"CODE_NUTS\": \"FRG05\", \"LIEU_PRINCIPAL\": \"Rond-Point Georges Duval<br/>85000 - La Roche Sur Yon\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"65\", \"#text\": \"Valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"35\"}}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le contrat pourra ensuite être renouvelé, à sa date anniversaire, trois fois pour des périodes équivalentes par reconduction tacite, sans pouvoir dépasser une durée totale de quatre ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"4\", \"INTITULE\": \"Sérums anti-salmonella\", \"DESCRIPTION\": \"Sans montant minimum annuel ni montant maximum annuel, mais avec des quantités prévisionnelles annuelles indiquées dans le bordereau des prix unitaires (Bpu)\", \"CPV\": [{\"PRINCIPAL\": \"33651510\"}, {\"PRINCIPAL\": \"24959200\"}, {\"PRINCIPAL\": \"33651510\"}, {\"PRINCIPAL\": \"33954000\"}], \"CODE_NUTS\": \"FRG05\", \"LIEU_PRINCIPAL\": \"Rond-Point Georges Duval<br/>85000 - La Roche Sur Yon\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"65\", \"#text\": \"Valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"35\"}}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le contrat pourra ensuite être renouvelé, à sa date anniversaire, trois fois pour des périodes équivalentes par reconduction tacite, sans pouvoir dépasser une durée totale de quatre ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"5\", \"INTITULE\": \"Milieux pour la détection des antibiotiques dans le lait\", \"DESCRIPTION\": \"Sans montant minimum annuel ni montant maximum annuel, mais avec des quantités prévisionnelles annuelles indiquées dans le bordereau des prix unitaires (Bpu)\", \"CPV\": [{\"PRINCIPAL\": \"24931250\"}, {\"PRINCIPAL\": \"24959200\"}, {\"PRINCIPAL\": \"33651510\"}, {\"PRINCIPAL\": \"33954000\"}], \"CODE_NUTS\": \"FRG05\", \"LIEU_PRINCIPAL\": \"Rond-Point Georges Duval<br/>85000 - La Roche Sur Yon\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"65\", \"#text\": \"Valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"35\"}}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le contrat pourra ensuite être renouvelé, à sa date anniversaire, trois fois pour des périodes équivalentes par reconduction tacite, sans pouvoir dépasser une durée totale de quatre ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"6\", \"INTITULE\": \"Disques pour la réalisation d'antibiogrammes\", \"DESCRIPTION\": \"Sans montant minimum annuel ni montant maximum annuel, mais avec des quantités prévisionnelles annuelles indiquées dans le bordereau des prix unitaires (Bpu)\", \"CPV\": [{\"PRINCIPAL\": \"24959200\"}, {\"PRINCIPAL\": \"24959200\"}, {\"PRINCIPAL\": \"33651510\"}, {\"PRINCIPAL\": \"33954000\"}], \"CODE_NUTS\": \"FRG05\", \"LIEU_PRINCIPAL\": \"Rond-Point Georges Duval<br/>85000 - La Roche Sur Yon\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"65\", \"#text\": \"Valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"35\"}}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le contrat pourra ensuite être renouvelé, à sa date anniversaire, trois fois pour des périodes équivalentes par reconduction tacite, sans pouvoir dépasser une durée totale de quatre ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"7\", \"INTITULE\": \"Milieux spécifiques pour impédancemétrie\", \"DESCRIPTION\": \"Sans montant minimum annuel ni montant maximum annuel, mais avec des quantités prévisionnelles annuelles indiquées dans le bordereau des prix unitaires (Bpu)\", \"CPV\": [{\"PRINCIPAL\": \"24931250\"}, {\"PRINCIPAL\": \"24959200\"}, {\"PRINCIPAL\": \"33651510\"}, {\"PRINCIPAL\": \"33954000\"}], \"CODE_NUTS\": \"FRG05\", \"LIEU_PRINCIPAL\": \"Rond-Point Georges Duval<br/>85000 - La Roche Sur Yon\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"65\", \"#text\": \"Valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"35\"}}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le contrat pourra ensuite être renouvelé, à sa date anniversaire, trois fois pour des périodes équivalentes par reconduction tacite, sans pouvoir dépasser une durée totale de quatre ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"8\", \"INTITULE\": \"Sérums anti-coliformes\", \"DESCRIPTION\": \"Sans montant minimum annuel ni montant maximum annuel, mais avec des quantités prévisionnelles annuelles indiquées dans le bordereau des prix unitaires (Bpu)\", \"CPV\": [{\"PRINCIPAL\": \"33651510\"}, {\"PRINCIPAL\": \"24959200\"}, {\"PRINCIPAL\": \"33651510\"}, {\"PRINCIPAL\": \"33954000\"}], \"CODE_NUTS\": \"FRG05\", \"LIEU_PRINCIPAL\": \"Rond-Point Georges Duval<br/>85000 - La Roche Sur Yon\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"65\", \"#text\": \"Valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"35\"}}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le contrat pourra ensuite être renouvelé, à sa date anniversaire, trois fois pour des périodes équivalentes par reconduction tacite, sans pouvoir dépasser une durée totale de quatre ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"9\", \"INTITULE\": \"Milieux de culture déshydratés et prêts à l'emploi\", \"DESCRIPTION\": \"Sans montant minimum annuel ni montant maximum annuel, mais avec des quantités prévisionnelles annuelles indiquées dans le bordereau des prix unitaires (Bpu)\", \"CPV\": [{\"PRINCIPAL\": \"24931250\"}, {\"PRINCIPAL\": \"24959200\"}, {\"PRINCIPAL\": \"33651510\"}, {\"PRINCIPAL\": \"33954000\"}], \"CODE_NUTS\": \"FRG05\", \"LIEU_PRINCIPAL\": \"Rond-Point Georges Duval<br/>85000 - La Roche Sur Yon\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"65\", \"#text\": \"Valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"35\"}}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le contrat pourra ensuite être renouvelé, à sa date anniversaire, trois fois pour des périodes équivalentes par reconduction tacite, sans pouvoir dépasser une durée totale de quatre ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"10\", \"INTITULE\": \"Matériel de prélèvements stériles en élevage et industries agro-alimentaires\", \"DESCRIPTION\": \"Sans montant minimum annuel ni montant maximum annuel, mais avec des quantités prévisionnelles annuelles indiquées dans le bordereau des prix unitaires (Bpu)\", \"CPV\": [{\"PRINCIPAL\": \"33954000\"}, {\"PRINCIPAL\": \"24959200\"}, {\"PRINCIPAL\": \"33651510\"}, {\"PRINCIPAL\": \"33954000\"}], \"CODE_NUTS\": \"FRG05\", \"LIEU_PRINCIPAL\": \"Rond-Point Georges Duval<br/>85000 - La Roche Sur Yon\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"65\", \"#text\": \"Valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"35\"}}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le contrat pourra ensuite être renouvelé, à sa date anniversaire, trois fois pour des périodes équivalentes par reconduction tacite, sans pouvoir dépasser une durée totale de quatre ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"3ème trimestre 2022\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-10-16T17:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"- Une adresse mail valide afin que le Département puisse informer les candidats du rejet de leur offre ou candidature ou du fait que leur offre a été retenue\", \"CAP_ECO\": \"- Pour les entreprises de création récente, le chiffre d'affaires peut être remplacé par la production de tout document permettant de justifier la capacité financière du candidat (chiffre d'affaires partiel, montant de références en cours, déclaration appropriée de banques notamment)- Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"CAP_TECH\": \"- Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation de marchés de même nature.- Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années.- Présentation d'une liste des principales fournitures ou des principaux services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé.- Critères de sélection des candidatures : Niveau d'expérience ou de capacité technique du candidat - capacité économique et financièreNiveau minimal d'expérienceAu moins 2 références pertinentes et suffisantes.A cet effet, un tableau est mis à la disposition du candidat dans le Dce pour présenter ses références. Il est demandé au candidat de compléter ce tableau avec celles qui lui semblent les plus significatives au regard de la présente consultation et non de fournir un listing complet de toutes ses références.OuNiveau minimal de capacité techniquePour chaque lot, au moins 1 responsable technique et 1 responsable des ventes compétents dans le domaine objet du lot.Chaque agent pouvant disposer de plusieurs des fonctions indiquées ci-dessus\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-10-17\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Cette consultation bénéficie du Service DUME.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://marchespublics.vendee.fr -L'Acheteur se réserve le droit d'apporter des modifications de détail au dossier de consultation. Celles-ci doivent être communiquées au plus tard 6 jours avant la date limite fixée pour la remise des offres. Les candidats devront alors répondre sur la base du dossier modifié. Si, pendant l'étude du dossier par les candidats, la date limite fixée pour la remise des offres est reportée, la disposition précédente est applicable en fonction de cette nouvelle date.Les candidats devront consulter ou télécharger le dossier de consultation des entreprises en se connectant sur le profil d'acheteur du Département.La remise des offres par voie papier ou sur support physique électronique (hors cas de la copie de sauvegarde) n'est pas autorisée. Date d'envoi du présent avis au JOUE et au BOAMP : 11 septembre 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Médiation des entreprises : Direccte Pays de la Loire\", \"ADRESSE\": \"Tour Bretagne, Place Bretagne\", \"CP\": \"44047\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-53-46-79-64\", \"MEL\": \"aude.raverdy@direccte.gouv.fr\", \"URL\": \"http://www.mediateur-des-entreprises.fr\"}, {\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Département de la Vendée : Laboratoire de l'environnement et de l'alimentation - Valérie Chupeau\", \"ADRESSE\": \"Rond Point Georges Duval\", \"CP\": \"85021\", \"VILLE\": \"La Roche sur Yon cedex\", \"CODE_NUTS\": \"FRG05\", \"TEL\": \"(+33) 2-51-24-51-94\", \"MEL\": \"correspondre@aws.fr\", \"URL\": \"http://marchespublics.vendee.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-127010"
-  },
-  {
    "idweb": "18-127764",
    "id": "18_127764",
    "contractfolderid": null,
@@ -1715,6 +1656,65 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-128039\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-128039.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-09-13\", \"DATE_LIMITE_REPONSE\": \"2018-10-12T16:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-11-16\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"118\", \"LIBELLE\": \"Etude\"}}, \"DEP_PUBLICATION\": [\"35\", \"44\"], \"RESUME_OBJET\": \"Etude de faisabilité Learning center Rennais : établir un diagnostic de la situation existante, proposer des scénarii d'évolution comparés\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Rectorat d'Académie de Rennes\", \"CORRESPONDANT\": \"M. BOUCHET Béatrice\", \"ADRESSE\": \"96 rue d'Antrain CS 10503\", \"CP\": \"35705\", \"VILLE\": \"Rennes\", \"MEL\": \"beatrice.bouchet@ac-rennes.fr\"}, \"TYPE_ORGANISME\": {\"ETAT\": \"\"}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"12\"}, \"OBJET_COMPLET\": \"Etude de faisabilité Learning center Rennais : établir un diagnostic de la situation existante, proposer des scénarii d'évolution comparés\", \"CPV\": {\"PRINCIPAL\": \"71241000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"96 rue d'Antrain\", \"CP\": \"35000\", \"VILLE\": \"Rennes\", \"CODE_NUTS\": \"FRH03\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Etude de faisabilité Learning center Rennais\", \"QUANTITE\": \"Etude de faisabilité Learning center Rennais : établir un diagnostic de la situation existante, proposer des scénarii d'évolution comparés\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"NB_CANDIDATS\": {\"NB_MAX_OFFRE\": \"5\", \"NB_MIN_OFFRE\": \"3\", \"LIMITATION_CANDIDATS\": \"Pour limiter l'investissement en temps passé par beaucoup de candidats sur l'offre. Seront choisis sur critères énoncés dans le RC\"}}, \"CONDITION_DELAI\": {\"RECEPT_CANDIDAT\": \"2018-10-12T16:00:00+01:00\", \"LIMITE_ENVOI_INVIT\": \"2018-10-22\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_PARTICIPATION\": {\"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"2018_Etude_LC\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"PROCEDURES_RECOURS_PRECISIONS\": \"Référé précontractuel : depuis le début de la procédure de passation jusqu'à la signature du contrat (article L551-1 du Code de Justice Administrative) ;Référé Contractuel : 6 mois à compter du lendemain du jour de la conclusion du marché. Toutefois ce référé n'est pas possible en cas de publication d'un avis d'intention de conclure le marché au moins 11 jours avant sa signature (article L551-13 à L551-23 et R551-7 à R551-10 du Code de Justice Administrative) ;Recours pour excès de pouvoir : dans un délai de 2 mois à compter de la notification de la décision de rejet (articles R421-1 à R421-3 du Code de Justice Administrative) ;Recours de plein contentieux : dans un délai de 2 mois à compter de l'accomplissement des mesures de publicité concernant l'attribution du marché.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Rennes\", \"ADRESSE\": \"Hôtel de Bizien, 3 contour de la Motte CS 44416\", \"CP\": \"35044\", \"VILLE\": \"Rennes\", \"TEL\": \"02-23-21-28-28\", \"MEL\": \"greffe.ta-rennes@juradm.fr\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"URL\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=394522&orgAcronyme=f0g\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-128039"
+  },
+  {
+   "idweb": "18-127010",
+   "id": "18_127010",
+   "contractfolderid": null,
+   "objet": "Fourniture de milieux de cultures et de réactifs de microbiologie pour le Laboratoire de l'Environnement et de l'Alimentation de la Vendée",
+   "filename": "BOAMP-J-AO_2018_256009",
+   "famille": "JOUE",
+   "code_departement": [
+    "85"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-09-13",
+   "datefindiffusion": "2018-10-16",
+   "datelimitereponse": null,
+   "nomacheteur": "DEPARTEMENT DE VENDEE",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "181"
+   ],
+   "dc": [
+    "181"
+   ],
+   "descripteur_libelle": [
+    "Laboratoire (fourniture)"
+   ],
+   "type_marche": [
+    "FOURNITURES"
+   ],
+   "type_marche_facette": [
+    "Fournitures"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-127010\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-127010.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-09-13\", \"DATE_FIN_DIFFUSION\": \"2018-10-16\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"181\", \"LIBELLE\": \"Laboratoire (fourniture)\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"Fourniture de milieux de cultures et de réactifs de microbiologie pour le Laboratoire de l'Environnement et de l'Alimentation de la Vendée\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"DEPARTEMENT DE VENDEE\", \"CODE_IDENT_NATIONAL\": \"22850001300765\", \"ADJUDICATEUR_NUTS\": \"FRG05\", \"ADRESSE\": \"Laboratoire de l'environnement et de l'alimentation de la Vendée, Rond-point Georges Duval, Cs 80802\", \"CP\": \"85021\", \"VILLE\": \"La Roche sur Yon\", \"TEL\": \"(+33) 2-28-85-83-84\", \"MEL\": \"marchespublics@vendee.fr\", \"URL\": \"http://vendee.fr\", \"URL_PROFIL_ACHETEUR\": \"http://marchespublics.vendee.fr\", \"URL_PARTICIPATION\": \"http://marchespublics.vendee.fr\", \"URL_DOCUMENT\": \"http://marchespublics.vendee.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de milieux de cultures et de réactifs de microbiologie pour le Laboratoire de l'Environnement et de l'Alimentation de la Vendée\", \"REF_MARCHE\": \"18s0098pp\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Il s'agit d'accords-cadres à bons de commande, sans montant minimum annuel ni montant maximum annuel, mais avec des quantités prévisionnelles annuelles indiquées dans le bordereau des prix unitaires (Bpu).Le marché précédent était divisé en 40 lots, avec des lots présentant peu de référence. L'organisation du laboratoire a été revue et permet une rationalisation des lots, chaque lot présente plusieurs références permettant des commandes groupées.Le coût annuel des dépenses est évalué à 134 500 euro(s) Ht pour l'ensemble des lots\", \"CPV\": {\"PRINCIPAL\": \"24931250\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Milieux de culture standards pour analyses microbiologiques\", \"DESCRIPTION\": \"Sans montant minimum annuel ni montant maximum annuel, mais avec des quantités prévisionnelles annuelles indiquées dans le bordereau des prix unitaires (Bpu)\", \"CPV\": [{\"PRINCIPAL\": \"24931250\"}, {\"PRINCIPAL\": \"24959200\"}, {\"PRINCIPAL\": \"33651510\"}, {\"PRINCIPAL\": \"33954000\"}], \"CODE_NUTS\": \"FRG05\", \"LIEU_PRINCIPAL\": \"Rond-Point Georges Duval<br/>85000 - La Roche Sur Yon\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"65\", \"#text\": \"Valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"35\"}}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le contrat pourra ensuite être renouvelé, à sa date anniversaire, trois fois pour des périodes équivalentes par reconduction tacite, sans pouvoir dépasser une durée totale de quatre ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Milieux de culture prêts à l'emploi\", \"DESCRIPTION\": \"Sans montant minimum annuel ni montant maximum annuel, mais avec des quantités prévisionnelles annuelles indiquées dans le bordereau des prix unitaires (Bpu)\", \"CPV\": [{\"PRINCIPAL\": \"24931250\"}, {\"PRINCIPAL\": \"24959200\"}, {\"PRINCIPAL\": \"33651510\"}, {\"PRINCIPAL\": \"33954000\"}], \"CODE_NUTS\": \"FRG05\", \"LIEU_PRINCIPAL\": \"Rond-Point Georges Duval<br/>85000 - La Roche Sur Yon\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"65\", \"#text\": \"Valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"35\"}}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le contrat pourra ensuite être renouvelé, à sa date anniversaire, trois fois pour des périodes équivalentes par reconduction tacite, sans pouvoir dépasser une durée totale de quatre ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Milieux de culture pour analyses microbiologiques spécifiques\", \"DESCRIPTION\": \"Sans montant minimum annuel ni montant maximum annuel, mais avec des quantités prévisionnelles annuelles indiquées dans le bordereau des prix unitaires (Bpu)\", \"CPV\": [{\"PRINCIPAL\": \"24931250\"}, {\"PRINCIPAL\": \"24959200\"}, {\"PRINCIPAL\": \"33651510\"}, {\"PRINCIPAL\": \"33954000\"}], \"CODE_NUTS\": \"FRG05\", \"LIEU_PRINCIPAL\": \"Rond-Point Georges Duval<br/>85000 - La Roche Sur Yon\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"65\", \"#text\": \"Valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"35\"}}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le contrat pourra ensuite être renouvelé, à sa date anniversaire, trois fois pour des périodes équivalentes par reconduction tacite, sans pouvoir dépasser une durée totale de quatre ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"4\", \"INTITULE\": \"Sérums anti-salmonella\", \"DESCRIPTION\": \"Sans montant minimum annuel ni montant maximum annuel, mais avec des quantités prévisionnelles annuelles indiquées dans le bordereau des prix unitaires (Bpu)\", \"CPV\": [{\"PRINCIPAL\": \"33651510\"}, {\"PRINCIPAL\": \"24959200\"}, {\"PRINCIPAL\": \"33651510\"}, {\"PRINCIPAL\": \"33954000\"}], \"CODE_NUTS\": \"FRG05\", \"LIEU_PRINCIPAL\": \"Rond-Point Georges Duval<br/>85000 - La Roche Sur Yon\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"65\", \"#text\": \"Valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"35\"}}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le contrat pourra ensuite être renouvelé, à sa date anniversaire, trois fois pour des périodes équivalentes par reconduction tacite, sans pouvoir dépasser une durée totale de quatre ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"5\", \"INTITULE\": \"Milieux pour la détection des antibiotiques dans le lait\", \"DESCRIPTION\": \"Sans montant minimum annuel ni montant maximum annuel, mais avec des quantités prévisionnelles annuelles indiquées dans le bordereau des prix unitaires (Bpu)\", \"CPV\": [{\"PRINCIPAL\": \"24931250\"}, {\"PRINCIPAL\": \"24959200\"}, {\"PRINCIPAL\": \"33651510\"}, {\"PRINCIPAL\": \"33954000\"}], \"CODE_NUTS\": \"FRG05\", \"LIEU_PRINCIPAL\": \"Rond-Point Georges Duval<br/>85000 - La Roche Sur Yon\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"65\", \"#text\": \"Valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"35\"}}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le contrat pourra ensuite être renouvelé, à sa date anniversaire, trois fois pour des périodes équivalentes par reconduction tacite, sans pouvoir dépasser une durée totale de quatre ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"6\", \"INTITULE\": \"Disques pour la réalisation d'antibiogrammes\", \"DESCRIPTION\": \"Sans montant minimum annuel ni montant maximum annuel, mais avec des quantités prévisionnelles annuelles indiquées dans le bordereau des prix unitaires (Bpu)\", \"CPV\": [{\"PRINCIPAL\": \"24959200\"}, {\"PRINCIPAL\": \"24959200\"}, {\"PRINCIPAL\": \"33651510\"}, {\"PRINCIPAL\": \"33954000\"}], \"CODE_NUTS\": \"FRG05\", \"LIEU_PRINCIPAL\": \"Rond-Point Georges Duval<br/>85000 - La Roche Sur Yon\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"65\", \"#text\": \"Valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"35\"}}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le contrat pourra ensuite être renouvelé, à sa date anniversaire, trois fois pour des périodes équivalentes par reconduction tacite, sans pouvoir dépasser une durée totale de quatre ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"7\", \"INTITULE\": \"Milieux spécifiques pour impédancemétrie\", \"DESCRIPTION\": \"Sans montant minimum annuel ni montant maximum annuel, mais avec des quantités prévisionnelles annuelles indiquées dans le bordereau des prix unitaires (Bpu)\", \"CPV\": [{\"PRINCIPAL\": \"24931250\"}, {\"PRINCIPAL\": \"24959200\"}, {\"PRINCIPAL\": \"33651510\"}, {\"PRINCIPAL\": \"33954000\"}], \"CODE_NUTS\": \"FRG05\", \"LIEU_PRINCIPAL\": \"Rond-Point Georges Duval<br/>85000 - La Roche Sur Yon\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"65\", \"#text\": \"Valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"35\"}}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le contrat pourra ensuite être renouvelé, à sa date anniversaire, trois fois pour des périodes équivalentes par reconduction tacite, sans pouvoir dépasser une durée totale de quatre ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"8\", \"INTITULE\": \"Sérums anti-coliformes\", \"DESCRIPTION\": \"Sans montant minimum annuel ni montant maximum annuel, mais avec des quantités prévisionnelles annuelles indiquées dans le bordereau des prix unitaires (Bpu)\", \"CPV\": [{\"PRINCIPAL\": \"33651510\"}, {\"PRINCIPAL\": \"24959200\"}, {\"PRINCIPAL\": \"33651510\"}, {\"PRINCIPAL\": \"33954000\"}], \"CODE_NUTS\": \"FRG05\", \"LIEU_PRINCIPAL\": \"Rond-Point Georges Duval<br/>85000 - La Roche Sur Yon\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"65\", \"#text\": \"Valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"35\"}}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le contrat pourra ensuite être renouvelé, à sa date anniversaire, trois fois pour des périodes équivalentes par reconduction tacite, sans pouvoir dépasser une durée totale de quatre ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"9\", \"INTITULE\": \"Milieux de culture déshydratés et prêts à l'emploi\", \"DESCRIPTION\": \"Sans montant minimum annuel ni montant maximum annuel, mais avec des quantités prévisionnelles annuelles indiquées dans le bordereau des prix unitaires (Bpu)\", \"CPV\": [{\"PRINCIPAL\": \"24931250\"}, {\"PRINCIPAL\": \"24959200\"}, {\"PRINCIPAL\": \"33651510\"}, {\"PRINCIPAL\": \"33954000\"}], \"CODE_NUTS\": \"FRG05\", \"LIEU_PRINCIPAL\": \"Rond-Point Georges Duval<br/>85000 - La Roche Sur Yon\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"65\", \"#text\": \"Valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"35\"}}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le contrat pourra ensuite être renouvelé, à sa date anniversaire, trois fois pour des périodes équivalentes par reconduction tacite, sans pouvoir dépasser une durée totale de quatre ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"10\", \"INTITULE\": \"Matériel de prélèvements stériles en élevage et industries agro-alimentaires\", \"DESCRIPTION\": \"Sans montant minimum annuel ni montant maximum annuel, mais avec des quantités prévisionnelles annuelles indiquées dans le bordereau des prix unitaires (Bpu)\", \"CPV\": [{\"PRINCIPAL\": \"33954000\"}, {\"PRINCIPAL\": \"24959200\"}, {\"PRINCIPAL\": \"33651510\"}, {\"PRINCIPAL\": \"33954000\"}], \"CODE_NUTS\": \"FRG05\", \"LIEU_PRINCIPAL\": \"Rond-Point Georges Duval<br/>85000 - La Roche Sur Yon\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"65\", \"#text\": \"Valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"35\"}}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le contrat pourra ensuite être renouvelé, à sa date anniversaire, trois fois pour des périodes équivalentes par reconduction tacite, sans pouvoir dépasser une durée totale de quatre ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"3ème trimestre 2022\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-10-16T17:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"- Une adresse mail valide afin que le Département puisse informer les candidats du rejet de leur offre ou candidature ou du fait que leur offre a été retenue\", \"CAP_ECO\": \"- Pour les entreprises de création récente, le chiffre d'affaires peut être remplacé par la production de tout document permettant de justifier la capacité financière du candidat (chiffre d'affaires partiel, montant de références en cours, déclaration appropriée de banques notamment)- Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"CAP_TECH\": \"- Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation de marchés de même nature.- Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années.- Présentation d'une liste des principales fournitures ou des principaux services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé.- Critères de sélection des candidatures : Niveau d'expérience ou de capacité technique du candidat - capacité économique et financièreNiveau minimal d'expérienceAu moins 2 références pertinentes et suffisantes.A cet effet, un tableau est mis à la disposition du candidat dans le Dce pour présenter ses références. Il est demandé au candidat de compléter ce tableau avec celles qui lui semblent les plus significatives au regard de la présente consultation et non de fournir un listing complet de toutes ses références.OuNiveau minimal de capacité techniquePour chaque lot, au moins 1 responsable technique et 1 responsable des ventes compétents dans le domaine objet du lot.Chaque agent pouvant disposer de plusieurs des fonctions indiquées ci-dessus\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-10-17\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Cette consultation bénéficie du Service DUME.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://marchespublics.vendee.fr -L'Acheteur se réserve le droit d'apporter des modifications de détail au dossier de consultation. Celles-ci doivent être communiquées au plus tard 6 jours avant la date limite fixée pour la remise des offres. Les candidats devront alors répondre sur la base du dossier modifié. Si, pendant l'étude du dossier par les candidats, la date limite fixée pour la remise des offres est reportée, la disposition précédente est applicable en fonction de cette nouvelle date.Les candidats devront consulter ou télécharger le dossier de consultation des entreprises en se connectant sur le profil d'acheteur du Département.La remise des offres par voie papier ou sur support physique électronique (hors cas de la copie de sauvegarde) n'est pas autorisée. Date d'envoi du présent avis au JOUE et au BOAMP : 11 septembre 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Médiation des entreprises : Direccte Pays de la Loire\", \"ADRESSE\": \"Tour Bretagne, Place Bretagne\", \"CP\": \"44047\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-53-46-79-64\", \"MEL\": \"aude.raverdy@direccte.gouv.fr\", \"URL\": \"http://www.mediateur-des-entreprises.fr\"}, {\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Département de la Vendée : Laboratoire de l'environnement et de l'alimentation - Valérie Chupeau\", \"ADRESSE\": \"Rond Point Georges Duval\", \"CP\": \"85021\", \"VILLE\": \"La Roche sur Yon cedex\", \"CODE_NUTS\": \"FRG05\", \"TEL\": \"(+33) 2-51-24-51-94\", \"MEL\": \"correspondre@aws.fr\", \"URL\": \"http://marchespublics.vendee.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-127010"
   },
   {
    "idweb": "18-127908",
@@ -5418,6 +5418,65 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-131122"
   },
   {
+   "idweb": "18-132021",
+   "id": "18_132021",
+   "contractfolderid": null,
+   "objet": "PROGRAMMES EAUX USÉES 2018",
+   "filename": "BOAMP-N-AO_2018_264011",
+   "famille": "FNS",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2018-09-21",
+   "datefindiffusion": "2018-11-30",
+   "datelimitereponse": "2018-10-12T11:30:00+00:00",
+   "nomacheteur": "Mairie de Sucé sur Erdre",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "18"
+   ],
+   "dc": [
+    "18"
+   ],
+   "descripteur_libelle": [
+    "Assainissement"
+   ],
+   "type_marche": [
+    "TRAVAUX"
+   ],
+   "type_marche_facette": [
+    "Travaux"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-132021\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-132021.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-09-21\", \"DATE_LIMITE_REPONSE\": \"2018-10-12T12:30:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-11-30\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"18\", \"LIBELLE\": \"Assainissement\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"PROGRAMMES EAUX USÉES 2018\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Mairie de Sucé sur Erdre\", \"CORRESPONDANT\": \"FRIOUX Gaëlle\", \"ADRESSE\": \"25 rue de la Mairie\", \"CP\": \"44240\", \"VILLE\": \"SUCE-SUR-ERDRE\", \"TEL\": \"02-40-77-70-20\", \"MEL\": \"finances@suce-sur-erdre.fr\", \"URL\": \"http://cceg.e-marchespublics.com/\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"OBJET\": {\"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"PROGRAMMES EAUX USÉES 2018 - RÉHABILITATION DU RÉSEAU EAUX USÉES\", \"CPV\": {\"PRINCIPAL\": \"45232410\"}, \"AMP_NON\": \"\", \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"QUANTITE\": \"PROGRAMMES EAUX USÉES 2018 - RÉHABILITATION DU RÉSEAU EAUX USÉES\", \"OPTIONS\": {\"OUI\": \"\"}}, \"DUREE_DELAI\": {\"DATE_LIVRAISON\": \"2018-11-26\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-10-12T12:30:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"2018-012\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"MAIRIE DE SUCE-SUR-ERDRE\", \"CORRESPONDANT\": \"M. NAICKEN\", \"TEL\": \"02-40-77-72-57\", \"MEL\": \"finances@suce-sur-erdre.fr\", \"URL\": \"http://cceg.e-marchespublics.com/\"}}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-132021"
+  },
+  {
    "idweb": "18-129779",
    "id": "18_129779",
    "contractfolderid": null,
@@ -5534,65 +5593,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-130715\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-130715.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-09-21\", \"DATE_FIN_DIFFUSION\": \"2018-10-22\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"170\", \"LIBELLE\": \"Illumination\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Location, pose et dépose d'illuminations de fin d'année\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville d'Angers\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"BP 80011 Cedex 02\", \"CP\": \"49020\", \"VILLE\": \"ANGERS\", \"MEL\": \"marches.juridique@ville.angers.fr\", \"URL\": \"https://alm.marches-securises.fr\", \"URL_PROFIL_ACHETEUR\": \"https://alm.marches-securises.fr\", \"URL_INFORMATION\": \"https://alm.marches-securises.fr\", \"URL_PARTICIPATION\": \"https://alm.marches-securises.fr\", \"URL_DOCUMENT\": \"https://alm.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Location, pose et dépose d'illuminations de fin d'année\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Location, pose et dépose de décorations de fin d'année pour illuminer le centre-ville (environ 70 places et rues ainsi que les principaux monuments) et les pôles commerciaux de quartier d'Angers (150 000 habitants) durant 6 semaines ; soit de fin novembre à début janvier. Périmètre de prestation : Traversées de voiries, habillage de mâts d'éclairage public, décorations d'arbres, décorations de façades, utilisation de filins à positionner ou déjà installés, mise en place de projecteurs de lumière colorée ou d'image. Travaux préparatoires : ancrages, supports provisoires, location et pose des armoires électriques, installation du réseau électrique (environ 6 km), prises guirlandes et raccordements divers\", \"CPV\": {\"PRINCIPAL\": \"51110000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"1600000.00\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Forme de marché : à bons de commande sans minimum ni maximum. Attribution d'un marché unique. Accord-cadre conclu pour une période initiale de 1 an. Montant estimatif des prestations pour la durée de l'accord-cadre : EUR 1 600 000, sachant que la part estimée dédiée à la location est légèrement prépondérante par rapport à la part estimée dédiée à la pose et dépose.\", \"CPV\": {\"PRINCIPAL\": \"51110000\"}, \"CODE_NUTS\": \"FRG02\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"50\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"50\"}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"1600000.00\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Nombre de périodes de reconduction fixé à 3, durée de chaque période de reconduction de 1 an, et durée maximale du contrat toutes périodes confondues, de 4 ans.\", \"NB_CANDIDATS\": {\"NB_MIN_OFFRE\": \"3\", \"LIMITATION_CANDIDATS\": \"1 - Capacité économique & financière 2 - Capacité technique & Qualité des références (Significatives & principales)\"}, \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Possibilité de confier ultérieurement au titulaire du marché un ou plusieurs marchés ayant pour objet la réalisation de prestations similaires.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"NEGOCIE\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"4 ans\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-10-22T14:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"6\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas d'interdiction de soumissionner ou DC1 ou DUME ou DUM ; Renseignements sur le respect de l'obligation d'emploi mentionnée aux articles L. 5212-1 à L. 5212-11 du Code du travail ; Une adresse électronique valide et régulièrement consultée ; En cas de groupement, une délégation de signature (pouvoir) désignant le mandataire et précisant l'étendue de sa délégation (offre, modification ultérieure du marché) ; Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire.\", \"CAP_ECO\": \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du contrat, réalisées au cours des trois derniers exercices disponibles. Chiffre d'affaires annuel minimum exigé (le cas échéant, à l'échelle du groupement) : EUR 200 000 H.T.\", \"CAP_TECH\": \"* Titres d'habilitation à conduire des nacelles ainsi que les titres d'habilitation électriques. * Liste des prestations effectuées au cours des 3 dernières années, indiquant la date, la durée, le montant (réalisé par chaque compétence) ainsi que le destinataire (privé / public). Les références devront se rapprocher au plus près de notre objet, organisation et dimensionnement.\", \"MARCHE_RESERVE_NON\": \"\", \"CONDITION_PARTICULIERE_EXECUTION\": \"Consultation comportant des conditions d'exécution à caractère environnemental détaillées dans le CCAP. Durée de l'accord-cadre à compter de la date de notification du contrat. Prestations réglées par des prix unitaires. Prix ajustables annuellement. Avance de 5,0 % accordée dans les conditions prévues au contrat. Délai global de paiement des prestations de 30 jours par virement administratif. Les prestations du présent marché seront financées par autofinancement de la ville d'Angers complété, le cas échéant, par des ressources externes (emprunts, subventions, fonds européens non connu à ce jour, etc.) conformément aux lois et réglementations en vigueur.\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La candidature peut être présentée soit sous la forme des formulaires DC1 et DC2 (disponibles gratuitement sur le site www.economie.gouv.fr), soit sous la forme d'un Document Unique de Marché Européen (DUME). Le pouvoir adjudicateur impose la transmission des plis par voie électronique. Par conséquent, la transmission par voie papier n'est pas autorisée. La transmission des documents par voie électronique est effectuée sur le profil d'acheteur. En revanche, la transmission des documents sur un support physique électronique (CD-ROM, clé usb...) n'est pas autorisée. Chaque transmission fera l'objet d'une date certaine de réception et d'un accusé de réception électronique. A ce titre, le fuseau horaire de référence est celui de (GMT+01:00) Paris, Bruxelles, Copenhague, Madrid. Le pli sera considéré \\\" hors délai \\\" si le téléchargement se termine après la date et l'heure limites prévues. Si un nouveau pli est envoyé par voie électronique par le mêmecandidat, celui-ci annule et remplace le pli précédent. Le pli peut être doublé d'une copie de sauvegarde transmise dans les délais impartis, sur support physique électronique ou sur support papier. Cette copie est transmise sous pli scellé et comporte obligatoirement la mention \\\" copie de sauvegarde \\\", ainsi que le nom du candidat et l'identification de la procédure concernée. Aucun format électronique n'est préconisé pour la transmission des documents. Cependant, les fichiers devront être transmis dans des formats largement disponibles. Chaque pièce pour laquelle une signature est exigée doit faire l'objet d'une signature électronique individuelle et conforme au format PAdES de préférence, au stade de l'attribution. La seule signature électronique du pli n'emporte pas valeur d'engagement du candidat. Le niveau de sécurité requis pour le certificat de signature électronique avancé est le certificat qualifié de niveau 3 ou 4 du règlement européen elDAS. Les frais d'accès au réseau et de recours à la signature électronique sont à la charge des candidats. La signature des documents ne sera exigée que pour l'entreprise attributaire. Le présent avis concerne un APPEL à CANDIDATURE. Les exigences minimales que les offres doivent respecter et qui ne feront l'objet d'aucune négociation sont les suivantes : - Présentation annuelle de 10 nouveaux thèmes de 6 décors, soit 60 nouveaux décors - Intervention de nuit pour l'hyper-centre - Respect de la charte graphique du plan de recollement de la Ville d'Angers et Angers Loire Métropole. La date d'envoi des lettres de consultation est estimée au 30/11/2018. Le pouvoir adjudicateur se réserve le droit d'attribuer le marché sur la base des offres initiales sans mener de négociation. En cas de négociation, ces dernières auront lieu à titre indicatif courant semaines 05-06.2019. En cas de groupement, le mandataire sera en charge de la pose et de la dépose (électricien) des illuminations de fin d'année. Numéro de la consultation : V18VOIBRILLUMI. Une visite sur site est préconisée. Les conditions de visites sont les suivantes : Prendre contact au préalable avec M. Nicolas CHAUVINEAU (+33(0)2 41 21 54 72).. Date d'envoi du présent avis au JOUE et au BOAMP : 19 septembre 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette Cedex 1 BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"MEL\": \"greffe.ta-nante@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr/\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette Cedex 1 BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"MEL\": \"greffe.ta-nante@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr/\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette Cedex 1 BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"MEL\": \"greffe.ta-nante@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr/\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-130715"
-  },
-  {
-   "idweb": "18-132021",
-   "id": "18_132021",
-   "contractfolderid": null,
-   "objet": "PROGRAMMES EAUX USÉES 2018",
-   "filename": "BOAMP-N-AO_2018_264011",
-   "famille": "FNS",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2018-09-21",
-   "datefindiffusion": "2018-11-30",
-   "datelimitereponse": "2018-10-12T11:30:00+00:00",
-   "nomacheteur": "Mairie de Sucé sur Erdre",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "18"
-   ],
-   "dc": [
-    "18"
-   ],
-   "descripteur_libelle": [
-    "Assainissement"
-   ],
-   "type_marche": [
-    "TRAVAUX"
-   ],
-   "type_marche_facette": [
-    "Travaux"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-132021\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-132021.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-09-21\", \"DATE_LIMITE_REPONSE\": \"2018-10-12T12:30:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-11-30\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"18\", \"LIBELLE\": \"Assainissement\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"PROGRAMMES EAUX USÉES 2018\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Mairie de Sucé sur Erdre\", \"CORRESPONDANT\": \"FRIOUX Gaëlle\", \"ADRESSE\": \"25 rue de la Mairie\", \"CP\": \"44240\", \"VILLE\": \"SUCE-SUR-ERDRE\", \"TEL\": \"02-40-77-70-20\", \"MEL\": \"finances@suce-sur-erdre.fr\", \"URL\": \"http://cceg.e-marchespublics.com/\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"OBJET\": {\"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"PROGRAMMES EAUX USÉES 2018 - RÉHABILITATION DU RÉSEAU EAUX USÉES\", \"CPV\": {\"PRINCIPAL\": \"45232410\"}, \"AMP_NON\": \"\", \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"QUANTITE\": \"PROGRAMMES EAUX USÉES 2018 - RÉHABILITATION DU RÉSEAU EAUX USÉES\", \"OPTIONS\": {\"OUI\": \"\"}}, \"DUREE_DELAI\": {\"DATE_LIVRAISON\": \"2018-11-26\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-10-12T12:30:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"2018-012\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"MAIRIE DE SUCE-SUR-ERDRE\", \"CORRESPONDANT\": \"M. NAICKEN\", \"TEL\": \"02-40-77-72-57\", \"MEL\": \"finances@suce-sur-erdre.fr\", \"URL\": \"http://cceg.e-marchespublics.com/\"}}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-132021"
   },
   {
    "idweb": "18-131295",
@@ -5746,73 +5746,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-130748"
   },
   {
-   "idweb": "18-131723",
-   "id": "18_131723",
-   "contractfolderid": null,
-   "objet": "travaux de câblage fibre optique et prestations associées",
-   "filename": "BOAMP-N-IC-AA_2018_264006",
-   "famille": "FNS",
-   "code_departement": [
-    "85"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2018-09-21",
-   "datefindiffusion": "2018-11-22",
-   "datelimitereponse": null,
-   "nomacheteur": "VILLE DE LA ROCHE SUR YON",
-   "titulaire": [
-    "SOGETREL"
-   ],
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "ATTRIBUTION",
-   "sousnature": null,
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "306",
-    "366"
-   ],
-   "dc": [
-    "306",
-    "366"
-   ],
-   "descripteur_libelle": [
-    "Réseaux divers",
-    "Voirie et réseaux divers"
-   ],
-   "type_marche": [
-    "TRAVAUX"
-   ],
-   "type_marche_facette": [
-    "Travaux"
-   ],
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "18-67541",
-    "18-82186"
-   ],
-   "annonces_anterieures": "[{\"REFERENCE\": {\"IDWEB\": \"18-67541\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-05-18\", \"DATE_FIN_DIFFUSION\": \"2018-06-19\"}}}, {\"REFERENCE\": {\"IDWEB\": \"18-82186\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-06-14\", \"DATE_FIN_DIFFUSION\": \"2018-06-29\"}}}]",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-131723\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": [{\"REFERENCE\": {\"IDWEB\": \"18-67541\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-05-18\", \"DATE_FIN_DIFFUSION\": \"2018-06-19\"}}}, {\"REFERENCE\": {\"IDWEB\": \"18-82186\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-06-14\", \"DATE_FIN_DIFFUSION\": \"2018-06-29\"}}}]}, \"NOM_HTML\": \"18-131723.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-09-21\", \"DATE_FIN_DIFFUSION\": \"2018-11-22\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"306\", \"LIBELLE\": \"Réseaux divers\"}, {\"CODE\": \"366\", \"LIBELLE\": \"Voirie et réseaux divers\"}]}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"travaux de câblage fibre optique et prestations associées\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"VILLE DE LA ROCHE SUR YON\", \"CORRESPONDANT\": \"Boris CENSIER\", \"ADRESSE\": \"1, place Napoléon\", \"CP\": \"85000\", \"VILLE\": \"La Roche-sur-Yon\", \"TEL\": \"02-51-47-48-84\", \"FAX\": \"02-51-24-03-35\", \"MEL\": \"boris.censier@larochesuryon.fr\", \"URL\": \"http://www.larochesuryon.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-securises.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"TRAVAUX\": {\"EXECUTION\": \"\"}}, \"OBJET_COMPLET\": \"Travaux de câblage fibre optique et prestations associées\", \"CPV\": {\"PRINCIPAL\": \"45231600\"}, \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG05\"}, \"AMP_NON\": \"\"}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"V18-121\", \"DESCRIPTION\": \"Travaux de câblage fibre optique et prestations associées\", \"TITULAIRE\": {\"DENOMINATION\": \"SOGETREL\", \"ADRESSE\": \"8, rue Benoit Frachon\", \"CP\": \"44800\", \"VILLE\": \"Saint Herblain\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-09-05\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"129899.95\"}, \"MONTANT_MAXI\": {\"@DEVISE\": \"EUR\", \"#text\": \"490000\"}}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-131723"
-  },
-  {
    "idweb": "18-130781",
    "id": "18_130781",
    "contractfolderid": null,
@@ -5938,6 +5871,73 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-130992\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-130992.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-09-21\", \"DATE_FIN_DIFFUSION\": \"2018-11-06\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"142\", \"LIBELLE\": \"Glissières de sécurité\"}, {\"CODE\": \"322\", \"LIBELLE\": \"Signalisation\"}]}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": [\"35\", \"44\"], \"RESUME_OBJET\": \"Fourniture et livraison de dispostifs de retenue pour la DIR Ouest\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"DIR OUEST\", \"ADJUDICATEUR_NUTS\": \"FRH\", \"ADRESSE\": \"10 rue Maurice Fabre\", \"CP\": \"35031\", \"VILLE\": \"Rennes\", \"TEL\": \"(+33) -02-99-33-47-73\", \"MEL\": \"j-claude.pannetier@developpement-durable.gouv.fr\", \"URL\": \"http://www.DIRO.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.gouv.fr\", \"URL_PARTICIPATION\": \"http://www.marches-publics.gouv.fr\", \"URL_DOCUMENT\": \"http://www.marches-publics.gouv.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"MIN_AUTORITE_NATIONALE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture et livraison de dispostifs de retenue pour la DIR Ouest\", \"REF_MARCHE\": \"18-DIR-UDP-103\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"La fourniture et la livraison de dispositifs de retenue (essentiellement NF) pour la DIR Ouest\", \"CPV\": {\"PRINCIPAL\": \"34928100\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"La fourniture et la livraison de dispositifs de retenue (essentiellement NF) pour la DIR Ouest\", \"CPV\": {\"PRINCIPAL\": \"34928100\"}, \"CODE_NUTS\": \"FRH\", \"LIEU_PRINCIPAL\": \"Territoire géré par la DIR Ouest, cest à dire les départements 22, 29, 35, 44, 49, 53 et 56.\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"700000\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché est reconductible selon la périodicité suivante : Période ferme: 12 mois Reconduction no 1: 12 mois Reconduction no 2: 12 mois Reconduction no 3: 12 mois\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-11-06T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-11-07\", \"LIEU_OUVERTURE_OFFRES\": \"Rennes\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 20 septembre 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Rennes\", \"ADRESSE\": \"Hôtel de Bizien 3 Contour de la Motte\", \"CP\": \"35044\", \"VILLE\": \"Rennes\", \"TEL\": \"(+33) 2-23-14-28-28\", \"MEL\": \"greffe.ta-rennes@juradm.fr\", \"URL\": \"http://rennes.tribunal-administratif.fr\"}}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-130992"
+  },
+  {
+   "idweb": "18-131723",
+   "id": "18_131723",
+   "contractfolderid": null,
+   "objet": "travaux de câblage fibre optique et prestations associées",
+   "filename": "BOAMP-N-IC-AA_2018_264006",
+   "famille": "FNS",
+   "code_departement": [
+    "85"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2018-09-21",
+   "datefindiffusion": "2018-11-22",
+   "datelimitereponse": null,
+   "nomacheteur": "VILLE DE LA ROCHE SUR YON",
+   "titulaire": [
+    "SOGETREL"
+   ],
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "ATTRIBUTION",
+   "sousnature": null,
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "306",
+    "366"
+   ],
+   "dc": [
+    "306",
+    "366"
+   ],
+   "descripteur_libelle": [
+    "Réseaux divers",
+    "Voirie et réseaux divers"
+   ],
+   "type_marche": [
+    "TRAVAUX"
+   ],
+   "type_marche_facette": [
+    "Travaux"
+   ],
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "18-67541",
+    "18-82186"
+   ],
+   "annonces_anterieures": "[{\"REFERENCE\": {\"IDWEB\": \"18-67541\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-05-18\", \"DATE_FIN_DIFFUSION\": \"2018-06-19\"}}}, {\"REFERENCE\": {\"IDWEB\": \"18-82186\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-06-14\", \"DATE_FIN_DIFFUSION\": \"2018-06-29\"}}}]",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-131723\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": [{\"REFERENCE\": {\"IDWEB\": \"18-67541\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-05-18\", \"DATE_FIN_DIFFUSION\": \"2018-06-19\"}}}, {\"REFERENCE\": {\"IDWEB\": \"18-82186\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-06-14\", \"DATE_FIN_DIFFUSION\": \"2018-06-29\"}}}]}, \"NOM_HTML\": \"18-131723.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-09-21\", \"DATE_FIN_DIFFUSION\": \"2018-11-22\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"306\", \"LIBELLE\": \"Réseaux divers\"}, {\"CODE\": \"366\", \"LIBELLE\": \"Voirie et réseaux divers\"}]}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"travaux de câblage fibre optique et prestations associées\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"VILLE DE LA ROCHE SUR YON\", \"CORRESPONDANT\": \"Boris CENSIER\", \"ADRESSE\": \"1, place Napoléon\", \"CP\": \"85000\", \"VILLE\": \"La Roche-sur-Yon\", \"TEL\": \"02-51-47-48-84\", \"FAX\": \"02-51-24-03-35\", \"MEL\": \"boris.censier@larochesuryon.fr\", \"URL\": \"http://www.larochesuryon.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-securises.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"TRAVAUX\": {\"EXECUTION\": \"\"}}, \"OBJET_COMPLET\": \"Travaux de câblage fibre optique et prestations associées\", \"CPV\": {\"PRINCIPAL\": \"45231600\"}, \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG05\"}, \"AMP_NON\": \"\"}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"V18-121\", \"DESCRIPTION\": \"Travaux de câblage fibre optique et prestations associées\", \"TITULAIRE\": {\"DENOMINATION\": \"SOGETREL\", \"ADRESSE\": \"8, rue Benoit Frachon\", \"CP\": \"44800\", \"VILLE\": \"Saint Herblain\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-09-05\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"129899.95\"}, \"MONTANT_MAXI\": {\"@DEVISE\": \"EUR\", \"#text\": \"490000\"}}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-131723"
   },
   {
    "idweb": "18-130893",

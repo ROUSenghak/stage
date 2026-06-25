@@ -2,29 +2,37 @@
  "total_count": 3689,
  "results": [
   {
-   "idweb": "19-35636",
-   "id": "19_35636",
+   "idweb": "19-34512",
+   "id": "19_34512",
    "contractfolderid": null,
-   "objet": "Marché à bons de commande. Remplacement des menuiseries extérieures - école La Coccinelle à Saumur",
-   "filename": "BOAMP-N-AO_2019_065010",
-   "famille": "FNS",
+   "objet": "Prestations de location, d'installation, d'exploitation et de maintenance de câblage et équipements informatiques",
+   "filename": "BOAMP-J-AO_2019_065008",
+   "famille": "JOUE",
    "code_departement": [
-    "49"
+    "75",
+    "35",
+    "22",
+    "53",
+    "44",
+    "50",
+    "14",
+    "61",
+    "56"
    ],
    "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "famille_libelle": "Marchés européens",
    "dateparution": "2019-03-06",
-   "datefindiffusion": "2019-03-29",
-   "datelimitereponse": "2019-03-26T11:00:00+00:00",
-   "nomacheteur": "Ville de Saumur",
+   "datefindiffusion": "2019-05-04",
+   "datelimitereponse": null,
+   "nomacheteur": "Ministère des Affaires étrangères",
    "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
    "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
    "nature": "APPEL_OFFRE",
-   "sousnature": null,
+   "sousnature": "STANDARD",
    "nature_libelle": "Avis de marché",
    "sousnature_libelle": null,
    "nature_categorise": "appeloffre/standard",
@@ -34,19 +42,19 @@
    "marche_public_simplifie_label": null,
    "etat": "INITIAL",
    "descripteur_code": [
-    "222"
+    "47"
    ],
    "dc": [
-    "222"
+    "47"
    ],
    "descripteur_libelle": [
-    "Menuiserie"
+    "Câblage"
    ],
    "type_marche": [
-    "TRAVAUX"
+    "SERVICES"
    ],
    "type_marche_facette": [
-    "Travaux"
+    "Services"
    ],
    "type_avis": [
     "5",
@@ -56,9 +64,9 @@
    "annonce_lie": null,
    "annonces_anterieures": null,
    "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-35636\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-35636.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-06\", \"DATE_LIMITE_REPONSE\": \"2019-03-26T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2019-03-29\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"222\", \"LIBELLE\": \"Menuiserie\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Marché à bons de commande. Remplacement des menuiseries extérieures - école La Coccinelle à Saumur\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Saumur\", \"CORRESPONDANT\": \"Francine CHANSAULT\", \"ADRESSE\": \"CS 54030\", \"CP\": \"49408\", \"VILLE\": \"Saumur Cedex\", \"TEL\": \"(+33) 2-53-93-50-72\", \"MEL\": \"commandes.publiques@agglo-saumur.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-securises.fr/perso/CASVL_49/\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"TRAVAUX\": {\"EXECUTION\": \"\"}}, \"OBJET_COMPLET\": \"Marché à bons de commande. Remplacement des menuiseries extérieures - école La Coccinelle à Saumur\", \"CPV\": {\"PRINCIPAL\": \"45421000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Ecole La Coccinelle\", \"CP\": \"49400\", \"VILLE\": \"SAUMUR\", \"CODE_NUTS\": \"FRG02\"}, \"AMP_OUI\": \"\", \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\", \"DUREE_MOIS\": \"24\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"90000\"}}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Travaux de remplacement de menuiseries extérieures\", \"QUANTITE\": \"Marché à bons de commande. Remplacement des menuiseries extérieures - école La Coccinelle à Saumur\"}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"24\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-03-26T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"retenue de garantie de 5% pouvant être remplacée par une garantie à première demande ou une caution personnelle et solidaire\", \"FINANCEMENT\": \"Financement sur fonds propres de la collectivité et de l'Etat (DSIL). Paiement à 30 jours à réception de la facture par mandat administratif\", \"FORME_JURIDIQUE\": \"Tout type de groupement ET le mandataire doit être solidaire des autres membres du groupement\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Présentation d'une liste des travaux exécutés au cours des cinq dernières années, appuyée d'attestations de bonne exécution pour les travaux les plus importants. Ces attestations indiquent le montant, l'époque et le lieu d'exécution des travaux et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"CONDITIONS_REMISE_OFFRES\": \"La remise des plis ne peut s'effectuer que sur la plateforme de dématérialisation : www.marches-securises.frConformément à la nouvelle réglementation 2016, les offres n'ont plus à être signées lors de la remise des plis. Seule l'offre de l'attributaire désigné devra être obligatoirement signée avant la notification du marché. Les formats de signature acceptés sont Xades, Pades et Cades.Toutefois, si le candidat souhaite signer dès à présent son offre électroniquement, le certificat doit être conforme au règlement \\\" eIDAS \\\" ou à des conditions de sécurité au moins équivalentes, conformément à l'arrêté du 12 avril 2018 relatif à la signature électronique dans la commande publique et abrogeant l'arrêté du 15 juin 2012 relatif à la signature électronique dans les marchés publics : le RGS (Référentiel Général de Sécurité) est remplacé par le règlement eIDAS depuis le 1er octobre 2018. Néanmoins, pour les candidats disposant déjà d'un certificat \\\" RGS \\\", celui-ci reste utilisable jusqu'au terme de sa validité.La liste des pièces à signer est mentionnée dans le Règlement de Consultation. Chaque document pour lequel une signature est requise sera revêtu d'un certificat de signature électronique. Une seule signature électronique pour l'ensemble des documents déposés sur la plateforme ne peut être acceptée.\", \"DOCUMENT_PAYANT_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Renseignements complémentaires : Le certificat de signature est émis par une Autorité de certification mentionnée dans la liste de confiance suivante : https : //www.ssi.gouv.fr/visade-securite/visas-de-securite-le-catalogue/Les candidats européens trouveront également la liste complète des prestataires sur la liste de confiance tenue par la Commission européenne : https://webgate.ec.europa.eu/tl-browser/#/tl/FRDans ces cas, les candidats n'ont aucun justificatif à fournir sur le certificat de signature utilisé pour signer leur réponse.Les candidats peuvent toutefois utiliser une autre catégorie de certificat de signature non référencée sur une liste de confiance citées ci-avant, délivrée par une autorité de certification française ou étrangère répondant à des normes de sécurité équivalentes à celles du Référentiel Général de Sécurité (RGS) ou au Règlement \\\" eIDAS \\\". Dans ce cas, les candidats devront transmettre, avec le document signé, le mode d'emploi permettant auPouvoir Adjudicateur de procéder gratuitement aux vérifications nécessaires.Les candidats peuvent également transmettre, dans les délais impartis pour la remise des plis, une copie de sauvegarde sur support physique électronique ou sur support papier. Cette copie est transmise sous pli scellé et comporte obligatoirement la mention : ' copie de sauvegarde '.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette CS 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr/\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Greffe du Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'île Gloriette CS 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-99-46\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"https://www.citoyens.telerecours.fr\"}, {\"TYPE\": {\"ADMIN\": \"\"}, \"DENOMINATION\": \"Ville de Saumur\", \"ADRESSE\": \"CS 54030\", \"CP\": \"49408\", \"VILLE\": \"Saumur Cedex\", \"TEL\": \"(+33) 2-41-40-45-65\", \"MEL\": \"commandes.publiques@agglo-saumur.fr\"}, {\"TYPE\": {\"TECH\": \"\"}, \"DENOMINATION\": \"VILLE DE SAUMUR\", \"TEL\": \"(+33) 2-41-83-31-09\", \"MEL\": \"architecture@ville-saumur.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-35636"
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-34512\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-34512.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-06\", \"DATE_FIN_DIFFUSION\": \"2019-05-04\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"47\", \"LIBELLE\": \"Câblage\"}}, \"DEP_PUBLICATION\": [\"75\", \"35\", \"22\", \"53\", \"44\", \"50\", \"14\", \"61\", \"56\"], \"RESUME_OBJET\": \"Prestations de location, d'installation, d'exploitation et de maintenance de câblage et équipements informatiques\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ministère des Affaires étrangères\", \"CONTACT\": \"Ralid AJABBOUNE\", \"ADJUDICATEUR_NUTS\": \"FR\", \"ADRESSE\": \"PROTOCOLE Sous-direction de la Logistique, de l'Interprétation et de la Traduction 57, Boulevard des Invalides\", \"CP\": \"75700\", \"VILLE\": \"PARIS\", \"MEL\": \"ralid.ajabboune@diplomatie.gouv.fr\", \"URL\": \"https://www.diplomatie.gouv.fr/fr/\", \"URL_PARTICIPATION\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=418435&orgAcronyme=c8v\", \"URL_DOCUMENT\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseDetailsConsultation&refConsultation=418435&orgAcronyme=c8v\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"MIN_AUTORITE_NATIONALE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Prestations de location, d'installation, d'exploitation et de maintenance de câblage et équipements informatiques\", \"REF_MARCHE\": \"MEAE_19010_PRO\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Prestations de location, d'installation et de démontage, d'exploitation et de maintenance technique du câblage informatique, des équipements des réseaux locaux Ethernet et Wifi et de l'informatique, sur les sites de la réunion ministérielle organisée par le ministère de l'Europe et des Affaires étrangères à Dinard et à Saint-Malo\", \"CPV\": {\"PRINCIPAL\": \"32400000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Prestations de location, d'installation et de démontage, d'exploitation et de maintenance technique du câblage informatique, des équipements des réseaux locaux Ethernet et Wifi et de l'informatique, sur les sites de la réunion ministérielle organisée par le ministère de l'Europe et des Affaires étrangères à Dinard et à Saint-Malo.\", \"CPV\": [{\"PRINCIPAL\": \"45314320\"}, {\"PRINCIPAL\": \"50312000\"}, {\"PRINCIPAL\": \"30000000\"}], \"CODE_NUTS\": \"FR\", \"LIEU_PRINCIPAL\": \"Ille-et-Vilaine\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"6\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-03-21T14:30:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-03-21\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 4 mars 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Paris\", \"ADRESSE\": \"7, rue de Jouy\", \"CP\": \"75004\", \"VILLE\": \"Paris\", \"MEL\": \"greffe.ta-paris@juradm.fr\", \"URL\": \"http://paris.tribunal-administratif.fr\"}}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-34512"
   },
   {
    "idweb": "19-35837",
@@ -832,6 +840,65 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-34839"
   },
   {
+   "idweb": "19-35566",
+   "id": "19_35566",
+   "contractfolderid": null,
+   "objet": "Maintenance et extension du système de videoprotection de la ville d'angers et ses sites spécifiques",
+   "filename": "BOAMP-N-AO_2019_066005",
+   "famille": "FNS",
+   "code_departement": [
+    "49"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2019-03-07",
+   "datefindiffusion": "2019-04-03",
+   "datelimitereponse": "2019-04-03T13:00:00+00:00",
+   "nomacheteur": "Angers Loire Métropole",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": "1",
+   "marche_public_simplifie_label": "Marché public simplifié",
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "196"
+   ],
+   "dc": [
+    "196"
+   ],
+   "descripteur_libelle": [
+    "Maintenance"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-35566\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-35566.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-07\", \"DATE_LIMITE_REPONSE\": \"2019-04-03T14:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2019-04-03\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"196\", \"LIBELLE\": \"Maintenance\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Maintenance et extension du système de videoprotection de la ville d'angers et ses sites spécifiques\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Angers Loire Métropole\", \"CORRESPONDANT\": \"Monsieur le Maire Président de ALM\", \"ADRESSE\": \"BP80011\", \"CP\": \"49020\", \"VILLE\": \"Angers cédex 02\", \"MEL\": \"marches.dag@angersloiremetropole.fr\", \"URL\": \"http://https//alm.marches-securises.fr\", \"URL_PROFIL_ACHETEUR\": \"http://https//alm.marches-securises.fr\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"27\"}, \"OBJET_COMPLET\": \"Maintenance et extension du système de videoprotection de la ville d'Angers et ses sites spécifiques\", \"CPV\": {\"PRINCIPAL\": \"72267000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Angers Loire Métropole\", \"CODE_NUTS\": \"FRG02\"}, \"AMP_NON\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Par application de l'article 28 de l'ordonnance no2015-899 du 23 juillet 2015, le présent marché est passé par la Communauté urbaine d'Angers Loire Métropole agissant en qualité de coordonnateur d'un groupement de commandes constitué par convention du 19/12/2017 entre Angers Loire Métropole et la Ville d'Angers. Angers Loire Métropole est chargée, à ce titre, de la procédure de passation pour le compte des autres membres ainsi que de la signature et de la notification du marché. Une fois notifié, le marché est exécuté, par Angers Loire Métropole\", \"QUANTITE\": \"Montant maximum sur la durée totale du marché : 220 999 euro HT. Durée d'un an reconductible 2 fois par période d'un an.\"}, \"DUREE_DELAI\": {\"DATE_EXECUTION\": \"2019-07-22\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"45\", \"#text\": \"Valeur technique\"}, {\"@POIDS\": \"55\", \"#text\": \"prix\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-04-03T14:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Prestations réglées par des prix unitaires et forfaitaires. Prix révisables annuellement avec clause de sauvegarde. Aucune avance prévue. Délai global de paiement des prestations de 30 jours par virement administratif. Les prestations du présent marché seront financées par autofinancement des membres du groupement, complété, le cas échéant, par des ressources externes (emprunt, subventions, fonds européens non connu à ce jour, etc.) conformément aux lois et réglementations en vigueur.\", \"FORME_JURIDIQUE\": \"groupement conjoint avec mandataire solidaire\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"voir règlement de la consultation\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": \"voir règlement de la consultation\"}, \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"G19CM VIDEOPROTECTION\", \"CONDITIONS_REMISE_OFFRES\": \"La candidature peut être présentée soit sous la forme des formulaires DC1 et DC2 (disponibles gratuitement sur le site www.economie.gouv.fr.), soit sous la forme d'un Document Unique de Marché Européen (DUME). La transmission des plis par voie électronique est imposée pour cette consultation. Par conséquent, la transmission par voie papier n'est pas autorisée.\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La transmission des documents par voie électronique est effectuée sur le profil d'acheteur. Les modalités de transmission des plis par voie électronique sont définies dans le règlement de la consultation. Les sous-critères retenus pour le jugement des offres sont définis dans le réglement de la consultation. Instance chargée des procédures de recours / Organe chargé des procédures de médiation / Service auprès duquel des renseignements peuvent être obtenus concernant l'introduction des recours : Tribunal Administratif de Nantes. 6, allée de l'Ile Gloriette , BP 24111 , 44041 NANTES , Cedex 1 , Courriel : greffe.ta-nantes@juradm.fr, Adresse internet : http://www.nantes.tribunal-administratif.fr/ Précisions concernant le(s) délai(s) d'introduction des recours : Précisions concernant les délais d'introduction des recours : Référé pré-contractuel prévu aux articles L.551-1 à L.551-12 du Code de justice administrative (CJA), et pouvant être exercé avant la signature du contrat. Référé contractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant être exercé dans les délais prévus à l'article R. 551-7 du CJA. Recours pour excès de pouvoir contre une décision administrative prévu aux articles R. 421-1 à R. 421-7 du CJA, et pouvant être exercé dans les 2 mois suivant la notification ou publication de la décision de l'organisme (le recours ne peut plus, toutefois, être exercé après la signature du contrat). Recours de pleine juridiction ouvert aux tiers justifiant d'un intérêt lésé, et pouvant être exercé dans les deux mois suivant la date à laquelle la conclusion du contrat est rendue publique.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"ADMIN_TECH\": \"\"}, \"DENOMINATION\": \"ALM DCP\", \"CORRESPONDANT\": \"Caroline Mano\", \"URL\": \"https://alm.marches-securises.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Angers Loire Métropole\", \"URL\": \"https://alm.marches-securises.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-35566"
+  },
+  {
    "idweb": "19-34742",
    "id": "19_34742",
    "contractfolderid": null,
@@ -893,65 +960,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-34742\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-34742.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-07\", \"DATE_FIN_DIFFUSION\": \"2019-05-31\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"239\", \"LIBELLE\": \"Nettoyage de locaux\"}}, \"DEP_PUBLICATION\": [\"44\", \"49\", \"85\", \"53\", \"72\"], \"RESUME_OBJET\": \"Marché public de services ayant pour objet le nettoyage des locaux, de la vitrerie ainsi que la fourniture des consommables sanitaires, et l'évacuation des déchets de Pôle emploi Pays de la Loire\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Pôle emploi Pays de la Loire\", \"ADJUDICATEUR_NUTS\": \"FRG\", \"ADRESSE\": \"1 rue de la Cale Crucy - CS 67910\", \"CP\": \"44179\", \"VILLE\": \"Nantes cedex 4\", \"MEL\": \"dr-marches.44116@pole-emploi.fr\", \"URL\": \"https://www.marches-publics.gouv.fr\", \"URL_PARTICIPATION\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=417984&orgAcronyme=h8j\", \"URL_DOCUMENT\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=417984&orgAcronyme=h8j\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Emploi\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Marché public de services ayant pour objet le nettoyage des locaux, de la vitrerie ainsi que la fourniture des consommables sanitaires, et l'évacuation des déchets de Pôle emploi Pays de la Loire\", \"REF_MARCHE\": \"2018_009\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Le marche public a pour objet le nettoyage des locaux, de la vitrerie ainsi que la fourniture des consommables sanitaires et des appareils de distribution des consommables et l'évacuation des déchets de Pôle emploi Pays de la Loire. Des prestations complémentaires ponctuelles selon les besoins sont prévues.\", \"CPV\": {\"PRINCIPAL\": \"90910000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS_RESERVE_POUVOIR_ADJUDICATEUR\": \"Néant\", \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Réservé aux EA/ESAT : Direction régionale et Direction de la production de services aux demandeurs d'emploi et entreprises (DPS)\", \"DESCRIPTION\": \"Le marché public à passer a pour objet le nettoyage des locaux, de la vitrerie ainsi que la fourniture des consommables sanitaires et des appareils de distribution des consommables et l'évacuation des déchets pour les sites de la Direction régionale Nantes Crucy et de la Direction de la production de services aux demandeurs d'emploi et aux entreprises (DPS). Des prestations complémentaires ponctuelles selon les besoins sont prévues.\", \"CPV\": {\"PRINCIPAL\": \"90910000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Agences et Directions territoriales\", \"DESCRIPTION\": \"Le marché public à passer a pour objet le nettoyage des locaux, de la vitrerie ainsi que la fourniture des consommables sanitaires et des appareils de distribution des consommables et l'évacuation des déchets déchets pour les agences et les Directions territoriales de Pôle emploi Pays de la Loire. Des prestations complémentaires ponctuelles selon les besoins sont prévues.\", \"CPV\": {\"PRINCIPAL\": \"90910000\"}, \"CODE_NUTS\": \"FRG\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"Future publication en mars 2023.\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-04-19T16:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO_MARCHE_OUI\": \"\", \"CAP_TECH_OFFRE_OUI\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-04-19\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"A. Obtention du dce: le dossier de la consultation doit être téléchargé via la plateforme suivante:https://www.marches-publics.gouv.fr.B. Renseignements complémentaires: aucun renseignement complémentaire ne pourra être obtenu par téléphone ni par courrier ou courriel. Les demandes de renseignements complémentaires doivent être adressées via le profil d'acheteur accessible à l'adresse suivante: https://www.marches-publics.gouv.fr. La date limite de réception des demandes de renseignements complémentaires est fixée au 08/04/2019, la date de réception sur le profil d'acheteur faisant seule foi.C. Transmission des plis: les plis sont transmis via la plate forme de dématérialisation (https://www.marchespublics.gouv.fr).D. Sélection des offres. Le marché sera attribué au candidat ayant présenté l'offre économiquement la plus avantageuse, sur la base des critères énoncés à l'article VI.2 du règlement de la consultation.E. Afin de permettre aux candidats de présenter le dossier de réponse le plus adapté, ces derniers doivent, préalablement à la remise de leur dossier de réponse, procéder à une visite des sites définis dans le règlement de consultation de la présente procédure.. Date d'envoi du présent avis au JOUE et au BOAMP : 5 mars 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Précisions concernant les délais d'introduction des recours : a) Avant la conclusion du contrat, recours sur la base de l'art. L551-1 du code de justice administrative et/ou, contre un acte détachable du contrat, de l'art. R421- 1 du même code dans un délai de 2 mois à compter de l'accomplissement des formalités de publicité de l'acte attaqué, le cas échéant assorti d'une demande de suspension sur le fondement de l'art. L521 1 du même code ; B) Après la conclusion du contrat : 1°) recours sur la base de l'art. L551 13 du même code dans un délai de 31 jours à compter de la publication de l'avis d'attribution du contrat ; 2°) sauf pour les candidats évincés, recours contre un acte détachable du contrat sur la base de l'art. R421-1 du même code dans un délai de 2 mois à compter de l'accomplissement des formalités de publicité de l'acte attaqué, le cas échéant assorti d'une demande de suspension sur le fondement de l'art. L521- 1 du même code ; 3°) pour les candidats évincés, recours de pleine juridiction contestant la validité du contrat ou de certaines de ses clauses, dans un délai de 2 mois à compter de la publication de l'avis d'attribution du contrat, le cas échéant assorti d'une demande de suspension sur le fondement précité et/ou d'une demande indemnitaire ; en cas de demande indemnitaire, recours administratif préalable auprès du directeur régional aux coordonnées en tête d'avis et recours de pleine juridiction dans un délai de 2 mois à compter de la décision expresse ou implicite de rejet.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44000\", \"VILLE\": \"NANTES\", \"URL\": \"http://nantes.tribunal-administratif.fr/Informations-pratiques/Acces-et-coordonnees\"}}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-34742"
-  },
-  {
-   "idweb": "19-35566",
-   "id": "19_35566",
-   "contractfolderid": null,
-   "objet": "Maintenance et extension du système de videoprotection de la ville d'angers et ses sites spécifiques",
-   "filename": "BOAMP-N-AO_2019_066005",
-   "famille": "FNS",
-   "code_departement": [
-    "49"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2019-03-07",
-   "datefindiffusion": "2019-04-03",
-   "datelimitereponse": "2019-04-03T13:00:00+00:00",
-   "nomacheteur": "Angers Loire Métropole",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": "1",
-   "marche_public_simplifie_label": "Marché public simplifié",
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "196"
-   ],
-   "dc": [
-    "196"
-   ],
-   "descripteur_libelle": [
-    "Maintenance"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-35566\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-35566.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-07\", \"DATE_LIMITE_REPONSE\": \"2019-04-03T14:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2019-04-03\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"196\", \"LIBELLE\": \"Maintenance\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Maintenance et extension du système de videoprotection de la ville d'angers et ses sites spécifiques\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Angers Loire Métropole\", \"CORRESPONDANT\": \"Monsieur le Maire Président de ALM\", \"ADRESSE\": \"BP80011\", \"CP\": \"49020\", \"VILLE\": \"Angers cédex 02\", \"MEL\": \"marches.dag@angersloiremetropole.fr\", \"URL\": \"http://https//alm.marches-securises.fr\", \"URL_PROFIL_ACHETEUR\": \"http://https//alm.marches-securises.fr\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"27\"}, \"OBJET_COMPLET\": \"Maintenance et extension du système de videoprotection de la ville d'Angers et ses sites spécifiques\", \"CPV\": {\"PRINCIPAL\": \"72267000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Angers Loire Métropole\", \"CODE_NUTS\": \"FRG02\"}, \"AMP_NON\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Par application de l'article 28 de l'ordonnance no2015-899 du 23 juillet 2015, le présent marché est passé par la Communauté urbaine d'Angers Loire Métropole agissant en qualité de coordonnateur d'un groupement de commandes constitué par convention du 19/12/2017 entre Angers Loire Métropole et la Ville d'Angers. Angers Loire Métropole est chargée, à ce titre, de la procédure de passation pour le compte des autres membres ainsi que de la signature et de la notification du marché. Une fois notifié, le marché est exécuté, par Angers Loire Métropole\", \"QUANTITE\": \"Montant maximum sur la durée totale du marché : 220 999 euro HT. Durée d'un an reconductible 2 fois par période d'un an.\"}, \"DUREE_DELAI\": {\"DATE_EXECUTION\": \"2019-07-22\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"45\", \"#text\": \"Valeur technique\"}, {\"@POIDS\": \"55\", \"#text\": \"prix\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-04-03T14:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Prestations réglées par des prix unitaires et forfaitaires. Prix révisables annuellement avec clause de sauvegarde. Aucune avance prévue. Délai global de paiement des prestations de 30 jours par virement administratif. Les prestations du présent marché seront financées par autofinancement des membres du groupement, complété, le cas échéant, par des ressources externes (emprunt, subventions, fonds européens non connu à ce jour, etc.) conformément aux lois et réglementations en vigueur.\", \"FORME_JURIDIQUE\": \"groupement conjoint avec mandataire solidaire\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"voir règlement de la consultation\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": \"voir règlement de la consultation\"}, \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"G19CM VIDEOPROTECTION\", \"CONDITIONS_REMISE_OFFRES\": \"La candidature peut être présentée soit sous la forme des formulaires DC1 et DC2 (disponibles gratuitement sur le site www.economie.gouv.fr.), soit sous la forme d'un Document Unique de Marché Européen (DUME). La transmission des plis par voie électronique est imposée pour cette consultation. Par conséquent, la transmission par voie papier n'est pas autorisée.\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La transmission des documents par voie électronique est effectuée sur le profil d'acheteur. Les modalités de transmission des plis par voie électronique sont définies dans le règlement de la consultation. Les sous-critères retenus pour le jugement des offres sont définis dans le réglement de la consultation. Instance chargée des procédures de recours / Organe chargé des procédures de médiation / Service auprès duquel des renseignements peuvent être obtenus concernant l'introduction des recours : Tribunal Administratif de Nantes. 6, allée de l'Ile Gloriette , BP 24111 , 44041 NANTES , Cedex 1 , Courriel : greffe.ta-nantes@juradm.fr, Adresse internet : http://www.nantes.tribunal-administratif.fr/ Précisions concernant le(s) délai(s) d'introduction des recours : Précisions concernant les délais d'introduction des recours : Référé pré-contractuel prévu aux articles L.551-1 à L.551-12 du Code de justice administrative (CJA), et pouvant être exercé avant la signature du contrat. Référé contractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant être exercé dans les délais prévus à l'article R. 551-7 du CJA. Recours pour excès de pouvoir contre une décision administrative prévu aux articles R. 421-1 à R. 421-7 du CJA, et pouvant être exercé dans les 2 mois suivant la notification ou publication de la décision de l'organisme (le recours ne peut plus, toutefois, être exercé après la signature du contrat). Recours de pleine juridiction ouvert aux tiers justifiant d'un intérêt lésé, et pouvant être exercé dans les deux mois suivant la date à laquelle la conclusion du contrat est rendue publique.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"ADMIN_TECH\": \"\"}, \"DENOMINATION\": \"ALM DCP\", \"CORRESPONDANT\": \"Caroline Mano\", \"URL\": \"https://alm.marches-securises.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Angers Loire Métropole\", \"URL\": \"https://alm.marches-securises.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-35566"
   },
   {
    "idweb": "19-33917",
@@ -1888,6 +1896,133 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-35102"
   },
   {
+   "idweb": "19-35372",
+   "id": "19_35372",
+   "contractfolderid": null,
+   "objet": "Débroussaillage et abattage d'arbres sur levées de la Loire, de l'Allier et du Cher dans les départements 03, 18, 58, 45 ,41 ,37 49",
+   "filename": "BOAMP-J-AO_2019_067003",
+   "famille": "JOUE",
+   "code_departement": [
+    "45",
+    "3",
+    "18",
+    "37",
+    "49",
+    "41",
+    "58"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2019-03-08",
+   "datefindiffusion": "2019-04-08",
+   "datelimitereponse": null,
+   "nomacheteur": "DREAL Centre",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": [
+    "sociaux",
+    "environnementaux"
+   ],
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "350"
+   ],
+   "dc": [
+    "350"
+   ],
+   "descripteur_libelle": [
+    "Travaux forestiers"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-35372\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-35372.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-08\", \"DATE_FIN_DIFFUSION\": \"2019-04-08\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"350\", \"LIBELLE\": \"Travaux forestiers\"}}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\", \"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": [\"45\", \"3\", \"18\", \"37\", \"49\", \"41\", \"58\"], \"RESUME_OBJET\": \"Débroussaillage et abattage d'arbres sur levées de la Loire, de l'Allier et du Cher dans les départements 03, 18, 58, 45 ,41 ,37 49\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"DREAL Centre\", \"ADJUDICATEUR_NUTS\": \"FRB0\", \"ADRESSE\": \"5 avenue Buffon CS 96407\", \"CP\": \"45064\", \"VILLE\": \"Orléans cedex 2\", \"MEL\": \"dreal-centre@developpement-durable.gouv.fr\", \"URL\": \"http://www.centre.developpement-durable.gouv.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.gouv.fr\", \"URL_PARTICIPATION\": \"http://www.marches-publics.gouv.fr\", \"URL_DOCUMENT\": \"https://www.marches-publics.gouv.fr/index.php?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=413242&orgAcronyme=d4t\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"MIN_AUTORITE_NATIONALE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ENVIRONNEMENT\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Débroussaillage et abattage d'arbres sur levées de la Loire, de l'Allier et du Cher dans les départements 03, 18, 58, 45 ,41 ,37 49\", \"REF_MARCHE\": \"DREAL_CVL_deboisement\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Débroussaillage et abattage d'arbres sur levées de la Loire, de l'Allier et du Cher dans les départements 03, 18, 58, 45 ,41 ,37 49\", \"CPV\": {\"PRINCIPAL\": \"77211400\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS_RESERVE_POUVOIR_ADJUDICATEUR\": \"Néant\", \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"digues de Loire et du Cher départements 49 et 37\", \"DESCRIPTION\": \"Débroussaillage et abattage d'arbres sur levées de la Loire, de l'Allier et du Cher dans les départements ,37 49\", \"CPV\": {\"PRINCIPAL\": \"77211400\"}, \"CODE_NUTS\": [\"FRB04\", \"FRG02\"], \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"L'accord-cadre peut être reconduit trois (3) fois par périodes successives d'un an sans toutefois dépasser une durée totale de quatre (4) ans. L'accord-cadre est reconductible annuellement de manière tacite.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"digues de Loire et du Cher départements 41 et 45\", \"DESCRIPTION\": \"Débroussaillage et abattage d'arbres sur levées de la Loire, de l'Allier et du Cher dans les départements 41 et 45\", \"CPV\": {\"PRINCIPAL\": \"77211400\"}, \"CODE_NUTS\": [\"FRB05\", \"FRB06\"], \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"L'accord-cadre peut être reconduit trois (3) fois par périodes successives d'un an sans toutefois dépasser une durée totale de quatre (4) ans. L'accord-cadre est reconductible annuellement de manière tacite.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Débroussaillage et abattage d'arbres sur levées de la Loire, de l'Allier et du Cher dans les départements 18, 58 et 03\", \"DESCRIPTION\": \"Débroussaillage et abattage d'arbres sur levées de la Loire, de l'Allier et du Cher dans les départements 18, 58 et 03\", \"CPV\": {\"PRINCIPAL\": \"77211400\"}, \"CODE_NUTS\": [\"FRB01\", \"FRC12\", \"FRK11\"], \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"L'accord-cadre peut être reconduit trois (3) fois par périodes successives d'un an sans toutefois dépasser une durée totale de quatre (4) ans. L'accord-cadre est reconductible annuellement de manière tacite.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-04-08T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO_MARCHE_OUI\": \"\", \"CAP_TECH_OFFRE_OUI\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-04-10\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 6 mars 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif d'Orléans\", \"ADRESSE\": \"28, rue de la Bretonnerie\", \"CP\": \"45057\", \"VILLE\": \"ORLEANS\", \"MEL\": \"greffe.ta-orleans@juradm.fr\", \"URL\": \"http://www.orleans.tribunal-administratif.fr\"}}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-35372"
+  },
+  {
+   "idweb": "19-35891",
+   "id": "19_35891",
+   "contractfolderid": null,
+   "objet": "rd13-158-160 CHOLET - travaux de renouvellement de couche de roulement",
+   "filename": "BOAMP-J-AO_2019_067009",
+   "famille": "JOUE",
+   "code_departement": [
+    "49"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2019-03-08",
+   "datefindiffusion": "2019-04-08",
+   "datelimitereponse": null,
+   "nomacheteur": "Département de Maine-et-Loire",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "365"
+   ],
+   "dc": [
+    "365"
+   ],
+   "descripteur_libelle": [
+    "Voirie"
+   ],
+   "type_marche": [
+    "TRAVAUX"
+   ],
+   "type_marche_facette": [
+    "Travaux"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-35891\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-35891.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-08\", \"DATE_FIN_DIFFUSION\": \"2019-04-08\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"365\", \"LIBELLE\": \"Voirie\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"rd13-158-160 CHOLET - travaux de renouvellement de couche de roulement\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Département de Maine-et-Loire\", \"CODE_IDENT_NATIONAL\": \"22490001900015\", \"CONTACT\": \"Service de la commande publique et des assurances\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"Hôtel du Département - Direction des finances, des affaires juridiques et de l'évaluation - CS 94104\", \"CP\": \"49941\", \"VILLE\": \"ANGERS cedex 09\", \"TEL\": \"(+33) -02-41-81-45-83\", \"FAX\": \"(+33) -02-41-81-47-83\", \"MEL\": \"commande-publique@maine-et-loire.fr\", \"URL\": \"http://www.maine-et-loire.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.anjoumarchespublics.fr\", \"URL_PARTICIPATION\": \"https://www.anjoumarchespublics.fr\", \"URL_DOCUMENT\": \"https://www.anjoumarchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"RD13-158-160 CHOLET - travaux de renouvellement de  couche de roulement\", \"REF_MARCHE\": \"TX/2019/24\", \"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"Travaux de renouvellement de couche de roulement\", \"CPV\": {\"PRINCIPAL\": \"45233220\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Travaux de renouvellement de couche de roulement\", \"CPV\": {\"PRINCIPAL\": \"45233220\"}, \"CODE_NUTS\": \"FRG02\", \"LIEU_PRINCIPAL\": \"CHOLET\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"3\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Les travaux sont répartis sur trois zones de chantier. Il est prévu une période de préparation d'une durée de sept semaines à compter de la notification du marché. Le délai d'exécution des travaux est fixé à six semaines maximum. Le soumissionnaire peut proposer une réduction du délai.\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_NON\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-04-08T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Le candidat produit une lettre de candidature (formulaire DC1) avec une déclaration sur l'honneur justifiant qu'il n'entre dans aucun des cas d'interdiction de soumissionner mentionnés à l'article 45 de l'ordonnance du 23 juillet 2015\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"Le candidat produit une déclaration (formulaire DC2) avec mention du chiffre d'affaires global et du chiffre d'affaires du domaine d'activités faisant l'objet du marché, sur les trois derniers exercices disponibles\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"Le candidat produit : * une déclaration indiquant ses effectifs moyens annuels et l'importance du personnel d'encadrement pendant les trois dernières années *Une déclaration indiquant loutillage, le matériel et léquipement technique dont il dispose pour la réalisation de marchés de même nature *une liste de travaux exécutés au cours des cinq dernières années, assortie d'attestations de bonne exécution pour les travaux les plus importants * des certificats de qualification professionnelle établis par des organismes indépendants, ou autres preuves de la capacité du candidat. La preuve de la capacité est apportée par tout moyen, notamment des certificats d'identité professionnelle ou des références de prestations attestant de la compétence de l'opérateur économique à réaliser les prestations pour lesquelles il se porte candidat\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"PERS_OUVERTURE_OFFRES_OUI\": \"Les date et heure sont mentionnées à titre indicatif. La séance d'ouverture des offres n'est pas publique\", \"DATE_OUVERTURE_OFFRES\": \"2019-04-08\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"En cas de versement d'une avance, le candidat doit constituer une garantie à première demande garantissant le remboursement total de cette avance - délai maximum de paiement de 30 jours - financement sur ressources propres de la Collectivité - les candidatures et offres doivent être obligatoirement transmises par voie électronique sur le profil d'acheteur de la collectivité - les candidats doivent télécharger les documents de la consultation sur le profil d'acheteur de la collectivité ; la mise en ligne des documents de la consultation est totale - la signature électronique des offres n'est pas obligatoire mais fortement recommandée - unité de compte : euros - irrecevabilité des candidatures : *Candidat se trouvant dans un des cas d'interdiction de soumissionner prévus par les articles 45 et 48 de l'ordonnance du 23 juillet 2015 * Dossier incomplet (ne comprenant pas l'ensemble des pièces demandées) * Capacités professionnelles, techniques et financières insuffisantes *Production de faux renseignements ou documents. Date prévisionnelle de démarrage de la période de préparation : 13 mai 2019. Date prévisionnelle de démarrage des travaux : 09 juillet 2019. Date d'envoi du présent avis au JOUE et au BOAMP : 6 mars 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile Gloriette -BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"(+33) -02-40-99-46-00\", \"FAX\": \"(+33) -02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile Gloriette -BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"(+33) -02-40-99-46-00\", \"FAX\": \"(+33) -02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-35891"
+  },
+  {
    "idweb": "19-36936",
    "id": "19_36936",
    "contractfolderid": null,
@@ -2075,133 +2210,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-35550\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-71525\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-05-25\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-05-27\", \"DATE_FIN_DIFFUSION\": \"2018-06-24\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"100\", \"NUM_ANNONCE\": \"228837\", \"DATE_PUBLICATION\": \"2018-05-29\"}}]}}, \"NOM_HTML\": \"19-35550.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-08\", \"DATE_FIN_DIFFUSION\": \"2019-04-05\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"113\", \"LIBELLE\": \"Equipement sportif\"}, {\"CODE\": \"118\", \"LIBELLE\": \"Etude\"}]}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"Maîtrise d'oeuvre pour la construction d'un complexe sportif et événementiel\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CA LES SABLES D OLONNE AGGLOMERATION\", \"ADJUDICATEUR_NUTS\": \"FRG05\", \"ADRESSE\": \"3 avenue Carnot\", \"CP\": \"85100\", \"VILLE\": \"Les Sales d'Olonne\", \"TEL\": \"(+33) 2-51-23-84-40\", \"FAX\": \"(+33) 2-51-32-02-87\", \"MEL\": \"carmen.perez@lsoagglo.fr\", \"URL\": \"http://www.lsoagglo.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Maîtrise d'oeuvre pour la construction d'un complexe sportif et événementiel\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Maîtrise d'oeuvre sur esquisse + pour la construction d'un complexe sportif et événementiel\", \"CPV\": {\"PRINCIPAL\": \"71221000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"1863000\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Le projet de la collectivité est composé d'un équipement à vocation sportive et évènementiel qui pourra éventuellement, à terme, être complété d'une grande salle de spectacle. L'objet de cette consultation comprend la réalisation de l'esquisse + de l'ensemble des 2 volets de ce projet afin, dès la conception, de s'assurer de la cohérence architecturale, de l'optimisation fonctionnelle et technique, à savoir :-L'équipement à vocation sportive et évènementiel dont la réalisation débutera à l'issue des études de maîtrise d'oeuvre-La grande salle de spectacle dont la réalisation ne sera décidée qu'ultérieurement. La partie \\\" sport et évènementiel \\\" sera structurée autour d'une salle d'une capacité totale 2 000 places assises. D'autres salles sportives seront réalisées dont une salle de gymnastique, une salle multisport et 3 autres salles pour la musculation / danses / boxe. Un ensemble de blocs vestiaires (joueurs / arbitres / juges) et des locaux pour les associations seront associés au projet.La partie \\\" spectacle \\\" pourrait être réalisée dans un deuxième temps (l'échéance n'est aujourd'hui pas connue).Elle aurait une vocation culturelle avec une capacité de 2 000 places assises. La partie de l'enveloppe financière prévisionnelle affectée aux travaux pour la partie \\\" sport et évènementiel \\\" est de 14 000 000 EUR/HT.Inscription de l'opération dans une démarche environnementale.\", \"CPV\": {\"PRINCIPAL\": \"71221000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"RESTREINT\": \"\"}, \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"100\", \"NUM_ANNONCE\": \"228837\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"INTITULE\": \"Maîtrise d'oeuvre pour la construction d'un complexe sportif et événementiel\", \"TITULAIRE\": {\"DENOMINATION\": \"Cabinet Chabanne et partenaires\", \"ADRESSE\": \"38 quai Pierre Scize\", \"CP\": \"69009\", \"VILLE\": \"LYON\", \"CODE_NUTS\": \"FRG05\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-12-14\", \"NB_OFFRE_RECU\": \"3\", \"NB_OFFRE_RECU_PME\": \"3\", \"NB_OFFRE_RECU_UE\": \"1\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"1863000\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 6 mars 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes,\", \"ADRESSE\": \"Ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"nantes\"}}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-35550"
-  },
-  {
-   "idweb": "19-35372",
-   "id": "19_35372",
-   "contractfolderid": null,
-   "objet": "Débroussaillage et abattage d'arbres sur levées de la Loire, de l'Allier et du Cher dans les départements 03, 18, 58, 45 ,41 ,37 49",
-   "filename": "BOAMP-J-AO_2019_067003",
-   "famille": "JOUE",
-   "code_departement": [
-    "45",
-    "3",
-    "18",
-    "37",
-    "49",
-    "41",
-    "58"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2019-03-08",
-   "datefindiffusion": "2019-04-08",
-   "datelimitereponse": null,
-   "nomacheteur": "DREAL Centre",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": [
-    "sociaux",
-    "environnementaux"
-   ],
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "350"
-   ],
-   "dc": [
-    "350"
-   ],
-   "descripteur_libelle": [
-    "Travaux forestiers"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-35372\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-35372.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-08\", \"DATE_FIN_DIFFUSION\": \"2019-04-08\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"350\", \"LIBELLE\": \"Travaux forestiers\"}}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\", \"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": [\"45\", \"3\", \"18\", \"37\", \"49\", \"41\", \"58\"], \"RESUME_OBJET\": \"Débroussaillage et abattage d'arbres sur levées de la Loire, de l'Allier et du Cher dans les départements 03, 18, 58, 45 ,41 ,37 49\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"DREAL Centre\", \"ADJUDICATEUR_NUTS\": \"FRB0\", \"ADRESSE\": \"5 avenue Buffon CS 96407\", \"CP\": \"45064\", \"VILLE\": \"Orléans cedex 2\", \"MEL\": \"dreal-centre@developpement-durable.gouv.fr\", \"URL\": \"http://www.centre.developpement-durable.gouv.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.gouv.fr\", \"URL_PARTICIPATION\": \"http://www.marches-publics.gouv.fr\", \"URL_DOCUMENT\": \"https://www.marches-publics.gouv.fr/index.php?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=413242&orgAcronyme=d4t\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"MIN_AUTORITE_NATIONALE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ENVIRONNEMENT\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Débroussaillage et abattage d'arbres sur levées de la Loire, de l'Allier et du Cher dans les départements 03, 18, 58, 45 ,41 ,37 49\", \"REF_MARCHE\": \"DREAL_CVL_deboisement\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Débroussaillage et abattage d'arbres sur levées de la Loire, de l'Allier et du Cher dans les départements 03, 18, 58, 45 ,41 ,37 49\", \"CPV\": {\"PRINCIPAL\": \"77211400\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS_RESERVE_POUVOIR_ADJUDICATEUR\": \"Néant\", \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"digues de Loire et du Cher départements 49 et 37\", \"DESCRIPTION\": \"Débroussaillage et abattage d'arbres sur levées de la Loire, de l'Allier et du Cher dans les départements ,37 49\", \"CPV\": {\"PRINCIPAL\": \"77211400\"}, \"CODE_NUTS\": [\"FRB04\", \"FRG02\"], \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"L'accord-cadre peut être reconduit trois (3) fois par périodes successives d'un an sans toutefois dépasser une durée totale de quatre (4) ans. L'accord-cadre est reconductible annuellement de manière tacite.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"digues de Loire et du Cher départements 41 et 45\", \"DESCRIPTION\": \"Débroussaillage et abattage d'arbres sur levées de la Loire, de l'Allier et du Cher dans les départements 41 et 45\", \"CPV\": {\"PRINCIPAL\": \"77211400\"}, \"CODE_NUTS\": [\"FRB05\", \"FRB06\"], \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"L'accord-cadre peut être reconduit trois (3) fois par périodes successives d'un an sans toutefois dépasser une durée totale de quatre (4) ans. L'accord-cadre est reconductible annuellement de manière tacite.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Débroussaillage et abattage d'arbres sur levées de la Loire, de l'Allier et du Cher dans les départements 18, 58 et 03\", \"DESCRIPTION\": \"Débroussaillage et abattage d'arbres sur levées de la Loire, de l'Allier et du Cher dans les départements 18, 58 et 03\", \"CPV\": {\"PRINCIPAL\": \"77211400\"}, \"CODE_NUTS\": [\"FRB01\", \"FRC12\", \"FRK11\"], \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"L'accord-cadre peut être reconduit trois (3) fois par périodes successives d'un an sans toutefois dépasser une durée totale de quatre (4) ans. L'accord-cadre est reconductible annuellement de manière tacite.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-04-08T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO_MARCHE_OUI\": \"\", \"CAP_TECH_OFFRE_OUI\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-04-10\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 6 mars 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif d'Orléans\", \"ADRESSE\": \"28, rue de la Bretonnerie\", \"CP\": \"45057\", \"VILLE\": \"ORLEANS\", \"MEL\": \"greffe.ta-orleans@juradm.fr\", \"URL\": \"http://www.orleans.tribunal-administratif.fr\"}}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-35372"
-  },
-  {
-   "idweb": "19-35891",
-   "id": "19_35891",
-   "contractfolderid": null,
-   "objet": "rd13-158-160 CHOLET - travaux de renouvellement de couche de roulement",
-   "filename": "BOAMP-J-AO_2019_067009",
-   "famille": "JOUE",
-   "code_departement": [
-    "49"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2019-03-08",
-   "datefindiffusion": "2019-04-08",
-   "datelimitereponse": null,
-   "nomacheteur": "Département de Maine-et-Loire",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "365"
-   ],
-   "dc": [
-    "365"
-   ],
-   "descripteur_libelle": [
-    "Voirie"
-   ],
-   "type_marche": [
-    "TRAVAUX"
-   ],
-   "type_marche_facette": [
-    "Travaux"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-35891\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-35891.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-08\", \"DATE_FIN_DIFFUSION\": \"2019-04-08\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"365\", \"LIBELLE\": \"Voirie\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"rd13-158-160 CHOLET - travaux de renouvellement de couche de roulement\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Département de Maine-et-Loire\", \"CODE_IDENT_NATIONAL\": \"22490001900015\", \"CONTACT\": \"Service de la commande publique et des assurances\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"Hôtel du Département - Direction des finances, des affaires juridiques et de l'évaluation - CS 94104\", \"CP\": \"49941\", \"VILLE\": \"ANGERS cedex 09\", \"TEL\": \"(+33) -02-41-81-45-83\", \"FAX\": \"(+33) -02-41-81-47-83\", \"MEL\": \"commande-publique@maine-et-loire.fr\", \"URL\": \"http://www.maine-et-loire.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.anjoumarchespublics.fr\", \"URL_PARTICIPATION\": \"https://www.anjoumarchespublics.fr\", \"URL_DOCUMENT\": \"https://www.anjoumarchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"RD13-158-160 CHOLET - travaux de renouvellement de  couche de roulement\", \"REF_MARCHE\": \"TX/2019/24\", \"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"Travaux de renouvellement de couche de roulement\", \"CPV\": {\"PRINCIPAL\": \"45233220\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Travaux de renouvellement de couche de roulement\", \"CPV\": {\"PRINCIPAL\": \"45233220\"}, \"CODE_NUTS\": \"FRG02\", \"LIEU_PRINCIPAL\": \"CHOLET\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"3\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Les travaux sont répartis sur trois zones de chantier. Il est prévu une période de préparation d'une durée de sept semaines à compter de la notification du marché. Le délai d'exécution des travaux est fixé à six semaines maximum. Le soumissionnaire peut proposer une réduction du délai.\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_NON\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-04-08T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Le candidat produit une lettre de candidature (formulaire DC1) avec une déclaration sur l'honneur justifiant qu'il n'entre dans aucun des cas d'interdiction de soumissionner mentionnés à l'article 45 de l'ordonnance du 23 juillet 2015\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"Le candidat produit une déclaration (formulaire DC2) avec mention du chiffre d'affaires global et du chiffre d'affaires du domaine d'activités faisant l'objet du marché, sur les trois derniers exercices disponibles\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"Le candidat produit : * une déclaration indiquant ses effectifs moyens annuels et l'importance du personnel d'encadrement pendant les trois dernières années *Une déclaration indiquant loutillage, le matériel et léquipement technique dont il dispose pour la réalisation de marchés de même nature *une liste de travaux exécutés au cours des cinq dernières années, assortie d'attestations de bonne exécution pour les travaux les plus importants * des certificats de qualification professionnelle établis par des organismes indépendants, ou autres preuves de la capacité du candidat. La preuve de la capacité est apportée par tout moyen, notamment des certificats d'identité professionnelle ou des références de prestations attestant de la compétence de l'opérateur économique à réaliser les prestations pour lesquelles il se porte candidat\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"PERS_OUVERTURE_OFFRES_OUI\": \"Les date et heure sont mentionnées à titre indicatif. La séance d'ouverture des offres n'est pas publique\", \"DATE_OUVERTURE_OFFRES\": \"2019-04-08\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"En cas de versement d'une avance, le candidat doit constituer une garantie à première demande garantissant le remboursement total de cette avance - délai maximum de paiement de 30 jours - financement sur ressources propres de la Collectivité - les candidatures et offres doivent être obligatoirement transmises par voie électronique sur le profil d'acheteur de la collectivité - les candidats doivent télécharger les documents de la consultation sur le profil d'acheteur de la collectivité ; la mise en ligne des documents de la consultation est totale - la signature électronique des offres n'est pas obligatoire mais fortement recommandée - unité de compte : euros - irrecevabilité des candidatures : *Candidat se trouvant dans un des cas d'interdiction de soumissionner prévus par les articles 45 et 48 de l'ordonnance du 23 juillet 2015 * Dossier incomplet (ne comprenant pas l'ensemble des pièces demandées) * Capacités professionnelles, techniques et financières insuffisantes *Production de faux renseignements ou documents. Date prévisionnelle de démarrage de la période de préparation : 13 mai 2019. Date prévisionnelle de démarrage des travaux : 09 juillet 2019. Date d'envoi du présent avis au JOUE et au BOAMP : 6 mars 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile Gloriette -BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"(+33) -02-40-99-46-00\", \"FAX\": \"(+33) -02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile Gloriette -BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"(+33) -02-40-99-46-00\", \"FAX\": \"(+33) -02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-35891"
   },
   {
    "idweb": "19-35495",
@@ -2528,127 +2536,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-35553"
   },
   {
-   "idweb": "19-15074",
-   "id": "19_15074",
-   "contractfolderid": null,
-   "objet": "Etude de faisabilité relative à l'aménagement d'une unité de fabrication de csr à partir de déchets ménagers ultimes et de bois en mélange",
-   "filename": "BOAMP-J-AO_2019_067009",
-   "famille": "JOUE",
-   "code_departement": [
-    "85"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2019-03-08",
-   "datefindiffusion": "2019-04-10",
-   "datelimitereponse": null,
-   "nomacheteur": "Syndicat Trivalis",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "118",
-    "274"
-   ],
-   "dc": [
-    "118",
-    "274"
-   ],
-   "descripteur_libelle": [
-    "Etude",
-    "Prestations de services"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-15074\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-15074.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-08\", \"DATE_FIN_DIFFUSION\": \"2019-04-10\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"118\", \"LIBELLE\": \"Etude\"}, {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}]}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"Etude de faisabilité relative à l'aménagement d'une unité de fabrication de csr à partir de déchets ménagers ultimes et de bois en mélange\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Syndicat Trivalis\", \"ADJUDICATEUR_NUTS\": \"FRG05\", \"ADRESSE\": \"31 rue de l'Atlantique CS 30605\", \"CP\": \"85015\", \"VILLE\": \"LA ROCHE SUR YON Cedex\", \"TEL\": \"(+33) 2-51-45-14-51\", \"FAX\": \"(+33) 2-51-45-14-50\", \"MEL\": \"contact@trivalis.fr\", \"URL\": \"http://www.trivalis.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-securises.fr\", \"URL_PARTICIPATION\": \"https://www.marches-securises.fr\", \"URL_DOCUMENT\": \"https://www.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Syndicat Mixte Départemental d'Etudes et de Traitement des Déchets Ménagers et Assimilés de la Vendée\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ENVIRONNEMENT\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Etude de faisabilité relative à l'aménagement d'une unité de fabrication de CSR à partir de déchets ménagers ultimes et de bois en mélange\", \"REF_MARCHE\": \"2019_M088\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Le présent marché public a pour objet de confier à un opérateur économique ou un groupement dopérateurs économiques, une étude de faisabilité qui doit permettre à Trivalis de mesurer lopportunité technique, logistique, financière et réglementaire daménager une unité de production de Combustible Solide de Récupération (CSR) produit à partir de déchets ménagers de type tout-venants de déchèteries (pré-triés en haut de quai) et bois en mélange, et aussi éventuellement refus de collectes sélectives des ménages.\", \"CPV\": {\"PRINCIPAL\": \"79311000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"200000\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Cette étude sera menée sur la base de trois scénarii distincts :- Scénario 1 : aménagement dun module de production de CSR à léchelle du seul territoire vendéen- Scénario 2 : aménagement dun module de production de CSR à léchelle du territoire vendéen et des quatre communautés de communes du sud de la Loire-Atlantique - Scénario 3 : aménagement dun module de production de CSR à léchelle du territoire vendéen, des quatre communautés de communes du sud de la Loire-Atlantique et des collectivités adhérentes au projet de SPL dUNITRI.Conformément à l'article 77 du décret no 2016-360 du 25  mars 2016, la consultation donnera lieu à un marché à tranches. La tranche ferme comprendra 2 prestations :- Prestation 1 : Etat des lieux et étude qualitative et quantitative de gisement- Prestation 2 : Etude de compatibilité avec les différents exutoires potentiels\", \"CPV\": {\"PRINCIPAL\": \"79311000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"200000\"}, \"DATE_DEBUT\": \"2019-06-01\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_OUI\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Tranche optionnelle 1 :Prestation no 3 : Etude technique et financière d'implantation du module de production du CSRTranche optionnelle no 2 :Prestation no 4 : Etude de compatibilité du gisement de CSR avec des potentiels exutoires vendéens\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Délais maximum prévisionnels dexécution souhaités par l'acheteur : - prestation 1 : 3 mois à compter de lOS de démarrage de la prestation- prestation 2 : 5 semaines à compter de la date de validation de la prestation 1 par lacheteur- prestation 3 : 10 semaines à compter de lOS de démarrage de la prestation- prestation 4 : 5 semaines à compter de lOS de démarrage de la prestation\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-04-10T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Déclaration du candidat (en utilisant le formulaire DC1 annexé au DCE) afin de justifier qu'il n'entre dans aucun des cas mentionnés aux articles 45 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 relative aux marchés publics et notamment qu'il est en règle au regard des articles L. 5212-1 à L. 5212-11 du code du travail concernant l'emploi des travailleurs handicapés ; Au titre de l'aptitude à exercer l'activité professionnelle : - une preuve de son inscription sur un registre professionnel\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"-\\tla déclaration concernant son chiffre d'affaires global portant sur les 3 derniers exercices disponibles, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles, -\\tla preuve d'une assurance pour les risques professionnels pertinents. Si, pour une raison justifiée, le candidat n'est pas en mesure de produire les renseignements et documents demandés par l'acheteur, il est autorisé à prouver sa capacité économique et financière par tout autre moyen considéré comme approprié par l'acheteur.\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"- une liste des principaux services fournis au cours des trois (3) dernières années, indiquant le montant, la date et le destinataire public ou privé. Les prestations de services sont prouvées par des attestations des destinataires ou, à défaut, par une déclaration de lopérateur économique. - l'indication des titres détudes et professionnels du candidat ou des cadres de lentreprise, et notamment des responsables de prestation de services de même nature que celle du marché public\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-04-10\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Appel d'offres ouvert (art 25-I-1° et 66 à 68 du décret no 2016-360 du 25/03/16). Les documents de la consultation (DC) sont téléchargeables à l'adresse http://www.marches-securises.fr sous l'annonce TRIVALIS_85_20190219W2_01. Les communications et échanges d'informations seront effectués exclusivement par voie électronique suivant les dispositions prévues à l'article 3 du règlement de consultation. Pour ce faire, le candidat devra indiquer sur le site une adresse électronique valide et à jour. Pour obtenir tous les renseignements complémentaires sur le DCE, le candidat devra faire parvenir au plus tard 10 jours avant la date limite de réception des offres (DLRO) une demande écrite à Trivalis via le profil dacheteur www.marches-securises.fr. Les renseignements complémentaires, y compris les modifications de détail du DCE, sont mis en ligne sur la plateforme www.marches-securises.fr au plus tard 6 jours avant la DLRO. La remise des candidatures et des offres se fait uniquement par voie électronique à l'adresse www.marches-securises.fr sous l'annonce TRIVALIS_85_20190219W2_01 suivant les dispositions prévues à l'article 8 du RC. Aucune offre papier ne sera acceptée. Les candidats peuvent faire parvenir une copie de sauvegarde dans les délais impartis pour la remise des candidatures et des offres. La copie de sauvegarde peut être transmise à l'acheteur sur support papier ou sur support physique électronique. La copie de sauvegarde doit être placée dans un pli comportant la mention -copie de sauvegarde. La durée du marché court à compter de la date de sa notification jusquà lachèvement des prestations : prestation 2 si aucune tranche optionnelle n'est affermie, prestation 3 ou 4 selon la ou les tranches optionnelles affermies. La date prévisionnelle de notification est fixée au 1er juin 2019.Les variantes sont autorisées. Les exigences minimales ainsi que les modalités liées à leur présentation sont fixées à larticle 5-2 du RC.. Date d'envoi du présent avis au JOUE et au BOAMP : 6 mars 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé précontractuel (CJA, art. L. 551-1 et suivants) Référé contractuel (CJA, art. L.551-13 et suivants) Recours en contestation de validité du contrat, dans un délai de 2 mois à compter des mesures de publicité appropriées\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 Allée de l'île Gloriette CS 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES Cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso BP 24209\", \"CP\": \"44042\", \"VILLE\": \"NANTES cedex 1\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://www.economie.gouv.fr/files/directions_services/daj/marches_publics/ccra/contacts\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'ile gloriette CS 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES Cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-15074"
-  },
-  {
-   "idweb": "19-35016",
-   "id": "19_35016",
-   "contractfolderid": null,
-   "objet": "valorisation énergétique des refus de tri issus du centre de tri départemental des déchets ménagers recyclables",
-   "filename": "BOAMP-J-AO_2019_067009",
-   "famille": "JOUE",
-   "code_departement": [
-    "85"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2019-03-08",
-   "datefindiffusion": "2019-04-11",
-   "datelimitereponse": null,
-   "nomacheteur": "Syndicat Trivalis",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "274"
-   ],
-   "dc": [
-    "274"
-   ],
-   "descripteur_libelle": [
-    "Prestations de services"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-35016\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-35016.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-08\", \"DATE_FIN_DIFFUSION\": \"2019-04-11\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"valorisation énergétique des refus de tri issus du centre de tri départemental des déchets ménagers recyclables\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Syndicat Trivalis\", \"ADJUDICATEUR_NUTS\": \"FRG05\", \"ADRESSE\": \"31 rue de l'Atlantique CS 30605\", \"CP\": \"85015\", \"VILLE\": \"La Roche-sur-Yon\", \"TEL\": \"(+33) 2-51-45-14-51\", \"FAX\": \"(+33) 2-51-45-14-50\", \"MEL\": \"contact@trivalis.fr\", \"URL\": \"http://www.trivalis.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-securises.fr\", \"URL_PARTICIPATION\": \"http://www.marches-securises.fr\", \"URL_DOCUMENT\": \"http://www.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Syndicat Mixte Départemental d'Etudes et de Traitement des Déchets Ménagers et Assimilés de la Vendée\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ENVIRONNEMENT\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Valorisation énergétique des refus de tri issus du centre de tri départemental des déchets ménagers recyclables\", \"REF_MARCHE\": \"2019_M095\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Le marché public porte sur le traitement des refus de tri issus du centre de tri départemental de la Vendée qui doivent être traités dans une unité de valorisation énergétique afin d'être en adéquation avec les prescriptions de CITEO dans le cadre de l'extension des consignes de tri relatives aux emballages plastiques.\", \"CPV\": {\"PRINCIPAL\": \"90513000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Le titulaire assurera les prestations suivantes : - Le déchargement des déchets,- La valorisation énergétique des déchets par CSR ou par valorisation énergétique,- La prise en charge des déchets indésirables issus du tri pour la valorisation,- La remise à Trivalis des tickets de pesée justifiant les quantités facturées,- La remise à Trivalis, dun Bordereau de Suivi du Déchet (BSD, BSDI, BSDA, etc...) correctement complété, pour les déchets concernés par ce type de document,- La transmission dans les délais impartis des rapports mensuels et annuels relatant la bonne exécution des prestations,- La fourniture des justificatifs de traitement des déchets dans les filières adaptées (BSDI par exemple, attestation de valorisation). - Tout autre document relatif à la bonne gestion des déchets (fiche danomalie...).Tonnages estimés non contractuels : 24 430 tonnes sur la durée totale de l'accord-cadre.\", \"CPV\": {\"PRINCIPAL\": \"90513000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"2100000\"}, \"DATE_DEBUT\": \"2019-07-01\", \"DATE_FIN\": \"2022-12-31\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Accord-cadre non alloti, mono-attributaire, conclu sans minimum ni maximum en valeur ou en quantité, en application de larticle 78-II-3° du décret 2016-360 du 25/03/2016. Accord-cadre qui fixe toutes les stipulations contractuelles et exécuté par bons de commande.\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-04-11T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Le candidat produit à l'appui de sa candidature :- une déclaration sur lhonneur pour justifier qu'il n'entre dans aucun des cas mentionnés aux articles 45 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 relative aux marchés publics et notamment qu'il est en règle au regard des articles L. 5212-1 à L. 5212-11 du code du travail concernant l'emploi des travailleurs handicapés. Il pourra utiliser le formulaire DC1, annexe 0-1 du règlement de la consultation- une preuve de son inscription sur un registre professionnel.\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"Le candidat produit à l'appui de sa candidature :- Déclaration concernant son chiffre d'affaires global portant sur les 3 derniers exercices disponibles, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles- Preuve d'une assurance pour les risques professionnels pertinentsSi, pour une raison justifiée, le candidat n'est pas en mesure de produire les renseignements et documents demandés par l'acheteur, il est autorisé à prouver sa capacité économique et financière par tout autre moyen considéré comme approprié par l'acheteur.\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"Le candidat produit à l'appui de sa candidature :- Liste des principaux services fournis au cours des trois (3) dernières années indiquant le montant, la date et le destinataire public ou privé. Les prestations de services sont prouvées par des attestations des destinataires ou, à défaut, par une déclaration de lopérateur économique- Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pendant les trois (3) dernières années- Description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation du marché public\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"CONDITION_PARTICULIERE_EXECUTION\": \"Les sites de transfert et/ou de traitement devront être en conformité au titre de la réglementation liée aux installations classées pour la protection de lenvironnement. Le candidat fournira les arrêtés préfectoraux dexploitation (déclaration ou autorisation) de(s) site(s) de transfert et/ou de traitement proposé(s).\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-04-11\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Appel d'offres ouvert (art 25-i-1° et 66 à 68 du décret 2016-360 du 25/03/16). Documents de la consultation (Dce) mis à dispositiongratuitement à l'adresse http://www.marches-securises.fr sous l'annonce Trivalis_85_20190221w2_01. Les communications et échanges d'information seront effectuées exclusivement par voie électronique suivant les dispositions prévues à l'article 3 du règlement de consultation (Rc). Pour ce faire, le candidat devra indiquer sur le site une adresse électronique valide et à jour. Pour obtenir tous renseignements complémentaires sur le DCE, le candidat devra faire parvenir au plus tard 10 jours avant la date limite de réception des offres (Dlro) une demande écrite à Trivalis via le profil dacheteur www.marches-securises.fr. Les renseignements complémentaires, y compris les modifications de détail du DCE, sont mis en ligne sur la plateforme www.marches-securises.fr au plus tard 6 jours avant la DLRO. La remise des candidatures et des offres se fait uniquement par voie électronique à l'adresse www.marches-securises.fr sous l'annonce Trivalis_85_20190221w2_01 suivant les dispositions prévues à l'article 8 du RC. Aucune offre papier ne sera acceptée. Les candidats peuvent faire parvenir une copie de sauvegarde dans les délais impartis pour la remise des candidatures et  des offres. La copie de sauvegarde peut être transmise à l'acheteur sur support papier ou sur support physique électronique. La copie de sauvegarde doit être placée dans un pli comportant la mention -copie de sauvegarde-. . Date d'envoi du présent avis au JOUE et au BOAMP : 6 mars 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé précontractuel (CJA, art. L. 551-1 et suivants) Référé contractuel (CJA, art. L.551-13 et suivants) Recours en contestation de validité du contrat, dans un délai de 2 mois à compter des mesures de publicité appropriées\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'ile gloriette - CS 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) -40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso - BP 24209\", \"CP\": \"44042\", \"VILLE\": \"Nantes Cedex 1\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://www.economie.gouv.fr/files/directions_services/daj/marches_publics/ccra/contacts\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-35016"
-  },
-  {
    "idweb": "19-36937",
    "id": "19_36937",
    "contractfolderid": null,
@@ -2785,31 +2672,29 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-37317"
   },
   {
-   "idweb": "19-37141",
-   "id": "19_37141",
+   "idweb": "19-15074",
+   "id": "19_15074",
    "contractfolderid": null,
-   "objet": "réalisation d'un nouvel espace socioculturel à servon-sur-vilaine",
-   "filename": "BOAMP-N-AO_2019_067011",
-   "famille": "FNS",
+   "objet": "Etude de faisabilité relative à l'aménagement d'une unité de fabrication de csr à partir de déchets ménagers ultimes et de bois en mélange",
+   "filename": "BOAMP-J-AO_2019_067009",
+   "famille": "JOUE",
    "code_departement": [
-    "35",
-    "44",
-    "53"
+    "85"
    ],
    "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "famille_libelle": "Marchés européens",
    "dateparution": "2019-03-08",
-   "datefindiffusion": "2019-04-05",
+   "datefindiffusion": "2019-04-10",
    "datelimitereponse": null,
-   "nomacheteur": "COMMUNE DE SERVON SUR VILAINE",
+   "nomacheteur": "Syndicat Trivalis",
    "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
    "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
    "nature": "APPEL_OFFRE",
-   "sousnature": null,
+   "sousnature": "STANDARD",
    "nature_libelle": "Avis de marché",
    "sousnature_libelle": null,
    "nature_categorise": "appeloffre/standard",
@@ -2819,22 +2704,22 @@
    "marche_public_simplifie_label": null,
    "etat": "INITIAL",
    "descripteur_code": [
-    "117",
-    "222"
+    "118",
+    "274"
    ],
    "dc": [
-    "117",
-    "222"
+    "118",
+    "274"
    ],
    "descripteur_libelle": [
-    "Etanchéité",
-    "Menuiserie"
+    "Etude",
+    "Prestations de services"
    ],
    "type_marche": [
-    "TRAVAUX"
+    "SERVICES"
    ],
    "type_marche_facette": [
-    "Travaux"
+    "Services"
    ],
    "type_avis": [
     "5",
@@ -2844,9 +2729,68 @@
    "annonce_lie": null,
    "annonces_anterieures": null,
    "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-37141\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-37141.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-08\", \"DATE_FIN_DIFFUSION\": \"2019-04-05\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"117\", \"LIBELLE\": \"Etanchéité\"}, {\"CODE\": \"222\", \"LIBELLE\": \"Menuiserie\"}]}, \"DEP_PUBLICATION\": [\"35\", \"44\", \"53\"], \"RESUME_OBJET\": \"réalisation d'un nouvel espace socioculturel à servon-sur-vilaine\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"COMMUNE DE SERVON SUR VILAINE\", \"CORRESPONDANT\": \"Armand HENRY\", \"ADRESSE\": \"rue Theodore Gaudiche\", \"CP\": \"35530\", \"VILLE\": \"SERVON-SUR-VILAINE\", \"TEL\": \"(+33)2-99-00-11-85\", \"MEL\": \"contact@ville-servonsurvilaine.fr\", \"URL\": \"https://www.ville-servonsurvilaine.fr/\", \"URL_PROFIL_ACHETEUR\": \"https://www.megalisbretagne.org/\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"OBJET\": {\"TYPE_MARCHE\": {\"TRAVAUX\": {\"EXECUTION\": \"\"}}, \"OBJET_COMPLET\": \"Réalisation d'un nouvel espace socioculturel à Servon-sur-Vilaine\", \"CPV\": {\"PRINCIPAL\": \"45000000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"rue Saint-Martin\", \"CP\": \"35530\", \"VILLE\": \"SERVON-SUR-VILAINE\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"3399300\"}}, \"DUREE_DELAI\": {\"DATE_EXECUTION\": \"2019-05-01\", \"DATE_LIVRAISON\": \"2019-05-01\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"6\", \"DESCRIPTION\": \"Etanchéité\"}, {\"NUM\": \"8\", \"DESCRIPTION\": \"Menuiseries extérieures\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"CONDITION_PARTICIPATION\": {\"ELIGIBLE_MPS\": {\"non\": \"\"}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-37141"
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-15074\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-15074.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-08\", \"DATE_FIN_DIFFUSION\": \"2019-04-10\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"118\", \"LIBELLE\": \"Etude\"}, {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}]}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"Etude de faisabilité relative à l'aménagement d'une unité de fabrication de csr à partir de déchets ménagers ultimes et de bois en mélange\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Syndicat Trivalis\", \"ADJUDICATEUR_NUTS\": \"FRG05\", \"ADRESSE\": \"31 rue de l'Atlantique CS 30605\", \"CP\": \"85015\", \"VILLE\": \"LA ROCHE SUR YON Cedex\", \"TEL\": \"(+33) 2-51-45-14-51\", \"FAX\": \"(+33) 2-51-45-14-50\", \"MEL\": \"contact@trivalis.fr\", \"URL\": \"http://www.trivalis.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-securises.fr\", \"URL_PARTICIPATION\": \"https://www.marches-securises.fr\", \"URL_DOCUMENT\": \"https://www.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Syndicat Mixte Départemental d'Etudes et de Traitement des Déchets Ménagers et Assimilés de la Vendée\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ENVIRONNEMENT\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Etude de faisabilité relative à l'aménagement d'une unité de fabrication de CSR à partir de déchets ménagers ultimes et de bois en mélange\", \"REF_MARCHE\": \"2019_M088\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Le présent marché public a pour objet de confier à un opérateur économique ou un groupement dopérateurs économiques, une étude de faisabilité qui doit permettre à Trivalis de mesurer lopportunité technique, logistique, financière et réglementaire daménager une unité de production de Combustible Solide de Récupération (CSR) produit à partir de déchets ménagers de type tout-venants de déchèteries (pré-triés en haut de quai) et bois en mélange, et aussi éventuellement refus de collectes sélectives des ménages.\", \"CPV\": {\"PRINCIPAL\": \"79311000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"200000\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Cette étude sera menée sur la base de trois scénarii distincts :- Scénario 1 : aménagement dun module de production de CSR à léchelle du seul territoire vendéen- Scénario 2 : aménagement dun module de production de CSR à léchelle du territoire vendéen et des quatre communautés de communes du sud de la Loire-Atlantique - Scénario 3 : aménagement dun module de production de CSR à léchelle du territoire vendéen, des quatre communautés de communes du sud de la Loire-Atlantique et des collectivités adhérentes au projet de SPL dUNITRI.Conformément à l'article 77 du décret no 2016-360 du 25  mars 2016, la consultation donnera lieu à un marché à tranches. La tranche ferme comprendra 2 prestations :- Prestation 1 : Etat des lieux et étude qualitative et quantitative de gisement- Prestation 2 : Etude de compatibilité avec les différents exutoires potentiels\", \"CPV\": {\"PRINCIPAL\": \"79311000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"200000\"}, \"DATE_DEBUT\": \"2019-06-01\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_OUI\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Tranche optionnelle 1 :Prestation no 3 : Etude technique et financière d'implantation du module de production du CSRTranche optionnelle no 2 :Prestation no 4 : Etude de compatibilité du gisement de CSR avec des potentiels exutoires vendéens\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Délais maximum prévisionnels dexécution souhaités par l'acheteur : - prestation 1 : 3 mois à compter de lOS de démarrage de la prestation- prestation 2 : 5 semaines à compter de la date de validation de la prestation 1 par lacheteur- prestation 3 : 10 semaines à compter de lOS de démarrage de la prestation- prestation 4 : 5 semaines à compter de lOS de démarrage de la prestation\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-04-10T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Déclaration du candidat (en utilisant le formulaire DC1 annexé au DCE) afin de justifier qu'il n'entre dans aucun des cas mentionnés aux articles 45 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 relative aux marchés publics et notamment qu'il est en règle au regard des articles L. 5212-1 à L. 5212-11 du code du travail concernant l'emploi des travailleurs handicapés ; Au titre de l'aptitude à exercer l'activité professionnelle : - une preuve de son inscription sur un registre professionnel\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"-\\tla déclaration concernant son chiffre d'affaires global portant sur les 3 derniers exercices disponibles, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles, -\\tla preuve d'une assurance pour les risques professionnels pertinents. Si, pour une raison justifiée, le candidat n'est pas en mesure de produire les renseignements et documents demandés par l'acheteur, il est autorisé à prouver sa capacité économique et financière par tout autre moyen considéré comme approprié par l'acheteur.\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"- une liste des principaux services fournis au cours des trois (3) dernières années, indiquant le montant, la date et le destinataire public ou privé. Les prestations de services sont prouvées par des attestations des destinataires ou, à défaut, par une déclaration de lopérateur économique. - l'indication des titres détudes et professionnels du candidat ou des cadres de lentreprise, et notamment des responsables de prestation de services de même nature que celle du marché public\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-04-10\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Appel d'offres ouvert (art 25-I-1° et 66 à 68 du décret no 2016-360 du 25/03/16). Les documents de la consultation (DC) sont téléchargeables à l'adresse http://www.marches-securises.fr sous l'annonce TRIVALIS_85_20190219W2_01. Les communications et échanges d'informations seront effectués exclusivement par voie électronique suivant les dispositions prévues à l'article 3 du règlement de consultation. Pour ce faire, le candidat devra indiquer sur le site une adresse électronique valide et à jour. Pour obtenir tous les renseignements complémentaires sur le DCE, le candidat devra faire parvenir au plus tard 10 jours avant la date limite de réception des offres (DLRO) une demande écrite à Trivalis via le profil dacheteur www.marches-securises.fr. Les renseignements complémentaires, y compris les modifications de détail du DCE, sont mis en ligne sur la plateforme www.marches-securises.fr au plus tard 6 jours avant la DLRO. La remise des candidatures et des offres se fait uniquement par voie électronique à l'adresse www.marches-securises.fr sous l'annonce TRIVALIS_85_20190219W2_01 suivant les dispositions prévues à l'article 8 du RC. Aucune offre papier ne sera acceptée. Les candidats peuvent faire parvenir une copie de sauvegarde dans les délais impartis pour la remise des candidatures et des offres. La copie de sauvegarde peut être transmise à l'acheteur sur support papier ou sur support physique électronique. La copie de sauvegarde doit être placée dans un pli comportant la mention -copie de sauvegarde. La durée du marché court à compter de la date de sa notification jusquà lachèvement des prestations : prestation 2 si aucune tranche optionnelle n'est affermie, prestation 3 ou 4 selon la ou les tranches optionnelles affermies. La date prévisionnelle de notification est fixée au 1er juin 2019.Les variantes sont autorisées. Les exigences minimales ainsi que les modalités liées à leur présentation sont fixées à larticle 5-2 du RC.. Date d'envoi du présent avis au JOUE et au BOAMP : 6 mars 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé précontractuel (CJA, art. L. 551-1 et suivants) Référé contractuel (CJA, art. L.551-13 et suivants) Recours en contestation de validité du contrat, dans un délai de 2 mois à compter des mesures de publicité appropriées\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 Allée de l'île Gloriette CS 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES Cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso BP 24209\", \"CP\": \"44042\", \"VILLE\": \"NANTES cedex 1\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://www.economie.gouv.fr/files/directions_services/daj/marches_publics/ccra/contacts\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'ile gloriette CS 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES Cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-15074"
+  },
+  {
+   "idweb": "19-35016",
+   "id": "19_35016",
+   "contractfolderid": null,
+   "objet": "valorisation énergétique des refus de tri issus du centre de tri départemental des déchets ménagers recyclables",
+   "filename": "BOAMP-J-AO_2019_067009",
+   "famille": "JOUE",
+   "code_departement": [
+    "85"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2019-03-08",
+   "datefindiffusion": "2019-04-11",
+   "datelimitereponse": null,
+   "nomacheteur": "Syndicat Trivalis",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "274"
+   ],
+   "dc": [
+    "274"
+   ],
+   "descripteur_libelle": [
+    "Prestations de services"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-35016\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-35016.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-08\", \"DATE_FIN_DIFFUSION\": \"2019-04-11\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"valorisation énergétique des refus de tri issus du centre de tri départemental des déchets ménagers recyclables\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Syndicat Trivalis\", \"ADJUDICATEUR_NUTS\": \"FRG05\", \"ADRESSE\": \"31 rue de l'Atlantique CS 30605\", \"CP\": \"85015\", \"VILLE\": \"La Roche-sur-Yon\", \"TEL\": \"(+33) 2-51-45-14-51\", \"FAX\": \"(+33) 2-51-45-14-50\", \"MEL\": \"contact@trivalis.fr\", \"URL\": \"http://www.trivalis.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-securises.fr\", \"URL_PARTICIPATION\": \"http://www.marches-securises.fr\", \"URL_DOCUMENT\": \"http://www.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Syndicat Mixte Départemental d'Etudes et de Traitement des Déchets Ménagers et Assimilés de la Vendée\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ENVIRONNEMENT\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Valorisation énergétique des refus de tri issus du centre de tri départemental des déchets ménagers recyclables\", \"REF_MARCHE\": \"2019_M095\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Le marché public porte sur le traitement des refus de tri issus du centre de tri départemental de la Vendée qui doivent être traités dans une unité de valorisation énergétique afin d'être en adéquation avec les prescriptions de CITEO dans le cadre de l'extension des consignes de tri relatives aux emballages plastiques.\", \"CPV\": {\"PRINCIPAL\": \"90513000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Le titulaire assurera les prestations suivantes : - Le déchargement des déchets,- La valorisation énergétique des déchets par CSR ou par valorisation énergétique,- La prise en charge des déchets indésirables issus du tri pour la valorisation,- La remise à Trivalis des tickets de pesée justifiant les quantités facturées,- La remise à Trivalis, dun Bordereau de Suivi du Déchet (BSD, BSDI, BSDA, etc...) correctement complété, pour les déchets concernés par ce type de document,- La transmission dans les délais impartis des rapports mensuels et annuels relatant la bonne exécution des prestations,- La fourniture des justificatifs de traitement des déchets dans les filières adaptées (BSDI par exemple, attestation de valorisation). - Tout autre document relatif à la bonne gestion des déchets (fiche danomalie...).Tonnages estimés non contractuels : 24 430 tonnes sur la durée totale de l'accord-cadre.\", \"CPV\": {\"PRINCIPAL\": \"90513000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"2100000\"}, \"DATE_DEBUT\": \"2019-07-01\", \"DATE_FIN\": \"2022-12-31\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Accord-cadre non alloti, mono-attributaire, conclu sans minimum ni maximum en valeur ou en quantité, en application de larticle 78-II-3° du décret 2016-360 du 25/03/2016. Accord-cadre qui fixe toutes les stipulations contractuelles et exécuté par bons de commande.\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-04-11T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Le candidat produit à l'appui de sa candidature :- une déclaration sur lhonneur pour justifier qu'il n'entre dans aucun des cas mentionnés aux articles 45 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 relative aux marchés publics et notamment qu'il est en règle au regard des articles L. 5212-1 à L. 5212-11 du code du travail concernant l'emploi des travailleurs handicapés. Il pourra utiliser le formulaire DC1, annexe 0-1 du règlement de la consultation- une preuve de son inscription sur un registre professionnel.\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"Le candidat produit à l'appui de sa candidature :- Déclaration concernant son chiffre d'affaires global portant sur les 3 derniers exercices disponibles, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles- Preuve d'une assurance pour les risques professionnels pertinentsSi, pour une raison justifiée, le candidat n'est pas en mesure de produire les renseignements et documents demandés par l'acheteur, il est autorisé à prouver sa capacité économique et financière par tout autre moyen considéré comme approprié par l'acheteur.\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"Le candidat produit à l'appui de sa candidature :- Liste des principaux services fournis au cours des trois (3) dernières années indiquant le montant, la date et le destinataire public ou privé. Les prestations de services sont prouvées par des attestations des destinataires ou, à défaut, par une déclaration de lopérateur économique- Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pendant les trois (3) dernières années- Description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation du marché public\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"CONDITION_PARTICULIERE_EXECUTION\": \"Les sites de transfert et/ou de traitement devront être en conformité au titre de la réglementation liée aux installations classées pour la protection de lenvironnement. Le candidat fournira les arrêtés préfectoraux dexploitation (déclaration ou autorisation) de(s) site(s) de transfert et/ou de traitement proposé(s).\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-04-11\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Appel d'offres ouvert (art 25-i-1° et 66 à 68 du décret 2016-360 du 25/03/16). Documents de la consultation (Dce) mis à dispositiongratuitement à l'adresse http://www.marches-securises.fr sous l'annonce Trivalis_85_20190221w2_01. Les communications et échanges d'information seront effectuées exclusivement par voie électronique suivant les dispositions prévues à l'article 3 du règlement de consultation (Rc). Pour ce faire, le candidat devra indiquer sur le site une adresse électronique valide et à jour. Pour obtenir tous renseignements complémentaires sur le DCE, le candidat devra faire parvenir au plus tard 10 jours avant la date limite de réception des offres (Dlro) une demande écrite à Trivalis via le profil dacheteur www.marches-securises.fr. Les renseignements complémentaires, y compris les modifications de détail du DCE, sont mis en ligne sur la plateforme www.marches-securises.fr au plus tard 6 jours avant la DLRO. La remise des candidatures et des offres se fait uniquement par voie électronique à l'adresse www.marches-securises.fr sous l'annonce Trivalis_85_20190221w2_01 suivant les dispositions prévues à l'article 8 du RC. Aucune offre papier ne sera acceptée. Les candidats peuvent faire parvenir une copie de sauvegarde dans les délais impartis pour la remise des candidatures et  des offres. La copie de sauvegarde peut être transmise à l'acheteur sur support papier ou sur support physique électronique. La copie de sauvegarde doit être placée dans un pli comportant la mention -copie de sauvegarde-. . Date d'envoi du présent avis au JOUE et au BOAMP : 6 mars 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé précontractuel (CJA, art. L. 551-1 et suivants) Référé contractuel (CJA, art. L.551-13 et suivants) Recours en contestation de validité du contrat, dans un délai de 2 mois à compter des mesures de publicité appropriées\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'ile gloriette - CS 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) -40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso - BP 24209\", \"CP\": \"44042\", \"VILLE\": \"Nantes Cedex 1\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://www.economie.gouv.fr/files/directions_services/daj/marches_publics/ccra/contacts\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-35016"
   },
   {
    "idweb": "19-35460",
@@ -2909,6 +2853,70 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-35460\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-35460.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-08\", \"DATE_FIN_DIFFUSION\": \"2019-04-09\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}, {\"CODE\": \"312\", \"LIBELLE\": \"Routage\"}]}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Distribution du magazine du Département de maine-et-loire\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Département de Maine-et-Loire\", \"CODE_IDENT_NATIONAL\": \"22490001900015\", \"CONTACT\": \"Service de la commande publique et des assurances\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"Hôtel du Département - Direction des finances, des affaires juridiques et de l'évaluation - 48 B boulevard Foch - CS 94104\", \"CP\": \"49941\", \"VILLE\": \"ANGERS Cedex 09\", \"TEL\": \"(+33) 2-41-81-44-29\", \"MEL\": \"commande-publique@maine-et-loire.fr\", \"URL\": \"http://www.maine-et-loire.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.anjoumarchespublics.fr\", \"URL_PARTICIPATION\": \"http://www.anjoumarchespublics.fr\", \"URL_DOCUMENT\": \"http://www.anjoumarchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Distribution du magazine du Département de Maine-et-Loire\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Accord-cadre à bons de commande en application de l'article 4 de l'ordonnance du 23 juillet 2015 relative aux marchés publics, et des articles 78 et 80 du décret du 25 mars 2016 relatif aux marchés publics - Accord-cadre conclu avec un seul opérateur économique - L'accord-cadre est passé pour un minimum annuel de 4 numéros à 360 000 exemplaires et un maximum annuel de 8 numéros à 420 000 exemplaires. Il est passé pour une durée initiale d'un an à compter du 20 août 2019 ou de sa date de notification si celle-ci est postérieure et est ensuite reconductible une fois pour une période annuelle, par tacite reconduction.\", \"CPV\": {\"PRINCIPAL\": \"64121100\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Le magazine départemental est un magazine de 28 pages, d'un poids d'environ 65g. Il s'agit d'un bimestriel qui paraît en principe en début de mois à hauteur de six numéros par année civile (janvier, mars, mai, juillet, septembre et novembre). La distribution doit être assurée dans toutes les boites aux lettres, y compris celles mentionnant \\\" Pas de publicité \\\" ou \\\" Stop pub \\\", sur tout le territoire de Maine-et-Loire.\", \"CPV\": {\"PRINCIPAL\": \"64121100\"}, \"CODE_NUTS\": \"FRG02\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché prend effet à compter du 20 août 2019 ou de sa date de notification si celle-ci est postérieure. Le marché est passé pour une période initiale d'un an à compter de sa date de prise deffet. Il est ensuite reconductible une fois pour une période annuelle, par tacite reconduction.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"2021\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-04-09T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"3\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Le candidat produit une lettre de candidature (formulaire DC1 ou équivalent), avec une déclaration sur l'honneur justifiant qu'il n'entre dans aucun des cas d'interdiction de soumissionner mentionnés aux articles 45 et 48 de l'ordonnance du 23 juillet 2015\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"Le candidat produit une déclaration (formulaire DC2 ou équivalent) avec mention du chiffre d'affaires global et du chiffre d'affaires du domaine d'activités faisant l'objet du marché, sur les trois derniers exercices disponibles\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"Le candidat produit : * une liste des principales livraisons effectuées au cours des 3 dernières années avec indication des montants, dates et destinataires (notamment des références en lien avec l'objet et le périmètre du marché) ; * une déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pendant les 3 dernières années * des certificats de qualification professionnelle ou autres preuves de la capacité du candidat\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"CONDITION_PARTICULIERE_EXECUTION\": \"Les soumissionnaires sont invités à sengager, en annexe à lacte dengagement, sur un nombre minimal dheures de travail réservées à linsertion\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-04-09\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"en cas de versement d'une avance, le titulaire doit constituer une garantie à première demande garantissant le remboursement total de cette avance - délai maximum de paiement de 30 jours ; financement sur ressources propres de la collectivité - irrecevabilité des candidatures : * Candidat se trouvant dans un des cas d'interdiction de soumissionner prévus par les articles 45 et 48 de l'ordonnance du 23 juillet 2015 * Dossier incomplet (ne comprenant pas l'ensemble des pièces demandées) * Capacités professionnelles, techniques et financières insuffisantes * Production de faux renseignements ou documents - les candidatures et offres doivent être obligatoirement transmises par voie électronique sur le profil d'acheteur de la collectivité - pour obtenir les documents de la consultation, les candidats doivent les télécharger sur le profil d'acheteur de la collectivité - date prévisionnelle de commencement des prestations : 20/08/2019 - unité de compte : euros. Date d'envoi du présent avis au JOUE et au BOAMP : 6 mars 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile Gloriette - CS 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES Cedex 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile Gloriette - CS 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES Cedex 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-35460"
+  },
+  {
+   "idweb": "19-37141",
+   "id": "19_37141",
+   "contractfolderid": null,
+   "objet": "réalisation d'un nouvel espace socioculturel à servon-sur-vilaine",
+   "filename": "BOAMP-N-AO_2019_067011",
+   "famille": "FNS",
+   "code_departement": [
+    "35",
+    "44",
+    "53"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2019-03-08",
+   "datefindiffusion": "2019-04-05",
+   "datelimitereponse": null,
+   "nomacheteur": "COMMUNE DE SERVON SUR VILAINE",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "117",
+    "222"
+   ],
+   "dc": [
+    "117",
+    "222"
+   ],
+   "descripteur_libelle": [
+    "Etanchéité",
+    "Menuiserie"
+   ],
+   "type_marche": [
+    "TRAVAUX"
+   ],
+   "type_marche_facette": [
+    "Travaux"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-37141\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-37141.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-08\", \"DATE_FIN_DIFFUSION\": \"2019-04-05\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"117\", \"LIBELLE\": \"Etanchéité\"}, {\"CODE\": \"222\", \"LIBELLE\": \"Menuiserie\"}]}, \"DEP_PUBLICATION\": [\"35\", \"44\", \"53\"], \"RESUME_OBJET\": \"réalisation d'un nouvel espace socioculturel à servon-sur-vilaine\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"COMMUNE DE SERVON SUR VILAINE\", \"CORRESPONDANT\": \"Armand HENRY\", \"ADRESSE\": \"rue Theodore Gaudiche\", \"CP\": \"35530\", \"VILLE\": \"SERVON-SUR-VILAINE\", \"TEL\": \"(+33)2-99-00-11-85\", \"MEL\": \"contact@ville-servonsurvilaine.fr\", \"URL\": \"https://www.ville-servonsurvilaine.fr/\", \"URL_PROFIL_ACHETEUR\": \"https://www.megalisbretagne.org/\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"OBJET\": {\"TYPE_MARCHE\": {\"TRAVAUX\": {\"EXECUTION\": \"\"}}, \"OBJET_COMPLET\": \"Réalisation d'un nouvel espace socioculturel à Servon-sur-Vilaine\", \"CPV\": {\"PRINCIPAL\": \"45000000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"rue Saint-Martin\", \"CP\": \"35530\", \"VILLE\": \"SERVON-SUR-VILAINE\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"3399300\"}}, \"DUREE_DELAI\": {\"DATE_EXECUTION\": \"2019-05-01\", \"DATE_LIVRAISON\": \"2019-05-01\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"6\", \"DESCRIPTION\": \"Etanchéité\"}, {\"NUM\": \"8\", \"DESCRIPTION\": \"Menuiseries extérieures\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"CONDITION_PARTICIPATION\": {\"ELIGIBLE_MPS\": {\"non\": \"\"}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-37141"
   },
   {
    "idweb": "19-36755",

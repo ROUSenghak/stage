@@ -2,33 +2,31 @@
  "total_count": 3114,
  "results": [
   {
-   "idweb": "16-135657",
-   "id": "16_135657",
+   "idweb": "16-136460",
+   "id": "16_136460",
    "contractfolderid": null,
-   "objet": "Elaboration d'un plan local d'urbanisme intercommunal",
-   "filename": "BOAMP-J-IC-AA_2016_263009",
-   "famille": "JOUE",
+   "objet": "Transcription audio, par voix humaine, de documents (textes et photos)",
+   "filename": "BOAMP-N-IC-AA_2016_263011",
+   "famille": "FNS",
    "code_departement": [
-    "53",
-    "35"
+    "44"
    ],
    "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
    "dateparution": "2016-09-19",
-   "datefindiffusion": "2016-11-01",
+   "datefindiffusion": "2016-11-30",
    "datelimitereponse": null,
-   "nomacheteur": "Cté de Cnes du Pays de Meslay-Grez",
+   "nomacheteur": "Conseil régional des Pays de la Loire",
    "titulaire": [
-    "CITADIA CONSEIL",
-    "SELARL LAHALLE DERVILLERS CABINET LEXCAP"
+    "MEDIAMEETING"
    ],
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
    "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
    "nature": "ATTRIBUTION",
-   "sousnature": "STANDARD",
+   "sousnature": null,
    "nature_libelle": "Résultat de marché",
    "sousnature_libelle": null,
    "nature_categorise": "attribution/standard",
@@ -38,19 +36,13 @@
    "marche_public_simplifie_label": null,
    "etat": "INITIAL",
    "descripteur_code": [
-    "118",
-    "274",
-    "434"
+    "22"
    ],
    "dc": [
-    "118",
-    "274",
-    "434"
+    "22"
    ],
    "descripteur_libelle": [
-    "Etude",
-    "Prestations de services",
-    "Assistance juridique"
+    "Audiovisuel"
    ],
    "type_marche": [
     "SERVICES"
@@ -64,13 +56,13 @@
     "6"
    ],
    "annonce_lie": [
-    "16-67358"
+    "16-84309"
    ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"16-67358\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-05-10\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-05-13\", \"DATE_FIN_DIFFUSION\": \"2016-06-20\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"092\", \"NUM_ANNONCE\": \"164346\", \"DATE_PUBLICATION\": \"2016-05-13\"}}]}",
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"16-84309\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-06-08\", \"DATE_FIN_DIFFUSION\": \"2016-06-30\"}}}",
    "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-135657\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-67358\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-05-10\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-05-13\", \"DATE_FIN_DIFFUSION\": \"2016-06-20\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"092\", \"NUM_ANNONCE\": \"164346\", \"DATE_PUBLICATION\": \"2016-05-13\"}}]}}, \"NOM_HTML\": \"16-135657.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-09-19\", \"DATE_FIN_DIFFUSION\": \"2016-11-01\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"118\", \"LIBELLE\": \"Etude\"}, {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}, {\"CODE\": \"434\", \"LIBELLE\": \"Assistance juridique\"}]}, \"DEP_PUBLICATION\": [\"53\", \"35\"], \"RESUME_OBJET\": \"Elaboration d'un plan local d'urbanisme intercommunal\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Cté de Cnes du Pays de Meslay-Grez\", \"ADJUDICATEUR_NUTS\": \"FR\", \"ADRESSE\": \"1 voie de la Guiternière\", \"CP\": \"53170\", \"VILLE\": \"MESLAY DU MAINE\", \"TEL\": \"(+33) 1-02-43-64-29-00\", \"FAX\": \"(+33) 1-02-43-98-75-52\", \"MEL\": \"contact@paysmeslaygrez.fr\", \"URL\": \"http://www.paysmeslaygrez.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.groupe-ada.com\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Communauté de Communes\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Elaboration dun Plan Local dUrbanisme Intercommunal\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Elaboration d'un plan local d'urbanisme intercommunal\", \"CPV\": {\"PRINCIPAL\": \"71410000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Elaboration d'un plan local d'urbanisme intercommunal\", \"DESCRIPTION\": \"Elaboration d'un plan local d'urbanisme intercommunal\", \"CPV\": {\"PRINCIPAL\": \"71410000\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"1\", \"#text\": \"Délais d'exécution\"}, {\"@POIDS\": \"6\", \"#text\": \"Valeur technique\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"3\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Tranche conditionnelle : Etude loi Barnieroption 1 : Programme local de l'Habitatoption 2 : schéma local de déplacement\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Etudes environnementales (inventaire des zones humides et inventaire bocager\", \"DESCRIPTION\": \"Etudes environnementales (inventaire des zones humides et inventaire bocager\", \"CPV\": {\"PRINCIPAL\": \"71313400\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"1\", \"#text\": \"Délais d'exécution\"}, {\"@POIDS\": \"6\", \"#text\": \"Valeur technique\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"3\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Assistance juridique\", \"DESCRIPTION\": \"Assistance juridique\", \"CPV\": {\"PRINCIPAL\": \"79140000\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"1\", \"#text\": \"Délais d'exécution\"}, {\"@POIDS\": \"6\", \"#text\": \"Valeur technique\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"3\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2016\", \"NUM_PARUTION\": \"092\", \"NUM_ANNONCE\": \"164346\", \"DATE_PUBLICATION\": \"2016-05-13\"}}}, \"ATTRIBUTION\": {\"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2016PLUI1\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Elaboration d'un plan local d'urbanisme intercommunal\", \"TITULAIRE\": {\"DENOMINATION\": \"CITADIA CONSEIL\", \"ADRESSE\": \"37 Avenue du Général Patton\", \"CP\": \"49000\", \"VILLE\": \"ANGERS\", \"CODE_NUTS\": \"FR\", \"TEL\": \"(+33) 1-09-65-10-52-24\", \"FAX\": \"(+33) 1-02-85-35-70-50\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-07-29\", \"NB_OFFRE_RECU\": \"4\", \"NB_OFFRE_RECU_ELECT\": \"1\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"246370\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2016PLUI3\", \"NUM_LOT\": \"3\", \"INTITULE\": \"Assistance juridique\", \"TITULAIRE\": {\"DENOMINATION\": \"SELARL LAHALLE DERVILLERS CABINET LEXCAP\", \"ADRESSE\": \"304 Rue de Fougères\", \"CP\": \"35700\", \"VILLE\": \"RENNES\", \"CODE_NUTS\": \"FR\", \"TEL\": \"(+33) 1-02-23-20-90-50\", \"FAX\": \"(+33) 1-02-23-20-90-59\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-08-05\", \"NB_OFFRE_RECU\": \"4\", \"NB_OFFRE_RECU_ELECT\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"21600\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 16 septembre 2016.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'ile-glorietteBP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES CEDEX 1\", \"TEL\": \"(+33) 1-02-40-99-46-00\", \"MEL\": \"greffe.tanantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr\"}}}, \"ANNEXE_D1\": \"\"}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-135657"
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-136460\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-84309\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-06-08\", \"DATE_FIN_DIFFUSION\": \"2016-06-30\"}}}}, \"NOM_HTML\": \"16-136460.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-09-19\", \"DATE_FIN_DIFFUSION\": \"2016-11-30\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"22\", \"LIBELLE\": \"Audiovisuel\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Transcription audio, par voix humaine, de documents (textes et photos)\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Conseil régional des Pays de la Loire\", \"CORRESPONDANT\": \"M. le Président, Région des Pays de la Loire\", \"ADRESSE\": \"1 rue de la Loire\", \"CP\": \"44966\", \"VILLE\": \"Nantes cedex 9\", \"URL\": \"http://www.paysdelaloire.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.paysdelaloire.fr\"}, \"TYPE_ORGANISME\": {\"REGION\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"27\"}, \"OBJET_COMPLET\": \"Transcription audio, par voix humaine, de documents (textes et photos)\", \"CPV\": {\"PRINCIPAL\": \"32353000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Région des pays de la loire\", \"CODE_NUTS\": \"FR51\"}, \"AMP_OUI\": \"\"}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"DESCRIPTION\": \"TRANSCRIPTION AUDIO, PAR VOIX HUMAINE, DE DOCUMENTS (TEXTES ET PHOTOS)\", \"AUTRES_INFORMATIONS\": \"Durée : 12 mois reconductible 3 fois 12 mois\", \"TITULAIRE\": {\"DENOMINATION\": \"MEDIAMEETING\", \"ADRESSE\": \"99 route d'Espagne - Les portes d'Espagne -Bâtiment A\", \"CP\": \"31000\", \"VILLE\": \"Toulouse\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-08-17\", \"MONTANT_MINI\": {\"@DEVISE\": \"EUR\", \"#text\": \"5000\"}, \"MONTANT_MAXI\": {\"@DEVISE\": \"EUR\", \"#text\": \"25000\"}}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"1 rue de l'Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"1 rue de l'Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-136460"
   },
   {
    "idweb": "16-136139",
@@ -193,6 +185,69 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-136193"
   },
   {
+   "idweb": "16-135749",
+   "id": "16_135749",
+   "contractfolderid": null,
+   "objet": "Enquêtes pour la Région des pays de la Loire",
+   "filename": "BOAMP-J-IC-AA_2016_263009",
+   "famille": "JOUE",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2016-09-19",
+   "datefindiffusion": "2016-11-30",
+   "datelimitereponse": null,
+   "nomacheteur": "Conseil régional des Pays de la Loire",
+   "titulaire": [
+    "IFOP"
+   ],
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "ATTRIBUTION",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "471"
+   ],
+   "dc": [
+    "471"
+   ],
+   "descripteur_libelle": [
+    "Sondage, enquête"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "16-52546"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"16-52546\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-04-12\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-04-14\", \"DATE_FIN_DIFFUSION\": \"2016-05-23\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"073\", \"NUM_ANNONCE\": \"126957\", \"DATE_PUBLICATION\": \"2016-04-14\"}}]}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-135749\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-52546\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-04-12\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-04-14\", \"DATE_FIN_DIFFUSION\": \"2016-05-23\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"073\", \"NUM_ANNONCE\": \"126957\", \"DATE_PUBLICATION\": \"2016-04-14\"}}]}}, \"NOM_HTML\": \"16-135749.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-09-19\", \"DATE_FIN_DIFFUSION\": \"2016-11-30\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"471\", \"LIBELLE\": \"Sondage, enquête\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Enquêtes pour la Région des pays de la Loire\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Conseil régional des Pays de la Loire\", \"CONTACT\": \"Service des marchés publics\", \"ADJUDICATEUR_NUTS\": \"FR51\", \"ADRESSE\": \"1 rue de la Loire\", \"CP\": \"44966\", \"VILLE\": \"Nantes cedex 9\", \"TEL\": \"(+33) 2-28-20-58-38\", \"MEL\": \"demandedce@paysdelaloire.fr\", \"URL\": \"https://www.paysdelaloire.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.paysdelaloire.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Enquêtes pour la Région des pays de la Loire\", \"REF_MARCHE\": \"28007-AC-MIXTE\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Réalisation d'enquêtes auprès d'un échantillon représentatif de la population de la Région des Pays de la Loire et/ou la mise en place de groupes \\\" quali \\\"\", \"CPV\": {\"PRINCIPAL\": \"79311200\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Réalisation d'enquêtes auprès d'un échantillon représentatif de la population de la Région des Pays de la Loire et/ou la mise en place de groupes <&lt; quali >&gt;\", \"CPV\": {\"PRINCIPAL\": \"79311200\"}, \"CODE_NUTS\": \"FR51\", \"LIEU_PRINCIPAL\": \"Nantes\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"30\", \"#text\": \"Pertinence des modalités de définition et de l'importance de l'échantillon\"}, {\"@POIDS\": \"20\", \"#text\": \"Pertinence de la méthodologie (incluant le rétro-planning type) et des moyens humains et techniques mis en oeuvre\"}, {\"@POIDS\": \"15\", \"#text\": \"Pertinence du questionnaire proposé pour l'enquête\"}, {\"@POIDS\": \"5\", \"#text\": \"Qualité et pertinence des références\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"30\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Le présent accord-cadre comporte une option de reconduction expresse ; il est reconductible 3 fois par période de 12 mois sans que la durée totale du marché n'excède 48 mois\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"073\", \"NUM_ANNONCE\": \"126957\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2016-28007\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Réalisation d'enquêtes auprès d'un échantillon représentatif de la population de la Région des Pays de la Loire et/ou la mise en place de groupes << quali >>\", \"TITULAIRE\": {\"DENOMINATION\": \"IFOP\", \"ADRESSE\": \"Immeuble le Millénaire 2 - 35 rue de la Gare\", \"CP\": \"75019\", \"VILLE\": \"Paris\", \"CODE_NUTS\": \"FR101\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-08-05\", \"NB_OFFRE_RECU\": \"10\", \"NB_OFFRE_RECU_PME\": \"9\", \"NB_OFFRE_RECU_ELECT\": \"10\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"400000\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 16 septembre 2016.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif Interrégional de Règlement Amiable des litiges relatifs aux marchés publics de Nantes (C.C.I.R.A.)\", \"ADRESSE\": \"Préfecture de la Région des Pays de la Loire DIRECCTE Immeuble Skyline 22 mail Pablo Picasso\", \"CP\": \"44042\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-53-46-79-14\", \"FAX\": \"(+33) 2-53-46-79-98\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-135749"
+  },
+  {
    "idweb": "16-135732",
    "id": "16_135732",
    "contractfolderid": null,
@@ -258,69 +313,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-135732\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-33849\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-03-09\", \"DATE_FIN_DIFFUSION\": \"2016-04-08\"}}}}, \"NOM_HTML\": \"16-135732.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-09-19\", \"DATE_FIN_DIFFUSION\": \"2016-10-30\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"410\", \"LIBELLE\": \"Formation\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Programme régional de formation des acteurs de l'apprentissage\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Conseil régional des Pays de la Loire\", \"CORRESPONDANT\": \"M. le Président, Région des Pays de la Loire\", \"ADRESSE\": \"1 rue de la Loire\", \"CP\": \"44966\", \"VILLE\": \"Nantes cedex 9\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.paysdelaloire.fr\"}, \"TYPE_ORGANISME\": {\"REGION\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"24\"}, \"OBJET_COMPLET\": \"Programme régional de formation des acteurs de l'apprentissage\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Région des Pays de la Loire\", \"CP\": \"44966\", \"VILLE\": \"Nantes cedex 9\", \"CODE_NUTS\": \"FR51\"}, \"AMP_OUI\": \"\"}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"35\", \"#text\": \"Lot 1 : valeur pédagogique eu égard à la proposition pédagogique, à sa pertinence au regard du contexte et du public concerné\"}, {\"@POIDS\": \"35\", \"#text\": \"Lot 1 : qualité des compétences et des qualifications du ou des formateur(s) proposé(s) pour réaliser les formations, jugée sur leurs connaissances avérées aux plans technologiques et professionnels, aux plans pédagogiques et didactiques ainsi que sur l' expertise dans la discipline. L'ensemble sera apprécié au vu du curriculum vitae ou tout autre document administratif les justifiant\"}, {\"@POIDS\": \"30\", \"#text\": \"Lot 1 : prix des prestations apprécié au regard du montant total HTVA de la simulation de facturation (annexe 3 à l'acte d'engagement). Une fois les offres anormalement basses rejetées, le candidat ayant l'offre financière la moins disante obtient la note maximale et est classé premier sur ce critère. Les autres candidats seront notés proportionnellement en fonction de l'écart constaté entre leurs offres et l'offre la moins disante. Toute offre financière dont le montant est supérieur ou égal à 2 fois le montant de l'offre financière la moins disante, se verra attribuer la note de 0.\"}, {\"@POIDS\": \"35\", \"#text\": \"Lot 2 : valeur pédagogique appréciée eu égard à la proposition pédagogique, à sa pertinence au regard du contexte et du public concerné\"}, {\"@POIDS\": \"35\", \"#text\": \"Lot 2 : qualité des compétences et des qualifications du ou des formateur(s) proposé(s) pour réaliser les formations, jugée sur leurs connaissances avérées aux plans technologiques et professionnels, aux plans pédagogiques et didactiques ainsi que sur leurs qualifications validées par l'INRS et à jour de leur recyclage pour dispenser les formations. L'ensemble sera apprécié au vu du curriculum vitae ou tout autre document administratif les justifiant\"}, {\"@POIDS\": \"30\", \"#text\": \"Lot 2 : prix des prestations apprécié au regard du montant total HTVA de la simulation de facturation (annexe 3 à l'acte d'engagement). Une fois les offres anormalement basses rejetées, le candidat ayant l'offre financière la moins disante obtient la note maximale et est classé premier sur ce critère. Les autres candidats seront notés proportionnellement en fonction de l'écart constaté entre leurs offres et l'offre la moins disante. Toute offre financière dont le montant est supérieur ou égal à 2 fois le montant de l'offre financière la moins disante, se verra attribuer la note de 0.\"}, {\"@POIDS\": \"35\", \"#text\": \"Lot 3 : valeur pédagogique appréciée eu égard à la proposition pédagogique, à sa pertinence au regard du contexte et du public concerné\"}, {\"@POIDS\": \"35\", \"#text\": \"Lot 3 : qualité des compétences et des qualifications du ou des formateur(s) proposé(s) pour réaliser les formations, jugée sur l'expertise dans le domaine concerné par l'objet du marché, sur leurs expériences significatives en formation d'adultes et notamment en formation de formateurs ainsi que sur leurs connaissances avérées des dispositifs de l'alternance. L'ensemble sera apprécié au vu du curriculum vitae ou tout autre document administratif les justifiant\"}, {\"@POIDS\": \"30\", \"#text\": \"Lot 3 : prix des prestations apprécié au regard du montant total HTVA de la simulation de facturation (annexe 3 à l'acte d'engagement). Une fois les offres anormalement basses rejetées, le candidat ayant l'offre financière la moins disante obtient la note maximale et est classé premier sur ce critère. Les autres candidats seront notés proportionnellement en fonction de l'écart constaté entre leurs offres et l'offre la moins disante. Toute offre financière dont le montant est supérieur ou égal à 2 fois le montant de l'offre financière la moins disante, se verra attribuer la note de 0.\"}, {\"@POIDS\": \"35\", \"#text\": \"Lot 4 : valeur pédagogique appréciée eu égard à la proposition pédagogique, à sa pertinence au regard du contexte et du public concerné\"}, {\"@POIDS\": \"35\", \"#text\": \"Lot 4 : qualité des compétences et des qualifications du ou des formateur(s) proposé(s) pour réaliser les formations, jugée sur l' expertise dans le domaine concerné par l'objet du marché, de leur formation en ingénierie de formation, en sciences de l'éducation, en psychologie, sur leurs expériences significatives en formation d'adultes et notamment en formation de formateurs ainsi que sur leur bonne connaissance des dispositifs de l'alternance. L'ensemble sera apprécié au vu du curriculum vitae ou tout autre document administratif les justifiant\"}, {\"@POIDS\": \"30\", \"#text\": \"Lot 4 : prix des prestations apprécié au regard du montant total HTVA de la simulation de facturation (annexe 3 à l'acte d'engagement). Une fois les offres anormalement basses rejetées, le candidat ayant l'offre financière la moins disante obtient la note maximale et est classé premier sur ce critère. Les autres candidats seront notés proportionnellement en fonction de l'écart constaté entre leurs offres et l'offre la moins disante. Toute offre financière dont le montant est supérieur ou égal à 2 fois le montant de l'offre financière la moins disante, se verra attribuer la note de 0.\"}, {\"@POIDS\": \"35\", \"#text\": \"Lot 5 : valeur pédagogique appréciée eu égard à la proposition pédagogique, à sa pertinence au regard du contexte et du public concerné\"}, {\"@POIDS\": \"35\", \"#text\": \"Lot 5 : qualité des compétences et des qualifications du ou des formateur(s) proposé(s) pour réaliser les formations, jugée sur l'expertise dans le domaine concerné par l'objet du marché, les expériences significatives en formation d'adultes ainsi que la connaissance des dispositifs de l'alternance. L'ensemble sera apprécié au vu du curriculum vitae ou tout autre document administratif les justifiant\"}, {\"@POIDS\": \"30\", \"#text\": \"Lot 5 : prix des prestations apprécié au regard du montant total HTVA de la simulation de facturation (annexe 3 à l'acte d'engagement). Une fois les offres anormalement basses rejetées, le candidat ayant l'offre financière la moins disante obtient la note maximale et est classé premier sur ce critère. Les autres candidats seront notés proportionnellement en fonction de l'écart constaté entre leurs offres et l'offre la moins disante. Toute offre financière dont le montant est supérieur ou égal à 2 fois le montant de l'offre financière la moins disante, se verra attribuer la note de 0.\"}]}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_LOT\": \"1\", \"DESCRIPTION\": \"La contribution des disciplines à la construction des compétences dans une logique d'individualisation de la formation\", \"TITULAIRE\": {\"DENOMINATION\": \"GIP EXPERIENCE\", \"ADRESSE\": \"8-10 rue général margueritte bp 43516\", \"CP\": \"44035\", \"VILLE\": \"Nantes cedex 01\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-08-16\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"140000\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"2\", \"DESCRIPTION\": \"L'enseignement de la santé et de la sécurité au travail (ESetST)\", \"TITULAIRE\": {\"DENOMINATION\": \"GIP EXPERIENCE\", \"ADRESSE\": \"8-10 rue général margueritte bp 43516\", \"CP\": \"44035\", \"VILLE\": \"Nantes cedex 01\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-08-16\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"140000\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"3\", \"DESCRIPTION\": \"L'accompagnement de l'apprenti dans une insertion réussie\", \"TITULAIRE\": {\"DENOMINATION\": \"GROUPEMENT INFREP IP2A\", \"ADRESSE\": \"21 rue saint fargeau bp 313\", \"CP\": \"75989\", \"VILLE\": \"Paris\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-06-15\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"10000\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"4\", \"DESCRIPTION\": \"Le savoir être en formation au service de la réussite éducative\", \"TITULAIRE\": {\"DENOMINATION\": \"IME OUEST\", \"ADRESSE\": \"579 route de la bourgonnière\", \"CP\": \"49290\", \"VILLE\": \"Chalonnes sur loire\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-06-17\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"100000\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"5\", \"DESCRIPTION\": \"Le management de proximité\", \"TITULAIRE\": {\"DENOMINATION\": \"IME OUEST\", \"ADRESSE\": \"579 route de la bourgonnière\", \"CP\": \"49290\", \"VILLE\": \"Chalonnes sur loire\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-06-17\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"80000\"}}}]}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"1 rue de l'Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"1 rue de l'Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-135732"
-  },
-  {
-   "idweb": "16-135749",
-   "id": "16_135749",
-   "contractfolderid": null,
-   "objet": "Enquêtes pour la Région des pays de la Loire",
-   "filename": "BOAMP-J-IC-AA_2016_263009",
-   "famille": "JOUE",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2016-09-19",
-   "datefindiffusion": "2016-11-30",
-   "datelimitereponse": null,
-   "nomacheteur": "Conseil régional des Pays de la Loire",
-   "titulaire": [
-    "IFOP"
-   ],
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "ATTRIBUTION",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "471"
-   ],
-   "dc": [
-    "471"
-   ],
-   "descripteur_libelle": [
-    "Sondage, enquête"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "16-52546"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"16-52546\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-04-12\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-04-14\", \"DATE_FIN_DIFFUSION\": \"2016-05-23\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"073\", \"NUM_ANNONCE\": \"126957\", \"DATE_PUBLICATION\": \"2016-04-14\"}}]}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-135749\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-52546\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-04-12\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-04-14\", \"DATE_FIN_DIFFUSION\": \"2016-05-23\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"073\", \"NUM_ANNONCE\": \"126957\", \"DATE_PUBLICATION\": \"2016-04-14\"}}]}}, \"NOM_HTML\": \"16-135749.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-09-19\", \"DATE_FIN_DIFFUSION\": \"2016-11-30\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"471\", \"LIBELLE\": \"Sondage, enquête\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Enquêtes pour la Région des pays de la Loire\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Conseil régional des Pays de la Loire\", \"CONTACT\": \"Service des marchés publics\", \"ADJUDICATEUR_NUTS\": \"FR51\", \"ADRESSE\": \"1 rue de la Loire\", \"CP\": \"44966\", \"VILLE\": \"Nantes cedex 9\", \"TEL\": \"(+33) 2-28-20-58-38\", \"MEL\": \"demandedce@paysdelaloire.fr\", \"URL\": \"https://www.paysdelaloire.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.paysdelaloire.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Enquêtes pour la Région des pays de la Loire\", \"REF_MARCHE\": \"28007-AC-MIXTE\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Réalisation d'enquêtes auprès d'un échantillon représentatif de la population de la Région des Pays de la Loire et/ou la mise en place de groupes \\\" quali \\\"\", \"CPV\": {\"PRINCIPAL\": \"79311200\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Réalisation d'enquêtes auprès d'un échantillon représentatif de la population de la Région des Pays de la Loire et/ou la mise en place de groupes <&lt; quali >&gt;\", \"CPV\": {\"PRINCIPAL\": \"79311200\"}, \"CODE_NUTS\": \"FR51\", \"LIEU_PRINCIPAL\": \"Nantes\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"30\", \"#text\": \"Pertinence des modalités de définition et de l'importance de l'échantillon\"}, {\"@POIDS\": \"20\", \"#text\": \"Pertinence de la méthodologie (incluant le rétro-planning type) et des moyens humains et techniques mis en oeuvre\"}, {\"@POIDS\": \"15\", \"#text\": \"Pertinence du questionnaire proposé pour l'enquête\"}, {\"@POIDS\": \"5\", \"#text\": \"Qualité et pertinence des références\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"30\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Le présent accord-cadre comporte une option de reconduction expresse ; il est reconductible 3 fois par période de 12 mois sans que la durée totale du marché n'excède 48 mois\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"073\", \"NUM_ANNONCE\": \"126957\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2016-28007\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Réalisation d'enquêtes auprès d'un échantillon représentatif de la population de la Région des Pays de la Loire et/ou la mise en place de groupes << quali >>\", \"TITULAIRE\": {\"DENOMINATION\": \"IFOP\", \"ADRESSE\": \"Immeuble le Millénaire 2 - 35 rue de la Gare\", \"CP\": \"75019\", \"VILLE\": \"Paris\", \"CODE_NUTS\": \"FR101\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-08-05\", \"NB_OFFRE_RECU\": \"10\", \"NB_OFFRE_RECU_PME\": \"9\", \"NB_OFFRE_RECU_ELECT\": \"10\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"400000\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 16 septembre 2016.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif Interrégional de Règlement Amiable des litiges relatifs aux marchés publics de Nantes (C.C.I.R.A.)\", \"ADRESSE\": \"Préfecture de la Région des Pays de la Loire DIRECCTE Immeuble Skyline 22 mail Pablo Picasso\", \"CP\": \"44042\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-53-46-79-14\", \"FAX\": \"(+33) 2-53-46-79-98\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-135749"
   },
   {
    "idweb": "16-136057",
@@ -3065,6 +3057,73 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-138106"
   },
   {
+   "idweb": "16-139075",
+   "id": "16_139075",
+   "contractfolderid": null,
+   "objet": "Réalisation d'actions de formation dans les sous-domaines K3 ' Insertion et développement social' et K6 'Méthodologie du travail social' pour le compte de l'INSET",
+   "filename": "BOAMP-N-AO_2016_267005",
+   "famille": "FNS",
+   "code_departement": [
+    "49",
+    "56",
+    "16",
+    "53",
+    "44",
+    "29",
+    "75",
+    "72",
+    "37"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2016-09-23",
+   "datefindiffusion": "2016-11-14",
+   "datelimitereponse": "2016-11-14T15:00:00+00:00",
+   "nomacheteur": "CNFPT - INSET d'Angers",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "410"
+   ],
+   "dc": [
+    "410"
+   ],
+   "descripteur_libelle": [
+    "Formation"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-139075\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-139075.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-09-23\", \"DATE_LIMITE_REPONSE\": \"2016-11-14T16:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2016-11-14\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"410\", \"LIBELLE\": \"Formation\"}}, \"DEP_PUBLICATION\": [\"49\", \"56\", \"16\", \"53\", \"44\", \"29\", \"75\", \"72\", \"37\"], \"RESUME_OBJET\": \"Réalisation d'actions de formation dans les sous-domaines K3 ' Insertion et développement social' et K6 'Méthodologie du travail social' pour le compte de l'INSET\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CNFPT - INSET d'Angers\", \"CORRESPONDANT\": \"Mme CLAUDE Stéphanie, CNFPT - INSET d'Angers\", \"ADRESSE\": \"Rue du Nid de Pie - CS 62020\", \"CP\": \"49016\", \"VILLE\": \"Angers cedex 01\", \"TEL\": \"02-41-22-41-22\", \"FAX\": \"02-41-73-27-70\", \"MEL\": \"stephanie.claude@cnfpt.fr\", \"URL\": \"http://www.cnfpt.fr\"}, \"TYPE_ORGANISME\": {\"EPN\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"FORMATION PROFESSIONNELLE\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"24\"}, \"OBJET_COMPLET\": \"Réalisation d'actions de formation dans les sous-domaines K3 ' Insertion et développement social' et K6 'Méthodologie du travail social' pour le compte de l'INSET d'Angers\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}, \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FR51\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Marché de prestation de services s'exécutant par émissions de bons de commande et traité à prix unitaires. Il est composé de 12 lots.\", \"QUANTITE\": \"Réalisation d'actions de formation dans les sous-domaines K3 ' Insertion et développement social' et K6 'Méthodologie du travail social' pour le compte de l'INSET d'Angers\"}, \"DUREE_DELAI\": {\"DATE_DEBUT\": \"2017-01-01\", \"DATE_FIN\": \"2017-12-31\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Méthodologie de projet dans l'action sociale, développement social local\", \"DESCRIPTION\": \"Réalisation d'actions de formation dans le sous-domaine K6\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}}, {\"NUM\": \"2\", \"INTITULE\": \"Le management d'équipe, de services et d'établissement\", \"DESCRIPTION\": \"Réalisation d'actions de formation dans le sous-domaine K6\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}}, {\"NUM\": \"3\", \"INTITULE\": \"Contexte d'exercice du cadre de l'action sociale\", \"DESCRIPTION\": \"Réalisation d'actions de formation dans le sous-domaine K6\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}}, {\"NUM\": \"4\", \"INTITULE\": \"Organisation territorialisée de l'action sociale\", \"DESCRIPTION\": \"Réalisation d'actions de formation dans le sous-domaine K6\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}}, {\"NUM\": \"5\", \"INTITULE\": \"Approche interculturelle dans l'action sociale\", \"DESCRIPTION\": \"Réalisation d'actions de formation dans le sous-domaine K6\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}}, {\"NUM\": \"6\", \"INTITULE\": \"Politiques d'insertion sociale et professionnelle\", \"DESCRIPTION\": \"Réalisation d'actions de formation dans le sous-domaine K3\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}}, {\"NUM\": \"7\", \"INTITULE\": \"Insertion par l'activité économique\", \"DESCRIPTION\": \"Réalisation d'actions de formation dans le sous-domaine K3\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}}, {\"NUM\": \"8\", \"INTITULE\": \"La lutte contre les exclusions et la pauvreté\", \"DESCRIPTION\": \"Réalisation d'actions de formation dans le sous-domaine K6\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}}, {\"NUM\": \"9\", \"INTITULE\": \"Pauvreté et territoires\", \"DESCRIPTION\": \"Réalisation d'actions de formation dans le sous-domaine K6\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}}, {\"NUM\": \"10\", \"INTITULE\": \"Accès aux droits et aux services\", \"DESCRIPTION\": \"Réalisation d'actions de formation dans le sous-domaine K6\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}}, {\"NUM\": \"11\", \"INTITULE\": \"Action sociale et numérique\", \"DESCRIPTION\": \"Réalisation d'actions de formation dans le sous-domaine K6\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}}, {\"NUM\": \"12\", \"INTITULE\": \"Prévention de la radicalisation\", \"DESCRIPTION\": \"Réalisation d'actions de formation dans le sous-domaine K6\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2016-11-14T16:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Le financement est prévu par prélèvement direct sur les crédits inscrits au budget de l'exercice concerné du CNFPT. Le CNFPT se libère des sommes dues au titre du marché par mandats administratifs et virement de l'agent comptable au compte désigné par le titulaire suivant le RIB IBAN dont les références sont indiquées par le candidat dans l'acte d'engagement. Le délai de paiement est fixé au maximum à trente jours à compter de la réception de la facture par le CNFPT.\", \"FORME_JURIDIQUE\": \"Les candidats peuvent présenter leur offre sous forme de groupement solidaire ou groupement conjoint. Les candidats n'ont pas la possibilité de présenter leur offre pour le marché en agissant à la fois en qualité de candidats individuels et de membres d'un ou plusieurs groupements. L'ensemble des candidats serait alors déclaré irrecevable.\", \"UNITE_MONETAIRE_EUR\": \"\"}, \"CONDITION_PARTICIPATION\": {\"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire obligatoirement par le candidat, à l'appui de sa candidature\", \"Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire\", \"Déclaration sur l'honneur du candidat justifiant qu'il n'entre dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles 45 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 ou, pour les marchés publics de défense ou de sécurité, qu'il n'entre dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles 45 ,46 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 (si cette déclaration n'est pas déjà demandée dans le cadre du formulaire DC1, ci-après.)\", \"Déclaration sur l'honneur du candidat attestant qu'il est en règle, au cours de l'année précédant celle au cours de laquelle a lieu le lancement de la consultation, au regard des articles L. 5212-1, L. 5212-2, L. 5212 5 et L. 5212-9 du code du travail, concernant l'emploi des travailleurs handicapés\", \"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"Certificats de qualifications professionnelles. La preuve de la capacité du candidat peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de travaux attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC4, Déclaration de sous-traitance (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Les pièces prévues aux articles D. 8222-5 ou D. 8222-7 et D. 8222-8 du code du travail\", \"Si l'attributaire est établi en France, les attestations et certificats délivrés par les administrations et organismes compétents prouvant qu'il a satisfait à ses obligations fiscales et sociales ou un état annuel des certificats reçus\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"4716028\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les documents sont directement téléchargeables sur le site internet suivant www.cnfpt.fr.- nous connaître - les marchés publics - plateforme-consultations. L'identification des opérateurs économiques n'est pas obligatoire pour retirer le DCE, toutefois, cette identification permet au candidat d'être informé automatiquement des modifications et des éventuelles précisions apportées au DCE. Dans le cas contraire, il appartient au candidat de récupérer par ses propres moyens les informations communiquées.Aucune réponse ne sera donnée aux questions posées par les opérateurs économiques moins de 6 jours ouvrés avant la date limite de remise des offres figurant ci-dessus.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allées de l'île Gloriette - B.P 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"DENOMINATION\": \"INSET D'ANGERS - SERVICE DES MARCHES Procédure adaptée no 4716028 relative à la réalisation d'actions de formations dans les sous-domaines K3-K4 pour l'INSET d'Angers. LOT (S) no ................... Adresse mail du candidat : ................................................................. NE PAS OUVRIR\", \"CORRESPONDANT\": \"Mme Claude Stéphanie\", \"ADRESSE\": \"Rue du Nid de Pie - CS 62020\", \"CP\": \"49016\", \"VILLE\": \"Angers cedex 01\", \"TEL\": \"02-41-22-41-04\", \"MEL\": \"stephanie.claude@cnfpt.fr\", \"URL\": \"https://www.marchespublics.cnfpt.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=8860&orgAcronyme=t5y\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-139075"
+  },
+  {
    "idweb": "16-139236",
    "id": "16_139236",
    "contractfolderid": null,
@@ -3194,73 +3253,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-139305\", \"TYPE_AVIS\": {\"FAMILLE\": {\"DSP\": \"\"}, \"PERIMETRE\": {\"DSP\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-19105\", \"TYPE_AVIS\": {\"FAMILLE\": {\"DSP\": \"\"}, \"PERIMETRE\": {\"DSP\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-02-09\", \"DATE_FIN_DIFFUSION\": \"2016-03-08\"}}}}, \"NOM_HTML\": \"16-139305.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-09-23\", \"DATE_FIN_DIFFUSION\": \"2016-10-01\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"406\", \"LIBELLE\": \"Délégation de service public\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"exploitation en affermage du centre aquatique de la communauté de communes à Blain\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Cté de Communes de la Région de Blain\", \"ADRESSE\": \"1 avenue de la Gare - BP 29\", \"CP\": \"44130\", \"VILLE\": \"Blain\", \"TEL\": \"02-40-79-96-72\", \"FAX\": \"02-40-79-96-72\", \"MEL\": \"achatmarchespublics@cc-regionblain.fr\", \"URL_PROFIL_ACHETEUR\": \"http://cc-region-blain.e-marchespublics.com\"}, \"TYPE_ORGANISME\": {\"EPN\": \"\"}, \"OBJET\": {\"TITRE_MARCHE\": \"Exploitation en affermage du centre aquatique de la communauté de communes de la région de blain\", \"OBJET_COMPLET\": \"La présente consultation a pour objet de déléguer l'exploitation du Centre Aquatique intercommunal du Pays de Blain. Le délégataire assurera, dans le cadre d'un contrat d'affermage, l'exploitation des installations et les missions décrites dans le dossier de consultation et ses annexes.\", \"CPV\": {\"PRINCIPAL\": \"92610000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Centre Aquatique Canal Forêt 10 boulevard de Bretagne\", \"CP\": \"44130\", \"VILLE\": \"Blain\"}, \"DELEGATION\": {\"TEXTE_APPLICATION\": \"La présente consultation a pour objet de déléguer l'exploitation du Centre Aquatique intercommunal du Pays de Blain. Le délégataire assurera, dans le cadre d'un contrat d'affermage, l'exploitation des installations et les missions décrites dans le dossier de consultation et ses annexes.\", \"DOMAINE\": {\"AUTRE\": \"Installations sportives\"}, \"DUREE_AN\": \"5\"}}, \"PROCEDURE\": {\"CRITERES_ATTRIBUTION\": {\"CRITERES_LIBRE\": \"- valeur technique de l'offre, appréciée notamment au regard du mémoire explicatifo compréhension des obligations de service publico moyens humains y compris les conditions de reprise du personnelo politique sociale et de formationo moyens techniques à disposition du service o engagements proposés pour l'exécution du contrato qualité technique des prestations proposéeso politique de développement durable- valeur économique de l'offreo pertinence du compte d'exploitation prévisionnel, en particulier l'optimisation des coûts et des recettes d'exploitationo hypothèses de fréquentationo niveau des tarifs proposéso montant des renouvellements et, le cas échéant, des investissements proposés\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"4727765\"}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"ADMIN\": \"\"}, \"DENOMINATION\": \"Communauté de Communes de la Région de Blain\", \"ADRESSE\": \"1 avenue de la gareBP 29\", \"CP\": \"44130\", \"VILLE\": \"Blain\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette CS 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-139305"
-  },
-  {
-   "idweb": "16-139075",
-   "id": "16_139075",
-   "contractfolderid": null,
-   "objet": "Réalisation d'actions de formation dans les sous-domaines K3 ' Insertion et développement social' et K6 'Méthodologie du travail social' pour le compte de l'INSET",
-   "filename": "BOAMP-N-AO_2016_267005",
-   "famille": "FNS",
-   "code_departement": [
-    "49",
-    "56",
-    "16",
-    "53",
-    "44",
-    "29",
-    "75",
-    "72",
-    "37"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2016-09-23",
-   "datefindiffusion": "2016-11-14",
-   "datelimitereponse": "2016-11-14T15:00:00+00:00",
-   "nomacheteur": "CNFPT - INSET d'Angers",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "410"
-   ],
-   "dc": [
-    "410"
-   ],
-   "descripteur_libelle": [
-    "Formation"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-139075\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-139075.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-09-23\", \"DATE_LIMITE_REPONSE\": \"2016-11-14T16:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2016-11-14\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"410\", \"LIBELLE\": \"Formation\"}}, \"DEP_PUBLICATION\": [\"49\", \"56\", \"16\", \"53\", \"44\", \"29\", \"75\", \"72\", \"37\"], \"RESUME_OBJET\": \"Réalisation d'actions de formation dans les sous-domaines K3 ' Insertion et développement social' et K6 'Méthodologie du travail social' pour le compte de l'INSET\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CNFPT - INSET d'Angers\", \"CORRESPONDANT\": \"Mme CLAUDE Stéphanie, CNFPT - INSET d'Angers\", \"ADRESSE\": \"Rue du Nid de Pie - CS 62020\", \"CP\": \"49016\", \"VILLE\": \"Angers cedex 01\", \"TEL\": \"02-41-22-41-22\", \"FAX\": \"02-41-73-27-70\", \"MEL\": \"stephanie.claude@cnfpt.fr\", \"URL\": \"http://www.cnfpt.fr\"}, \"TYPE_ORGANISME\": {\"EPN\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"FORMATION PROFESSIONNELLE\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"24\"}, \"OBJET_COMPLET\": \"Réalisation d'actions de formation dans les sous-domaines K3 ' Insertion et développement social' et K6 'Méthodologie du travail social' pour le compte de l'INSET d'Angers\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}, \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FR51\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Marché de prestation de services s'exécutant par émissions de bons de commande et traité à prix unitaires. Il est composé de 12 lots.\", \"QUANTITE\": \"Réalisation d'actions de formation dans les sous-domaines K3 ' Insertion et développement social' et K6 'Méthodologie du travail social' pour le compte de l'INSET d'Angers\"}, \"DUREE_DELAI\": {\"DATE_DEBUT\": \"2017-01-01\", \"DATE_FIN\": \"2017-12-31\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Méthodologie de projet dans l'action sociale, développement social local\", \"DESCRIPTION\": \"Réalisation d'actions de formation dans le sous-domaine K6\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}}, {\"NUM\": \"2\", \"INTITULE\": \"Le management d'équipe, de services et d'établissement\", \"DESCRIPTION\": \"Réalisation d'actions de formation dans le sous-domaine K6\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}}, {\"NUM\": \"3\", \"INTITULE\": \"Contexte d'exercice du cadre de l'action sociale\", \"DESCRIPTION\": \"Réalisation d'actions de formation dans le sous-domaine K6\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}}, {\"NUM\": \"4\", \"INTITULE\": \"Organisation territorialisée de l'action sociale\", \"DESCRIPTION\": \"Réalisation d'actions de formation dans le sous-domaine K6\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}}, {\"NUM\": \"5\", \"INTITULE\": \"Approche interculturelle dans l'action sociale\", \"DESCRIPTION\": \"Réalisation d'actions de formation dans le sous-domaine K6\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}}, {\"NUM\": \"6\", \"INTITULE\": \"Politiques d'insertion sociale et professionnelle\", \"DESCRIPTION\": \"Réalisation d'actions de formation dans le sous-domaine K3\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}}, {\"NUM\": \"7\", \"INTITULE\": \"Insertion par l'activité économique\", \"DESCRIPTION\": \"Réalisation d'actions de formation dans le sous-domaine K3\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}}, {\"NUM\": \"8\", \"INTITULE\": \"La lutte contre les exclusions et la pauvreté\", \"DESCRIPTION\": \"Réalisation d'actions de formation dans le sous-domaine K6\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}}, {\"NUM\": \"9\", \"INTITULE\": \"Pauvreté et territoires\", \"DESCRIPTION\": \"Réalisation d'actions de formation dans le sous-domaine K6\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}}, {\"NUM\": \"10\", \"INTITULE\": \"Accès aux droits et aux services\", \"DESCRIPTION\": \"Réalisation d'actions de formation dans le sous-domaine K6\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}}, {\"NUM\": \"11\", \"INTITULE\": \"Action sociale et numérique\", \"DESCRIPTION\": \"Réalisation d'actions de formation dans le sous-domaine K6\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}}, {\"NUM\": \"12\", \"INTITULE\": \"Prévention de la radicalisation\", \"DESCRIPTION\": \"Réalisation d'actions de formation dans le sous-domaine K6\", \"CPV\": {\"PRINCIPAL\": \"80530000\"}}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2016-11-14T16:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Le financement est prévu par prélèvement direct sur les crédits inscrits au budget de l'exercice concerné du CNFPT. Le CNFPT se libère des sommes dues au titre du marché par mandats administratifs et virement de l'agent comptable au compte désigné par le titulaire suivant le RIB IBAN dont les références sont indiquées par le candidat dans l'acte d'engagement. Le délai de paiement est fixé au maximum à trente jours à compter de la réception de la facture par le CNFPT.\", \"FORME_JURIDIQUE\": \"Les candidats peuvent présenter leur offre sous forme de groupement solidaire ou groupement conjoint. Les candidats n'ont pas la possibilité de présenter leur offre pour le marché en agissant à la fois en qualité de candidats individuels et de membres d'un ou plusieurs groupements. L'ensemble des candidats serait alors déclaré irrecevable.\", \"UNITE_MONETAIRE_EUR\": \"\"}, \"CONDITION_PARTICIPATION\": {\"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire obligatoirement par le candidat, à l'appui de sa candidature\", \"Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire\", \"Déclaration sur l'honneur du candidat justifiant qu'il n'entre dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles 45 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 ou, pour les marchés publics de défense ou de sécurité, qu'il n'entre dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles 45 ,46 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 (si cette déclaration n'est pas déjà demandée dans le cadre du formulaire DC1, ci-après.)\", \"Déclaration sur l'honneur du candidat attestant qu'il est en règle, au cours de l'année précédant celle au cours de laquelle a lieu le lancement de la consultation, au regard des articles L. 5212-1, L. 5212-2, L. 5212 5 et L. 5212-9 du code du travail, concernant l'emploi des travailleurs handicapés\", \"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"Certificats de qualifications professionnelles. La preuve de la capacité du candidat peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de travaux attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC4, Déclaration de sous-traitance (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Les pièces prévues aux articles D. 8222-5 ou D. 8222-7 et D. 8222-8 du code du travail\", \"Si l'attributaire est établi en France, les attestations et certificats délivrés par les administrations et organismes compétents prouvant qu'il a satisfait à ses obligations fiscales et sociales ou un état annuel des certificats reçus\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"4716028\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les documents sont directement téléchargeables sur le site internet suivant www.cnfpt.fr.- nous connaître - les marchés publics - plateforme-consultations. L'identification des opérateurs économiques n'est pas obligatoire pour retirer le DCE, toutefois, cette identification permet au candidat d'être informé automatiquement des modifications et des éventuelles précisions apportées au DCE. Dans le cas contraire, il appartient au candidat de récupérer par ses propres moyens les informations communiquées.Aucune réponse ne sera donnée aux questions posées par les opérateurs économiques moins de 6 jours ouvrés avant la date limite de remise des offres figurant ci-dessus.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allées de l'île Gloriette - B.P 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"DENOMINATION\": \"INSET D'ANGERS - SERVICE DES MARCHES Procédure adaptée no 4716028 relative à la réalisation d'actions de formations dans les sous-domaines K3-K4 pour l'INSET d'Angers. LOT (S) no ................... Adresse mail du candidat : ................................................................. NE PAS OUVRIR\", \"CORRESPONDANT\": \"Mme Claude Stéphanie\", \"ADRESSE\": \"Rue du Nid de Pie - CS 62020\", \"CP\": \"49016\", \"VILLE\": \"Angers cedex 01\", \"TEL\": \"02-41-22-41-04\", \"MEL\": \"stephanie.claude@cnfpt.fr\", \"URL\": \"https://www.marchespublics.cnfpt.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=8860&orgAcronyme=t5y\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-139075"
   },
   {
    "idweb": "16-137950",

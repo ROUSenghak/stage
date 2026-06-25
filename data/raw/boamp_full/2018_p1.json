@@ -1478,63 +1478,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-1398"
   },
   {
-   "idweb": "18-459",
-   "id": "18_459",
-   "contractfolderid": null,
-   "objet": "collecte et tri des déchets ménagers recyclables (rectificatif)",
-   "filename": "BOAMP-J-AO_2018_005003",
-   "famille": "JOUE",
-   "code_departement": [
-    "53"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-01-05",
-   "datefindiffusion": "2018-02-07",
-   "datelimitereponse": null,
-   "nomacheteur": "COMMUNAUTE de COMMUNES des COEVRONS",
-   "titulaire": null,
-   "perimetre": "AUTRE",
-   "type_procedure": null,
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure NC",
-   "procedure_categorise": "/",
-   "nature": "RECTIFICATIF",
-   "sousnature": null,
-   "nature_libelle": "Rectificatif",
-   "sousnature_libelle": "Rectificatif",
-   "nature_categorise": "rectificatif/standard",
-   "nature_categorise_libelle": "Rectificatif/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "RECTIFICATIF",
-   "descripteur_code": [
-    "249"
-   ],
-   "dc": [
-    "249"
-   ],
-   "descripteur_libelle": [
-    "Ordures ménagères (prestations)"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": null,
-   "annonce_lie": [
-    "17-169606"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"17-169606\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-12-01\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-12-03\", \"DATE_FIN_DIFFUSION\": \"2018-01-25\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"233\", \"NUM_ANNONCE\": \"485016\", \"DATE_PUBLICATION\": \"2017-12-05\"}}]}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-459\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-169606\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-12-01\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-12-03\", \"DATE_FIN_DIFFUSION\": \"2018-01-25\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"233\", \"NUM_ANNONCE\": \"485016\", \"DATE_PUBLICATION\": \"2017-12-05\"}}]}}, \"NOM_HTML\": \"18-459.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-05\", \"DATE_FIN_DIFFUSION\": \"2018-02-07\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"249\", \"LIBELLE\": \"Ordures ménagères (prestations)\"}}, \"DEP_PUBLICATION\": \"53\", \"RESUME_OBJET\": \"collecte et tri des déchets ménagers recyclables (rectificatif)\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"COMMUNAUTE de COMMUNES des COEVRONS\", \"CODE_IDENT_NATIONAL\": \"20003329800015\", \"CONTACT\": \"Commande publique\", \"ADJUDICATEUR_NUTS\": \"FR\", \"ADRESSE\": \"Espace Coévrons 2, avenue R. Vadepied\", \"CP\": \"53600\", \"VILLE\": \"CHATRES la FORET\", \"TEL\": \"(+33) 2-43-66-32-08\", \"MEL\": \"dleveille@coevrons.fr\", \"URL\": \"https://www.coevrons.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.centraledesmarches.com/\"}, \"OBJET\": {\"TITRE_MARCHE\": \"Collecte et tri des déchets ménagers recyclables\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Collecte et tri des déchets ménagers recyclables (rectificatif)\", \"CPV\": {\"PRINCIPAL\": \"90514000\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-169606\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-12-01\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-12-03\", \"DATE_FIN_DIFFUSION\": \"2018-01-25\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"233\", \"NUM_ANNONCE\": \"485016\", \"DATE_PUBLICATION\": \"2017-12-05\"}}]}, \"MODIFICATION\": {\"RUB_INIT\": \"IV\", \"DATE\": {\"INIT\": \"2018-01-24\", \"LIRE\": \"2018-02-07\"}}, \"INFO_COMPLEMENTAIRE\": \"Les modifications des documents de la consultation portent sur larticle 5 du CCAP (reprise du personnel) et le BPU du lot no 2\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les modifications des documents de la consultation portent sur larticle 5 du CCAP (reprise du personnel) et le BPU du lot no 2. Date d'envoi du présent avis au JOUE et au BOAMP : 3 janvier 2018.\"}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-459"
-  },
-  {
    "idweb": "18-1477",
    "id": "18_1477",
    "contractfolderid": null,
@@ -1728,6 +1671,63 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-697\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-149190\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-10-20\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-10-22\", \"DATE_FIN_DIFFUSION\": \"2017-11-20\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"205\", \"NUM_ANNONCE\": \"423272\", \"DATE_PUBLICATION\": \"2017-10-25\"}}]}}, \"NOM_HTML\": \"18-697.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-05\", \"DATE_FIN_DIFFUSION\": \"2018-01-13\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"404\", \"LIBELLE\": \"Déchets non ménagers (prestations)\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Prise en charge, transport et traitement des déchets diffus spécifiques, bouteilles de gaz, huiles de vidange et huiles alimentaires issus des déchèteries et des services municipau\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Le Mans Métropole - Communauté Urbaine\", \"CODE_IDENT_NATIONAL\": \"24720013200014\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, Cs 40010 - 16 avenue François Mitterrand - Le Condorcet, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"Le Mans\", \"TEL\": \"(+33) 2-43-47-37-31\", \"FAX\": \"(+33) 2-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Prise en charge, transport et traitement des déchets diffus spécifiques, bouteilles de gaz, huiles d\", \"REF_MARCHE\": \"Aj/0113/Propreté\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Prise en charge, transport et traitement des déchets diffus spécifiques, des bouteilles de gaz, des huiles de vidange et des huiles alimentaires issus des déchèteries et des services municipaux et communautaires - Année 2018 renouvelable en 2019, 2020 et 2021.Accord-cadre avec maximum, passé en application des articles 78 et 80 du Décret no2016-360 du 25 mars 2016. Il donnera lieu à l'émission de bons de commande.L'accord-cadre est conclu pour une période initiale allant du 1er janvier 2018 jusqu'au 31 décembre 2018. Le nombre de périodes de reconduction est fixé à 3. La durée de chaque période de reconduction est de 12 mois.La durée maximale du contrat ne pourra pas excéder le 31 décembre 2021\", \"CPV\": {\"PRINCIPAL\": \"90523000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"73550\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Déchets diffus spécifiques\", \"DESCRIPTION\": \"Montant maximum annuel hors taxes : 90 000 euro(s)\", \"CPV\": {\"PRINCIPAL\": \"90523000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"1\", \"#text\": \"Le prix n'est pas le seul critère d'attribution et tous les critères sont énoncés uniquement dans les documents du marché.\"}}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Des modifications, des contrats similaires, des contrats complémentaires pourront être conclus au cours de l'exécution du contrat dans le respect des dispositions du décret 2016-360 du 25 mars 2016 et du Code Général des Collectivités Territoriales\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Bouteilles et cartouches de gaz\", \"DESCRIPTION\": \"Montant maximum annuel hors taxes : 10 000 euro(s)\", \"CPV\": {\"PRINCIPAL\": \"90523000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"1\", \"#text\": \"Le prix n'est pas le seul critère d'attribution et tous les critères sont énoncés uniquement dans les documents du marché.\"}}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Des modifications, des contrats similaires, des contrats complémentaires pourront être conclus au cours de l'exécution du contrat dans le respect des dispositions du décret 2016-360 du 25 mars 2016 et du Code Général des Collectivités Territoriales\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Huiles de vidange usagées\", \"DESCRIPTION\": \"Montant maximum annuel hors taxes : 15 000 euro(s)\", \"CPV\": {\"PRINCIPAL\": \"90523000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"1\", \"#text\": \"Le prix n'est pas le seul critère d'attribution et tous les critères sont énoncés uniquement dans les documents du marché.\"}}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Des modifications, des contrats similaires, des contrats complémentaires pourront être conclus au cours de l'exécution du contrat dans le respect des dispositions du décret 2016-360 du 25 mars 2016 et du Code Général des Collectivités Territoriales\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"4\", \"INTITULE\": \"Huiles alimentaires usagées\", \"DESCRIPTION\": \"Montant maximum annuel hors taxes : 2 000 euro(s)\", \"CPV\": {\"PRINCIPAL\": \"90523000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"1\", \"#text\": \"Le prix n'est pas le seul critère d'attribution et tous les critères sont énoncés uniquement dans les documents du marché.\"}}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Des modifications, des contrats similaires, des contrats complémentaires pourront être conclus au cours de l'exécution du contrat dans le respect des dispositions du décret 2016-360 du 25 mars 2016 et du Code Général des Collectivités Territoriales\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"205\", \"NUM_ANNONCE\": \"423272\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Déchets diffus spécifiques\", \"TITULAIRE\": {\"DENOMINATION\": \"Triadis Services\", \"ADRESSE\": \"Zi de la Haie des Cognets\", \"CP\": \"35136\", \"VILLE\": \"Saint-Jacques-de-la-Lande\", \"CODE_NUTS\": \"FRH03\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-27\", \"NB_OFFRE_RECU\": \"5\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"65027.2\"}, \"SOUSTRAITANCE_OUI\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"2\", \"INTITULE\": \"Bouteilles et cartouches de gaz\", \"TITULAIRE\": {\"DENOMINATION\": \"Protec\", \"ADRESSE\": \"Les Petites Boires\", \"CP\": \"37800\", \"VILLE\": \"Nouâtre\", \"CODE_NUTS\": \"FRB04\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-27\", \"NB_OFFRE_RECU\": \"1\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"6160\"}, \"SOUSTRAITANCE_OUI\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"3\", \"INTITULE\": \"Huiles de vidange usagées\", \"TITULAIRE\": {\"DENOMINATION\": \"Soa\", \"ADRESSE\": \"8 rue Louis Bréguet\", \"CP\": \"72000\", \"VILLE\": \"Le Mans\", \"CODE_NUTS\": \"FRG04\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-27\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"2360\"}, \"SOUSTRAITANCE_OUI\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"4\", \"INTITULE\": \"Huiles alimentaires usagées\", \"TITULAIRE\": {\"DENOMINATION\": \"Suez Organique\", \"ADRESSE\": \"38 avenue Jean Jaures\", \"CP\": \"78440\", \"VILLE\": \"Gargenville\", \"CODE_NUTS\": \"FR103\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-27\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"600\"}, \"SOUSTRAITANCE_OUI\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les critères retenus pour le jugement des offres étaient pondérés de la manière suivante :- Pour les lots 1, 2 et 3 :1-Prix des prestations 70%2-Valeur technique 30%- Pour le lot 4 :1-Prix des prestations 55%2-Valeur technique 45%Les marchés correspondants sont des marché à bons de commande sans minimum et avec maximum d'un an reconductible 3 fois.Montant maximum annuel hors taxes par lot :- Lot 1Déchets diffus spécifiques : 90 000 euro(s) - Lot 2Bouteilles et cartouches de gaz : 10 000 euro(s) - Lot 3Huiles de vidange usagées : 15 000 euro(s) - Lot 4Huiles alimentaires usagées : 2 000 euro(s) Les montants d'attribution constituent des montants indicatifs non contractuels. Il est précisé que le montant relatif au lot 4 constitue une recette annuelle indicative.Les marchés sont consultables au siège du pouvoir adjudicateur sur demande auprès du service des Marchés Publics. Date d'envoi du présent avis au JOUE et au BOAMP : 3 janvier 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso\", \"CP\": \"44042\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://pays-de-la-loire.direccte.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-697"
+  },
+  {
+   "idweb": "18-459",
+   "id": "18_459",
+   "contractfolderid": null,
+   "objet": "collecte et tri des déchets ménagers recyclables (rectificatif)",
+   "filename": "BOAMP-J-AO_2018_005003",
+   "famille": "JOUE",
+   "code_departement": [
+    "53"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-01-05",
+   "datefindiffusion": "2018-02-07",
+   "datelimitereponse": null,
+   "nomacheteur": "COMMUNAUTE de COMMUNES des COEVRONS",
+   "titulaire": null,
+   "perimetre": "AUTRE",
+   "type_procedure": null,
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure NC",
+   "procedure_categorise": "/",
+   "nature": "RECTIFICATIF",
+   "sousnature": null,
+   "nature_libelle": "Rectificatif",
+   "sousnature_libelle": "Rectificatif",
+   "nature_categorise": "rectificatif/standard",
+   "nature_categorise_libelle": "Rectificatif/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "RECTIFICATIF",
+   "descripteur_code": [
+    "249"
+   ],
+   "dc": [
+    "249"
+   ],
+   "descripteur_libelle": [
+    "Ordures ménagères (prestations)"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": null,
+   "annonce_lie": [
+    "17-169606"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"17-169606\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-12-01\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-12-03\", \"DATE_FIN_DIFFUSION\": \"2018-01-25\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"233\", \"NUM_ANNONCE\": \"485016\", \"DATE_PUBLICATION\": \"2017-12-05\"}}]}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-459\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-169606\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-12-01\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-12-03\", \"DATE_FIN_DIFFUSION\": \"2018-01-25\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"233\", \"NUM_ANNONCE\": \"485016\", \"DATE_PUBLICATION\": \"2017-12-05\"}}]}}, \"NOM_HTML\": \"18-459.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-05\", \"DATE_FIN_DIFFUSION\": \"2018-02-07\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"249\", \"LIBELLE\": \"Ordures ménagères (prestations)\"}}, \"DEP_PUBLICATION\": \"53\", \"RESUME_OBJET\": \"collecte et tri des déchets ménagers recyclables (rectificatif)\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"COMMUNAUTE de COMMUNES des COEVRONS\", \"CODE_IDENT_NATIONAL\": \"20003329800015\", \"CONTACT\": \"Commande publique\", \"ADJUDICATEUR_NUTS\": \"FR\", \"ADRESSE\": \"Espace Coévrons 2, avenue R. Vadepied\", \"CP\": \"53600\", \"VILLE\": \"CHATRES la FORET\", \"TEL\": \"(+33) 2-43-66-32-08\", \"MEL\": \"dleveille@coevrons.fr\", \"URL\": \"https://www.coevrons.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.centraledesmarches.com/\"}, \"OBJET\": {\"TITRE_MARCHE\": \"Collecte et tri des déchets ménagers recyclables\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Collecte et tri des déchets ménagers recyclables (rectificatif)\", \"CPV\": {\"PRINCIPAL\": \"90514000\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-169606\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-12-01\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-12-03\", \"DATE_FIN_DIFFUSION\": \"2018-01-25\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"233\", \"NUM_ANNONCE\": \"485016\", \"DATE_PUBLICATION\": \"2017-12-05\"}}]}, \"MODIFICATION\": {\"RUB_INIT\": \"IV\", \"DATE\": {\"INIT\": \"2018-01-24\", \"LIRE\": \"2018-02-07\"}}, \"INFO_COMPLEMENTAIRE\": \"Les modifications des documents de la consultation portent sur larticle 5 du CCAP (reprise du personnel) et le BPU du lot no 2\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les modifications des documents de la consultation portent sur larticle 5 du CCAP (reprise du personnel) et le BPU du lot no 2. Date d'envoi du présent avis au JOUE et au BOAMP : 3 janvier 2018.\"}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-459"
   },
   {
    "idweb": "18-1501",
@@ -3665,6 +3665,65 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-2569"
   },
   {
+   "idweb": "18-2363",
+   "id": "18_2363",
+   "contractfolderid": null,
+   "objet": "Gestion de la filière de valorisation par épandage des boues de la station d'épuration de Champagné pour l'année 2018 - renouvelable en 2019 - 2020 - 2021",
+   "filename": "BOAMP-J-AO_2018_010003",
+   "famille": "JOUE",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-01-10",
+   "datefindiffusion": "2018-02-08",
+   "datelimitereponse": null,
+   "nomacheteur": "Le Mans Métropole - Communauté Urbaine",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": "1",
+   "marche_public_simplifie_label": "Marché public simplifié",
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "274"
+   ],
+   "dc": [
+    "274"
+   ],
+   "descripteur_libelle": [
+    "Prestations de services"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-2363\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-2363.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-10\", \"DATE_FIN_DIFFUSION\": \"2018-02-08\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Gestion de la filière de valorisation par épandage des boues de la station d'épuration de Champagné pour l'année 2018 - renouvelable en 2019 - 2020 - 2021\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Le Mans Métropole - Communauté Urbaine\", \"CODE_IDENT_NATIONAL\": \"24720013200014\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, Cs 40010 - 16 avenue François Mitterrand - Le Condorcet, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"Le Mans\", \"TEL\": \"(+33) 2-43-47-37-31\", \"FAX\": \"(+33) 2-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\", \"URL_PARTICIPATION\": \"http://www.sarthe-marchespublics.fr\", \"URL_DOCUMENT\": \"http://www.sarthe-marchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Gestion de la filière de valorisation par épandage des boues de la station d'épuration de Champagné pour l'année 2018 - renouvelable en 2019 - 2020 - 2021\", \"REF_MARCHE\": \"0156 Ip\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"L'accord-cadre avec minimum annuel de 15 000 euro(s) H.T. et maximum annuel de 30 000 euro(s) H.T.est passé en application des articles 78 et 80 du Décret no2016-360 du 25 mars 2016. Il donnera lieu à l'émission de bons de commande\", \"CPV\": {\"PRINCIPAL\": \"90513700\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"L'accord-cadre avec minimum annuel de 15 000 euro(s) H.T. et maximum annuel de 30 000 euro(s) H.T.est passé en application des articles 78 et 80 du Décret no2016-360 du 25 mars 2016. Il donnera lieu à l'émission de bons de commande\", \"CPV\": {\"PRINCIPAL\": \"90513900\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"10\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"L'accord-cadre est conclu pour une période initiale courant de sa notification au 31 décembre 2018L'accord-cadre est reconduit tacitement jusqu'à son terme. Le nombre de périodes de reconduction est fixé à 3. La durée de chaque période de reconduction est de 12 mois\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Des modifications, des contrats similaires, des contrats complémentaires pourront être conclus au cours de l'exécution du contrat dans le respect des dispositions du décret 2016-360 du 25 mars 2016 et du Code Général des Collectivités Territoriales\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"A titre indicatif, deuxième semestre 2021\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-02-08T17:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas d'interdiction de soumissionnerAutorisation spécifique ou preuve de l'appartenance à une organisation spécifique permettant de fournir le service dans le pays d'origine du candidat : Production des éléments de preuve justifiant le respect du Code de l'Environnement pour ce qui concerne la réglementation relative au transport de déchets (déclaration préalable)\", \"CAP_ECO\": \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du contrat, réalisées au cours des trois derniers exercices disponibles\", \"CAP_TECH\": \"Liste des principales prestations effectuées au cours des trois dernières années, indiquant le montant, la date et le destinataire. Elles sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration du candidat\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_OUI\": \"Production des éléments de preuve justifiant le respect du Code de l'Environnement pour ce qui concerne la réglementation relative au transport de déchets\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-02-09\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.sarthe-marchespublics.fr -Le DCE peut être téléchargé jusqu'au jour de la date et heure limite de remise des offres à l'adresse suivante http://www.sarthe-marchespublics.fr. Les offres peuvent être transmises par lettre recommandée avec accusé de réception ou déposées contre récépissé au Pôle Marchés et Achats Publics ou par voie électronique. Les modalités de transmission électronique des plis sont définies dans le règlement de la consultation. Critères de sélection candidats 1 Aptitude à exercer l'activité professionnelle - 2 Capacités techniques et professionnelles - 3 Capacité économique et financièreRenseignements administratifs :Isabelle PREVOST 02.43.47.43.78Renseignements techniques :LE BIGOT 02.43.47.39.77. Date d'envoi du présent avis au JOUE et au BOAMP : 8 janvier 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso\", \"CP\": \"44042\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://pays-de-la-loire.direccte.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-2363"
+  },
+  {
    "idweb": "18-1883",
    "id": "18_1883",
    "contractfolderid": null,
@@ -3729,65 +3788,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-1883\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-81\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-87447\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-81\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-07-15\", \"DATE_FIN_DIFFUSION\": \"2017-09-25\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"135\", \"NUM_ANNONCE\": \"277883\", \"DATE_PUBLICATION\": \"2017-07-18\"}}]}}, \"NOM_HTML\": \"18-1883.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-10\", \"DATE_FIN_DIFFUSION\": \"2018-02-08\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"12\", \"LIBELLE\": \"Armement\"}, {\"CODE\": \"215\", \"LIBELLE\": \"Matériel de précision\"}]}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Fourniture de 10 capteurs d'effort pédale.\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"MINARM/DGA/DO/S2A\", \"CODE_IDENT_NATIONAL\": \"FR47152000014\", \"CORRESPONDANT\": \"Mme Edith CAVALLI\", \"CONTACT\": \"Acheteur - Négociateur\", \"ADRESSE\": \"Ministère des Armées - Direction Générale de l'armement- Direction des opérations - Service des achats d'armement/ division achats de Bourges MINDEF/DGA/DO/S2A/PROD/DA-BSRocade Est - Echangeur de Guerry\", \"CP\": \"18021\", \"VILLE\": \"Bourges\", \"TEL\": \"(+33) 2-48-27-41-48\", \"FAX\": \"(+33) 2-48-27-47-50\", \"MEL\": \"edith.cavalli@intradef.gouv.fr\", \"URL\": \"http://www.ixarm.com\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.gouv.fr\", \"URL_INFORMATION\": \"http://www.ixarm.com\", \"URL_PARTICIPATION\": \"http://www.marches-publics.gouv.fr\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"MIN_AUTORITE_NATIONALE\": \"\"}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de 10 capteurs d'effort pédale.\", \"TYPE_MARCHE\": {\"FOURNITURES\": {\"ACHAT\": \"\"}}, \"OBJET_COMPLET\": \"Il s'agit de l'acquisition de capteurs de force de type 'pont de jauge' montés sur la pédale de frein de véhicules civils ou militaires. Les capteurs seront livrés avec leurs interfaces mécaniques, les accessoires (câbles, valise de transport...).Le présent projet de marché est passé suivant les dispositions applicables aux procédures adaptées telles que définies dans l'article 42-2° de l'ordonnance no2015-899 et l'article 22 du décret no2016-361.\", \"CPV\": {\"PRINCIPAL\": \"38340000\"}, \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG02\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"NEGOCIE\": {\"AVEC_PUB_PREALABLE\": \"\"}}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"NON\": \"\"}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2017 80 0041\", \"NUM_LOT\": \"00\", \"DESCRIPTION\": \"Fourniture de capteurs d'effort pédale.\", \"TITULAIRE\": {\"DENOMINATION\": \"SIXAXES\", \"ADRESSE\": \"27 rue du Nord\", \"CP\": \"93100\", \"VILLE\": \"Argenteuil\", \"PAYS\": \"none\", \"MEL\": \"sixaxes.sa@sixaxes.fr\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-22\", \"NB_OFFRE_RECU\": \"1\", \"NB_OFFRE_RECU_ELECT\": \"0\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"30864\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 8 janvier 2018.\"}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-1883"
-  },
-  {
-   "idweb": "18-2363",
-   "id": "18_2363",
-   "contractfolderid": null,
-   "objet": "Gestion de la filière de valorisation par épandage des boues de la station d'épuration de Champagné pour l'année 2018 - renouvelable en 2019 - 2020 - 2021",
-   "filename": "BOAMP-J-AO_2018_010003",
-   "famille": "JOUE",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-01-10",
-   "datefindiffusion": "2018-02-08",
-   "datelimitereponse": null,
-   "nomacheteur": "Le Mans Métropole - Communauté Urbaine",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": "1",
-   "marche_public_simplifie_label": "Marché public simplifié",
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "274"
-   ],
-   "dc": [
-    "274"
-   ],
-   "descripteur_libelle": [
-    "Prestations de services"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-2363\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-2363.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-10\", \"DATE_FIN_DIFFUSION\": \"2018-02-08\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Gestion de la filière de valorisation par épandage des boues de la station d'épuration de Champagné pour l'année 2018 - renouvelable en 2019 - 2020 - 2021\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Le Mans Métropole - Communauté Urbaine\", \"CODE_IDENT_NATIONAL\": \"24720013200014\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, Cs 40010 - 16 avenue François Mitterrand - Le Condorcet, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"Le Mans\", \"TEL\": \"(+33) 2-43-47-37-31\", \"FAX\": \"(+33) 2-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\", \"URL_PARTICIPATION\": \"http://www.sarthe-marchespublics.fr\", \"URL_DOCUMENT\": \"http://www.sarthe-marchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Gestion de la filière de valorisation par épandage des boues de la station d'épuration de Champagné pour l'année 2018 - renouvelable en 2019 - 2020 - 2021\", \"REF_MARCHE\": \"0156 Ip\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"L'accord-cadre avec minimum annuel de 15 000 euro(s) H.T. et maximum annuel de 30 000 euro(s) H.T.est passé en application des articles 78 et 80 du Décret no2016-360 du 25 mars 2016. Il donnera lieu à l'émission de bons de commande\", \"CPV\": {\"PRINCIPAL\": \"90513700\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"L'accord-cadre avec minimum annuel de 15 000 euro(s) H.T. et maximum annuel de 30 000 euro(s) H.T.est passé en application des articles 78 et 80 du Décret no2016-360 du 25 mars 2016. Il donnera lieu à l'émission de bons de commande\", \"CPV\": {\"PRINCIPAL\": \"90513900\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"10\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"L'accord-cadre est conclu pour une période initiale courant de sa notification au 31 décembre 2018L'accord-cadre est reconduit tacitement jusqu'à son terme. Le nombre de périodes de reconduction est fixé à 3. La durée de chaque période de reconduction est de 12 mois\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Des modifications, des contrats similaires, des contrats complémentaires pourront être conclus au cours de l'exécution du contrat dans le respect des dispositions du décret 2016-360 du 25 mars 2016 et du Code Général des Collectivités Territoriales\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"A titre indicatif, deuxième semestre 2021\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-02-08T17:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas d'interdiction de soumissionnerAutorisation spécifique ou preuve de l'appartenance à une organisation spécifique permettant de fournir le service dans le pays d'origine du candidat : Production des éléments de preuve justifiant le respect du Code de l'Environnement pour ce qui concerne la réglementation relative au transport de déchets (déclaration préalable)\", \"CAP_ECO\": \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du contrat, réalisées au cours des trois derniers exercices disponibles\", \"CAP_TECH\": \"Liste des principales prestations effectuées au cours des trois dernières années, indiquant le montant, la date et le destinataire. Elles sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration du candidat\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_OUI\": \"Production des éléments de preuve justifiant le respect du Code de l'Environnement pour ce qui concerne la réglementation relative au transport de déchets\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-02-09\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.sarthe-marchespublics.fr -Le DCE peut être téléchargé jusqu'au jour de la date et heure limite de remise des offres à l'adresse suivante http://www.sarthe-marchespublics.fr. Les offres peuvent être transmises par lettre recommandée avec accusé de réception ou déposées contre récépissé au Pôle Marchés et Achats Publics ou par voie électronique. Les modalités de transmission électronique des plis sont définies dans le règlement de la consultation. Critères de sélection candidats 1 Aptitude à exercer l'activité professionnelle - 2 Capacités techniques et professionnelles - 3 Capacité économique et financièreRenseignements administratifs :Isabelle PREVOST 02.43.47.43.78Renseignements techniques :LE BIGOT 02.43.47.39.77. Date d'envoi du présent avis au JOUE et au BOAMP : 8 janvier 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso\", \"CP\": \"44042\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://pays-de-la-loire.direccte.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-2363"
   },
   {
    "idweb": "18-2344",
@@ -4850,65 +4850,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-2405"
   },
   {
-   "idweb": "18-2507",
-   "id": "18_2507",
-   "contractfolderid": null,
-   "objet": "fourniture et livraison de carburants pour les services municipaux",
-   "filename": "BOAMP-J-AO_2018_011003",
-   "famille": "JOUE",
-   "code_departement": [
-    "85"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-01-11",
-   "datefindiffusion": "2018-02-09",
-   "datelimitereponse": null,
-   "nomacheteur": "VILLE DE LA ROCHE SUR YON",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "52"
-   ],
-   "dc": [
-    "52"
-   ],
-   "descripteur_libelle": [
-    "Carburant, hydrocarbure"
-   ],
-   "type_marche": [
-    "FOURNITURES"
-   ],
-   "type_marche_facette": [
-    "Fournitures"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-2507\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-2507.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-11\", \"DATE_FIN_DIFFUSION\": \"2018-02-09\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"52\", \"LIBELLE\": \"Carburant, hydrocarbure\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"fourniture et livraison de carburants pour les services municipaux\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"VILLE DE LA ROCHE SUR YON\", \"CONTACT\": \"Eric Bourget\", \"ADJUDICATEUR_NUTS\": \"FRG05\", \"VILLE\": \"La Roche-sur-Yon\", \"TEL\": \"(+33) 1-02-51-47-46-16\", \"FAX\": \"(+33) 1-02-51-47-45-79\", \"MEL\": \"eric.bourget@larochesuryon.fr\", \"URL\": \"https://www.ville-larochesuryon.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-securises.fr\", \"URL_PARTICIPATION\": \"https://www.marches-securises.fr\", \"URL_DOCUMENT\": \"https://www.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture et livraison de carburants pour les services municipaux\", \"REF_MARCHE\": \"EB\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"fourniture et livraison de carburants:Lot 1: fourniture de gasoil.Lot 2: fourniture d'essence sans plomb 95Lot 3: fourniture de gasoil non routier (gnr)Accord-cadre à marchés subséquents. Accord-cadre conclu avec 4 opérateurs sous réserve d'un nombre suffisant d'offres conformes\", \"CPV\": {\"PRINCIPAL\": \"09000000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"875868\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Fourniture de gasoil\", \"DESCRIPTION\": \"fourniture de gasoil\", \"CPV\": {\"PRINCIPAL\": \"09000000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"20\", \"#text\": \"délai de livraison\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"80\"}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"598280\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Accord-cadre passé pour une période d'un an renouvelable 3 fois, soit une durée maximale de 4 ans.\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Reconduction tacite par période d'un an, 3 fois, soit une durée maximale de 4 ans\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Fourniture d'essence sans plomb 95\", \"DESCRIPTION\": \"Fourniture d'essence sans plomb 95\", \"CPV\": {\"PRINCIPAL\": \"09134000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"20\", \"#text\": \"Délai de livraison\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"80\"}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"158044\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Accord-cadre passé pour une période d'un an, renouvelable 3 fois, soit une durée maximale de 4 ans.\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Reconduction tacite par période d'un an, renouvelable 3 fois, soit une durée maximale de 4 ans\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Fourniture de gasoil non routier (gnr)\", \"DESCRIPTION\": \"Fourniture de gasoil non routier (gnr)\", \"CPV\": {\"PRINCIPAL\": \"09132100\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"20\", \"#text\": \"Délai\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"80\"}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"119544\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Accord-cadre passé pour une période d'un an, reconductible 3 fois, soit une durée maximale de 4 ans.\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Reconduction tacite par période d'un an, 3 fois, soit une durée maximale de 4 ans.\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ACCORD_CADRE\": {\"PLUSIEURS_OPERATEURS\": \"\", \"NB_MAX_PARTICIPANTS\": \"4\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-02-12T12:30:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"3\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO_MARCHE_OUI\": \"\", \"CAP_TECH_OFFRE_OUI\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-02-12\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_NON\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Dossier de consultation téléchargeable gratuitement sur www.marches-securises.fr (la-roche-sur-yon_85_20180109w2_01)Pièces à produire pour le candidat (candidature):\\tDéclaration sur l'honneur justifiant que le candidat n'entre dans aucun des cas d'interdiction de soumissionner mentionnés aux articles 45 et 48 de l'ordonnance du 23 juillet 2015 susvisée et notamment qu'il est en règle au regard des articles L. 5212-1 à L. 5212-11 du code du travail concernant l'emploi des travailleurs handicapés (*) ;\\tExtrait K-Bis datant de moins de 3 mois (ou équivalent) ; \\tCopie du jugement en cas de redressement judiciaire (le cas échéant) ; \\tAttestation de régularité fiscale ; \\tAttestation de fourniture des déclarations sociales et paiement des cotisations et contributions sociales datant de moins de 6 mois (attestation de vigilance URSSAF, RSI, ou MSA) ;\\tCertificat attestant de la régularité de la situation de l'employeur au regard de l'obligation d'emploi des travailleurs handicapés (attestation AGEFIPH) ;\\tListe nominative des travailleurs étrangers (ou attestation de non emploi de travailleurs étrangers).Pièces à produire par le candidat (offre):\\tUn acte d'engagement.\\tLe bordereau des prix (Annexe 1,2 ou 3 selon le lot)\\tLes fiches techniques des produits proposés.Transmission des offres par remise directe contre récépissé de dépôt, par voie postale en recommandé, ou sur www.marches-securises.fr (voir RC pour modalités)Seules les demandes adressées au moins 9 jours avant la date limite de réception des offres feront lobjet dune réponse de la part du pouvoir adjudicateur.Une réponse sera adressée au plus tard 7 jours avant la date fixée pour la réception des offres à tous les candidats ayant reçu le dossier.Les estimations, basées sur les consommations de 2016, pour chaque lot sont indiquées en euro ht sur le présent document pour la durée de chaque accord-cadre (période de reconduction incluse).. Date d'envoi du présent avis au JOUE et au BOAMP : 9 janvier 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Mairie La Roche-sur-Yon\", \"CONTACT\": \"Eric Bourget\", \"ADRESSE\": \"10 Place F.MitterrandBP 829\", \"CP\": \"85000\", \"VILLE\": \"La Roche-sur-Yon\", \"CODE_NUTS\": \"FRG05\", \"TEL\": \"(+33) 1-02-51-47-46-16\", \"FAX\": \"(+33) 1-02-51-47-45-79\", \"MEL\": \"eric.bourget@larochesuryon.fr\", \"URL\": \"https://www.ville-larochesuryon.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Mairie La Roche-sur-Yon\", \"ADRESSE\": \"10 Place F.MitterrandBP 829\", \"VILLE\": \"La Roche-sur-Yon\", \"CODE_NUTS\": \"FRG05\", \"TEL\": \"(+33) 1-02-51-47-46-16\", \"FAX\": \"(+33) 1-02-51-47-45-79\", \"MEL\": \"eric.bourget@larochesuryon.fr\", \"URL\": \"https://www.ville-larochesuryon.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'ile gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 1-02-40-99-46-00\", \"FAX\": \"(+33) 1-02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'ile gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 1-02-40-99-46-00\", \"FAX\": \"(+33) 1-02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-2507"
-  },
-  {
    "idweb": "18-2769",
    "id": "18_2769",
    "contractfolderid": null,
@@ -4970,6 +4911,65 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-2769\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-25\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-70160\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-25\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-05-19\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-05-21\", \"DATE_FIN_DIFFUSION\": \"2017-06-15\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"098\", \"NUM_ANNONCE\": \"194448\", \"DATE_PUBLICATION\": \"2017-05-23\"}}]}}, \"NOM_HTML\": \"18-2769.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-11\", \"DATE_FIN_DIFFUSION\": \"2018-03-08\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"359\", \"LIBELLE\": \"Véhicules\"}}, \"DEP_PUBLICATION\": \"53\", \"RESUME_OBJET\": \"Fourniture et livraison d'autobus neufs pour la période 2017-2022\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Laval Agglomération\", \"ADJUDICATEUR_NUTS\": \"FRG03\", \"ADRESSE\": \"1 Place du Général Ferrié, CS 60809\", \"CP\": \"53008\", \"VILLE\": \"Laval cedex\", \"TEL\": \"(+33) 2-43-49-45-57\", \"FAX\": \"(+33) 2-43-49-46-50\", \"MEL\": \"marche.public@agglo-laval.fr\", \"URL\": \"http://www.agglo-laval.fr\", \"URL_PROFIL_ACHETEUR\": \"https://agglo-laval.achatpublic.com\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"ENTITE_ADJUDICATRICE\": {\"SER_CHEMIN_FER_TRAM_BUS\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture et livraison d'autobus neufs pour la période 2017-2022\", \"REF_MARCHE\": \"17-018\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Fourniture et livraison d'autobus neufs pour la période 2017-2022\", \"CPV\": {\"PRINCIPAL\": \"34121100\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"235000.00\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Fourniture et livraison d'autobus neufs pour la période 2017-2022\", \"CPV\": {\"PRINCIPAL\": \"34121100\"}, \"CODE_NUTS\": \"FRG03\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"35\", \"#text\": \"Valeur technique au regard du mémoire technique et de l'annexe au CCTP\"}, {\"@POIDS\": \"25\", \"#text\": \"Performance environnementale et développement durable au regard du mémoire technique et de l'annexe au CCTP\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"NEGOCIE\": \"\"}, \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"098\", \"NUM_ANNONCE\": \"194448\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"H01800\", \"INTITULE\": \"FOURNITURE ET LIVRAISON D'AUTOBUS NEUFS POUR LA PERIODE 2017-2022\", \"TITULAIRE\": {\"DENOMINATION\": \"SA HEULIEZ BUS\", \"ADRESSE\": \"La Crénuère-Parc Economique de Rorthais-BP 27\", \"CP\": \"79700\", \"VILLE\": \"MEULON\", \"CODE_NUTS\": \"FRI32\", \"URL\": \"https://www.heuliezbus.com\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-01-03\", \"ESTIMATION_INITIALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"235000.00\"}, \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"235000.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Prix unitaire pour la fourniture d'un autobus : GX 337: 235 000,000 euro(s) HTPrix unitaire pour la fourniture de cellules de comptage à l'arrière : 2 770,00 euro(s) HT. Date d'envoi du présent avis au JOUE et au BOAMP : 9 janvier 2018.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"- avant la signature du marché pour le référé pré-contactuel;- trente et un jours suivant la publication de l'avis d'attribution ou à défaut six mois à compter du lendemain de la conclusion du marché pour le référé contractuel;- deux mois à compter de la décision faisant grief pour le recours en excès de pouvoir;- deux mois à compter de la publicité relative à la signature et à la consultation du contrat\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette CS 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunaladministratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso - BP 24209\", \"CP\": \"44042\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\"}]}}, \"ANNEXE_D2\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-2769"
+  },
+  {
+   "idweb": "18-2507",
+   "id": "18_2507",
+   "contractfolderid": null,
+   "objet": "fourniture et livraison de carburants pour les services municipaux",
+   "filename": "BOAMP-J-AO_2018_011003",
+   "famille": "JOUE",
+   "code_departement": [
+    "85"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-01-11",
+   "datefindiffusion": "2018-02-09",
+   "datelimitereponse": null,
+   "nomacheteur": "VILLE DE LA ROCHE SUR YON",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "52"
+   ],
+   "dc": [
+    "52"
+   ],
+   "descripteur_libelle": [
+    "Carburant, hydrocarbure"
+   ],
+   "type_marche": [
+    "FOURNITURES"
+   ],
+   "type_marche_facette": [
+    "Fournitures"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-2507\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-2507.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-11\", \"DATE_FIN_DIFFUSION\": \"2018-02-09\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"52\", \"LIBELLE\": \"Carburant, hydrocarbure\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"fourniture et livraison de carburants pour les services municipaux\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"VILLE DE LA ROCHE SUR YON\", \"CONTACT\": \"Eric Bourget\", \"ADJUDICATEUR_NUTS\": \"FRG05\", \"VILLE\": \"La Roche-sur-Yon\", \"TEL\": \"(+33) 1-02-51-47-46-16\", \"FAX\": \"(+33) 1-02-51-47-45-79\", \"MEL\": \"eric.bourget@larochesuryon.fr\", \"URL\": \"https://www.ville-larochesuryon.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-securises.fr\", \"URL_PARTICIPATION\": \"https://www.marches-securises.fr\", \"URL_DOCUMENT\": \"https://www.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture et livraison de carburants pour les services municipaux\", \"REF_MARCHE\": \"EB\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"fourniture et livraison de carburants:Lot 1: fourniture de gasoil.Lot 2: fourniture d'essence sans plomb 95Lot 3: fourniture de gasoil non routier (gnr)Accord-cadre à marchés subséquents. Accord-cadre conclu avec 4 opérateurs sous réserve d'un nombre suffisant d'offres conformes\", \"CPV\": {\"PRINCIPAL\": \"09000000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"875868\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Fourniture de gasoil\", \"DESCRIPTION\": \"fourniture de gasoil\", \"CPV\": {\"PRINCIPAL\": \"09000000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"20\", \"#text\": \"délai de livraison\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"80\"}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"598280\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Accord-cadre passé pour une période d'un an renouvelable 3 fois, soit une durée maximale de 4 ans.\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Reconduction tacite par période d'un an, 3 fois, soit une durée maximale de 4 ans\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Fourniture d'essence sans plomb 95\", \"DESCRIPTION\": \"Fourniture d'essence sans plomb 95\", \"CPV\": {\"PRINCIPAL\": \"09134000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"20\", \"#text\": \"Délai de livraison\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"80\"}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"158044\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Accord-cadre passé pour une période d'un an, renouvelable 3 fois, soit une durée maximale de 4 ans.\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Reconduction tacite par période d'un an, renouvelable 3 fois, soit une durée maximale de 4 ans\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Fourniture de gasoil non routier (gnr)\", \"DESCRIPTION\": \"Fourniture de gasoil non routier (gnr)\", \"CPV\": {\"PRINCIPAL\": \"09132100\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"20\", \"#text\": \"Délai\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"80\"}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"119544\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Accord-cadre passé pour une période d'un an, reconductible 3 fois, soit une durée maximale de 4 ans.\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Reconduction tacite par période d'un an, 3 fois, soit une durée maximale de 4 ans.\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ACCORD_CADRE\": {\"PLUSIEURS_OPERATEURS\": \"\", \"NB_MAX_PARTICIPANTS\": \"4\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-02-12T12:30:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"3\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO_MARCHE_OUI\": \"\", \"CAP_TECH_OFFRE_OUI\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-02-12\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_NON\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Dossier de consultation téléchargeable gratuitement sur www.marches-securises.fr (la-roche-sur-yon_85_20180109w2_01)Pièces à produire pour le candidat (candidature):\\tDéclaration sur l'honneur justifiant que le candidat n'entre dans aucun des cas d'interdiction de soumissionner mentionnés aux articles 45 et 48 de l'ordonnance du 23 juillet 2015 susvisée et notamment qu'il est en règle au regard des articles L. 5212-1 à L. 5212-11 du code du travail concernant l'emploi des travailleurs handicapés (*) ;\\tExtrait K-Bis datant de moins de 3 mois (ou équivalent) ; \\tCopie du jugement en cas de redressement judiciaire (le cas échéant) ; \\tAttestation de régularité fiscale ; \\tAttestation de fourniture des déclarations sociales et paiement des cotisations et contributions sociales datant de moins de 6 mois (attestation de vigilance URSSAF, RSI, ou MSA) ;\\tCertificat attestant de la régularité de la situation de l'employeur au regard de l'obligation d'emploi des travailleurs handicapés (attestation AGEFIPH) ;\\tListe nominative des travailleurs étrangers (ou attestation de non emploi de travailleurs étrangers).Pièces à produire par le candidat (offre):\\tUn acte d'engagement.\\tLe bordereau des prix (Annexe 1,2 ou 3 selon le lot)\\tLes fiches techniques des produits proposés.Transmission des offres par remise directe contre récépissé de dépôt, par voie postale en recommandé, ou sur www.marches-securises.fr (voir RC pour modalités)Seules les demandes adressées au moins 9 jours avant la date limite de réception des offres feront lobjet dune réponse de la part du pouvoir adjudicateur.Une réponse sera adressée au plus tard 7 jours avant la date fixée pour la réception des offres à tous les candidats ayant reçu le dossier.Les estimations, basées sur les consommations de 2016, pour chaque lot sont indiquées en euro ht sur le présent document pour la durée de chaque accord-cadre (période de reconduction incluse).. Date d'envoi du présent avis au JOUE et au BOAMP : 9 janvier 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Mairie La Roche-sur-Yon\", \"CONTACT\": \"Eric Bourget\", \"ADRESSE\": \"10 Place F.MitterrandBP 829\", \"CP\": \"85000\", \"VILLE\": \"La Roche-sur-Yon\", \"CODE_NUTS\": \"FRG05\", \"TEL\": \"(+33) 1-02-51-47-46-16\", \"FAX\": \"(+33) 1-02-51-47-45-79\", \"MEL\": \"eric.bourget@larochesuryon.fr\", \"URL\": \"https://www.ville-larochesuryon.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Mairie La Roche-sur-Yon\", \"ADRESSE\": \"10 Place F.MitterrandBP 829\", \"VILLE\": \"La Roche-sur-Yon\", \"CODE_NUTS\": \"FRG05\", \"TEL\": \"(+33) 1-02-51-47-46-16\", \"FAX\": \"(+33) 1-02-51-47-45-79\", \"MEL\": \"eric.bourget@larochesuryon.fr\", \"URL\": \"https://www.ville-larochesuryon.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'ile gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 1-02-40-99-46-00\", \"FAX\": \"(+33) 1-02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'ile gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 1-02-40-99-46-00\", \"FAX\": \"(+33) 1-02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-2507"
   },
   {
    "idweb": "18-2995",
@@ -5441,72 +5441,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-3220"
   },
   {
-   "idweb": "18-3534",
-   "id": "18_3534",
-   "contractfolderid": null,
-   "objet": "18-DIR-UDI-01",
-   "filename": "BOAMP-J-AO_2018_012003",
-   "famille": "JOUE",
-   "code_departement": [
-    "35",
-    "22",
-    "29",
-    "44",
-    "56"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-01-12",
-   "datefindiffusion": "2018-02-22",
-   "datelimitereponse": null,
-   "nomacheteur": "DIR INTERDEPARTEMENTALE ROUTES OUEST",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": [
-    "sociaux",
-    "environnementaux"
-   ],
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "366"
-   ],
-   "dc": [
-    "366"
-   ],
-   "descripteur_libelle": [
-    "Voirie et réseaux divers"
-   ],
-   "type_marche": [
-    "TRAVAUX"
-   ],
-   "type_marche_facette": [
-    "Travaux"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-3534\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-3534.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-12\", \"DATE_FIN_DIFFUSION\": \"2018-02-22\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"366\", \"LIBELLE\": \"Voirie et réseaux divers\"}}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\", \"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": [\"35\", \"22\", \"29\", \"44\", \"56\"], \"RESUME_OBJET\": \"18-DIR-UDI-01\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"DIR INTERDEPARTEMENTALE ROUTES OUEST\", \"ADJUDICATEUR_NUTS\": \"FRH\", \"ADRESSE\": \"10 rue Maurice Fabre\", \"CP\": \"35061\", \"VILLE\": \"Rennes cedex\", \"TEL\": \"(+33) 2-99-33-47-09\", \"MEL\": \"smt.diro@developpement-durable.gouv.fr\", \"URL\": \"http://www.dir.ouest.developpement-durable.gouv.fr/\", \"URL_PARTICIPATION\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=361960&orgAcronyme=d4t\", \"URL_DOCUMENT\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=361960&orgAcronyme=d4t\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"MIN_AUTORITE_NATIONALE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ENVIRONNEMENT\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"18-DIR-UDI-01\", \"REF_MARCHE\": \"18-DIR-UDI-01\", \"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"La fourniture de matériaux et de matériels nécessaires à l'entretien des réseaux d'énergie, de transmission et des équipements dynamiques de la DIR Ouest ; * Les opérations d'extension et de maintenance des réseaux d'énergie et de transmission relatifs aux équipements de gestions de trafic ; * le raccordement des nouveaux équipements aux réseaux existants (énergie et réseaux de transmission) * la réalisation des modifications ou des évolutions des installations des CIGT (donc à l'intérieur des bâtiments). * la mise aux normes de certaines installations * d'effectuer des diagnostics et des recherches de pannes, * la réparation des réseaux endommagés * la réalisation et la mise à jour des plans * la formation des personnels (à l'administration réseau notamment) * d'effectuer toutes les opérations d'extension et de maintenance des réseaux d'énergie et de transmission relatifs aux équipements de gestions de trafic de la DIR Ouest.\", \"CPV\": {\"PRINCIPAL\": \"45311000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"La fourniture de matériaux et de matériels nécessaires à l'entretien des réseaux d'énergie, de transmission et des équipements dynamiques de la DIR Ouest ;Les opérations d'extension et de maintenance des réseaux d'énergie et de transmission relatifs aux équipements de gestions de trafic ; le raccordement des nouveaux équipements aux réseaux existants (énergie et réseaux de transmission)la réalisation des modifications ou des évolutions des installations des CIGT (donc à l'intérieur des bâtiments).la mise aux normes de certaines installations d'effectuer des diagnostics et des recherches de pannes, la réparation des réseaux endommagés la réalisation et la mise à jour des plans  la formation des personnels (à l'administration réseau notamment) d'effectuer toutes les opérations d'extension et de maintenance des réseaux d'énergie et de transmission relatifs aux équipements de gestions de trafic de la DIR Ouest.\", \"CPV\": [{\"PRINCIPAL\": \"32400000\"}, {\"PRINCIPAL\": \"35125300\"}, {\"PRINCIPAL\": \"50711000\"}], \"CODE_NUTS\": \"FRH\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-02-15T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-02-16\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 10 janvier 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Rennes\", \"ADRESSE\": \"Hôtel de Bizien - 3 contour de la Motte CS 44416\", \"CP\": \"35044\", \"VILLE\": \"Rennes\", \"TEL\": \"(+33) 2-23-21-28-28\", \"MEL\": \"greffe.ta-rennes@juradm.fr\"}}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-3534"
-  },
-  {
    "idweb": "18-3624",
    "id": "18_3624",
    "contractfolderid": null,
@@ -5574,6 +5508,72 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-3624\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-125679\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-09-06\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-09-08\", \"DATE_FIN_DIFFUSION\": \"2017-10-09\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"173\", \"NUM_ANNONCE\": \"353980\", \"DATE_PUBLICATION\": \"2017-09-09\"}}]}}, \"NOM_HTML\": \"18-3624.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-12\", \"DATE_FIN_DIFFUSION\": \"2018-03-10\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"280\", \"LIBELLE\": \"Produits pharmaceutiques\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Fourniture de médicaments dérivés du sang pour les besoins du groupement de commandes\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CHU de Nantes\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"5 allée de l'île gloriette\", \"CP\": \"44093\", \"VILLE\": \"Nantes cedex\", \"MEL\": \"bureau.desmarches@chu-nantes.fr\", \"URL\": \"http://www.chu-nantes.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-publics.gouv.fr\", \"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de médicaments dérivés du sang pour les besoins du groupement de commandes\", \"REF_MARCHE\": \"AOO-17074\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Fourniture de médicaments dérivés du sang pour les besoins du groupement de commandes\", \"CPV\": {\"PRINCIPAL\": \"33600000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"27944809\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": {\"NUM\": \"1\", \"DESCRIPTION\": \"Fourniture de médicaments dérivés du sang pour les besoins du groupement de commandes- La fourniture est décomposée en 10 lots attribués séparément\", \"CPV\": {\"PRINCIPAL\": \"33600000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"80\", \"#text\": \"critères techniques\"}}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"20\", \"#text\": \"critères économiques\"}}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"173\", \"NUM_ANNONCE\": \"353980\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"17-0577\", \"NUM_LOT\": \"0\", \"INTITULE\": \"Lot no6\", \"TITULAIRE\": {\"DENOMINATION\": \"CSL BEHRING SA\", \"ADRESSE\": \"7/11 Quai André Citroën - Tour Cristal\", \"CP\": \"75015\", \"VILLE\": \"PARIS\", \"CODE_NUTS\": \"FR\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-27\", \"NB_OFFRE_RECU\": \"8\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"1794528\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"17-0578\", \"NUM_LOT\": \"0\", \"INTITULE\": \"Lots N° 3, 5 et 10\", \"TITULAIRE\": {\"DENOMINATION\": \"LFB BIOMEDICAMENTS\", \"ADRESSE\": \"3 avenue des Tropiques BP 40305 - LES ULIS\", \"CP\": \"91958\", \"VILLE\": \"COURTABOEUF\", \"CODE_NUTS\": \"FR\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-27\", \"NB_OFFRE_RECU\": \"8\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"2731222\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"17-0579\", \"NUM_LOT\": \"0\", \"INTITULE\": \"Lots N° 1 (1ère intention) et 4\", \"TITULAIRE\": {\"DENOMINATION\": \"NOVO NORDISK\", \"ADRESSE\": \"Coeur Défense / Tour B 100 Esplanade Charles de Gaulle\", \"CP\": \"92932\", \"VILLE\": \"La Défense Cedex\", \"CODE_NUTS\": \"FR\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-27\", \"NB_OFFRE_RECU\": \"8\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"3718710.50\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"17-0580\", \"NUM_LOT\": \"0\", \"INTITULE\": \"Lots N°1 (2ème intention) et 9\", \"TITULAIRE\": {\"DENOMINATION\": \"OCTAPHARMA France SAS\", \"ADRESSE\": \"62 bis avenue André Moziret\", \"CP\": \"92100\", \"VILLE\": \"Boulogne Billancourt\", \"CODE_NUTS\": \"FR\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-01-02\", \"NB_OFFRE_RECU\": \"8\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"3138914.50\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"17-0581\", \"NUM_LOT\": \"0\", \"INTITULE\": \"Lot N°8\", \"TITULAIRE\": {\"DENOMINATION\": \"PFIZER SAS\", \"ADRESSE\": \"23-25 Avenue du Docteur Lannelongue\", \"CP\": \"75668\", \"VILLE\": \"PARIS\", \"CODE_NUTS\": \"FR\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-27\", \"NB_OFFRE_RECU\": \"8\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"4970850\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"17-0582\", \"NUM_LOT\": \"0\", \"INTITULE\": \"Lot N°7\", \"TITULAIRE\": {\"DENOMINATION\": \"SHIRE FRANCE SAS\", \"ADRESSE\": \"112 avenue Kleber\", \"CP\": \"75116\", \"VILLE\": \"PARIS\", \"CODE_NUTS\": \"FR\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-27\", \"NB_OFFRE_RECU\": \"8\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"74004\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"17-0583\", \"NUM_LOT\": \"0\", \"INTITULE\": \"Lot N°2\", \"TITULAIRE\": {\"DENOMINATION\": \"SOBI (SWEDISH ORPHAN BIOVITRUM)\", \"ADRESSE\": \"14 Place Marie-Jeanne Bassot\", \"CP\": \"92300\", \"VILLE\": \"LEVALLOIS PERRET\", \"CODE_NUTS\": \"FR\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-01-02\", \"NB_OFFRE_RECU\": \"8\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"11516580\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Le marché public est consultable dans le respect des secrets protégés par la loi sur demande écrite adressée au pouvoir adjudicateur dont les coordonnées sont mentionnées à la section I du présent avis.Le marché est conclu à compter du 01/01/2018 jusqu'au 31/12/2018, reconductible 1 fois, soit jusqu'au 31/12/2019.Pour le lot no1, l'accord-cadre à émission de bons de commandes est multi attributaires en application de l'article 78 du décret no2016-360. Le nombre d'opérateurs économiques pouvant être retenus était fixé à 2. Le classement des attributaires est précisé dans la section V . Pour les lots no2 à 10, l'accord-cadre à émission de bons de commandes est mono attributaire en application de l'article 78 du décret no2016-360. Ils sont conclus sans minimum et maximum en valeur ou en quantité. .Le nombre d'offres reçues mentionné dans la section V correspond au nombre total de plis reçus sur la consultation.. Date d'envoi du présent avis au JOUE et au BOAMP : 10 janvier 2018.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé contractuel (art. L 551-13 et s. du CJA)Recours en contestation de validité du contrat issu de la jurisprudence \\\" Tarn et Garonne \\\".\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"CHU de Nantes (coordonnateur du groupement)\", \"ADRESSE\": \"5 allée de l''île gloriette\", \"CP\": \"44093\", \"VILLE\": \"Nantes\", \"CODE_NUTS\": \"FRG01\", \"MEL\": \"bureau.desmarches@chu-nantes.fr\", \"URL\": \"https://www.chu-nantes.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-3624"
+  },
+  {
+   "idweb": "18-3534",
+   "id": "18_3534",
+   "contractfolderid": null,
+   "objet": "18-DIR-UDI-01",
+   "filename": "BOAMP-J-AO_2018_012003",
+   "famille": "JOUE",
+   "code_departement": [
+    "35",
+    "22",
+    "29",
+    "44",
+    "56"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-01-12",
+   "datefindiffusion": "2018-02-22",
+   "datelimitereponse": null,
+   "nomacheteur": "DIR INTERDEPARTEMENTALE ROUTES OUEST",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": [
+    "sociaux",
+    "environnementaux"
+   ],
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "366"
+   ],
+   "dc": [
+    "366"
+   ],
+   "descripteur_libelle": [
+    "Voirie et réseaux divers"
+   ],
+   "type_marche": [
+    "TRAVAUX"
+   ],
+   "type_marche_facette": [
+    "Travaux"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-3534\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-3534.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-12\", \"DATE_FIN_DIFFUSION\": \"2018-02-22\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"366\", \"LIBELLE\": \"Voirie et réseaux divers\"}}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\", \"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": [\"35\", \"22\", \"29\", \"44\", \"56\"], \"RESUME_OBJET\": \"18-DIR-UDI-01\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"DIR INTERDEPARTEMENTALE ROUTES OUEST\", \"ADJUDICATEUR_NUTS\": \"FRH\", \"ADRESSE\": \"10 rue Maurice Fabre\", \"CP\": \"35061\", \"VILLE\": \"Rennes cedex\", \"TEL\": \"(+33) 2-99-33-47-09\", \"MEL\": \"smt.diro@developpement-durable.gouv.fr\", \"URL\": \"http://www.dir.ouest.developpement-durable.gouv.fr/\", \"URL_PARTICIPATION\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=361960&orgAcronyme=d4t\", \"URL_DOCUMENT\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=361960&orgAcronyme=d4t\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"MIN_AUTORITE_NATIONALE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ENVIRONNEMENT\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"18-DIR-UDI-01\", \"REF_MARCHE\": \"18-DIR-UDI-01\", \"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"La fourniture de matériaux et de matériels nécessaires à l'entretien des réseaux d'énergie, de transmission et des équipements dynamiques de la DIR Ouest ; * Les opérations d'extension et de maintenance des réseaux d'énergie et de transmission relatifs aux équipements de gestions de trafic ; * le raccordement des nouveaux équipements aux réseaux existants (énergie et réseaux de transmission) * la réalisation des modifications ou des évolutions des installations des CIGT (donc à l'intérieur des bâtiments). * la mise aux normes de certaines installations * d'effectuer des diagnostics et des recherches de pannes, * la réparation des réseaux endommagés * la réalisation et la mise à jour des plans * la formation des personnels (à l'administration réseau notamment) * d'effectuer toutes les opérations d'extension et de maintenance des réseaux d'énergie et de transmission relatifs aux équipements de gestions de trafic de la DIR Ouest.\", \"CPV\": {\"PRINCIPAL\": \"45311000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"La fourniture de matériaux et de matériels nécessaires à l'entretien des réseaux d'énergie, de transmission et des équipements dynamiques de la DIR Ouest ;Les opérations d'extension et de maintenance des réseaux d'énergie et de transmission relatifs aux équipements de gestions de trafic ; le raccordement des nouveaux équipements aux réseaux existants (énergie et réseaux de transmission)la réalisation des modifications ou des évolutions des installations des CIGT (donc à l'intérieur des bâtiments).la mise aux normes de certaines installations d'effectuer des diagnostics et des recherches de pannes, la réparation des réseaux endommagés la réalisation et la mise à jour des plans  la formation des personnels (à l'administration réseau notamment) d'effectuer toutes les opérations d'extension et de maintenance des réseaux d'énergie et de transmission relatifs aux équipements de gestions de trafic de la DIR Ouest.\", \"CPV\": [{\"PRINCIPAL\": \"32400000\"}, {\"PRINCIPAL\": \"35125300\"}, {\"PRINCIPAL\": \"50711000\"}], \"CODE_NUTS\": \"FRH\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-02-15T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-02-16\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 10 janvier 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Rennes\", \"ADRESSE\": \"Hôtel de Bizien - 3 contour de la Motte CS 44416\", \"CP\": \"35044\", \"VILLE\": \"Rennes\", \"TEL\": \"(+33) 2-23-21-28-28\", \"MEL\": \"greffe.ta-rennes@juradm.fr\"}}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-3534"
   },
   {
    "idweb": "18-4783",
@@ -5751,6 +5751,120 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-5078\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-5078.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-12\", \"DATE_LIMITE_REPONSE\": \"2018-02-14T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-02-28\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Mission d'accompagnement pour structurer une stratégie d'attractivité médicale et la mise en oeuvre d'actions de communication pour le Centre Hospitalier du MANS\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CH LE MANS\", \"CORRESPONDANT\": \"Mme GABORIT Benedicte, Centre hospitalier du Mans\", \"ADRESSE\": \"194 avenue Rubillard\", \"CP\": \"72037\", \"VILLE\": \"Le mans cedex 09\", \"TEL\": \"02-44-71-02-97\", \"FAX\": \"02-43-43-44-11\", \"URL\": \"http://www.ch-lemans.fr/\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"27\"}, \"OBJET_COMPLET\": \"Mission d'accompagnement pour structurer une stratégie d'attractivité médicale et la mise en oeuvre d'actions de communication pour le Centre Hospitalier du MANS\", \"CPV\": [{\"PRINCIPAL\": \"79415200\"}, {\"PRINCIPAL\": \"79421200\"}, {\"PRINCIPAL\": \"22100000\"}], \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"QUANTITE\": \"Mission d'accompagnement pour structurer une stratégie d'attractivité médicale et la mise en oeuvre d'actions de communication pour le Centre Hospitalier du MANS\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"Critère 1. Valeur technique\"}, {\"@POIDS\": \"20\", \"#text\": \"Critère 1.1 Pertinence de la prestation proposée\"}, {\"@POIDS\": \"30\", \"#text\": \"Critère 1.2 Qualité créative et innovante des supports de communication proposés\"}, {\"@POIDS\": \"10\", \"#text\": \"Critère 1.3 Délais d'exécution e de livraison des supports de communication proposés\"}, {\"@POIDS\": \"40\", \"#text\": \"Critère 2. Le prix\"}, {\"@POIDS\": \"20\", \"#text\": \"Critère 2.1 Prix global et forfaitaire pour la tranche ferme\"}, {\"@POIDS\": \"20\", \"#text\": \"Critère 2.2 Prix unitaires des supports de communication pour la tranche optionnelle\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-02-14T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"6\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Financement : fonds propreDélai de paiement 50 jours\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO\": \"Le chiffre d'affaires global et, si possible, le chiffre d'affaires concernant les fournitures ou services objets du marché, réalisé au cours des trois derniers exercices ;. La preuve d'une assurance des risques professionnels pertinents ou déclarations appropriés de banques\", \"CAP_TECH\": \"Les effectifs moyens annuels de personnels et l'importance du personnel d'encadrement pour chacune des trois dernières années ;. La liste des principales fournitures ou principaux services effectués au cours des trois dernières années indiquant le montant, la date et le destinataire public ou privé à propos de l'objet précis du marché ;. Le savoir-faire environnemental (charte de l'entreprise, objectifs cibles, moyens humains et matériels dédiés dans le domaine, formation du personnel). ?? TO ?. Au besoin, les documents relatifs aux pouvoirs de la personne habilitée à engager le candidat.\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Cf. ATTRI1 joint en annexe du DCE\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"PRIN18-001\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Le marché est structuré de la manière suivante . une tranche ferme pour l'élaboration d'un plan d'action . une tranche optionnelle sur la réalisation des actions de communication.Concernant la tranche optionnelle et compte tenu du caractère imprévisible des dépenses, le marché sera un accord-cadre à bons de commande sans minimum avec maximum au sens des articles 78 et 80 du Décret no 2016-360 du 25 mars 2016.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé précontractuel depuis le début de la procédure jusqu'à la signature du contrat : devant le tribunal administratif de Nantes (article L551-1 du code de justice administrative\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des litiges relatifs aux marchés publics\", \"ADRESSE\": \"8 rue de Châteaubriand\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"URL\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=362267&orgAcronyme=x7c\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-5078"
+  },
+  {
+   "idweb": "18-2450",
+   "id": "18_2450",
+   "contractfolderid": null,
+   "objet": "formation à la prévention des risques liés à l'activité professionnelle",
+   "filename": "BOAMP-J-AO_2018_013003",
+   "famille": "JOUE",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-01-13",
+   "datefindiffusion": "2018-02-09",
+   "datelimitereponse": null,
+   "nomacheteur": "Ville de Nantes",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": "1",
+   "marche_public_simplifie_label": "Marché public simplifié",
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "410"
+   ],
+   "dc": [
+    "410"
+   ],
+   "descripteur_libelle": [
+    "Formation"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-2450\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-2450.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-13\", \"DATE_FIN_DIFFUSION\": \"2018-02-09\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"410\", \"LIBELLE\": \"Formation\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"formation à la prévention des risques liés à l'activité professionnelle\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Nantes\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"2 rue de l'hôtel de Ville\", \"CP\": \"44094\", \"VILLE\": \"Nantes Cedex 1\", \"MEL\": \"laurence.jouneau@nantesmetropole.fr\", \"URL\": \"https://nantes.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.nantesmetropole.fr\", \"URL_PARTICIPATION\": \"https://marchespublics.nantesmetropole.fr\", \"URL_DOCUMENT\": \"https://marchespublics.nantesmetropole.fr\", \"URL_OUTIL_LOGICIEL\": \"https://marchespublics.nantesmetropole.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Formation à la prévention des risques liés à l'activité professionnelle\", \"REF_MARCHE\": \"1806A001\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Formation à la prévention des risques liés à l'activité professionnelle\", \"CPV\": {\"PRINCIPAL\": \"80511000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Le présent marché de services a pour objet la Formation à la prévention des risques liés à l'activité professionnelle Il comprend également les conseils et expertises, les informations commerciales que le titulaire peut apporter lors de lexécution du marché. Ce marché prend la forme dun accord-cadre mono attributaire à bons de commande sans minimum avec un montant maximum sur la durée du marché de 999 999 eurosHT en application des dispositions des articles 78 et 80 du décret no2016-360 du 25 mars 2016. Il est précisé que le montant maximum du marché ne correspond en aucune façon à lestimation des prestations. La présente procédure adaptée ouverte est soumise aux dispositions de larticle 28 du décret no2016-360 relatifs aux marchés publics.\", \"CPV\": {\"PRINCIPAL\": \"80511000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-02-08T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"5\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Les critères de recevabilité des candidatures sont : Aptitude à exercer l'activité professionnelle, capacité économique et financière, capacités techniques et professionnellesLettre de candidature (imprimé DC1) que la candidature soit présentée à titre individuel ou en groupement\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"Déclaration concernant le chiffre d'affaires global du candidat et, le cas échéant, le chiffre d'affaires du domaine d'activité faisant l'objet du marché public, portant au maximum sur les trois derniers exercices disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles (imprimé DC2)\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"Déclaration indiquant les effectifs moyens annuels du candidat et limportance du personnel dencadrement pour chacune des trois dernières années (en annexe au DC2 si utilisation de ce document et tout document complémentaire)  Liste des principaux services fournis au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Les livraisons et les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique (en annexe au DC2 si utilisation de ce document et tout document complémentaire) Le numéro dhabilitation dispositif de formation \\\" Acteur PRAP IBC \\\".\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-02-08\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_OUI\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_NON\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"LExécution du présent marché prendra effet à compter de sa date de notification pour une durée de 4 ans. Ce marché nest pas reconductible Les formations débuteront à compter du mois de mai 2018. Adresse de consultation, de téléchargement, et de réponse par voie électronique : https://marchespublics.nantesmetropole.fr. Date d'envoi du présent avis au JOUE et au BOAMP : 11 janvier 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Ville de Nantes\", \"CONTACT\": \"Pierre-Yves Petitgas\", \"ADRESSE\": \"Département Ressources Humaines\", \"CP\": \"44094\", \"VILLE\": \"Nantes Cedex 1\", \"CODE_NUTS\": \"FRG01\", \"TEL\": \"(+33) 2-40-99-67-34\", \"MEL\": \"pierre-yves.petitgas@nantesmetropole.fr\", \"URL\": \"https://nantes.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Ville de Nantes\", \"ADRESSE\": \"Direction de la Commande Publique Service marchés publics 29 rue de Strasbourg Bureaux ouverts de 8h30 à 12h30 et de 13h30 à 17h30,  F, Téléphone : (+33) 2 40 41 51 17, Courriel : , Fax : (+33) 2 40 41 51 08, Code NUTS :  Adresse internet : https://nantes.fr, Adresse du profil d'acheteur : https://marchespublics.nantesmetropole.fr\", \"CP\": \"44094\", \"VILLE\": \"Nantes Cedex 1\", \"CODE_NUTS\": \"FRG01\", \"TEL\": \"(+33) 2-40-41-51-17\", \"FAX\": \"(+33) -24-04-15-10-85\", \"MEL\": \"laurence.jouneau@nantesmetropole.fr\", \"URL\": \"https://nantes.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île GlorietteB.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île GlorietteB.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-2450"
+  },
+  {
+   "idweb": "18-2918",
+   "id": "18_2918",
+   "contractfolderid": null,
+   "objet": "concours restreint de maîtrise d'oeuvre pour la construction d'un complexe sportif à la garnache (85)",
+   "filename": "BOAMP-J-AO_2018_013003",
+   "famille": "JOUE",
+   "code_departement": [
+    "85"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-01-13",
+   "datefindiffusion": "2018-02-13",
+   "datelimitereponse": null,
+   "nomacheteur": "ville de la Garnache",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "RESTREINT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Restreinte",
+   "procedure_categorise": "RESTREINT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "CONCOURS",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": "Concours",
+   "nature_categorise": "appeloffre/concours",
+   "nature_categorise_libelle": "Avis de marché/Concours",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "197"
+   ],
+   "dc": [
+    "197"
+   ],
+   "descripteur_libelle": [
+    "Maîtrise d'oeuvre"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-2918\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"CONCOURS\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-2918.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-13\", \"DATE_FIN_DIFFUSION\": \"2018-02-13\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"197\", \"LIBELLE\": \"Maîtrise d'oeuvre\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"concours restreint de maîtrise d'oeuvre pour la construction d'un complexe sportif à la garnache (85)\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"ville de la Garnache\", \"ADJUDICATEUR_NUTS\": \"FR\", \"CP\": \"85710\", \"VILLE\": \"LA GARNACHE\", \"TEL\": \"(+33) 2-51-93-11-08\", \"MEL\": \"marchespublics@lagarnache.fr\", \"URL\": \"http://www.lagarnache.fr/\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-securises.fr\", \"URL_PARTICIPATION\": \"https://www.marches-securises.fr\", \"URL_DOCUMENT\": \"https://www.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Concours restreint de maîtrise duvre pour la construction dun complexe sportif à La Garnache (85)\", \"REF_MARCHE\": \"Moeuvrecomplsportif\", \"CPV\": {\"PRINCIPAL\": \"71200000\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Le projet consiste en la construction dun complexe sportif comprenant un bâtiment dune surface utile de 2500m² environ comprenant une salle multisports, une salle de danse, un dojo et les locaux annexes aux espaces sportifs intérieurs et extérieurs, ainsi que des espaces extérieurs sportifs (trois terrains de grands jeux, dont un terrain synthétique) et daccompagnement (parking, VRD). Le projet comporte trois options : une structure artificielle descalade de niveau régional, une salle de musculation de 100m² et 2 courts de tennis extérieurs.\", \"CPV\": {\"PRINCIPAL\": \"71200000\"}, \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"RESTREINT\": \"\"}, \"NB_CANDIDATS\": {\"NB_OFFRE\": \"3\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_LIBRE\": \"Sur la base des projets remis par les candidats qui auront été invités à remettre un projet. Cette invitation s'accompagnera de la transmission du dossier de consultation des concepteurs (DCC), comprenant les pièces marchés (RC, CCAP, AE, programme, dossier de site...), et de l'invitation à une visite de site. Les projets devront être conformes aux exigences exprimées par le DCC, l'analyse des projets sera réalisée au regard des critères d'évaluation ci-après énoncés, classés par ordre dimportance décroissant :1) qualité de la réponse aux exigences fonctionnelles et spatiales du programme,2) compatibilité économique du projet par rapport à lenveloppe financière prévisionnelle affectée aux travaux,3) pertinence et qualité des solutions techniques proposées, respect du programme technique et environnemental,4) qualité de la réponse architecturale et intégration du projet dans son environnement.\"}, \"LAUREAT_ATTRIBUTAIRE_OUI\": \"\", \"DECISION_JURY_CONTRAIGNANTE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-02-13T17:00:00+01:00\", \"LIMITE_ENVOI_INVIT\": \"2018-02-28\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"La sélection des candidats, en cas de nombre admissible supérieur au nombre fixé (3), se fera en fonction des éléments suivants par ordre décroissant d'importance :1) adéquation entre la composition de léquipe proposée et les capacités / compétences exigées : appréciation de la motivation, des moyens, compétences et capacités techniques et financières de chacun des membres de léquipe au regard de la complexité et de la spécificité du projet et de la mission à réaliser, sur la base des informations fournies dans le dossier de candidature,2) adéquation des références des membres de léquipe par rapport à lobjet et à limportance financière du projet, la qualité architecturale des projets réalisés, lexpérience communes entre les membres de léquipe, sur la base des références sélectionnées par le candidat sur des équipements comparables ou de complexité équivalente.3) conformité des pièces remises par le candidat par rapport aux pièces demandées dans lAAPC.\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_OUI\": \"Equipe pluridisciplinaire de maîtrise d'uvre. Le candidat devra justifier quil dispose des compétences suivantes : architecture (mandataire), technique tous corps détat, économie de la construction, VRD terrain de sports.\"}, \"CONDITION_ADMINISTRATIVE\": {\"RECOMPENSES_LAUREAT_OUI\": \"\", \"RECOMPENSES_LAUREAT\": \"Une ou des prime(s) sera/seront attribuée(s)   1 oui 0 nonNombre et montant des primes à attribuer:2 Chaque concurrent ayant remis un projet conforme aux exigences exprimées dans le dossier de consultation des concepteurs recevra une prime d'un montant de 20 000 euro H.T. Le jury se réserve la possibilité de réduire ou de supprimer la prime des candidats dont les projets remis seraient jugés incomplets ou non conformes au dossier de consultation des concepteurs.\", \"INDEMNISATION_PARTICIPANTS\": \"Le règlement de la prime se fera après la proclamation du résultat du concours, sur présentation d'une facture et s'effectuera par mandat administratif suivi d'un virement administratif. L'attributaire du marché recevra la prime qui viendra en déduction de sa rémunération au titre du marché de maîtrise d'uvre.\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"1)\\tLa présente consultation a pour objet lattribution dun marché de maitrise duvre, dont la modalité de passation retenue est le concours de maîtrise duvre sur esquisse + (plus). La consultation seffectue conformément aux dispositions des articles 30I-6°, 88, 89 et 90 du décret 2016-360 du 25 Mars 2016 et larticle 8 de lordonnance 2015-899 du 23 Juillet 2015. A lissue du concours, l'équipe retenue se verra confier une mission de base suivant la loi du 12 juillet 1985 modifiée et le décret 93.1268 du 28 novembre 1993 modifié : APS, APD, PRO, ACT (dont DCE), VISA, DET, AOR, avec mission complémentaire CSSI. Une tranche optionnelle est envisagée : Ordonnancement  Pilotage - Coordination (OPC). Le détail des missions confiées au titulaire est précisé au dossier de consultation des concepteurs qui sera transmis aux candidats admis à remettre une offre (deuxième étape du concours).2)\\tProcédure : La consultation comprend deux phases :Phase concours restreint (choix du ou des lauréats), deux étapes :1°) Sélection des candidats admis à participer au concours.Parmi les candidatures reçues et disposant des capacités nécessaires et suffisantes pour assurer lexécution du marché, seront sélectionnées 3 équipes au regard des critères de sélection des candidatures énoncés au III.1.10.2°) Sélection du ou des lauréats du concours, sur la base des projets remis par les candidats qui auront été invités à remettre un projet. Le délai de remise des offres sera de 2 mois.Phase marché négocié (attribution du marché) : phase de négociation du futur marché de maîtrise duvre avec le ou les lauréats du concours, avant le choix définitif de lattributaire du marché de maîtrise duvre par la commission dappel doffres - Article 90 II 1 du décret 2016-360 du 25 Mars 2016.3)\\tComposition et compétence de léquipe (compléments des informations fournies au III.2.1). Le candidat se présentera seul ou en groupement dentreprises ou de sociétés, conjoint avec mandataire solidaire ou en groupement solidaire. Les candidats qui souhaitent se présenter sous forme de groupement doivent lindiquer dans le dossier relatif à leur candidature, et devront exposer le rôle et les missions de chacun des membres. Le candidat doit obligatoirement intégrer les compétences dun architecte. Ce dernier devra être mandataire du groupement. Il devra être inscrit à l'ordre (ou équivalent si le candidat est établi dans un autre état) et autorisé à exercer en France. Il pourra s'adjoindre les services dun ou plusieurs architectes. Un même prestataire ne peut pas être mandataire de plus dun groupement. L'Architecte associé au mandataire ne peut se présenter que dans un seul groupement.4)\\tÀ tout moment, la personne publique peut déclarer sans suite la procédure pour un motif dintérêt général en application de larticle 98 du décret no2016-360.5)\\tUne annexe téléchargeable sur la plateforme précise les modalités de remise des candidatures et les éléments calendaires de la procédure et du projet.. Date d'envoi du présent avis au JOUE et au BOAMP : 11 janvier 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"PROPOLIS\", \"ADRESSE\": \"7, rue des Doyers\", \"CP\": \"77140\", \"VILLE\": \"NEMOURS\", \"CODE_NUTS\": \"FR\", \"TEL\": \"(+33) 6-10-85-31-95\", \"FAX\": \"(+33) 9-56-91-32-69\", \"MEL\": \"contact@propolis.fr\", \"URL\": \"http://www.propolis-amo.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"COMMUNE DE LA GARNACHE\", \"ADRESSE\": \"MairiePlace de la Mairie\", \"CP\": \"85710\", \"VILLE\": \"LA GARNACHE\", \"CODE_NUTS\": \"FR\", \"MEL\": \"marchespublics@lagarnache.fr\", \"URL\": \"http://www.lagarnache.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"NANTES CEDEX\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"NANTES CEDEX\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-2918"
   },
   {
    "idweb": "18-4073",
@@ -5939,120 +6053,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-4353\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-87044\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-06-21\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-06-23\", \"DATE_FIN_DIFFUSION\": \"2017-07-28\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"119\", \"NUM_ANNONCE\": \"239896\", \"DATE_PUBLICATION\": \"2017-06-24\"}}]}}, \"NOM_HTML\": \"18-4353.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-13\", \"DATE_FIN_DIFFUSION\": \"2018-01-31\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"48\", \"LIBELLE\": \"Canalisations\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Entretien des canalisations horizontales et verticales Eaux usées - Eaux vannesEntretien des séparateurs hydrocarbures\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Mancelle d'habitation\", \"CONTACT\": \"Affaires Foncières et Marchés\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"11 rue du Donjon\", \"CP\": \"72000\", \"VILLE\": \"LE MANS\", \"MEL\": \"alexis.masson@mancelle-habitation.fr\", \"URL\": \"http://www.mancelle-habitation.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"SA HLM\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"LOG_DEV_COL\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Entretien des canalisations horizontales et verticales Eaux usées - Eaux vannes - Entretien des séparateurs hydrocarbures\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Entretien des canalisations horizontales et verticales Eaux usées - Eaux vannes - Entretien des séparateurs hydrocarbures\", \"CPV\": {\"PRINCIPAL\": \"44161200\"}, \"CARACTERISTIQUES\": {\"VALEUR_MIN\": {\"@DEVISE\": \"EUR\", \"#text\": \"94315.50\"}, \"VALEUR_MAX\": {\"@DEVISE\": \"EUR\", \"#text\": \"190315.50\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Entretien des canalisations horizontales et verticales Eaux usées - Eaux vannes - Entretien des séparateurs hydrocarbures\", \"CPV\": {\"PRINCIPAL\": \"44161200\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_NON\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2017\", \"NUM_PARUTION\": \"119\", \"NUM_ANNONCE\": \"239896\", \"DATE_PUBLICATION\": \"2017-06-24\"}}}, \"ATTRIBUTION\": {\"DECISION\": {\"ATTRIBUE\": \"\", \"INTITULE\": \"Entretien des canalisations horizontales et verticales Eaux usées - Eaux vannes - Entretien des séparateurs hydrocarbures\", \"TITULAIRE\": {\"DENOMINATION\": \"ORTEC ENVIRONNEMENT\", \"VILLE\": \"SAINT BARTHELEMY D'ANJOU\", \"CODE_NUTS\": \"FRG02\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-10-27\", \"NB_OFFRE_RECU\": \"2\", \"OFFRE_BASSE\": {\"@DEVISE\": \"EUR\", \"#text\": \"94315.50\"}, \"OFFRE_ELEVEE\": {\"@DEVISE\": \"EUR\", \"#text\": \"190315.50\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 11 janvier 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"VILLE\": \"Nantes\"}}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-4353"
-  },
-  {
-   "idweb": "18-2450",
-   "id": "18_2450",
-   "contractfolderid": null,
-   "objet": "formation à la prévention des risques liés à l'activité professionnelle",
-   "filename": "BOAMP-J-AO_2018_013003",
-   "famille": "JOUE",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-01-13",
-   "datefindiffusion": "2018-02-09",
-   "datelimitereponse": null,
-   "nomacheteur": "Ville de Nantes",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": "1",
-   "marche_public_simplifie_label": "Marché public simplifié",
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "410"
-   ],
-   "dc": [
-    "410"
-   ],
-   "descripteur_libelle": [
-    "Formation"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-2450\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-2450.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-13\", \"DATE_FIN_DIFFUSION\": \"2018-02-09\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"410\", \"LIBELLE\": \"Formation\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"formation à la prévention des risques liés à l'activité professionnelle\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Nantes\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"2 rue de l'hôtel de Ville\", \"CP\": \"44094\", \"VILLE\": \"Nantes Cedex 1\", \"MEL\": \"laurence.jouneau@nantesmetropole.fr\", \"URL\": \"https://nantes.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.nantesmetropole.fr\", \"URL_PARTICIPATION\": \"https://marchespublics.nantesmetropole.fr\", \"URL_DOCUMENT\": \"https://marchespublics.nantesmetropole.fr\", \"URL_OUTIL_LOGICIEL\": \"https://marchespublics.nantesmetropole.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Formation à la prévention des risques liés à l'activité professionnelle\", \"REF_MARCHE\": \"1806A001\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Formation à la prévention des risques liés à l'activité professionnelle\", \"CPV\": {\"PRINCIPAL\": \"80511000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Le présent marché de services a pour objet la Formation à la prévention des risques liés à l'activité professionnelle Il comprend également les conseils et expertises, les informations commerciales que le titulaire peut apporter lors de lexécution du marché. Ce marché prend la forme dun accord-cadre mono attributaire à bons de commande sans minimum avec un montant maximum sur la durée du marché de 999 999 eurosHT en application des dispositions des articles 78 et 80 du décret no2016-360 du 25 mars 2016. Il est précisé que le montant maximum du marché ne correspond en aucune façon à lestimation des prestations. La présente procédure adaptée ouverte est soumise aux dispositions de larticle 28 du décret no2016-360 relatifs aux marchés publics.\", \"CPV\": {\"PRINCIPAL\": \"80511000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-02-08T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"5\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Les critères de recevabilité des candidatures sont : Aptitude à exercer l'activité professionnelle, capacité économique et financière, capacités techniques et professionnellesLettre de candidature (imprimé DC1) que la candidature soit présentée à titre individuel ou en groupement\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"Déclaration concernant le chiffre d'affaires global du candidat et, le cas échéant, le chiffre d'affaires du domaine d'activité faisant l'objet du marché public, portant au maximum sur les trois derniers exercices disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles (imprimé DC2)\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"Déclaration indiquant les effectifs moyens annuels du candidat et limportance du personnel dencadrement pour chacune des trois dernières années (en annexe au DC2 si utilisation de ce document et tout document complémentaire)  Liste des principaux services fournis au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Les livraisons et les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique (en annexe au DC2 si utilisation de ce document et tout document complémentaire) Le numéro dhabilitation dispositif de formation \\\" Acteur PRAP IBC \\\".\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-02-08\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_OUI\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_NON\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"LExécution du présent marché prendra effet à compter de sa date de notification pour une durée de 4 ans. Ce marché nest pas reconductible Les formations débuteront à compter du mois de mai 2018. Adresse de consultation, de téléchargement, et de réponse par voie électronique : https://marchespublics.nantesmetropole.fr. Date d'envoi du présent avis au JOUE et au BOAMP : 11 janvier 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Ville de Nantes\", \"CONTACT\": \"Pierre-Yves Petitgas\", \"ADRESSE\": \"Département Ressources Humaines\", \"CP\": \"44094\", \"VILLE\": \"Nantes Cedex 1\", \"CODE_NUTS\": \"FRG01\", \"TEL\": \"(+33) 2-40-99-67-34\", \"MEL\": \"pierre-yves.petitgas@nantesmetropole.fr\", \"URL\": \"https://nantes.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Ville de Nantes\", \"ADRESSE\": \"Direction de la Commande Publique Service marchés publics 29 rue de Strasbourg Bureaux ouverts de 8h30 à 12h30 et de 13h30 à 17h30,  F, Téléphone : (+33) 2 40 41 51 17, Courriel : , Fax : (+33) 2 40 41 51 08, Code NUTS :  Adresse internet : https://nantes.fr, Adresse du profil d'acheteur : https://marchespublics.nantesmetropole.fr\", \"CP\": \"44094\", \"VILLE\": \"Nantes Cedex 1\", \"CODE_NUTS\": \"FRG01\", \"TEL\": \"(+33) 2-40-41-51-17\", \"FAX\": \"(+33) -24-04-15-10-85\", \"MEL\": \"laurence.jouneau@nantesmetropole.fr\", \"URL\": \"https://nantes.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île GlorietteB.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île GlorietteB.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-2450"
-  },
-  {
-   "idweb": "18-2918",
-   "id": "18_2918",
-   "contractfolderid": null,
-   "objet": "concours restreint de maîtrise d'oeuvre pour la construction d'un complexe sportif à la garnache (85)",
-   "filename": "BOAMP-J-AO_2018_013003",
-   "famille": "JOUE",
-   "code_departement": [
-    "85"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-01-13",
-   "datefindiffusion": "2018-02-13",
-   "datelimitereponse": null,
-   "nomacheteur": "ville de la Garnache",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "RESTREINT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Restreinte",
-   "procedure_categorise": "RESTREINT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "CONCOURS",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": "Concours",
-   "nature_categorise": "appeloffre/concours",
-   "nature_categorise_libelle": "Avis de marché/Concours",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "197"
-   ],
-   "dc": [
-    "197"
-   ],
-   "descripteur_libelle": [
-    "Maîtrise d'oeuvre"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-2918\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"CONCOURS\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-2918.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-13\", \"DATE_FIN_DIFFUSION\": \"2018-02-13\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"197\", \"LIBELLE\": \"Maîtrise d'oeuvre\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"concours restreint de maîtrise d'oeuvre pour la construction d'un complexe sportif à la garnache (85)\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"ville de la Garnache\", \"ADJUDICATEUR_NUTS\": \"FR\", \"CP\": \"85710\", \"VILLE\": \"LA GARNACHE\", \"TEL\": \"(+33) 2-51-93-11-08\", \"MEL\": \"marchespublics@lagarnache.fr\", \"URL\": \"http://www.lagarnache.fr/\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-securises.fr\", \"URL_PARTICIPATION\": \"https://www.marches-securises.fr\", \"URL_DOCUMENT\": \"https://www.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Concours restreint de maîtrise duvre pour la construction dun complexe sportif à La Garnache (85)\", \"REF_MARCHE\": \"Moeuvrecomplsportif\", \"CPV\": {\"PRINCIPAL\": \"71200000\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Le projet consiste en la construction dun complexe sportif comprenant un bâtiment dune surface utile de 2500m² environ comprenant une salle multisports, une salle de danse, un dojo et les locaux annexes aux espaces sportifs intérieurs et extérieurs, ainsi que des espaces extérieurs sportifs (trois terrains de grands jeux, dont un terrain synthétique) et daccompagnement (parking, VRD). Le projet comporte trois options : une structure artificielle descalade de niveau régional, une salle de musculation de 100m² et 2 courts de tennis extérieurs.\", \"CPV\": {\"PRINCIPAL\": \"71200000\"}, \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"RESTREINT\": \"\"}, \"NB_CANDIDATS\": {\"NB_OFFRE\": \"3\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_LIBRE\": \"Sur la base des projets remis par les candidats qui auront été invités à remettre un projet. Cette invitation s'accompagnera de la transmission du dossier de consultation des concepteurs (DCC), comprenant les pièces marchés (RC, CCAP, AE, programme, dossier de site...), et de l'invitation à une visite de site. Les projets devront être conformes aux exigences exprimées par le DCC, l'analyse des projets sera réalisée au regard des critères d'évaluation ci-après énoncés, classés par ordre dimportance décroissant :1) qualité de la réponse aux exigences fonctionnelles et spatiales du programme,2) compatibilité économique du projet par rapport à lenveloppe financière prévisionnelle affectée aux travaux,3) pertinence et qualité des solutions techniques proposées, respect du programme technique et environnemental,4) qualité de la réponse architecturale et intégration du projet dans son environnement.\"}, \"LAUREAT_ATTRIBUTAIRE_OUI\": \"\", \"DECISION_JURY_CONTRAIGNANTE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-02-13T17:00:00+01:00\", \"LIMITE_ENVOI_INVIT\": \"2018-02-28\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"La sélection des candidats, en cas de nombre admissible supérieur au nombre fixé (3), se fera en fonction des éléments suivants par ordre décroissant d'importance :1) adéquation entre la composition de léquipe proposée et les capacités / compétences exigées : appréciation de la motivation, des moyens, compétences et capacités techniques et financières de chacun des membres de léquipe au regard de la complexité et de la spécificité du projet et de la mission à réaliser, sur la base des informations fournies dans le dossier de candidature,2) adéquation des références des membres de léquipe par rapport à lobjet et à limportance financière du projet, la qualité architecturale des projets réalisés, lexpérience communes entre les membres de léquipe, sur la base des références sélectionnées par le candidat sur des équipements comparables ou de complexité équivalente.3) conformité des pièces remises par le candidat par rapport aux pièces demandées dans lAAPC.\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_OUI\": \"Equipe pluridisciplinaire de maîtrise d'uvre. Le candidat devra justifier quil dispose des compétences suivantes : architecture (mandataire), technique tous corps détat, économie de la construction, VRD terrain de sports.\"}, \"CONDITION_ADMINISTRATIVE\": {\"RECOMPENSES_LAUREAT_OUI\": \"\", \"RECOMPENSES_LAUREAT\": \"Une ou des prime(s) sera/seront attribuée(s)   1 oui 0 nonNombre et montant des primes à attribuer:2 Chaque concurrent ayant remis un projet conforme aux exigences exprimées dans le dossier de consultation des concepteurs recevra une prime d'un montant de 20 000 euro H.T. Le jury se réserve la possibilité de réduire ou de supprimer la prime des candidats dont les projets remis seraient jugés incomplets ou non conformes au dossier de consultation des concepteurs.\", \"INDEMNISATION_PARTICIPANTS\": \"Le règlement de la prime se fera après la proclamation du résultat du concours, sur présentation d'une facture et s'effectuera par mandat administratif suivi d'un virement administratif. L'attributaire du marché recevra la prime qui viendra en déduction de sa rémunération au titre du marché de maîtrise d'uvre.\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"1)\\tLa présente consultation a pour objet lattribution dun marché de maitrise duvre, dont la modalité de passation retenue est le concours de maîtrise duvre sur esquisse + (plus). La consultation seffectue conformément aux dispositions des articles 30I-6°, 88, 89 et 90 du décret 2016-360 du 25 Mars 2016 et larticle 8 de lordonnance 2015-899 du 23 Juillet 2015. A lissue du concours, l'équipe retenue se verra confier une mission de base suivant la loi du 12 juillet 1985 modifiée et le décret 93.1268 du 28 novembre 1993 modifié : APS, APD, PRO, ACT (dont DCE), VISA, DET, AOR, avec mission complémentaire CSSI. Une tranche optionnelle est envisagée : Ordonnancement  Pilotage - Coordination (OPC). Le détail des missions confiées au titulaire est précisé au dossier de consultation des concepteurs qui sera transmis aux candidats admis à remettre une offre (deuxième étape du concours).2)\\tProcédure : La consultation comprend deux phases :Phase concours restreint (choix du ou des lauréats), deux étapes :1°) Sélection des candidats admis à participer au concours.Parmi les candidatures reçues et disposant des capacités nécessaires et suffisantes pour assurer lexécution du marché, seront sélectionnées 3 équipes au regard des critères de sélection des candidatures énoncés au III.1.10.2°) Sélection du ou des lauréats du concours, sur la base des projets remis par les candidats qui auront été invités à remettre un projet. Le délai de remise des offres sera de 2 mois.Phase marché négocié (attribution du marché) : phase de négociation du futur marché de maîtrise duvre avec le ou les lauréats du concours, avant le choix définitif de lattributaire du marché de maîtrise duvre par la commission dappel doffres - Article 90 II 1 du décret 2016-360 du 25 Mars 2016.3)\\tComposition et compétence de léquipe (compléments des informations fournies au III.2.1). Le candidat se présentera seul ou en groupement dentreprises ou de sociétés, conjoint avec mandataire solidaire ou en groupement solidaire. Les candidats qui souhaitent se présenter sous forme de groupement doivent lindiquer dans le dossier relatif à leur candidature, et devront exposer le rôle et les missions de chacun des membres. Le candidat doit obligatoirement intégrer les compétences dun architecte. Ce dernier devra être mandataire du groupement. Il devra être inscrit à l'ordre (ou équivalent si le candidat est établi dans un autre état) et autorisé à exercer en France. Il pourra s'adjoindre les services dun ou plusieurs architectes. Un même prestataire ne peut pas être mandataire de plus dun groupement. L'Architecte associé au mandataire ne peut se présenter que dans un seul groupement.4)\\tÀ tout moment, la personne publique peut déclarer sans suite la procédure pour un motif dintérêt général en application de larticle 98 du décret no2016-360.5)\\tUne annexe téléchargeable sur la plateforme précise les modalités de remise des candidatures et les éléments calendaires de la procédure et du projet.. Date d'envoi du présent avis au JOUE et au BOAMP : 11 janvier 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"PROPOLIS\", \"ADRESSE\": \"7, rue des Doyers\", \"CP\": \"77140\", \"VILLE\": \"NEMOURS\", \"CODE_NUTS\": \"FR\", \"TEL\": \"(+33) 6-10-85-31-95\", \"FAX\": \"(+33) 9-56-91-32-69\", \"MEL\": \"contact@propolis.fr\", \"URL\": \"http://www.propolis-amo.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"COMMUNE DE LA GARNACHE\", \"ADRESSE\": \"MairiePlace de la Mairie\", \"CP\": \"85710\", \"VILLE\": \"LA GARNACHE\", \"CODE_NUTS\": \"FR\", \"MEL\": \"marchespublics@lagarnache.fr\", \"URL\": \"http://www.lagarnache.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"NANTES CEDEX\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"NANTES CEDEX\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-2918"
   },
   {
    "idweb": "18-3907",

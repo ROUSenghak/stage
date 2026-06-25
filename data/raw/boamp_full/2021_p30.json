@@ -1137,6 +1137,65 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:21-139536"
   },
   {
+   "idweb": "21-140579",
+   "id": "21_140579",
+   "contractfolderid": null,
+   "objet": "Construction d'un chapiteau permanent - cité du cirque Marcel Marceau - LE MANSFondations Spéciales",
+   "filename": "BOAMP-N-IC-AA_2021_293006",
+   "famille": "FNS",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2021-10-20",
+   "datefindiffusion": "2022-01-17",
+   "datelimitereponse": null,
+   "nomacheteur": "Ville du Mans",
+   "titulaire": [
+    "ARMOR FTS"
+   ],
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "ATTRIBUTION",
+   "sousnature": null,
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "129"
+   ],
+   "dc": [
+    "129"
+   ],
+   "descripteur_libelle": [
+    "Fondations spéciales"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "21-98400"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"21-98400\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2021-07-15\", \"DATE_FIN_DIFFUSION\": \"2021-08-06\"}}}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"21-140579\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"21-98400\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2021-07-15\", \"DATE_FIN_DIFFUSION\": \"2021-08-06\"}}}}, \"NOM_HTML\": \"21-140579.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2021-10-20\", \"DATE_FIN_DIFFUSION\": \"2022-01-17\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"129\", \"LIBELLE\": \"Fondations spéciales\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Construction d'un chapiteau permanent - cité du cirque Marcel Marceau - LE MANSFondations Spéciales\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville du Mans\", \"CORRESPONDANT\": \"Le Maire\", \"ADRESSE\": \"CS 40010 - 16 avenue François Mitterrand, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"LE MANS\", \"TEL\": \"02-43-47-47-47\", \"FAX\": \"02-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Construction d'un chapiteau permanent - cité du cirque Marcel Marceau - LE MANSFondations Spéciales\", \"CPV\": {\"PRINCIPAL\": \"45262210\"}, \"AMP_NON\": \"\"}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"DESCRIPTION\": \"Construction d'un chapiteau permanent - cité du cirque Marcel Marceau - LE MANSFondations Spéciales\", \"TITULAIRE\": {\"DENOMINATION\": \"ARMOR FTS\", \"ADRESSE\": \"7 rue de la Clyde\", \"CP\": \"44750\", \"VILLE\": \"Campbon\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2021-10-18\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"105035.8\"}, \"SOUSTRAITANCE_OUI\": {\"INCONNUE\": \"\"}}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:21-140579"
+  },
+  {
    "idweb": "21-139293",
    "id": "21_139293",
    "contractfolderid": null,
@@ -1314,65 +1373,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"21-141003\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"21-141003.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2021-10-20\", \"DATE_LIMITE_REPONSE\": \"2021-11-15T17:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2021-11-15\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"285\", \"LIBELLE\": \"Publicité, Communication\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"GESTION DES RELATIONS PRESSE ET INFLUENCEURS DE L'ABBAYE ROYALE DE FONTEVRAUD\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"GIE FONTEVRAUD\", \"CORRESPONDANT\": \"MARIANI Dominique, Représentant permanent de l'administrateur unique\", \"ADRESSE\": \"Abbaye Royale de Fontevraud BP 24\", \"CP\": \"49590\", \"VILLE\": \"FONTEVRAUD L'ABBAYE\", \"MEL\": \"m.dasse@fontevraud.fr\", \"URL\": \"http://www.fontevraud.fr/\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Mise en commun des moyens\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"GESTION DES RELATIONS PRESSE ET INFLUENCEURS DE L'ABBAYE ROYALE DE FONTEVRAUD\", \"CPV\": {\"PRINCIPAL\": \"92400000\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\", \"DUREE_MOIS\": \"12\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"195000\"}}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"L'accord cadre est passé en application des articles L2125-1 1°, R. 2162-1 à R.2162-14 du Code de la commande publique. Il donnera lieu à la conclusion de marchés subséquents et de bons de commande\", \"QUANTITE\": \"GESTION DES RELATIONS PRESSE ET INFLUENCEURS DE L'ABBAYE ROYALE DE FONTEVRAUD\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"195000\"}, \"OPTIONS\": {\"OUI\": \"\"}, \"RECONDUCTIONS\": {\"NB_RECONDUCTIONS_MIN\": \"1\", \"NB_RECONDUCTIONS_MAX\": \"2\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"12\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2021-11-15T17:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"21_GIE_0004\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.marches-publics.info\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Judiciaire de Rennes\", \"ADRESSE\": \"7 rue Pierre Abélard\", \"CP\": \"35000\", \"VILLE\": \"Rennes\", \"MEL\": \"tgi-rennes@justice.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif de règlement amiable des litiges\", \"ADRESSE\": \"22 mail Pablo Picasso\", \"CP\": \"44000\", \"VILLE\": \"Nantes\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:21-141003"
-  },
-  {
-   "idweb": "21-140579",
-   "id": "21_140579",
-   "contractfolderid": null,
-   "objet": "Construction d'un chapiteau permanent - cité du cirque Marcel Marceau - LE MANSFondations Spéciales",
-   "filename": "BOAMP-N-IC-AA_2021_293006",
-   "famille": "FNS",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2021-10-20",
-   "datefindiffusion": "2022-01-17",
-   "datelimitereponse": null,
-   "nomacheteur": "Ville du Mans",
-   "titulaire": [
-    "ARMOR FTS"
-   ],
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "ATTRIBUTION",
-   "sousnature": null,
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "129"
-   ],
-   "dc": [
-    "129"
-   ],
-   "descripteur_libelle": [
-    "Fondations spéciales"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "21-98400"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"21-98400\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2021-07-15\", \"DATE_FIN_DIFFUSION\": \"2021-08-06\"}}}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"21-140579\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"21-98400\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2021-07-15\", \"DATE_FIN_DIFFUSION\": \"2021-08-06\"}}}}, \"NOM_HTML\": \"21-140579.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2021-10-20\", \"DATE_FIN_DIFFUSION\": \"2022-01-17\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"129\", \"LIBELLE\": \"Fondations spéciales\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Construction d'un chapiteau permanent - cité du cirque Marcel Marceau - LE MANSFondations Spéciales\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville du Mans\", \"CORRESPONDANT\": \"Le Maire\", \"ADRESSE\": \"CS 40010 - 16 avenue François Mitterrand, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"LE MANS\", \"TEL\": \"02-43-47-47-47\", \"FAX\": \"02-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Construction d'un chapiteau permanent - cité du cirque Marcel Marceau - LE MANSFondations Spéciales\", \"CPV\": {\"PRINCIPAL\": \"45262210\"}, \"AMP_NON\": \"\"}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"DESCRIPTION\": \"Construction d'un chapiteau permanent - cité du cirque Marcel Marceau - LE MANSFondations Spéciales\", \"TITULAIRE\": {\"DENOMINATION\": \"ARMOR FTS\", \"ADRESSE\": \"7 rue de la Clyde\", \"CP\": \"44750\", \"VILLE\": \"Campbon\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2021-10-18\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"105035.8\"}, \"SOUSTRAITANCE_OUI\": {\"INCONNUE\": \"\"}}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:21-140579"
   },
   {
    "idweb": "21-139262",

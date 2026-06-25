@@ -82,10 +82,10 @@ contract with a binary \texttt{event} indicator and an
 \textbf{Phase 2.} Survival analysis on the 1,100-contract dataset (705 events,
 395 right-censored) yields a global Kaplan--Meier median survival of 48.2 months.
 The Cox proportional hazards model achieves an in-sample concordance of 0.6541 (C-index);
-the best-fitting parametric model is log-normal with AIC = 7\,176.5 and
+the best-fitting parametric model is log-normal with AIC = 7\,176.6 and
 concordance 0.6719. Statistically significant predictors are
-\texttt{declared\_duration\_months} (HR = 0.990, $p < 0.001$) and
-\texttt{start\_year} (HR = 1.097, $p < 0.001$). A sensitivity analysis
+\texttt{declared\_duration\_months} (HR = 0.991, $p < 0.001$) and
+\texttt{start\_year} (HR = 1.094, $p < 0.001$). A sensitivity analysis
 restricting to high-confidence links (composite $\geq 0.50$, 497 events)
 yields a Cox concordance of 0.645 (KM median 52.8 months, event rate 45.2\%), supporting
 the stability of the main qualitative conclusions under a stricter event definition. Finally, the survival model is
@@ -394,7 +394,7 @@ The answer is \textbf{no}. The declared duration is preserved as a covariate
 and as a temporal search prior for the linking algorithm, but it is not the
 survival target. The true survival target --- the actual time elapsed between
 a contract start and its renewal --- is the linked gap
-$\Delta(i, j^*) = t_{j^*} - t_i$, stored in \texttt{observed\_duration\_months}
+$g(i, j^*) = t_{j^*} - t_i$, stored in \texttt{observed\_duration\_months}
 in the output file.
 
 \subsubsection*{Evidence}
@@ -494,7 +494,7 @@ The declared duration $d_i$ is retained for three specific purposes:
 \noindent The \textbf{actual survival target} is the observed gap:
 
 \begin{equation}
-  T_i^{\text{obs}} = \Delta(i, j^*) = t_{j^*} - t_i \quad \text{(months)}
+  T_i^{\text{obs}} = g(i, j^*) = t_{j^*} - t_i \quad \text{(months)}
 \end{equation}
 
 stored in \texttt{observed\_duration\_months} in \texttt{boamp\_renewal\_links.csv}.
@@ -976,7 +976,7 @@ For each eligible source $i$, the candidate pool is:
 The gap between source and candidate is:
 
 \begin{equation}
-  \Delta(i,j) = t_j - t_i \quad \text{(in months)}
+  g(i,j) = t_j - t_i \quad \text{(in months)}
 \end{equation}
 
 \textbf{Key design choice:} candidates are grouped by \texttt{buyer\_key} only.
@@ -1029,7 +1029,7 @@ Linear decay from 1.0 at the exact expected renewal date to 0.0 at the
 window boundary $W = 12$ months:
 
 \begin{equation}
-  s_{\text{temp}}(i,j) = \max\!\left(0,\; 1 - \frac{|\Delta(i,j) - d_i|}{W}\right)
+  s_{\text{temp}}(i,j) = \max\!\left(0,\; 1 - \frac{|g(i,j) - d_i|}{W}\right)
 \end{equation}
 
 \paragraph{Buyer match.}
@@ -1102,7 +1102,7 @@ Two hard gates are applied before best-match selection:
 
 \begin{align}
   s_{\text{text}}(i,j) &\geq 0.20 \label{eq:f1} \\
-  \Delta(i,j) &\in [6,\; 72] \text{ months} \label{eq:f2}
+  g(i,j) &\in [6,\; 72] \text{ months} \label{eq:f2}
 \end{align}
 
 The minimum gap of 6 months prevents matching a contract to itself or to an
@@ -1120,7 +1120,7 @@ Let $\mathcal{F}(i)$ denote the filtered candidate set:
   \bigl\{
     j \in \mathcal{C}(i) :
     s_{\text{text}}(i,j) \geq 0.20,\;
-    \Delta(i,j) \in [6,72]
+    g(i,j) \in [6,72]
   \bigr\}.
 \end{equation}
 
@@ -1206,9 +1206,9 @@ notebook linking output and contains one row per eligible
 \texttt{declared\_duration\_months} & float & Contract duration as declared (or imputed). Mean: 31.5 months. \\
 \texttt{dur\_was\_imputed}  & bool    & True if duration was set to the default 48-month imputation (25.1\% of rows). \\
 \texttt{estimated\_end\_date} & date  & $\hat{e}_i = t_i + d_i$; defines the renewal search window. \\
-\texttt{observed\_duration\_months} & float & Survival time in months, always filled. For \texttt{event=1}: observed gap to the linked BOAMP renewal candidate $\Delta(i,j^*)$. For \texttt{event=0}: right-censoring duration from contract start to end of study period. \\
+\texttt{observed\_duration\_months} & float & Survival time in months, always filled. For \texttt{event=1}: observed gap to the linked BOAMP renewal candidate $g(i,j^*)$. For \texttt{event=0}: right-censoring duration from contract start to end of study period. \\
 \texttt{renewal\_duration\_months} & float & Observed renewal gap for linked contracts only. Filled on 64.1\% of rows (the \texttt{event=1} subset). \\
-\nolinkurl{censoring_duration_months} & float & Observed time-to-study-end for censored contracts only. Filled on 36.6\% of rows (the \texttt{event=0} subset). \\[6pt]
+\nolinkurl{censoring_duration_months} & float & Observed time-to-study-end for censored contracts only. Filled on 35.9\% of rows (the \texttt{event=0} subset). \\[6pt]
 
 \multicolumn{3}{l}{\textit{--- Outcome variable ---}} \\[2pt]
 \texttt{event}              & int     & \textbf{Target variable}. 1 = plausible renewal link found (705), 0 = no renewal link observed under the algorithm (395). \\[6pt]
@@ -1235,10 +1235,10 @@ notebook linking output and contains one row per eligible
 \multicolumn{3}{l}{\textit{--- Link confidence diagnostics (added in the Phase-2 handoff) ---}} \\[2pt]
 \texttt{best\_composite\_score}   & float & $S(i,j^{(1)})$: composite score of the best candidate (the selected link for \texttt{event}=1). \\
 \nolinkurl{second_best_composite_score} & float & $S(i,j^{(2)})$: composite score of the runner-up. NaN for single-candidate sources. \\
-\texttt{score\_margin}        & float & $\Delta = S(i,j^{(1)}) - S(i,j^{(2)})$. Best-minus-second-best gap; NaN when only one candidate. \\
+\texttt{score\_margin}        & float & $m_i = S(i,j^{(1)}) - S(i,j^{(2)})$. Best-minus-second-best gap; NaN when only one candidate. \\
 \texttt{n\_candidates\_for\_source} & int & Number of filtered candidates for the source (133 sources have exactly one; 572 have $\geq 2$). \\
 \texttt{single\_candidate\_match} & bool & True when the source had a single candidate (133 rows); margin undefined, not auto-promoted to strict. \\
-\texttt{high\_confidence\_strict} & bool & True iff \texttt{event}=1 $\wedge\ S \geq 0.70 \wedge \Delta \geq 0.05$ (100 rows). Conservative sensitivity flag for Model C (Section~\ref{sec:margin}). \\
+\texttt{high\_confidence\_strict} & bool & True iff \texttt{event}=1 $\wedge\ S \geq 0.70 \wedge m_i \geq 0.05$ (100 rows). Conservative sensitivity flag for Model C (Section~\ref{sec:margin}). \\
 \end{longtable}
 \normalsize
 
@@ -1313,7 +1313,7 @@ review of a stratified sample of linked pairs.
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.82\textwidth]{figures/fig_temporal_error}
-\caption{Distribution of the temporal error $\Delta(i,j^*) - d_i$ (observed gap
+\caption{Distribution of the temporal error $g(i,j^*) - d_i$ (observed gap
 minus declared duration) for the 705 linked contracts. Blue bars correspond to
 the 534 contracts with a valid non-imputed duration; orange bars to the 171
 contracts whose duration was imputed to 48 months. The overall mean error is
@@ -1379,10 +1379,11 @@ Failure reason & Count & Share & Description \\
 \normalsize
 \end{table}
 
-The dominant failure mode (\texttt{NO\_TEMPORAL\_PARTNER}, 84.1\%) reflects a
+The dominant failure mode (\texttt{NO\_TEMPORAL\_PARTNER}, 83.8\%) reflects a
 structural ceiling: buyers who published only one call-for-tender within the
 study period cannot be linked regardless of algorithm quality. This is the main
-remaining ceiling on the 36.6\% unlinked fraction.
+remaining ceiling on the 35.9\% censored share of the eligible survival cohort
+($395 / 1{,}100$).
 
 \subsection{Linking Rate by Contract Start Year}
 
@@ -1447,7 +1448,7 @@ $t_i$           & Source start date          & 2015-03-02 \\
 $d_i$           & Declared duration          & 36 months \\
 $\hat{e}_i$     & Estimated end date ($t_i + d_i$) & 2018-03-01 \\
 $t_j$           & Candidate start date       & 2017-12-17 \\
-$\Delta(i,j)$   & Gap ($t_j - t_i$)          & 33.54 months \\
+$g(i,j)$        & Gap ($t_j - t_i$)          & 33.54 months \\
 \midrule
 $s_{\text{text}}$ & ST cosine of \textit{objet} embeddings & 0.6922 \\
 $s_{\text{cpv}}$  & Source CPV missing $\Rightarrow$ excluded (renormalized) & --- \\
@@ -1523,13 +1524,13 @@ end date of the original contract, so it is a plausible renewal candidate.
 The time gap between the source contract and the candidate is:
 
 \[
-\Delta(i,j) = t_j - t_i
+g(i,j) = t_j - t_i
 \]
 
 In this example:
 
 \[
-\Delta(i,j)
+g(i,j)
 =
 2017\text{-}12\text{-}17
 -
@@ -1560,7 +1561,7 @@ The temporal score is:
 s_{\text{temp}}(i,j)
 =
 1 -
-\frac{|\Delta(i,j) - d_i|}{W}
+\frac{|g(i,j) - d_i|}{W}
 \]
 
 with:
@@ -1700,7 +1701,7 @@ s_{\text{text}} = 0.6922 \geq 0.20
 and:
 
 \[
-\Delta(i,j) = 33.54 \in [6,72]
+g(i,j) = 33.54 \in [6,72]
 \]
 
 Therefore, this candidate remains in the filtered candidate set. If it has the
@@ -1848,7 +1849,7 @@ alternative renewal link was nearly as plausible as the selected one.
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.82\textwidth]{figures/fig_score_margin}
-\caption{Distribution of the score margin (best composite $-$ second-best
+\caption{Distribution of the score margin $m_i$ (best composite $-$ second-best
 composite) for the 572 multi-candidate source contracts. The dotted red line
 marks the 0.05 threshold below which 46.3\% of pairs are considered
 \textit{ambiguous}: the algorithm selected one candidate, but an alternative
@@ -1873,7 +1874,7 @@ We turn this diagnostic into an explicit, conservative flag, written to
 high-confidence} when it satisfies \emph{both} conditions
 \[
   \texttt{event}=1 \;\wedge\; S(i,j^*) \geq 0.70 \;\wedge\;
-  \Delta \geq 0.05, \qquad \Delta = S(i,j^{(1)}) - S(i,j^{(2)}),
+  m_i \geq 0.05, \qquad m_i = S(i,j^{(1)}) - S(i,j^{(2)}),
 \]
 i.e.\ a high absolute score \emph{and} a clear separation from the runner-up.
 Of the 705 links, \textbf{100} qualify. Single-candidate sources ($n = 133$)
@@ -1917,7 +1918,7 @@ Year-by-year rate stability (2015--2022) & 50--75\% & Stable; 2023 drop is struc
 \texttt{annonce\_lie} calibration & 68.2\% vs.\ 64.1\% & Positive signal \\[4pt]
 Low text-similarity links ($s_{\text{text}} < 0.30$) & 81 pairs (11.6\%) & Highest false-positive risk \\[4pt]
 Ambiguous score margin ($<0.05$) & 46.3\% of multi-cand. & Structural; not tunable \\[4pt]
-Strict high-confidence links & 100 / 705 (14.2\%) & $S \geq 0.70$ \& $\Delta \geq 0.05$; Model~C core \\[4pt]
+Strict high-confidence links & 100 / 705 (14.2\%) & $S \geq 0.70$ \& $m_i \geq 0.05$; Model~C core \\[4pt]
 HIGH + MEDIUM tier share & 497 / 705 (70.5\%) & Reliable core for modeling \\
 \bottomrule
 \end{tabularx}
@@ -1928,6 +1929,43 @@ HIGH + MEDIUM tier share & 497 / 705 (70.5\%) & Reliable core for modeling \\
 
 % =============================================================================
 % =============================================================================
+\subsection{Statistical Roadmap}
+
+The survival chapter uses several kinds of statistical tools, each answering a
+different question. Some tools estimate a quantity, some test a null
+hypothesis, some fit a predictive or explanatory model, and some stress-test
+the reliability of the constructed proxy event variable. Keeping these roles
+separate matters because a statistically significant result is not the same
+thing as a good ranking metric, and a stable robustness diagnostic is not the
+same thing as external validation against legal ground truth.
+
+\begin{table}[H]
+\centering
+\caption{Statistical roadmap for the survival-analysis chapter}
+\small
+\begin{tabularx}{\textwidth}{@{}P{3.1cm}P{2.1cm}X P{2.2cm} X@{}}
+\toprule
+Tool & Type & Question answered & Main result in this report & Limitation \\
+\midrule
+Kaplan--Meier estimator & Estimator & What is the distribution of time to identifiable BOAMP renewal? & Global median 48.2 months & Estimates proxy-renewal timing, not legal renewal truth. \\
+KM median survival & Estimator summary & When does the estimated survival curve cross 0.5? & 48.2 months in Model A; 52.8 months in Model B; not reached in Model C & Sensitive to the event definition and study window. \\
+Log-rank test & Hypothesis test & Do groups show different renewal-time distributions? & Significant for declared duration and imputation; not significant at 5\% for category or procedure & A non-significant result does not prove equal survival curves. \\
+Cox PH model & Regression / survival model & Which covariates are associated with earlier or later proxy renewal? & Declared duration and start year are significant in the full multivariate model & Associations are conditional on the constructed proxy event, not causal effects. \\
+Wald tests in Cox regression & Hypothesis test & Is an individual Cox coefficient different from zero? & Two covariates are significant at 1\% in the full model & Significance does not measure effect size or predictive usefulness by itself. \\
+Schoenfeld residual test & Diagnostic test & Does the proportional-hazards assumption look violated? & Declared duration is flagged & Detects departures from the PH assumption, not whether the model is globally useless. \\
+Parametric AFT models & Regression / survival model & How does time-to-renewal behave under explicit distributional assumptions? & Log-normal gives the lowest AIC among fitted AFT models & Requires stronger distributional assumptions than Cox. \\
+C-index & Performance metric & Does the model rank earlier renewals above later renewals? & 0.6541 for the full Cox model; around 0.645 in conservative sensitivity analysis & In-sample ranking is not the same as out-of-sample validation. \\
+AIC & Model-comparison metric & Which parametric model best balances fit and complexity on the same data? & Log-normal AFT has the lowest AIC (7\,176.6) & Not a p-value and not an accuracy score. \\
+Threshold sensitivity & Robustness diagnostic & Do conclusions change when low-confidence links are censored? & Event rate and KM level move materially; covariate directions and C-index are more stable & Stress-tests the proxy event; it does not validate link correctness. \\
+Score-margin analysis & Robustness diagnostic & Are winning links clearly separated from the runner-up? & 46.3\% of multi-candidate links have margin below 0.05 & Internal ambiguity signal only; cannot estimate false-positive rate by itself. \\
+Uncertain-link exclusion & Robustness diagnostic & What happens if ambiguous links are removed or censored? & Qualitative covariate patterns persist under stricter definitions & Trades sample size for conservatism; still relies on the same proxy labels. \\
+Placebo / negative-control check & Internal validation diagnostic & Do selected links score higher than rejected alternatives? & Winners average 0.587 vs. 0.439 for runner-ups & Internal validation only, because the same score selects the winners. \\
+SMD balance check & Covariate-balance diagnostic & Are linked and censored groups obviously imbalanced on modeling covariates? & Modeling covariates have SMD below 0.20 & Small SMD reduces concern about obvious bias, but does not rule out hidden bias or label error. \\
+\bottomrule
+\end{tabularx}
+\normalsize
+\end{table}
+
 \section{Survival Analysis: Methods}
 \label{sec:phase2}
 
@@ -1937,7 +1975,7 @@ survival-modeling deliverable.
 
 Phase 2 fits survival models on \texttt{boamp\_phase2\_survival.csv}, the
 official BOAMP-only handoff produced by Phase 1. The survival time is
-\texttt{observed\_duration\_months} ($= \Delta(i, j^*)$ for linked contracts;
+\texttt{observed\_duration\_months} ($= g(i, j^*)$ for linked contracts;
 time-to-study-end for censored ones). The event indicator is \texttt{event}
 (1 = renewal linked, 0 = right-censored).
 
@@ -1984,6 +2022,10 @@ In the output file, $T_i^{\text{obs}}$ is stored in
 \texttt{observed\_duration\_months} and $\delta_i$ in \texttt{event}.
 
 \paragraph{Kaplan--Meier estimator.}
+\textbf{Purpose.} The Kaplan--Meier (KM) estimator is used here to describe the
+distribution of time until an \emph{identifiable BOAMP renewal} appears under
+the linking rule, while correctly handling right-censored contracts.
+
 Let $t_1 < t_2 < \cdots < t_k$ be the distinct observed event times, $d_j$ the
 number of events at time $t_j$, and $n_j$ the number of contracts at risk just
 before $t_j$. The product-limit estimator of the survival function is:
@@ -1992,7 +2034,20 @@ before $t_j$. The product-limit estimator of the survival function is:
   \hat{S}(t) = \prod_{j:\, t_j \leq t} \left(1 - \frac{d_j}{n_j}\right).
 \end{equation}
 
+\textbf{How to read the result.} $\hat{S}(t)$ is the estimated probability
+that a contract has \emph{not yet} shown an identifiable BOAMP renewal by time
+$t$. The KM median is the time at which this estimated survival probability
+falls to 0.5.
+
+\textbf{Limitation.} The KM curve estimates timing under the constructed proxy
+event variable. It does not prove the legal truth of renewal or non-renewal.
+
 \paragraph{Log-rank test.}
+\textbf{Purpose.} The log-rank test compares survival curves across groups,
+such as duration bins or imputation status, to assess whether the observed
+renewal-time distributions differ more than would be expected from random
+variation alone.
+
 For two strata, the log-rank statistic can be written as:
 
 \begin{equation}
@@ -2008,7 +2063,19 @@ $K>2$ strata, the test generalises to a vector/matrix form and follows a
 $\chi^2$ distribution with $K - 1$ degrees of freedom under the null hypothesis
 of equal survival.
 
+\textbf{How to read the result.} A small $p$-value means the data provide
+evidence that at least one group has a different renewal-time distribution. A
+non-significant result does \emph{not} prove equal curves; it means the data do
+not provide strong evidence of a difference.
+
+\textbf{Limitation.} The log-rank test is a hypothesis test, not an effect-size
+measure, and it does not explain why curves differ.
+
 \paragraph{Cox proportional hazards model.}
+\textbf{Purpose.} The Cox model is used to estimate how observed covariates are
+associated with the relative rate at which a proxy renewal event occurs,
+without specifying the baseline hazard shape.
+
 The hazard function for contract $i$ with covariate vector $\mathbf{x}_i$ is:
 
 \begin{equation}
@@ -2042,7 +2109,19 @@ covariates and mildly shrinks the reported hazard ratios and confidence
 intervals toward the null; exact reproduction of the tabulated values requires
 the same penalty.
 
+\textbf{How to read the result.} A hazard ratio is a \emph{relative} rate.
+For example, $\mathrm{HR}=1.10$ means a 10\% higher instantaneous renewal rate,
+while $\mathrm{HR}=0.90$ means a 10\% lower instantaneous renewal rate,
+conditional on the other covariates in the model.
+
+\textbf{Limitation.} These are associations conditional on the constructed
+proxy event variable. They should not be interpreted as causal effects.
+
 \paragraph{Concordance index (C-index).}
+\textbf{Purpose.} The C-index measures ranking ability: if two contracts are
+compared, does the model assign higher risk to the contract that renews
+earlier?
+
 In-sample ranking ability is measured by Harrell's C-index:
 
 \begin{equation}
@@ -2061,7 +2140,18 @@ where $\hat{\eta}_i = \boldsymbol{\hat{\beta}}^\top \mathbf{x}_i$ is the
 estimated linear predictor. $C = 0.5$ corresponds to random ranking;
 $C = 1$ is perfect discrimination.
 
+\textbf{How to read the result.} Values near 0.5 mean the model is little
+better than random ordering; values near 1 mean near-perfect ordering. A value
+around 0.65, as in this report, indicates moderate ranking signal.
+
+\textbf{Limitation.} The reported C-index is in-sample. It is useful for
+internal comparison, but it is not a full out-of-sample validation.
+
 \paragraph{Accelerated failure time (AFT) models.}
+\textbf{Purpose.} AFT models complement the Cox analysis by modeling the
+logarithm of time-to-renewal directly. They are useful when one wants to reason
+about survival time itself rather than only relative hazard.
+
 Parametric AFT models assume:
 
 \begin{equation}
@@ -2090,11 +2180,35 @@ Akaike Information Criterion:
 where $\hat{\ell}$ is the maximised log-likelihood and $p$ is the number of
 free parameters.
 
+\textbf{How to read the result.} Lower AIC means a better trade-off between
+goodness-of-fit and complexity \emph{among models fitted on the same dataset}.
+
+\textbf{Limitation.} AIC is not a hypothesis test, not a p-value, and not an
+accuracy score.
+
 \paragraph{Proportional hazards assumption.}
-The PH assumption requires $h(t \mid \mathbf{x}_i) / h(t \mid \mathbf{x}_j)$
-to be constant over time. A graphical check uses the log-log transformation:
-if the PH assumption holds, $\log(-\log\hat{S}_k(t))$ curves across strata
-$k$ should be approximately parallel.
+\textbf{Purpose.} The Cox model does \emph{not} assume that renewal risk is
+constant over time. It assumes that the ratio of hazards between two contracts
+or groups is approximately constant over time.
+
+\begin{equation}
+  \frac{h(t \mid \mathbf{x}_i)}{h(t \mid \mathbf{x}_j)}
+  \quad \text{should not depend on } t.
+\end{equation}
+
+A graphical check uses the log-log transformation: if the PH assumption holds,
+$\log(-\log\hat{S}_k(t))$ curves across strata $k$ should be approximately
+parallel. The formal Schoenfeld residual test is a hypothesis test with
+$H_0$: proportional hazards holds, and $H_1$: the proportional-hazards
+assumption is violated.
+
+\textbf{How to read the result.} A flagged covariate suggests that its Cox
+hazard ratio should be interpreted as an average relative effect over the
+observation window, not as a perfectly constant effect at every month.
+
+\textbf{Limitation.} A violation of the PH assumption does not automatically
+invalidate the whole analysis. It indicates that a time-varying or alternative
+specification may be preferable for that covariate.
 
 \section{Survival Results}
 
@@ -2102,11 +2216,22 @@ $k$ should be approximately parallel.
 
 \subsubsection*{Global Kaplan--Meier Curve}
 
+\textbf{Purpose.} This curve gives the baseline empirical description of proxy
+renewal timing before introducing covariates.
+
 Figure~\ref{fig:km_global} shows the overall survival function estimated from
 all 1,100 contracts. The global KM median survival is \textbf{48.2 months},
 consistent with the dominant 48-month administrative duration cluster in the
 declared duration distribution. The 95\% confidence interval widens beyond
 60 months as fewer contracts remain at risk.
+
+\textbf{How to read the result.} The median of 48.2 months means that the KM
+curve crosses 0.5 at about four years: by that time, roughly half of the
+contracts have shown an identifiable BOAMP renewal under the proxy event
+definition.
+
+\textbf{Limitation.} This is a timing summary for the identified proxy events;
+it does not prove that half of all contracts are legally renewed by 48 months.
 
 \begin{figure}[H]
 \centering
@@ -2125,15 +2250,16 @@ Figure~\ref{fig:km_category} stratifies the KM curve by the five most
 represented service categories (Cybersecurity, IT Services \& Consulting,
 Software \& Applications, Telecom \& Networks, and Other). The log-rank test
 gives a test statistic of 6.23 ($p = 0.182$, $\mathrm{df} = 4$), indicating
-no statistically significant difference in renewal timing across ICT categories
-at the 5\% level.
+that the data do not provide statistically significant evidence of different
+renewal timing across ICT categories at the 5\% level.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.88\textwidth]{figures/survival/km_by_category}
 \caption{Kaplan--Meier survival curves stratified by service category.
 Log-rank test: $\chi^2 = 6.23$, $p = 0.182$, $\mathrm{df} = 4$.
-No category shows a statistically significant difference in time-to-renewal.}
+The data do not provide statistically significant evidence of different
+time-to-renewal curves by category.}
 \label{fig:km_category}
 \end{figure}
 
@@ -2174,6 +2300,20 @@ those with observed durations.}
 
 \subsection{Log-Rank Test Summary}
 
+The log-rank results in Table~\ref{tab:logrank} are formal hypothesis tests.
+Their null and alternative hypotheses are:
+
+\[
+H_0: S_1(t) = S_2(t) = \cdots = S_K(t) \quad \text{for all } t,
+\]
+\[
+H_1:\ \text{at least one group has a different survival curve.}
+\]
+
+A small $p$-value means the data provide evidence of different renewal-time
+distributions across groups. A non-significant $p$-value does not prove equal
+curves; it means the data do not provide strong evidence of a difference.
+
 Table~\ref{tab:logrank} collects all log-rank test results. Declared duration
 group and imputation status are both highly significant. Service category and
 procedure type are not significant at the 5\% level.
@@ -2193,6 +2333,13 @@ Variable & $\chi^2$ statistic & $p$-value & df \\
 \bottomrule
 \end{tabular}
 \end{table}
+
+\textbf{Interpretation.} The data provide statistically significant evidence of
+different proxy-renewal curves by declared duration group and by imputation
+status. By contrast, the data do not provide statistically significant
+evidence of different renewal curves by ICT category or by procedure type at
+the 5\% level. This is careful negative evidence: it should not be read as
+proof that category or procedure have no association at all.
 
 \subsection{Cox Proportional Hazards Model}
 
@@ -2230,6 +2377,23 @@ PROCEDURE\_ADAPTE                          & 0.909 & [0.778,\ 1.061] & 0.227 & 0
 \end{tabular}
 \normalsize
 \end{table}
+
+\paragraph{Concrete interpretation box.}
+\textbf{Declared duration.} The estimated hazard ratio for
+\texttt{declared\_duration\_months} is 0.991. One additional declared month
+multiplies the proxy-renewal hazard by 0.991, which is about a 0.9\% lower
+renewal hazard per additional month. Over 12 additional months, the implied
+relative hazard is approximately $0.991^{12} \approx 0.90$, or about a 10\%
+lower hazard.
+
+\textbf{Start year.} The estimated hazard ratio for \texttt{start\_year} is
+1.094. One later start year is associated with about a 9.4\% higher renewal
+hazard. This should be interpreted cautiously because start year may capture
+calendar effects, publication practices, and right-censoring near the study
+end.
+
+\textbf{Limitation.} These are associations conditional on the constructed
+proxy event variable. They should not be interpreted as causal effects.
 
 \subsubsection*{Multivariate Cox Model}
 
@@ -2288,16 +2452,23 @@ statistically significant at the 5\% level.}
 
 The proportional hazards assumption was checked two ways: a formal Schoenfeld
 residual test (lifelines \texttt{check\_assumptions}) and a graphical log-log
-transformation of the KM survival function. The Schoenfeld test flags a
-violation for \texttt{declared\_duration\_months} ($p < 5\times10^{-5}$), the
+transformation of the KM survival function. The Schoenfeld test evaluates
+$H_0$: the proportional-hazards assumption holds, against $H_1$: it is
+violated. The test flags \texttt{declared\_duration\_months} ($p < 5\times10^{-5}$), the
 strongest predictor in the model; the remaining covariates pass. This indicates
-a time-varying (non-proportional) effect for declared duration. We interpret
+a time-varying (non-proportional) effect for declared duration. This does not
+mean the renewal risk itself is constant over time; it means the relative
+hazard ratio associated with declared duration is not perfectly constant over
+time. We therefore interpret the reported Cox hazard ratio as an average
+relative effect over the observation window rather than as a perfectly fixed
+month-by-month multiplier. We interpret
 this with caution rather than as invalidating: the Schoenfeld test is highly
 sensitive to functional-form misspecification, and the likely cause here is a
 mildly non-linear relationship between declared duration and the log-hazard
 rather than a true reversal of effect over time. Two facts limit the practical
 impact: (i) the parametric AFT models reported below do not rely on the PH
-assumption and yield the same directional conclusions; and (ii) the
+assumption and yield the same directional conclusions; the AFT model is
+therefore useful as a complementary specification; and (ii) the
 \texttt{declared\_duration\_months} hazard ratio (HR = 0.991) is consistent in
 sign and magnitude across the univariate, multivariate, and sensitivity
 specifications. A fully rigorous treatment would stratify on binned declared
@@ -2324,6 +2495,10 @@ Three accelerated failure time (AFT) models were fitted to assess parametric
 alternatives to the semi-parametric Cox model. Table~\ref{tab:aft} compares
 goodness-of-fit (AIC) and concordance across distributional families.
 
+\textbf{Purpose.} AFT models describe the logarithm of survival time directly.
+They are useful here because they model time-to-renewal itself rather than only
+relative hazard.
+
 \begin{table}[H]
 \centering
 \caption{Parametric AFT model comparison}
@@ -2332,20 +2507,29 @@ goodness-of-fit (AIC) and concordance across distributional families.
 \toprule
 Model & AIC & Concordance \\
 \midrule
-\textbf{Log-Normal}   & \textbf{7\,119.8} & \textbf{0.672} \\
-Log-Logistic          & 7\,194.3          & 0.677 \\
-Weibull               & 7\,320.3          & 0.636 \\
+\textbf{Log-Normal}   & \textbf{7\,176.6} & \textbf{0.672} \\
+Log-Logistic          & 7\,248.8          & 0.677 \\
+Weibull               & 7\,380.3          & 0.636 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-The log-normal model achieves the lowest AIC (7\,119.8) and a concordance of
+\textbf{How to read AIC.} AIC is not a $p$-value and not an accuracy score. It
+is used only to compare models fitted on the same dataset; lower AIC indicates
+the better trade-off between fit and complexity within that set of candidate
+models.
+
+The log-normal model achieves the lowest AIC (7\,176.6) and a concordance of
 0.672, marginally above the Cox model (0.654). The log-logistic model achieves
 the highest concordance (0.677) at the cost of a higher AIC. The Weibull model
 performs worst on both metrics. These results suggest that the renewal gap
 distribution has a heavier tail than the Weibull's exponential hazard allows,
 and that the non-monotone hazard shape of the log-normal/log-logistic models
 better captures the data.
+
+\textbf{Limitation.} The AIC comparison only ranks the fitted parametric models
+against each other on the same data. It does not establish that the chosen
+distribution is the true data-generating process.
 
 Figure~\ref{fig:aft} overlays the three parametric predicted survival curves
 against the empirical Kaplan--Meier estimate.
@@ -2371,6 +2555,13 @@ the LOW tier (composite $< 0.50$); Model~C is the strict margin-based definition
 of Section~\ref{sec:margin}, which retains only links that are both high-scoring
 and clearly separated from the runner-up.
 
+Because the event variable is constructed by proxy, the main risk is that
+low-confidence links distort the survival analysis. The robustness strategy is
+therefore to rebuild the event definition under stricter rules and check
+whether the main conclusions change. Model~A keeps all accepted proxy events;
+Model~B keeps only medium/high composite-score links; Model~C keeps only strict
+high-confidence links with high score and clear separation from the runner-up.
+
 \begin{table}[H]
 \centering
 \caption{Sensitivity analysis: Model A (baseline) vs.\ Model B (conservative)
@@ -2380,7 +2571,7 @@ vs.\ Model C (strict high-confidence)}
 \toprule
 Metric & Model A & Model B & Model C \\
 \midrule
-Event criterion & text $\geq 0.20$ (all accepted) & composite $\geq 0.50$ & $S \geq 0.70$ \& $\Delta \geq 0.05$ \\
+Event criterion & text $\geq 0.20$ (all accepted) & composite $\geq 0.50$ & $S \geq 0.70$ \& $m_i \geq 0.05$ \\
 Events & 705 & 497 & 100 \\
 Censored & 395 & 603 & 1\,000 \\
 Event rate & 64.1\% & 45.2\% & 9.1\% \\
@@ -2411,9 +2602,10 @@ The decisive observation is that the Cox concordance remains stable across all
 three definitions (0.654, 0.645, 0.633): the smaller event counts reduce power
 but the \emph{ranking} of renewal risk by covariate is robust. The qualitative
 conclusions --- declared duration and start year as the dominant predictors, no
-significant category or procedure effect --- are stable across all three models.
-Model~C is a conservative lower bound, not a corrected estimate of the true
-event rate.
+significant category or procedure effect --- are more stable than the absolute
+event rate. This stress-tests the proxy event definition; it does not validate
+it as ground truth. Model~C is a conservative lower bound, not a corrected
+estimate of the true event rate.
 
 Figure~\ref{fig:sensitivity} overlays the KM curves from the three models.
 
@@ -2449,7 +2641,7 @@ balance between linked and censored contracts.
 
 Table~\ref{tab:threshold_full} extends the sweep across seven
 scenarios: from the baseline (all accepted links, no composite floor) up to
-score $\geq 0.90$, plus the strict high-confidence variant.
+score $\geq 0.90$, plus a broader strict high-confidence variant.
 
 \begin{table}[H]
 \centering
@@ -2469,7 +2661,7 @@ Score $\geq 0.60$                          & 275 & 25.0 & $\infty$ & 0.623  & 0.
 Score $\geq 0.70$                          & 148 & 13.5 & $\infty$ & 0.620  & 0.997 & 1.053 \\
 Score $\geq 0.80$                          &  79 &  7.2 & $\infty$ & 0.535  & 1.001 & 1.023 \\
 Score $\geq 0.90$                          &  25 &  2.3 & $\infty$ & 0.550  & 1.001 & 1.016 \\
-Strict H.C.\ ($S\!\geq\!0.70$, $\Delta\!\geq\!0.05$) & 116 & 10.5 & $\infty$ & 0.647  & 0.995 & 1.052 \\
+Strict H.C.\ ($S\!\geq\!0.70$, $m_i\!\geq\!0.05$) & 116 & 10.5 & $\infty$ & 0.647  & 0.995 & 1.052 \\
 \bottomrule
 \end{tabular}
 \smallskip\\
@@ -2478,6 +2670,12 @@ Strict H.C.\ ($S\!\geq\!0.70$, $\Delta\!\geq\!0.05$) & 116 & 10.5 & $\infty$ & 0
 The observed minimum composite score for accepted links is approximately 0.37,
 arising from the weighting formula applied to passing pairs.}
 \end{table}
+
+This 116-event strict H.C. row is \emph{not} the same object as Model~C in
+Table~\ref{tab:sensitivity}. Here it is a broader threshold-sweep variant that
+includes qualifying single-candidate links, whereas Model~C is the stricter
+100-event definition based on the dedicated \texttt{high\_confidence\_strict}
+flag.
 
 \textbf{Key observations.} (i) The Cox C-index stays above 0.53 across all
 thresholds, including the extreme $\geq 0.90$ case (25 events). (ii) The
@@ -2559,6 +2757,9 @@ procurement cycles. The score margin median (0.054) is just above the 0.05
 ambiguity threshold, meaning roughly half of multi-candidate links are near the
 boundary.
 
+\textbf{Purpose.} This diagnostic asks whether accepted links are clear winners
+or whether many are nearly tied with another candidate.
+
 \begin{table}[H]
 \centering
 \caption{Score component distributions for the 705 event-1 links. CPV
@@ -2575,10 +2776,17 @@ Composite score  & 705 & 0.587 & 0.148 & 0.489 & 0.558 & 0.677 \\
 Text similarity  & 705 & 0.513 & 0.199 & 0.360 & 0.474 & 0.618 \\
 CPV match score  & 646 & 0.301 & 0.366 & 0.000 & 0.200 & 0.400 \\
 Temporal score   & 705 & 0.701 & 0.253 & 0.573 & 0.768 & 0.913 \\
-Score margin ($\Delta$) & 572 & 0.091 & 0.104 & 0.021 & 0.054 & 0.117 \\
+Score margin ($m_i$) & 572 & 0.091 & 0.104 & 0.021 & 0.054 & 0.117 \\
 \bottomrule
 \end{tabular}
 \end{table}
+
+\textbf{How to read the result.} A larger margin means the winning link is more
+clearly separated from the runner-up. A margin below 0.05 is treated here as
+ambiguous because a nearby alternative would have received a very similar score.
+
+\textbf{Limitation.} Margin is an internal ambiguity diagnostic. It does not by
+itself tell us whether the selected link is legally correct.
 
 Figure~\ref{fig:score_duration} checks whether composite score correlates with
 declared contract duration, which would indicate that short-duration contracts
@@ -2603,6 +2811,11 @@ To verify that the scoring function discriminates rather than assigning high
 scores uniformly, three groups are compared: the winning link (real event),
 the runner-up (the second-best candidate, not accepted), and a synthetic
 ``no-buyer'' candidate constructed by stripping the buyer-identity signal.
+
+The placebo check asks whether the scoring rule gives higher scores to selected
+links than to plausible but rejected alternatives. If the score had no
+discriminative value, winning links and runner-up candidates would have similar
+score distributions.
 
 \begin{table}[H]
 \centering
@@ -2642,6 +2855,15 @@ small difference (0.439 vs.\ 0.434) confirms the buyer component contributes
 positively but is not the dominant signal (the text and temporal components
 explain most of the winner/runner-up gap).
 
+\textbf{How to read the result.} Winners have a mean score around 0.587,
+runner-ups around 0.439, and synthetic no-buyer candidates around 0.434. Only
+1.2\% of runner-ups exceed the 0.70 high-confidence threshold, compared with
+21.0\% of winners. This is evidence that the score is internally
+discriminative.
+
+\textbf{Limitation.} This is internal validation, not external ground truth,
+because the same score is used to select the winning link.
+
 % ---------------------------------------------------------------------------
 \subsubsection*{5. Event / Censoring Bias Check}
 
@@ -2650,17 +2872,25 @@ An important validity concern is whether the contracts that received
 covariates used in the survival model. A systematic difference could introduce
 bias into the Cox hazard ratios if the censoring is informative.
 
+For a continuous variable, the standardised mean difference is
+\[
+\mathrm{SMD} = \frac{\bar{x}_{\text{event}=1} - \bar{x}_{\text{event}=0}}{s_{\text{pooled}}}.
+\]
+For binary variables, the table reports the raw difference in proportions.
+SMD measures imbalance size, not statistical significance. Values below 0.20
+are often treated as small in applied diagnostics.
+
 \begin{table}[H]
 \centering
 \caption{Covariate balance between event-1 (linked) and event-0 (censored)
-contracts. SMD = standardised mean difference; $\Delta$ = difference in
-proportions. SMD $< 0.20$ is conventionally considered small.}
+contracts. SMD = standardised mean difference; diff. = difference in
+proportions for binary variables. SMD $< 0.20$ is conventionally considered small.}
 \label{tab:bias}
 \small
 \begin{tabular}{@{}p{5.0cm}p{3.0cm}p{3.0cm}r@{}}
 \toprule
 \textbf{Variable} & \textbf{event = 1 ($n$ = 705)} & \textbf{event = 0 ($n$ = 395)} &
-\textbf{SMD / $\Delta$} \\
+\textbf{SMD / diff.} \\
 \midrule
 Declared duration (months) & 32.4 $\pm$ 17.0 & 29.9 $\pm$ 18.6 & 0.139 \\
 Contract start year        & 2018.0 $\pm$ 2.0 & 2018.1 $\pm$ 2.1 & $-$0.029 \\
@@ -2688,13 +2918,19 @@ zero candidates were evaluated.}
 
 \textbf{Interpretation.} All covariates used in the survival model
 (declared duration, start year, imputation flag) have SMD below 0.15, indicating
-that the linked and censored groups are well balanced on these dimensions. The
-one notable imbalance is amount non-missing ($\Delta = -0.099$): censored
+that the linked and censored groups are well balanced on these dimensions. This
+reduces concern about obvious selection bias on the modeled covariates, though
+it cannot rule out hidden bias or event-label error. Declared duration, start
+year, and imputation status are all well balanced. The one notable imbalance is
+amount non-missing (diff. = $-0.099$): censored
 contracts are more likely to have a reported amount, suggesting that
 amount-bearing contracts are slightly harder to re-link --- possibly because
 high-value contracts are more likely to be renegotiated without a new
 BOAMP call. This does not affect the survival model (amount is not a covariate)
-but is worth monitoring in future analyses. The dominant source of censoring
+but is worth monitoring in future analyses. The large difference for
+N\_candidates is structural and should not be interpreted as a modeling
+imbalance: censored contracts have no matched temporal partner by construction.
+The dominant source of censoring
 is structural right-censoring of the 2022--2024 cohort, whose contracts'
 expected renewal windows fall after the 2024-12-31 study close.
 
@@ -2723,7 +2959,7 @@ expected renewal windows fall after the 2024-12-31 study close.
         for all). Log-rank tests confirm this at the bivariate level.
 
   \item \textbf{Log-normal AFT model preferred.} Among parametric models, the
-        log-normal achieves the best trade-off between fit (AIC = 7\,176.5) and
+      log-normal achieves the best trade-off between fit (AIC = 7\,176.6) and
         concordance (0.672), outperforming the Cox model marginally. The Weibull
         model is the worst fit.
 
@@ -2736,6 +2972,14 @@ expected renewal windows fall after the 2024-12-31 study close.
         as the official result.
 
 \end{enumerate}
+
+The statistical evidence therefore supports using the constructed event variable
+for exploratory survival modeling and operational prioritization. However, the
+validation evidence remains mostly internal: threshold sensitivity, score-margin
+diagnostics, placebo checks, and covariate balance. These checks show stability
+and discriminative structure, but they do not estimate the true precision or
+recall of the event variable. Manual validation remains necessary to measure
+false positives and false negatives.
 
 % =============================================================================
 \section{Operational Risk Indicators}
@@ -2755,7 +2999,7 @@ renewal-campaign effort.
 
 \paragraph{Prediction model.} The \textbf{log-normal AFT} model of
 Section~\ref{sec:phase2} is used as the main prediction model, because it has the best
-(lowest) AIC among the parametric survival models (AIC~=~7\,119.8; Table~\ref{tab:aft}). It is
+(lowest) AIC among the parametric survival models (AIC~=~7\,176.6; Table~\ref{tab:aft}). It is
 applied with the same covariates and design matrix as the survival analysis. The prediction
 date is the study end date, \textbf{2024-12-31}; the contract age at that date is
 \(a_i = (\text{2024-12-31} - \texttt{start\_date}_i)\) expressed in months. Predictions are
@@ -2783,6 +3027,21 @@ non-increasing); probabilities are clipped to \([0,1]\) and the \(0/0\) case
 probability ranges from 0.075 to 0.435 (mean 0.190) and the 24-month probability from 0.145
 to 0.659 (mean 0.332); the expected number of identifiable renewals is 208 within 12 months
 and 365 within 24 months.
+
+\textbf{How to read the result.} This probability is conditional. It does not
+ask, ``Will the contract renew within 12 months from its start date?'' It asks,
+``Given that this contract has reached its current age without an observed
+renewal, what is the probability that an identifiable BOAMP renewal appears
+within the next 12 or 24 months?''
+
+At the buyer level, the expected number of renewals is the sum of the
+contract-level probabilities:
+\[
+E[\text{renewals}_{12\mathrm{m}} \text{ for buyer } b]
+= \sum_{i \in b} \hat{p}_{i,12}.
+\]
+This is why a buyer with many moderate-risk contracts can rank above a buyer
+with one high-risk contract.
 
 \paragraph{Risk tiers.} Contracts are assigned an operational risk tier from
 \(\hat{p}_{i,12}\): \textbf{High} (\(\geq 0.50\)), \textbf{Medium} (\(0.25 \le p < 0.50\)),
@@ -2959,7 +3218,7 @@ File & Rows & Purpose \\
 \midrule
 \texttt{boamp\_renewal\_links.csv}      & 1,100 & Notebook linking output. One row per eligible AO before final handoff standardisation. \\
 \texttt{boamp\_phase2\_survival.csv}    & 1,100 & \textbf{Official modeling input.} BOAMP-only handoff with explicit renewal and censoring duration columns. \\
-\texttt{boamp\_renewal\_candidates.csv} & 5,356 & All filtered candidate pairs before best-match selection. Useful for threshold sensitivity analysis. \\
+\texttt{boamp\_renewal\_candidates.csv} & 5,519 & All filtered candidate pairs before best-match selection. Useful for threshold sensitivity analysis. \\
 \texttt{boamp\_linking\_stats.csv}      & 1     & Summary statistics: total AO, eligible, linked, linking rate. \\
 \texttt{boamp\_bias\_report.csv}        & 62    & Failure reason $\times$ CPV cross-tabulation. Diagnoses which categories are under-linked. \\
 \bottomrule
@@ -2974,8 +3233,10 @@ Phase 2, including the operational renewal-risk prediction layer
 (Section~\ref{sec:prediction}), is complete. The remaining planned steps are:
 
 \begin{enumerate}
-  \item \textbf{Manual validation:} Annotate a stratified sample of 50--100 linked pairs to
-        estimate the precision of the proxy \texttt{event} variable.
+  \item \textbf{Manual validation:} A stratified 150-row validation sample has already been
+        drawn. The remaining task is to complete record-level annotation and
+        compute TP, FP, TN, FN, precision, and recall for the proxy
+        \texttt{event} variable.
   \item \textbf{Threshold calibration:} Re-calibrate the operational risk-tier thresholds and
         prediction scores once the manual-validation sample is available.
   \item \textbf{Trend / change-point analysis:} Analyse renewal-rate trends and structural
@@ -3014,6 +3275,10 @@ Key impacts on the survival analysis:
   \item Strict H.C.\ (Model~C) increased from 90 to 100 events.
   \item Survival model qualitatively unchanged: KM median 48.2 mo, Cox
         C-index 0.6541, same two significant predictors, same risk tiers.
+    \item The pre-enrichment limitation that most buyer keys were name-based has
+      been materially reduced. In the current enriched survival population,
+      660 rows are SIREN-keyed and 440 remain NAME-keyed; residual buyer
+      fragmentation now concerns only the unresolved NAME-keyed buyers.
 \end{itemize}
 Additionally, the official phase-2 dataset has been \textbf{annotated} with
 buyer enrichment metadata in

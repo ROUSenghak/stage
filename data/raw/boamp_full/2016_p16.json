@@ -2132,70 +2132,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-96713"
   },
   {
-   "idweb": "16-96316",
-   "id": "16_96316",
-   "contractfolderid": null,
-   "objet": "Mission d'assistance à maîtrise d'ouvrage dans la mise en oeuvre de la programmation des ressources et de l'agenda du patient",
-   "filename": "BOAMP-N-IC-AA_2016_181012",
-   "famille": "FNS",
-   "code_departement": [
-    "49"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2016-06-29",
-   "datefindiffusion": "2016-07-18",
-   "datelimitereponse": null,
-   "nomacheteur": "Centre Hospitalier de Cholet",
-   "titulaire": [
-    "EFFIGEN SARL",
-    "EFFIGEN SARL"
-   ],
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "ATTRIBUTION",
-   "sousnature": null,
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "19"
-   ],
-   "dc": [
-    "19"
-   ],
-   "descripteur_libelle": [
-    "Assistance technique"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "16-73795"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"16-73795\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-05-23\", \"DATE_FIN_DIFFUSION\": \"2016-06-07\"}}}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-96316\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-73795\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-05-23\", \"DATE_FIN_DIFFUSION\": \"2016-06-07\"}}}}, \"NOM_HTML\": \"16-96316.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-06-29\", \"DATE_FIN_DIFFUSION\": \"2016-07-18\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"19\", \"LIBELLE\": \"Assistance technique\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Mission d'assistance à maîtrise d'ouvrage dans la mise en oeuvre de la programmation des ressources et de l'agenda du patient\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Centre Hospitalier de Cholet\", \"CORRESPONDANT\": \"M. Vollot\", \"ADRESSE\": \"1 rue Marengo\", \"CP\": \"49325\", \"VILLE\": \"Cholet Cedex\", \"TEL\": \"02-41-49-63-70\", \"FAX\": \"02-41-49-60-20\", \"MEL\": \"dael.marches@ch-cholet.fr\", \"URL\": \"http://ch-cholet.e-marchespublics.com\", \"URL_PROFIL_ACHETEUR\": \"http://ch-cholet.e-marchespublics.com\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"11\"}, \"OBJET_COMPLET\": \"Mission d'assistance à maîtrise d'ouvrage dans la mise en oeuvre de la programmation des ressources et de l'agenda partagé.\", \"CPV\": [{\"PRINCIPAL\": \"79421000\"}, {\"PRINCIPAL\": \"72261000\"}], \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Centre hospitalier - 1 rue Marengo\", \"CP\": \"49125\", \"VILLE\": \"cholet cedex\", \"CODE_NUTS\": \"FR512\"}, \"AMP_OUI\": \"\"}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"40\", \"#text\": \"Méthodologie et contenu de la prestation\"}, {\"@POIDS\": \"30\", \"#text\": \"Connaissance de l'environnement hospitalier\"}, {\"@POIDS\": \"10\", \"#text\": \"Echéance de réalisation de l'étude\"}, {\"@POIDS\": \"20\", \"#text\": \"Prix de la prestation\"}]}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_LOT\": \"LOT 1\", \"DESCRIPTION\": \"Mise en place du logiciel du bloc opératoire, programmation de l'imagerie et programmation des consultation\", \"TITULAIRE\": {\"DENOMINATION\": \"EFFIGEN SARL\", \"ADRESSE\": \"1 domaine de Beauregard\", \"CP\": \"44240\", \"VILLE\": \"SUCE SUR ERDRE\", \"FAX\": \"09-58-72-14-51\", \"MEL\": \"assistante.direction@effigen.com\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-06-28\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"27170\"}, \"OFFRE_BASSE\": {\"@DEVISE\": \"EUR\", \"#text\": \"27170\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"LOT 2\", \"DESCRIPTION\": \"Mise en place d'une cellule d'ordonnancement des parcours des patients, accompagnement des pôles de chirurgie et de médecine et transfert de compétences pour les pôles 'Femmes Parents Enfants' et 'Gériatrie-Soins de suite et de réadaptation'\", \"TITULAIRE\": {\"DENOMINATION\": \"EFFIGEN SARL\", \"ADRESSE\": \"1 domaine de Beauregard\", \"CP\": \"44240\", \"VILLE\": \"SUCE SUR ERDRE\", \"FAX\": \"09-58-72-14-51\", \"MEL\": \"assitante.direction@effigen.com\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-06-28\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"77330\"}, \"OFFRE_BASSE\": {\"@DEVISE\": \"EUR\", \"#text\": \"77330\"}}}]}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"NANTES\", \"TEL\": \"02-40-99-46-00\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-96316"
-  },
-  {
    "idweb": "16-96087",
    "id": "16_96087",
    "contractfolderid": null,
@@ -2480,6 +2416,70 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-95004\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-19003\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-02-08\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-02-09\", \"DATE_FIN_DIFFUSION\": \"2016-03-22\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"030\", \"NUM_ANNONCE\": \"047763\", \"DATE_PUBLICATION\": \"2016-02-12\"}}]}}, \"NOM_HTML\": \"16-95004.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-06-29\", \"DATE_FIN_DIFFUSION\": \"2016-07-07\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"87\", \"LIBELLE\": \"Démolition\"}, {\"CODE\": \"341\", \"LIBELLE\": \"Terrassement\"}]}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Reprises techniques de concessions funéraires et de terrains communs dans les cimetières de la Ville du Mans. Année 2016 renouvelable en 2017 - 2018 et 2019\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville du Mans\", \"CODE_IDENT_NATIONAL\": \"21720181300011\", \"ADJUDICATEUR_NUTS\": \"FR514\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, Cs 40010 - 16 avenue François Mitterrand, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"Le Mans\", \"TEL\": \"(+33) 2-43-47-47-47\", \"FAX\": \"(+33) 2-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.sarthe-marchespublics.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Reprises techniques de concessions funéraires et de terrains communs dans les cimetières de la Ville\", \"REF_MARCHE\": \"Bl/16003t\", \"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"Le marché issu de cette consultation sera un marché à bons de commande au sens du code des marchés publics français - article 77 du C.M.P. -conclu avec un seul opérateur économique. Cependant, ce sera un accord cadre avec un seul opérateur économique au sens de la directive 2004/18/ce.Il s'agit d'un marché à bons de commande sans minimum et avec maximum défini comme suit :Seuil maximum annuel H.T. : 400 000,00Euros.Le marché est conclu pour une période initiale allant de la date de notification au 31 décembre 2016.Le marché peut être reconduit par période successive de 1 an pour une durée maximale de reconduction de 3 ans\", \"CPV\": {\"PRINCIPAL\": \"45215400\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"662040\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Le marché issu de cette consultation sera un marché à bons de commande au sens du code des marchés publics français - article 77 du C.M.P. -conclu avec un seul opérateur économique. Cependant, ce sera un accord cadre avec un seul opérateur économique au sens de la directive 2004/18/ce.Il s'agit d'un marché à bons de commande sans minimum et avec maximum défini comme suit :Seuil maximum annuel H.T. : 400 000,00Euros.Le marché est conclu pour une période initiale allant de la date de notification au 31 décembre 2016.Le marché peut être reconduit par période successive de 1 an pour une durée maximale de reconduction de 3 ans\", \"CPV\": [{\"PRINCIPAL\": \"45111100\"}, {\"PRINCIPAL\": \"45112500\"}, {\"PRINCIPAL\": \"98370000\"}], \"CODE_NUTS\": \"FR514\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": [{\"@POIDS\": \"55\", \"#text\": \"Prix\"}, {\"@POIDS\": \"45\", \"#text\": \"Valeur technique de l'offre\"}]}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Aucune prestation supplémentaires ou alternatives n'est prévue.Le pouvoir adjudicateur se réserve la possibilité de conclure éventuellement des avenants et /ou des marchés complémentaires ou de prestations similaires (dans ces deux derniers cas, si les conditions sont réunies) dans le respect du Cmp et du Cgct\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"030\", \"NUM_ANNONCE\": \"047763\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"TITULAIRE\": {\"DENOMINATION\": \"Ent Malherbe\", \"ADRESSE\": \"125 Avenue Francois Chancel\", \"CP\": \"72000\", \"VILLE\": \"Le Mans\", \"CODE_NUTS\": \"FR514\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-06-20\", \"NB_OFFRE_RECU\": \"6\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"662040\"}, \"SOUSTRAITANCE_OUI\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"BL/16003T\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Le marché issu de cette consultation sera un marché à bons de commande au sens du code des marchés publics français - article 77 du C.M.P. -conclus avec un seul opérateur économique. Cependant, ce sera un accord cadre avec un seul opérateur économique au sens de la directive 2004/18/ce.Il s'agit d'un marché à bons de commande sans minimum et avec maximum défini comme suit :Seuil maximum annuel H.T. : 400 000,00 Euros.Le marché est conclu pour une période initiale allant de la date de notification au 31 décembre 2016 reconductible 3 fois.Le marché est consultable au siège du pouvoir adjudicateur sur demande auprès du service des Marchés Publics. Date d'envoi du présent avis au JOUE et au BOAMP : 27 juin 2016.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso\", \"CP\": \"44042\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://pays-de-la-loire.direccte.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-95004"
+  },
+  {
+   "idweb": "16-96316",
+   "id": "16_96316",
+   "contractfolderid": null,
+   "objet": "Mission d'assistance à maîtrise d'ouvrage dans la mise en oeuvre de la programmation des ressources et de l'agenda du patient",
+   "filename": "BOAMP-N-IC-AA_2016_181012",
+   "famille": "FNS",
+   "code_departement": [
+    "49"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2016-06-29",
+   "datefindiffusion": "2016-07-18",
+   "datelimitereponse": null,
+   "nomacheteur": "Centre Hospitalier de Cholet",
+   "titulaire": [
+    "EFFIGEN SARL",
+    "EFFIGEN SARL"
+   ],
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "ATTRIBUTION",
+   "sousnature": null,
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "19"
+   ],
+   "dc": [
+    "19"
+   ],
+   "descripteur_libelle": [
+    "Assistance technique"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "16-73795"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"16-73795\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-05-23\", \"DATE_FIN_DIFFUSION\": \"2016-06-07\"}}}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-96316\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-73795\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-05-23\", \"DATE_FIN_DIFFUSION\": \"2016-06-07\"}}}}, \"NOM_HTML\": \"16-96316.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-06-29\", \"DATE_FIN_DIFFUSION\": \"2016-07-18\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"19\", \"LIBELLE\": \"Assistance technique\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Mission d'assistance à maîtrise d'ouvrage dans la mise en oeuvre de la programmation des ressources et de l'agenda du patient\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Centre Hospitalier de Cholet\", \"CORRESPONDANT\": \"M. Vollot\", \"ADRESSE\": \"1 rue Marengo\", \"CP\": \"49325\", \"VILLE\": \"Cholet Cedex\", \"TEL\": \"02-41-49-63-70\", \"FAX\": \"02-41-49-60-20\", \"MEL\": \"dael.marches@ch-cholet.fr\", \"URL\": \"http://ch-cholet.e-marchespublics.com\", \"URL_PROFIL_ACHETEUR\": \"http://ch-cholet.e-marchespublics.com\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"11\"}, \"OBJET_COMPLET\": \"Mission d'assistance à maîtrise d'ouvrage dans la mise en oeuvre de la programmation des ressources et de l'agenda partagé.\", \"CPV\": [{\"PRINCIPAL\": \"79421000\"}, {\"PRINCIPAL\": \"72261000\"}], \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Centre hospitalier - 1 rue Marengo\", \"CP\": \"49125\", \"VILLE\": \"cholet cedex\", \"CODE_NUTS\": \"FR512\"}, \"AMP_OUI\": \"\"}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"40\", \"#text\": \"Méthodologie et contenu de la prestation\"}, {\"@POIDS\": \"30\", \"#text\": \"Connaissance de l'environnement hospitalier\"}, {\"@POIDS\": \"10\", \"#text\": \"Echéance de réalisation de l'étude\"}, {\"@POIDS\": \"20\", \"#text\": \"Prix de la prestation\"}]}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_LOT\": \"LOT 1\", \"DESCRIPTION\": \"Mise en place du logiciel du bloc opératoire, programmation de l'imagerie et programmation des consultation\", \"TITULAIRE\": {\"DENOMINATION\": \"EFFIGEN SARL\", \"ADRESSE\": \"1 domaine de Beauregard\", \"CP\": \"44240\", \"VILLE\": \"SUCE SUR ERDRE\", \"FAX\": \"09-58-72-14-51\", \"MEL\": \"assistante.direction@effigen.com\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-06-28\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"27170\"}, \"OFFRE_BASSE\": {\"@DEVISE\": \"EUR\", \"#text\": \"27170\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"LOT 2\", \"DESCRIPTION\": \"Mise en place d'une cellule d'ordonnancement des parcours des patients, accompagnement des pôles de chirurgie et de médecine et transfert de compétences pour les pôles 'Femmes Parents Enfants' et 'Gériatrie-Soins de suite et de réadaptation'\", \"TITULAIRE\": {\"DENOMINATION\": \"EFFIGEN SARL\", \"ADRESSE\": \"1 domaine de Beauregard\", \"CP\": \"44240\", \"VILLE\": \"SUCE SUR ERDRE\", \"FAX\": \"09-58-72-14-51\", \"MEL\": \"assitante.direction@effigen.com\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-06-28\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"77330\"}, \"OFFRE_BASSE\": {\"@DEVISE\": \"EUR\", \"#text\": \"77330\"}}}]}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"NANTES\", \"TEL\": \"02-40-99-46-00\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-96316"
   },
   {
    "idweb": "16-93428",
@@ -3404,63 +3404,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-96090"
   },
   {
-   "idweb": "16-97913",
-   "id": "16_97913",
-   "contractfolderid": null,
-   "objet": "RD no2 et 7 Ouvrages sur les rivières l'Huisne et la Même dans l'agglomération de La Ferté-Bernard- Investigations sur parties d'ouvrage métalliques (rectificatif)",
-   "filename": "MAPA-AO_2016_182007",
-   "famille": "MAPA",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés <90 k€ (MAPA)",
-   "dateparution": "2016-06-30",
-   "datefindiffusion": "2016-07-12",
-   "datelimitereponse": null,
-   "nomacheteur": "Département de la Sarthe",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "RECTIFICATIF",
-   "descripteur_code": [
-    "118"
-   ],
-   "dc": [
-    "118"
-   ],
-   "descripteur_libelle": [
-    "Etude"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": [
-    "16-89543"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"16-89543\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-06-16\", \"DATE_FIN_DIFFUSION\": \"2016-07-07\"}}}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-97913\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-89543\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-06-16\", \"DATE_FIN_DIFFUSION\": \"2016-07-07\"}}}}, \"NOM_HTML\": \"16-97913.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-06-30\", \"DATE_FIN_DIFFUSION\": \"2016-07-12\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"118\", \"LIBELLE\": \"Etude\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"RD no2 et 7 Ouvrages sur les rivières l'Huisne et la Même dans l'agglomération de La Ferté-Bernard- Investigations sur parties d'ouvrage métalliques (rectificatif)\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Département de la Sarthe\", \"CORRESPONDANT\": \"le Président\", \"ADRESSE\": \"Hôtel du département, Place Aristide Briand\", \"CP\": \"72072\", \"VILLE\": \"Le Mans\", \"MEL\": \"scp@sarthe.fr\", \"URL\": \"http://www.sarthe.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"DEPARTEMENT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"RD no2 et 7 Ouvrages sur les rivières l'Huisne et la Même dans l'agglomération de La Ferté-Bernard- Investigations sur parties d'ouvrage métalliques.\", \"CPV\": {\"PRINCIPAL\": \"71335000\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-89543\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-06-16\", \"DATE_FIN_DIFFUSION\": \"2016-07-07\"}}}, \"MODIFICATION\": {\"RUB_INIT\": \"Date limite de réception des offres\", \"TXT_INIT\": \"2016-07-07T11:30:00+01:00\", \"LIRE\": \"2016-07-12T11:30:00+01:00\"}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-97913"
-  },
-  {
    "idweb": "16-97031",
    "id": "16_97031",
    "contractfolderid": null,
@@ -3551,6 +3494,63 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-97031\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-97031.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-06-30\", \"DATE_LIMITE_REPONSE\": \"2016-07-21T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2016-07-21\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"53\", \"LIBELLE\": \"Carrelage\"}, {\"CODE\": \"61\", \"LIBELLE\": \"Chauffage (travaux)\"}, {\"CODE\": \"63\", \"LIBELLE\": \"Cloison, faux plafond\"}, {\"CODE\": \"87\", \"LIBELLE\": \"Démolition\"}, {\"CODE\": \"105\", \"LIBELLE\": \"Electricité (travaux)\"}, {\"CODE\": \"144\", \"LIBELLE\": \"Gros oeuvre\"}, {\"CODE\": \"222\", \"LIBELLE\": \"Menuiserie\"}, {\"CODE\": \"264\", \"LIBELLE\": \"Peinture (travaux)\"}, {\"CODE\": \"270\", \"LIBELLE\": \"Plomberie (travaux)\"}, {\"CODE\": \"308\", \"LIBELLE\": \"Revêtements de sols\"}, {\"CODE\": \"345\", \"LIBELLE\": \"Tous corps d'état\"}, {\"CODE\": \"360\", \"LIBELLE\": \"Ventilation\"}]}, \"DEP_PUBLICATION\": [\"56\", \"29\", \"22\", \"35\", \"44\"], \"RESUME_OBJET\": \"Travaux de rénovation, densification et aménagement des postes de travail du centre des finances publiques Arradon à Vannes\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"DGFIP-Bureau BP2C\", \"CORRESPONDANT\": \"M. Sakulwongsa Yves, Bureau BP2C - Sous Dir° Budget & Immobilier\", \"ADRESSE\": \"70, Allée de Bercy\", \"CP\": \"75572\", \"VILLE\": \"Paris cedex 12\", \"TEL\": \"01-53-18-64-25\", \"FAX\": \"01-53-18-95-29\", \"MEL\": \"yves.sakulwongsa@dgfip.finances.gouv.fr\"}, \"TYPE_ORGANISME\": {\"ETAT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Travaux de rénovation, densification et aménagement des postes de travail du centre des finances publiques Arradon à Vannes sis 12 rue Jérôme d'Arradon à Vannes (56-Morbihan)Les bureaux resteront occupés le temps des travaux.\", \"CPV\": [{\"PRINCIPAL\": \"45000000\"}, {\"PRINCIPAL\": \"45311000\"}, {\"PRINCIPAL\": \"45232141\"}, {\"PRINCIPAL\": \"45223220\"}], \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"12 rue Jérôme d'Arradon\", \"CP\": \"56000\", \"VILLE\": \"Vannes\", \"CODE_NUTS\": \"FR524\"}, \"AMP_NON\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Travaux de rénovation, densification et aménagement des postes de travail du centre des finances publiques Arradon à Vannes\", \"QUANTITE\": \"Travaux de rénovation, densification et aménagement des postes de travail du centre des finances publiques Arradon à Vannes sis 12 rue Jérôme d'Arradon à Vannes (56-Morbihan)Les bureaux resteront occupés le temps des travaux.\"}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"12\", \"DATE_LIVRAISON\": \"2016-09-01\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Démolition - gros oeuvre\", \"DESCRIPTION\": \"Démolition - gros oeuvre\", \"CPV\": [{\"PRINCIPAL\": \"45111100\"}, {\"PRINCIPAL\": \"45223220\"}]}, {\"NUM\": \"2\", \"INTITULE\": \"Menuiseries extérieures\", \"DESCRIPTION\": \"Menuiseries extérieures\", \"CPV\": {\"PRINCIPAL\": \"45421000\"}}, {\"NUM\": \"3\", \"INTITULE\": \"Menuiserie bois\", \"DESCRIPTION\": \"Menuiserie bois\", \"CPV\": {\"PRINCIPAL\": \"45421000\"}}, {\"NUM\": \"4\", \"INTITULE\": \"Cloisons sèches - faux-plafonds\", \"DESCRIPTION\": \"Cloisons sèches - faux-plafonds\", \"CPV\": {\"PRINCIPAL\": \"45421152\"}}, {\"NUM\": \"5\", \"INTITULE\": \"Revêtements de sols souples\", \"DESCRIPTION\": \"Travaux de pose de revêtements de sols souples\", \"CPV\": {\"PRINCIPAL\": \"45432111\"}}, {\"NUM\": \"6\", \"INTITULE\": \"Carrelage et faience\", \"DESCRIPTION\": \"Carrelage et faience\", \"CPV\": {\"PRINCIPAL\": \"45431000\"}}, {\"NUM\": \"7\", \"INTITULE\": \"Peinture\", \"DESCRIPTION\": \"Peinture\", \"CPV\": {\"PRINCIPAL\": \"45442100\"}}, {\"NUM\": \"8\", \"INTITULE\": \"Electricité courant fort et courant faible\", \"DESCRIPTION\": \"Électricité courant fort et courant faible\", \"CPV\": {\"PRINCIPAL\": \"45311000\"}}, {\"NUM\": \"9\", \"INTITULE\": \"Chauffage - ventilation - plomberie\", \"DESCRIPTION\": \"Chauffage - ventilation - plomberie\", \"CPV\": [{\"PRINCIPAL\": \"45232141\"}, {\"PRINCIPAL\": \"45330000\"}]}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2016-07-21T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"180\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Une retenue de 5% est appliquée sur le montant du marché. La retenue de garantie peut être remplacée au gré du titulaire par une garantie à 1ère demande ou par une caution personnelle et solidaire, dans les conditions prévues par les articles 122 et suivant du Décret 2016-360 du 25 mars 2016.\", \"FINANCEMENT\": \"Les règlements seront effectués sur le budget du Ministère des finances et des comptes publics - Direction générale des finances publiques. Le délai de paiement est fixé à 30 jours. Une avance de 5% sera versée au titulaire en application de l'article 110-III du Décret 2016-360 du 25 mars 2016.\", \"FORME_JURIDIQUE\": \"Si le soumissionnaire se présente sous la forme d'un groupement, celui-ci devra adopter soit la forme d'un groupement conjoint avec mandataire solitaire, soit la forme d'un groupement solidaire.\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"Les trois critères d'analyse des candidatures sont: 1) les références, expériences et capacités professionnelles et qualifications techniques (outre leur similarité avec les prestations prévues, un caractère récent et attendu), 2) capacités techniques (moyens humains et matériels disponibles), 3) adéquation entre l'importance de l'opération et les capacités économiques et financières du candidat.\", \"CAP_TECH\": \"Lot 1 - Démolition gros oeuvreLot 2 - Menuiseries extérieuresLot 3 - Menuiseries boisLot 4 - Cloisons sèches - Faux-plafonds Lot 5 - Revêtements de sols souplesLot 6 - Carrelage - faienceLot 7 - PeintureLot 8 - Électricité courant fort et courant faibleLot 9 - Chauffage - ventilation - plomberie\", \"CAP_TECH_NIVEAU_MINI\": \"1111/211135112361/3813/4311/42314131621163116111E3/ Classe 2 / CF25111 / 5412\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire obligatoirement par le candidat, à l'appui de sa candidature\", \"Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire\", \"Déclaration sur l'honneur du candidat justifiant qu'il n'entre dans aucun des cas mentionnés à l'article 43 du code des marchés publics, concernant les interdictions de soumissionner\", \"Si le candidat est établi en France, une déclaration sur l'honneur du candidat justifiant que le travail est effectué par des salariés employés régulièrement au regard des articles L. 1221-10, L. 3243-2 et R. 3243-1 du code du travail (dans le cas où le candidat emploie des salariés, conformément à l'article D. 8222-5-3° du code du travail)\", \"Si le candidat est établi ou domicilié à l'étranger, une déclaration sur l'honneur du candidat attestant qu'il fournit à ses salariés des bulletins de paie comportant les mentions prévues à l'article R. 3243-1 du code du travail, ou des documents équivalents\", \"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels\", \"Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années\", \"Présentation d'une liste des travaux exécutés au cours des cinq dernières années, appuyée d'attestations de bonne exécution pour les travaux les plus importants. Ces attestations indiquent le montant, l'époque et le lieu d'exécution des travaux et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin\", \"Certificats de qualifications professionnelles. La preuve de la capacité du candidat peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de travaux attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat\", \"Certificats établis par des services chargés du contrôle de la qualité et habilités à attester la conformité des fournitures par des références à certaines spécifications techniques. Il est accepté d'autres preuves de mesures équivalentes de garantie de la qualité produites par le candidat, si celui-ci n'a pas accès à ces certificats ou n'a aucune possibilité de les obtenir dans les délais fixés\", \"Document prouvant que le candidat dispose d'une autorisation spécifique ou est membre d'une organisation spécifique pour pouvoir fournir, dans leur pays d'origine, le service concerné\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Autres renseignements demandés\", \"Le soumissionnaire a la possibilité de remplir le Document unique de marché européen (DUME) conformément à l'article 5 du règlement de consultation.\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"CDFIP_Vannes_Travaux\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Paris\", \"ADRESSE\": \"7 rue de Jouy\", \"CP\": \"75181\", \"VILLE\": \"Paris cedex 04\", \"TEL\": \"01-44-59-44-00\", \"FAX\": \"01-44-59-46-46\", \"MEL\": \"greffe.ta-paris@juradm.fr\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"URL\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=298430&orgAcronyme=a4n\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Direction Générale des Finances Publiques - Bureau BP2C - Sous Dir° Budget & Immobilier\", \"CORRESPONDANT\": \"M. Sakulwongsa Yves\", \"ADRESSE\": \"70, Allée de Bercy Télédoc 866\", \"CP\": \"75572\", \"VILLE\": \"Paris cedex 12\", \"TEL\": \"01-53-18-64-25\", \"FAX\": \"01-53-18-95-29\", \"MEL\": \"yves.sakulwongsa@dgfip.finances.gouv.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-97031"
+  },
+  {
+   "idweb": "16-97913",
+   "id": "16_97913",
+   "contractfolderid": null,
+   "objet": "RD no2 et 7 Ouvrages sur les rivières l'Huisne et la Même dans l'agglomération de La Ferté-Bernard- Investigations sur parties d'ouvrage métalliques (rectificatif)",
+   "filename": "MAPA-AO_2016_182007",
+   "famille": "MAPA",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés <90 k€ (MAPA)",
+   "dateparution": "2016-06-30",
+   "datefindiffusion": "2016-07-12",
+   "datelimitereponse": null,
+   "nomacheteur": "Département de la Sarthe",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "RECTIFICATIF",
+   "descripteur_code": [
+    "118"
+   ],
+   "dc": [
+    "118"
+   ],
+   "descripteur_libelle": [
+    "Etude"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": [
+    "16-89543"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"16-89543\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-06-16\", \"DATE_FIN_DIFFUSION\": \"2016-07-07\"}}}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-97913\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-89543\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-06-16\", \"DATE_FIN_DIFFUSION\": \"2016-07-07\"}}}}, \"NOM_HTML\": \"16-97913.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-06-30\", \"DATE_FIN_DIFFUSION\": \"2016-07-12\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"118\", \"LIBELLE\": \"Etude\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"RD no2 et 7 Ouvrages sur les rivières l'Huisne et la Même dans l'agglomération de La Ferté-Bernard- Investigations sur parties d'ouvrage métalliques (rectificatif)\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Département de la Sarthe\", \"CORRESPONDANT\": \"le Président\", \"ADRESSE\": \"Hôtel du département, Place Aristide Briand\", \"CP\": \"72072\", \"VILLE\": \"Le Mans\", \"MEL\": \"scp@sarthe.fr\", \"URL\": \"http://www.sarthe.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"DEPARTEMENT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"RD no2 et 7 Ouvrages sur les rivières l'Huisne et la Même dans l'agglomération de La Ferté-Bernard- Investigations sur parties d'ouvrage métalliques.\", \"CPV\": {\"PRINCIPAL\": \"71335000\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-89543\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-06-16\", \"DATE_FIN_DIFFUSION\": \"2016-07-07\"}}}, \"MODIFICATION\": {\"RUB_INIT\": \"Date limite de réception des offres\", \"TXT_INIT\": \"2016-07-07T11:30:00+01:00\", \"LIRE\": \"2016-07-12T11:30:00+01:00\"}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-97913"
   },
   {
    "idweb": "16-92342",
@@ -4582,6 +4582,69 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-93287"
   },
   {
+   "idweb": "16-97062",
+   "id": "16_97062",
+   "contractfolderid": null,
+   "objet": "Travaux de réparation d'une salle laboratoire d'acoustique semi-anéchoïque au Centre de Transfert de Technologie",
+   "filename": "BOAMP-J-IC-AA_2016_183010",
+   "famille": "JOUE",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2016-07-01",
+   "datefindiffusion": "2016-07-09",
+   "datelimitereponse": null,
+   "nomacheteur": "SM d'Aménagement de l'Agglo Mancelle",
+   "titulaire": [
+    "dbvib Ingénierie"
+   ],
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "ATTRIBUTION",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "33"
+   ],
+   "dc": [
+    "33"
+   ],
+   "descripteur_libelle": [
+    "Bâtiment"
+   ],
+   "type_marche": [
+    "TRAVAUX"
+   ],
+   "type_marche_facette": [
+    "Travaux"
+   ],
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "16-36651"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"16-36651\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-03-14\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-03-15\", \"DATE_FIN_DIFFUSION\": \"2016-04-15\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"056\", \"NUM_ANNONCE\": \"092805\", \"DATE_PUBLICATION\": \"2016-03-19\"}}]}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-97062\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-36651\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-03-14\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-03-15\", \"DATE_FIN_DIFFUSION\": \"2016-04-15\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"056\", \"NUM_ANNONCE\": \"092805\", \"DATE_PUBLICATION\": \"2016-03-19\"}}]}}, \"NOM_HTML\": \"16-97062.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-07-01\", \"DATE_FIN_DIFFUSION\": \"2016-07-09\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"33\", \"LIBELLE\": \"Bâtiment\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Travaux de réparation d'une salle laboratoire d'acoustique semi-anéchoïque au Centre de Transfert de Technologie\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"SM d'Aménagement de l'Agglo Mancelle\", \"CODE_IDENT_NATIONAL\": \"25720160800011\", \"ADJUDICATEUR_NUTS\": \"FR514\", \"ADRESSE\": \"Mairie du Mans, Place Saint Pierre, Cs 40010\", \"CP\": \"72039\", \"VILLE\": \"Le Mans\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.sarthe-marchespublics.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Travaux de réparation d'une salle laboratoire d'acoustique semi-anéchoïque au Centre de Transfert de\", \"REF_MARCHE\": \"Ip16002t\", \"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"Le Centre de Transfert de Technologie du Maine situé dans le secteur de l'université du Maine au Mans pratique ses activités de recherche et développement dans des laboratoires dont un département relève de mesures en acoustique. Une salle laboratoire semi anéchoïque ayant subit des dégâts suite à un incendie, la nature des travaux à prévoir dans le présent marché concerne sa remise en état de manière identique à l'origine. De la sorte les travaux portent sur la réinstallation à neuf de l'ensemble des habillages murs et plafonds ainsi que tous leurs équipements constituant avec des dièdres acoustiques (portes, etc.)\", \"CPV\": {\"PRINCIPAL\": \"45215143\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"504155\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Le Centre de Transfert de Technologie du Maine situé dans le secteur de l'université du Maine au Mans pratique ses activités de recherche et développement dans des laboratoires dont un département relève de mesures en acoustique. Une salle laboratoire semi anéchoïque ayant subit des dégâts suite à un incendie, la nature des travaux à prévoir dans le présent marché concerne sa remise en état de manière identique à l'origine. De la sorte les travaux portent sur la réinstallation à neuf de l'ensemble des habillages murs et plafonds ainsi que tous leurs équipements constituant avec des dièdres acoustiques (portes, etc.)\", \"CPV\": {\"PRINCIPAL\": \"45323000\"}, \"CODE_NUTS\": \"FR514\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": [{\"@POIDS\": \"55\", \"#text\": \"Prix des prestations\"}, {\"@POIDS\": \"45\", \"#text\": \"Délai d'exécution\"}]}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_NON\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"056\", \"NUM_ANNONCE\": \"092805\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"TITULAIRE\": {\"DENOMINATION\": \"dbvib Ingénierie\", \"ADRESSE\": \"Montée de Malissol Cs80221\", \"CP\": \"38200\", \"VILLE\": \"Vienne\", \"CODE_NUTS\": \"FR714\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-06-08\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"504155\"}, \"SOUSTRAITANCE_OUI\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"IP16002T\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Délais et voies de recours :Instance chargée des procédures de recours :Tribunal administratif de Nantes6, allée de l'Ile-GlorietteBp 24111 44041 Nantes CedexTél : 02 40 99 46 00 - Fax : 02 40 99 46 58greffe.ta-nantes@juradm.frOrgane chargé des procédures de médiation :Comité Consultatif de règlement amiable des différends ou litiges relatifs aux marchés publics22 mail Pablo PicassoBp 24209 44042 Nantes Cedex 1Tél : 02 53 46 79 83 - Fax : 02 53 46 79 79Paysdl.ccira@direccte.gouv.frService auprès duquel des renseignements peuvent être obtenus concernant l'introduction des recours :Tribunal administratif de Nantes6, allée de l'Ile-GlorietteBp 24111 44041 Nantes CedexTél : 02 40 99 46 00 - Fax : 02 40 99 46 58greffe.ta-nantes@juradm.frLes marchés correspondants sont consultables au siège du pouvoir adjudicateur. Date d'envoi du présent avis au JOUE et au BOAMP : 29 juin 2016.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso\", \"CP\": \"44042\", \"VILLE\": \"nanates\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://pays-de-la-loire.direccte.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-97062"
+  },
+  {
    "idweb": "16-97729",
    "id": "16_97729",
    "contractfolderid": null,
@@ -4657,69 +4720,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-97729\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-45300\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-03-30\", \"DATE_FIN_DIFFUSION\": \"2016-04-29\"}}}}, \"NOM_HTML\": \"16-97729.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-07-01\", \"DATE_FIN_DIFFUSION\": \"2016-08-14\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"53\", \"LIBELLE\": \"Carrelage\"}, {\"CODE\": \"61\", \"LIBELLE\": \"Chauffage (travaux)\"}, {\"CODE\": \"63\", \"LIBELLE\": \"Cloison, faux plafond\"}, {\"CODE\": \"263\", \"LIBELLE\": \"Peinture (fourniture)\"}, {\"CODE\": \"269\", \"LIBELLE\": \"Plâtrerie\"}]}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Restaurant scolaire Sablonnière -rénovation intérieure des locaux\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Le Mans Métropole - Communauté Urbaine\", \"CORRESPONDANT\": \"Le Président\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, CS 40010 - 16 avenue François Mitterrand - Le Condorcet, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"Le Mans\", \"TEL\": \"02-43-47-37-31\", \"FAX\": \"02-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Restaurant scolaire Sablonnière -rénovation intérieure des locaux\", \"CPV\": {\"PRINCIPAL\": \"45421000\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_LOT\": \"1\", \"DESCRIPTION\": \"Menuiseries bois - Plâtrerie - Marché no : 52956\", \"TITULAIRE\": {\"DENOMINATION\": \"CHANOINE\", \"ADRESSE\": \"rue de touraine\", \"CP\": \"72190\", \"VILLE\": \"Saint-Pavace\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-06-29\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"11637\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"2\", \"DESCRIPTION\": \"Faux-plafonds - Isolation - Marché no : 52957\", \"TITULAIRE\": {\"DENOMINATION\": \"LE GAL - COMISO\", \"ADRESSE\": \"P.A. Angers/Océane\", \"CP\": \"49140\", \"VILLE\": \"Villevêque\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-06-30\", \"NB_OFFRE_RECU\": \"5\", \"MONTANT_MINI\": {\"@DEVISE\": \"EUR\", \"#text\": \"28237\"}, \"MONTANT_MAXI\": {\"@DEVISE\": \"EUR\", \"#text\": \"28237\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"3\", \"DESCRIPTION\": \"Carrelages -Faïences - Marché no : 52958\", \"TITULAIRE\": {\"DENOMINATION\": \"MAINE ETANCHEITE\", \"ADRESSE\": \"197 avenue Georges Durand\", \"CP\": \"72100\", \"VILLE\": \"Le Mans\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-06-29\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT_MINI\": {\"@DEVISE\": \"EUR\", \"#text\": \"14000\"}, \"MONTANT_MAXI\": {\"@DEVISE\": \"EUR\", \"#text\": \"14000\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"4\", \"DESCRIPTION\": \"Plomberie -Sanitaire - Marché no : 52959\", \"TITULAIRE\": {\"DENOMINATION\": \"SA SCOP SECOP\", \"ADRESSE\": \"10 Boulevard des Ravalières\", \"CP\": \"72560\", \"VILLE\": \"Changé\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-06-29\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT_MINI\": {\"@DEVISE\": \"EUR\", \"#text\": \"5297\"}, \"MONTANT_MAXI\": {\"@DEVISE\": \"EUR\", \"#text\": \"5297\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"5\", \"DESCRIPTION\": \"Electricité-courants forts et faibles - Marché no : 52960\", \"TITULAIRE\": {\"DENOMINATION\": \"sygmatel Agence Sarthe\", \"ADRESSE\": \"6 RUE DE LA SAPINIERE\", \"CP\": \"72560\", \"VILLE\": \"Changé\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-06-29\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT_MINI\": {\"@DEVISE\": \"EUR\", \"#text\": \"49947\"}, \"MONTANT_MAXI\": {\"@DEVISE\": \"EUR\", \"#text\": \"49947\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"6\", \"DESCRIPTION\": \"Chauffage-Ventilation - Marché no : 52961\", \"TITULAIRE\": {\"DENOMINATION\": \"DELABOUDINIERE\", \"ADRESSE\": \"28,Bd pierre Lefaucheux\", \"CP\": \"72100\", \"VILLE\": \"Le Mans\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-06-29\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT_MINI\": {\"@DEVISE\": \"EUR\", \"#text\": \"14978\"}, \"MONTANT_MAXI\": {\"@DEVISE\": \"EUR\", \"#text\": \"14978\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"7\", \"DESCRIPTION\": \"Peinture-Revêtements muraux - Marché no : 52962\", \"TITULAIRE\": {\"DENOMINATION\": \"Renaudin Gouhier\", \"ADRESSE\": \"3 rue Jean Perrin\", \"CP\": \"72650\", \"VILLE\": \"La Chapelle-Saint-Aubin\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-06-29\", \"NB_OFFRE_RECU\": \"5\", \"MONTANT_MINI\": {\"@DEVISE\": \"EUR\", \"#text\": \"25000\"}, \"MONTANT_MAXI\": {\"@DEVISE\": \"EUR\", \"#text\": \"25000\"}}}]}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-97729"
-  },
-  {
-   "idweb": "16-97062",
-   "id": "16_97062",
-   "contractfolderid": null,
-   "objet": "Travaux de réparation d'une salle laboratoire d'acoustique semi-anéchoïque au Centre de Transfert de Technologie",
-   "filename": "BOAMP-J-IC-AA_2016_183010",
-   "famille": "JOUE",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2016-07-01",
-   "datefindiffusion": "2016-07-09",
-   "datelimitereponse": null,
-   "nomacheteur": "SM d'Aménagement de l'Agglo Mancelle",
-   "titulaire": [
-    "dbvib Ingénierie"
-   ],
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "ATTRIBUTION",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "33"
-   ],
-   "dc": [
-    "33"
-   ],
-   "descripteur_libelle": [
-    "Bâtiment"
-   ],
-   "type_marche": [
-    "TRAVAUX"
-   ],
-   "type_marche_facette": [
-    "Travaux"
-   ],
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "16-36651"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"16-36651\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-03-14\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-03-15\", \"DATE_FIN_DIFFUSION\": \"2016-04-15\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"056\", \"NUM_ANNONCE\": \"092805\", \"DATE_PUBLICATION\": \"2016-03-19\"}}]}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-97062\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-36651\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-03-14\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-03-15\", \"DATE_FIN_DIFFUSION\": \"2016-04-15\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"056\", \"NUM_ANNONCE\": \"092805\", \"DATE_PUBLICATION\": \"2016-03-19\"}}]}}, \"NOM_HTML\": \"16-97062.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-07-01\", \"DATE_FIN_DIFFUSION\": \"2016-07-09\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"33\", \"LIBELLE\": \"Bâtiment\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Travaux de réparation d'une salle laboratoire d'acoustique semi-anéchoïque au Centre de Transfert de Technologie\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"SM d'Aménagement de l'Agglo Mancelle\", \"CODE_IDENT_NATIONAL\": \"25720160800011\", \"ADJUDICATEUR_NUTS\": \"FR514\", \"ADRESSE\": \"Mairie du Mans, Place Saint Pierre, Cs 40010\", \"CP\": \"72039\", \"VILLE\": \"Le Mans\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.sarthe-marchespublics.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Travaux de réparation d'une salle laboratoire d'acoustique semi-anéchoïque au Centre de Transfert de\", \"REF_MARCHE\": \"Ip16002t\", \"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"Le Centre de Transfert de Technologie du Maine situé dans le secteur de l'université du Maine au Mans pratique ses activités de recherche et développement dans des laboratoires dont un département relève de mesures en acoustique. Une salle laboratoire semi anéchoïque ayant subit des dégâts suite à un incendie, la nature des travaux à prévoir dans le présent marché concerne sa remise en état de manière identique à l'origine. De la sorte les travaux portent sur la réinstallation à neuf de l'ensemble des habillages murs et plafonds ainsi que tous leurs équipements constituant avec des dièdres acoustiques (portes, etc.)\", \"CPV\": {\"PRINCIPAL\": \"45215143\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"504155\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Le Centre de Transfert de Technologie du Maine situé dans le secteur de l'université du Maine au Mans pratique ses activités de recherche et développement dans des laboratoires dont un département relève de mesures en acoustique. Une salle laboratoire semi anéchoïque ayant subit des dégâts suite à un incendie, la nature des travaux à prévoir dans le présent marché concerne sa remise en état de manière identique à l'origine. De la sorte les travaux portent sur la réinstallation à neuf de l'ensemble des habillages murs et plafonds ainsi que tous leurs équipements constituant avec des dièdres acoustiques (portes, etc.)\", \"CPV\": {\"PRINCIPAL\": \"45323000\"}, \"CODE_NUTS\": \"FR514\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": [{\"@POIDS\": \"55\", \"#text\": \"Prix des prestations\"}, {\"@POIDS\": \"45\", \"#text\": \"Délai d'exécution\"}]}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_NON\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"056\", \"NUM_ANNONCE\": \"092805\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"TITULAIRE\": {\"DENOMINATION\": \"dbvib Ingénierie\", \"ADRESSE\": \"Montée de Malissol Cs80221\", \"CP\": \"38200\", \"VILLE\": \"Vienne\", \"CODE_NUTS\": \"FR714\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-06-08\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"504155\"}, \"SOUSTRAITANCE_OUI\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"IP16002T\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Délais et voies de recours :Instance chargée des procédures de recours :Tribunal administratif de Nantes6, allée de l'Ile-GlorietteBp 24111 44041 Nantes CedexTél : 02 40 99 46 00 - Fax : 02 40 99 46 58greffe.ta-nantes@juradm.frOrgane chargé des procédures de médiation :Comité Consultatif de règlement amiable des différends ou litiges relatifs aux marchés publics22 mail Pablo PicassoBp 24209 44042 Nantes Cedex 1Tél : 02 53 46 79 83 - Fax : 02 53 46 79 79Paysdl.ccira@direccte.gouv.frService auprès duquel des renseignements peuvent être obtenus concernant l'introduction des recours :Tribunal administratif de Nantes6, allée de l'Ile-GlorietteBp 24111 44041 Nantes CedexTél : 02 40 99 46 00 - Fax : 02 40 99 46 58greffe.ta-nantes@juradm.frLes marchés correspondants sont consultables au siège du pouvoir adjudicateur. Date d'envoi du présent avis au JOUE et au BOAMP : 29 juin 2016.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso\", \"CP\": \"44042\", \"VILLE\": \"nanates\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://pays-de-la-loire.direccte.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-97062"
   },
   {
    "idweb": "16-96501",

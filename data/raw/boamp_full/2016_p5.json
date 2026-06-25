@@ -1481,61 +1481,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-26026"
   },
   {
-   "idweb": "16-26260",
-   "id": "16_26260",
-   "contractfolderid": null,
-   "objet": "evolution et maintenance du système de virtualisation à Carquefou",
-   "filename": "BOAMP-N-AO_2016_054011",
-   "famille": "FNS",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": "44",
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2016-02-23",
-   "datefindiffusion": "2016-03-15",
-   "datelimitereponse": "2016-03-15T11:30:00+00:00",
-   "nomacheteur": "Ville de Carquefou",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "163"
-   ],
-   "dc": [
-    "163"
-   ],
-   "descripteur_libelle": [
-    "Informatique (prestations de services)"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-26260\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-26260.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-02-23\", \"DATE_LIMITE_REPONSE\": \"2016-03-15T12:30:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2016-03-15\", \"CLASSES\": {\"CLASSE\": [{\"CODE\": \"30\", \"LIBELLE\": \"Machines de bureau et matériel informatique\"}, {\"CODE\": \"72\", \"LIBELLE\": \"Services informatiques\"}]}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"163\", \"LIBELLE\": \"Informatique (prestations de services)\"}}, \"DEP_PUBLICATION\": \"44\", \"DEP_PRESTATION\": \"44\", \"RESUME_OBJET\": \"evolution et maintenance du système de virtualisation à Carquefou\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Carquefou\", \"CORRESPONDANT\": \"Madame le Maire\", \"ADRESSE\": \"Mairie de Carquefou Rue de l'Hôtel de Ville BP 60139\", \"CP\": \"44471\", \"VILLE\": \"Carquefou Cedex\", \"TEL\": \"02-28-22-22-22\", \"FAX\": \"02-28-22-22-21\", \"MEL\": \"achats@mairie-carquefou.fr\", \"URL\": \"http://www.carquefou.fr\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Evolution et maintenance du système de virtualisation\", \"CPV\": {\"PRINCIPAL\": \"48822000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Carquefou\", \"CODE_NUTS\": \"FR511\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\", \"DUREE_AN\": \"1\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Evolution et maintenance du système de virtualisation\", \"OPTIONS\": {\"OUI\": \"\"}, \"RECONDUCTIONS\": {\"NB_RECONDUCTIONS\": \"3\", \"CALENDRIER\": \"Nombre de reconductions possibles : 3.- Durée de la période de reconduction : 1 An(s).- Durée maximale de l'affaire : 4 An(s).- Date limite de fin de l'affaire : 30/05/2020\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"12\", \"DATE_EXECUTION\": \"2016-06-01\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"Qualité prestations & service : 10 pts pour le prestataire fournissant les meilleures prestations, puis notation dégressive pour les suivants ; 10 pts pour le matériel proposé et appréciation faite en fonction du mémoire technique présenté\"}, {\"@POIDS\": \"40\", \"#text\": \"Prix : l'attribution du nombre de points se fera selon la formule suivante : proposition la moins disante : total maximum de points, autre proposition : montant de la proposition la moins disante/montant de la proposition examinée x 10\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2016-03-15T12:30:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Mode de financement : Budget propre.- Mode de paiement : Virement bancaire (Mandat administratif)\", \"FORME_JURIDIQUE\": \"Pas de forme imposée. En cas d'attribution du marché à un groupement conjoint, le mandataire du groupement sera solidaire, pour l'exécution du marché, de chacun des membres du groupement pour ses obligations contractuelles\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Autres renseignements demandés\", \"=== Candidature ===\", \"Autres renseignements demandés\", \"DC1 Candidature ou Attestation sur l'honneur (art 44)\", \"Autres renseignements demandés\", \"DC2 ou déclarations concernant les chiffres d'affaire et les effectifs\", \"Autres renseignements demandés\", \"=== Offre ===\", \"Autres renseignements demandés\", \"Acte d'engagement\", \"Autres renseignements demandés\", \"Mémoire technique\", \"Autres renseignements demandés\", \"Simulation\", \"Autres renseignements demandés\", \"Bordereau des Prix Unitaires\"]}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"16S0004\", \"CONDITIONS_REMISE_OFFRES\": \"Réception électronique obligatoire\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Modalités de retrait des documents : par téléchargement\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Le délai d'introduction des recours est de 2 mois à parution de l'avis d'attribution du marché ou de la date de réception des courriers informant les entreprises non retenues de la date de signature du marché\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta.nantes@juradm.fr\", \"URL\": \"http://www.ta-nantes.juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta.nantes@juradm.fr\", \"URL\": \"http://www.ta-nantes.juradm.fr\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"DENOMINATION\": \"Ville de CARQUEFOU\", \"ADRESSE\": \"Par téléchargement sur le site: www.e-marchespublics.com\", \"CP\": \"44470\", \"VILLE\": \"Carquefou\", \"TEL\": \"02-28-22-22-22\", \"FAX\": \"02-28-22-22-21\", \"MEL\": \"achats@mairie-carquefou.fr\", \"URL\": \"http://www.e-marchespublics.com\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Ville de CARQUEFOU\", \"ADRESSE\": \"Transmission par voie électronique obligatoire\", \"CP\": \"00000\", \"VILLE\": \"_\", \"URL\": \"http://www.e-marchespublics.com\"}, {\"TYPE\": {\"ADMIN\": \"\"}, \"DENOMINATION\": \"Ville de CARQUEFOU\", \"CORRESPONDANT\": \"Corine Bertaud\", \"ADRESSE\": \"Mairie de Carquefou Rue de l'Hôtel de Ville BP 60139\", \"CP\": \"44471\", \"VILLE\": \"Carquefou cedex\", \"TEL\": \"02-28-22-23-50\", \"FAX\": \"02-28-22-23-51\", \"MEL\": \"achats@mairie-carquefou.fr\", \"URL\": \"http://www.carquefou.fr\"}, {\"TYPE\": {\"TECH\": \"\"}, \"DENOMINATION\": \"Ville de CARQUEFOU\", \"CORRESPONDANT\": \"Sylvain Rabin\", \"ADRESSE\": \"Mairie de Carquefou Rue de l'Hôtel de Ville BP 60139\", \"CP\": \"44471\", \"VILLE\": \"Carquefou cedex\", \"TEL\": \"02-28-22-23-70\", \"FAX\": \"02-28-22-22-71\", \"MEL\": \"informatique@mairie-carquefou.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-26260"
-  },
-  {
    "idweb": "16-23878",
    "id": "16_23878",
    "contractfolderid": null,
@@ -1715,6 +1660,61 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-26499\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-26499.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-02-23\", \"DATE_LIMITE_REPONSE\": \"2016-04-13T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2016-04-13\", \"CLASSES\": {\"CLASSE\": {\"CODE\": \"74\", \"LIBELLE\": \"Services fournis principalement aux entreprises\"}}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"197\", \"LIBELLE\": \"Maîtrise d'oeuvre\"}, {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}]}, \"DEP_PUBLICATION\": [\"44\", \"49\"], \"DEP_PRESTATION\": \"44\", \"RESUME_OBJET\": \"Etudes de maîtrise d'oeuvre et prestations complémentaires pour la mise en oeuvre du programme de rééquilibrage du lit de la Loire entre les ponts-de-cé et Nantes\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Voies navigables de France\", \"CORRESPONDANT\": \"Bureau de la commande Publique\", \"ADRESSE\": \"Direction Territoriale Bassin de la Seine, 18 quai d'Austerlitz\", \"CP\": \"75013\", \"VILLE\": \"Paris\", \"TEL\": \"(+33) 2-40-67-26-01\", \"URL\": \"http://www.vnf.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.gouv.fr\", \"URL_PARTICIPATION\": \"https://www.marchespublics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=285132&orgAcronyme=d4t\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Gestion et developpement des voies navigables de France\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Études de maîtrise d'oeuvre et prestations complémentaires pour la mise en oeuvre du programme de rééquilibrage du lit de la Loire entre les ponts-de-cé et nantes\", \"TYPE_MARCHE\": {\"SERVICE\": \"12\"}, \"OBJET_COMPLET\": \"Réalisation des études de maîtrise d'oeuvre et des études complémentaires associées (études hydrauliques, modélisation numérique ou physique, assistance à la communication du maître d'ouvrage en phase études et travaux...)\", \"CPV\": [{\"PRINCIPAL\": \"71300000\"}, {\"PRINCIPAL\": \"71322000\"}, {\"PRINCIPAL\": \"71520000\"}], \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"10 bd gaston serpette\", \"CP\": \"44036\", \"VILLE\": \"Nantes cedex 1\", \"CODE_NUTS\": \"FR511\"}, \"AMP_OUI\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"QUANTITE\": \"Voir ci-dessous le détail lot par lot\", \"OPTIONS\": {\"OUI\": \"\", \"DESCRIPTION\": \"Le pouvoir adjudicateur se réserve la possibilité de confier au titulaire la réalisation de prestations similaires à celles du présent marché, après passation d'un ou de plusieurs marchés négociés en application de l'article 35-II.6 du Code des marchés publics.Le pouvoir adjudicateur se réserve également la possibilité de confier au titulaire, selon les dispositions de l'article 35-II.5 du Code des marchés publics, la réalisation de prestations qui ne figurent pas dans le marché initialement conclu mais qui sont devenues nécessaires, à la suite d'une circonstance imprévue, à l'exécution du service ou à la réalisation de l'ouvrage tel qu'il est décrit dans le marché initial.\"}, \"RECONDUCTIONS\": {\"NON\": \"\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Lot 1 : Aménagement du lit de la Loire dans le secteur de Bellevue (communes de Sainte-luce-sur-loire et de Basse-goulaine)\", \"DESCRIPTION\": \"Mission de maîtrise d'oeuvre (loi MOP) et missions d'études complémentaires\", \"CPV\": [{\"PRINCIPAL\": \"71300000\"}, {\"PRINCIPAL\": \"71322000\"}, {\"PRINCIPAL\": \"71520000\"}], \"QUANTITE\": \"Enveloppe financière affectée aux travaux 16,675 Meuro(s)HT\", \"DUREE_MOIS\": \"72\", \"INFO_COMPL\": \"1 tranche ferme, 7 tranches conditionnelles\"}, {\"NUM\": \"2\", \"INTITULE\": \"Lot 2 : Aménagement du lit de la Loire entre le pont de Saint-Florent-Le-Vieil et le pont d'Oudon\", \"DESCRIPTION\": \"Mission de maîtrise d'oeuvre (loi MOP) et missions d'études complémentaires\", \"CPV\": [{\"PRINCIPAL\": \"71300000\"}, {\"PRINCIPAL\": \"71322000\"}, {\"PRINCIPAL\": \"71520000\"}], \"QUANTITE\": \"Enveloppe financière affectée aux travaux 10,35 Meuro(s)HT\", \"DUREE_MOIS\": \"72\", \"INFO_COMPL\": \"1 tranche ferme, 7 tranches conditionnelles\"}, {\"NUM\": \"3\", \"INTITULE\": \"lot 3 : Aménagement du lit de la Loire entre Montjean-sur-Loire et l'aval des bras de Cul de Boeuf et du Fresne-sur-Loire\", \"DESCRIPTION\": \"Mission de maîtrise d'oeuvre (Loi MOP) et missions d'études complémentaires\", \"CPV\": [{\"PRINCIPAL\": \"71300000\"}, {\"PRINCIPAL\": \"71322000\"}, {\"PRINCIPAL\": \"71520000\"}], \"QUANTITE\": \"Enveloppe financière affectée aux travaux 1,725 Meuro(s)HT\", \"DUREE_MOIS\": \"60\", \"INFO_COMPL\": \"1 tranche ferme, 7 tranches conditionnelles\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"POI Feder Loire (Plan Loire 2014-2020)\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"40\", \"#text\": \"Le prix des prestations (en points)\"}, {\"@POIDS\": \"30\", \"#text\": \"Organisation de la maîtrise d'oeuvre (en points)\"}, {\"@POIDS\": \"30\", \"#text\": \"Proposition méthodologique (en points)\"}]}}}, \"PUBLICATION_ANTERIEURE\": {\"NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2016-04-13T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"180\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Une avance de 5 % est accordée de droit au titulaire du présent marché, dans les conditionsfixées par l'article 87 du Code des Marchés Publics, sauf si ce dernier l'a expressément refusée dans l'acted'engagement.Une avance est également accordée aux sous-traitants, sur leur demande, dans les conditions prévues àl'article 115 du Code des Marchés Publics.Le paiement des sommes dues au titre du présent marché devra intervenir dans le délai global maximum fixé àl'article 98 du Code des Marchés Publics.Les prestations sont co-financées par Voies Navigables de France, la Région des Pays de la Loire, l'Agence del'Eau Loire Bretagne et le Feder.\", \"FORME_JURIDIQUE\": \"En cas de groupement, la forme imposée par l'entité adjudicatrice après attribution est un groupementconjoint avec mandataire solidaire. Un même prestataire ne peut pas être mandataire de plus d'un groupement.\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"1. Lettre de candidature et habilitation du mandataire par ses cotraitants (Modèle DC1, disponible à l'adresse suivante : http://www.minefe.gouv.fr , thème : marchés publics, ou papier libre)2. Déclaration du candidat (Modèle DC2, disponible à l'adresse suivante : http://www.minefe.gouv.fr , thème : marchés publics)3. Un extrait de l'inscription au registre du commerce et des sociétés (K ou K bis) ;4. La copie du ou des jugements prononcés si le candidat est en redressement judiciaire\", \"CAP_ECO\": \"1. Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les travaux objet du marché, réalisés au cours des trois derniers exercices disponibles.2. Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels.\", \"CAP_TECH\": \"1. Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années.2. Présentation d'une liste des prestations similaires exécutées au cours des cinq dernières années, appuyée d'attestations de bonne exécution pour les prestations les plus importantes.3. Indication des titres d'études et professionnels.\", \"MARCHE_RESERVE_NON\": \"\"}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"VNF_DTBS_UL_2016_2\", \"PERS_OUVERTURE_OFFRES_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 23 février 2016.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Avant la conclusion du marché (référé précontractuel) article L551-1 du code de justice administrative ; Dans un délai de deux mois à compter de lanotification de la décision de rejet (autres recours) article R421-1 et R421-3 du code de justice administrative.* précisions concernant les délais d'introduction des recours article L 551-1 du code de justice administrative(tout intéressé, jusqu'à la signature du marché) articles R 421-1 et suivants du code de justice administrative(tout intéressé, dans un délai de 2 mois à compter de la notification ou de la publication des actes détachables du marché objet) article L 551-13 du code de justice administrative (tout intéressé, dans un délai de31 jours à compter de la publication de l'avis d'attribution ou dans un délai de 6 mois à compter du lendemain du jour de la conclusion du contrat) de plus, le recours de plein contentieux tel que défini par l'arrêt Conseil d'État,16 juillet 2007, Société TROPIC Travaux Signalisation, Req. no291545 (tout concurrent évincé, dans un délai de 2 mois à compter de l'accomplissement des mesures de publication appropriées)\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Voies navigables de France\", \"CORRESPONDANT\": \"M. Pichon Nicolas\", \"CONTACT\": \"Unité territoriale d'itinéraire Loire\", \"ADRESSE\": \"10 Bd Gaston Serpette\", \"CP\": \"44036\", \"VILLE\": \"Nantes cedex 01\", \"TEL\": \"(+33) 2-40-67-26-01\", \"MEL\": \"uti.loire@vnf.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Paris\", \"ADRESSE\": \"7 rue de Jouy\", \"CP\": \"75181\", \"VILLE\": \"Paris cedex 04\", \"TEL\": \"(+33) 1-44-59-44-00\", \"FAX\": \"(+33) 1-44-59-64-64\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Voies navigables de France\", \"CONTACT\": \"Bureau de la commande Publique\", \"ADRESSE\": \"18, quai d'Austerlitz\", \"CP\": \"75013\", \"VILLE\": \"Paris\", \"TEL\": \"(+33) 1-83-94-44-00\", \"FAX\": \"(+33) 1-83-94-44-01\", \"MEL\": \"marches.dtbs@vnf.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-26499"
+  },
+  {
+   "idweb": "16-26260",
+   "id": "16_26260",
+   "contractfolderid": null,
+   "objet": "evolution et maintenance du système de virtualisation à Carquefou",
+   "filename": "BOAMP-N-AO_2016_054011",
+   "famille": "FNS",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": "44",
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2016-02-23",
+   "datefindiffusion": "2016-03-15",
+   "datelimitereponse": "2016-03-15T11:30:00+00:00",
+   "nomacheteur": "Ville de Carquefou",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "163"
+   ],
+   "dc": [
+    "163"
+   ],
+   "descripteur_libelle": [
+    "Informatique (prestations de services)"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-26260\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-26260.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-02-23\", \"DATE_LIMITE_REPONSE\": \"2016-03-15T12:30:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2016-03-15\", \"CLASSES\": {\"CLASSE\": [{\"CODE\": \"30\", \"LIBELLE\": \"Machines de bureau et matériel informatique\"}, {\"CODE\": \"72\", \"LIBELLE\": \"Services informatiques\"}]}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"163\", \"LIBELLE\": \"Informatique (prestations de services)\"}}, \"DEP_PUBLICATION\": \"44\", \"DEP_PRESTATION\": \"44\", \"RESUME_OBJET\": \"evolution et maintenance du système de virtualisation à Carquefou\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Carquefou\", \"CORRESPONDANT\": \"Madame le Maire\", \"ADRESSE\": \"Mairie de Carquefou Rue de l'Hôtel de Ville BP 60139\", \"CP\": \"44471\", \"VILLE\": \"Carquefou Cedex\", \"TEL\": \"02-28-22-22-22\", \"FAX\": \"02-28-22-22-21\", \"MEL\": \"achats@mairie-carquefou.fr\", \"URL\": \"http://www.carquefou.fr\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Evolution et maintenance du système de virtualisation\", \"CPV\": {\"PRINCIPAL\": \"48822000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Carquefou\", \"CODE_NUTS\": \"FR511\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\", \"DUREE_AN\": \"1\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Evolution et maintenance du système de virtualisation\", \"OPTIONS\": {\"OUI\": \"\"}, \"RECONDUCTIONS\": {\"NB_RECONDUCTIONS\": \"3\", \"CALENDRIER\": \"Nombre de reconductions possibles : 3.- Durée de la période de reconduction : 1 An(s).- Durée maximale de l'affaire : 4 An(s).- Date limite de fin de l'affaire : 30/05/2020\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"12\", \"DATE_EXECUTION\": \"2016-06-01\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"Qualité prestations & service : 10 pts pour le prestataire fournissant les meilleures prestations, puis notation dégressive pour les suivants ; 10 pts pour le matériel proposé et appréciation faite en fonction du mémoire technique présenté\"}, {\"@POIDS\": \"40\", \"#text\": \"Prix : l'attribution du nombre de points se fera selon la formule suivante : proposition la moins disante : total maximum de points, autre proposition : montant de la proposition la moins disante/montant de la proposition examinée x 10\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2016-03-15T12:30:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Mode de financement : Budget propre.- Mode de paiement : Virement bancaire (Mandat administratif)\", \"FORME_JURIDIQUE\": \"Pas de forme imposée. En cas d'attribution du marché à un groupement conjoint, le mandataire du groupement sera solidaire, pour l'exécution du marché, de chacun des membres du groupement pour ses obligations contractuelles\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Autres renseignements demandés\", \"=== Candidature ===\", \"Autres renseignements demandés\", \"DC1 Candidature ou Attestation sur l'honneur (art 44)\", \"Autres renseignements demandés\", \"DC2 ou déclarations concernant les chiffres d'affaire et les effectifs\", \"Autres renseignements demandés\", \"=== Offre ===\", \"Autres renseignements demandés\", \"Acte d'engagement\", \"Autres renseignements demandés\", \"Mémoire technique\", \"Autres renseignements demandés\", \"Simulation\", \"Autres renseignements demandés\", \"Bordereau des Prix Unitaires\"]}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"16S0004\", \"CONDITIONS_REMISE_OFFRES\": \"Réception électronique obligatoire\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Modalités de retrait des documents : par téléchargement\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Le délai d'introduction des recours est de 2 mois à parution de l'avis d'attribution du marché ou de la date de réception des courriers informant les entreprises non retenues de la date de signature du marché\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta.nantes@juradm.fr\", \"URL\": \"http://www.ta-nantes.juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta.nantes@juradm.fr\", \"URL\": \"http://www.ta-nantes.juradm.fr\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"DENOMINATION\": \"Ville de CARQUEFOU\", \"ADRESSE\": \"Par téléchargement sur le site: www.e-marchespublics.com\", \"CP\": \"44470\", \"VILLE\": \"Carquefou\", \"TEL\": \"02-28-22-22-22\", \"FAX\": \"02-28-22-22-21\", \"MEL\": \"achats@mairie-carquefou.fr\", \"URL\": \"http://www.e-marchespublics.com\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Ville de CARQUEFOU\", \"ADRESSE\": \"Transmission par voie électronique obligatoire\", \"CP\": \"00000\", \"VILLE\": \"_\", \"URL\": \"http://www.e-marchespublics.com\"}, {\"TYPE\": {\"ADMIN\": \"\"}, \"DENOMINATION\": \"Ville de CARQUEFOU\", \"CORRESPONDANT\": \"Corine Bertaud\", \"ADRESSE\": \"Mairie de Carquefou Rue de l'Hôtel de Ville BP 60139\", \"CP\": \"44471\", \"VILLE\": \"Carquefou cedex\", \"TEL\": \"02-28-22-23-50\", \"FAX\": \"02-28-22-23-51\", \"MEL\": \"achats@mairie-carquefou.fr\", \"URL\": \"http://www.carquefou.fr\"}, {\"TYPE\": {\"TECH\": \"\"}, \"DENOMINATION\": \"Ville de CARQUEFOU\", \"CORRESPONDANT\": \"Sylvain Rabin\", \"ADRESSE\": \"Mairie de Carquefou Rue de l'Hôtel de Ville BP 60139\", \"CP\": \"44471\", \"VILLE\": \"Carquefou cedex\", \"TEL\": \"02-28-22-23-70\", \"FAX\": \"02-28-22-22-71\", \"MEL\": \"informatique@mairie-carquefou.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-26260"
   },
   {
    "idweb": "16-26598",
@@ -3191,63 +3191,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-26854"
   },
   {
-   "idweb": "16-25461",
-   "id": "16_25461",
-   "contractfolderid": null,
-   "objet": "Travaux de réhabilitation du barrage de l'étang de Mocrat, à Cholet",
-   "filename": "BOAMP-N-AO_2016_056011",
-   "famille": "FNS",
-   "code_departement": [
-    "49",
-    "44",
-    "85"
-   ],
-   "code_departement_prestation": "49",
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2016-02-25",
-   "datefindiffusion": "2016-03-22",
-   "datelimitereponse": "2016-03-22T11:15:00+00:00",
-   "nomacheteur": "Ville de Cholet",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "31"
-   ],
-   "dc": [
-    "31"
-   ],
-   "descripteur_libelle": [
-    "Barrage"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-25461\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-25461.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-02-25\", \"DATE_LIMITE_REPONSE\": \"2016-03-22T12:15:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2016-03-22\", \"CLASSES\": {\"CLASSE\": {\"CODE\": \"45\", \"LIBELLE\": \"Travaux de construction\"}}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"31\", \"LIBELLE\": \"Barrage\"}}, \"DEP_PUBLICATION\": [\"49\", \"44\", \"85\"], \"DEP_PRESTATION\": \"49\", \"RESUME_OBJET\": \"Travaux de réhabilitation du barrage de l'étang de Mocrat, à Cholet\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Cholet\", \"CORRESPONDANT\": \"Monsieur le Député-Maire\", \"ADRESSE\": \"Hôtel de Ville - Rue Saint Bonaventure - BP 32165\", \"CP\": \"49321\", \"VILLE\": \"Cholet cedex\", \"TEL\": \"02-44-09-26-90\", \"FAX\": \"02-44-09-26-98\", \"URL_PROFIL_ACHETEUR\": \"http://www.anjoumarchespublics.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Travaux de réhabilitation du barrage de l'étang de Mocrat à Cholet\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Le marché comprend l'installation et la signalisation de chantier, les travaux sur la carapace béton du barrage et sur l'ouvrage de surverse, les travaux d'enrochement et hydrauliques. Une visite des lieux est vivement conseillée compte tenu de l'ouvrage.Délai d'exécution : La période de préparation de chantier est de 15 jours à compter de la date de notification du marché. Le délai d'exécution des travaux est de 3 mois à compter de la date de l'ordre de service de commencement des travaux (prévisionnel juin 2016).\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2016-03-22T12:15:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Modalités de financement : ressources propres (budget principal) + subventions (Union Européenne: FEDER). Ce marché s'inscrit dans un projet cofinancé par des fonds communautaires. Mode règlement : Virement bancaire ; Délai de paiement : 30 jours ; Avance forfaitaire : oui ; Délai de validité des offres : 120 Jours ; Variantes autorisées : non ; Acompte : acomptes périodiques ; Forme des prix : forfaitaires, fermes et actualisables ;\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": \"Les concurrents joindront impérativement à l'appui de leur offre les certificats et attestations cités aux articles 43 à 46 du code des marchés publics et précisés dans le règlement de la consultation.\"}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile Gloriette - BP24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile Gloriette - BP24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"DENOMINATION\": \"Ville de Cholet -Hôtel de Ville\", \"CORRESPONDANT\": \"Service Marchés-Contrats\", \"ADRESSE\": \"Les dossiers sont délivrés gratuitement sur place ou sur demande écrite (fax ou courrier).Le dossier de consultation peut être retiré sous forme électronique sur le site www.anjoumarchespublics.fr , sous la référence VDC-16-Mocrat. Dépôt des offres par voie électronique : autorisée.\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-25461"
-  },
-  {
    "idweb": "16-27415",
    "id": "16_27415",
    "contractfolderid": null,
@@ -3314,6 +3257,63 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-27415\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"15-165734\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2015-10-30\", \"DATE_FIN_DIFFUSION\": \"2015-12-10\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2015\", \"NUM_PARUTION\": \"212\", \"NUM_ANNONCE\": \"385089\", \"DATE_PUBLICATION\": \"2015-10-31\"}}]}}, \"NOM_HTML\": \"16-27415.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-02-25\", \"DATE_FIN_DIFFUSION\": \"2016-03-25\", \"CLASSES\": {\"CLASSE\": [{\"CODE\": \"17\", \"LIBELLE\": \"Produits de l'industrie textile\"}, {\"CODE\": \"36\", \"LIBELLE\": \"Meubles et produits des industries diverses\"}, {\"CODE\": \"74\", \"LIBELLE\": \"Services fournis principalement aux entreprises\"}]}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}, {\"CODE\": \"279\", \"LIBELLE\": \"Produits des industries diverses\"}, {\"CODE\": \"285\", \"LIBELLE\": \"Publicité\"}, {\"CODE\": \"343\", \"LIBELLE\": \"Textile\"}]}, \"DEP_PUBLICATION\": \"72\", \"DEP_PRESTATION\": \"72\", \"RESUME_OBJET\": \"Fourniture, marquage et livraison sur site d'objets promotionnels pour les besoins du Département de la Sarthe au Mans\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Département de la Sarthe\", \"CODE_IDENT_NATIONAL\": \"22720002900014\", \"CORRESPONDANT\": \"le Président\", \"ADRESSE\": \"Hôtel du département, Place Aristide Briand\", \"CP\": \"72072\", \"VILLE\": \"Le Mans\", \"URL\": \"http://www.cg72.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Fourniture, marquage et livraison sur site d'objets promotionnels pour les besoins du Département de la Sarthe\", \"CPV\": {\"PRINCIPAL\": \"19200000\"}, \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FR514\"}, \"AMP_OUI\": \"\"}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"40\", \"#text\": \"La valeur des prestations (voir le détail dans le règlement de consultation)\"}, {\"@POIDS\": \"30\", \"#text\": \"Le prix des fournitures(voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"15\", \"#text\": \"Le délai de livraison (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"15\", \"#text\": \"Les performances en matière de protection de l'environnement (voir détail dans le règlement de la consultation)\"}]}}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2015\", \"NUM_PARUTION\": \"212\", \"NUM_ANNONCE\": \"385089\", \"DATE_PUBLICATION\": \"2015-10-31\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"DESCRIPTION\": \"Marché no : M16018\", \"TITULAIRE\": {\"DENOMINATION\": \"ALANN MARKS Diffusion\", \"ADRESSE\": \"140 Bd Victor Hugo\", \"CP\": \"92110\", \"VILLE\": \"Clichy\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-02-24\", \"NB_OFFRE_RECU\": \"5\"}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Retrouvez cet avis intégral sur http://www.sarthe-marchespublics.frLes minima et maxima du marché sont fixés comme suit :Minimum/période 5 000,00 euros HT et Maximum/période 200 000,00 euros HT.Le marché est renouvelable par reconduction tacite selon la périodicité suivante sans que sa durée totale puisse excéder 4 années :Période ferme :De la notification du marché au 31/12/2016Reconduction no1:Du 01/01/2017 au 31/12/2017Reconduction no2:Du 01/01/2018 au 31/12/2018Reconduction no3:Du 01/01/2019 au 31/12/2019. Date d'envoi du présent avis au JOUE et au BOAMP : 24 février 2016.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"- référé précontractuel depuis le début de la procédure de passation jusqu'à la signature du contrat, devant le juge des référés précontractuels du tribunal administratif (article L.551-1 du Code de Justice Administrative);- référé-suspension avant la signature du marché contre les actes détachables du contrat, devant le juge des référés précontractuels du tribunal administratif (article L.521-1 du Code de Justice Administrative);- référé contractuel devant le tribunal administratif dans un délai de 30 jours calendaires à compter du lendemain du jour de publication de l'avis d'attribution (article R551-7 du Code de Justice Administrative);- recours pour excès de pouvoir devant le tribunal administratif, dans un délai de deux mois à compter de la publication ou de la notification de la décision ou de l'acte attaqué (article R.421-1 du Code de Justice Administrative);- recours en indemnisation (article R.421-3 du Code de Justice Administrative);- recours de pleine juridiction formé contre la validité du contrat ou certaines de ses clauses qui en sont divisibles dans le délai de deux mois à compter de la parution de l'avis d'attribution (CE, ass. 4 avril 2014, no358994, Département du Tarn-et-Garonne)\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"Immeuble Skyline, 22 mail Pablo Picasso Cedex 1 BP 24209\", \"CP\": \"44042\", \"VILLE\": \"Nantes\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-27415"
+  },
+  {
+   "idweb": "16-25461",
+   "id": "16_25461",
+   "contractfolderid": null,
+   "objet": "Travaux de réhabilitation du barrage de l'étang de Mocrat, à Cholet",
+   "filename": "BOAMP-N-AO_2016_056011",
+   "famille": "FNS",
+   "code_departement": [
+    "49",
+    "44",
+    "85"
+   ],
+   "code_departement_prestation": "49",
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2016-02-25",
+   "datefindiffusion": "2016-03-22",
+   "datelimitereponse": "2016-03-22T11:15:00+00:00",
+   "nomacheteur": "Ville de Cholet",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "31"
+   ],
+   "dc": [
+    "31"
+   ],
+   "descripteur_libelle": [
+    "Barrage"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-25461\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-25461.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-02-25\", \"DATE_LIMITE_REPONSE\": \"2016-03-22T12:15:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2016-03-22\", \"CLASSES\": {\"CLASSE\": {\"CODE\": \"45\", \"LIBELLE\": \"Travaux de construction\"}}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"31\", \"LIBELLE\": \"Barrage\"}}, \"DEP_PUBLICATION\": [\"49\", \"44\", \"85\"], \"DEP_PRESTATION\": \"49\", \"RESUME_OBJET\": \"Travaux de réhabilitation du barrage de l'étang de Mocrat, à Cholet\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Cholet\", \"CORRESPONDANT\": \"Monsieur le Député-Maire\", \"ADRESSE\": \"Hôtel de Ville - Rue Saint Bonaventure - BP 32165\", \"CP\": \"49321\", \"VILLE\": \"Cholet cedex\", \"TEL\": \"02-44-09-26-90\", \"FAX\": \"02-44-09-26-98\", \"URL_PROFIL_ACHETEUR\": \"http://www.anjoumarchespublics.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Travaux de réhabilitation du barrage de l'étang de Mocrat à Cholet\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Le marché comprend l'installation et la signalisation de chantier, les travaux sur la carapace béton du barrage et sur l'ouvrage de surverse, les travaux d'enrochement et hydrauliques. Une visite des lieux est vivement conseillée compte tenu de l'ouvrage.Délai d'exécution : La période de préparation de chantier est de 15 jours à compter de la date de notification du marché. Le délai d'exécution des travaux est de 3 mois à compter de la date de l'ordre de service de commencement des travaux (prévisionnel juin 2016).\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2016-03-22T12:15:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Modalités de financement : ressources propres (budget principal) + subventions (Union Européenne: FEDER). Ce marché s'inscrit dans un projet cofinancé par des fonds communautaires. Mode règlement : Virement bancaire ; Délai de paiement : 30 jours ; Avance forfaitaire : oui ; Délai de validité des offres : 120 Jours ; Variantes autorisées : non ; Acompte : acomptes périodiques ; Forme des prix : forfaitaires, fermes et actualisables ;\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": \"Les concurrents joindront impérativement à l'appui de leur offre les certificats et attestations cités aux articles 43 à 46 du code des marchés publics et précisés dans le règlement de la consultation.\"}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile Gloriette - BP24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile Gloriette - BP24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"DENOMINATION\": \"Ville de Cholet -Hôtel de Ville\", \"CORRESPONDANT\": \"Service Marchés-Contrats\", \"ADRESSE\": \"Les dossiers sont délivrés gratuitement sur place ou sur demande écrite (fax ou courrier).Le dossier de consultation peut être retiré sous forme électronique sur le site www.anjoumarchespublics.fr , sous la référence VDC-16-Mocrat. Dépôt des offres par voie électronique : autorisée.\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-25461"
   },
   {
    "idweb": "16-27767",
@@ -4477,72 +4477,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-27918"
   },
   {
-   "idweb": "16-27954",
-   "id": "16_27954",
-   "contractfolderid": null,
-   "objet": "exploitation des laveries des résidences pour étudiants et jeunes de l'ouest et de l'ile de france du patrimoine de la SA HLM Espacil Habitat à Rennes",
-   "filename": "BOAMP-N-AO_2016_060009",
-   "famille": "FNS",
-   "code_departement": [
-    "35",
-    "44",
-    "91",
-    "92",
-    "93",
-    "94",
-    "95",
-    "77",
-    "78"
-   ],
-   "code_departement_prestation": "35",
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2016-02-29",
-   "datefindiffusion": "2016-04-08",
-   "datelimitereponse": "2016-04-08T11:00:00+00:00",
-   "nomacheteur": "Espacil Habitat",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "37",
-    "274"
-   ],
-   "dc": [
-    "37",
-    "274"
-   ],
-   "descripteur_libelle": [
-    "Blanchisserie (matériel)",
-    "Prestations de services"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-27954\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-27954.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-02-29\", \"DATE_LIMITE_REPONSE\": \"2016-04-08T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2016-04-08\", \"CLASSES\": {\"CLASSE\": [{\"CODE\": \"29\", \"LIBELLE\": \"Machines et équipements\"}, {\"CODE\": \"74\", \"LIBELLE\": \"Services fournis principalement aux entreprises\"}]}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"37\", \"LIBELLE\": \"Blanchisserie (matériel)\"}, {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}]}, \"DEP_PUBLICATION\": [\"35\", \"44\", \"91\", \"92\", \"93\", \"94\", \"95\", \"77\", \"78\"], \"DEP_PRESTATION\": \"35\", \"RESUME_OBJET\": \"exploitation des laveries des résidences pour étudiants et jeunes de l'ouest et de l'ile de france du patrimoine de la SA HLM Espacil Habitat à Rennes\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Espacil Habitat\", \"CORRESPONDANT\": \"STEPHANT Gwénolé\", \"ADRESSE\": \"1 rue ScorffCS 54221\", \"CP\": \"35042\", \"VILLE\": \"Rennes\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"\"}, \"OBJET\": {\"OBJET_COMPLET\": \"Exploitation des laveries des résidences pour étudiants et jeunes de l'Ouest et de l'Ile de France du patrimoine SA HLM Espacil Habitat\", \"VARIANTES_NON\": \"\", \"DUREE_DELAI\": {\"DATE_DEBUT\": \"2016-06-01\", \"DATE_FIN\": \"2020-06-30\", \"DATE_EXECUTION\": \"2016-07-01\", \"DATE_LIVRAISON\": \"2020-06-30\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Exploitation des laveries du patrimoine de l'Ouest\", \"DESCRIPTION\": \"Mettre en place, effectuer le suivi et l'entretien des machines à laver et sèche-linge dans les résidences pour étudiants et jeunes ESPACIL Habitat situées à Rennes, Bruz, Lorient, Orvault, Carquefou, Rezé.\", \"CPV\": {\"PRINCIPAL\": \"51543400\"}, \"QUANTITE\": \"14 résidences\"}, {\"NUM\": \"2\", \"INTITULE\": \"Exploitation des laveries du patrimoine de l'Ile de France\", \"DESCRIPTION\": \"Mettre en place, effectuer le suivi et l'entretien des machines à laver et sèche-linge dans les résidences pour étudiants et jeunes ESPACIL Habitat situées en Ile de France\", \"CPV\": {\"PRINCIPAL\": \"51543400\"}, \"QUANTITE\": \"33 résidences\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"20\", \"#text\": \"les capacités à assurer la prestation demandée et les références professionnelles\"}, {\"@POIDS\": \"35\", \"#text\": \"La valeur technique de l'offre\"}, {\"@POIDS\": \"45\", \"#text\": \"Le prix\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2016-04-08T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\"}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"-L'analyse du contenu de la 1ère enveloppe regroupant les renseignements administratifs sur l'entreprise (éliminatoire).- L'analyse de la valeur technique et du prix proposé dans l'offre de l'entreprise (2ème enveloppe).\", \"SITUATION_JURIDIQUE\": \"Références équivalentes\", \"CAP_ECO\": \"- les capacités à assurer la prestation demandée et les références professionnelles pour 20 %- Références de l'entreprise- Organisation de l'entreprise- Moyen pour respect du planning d'installation à la prise en main du contrat- La valeur technique de l'offre pour 35 %- Caractéristiques techniques des équipements. (MAL/ Sèches-linge/monnayeur dématérialisé)- fourniture des notices des équipements- action concernant le développement durable- Le prix pour 45 %- Règle de calcul de la redevance\", \"MARCHE_RESERVE_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire obligatoirement par le candidat, à l'appui de sa candidature\", \"Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire\", \"Déclaration sur l'honneur du candidat justifiant qu'il n'entre dans aucun des cas mentionnés à l'article 43 du code des marchés publics, concernant les interdictions de soumissionner\", \"Si le candidat est établi en France, une déclaration sur l'honneur du candidat justifiant que le travail est effectué par des salariés employés régulièrement au regard des articles L. 1221-10, L. 3243-2 et R. 3243-1 du code du travail (dans le cas où le candidat emploie des salariés, conformément à l'article D. 8222-5-3° du code du travail)\", \"Les pièces prévues aux articles D. 8222-5 ou D. 8222-7 et D. 8222-8 du code du travail\", \"Si l'attributaire est établi en France, les attestations et certificats délivrés par les administrations et organismes compétents prouvant qu'il a satisfait à ses obligations fiscales et sociales ou un état annuel des certificats reçus\", \"Autres renseignements demandés\", \"Les attestations originales d'assurances responsabilité civile et décennale en cours de validité\", \"Autres renseignements demandés\", \"Les références pour des prestations équivalentes\", \"Autres renseignements demandés\", \"&#61607;Un extrait de l'inscription au registre du commerce et des sociétés (KBIS) ou au répertoire des métiers\"]}}, \"CONDITION_ADMINISTRATIVE\": {\"CONDITIONS_REMISE_OFFRES\": \"Les offres seront transmises sous pli cacheté portant l'indication de l'appel d'offres auquel il se rapporte et contenant les 2 enveloppes visées ci-dessus également cachetées.Les 2 enveloppes intérieures devront porter le nom du candidat, le no du lot et la mention :- \\\" 1ère enveloppe intérieure \\\" pour l'enveloppe contant les certificats relatifs aux situations fiscale, parafiscale et sociale de l'entreprise ainsi que les justifications concernant les qualités et capacités du candidat.- \\\" 2ème enveloppe intérieure \\\" pour l'offre proprement dite.L'enveloppe extérieure portera les mentions suivantes :Monsieur le Président de la Commission d'appel d'offres d'Espacil Habitat1 rue du Scorff - CS 5422135042 RENNES CEDEXAppel d'offres pour l'exploitation des laveries des Résidences pour étudiants et pour jeunes.Dossier suivi par Yoan MARTEAUN° du lot : ..........\", \"CONDITIONS_ET_MODE_PAIEMENT_OBTENIR_DOCUMENTS\": \"Les dossiers de consultation sont téléchargeables gratuitement sur le site Internet www.ao-espacil-habitat.comLes renseignements pourront être demandés à Espacil Habitat - Service Technique du Patrimoine - Service Méthodes -1 rue du Scorff - 35042 Rennes Cedex.Tél : 02 99 27 20 00 - Fax : 02 99 63 65 11Mr MARTEAU\"}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-27954"
-  },
-  {
    "idweb": "16-28472",
    "id": "16_28472",
    "contractfolderid": null,
@@ -4661,6 +4595,72 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-29123\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-26808\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-02-24\", \"DATE_FIN_DIFFUSION\": \"2016-04-04\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"040\", \"NUM_ANNONCE\": \"064963\", \"DATE_PUBLICATION\": \"2016-02-26\"}}]}}, \"NOM_HTML\": \"16-29123.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-02-29\", \"DATE_FIN_DIFFUSION\": \"2016-04-04\", \"CLASSES\": {\"CLASSE\": {\"CODE\": \"36\", \"LIBELLE\": \"Meubles et produits des industries diverses\"}}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"202\", \"LIBELLE\": \"Matériel didactique\"}}, \"DEP_PUBLICATION\": \"44\", \"DEP_PRESTATION\": \"72\", \"RESUME_OBJET\": \"fourniture d'équipements pédagogiques liés à la restructuration des ateliers du lycée agricole la germinière à Rouillon (rectificatif)\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Conseil régional des Pays de la Loire\", \"CORRESPONDANT\": \"M. Président Le\", \"ADRESSE\": \"1 rue de la Loire 1 rue de la Loire\", \"CP\": \"44966\", \"VILLE\": \"Nantes cedex 9\", \"TEL\": \"(+33) 2-28-20-58-38\", \"URL\": \"http://www.paysdelaloire.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marchespublics.paysdelaloire.fr\", \"URL_INFORMATION\": \"http://www.marchespublics.paysdelaloire.fr\", \"URL_PARTICIPATION\": \"http://www.marchespublics.paysdelaloire.fr\"}, \"OBJET\": {\"TITRE_MARCHE\": \"Acquisition d'équipements pédagogiques liés à la restructuration des ateliers du lycée agricole La Germinière à ROUILLON (72).\", \"OBJET_COMPLET\": \"Le présent marché concerne la fourniture d'équipements pédagogiques liés à la restructuration des ateliers du lycée agricole la Germinière à Rouillon. iL va permettre le renouvellement d'une partie des équipements des secteurs de la production agricole, de l'agroéquipement, de l'environnement, de l'aménagement et de la Forêt pour les formations suivantes :- BAC Professionnel Agroéquipement (en lien possible avec le CFA) - BAC Professionnel Conduite et Gestion de l'Exploitation Agricole \\\" Système à dominante élevage \\\" - BTSA Technico-commercial : Produits alimentaires et boissons - BTSA Gestion Forestière - BTSA Analyse et Conduite de Systèmes d'Exploitation\", \"CPV\": {\"PRINCIPAL\": \"39162100\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-26808\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-02-24\", \"DATE_FIN_DIFFUSION\": \"2016-04-04\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"040\", \"NUM_ANNONCE\": \"064963\", \"DATE_PUBLICATION\": \"2016-02-26\"}}]}, \"MODIFICATION\": [{\"RUB_INIT\": \"Information sur les lots\", \"SUPPRIMER\": \"Lot 1 Equipement de guidage GPS\"}, {\"RUB_INIT\": \"Quantité ou étendue globale\", \"SUPPRIMER\": \"Lot 1 Equipements de guidage GPS\"}]}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Le lot 1 est déclaré sans suite, le besoin ayant disparu.Toutes les mentions relatives au lot 1 dans les pièces du marché sont supprimées.Aucune autre modification n'est apportée pour les autres lots.. Date d'envoi du présent avis au JOUE et au BOAMP : 29 février 2016.\"}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-29123"
+  },
+  {
+   "idweb": "16-27954",
+   "id": "16_27954",
+   "contractfolderid": null,
+   "objet": "exploitation des laveries des résidences pour étudiants et jeunes de l'ouest et de l'ile de france du patrimoine de la SA HLM Espacil Habitat à Rennes",
+   "filename": "BOAMP-N-AO_2016_060009",
+   "famille": "FNS",
+   "code_departement": [
+    "35",
+    "44",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "77",
+    "78"
+   ],
+   "code_departement_prestation": "35",
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2016-02-29",
+   "datefindiffusion": "2016-04-08",
+   "datelimitereponse": "2016-04-08T11:00:00+00:00",
+   "nomacheteur": "Espacil Habitat",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "37",
+    "274"
+   ],
+   "dc": [
+    "37",
+    "274"
+   ],
+   "descripteur_libelle": [
+    "Blanchisserie (matériel)",
+    "Prestations de services"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-27954\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-27954.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-02-29\", \"DATE_LIMITE_REPONSE\": \"2016-04-08T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2016-04-08\", \"CLASSES\": {\"CLASSE\": [{\"CODE\": \"29\", \"LIBELLE\": \"Machines et équipements\"}, {\"CODE\": \"74\", \"LIBELLE\": \"Services fournis principalement aux entreprises\"}]}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"37\", \"LIBELLE\": \"Blanchisserie (matériel)\"}, {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}]}, \"DEP_PUBLICATION\": [\"35\", \"44\", \"91\", \"92\", \"93\", \"94\", \"95\", \"77\", \"78\"], \"DEP_PRESTATION\": \"35\", \"RESUME_OBJET\": \"exploitation des laveries des résidences pour étudiants et jeunes de l'ouest et de l'ile de france du patrimoine de la SA HLM Espacil Habitat à Rennes\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Espacil Habitat\", \"CORRESPONDANT\": \"STEPHANT Gwénolé\", \"ADRESSE\": \"1 rue ScorffCS 54221\", \"CP\": \"35042\", \"VILLE\": \"Rennes\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"\"}, \"OBJET\": {\"OBJET_COMPLET\": \"Exploitation des laveries des résidences pour étudiants et jeunes de l'Ouest et de l'Ile de France du patrimoine SA HLM Espacil Habitat\", \"VARIANTES_NON\": \"\", \"DUREE_DELAI\": {\"DATE_DEBUT\": \"2016-06-01\", \"DATE_FIN\": \"2020-06-30\", \"DATE_EXECUTION\": \"2016-07-01\", \"DATE_LIVRAISON\": \"2020-06-30\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Exploitation des laveries du patrimoine de l'Ouest\", \"DESCRIPTION\": \"Mettre en place, effectuer le suivi et l'entretien des machines à laver et sèche-linge dans les résidences pour étudiants et jeunes ESPACIL Habitat situées à Rennes, Bruz, Lorient, Orvault, Carquefou, Rezé.\", \"CPV\": {\"PRINCIPAL\": \"51543400\"}, \"QUANTITE\": \"14 résidences\"}, {\"NUM\": \"2\", \"INTITULE\": \"Exploitation des laveries du patrimoine de l'Ile de France\", \"DESCRIPTION\": \"Mettre en place, effectuer le suivi et l'entretien des machines à laver et sèche-linge dans les résidences pour étudiants et jeunes ESPACIL Habitat situées en Ile de France\", \"CPV\": {\"PRINCIPAL\": \"51543400\"}, \"QUANTITE\": \"33 résidences\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"20\", \"#text\": \"les capacités à assurer la prestation demandée et les références professionnelles\"}, {\"@POIDS\": \"35\", \"#text\": \"La valeur technique de l'offre\"}, {\"@POIDS\": \"45\", \"#text\": \"Le prix\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2016-04-08T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\"}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"-L'analyse du contenu de la 1ère enveloppe regroupant les renseignements administratifs sur l'entreprise (éliminatoire).- L'analyse de la valeur technique et du prix proposé dans l'offre de l'entreprise (2ème enveloppe).\", \"SITUATION_JURIDIQUE\": \"Références équivalentes\", \"CAP_ECO\": \"- les capacités à assurer la prestation demandée et les références professionnelles pour 20 %- Références de l'entreprise- Organisation de l'entreprise- Moyen pour respect du planning d'installation à la prise en main du contrat- La valeur technique de l'offre pour 35 %- Caractéristiques techniques des équipements. (MAL/ Sèches-linge/monnayeur dématérialisé)- fourniture des notices des équipements- action concernant le développement durable- Le prix pour 45 %- Règle de calcul de la redevance\", \"MARCHE_RESERVE_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire obligatoirement par le candidat, à l'appui de sa candidature\", \"Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire\", \"Déclaration sur l'honneur du candidat justifiant qu'il n'entre dans aucun des cas mentionnés à l'article 43 du code des marchés publics, concernant les interdictions de soumissionner\", \"Si le candidat est établi en France, une déclaration sur l'honneur du candidat justifiant que le travail est effectué par des salariés employés régulièrement au regard des articles L. 1221-10, L. 3243-2 et R. 3243-1 du code du travail (dans le cas où le candidat emploie des salariés, conformément à l'article D. 8222-5-3° du code du travail)\", \"Les pièces prévues aux articles D. 8222-5 ou D. 8222-7 et D. 8222-8 du code du travail\", \"Si l'attributaire est établi en France, les attestations et certificats délivrés par les administrations et organismes compétents prouvant qu'il a satisfait à ses obligations fiscales et sociales ou un état annuel des certificats reçus\", \"Autres renseignements demandés\", \"Les attestations originales d'assurances responsabilité civile et décennale en cours de validité\", \"Autres renseignements demandés\", \"Les références pour des prestations équivalentes\", \"Autres renseignements demandés\", \"&#61607;Un extrait de l'inscription au registre du commerce et des sociétés (KBIS) ou au répertoire des métiers\"]}}, \"CONDITION_ADMINISTRATIVE\": {\"CONDITIONS_REMISE_OFFRES\": \"Les offres seront transmises sous pli cacheté portant l'indication de l'appel d'offres auquel il se rapporte et contenant les 2 enveloppes visées ci-dessus également cachetées.Les 2 enveloppes intérieures devront porter le nom du candidat, le no du lot et la mention :- \\\" 1ère enveloppe intérieure \\\" pour l'enveloppe contant les certificats relatifs aux situations fiscale, parafiscale et sociale de l'entreprise ainsi que les justifications concernant les qualités et capacités du candidat.- \\\" 2ème enveloppe intérieure \\\" pour l'offre proprement dite.L'enveloppe extérieure portera les mentions suivantes :Monsieur le Président de la Commission d'appel d'offres d'Espacil Habitat1 rue du Scorff - CS 5422135042 RENNES CEDEXAppel d'offres pour l'exploitation des laveries des Résidences pour étudiants et pour jeunes.Dossier suivi par Yoan MARTEAUN° du lot : ..........\", \"CONDITIONS_ET_MODE_PAIEMENT_OBTENIR_DOCUMENTS\": \"Les dossiers de consultation sont téléchargeables gratuitement sur le site Internet www.ao-espacil-habitat.comLes renseignements pourront être demandés à Espacil Habitat - Service Technique du Patrimoine - Service Méthodes -1 rue du Scorff - 35042 Rennes Cedex.Tél : 02 99 27 20 00 - Fax : 02 99 63 65 11Mr MARTEAU\"}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-27954"
   },
   {
    "idweb": "16-26623",

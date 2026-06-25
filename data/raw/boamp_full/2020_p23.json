@@ -1812,68 +1812,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-111071"
   },
   {
-   "idweb": "20-111877",
-   "id": "20_111877",
-   "contractfolderid": null,
-   "objet": "Acquisition de droits d'usage d'une solution logicielle de gestion énergétique, hébergée sur une plate-forme web locale ou déportée, pour l'Université de Nantes",
-   "filename": "BOAMP-N-AO_2020_255011",
-   "famille": "FNS",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2020-09-11",
-   "datefindiffusion": "2020-10-15",
-   "datelimitereponse": "2020-10-15T12:30:00+00:00",
-   "nomacheteur": "Université de Nantes",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "163",
-    "186"
-   ],
-   "dc": [
-    "163",
-    "186"
-   ],
-   "descripteur_libelle": [
-    "Informatique (prestations de services)",
-    "Logiciel"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-111877\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"20-111877.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-09-11\", \"DATE_LIMITE_REPONSE\": \"2020-10-15T13:30:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2020-10-15\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"163\", \"LIBELLE\": \"Informatique (prestations de services)\"}, {\"CODE\": \"186\", \"LIBELLE\": \"Logiciel\"}]}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Acquisition de droits d'usage d'une solution logicielle de gestion énergétique, hébergée sur une plate-forme web locale ou déportée, pour l'Université de Nantes\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Université de Nantes\", \"CORRESPONDANT\": \"M. LORGEOUX Yannick, Université de Nantes\", \"ADRESSE\": \"1 quai de Tourville - BP 13522\", \"CP\": \"44035\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"02-40-99-84-91\", \"FAX\": \"02-40-99-84-96\", \"MEL\": \"marchespublics@univ-nantes.fr\", \"URL\": \"http://www.univ-nantes.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-publics.gouv.fr/\"}, \"TYPE_ORGANISME\": {\"EPN\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Formation et recherche\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"7\"}, \"OBJET_COMPLET\": \"Acquisition de droits d'usage d'une solution logicielle de gestion énergétique, hébergée sur une plate-forme web locale ou déportée, pour l'Université de Nantes\", \"CPV\": {\"PRINCIPAL\": \"72268000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Université de Nantes\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"CODE_NUTS\": \"FRG01\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Acquisition de droits d'usage d'une solution logicielle de gestion énergétique pour l'Université de Nantes\", \"QUANTITE\": \"Les prestations sont réparties en deux phases (tranche ferme et tranche optionnelle)\", \"OPTIONS\": {\"OUI\": \"\", \"DESCRIPTION\": \"Variante exigée no 1 : Interfaçage du système d'information patrimonial pour la gestion de la nomenclature patrimonialeVariante exigée no 2 : Export automatisé des données de consommation vers le système d'information patrimonial\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"84\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2020-10-15T13:30:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Les prestations sont rémunérées sur budget propre de l'Université de Nantes et selon les conditions de la comptabilité publique\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC4, Déclaration de sous-traitance (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"S'il s'appuie, pour présenter sa candidature, sur les capacités professionnelles, techniques et financières d'autres opérateurs économiques, le candidat produit les mêmes documents concernant cet opérateur économique que ceux qui lui sont exigés par l'acheteur public. Le candidat doit également apporter la preuve que chacun de ces opérateurs économiques mettra à sa disposition les moyens nécessaires, pendant toute la durée d'exécution du marché public ou de l'accord-cadre\", \"Si les documents fournis par le candidat ne sont pas établis en langue française, ils doivent être accompagnés d'une traduction en français, certifiée conforme à l'original par un traducteur assermenté\", \"Les pièces prévues aux articles D. 8222-5 ou D. 8222-7 et D. 8222-8 du code du travail\", \"Si l'attributaire est établi en France, les attestations et certificats délivrés par les administrations et organismes compétents prouvant qu'il a satisfait à ses obligations fiscales et sociales ou un état annuel des certificats reçus\", \"Si l'attributaire est établi dans un Etat autre que la France, un certificat établi par les administrations et organismes du pays d'origine. Lorsqu'un tel certificat n'est pas délivré par le pays concerné, il peut être remplacé par une déclaration sous serment, ou dans les Etats où un tel serment n'existe pas, par une déclaration solennelle faite par l'intéressé devant l'autorité judiciaire ou administrative compétente, un notaire ou un organisme professionnel qualifié du pays\", \"Si les documents fournis par le candidat ne sont pas établis en langue française, ils doivent être accompagnés d'une traduction en français, certifiée conforme à l'original par un traducteur assermenté\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"20058PAS\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://Nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://Nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"URL\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=634286&orgAcronyme=f2h\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-111877"
-  },
-  {
    "idweb": "20-110502",
    "id": "20_110502",
    "contractfolderid": null,
@@ -2057,6 +1995,68 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-110815\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"20-73527\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2020-06-09\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2020-06-10\", \"DATE_FIN_DIFFUSION\": \"2020-08-07\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2020\", \"NUM_PARUTION\": \"111\", \"NUM_ANNONCE\": \"269225\", \"DATE_PUBLICATION\": \"2020-06-10\"}}]}}, \"NOM_HTML\": \"20-110815.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-09-11\", \"DATE_FIN_DIFFUSION\": \"2020-09-30\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"276\", \"LIBELLE\": \"Produits de l'agriculture\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"fourniture de foin\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"I.F.C.E.\", \"ADJUDICATEUR_NUTS\": \"FR\", \"ADRESSE\": \"Terrefort - BP 207\", \"VILLE\": \"SAUMUR\", \"MEL\": \"achats@ifce.fr\", \"URL\": \"http://www.ifce.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"MIN_AUTORITE_NATIONALE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de foin\", \"REF_MARCHE\": \"2020-12\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Fourniture de foin\", \"CPV\": {\"PRINCIPAL\": \"03114200\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"167600\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1 à 9\", \"INTITULE\": \"9 lots de 100 tonnes sous forme ronde\", \"DESCRIPTION\": \"9 lots de 100 tonnes sous forme ronde\", \"CPV\": {\"PRINCIPAL\": \"03114200\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"10 à 14\", \"INTITULE\": \"Fourniture de 5 lots de 100 tonnes sous forme rectangulaire\", \"DESCRIPTION\": \"Fourniture de 5 lots de 100 tonnes sous forme rectangulaire\", \"CPV\": {\"PRINCIPAL\": \"03114200\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"15 à 17\", \"INTITULE\": \"Fourniture de 3 lots de 10 tonnes sous forme rectangulaire\", \"DESCRIPTION\": \"Fourniture de 3 lots de 10 tonnes sous forme rectangulaire\", \"CPV\": {\"PRINCIPAL\": \"03114200\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_NON\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2020\", \"NUM_PARUTION\": \"111\", \"NUM_ANNONCE\": \"269225\", \"DATE_PUBLICATION\": \"2020-06-10\"}}}, \"ATTRIBUTION\": {\"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"202010043001031901\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Fourniture d'un lot de 100 tonnes de foin en balles rondes\", \"TITULAIRE\": {\"DENOMINATION\": \"EARL LA REUSSITE\", \"ADRESSE\": \"La Réussite\", \"CP\": \"49310\", \"VILLE\": \"ST PAUL LES BOIS\", \"CODE_NUTS\": \"FR\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2020-09-04\", \"NB_OFFRE_RECU\": \"27\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"14900\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"202010044001031901\", \"NUM_LOT\": \"2 à 5\", \"INTITULE\": \"4 lots de foin de 100 tonnes en balles rondes\", \"TITULAIRE\": {\"DENOMINATION\": \"GAEC VILLENEUVE\", \"ADRESSE\": \"3 les Greniers\", \"CP\": \"79150\", \"VILLE\": \"SAINT MAURICE ETUSSON\", \"CODE_NUTS\": \"FR\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2020-09-04\", \"NB_OFFRE_RECU\": \"27\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"60600\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"202010045001031901\", \"NUM_LOT\": \"6 à 10\", \"INTITULE\": \"3 lots de 10 tonnes de foin et 2 lots de 100 tonnes de foin\", \"TITULAIRE\": {\"DENOMINATION\": \"SCEA LES GATS\", \"ADRESSE\": \"Route des Sapins\", \"CP\": \"79200\", \"VILLE\": \"VIENNAY\", \"CODE_NUTS\": \"FR\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2020-09-04\", \"NB_OFFRE_RECU\": \"27\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"32500\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"202010046001031901\", \"NUM_LOT\": \"11\", \"INTITULE\": \"1 lot de 100 tonnes en botes rectangulaires\", \"TITULAIRE\": {\"DENOMINATION\": \"SARL DROCHON\", \"ADRESSE\": \"9, rue de Salvert\", \"CP\": \"86120\", \"VILLE\": \"MORTON\", \"CODE_NUTS\": \"FR\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2020-09-04\", \"NB_OFFRE_RECU\": \"27\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"12000\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"202010047001031901\", \"NUM_LOT\": \"12 à 14\", \"INTITULE\": \"3 lots de 100 tonnes en bottes rectangulaires\", \"TITULAIRE\": {\"DENOMINATION\": \"SARL GENDRON\", \"ADRESSE\": \"10, rue du Courreau - La Bohalle\", \"CP\": \"49800\", \"VILLE\": \"LOIRE AUTHION\", \"CODE_NUTS\": \"FR\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2020-09-04\", \"NB_OFFRE_RECU\": \"27\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"35700\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"202010048001031901\", \"NUM_LOT\": \"15\", \"INTITULE\": \"1 lot de 100 tonnes en botes rectangulaires\", \"TITULAIRE\": {\"DENOMINATION\": \"SCE DE THEURE\", \"ADRESSE\": \"427, Route du Gué Pétiton\", \"CP\": \"49650\", \"VILLE\": \"ALLONNES\", \"CODE_NUTS\": \"FR\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2020-09-04\", \"NB_OFFRE_RECU\": \"27\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"11900\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 9 septembre 2020.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette - BP 24111\", \"VILLE\": \"NANTES\"}}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-110815"
+  },
+  {
+   "idweb": "20-111877",
+   "id": "20_111877",
+   "contractfolderid": null,
+   "objet": "Acquisition de droits d'usage d'une solution logicielle de gestion énergétique, hébergée sur une plate-forme web locale ou déportée, pour l'Université de Nantes",
+   "filename": "BOAMP-N-AO_2020_255011",
+   "famille": "FNS",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2020-09-11",
+   "datefindiffusion": "2020-10-15",
+   "datelimitereponse": "2020-10-15T12:30:00+00:00",
+   "nomacheteur": "Université de Nantes",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "163",
+    "186"
+   ],
+   "dc": [
+    "163",
+    "186"
+   ],
+   "descripteur_libelle": [
+    "Informatique (prestations de services)",
+    "Logiciel"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-111877\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"20-111877.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-09-11\", \"DATE_LIMITE_REPONSE\": \"2020-10-15T13:30:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2020-10-15\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"163\", \"LIBELLE\": \"Informatique (prestations de services)\"}, {\"CODE\": \"186\", \"LIBELLE\": \"Logiciel\"}]}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Acquisition de droits d'usage d'une solution logicielle de gestion énergétique, hébergée sur une plate-forme web locale ou déportée, pour l'Université de Nantes\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Université de Nantes\", \"CORRESPONDANT\": \"M. LORGEOUX Yannick, Université de Nantes\", \"ADRESSE\": \"1 quai de Tourville - BP 13522\", \"CP\": \"44035\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"02-40-99-84-91\", \"FAX\": \"02-40-99-84-96\", \"MEL\": \"marchespublics@univ-nantes.fr\", \"URL\": \"http://www.univ-nantes.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-publics.gouv.fr/\"}, \"TYPE_ORGANISME\": {\"EPN\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Formation et recherche\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"7\"}, \"OBJET_COMPLET\": \"Acquisition de droits d'usage d'une solution logicielle de gestion énergétique, hébergée sur une plate-forme web locale ou déportée, pour l'Université de Nantes\", \"CPV\": {\"PRINCIPAL\": \"72268000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Université de Nantes\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"CODE_NUTS\": \"FRG01\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Acquisition de droits d'usage d'une solution logicielle de gestion énergétique pour l'Université de Nantes\", \"QUANTITE\": \"Les prestations sont réparties en deux phases (tranche ferme et tranche optionnelle)\", \"OPTIONS\": {\"OUI\": \"\", \"DESCRIPTION\": \"Variante exigée no 1 : Interfaçage du système d'information patrimonial pour la gestion de la nomenclature patrimonialeVariante exigée no 2 : Export automatisé des données de consommation vers le système d'information patrimonial\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"84\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2020-10-15T13:30:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Les prestations sont rémunérées sur budget propre de l'Université de Nantes et selon les conditions de la comptabilité publique\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC4, Déclaration de sous-traitance (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"S'il s'appuie, pour présenter sa candidature, sur les capacités professionnelles, techniques et financières d'autres opérateurs économiques, le candidat produit les mêmes documents concernant cet opérateur économique que ceux qui lui sont exigés par l'acheteur public. Le candidat doit également apporter la preuve que chacun de ces opérateurs économiques mettra à sa disposition les moyens nécessaires, pendant toute la durée d'exécution du marché public ou de l'accord-cadre\", \"Si les documents fournis par le candidat ne sont pas établis en langue française, ils doivent être accompagnés d'une traduction en français, certifiée conforme à l'original par un traducteur assermenté\", \"Les pièces prévues aux articles D. 8222-5 ou D. 8222-7 et D. 8222-8 du code du travail\", \"Si l'attributaire est établi en France, les attestations et certificats délivrés par les administrations et organismes compétents prouvant qu'il a satisfait à ses obligations fiscales et sociales ou un état annuel des certificats reçus\", \"Si l'attributaire est établi dans un Etat autre que la France, un certificat établi par les administrations et organismes du pays d'origine. Lorsqu'un tel certificat n'est pas délivré par le pays concerné, il peut être remplacé par une déclaration sous serment, ou dans les Etats où un tel serment n'existe pas, par une déclaration solennelle faite par l'intéressé devant l'autorité judiciaire ou administrative compétente, un notaire ou un organisme professionnel qualifié du pays\", \"Si les documents fournis par le candidat ne sont pas établis en langue française, ils doivent être accompagnés d'une traduction en français, certifiée conforme à l'original par un traducteur assermenté\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"20058PAS\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://Nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://Nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"URL\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=634286&orgAcronyme=f2h\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-111877"
   },
   {
    "idweb": "20-111813",

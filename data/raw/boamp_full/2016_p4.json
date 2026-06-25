@@ -2992,64 +2992,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-19705"
   },
   {
-   "idweb": "16-20321",
-   "id": "16_20321",
-   "contractfolderid": null,
-   "objet": "travaux d'entretien de la voirie communale à Villeneuve-en-Perseigne",
-   "filename": "BOAMP-N-AO_2016_042011",
-   "famille": "FNS",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": "72",
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2016-02-11",
-   "datefindiffusion": "2016-03-09",
-   "datelimitereponse": "2016-03-09T11:00:00+00:00",
-   "nomacheteur": "commune de villeneuve en perseigne",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "196",
-    "365"
-   ],
-   "dc": [
-    "196",
-    "365"
-   ],
-   "descripteur_libelle": [
-    "Maintenance",
-    "Voirie"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-20321\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-20321.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-02-11\", \"DATE_LIMITE_REPONSE\": \"2016-03-09T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2016-03-09\", \"CLASSES\": {\"CLASSE\": [{\"CODE\": \"45\", \"LIBELLE\": \"Travaux de construction\"}, {\"CODE\": \"74\", \"LIBELLE\": \"Services fournis principalement aux entreprises\"}]}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"196\", \"LIBELLE\": \"Maintenance\"}, {\"CODE\": \"365\", \"LIBELLE\": \"Voirie\"}]}, \"DEP_PUBLICATION\": \"72\", \"DEP_PRESTATION\": \"72\", \"RESUME_OBJET\": \"travaux d'entretien de la voirie communale à Villeneuve-en-Perseigne\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"commune de villeneuve en perseigne\", \"CORRESPONDANT\": \"Trottet André, Maire\", \"ADRESSE\": \"16 rue de la Forêt de Perseigne\", \"CP\": \"72600\", \"VILLE\": \"Villeneuve en Perseigne\"}, \"OBJET\": {\"OBJET_COMPLET\": \"travaux d'entretien de la voirie communale\", \"CPV\": {\"PRINCIPAL\": \"45233220\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"rechargement et élargissement de chaussées, reprofilage aux enrobés, enduits d'usure superficiels, travaux d'emplois partiels, travaux de VRD\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"220000\"}, \"OPTIONS\": {\"OUI\": \"\"}, \"RECONDUCTIONS\": {\"NB_RECONDUCTIONS_MIN\": \"1\", \"NB_RECONDUCTIONS_MAX\": \"3\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"12\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"70\", \"#text\": \"Prix\"}, {\"@POIDS\": \"30\", \"#text\": \"Valeur technique de l'offre\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2016-03-09T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"90\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_LIMITE_OBTENTION_DOCUMENTS\": \"2016-03-09\", \"DOCUMENT_PAYANT_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Retrouvez cet avis intégral, l'accès au dossier et le guichet de dépôt sur http://www.marches-publics.infoMarché à bons de commande\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"ADRESSE\": \"6 rue allée de l'île gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-20321"
-  },
-  {
    "idweb": "16-19356",
    "id": "16_19356",
    "contractfolderid": null,
@@ -3166,6 +3108,64 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-20729\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-20729.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-02-11\", \"DATE_LIMITE_REPONSE\": \"2016-03-14T17:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2016-03-14\", \"CLASSES\": {\"CLASSE\": {\"CODE\": \"74\", \"LIBELLE\": \"Services fournis principalement aux entreprises\"}}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"19\", \"LIBELLE\": \"Assistance technique\"}}, \"DEP_PUBLICATION\": \"72\", \"DEP_PRESTATION\": \"72\", \"RESUME_OBJET\": \"mission d'assistance juridique à maîtrise d'ouvrage pour l'élaboration du Plan Local d'urbanisme intercommunal intégrant le Plan de Déplacements Urbains, au Mans\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Le Mans Métropole - Communauté Urbaine\", \"CODE_IDENT_NATIONAL\": \"24720013200014\", \"CORRESPONDANT\": \"Le Président\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, CS 40010 - 16 avenue François Mitterrand - Le Condorcet, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"Le Mans\", \"TEL\": \"(+33) 2-43-47-37-31\", \"FAX\": \"(+33) 2-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Mission d'assistance juridique à maîtrise d'ouvrage pour l'élaboration du Plan Local d'Urbanisme intercommunal intégrant le Plan de Déplacements Urbains\", \"TYPE_MARCHE\": {\"SERVICE\": \"21\"}, \"OBJET_COMPLET\": \"Le Mans Métropole souhaite s'adjoindre les services d'un expert juridique spécialisé en droit de l'urbanisme impliqué dans toutes les phases de discussion et de rédaction du projet jusqu'à l'approbation du document et qui l'assistera également dans le suivi contentieux postérieur éventuel\", \"CPV\": {\"PRINCIPAL\": \"79110000\"}, \"AMP_OUI\": \"\", \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"QUANTITE\": \"Le marché issu de cette consultation sera un marché à bons de commande au sens du code des marchés publics français - article 77 du C.M.P. -conclu avec un seul opérateur économique. Cependant, c'est un accord cadre avec un seul opérateur économique au sens de la directive 2004/18/CE.Il s'agit d'un marché à bon de commande sans minimum, ni maximum et un opérateur économique. L'estimation non contractuelle de la mission est de155 000 euros H.T.\", \"OPTIONS\": {\"OUI\": \"\", \"DESCRIPTION\": \"Le pouvoir adjudicateur se réserve la possibilité de conclure des avenants et / ou marchés complémentaires et / ou marchés similaires dans le respect des dispositions du code des marchés publics\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"Valeur technique de l'offre %\"}, {\"@POIDS\": \"40\", \"#text\": \"Prix des prestations %\"}]}}, \"MARCHE_PERIODIQUE_NON\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2016-03-14T17:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Aucune garantie n'est prévue\", \"FINANCEMENT\": \"Une avance de 5 % des marchés peut être accordée dans les conditions réglementaires et légales en vigueur sous réserve de la constitution d'une garantie à première demande couvrant le montant de l'avance.Prix unitaires révisables mensuellement.Le paiement est effectué par virement selon les règles de la comptabilité publique. Délai global de paiement de 30 jours.Le marché est financé sur fonds propres du budget principal de la collectivité\", \"FORME_JURIDIQUE\": \"Groupement conjoint sans mandataire solidaire\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"- Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas mentionnés à l'article 43 du CMP, signée en original ; il est conseillé aux candidats d'utiliser les cadres de DC1 et DC2 joints au dossier- Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire ;- Tout élément permettant de satisfaire à la loi du 31 décembre 1971\", \"CAP_ECO\": \"- Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les services objet du contrat, réalisés au cours des trois derniers exercices disponibles ou tout autre document ;\", \"CAP_TECH\": \"- Liste des principaux services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique ;Nota : la liste des principaux services sera produite dans le respect de la loi du 31 décembre1971 et des règles déontologiques qui en découlent ;- Indication des titres d'études et professionnels de l'opérateur économique et/ou des cadres de l'entreprise, et notamment des responsables de prestation de services ou de conduite des travaux de même nature que celle du contrat ;\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_OUI\": \"Pour les prestations de conseil juridique : au titre de la loi du 31/12/1971, cette compétence devra être assumée par une personne démontrant :- soit son appartenance à une profession du droit (avocat par exemple)- soit son appartenance à une profession réglementée - en précisant de quelle catégorie professionnelle elle relève - ayant la possibilité à titre accessoire de fournir des prestations juridiques- soit un agrément pris par arrêté pour toute autre profession ne relevant des deux premiers cas ci-dessus permettant de réaliser des consultations juridiques à titre accessoire.\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_OUI\": \"\"}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"IP16001S\", \"DOCUMENT_PAYANT_NON\": \"\", \"PERS_OUVERTURE_OFFRES_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Retrouvez cet avis intégral, l'accès au dossier et le guichet de dépôt sur http://www.sarthe-marchespublics.frMarché à bons de commandeCriteres d'attributions : Le critère de la valeur technique fera l'objet des sous-critères comme suit :- Adéquation de la composition et des compétences de l'équipe dédiée à la mission (nombre d'intervenants, qualification notamment dans le domaine du droit de l'urbanisme, expérience) : sur 60 pointsCe sous-critère sera apprécié sur la base de la note relative aux moyens dédiés précisant, pour chaque partie de la mission, l'intervenant affecté (avec curriculum vitae correspondant) ;- Pertinence de la note méthodologique : sur 40 points. appropriation des enjeux par le candidat : justesse de l'exposé des points de vigilance liés à un projet de ce type : sur 20 points. affectation appropriée des moyens techniques mis en oeuvre (nombre de réunions, notes, relectures, modalités d'échanges etc ...) aux différents étape de la mission et justification dans la note méthodologique : sur 20 pointsCe sous-critère sera apprécié sur la base d'une note méthodologique procédant à un exposé des principaux points de vigilance et des moyens mis en oeuvre pour sécuriser le futur PLUI-DSi aucune offre n'obtient la note maximale de 100, la meilleure offre verra sa note portée à la note maximale, les notes des autres offres seront recalculées de façon proportionnelle.Le critère du PRIX sera analysé, à partir des prix unitaires consentis par les candidats, sur la base du montant de l'échantillonnage établi par le service gestionnaire, non connu des candidats.L'offre la moins disante (hors offre anormalement basse) se verra attribuer la note de référence maximum. Les autres offres seront notées de façon inversement proportionnelle.Unité monétaire utilisée, l'euro.Le dossier de consultation gratuit sous forme de CDrom peut être demandé au Pôle Marchés et Achats Publics par fax courrier ou mail ou sur place. Le dossier de consultation électronique peut être téléchargé sur http://www.sarthe-marchespublics.fr. Le dossier de consultation peut être demandé jusqu'au jour de la date limite de remise des offres. Les offres peuvent être transmises par lettre recommandée avec accusé de réception ou déposées contre récépissé au Pôle Marchés et Achats Publics ou par voie électronique. Les modalités de transmission électronique des plis sont définies dans le règlement de la consultation. Les candidats peuvent obtenir les documents sans s'identifier sur la plateforme toutefois, il est préconisé de s'identifier afin d'être tenu informé des modifications ou compléments d'informations éventuels en cours de publicité.Conformément à la législation française, l'ouverture des plis n'est pas publique. Les critères de sélection des candidats sont :1-Garanties et capacités techniques et professionnelles 2-Garanties et Capacités financièresRenseignements administratifs : Mme PREVOST au 02.43.47.43.78Renseignements techniques : Camille PENEAU Tel : 02.43.47.45.35 ou Eric MATHIEU Tel : 02.43.47.45.65. Date d'envoi du présent avis au JOUE et au BOAMP : 11 février 2016.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso Cedex 1 BP 24209\", \"CP\": \"44042\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-20729"
+  },
+  {
+   "idweb": "16-20321",
+   "id": "16_20321",
+   "contractfolderid": null,
+   "objet": "travaux d'entretien de la voirie communale à Villeneuve-en-Perseigne",
+   "filename": "BOAMP-N-AO_2016_042011",
+   "famille": "FNS",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": "72",
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2016-02-11",
+   "datefindiffusion": "2016-03-09",
+   "datelimitereponse": "2016-03-09T11:00:00+00:00",
+   "nomacheteur": "commune de villeneuve en perseigne",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "196",
+    "365"
+   ],
+   "dc": [
+    "196",
+    "365"
+   ],
+   "descripteur_libelle": [
+    "Maintenance",
+    "Voirie"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-20321\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-20321.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-02-11\", \"DATE_LIMITE_REPONSE\": \"2016-03-09T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2016-03-09\", \"CLASSES\": {\"CLASSE\": [{\"CODE\": \"45\", \"LIBELLE\": \"Travaux de construction\"}, {\"CODE\": \"74\", \"LIBELLE\": \"Services fournis principalement aux entreprises\"}]}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"196\", \"LIBELLE\": \"Maintenance\"}, {\"CODE\": \"365\", \"LIBELLE\": \"Voirie\"}]}, \"DEP_PUBLICATION\": \"72\", \"DEP_PRESTATION\": \"72\", \"RESUME_OBJET\": \"travaux d'entretien de la voirie communale à Villeneuve-en-Perseigne\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"commune de villeneuve en perseigne\", \"CORRESPONDANT\": \"Trottet André, Maire\", \"ADRESSE\": \"16 rue de la Forêt de Perseigne\", \"CP\": \"72600\", \"VILLE\": \"Villeneuve en Perseigne\"}, \"OBJET\": {\"OBJET_COMPLET\": \"travaux d'entretien de la voirie communale\", \"CPV\": {\"PRINCIPAL\": \"45233220\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"rechargement et élargissement de chaussées, reprofilage aux enrobés, enduits d'usure superficiels, travaux d'emplois partiels, travaux de VRD\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"220000\"}, \"OPTIONS\": {\"OUI\": \"\"}, \"RECONDUCTIONS\": {\"NB_RECONDUCTIONS_MIN\": \"1\", \"NB_RECONDUCTIONS_MAX\": \"3\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"12\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"70\", \"#text\": \"Prix\"}, {\"@POIDS\": \"30\", \"#text\": \"Valeur technique de l'offre\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2016-03-09T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"90\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_LIMITE_OBTENTION_DOCUMENTS\": \"2016-03-09\", \"DOCUMENT_PAYANT_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Retrouvez cet avis intégral, l'accès au dossier et le guichet de dépôt sur http://www.marches-publics.infoMarché à bons de commande\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"ADRESSE\": \"6 rue allée de l'île gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-20321"
   },
   {
    "idweb": "16-19951",
@@ -4749,64 +4749,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-21141"
   },
   {
-   "idweb": "16-22469",
-   "id": "16_22469",
-   "contractfolderid": null,
-   "objet": "travaux de remplacement de groupe électrogène de secours de second niveau laboratoire et création secours second niveau Fontenoy S3 au Centre Hospitalier du Mans",
-   "filename": "BOAMP-N-AO_2016_046010",
-   "famille": "FNS",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": "72",
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2016-02-15",
-   "datefindiffusion": "2016-03-18",
-   "datelimitereponse": "2016-03-18T11:00:00+00:00",
-   "nomacheteur": "CH LE MANS",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "105",
-    "143"
-   ],
-   "dc": [
-    "105",
-    "143"
-   ],
-   "descripteur_libelle": [
-    "Electricité",
-    "Groupe électrogène"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-22469\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-22469.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-02-15\", \"DATE_LIMITE_REPONSE\": \"2016-03-18T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2016-03-18\", \"CLASSES\": {\"CLASSE\": [{\"CODE\": \"31\", \"LIBELLE\": \"Machines et appareils électriques\"}, {\"CODE\": \"45\", \"LIBELLE\": \"Travaux de construction\"}]}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"105\", \"LIBELLE\": \"Electricité\"}, {\"CODE\": \"143\", \"LIBELLE\": \"Groupe électrogène\"}]}, \"DEP_PUBLICATION\": \"72\", \"DEP_PRESTATION\": \"72\", \"RESUME_OBJET\": \"travaux de remplacement de groupe électrogène de secours de second niveau laboratoire et création secours second niveau Fontenoy S3 au Centre Hospitalier du Mans\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CH LE MANS\", \"CORRESPONDANT\": \"M. Michel Besson, Directeur des Travaux\", \"ADRESSE\": \"194, Avenue rubillard\", \"CP\": \"72037\", \"VILLE\": \"Le mans cedex 9\", \"URL_PROFIL_ACHETEUR\": \"https://www.achatpublic.com/sdm/ent/gen/index.jsp\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Travaux de remplacement de groupe électrogène de secours de second niveau Laboratoire et création secours second niveau Fontenoy S3\", \"CPV\": [{\"PRINCIPAL\": \"45310000\"}, {\"PRINCIPAL\": \"31121000\"}], \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FR514\"}, \"AMP_OUI\": \"\", \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Les candidats sont invités à consulter et télécharger gratuitement sur le site internet 'www.achatpublic.com' les documents de la consultation (règlement de consultation, cahier des charges, plans et imprimés).\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"Qualité du mémoire technique dont : choix des produits, qualités du matériel et des modes opératoires (10%), organisations, moyens (30%) et capacité de l'entreprise à respecter le délai global (20%)\"}, {\"@POIDS\": \"40\", \"#text\": \"Prix\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2016-03-18T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Fonds propres - Articles 86 à 111 du Code des Marchés PublicsDélai de paiement - Article 98 du Code des Marchés Publics\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"Cf. règlement de consultation\", \"SITUATION_JURIDIQUE\": \"Le chiffre d'affaires global et, si possible, le chiffre d'affaires concernant les travaux, fournitures ou services objets du marché réalisé au cours des trois derniers exercices\", \"CAP_ECO\": \"Les effectifs moyens annuels de personnels et l'importance du personnel d'encadrement pour chacune des trois dernières années ;- La liste des principales fournitures ou principaux travaux et services effectués au cours des trois dernières années indiquant le montant, la date et le destinataire public ou privé à propos de l'objet précis du marché ;- L'attestation de conformité des prestations aux spécifications ou aux normes, si elles existent- Le savoir-faire environnemental (charte de l'entreprise, objectifs cibles, moyens humains et matériels dédiés dans le domaine, formation du personnel).- Les documents relatifs aux pouvoirs de la personne habilitée à engager le candidat, au besoin.\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC3, Acte d'engagement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC4, Déclaration de sous-traitance (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Voir indications complètes dans le règlement de consultation\"]}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"DT 2016-004\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les cahiers sont téléchargeables sur la plateforme de dématérialisation www.achatpublic.comLes renseignements complémentaires peuvent être obtenus sur le site www.achatpublic.com.La visite des lieux est obligatoire ; l'attestation de visite signée sera à remettre avec les offres.La visite est fixée le jeudi 25 février 2016 à 9 h 00 précises.Le rendez-vous est donné salle de réunion du Bâtiment des Services Techniques.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de nantes\", \"ADRESSE\": \"6 allée ile gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif inter-régional de règlement amiable des litiges relatifs aux Marchés Publics\", \"ADRESSE\": \"8 rue de châteaubriand\", \"CP\": \"44000\", \"VILLE\": \"Nantes\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-22469"
-  },
-  {
    "idweb": "16-21715",
    "id": "16_21715",
    "contractfolderid": null,
@@ -4912,6 +4854,64 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-21715\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"15-106459\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2015-07-09\", \"DATE_FIN_DIFFUSION\": \"2015-09-24\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2015\", \"NUM_PARUTION\": \"132\", \"NUM_ANNONCE\": \"242037\", \"DATE_PUBLICATION\": \"2015-07-11\"}}]}}, \"NOM_HTML\": \"16-21715.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-02-15\", \"DATE_FIN_DIFFUSION\": \"2016-04-16\", \"CLASSES\": {\"CLASSE\": {\"CODE\": \"45\", \"LIBELLE\": \"Travaux de construction\"}}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"11\", \"LIBELLE\": \"Appareil élévateur\"}, {\"CODE\": \"30\", \"LIBELLE\": \"Bardage\"}, {\"CODE\": \"61\", \"LIBELLE\": \"Chauffage (travaux)\"}, {\"CODE\": \"63\", \"LIBELLE\": \"Cloison, faux plafond\"}, {\"CODE\": \"87\", \"LIBELLE\": \"Démolition\"}, {\"CODE\": \"105\", \"LIBELLE\": \"Electricité\"}, {\"CODE\": \"117\", \"LIBELLE\": \"Etanchéité\"}, {\"CODE\": \"144\", \"LIBELLE\": \"Gros oeuvre\"}, {\"CODE\": \"222\", \"LIBELLE\": \"Menuiserie\"}, {\"CODE\": \"223\", \"LIBELLE\": \"Métallerie\"}, {\"CODE\": \"264\", \"LIBELLE\": \"Peinture (travaux)\"}, {\"CODE\": \"308\", \"LIBELLE\": \"Revêtements de sols\"}, {\"CODE\": \"309\", \"LIBELLE\": \"Revêtements muraux\"}, {\"CODE\": \"321\", \"LIBELLE\": \"Serrurerie\"}, {\"CODE\": \"366\", \"LIBELLE\": \"Voirie et réseaux divers\"}]}, \"DEP_PUBLICATION\": \"44\", \"DEP_PRESTATION\": \"72\", \"RESUME_OBJET\": \"Travaux de rénovation des internats bâtiments D et E au lycée colbert de torcy à Sablé sur Sarthe\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Conseil régional des Pays de la Loire\", \"CORRESPONDANT\": \"M. Le Président\", \"ADRESSE\": \"1 rue de la Loire\", \"CP\": \"44966\", \"VILLE\": \"Nantes cedex 9\", \"TEL\": \"(+33) 2-28-20-58-38\", \"FAX\": \"(+33) 2-28-20-50-27\", \"URL\": \"http://www.paysdelaloire.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.paysdelaloire.fr\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\", \"EDUCATION\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Rénovation des internats bâtiments D et E au lycée Raphaël Elizé à Sablé sur Sarthe (72) - Travaux principaux\", \"OBJET_COMPLET\": \"Rénovation des internats bâtiments D et E au lycée Raphaël Elizé à Sablé sur Sarthe (72) - Travaux principaux\", \"CPV\": {\"PRINCIPAL\": \"45223220\"}, \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FR514\"}, \"AMP_OUI\": \"\"}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"55\", \"#text\": \"Prix forfaitaire. La méthode de jugement du critère \\\" prix \\\" sera la suivante : une fois les offres anormalement basses rejetées, le candidat présentant l'offre financière la moins disante obtiendra la note maximale et sera classé premier sur ce critère. Les autres candidats seront notés proportionnellement en fonction de l'écart constaté entre leurs offres et l'offre la moins disante. Toute offre financière dont le montant sera supérieur ou égal à 2 fois le montant de la moins disante, se verra attribuer la note de 0.\"}, {\"@POIDS\": \"45\", \"#text\": \"Valeur technique des prestations décomposée comme suit : Qualité de la méthodologie envisagée par le candidat pour la réalisation des travaux (25 dont organisation des travaux(15), moyens matériels et humains(5) et gestion du calendrier (5)) ; Pertinence des dispositions prises en matière de santé et de sécurité sur le chantier (10) et Qualité de la gestion des déchets (10).\"}]}}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2015\", \"NUM_PARUTION\": \"132\", \"NUM_ANNONCE\": \"242037\", \"DATE_PUBLICATION\": \"2015-07-11\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_LOT\": \"1\", \"DESCRIPTION\": \"Vrd, démolitions, gros oeuvre.Etanchéité.Bardage.Menuiseries extérieures.Serrureries métallerie.\", \"TITULAIRE\": {\"DENOMINATION\": \"BOUYGUES BATIMENT\", \"ADRESSE\": \"4 b rue du Bignon - cs 44407\", \"CP\": \"35044\", \"VILLE\": \"Rennes cedex\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-01-29\", \"NB_OFFRE_RECU\": \"7\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"4776537\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"2\", \"DESCRIPTION\": \"Cloisons doublage.Menuiseries intérieures.Plafonds suspendus.\", \"TITULAIRE\": {\"DENOMINATION\": \"PARCHARD\", \"ADRESSE\": \"7 rue des Portières\", \"CP\": \"49124\", \"VILLE\": \"Saint barthélémy d'anjou\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-01-29\", \"NB_OFFRE_RECU\": \"7\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"2062728.63\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"3\", \"DESCRIPTION\": \"REVETEMENTS DE SOL\", \"TITULAIRE\": {\"DENOMINATION\": \"BOULFRAY\", \"ADRESSE\": \"8 rue Gilbert Romme\", \"CP\": \"72200\", \"VILLE\": \"La flèche\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-01-29\", \"NB_OFFRE_RECU\": \"7\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"671655.36\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"4\", \"DESCRIPTION\": \"PEINTURE - REVETEMENTS MURAUX\", \"TITULAIRE\": {\"DENOMINATION\": \"RENAUDIN GOUHIER\", \"ADRESSE\": \"3 rue jean Perrin\", \"CP\": \"72650\", \"VILLE\": \"La chapelle saint aubin\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-01-29\", \"NB_OFFRE_RECU\": \"5\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"483463\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"5\", \"DESCRIPTION\": \"GENIE ELECTRIQUE\", \"TITULAIRE\": {\"DENOMINATION\": \"SCETEC\", \"ADRESSE\": \"Zi sud - 15 rue louis breguet\", \"CP\": \"72100\", \"VILLE\": \"Le mans\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-01-29\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"1049326.40\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"6\", \"DESCRIPTION\": \"GENIE CLIMATIQUE\", \"TITULAIRE\": {\"DENOMINATION\": \"SCETEC\", \"ADRESSE\": \"Zi sud - 15 rue louis breguet\", \"CP\": \"72100\", \"VILLE\": \"Le mans\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-01-29\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"1750000\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"7\", \"DESCRIPTION\": \"APPAREILS ELEVATEURS\", \"TITULAIRE\": {\"DENOMINATION\": \"KONE\", \"ADRESSE\": \"40-42 rue de la Gitonnière\", \"CP\": \"37300\", \"VILLE\": \"Joue les tours\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-01-29\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"58150\"}}}]}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 12 février 2016.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr/\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif Interrégional de Règlement Amiable des litiges relatifs aux marchés publics de Nantes\", \"ADRESSE\": \"DIRECCTE Immeuble Skyline 22 mail Pablo Picasso BP 24209\", \"CP\": \"44042\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-53-46-79-14\", \"FAX\": \"(+33) 2-53-46-79-98\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr/\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-21715"
+  },
+  {
+   "idweb": "16-22469",
+   "id": "16_22469",
+   "contractfolderid": null,
+   "objet": "travaux de remplacement de groupe électrogène de secours de second niveau laboratoire et création secours second niveau Fontenoy S3 au Centre Hospitalier du Mans",
+   "filename": "BOAMP-N-AO_2016_046010",
+   "famille": "FNS",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": "72",
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2016-02-15",
+   "datefindiffusion": "2016-03-18",
+   "datelimitereponse": "2016-03-18T11:00:00+00:00",
+   "nomacheteur": "CH LE MANS",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "105",
+    "143"
+   ],
+   "dc": [
+    "105",
+    "143"
+   ],
+   "descripteur_libelle": [
+    "Electricité",
+    "Groupe électrogène"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-22469\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-22469.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-02-15\", \"DATE_LIMITE_REPONSE\": \"2016-03-18T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2016-03-18\", \"CLASSES\": {\"CLASSE\": [{\"CODE\": \"31\", \"LIBELLE\": \"Machines et appareils électriques\"}, {\"CODE\": \"45\", \"LIBELLE\": \"Travaux de construction\"}]}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"105\", \"LIBELLE\": \"Electricité\"}, {\"CODE\": \"143\", \"LIBELLE\": \"Groupe électrogène\"}]}, \"DEP_PUBLICATION\": \"72\", \"DEP_PRESTATION\": \"72\", \"RESUME_OBJET\": \"travaux de remplacement de groupe électrogène de secours de second niveau laboratoire et création secours second niveau Fontenoy S3 au Centre Hospitalier du Mans\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CH LE MANS\", \"CORRESPONDANT\": \"M. Michel Besson, Directeur des Travaux\", \"ADRESSE\": \"194, Avenue rubillard\", \"CP\": \"72037\", \"VILLE\": \"Le mans cedex 9\", \"URL_PROFIL_ACHETEUR\": \"https://www.achatpublic.com/sdm/ent/gen/index.jsp\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Travaux de remplacement de groupe électrogène de secours de second niveau Laboratoire et création secours second niveau Fontenoy S3\", \"CPV\": [{\"PRINCIPAL\": \"45310000\"}, {\"PRINCIPAL\": \"31121000\"}], \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FR514\"}, \"AMP_OUI\": \"\", \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Les candidats sont invités à consulter et télécharger gratuitement sur le site internet 'www.achatpublic.com' les documents de la consultation (règlement de consultation, cahier des charges, plans et imprimés).\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"Qualité du mémoire technique dont : choix des produits, qualités du matériel et des modes opératoires (10%), organisations, moyens (30%) et capacité de l'entreprise à respecter le délai global (20%)\"}, {\"@POIDS\": \"40\", \"#text\": \"Prix\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2016-03-18T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Fonds propres - Articles 86 à 111 du Code des Marchés PublicsDélai de paiement - Article 98 du Code des Marchés Publics\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"Cf. règlement de consultation\", \"SITUATION_JURIDIQUE\": \"Le chiffre d'affaires global et, si possible, le chiffre d'affaires concernant les travaux, fournitures ou services objets du marché réalisé au cours des trois derniers exercices\", \"CAP_ECO\": \"Les effectifs moyens annuels de personnels et l'importance du personnel d'encadrement pour chacune des trois dernières années ;- La liste des principales fournitures ou principaux travaux et services effectués au cours des trois dernières années indiquant le montant, la date et le destinataire public ou privé à propos de l'objet précis du marché ;- L'attestation de conformité des prestations aux spécifications ou aux normes, si elles existent- Le savoir-faire environnemental (charte de l'entreprise, objectifs cibles, moyens humains et matériels dédiés dans le domaine, formation du personnel).- Les documents relatifs aux pouvoirs de la personne habilitée à engager le candidat, au besoin.\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC3, Acte d'engagement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC4, Déclaration de sous-traitance (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Voir indications complètes dans le règlement de consultation\"]}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"DT 2016-004\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les cahiers sont téléchargeables sur la plateforme de dématérialisation www.achatpublic.comLes renseignements complémentaires peuvent être obtenus sur le site www.achatpublic.com.La visite des lieux est obligatoire ; l'attestation de visite signée sera à remettre avec les offres.La visite est fixée le jeudi 25 février 2016 à 9 h 00 précises.Le rendez-vous est donné salle de réunion du Bâtiment des Services Techniques.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de nantes\", \"ADRESSE\": \"6 allée ile gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif inter-régional de règlement amiable des litiges relatifs aux Marchés Publics\", \"ADRESSE\": \"8 rue de châteaubriand\", \"CP\": \"44000\", \"VILLE\": \"Nantes\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-22469"
   },
   {
    "idweb": "16-21405",
@@ -5701,66 +5701,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-21515"
   },
   {
-   "idweb": "16-22625",
-   "id": "16_22625",
-   "contractfolderid": null,
-   "objet": "Travaux de désamiantage, de déconstruction sélective et de dépollution d'une friche industrielle située à Servon sur Vilaine",
-   "filename": "BOAMP-N-AO_2016_047004",
-   "famille": "FNS",
-   "code_departement": [
-    "35",
-    "22",
-    "44"
-   ],
-   "code_departement_prestation": "35",
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2016-02-16",
-   "datefindiffusion": "2016-03-11",
-   "datelimitereponse": "2016-03-11T14:00:00+00:00",
-   "nomacheteur": "Etablissement Public Foncier Bretagne",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "24",
-    "87"
-   ],
-   "dc": [
-    "24",
-    "87"
-   ],
-   "descripteur_libelle": [
-    "Amiante",
-    "Démolition"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-22625\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-22625.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-02-16\", \"DATE_LIMITE_REPONSE\": \"2016-03-11T15:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2016-03-11\", \"CLASSES\": {\"CLASSE\": {\"CODE\": \"45\", \"LIBELLE\": \"Travaux de construction\"}}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"24\", \"LIBELLE\": \"Amiante\"}, {\"CODE\": \"87\", \"LIBELLE\": \"Démolition\"}]}, \"DEP_PUBLICATION\": [\"35\", \"22\", \"44\"], \"DEP_PRESTATION\": \"35\", \"RESUME_OBJET\": \"Travaux de désamiantage, de déconstruction sélective et de dépollution d'une friche industrielle située à Servon sur Vilaine\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Etablissement Public Foncier Bretagne\", \"CORRESPONDANT\": \"Mme CONTAMINE Carole, Etablissement Public Foncier de Bretagne\", \"ADRESSE\": \"72 bd Albert 1er CS 90721\", \"CP\": \"35207\", \"VILLE\": \"Rennes cedex 2\", \"TEL\": \"02-99-86-79-90\", \"FAX\": \"02-99-86-79-95\", \"URL\": \"http://www.epfbretagne.fr/\", \"URL_PROFIL_ACHETEUR\": \"https://www.megalisbretagne.org/jcms/j_6/accueil\"}, \"TYPE_ORGANISME\": {\"EPN\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Travaux de désamiantage, de déconstruction sélective et de dépollution d'une friche industrielle située à Servon sur Vilaine (35)\", \"CPV\": [{\"PRINCIPAL\": \"45111100\"}, {\"PRINCIPAL\": \"45262660\"}], \"AMP_OUI\": \"\", \"AVIS_CORRESPOND\": {\"AVIS_PERIODIQUE_INDICATIF\": \"\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"La présente procédure adaptée est soumise aux dispositions de l'article 28 du Code des marchés publics.Le présent marché sera passé en application de l'article 72 du Code des marchés publics relatif aux marchés à tranche conditionnelle.\", \"QUANTITE\": \"L'Etablissement Public Foncier de Bretagne (EPFB) envisage de désamianter, de déconstruire et de dépolluer un ancien garage poids lourds situé au 10 rue Charles Brisou à Servon sur Vilaine (35).\"}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"4\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2016-03-11T15:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\"}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire obligatoirement par le candidat, à l'appui de sa candidature\", \"Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire\", \"Déclaration sur l'honneur du candidat justifiant qu'il n'entre dans aucun des cas mentionnés à l'article 43 du code des marchés publics, concernant les interdictions de soumissionner\", \"Si le candidat est établi en France, une déclaration sur l'honneur du candidat justifiant que le travail est effectué par des salariés employés régulièrement au regard des articles L. 1221-10, L. 3243-2 et R. 3243-1 du code du travail (dans le cas où le candidat emploie des salariés, conformément à l'article D. 8222-5-3° du code du travail)\", \"Si le candidat est établi ou domicilié à l'étranger, une déclaration sur l'honneur du candidat attestant qu'il fournit à ses salariés des bulletins de paie comportant les mentions prévues à l'article R. 3243-1 du code du travail, ou des documents équivalents\", \"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels\", \"Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années\", \"Présentation d'une liste des travaux exécutés au cours des cinq dernières années, appuyée d'attestations de bonne exécution pour les travaux les plus importants. Ces attestations indiquent le montant, l'époque et le lieu d'exécution des travaux et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin\", \"Indication des titres d'études et professionnels de l'opérateur économique\", \"Indication des titres d'études et professionnels des cadres de l'entreprise et notamment des responsables de prestation de services ou de conduite des travaux de même nature que celle du marché\", \"Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation de marchés de même nature\", \"En matière de fournitures et services, une description de l'équipement technique, des mesures employées par l'opérateur économique pour s'assurer de la qualité et des moyens d'étude et de recherche de son entreprise\", \"Certificats de qualifications professionnelles. La preuve de la capacité du candidat peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de travaux attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat\", \"Certification désamiantage\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC4, Déclaration de sous-traitance (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"S'il s'appuie, pour présenter sa candidature, sur les capacités professionnelles, techniques et financières d'autres opérateurs économiques, le candidat produit les mêmes documents concernant cet opérateur économique que ceux qui lui sont exigés par l'acheteur public. Le candidat doit également apporter la preuve que chacun de ces opérateurs économiques mettra à sa disposition les moyens nécessaires, pendant toute la durée d'exécution du marché public ou de l'accord-cadre\", \"Si les documents fournis par le candidat ne sont pas établis en langue française, ils doivent être accompagnés d'une traduction en français, certifiée conforme à l'original par un traducteur assermenté\", \"Les pièces prévues aux articles D. 8222-5 ou D. 8222-7 et D. 8222-8 du code du travail\", \"Si l'attributaire est établi en France, les attestations et certificats délivrés par les administrations et organismes compétents prouvant qu'il a satisfait à ses obligations fiscales et sociales ou un état annuel des certificats reçus\", \"Si l'attributaire est établi dans un Etat autre que la France, un certificat établi par les administrations et organismes du pays d'origine. Lorsqu'un tel certificat n'est pas délivré par le pays concerné, il peut être remplacé par une déclaration sous serment, ou dans les Etats où un tel serment n'existe pas, par une déclaration solennelle faite par l'intéressé devant l'autorité judiciaire ou administrative compétente, un notaire ou un organisme professionnel qualifié du pays\", \"Si les documents fournis par le candidat ne sont pas établis en langue française, ils doivent être accompagnés d'une traduction en français, certifiée conforme à l'original par un traducteur assermenté\"]}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"EPFB-2016-8\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Ce marché est conforme au dispositif d'expérimentation MPS (marché public simplifié), et permet aux entreprises de candidater sur la base de leur seul numéro de SIRET. Le mode de transmission des éléments de la candidature et de l'offre est dématérialisé. La réponse électronique est indispensable mais aucune signature n'est exigée (la signature sera dans ce cas demandée à postériori à la seule entreprise retenue).\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"ADMIN_TECH\": \"\"}, \"DENOMINATION\": \"Etablissement public foncier de Bretagne\", \"CORRESPONDANT\": \"M. RIMBERT Geoffrey\", \"ADRESSE\": \"72 boulevard Albert 1er\", \"CP\": \"35000\", \"VILLE\": \"Rennes\", \"TEL\": \"02-99-86-74-21\", \"FAX\": \"02-99-86-79-95\", \"MEL\": \"geoffrey.rimbert@epfbretagne.fr\", \"URL\": \"http://www.epfbretagne.fr/\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Rennes\", \"ADRESSE\": \"3 contour de La Motte\", \"CP\": \"35000\", \"VILLE\": \"Rennes\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Rennes\", \"ADRESSE\": \"3 contour de La Motte\", \"CP\": \"35000\", \"VILLE\": \"Rennes\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"DENOMINATION\": \"Etablissement public foncier de Bretagne\", \"CORRESPONDANT\": \"M. Rimbert Geoffrey\", \"ADRESSE\": \"72 boulevard Albert 1er\", \"CP\": \"35000\", \"VILLE\": \"Rennes\", \"TEL\": \"02-99-86-74-21\", \"FAX\": \"02-99-86-79-95\", \"MEL\": \"geoffrey.rimbert@epfbretagne.fr\", \"URL\": \"https://marches.megalisbretagne.org/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=77314&orgAcronyme=c8a\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-22625"
-  },
-  {
    "idweb": "15-179202",
    "id": "15_179202",
    "contractfolderid": null,
@@ -5881,6 +5821,66 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"15-179202\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"15-179202.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-02-16\", \"DATE_FIN_DIFFUSION\": \"2016-03-15\", \"CLASSES\": {\"CLASSE\": [{\"CODE\": \"1\", \"LIBELLE\": \"Produits de la culture et de l'élevage\"}, {\"CODE\": \"45\", \"LIBELLE\": \"Travaux de construction\"}]}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"30\", \"LIBELLE\": \"Bardage\"}, {\"CODE\": \"53\", \"LIBELLE\": \"Carrelage\"}, {\"CODE\": \"57\", \"LIBELLE\": \"Charpente\"}, {\"CODE\": \"61\", \"LIBELLE\": \"Chauffage (travaux)\"}, {\"CODE\": \"63\", \"LIBELLE\": \"Cloison, faux plafond\"}, {\"CODE\": \"74\", \"LIBELLE\": \"Couverture\"}, {\"CODE\": \"105\", \"LIBELLE\": \"Electricité\"}, {\"CODE\": \"116\", \"LIBELLE\": \"Espaces verts\"}, {\"CODE\": \"117\", \"LIBELLE\": \"Etanchéité\"}, {\"CODE\": \"144\", \"LIBELLE\": \"Gros oeuvre\"}, {\"CODE\": \"222\", \"LIBELLE\": \"Menuiserie\"}, {\"CODE\": \"223\", \"LIBELLE\": \"Métallerie\"}, {\"CODE\": \"270\", \"LIBELLE\": \"Plomberie\"}, {\"CODE\": \"308\", \"LIBELLE\": \"Revêtements de sols\"}, {\"CODE\": \"319\", \"LIBELLE\": \"Sanitaire\"}, {\"CODE\": \"341\", \"LIBELLE\": \"Terrassement\"}, {\"CODE\": \"360\", \"LIBELLE\": \"Ventilation\"}, {\"CODE\": \"366\", \"LIBELLE\": \"Voirie et réseaux divers\"}, {\"CODE\": \"412\", \"LIBELLE\": \"Porte automatique\"}]}, \"DEP_PUBLICATION\": \"44\", \"DEP_PRESTATION\": \"44\", \"RESUME_OBJET\": \"Travaux de construction du centre technique du pôle Erdre et Loire sur le site du Bêle, à Nantes\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Nantes Métropole\", \"CORRESPONDANT\": \"Mme. la Présidente\", \"ADRESSE\": \"2 Cours du Champ de Mars\", \"CP\": \"44923\", \"VILLE\": \"Nantes cedex 9\", \"URL_PROFIL_ACHETEUR\": \"http://marchespublics.nantesmetropole.fr\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\", \"ENVIRONNEMENT\": \"\", \"AFF_ECO_FIN\": \"\", \"LOG_DEV_COL\": \"\", \"AUTRE\": \"Transports, voirie\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Construction du centre technique du Pôle Erdre et Loire sur le site du Bêle à Nantes A titre accessoire, et pour les lots 1, 2, 3, 4, 6, 7, 9, 11 et 12, la consultation est relative à une prestation d'insertion professionnelle des publics en difficulté.\", \"OBJET_COMPLET\": \"Construction du centre technique du Pôle Erdre et Loire sur le site du Bêle à Nantes. A titre accessoire, et pour les lots 1, 2, 3, 4, 6, 7, 9, 11 et 12, la consultation est relative à une prestation d'insertion professionnelle des publics en difficulté.\", \"CPV\": {\"PRINCIPAL\": \"45000000\"}, \"AMP_OUI\": \"\"}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\"}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_LOT\": \"1\", \"DESCRIPTION\": \"Terrassements, voiries et réseaux divers, espaces verts\", \"TITULAIRE\": {\"DENOMINATION\": \"TP Bureau\", \"ADRESSE\": \"67 rue de la Piais 44980 Sainte Luce sur Loire\", \"PAYS\": \"none\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-01-18\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"213544.20\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"2\", \"DESCRIPTION\": \"Gros oeuvre\", \"TITULAIRE\": {\"DENOMINATION\": \"Jaf Bâtiement\", \"ADRESSE\": \"26 rue des varennes 44470 Carquefou\", \"PAYS\": \"none\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-01-16\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"252000\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"3\", \"DESCRIPTION\": \"Charpente bois, bardage bois\", \"TITULAIRE\": {\"DENOMINATION\": \"Rousseau\", \"ADRESSE\": \"9, chemin du Tour du Bois 49770 Le Plessis-Macé\", \"PAYS\": \"none\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-01-21\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"113095.09\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"4\", \"DESCRIPTION\": \"Couverture étanchéité\", \"TITULAIRE\": {\"DENOMINATION\": \"Euro Etanche\", \"ADRESSE\": \"ZA le Grand Grelin 3 rue des Acacias44410 Saint Lyphard\", \"PAYS\": \"none\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-01-15\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"61671.15\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"5\", \"DESCRIPTION\": \"Portes sectionnelles\", \"TITULAIRE\": {\"DENOMINATION\": \"Brault\", \"ADRESSE\": \"ZA Montremy 49110 St-Rémy-en-Mauges\", \"PAYS\": \"none\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-01-15\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"38920.23\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"6\", \"DESCRIPTION\": \"Menuiseries extérieures aluminium et métalliques\", \"TITULAIRE\": {\"DENOMINATION\": \"Atlantique Ouvertures\", \"ADRESSE\": \"ZI des IV Nations Rue Pierre Latecoere44 360 Vigneux-de-Bretagne\", \"PAYS\": \"none\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-01-15\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"54190\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"7\", \"DESCRIPTION\": \"Menuiseries intérieures\", \"TITULAIRE\": {\"DENOMINATION\": \"Guitteny\", \"ADRESSE\": \"20 rue de l'Artisanat ZA beau Soleil 144450 Saint-Julien-de-Concelles\", \"PAYS\": \"none\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-01-15\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"30205.31\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"8\", \"DESCRIPTION\": \"Cloisons sèches, doublages\", \"TITULAIRE\": {\"DENOMINATION\": \"Artba System\", \"ADRESSE\": \"ZA Clair de Lune 44360 Saint-Etienne-de-Montluc\", \"PAYS\": \"none\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-01-15\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"18412.25\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"9\", \"DESCRIPTION\": \"Revêtements de sol, faïence\", \"TITULAIRE\": {\"DENOMINATION\": \"SRS\", \"ADRESSE\": \"123 rue Milchel Bégon BP 80541000 Blois\", \"PAYS\": \"none\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-01-15\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"35474.10\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"10\", \"DESCRIPTION\": \"Peinture, revêtements muraux\", \"TITULAIRE\": {\"DENOMINATION\": \"Volumes et Couleurs\", \"ADRESSE\": \"14 rue Jan Palach 44800 St-Herblain\", \"PAYS\": \"none\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-01-15\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"7528.21\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"11\", \"DESCRIPTION\": \"Chauffage, ventilation, plomberie, sanitaires, air comprimé\", \"TITULAIRE\": {\"DENOMINATION\": \"Lucathermy\", \"ADRESSE\": \"23 rue de l Aéronautique Zi du Chaffault44340 Bouguenais\", \"PAYS\": \"none\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-01-15\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"83982.07\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"12\", \"DESCRIPTION\": \"Electricité courants forts et courants faibles\", \"TITULAIRE\": {\"DENOMINATION\": \"Atlant'Elec Conseil\", \"ADRESSE\": \"ZAC du Taillis 6 rue des Calirières44840 Les Sorinières\", \"PAYS\": \"none\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-01-15\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"67200\"}}}]}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Critères d'attributionLots 1, 2, 3, 4, 6, 7, 9, 11, 12- Valeur technique de l'offre (50%)- Performance en matière d'insertion professionnelle des publics en difficulté : 10 %- Prix des prestations : 40 %Lots 5, 8, 10- Valeur technique de l'offre (60 %) - Prix des prestations : 40 %Section V : Attribution du marchéLa date indiquée est celle de la notification du marché et non pas celle à laquelle le marché a été attribué par la Commission d'Appel d'Offres.Le montant indiqué s'entend comme le montant mentionné dans le DQE.Modalités de consultation du marché auprès de :NANTES METROPOLEDirection de la Commande Publique - Service des marchésImmeuble Valmy - 11 Avenue Carnot44923 NANTES CEDEX 9Tél : 02 40 99 23 77 / 78 - Fax : 02 40 99 98 40ouvert de 8H30 à 12H30 et de 13H30 à 17H30 Date de signature du marché : 07/01/2016. Date d'envoi du présent avis au JOUE et au BOAMP : 15 février 2016.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette B.P. 24111.E-mail : greffe.ta-nantes@juradm.fr. Tél. 02 40 99 46 00. Fax 02 40 99 46 58\", \"CP\": \"44000\", \"VILLE\": \"Nantes Cedex 01\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette B.P. 24111.E-mail : greffe.ta-nantes@juradm.fr. Tél. 02 40 99 46 00. Fax 02 40 99 46 58\", \"CP\": \"44000\", \"VILLE\": \"Nantes Cedex 01\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:15-179202"
+  },
+  {
+   "idweb": "16-22625",
+   "id": "16_22625",
+   "contractfolderid": null,
+   "objet": "Travaux de désamiantage, de déconstruction sélective et de dépollution d'une friche industrielle située à Servon sur Vilaine",
+   "filename": "BOAMP-N-AO_2016_047004",
+   "famille": "FNS",
+   "code_departement": [
+    "35",
+    "22",
+    "44"
+   ],
+   "code_departement_prestation": "35",
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2016-02-16",
+   "datefindiffusion": "2016-03-11",
+   "datelimitereponse": "2016-03-11T14:00:00+00:00",
+   "nomacheteur": "Etablissement Public Foncier Bretagne",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "24",
+    "87"
+   ],
+   "dc": [
+    "24",
+    "87"
+   ],
+   "descripteur_libelle": [
+    "Amiante",
+    "Démolition"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-22625\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-22625.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-02-16\", \"DATE_LIMITE_REPONSE\": \"2016-03-11T15:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2016-03-11\", \"CLASSES\": {\"CLASSE\": {\"CODE\": \"45\", \"LIBELLE\": \"Travaux de construction\"}}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"24\", \"LIBELLE\": \"Amiante\"}, {\"CODE\": \"87\", \"LIBELLE\": \"Démolition\"}]}, \"DEP_PUBLICATION\": [\"35\", \"22\", \"44\"], \"DEP_PRESTATION\": \"35\", \"RESUME_OBJET\": \"Travaux de désamiantage, de déconstruction sélective et de dépollution d'une friche industrielle située à Servon sur Vilaine\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Etablissement Public Foncier Bretagne\", \"CORRESPONDANT\": \"Mme CONTAMINE Carole, Etablissement Public Foncier de Bretagne\", \"ADRESSE\": \"72 bd Albert 1er CS 90721\", \"CP\": \"35207\", \"VILLE\": \"Rennes cedex 2\", \"TEL\": \"02-99-86-79-90\", \"FAX\": \"02-99-86-79-95\", \"URL\": \"http://www.epfbretagne.fr/\", \"URL_PROFIL_ACHETEUR\": \"https://www.megalisbretagne.org/jcms/j_6/accueil\"}, \"TYPE_ORGANISME\": {\"EPN\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Travaux de désamiantage, de déconstruction sélective et de dépollution d'une friche industrielle située à Servon sur Vilaine (35)\", \"CPV\": [{\"PRINCIPAL\": \"45111100\"}, {\"PRINCIPAL\": \"45262660\"}], \"AMP_OUI\": \"\", \"AVIS_CORRESPOND\": {\"AVIS_PERIODIQUE_INDICATIF\": \"\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"La présente procédure adaptée est soumise aux dispositions de l'article 28 du Code des marchés publics.Le présent marché sera passé en application de l'article 72 du Code des marchés publics relatif aux marchés à tranche conditionnelle.\", \"QUANTITE\": \"L'Etablissement Public Foncier de Bretagne (EPFB) envisage de désamianter, de déconstruire et de dépolluer un ancien garage poids lourds situé au 10 rue Charles Brisou à Servon sur Vilaine (35).\"}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"4\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2016-03-11T15:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\"}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire obligatoirement par le candidat, à l'appui de sa candidature\", \"Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire\", \"Déclaration sur l'honneur du candidat justifiant qu'il n'entre dans aucun des cas mentionnés à l'article 43 du code des marchés publics, concernant les interdictions de soumissionner\", \"Si le candidat est établi en France, une déclaration sur l'honneur du candidat justifiant que le travail est effectué par des salariés employés régulièrement au regard des articles L. 1221-10, L. 3243-2 et R. 3243-1 du code du travail (dans le cas où le candidat emploie des salariés, conformément à l'article D. 8222-5-3° du code du travail)\", \"Si le candidat est établi ou domicilié à l'étranger, une déclaration sur l'honneur du candidat attestant qu'il fournit à ses salariés des bulletins de paie comportant les mentions prévues à l'article R. 3243-1 du code du travail, ou des documents équivalents\", \"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels\", \"Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années\", \"Présentation d'une liste des travaux exécutés au cours des cinq dernières années, appuyée d'attestations de bonne exécution pour les travaux les plus importants. Ces attestations indiquent le montant, l'époque et le lieu d'exécution des travaux et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin\", \"Indication des titres d'études et professionnels de l'opérateur économique\", \"Indication des titres d'études et professionnels des cadres de l'entreprise et notamment des responsables de prestation de services ou de conduite des travaux de même nature que celle du marché\", \"Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation de marchés de même nature\", \"En matière de fournitures et services, une description de l'équipement technique, des mesures employées par l'opérateur économique pour s'assurer de la qualité et des moyens d'étude et de recherche de son entreprise\", \"Certificats de qualifications professionnelles. La preuve de la capacité du candidat peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de travaux attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat\", \"Certification désamiantage\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC4, Déclaration de sous-traitance (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"S'il s'appuie, pour présenter sa candidature, sur les capacités professionnelles, techniques et financières d'autres opérateurs économiques, le candidat produit les mêmes documents concernant cet opérateur économique que ceux qui lui sont exigés par l'acheteur public. Le candidat doit également apporter la preuve que chacun de ces opérateurs économiques mettra à sa disposition les moyens nécessaires, pendant toute la durée d'exécution du marché public ou de l'accord-cadre\", \"Si les documents fournis par le candidat ne sont pas établis en langue française, ils doivent être accompagnés d'une traduction en français, certifiée conforme à l'original par un traducteur assermenté\", \"Les pièces prévues aux articles D. 8222-5 ou D. 8222-7 et D. 8222-8 du code du travail\", \"Si l'attributaire est établi en France, les attestations et certificats délivrés par les administrations et organismes compétents prouvant qu'il a satisfait à ses obligations fiscales et sociales ou un état annuel des certificats reçus\", \"Si l'attributaire est établi dans un Etat autre que la France, un certificat établi par les administrations et organismes du pays d'origine. Lorsqu'un tel certificat n'est pas délivré par le pays concerné, il peut être remplacé par une déclaration sous serment, ou dans les Etats où un tel serment n'existe pas, par une déclaration solennelle faite par l'intéressé devant l'autorité judiciaire ou administrative compétente, un notaire ou un organisme professionnel qualifié du pays\", \"Si les documents fournis par le candidat ne sont pas établis en langue française, ils doivent être accompagnés d'une traduction en français, certifiée conforme à l'original par un traducteur assermenté\"]}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"EPFB-2016-8\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Ce marché est conforme au dispositif d'expérimentation MPS (marché public simplifié), et permet aux entreprises de candidater sur la base de leur seul numéro de SIRET. Le mode de transmission des éléments de la candidature et de l'offre est dématérialisé. La réponse électronique est indispensable mais aucune signature n'est exigée (la signature sera dans ce cas demandée à postériori à la seule entreprise retenue).\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"ADMIN_TECH\": \"\"}, \"DENOMINATION\": \"Etablissement public foncier de Bretagne\", \"CORRESPONDANT\": \"M. RIMBERT Geoffrey\", \"ADRESSE\": \"72 boulevard Albert 1er\", \"CP\": \"35000\", \"VILLE\": \"Rennes\", \"TEL\": \"02-99-86-74-21\", \"FAX\": \"02-99-86-79-95\", \"MEL\": \"geoffrey.rimbert@epfbretagne.fr\", \"URL\": \"http://www.epfbretagne.fr/\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Rennes\", \"ADRESSE\": \"3 contour de La Motte\", \"CP\": \"35000\", \"VILLE\": \"Rennes\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Rennes\", \"ADRESSE\": \"3 contour de La Motte\", \"CP\": \"35000\", \"VILLE\": \"Rennes\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"DENOMINATION\": \"Etablissement public foncier de Bretagne\", \"CORRESPONDANT\": \"M. Rimbert Geoffrey\", \"ADRESSE\": \"72 boulevard Albert 1er\", \"CP\": \"35000\", \"VILLE\": \"Rennes\", \"TEL\": \"02-99-86-74-21\", \"FAX\": \"02-99-86-79-95\", \"MEL\": \"geoffrey.rimbert@epfbretagne.fr\", \"URL\": \"https://marches.megalisbretagne.org/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=77314&orgAcronyme=c8a\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-22625"
   },
   {
    "idweb": "16-22363",

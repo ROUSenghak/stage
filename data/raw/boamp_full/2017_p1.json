@@ -192,61 +192,63 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-64"
   },
   {
-   "idweb": "17-572",
-   "id": "17_572",
+   "idweb": "17-6",
+   "id": "17_6",
    "contractfolderid": null,
-   "objet": "Achat d'ouvrages et de supports pédagogiques à destination de la vente pour le service Tourisme et Patrimoine et les Musées de la Ville du Mans",
-   "filename": "MAPA-AO_2017_003007",
-   "famille": "MAPA",
+   "objet": "Prestations d'externalisation de l'achat de formations pour les services du Département de la Sarthe - Service d'intermédiation",
+   "filename": "BOAMP-J-AO_2017_003003",
+   "famille": "JOUE",
    "code_departement": [
     "72"
    ],
    "code_departement_prestation": null,
-   "famille_libelle": "Marchés <90 k€ (MAPA)",
+   "famille_libelle": "Marchés européens",
    "dateparution": "2017-01-03",
-   "datefindiffusion": "2017-01-18",
+   "datefindiffusion": "2017-02-15",
    "datelimitereponse": null,
-   "nomacheteur": "Ville du Mans",
+   "nomacheteur": "Département de la Sarthe",
    "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
    "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
    "nature": "APPEL_OFFRE",
-   "sousnature": null,
+   "sousnature": "STANDARD",
    "nature_libelle": "Avis de marché",
    "sousnature_libelle": null,
    "nature_categorise": "appeloffre/standard",
    "nature_categorise_libelle": "Avis de marché/",
    "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "RECTIFICATIF",
+   "marche_public_simplifie": "1",
+   "marche_public_simplifie_label": "Marché public simplifié",
+   "etat": "INITIAL",
    "descripteur_code": [
-    "184"
+    "410"
    ],
    "dc": [
-    "184"
+    "410"
    ],
    "descripteur_libelle": [
-    "Livres"
+    "Formation"
    ],
-   "type_marche": null,
-   "type_marche_facette": null,
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
    "type_avis": [
     "5",
     "1",
     ""
    ],
-   "annonce_lie": [
-    "16-174054"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"16-174054\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-12-05\", \"DATE_FIN_DIFFUSION\": \"2017-01-06\"}}}",
+   "annonce_lie": null,
+   "annonces_anterieures": null,
    "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-572\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-174054\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-12-05\", \"DATE_FIN_DIFFUSION\": \"2017-01-06\"}}}}, \"NOM_HTML\": \"17-572.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-01-03\", \"DATE_FIN_DIFFUSION\": \"2017-01-18\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"184\", \"LIBELLE\": \"Livres\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Achat d'ouvrages et de supports pédagogiques à destination de la vente pour le service Tourisme et Patrimoine et les Musées de la Ville du Mans\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville du Mans\", \"CORRESPONDANT\": \"Le Maire\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, CS 40010 - 16 avenue François Mitterrand, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"LE MANS\", \"TEL\": \"02-43-47-47-47\", \"FAX\": \"02-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Achat d'ouvrages et de supports pédagogiques à destination de la vente pour le service Tourisme et Patrimoine et les Musées de la Ville du Mans\", \"CPV\": {\"PRINCIPAL\": \"22110000\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-174054\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-12-05\", \"DATE_FIN_DIFFUSION\": \"2017-01-06\"}}}, \"MODIFICATION\": {\"RUB_INIT\": \"Date limite de réception des offres\", \"TXT_INIT\": \"2017-01-06T17:00:00+01:00\", \"LIRE\": \"2017-01-18T17:00:00+01:00\"}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-572"
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-6\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-6.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-01-03\", \"DATE_FIN_DIFFUSION\": \"2017-02-15\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"410\", \"LIBELLE\": \"Formation\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Prestations d'externalisation de l'achat de formations pour les services du Département de la Sarthe - Service d'intermédiation\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Département de la Sarthe\", \"CODE_IDENT_NATIONAL\": \"22720002900014\", \"ADJUDICATEUR_NUTS\": \"FR514\", \"ADRESSE\": \"Hôtel du département, Place Aristide Briand\", \"CP\": \"72072\", \"VILLE\": \"Le Mans\", \"MEL\": \"scp@sarthe.fr\", \"URL\": \"http://www.sarthe-marchespublics.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\", \"URL_PARTICIPATION\": \"http://www.sarthe-marchespublics.fr\", \"URL_DOCUMENT\": \"http://www.sarthe-marchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Prestations d'externalisation de l'achat de formations pour les services du Département de la Sarthe - Service d'intermédiation\", \"REF_MARCHE\": \"16fs-Drh-2067-N\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Accord-cadre exécuté par émission de bons de commande. Les commandes pourront être adressées dès la notification de l'accord-cadre jusqu'au 31/12/2017. Aucune variante exigée. Toutefois, les candidats peuvent proposer des variantes libres mais doivent répondre à la solution de base. Les exigences minimales sont celles de la solution de base\", \"CPV\": {\"PRINCIPAL\": \"80500000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Accord-cadre exécuté par émission de bons de commande. Les commandes pourront être adressées dès la notification de l'accord-cadre jusqu'au 31/12/2017. Aucune variante exigée. Toutefois, les candidats peuvent proposer des variantes libres mais doivent répondre à la solution de base. Les exigences minimales sont celles de la solution de base\", \"CPV\": {\"PRINCIPAL\": \"80500000\"}, \"CODE_NUTS\": \"FR514\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": [{\"@POIDS\": \"55\", \"#text\": \"Prix (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"5\", \"#text\": \"Performances en matière de protection de l'environnement (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"40\", \"#text\": \"Valeur technique (voir détail dans le règlement de la consultation)\"}]}}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Période ferme : de la date de notification au 31/12/2017Reconduction no1 : du 01/01/2018 au 31/12/2018Reconduction no2 : du 01/01/2019 au 31/12/2019Reconduction no3 : du 01/01/2020 au 31/12/2020Reconduction no4 : du 01/01/2021 à la date d'anniversaire de la notification de l'accord-cadre\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-02-20T11:30:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Voir annexes 1 à 3 du Règlement de la Consultation (Dispositif Marché Public simplifié)\", \"CAP_ECO\": \"Voir annexes 1 à 3 du Règlement de la Consultation (Dispositif Marché Public simplifié)\", \"CAP_TECH\": \"La présentation d'une liste des principales services effectuées au cours des trois dernières années, indiquant notamment le montant, la date et le destinataire public ou privé.Si le candidat a demandé de prendre en compte les capacités professionnelles, techniques ou financières d'un ou plusieurs sous-traitants au niveau de la candidature, il devra fournir le ou les demandes d'acceptation de ces derniers et d'agrément de leurs conditions de paiement à l'appui de son offre\", \"MARCHE_RESERVE_NON\": \"\", \"CONDITION_PARTICULIERE_EXECUTION\": \"Financement :Paiement par virement à 30 jours, sur fonds propres.Forme juridique :Chaque marché sera conclu :- soit avec un prestataire unique ;- soit avec des prestataires groupés solidaires ;- soit avec des prestataires groupés conjoints.Le mandataire du groupement conjoint sera solidaire de chacun des membres du groupement pour ses obligations contractuelles à l'égard du maître de l'ouvrage, pour l'exécution du marché\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2017-03-01\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Retrouvez cet avis intégral, l'accès au dossier et le guichet de dépôt sur http://www.sarthe-marchespublics.frCe marché est conforme au dispositif d'expérimentation MPS (Marché Public Simplifié), et permet aux entreprises de candidater sur la base de leur seul numéro de SIRET.Le mode de transmission des éléments de la candidature et de l'offre est dématérialisé. La réponse électronique est obligatoire avec signature électronique facultative.**************Pour obtenir tous les renseignements d'ordre administratif et technique qui leur seraient nécessaires au cours de leur étude, les candidats sont invités au plus tard 10 jours avant la date limite de remise des offres à passer par le module \\\" Correspondre avec l'acheteur\\\" de la plate-forme www.sarthe-marchespublics.frEn cas de dysfonctionnement, vous pouvez contacter le secrétariat du Service de la Commande Publique au 02.43.54.72.66.Une réponse sera alors adressée en temps utile à tous les candidats au plus tard 8 jours avant la date limite de remise des offres. Date d'envoi du présent avis au JOUE et au BOAMP : 2 janvier 2017.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"Immeuble Skyline, 22 mail Pablo Picasso\", \"CP\": \"44202\", \"VILLE\": \"Nantes\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://www.marche-public.fr/Marches-publics/Definitions/Entrees/Ccra.htm\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-6"
   },
   {
    "idweb": "16-166346",
@@ -317,63 +319,61 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-166346"
   },
   {
-   "idweb": "17-6",
-   "id": "17_6",
+   "idweb": "17-572",
+   "id": "17_572",
    "contractfolderid": null,
-   "objet": "Prestations d'externalisation de l'achat de formations pour les services du Département de la Sarthe - Service d'intermédiation",
-   "filename": "BOAMP-J-AO_2017_003003",
-   "famille": "JOUE",
+   "objet": "Achat d'ouvrages et de supports pédagogiques à destination de la vente pour le service Tourisme et Patrimoine et les Musées de la Ville du Mans",
+   "filename": "MAPA-AO_2017_003007",
+   "famille": "MAPA",
    "code_departement": [
     "72"
    ],
    "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
+   "famille_libelle": "Marchés <90 k€ (MAPA)",
    "dateparution": "2017-01-03",
-   "datefindiffusion": "2017-02-15",
+   "datefindiffusion": "2017-01-18",
    "datelimitereponse": null,
-   "nomacheteur": "Département de la Sarthe",
+   "nomacheteur": "Ville du Mans",
    "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
    "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
    "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
+   "sousnature": null,
    "nature_libelle": "Avis de marché",
    "sousnature_libelle": null,
    "nature_categorise": "appeloffre/standard",
    "nature_categorise_libelle": "Avis de marché/",
    "criteres": null,
-   "marche_public_simplifie": "1",
-   "marche_public_simplifie_label": "Marché public simplifié",
-   "etat": "INITIAL",
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "RECTIFICATIF",
    "descripteur_code": [
-    "410"
+    "184"
    ],
    "dc": [
-    "410"
+    "184"
    ],
    "descripteur_libelle": [
-    "Formation"
+    "Livres"
    ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
+   "type_marche": null,
+   "type_marche_facette": null,
    "type_avis": [
     "5",
     "1",
     ""
    ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
+   "annonce_lie": [
+    "16-174054"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"16-174054\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-12-05\", \"DATE_FIN_DIFFUSION\": \"2017-01-06\"}}}",
    "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-6\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-6.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-01-03\", \"DATE_FIN_DIFFUSION\": \"2017-02-15\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"410\", \"LIBELLE\": \"Formation\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Prestations d'externalisation de l'achat de formations pour les services du Département de la Sarthe - Service d'intermédiation\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Département de la Sarthe\", \"CODE_IDENT_NATIONAL\": \"22720002900014\", \"ADJUDICATEUR_NUTS\": \"FR514\", \"ADRESSE\": \"Hôtel du département, Place Aristide Briand\", \"CP\": \"72072\", \"VILLE\": \"Le Mans\", \"MEL\": \"scp@sarthe.fr\", \"URL\": \"http://www.sarthe-marchespublics.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\", \"URL_PARTICIPATION\": \"http://www.sarthe-marchespublics.fr\", \"URL_DOCUMENT\": \"http://www.sarthe-marchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Prestations d'externalisation de l'achat de formations pour les services du Département de la Sarthe - Service d'intermédiation\", \"REF_MARCHE\": \"16fs-Drh-2067-N\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Accord-cadre exécuté par émission de bons de commande. Les commandes pourront être adressées dès la notification de l'accord-cadre jusqu'au 31/12/2017. Aucune variante exigée. Toutefois, les candidats peuvent proposer des variantes libres mais doivent répondre à la solution de base. Les exigences minimales sont celles de la solution de base\", \"CPV\": {\"PRINCIPAL\": \"80500000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Accord-cadre exécuté par émission de bons de commande. Les commandes pourront être adressées dès la notification de l'accord-cadre jusqu'au 31/12/2017. Aucune variante exigée. Toutefois, les candidats peuvent proposer des variantes libres mais doivent répondre à la solution de base. Les exigences minimales sont celles de la solution de base\", \"CPV\": {\"PRINCIPAL\": \"80500000\"}, \"CODE_NUTS\": \"FR514\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": [{\"@POIDS\": \"55\", \"#text\": \"Prix (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"5\", \"#text\": \"Performances en matière de protection de l'environnement (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"40\", \"#text\": \"Valeur technique (voir détail dans le règlement de la consultation)\"}]}}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Période ferme : de la date de notification au 31/12/2017Reconduction no1 : du 01/01/2018 au 31/12/2018Reconduction no2 : du 01/01/2019 au 31/12/2019Reconduction no3 : du 01/01/2020 au 31/12/2020Reconduction no4 : du 01/01/2021 à la date d'anniversaire de la notification de l'accord-cadre\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-02-20T11:30:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Voir annexes 1 à 3 du Règlement de la Consultation (Dispositif Marché Public simplifié)\", \"CAP_ECO\": \"Voir annexes 1 à 3 du Règlement de la Consultation (Dispositif Marché Public simplifié)\", \"CAP_TECH\": \"La présentation d'une liste des principales services effectuées au cours des trois dernières années, indiquant notamment le montant, la date et le destinataire public ou privé.Si le candidat a demandé de prendre en compte les capacités professionnelles, techniques ou financières d'un ou plusieurs sous-traitants au niveau de la candidature, il devra fournir le ou les demandes d'acceptation de ces derniers et d'agrément de leurs conditions de paiement à l'appui de son offre\", \"MARCHE_RESERVE_NON\": \"\", \"CONDITION_PARTICULIERE_EXECUTION\": \"Financement :Paiement par virement à 30 jours, sur fonds propres.Forme juridique :Chaque marché sera conclu :- soit avec un prestataire unique ;- soit avec des prestataires groupés solidaires ;- soit avec des prestataires groupés conjoints.Le mandataire du groupement conjoint sera solidaire de chacun des membres du groupement pour ses obligations contractuelles à l'égard du maître de l'ouvrage, pour l'exécution du marché\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2017-03-01\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Retrouvez cet avis intégral, l'accès au dossier et le guichet de dépôt sur http://www.sarthe-marchespublics.frCe marché est conforme au dispositif d'expérimentation MPS (Marché Public Simplifié), et permet aux entreprises de candidater sur la base de leur seul numéro de SIRET.Le mode de transmission des éléments de la candidature et de l'offre est dématérialisé. La réponse électronique est obligatoire avec signature électronique facultative.**************Pour obtenir tous les renseignements d'ordre administratif et technique qui leur seraient nécessaires au cours de leur étude, les candidats sont invités au plus tard 10 jours avant la date limite de remise des offres à passer par le module \\\" Correspondre avec l'acheteur\\\" de la plate-forme www.sarthe-marchespublics.frEn cas de dysfonctionnement, vous pouvez contacter le secrétariat du Service de la Commande Publique au 02.43.54.72.66.Une réponse sera alors adressée en temps utile à tous les candidats au plus tard 8 jours avant la date limite de remise des offres. Date d'envoi du présent avis au JOUE et au BOAMP : 2 janvier 2017.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"Immeuble Skyline, 22 mail Pablo Picasso\", \"CP\": \"44202\", \"VILLE\": \"Nantes\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://www.marche-public.fr/Marches-publics/Definitions/Entrees/Ccra.htm\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-6"
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-572\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-174054\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-12-05\", \"DATE_FIN_DIFFUSION\": \"2017-01-06\"}}}}, \"NOM_HTML\": \"17-572.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-01-03\", \"DATE_FIN_DIFFUSION\": \"2017-01-18\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"184\", \"LIBELLE\": \"Livres\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Achat d'ouvrages et de supports pédagogiques à destination de la vente pour le service Tourisme et Patrimoine et les Musées de la Ville du Mans\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville du Mans\", \"CORRESPONDANT\": \"Le Maire\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, CS 40010 - 16 avenue François Mitterrand, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"LE MANS\", \"TEL\": \"02-43-47-47-47\", \"FAX\": \"02-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Achat d'ouvrages et de supports pédagogiques à destination de la vente pour le service Tourisme et Patrimoine et les Musées de la Ville du Mans\", \"CPV\": {\"PRINCIPAL\": \"22110000\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-174054\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-12-05\", \"DATE_FIN_DIFFUSION\": \"2017-01-06\"}}}, \"MODIFICATION\": {\"RUB_INIT\": \"Date limite de réception des offres\", \"TXT_INIT\": \"2017-01-06T17:00:00+01:00\", \"LIRE\": \"2017-01-18T17:00:00+01:00\"}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-572"
   },
   {
    "idweb": "17-39",
@@ -939,6 +939,65 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-89"
   },
   {
+   "idweb": "17-1350",
+   "id": "17_1350",
+   "contractfolderid": null,
+   "objet": "Nettoyage de la vitrerie, des encadrements et appuis de fenêtre des écoles maternelles, primaires et des bâtiments mis à disposition de la ville - Année 2017 renouvelable en 2018, 2019 et 2020",
+   "filename": "BOAMP-N-IC-AA_2017_004012",
+   "famille": "FNS",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2017-01-04",
+   "datefindiffusion": "2017-02-18",
+   "datelimitereponse": null,
+   "nomacheteur": "Ville du Mans",
+   "titulaire": [
+    "ONET SERVICES"
+   ],
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "ATTRIBUTION",
+   "sousnature": null,
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "363"
+   ],
+   "dc": [
+    "363"
+   ],
+   "descripteur_libelle": [
+    "Vitrerie"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "16-129499"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"16-129499\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-09-05\", \"DATE_FIN_DIFFUSION\": \"2016-09-30\"}}}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-1350\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-129499\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-09-05\", \"DATE_FIN_DIFFUSION\": \"2016-09-30\"}}}}, \"NOM_HTML\": \"17-1350.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-01-04\", \"DATE_FIN_DIFFUSION\": \"2017-02-18\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"363\", \"LIBELLE\": \"Vitrerie\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Nettoyage de la vitrerie, des encadrements et appuis de fenêtre des écoles maternelles, primaires et des bâtiments mis à disposition de la ville - Année 2017 renouvelable en 2018, 2019 et 2020\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville du Mans\", \"CORRESPONDANT\": \"Le Maire\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, CS 40010 - 16 avenue François Mitterrand, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"LE MANS\", \"TEL\": \"02-43-47-47-47\", \"FAX\": \"02-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Nettoyage de la vitrerie, des encadrements et appuis de fenêtre des écoles maternelles, primaires et des bâtiments mis à disposition de la ville - Année 2017 renouvelable en 2018, 2019 et 2020\", \"CPV\": {\"PRINCIPAL\": \"90911300\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"DESCRIPTION\": \"Nettoyage de la vitrerie, des encadrements et appuis de fenêtre des écoles maternelles, primaires et des bâtiments mis à disposition de la ville - Année 2017 renouvelable en 2018, 2019 et 2020\", \"TITULAIRE\": {\"DENOMINATION\": \"ONET SERVICES\", \"ADRESSE\": \"71 Route du Chêne\", \"CP\": \"72230\", \"VILLE\": \"Arnage\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-01-03\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT_INDEFINI\": \"\"}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-1350"
+  },
+  {
    "idweb": "17-154",
    "id": "17_154",
    "contractfolderid": null,
@@ -1000,65 +1059,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-154\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-25\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-77277\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-25\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-05-30\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-06-01\", \"DATE_FIN_DIFFUSION\": \"2016-06-27\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"107\", \"NUM_ANNONCE\": \"190788\", \"DATE_PUBLICATION\": \"2016-06-04\"}}]}}, \"NOM_HTML\": \"17-154.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-01-04\", \"DATE_FIN_DIFFUSION\": \"2017-02-02\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"18\", \"LIBELLE\": \"Assainissement\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"fourniture de réactif contre la formation d'hydrogène sulfuré dans les infrastructures d'assainissement, mise à disposition de contrôleurs de dosage et réglage de l'injection du réactif\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Nantes Métropole\", \"ADJUDICATEUR_NUTS\": \"FR511\", \"ADRESSE\": \"2 Cours du Champ de Mars\", \"CP\": \"44923\", \"VILLE\": \"Nantes cedex 9\", \"MEL\": \"laure.talguen@nantesmetropole.fr\", \"URL\": \"http://nantesmetropole.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.nantesmetropole.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"ENTITE_ADJUDICATRICE\": {\"AUTRE\": \"Assainissement\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de réactif contre la formation dhydrogène sulfuré dans les infrastructures dassainissement, mise à disposition de contrôleurs de dosage et réglage de l'injection du réactif\", \"REF_MARCHE\": \"16JJD114\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Le produit est destiné à être principalement injecté dans les postes de refoulement équipés de dispositif dinjection sur les réseaux dassainissement susceptibles de rencontrer une production importante dhydrogène sulfuré. Il pourra être utilisé sur dautres infrastructures dassainissement telles que les stations dépuration ou le réseau d'assainissement.\", \"CPV\": {\"PRINCIPAL\": \"24300000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"263981\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Fourniture de réactif contre la formation dhydrogène sulfuré dans les infrastructures dassainissement, mise à disposition de contrôleurs de dosage et réglage de l'injection du réactif\", \"CPV\": {\"PRINCIPAL\": \"24300000\"}, \"CODE_NUTS\": \"FR511\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"Valeur technique\"}, {\"@POIDS\": \"10\", \"#text\": \"Délai dexécution des livraisons\"}, {\"@POIDS\": \"5\", \"#text\": \"Délai dexécution de la campagne de dosage\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"35\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"NEGOCIE\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2016\", \"NUM_PARUTION\": \"107\", \"NUM_ANNONCE\": \"190788\", \"DATE_PUBLICATION\": \"2016-06-04\"}}}, \"ATTRIBUTION\": {\"DECISION\": {\"ATTRIBUE\": \"\", \"TITULAIRE\": {\"DENOMINATION\": \"Yara France\", \"CP\": \"92914\", \"VILLE\": \"Paris la Défense\", \"CODE_NUTS\": \"FR511\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-12-27\", \"NB_OFFRE_RECU\": \"1\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"263981\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Section V : Attribution du marchéLa date indiquée est celle de la notification du marchéLe montant indiqué sentend comme le montant mentionné dans le DQE.Modalités de consultation du marché auprès de :NANTES METROPOLEDirection de la Commande Publique - Service des marchés\\tImmeuble Valmy  11 Avenue Carnot44923 NANTES CEDEX 9Tél : 02 40 99 23 77 / 78 - Fax : 02 40 99 62 40\\touvert de 8H30 à 12H30 et de 13H30 à 17H30 Date de signature du marché : 09/12/2016. Date d'envoi du présent avis au JOUE et au BOAMP : 2 janvier 2017.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Nantes Métropole\", \"ADRESSE\": \"Direction du cycle de l'eauDirection de lassainissementDavid MINOTTél : 02 40 99 31 77\", \"CP\": \"44923\", \"VILLE\": \"Nantes cedex 9\", \"CODE_NUTS\": \"FR511\", \"MEL\": \"david.minot@nantesmetropole.fr\", \"URL\": \"http://nantesmetropole.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Nantes Métropole\", \"ADRESSE\": \"Direction de la Commande PubliqueService des marchés, 11 Avenue Carnot Tél : 02 40 99-23 78 télécopieur : 02 40 99 68 40 ouvert de 8h30 à 12h30 et de 13h30 à 17h30\", \"VILLE\": \"Nantes cedex 9\", \"CODE_NUTS\": \"FR511\", \"MEL\": \"laure.talguen@nantesmetropole.fr\", \"URL\": \"http://nantesmetropole.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette B.P. 24111. E-mail : greffe.ta-nantes@juradm.fr. Tél. 02 40 99 46 00. Fax 02 40 99 46 58\", \"CP\": \"44000\", \"VILLE\": \"Nantes Cedex 01\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette B.P. 24111. E-mail : greffe.ta-nantes@juradm.fr. Tél. 02 40 99 46 00. Fax 02 40 99 46 58\", \"CP\": \"44000\", \"VILLE\": \"Nantes Cedex 01\"}]}}, \"ANNEXE_D2\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-154"
-  },
-  {
-   "idweb": "17-1350",
-   "id": "17_1350",
-   "contractfolderid": null,
-   "objet": "Nettoyage de la vitrerie, des encadrements et appuis de fenêtre des écoles maternelles, primaires et des bâtiments mis à disposition de la ville - Année 2017 renouvelable en 2018, 2019 et 2020",
-   "filename": "BOAMP-N-IC-AA_2017_004012",
-   "famille": "FNS",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2017-01-04",
-   "datefindiffusion": "2017-02-18",
-   "datelimitereponse": null,
-   "nomacheteur": "Ville du Mans",
-   "titulaire": [
-    "ONET SERVICES"
-   ],
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "ATTRIBUTION",
-   "sousnature": null,
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "363"
-   ],
-   "dc": [
-    "363"
-   ],
-   "descripteur_libelle": [
-    "Vitrerie"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "16-129499"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"16-129499\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-09-05\", \"DATE_FIN_DIFFUSION\": \"2016-09-30\"}}}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-1350\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-129499\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-09-05\", \"DATE_FIN_DIFFUSION\": \"2016-09-30\"}}}}, \"NOM_HTML\": \"17-1350.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-01-04\", \"DATE_FIN_DIFFUSION\": \"2017-02-18\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"363\", \"LIBELLE\": \"Vitrerie\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Nettoyage de la vitrerie, des encadrements et appuis de fenêtre des écoles maternelles, primaires et des bâtiments mis à disposition de la ville - Année 2017 renouvelable en 2018, 2019 et 2020\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville du Mans\", \"CORRESPONDANT\": \"Le Maire\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, CS 40010 - 16 avenue François Mitterrand, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"LE MANS\", \"TEL\": \"02-43-47-47-47\", \"FAX\": \"02-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Nettoyage de la vitrerie, des encadrements et appuis de fenêtre des écoles maternelles, primaires et des bâtiments mis à disposition de la ville - Année 2017 renouvelable en 2018, 2019 et 2020\", \"CPV\": {\"PRINCIPAL\": \"90911300\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"DESCRIPTION\": \"Nettoyage de la vitrerie, des encadrements et appuis de fenêtre des écoles maternelles, primaires et des bâtiments mis à disposition de la ville - Année 2017 renouvelable en 2018, 2019 et 2020\", \"TITULAIRE\": {\"DENOMINATION\": \"ONET SERVICES\", \"ADRESSE\": \"71 Route du Chêne\", \"CP\": \"72230\", \"VILLE\": \"Arnage\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-01-03\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT_INDEFINI\": \"\"}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-1350"
   },
   {
    "idweb": "17-739",

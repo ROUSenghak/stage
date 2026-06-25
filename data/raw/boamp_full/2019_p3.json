@@ -3117,6 +3117,124 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-12428"
   },
   {
+   "idweb": "19-11841",
+   "id": "19_11841",
+   "contractfolderid": null,
+   "objet": "FOURNITURE DE DISPOSITIFS MEDICAUX POUR ENDOSCOPIE",
+   "filename": "BOAMP-J-AO_2019_025009",
+   "famille": "JOUE",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2019-01-25",
+   "datefindiffusion": "2019-02-22",
+   "datelimitereponse": null,
+   "nomacheteur": "CHU de Nantes",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "212"
+   ],
+   "dc": [
+    "212"
+   ],
+   "descripteur_libelle": [
+    "Matériel médical"
+   ],
+   "type_marche": [
+    "FOURNITURES"
+   ],
+   "type_marche_facette": [
+    "Fournitures"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-11841\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-11841.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-01-25\", \"DATE_FIN_DIFFUSION\": \"2019-02-22\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"212\", \"LIBELLE\": \"Matériel médical\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"FOURNITURE DE DISPOSITIFS MEDICAUX POUR ENDOSCOPIE\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CHU de Nantes\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"5 allée de lIle Gloriette\", \"CP\": \"44093\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"(+33) -02-40-84-68-87\", \"MEL\": \"bureau.desmarches@chu-nantes.fr\", \"URL\": \"http://www.chu-nantes.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-publics.gouv.fr\", \"URL_PARTICIPATION\": \"https://www.marches-publics.gouv.fr/\", \"URL_DOCUMENT\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=412068&orgAcronyme=x7c\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"FOURNITURE DE DISPOSITIFS MEDICAUX POUR ENDOSCOPIE\", \"REF_MARCHE\": \"AOO-19007\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"FOURNITURE DE DISPOSITIFS MEDICAUX POUR ENDOSCOPIE\", \"CPV\": {\"PRINCIPAL\": \"33168000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": {\"NUM\": \"132\", \"INTITULE\": \"La consultation est répartie en 132 lots.\", \"DESCRIPTION\": \"La consultation est répartie en 132 lots conformément au catalogue des besoins joint au DCE.\", \"CPV\": [{\"PRINCIPAL\": \"33168000\"}, {\"PRINCIPAL\": \"33000000\"}], \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Ce marché public pourra éventuellement être reconduit 2 fois de manière TACITE pour une durée de 12 mois à compter de sa date d'anniversaire, puis 1 fois de manière expresse pour une période de 12 mois, soit jusqu'au 31/05/2023.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"2023\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-02-22T16:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"8\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"DUME ou les formulaires DC1 et DC2.\", \"CAP_ECO\": \"déclaration concernant le chiffre d'affaires global et le chiffre d'affaires du domaine dactivité faisant lobjet du marché public, réalisés au cours des trois derniers exercices disponibles en fonction de la date de création de lentreprise ou du début dactivité de lopérateur économique dans la mesure où les informations sont disponibles\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-02-25\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Le dossier de consultation des entreprises est téléchargeable sur le site https://www.marches-publics.gouv.fr.La mise en ligne du DCE est totale et seule une réponse électronique est autorisée.Une copie de sauvegarde pourra être envoyée selon les modalités indiquées dans le règlement de consultation. Les variantes ne sont pas autorisées.Les candidats sont invités à remettre des échantillons à l'appui de leur offre selon les modalités décrites dans le Règlement de la Consultation. Dans cette hypothèse, une remise partielle des offres dématérialisées sera acceptée.Des essais de matériels pourront avoir lieu selon les modalités décrites dans le Règlement de la Consultation.. Date d'envoi du présent avis au JOUE et au BOAMP : 23 janvier 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"- Référé précontractuel (Art L551-1 et s. du CJA)- Référé contractuel (art. L 551-13 et s. du CJA)- Recours en contestation de validité du contrat issu de la jurisprudence \\\" Tarn et Garonne \\\".\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-11841"
+  },
+  {
+   "idweb": "19-12121",
+   "id": "19_12121",
+   "contractfolderid": null,
+   "objet": "Fourniture De Polycarburants Pour Les Citernes Du Sdis72",
+   "filename": "BOAMP-J-AO_2019_025009",
+   "famille": "JOUE",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2019-01-25",
+   "datefindiffusion": "2019-02-26",
+   "datelimitereponse": null,
+   "nomacheteur": "SDIS de la Sarthe",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": "1",
+   "marche_public_simplifie_label": "Marché public simplifié",
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "52"
+   ],
+   "dc": [
+    "52"
+   ],
+   "descripteur_libelle": [
+    "Carburant, hydrocarbure"
+   ],
+   "type_marche": [
+    "FOURNITURES"
+   ],
+   "type_marche_facette": [
+    "Fournitures"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-12121\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-12121.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-01-25\", \"DATE_FIN_DIFFUSION\": \"2019-02-26\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"52\", \"LIBELLE\": \"Carburant, hydrocarbure\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Fourniture De Polycarburants Pour Les Citernes Du Sdis72\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"SDIS de la Sarthe\", \"CODE_IDENT_NATIONAL\": \"28720026500018\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"15 boulevard Saint Michel\", \"CP\": \"72190\", \"VILLE\": \"Coulaines\", \"TEL\": \"(+33) 2-43-54-65-50\", \"MEL\": \"samp@sdis72.fr\", \"URL\": \"http://www.sarthe-marchespublics.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.info/\", \"URL_PARTICIPATION\": \"http://www.marches-publics.info/\", \"URL_DOCUMENT\": \"http://www.marches-publics.info/\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Secours à personnes\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture De Polycarburants Pour Les Citernes Du Sdis72\", \"REF_MARCHE\": \"Polycarburants\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Le marché concerne le ravitaillement en carburants Sans plomb 95 (E5), sans plomb 98 (E5) et gazole (B7) de 4 cuves réparties comme suit :Sdis72 - 13 boulevard St Michel 72190 Coulaines / Capacité cuveGazole : 15 000 litresCentre de secours principal - Avenue Henri Pierre Klötz 72000 Le Mans / Capacité cuve Gazole : 5 000 litres, Sans Plomb : 3 000 litresCentre de secours de La Flèche - Boulevard du Québec 72200 La Flèche / Capacité cuve Gazole : 2 000 litresLe Sdis72 a décidé de passer un accord-cadre mono-attributaire, fonctionnant à bons de commande, suivant les dispositions des articles 78 et 80 du décret no 2016-360 du 25 mars 2016 relatif aux marchés publics.Le marché a été estimé à 885 000 euro(s) Ht pour toute la durée du marché. Cette indication est donnée à titre indicatif et n'a pas de valeur contractuelle\", \"CPV\": {\"PRINCIPAL\": \"09132000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"885000\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Le marché concerne le ravitaillement en carburants Sans plomb 95 (E5), sans plomb 98 (E5) et gazole (B7) de 4 cuves réparties comme suit :Sdis72 - 13 boulevard St Michel 72190 Coulaines / Capacité cuveGazole : 15 000 litresCentre de secours principal - Avenue Henri Pierre Klötz 72000 Le Mans / Capacité cuve Gazole : 5 000 litres, Sans Plomb : 3 000 litresCentre de secours de La Flèche - Boulevard du Québec 72200 La Flèche / Capacité cuve Gazole : 2 000 litresLe Sdis72 a décidé de passer un accord-cadre mono-attributaire, fonctionnant à bons de commande, suivant les dispositions des articles 78 et 80 du décret no 2016-360 du 25 mars 2016 relatif aux marchés publics.Le marché a été estimé à 885 000 euro(s) Ht pour toute la durée du marché. Cette indication est donnée à titre indicatif et n'a pas de valeur contractuelle\", \"CPV\": {\"PRINCIPAL\": \"09132000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"885000\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché est conclu pour une durée d'un an renouvelable trois fois un an à compter du 1er juillet 2019 ou de sa date de notification si celle-ci est postérieure au 1er juillet, sans toutefois pouvoir excéder 4 ans, par reconduction expresse\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"Le marché est conclu pour une durée d'un an renouvelable trois fois un an à compter du 1er juillet 2019 ou de sa date de notification si celle-ci est postérieure au 1er juillet, sans toutefois pouvoir excéder 4 ans, par reconduction expresse\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-02-26T23:59:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"- Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire.- Déclaration sur l'honneur du candidat attestant qu'il est en règle, au cours de l'année précédant celle au cours de laquelle a lieu le lancement de la consultation, au regard des articles L. 5212-1, L. 5212-2, L. 5212 5 et L. 5212-9 du code du travail, concernant l'emploi des travailleurs handicapés- Formulaire Dc1, Lettre de candidature _ Habilitation du mandataire par ses co-traitants.(disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat)- Formulaire Dc2, Déclaration du candidat individuel ou du membre du groupement.(disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat)\", \"CAP_ECO\": \"- Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"CAP_TECH\": \"- Certificats de qualifications professionnelles.La preuve de la capacité du candidat peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de travaux attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat- Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation de marchés de même nature.- Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années.- Présentation d'une liste des principales fournitures ou des principaux services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé.- S'il s'appuie, pour présenter sa candidature, sur les capacités professionnelles, techniques et financières d'autres opérateurs économiques, le candidat produit les mêmes documents concernant cet opérateur économique que ceux qui lui sont exigés par l'acheteur public. Le candidat doit également apporter la preuve que chacun de ces opérateurs économiques mettra à sa disposition les moyens nécessaires, pendant toute la durée d'exécution du marché public ou de l'accord-cadre\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-03-29\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.marches-publics.info -Numéro SIRET : 287 200 265 00018Le dossier de consultation est téléchargeable sur le site www.sarthe-marchespublics.fr.La date indiquée du 29 mars 2019 pour l'ouverture des plis n'est donnée qu'à titre indicatif. En France, l'ouverture des plis n'est pas publique.Introduction des recours : conformément à la réglementation,vous pouvez contester les décisions prises dans la présente consultation, en déposant auprès du tribunal administratif de Nantes : - Soit un recours en référé pré-contractuel avant la signature du marché, conformément aux articles L.551-1, L.551-12 du code de justice administrative,- Soit un recours en référé contractuel après la signature du marché, dans les 31 jours qui suivent la date de publication de l'avisd'attribution du contrat ou, à défaut, d'un tel avis, dans les 6 mois qui suivent la date de conclusion de celui-ci, conformément aux articles L.551-13 à L.551-23 du même code, - Soit un recours en contestation de validité du contrat, dans un délai de 2 mois à compter de l'établissement des mesures de publicité appropriées. Date d'envoi du présent avis au JOUE et au BOAMP : 23 janvier 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-12121"
+  },
+  {
    "idweb": "19-13522",
    "id": "19_13522",
    "contractfolderid": null,
@@ -3240,124 +3358,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-2573\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": [{\"REFERENCE\": {\"IDWEB\": \"18-143301\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-10-12\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-10-14\", \"DATE_FIN_DIFFUSION\": \"2018-10-31\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"200\", \"NUM_ANNONCE\": \"454842\", \"DATE_PUBLICATION\": \"2018-10-17\"}}]}, {\"REFERENCE\": {\"IDWEB\": \"18-144734\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}, \"DATE_ENVOI\": \"2018-10-16\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-10-19\", \"DATE_FIN_DIFFUSION\": \"2018-11-30\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"202\", \"NUM_ANNONCE\": \"460414\", \"DATE_PUBLICATION\": \"2018-10-19\"}}]}]}, \"NOM_HTML\": \"19-2573.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-01-25\", \"DATE_FIN_DIFFUSION\": \"2019-03-31\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"239\", \"LIBELLE\": \"Nettoyage de locaux\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Entretien régulier de locaux\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"ANJOU LOIR ET SARTHE\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"103 rue Charles Darwin\", \"CP\": \"49125\", \"VILLE\": \"Tiercé\", \"TEL\": \"(+33) 2-41-37-56-89\", \"MEL\": \"marchespublics@ccals.fr\", \"URL\": \"https://www.ccals.fr/\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Communauté de communes\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Entretien régulier de locaux\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Entretien régulier de locaux\", \"CPV\": {\"PRINCIPAL\": \"90910000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"421627.24\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Nettoyage et entretien des locaux\", \"DESCRIPTION\": \"Nettoyage et lentretien des locaux\", \"CPV\": {\"PRINCIPAL\": \"90911200\"}, \"CODE_NUTS\": \"FRG02\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"15\", \"#text\": \"Moyens techniques\"}, {\"@POIDS\": \"15\", \"#text\": \"Moyens humains\"}, {\"@POIDS\": \"10\", \"#text\": \"Organisation du contrôle qualité\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"60\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Le marché pourra être modifié dans les limites fixées par les articles 139 et 140 du décret 2016-360 du 25 mars 2016.Le présent lot est constitué d'une tranche ferme et de deuxtranches optionnelles.L'exécution des prestations débute à compter du lundi 4 février 2019 pour une durée de 1 an. Le marché public est reconduit tacitement jusqu'à son terme. Le nombre de périodes de reconduction est fixé à 3. La durée de chaque période de reconduction est de 1 an. La durée maximale du contrat, toutes périodes confondues, est de 4 ans.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Nettoyage et entretien des locaux Petite Enfance\", \"DESCRIPTION\": \"Nettoyage et entretien des locaux Petite Enfance\", \"CPV\": {\"PRINCIPAL\": \"90910000\"}, \"CODE_NUTS\": \"FRG02\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"15\", \"#text\": \"Moyens techniques\"}, {\"@POIDS\": \"15\", \"#text\": \"Moyens humains\"}, {\"@POIDS\": \"10\", \"#text\": \"Organisation du contrôle qualité\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"60\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Le marché pourra être modifié dans les limites fixées par les articles 139 et 140 du décret 2016-360 du 25 mars 2016.Le présent lot est constitué d'une tranche ferme et d'unetranche optionnelle.L'exécution des prestations débute à compter du lundi 4 février 2019 pour une durée de 1 an. Le marché public est reconduit tacitement jusqu'à son terme. Le nombre de périodes de reconduction est fixé à 3. La durée de chaque période de reconduction est de 1 an. La durée maximale du contrat, toutes périodes confondues, est de 4 ans.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Nettoyage des vitres, volets roulants et brises vues\", \"DESCRIPTION\": \"Nettoyage des vitres, volets roulants et brises vues\", \"CPV\": {\"PRINCIPAL\": \"90911300\"}, \"CODE_NUTS\": \"FRG02\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"15\", \"#text\": \"Moyens techniques\"}, {\"@POIDS\": \"15\", \"#text\": \"Moyens humains\"}, {\"@POIDS\": \"10\", \"#text\": \"Organisation du contrôle qualité\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"60\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Le marché pourra être modifié dans les limites fixées par les articles139 et 140 du décret 2016-360 du 25 mars 2016.L'exécution des prestations débute à compter du lundi 4 février 2019 pour une durée de 1 an. Le marché public est reconduit tacitement jusqu'à son terme. Le nombre de périodes de reconduction est fixé à 3. La durée de chaque période de reconduction est de 1 an. La durée maximale du contrat, toutes périodes confondues, est de 4 ans.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2018\", \"NUM_PARUTION\": \"200\", \"NUM_ANNONCE\": \"454842\", \"DATE_PUBLICATION\": \"2018-10-17\"}}}, \"ATTRIBUTION\": {\"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2018-07\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Nettoyage et lentretien des locaux\", \"TITULAIRE\": {\"DENOMINATION\": \"ATMOS ANGERS\", \"CP\": \"49100\", \"VILLE\": \"ANGERS\", \"CODE_NUTS\": \"FRG02\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-01-02\", \"NB_OFFRE_RECU\": \"6\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"171171\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2018-07\", \"NUM_LOT\": \"2\", \"INTITULE\": \"Nettoyage et lentretien des locaux \\\" petite enfance \\\"\", \"TITULAIRE\": {\"DENOMINATION\": \"SOCIETE ANGEVINE NETTOYAGE HYGIENE ET TECHNIQUE\", \"CP\": \"49070\", \"VILLE\": \"BEAUCOUZE\", \"CODE_NUTS\": \"FRG02\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-01-02\", \"NB_OFFRE_RECU\": \"6\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"220152.24\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2018-07\", \"NUM_LOT\": \"3\", \"INTITULE\": \"Nettoyage des vitres, volets roulants et brises vues\", \"TITULAIRE\": {\"DENOMINATION\": \"TRAVAUX D'ENTRETIEN ET DE NETTOYAGE SERVICES\", \"CP\": \"72200\", \"VILLE\": \"LA FLECHE\", \"CODE_NUTS\": \"FRG04\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-01-02\", \"NB_OFFRE_RECU\": \"1\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"30304\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 23 janvier 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé pré-contractuel prévu aux articles L.551-1 à L.551-12 du Code de justice administrative (CJA), et pouvant être exercé avant la signature du contrat. Référé contractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant être exercé dans les délais prévus à l'article R. 551-7 à R. 551-10 du CJA. Recours de pleine juridiction ouvert aux tiers justifiant d'un intérêt lésé, et pouvant être exercé dans les deux mois suivant la date à laquelle la conclusion du contrat est rendue publique.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Île-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 1\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr/\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Île-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 1\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr/\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Île-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 1\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr/\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-2573"
-  },
-  {
-   "idweb": "19-11841",
-   "id": "19_11841",
-   "contractfolderid": null,
-   "objet": "FOURNITURE DE DISPOSITIFS MEDICAUX POUR ENDOSCOPIE",
-   "filename": "BOAMP-J-AO_2019_025009",
-   "famille": "JOUE",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2019-01-25",
-   "datefindiffusion": "2019-02-22",
-   "datelimitereponse": null,
-   "nomacheteur": "CHU de Nantes",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "212"
-   ],
-   "dc": [
-    "212"
-   ],
-   "descripteur_libelle": [
-    "Matériel médical"
-   ],
-   "type_marche": [
-    "FOURNITURES"
-   ],
-   "type_marche_facette": [
-    "Fournitures"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-11841\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-11841.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-01-25\", \"DATE_FIN_DIFFUSION\": \"2019-02-22\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"212\", \"LIBELLE\": \"Matériel médical\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"FOURNITURE DE DISPOSITIFS MEDICAUX POUR ENDOSCOPIE\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CHU de Nantes\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"5 allée de lIle Gloriette\", \"CP\": \"44093\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"(+33) -02-40-84-68-87\", \"MEL\": \"bureau.desmarches@chu-nantes.fr\", \"URL\": \"http://www.chu-nantes.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-publics.gouv.fr\", \"URL_PARTICIPATION\": \"https://www.marches-publics.gouv.fr/\", \"URL_DOCUMENT\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=412068&orgAcronyme=x7c\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"FOURNITURE DE DISPOSITIFS MEDICAUX POUR ENDOSCOPIE\", \"REF_MARCHE\": \"AOO-19007\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"FOURNITURE DE DISPOSITIFS MEDICAUX POUR ENDOSCOPIE\", \"CPV\": {\"PRINCIPAL\": \"33168000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": {\"NUM\": \"132\", \"INTITULE\": \"La consultation est répartie en 132 lots.\", \"DESCRIPTION\": \"La consultation est répartie en 132 lots conformément au catalogue des besoins joint au DCE.\", \"CPV\": [{\"PRINCIPAL\": \"33168000\"}, {\"PRINCIPAL\": \"33000000\"}], \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Ce marché public pourra éventuellement être reconduit 2 fois de manière TACITE pour une durée de 12 mois à compter de sa date d'anniversaire, puis 1 fois de manière expresse pour une période de 12 mois, soit jusqu'au 31/05/2023.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"2023\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-02-22T16:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"8\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"DUME ou les formulaires DC1 et DC2.\", \"CAP_ECO\": \"déclaration concernant le chiffre d'affaires global et le chiffre d'affaires du domaine dactivité faisant lobjet du marché public, réalisés au cours des trois derniers exercices disponibles en fonction de la date de création de lentreprise ou du début dactivité de lopérateur économique dans la mesure où les informations sont disponibles\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-02-25\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Le dossier de consultation des entreprises est téléchargeable sur le site https://www.marches-publics.gouv.fr.La mise en ligne du DCE est totale et seule une réponse électronique est autorisée.Une copie de sauvegarde pourra être envoyée selon les modalités indiquées dans le règlement de consultation. Les variantes ne sont pas autorisées.Les candidats sont invités à remettre des échantillons à l'appui de leur offre selon les modalités décrites dans le Règlement de la Consultation. Dans cette hypothèse, une remise partielle des offres dématérialisées sera acceptée.Des essais de matériels pourront avoir lieu selon les modalités décrites dans le Règlement de la Consultation.. Date d'envoi du présent avis au JOUE et au BOAMP : 23 janvier 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"- Référé précontractuel (Art L551-1 et s. du CJA)- Référé contractuel (art. L 551-13 et s. du CJA)- Recours en contestation de validité du contrat issu de la jurisprudence \\\" Tarn et Garonne \\\".\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-11841"
-  },
-  {
-   "idweb": "19-12121",
-   "id": "19_12121",
-   "contractfolderid": null,
-   "objet": "Fourniture De Polycarburants Pour Les Citernes Du Sdis72",
-   "filename": "BOAMP-J-AO_2019_025009",
-   "famille": "JOUE",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2019-01-25",
-   "datefindiffusion": "2019-02-26",
-   "datelimitereponse": null,
-   "nomacheteur": "SDIS de la Sarthe",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": "1",
-   "marche_public_simplifie_label": "Marché public simplifié",
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "52"
-   ],
-   "dc": [
-    "52"
-   ],
-   "descripteur_libelle": [
-    "Carburant, hydrocarbure"
-   ],
-   "type_marche": [
-    "FOURNITURES"
-   ],
-   "type_marche_facette": [
-    "Fournitures"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-12121\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-12121.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-01-25\", \"DATE_FIN_DIFFUSION\": \"2019-02-26\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"52\", \"LIBELLE\": \"Carburant, hydrocarbure\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Fourniture De Polycarburants Pour Les Citernes Du Sdis72\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"SDIS de la Sarthe\", \"CODE_IDENT_NATIONAL\": \"28720026500018\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"15 boulevard Saint Michel\", \"CP\": \"72190\", \"VILLE\": \"Coulaines\", \"TEL\": \"(+33) 2-43-54-65-50\", \"MEL\": \"samp@sdis72.fr\", \"URL\": \"http://www.sarthe-marchespublics.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.info/\", \"URL_PARTICIPATION\": \"http://www.marches-publics.info/\", \"URL_DOCUMENT\": \"http://www.marches-publics.info/\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Secours à personnes\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture De Polycarburants Pour Les Citernes Du Sdis72\", \"REF_MARCHE\": \"Polycarburants\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Le marché concerne le ravitaillement en carburants Sans plomb 95 (E5), sans plomb 98 (E5) et gazole (B7) de 4 cuves réparties comme suit :Sdis72 - 13 boulevard St Michel 72190 Coulaines / Capacité cuveGazole : 15 000 litresCentre de secours principal - Avenue Henri Pierre Klötz 72000 Le Mans / Capacité cuve Gazole : 5 000 litres, Sans Plomb : 3 000 litresCentre de secours de La Flèche - Boulevard du Québec 72200 La Flèche / Capacité cuve Gazole : 2 000 litresLe Sdis72 a décidé de passer un accord-cadre mono-attributaire, fonctionnant à bons de commande, suivant les dispositions des articles 78 et 80 du décret no 2016-360 du 25 mars 2016 relatif aux marchés publics.Le marché a été estimé à 885 000 euro(s) Ht pour toute la durée du marché. Cette indication est donnée à titre indicatif et n'a pas de valeur contractuelle\", \"CPV\": {\"PRINCIPAL\": \"09132000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"885000\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Le marché concerne le ravitaillement en carburants Sans plomb 95 (E5), sans plomb 98 (E5) et gazole (B7) de 4 cuves réparties comme suit :Sdis72 - 13 boulevard St Michel 72190 Coulaines / Capacité cuveGazole : 15 000 litresCentre de secours principal - Avenue Henri Pierre Klötz 72000 Le Mans / Capacité cuve Gazole : 5 000 litres, Sans Plomb : 3 000 litresCentre de secours de La Flèche - Boulevard du Québec 72200 La Flèche / Capacité cuve Gazole : 2 000 litresLe Sdis72 a décidé de passer un accord-cadre mono-attributaire, fonctionnant à bons de commande, suivant les dispositions des articles 78 et 80 du décret no 2016-360 du 25 mars 2016 relatif aux marchés publics.Le marché a été estimé à 885 000 euro(s) Ht pour toute la durée du marché. Cette indication est donnée à titre indicatif et n'a pas de valeur contractuelle\", \"CPV\": {\"PRINCIPAL\": \"09132000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"885000\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché est conclu pour une durée d'un an renouvelable trois fois un an à compter du 1er juillet 2019 ou de sa date de notification si celle-ci est postérieure au 1er juillet, sans toutefois pouvoir excéder 4 ans, par reconduction expresse\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"Le marché est conclu pour une durée d'un an renouvelable trois fois un an à compter du 1er juillet 2019 ou de sa date de notification si celle-ci est postérieure au 1er juillet, sans toutefois pouvoir excéder 4 ans, par reconduction expresse\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-02-26T23:59:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"- Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire.- Déclaration sur l'honneur du candidat attestant qu'il est en règle, au cours de l'année précédant celle au cours de laquelle a lieu le lancement de la consultation, au regard des articles L. 5212-1, L. 5212-2, L. 5212 5 et L. 5212-9 du code du travail, concernant l'emploi des travailleurs handicapés- Formulaire Dc1, Lettre de candidature _ Habilitation du mandataire par ses co-traitants.(disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat)- Formulaire Dc2, Déclaration du candidat individuel ou du membre du groupement.(disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat)\", \"CAP_ECO\": \"- Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"CAP_TECH\": \"- Certificats de qualifications professionnelles.La preuve de la capacité du candidat peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de travaux attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat- Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation de marchés de même nature.- Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années.- Présentation d'une liste des principales fournitures ou des principaux services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé.- S'il s'appuie, pour présenter sa candidature, sur les capacités professionnelles, techniques et financières d'autres opérateurs économiques, le candidat produit les mêmes documents concernant cet opérateur économique que ceux qui lui sont exigés par l'acheteur public. Le candidat doit également apporter la preuve que chacun de ces opérateurs économiques mettra à sa disposition les moyens nécessaires, pendant toute la durée d'exécution du marché public ou de l'accord-cadre\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-03-29\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.marches-publics.info -Numéro SIRET : 287 200 265 00018Le dossier de consultation est téléchargeable sur le site www.sarthe-marchespublics.fr.La date indiquée du 29 mars 2019 pour l'ouverture des plis n'est donnée qu'à titre indicatif. En France, l'ouverture des plis n'est pas publique.Introduction des recours : conformément à la réglementation,vous pouvez contester les décisions prises dans la présente consultation, en déposant auprès du tribunal administratif de Nantes : - Soit un recours en référé pré-contractuel avant la signature du marché, conformément aux articles L.551-1, L.551-12 du code de justice administrative,- Soit un recours en référé contractuel après la signature du marché, dans les 31 jours qui suivent la date de publication de l'avisd'attribution du contrat ou, à défaut, d'un tel avis, dans les 6 mois qui suivent la date de conclusion de celui-ci, conformément aux articles L.551-13 à L.551-23 du même code, - Soit un recours en contestation de validité du contrat, dans un délai de 2 mois à compter de l'établissement des mesures de publicité appropriées. Date d'envoi du présent avis au JOUE et au BOAMP : 23 janvier 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-12121"
   },
   {
    "idweb": "19-13747",
@@ -4385,6 +4385,65 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-12529"
   },
   {
+   "idweb": "19-13483",
+   "id": "19_13483",
+   "contractfolderid": null,
+   "objet": "Système d'information de laboratoires d'analyses de biologie vétérinaire",
+   "filename": "BOAMP-J-AO_2019_027005",
+   "famille": "JOUE",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2019-01-27",
+   "datefindiffusion": "2019-03-01",
+   "datelimitereponse": null,
+   "nomacheteur": "ONIRIS",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "DIALOGUE_COMPETITIF",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Dialogue compétitif",
+   "procedure_categorise": "DIALOGUE_COMPETITIF/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "186"
+   ],
+   "dc": [
+    "186"
+   ],
+   "descripteur_libelle": [
+    "Logiciel"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-13483\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-13483.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-01-27\", \"DATE_FIN_DIFFUSION\": \"2019-03-01\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"186\", \"LIBELLE\": \"Logiciel\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Système d'information de laboratoires d'analyses de biologie vétérinaire\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"ONIRIS\", \"CODE_IDENT_NATIONAL\": \"13053500800010\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"Ecole nationale vétérinaire agro-alimentaire et de l'alimentation Atlanpôle La Chantrerie 101 route de Gâchet\", \"CP\": \"44307\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-68-77-94\", \"MEL\": \"achats@oniris-nantes.fr\", \"URL\": \"https://www.oniris-nantes.fr/accueil/marches-publics/\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-publics.gouv.fr\", \"URL_PARTICIPATION\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=412942&orgAcronyme=b4n\", \"URL_DOCUMENT\": \"https://www.marches-publics.gouv.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Enseignement supérieur et recherche agro-alimentaire et soins vétérinaire\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Système d'information de laboratoires d'analyses de biologie vétérinaire\", \"REF_MARCHE\": \"2019-006\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Fourniture et mise en service du système d'information de laboratoires d'analyses de biologie vétérinaire\", \"CPV\": {\"PRINCIPAL\": \"48000000\", \"SUPPLEMENTAIRE\": [\"LA21\", \"LA55\", \"RD03\"]}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Fourniture et mise en service du système d'information de laboratoires d'analyses de biologie vétérinaire d'ONIRIS\", \"CPV\": {\"PRINCIPAL\": \"48000000\", \"SUPPLEMENTAIRE\": [\"LA21\", \"RD03\", \"LA55\"]}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"8\", \"RENOUVELLEMENT_NON\": \"\", \"NB_CANDIDATS\": {\"NB_MAX_OFFRE\": \"6\", \"NB_MIN_OFFRE\": \"3\", \"LIMITATION_CANDIDATS\": \"Les candidats seront sélectionnés sur les critères suivants: Expérience dans la mise en uvre doutils similairesMaîtrise des processus administratifs et comptables publicsMaitrise de lenvironnement : laboratoires danalyse en biologie vétérinaire Garanties et capacités techniques et financièresRéférences professionnelles similairesModalités dexécution envisagées (note dintention ; méthodes de travail) : 5 pages maximum\"}, \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"DIALOGUE_COMPETITIF\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_OUI\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-03-04T12:00:00+01:00\", \"LIMITE_ENVOI_INVIT\": \"2019-03-30\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO_MARCHE_OUI\": \"\", \"CAP_TECH_OFFRE_OUI\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"RENS_COMPLEMENT\": \"Appel à candidature en vue de sélectionner 3 à 6 opérateurs économiques admis à participer au dialogue compétitif pour la fourniture d'un système d'information des laboratoires d'analyse biomédicales vétérinaires.Les modalités d'appel à candidature sont décrites dans le règlement de la consultation disponible sur https://www.marches-publics.gouv.fr Les dossiers de candidature sont remise par voie dématérialisée EXCLUSIVEMENT sur https://www.marches-publics.gouv.fr. Date d'envoi du présent avis au JOUE et au BOAMP : 25 janvier 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr/\"}}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-13483"
+  },
+  {
    "idweb": "19-13111",
    "id": "19_13111",
    "contractfolderid": null,
@@ -4444,65 +4503,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-13111\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-85573\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-06-20\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-06-22\", \"DATE_FIN_DIFFUSION\": \"2018-08-03\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"119\", \"NUM_ANNONCE\": \"270773\", \"DATE_PUBLICATION\": \"2018-06-23\"}}]}}, \"NOM_HTML\": \"19-13111.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-01-27\", \"DATE_FIN_DIFFUSION\": \"2019-02-25\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"197\", \"LIBELLE\": \"Maîtrise d'oeuvre\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Accord-cadre de maîtrise d'oeuvre urbaine, infrastructure et paysage pour l'aménagement du quartier de la Gare à Cholet (49)\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"ALTER Public\", \"CONTACT\": \"Mme Lucile THOMAS\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"48 C Boulevard Foch - BP 80110\", \"CP\": \"49101\", \"VILLE\": \"Angers cedex 02\", \"TEL\": \"(+33) -24-18-21-21\", \"MEL\": \"l.thomas@anjouloireterritoire.fr\", \"URL\": \"http://www.anjouloireterritoire.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.achatpublic.com/sdm/ent/gen/index.jsp\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Société publique locale d'aménagement\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Aménagement de territoire - SPL\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Accord-cadre de maîtrise d'oeuvre urbaine, infrastructure et paysage pour l'aménagement du quartier de la Gare à Cholet (49)\", \"REF_MARCHE\": \"AO 6847 18 22\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Missions notamment : plan guide d'aménagement / Plan masse directeur sur esquisse retenue / AVP / Assistance technique et OPC générale en phase études / Gestion dynamique de projet / Assistance à l'aménageur pour la concertation du projet / Elaboration des documents d'urbanisme opérationnel / missions type loi MOP\", \"CPV\": {\"PRINCIPAL\": \"71000000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"4133902.59\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Missions notamment : plan guide d'aménagement / Plan masse directeur sur esquisse retenue / AVP / Assistance technique et OPC générale en phase études / Gestion dynamique de projet / Assistance à l'aménageur pour la concertation du projet / Elaboration des documents d'urbanisme opérationnel / missions type loi MOP\", \"CPV\": [{\"PRINCIPAL\": \"71300000\"}, {\"PRINCIPAL\": \"71400000\"}], \"CODE_NUTS\": \"FRG02\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Qualité de la note méthodologique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Des modifications en cours d'exécution -(avenants) pourront être passées et des clauses de réexamens.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"NEGOCIE\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"119\", \"NUM_ANNONCE\": \"270773\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"6847-01\", \"INTITULE\": \"Accord-cadre de maîtrise d'oeuvre urbaine, infrastructure et paysage\", \"TITULAIRE\": [{\"DENOMINATION\": \"Vera Broëz\", \"ADRESSE\": \"2 passage Basfroi\", \"CP\": \"75011\", \"VILLE\": \"Paris\", \"CODE_NUTS\": \"FR101\", \"URL\": \"http://www.vera-broez.com\", \"PME_OUI\": \"\"}, {\"DENOMINATION\": \"Verdi Ingenierie Sud OUest\", \"ADRESSE\": \"56 rue des Maisons Rouges\", \"CP\": \"79000\", \"VILLE\": \"Niort\", \"CODE_NUTS\": \"FRI33\", \"URL\": \"http://www.verdi-ingenierie.fr\", \"PME_OUI\": \"\"}, {\"DENOMINATION\": \"Zephyr Paysages\", \"ADRESSE\": \"Quai de Versailles - Péniche le Nautilus\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"CODE_NUTS\": \"FRG02\", \"URL\": \"http://www.zephyr-paysages.fr\", \"PME_OUI\": \"\"}], \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-01-21\", \"NB_OFFRE_RECU\": \"3\", \"GROUPEMENT_ECONOMIQUE\": \"\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"4133902.59\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 25 janvier 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé pré-contractuel prévu aux articles L.551-1 à L.551-12 du Code de justice administrative (CJA), et pouvant être exercé avant la signature du contrat. Référé contractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant être exercé dans les délais prévus àl'article R. 551-7 du CJA. Recours pour excès depouvoir contre une décision administrative prévu aux articles R. 421-1 à R. 421-7 du CJA, et pouvant être exercé dans les 2 mois suivant la notification ou publication de la décision de l'organisme (le recours ne peut plus, toutefois, être exercé après la signature du contrat). Recours de pleine juridiction ouvert aux tiers justifiant d'un intérêt lésé, et pouvant être exercé dans les deux mois suivant la date à laquelle la conclusion du contrat est rendue publique.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes,\", \"ADRESSE\": \"Allée de l'ile Gloriette, BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"MEL\": \"greffe.ta.nantes@juradm.fr\", \"URL\": \"http://www.conseil-etat.fr/ta/nantes/index_ta_co.shtml\"}}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-13111"
-  },
-  {
-   "idweb": "19-13483",
-   "id": "19_13483",
-   "contractfolderid": null,
-   "objet": "Système d'information de laboratoires d'analyses de biologie vétérinaire",
-   "filename": "BOAMP-J-AO_2019_027005",
-   "famille": "JOUE",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2019-01-27",
-   "datefindiffusion": "2019-03-01",
-   "datelimitereponse": null,
-   "nomacheteur": "ONIRIS",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "DIALOGUE_COMPETITIF",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Dialogue compétitif",
-   "procedure_categorise": "DIALOGUE_COMPETITIF/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "186"
-   ],
-   "dc": [
-    "186"
-   ],
-   "descripteur_libelle": [
-    "Logiciel"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-13483\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-13483.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-01-27\", \"DATE_FIN_DIFFUSION\": \"2019-03-01\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"186\", \"LIBELLE\": \"Logiciel\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Système d'information de laboratoires d'analyses de biologie vétérinaire\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"ONIRIS\", \"CODE_IDENT_NATIONAL\": \"13053500800010\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"Ecole nationale vétérinaire agro-alimentaire et de l'alimentation Atlanpôle La Chantrerie 101 route de Gâchet\", \"CP\": \"44307\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-68-77-94\", \"MEL\": \"achats@oniris-nantes.fr\", \"URL\": \"https://www.oniris-nantes.fr/accueil/marches-publics/\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-publics.gouv.fr\", \"URL_PARTICIPATION\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=412942&orgAcronyme=b4n\", \"URL_DOCUMENT\": \"https://www.marches-publics.gouv.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Enseignement supérieur et recherche agro-alimentaire et soins vétérinaire\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Système d'information de laboratoires d'analyses de biologie vétérinaire\", \"REF_MARCHE\": \"2019-006\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Fourniture et mise en service du système d'information de laboratoires d'analyses de biologie vétérinaire\", \"CPV\": {\"PRINCIPAL\": \"48000000\", \"SUPPLEMENTAIRE\": [\"LA21\", \"LA55\", \"RD03\"]}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Fourniture et mise en service du système d'information de laboratoires d'analyses de biologie vétérinaire d'ONIRIS\", \"CPV\": {\"PRINCIPAL\": \"48000000\", \"SUPPLEMENTAIRE\": [\"LA21\", \"RD03\", \"LA55\"]}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"8\", \"RENOUVELLEMENT_NON\": \"\", \"NB_CANDIDATS\": {\"NB_MAX_OFFRE\": \"6\", \"NB_MIN_OFFRE\": \"3\", \"LIMITATION_CANDIDATS\": \"Les candidats seront sélectionnés sur les critères suivants: Expérience dans la mise en uvre doutils similairesMaîtrise des processus administratifs et comptables publicsMaitrise de lenvironnement : laboratoires danalyse en biologie vétérinaire Garanties et capacités techniques et financièresRéférences professionnelles similairesModalités dexécution envisagées (note dintention ; méthodes de travail) : 5 pages maximum\"}, \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"DIALOGUE_COMPETITIF\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_OUI\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-03-04T12:00:00+01:00\", \"LIMITE_ENVOI_INVIT\": \"2019-03-30\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO_MARCHE_OUI\": \"\", \"CAP_TECH_OFFRE_OUI\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"RENS_COMPLEMENT\": \"Appel à candidature en vue de sélectionner 3 à 6 opérateurs économiques admis à participer au dialogue compétitif pour la fourniture d'un système d'information des laboratoires d'analyse biomédicales vétérinaires.Les modalités d'appel à candidature sont décrites dans le règlement de la consultation disponible sur https://www.marches-publics.gouv.fr Les dossiers de candidature sont remise par voie dématérialisée EXCLUSIVEMENT sur https://www.marches-publics.gouv.fr. Date d'envoi du présent avis au JOUE et au BOAMP : 25 janvier 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr/\"}}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-13483"
   },
   {
    "idweb": "19-13495",

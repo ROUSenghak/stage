@@ -6267,6 +6267,65 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:15-177754"
   },
   {
+   "idweb": "15-177861",
+   "id": "15_177861",
+   "contractfolderid": null,
+   "objet": "Télérelève des compteurs électriques supérieurs à 36 kVA - Année 2016 renouvelable en 2017, 2018 et 2019",
+   "filename": "MAPA-AO_2015_329001",
+   "famille": "MAPA",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": "72",
+   "famille_libelle": "Marchés <90 k€ (MAPA)",
+   "dateparution": "2015-11-25",
+   "datefindiffusion": "2015-12-16",
+   "datelimitereponse": "2015-12-16T16:00:00+00:00",
+   "nomacheteur": "Le Mans Métropole - Communauté Urbaine",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "163"
+   ],
+   "dc": [
+    "163"
+   ],
+   "descripteur_libelle": [
+    "Informatique (prestations de services)"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"15-177861\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"15-177861.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2015-11-25\", \"DATE_LIMITE_REPONSE\": \"2015-12-16T17:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2015-12-16\", \"CLASSES\": {\"CLASSE\": {\"CODE\": \"72\", \"LIBELLE\": \"Services informatiques\"}}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"163\", \"LIBELLE\": \"Informatique (prestations de services)\"}}, \"DEP_PUBLICATION\": \"72\", \"DEP_PRESTATION\": \"72\", \"RESUME_OBJET\": \"Télérelève des compteurs électriques supérieurs à 36 kVA - Année 2016 renouvelable en 2017, 2018 et 2019\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Le Mans Métropole - Communauté Urbaine\", \"CORRESPONDANT\": \"Le Président\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, CS 40010 - 16 avenue François Mitterrand - Le Condorcet, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"Le Mans\", \"TEL\": \"02-43-47-37-31\", \"FAX\": \"02-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Télérelève des compteurs électriques supérieurs à 36 kVA - Année 2016 renouvelable en 2017, 2018 et 2019\", \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Ce marché concerne la récupération et mise en forme des données de consommation d'énergie des compteurs électriques supérieurs à 36 kVA.Cette consultation s'effectue dans le cadre d'un groupement de commandes conformément à l'article 8 du Code des Marchés Publics avec les organismes suivants:-Le Mans Métropole - Communauté Urbaine- Ville du MansLe coordonnateur du groupement de commandes est Le Mans Métropole.Il s'agit de marchés à bons de commande en vertu de l'article 77 du Code des marchés Publics avec un montant maximum annuel par collectivité détaillé ci-dessous, passés pour une période allant du 1er janvier 2016 (ou de sa notification si celle-ci est postérieure) et en cas de renouvellement pour 3 autres périodes de 12 mois chacune, sans que ce délai ne puisse excéder le 31 décembre 2019.Le Mans Métropole : Montant maximum annuel : 5 000 euros HTVille du Mans : Montant maximum annuel : 14 000 euros HT\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"Prix des prestations\"}, {\"@POIDS\": \"40\", \"#text\": \"Valeur technique de l'offre\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2015-12-16T17:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Aucune garantie n'est prévue\", \"FINANCEMENT\": \"Aucune avance ne sera versée.Prix unitaires révisables annuellementLe paiement est effectué par virement selon les règles de la comptabilité publique. Délai global de paiement de 30 jours.Le marché est financé sur fonds propres du budget principal de la collectivité\", \"FORME_JURIDIQUE\": \"Groupement solidaire\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire obligatoirement par le candidat, à l'appui de sa candidature\", \"Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire\", \"Déclaration sur l'honneur du candidat justifiant qu'il n'entre dans aucun des cas mentionnés à l'article 43 du code des marchés publics, concernant les interdictions de soumissionner\", \"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"Présentation d'une liste des principales fournitures ou des principaux services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Les livraisons et les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique\"]}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"SV/15016S\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Retrouvez cet avis intégral, l'accès au dossier et le guichet de dépôt sur http://www.sarthe-marchespublics.frCriteres d'attributions : Le critère de la valeur technique est divisé en sous-critères, analysés de la façon suivante :- le délai sur lequel l'entreprise s'engage pour la mise en service de la prestation : noté sur 2 points. Ce délai sera indiqué par le candidat dans le cadre d'acte d'engagement prévu à cet effet et ne pourra dépasser le délai plafond de 1 mois.En outre, dans un mémoire technique, le candidat détaillera :- l'ergonomie, la facilité d'utilisation et la qualité/convivialité de l'interface seront analysés à partir de l'accès temporaire à la plateforme sur un site de test avec données \\\"exemple\\\" pour lequel les conditions d'accès à ce site seront transmises (adresse web, identifiant et mot de passe si nécessaire permettant au service gestionnaire de tester l'outil proposé) : noté sur 6 points- lafacilité d'accès à la plateforme et l'étendue la plus large d'informations disponibles : mode de fonctionnement du service d'assistance, description de son fonctionnement (mode de contact, délai de réponse maxi, processus de traçabilité, etc) : noté sur 2 pointsSi aucune offre n'obtient la note maximale de 10, la meilleure offre verra sa note portée à la note maximale, les notes des autres offres seront recalculées de façon proportionnelle.Type de marché de Services : Services informatiques et services connexesCode NUTS : FR514Conditions et mode de paiement pour obtenir les documents contractuels et additionnels :Date limite pour la réception des demandes de documents ou pour l'accès aux documents : 16/12/2015 à 17:00Marché périodique : OUICalendrier prévisionnel de publication des prochains avis : dernier semestre 2019La procédure d'achat du présent avis est couverte par l'accord sur les marchés publics de l'OMC : NONInstance chargée des procédures de recours : Tribunal administratif de Nantes, 6, allée de l'Ile-Gloriette, BP 2411144041 NantesTél : 0240994600 Fax : 0240994658Mel : greffe.ta-nantes@juradm.frOrgane chargé des procédures de médiation : Comité Consultatif de règlement amiable des litiges relatifs aux marchés publics, 8 rue de Chateaubriand44000 NantesService auprès duquel des renseignements peuvent être obtenus concernant l'introduction des recours : Tribunal administratif de Nantes, 6, allée de l'Ile-Gloriette, BP 2411144041 NantesTél : 0240994600 Fax : 0240994658Mel : greffe.ta-nantes@juradm.frLe dossier de consultation gratuit sous forme de CD Rom peut être demandé au Pôle Marchés et Achats Publics par fax, courrier, mail ou sur place. Le dossier de consultation électronique peut être téléchargé sur http://www.sarthe-marchespublics.fr. Le dossier de consultation peut être demandé jusqu'au jour de la date limite de remise des offres. Conformément à la législationfrançaise, l'ouverture des plis n'est pas publique. Les critères de sélection des candidats sont :1-Garanties et capacités techniques et professionnelles 2-Garanties et Capacités financières. Les offres peuvent être transmises par lettre recommandée avec accusé de réception ou déposées contre récépissé au Pôle Marchés et Achats Publics ou par voie électronique. Les modalités de transmission électronique des plis sont définies dans le règlement de la consultation. Les candidats peuvent obtenir les documents sans s'identifier sur la plateforme toutefois, il est préconisé de s'identifier afin d'être tenu informé des modifications ou compléments d'informations éventuels en cours de publicité.Renseignements administratifs : Solange Vérité tél 02 43 47 37 39Renseignements techniques : Valentin Gubian tél 02 43 47 31 61\"}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:15-177861"
+  },
+  {
    "idweb": "15-177374",
    "id": "15_177374",
    "contractfolderid": null,
@@ -6325,65 +6384,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"15-177374\", \"TYPE_AVIS\": {\"FAMILLE\": {\"DSP\": \"\"}, \"PERIMETRE\": {\"DSP\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"12-126791\", \"TYPE_AVIS\": {\"FAMILLE\": {\"DSP\": \"\"}, \"PERIMETRE\": {\"DSP\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_PAPIER\": {\"TYPE_EDITION\": \"B\", \"NUM_PARUTION\": \"211\", \"NUM_ANNONCE\": \"131\", \"DATE_PUBLICATION\": \"2014-11-01\"}}}}, \"NOM_HTML\": \"15-177374.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2015-11-25\", \"DATE_FIN_DIFFUSION\": \"2015-12-24\", \"CLASSES\": {\"CLASSE\": [{\"CODE\": \"34\", \"LIBELLE\": \"Produits de l'industrie automobile\"}, {\"CODE\": \"63\", \"LIBELLE\": \"Services auxiliaires des transports\"}, {\"CODE\": \"74\", \"LIBELLE\": \"Services fournis principalement aux entreprises\"}]}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"359\", \"LIBELLE\": \"Véhicules\"}, {\"CODE\": \"406\", \"LIBELLE\": \"Délégation de service public\"}]}, \"DEP_PUBLICATION\": \"44\", \"DEP_PRESTATION\": \"44\", \"RESUME_OBJET\": \"convention de délégation de service public pour l'exploitation des parcs publics de stationnement 'gare' à Nantes\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Nantes Métropole\", \"CORRESPONDANT\": \"M. le Président\", \"CONTACT\": \"Département Déplacements, service des parkings et stationnement, à l'attention de Mme Sandrine Le Bourhis\", \"ADRESSE\": \"2 cours du champ de Mars\", \"CP\": \"44923\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-48-48\", \"MEL\": \"sandrine.le-bourhis@nantesmetropole.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.nantesmetropole.fr\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"Etablissement public de coopération intercommunale\"}, \"OBJET\": {\"TITRE_MARCHE\": \"Délégation de service public pour l'exploitation des parcs publics de stationnement 'Gare' de Nantes Métropole\", \"OBJET_COMPLET\": \"Convention de délégation de service public pour l'exploitation des parcs publics de stationnement 'Gare' (Fresche Blanc, Gare Nord, gare Sud 2, gare sud 3, gare sud 4, Ilôt 8A1) de Nantes Métropole impliquant des travaux de maintenance, entretien et réparations. La rémunération du délégataire sera substantiellement liée aux résultats de l'exploitation du service.\", \"CPV\": {\"PRINCIPAL\": \"63712400\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Nantes\", \"CP\": \"44300\", \"VILLE\": \"nantes\", \"CODE_NUTS\": \"FR511\"}, \"DELEGATION\": {\"TEXTE_APPLICATION\": \"Procédure de délégation de service public en application des dispositions des articles L.1411-1 et suivants du code général des collectivités territoriales.\", \"DOMAINE\": {\"AUTRE\": \"stationnement\"}, \"DUREE_AN\": \"4\", \"DATE_DEBUT\": \"2016-01-01\"}}, \"PROCEDURE\": {\"FONDS_COMMUNAUTAIRES_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_LIBRE\": \"Offre économiquement la plus avantageuse, appréciée en fonction des critères suivants :pour l'analyse des offres, les critètres suivants, ni hiérarchisés, ni pondérés ont été pris en compte :a) qualité du service rendu aux usagers ; b) intérêt économique de l'offre ; c) qualité technique des propositions ; d) pertinence et qualité des propositions en termes de responsabilité sociale et environnementale\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"11241000\"}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette Bp2411\", \"CP\": \"44000\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette Bp2411\", \"CP\": \"44000\", \"VILLE\": \"Nantes cedex01\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:15-177374"
-  },
-  {
-   "idweb": "15-177861",
-   "id": "15_177861",
-   "contractfolderid": null,
-   "objet": "Télérelève des compteurs électriques supérieurs à 36 kVA - Année 2016 renouvelable en 2017, 2018 et 2019",
-   "filename": "MAPA-AO_2015_329001",
-   "famille": "MAPA",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": "72",
-   "famille_libelle": "Marchés <90 k€ (MAPA)",
-   "dateparution": "2015-11-25",
-   "datefindiffusion": "2015-12-16",
-   "datelimitereponse": "2015-12-16T16:00:00+00:00",
-   "nomacheteur": "Le Mans Métropole - Communauté Urbaine",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "163"
-   ],
-   "dc": [
-    "163"
-   ],
-   "descripteur_libelle": [
-    "Informatique (prestations de services)"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"15-177861\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"15-177861.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2015-11-25\", \"DATE_LIMITE_REPONSE\": \"2015-12-16T17:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2015-12-16\", \"CLASSES\": {\"CLASSE\": {\"CODE\": \"72\", \"LIBELLE\": \"Services informatiques\"}}, \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"163\", \"LIBELLE\": \"Informatique (prestations de services)\"}}, \"DEP_PUBLICATION\": \"72\", \"DEP_PRESTATION\": \"72\", \"RESUME_OBJET\": \"Télérelève des compteurs électriques supérieurs à 36 kVA - Année 2016 renouvelable en 2017, 2018 et 2019\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Le Mans Métropole - Communauté Urbaine\", \"CORRESPONDANT\": \"Le Président\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, CS 40010 - 16 avenue François Mitterrand - Le Condorcet, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"Le Mans\", \"TEL\": \"02-43-47-37-31\", \"FAX\": \"02-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Télérelève des compteurs électriques supérieurs à 36 kVA - Année 2016 renouvelable en 2017, 2018 et 2019\", \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Ce marché concerne la récupération et mise en forme des données de consommation d'énergie des compteurs électriques supérieurs à 36 kVA.Cette consultation s'effectue dans le cadre d'un groupement de commandes conformément à l'article 8 du Code des Marchés Publics avec les organismes suivants:-Le Mans Métropole - Communauté Urbaine- Ville du MansLe coordonnateur du groupement de commandes est Le Mans Métropole.Il s'agit de marchés à bons de commande en vertu de l'article 77 du Code des marchés Publics avec un montant maximum annuel par collectivité détaillé ci-dessous, passés pour une période allant du 1er janvier 2016 (ou de sa notification si celle-ci est postérieure) et en cas de renouvellement pour 3 autres périodes de 12 mois chacune, sans que ce délai ne puisse excéder le 31 décembre 2019.Le Mans Métropole : Montant maximum annuel : 5 000 euros HTVille du Mans : Montant maximum annuel : 14 000 euros HT\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"Prix des prestations\"}, {\"@POIDS\": \"40\", \"#text\": \"Valeur technique de l'offre\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2015-12-16T17:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Aucune garantie n'est prévue\", \"FINANCEMENT\": \"Aucune avance ne sera versée.Prix unitaires révisables annuellementLe paiement est effectué par virement selon les règles de la comptabilité publique. Délai global de paiement de 30 jours.Le marché est financé sur fonds propres du budget principal de la collectivité\", \"FORME_JURIDIQUE\": \"Groupement solidaire\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire obligatoirement par le candidat, à l'appui de sa candidature\", \"Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire\", \"Déclaration sur l'honneur du candidat justifiant qu'il n'entre dans aucun des cas mentionnés à l'article 43 du code des marchés publics, concernant les interdictions de soumissionner\", \"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"Présentation d'une liste des principales fournitures ou des principaux services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Les livraisons et les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique\"]}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"SV/15016S\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Retrouvez cet avis intégral, l'accès au dossier et le guichet de dépôt sur http://www.sarthe-marchespublics.frCriteres d'attributions : Le critère de la valeur technique est divisé en sous-critères, analysés de la façon suivante :- le délai sur lequel l'entreprise s'engage pour la mise en service de la prestation : noté sur 2 points. Ce délai sera indiqué par le candidat dans le cadre d'acte d'engagement prévu à cet effet et ne pourra dépasser le délai plafond de 1 mois.En outre, dans un mémoire technique, le candidat détaillera :- l'ergonomie, la facilité d'utilisation et la qualité/convivialité de l'interface seront analysés à partir de l'accès temporaire à la plateforme sur un site de test avec données \\\"exemple\\\" pour lequel les conditions d'accès à ce site seront transmises (adresse web, identifiant et mot de passe si nécessaire permettant au service gestionnaire de tester l'outil proposé) : noté sur 6 points- lafacilité d'accès à la plateforme et l'étendue la plus large d'informations disponibles : mode de fonctionnement du service d'assistance, description de son fonctionnement (mode de contact, délai de réponse maxi, processus de traçabilité, etc) : noté sur 2 pointsSi aucune offre n'obtient la note maximale de 10, la meilleure offre verra sa note portée à la note maximale, les notes des autres offres seront recalculées de façon proportionnelle.Type de marché de Services : Services informatiques et services connexesCode NUTS : FR514Conditions et mode de paiement pour obtenir les documents contractuels et additionnels :Date limite pour la réception des demandes de documents ou pour l'accès aux documents : 16/12/2015 à 17:00Marché périodique : OUICalendrier prévisionnel de publication des prochains avis : dernier semestre 2019La procédure d'achat du présent avis est couverte par l'accord sur les marchés publics de l'OMC : NONInstance chargée des procédures de recours : Tribunal administratif de Nantes, 6, allée de l'Ile-Gloriette, BP 2411144041 NantesTél : 0240994600 Fax : 0240994658Mel : greffe.ta-nantes@juradm.frOrgane chargé des procédures de médiation : Comité Consultatif de règlement amiable des litiges relatifs aux marchés publics, 8 rue de Chateaubriand44000 NantesService auprès duquel des renseignements peuvent être obtenus concernant l'introduction des recours : Tribunal administratif de Nantes, 6, allée de l'Ile-Gloriette, BP 2411144041 NantesTél : 0240994600 Fax : 0240994658Mel : greffe.ta-nantes@juradm.frLe dossier de consultation gratuit sous forme de CD Rom peut être demandé au Pôle Marchés et Achats Publics par fax, courrier, mail ou sur place. Le dossier de consultation électronique peut être téléchargé sur http://www.sarthe-marchespublics.fr. Le dossier de consultation peut être demandé jusqu'au jour de la date limite de remise des offres. Conformément à la législationfrançaise, l'ouverture des plis n'est pas publique. Les critères de sélection des candidats sont :1-Garanties et capacités techniques et professionnelles 2-Garanties et Capacités financières. Les offres peuvent être transmises par lettre recommandée avec accusé de réception ou déposées contre récépissé au Pôle Marchés et Achats Publics ou par voie électronique. Les modalités de transmission électronique des plis sont définies dans le règlement de la consultation. Les candidats peuvent obtenir les documents sans s'identifier sur la plateforme toutefois, il est préconisé de s'identifier afin d'être tenu informé des modifications ou compléments d'informations éventuels en cours de publicité.Renseignements administratifs : Solange Vérité tél 02 43 47 37 39Renseignements techniques : Valentin Gubian tél 02 43 47 31 61\"}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:15-177861"
   }
  ]
 }

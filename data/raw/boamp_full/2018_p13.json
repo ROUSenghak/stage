@@ -2802,66 +2802,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-64828"
   },
   {
-   "idweb": "18-66611",
-   "id": "18_66611",
-   "contractfolderid": null,
-   "objet": "ACQUISITION D'UN CAMION BENNE A ORDURES MÉNAGÈRES de 19 tonnes",
-   "filename": "BOAMP-N-IC-AA_2018_136012",
-   "famille": "FNS",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2018-05-16",
-   "datefindiffusion": "2018-06-30",
-   "datelimitereponse": null,
-   "nomacheteur": "CC DE CHAMPAGNE CONLINOISE PAYS SILLE",
-   "titulaire": [
-    "MERCEDES Etoile du Mans",
-    "FAUN Environnement"
-   ],
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "ATTRIBUTION",
-   "sousnature": null,
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "34"
-   ],
-   "dc": [
-    "34"
-   ],
-   "descripteur_libelle": [
-    "Benne"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "18-17416"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"18-17416\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-02-06\", \"DATE_FIN_DIFFUSION\": \"2018-02-23\"}}}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-66611\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-17416\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-02-06\", \"DATE_FIN_DIFFUSION\": \"2018-02-23\"}}}}, \"NOM_HTML\": \"18-66611.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-05-16\", \"DATE_FIN_DIFFUSION\": \"2018-06-30\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"34\", \"LIBELLE\": \"Benne\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"ACQUISITION D'UN CAMION BENNE A ORDURES MÉNAGÈRES de 19 tonnes\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CC DE CHAMPAGNE CONLINOISE PAYS SILLE\", \"CORRESPONDANT\": \"Mme VALLEE Chantal, DGS\", \"ADRESSE\": \"4 rue de Gaucher BP 11\", \"CP\": \"72240\", \"VILLE\": \"Conlie\", \"TEL\": \"02-43-52-11-67\", \"MEL\": \"chantal.vallee@4cps.fr\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"OBJET\": {\"OBJET_COMPLET\": \"ACQUISITION D'UN CAMION BENNE A ORDURES MÉNAGÈRES de 19 tonnes\", \"CPV\": {\"PRINCIPAL\": \"34144511\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_LOT\": \"1\", \"DESCRIPTION\": \"Fourniture d'un châssis cabine d'un PTAC de 19 tonnes\", \"TITULAIRE\": {\"DENOMINATION\": \"MERCEDES Etoile du Mans\", \"ADRESSE\": \"La Belle Étoile, Route d'Angers\", \"CP\": \"72230\", \"VILLE\": \"Moncé-en-Belin\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-04-03\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT_MINI\": {\"@DEVISE\": \"EUR\", \"#text\": \"111100\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"2\", \"DESCRIPTION\": \"Fourniture et montage d'une benne à ordures ménagères de 16m3 avec lève conteneur\", \"TITULAIRE\": {\"DENOMINATION\": \"FAUN Environnement\", \"ADRESSE\": \"625 rue Languedoc\", \"CP\": \"07500\", \"VILLE\": \"Guilherand Granges\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-04-03\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT_MINI\": {\"@DEVISE\": \"EUR\", \"#text\": \"60734\"}}}]}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\"}}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-66611"
-  },
-  {
    "idweb": "18-62256",
    "id": "18_62256",
    "contractfolderid": null,
@@ -2924,6 +2864,66 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-62256\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-168740\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-11-29\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-12-01\", \"DATE_FIN_DIFFUSION\": \"2018-01-09\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"231\", \"NUM_ANNONCE\": \"481137\", \"DATE_PUBLICATION\": \"2017-12-01\"}}]}}, \"NOM_HTML\": \"18-62256.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-05-16\", \"DATE_FIN_DIFFUSION\": \"2018-07-17\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"230\", \"LIBELLE\": \"Mobilier\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"Fourniture de mobiliers administratifs - 85000 - La Roche-sur-Yon\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"LA ROCHE-SUR-YON AGGLOMERATION\", \"CONTACT\": \"Monsieur le Président\", \"ADJUDICATEUR_NUTS\": \"FRG05\", \"ADRESSE\": \"54, rue René Goscinny\", \"CP\": \"85000\", \"VILLE\": \"La Roche-sur-Yon\", \"TEL\": \"(+33) 2-51-47-45-74\", \"FAX\": \"(+33) 2-51-47-49-72\", \"MEL\": \"boris.censier@larochesuryon.fr\", \"URL\": \"http://www.larochesuryonagglomeration.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de mobiliers administratifs\", \"REF_MARCHE\": \"17RSYAG-057\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Fourniture de mobiliers administratifs\", \"CPV\": {\"PRINCIPAL\": \"39100000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"450000\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"01\", \"INTITULE\": \"Acquisition de sièges et d'assises\", \"DESCRIPTION\": \"Acquisition de sièges et d'assises\", \"CPV\": {\"PRINCIPAL\": \"39130000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"55\", \"#text\": \"valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"45\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"02\", \"INTITULE\": \"Acquisition de plans, tables, et rangements\", \"DESCRIPTION\": \"Acquisition de plans, tables, et rangements\", \"CPV\": {\"PRINCIPAL\": \"39130000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"55\", \"#text\": \"valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"45\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2017\", \"NUM_PARUTION\": \"231\", \"NUM_ANNONCE\": \"481137\", \"DATE_PUBLICATION\": \"2017-12-01\"}}}, \"ATTRIBUTION\": {\"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"G18-010\", \"NUM_LOT\": \"01\", \"INTITULE\": \"acquisition de sièges et d'assises\", \"TITULAIRE\": {\"DENOMINATION\": \"VENDEE BUREAU\", \"CP\": \"85170\", \"VILLE\": \"DOMPIERRE-SUR-YON\", \"CODE_NUTS\": \"FRG05\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-05-07\", \"NB_OFFRE_RECU\": \"3\", \"NB_OFFRE_RECU_ELECT\": \"1\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"200000\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"G18-011\", \"NUM_LOT\": \"02\", \"INTITULE\": \"acquisition de plans, tables et rangements\", \"TITULAIRE\": {\"DENOMINATION\": \"VENDEE BUREAU\", \"CP\": \"85170\", \"VILLE\": \"DOMPIERRE-SUR-YON\", \"CODE_NUTS\": \"FRG05\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-05-07\", \"NB_OFFRE_RECU\": \"3\", \"NB_OFFRE_RECU_ELECT\": \"1\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"250000\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 14 mai 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"Ville de La Roche-sur-Yon\", \"ADRESSE\": \"1, place Napoléon\", \"CP\": \"85000\", \"VILLE\": \"La Roche-sur-Yon\", \"CODE_NUTS\": \"FRG05\", \"MEL\": \"boris.censier@larochesuryon.fr\", \"URL\": \"http://www.ville-larochesuryon.fr\"}, {\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"CCAS de La Roche-sur-Yon\", \"ADRESSE\": \"1, place Napoléon\", \"CP\": \"85000\", \"VILLE\": \"La Roche-sur-Yon\", \"CODE_NUTS\": \"FRG05\", \"MEL\": \"boris.censier@larochesuryon.fr\", \"URL\": \"http://www.ville-larochesuryon.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-62256"
+  },
+  {
+   "idweb": "18-66611",
+   "id": "18_66611",
+   "contractfolderid": null,
+   "objet": "ACQUISITION D'UN CAMION BENNE A ORDURES MÉNAGÈRES de 19 tonnes",
+   "filename": "BOAMP-N-IC-AA_2018_136012",
+   "famille": "FNS",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2018-05-16",
+   "datefindiffusion": "2018-06-30",
+   "datelimitereponse": null,
+   "nomacheteur": "CC DE CHAMPAGNE CONLINOISE PAYS SILLE",
+   "titulaire": [
+    "MERCEDES Etoile du Mans",
+    "FAUN Environnement"
+   ],
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "ATTRIBUTION",
+   "sousnature": null,
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "34"
+   ],
+   "dc": [
+    "34"
+   ],
+   "descripteur_libelle": [
+    "Benne"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "18-17416"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"18-17416\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-02-06\", \"DATE_FIN_DIFFUSION\": \"2018-02-23\"}}}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-66611\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-17416\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-02-06\", \"DATE_FIN_DIFFUSION\": \"2018-02-23\"}}}}, \"NOM_HTML\": \"18-66611.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-05-16\", \"DATE_FIN_DIFFUSION\": \"2018-06-30\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"34\", \"LIBELLE\": \"Benne\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"ACQUISITION D'UN CAMION BENNE A ORDURES MÉNAGÈRES de 19 tonnes\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CC DE CHAMPAGNE CONLINOISE PAYS SILLE\", \"CORRESPONDANT\": \"Mme VALLEE Chantal, DGS\", \"ADRESSE\": \"4 rue de Gaucher BP 11\", \"CP\": \"72240\", \"VILLE\": \"Conlie\", \"TEL\": \"02-43-52-11-67\", \"MEL\": \"chantal.vallee@4cps.fr\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"OBJET\": {\"OBJET_COMPLET\": \"ACQUISITION D'UN CAMION BENNE A ORDURES MÉNAGÈRES de 19 tonnes\", \"CPV\": {\"PRINCIPAL\": \"34144511\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_LOT\": \"1\", \"DESCRIPTION\": \"Fourniture d'un châssis cabine d'un PTAC de 19 tonnes\", \"TITULAIRE\": {\"DENOMINATION\": \"MERCEDES Etoile du Mans\", \"ADRESSE\": \"La Belle Étoile, Route d'Angers\", \"CP\": \"72230\", \"VILLE\": \"Moncé-en-Belin\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-04-03\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT_MINI\": {\"@DEVISE\": \"EUR\", \"#text\": \"111100\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"2\", \"DESCRIPTION\": \"Fourniture et montage d'une benne à ordures ménagères de 16m3 avec lève conteneur\", \"TITULAIRE\": {\"DENOMINATION\": \"FAUN Environnement\", \"ADRESSE\": \"625 rue Languedoc\", \"CP\": \"07500\", \"VILLE\": \"Guilherand Granges\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-04-03\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT_MINI\": {\"@DEVISE\": \"EUR\", \"#text\": \"60734\"}}}]}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\"}}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-66611"
   },
   {
    "idweb": "18-65018",
@@ -3635,76 +3635,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-67145"
   },
   {
-   "idweb": "18-65727",
-   "id": "18_65727",
-   "contractfolderid": null,
-   "objet": "Entretien et maintenance des terrains de sports extérieurs de la ville de Couëron",
-   "filename": "BOAMP-J-IC-AA_2018_137004",
-   "famille": "JOUE",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-05-17",
-   "datefindiffusion": "2018-06-14",
-   "datelimitereponse": null,
-   "nomacheteur": "Mairie de Coueron",
-   "titulaire": [
-    "Chupin espaces verts CEV",
-    "Arrosage System"
-   ],
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "ATTRIBUTION",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": [
-    "sociaux",
-    "environnementaux"
-   ],
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "168",
-    "342"
-   ],
-   "dc": [
-    "168",
-    "342"
-   ],
-   "descripteur_libelle": [
-    "Irrigation",
-    "Terrain de sport"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "18-15272"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"18-15272\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-02-01\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-02-03\", \"DATE_FIN_DIFFUSION\": \"2018-03-16\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"024\", \"NUM_ANNONCE\": \"051132\", \"DATE_PUBLICATION\": \"2018-02-03\"}}]}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-65727\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-15272\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-02-01\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-02-03\", \"DATE_FIN_DIFFUSION\": \"2018-03-16\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"024\", \"NUM_ANNONCE\": \"051132\", \"DATE_PUBLICATION\": \"2018-02-03\"}}]}}, \"NOM_HTML\": \"18-65727.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-05-17\", \"DATE_FIN_DIFFUSION\": \"2018-06-14\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"168\", \"LIBELLE\": \"Irrigation\"}, {\"CODE\": \"342\", \"LIBELLE\": \"Terrain de sport\"}]}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\", \"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Entretien et maintenance des terrains de sports extérieurs de la ville de Couëron\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Mairie de Coueron\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"8 place Charles de Gaulle\", \"CP\": \"44220\", \"VILLE\": \"Couëron\", \"TEL\": \"(+33) 2-40-85-33-22\", \"MEL\": \"marches@mairie-coueron.fr\", \"URL\": \"http://www.ville-coueron.fr/mairie,379/marches-publics,400/\", \"URL_PROFIL_ACHETEUR\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2018_1pvBeNYuKi&v=1&selected=0\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Entretien et maintenance des terrains de sports extérieurs de la ville de Couëron\", \"REF_MARCHE\": \"AO1802\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"La présente consultation a pour objet l'entretien et la maintenance des terrains de sports extérieurs de la ville de Couëron\", \"CPV\": {\"PRINCIPAL\": \"77320000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"570000\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Entretien et régénération des terrains de sports\", \"DESCRIPTION\": \"Entretien et régénération des terrains de sports\", \"CPV\": {\"PRINCIPAL\": \"77320000\"}, \"CODE_NUTS\": \"FRG01\", \"LIEU_PRINCIPAL\": \"Couëron\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"Valeur technique\"}, {\"@POIDS\": \"10\", \"#text\": \"Performances en matière d'insertion professionnelle des publics en difficulté\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Marché d'un an, reconductible 2 fois.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Entretien et maintenance de l'arrosage\", \"DESCRIPTION\": \"Entretien et maintenance de l'arrosage\", \"CPV\": {\"PRINCIPAL\": \"45232120\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Marché d'un an, reconductible 2 fois.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"024\", \"NUM_ANNONCE\": \"051132\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"AO1802\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Entretien et régénération des terrains de sports\", \"TITULAIRE\": {\"DENOMINATION\": \"Chupin espaces verts CEV\", \"CODE_IDENT_NATIONAL\": \"418430658\", \"ADRESSE\": \"4 La Chenillère\", \"CP\": \"49230\", \"VILLE\": \"Saint Germain sur Moine\", \"CODE_NUTS\": \"FRG01\", \"URL\": \"https://www.societe.com/societe/sarl-chupin-espaces-verts\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-04-04\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"480000\"}, \"SOUSTRAITANCE_OUI\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"195000\"}, \"DESCRIPTION\": \"Ramassage des déchets et entretien\"}}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"AO1802\", \"NUM_LOT\": \"2\", \"INTITULE\": \"Entretien et maintenance de l'arrosage\", \"TITULAIRE\": {\"DENOMINATION\": \"Arrosage System\", \"CODE_IDENT_NATIONAL\": \"41496258900027\", \"ADRESSE\": \"22 rue de Leinster Zac de la Boulais\", \"CP\": \"44240\", \"VILLE\": \"La Chapelle sur Erdre\", \"CODE_NUTS\": \"FRG01\", \"URL\": \"http://www.arrosagesystem.com/\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-04-04\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"90000\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 15 mai 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"CCIRA de Nantes, Direccte des Pays de la Loire,\", \"ADRESSE\": \"Immeuble Skyline 22 mail Pablo Picasso Bp 24209\", \"CP\": \"44042\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-65727"
-  },
-  {
    "idweb": "18-65713",
    "id": "18_65713",
    "contractfolderid": null,
@@ -3888,6 +3818,76 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-66129\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-66129.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-05-17\", \"DATE_FIN_DIFFUSION\": \"2018-06-18\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"203\", \"LIBELLE\": \"Matériel électrique\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Travaux d'entretien et de maintenance sur l'ensemble des installations électriques du patrimoine du Département de la Sarthe - Electricité courants forts/courants faibles et chauff\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"DEPARTEMENT DE LA SARTHE\", \"CODE_IDENT_NATIONAL\": \"22720002900014\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"Hôtel du département, Place Aristide Briand\", \"CP\": \"72072\", \"VILLE\": \"Le Mans\", \"MEL\": \"scp@sarthe.fr\", \"URL\": \"http://www.sarthe.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\", \"URL_PARTICIPATION\": \"http://www.sarthe-marchespublics.fr\", \"URL_DOCUMENT\": \"http://www.sarthe-marchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Travaux d'entretien et de maintenance sur l'ensemble des installations électriques du patrimoine du Département de la Sarthe - Electricité courants forts/courants faibles et chauffage électrique\", \"REF_MARCHE\": \"18ft-Scoc-2385-N\", \"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"Accord-cadre exécuté par émission de bons de commande sans minimum ni maximum.Les commandes pourront être adressées dès le 10 octobre 2018\", \"CPV\": {\"PRINCIPAL\": \"45311200\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Accord-cadre exécuté par émission de bons de commande sans minimum ni maximum.Les commandes pourront être adressées dès le 10 octobre 2018\", \"CPV\": {\"PRINCIPAL\": \"45454000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"La valeur technique (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"40\", \"#text\": \"Le prix des prestations (voir détail dans le règlement de la consultation)\"}]}}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"L'accord-cadre est renouvelable par reconduction tacite selon la périodicité suivante sans que sa durée totale puisse excéder 4 années :Période ferme : du 10/10/2018 au 31/12/2018Reconduction no1 : du 01/01/2019 au 31/12/2019Reconduction no2 : du 01/01/2020 au 31/12/2020Reconduction no3 : du 01/01/2021 au 31/12/2021Reconduction no4 : du 01/01/2022 au 09/10/2022\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-06-18T11:30:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Situation juridique - références requises :Voir annexes 1 à 3 du Règlement de la Consultation (Dispositif Marché Public simplifié)\", \"CAP_ECO\": \"Capacité économique et financière : Références requises :Voir annexes 1 à 3 du Règlement de la Consultation (Dispositif Marché Public simplifié)\", \"CAP_TECH\": \"Capacité technique - références requises :* la présentation d'une liste de principaux services similaires en cours d'exécution ou exécutés au cours des 3 dernières années, indiquant pour chacune de ces réalisations la nature et l'étendue des services exécutés, le montant, la date et le destinataire public ou privé ;*Concernant les matériels proposés : La marque, référence et qualité des matériaux* la liste des moyens humains et matériels (notamment pour la fibre optique, l'équipement de réflectométrie) dont le candidat dispose pour la réalisation de marchés de même nature ;* les certificats de qualifications professionnelles, notamment les habilitations électriques et les certifications (notamment pour les systèmes d'incendie, certificat installateur Apsad I7 et F7) pour si le candidat en dispose\", \"MARCHE_RESERVE_NON\": \"\", \"CONDITION_PARTICULIERE_EXECUTION\": \"Cautionnement :Une avance sera versée au titulaire, sauf indication contraire dans l'acte d'engagement, si le montant du marché Ht atteint le seuil fixé à l'article 110 du Décret no2016-360 du 25 mars 2016 relatif aux marchés publics.****Financement :Paiement par virement à 30 jours, sur fonds propres.***Forme juridique :L'accord cadre sera conclu : soit avec un prestataire unique, soit avec des prestataires groupés solidaires, soit avec des prestataires groupés conjoints\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-07-04\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.sarthe-marchespublics.fr -Pour obtenir tous les renseignements d'ordre administratif et technique qui leur seraient nécessaires au cours de leur étude, les candidats sont invités au plus tard 10 jours avant la date limite de remise des offres à passer par le module \\\" Correspondre avec l'acheteur\\\" de la plateforme www.sarthe-marchespublics.fr.En cas de dysfonctionnement, vous pouvez contacter le secrétariat du Service de la Commande Publique au 02.43.54.72.66.Une réponse sera alors adressée en temps utile à tous les candidats au plus tard 8 jours avant la date limite de remise des offres.***Ce marché est conforme au dispositif d'expérimentation MPS (Marché Public Simplifié), et permet aux entreprises de candidater sur la base de leur seul numéro de SIRET.Le mode detransmission des éléments de la candidature et de l'offre est dématérialisé. La réponse électronique est obligatoire avec signature électronique facultative. Date d'envoi du présent avis au JOUE et au BOAMP : 16 mai 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"Immeuble Skyline, 22 mail Pablo Picasso\", \"CP\": \"44202\", \"VILLE\": \"Nantes\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://www.marche-public.fr/Marches-publics/Definitions/Entrees/Ccra.htm\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-66129"
+  },
+  {
+   "idweb": "18-65727",
+   "id": "18_65727",
+   "contractfolderid": null,
+   "objet": "Entretien et maintenance des terrains de sports extérieurs de la ville de Couëron",
+   "filename": "BOAMP-J-IC-AA_2018_137004",
+   "famille": "JOUE",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-05-17",
+   "datefindiffusion": "2018-06-14",
+   "datelimitereponse": null,
+   "nomacheteur": "Mairie de Coueron",
+   "titulaire": [
+    "Chupin espaces verts CEV",
+    "Arrosage System"
+   ],
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "ATTRIBUTION",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": [
+    "sociaux",
+    "environnementaux"
+   ],
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "168",
+    "342"
+   ],
+   "dc": [
+    "168",
+    "342"
+   ],
+   "descripteur_libelle": [
+    "Irrigation",
+    "Terrain de sport"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "18-15272"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"18-15272\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-02-01\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-02-03\", \"DATE_FIN_DIFFUSION\": \"2018-03-16\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"024\", \"NUM_ANNONCE\": \"051132\", \"DATE_PUBLICATION\": \"2018-02-03\"}}]}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-65727\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-15272\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-02-01\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-02-03\", \"DATE_FIN_DIFFUSION\": \"2018-03-16\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"024\", \"NUM_ANNONCE\": \"051132\", \"DATE_PUBLICATION\": \"2018-02-03\"}}]}}, \"NOM_HTML\": \"18-65727.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-05-17\", \"DATE_FIN_DIFFUSION\": \"2018-06-14\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"168\", \"LIBELLE\": \"Irrigation\"}, {\"CODE\": \"342\", \"LIBELLE\": \"Terrain de sport\"}]}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\", \"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Entretien et maintenance des terrains de sports extérieurs de la ville de Couëron\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Mairie de Coueron\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"8 place Charles de Gaulle\", \"CP\": \"44220\", \"VILLE\": \"Couëron\", \"TEL\": \"(+33) 2-40-85-33-22\", \"MEL\": \"marches@mairie-coueron.fr\", \"URL\": \"http://www.ville-coueron.fr/mairie,379/marches-publics,400/\", \"URL_PROFIL_ACHETEUR\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2018_1pvBeNYuKi&v=1&selected=0\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Entretien et maintenance des terrains de sports extérieurs de la ville de Couëron\", \"REF_MARCHE\": \"AO1802\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"La présente consultation a pour objet l'entretien et la maintenance des terrains de sports extérieurs de la ville de Couëron\", \"CPV\": {\"PRINCIPAL\": \"77320000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"570000\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Entretien et régénération des terrains de sports\", \"DESCRIPTION\": \"Entretien et régénération des terrains de sports\", \"CPV\": {\"PRINCIPAL\": \"77320000\"}, \"CODE_NUTS\": \"FRG01\", \"LIEU_PRINCIPAL\": \"Couëron\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"Valeur technique\"}, {\"@POIDS\": \"10\", \"#text\": \"Performances en matière d'insertion professionnelle des publics en difficulté\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Marché d'un an, reconductible 2 fois.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Entretien et maintenance de l'arrosage\", \"DESCRIPTION\": \"Entretien et maintenance de l'arrosage\", \"CPV\": {\"PRINCIPAL\": \"45232120\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Marché d'un an, reconductible 2 fois.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"024\", \"NUM_ANNONCE\": \"051132\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"AO1802\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Entretien et régénération des terrains de sports\", \"TITULAIRE\": {\"DENOMINATION\": \"Chupin espaces verts CEV\", \"CODE_IDENT_NATIONAL\": \"418430658\", \"ADRESSE\": \"4 La Chenillère\", \"CP\": \"49230\", \"VILLE\": \"Saint Germain sur Moine\", \"CODE_NUTS\": \"FRG01\", \"URL\": \"https://www.societe.com/societe/sarl-chupin-espaces-verts\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-04-04\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"480000\"}, \"SOUSTRAITANCE_OUI\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"195000\"}, \"DESCRIPTION\": \"Ramassage des déchets et entretien\"}}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"AO1802\", \"NUM_LOT\": \"2\", \"INTITULE\": \"Entretien et maintenance de l'arrosage\", \"TITULAIRE\": {\"DENOMINATION\": \"Arrosage System\", \"CODE_IDENT_NATIONAL\": \"41496258900027\", \"ADRESSE\": \"22 rue de Leinster Zac de la Boulais\", \"CP\": \"44240\", \"VILLE\": \"La Chapelle sur Erdre\", \"CODE_NUTS\": \"FRG01\", \"URL\": \"http://www.arrosagesystem.com/\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-04-04\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"90000\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 15 mai 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"CCIRA de Nantes, Direccte des Pays de la Loire,\", \"ADRESSE\": \"Immeuble Skyline 22 mail Pablo Picasso Bp 24209\", \"CP\": \"44042\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-65727"
   },
   {
    "idweb": "18-62604",
@@ -5486,6 +5486,65 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-67041"
   },
   {
+   "idweb": "18-67520",
+   "id": "18_67520",
+   "contractfolderid": null,
+   "objet": "Réfection de l'étanchéité de la toiture terrasse du préau couvert de l'école primaire Ardriers - 54 rue du Happeau - 72000 Le Mans",
+   "filename": "BOAMP-N-IC-AA_2018_138006",
+   "famille": "FNS",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2018-05-18",
+   "datefindiffusion": "2018-07-02",
+   "datelimitereponse": null,
+   "nomacheteur": "Ville du Mans",
+   "titulaire": [
+    "BEQUET"
+   ],
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "ATTRIBUTION",
+   "sousnature": null,
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "117"
+   ],
+   "dc": [
+    "117"
+   ],
+   "descripteur_libelle": [
+    "Etanchéité"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "18-16640"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"18-16640\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-02-05\", \"DATE_FIN_DIFFUSION\": \"2018-02-27\"}}}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-67520\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-16640\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-02-05\", \"DATE_FIN_DIFFUSION\": \"2018-02-27\"}}}}, \"NOM_HTML\": \"18-67520.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-05-18\", \"DATE_FIN_DIFFUSION\": \"2018-07-02\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"117\", \"LIBELLE\": \"Etanchéité\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Réfection de l'étanchéité de la toiture terrasse du préau couvert de l'école primaire Ardriers - 54 rue du Happeau - 72000 Le Mans\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville du Mans\", \"CORRESPONDANT\": \"Le Maire\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, CS 40010 - 16 avenue François Mitterrand, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"LE MANS\", \"TEL\": \"02-43-47-47-47\", \"FAX\": \"02-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Réfection de l'étanchéité de la toiture terrasse du préau couvert de l'école primaire Ardriers - 54 rue du Happeau - 72000 Le Mans\", \"CPV\": {\"PRINCIPAL\": \"45261420\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"DESCRIPTION\": \"Réfection de l'étanchéité de la toiture terrasse du préau couvert de l'école primaire Ardriers - 54 rue du Happeau - 72000 Le Mans\", \"TITULAIRE\": {\"DENOMINATION\": \"BEQUET\", \"ADRESSE\": \"12 rue du Prieuré\", \"CP\": \"61400\", \"VILLE\": \"COURGEON\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-04-25\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"44321.56\"}}}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-67520"
+  },
+  {
    "idweb": "18-67347",
    "id": "18_67347",
    "contractfolderid": null,
@@ -5545,65 +5604,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-67347\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-67347.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-05-18\", \"DATE_LIMITE_REPONSE\": \"2018-06-08T16:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-06-08\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"118\", \"LIBELLE\": \"Etude\"}}, \"DEP_PUBLICATION\": [\"49\", \"75\", \"44\"], \"RESUME_OBJET\": \"réalisation d'une étude 'analyse de la politique de rémunération'\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"ADEME\", \"CORRESPONDANT\": \"David MENAGER\", \"ADRESSE\": \"20 avenue du Grésillé BP 90406\", \"CP\": \"49004\", \"VILLE\": \"ANGERS CEDEX 01\"}, \"TYPE_ORGANISME\": {\"EPN\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ENVIRONNEMENT\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"27\"}, \"OBJET_COMPLET\": \"Réalisation d'une étude 'analyse de la politique de rémunération'\", \"CPV\": {\"PRINCIPAL\": \"71241000\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Il s'agit d'accompagner l'ADEME dans la définition de sa nouvelle politique salariale\"}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"10\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-06-08T16:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Les prestations seront financées sur le budget propre de l'ADEME. Elles seront rémunérées dans les conditions fixées par les règles de la comptabilité publique et du marché. Délai global de paiement : 60 jours à compter de la date de réception par l'ADEME de la facture du titulaire, sous réserve de la constatation de la conformité des prestations facturées.\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"AUTRES\": \"Français\"}}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire obligatoirement par le candidat, à l'appui de sa candidature\", \"Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire\", \"Déclaration sur l'honneur du candidat justifiant qu'il n'entre dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles 45 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 ou, pour les marchés publics de défense ou de sécurité, qu'il n'entre dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles 45 ,46 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 (si cette déclaration n'est pas déjà demandée dans le cadre du formulaire DC1, ci-après)\", \"Déclaration sur l'honneur du candidat attestant qu'il est en règle, au cours de l'année précédant celle au cours de laquelle a lieu le lancement de la consultation, au regard des articles L. 5212-1, L. 5212-2, L. 5212 5 et L. 5212-9 du code du travail, concernant l'emploi des travailleurs handicapés\", \"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC4, Déclaration de sous-traitance (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Autres renseignements demandés\", \"Le CV détaillé du ou des intervenants mobilisés\", \"Autres renseignements demandés\", \"Une présentation des moyens humains et matériels dont dispose le candidat\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Pour le téléchargement gratuit de votre Dossier de Consultation des Entreprises (DCE), connectez-vous sur www.docuwebao.fr :-Une authentification vous est demandée. Si vous avez déjà un compte, indiquez votre identifiant (adresse mail) et votre mot de passe ; dans le cas contraire, demandez la création d'un compte. Votre mot de passe vous sera envoyé par mail sous un délai de 24 heures (vérifier que le mail ne soit pas réceptionné par votre anti-spam !). -Après authentification, sélectionner l'appel d'offre puis le lot à télécharger ' (commande gratuite sur ce site uniquement). Pour toute question relative au téléchargement des documents de la consultation, vous pouvez contacter Docuworld (Helio graphic) au 02.51.13.39.20.\"}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-67347"
-  },
-  {
-   "idweb": "18-67520",
-   "id": "18_67520",
-   "contractfolderid": null,
-   "objet": "Réfection de l'étanchéité de la toiture terrasse du préau couvert de l'école primaire Ardriers - 54 rue du Happeau - 72000 Le Mans",
-   "filename": "BOAMP-N-IC-AA_2018_138006",
-   "famille": "FNS",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2018-05-18",
-   "datefindiffusion": "2018-07-02",
-   "datelimitereponse": null,
-   "nomacheteur": "Ville du Mans",
-   "titulaire": [
-    "BEQUET"
-   ],
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "ATTRIBUTION",
-   "sousnature": null,
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "117"
-   ],
-   "dc": [
-    "117"
-   ],
-   "descripteur_libelle": [
-    "Etanchéité"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "18-16640"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"18-16640\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-02-05\", \"DATE_FIN_DIFFUSION\": \"2018-02-27\"}}}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-67520\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-16640\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-02-05\", \"DATE_FIN_DIFFUSION\": \"2018-02-27\"}}}}, \"NOM_HTML\": \"18-67520.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-05-18\", \"DATE_FIN_DIFFUSION\": \"2018-07-02\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"117\", \"LIBELLE\": \"Etanchéité\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Réfection de l'étanchéité de la toiture terrasse du préau couvert de l'école primaire Ardriers - 54 rue du Happeau - 72000 Le Mans\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville du Mans\", \"CORRESPONDANT\": \"Le Maire\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, CS 40010 - 16 avenue François Mitterrand, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"LE MANS\", \"TEL\": \"02-43-47-47-47\", \"FAX\": \"02-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Réfection de l'étanchéité de la toiture terrasse du préau couvert de l'école primaire Ardriers - 54 rue du Happeau - 72000 Le Mans\", \"CPV\": {\"PRINCIPAL\": \"45261420\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"DESCRIPTION\": \"Réfection de l'étanchéité de la toiture terrasse du préau couvert de l'école primaire Ardriers - 54 rue du Happeau - 72000 Le Mans\", \"TITULAIRE\": {\"DENOMINATION\": \"BEQUET\", \"ADRESSE\": \"12 rue du Prieuré\", \"CP\": \"61400\", \"VILLE\": \"COURGEON\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-04-25\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"44321.56\"}}}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-67520"
   },
   {
    "idweb": "18-66659",
@@ -6104,66 +6104,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-66660"
   },
   {
-   "idweb": "18-67493",
-   "id": "18_67493",
-   "contractfolderid": null,
-   "objet": "mission de maîtrise d'oeuvre pour l'extension du parking p+r porte de vertou",
-   "filename": "BOAMP-J-IC-AA_2018_139003",
-   "famille": "JOUE",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-05-19",
-   "datefindiffusion": "2018-06-18",
-   "datelimitereponse": null,
-   "nomacheteur": "Nantes Métropole",
-   "titulaire": [
-    "R Architecture"
-   ],
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "RESTREINT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Restreinte",
-   "procedure_categorise": "RESTREINT/",
-   "nature": "ATTRIBUTION",
-   "sousnature": "CONCOURS",
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": "Concours",
-   "nature_categorise": "attribution/concours",
-   "nature_categorise_libelle": "Résultat de marché/Concours",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "197"
-   ],
-   "dc": [
-    "197"
-   ],
-   "descripteur_libelle": [
-    "Maîtrise d'oeuvre"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "16-153594",
-    "16-169971"
-   ],
-   "annonces_anterieures": "[{\"REFERENCE\": {\"IDWEB\": \"16-153594\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"CONCOURS\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-11-07\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-11-09\", \"DATE_FIN_DIFFUSION\": \"2016-12-12\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"217\", \"NUM_ANNONCE\": \"395220\", \"DATE_PUBLICATION\": \"2016-11-10\"}}]}, {\"REFERENCE\": {\"IDWEB\": \"16-169971\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}, \"DATE_ENVOI\": \"2016-11-24\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-11-26\", \"DATE_FIN_DIFFUSION\": \"2016-12-12\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"230\", \"NUM_ANNONCE\": \"419503\", \"DATE_PUBLICATION\": \"2016-11-29\"}}]}]",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-67493\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"CONCOURS\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": [{\"REFERENCE\": {\"IDWEB\": \"16-153594\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"CONCOURS\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-11-07\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-11-09\", \"DATE_FIN_DIFFUSION\": \"2016-12-12\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"217\", \"NUM_ANNONCE\": \"395220\", \"DATE_PUBLICATION\": \"2016-11-10\"}}]}, {\"REFERENCE\": {\"IDWEB\": \"16-169971\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}, \"DATE_ENVOI\": \"2016-11-24\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-11-26\", \"DATE_FIN_DIFFUSION\": \"2016-12-12\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"230\", \"NUM_ANNONCE\": \"419503\", \"DATE_PUBLICATION\": \"2016-11-29\"}}]}]}, \"NOM_HTML\": \"18-67493.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-05-19\", \"DATE_FIN_DIFFUSION\": \"2018-06-18\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"197\", \"LIBELLE\": \"Maîtrise d'oeuvre\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"mission de maîtrise d'oeuvre pour l'extension du parking p+r porte de vertou\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Nantes Métropole\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"2 cours du Champ de Mars\", \"CP\": \"44923\", \"VILLE\": \"Nantes cedex 9\", \"MEL\": \"estelle.talhouarn@nantesmetropole.fr\", \"URL\": \"http://nantesmetropole.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.nantesmetropole.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Mission de maîtrise d'oeuvre pour l'extension du parking P+R Porte de Vertou\", \"REF_MARCHE\": \"16VDA02\", \"CPV\": {\"PRINCIPAL\": \"71000000\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Dans le cadre de sa politique de déplacement et de stationnement, Nantes Métropole engage uneopération dextension de son parc relais de la Porte de Vertou à Vertou. Il sagira dune construction sur lactuel P+r dun parc en ouvrage en silo comprenant 740 places minimum (y compris PMR), plus des places pour vélos et 2 roues motorisées avec le maintien d'environ 200 places de stationnement en surface. La partie de l'enveloppe financière prévisionnelle arrêtée par le maître d'ouvrage affectée aux travaux est de 9 350 000 eurosHT  valeur octobre 2016. Missions confiées au maître doeuvre : Tranche ferme : Mission de base avec le dossier Loi sur l'eau La mission de Coordination des Systèmes de Sécurité Incendie La mission élaboration des quantitatifs (sans plans EXE) Tranche optionnelle : La mission synthèse des études d'exécution\", \"CPV\": {\"PRINCIPAL\": \"71000000\"}, \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"RESTREINT\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_LIBRE\": \"- Qualité architecturale du projet et insertion dans le site - Respect du programme et fonctionnalité du projet - Qualité technique et environnementale du projet - Adéquation du projet avec l'enveloppe financière prévisionnelle affectée aux travaux et arrêtée par le maître d'ouvrage\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2016\", \"NUM_PARUTION\": \"217\", \"NUM_ANNONCE\": \"395220\", \"DATE_PUBLICATION\": \"2016-11-10\"}}}, \"ATTRIBUTION\": {\"DECISION\": {\"ATTRIBUE\": \"\", \"TITULAIRE\": {\"DENOMINATION\": \"R Architecture\", \"ADRESSE\": \"145 rue de Belleville\", \"CP\": \"75019\", \"VILLE\": \"Paris\", \"CODE_NUTS\": \"FR101\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-05-12\", \"NB_OFFRE_RECU\": \"3\", \"CONCOURS_PRIME\": {\"@DEVISE\": \"EUR\", \"#text\": \"37000\"}}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 18 mai 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée Ile GlorietteBP 24111\", \"CP\": \"44000\", \"VILLE\": \"Nantes cedex 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée Ile GlorietteBP 24111\", \"CP\": \"44000\", \"VILLE\": \"Nantes cedex 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-67493"
-  },
-  {
    "idweb": "18-67485",
    "id": "18_67485",
    "contractfolderid": null,
@@ -6228,6 +6168,66 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-67485\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-67485.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-05-19\", \"DATE_FIN_DIFFUSION\": \"2018-06-11\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"118\", \"LIBELLE\": \"Etude\"}, {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}]}, \"DEP_PUBLICATION\": [\"17\", \"33\", \"75\", \"79\", \"85\"], \"RESUME_OBJET\": \"18S0041 - Réalisation de documents de communication\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Conservatoire du littoral\", \"ADJUDICATEUR_NUTS\": \"FRI32\", \"ADRESSE\": \"Corderie Royale - CS 10137\", \"CP\": \"17306\", \"VILLE\": \"Rochefort cédex\", \"TEL\": \"(+33) 5-46-84-72-50\", \"FAX\": \"(+33) 5-46-84-72-78\", \"MEL\": \"marches.publics-redaction@conservatoire-du-littoral.fr\", \"URL\": \"http://www.conservatoire-du-littoral.fr/front/process/Outils.asp?rub=16&amp;rubec=16\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-publics.gouv.fr/\", \"URL_PARTICIPATION\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=378247&orgAcronyme=d4t\", \"URL_DOCUMENT\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=378247&orgAcronyme=d4t\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ENVIRONNEMENT\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"18S0041 - Réalisation de documents de communication\", \"REF_MARCHE\": \"18S0041\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Réalisation de documents de communication sur les plans de gestion\", \"CPV\": {\"PRINCIPAL\": \"92312211\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Réalisation de documents de communication sur les plans de gestion\", \"CPV\": {\"PRINCIPAL\": \"92312211\"}, \"CODE_NUTS\": \"FRI32\", \"LIEU_PRINCIPAL\": \"Rochefort\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"marché de 1 an reconductible 3 fois par tacite reconduction\", \"NB_CANDIDATS\": {\"NB_OFFRE\": \"4\"}, \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"RESTREINT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-06-11T16:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"15\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 18 mai 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Poitiers\", \"ADRESSE\": \"15 rue Blossac\", \"CP\": \"86020\", \"VILLE\": \"Poitiers\", \"TEL\": \"(+33) 5-49-60-79\", \"URL\": \"http://poitiers.tribunal-administratif.fr/\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Poitiers\", \"ADRESSE\": \"15 rue Blossac\", \"CP\": \"86020\", \"VILLE\": \"Poitiers\", \"TEL\": \"(+33) 5-49-60-79\", \"URL\": \"http://poitiers.tribunal-administratif.fr/\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Poitiers\", \"ADRESSE\": \"15 rue Blossac\", \"CP\": \"86020\", \"VILLE\": \"Poitiers\", \"TEL\": \"(+33) 5-49-60-79\", \"URL\": \"http://poitiers.tribunal-administratif.fr/\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-67485"
+  },
+  {
+   "idweb": "18-67493",
+   "id": "18_67493",
+   "contractfolderid": null,
+   "objet": "mission de maîtrise d'oeuvre pour l'extension du parking p+r porte de vertou",
+   "filename": "BOAMP-J-IC-AA_2018_139003",
+   "famille": "JOUE",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-05-19",
+   "datefindiffusion": "2018-06-18",
+   "datelimitereponse": null,
+   "nomacheteur": "Nantes Métropole",
+   "titulaire": [
+    "R Architecture"
+   ],
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "RESTREINT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Restreinte",
+   "procedure_categorise": "RESTREINT/",
+   "nature": "ATTRIBUTION",
+   "sousnature": "CONCOURS",
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": "Concours",
+   "nature_categorise": "attribution/concours",
+   "nature_categorise_libelle": "Résultat de marché/Concours",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "197"
+   ],
+   "dc": [
+    "197"
+   ],
+   "descripteur_libelle": [
+    "Maîtrise d'oeuvre"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "16-153594",
+    "16-169971"
+   ],
+   "annonces_anterieures": "[{\"REFERENCE\": {\"IDWEB\": \"16-153594\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"CONCOURS\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-11-07\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-11-09\", \"DATE_FIN_DIFFUSION\": \"2016-12-12\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"217\", \"NUM_ANNONCE\": \"395220\", \"DATE_PUBLICATION\": \"2016-11-10\"}}]}, {\"REFERENCE\": {\"IDWEB\": \"16-169971\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}, \"DATE_ENVOI\": \"2016-11-24\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-11-26\", \"DATE_FIN_DIFFUSION\": \"2016-12-12\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"230\", \"NUM_ANNONCE\": \"419503\", \"DATE_PUBLICATION\": \"2016-11-29\"}}]}]",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-67493\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"CONCOURS\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": [{\"REFERENCE\": {\"IDWEB\": \"16-153594\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"CONCOURS\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-11-07\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-11-09\", \"DATE_FIN_DIFFUSION\": \"2016-12-12\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"217\", \"NUM_ANNONCE\": \"395220\", \"DATE_PUBLICATION\": \"2016-11-10\"}}]}, {\"REFERENCE\": {\"IDWEB\": \"16-169971\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}, \"DATE_ENVOI\": \"2016-11-24\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-11-26\", \"DATE_FIN_DIFFUSION\": \"2016-12-12\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"230\", \"NUM_ANNONCE\": \"419503\", \"DATE_PUBLICATION\": \"2016-11-29\"}}]}]}, \"NOM_HTML\": \"18-67493.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-05-19\", \"DATE_FIN_DIFFUSION\": \"2018-06-18\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"197\", \"LIBELLE\": \"Maîtrise d'oeuvre\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"mission de maîtrise d'oeuvre pour l'extension du parking p+r porte de vertou\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Nantes Métropole\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"2 cours du Champ de Mars\", \"CP\": \"44923\", \"VILLE\": \"Nantes cedex 9\", \"MEL\": \"estelle.talhouarn@nantesmetropole.fr\", \"URL\": \"http://nantesmetropole.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.nantesmetropole.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Mission de maîtrise d'oeuvre pour l'extension du parking P+R Porte de Vertou\", \"REF_MARCHE\": \"16VDA02\", \"CPV\": {\"PRINCIPAL\": \"71000000\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Dans le cadre de sa politique de déplacement et de stationnement, Nantes Métropole engage uneopération dextension de son parc relais de la Porte de Vertou à Vertou. Il sagira dune construction sur lactuel P+r dun parc en ouvrage en silo comprenant 740 places minimum (y compris PMR), plus des places pour vélos et 2 roues motorisées avec le maintien d'environ 200 places de stationnement en surface. La partie de l'enveloppe financière prévisionnelle arrêtée par le maître d'ouvrage affectée aux travaux est de 9 350 000 eurosHT  valeur octobre 2016. Missions confiées au maître doeuvre : Tranche ferme : Mission de base avec le dossier Loi sur l'eau La mission de Coordination des Systèmes de Sécurité Incendie La mission élaboration des quantitatifs (sans plans EXE) Tranche optionnelle : La mission synthèse des études d'exécution\", \"CPV\": {\"PRINCIPAL\": \"71000000\"}, \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"RESTREINT\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_LIBRE\": \"- Qualité architecturale du projet et insertion dans le site - Respect du programme et fonctionnalité du projet - Qualité technique et environnementale du projet - Adéquation du projet avec l'enveloppe financière prévisionnelle affectée aux travaux et arrêtée par le maître d'ouvrage\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2016\", \"NUM_PARUTION\": \"217\", \"NUM_ANNONCE\": \"395220\", \"DATE_PUBLICATION\": \"2016-11-10\"}}}, \"ATTRIBUTION\": {\"DECISION\": {\"ATTRIBUE\": \"\", \"TITULAIRE\": {\"DENOMINATION\": \"R Architecture\", \"ADRESSE\": \"145 rue de Belleville\", \"CP\": \"75019\", \"VILLE\": \"Paris\", \"CODE_NUTS\": \"FR101\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-05-12\", \"NB_OFFRE_RECU\": \"3\", \"CONCOURS_PRIME\": {\"@DEVISE\": \"EUR\", \"#text\": \"37000\"}}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 18 mai 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée Ile GlorietteBP 24111\", \"CP\": \"44000\", \"VILLE\": \"Nantes cedex 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée Ile GlorietteBP 24111\", \"CP\": \"44000\", \"VILLE\": \"Nantes cedex 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-67493"
   },
   {
    "idweb": "18-61964",

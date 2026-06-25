@@ -957,6 +957,65 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-120886"
   },
   {
+   "idweb": "18-120644",
+   "id": "18_120644",
+   "contractfolderid": null,
+   "objet": "Réalisation de prestations de services informatique ainsi que la fourniture de matériel informatique pour La Cité des Congrès",
+   "filename": "BOAMP-J-AO_2018_242003",
+   "famille": "JOUE",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-08-30",
+   "datefindiffusion": "2018-09-27",
+   "datelimitereponse": null,
+   "nomacheteur": "La Cité des Congrès de Nantes",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "162"
+   ],
+   "dc": [
+    "162"
+   ],
+   "descripteur_libelle": [
+    "Informatique (matériel)"
+   ],
+   "type_marche": [
+    "FOURNITURES"
+   ],
+   "type_marche_facette": [
+    "Fournitures"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-120644\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-120644.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-08-30\", \"DATE_FIN_DIFFUSION\": \"2018-09-27\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"162\", \"LIBELLE\": \"Informatique (matériel)\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Réalisation de prestations de services informatique ainsi que la fourniture de matériel informatique pour La Cité des Congrès\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"La Cité des Congrès de Nantes\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"5 rue de Valmy - BP 24102\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-51-88-20-11\", \"FAX\": \"(+33) 2-51-88-20-20\", \"MEL\": \"emmanuelle.le.maire@lacite-nantes.fr\", \"URL\": \"http://www.lacite-nantes.fr/\", \"URL_PROFIL_ACHETEUR\": \"http://lacite-nantes.e-marchespublics.com\", \"URL_PARTICIPATION\": \"http://lacite-nantes.e-marchespublics.com\", \"URL_DOCUMENT\": \"http://lacite-nantes.e-marchespublics.com\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Societe Publique Locale\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Cité des Congrés\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de matériel et de service informatique\", \"REF_MARCHE\": \"M18005\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Réalisation de prestations de services informatique ainsi que la fourniture de matériel informatique pour La Cité des Congrès\", \"CPV\": {\"PRINCIPAL\": \"30200000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_UN\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Fourniture de serveurs et les licences associées\", \"DESCRIPTION\": \"Fourniture de serveurs et les licences associées\", \"CPV\": {\"PRINCIPAL\": \"30200000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Il est reconductible manuellement 3 fois pour une durée d'un an sans que la durée maximale puisse excéder 4 ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Fourniture de postes, divers matériels informatiques et les licences associées\", \"DESCRIPTION\": \"Fourniture de postes, divers matériels informatiques et les licences associées\", \"CPV\": {\"PRINCIPAL\": \"30200000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Il est reconductible manuellement 3 fois pour une durée d'un an sans que la durée maximale puisse excéder 4 ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-09-28T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO_MARCHE_OUI\": \"\", \"CAP_TECH_OFFRE_OUI\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-09-28\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 28 août 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal de Grande Instance de Rennes\", \"ADRESSE\": \"7 rue Abélard\", \"CP\": \"35000\", \"VILLE\": \"Rennes\", \"TEL\": \"(+33) 2-99-65-37-37\", \"MEL\": \"tgi-rennes@justice.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Tribunal de Grande Instance de Rennes\", \"ADRESSE\": \"7 rue Abélard\", \"CP\": \"35000\", \"VILLE\": \"Rennes\", \"TEL\": \"(+33) 2-99-65-37-37\", \"MEL\": \"tgi-rennes@justice.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal de Grande Instance de Rennes\", \"ADRESSE\": \"7 rue Abélard\", \"CP\": \"35000\", \"VILLE\": \"Rennes\", \"TEL\": \"(+33) 2-99-65-37-37\", \"MEL\": \"tgi-rennes@justice.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-120644"
+  },
+  {
    "idweb": "18-121819",
    "id": "18_121819",
    "contractfolderid": null,
@@ -1071,65 +1130,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-121915\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-121915.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-08-30\", \"DATE_LIMITE_REPONSE\": \"2018-09-21T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-09-21\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"443\", \"LIBELLE\": \"Electricité, gaz (fourniture)\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Fourniture et acheminement de gaz naturel pour la piscine du lac, la médiathèque et la salle multisports de Therbé à Savenay et les multi-accueils de Campbon et Malville.\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Comcom Estuaire et Sillon\", \"CORRESPONDANT\": \"Service commun commande publique - FONTAINE PAOLA\", \"ADRESSE\": \"2 boulevard de la loire\", \"CP\": \"44260\", \"VILLE\": \"SAVENAY\", \"TEL\": \"02-40-56-81-03\", \"MEL\": \"commandepublique@estuaire-sillon.fr\", \"URL\": \"http://estuaire-sillon.e-marchespublics.com\", \"URL_PROFIL_ACHETEUR\": \"http://estuaire-sillon.e-marchespublics.com\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"FOURNITURES\": {\"ACHAT\": \"\"}}, \"OBJET_COMPLET\": \"Fourniture et acheminement de gaz naturel pour la piscine du lac, la médiathèque et la salle multisports de Therbé à Savenay et les multi-accueils de Campbon et Malville.\", \"CPV\": [{\"PRINCIPAL\": \"09123000\"}, {\"PRINCIPAL\": \"65200000\"}], \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Territoire de la Communauté de communes Estuaire et Sillon\", \"CP\": \"44260\", \"VILLE\": \"SAVENAY\", \"CODE_NUTS\": \"FRG01\"}, \"AMP_NON\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Le marché comprend la fourniture du gaz (molécule), l'acheminement jusqu'au point de comptage client, et la livraison. Il inclut la gestion du contrat d'accès au réseau distribution (utilisation du réseau de distribution et suivi).\", \"QUANTITE\": \"Le montant des prestations comporte un maximum annuel.\", \"OPTIONS\": {\"OUI\": \"\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"14\", \"DATE_EXECUTION\": \"2018-11-05\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-09-21T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"2\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Articles 110 à 131 du décret no2016-360 du 25 mars 2016 relatif aux marchés publics. Caractéristiques des prix : prix unitaires et forfaitaires. Modalités de variation des prix : fermes et non révisables. Modalité de règlement des comptes : selon les modalités du C.C.A.G.-F.C.S. Le délai global de paiement est de 30 jours. Modalités de financements : Fonds propres\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"Le candidat devra remettre un dossier permettant à la collectivité d'apprécier ses garanties professionnelles et financières ainsi que son aptitude à assurer l'exécution des prestations et notamment les renseignements concernant la situation juridique de l'entreprise tels que prévus aux articles 48 et 49 du décret no2016-360 du 25 mars 2016 : cf. article 5.1 du règlement de la consultation\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"2018023\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"PROCEDURES_RECOURS_PRECISIONS\": \"Référé précontractuel prévu aux articles L.551-1 à L.551-12 du Code de justice administrative (CJA), et pouvant être exercé avant la signature du contrat. Référé contractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant être exercé dans les délais prévus à l'article R. 551-7 du CJA. Recours pour excès de pouvoir contre une décision administrative prévu aux articles R. 421-1 à R. 421-7 du CJA, et pouvant être exercé dans les 2 mois suivant la notification ou publication de la décision de l'organisme.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Mairie de Saint Etienne de Montluc\", \"CORRESPONDANT\": \"Service commun commande publique\", \"ADRESSE\": \"2 place de la mairie\", \"CP\": \"44360\", \"VILLE\": \"SAINT ETIENNE DE MONTLUC\", \"TEL\": \"02-40-86-80-26\", \"MEL\": \"commandepublique@estuaire-sillon.fr\", \"URL\": \"http://estuaire-sillon.e-marchespublics.com\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'île gloriette CS 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"02-40-99-46-00\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif de règlement amiable des litiges\", \"ADRESSE\": \"22 mail Pablo PicassoBP 24209\", \"CP\": \"44042\", \"VILLE\": \"NANTES\", \"TEL\": \"02-53-46-79-83\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"DENOMINATION\": \"Mairie de Saint Etienne de Montluc\", \"CORRESPONDANT\": \"Service commun commande publique\", \"ADRESSE\": \"2 place de la mairie\", \"CP\": \"44360\", \"VILLE\": \"SAINT ETIENNE DE MONTLUC\", \"TEL\": \"02-40-86-80-26\", \"MEL\": \"commandepublique@estuaire-sillon.fr\", \"URL\": \"http://estuaire-sillon.e-marchespublics.com\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Mairie de Saint Etienne de Montluc\", \"CORRESPONDANT\": \"Service commun commande publique\", \"ADRESSE\": \"2 place de la Mairie\", \"CP\": \"44360\", \"VILLE\": \"SAINT ETIENNE DE MONTLUC\", \"TEL\": \"02-40-86-80-26\", \"MEL\": \"commandepublique@estuaire-sillon.fr\", \"URL\": \"http://estuaire-sillon.e-marchespublics.com\"}, {\"TYPE\": {\"ADMIN\": \"\"}, \"DENOMINATION\": \"Mairie de Saint Etienne de Montluc\", \"CORRESPONDANT\": \"Service commun commande publique\", \"ADRESSE\": \"2 place de la mairie\", \"CP\": \"44360\", \"VILLE\": \"SAINT ETIENNE DE MONTLUC\", \"TEL\": \"02-40-86-80-26\", \"MEL\": \"commandepublique@estuaire-sillon.fr\", \"URL\": \"http://estuaire-sillon.e-marchespublics.com\"}, {\"TYPE\": {\"TECH\": \"\"}, \"DENOMINATION\": \"Communauté de communes Estuaire et Sillon\", \"CORRESPONDANT\": \"Service infrastructures ingénierie moyens techniques - M. TROEDEC\", \"ADRESSE\": \"2 boulevard de la loire\", \"CP\": \"44260\", \"VILLE\": \"SAVENAY\", \"TEL\": \"02-40-86-97-38\", \"MEL\": \"a.troedec@estuaire-sillon.fr\", \"URL\": \"http://estuaire-sillon.e-marchespublics.com\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-121915"
-  },
-  {
-   "idweb": "18-120644",
-   "id": "18_120644",
-   "contractfolderid": null,
-   "objet": "Réalisation de prestations de services informatique ainsi que la fourniture de matériel informatique pour La Cité des Congrès",
-   "filename": "BOAMP-J-AO_2018_242003",
-   "famille": "JOUE",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-08-30",
-   "datefindiffusion": "2018-09-27",
-   "datelimitereponse": null,
-   "nomacheteur": "La Cité des Congrès de Nantes",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "162"
-   ],
-   "dc": [
-    "162"
-   ],
-   "descripteur_libelle": [
-    "Informatique (matériel)"
-   ],
-   "type_marche": [
-    "FOURNITURES"
-   ],
-   "type_marche_facette": [
-    "Fournitures"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-120644\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-120644.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-08-30\", \"DATE_FIN_DIFFUSION\": \"2018-09-27\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"162\", \"LIBELLE\": \"Informatique (matériel)\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Réalisation de prestations de services informatique ainsi que la fourniture de matériel informatique pour La Cité des Congrès\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"La Cité des Congrès de Nantes\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"5 rue de Valmy - BP 24102\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-51-88-20-11\", \"FAX\": \"(+33) 2-51-88-20-20\", \"MEL\": \"emmanuelle.le.maire@lacite-nantes.fr\", \"URL\": \"http://www.lacite-nantes.fr/\", \"URL_PROFIL_ACHETEUR\": \"http://lacite-nantes.e-marchespublics.com\", \"URL_PARTICIPATION\": \"http://lacite-nantes.e-marchespublics.com\", \"URL_DOCUMENT\": \"http://lacite-nantes.e-marchespublics.com\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Societe Publique Locale\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Cité des Congrés\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de matériel et de service informatique\", \"REF_MARCHE\": \"M18005\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Réalisation de prestations de services informatique ainsi que la fourniture de matériel informatique pour La Cité des Congrès\", \"CPV\": {\"PRINCIPAL\": \"30200000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_UN\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Fourniture de serveurs et les licences associées\", \"DESCRIPTION\": \"Fourniture de serveurs et les licences associées\", \"CPV\": {\"PRINCIPAL\": \"30200000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Il est reconductible manuellement 3 fois pour une durée d'un an sans que la durée maximale puisse excéder 4 ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Fourniture de postes, divers matériels informatiques et les licences associées\", \"DESCRIPTION\": \"Fourniture de postes, divers matériels informatiques et les licences associées\", \"CPV\": {\"PRINCIPAL\": \"30200000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Il est reconductible manuellement 3 fois pour une durée d'un an sans que la durée maximale puisse excéder 4 ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-09-28T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO_MARCHE_OUI\": \"\", \"CAP_TECH_OFFRE_OUI\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-09-28\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 28 août 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal de Grande Instance de Rennes\", \"ADRESSE\": \"7 rue Abélard\", \"CP\": \"35000\", \"VILLE\": \"Rennes\", \"TEL\": \"(+33) 2-99-65-37-37\", \"MEL\": \"tgi-rennes@justice.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Tribunal de Grande Instance de Rennes\", \"ADRESSE\": \"7 rue Abélard\", \"CP\": \"35000\", \"VILLE\": \"Rennes\", \"TEL\": \"(+33) 2-99-65-37-37\", \"MEL\": \"tgi-rennes@justice.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal de Grande Instance de Rennes\", \"ADRESSE\": \"7 rue Abélard\", \"CP\": \"35000\", \"VILLE\": \"Rennes\", \"TEL\": \"(+33) 2-99-65-37-37\", \"MEL\": \"tgi-rennes@justice.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-120644"
   },
   {
    "idweb": "18-121327",
@@ -3207,6 +3207,68 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-123253"
   },
   {
+   "idweb": "18-122238",
+   "id": "18_122238",
+   "contractfolderid": null,
+   "objet": "location-entretien d'articles textiles",
+   "filename": "BOAMP-J-AO_2018_247003",
+   "famille": "JOUE",
+   "code_departement": [
+    "85"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-09-04",
+   "datefindiffusion": "2018-10-08",
+   "datelimitereponse": null,
+   "nomacheteur": "CCAS EHPAD RESIDENCE YVES COUGNAUD",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": [
+    "sociaux",
+    "environnementaux"
+   ],
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "36"
+   ],
+   "dc": [
+    "36"
+   ],
+   "descripteur_libelle": [
+    "Blanchissage"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-122238\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-122238.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-09-04\", \"DATE_FIN_DIFFUSION\": \"2018-10-08\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"36\", \"LIBELLE\": \"Blanchissage\"}}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\", \"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"location-entretien d'articles textiles\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CCAS EHPAD RESIDENCE YVES COUGNAUD\", \"CONTACT\": \"Tatiana BALLET\", \"ADJUDICATEUR_NUTS\": \"FRG05\", \"ADRESSE\": \"1 rue Auguste Gendreau\", \"CP\": \"85170\", \"VILLE\": \"Le Poiré-sur-Vie\", \"TEL\": \"(+33) 2-51-98-17-30\", \"MEL\": \"direction@residenceyvescougnaud.fr\", \"URL\": \"http://www.marches-securises.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-securises.fr\", \"URL_PARTICIPATION\": \"http://www.marches-securises.fr\", \"URL_DOCUMENT\": \"http://www.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Etablissement public d'hébergement des personnes âgées dépendantes\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Location-entretien d'articles textiles\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Accord-cadre pour la Location-entretien darticles textiles, notamment du linge plat et des tenues professionnelles, pour un groupement de commandes de 44 structures de Vendée accueillant des personnes âgées.La prestation comprend également la mise en place dun outil de gestion du linge.\", \"CPV\": {\"PRINCIPAL\": \"98310000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"5052000\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Location-entretien d'articles textiles\", \"CPV\": {\"PRINCIPAL\": \"98310000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"36/100\", \"#text\": \"caractéristiques techniques des produits proposés\"}, {\"@POIDS\": \"24/100\", \"#text\": \"qualité de service et des prestations associées\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"40/100\"}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"5052000\"}, \"DUREE_MOIS\": \"36\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Laccord-cadre est conclu pour une durée initiale de 3 (TROIS) ans, à compter de sa notification pour un démarrage le 1er avril 2019. Il est reconductible 1 (UNE) fois 1 (UN) an, par tacite reconduction.\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Accord-cadre à bons de commande, conformément à larticle 78 du Décret no 2016-360 du 25 mars 2016 relatif aux marchés publics.Les montants minimum et maximum annuels globaux sont les suivants, à titre indicatif, en euros HT : montant minimum de 316 500 euros et montant maximum de 1 263 000 euros.Les critères de jugements des offres sont détaillés dans le règlement de consultation.\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-10-08T16:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Les renseignements concernant la situation juridique de lentreprise tels que prévus aux articles 44 et 48 du décret  no 2016-360 du 25 mars 2016 relatif aux marchés publics :- Une Lettre de candidature (modèle DC1 ou similaire) - Si le candidat est en redressement judiciaire, la copie du ou des jugements prononcés;- Une Déclaration du candidat (modèle DC2 ou similaire\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"- Déclaration concernant le chiffre d'affaires global du candidat et le chiffre d'affaires du domaine d'activité faisant l'objet de laccord-cadre, portant au maximum sur les trois derniers exercices disponibles;- Déclaration appropriée de banques ou preuve dune assurance pour des risques professionnels pertinents\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"- Références du candidat (présentation libre datée et signée) : présentation dune liste des principaux services fournis au cours des trois dernières années indiquant le montant, la date et le destinataire public ou privé. Ces prestations sont prouvées par des attestations du destinataire ou par une déclaration de lopérateur économique ;- Déclaration indiquant les effectifs moyens annuels du candidat et limportance du personnel dencadrement pendant les trois dernières années ;- Description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation des prestations de laccord-cadre ;- Certificats établis par des instituts ou services officiels chargés du contrôle de la qualité et habilités à attester la conformité des fournitures par des références à certaines spécifications techniques ;- L'indication des systèmes de gestion et de suivi de la chaîne d'approvisionnement que le candidat pourra mettre en uvre lors de l'exécution de laccord-cadre ;- L'indication des mesures de gestion environnementale que le candidat pourra appliquer lors de l'exécution de laccord-cadre.\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-10-09\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_NON\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 2 septembre 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des litiges\", \"ADRESSE\": \"22 mail Pablo PicassoBP 24209\", \"CP\": \"44042\", \"VILLE\": \"Nantes Cedex 1\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Greffe du tribunal administratif de Nantes\", \"ADRESSE\": \"coordonnées au point VI.4.1\", \"VILLE\": \"Nantes\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-122238"
+  },
+  {
    "idweb": "18-123518",
    "id": "18_123518",
    "contractfolderid": null,
@@ -3268,68 +3330,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-123518\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-265\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-01-02\", \"DATE_FIN_DIFFUSION\": \"2018-02-05\"}}}}, \"NOM_HTML\": \"18-123518.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-09-04\", \"DATE_FIN_DIFFUSION\": \"2018-09-20\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"362\", \"LIBELLE\": \"Vidéo, cinéma\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Réalisation de Vidéos 360° et location de supports de diffusion\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Conseil régional des Pays de la Loire\", \"CORRESPONDANT\": \"Mme GUILBAUD Karine, Région des Pays de la Loire\", \"ADRESSE\": \"1 rue de la Loire\", \"CP\": \"44966\", \"VILLE\": \"Nantes cedex 9\", \"TEL\": \"02-28-20-58-38\", \"FAX\": \"02-28-20-50-27\", \"MEL\": \"demandedce@paysdelaloire.fr\", \"URL\": \"http://www.paysdelaloire.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.paysdelaloire.fr\"}, \"TYPE_ORGANISME\": {\"REGION\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"7\"}, \"OBJET_COMPLET\": \"Réalisation de Vidéos 360° et location de supports de diffusion\", \"CPV\": {\"PRINCIPAL\": \"32354500\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Région Pays de la Loire\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"CODE_NUTS\": \"FRG0\"}, \"AMP_OUI\": \"\"}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"DESCRIPTION\": \"Réalisation de Vidéos 360° et location de supports de diffusion\", \"TITULAIRE\": {\"DENOMINATION\": \"ANOKI\", \"ADRESSE\": \"4 rue Boulbonne\", \"CP\": \"31000\", \"VILLE\": \"Toulouse\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-06-27\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"140000\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-123518"
-  },
-  {
-   "idweb": "18-122238",
-   "id": "18_122238",
-   "contractfolderid": null,
-   "objet": "location-entretien d'articles textiles",
-   "filename": "BOAMP-J-AO_2018_247003",
-   "famille": "JOUE",
-   "code_departement": [
-    "85"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-09-04",
-   "datefindiffusion": "2018-10-08",
-   "datelimitereponse": null,
-   "nomacheteur": "CCAS EHPAD RESIDENCE YVES COUGNAUD",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": [
-    "sociaux",
-    "environnementaux"
-   ],
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "36"
-   ],
-   "dc": [
-    "36"
-   ],
-   "descripteur_libelle": [
-    "Blanchissage"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-122238\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-122238.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-09-04\", \"DATE_FIN_DIFFUSION\": \"2018-10-08\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"36\", \"LIBELLE\": \"Blanchissage\"}}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\", \"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"location-entretien d'articles textiles\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CCAS EHPAD RESIDENCE YVES COUGNAUD\", \"CONTACT\": \"Tatiana BALLET\", \"ADJUDICATEUR_NUTS\": \"FRG05\", \"ADRESSE\": \"1 rue Auguste Gendreau\", \"CP\": \"85170\", \"VILLE\": \"Le Poiré-sur-Vie\", \"TEL\": \"(+33) 2-51-98-17-30\", \"MEL\": \"direction@residenceyvescougnaud.fr\", \"URL\": \"http://www.marches-securises.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-securises.fr\", \"URL_PARTICIPATION\": \"http://www.marches-securises.fr\", \"URL_DOCUMENT\": \"http://www.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Etablissement public d'hébergement des personnes âgées dépendantes\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Location-entretien d'articles textiles\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Accord-cadre pour la Location-entretien darticles textiles, notamment du linge plat et des tenues professionnelles, pour un groupement de commandes de 44 structures de Vendée accueillant des personnes âgées.La prestation comprend également la mise en place dun outil de gestion du linge.\", \"CPV\": {\"PRINCIPAL\": \"98310000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"5052000\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Location-entretien d'articles textiles\", \"CPV\": {\"PRINCIPAL\": \"98310000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"36/100\", \"#text\": \"caractéristiques techniques des produits proposés\"}, {\"@POIDS\": \"24/100\", \"#text\": \"qualité de service et des prestations associées\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"40/100\"}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"5052000\"}, \"DUREE_MOIS\": \"36\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Laccord-cadre est conclu pour une durée initiale de 3 (TROIS) ans, à compter de sa notification pour un démarrage le 1er avril 2019. Il est reconductible 1 (UNE) fois 1 (UN) an, par tacite reconduction.\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Accord-cadre à bons de commande, conformément à larticle 78 du Décret no 2016-360 du 25 mars 2016 relatif aux marchés publics.Les montants minimum et maximum annuels globaux sont les suivants, à titre indicatif, en euros HT : montant minimum de 316 500 euros et montant maximum de 1 263 000 euros.Les critères de jugements des offres sont détaillés dans le règlement de consultation.\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-10-08T16:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Les renseignements concernant la situation juridique de lentreprise tels que prévus aux articles 44 et 48 du décret  no 2016-360 du 25 mars 2016 relatif aux marchés publics :- Une Lettre de candidature (modèle DC1 ou similaire) - Si le candidat est en redressement judiciaire, la copie du ou des jugements prononcés;- Une Déclaration du candidat (modèle DC2 ou similaire\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"- Déclaration concernant le chiffre d'affaires global du candidat et le chiffre d'affaires du domaine d'activité faisant l'objet de laccord-cadre, portant au maximum sur les trois derniers exercices disponibles;- Déclaration appropriée de banques ou preuve dune assurance pour des risques professionnels pertinents\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"- Références du candidat (présentation libre datée et signée) : présentation dune liste des principaux services fournis au cours des trois dernières années indiquant le montant, la date et le destinataire public ou privé. Ces prestations sont prouvées par des attestations du destinataire ou par une déclaration de lopérateur économique ;- Déclaration indiquant les effectifs moyens annuels du candidat et limportance du personnel dencadrement pendant les trois dernières années ;- Description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation des prestations de laccord-cadre ;- Certificats établis par des instituts ou services officiels chargés du contrôle de la qualité et habilités à attester la conformité des fournitures par des références à certaines spécifications techniques ;- L'indication des systèmes de gestion et de suivi de la chaîne d'approvisionnement que le candidat pourra mettre en uvre lors de l'exécution de laccord-cadre ;- L'indication des mesures de gestion environnementale que le candidat pourra appliquer lors de l'exécution de laccord-cadre.\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-10-09\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_NON\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 2 septembre 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des litiges\", \"ADRESSE\": \"22 mail Pablo PicassoBP 24209\", \"CP\": \"44042\", \"VILLE\": \"Nantes Cedex 1\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Greffe du tribunal administratif de Nantes\", \"ADRESSE\": \"coordonnées au point VI.4.1\", \"VILLE\": \"Nantes\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-122238"
   },
   {
    "idweb": "18-123694",
@@ -3577,69 +3577,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-123389"
   },
   {
-   "idweb": "18-122819",
-   "id": "18_122819",
-   "contractfolderid": null,
-   "objet": "RESTAURATION SCOLAIRE ET EXTRA-SCOLAIRE DE LOIRE-AUTHION : FOURNITURE, CONFECTION ET LIVRAISON DE REPAS EN LIAISON FROIDE",
-   "filename": "BOAMP-J-IC-AA_2018_248004",
-   "famille": "JOUE",
-   "code_departement": [
-    "49"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-09-05",
-   "datefindiffusion": "2018-11-24",
-   "datelimitereponse": null,
-   "nomacheteur": "COMMUNE DE LOIRE-AUTHION",
-   "titulaire": [
-    "E.P.A.R.C. - ETABLISSEMENT PUBLIC ANGEVIN DE RESTAURATION COLLECTIVE"
-   ],
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "ATTRIBUTION",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "66"
-   ],
-   "dc": [
-    "66"
-   ],
-   "descripteur_libelle": [
-    "Restauration collective"
-   ],
-   "type_marche": [
-    "FOURNITURES"
-   ],
-   "type_marche_facette": [
-    "Fournitures"
-   ],
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "18-53451"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"18-53451\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-04-17\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-04-19\", \"DATE_FIN_DIFFUSION\": \"2018-05-22\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"076\", \"NUM_ANNONCE\": \"168962\", \"DATE_PUBLICATION\": \"2018-04-19\"}}]}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-122819\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-53451\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-04-17\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-04-19\", \"DATE_FIN_DIFFUSION\": \"2018-05-22\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"076\", \"NUM_ANNONCE\": \"168962\", \"DATE_PUBLICATION\": \"2018-04-19\"}}]}}, \"NOM_HTML\": \"18-122819.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-09-05\", \"DATE_FIN_DIFFUSION\": \"2018-11-24\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"66\", \"LIBELLE\": \"Restauration collective\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"RESTAURATION SCOLAIRE ET EXTRA-SCOLAIRE DE LOIRE-AUTHION : FOURNITURE, CONFECTION ET LIVRAISON DE REPAS EN LIAISON FROIDE\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"COMMUNE DE LOIRE-AUTHION\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"24/26 levée Jeanne de Laval-Saint-Mathurin-sur-Loire\", \"CP\": \"49250\", \"VILLE\": \"LOIRE AUTHION\", \"TEL\": \"(+33) 2-41-57-59-92\", \"MEL\": \"marches@loire-authion.fr\", \"URL\": \"http://www.loire-authion.fr/\", \"URL_PROFIL_ACHETEUR\": \"https://www.anjoumarchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"RESTAURATION SCOLAIRE ET EXTRA-SCOLAIRE DE LOIRE-AUTHION : FOURNITURE, CONFECTION ET LIVRAISON DE REPAS EN LIAISON FROIDE\", \"REF_MARCHE\": \"2018-046\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"RESTAURATION SCOLAIRE ET EXTRA-SCOLAIRE DE LOIRE-AUTHION : FOURNITURE, CONFECTION ET LIVRAISON DE REPAS EN LIAISON FROIDE\", \"CPV\": {\"PRINCIPAL\": \"15894210\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"579794.16\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Restauration scolaire et extra-scolaire - Fourniture, confection et livraison de repas en liaison froide pour les écoles maternelles, primaires et Accueil de Loisirs sans hébergement (ALSH) de la commune nouvelle de Loire-Authion (sites des communes déléguées dAndard, Bauné, Corné, La Bohalle, La Daguenière)\", \"CPV\": {\"PRINCIPAL\": \"15894210\"}, \"CODE_NUTS\": \"FRG02\", \"LIEU_PRINCIPAL\": \"Rest. scolaire Andard 49800-Rest. scolaire Bauné 49140-Rest. scolaire Corné 49630-Rest. scolaire école publique et école privée-La Bohalle 49800-Rest. scolaire La Daguenière 49800\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"40\", \"#text\": \"1.Qualité technique des prestations (dont saisonnalité et produits bios...)\"}, {\"@POIDS\": \"15\", \"#text\": \"3.Variété des menus (diversité des produits, fréquence...)\"}, {\"@POIDS\": \"10\", \"#text\": \"4.Condition dajustement du nombre des repas\"}, {\"@POIDS\": \"10\", \"#text\": \"5.Qualité des prestations associées (Gestion des déchets et emballages, menus à thème, formation, sensibilisation...)\"}]}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"25\", \"#text\": \"2.Prix des prestations\"}}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Informations techniques :-Monsieur Pascal BODAN-p.bodan@loire-authion.fr-Tél. 02.41.68.93.78--Informations administratives-Anne Callebaut-a.callebaut@loire-authion.fr-Tél 02.41.57.59.92\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AMP_NON\": \"\"}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"INTITULE\": \"RESTAURATION SCOLAIRE ET EXTRA-SCOLAIRE DE LOIRE-AUTHION : FOURNITURE, CONFECTION ET LIVRAISON DE REPAS EN LIAISON FROIDE\", \"TITULAIRE\": {\"DENOMINATION\": \"E.P.A.R.C. - ETABLISSEMENT PUBLIC ANGEVIN DE RESTAURATION COLLECTIVE\", \"CODE_IDENT_NATIONAL\": \"SIRET 32793329700019\", \"ADRESSE\": \"49, rue des Claverie- -\", \"CP\": \"49124\", \"VILLE\": \"St barthelemy d'anjou\", \"CODE_NUTS\": \"FRG02\", \"TEL\": \"(+33) -41-21-18-80\", \"MEL\": \"contact@eparc.fr\", \"URL\": \"http://www.eparc.fr\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-07-09\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"579794.16\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Informations techniques :-Monsieur Pascal BODAN-p.bodan@loire-authion.fr-Tél. 02.41.68.93.78--Informations administratives-Anne Callebaut-a.callebaut@loire-authion.fr-Tél 02.41.57.59.92. Date d'envoi du présent avis au JOUE et au BOAMP : 3 septembre 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"2 place de l'Édit de Nantes\", \"CP\": \"44000\", \"VILLE\": \"NANTES\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"DIRECCTE DES PAYS DE LA LOIRE\", \"ADRESSE\": \"22 mail Pablo Picasso - BP 24209\", \"CP\": \"44042\", \"VILLE\": \"NANTES Cedex 1\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"CELLULE MARCHES PUBLICS\", \"ADRESSE\": \"24/26 Levée Jeanne de Laval\", \"CP\": \"49250\", \"VILLE\": \"LOIRE AUTHION\"}]}}, \"ANNEXE_D1\": \"\"}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-122819"
-  },
-  {
    "idweb": "18-123773",
    "id": "18_123773",
    "contractfolderid": null,
@@ -3717,6 +3654,69 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-123773\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-37177\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-04-06\", \"DATE_FIN_DIFFUSION\": \"2018-05-03\"}}}}, \"NOM_HTML\": \"18-123773.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-09-05\", \"DATE_FIN_DIFFUSION\": \"2018-10-07\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"102\", \"LIBELLE\": \"Eclairage public\"}, {\"CODE\": \"116\", \"LIBELLE\": \"Espaces verts\"}, {\"CODE\": \"341\", \"LIBELLE\": \"Terrassement\"}, {\"CODE\": \"365\", \"LIBELLE\": \"Voirie\"}, {\"CODE\": \"366\", \"LIBELLE\": \"Voirie et réseaux divers\"}]}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\"}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"travaux d'aménagement de la rue andré maurois à carquefou\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Nantes Métropole\", \"CORRESPONDANT\": \"Mme la Présidente\", \"ADRESSE\": \"2 Cours du Champ de Mars\", \"CP\": \"44923\", \"VILLE\": \"nantes cedex 9\", \"URL\": \"https://nantesmetropole.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.nantesmetropole.fr\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"TRAVAUX\": {\"EXECUTION\": \"\"}}, \"OBJET_COMPLET\": \"Travaux d'aménagement de la rue André Maurois à Carquefou\", \"CPV\": {\"PRINCIPAL\": \"45112500\"}, \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG01\"}, \"AMP_OUI\": \"\"}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_LOT\": \"01\", \"DESCRIPTION\": \"Terrassement - Voirie - Assainissement pluvial\", \"AUTRES_INFORMATIONS\": \"Une prestation d'insertion professionnelle de publics en difficulté est prévue au lot 1.Les candidats au lot no1 peuvent présenter une offre comportant des variantes qui ne peuvent porter que sur la structure de voiries et trottoirs.\", \"TITULAIRE\": {\"DENOMINATION\": \"TP BUREAU\", \"ADRESSE\": \"67 rue de la Piais\", \"CP\": \"44980\", \"VILLE\": \"Sainte Luce sur Loire\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-07-12\", \"NB_OFFRE_RECU\": \"6\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"596044.90\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"02\", \"DESCRIPTION\": \"Réseaux souples - Éclairage public\", \"AUTRES_INFORMATIONS\": \"Une prestation d'insertion professionnelle de publics en difficulté est prévue au lot 2.\", \"TITULAIRE\": {\"DENOMINATION\": \"ERS\", \"ADRESSE\": \"Parc d'activités de Brocéliande\", \"CP\": \"35760\", \"VILLE\": \"Saint-Grégoire\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-07-13\", \"NB_OFFRE_RECU\": \"7\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"76706.00\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"03\", \"DESCRIPTION\": \"Aménagements paysagers\", \"TITULAIRE\": {\"DENOMINATION\": \"ID VERDE\", \"ADRESSE\": \"2 rue Henri Farman\", \"CP\": \"44360\", \"VILLE\": \"Vigneux de Bretagne\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-07-12\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"63401.77\"}}}]}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de NANTES\", \"ADRESSE\": \"6 allée de l'Île GlorietteBP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES cedex 1\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de NANTES\", \"ADRESSE\": \"6 allée de l'Île GlorietteBP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES cedex 1\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-123773"
+  },
+  {
+   "idweb": "18-122819",
+   "id": "18_122819",
+   "contractfolderid": null,
+   "objet": "RESTAURATION SCOLAIRE ET EXTRA-SCOLAIRE DE LOIRE-AUTHION : FOURNITURE, CONFECTION ET LIVRAISON DE REPAS EN LIAISON FROIDE",
+   "filename": "BOAMP-J-IC-AA_2018_248004",
+   "famille": "JOUE",
+   "code_departement": [
+    "49"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-09-05",
+   "datefindiffusion": "2018-11-24",
+   "datelimitereponse": null,
+   "nomacheteur": "COMMUNE DE LOIRE-AUTHION",
+   "titulaire": [
+    "E.P.A.R.C. - ETABLISSEMENT PUBLIC ANGEVIN DE RESTAURATION COLLECTIVE"
+   ],
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "ATTRIBUTION",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "66"
+   ],
+   "dc": [
+    "66"
+   ],
+   "descripteur_libelle": [
+    "Restauration collective"
+   ],
+   "type_marche": [
+    "FOURNITURES"
+   ],
+   "type_marche_facette": [
+    "Fournitures"
+   ],
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "18-53451"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"18-53451\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-04-17\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-04-19\", \"DATE_FIN_DIFFUSION\": \"2018-05-22\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"076\", \"NUM_ANNONCE\": \"168962\", \"DATE_PUBLICATION\": \"2018-04-19\"}}]}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-122819\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-53451\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-04-17\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-04-19\", \"DATE_FIN_DIFFUSION\": \"2018-05-22\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"076\", \"NUM_ANNONCE\": \"168962\", \"DATE_PUBLICATION\": \"2018-04-19\"}}]}}, \"NOM_HTML\": \"18-122819.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-09-05\", \"DATE_FIN_DIFFUSION\": \"2018-11-24\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"66\", \"LIBELLE\": \"Restauration collective\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"RESTAURATION SCOLAIRE ET EXTRA-SCOLAIRE DE LOIRE-AUTHION : FOURNITURE, CONFECTION ET LIVRAISON DE REPAS EN LIAISON FROIDE\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"COMMUNE DE LOIRE-AUTHION\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"24/26 levée Jeanne de Laval-Saint-Mathurin-sur-Loire\", \"CP\": \"49250\", \"VILLE\": \"LOIRE AUTHION\", \"TEL\": \"(+33) 2-41-57-59-92\", \"MEL\": \"marches@loire-authion.fr\", \"URL\": \"http://www.loire-authion.fr/\", \"URL_PROFIL_ACHETEUR\": \"https://www.anjoumarchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"RESTAURATION SCOLAIRE ET EXTRA-SCOLAIRE DE LOIRE-AUTHION : FOURNITURE, CONFECTION ET LIVRAISON DE REPAS EN LIAISON FROIDE\", \"REF_MARCHE\": \"2018-046\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"RESTAURATION SCOLAIRE ET EXTRA-SCOLAIRE DE LOIRE-AUTHION : FOURNITURE, CONFECTION ET LIVRAISON DE REPAS EN LIAISON FROIDE\", \"CPV\": {\"PRINCIPAL\": \"15894210\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"579794.16\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Restauration scolaire et extra-scolaire - Fourniture, confection et livraison de repas en liaison froide pour les écoles maternelles, primaires et Accueil de Loisirs sans hébergement (ALSH) de la commune nouvelle de Loire-Authion (sites des communes déléguées dAndard, Bauné, Corné, La Bohalle, La Daguenière)\", \"CPV\": {\"PRINCIPAL\": \"15894210\"}, \"CODE_NUTS\": \"FRG02\", \"LIEU_PRINCIPAL\": \"Rest. scolaire Andard 49800-Rest. scolaire Bauné 49140-Rest. scolaire Corné 49630-Rest. scolaire école publique et école privée-La Bohalle 49800-Rest. scolaire La Daguenière 49800\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"40\", \"#text\": \"1.Qualité technique des prestations (dont saisonnalité et produits bios...)\"}, {\"@POIDS\": \"15\", \"#text\": \"3.Variété des menus (diversité des produits, fréquence...)\"}, {\"@POIDS\": \"10\", \"#text\": \"4.Condition dajustement du nombre des repas\"}, {\"@POIDS\": \"10\", \"#text\": \"5.Qualité des prestations associées (Gestion des déchets et emballages, menus à thème, formation, sensibilisation...)\"}]}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"25\", \"#text\": \"2.Prix des prestations\"}}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Informations techniques :-Monsieur Pascal BODAN-p.bodan@loire-authion.fr-Tél. 02.41.68.93.78--Informations administratives-Anne Callebaut-a.callebaut@loire-authion.fr-Tél 02.41.57.59.92\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AMP_NON\": \"\"}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"INTITULE\": \"RESTAURATION SCOLAIRE ET EXTRA-SCOLAIRE DE LOIRE-AUTHION : FOURNITURE, CONFECTION ET LIVRAISON DE REPAS EN LIAISON FROIDE\", \"TITULAIRE\": {\"DENOMINATION\": \"E.P.A.R.C. - ETABLISSEMENT PUBLIC ANGEVIN DE RESTAURATION COLLECTIVE\", \"CODE_IDENT_NATIONAL\": \"SIRET 32793329700019\", \"ADRESSE\": \"49, rue des Claverie- -\", \"CP\": \"49124\", \"VILLE\": \"St barthelemy d'anjou\", \"CODE_NUTS\": \"FRG02\", \"TEL\": \"(+33) -41-21-18-80\", \"MEL\": \"contact@eparc.fr\", \"URL\": \"http://www.eparc.fr\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-07-09\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"579794.16\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Informations techniques :-Monsieur Pascal BODAN-p.bodan@loire-authion.fr-Tél. 02.41.68.93.78--Informations administratives-Anne Callebaut-a.callebaut@loire-authion.fr-Tél 02.41.57.59.92. Date d'envoi du présent avis au JOUE et au BOAMP : 3 septembre 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"2 place de l'Édit de Nantes\", \"CP\": \"44000\", \"VILLE\": \"NANTES\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"DIRECCTE DES PAYS DE LA LOIRE\", \"ADRESSE\": \"22 mail Pablo Picasso - BP 24209\", \"CP\": \"44042\", \"VILLE\": \"NANTES Cedex 1\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"CELLULE MARCHES PUBLICS\", \"ADRESSE\": \"24/26 Levée Jeanne de Laval\", \"CP\": \"49250\", \"VILLE\": \"LOIRE AUTHION\"}]}}, \"ANNEXE_D1\": \"\"}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-122819"
   },
   {
    "idweb": "18-124243",

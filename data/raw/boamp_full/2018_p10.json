@@ -1304,6 +1304,72 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-48438"
   },
   {
+   "idweb": "18-48425",
+   "id": "18_48425",
+   "contractfolderid": null,
+   "objet": "Entretien et maintenance des ascenseurs et monte-charges du Parc du Cnam (3 lots géographiques)",
+   "filename": "BOAMP-J-AO_2018_101003",
+   "famille": "JOUE",
+   "code_departement": [
+    "75",
+    "50",
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-04-11",
+   "datefindiffusion": "2018-05-20",
+   "datelimitereponse": null,
+   "nomacheteur": "CNAM",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": [
+    "environnementaux"
+   ],
+   "marche_public_simplifie": "1",
+   "marche_public_simplifie_label": "Marché public simplifié",
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "1",
+    "17"
+   ],
+   "dc": [
+    "1",
+    "17"
+   ],
+   "descripteur_libelle": [
+    "Abris",
+    "Ascenseur"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-48425\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-48425.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-04-11\", \"DATE_FIN_DIFFUSION\": \"2018-05-20\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"1\", \"LIBELLE\": \"Abris\"}, {\"CODE\": \"17\", \"LIBELLE\": \"Ascenseur\"}]}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": [\"75\", \"50\", \"72\"], \"RESUME_OBJET\": \"Entretien et maintenance des ascenseurs et monte-charges du Parc du Cnam (3 lots géographiques)\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CNAM\", \"ADJUDICATEUR_NUTS\": \"FR10\", \"ADRESSE\": \"292 rue Saint Martin\", \"CP\": \"75141\", \"VILLE\": \"Paris cedex 03\", \"TEL\": \"(+33) 1-40-27-29-02\", \"FAX\": \"(+33) 1-58-80-87-17\", \"MEL\": \"achats@lecnam.net\", \"URL\": \"http://www.cnam.fr\", \"URL_PARTICIPATION\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=373230&orgAcronyme=f2h\", \"URL_DOCUMENT\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=373230&orgAcronyme=f2h\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Entretien et maintenance des ascenseurs et monte-charges du Parc du Cnam (3 lots géographiques)\", \"REF_MARCHE\": \"18-003\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Entretien et maintenance des ascenseurs et monte-charges du Parc du Cnam Lot 1 Paris et Ile de France, lot 2 Cherbourg et lot 3 Le Mans Maintenance préventive et corrective de type << A CLAUSES ÉTENDUES >> (ascenseurs et ascenseurs de charge) ou << COMPLET >> (monte-charge et élévateurs de personnes) En complément des obligations décrites ci-dessous, le prestataire devra réaliser une maintenance spécifique aux caractéristiques, utilisations et pannes de chaque équipement ; - La maintenance corrective : réparation ou le remplacement à l'identique ou en équivalence des pièces listées dans le CCTP (articles 2.2 et 3.2), sans limite de vétusté ou d'obsolescence, sous un délai maximum de 24 heures ; - Un service d'astreinte 24h/24 et 365 jours/365 ; L'objectif du présent marché est notamment d'assurer la continuité de service et la sécurité des occupants et utilisateurs des bâtiments, que ce soit les locaux de service, ou les locaux ouverts au public.\", \"CPV\": {\"PRINCIPAL\": \"50750000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS_RESERVE_POUVOIR_ADJUDICATEUR\": \"NEANT\", \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Sites franciliens (Paris St Denis)\", \"DESCRIPTION\": \"Bâtiments du lot 1 Paris Ile de France : - 292 rue Saint-Martin, 75003 Paris. Bâtiment dit Saint-Martin ;- 2 rue Conté, 75003 Paris. Bâtiment dit Montgolfier ;- 60 rue Réaumur, 75003 Paris. Bâtiment dit Musée des Arts et Métiers ; - 218 avenue du Président Wilson, 93200 Saint-Denis. Bâtiment dit réserves du Musée ;- 61 rue du Landy 93200 Saint Denis. Bâtiment dit Le Landy ;- 41 rue Gay-Lussac, 75005 Paris. Bâtiment dit INETOP ;- 40 rue des Jeuneurs, 75002 Paris. Bâtiment dit Les Jeuneurs\", \"CPV\": [{\"PRINCIPAL\": \"42416000\"}, {\"PRINCIPAL\": \"42419000\"}], \"CODE_NUTS\": \"FR10\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"renouvelable 3 fois par tacite reconduction, sans que sa durée totale puisse excéder 4 ans.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Les prestations du marché commencent le 1er juillet 2018. Sa durée est de un (1) an, renouvelable 3 fois par tacite reconduction, sans que sa durée totale puisse excéder 4 ans.\"}, {\"NUM\": \"2\", \"INTITULE\": \"Intechmer (Cherbourg en Cotentin)\", \"DESCRIPTION\": \"Bâtiments du lot 2 : - Cherbourg- Digue de Collignon, Tourlaville, 50110 Cherbourg en Cotentin dit Intechmer\", \"CPV\": [{\"PRINCIPAL\": \"42416000\"}, {\"PRINCIPAL\": \"42419000\"}], \"CODE_NUTS\": \"FRD12\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \", renouvelable 3 fois par tacite reconduction, sans que sa durée totale puisse excéder 4 ans. Conformément à l'article 16 du décret no2016-360 du 25 mars 2016, en cas de silence du pouvoir adjudicateur, le marché sera reconduit automatiquement.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Le marché commence à compter de la date de notification.Les prestations du marché commencent le 1er juillet 2018Sa durée est de un (1) an, renouvelable 3 fois par tacite reconduction, sans que sa durée totale puisse excéder 4 ans.\"}, {\"NUM\": \"3\", \"INTITULE\": \"Ecole supérieure des géomètres et des topographes (ESGT le Mans)\", \"DESCRIPTION\": \"Bâtiments du lot 3 : - Le Mans- 1 boulevard Pythagore, 72000 le Mans dit Ecole supérieure des géomètres et des topographes (ESGT)\", \"CPV\": [{\"PRINCIPAL\": \"42416000\"}, {\"PRINCIPAL\": \"42419000\"}], \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"renouvelable 3 fois par tacite reconduction, sans que sa durée totale puisse excéder 4 ans. Conformément à l'article 16 du décret no2016-360 du 25 mars 2016, en cas de silence du pouvoir adjudicateur, le marché sera reconduit automatiquement\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Le marché commence à compter de la date de notification.Les prestations du marché commencent le 1er juillet 2018Sa durée est de un (1) an, renouvelable 3 fois par tacite reconduction, sans que sa durée totale puisse excéder 4 ans.\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"MARS 2022\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-05-14T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-05-14\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 9 avril 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Paris\", \"ADRESSE\": \"7 rue de Jouy\", \"CP\": \"75181\", \"VILLE\": \"PARIS cedex 04\", \"TEL\": \"(+33) 1-44-49-44-00\", \"FAX\": \"(+33) 1-44-59-46-46\", \"MEL\": \"greffe.ta@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Paris\", \"ADRESSE\": \"7 rue de Jouy\", \"CP\": \"75181\", \"VILLE\": \"PARIS cedex 04\", \"TEL\": \"(+33) 1-44-49-44-00\", \"FAX\": \"(+33) 1-44-59-46-46\", \"MEL\": \"greffe.ta@juradm.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-48425"
+  },
+  {
    "idweb": "18-11087",
    "id": "18_11087",
    "contractfolderid": null,
@@ -1435,72 +1501,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-47889\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-171412\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-12-05\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-12-07\", \"DATE_FIN_DIFFUSION\": \"2018-01-15\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"235\", \"NUM_ANNONCE\": \"488193\", \"DATE_PUBLICATION\": \"2017-12-07\"}}]}}, \"NOM_HTML\": \"18-47889.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-04-11\", \"DATE_FIN_DIFFUSION\": \"2018-05-11\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}}, \"DEP_PUBLICATION\": [\"44\", \"85\", \"49\", \"53\"], \"RESUME_OBJET\": \"Marché de services bancaires\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"URSSAF des Pays de la Loire\", \"CONTACT\": \"Mme Chachkine\", \"ADJUDICATEUR_NUTS\": \"FRG0\", \"ADRESSE\": \"03 rue Gaetan RONDEAU\", \"CP\": \"44933\", \"VILLE\": \"Nantes cedex 9\", \"TEL\": \"(+33) 2-51-72-65-30\", \"MEL\": \"sophie.chachkine@urssaf.fr\", \"URL\": \"https://www.achatpublic.com/sdm/ent/gen/index.jsp\", \"URL_PROFIL_ACHETEUR\": \"https://www.achatpublic.com/sdm/ent/gen/index.jsp\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Organisme de sécurité sociale, URSSAF.\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"PROTECTION_SOCIALE\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Marché de services bancaires\", \"REF_MARCHE\": \"2017-14\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Le présent marché a pour objet : -la gestion de comptes d'encaissement des cotisations, des contributions et autres versements de sommes recouvrées par l'Urssaf des Pays de la Loire, -la gestion de \\\" comptes courants \\\", -la prise en charge par le titulaire de moyens de paiement, -le transfert des fonds encaissés au \\\" compte courant central \\\" de l'Agence Centrale des Organismes de Sécurité Sociale (ACOSS) ouvert auprès de la Caisse des Dépôts et Consignations (dit \\\" compte ACOSS \\\"), - la mise à disposition de services associés\", \"CPV\": {\"PRINCIPAL\": \"66110000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"334000\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Lot 1\", \"DESCRIPTION\": \"Lot 1 qui concerne :-2 comptes d'encaissement destinés à encaisser une partie des sommes recouvrées par l'Urssaf des Pays de la Loire, selon le détail estimatif global figurant en annexe au CCP à titre indicatif, -ainsi que les services associés au fonctionnement et à la gestion de l'ensemble de ces comptes.\", \"CPV\": [{\"PRINCIPAL\": \"66111000\"}, {\"PRINCIPAL\": \"66112000\"}], \"CODE_NUTS\": \"FRG0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"35\", \"#text\": \"Qualité de l'offre concernant le système d'information et les services au quotidien proposés\"}, {\"@POIDS\": \"10\", \"#text\": \"Continuité du niveau de qualité du service\"}]}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"55\", \"#text\": \"Qualité de l'offre s'agissant des éléments à caractère financier direct et/ou indirect\"}}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Des avenants ou des marchés complémentaires sont susceptibles d'être passés conformément aux articles 139 et 140 du décret no2016-360 du 25 mars 2016. Des marchés de prestations similaires pourront également être passés conformément aux dispositions de l'article 30 7° du décret no2016-360 du 25 mars 2016.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Lot 2\", \"DESCRIPTION\": \"Lot 2 qui concerne :-2 comptes d'encaissement destinés à encaisser une partie des sommes recouvrées par l'Urssaf des Pays de la Loire, selon le détail estimatif global figurant en annexe au CCP à titre indicatif, -2 comptes courants pour l'Urssaf des Pays de la Loire, -ainsi que les services associés au fonctionnement et à la gestion de l'ensemble de ces comptes.\", \"CPV\": [{\"PRINCIPAL\": \"66111000\"}, {\"PRINCIPAL\": \"66112000\"}], \"CODE_NUTS\": \"FRG0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"35\", \"#text\": \"Qualité de l'offre concernant le système d'information et les services au quotidien proposés\"}, {\"@POIDS\": \"10\", \"#text\": \"Continuité du niveau de qualité du service\"}]}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"55\", \"#text\": \"Appréciation de la qualité de l'offre s'agissant des éléments à caractère financier direct et/ou indirect\"}}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Des avenants ou des marchés complémentaires sont susceptibles d'être passés conformément aux articles 139 et 140 du décret no2016-360 du 25 mars 2016. Des marchés de prestations similaires pourront également être passés conformément aux dispositions de l'article 30 7° du décret no2016-360 du 25 mars 2016.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"235\", \"NUM_ANNONCE\": \"488193\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2017-14\", \"NUM_LOT\": \"1\", \"INTITULE\": \"2 comptes d'encaissement destinés à encaisser une partie des sommes recouvrées par l'Urssaf des Pays de la Loire\", \"TITULAIRE\": {\"DENOMINATION\": \"BNP PARIBAS\", \"ADRESSE\": \"20, Avenue Georges Pompidou\", \"CP\": \"92300\", \"VILLE\": \"LEVALLOIS PERRET\", \"CODE_NUTS\": \"FRG0\", \"URL\": \"https://group.bnpparibas/\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-03-14\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"150190\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2017-14\", \"NUM_LOT\": \"2\", \"INTITULE\": \"2 comptes d'encaissement destinés à encaisser une partie des sommes recouvrées par l'Urssaf des Pays de la Loire, selon le détail estimatif global figurant en annexe au CCP\", \"TITULAIRE\": {\"DENOMINATION\": \"GROUPE BRED\", \"ADRESSE\": \"18, Quai de la Rapée\", \"CP\": \"75604\", \"VILLE\": \"PARIS\", \"CODE_NUTS\": \"FRG0\", \"URL\": \"https://www.bred.fr/\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-04-04\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"183810\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 9 avril 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal de Grande Instance de Rennes\", \"ADRESSE\": \"7 rue Pierre Abélard\", \"CP\": \"35031\", \"VILLE\": \"Rennes\", \"TEL\": \"(+33) 2-99-65-37-37\", \"FAX\": \"(+33) 2-99-31-06-15\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Greffe du Tribunal de Grande Instance de Rennes\", \"ADRESSE\": \"7 rue Pierre Abélard\", \"CP\": \"35031\", \"VILLE\": \"Rennes\", \"TEL\": \"(+33) 2-99-65-37-37\", \"FAX\": \"(+33) 2-99-31-06-15\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-47889"
-  },
-  {
-   "idweb": "18-48425",
-   "id": "18_48425",
-   "contractfolderid": null,
-   "objet": "Entretien et maintenance des ascenseurs et monte-charges du Parc du Cnam (3 lots géographiques)",
-   "filename": "BOAMP-J-AO_2018_101003",
-   "famille": "JOUE",
-   "code_departement": [
-    "75",
-    "50",
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-04-11",
-   "datefindiffusion": "2018-05-20",
-   "datelimitereponse": null,
-   "nomacheteur": "CNAM",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": [
-    "environnementaux"
-   ],
-   "marche_public_simplifie": "1",
-   "marche_public_simplifie_label": "Marché public simplifié",
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "1",
-    "17"
-   ],
-   "dc": [
-    "1",
-    "17"
-   ],
-   "descripteur_libelle": [
-    "Abris",
-    "Ascenseur"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-48425\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-48425.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-04-11\", \"DATE_FIN_DIFFUSION\": \"2018-05-20\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"1\", \"LIBELLE\": \"Abris\"}, {\"CODE\": \"17\", \"LIBELLE\": \"Ascenseur\"}]}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": [\"75\", \"50\", \"72\"], \"RESUME_OBJET\": \"Entretien et maintenance des ascenseurs et monte-charges du Parc du Cnam (3 lots géographiques)\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CNAM\", \"ADJUDICATEUR_NUTS\": \"FR10\", \"ADRESSE\": \"292 rue Saint Martin\", \"CP\": \"75141\", \"VILLE\": \"Paris cedex 03\", \"TEL\": \"(+33) 1-40-27-29-02\", \"FAX\": \"(+33) 1-58-80-87-17\", \"MEL\": \"achats@lecnam.net\", \"URL\": \"http://www.cnam.fr\", \"URL_PARTICIPATION\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=373230&orgAcronyme=f2h\", \"URL_DOCUMENT\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=373230&orgAcronyme=f2h\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Entretien et maintenance des ascenseurs et monte-charges du Parc du Cnam (3 lots géographiques)\", \"REF_MARCHE\": \"18-003\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Entretien et maintenance des ascenseurs et monte-charges du Parc du Cnam Lot 1 Paris et Ile de France, lot 2 Cherbourg et lot 3 Le Mans Maintenance préventive et corrective de type << A CLAUSES ÉTENDUES >> (ascenseurs et ascenseurs de charge) ou << COMPLET >> (monte-charge et élévateurs de personnes) En complément des obligations décrites ci-dessous, le prestataire devra réaliser une maintenance spécifique aux caractéristiques, utilisations et pannes de chaque équipement ; - La maintenance corrective : réparation ou le remplacement à l'identique ou en équivalence des pièces listées dans le CCTP (articles 2.2 et 3.2), sans limite de vétusté ou d'obsolescence, sous un délai maximum de 24 heures ; - Un service d'astreinte 24h/24 et 365 jours/365 ; L'objectif du présent marché est notamment d'assurer la continuité de service et la sécurité des occupants et utilisateurs des bâtiments, que ce soit les locaux de service, ou les locaux ouverts au public.\", \"CPV\": {\"PRINCIPAL\": \"50750000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS_RESERVE_POUVOIR_ADJUDICATEUR\": \"NEANT\", \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Sites franciliens (Paris St Denis)\", \"DESCRIPTION\": \"Bâtiments du lot 1 Paris Ile de France : - 292 rue Saint-Martin, 75003 Paris. Bâtiment dit Saint-Martin ;- 2 rue Conté, 75003 Paris. Bâtiment dit Montgolfier ;- 60 rue Réaumur, 75003 Paris. Bâtiment dit Musée des Arts et Métiers ; - 218 avenue du Président Wilson, 93200 Saint-Denis. Bâtiment dit réserves du Musée ;- 61 rue du Landy 93200 Saint Denis. Bâtiment dit Le Landy ;- 41 rue Gay-Lussac, 75005 Paris. Bâtiment dit INETOP ;- 40 rue des Jeuneurs, 75002 Paris. Bâtiment dit Les Jeuneurs\", \"CPV\": [{\"PRINCIPAL\": \"42416000\"}, {\"PRINCIPAL\": \"42419000\"}], \"CODE_NUTS\": \"FR10\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"renouvelable 3 fois par tacite reconduction, sans que sa durée totale puisse excéder 4 ans.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Les prestations du marché commencent le 1er juillet 2018. Sa durée est de un (1) an, renouvelable 3 fois par tacite reconduction, sans que sa durée totale puisse excéder 4 ans.\"}, {\"NUM\": \"2\", \"INTITULE\": \"Intechmer (Cherbourg en Cotentin)\", \"DESCRIPTION\": \"Bâtiments du lot 2 : - Cherbourg- Digue de Collignon, Tourlaville, 50110 Cherbourg en Cotentin dit Intechmer\", \"CPV\": [{\"PRINCIPAL\": \"42416000\"}, {\"PRINCIPAL\": \"42419000\"}], \"CODE_NUTS\": \"FRD12\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \", renouvelable 3 fois par tacite reconduction, sans que sa durée totale puisse excéder 4 ans. Conformément à l'article 16 du décret no2016-360 du 25 mars 2016, en cas de silence du pouvoir adjudicateur, le marché sera reconduit automatiquement.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Le marché commence à compter de la date de notification.Les prestations du marché commencent le 1er juillet 2018Sa durée est de un (1) an, renouvelable 3 fois par tacite reconduction, sans que sa durée totale puisse excéder 4 ans.\"}, {\"NUM\": \"3\", \"INTITULE\": \"Ecole supérieure des géomètres et des topographes (ESGT le Mans)\", \"DESCRIPTION\": \"Bâtiments du lot 3 : - Le Mans- 1 boulevard Pythagore, 72000 le Mans dit Ecole supérieure des géomètres et des topographes (ESGT)\", \"CPV\": [{\"PRINCIPAL\": \"42416000\"}, {\"PRINCIPAL\": \"42419000\"}], \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"renouvelable 3 fois par tacite reconduction, sans que sa durée totale puisse excéder 4 ans. Conformément à l'article 16 du décret no2016-360 du 25 mars 2016, en cas de silence du pouvoir adjudicateur, le marché sera reconduit automatiquement\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Le marché commence à compter de la date de notification.Les prestations du marché commencent le 1er juillet 2018Sa durée est de un (1) an, renouvelable 3 fois par tacite reconduction, sans que sa durée totale puisse excéder 4 ans.\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"MARS 2022\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-05-14T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-05-14\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 9 avril 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Paris\", \"ADRESSE\": \"7 rue de Jouy\", \"CP\": \"75181\", \"VILLE\": \"PARIS cedex 04\", \"TEL\": \"(+33) 1-44-49-44-00\", \"FAX\": \"(+33) 1-44-59-46-46\", \"MEL\": \"greffe.ta@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Paris\", \"ADRESSE\": \"7 rue de Jouy\", \"CP\": \"75181\", \"VILLE\": \"PARIS cedex 04\", \"TEL\": \"(+33) 1-44-49-44-00\", \"FAX\": \"(+33) 1-44-59-46-46\", \"MEL\": \"greffe.ta@juradm.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-48425"
   },
   {
    "idweb": "18-47838",
@@ -2682,65 +2682,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-49017"
   },
   {
-   "idweb": "18-50509",
-   "id": "18_50509",
-   "contractfolderid": null,
-   "objet": "Externalisation de la gestion technique de la piscine Daniel Gilard",
-   "filename": "BOAMP-N-AO_2018_102011",
-   "famille": "FNS",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2018-04-12",
-   "datefindiffusion": "2018-05-14",
-   "datelimitereponse": "2018-05-14T16:00:00+00:00",
-   "nomacheteur": "Ville de Carquefou",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "265"
-   ],
-   "dc": [
-    "265"
-   ],
-   "descripteur_libelle": [
-    "Piscine"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-50509\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-50509.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-04-12\", \"DATE_LIMITE_REPONSE\": \"2018-05-14T17:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-05-14\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"265\", \"LIBELLE\": \"Piscine\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Externalisation de la gestion technique de la piscine Daniel Gilard\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Carquefou\", \"CORRESPONDANT\": \"Madame le Maire\", \"ADRESSE\": \"Mairie de Carquefou Rue de l'Hôtel de Ville BP 60139\", \"CP\": \"44471\", \"VILLE\": \"Carquefou Cedex\", \"TEL\": \"(+33) 2-28-22-22-22\", \"FAX\": \"(+33) 2-28-22-22-21\", \"MEL\": \"achats@mairie-carquefou.fr\", \"URL\": \"http://www.carquefou.fr\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"27\"}, \"OBJET_COMPLET\": \"Externalisation de la gestion technique de la piscine Daniel Gilard\", \"CPV\": {\"PRINCIPAL\": \"92610000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Carquefou\", \"CODE_NUTS\": \"FRG01\"}, \"AMP_NON\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Externalisation de la gestion technique de la piscine Daniel Gilard\", \"QUANTITE\": \"Externalisation de la gestion technique de la piscine Daniel Gilard\", \"OPTIONS\": {\"OUI\": \"\"}, \"RECONDUCTIONS\": {\"NB_RECONDUCTIONS\": \"2\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"12\", \"DATE_EXECUTION\": \"2018-07-01\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"65\", \"#text\": \"Valeur technique : - Méthodologie d'interventions et passation des informations (sur 5 points) - - Planning d'intervention mensuel (sur 3 points) - - Equipe mise en place (sur 2 points)\"}, {\"@POIDS\": \"35\", \"#text\": \"Prix : l'attribution du nombre de points se fera selon la formule suivante : proposition la moins disante : total maximum de points, autre proposition : montant de la proposition la moins disante / montant de la proposition examinée x 10\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-05-14T17:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Sûreté : Sans objet\", \"FINANCEMENT\": \"Mode de financement : Budget propre.- Mode de paiement : Virement bancaire (Mandat administratif).- Délai de paiement : 30 jours\", \"FORME_JURIDIQUE\": \"Pas de forme imposée\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Autres renseignements demandés\", \"=== Candidature ===\", \"Autres renseignements demandés\", \"DC1 ou Lettre de candidature et attestation sur l'honneur (art. 45 et 48 de l'Ord. N°2015-899 du 23 juillet 2015 et art. L. 5212-1 à L. 5212-11 du code du travail)\", \"Autres renseignements demandés\", \"DC2 ou DUME ou déclarations concernant les chiffres d'affaire, les capacités et les effectifs\", \"Autres renseignements demandés\", \"=== Offre ===\", \"Autres renseignements demandés\", \"Acte d'engagement\", \"Autres renseignements demandés\", \"Mémoire technique\", \"Autres renseignements demandés\", \"D.Q.E. valant B.P.U\", \"Autres renseignements demandés\", \"Planning prévisionnel\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"18S0015\", \"CONDITIONS_REMISE_OFFRES\": \"Par envoi postal ou électronique ou dépôt sur place dont les modalités sont définies dans le règlement de consultation\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Précision : Les délais d'exécution courent à compter d'une date fixée au 01/07/2018.Modalités de retrait des documents : par téléchargement\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Le délai d'introduction des recours est de 2 mois à parution de l'avis d'attribution du marché ou de la date de réception des courriers informant les entreprises non retenues de la date de signature du marché\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta.nantes@juradm.fr\", \"URL\": \"http://www.ta-nantes.juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta.nantes@juradm.fr\", \"URL\": \"http://www.ta-nantes.juradm.fr\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"DENOMINATION\": \"Ville de CARQUEFOU\", \"ADRESSE\": \"Par téléchargement sur le site : www.e-marchespublics.com\", \"CP\": \"44471\", \"VILLE\": \"Carquefou Cedex\", \"TEL\": \"(+33) 2-28-22-22-22\", \"FAX\": \"(+33) 2-28-22-22-21\", \"MEL\": \"achats@mairie-carquefou.fr\", \"URL\": \"http://mairie-carquefou.e-marchespublics.com\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Ville de CARQUEFOU\", \"CORRESPONDANT\": \"Catherine Chabot\", \"ADRESSE\": \"Mairie Rue de l'Hôtel de Ville BP 60139\", \"CP\": \"44471\", \"VILLE\": \"Carquefou Cedex\", \"MEL\": \"achats@mairie-carquefou.fr\", \"URL\": \"http://mairie-carquefou.e-marchespublics.com\"}, {\"TYPE\": {\"ADMIN\": \"\"}, \"DENOMINATION\": \"Ville de CARQUEFOU\", \"CORRESPONDANT\": \"Catherine Chabot\", \"ADRESSE\": \"Mairie Direction de la Commande Publiqu Rue de l'Hôtel de Ville BP 60139\", \"CP\": \"44471\", \"VILLE\": \"Carquefou Cedex\", \"TEL\": \"(+33) 2-28-22-23-50\", \"FAX\": \"(+33) 2-28-22-23-51\", \"MEL\": \"achats@mairie-carquefou.fr\", \"URL\": \"http://mairie-carquefou.e-marchespublics.com\"}, {\"TYPE\": {\"TECH\": \"\"}, \"DENOMINATION\": \"Ville de CARQUEFOU\", \"CORRESPONDANT\": \"Pascal Provins\", \"ADRESSE\": \"Mairie Direction des Sports et Loisirs Rue de l'Hôtel de Ville BP 60139\", \"CP\": \"44471\", \"VILLE\": \"Carquefou Cedex\", \"TEL\": \"(+33) 2-28-22-21-02\", \"FAX\": \"(+33) 2-28-22-21-01\", \"MEL\": \"sports@mairie-carquefou.fr\", \"URL\": \"http://mairie-carquefou.e-marchespublics.com\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-50509"
-  },
-  {
    "idweb": "18-48662",
    "id": "18_48662",
    "contractfolderid": null,
@@ -2808,6 +2749,65 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-48662\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-48662.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-04-12\", \"DATE_FIN_DIFFUSION\": \"2018-05-17\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"138\", \"LIBELLE\": \"Gardiennage\"}, {\"CODE\": \"331\", \"LIBELLE\": \"Surveillance\"}]}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\"}, \"DEP_PUBLICATION\": [\"44\", \"92\", \"49\", \"79\", \"85\", \"35\"], \"RESUME_OBJET\": \"marché de sécurité incendie sûreté au château des ducs de bretagne - nantes\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Le Voyage à Nantes\", \"CONTACT\": \"Géraldine Puiroux\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"1-3 rue crucyBP 92311\", \"CP\": \"44022\", \"VILLE\": \"NANTES CEDEX1\", \"TEL\": \"(+33) 2-51-17-48-52\", \"MEL\": \"geraldine.puiroux@lvan.fr\", \"URL\": \"http://www.levoyageanantes.fr\", \"URL_DOCUMENT\": \"http://www.levoyageanantes.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"SPL\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Tourisme et Culture\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Marché de sécurité Incendie Sûreté au Château des ducs de Bretagne - Nantes\", \"REF_MARCHE\": \"SECU_CHDB_2018\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Les prestations demandées sinscrivent dans le cadre de lexploitation de trois établissements principaux et de deux sites de stockage annexes et consistent à assurer :-\\tLa sécurité incendie et la sûreté du Château des Ducs de Bretagne, constitué d'un ensemble de bâtiments classés individuellement ERP avec une superficie totale denviron 7 500 mètres carrés dont 5 500 mètres carrés accessibles au public,-\\tLa sécurité incendie et la sûreté du Mémorial de labolition de lesclavage, espace public semi-ouvert -\\tLa sécurité lors des visites des Cryptes de la Cathédrale Saint-Pierre et Saint-Paul, - la réserve de Cheviré, local de stockage représentant une surface utile denviron 200 mètres carrés,-\\tLa sécurité incendie et la sûreté de la réserve du Perray, local de stockage représentant une surface utile denviron 1000 mètres carrés.\", \"CPV\": {\"PRINCIPAL\": \"79714000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"2812000\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Les prestations demandées sinscrivent dans le cadre de lexploitation de trois établissements principaux et de deux sites de stockage annexes et consistent à assurer :-\\tLa sécurité incendie et la sûreté du Château des Ducs de Bretagne, constitué d'un ensemble de bâtiments classés individuellement ERP avec une superficie totale denviron 7 500 mètres carrés dont 5 500 mètres carrés accessibles au public,-\\tLa sécurité incendie et la sûreté du Mémorial de labolition de lesclavage, espace public semi-ouvert -\\tLa sécurité lors des visites des Cryptes de la Cathédrale Saint-Pierre et Saint-Paul, - la réserve de Cheviré, local de stockage représentant une surface utile denviron 200 mètres carrés,-\\tLa sécurité incendie et la sûreté de la réserve du Perray, local de stockage représentant une surface utile denviron 1000 mètres carrés.\", \"CPV\": [{\"PRINCIPAL\": \"79714000\"}, {\"PRINCIPAL\": \"79713000\"}, {\"PRINCIPAL\": \"75251100\"}, {\"PRINCIPAL\": \"75251110\"}], \"CODE_NUTS\": \"FRG0\", \"LIEU_PRINCIPAL\": \"NANTES\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"2812000\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Marché de 2 ans, reconductible 2 fois par période de 1an\", \"NB_CANDIDATS\": {\"NB_MIN_OFFRE\": \"3\"}, \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"RESTREINT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"marché de 2 ans renouvelable 2 fois 1 an\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-05-17T12:00:00+01:00\", \"LIMITE_ENVOI_INVIT\": \"2018-06-04\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"-\\tLa lettre de candidature ou l'habilitation du mandataire par ses cotraitants dans le cas de groupements d'entreprises (imprimé DC1 ou équivalent) ;-\\tLa déclaration du candidat individuel ou de chaque membre du groupement intégralement renseignée (imprimé DC2 ou équivalent) ;-\\tLe cas échéant, un document relatif aux pouvoirs de la personne habilitée à engager le candidat ;-\\tEn cas de redressement judiciaire, la copie du ou des jugements prononcés.-\\tLes groupements d'entreprises remplissent l'imprimé DC1, document unique pour le groupement, chaque membre du groupement le signe et produit les renseignements ou documents demandés en utilisant le formulaire DC2.\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"-\\tLa déclaration mentionnant le chiffre daffaires global de lentreprise et/ou du groupe au cours des 3 dernières années ;-\\tLa déclaration mentionnant, le chiffre d'affaires dans le domaine dactivité objet du marché réalisé au cours des 3 dernières années de lagence/établissement qui prendra en charge le marché ;-\\tLes bilans et comptes de résultats des 3 derniers exercices clos de lentité juridique qui prendra en charge le marché.-\\tEn cas de groupement, chaque cotraitant est invité à fournir les éléments listés ci-avant.\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"-\\tPrésentation détaillée de lorganisation générale de lentreprise (du groupe le cas échéant) : organigrammes, activités, implantations géographiques, moyens humains à léchelle du groupe...-\\tPrésentation du nom et de la dénomination de lagence ou de létablissement local qui prendra en charge le marché ainsi que ses coordonnées (adresse, téléphone, télécopie et courriel) ;-\\tPrésentation de lorganisation opérationnelle de lagence ou de létablissement local qui prendra en charge le marché : organigramme, encadrement, services supports...  -\\tPrésentation des moyens humains de lagence ou de létablissement local qui prendra en charge le marché : moyens en personnel et importance du personnel dencadrement en nombre de personnes et en équivalents temps plein ;-\\tCertificats de qualification professionnelle : tout certificat professionnel (ou équivalent) adapté à l'objet du marché ;-\\tAttestation d'assurance couvrant notamment la responsabilité civile du candidat pour l'année en cours auprès d'une compagnie notoirement solvable ; l'attestation devra préciser les limites des garanties souscrites ;-\\tRéférences détaillées récentes (moins de 3 ans) de lentreprise et de lagence ou de létablissement qui prendra en charge le marché, pour des opérations de dimension comparable et dans le domaine pour lequel le candidat répond, en faisant apparaître la date, la nature, le montant des prestations ainsi que les coordonnées du Maître douvrage (nom et numéro de téléphone).-\\tEn cas de groupement, chaque cotraitant est invité à fournir les éléments listés ci-avant.\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_OUI\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_NON\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 11 avril 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"SPL LE VOYAGE A NANTES\", \"CONTACT\": \"Géraldine Puiroux\", \"ADRESSE\": \"1-3 rue crucyBP 92211\", \"CP\": \"44022\", \"VILLE\": \"NANTES CEDEX 1\", \"CODE_NUTS\": \"FRG0\", \"MEL\": \"geraldine.puiroux@lvan.fr\", \"URL\": \"http://www.levoyageanantes.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"SPL LE VOYAGE A NANTES - SERVICE D2P\", \"CONTACT\": \"Géraldine Puiroux\", \"ADRESSE\": \"1-3 rue crucyBP 92211\", \"CP\": \"44022\", \"VILLE\": \"NANTES CEDEX 1\", \"CODE_NUTS\": \"FRG0\", \"MEL\": \"geraldine.puiroux@lvan.fr\", \"URL\": \"http://www.levoyageanantes.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"TGI\", \"ADRESSE\": \"7 rue Pierre Abélard\", \"CP\": \"35000\", \"VILLE\": \"RENNES\", \"TEL\": \"(+33) 2-99-65-37-37\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-48662"
+  },
+  {
+   "idweb": "18-50509",
+   "id": "18_50509",
+   "contractfolderid": null,
+   "objet": "Externalisation de la gestion technique de la piscine Daniel Gilard",
+   "filename": "BOAMP-N-AO_2018_102011",
+   "famille": "FNS",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2018-04-12",
+   "datefindiffusion": "2018-05-14",
+   "datelimitereponse": "2018-05-14T16:00:00+00:00",
+   "nomacheteur": "Ville de Carquefou",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "265"
+   ],
+   "dc": [
+    "265"
+   ],
+   "descripteur_libelle": [
+    "Piscine"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-50509\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-50509.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-04-12\", \"DATE_LIMITE_REPONSE\": \"2018-05-14T17:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-05-14\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"265\", \"LIBELLE\": \"Piscine\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Externalisation de la gestion technique de la piscine Daniel Gilard\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Carquefou\", \"CORRESPONDANT\": \"Madame le Maire\", \"ADRESSE\": \"Mairie de Carquefou Rue de l'Hôtel de Ville BP 60139\", \"CP\": \"44471\", \"VILLE\": \"Carquefou Cedex\", \"TEL\": \"(+33) 2-28-22-22-22\", \"FAX\": \"(+33) 2-28-22-22-21\", \"MEL\": \"achats@mairie-carquefou.fr\", \"URL\": \"http://www.carquefou.fr\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"27\"}, \"OBJET_COMPLET\": \"Externalisation de la gestion technique de la piscine Daniel Gilard\", \"CPV\": {\"PRINCIPAL\": \"92610000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Carquefou\", \"CODE_NUTS\": \"FRG01\"}, \"AMP_NON\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Externalisation de la gestion technique de la piscine Daniel Gilard\", \"QUANTITE\": \"Externalisation de la gestion technique de la piscine Daniel Gilard\", \"OPTIONS\": {\"OUI\": \"\"}, \"RECONDUCTIONS\": {\"NB_RECONDUCTIONS\": \"2\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"12\", \"DATE_EXECUTION\": \"2018-07-01\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"65\", \"#text\": \"Valeur technique : - Méthodologie d'interventions et passation des informations (sur 5 points) - - Planning d'intervention mensuel (sur 3 points) - - Equipe mise en place (sur 2 points)\"}, {\"@POIDS\": \"35\", \"#text\": \"Prix : l'attribution du nombre de points se fera selon la formule suivante : proposition la moins disante : total maximum de points, autre proposition : montant de la proposition la moins disante / montant de la proposition examinée x 10\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-05-14T17:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Sûreté : Sans objet\", \"FINANCEMENT\": \"Mode de financement : Budget propre.- Mode de paiement : Virement bancaire (Mandat administratif).- Délai de paiement : 30 jours\", \"FORME_JURIDIQUE\": \"Pas de forme imposée\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Autres renseignements demandés\", \"=== Candidature ===\", \"Autres renseignements demandés\", \"DC1 ou Lettre de candidature et attestation sur l'honneur (art. 45 et 48 de l'Ord. N°2015-899 du 23 juillet 2015 et art. L. 5212-1 à L. 5212-11 du code du travail)\", \"Autres renseignements demandés\", \"DC2 ou DUME ou déclarations concernant les chiffres d'affaire, les capacités et les effectifs\", \"Autres renseignements demandés\", \"=== Offre ===\", \"Autres renseignements demandés\", \"Acte d'engagement\", \"Autres renseignements demandés\", \"Mémoire technique\", \"Autres renseignements demandés\", \"D.Q.E. valant B.P.U\", \"Autres renseignements demandés\", \"Planning prévisionnel\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"18S0015\", \"CONDITIONS_REMISE_OFFRES\": \"Par envoi postal ou électronique ou dépôt sur place dont les modalités sont définies dans le règlement de consultation\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Précision : Les délais d'exécution courent à compter d'une date fixée au 01/07/2018.Modalités de retrait des documents : par téléchargement\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Le délai d'introduction des recours est de 2 mois à parution de l'avis d'attribution du marché ou de la date de réception des courriers informant les entreprises non retenues de la date de signature du marché\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta.nantes@juradm.fr\", \"URL\": \"http://www.ta-nantes.juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta.nantes@juradm.fr\", \"URL\": \"http://www.ta-nantes.juradm.fr\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"DENOMINATION\": \"Ville de CARQUEFOU\", \"ADRESSE\": \"Par téléchargement sur le site : www.e-marchespublics.com\", \"CP\": \"44471\", \"VILLE\": \"Carquefou Cedex\", \"TEL\": \"(+33) 2-28-22-22-22\", \"FAX\": \"(+33) 2-28-22-22-21\", \"MEL\": \"achats@mairie-carquefou.fr\", \"URL\": \"http://mairie-carquefou.e-marchespublics.com\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Ville de CARQUEFOU\", \"CORRESPONDANT\": \"Catherine Chabot\", \"ADRESSE\": \"Mairie Rue de l'Hôtel de Ville BP 60139\", \"CP\": \"44471\", \"VILLE\": \"Carquefou Cedex\", \"MEL\": \"achats@mairie-carquefou.fr\", \"URL\": \"http://mairie-carquefou.e-marchespublics.com\"}, {\"TYPE\": {\"ADMIN\": \"\"}, \"DENOMINATION\": \"Ville de CARQUEFOU\", \"CORRESPONDANT\": \"Catherine Chabot\", \"ADRESSE\": \"Mairie Direction de la Commande Publiqu Rue de l'Hôtel de Ville BP 60139\", \"CP\": \"44471\", \"VILLE\": \"Carquefou Cedex\", \"TEL\": \"(+33) 2-28-22-23-50\", \"FAX\": \"(+33) 2-28-22-23-51\", \"MEL\": \"achats@mairie-carquefou.fr\", \"URL\": \"http://mairie-carquefou.e-marchespublics.com\"}, {\"TYPE\": {\"TECH\": \"\"}, \"DENOMINATION\": \"Ville de CARQUEFOU\", \"CORRESPONDANT\": \"Pascal Provins\", \"ADRESSE\": \"Mairie Direction des Sports et Loisirs Rue de l'Hôtel de Ville BP 60139\", \"CP\": \"44471\", \"VILLE\": \"Carquefou Cedex\", \"TEL\": \"(+33) 2-28-22-21-02\", \"FAX\": \"(+33) 2-28-22-21-01\", \"MEL\": \"sports@mairie-carquefou.fr\", \"URL\": \"http://mairie-carquefou.e-marchespublics.com\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-50509"
   },
   {
    "idweb": "18-48580",

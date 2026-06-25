@@ -5173,125 +5173,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-124890"
   },
   {
-   "idweb": "20-125995",
-   "id": "20_125995",
-   "contractfolderid": null,
-   "objet": "Numéro de la consultation : 1_2020046. Fourniture de matériel électrique nécessaire aux travaux de maintenance et d'investissement réalisés par les agents municipaux sur le patrimoine de la Ville",
-   "filename": "BOAMP-N-AO_2020_288011",
-   "famille": "FNS",
-   "code_departement": [
-    "61",
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2020-10-14",
-   "datefindiffusion": "2020-11-06",
-   "datelimitereponse": null,
-   "nomacheteur": "Ville d'Alençon",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "RECTIFICATIF",
-   "descripteur_code": [
-    "203",
-    "443"
-   ],
-   "dc": [
-    "203",
-    "443"
-   ],
-   "descripteur_libelle": [
-    "Matériel électrique",
-    "Electricité, gaz (fourniture)"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": [
-    "20-124107"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"20-124107\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2020-10-09\", \"DATE_FIN_DIFFUSION\": \"2020-10-30\"}}}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-125995\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"20-124107\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2020-10-09\", \"DATE_FIN_DIFFUSION\": \"2020-10-30\"}}}}, \"NOM_HTML\": \"20-125995.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-10-14\", \"DATE_FIN_DIFFUSION\": \"2020-11-06\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"203\", \"LIBELLE\": \"Matériel électrique\"}, {\"CODE\": \"443\", \"LIBELLE\": \"Electricité, gaz (fourniture)\"}]}, \"DEP_PUBLICATION\": [\"61\", \"72\"], \"RESUME_OBJET\": \"Numéro de la consultation : 1_2020046. Fourniture de matériel électrique nécessaire aux travaux de maintenance et d'investissement réalisés par les agents municipaux sur le patrimoine de la Ville\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville d'Alençon\", \"CORRESPONDANT\": \"PUEYO Joaquim, Maire\", \"ADRESSE\": \"Place Foch - CS 50362\", \"CP\": \"61014\", \"VILLE\": \"Alençon\", \"TEL\": \"02-33-32-40-00\", \"MEL\": \"scp@ville-alencon.fr\", \"URL\": \"http://www.alencon.fr/\", \"URL_PROFIL_ACHETEUR\": \"http://agysoft.marches-publics.info\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Numéro de la consultation : 1_2020046. Fourniture de matériel électrique nécessaire aux travaux de maintenance et d'investissement réalisés par les agents municipaux sur le patrimoine de la Ville d'Alençon\", \"CPV\": {\"PRINCIPAL\": \"31681410\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"20-124107\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2020-10-09\", \"DATE_FIN_DIFFUSION\": \"2020-10-30\"}}}, \"MODIFICATION\": {\"RUB_INIT\": \"Date limite de réception des offres\", \"TXT_INIT\": \"2020-10-30T16:00:00+01:00\", \"LIRE\": \"2020-11-06T16:00:00+01:00\"}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-125995"
-  },
-  {
-   "idweb": "20-125998",
-   "id": "20_125998",
-   "contractfolderid": null,
-   "objet": "Numéro de la consultation : 2_2020055. Fourniture de matériel électrique nécessaire aux travaux de maintenance et d'investissement réalisés par les agents communautaires sur le patrimoine de la C",
-   "filename": "BOAMP-N-AO_2020_288011",
-   "famille": "FNS",
-   "code_departement": [
-    "61",
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2020-10-14",
-   "datefindiffusion": "2020-11-06",
-   "datelimitereponse": null,
-   "nomacheteur": "Communauté urbaine d'Alençon",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "RECTIFICATIF",
-   "descripteur_code": [
-    "203"
-   ],
-   "dc": [
-    "203"
-   ],
-   "descripteur_libelle": [
-    "Matériel électrique"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": [
-    "20-124108"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"20-124108\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2020-10-09\", \"DATE_FIN_DIFFUSION\": \"2020-10-30\"}}}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-125998\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"20-124108\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2020-10-09\", \"DATE_FIN_DIFFUSION\": \"2020-10-30\"}}}}, \"NOM_HTML\": \"20-125998.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-10-14\", \"DATE_FIN_DIFFUSION\": \"2020-11-06\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"203\", \"LIBELLE\": \"Matériel électrique\"}}, \"DEP_PUBLICATION\": [\"61\", \"72\"], \"RESUME_OBJET\": \"Numéro de la consultation : 2_2020055. Fourniture de matériel électrique nécessaire aux travaux de maintenance et d'investissement réalisés par les agents communautaires sur le patrimoine de la C\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Communauté urbaine d'Alençon\", \"CORRESPONDANT\": \"PUEYO Joaquim, Président\", \"ADRESSE\": \"18 rue de Bretagne\", \"CP\": \"61014\", \"VILLE\": \"Alençon\", \"TEL\": \"02-33-32-40-00\", \"MEL\": \"scp@ville-alencon.fr\", \"URL\": \"http://www.cu-alencon.fr/\", \"URL_PROFIL_ACHETEUR\": \"http://agysoft.marches-publics.info\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Numéro de la consultation : 2_2020055. Fourniture de matériel électrique nécessaire aux travaux de maintenance et d'investissement réalisés par les agents communautaires sur le patrimoine de la Communauté urbaine d'Alençon\", \"CPV\": {\"PRINCIPAL\": \"31680000\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"20-124108\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2020-10-09\", \"DATE_FIN_DIFFUSION\": \"2020-10-30\"}}}, \"MODIFICATION\": {\"RUB_INIT\": \"Date limite de réception des offres\", \"TXT_INIT\": \"2020-10-30T16:00:00+01:00\", \"LIRE\": \"2020-11-06T16:00:00+01:00\"}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-125998"
-  },
-  {
    "idweb": "20-124409",
    "id": "20_124409",
    "contractfolderid": null,
@@ -5427,6 +5308,125 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-124677\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"20-78639\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2020-06-19\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2020-06-21\", \"DATE_FIN_DIFFUSION\": \"2020-07-25\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2020\", \"NUM_PARUTION\": \"120\", \"NUM_ANNONCE\": \"291494\", \"DATE_PUBLICATION\": \"2020-06-24\"}}]}}, \"NOM_HTML\": \"20-124677.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-10-14\", \"DATE_FIN_DIFFUSION\": \"2020-11-20\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"22\", \"LIBELLE\": \"Audiovisuel\"}, {\"CODE\": \"85\", \"LIBELLE\": \"Décoration (travaux)\"}, {\"CODE\": \"186\", \"LIBELLE\": \"Logiciel\"}, {\"CODE\": \"230\", \"LIBELLE\": \"Mobilier\"}]}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Réalisation du nouveau parcours scénographique du château de baugé-en-anjou\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"MAIRIE DE BAUGE EN ANJOU\", \"CONTACT\": \"Philippe CHALOPIN\", \"ADJUDICATEUR_NUTS\": \"FR\", \"ADRESSE\": \"Place de l'Europe Baugé\", \"CP\": \"49150\", \"VILLE\": \"BAUGE-EN-ANJOU\", \"MEL\": \"marches-publics@baugeenanjou.fr\", \"URL\": \"http://www.anjoumarchespublics.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.anjoumarchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"COMMUNE\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"RÉALISATION DU NOUVEAU PARCOURS SCÉNOGRAPHIQUE  DU CHÂTEAU DE BAUGÉ-EN-ANJOU\", \"REF_MARCHE\": \"2020/01/AD/F/06\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Ouvert depuis le 1er mai 2003, le parcours scénographique du château de Baugé-en-Anjou fait lobjet dunerefonte complète confiée à léquipe de maîtrise doeuvre formée par les sociétés Christophe Berte et Histoires de... Sur 3 niveaux (rezde-chaussée, 1er étage et combles) reliés par lescalier dhonneur (ou escalier à grande vis) du château, le nouveau concept proposede partir à la découverte du Palais du Roi René dAnjou. Le présent marché a pour objet la réalisation du parcours scénographique duchâteau de Baugé-en-Anjou.\", \"CPV\": {\"PRINCIPAL\": \"39100000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"519461.09\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"AGENCEMENT, DECOR ET SUPPORT IMPRIMÉ\", \"DESCRIPTION\": \"La mission du présent lot 01, consiste en létude dexécution, la fabrication et le montage sur site delensemble des travaux relatif à lagencement, aux mobiliers, aux décors, à la signalétique, aux manipulations et aux supports imprimés\", \"CPV\": {\"PRINCIPAL\": \"39100000\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"70 %\", \"#text\": \"Valeur Technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"30 %\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Mise en peinture des éléments de menuiserie\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"MATÉRIEL AUDIOVISUEL, MULTIMÉDIA ET ÉCLAIRAGE\", \"DESCRIPTION\": \"La mission du présent lot 02, consiste en : - La fourniture et la livraison sur le site des matérielsaudiovisuels, multimédias et des appareils déclairage ; - Linstallation et la programmation de lensemble des équipements à leuremplacement définitif sur le site ; - Linstallation et lintégration des productions, audiovisuelles, sonores et multimédias, dans lesmatériels de diffusion ; - Une formation à lutilisation des dispositifs installés auprès de léquipe chargée de lexploitation du Château deBaugé ; - La maintenance de chacun des matériels fournis pendant toute la durée de garantie légale\", \"CPV\": {\"PRINCIPAL\": \"32322000\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"70 %\", \"#text\": \"Valeur Technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"30 %\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"PRODUCTION AUDIOVISUELLE ET MULTIMÉDIA\", \"DESCRIPTION\": \"Les travaux du présent lot comportent : - La création dapplications multimédias,  - Laconception et la réalisation de médias mêlant lanimation multimédia, le montage audiovisuel, linfographie et lanimation de cartes,lhabillage sonore. - Lenregistrement et le mixage de points sonores associant la voix dun comédien à de lhabillage sonore\", \"CPV\": {\"PRINCIPAL\": \"32321300\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"70 %\", \"#text\": \"Valeur Technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"30 %\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"4\", \"INTITULE\": \"APPLICATION MOBILE\", \"DESCRIPTION\": \"La mission du présent lot 04, consiste en létude dexécution, la production et la livraison duneapplication mobile en lien avec laménagement du nouveau parcours scénographique du château de Baugé-en-Anjou\", \"CPV\": {\"PRINCIPAL\": \"48500000\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"70 %\", \"#text\": \"Valeur Technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"30 %\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_NON\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2020\", \"NUM_PARUTION\": \"120\", \"NUM_ANNONCE\": \"291494\", \"DATE_PUBLICATION\": \"2020-06-24\"}}}, \"ATTRIBUTION\": {\"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2O2O  01  AD  F  06\", \"NUM_LOT\": \"1\", \"INTITULE\": \"AGENCEMENT, DECOR ET SUPPORT IMPRIMÉ\", \"TITULAIRE\": {\"DENOMINATION\": \"BORN SCENOGRAPHIE\", \"VILLE\": \"CARQUEFOU\", \"CODE_NUTS\": \"FR\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2020-09-21\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"367656.90\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2O2O  01  AD  F  06\", \"NUM_LOT\": \"2\", \"INTITULE\": \"MATÉRIEL AUDIOVISUEL, MULTIMÉDIA ET ÉCLAIRAGE\", \"TITULAIRE\": {\"DENOMINATION\": \"TRANSELEC\", \"VILLE\": \"BREST\", \"CODE_NUTS\": \"FR\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2020-09-21\", \"NB_OFFRE_RECU\": \"5\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"53521.69\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2O2O  01  AD  F  06\", \"NUM_LOT\": \"3\", \"INTITULE\": \"PRODUCTION AUDIOVISUELLE ET MULTIMÉDIA\", \"TITULAIRE\": [{\"DENOMINATION\": \"AGENCE GLEECH\", \"VILLE\": \"REZE\", \"CODE_NUTS\": \"FR\", \"PME_OUI\": \"\"}, {\"DENOMINATION\": \"PULSART VIDEO\", \"VILLE\": \"Arnouville les Mantes\", \"CODE_NUTS\": \"FR\", \"PME_OUI\": \"\"}], \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2020-09-21\", \"NB_OFFRE_RECU\": \"5\", \"GROUPEMENT_ECONOMIQUE\": \"\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"73532.50\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2O2O  01  AD  F  06\", \"NUM_LOT\": \"4\", \"INTITULE\": \"APPLICATION MOBILE\", \"TITULAIRE\": [{\"DENOMINATION\": \"MGDESIGN\", \"VILLE\": \"LA CHAPELLE SUR ERDRE\", \"CODE_NUTS\": \"FR\", \"PME_OUI\": \"\"}, {\"DENOMINATION\": \"AGENCE GLEECH\", \"VILLE\": \"REZE\", \"CODE_NUTS\": \"FR\", \"PME_OUI\": \"\"}], \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2020-09-21\", \"NB_OFFRE_RECU\": \"1\", \"GROUPEMENT_ECONOMIQUE\": \"\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"24750\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 12 octobre 2020.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"NANTES\"}}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-124677"
+  },
+  {
+   "idweb": "20-125995",
+   "id": "20_125995",
+   "contractfolderid": null,
+   "objet": "Numéro de la consultation : 1_2020046. Fourniture de matériel électrique nécessaire aux travaux de maintenance et d'investissement réalisés par les agents municipaux sur le patrimoine de la Ville",
+   "filename": "BOAMP-N-AO_2020_288011",
+   "famille": "FNS",
+   "code_departement": [
+    "61",
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2020-10-14",
+   "datefindiffusion": "2020-11-06",
+   "datelimitereponse": null,
+   "nomacheteur": "Ville d'Alençon",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "RECTIFICATIF",
+   "descripteur_code": [
+    "203",
+    "443"
+   ],
+   "dc": [
+    "203",
+    "443"
+   ],
+   "descripteur_libelle": [
+    "Matériel électrique",
+    "Electricité, gaz (fourniture)"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": [
+    "20-124107"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"20-124107\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2020-10-09\", \"DATE_FIN_DIFFUSION\": \"2020-10-30\"}}}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-125995\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"20-124107\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2020-10-09\", \"DATE_FIN_DIFFUSION\": \"2020-10-30\"}}}}, \"NOM_HTML\": \"20-125995.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-10-14\", \"DATE_FIN_DIFFUSION\": \"2020-11-06\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"203\", \"LIBELLE\": \"Matériel électrique\"}, {\"CODE\": \"443\", \"LIBELLE\": \"Electricité, gaz (fourniture)\"}]}, \"DEP_PUBLICATION\": [\"61\", \"72\"], \"RESUME_OBJET\": \"Numéro de la consultation : 1_2020046. Fourniture de matériel électrique nécessaire aux travaux de maintenance et d'investissement réalisés par les agents municipaux sur le patrimoine de la Ville\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville d'Alençon\", \"CORRESPONDANT\": \"PUEYO Joaquim, Maire\", \"ADRESSE\": \"Place Foch - CS 50362\", \"CP\": \"61014\", \"VILLE\": \"Alençon\", \"TEL\": \"02-33-32-40-00\", \"MEL\": \"scp@ville-alencon.fr\", \"URL\": \"http://www.alencon.fr/\", \"URL_PROFIL_ACHETEUR\": \"http://agysoft.marches-publics.info\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Numéro de la consultation : 1_2020046. Fourniture de matériel électrique nécessaire aux travaux de maintenance et d'investissement réalisés par les agents municipaux sur le patrimoine de la Ville d'Alençon\", \"CPV\": {\"PRINCIPAL\": \"31681410\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"20-124107\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2020-10-09\", \"DATE_FIN_DIFFUSION\": \"2020-10-30\"}}}, \"MODIFICATION\": {\"RUB_INIT\": \"Date limite de réception des offres\", \"TXT_INIT\": \"2020-10-30T16:00:00+01:00\", \"LIRE\": \"2020-11-06T16:00:00+01:00\"}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-125995"
+  },
+  {
+   "idweb": "20-125998",
+   "id": "20_125998",
+   "contractfolderid": null,
+   "objet": "Numéro de la consultation : 2_2020055. Fourniture de matériel électrique nécessaire aux travaux de maintenance et d'investissement réalisés par les agents communautaires sur le patrimoine de la C",
+   "filename": "BOAMP-N-AO_2020_288011",
+   "famille": "FNS",
+   "code_departement": [
+    "61",
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2020-10-14",
+   "datefindiffusion": "2020-11-06",
+   "datelimitereponse": null,
+   "nomacheteur": "Communauté urbaine d'Alençon",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "RECTIFICATIF",
+   "descripteur_code": [
+    "203"
+   ],
+   "dc": [
+    "203"
+   ],
+   "descripteur_libelle": [
+    "Matériel électrique"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": [
+    "20-124108"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"20-124108\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2020-10-09\", \"DATE_FIN_DIFFUSION\": \"2020-10-30\"}}}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-125998\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"20-124108\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2020-10-09\", \"DATE_FIN_DIFFUSION\": \"2020-10-30\"}}}}, \"NOM_HTML\": \"20-125998.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-10-14\", \"DATE_FIN_DIFFUSION\": \"2020-11-06\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"203\", \"LIBELLE\": \"Matériel électrique\"}}, \"DEP_PUBLICATION\": [\"61\", \"72\"], \"RESUME_OBJET\": \"Numéro de la consultation : 2_2020055. Fourniture de matériel électrique nécessaire aux travaux de maintenance et d'investissement réalisés par les agents communautaires sur le patrimoine de la C\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Communauté urbaine d'Alençon\", \"CORRESPONDANT\": \"PUEYO Joaquim, Président\", \"ADRESSE\": \"18 rue de Bretagne\", \"CP\": \"61014\", \"VILLE\": \"Alençon\", \"TEL\": \"02-33-32-40-00\", \"MEL\": \"scp@ville-alencon.fr\", \"URL\": \"http://www.cu-alencon.fr/\", \"URL_PROFIL_ACHETEUR\": \"http://agysoft.marches-publics.info\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Numéro de la consultation : 2_2020055. Fourniture de matériel électrique nécessaire aux travaux de maintenance et d'investissement réalisés par les agents communautaires sur le patrimoine de la Communauté urbaine d'Alençon\", \"CPV\": {\"PRINCIPAL\": \"31680000\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"20-124108\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2020-10-09\", \"DATE_FIN_DIFFUSION\": \"2020-10-30\"}}}, \"MODIFICATION\": {\"RUB_INIT\": \"Date limite de réception des offres\", \"TXT_INIT\": \"2020-10-30T16:00:00+01:00\", \"LIRE\": \"2020-11-06T16:00:00+01:00\"}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-125998"
   },
   {
    "idweb": "20-124877",

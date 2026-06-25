@@ -4398,65 +4398,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-178048"
   },
   {
-   "idweb": "17-180333",
-   "id": "17_180333",
-   "contractfolderid": null,
-   "objet": "Fourniture et livraison de piles, batteries, torches et ampoules pour les besoins du département de la Sarthe",
-   "filename": "BOAMP-N-AO_2017_355011",
-   "famille": "FNS",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2017-12-21",
-   "datefindiffusion": "2018-01-31",
-   "datelimitereponse": "2018-01-31T10:30:00+00:00",
-   "nomacheteur": "DEPARTEMENT DE LA SARTHE",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": "1",
-   "marche_public_simplifie_label": "Marché public simplifié",
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "291"
-   ],
-   "dc": [
-    "291"
-   ],
-   "descripteur_libelle": [
-    "Quincaillerie (articles)"
-   ],
-   "type_marche": [
-    "FOURNITURES"
-   ],
-   "type_marche_facette": [
-    "Fournitures"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-180333\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-180333.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-12-21\", \"DATE_LIMITE_REPONSE\": \"2018-01-31T11:30:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-01-31\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"291\", \"LIBELLE\": \"Quincaillerie (articles)\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Fourniture et livraison de piles, batteries, torches et ampoules pour les besoins du département de la Sarthe\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"DEPARTEMENT DE LA SARTHE\", \"CORRESPONDANT\": \"le Président\", \"ADRESSE\": \"Hôtel du département, Place Aristide Briand\", \"CP\": \"72072\", \"VILLE\": \"Le Mans\", \"MEL\": \"scp@sarthe.fr\", \"URL\": \"http://www.sarthe.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"DEPARTEMENT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Fourniture et livraison de piles, batteries, torches et ampoules pour les besoins du département de la Sarthe\", \"CPV\": [{\"PRINCIPAL\": \"31410000\"}, {\"PRINCIPAL\": \"31440000\"}, {\"PRINCIPAL\": \"31521320\"}, {\"PRINCIPAL\": \"31531000\"}], \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Accord cadre à bons de commande\", \"QUANTITE\": \"Le maximum est fixé comme suit : 25 000 euros HT/anl'accord cadre se terminera le 31 décembre 2018.Il est renouvelable par tacite reconduction selon la périodicité suivante :Période ferme :Du 13/04/2018 au 31/12/2018Reconduction no1 :Du 13/04/2018 au 31/12/2019Reconduction no2 :Du 01/01/2020au 31/12/2020Reconduction no3 :Du 01/01/2021 au 31/12/2021Reconduction no4 :Du 01/01/2022 au 13/04/2022\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"25000\"}, \"OPTIONS\": {\"OUI\": \"\"}, \"RECONDUCTIONS\": {\"NB_RECONDUCTIONS\": \"4\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"5\", \"#text\": \"Les performances en matière de protection de l'environnement (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"45\", \"#text\": \"La valeur des prestations (voir le détail dans le règlement de consultation)\"}, {\"@POIDS\": \"25\", \"#text\": \"Le prix des fournitures(voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"25\", \"#text\": \"Les délais pour retrait\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-01-31T11:30:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"90\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Pas de versement d'avance.Règlement par virement sous 30 jours. Voir document \\\" marché public simplifié \\\" article 3.2.\", \"FORME_JURIDIQUE\": \"L'accord-cadre sera conclu :-soit avec un prestataire unique ;-soit avec des prestataires groupés solidaires ;-soit avec des prestataires groupés conjoints.Le mandataire du groupement conjoint sera solidaire de chacun des membres du groupement pour ses obligations contractuelles à l'égard du maître de l'ouvrage, pour l'exécution du marché.\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Voir annexes 1 à 3 du Règlement de la Consultation (Dispositif Marché Public simplifié)\", \"CAP_ECO\": \"Voir annexes 1 à 3 du Règlement de la Consultation (Dispositif Marché Public simplifié)\", \"CAP_TECH\": \"La La présentation d'une liste des principaux services effectués au cours des trois dernières années, indiquant notamment le montant, la date et le destinataire public ou privé\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"17AF-SCP-2291-G\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.sarthe-marchespublics.frPour obtenir tous les renseignements d'ordre administratif et technique qui leur seraient nécessaires au cours de leur étude, les candidats sont invités au plus tard 10 jours avant la date limite de remise des offres à passer par le module \\\" espace entreprise \\\" de la plate forme www.sarthe-marchespublics.frEn cas de disfonctionnement, vous pouvez contacter le secrétariat du Service de la Commande publique au 02.43.54.72.66.Une réponse sera alors adressée en temps utile à tous les candidats au plus tard 8 jours avant la date limite de remise des offres.Ce marché est conforme au dispositif d'expérimentation MPS (Marché Public Simplifié), et permet aux entreprises de candidater sur la base de leur seul numéro de SIRET.Le mode de transmission des éléments de la candidature et de l'offre est dématérialisé. La réponse électronique est indispensable mais aucune signature n'est exigée. La signature sera demandée à posteriori qu'au seul candidat retenu. Voir détails dans le règlement de la consultation.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"Immeuble Skyline, 22 mail Pablo Picasso Cedex 1 BP 24209\", \"CP\": \"44202\", \"VILLE\": \"NANTES\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://www.marche-public.fr/Marches-publics/Definitions/Entrees/CCRA.htm\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-180333"
-  },
-  {
    "idweb": "17-178026",
    "id": "17_178026",
    "contractfolderid": null,
@@ -4518,6 +4459,65 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-178026\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-100565\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-07-13\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-07-15\", \"DATE_FIN_DIFFUSION\": \"2017-09-25\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"135\", \"NUM_ANNONCE\": \"276711\", \"DATE_PUBLICATION\": \"2017-07-18\"}}]}}, \"NOM_HTML\": \"17-178026.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-12-21\", \"DATE_FIN_DIFFUSION\": \"2018-02-28\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"20\", \"LIBELLE\": \"Assurance\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Marché de prévoyance complémentaire à adhésion obligatoire pour le personnel salarié\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Sèvre Loire Habitat\", \"CODE_IDENT_NATIONAL\": \"34200781200023\", \"CONTACT\": \"Service Marchés\", \"ADJUDICATEUR_NUTS\": \"FRG0\", \"ADRESSE\": \"34, rue Saint Christophe - CS 32144\", \"CP\": \"49321\", \"VILLE\": \"Cholet\", \"TEL\": \"(+33) 2-41-75-25-33\", \"FAX\": \"(+33) 2-41-75-25-20\", \"MEL\": \"marches@slh-habitat.fr\", \"URL\": \"http://www.slh-habitat.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.achatpublic.com/sdm/ent/gen/index.jsp\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AGENCE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"LOG_DEV_COL\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Marché de prévoyance complémentaire à adhésion obligatoire pour le personnel salarié\", \"REF_MARCHE\": \"Prévoyance complémentaire\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Marché de prévoyance complémentaire à adhésion obligatoire pour le personnel salarié - Années 2018/2022\", \"CPV\": {\"PRINCIPAL\": \"66512000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"191510.00\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Marché de prévoyance complémentaire à adhésion obligatoire\", \"CPV\": {\"PRINCIPAL\": \"66512000\"}, \"CODE_NUTS\": \"FRG0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"40\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"60\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2017\", \"NUM_PARUTION\": \"135\", \"NUM_ANNONCE\": \"276711\", \"DATE_PUBLICATION\": \"2017-07-18\"}}}, \"ATTRIBUTION\": {\"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2017.12.0126\", \"INTITULE\": \"Prestations de prévoyance complémentaire\", \"TITULAIRE\": {\"DENOMINATION\": \"HUMANIS PREVOYANCE\", \"ADRESSE\": \"29 bd Edgar Quinet\", \"CP\": \"75014\", \"VILLE\": \"PARIS\", \"CODE_NUTS\": \"FRG0\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-05\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"191510\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 19 décembre 2017.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette - CS 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"URL\": \"http://www.nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Greffe du Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette - CS 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-178026"
+  },
+  {
+   "idweb": "17-180333",
+   "id": "17_180333",
+   "contractfolderid": null,
+   "objet": "Fourniture et livraison de piles, batteries, torches et ampoules pour les besoins du département de la Sarthe",
+   "filename": "BOAMP-N-AO_2017_355011",
+   "famille": "FNS",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2017-12-21",
+   "datefindiffusion": "2018-01-31",
+   "datelimitereponse": "2018-01-31T10:30:00+00:00",
+   "nomacheteur": "DEPARTEMENT DE LA SARTHE",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": "1",
+   "marche_public_simplifie_label": "Marché public simplifié",
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "291"
+   ],
+   "dc": [
+    "291"
+   ],
+   "descripteur_libelle": [
+    "Quincaillerie (articles)"
+   ],
+   "type_marche": [
+    "FOURNITURES"
+   ],
+   "type_marche_facette": [
+    "Fournitures"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-180333\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-180333.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-12-21\", \"DATE_LIMITE_REPONSE\": \"2018-01-31T11:30:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-01-31\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"291\", \"LIBELLE\": \"Quincaillerie (articles)\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Fourniture et livraison de piles, batteries, torches et ampoules pour les besoins du département de la Sarthe\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"DEPARTEMENT DE LA SARTHE\", \"CORRESPONDANT\": \"le Président\", \"ADRESSE\": \"Hôtel du département, Place Aristide Briand\", \"CP\": \"72072\", \"VILLE\": \"Le Mans\", \"MEL\": \"scp@sarthe.fr\", \"URL\": \"http://www.sarthe.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"DEPARTEMENT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Fourniture et livraison de piles, batteries, torches et ampoules pour les besoins du département de la Sarthe\", \"CPV\": [{\"PRINCIPAL\": \"31410000\"}, {\"PRINCIPAL\": \"31440000\"}, {\"PRINCIPAL\": \"31521320\"}, {\"PRINCIPAL\": \"31531000\"}], \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Accord cadre à bons de commande\", \"QUANTITE\": \"Le maximum est fixé comme suit : 25 000 euros HT/anl'accord cadre se terminera le 31 décembre 2018.Il est renouvelable par tacite reconduction selon la périodicité suivante :Période ferme :Du 13/04/2018 au 31/12/2018Reconduction no1 :Du 13/04/2018 au 31/12/2019Reconduction no2 :Du 01/01/2020au 31/12/2020Reconduction no3 :Du 01/01/2021 au 31/12/2021Reconduction no4 :Du 01/01/2022 au 13/04/2022\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"25000\"}, \"OPTIONS\": {\"OUI\": \"\"}, \"RECONDUCTIONS\": {\"NB_RECONDUCTIONS\": \"4\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"5\", \"#text\": \"Les performances en matière de protection de l'environnement (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"45\", \"#text\": \"La valeur des prestations (voir le détail dans le règlement de consultation)\"}, {\"@POIDS\": \"25\", \"#text\": \"Le prix des fournitures(voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"25\", \"#text\": \"Les délais pour retrait\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-01-31T11:30:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"90\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Pas de versement d'avance.Règlement par virement sous 30 jours. Voir document \\\" marché public simplifié \\\" article 3.2.\", \"FORME_JURIDIQUE\": \"L'accord-cadre sera conclu :-soit avec un prestataire unique ;-soit avec des prestataires groupés solidaires ;-soit avec des prestataires groupés conjoints.Le mandataire du groupement conjoint sera solidaire de chacun des membres du groupement pour ses obligations contractuelles à l'égard du maître de l'ouvrage, pour l'exécution du marché.\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Voir annexes 1 à 3 du Règlement de la Consultation (Dispositif Marché Public simplifié)\", \"CAP_ECO\": \"Voir annexes 1 à 3 du Règlement de la Consultation (Dispositif Marché Public simplifié)\", \"CAP_TECH\": \"La La présentation d'une liste des principaux services effectués au cours des trois dernières années, indiquant notamment le montant, la date et le destinataire public ou privé\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"17AF-SCP-2291-G\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.sarthe-marchespublics.frPour obtenir tous les renseignements d'ordre administratif et technique qui leur seraient nécessaires au cours de leur étude, les candidats sont invités au plus tard 10 jours avant la date limite de remise des offres à passer par le module \\\" espace entreprise \\\" de la plate forme www.sarthe-marchespublics.frEn cas de disfonctionnement, vous pouvez contacter le secrétariat du Service de la Commande publique au 02.43.54.72.66.Une réponse sera alors adressée en temps utile à tous les candidats au plus tard 8 jours avant la date limite de remise des offres.Ce marché est conforme au dispositif d'expérimentation MPS (Marché Public Simplifié), et permet aux entreprises de candidater sur la base de leur seul numéro de SIRET.Le mode de transmission des éléments de la candidature et de l'offre est dématérialisé. La réponse électronique est indispensable mais aucune signature n'est exigée. La signature sera demandée à posteriori qu'au seul candidat retenu. Voir détails dans le règlement de la consultation.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"Immeuble Skyline, 22 mail Pablo Picasso Cedex 1 BP 24209\", \"CP\": \"44202\", \"VILLE\": \"NANTES\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://www.marche-public.fr/Marches-publics/Definitions/Entrees/CCRA.htm\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-180333"
   },
   {
    "idweb": "17-179962",
@@ -5638,65 +5638,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-178755"
   },
   {
-   "idweb": "17-181551",
-   "id": "17_181551",
-   "contractfolderid": null,
-   "objet": "Maintenance des systèmes de sécurité incendie (SSI) dans les collèges publics sarthois",
-   "filename": "BOAMP-N-AO_2017_356011",
-   "famille": "FNS",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2017-12-22",
-   "datefindiffusion": "2018-01-26",
-   "datelimitereponse": "2018-01-26T10:30:00+00:00",
-   "nomacheteur": "DEPARTEMENT DE LA SARTHE",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": "1",
-   "marche_public_simplifie_label": "Marché public simplifié",
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "115"
-   ],
-   "dc": [
-    "115"
-   ],
-   "descripteur_libelle": [
-    "Equipements spécialisés"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-181551\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-181551.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-12-22\", \"DATE_LIMITE_REPONSE\": \"2018-01-26T11:30:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-01-26\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"115\", \"LIBELLE\": \"Equipements spécialisés\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Maintenance des systèmes de sécurité incendie (SSI) dans les collèges publics sarthois\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"DEPARTEMENT DE LA SARTHE\", \"CORRESPONDANT\": \"le Président\", \"ADRESSE\": \"Hôtel du département, Place Aristide Briand\", \"CP\": \"72072\", \"VILLE\": \"Le Mans\", \"MEL\": \"scp@sarthe.fr\", \"URL\": \"http://www.sarthe.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"DEPARTEMENT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Maintenance des systèmes de sécurité incendie (SSI) dans les collèges publics sarthois\", \"CPV\": [{\"PRINCIPAL\": \"35100000\"}, {\"PRINCIPAL\": \"50312610\"}], \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG04\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"PLUSIEURS_OPERATEURS\": \"\", \"DUREE_MOIS\": \"46\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Les prestations feront l'objet d'un accord-cadre exécuté par émission de bons de commande suivant la définition des articles 78 et 80 du Décret no2016-360 du 25 mars 2016.***Le maximum par période est fixé comme suit : 50 000 euros HT\", \"QUANTITE\": \"Pour les visites des sites, les candidats devront obligatoirement prendre rendez-vous auprès des établissements avant toute visite.Les collèges sont fermés du 25 décembre au 5 janvier inclus.***L'accord-cadre se terminera le 31 décembre 2018.Il est renouvelable par reconduction tacite sans que sa durée totale puisse excéder 4 ans :Période ferme : de la date de notification au 31/12/2018Reconduction 1: du 01/01/2019 au 31/12/2019Reconduction 2: du 01/01/2020 au 31/12/2020Reconduction 3: du 01/01/2021 au 31/12/2021\", \"OPTIONS\": {\"OUI\": \"\"}, \"RECONDUCTIONS\": {\"NB_RECONDUCTIONS\": \"3\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"46\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"La valeur technique (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"40\", \"#text\": \"Le prix (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"10\", \"#text\": \"Les performances en matière de protection de l'environnement (voir détail dans le règlement de la consultation)\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-01-26T11:30:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Paiement par virement à 30 jours, sur fonds propres.***Une avance sera versée au titulaire, sauf indication contraire dans l'acte d'engagement, lorsque le montant du bon de commande HT est supérieur à 50 000 euros HT\", \"FORME_JURIDIQUE\": \"L'accord-cadre sera conclu :- soit avec un prestataire unique ;- soit avec des prestataires groupés solidaires ;- soit avec des prestataires groupés conjoints.Le mandataire du groupement conjoint sera solidaire de chacun des membres du groupement pour ses obligations contractuelles à l'égard du maître de l'ouvrage, pour l'exécution du marché.\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Voir annexes 1 à 3 du Règlement de la Consultation (Dispositif Marché Public simplifié)\", \"CAP_ECO\": \"Voir annexes 1 à 3 du Règlement de la Consultation (Dispositif Marché Public simplifié)\", \"CAP_TECH\": \"Pour tous les lots : la présentation d'une liste des principaux service en cours effectués au cours des 3 dernières années, indiquant le montant, la date et le destinataire public ou privé\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"17AS-SCOC-2294-E\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.sarthe-marchespublics.frPour obtenir les renseignements d'ordre administratif et technique nécessaires, les candidats sont invités au plus tard 10 jours avant la date limite de remise des offres à passer par le module 'Correspondre avec l'acheteur' de la plateforme www.sarthe-marchespublics.fr--En cas de dysfonctionnement, vous pouvez contacter le secrétariat du Service Commande Publique :02 43 54 72 66--Une réponse sera alors adressée en temps utile à tous les candidats au plus tard 8 jours avant la date limite de remise des offres.***Ce marché est conforme au dispositif d'expérimentation MPS (Marché Public Simplifié), et permet aux entreprises de candidater sur la base de leur seul numéro de SIRET.Le mode de transmission des éléments de la candidature et de l'offre est dématérialisé.La réponse électronique est indispensable mais aucune signature n'est exigée.La signature sera demandée à posteriori qu'au seul candidat retenu.Voir détails dans le règlement de la consultation\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"Immeuble Skyline, 22 mail Pablo Picasso Cedex 1 BP 24209\", \"CP\": \"44202\", \"VILLE\": \"NANTES\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://www.marche-public.fr/Marches-publics/Definitions/Entrees/CCRA.htm\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-181551"
-  },
-  {
    "idweb": "17-178808",
    "id": "17_178808",
    "contractfolderid": null,
@@ -6021,6 +5962,65 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-179327\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-111808\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-08-02\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-08-05\", \"DATE_FIN_DIFFUSION\": \"2017-09-16\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"150\", \"NUM_ANNONCE\": \"310466\", \"DATE_PUBLICATION\": \"2017-08-08\"}}]}}, \"NOM_HTML\": \"17-179327.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-12-22\", \"DATE_FIN_DIFFUSION\": \"2017-12-30\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"455\", \"LIBELLE\": \"Ingénierie\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Elaboration du Plan Local d'Urbanisme Intercommunal\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CC SUD SARTHE\", \"CODE_IDENT_NATIONAL\": \"20007311200019\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"5 rue des écoles\", \"CP\": \"72800\", \"VILLE\": \"Aubigné Racan\", \"TEL\": \"(+33) 2-85-29-12-28\", \"MEL\": \"dgs@comcomsudsarthe.fr\", \"URL\": \"http://cdccantondepontvallain.com\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.info/\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Elaboration du Plan Local d'Urbanisme Intercommunal\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"La présente consultation concerne : Elaboration du plan local d'urbanisme intercommunalLa présente consultation a pour objet la réalisation des différentes études et prestations nécessaires à l'élaboration du Plan local d'urbanisme intercommunal de la Communauté de communes Sud Sarthe.Les missions confiées, dont l'exécution sera coordonnée par les services de la Cc Sud Sarthe, sont les suivantes :-\\\" Accompagnement à l'élaboration des pièces règlementaires du Plui \\\"-\\\" Elaboration de l'évaluation environnementale du Plui \\\"Lieu(x) d'exécution : Territoire de la Communauté de CommunesDans le cadre de la réalisation des missions, les prestataires peuvent être amenés à se déplacer sur l'ensemble du territoire Sud Sarthe, dont une carte est fournie dans le cahier des clauses techniques\", \"CPV\": {\"PRINCIPAL\": \"71410000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"206677\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"La présente consultation concerne : Elaboration du plan local d'urbanisme intercommunalLa présente consultation a pour objet la réalisation des différentes études et prestations nécessaires à l'élaboration du Plan local d'urbanisme intercommunal de la Communauté de communes Sud Sarthe.Les missions confiées, dont l'exécution sera coordonnée par les services de la Cc Sud Sarthe, sont les suivantes :-\\\" Accompagnement à l'élaboration des pièces règlementaires du Plui \\\"-\\\" Elaboration de l'évaluation environnementale du Plui \\\"Lieu(x) d'exécution : Territoire de la Communauté de CommunesDans le cadre de la réalisation des missions, les prestataires peuvent être amenés à se déplacer sur l'ensemble du territoire Sud Sarthe, dont une carte est fournie dans le cahier des clauses techniques\", \"CPV\": {\"PRINCIPAL\": \"71410000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"1\", \"#text\": \"Le prix n'est pas le seul critère d'attribution et tous les critères sont énoncés uniquement dans les documents du marché.\"}}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"150\", \"NUM_ANNONCE\": \"310466\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"TITULAIRE\": {\"DENOMINATION\": \"Urban'Ism\", \"ADRESSE\": \"9, rue Picard\", \"CP\": \"37140\", \"VILLE\": \"Bourgueil\", \"CODE_NUTS\": \"FRB04\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-11-02\", \"NB_OFFRE_RECU\": \"7\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"206677\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 20 décembre 2017.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-179327"
+  },
+  {
+   "idweb": "17-181551",
+   "id": "17_181551",
+   "contractfolderid": null,
+   "objet": "Maintenance des systèmes de sécurité incendie (SSI) dans les collèges publics sarthois",
+   "filename": "BOAMP-N-AO_2017_356011",
+   "famille": "FNS",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2017-12-22",
+   "datefindiffusion": "2018-01-26",
+   "datelimitereponse": "2018-01-26T10:30:00+00:00",
+   "nomacheteur": "DEPARTEMENT DE LA SARTHE",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": "1",
+   "marche_public_simplifie_label": "Marché public simplifié",
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "115"
+   ],
+   "dc": [
+    "115"
+   ],
+   "descripteur_libelle": [
+    "Equipements spécialisés"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-181551\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-181551.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-12-22\", \"DATE_LIMITE_REPONSE\": \"2018-01-26T11:30:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-01-26\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"115\", \"LIBELLE\": \"Equipements spécialisés\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Maintenance des systèmes de sécurité incendie (SSI) dans les collèges publics sarthois\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"DEPARTEMENT DE LA SARTHE\", \"CORRESPONDANT\": \"le Président\", \"ADRESSE\": \"Hôtel du département, Place Aristide Briand\", \"CP\": \"72072\", \"VILLE\": \"Le Mans\", \"MEL\": \"scp@sarthe.fr\", \"URL\": \"http://www.sarthe.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"DEPARTEMENT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Maintenance des systèmes de sécurité incendie (SSI) dans les collèges publics sarthois\", \"CPV\": [{\"PRINCIPAL\": \"35100000\"}, {\"PRINCIPAL\": \"50312610\"}], \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG04\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"PLUSIEURS_OPERATEURS\": \"\", \"DUREE_MOIS\": \"46\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Les prestations feront l'objet d'un accord-cadre exécuté par émission de bons de commande suivant la définition des articles 78 et 80 du Décret no2016-360 du 25 mars 2016.***Le maximum par période est fixé comme suit : 50 000 euros HT\", \"QUANTITE\": \"Pour les visites des sites, les candidats devront obligatoirement prendre rendez-vous auprès des établissements avant toute visite.Les collèges sont fermés du 25 décembre au 5 janvier inclus.***L'accord-cadre se terminera le 31 décembre 2018.Il est renouvelable par reconduction tacite sans que sa durée totale puisse excéder 4 ans :Période ferme : de la date de notification au 31/12/2018Reconduction 1: du 01/01/2019 au 31/12/2019Reconduction 2: du 01/01/2020 au 31/12/2020Reconduction 3: du 01/01/2021 au 31/12/2021\", \"OPTIONS\": {\"OUI\": \"\"}, \"RECONDUCTIONS\": {\"NB_RECONDUCTIONS\": \"3\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"46\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"La valeur technique (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"40\", \"#text\": \"Le prix (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"10\", \"#text\": \"Les performances en matière de protection de l'environnement (voir détail dans le règlement de la consultation)\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-01-26T11:30:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Paiement par virement à 30 jours, sur fonds propres.***Une avance sera versée au titulaire, sauf indication contraire dans l'acte d'engagement, lorsque le montant du bon de commande HT est supérieur à 50 000 euros HT\", \"FORME_JURIDIQUE\": \"L'accord-cadre sera conclu :- soit avec un prestataire unique ;- soit avec des prestataires groupés solidaires ;- soit avec des prestataires groupés conjoints.Le mandataire du groupement conjoint sera solidaire de chacun des membres du groupement pour ses obligations contractuelles à l'égard du maître de l'ouvrage, pour l'exécution du marché.\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Voir annexes 1 à 3 du Règlement de la Consultation (Dispositif Marché Public simplifié)\", \"CAP_ECO\": \"Voir annexes 1 à 3 du Règlement de la Consultation (Dispositif Marché Public simplifié)\", \"CAP_TECH\": \"Pour tous les lots : la présentation d'une liste des principaux service en cours effectués au cours des 3 dernières années, indiquant le montant, la date et le destinataire public ou privé\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"17AS-SCOC-2294-E\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.sarthe-marchespublics.frPour obtenir les renseignements d'ordre administratif et technique nécessaires, les candidats sont invités au plus tard 10 jours avant la date limite de remise des offres à passer par le module 'Correspondre avec l'acheteur' de la plateforme www.sarthe-marchespublics.fr--En cas de dysfonctionnement, vous pouvez contacter le secrétariat du Service Commande Publique :02 43 54 72 66--Une réponse sera alors adressée en temps utile à tous les candidats au plus tard 8 jours avant la date limite de remise des offres.***Ce marché est conforme au dispositif d'expérimentation MPS (Marché Public Simplifié), et permet aux entreprises de candidater sur la base de leur seul numéro de SIRET.Le mode de transmission des éléments de la candidature et de l'offre est dématérialisé.La réponse électronique est indispensable mais aucune signature n'est exigée.La signature sera demandée à posteriori qu'au seul candidat retenu.Voir détails dans le règlement de la consultation\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"Immeuble Skyline, 22 mail Pablo Picasso Cedex 1 BP 24209\", \"CP\": \"44202\", \"VILLE\": \"NANTES\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://www.marche-public.fr/Marches-publics/Definitions/Entrees/CCRA.htm\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-181551"
   },
   {
    "idweb": "17-179802",

@@ -5715,6 +5715,65 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-175391"
   },
   {
+   "idweb": "16-168588",
+   "id": "16_168588",
+   "contractfolderid": null,
+   "objet": "marché de prestations d'assurance complémentaire santé (volet no1) et prévoyance (volet no2) pour les salariés du groupement de commandes",
+   "filename": "BOAMP-J-IC-AA_2016_342004",
+   "famille": "JOUE",
+   "code_departement": [
+    "85"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2016-12-07",
+   "datefindiffusion": "2017-01-02",
+   "datelimitereponse": null,
+   "nomacheteur": "GIE des EPL de Vendée",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "ATTRIBUTION",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "20"
+   ],
+   "dc": [
+    "20"
+   ],
+   "descripteur_libelle": [
+    "Assurance"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-168588\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-168588.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-12-07\", \"DATE_FIN_DIFFUSION\": \"2017-01-02\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"20\", \"LIBELLE\": \"Assurance\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"marché de prestations d'assurance complémentaire santé (volet no1) et prévoyance (volet no2) pour les salariés du groupement de commandes\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"GIE des EPL de Vendée\", \"ADJUDICATEUR_NUTS\": \"FR\", \"ADRESSE\": \"33 rue de l'AtlantiqueCS 80206\", \"CP\": \"85005\", \"VILLE\": \"La Roche sur Yon\", \"MEL\": \"s.leger@gie-epl-vendee.fr\", \"URL\": \"http://www.vendee-expansion.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"GIE\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Aménagement, développement et tourisme\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Marché de prestations d'assurance complémentaire santé (volet no1) et prévoyance (volet no2) pour les salariés du groupement de commandes\", \"REF_MARCHE\": \"GIESTRUC02 - 12.07.2016\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Le marché a pour objet de confier à un professionnel de l'assurance la couverture des risques assurés et la gestion des sinistres résultant de l'assurance complémentaire frais de santé et prévoyance des salariés et assimilés du groupement de commandes GIE des EPL de Vendée / Vendée Expansion / Agence de Services aux Collectivités Locales de Vendée\", \"CPV\": {\"PRINCIPAL\": \"66512200\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"551300\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Le marché a pour objet de confier à un professionnel de l'assurance la couverture des risques assurés et la gestion des sinistres résultant de l'assurance complémentaire frais de santé et prévoyance des salariés t assimilés du groupement de commandes GIE des EPL de Vendée / Vendée Expansion / Agence de Services aux Collectivités Locales de Vendée\", \"CPV\": {\"PRINCIPAL\": \"66512200\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"Valeur technique\"}, {\"@POIDS\": \"10\", \"#text\": \"Respect du CCTP\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Prestation supplémentaire éventuelle alternative de garanties et tarifications au titre du volet no1 (frais de santé); prestation supplémentaire éventuelle alternative de garanties et tarifications au titre du volet no2 (prévoyance)\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"146\", \"NUM_ANNONCE\": \"263840\", \"DATE_PUBLICATION\": \"2016-07-30\"}}}, \"ATTRIBUTION\": {\"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"GIESTRUC02 - 12.07.16\", \"INTITULE\": \"Prestations d'assurance complémentaire santé (volet no1) et prévoyance (volet no2) pour les salariés du groupement de commandes\", \"TITULAIRE\": [{\"DENOMINATION\": \"COLLECTeam\", \"ADRESSE\": \"13 rue Croquechâtaigne\", \"CP\": \"45380\", \"VILLE\": \"LA CHAPELLE SAINT MESMIN\", \"CODE_NUTS\": \"FR\", \"PME_NON\": \"\"}, {\"DENOMINATION\": \"ALLIANZ VIE\", \"VILLE\": \"PARIS\", \"CODE_NUTS\": \"FR\", \"PME_NON\": \"\"}], \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-11-15\", \"NB_OFFRE_RECU\": \"2\", \"NB_OFFRE_RECU_ELECT\": \"0\", \"GROUPEMENT_ECONOMIQUE\": \"\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"551300\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 5 décembre 2016.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"GIE des EPL de Vendée\", \"ADRESSE\": \"33 rue de l'AtlantiqueCS 80206\", \"CP\": \"85005\", \"VILLE\": \"LA ROCHE SUR YON\", \"CODE_NUTS\": \"FR\", \"MEL\": \"s.leger@gie-epl-vendee.fr\", \"URL\": \"http://www.vendee-expansion.fr\"}, {\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"Vendée Expansion\", \"ADRESSE\": \"33 rue de l'AtlantiqueCS 80206\", \"CP\": \"85005\", \"VILLE\": \"LA ROCHE SUR YON\", \"CODE_NUTS\": \"FR\", \"MEL\": \"s.leger@gie-epl-vendee.fr\", \"URL\": \"http://www.vendee-expansion.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal de Grande Instance de Rennes\", \"ADRESSE\": \"Cité Judiciaire7 rue PIerre AbélardCS 73127\", \"CP\": \"35031\", \"VILLE\": \"Rennes\"}, {\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"Agence de Services aux Collectivités Locales de Vendée\", \"ADRESSE\": \"33 rue de l'AtlantiqueCS 80206\", \"CP\": \"85005\", \"VILLE\": \"LA ROCHE SUR YON\", \"CODE_NUTS\": \"FR\", \"MEL\": \"s.leger@gie-epl-vendee.fr\", \"URL\": \"http://www.vendee-expansion.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-168588"
+  },
+  {
    "idweb": "16-175713",
    "id": "16_175713",
    "contractfolderid": null,
@@ -5775,65 +5834,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-175713\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": [{\"REFERENCE\": {\"IDWEB\": \"16-130817\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-09-07\", \"DATE_FIN_DIFFUSION\": \"2016-09-28\"}}}, {\"REFERENCE\": {\"IDWEB\": \"16-139618\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-09-23\", \"DATE_FIN_DIFFUSION\": \"2016-10-07\"}}}]}, \"NOM_HTML\": \"16-175713.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-12-07\", \"DATE_FIN_DIFFUSION\": \"2016-12-28\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"27\", \"LIBELLE\": \"Bâtiments modulaires\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"Travaux et installation de bâtiments modulaires dans divers centres de secours du SDIS de la Vendée\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"SDIS 85\", \"CORRESPONDANT\": \"M. le directeur départemental des services d'incendie et de secours de la Vendée, Mme Martine Chaillout chef du service de la commande publique\", \"ADRESSE\": \"Les Oudairies BP 695\", \"CP\": \"85017\", \"VILLE\": \"LA ROCHE SUR YON Cedex\", \"TEL\": \"02-51-45-10-10\", \"FAX\": \"02-51-45-49-51\", \"MEL\": \"scop@sdis-vendee.fr\", \"URL\": \"http://www.sdis85.com\", \"URL_PROFIL_ACHETEUR\": \"http://sdis85.e-marchespublics.com\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ORDRE_SEC_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Travaux et installation de bâtiments modulaires dans divers centres de secours du SDIS de la Vendée\", \"CPV\": {\"PRINCIPAL\": \"44211100\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Centres de secours de La Tranche sur Mer, La Roche sur Yon, Montaigu et Rocheservière\", \"CODE_NUTS\": \"FR515\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"55\", \"#text\": \"Prix (Jugé sur la Décomposition du Prix Global et Forfaitaire)\"}, {\"@POIDS\": \"35\", \"#text\": \"Valeur technique (sous-critères : produits et équipements : 60 points ; moyens humains affectés à l'opération d'installation sur site : 40 points)\"}, {\"@POIDS\": \"10\", \"#text\": \"Délai d'exécution (jugé sur l'organisation du planning, le délai de préfabrication et le délai d'installation)\"}]}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_LOT\": \"1\", \"DESCRIPTION\": \"Travaux et installation d'un bâtiment modulaire pour le centre de secours de La Tranche sur Mer\", \"AUTRES_INFORMATIONS\": \"Solution de base avec PSE no1 et no2\", \"TITULAIRE\": {\"DENOMINATION\": \"COUGNAUD CONSTRUCTION\", \"ADRESSE\": \"Mouilleron le Captif CS 40028\", \"CP\": \"85035\", \"VILLE\": \"LA ROCHE SUR YON cedex\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-12-05\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"42602.01\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"2\", \"DESCRIPTION\": \"Travaux et installation d'un bâtiment modulaire pour le centre de secours principal de La Roche sur Yon\", \"TITULAIRE\": {\"DENOMINATION\": \"COUGNAUD CONSTRUCTION\", \"ADRESSE\": \"Mouilleron le Captif CS 40028\", \"CP\": \"85035\", \"VILLE\": \"LA ROCHE SUR YON cedex\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-12-05\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"23020.25\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"4\", \"DESCRIPTION\": \"Travaux et installation d'un bâtiment modulaire pour le centre de secours de Rocheservière\", \"AUTRES_INFORMATIONS\": \"Variante et PSE no1\", \"TITULAIRE\": {\"DENOMINATION\": \"COUGNAUD CONSTRUCTION\", \"ADRESSE\": \"Mouilleron le Captif CS 40028\", \"CP\": \"85035\", \"VILLE\": \"LA ROCHE SUR YON cedex\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-12-05\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"58033.52\"}}}]}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette CS 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES cedex\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-175713"
-  },
-  {
-   "idweb": "16-168588",
-   "id": "16_168588",
-   "contractfolderid": null,
-   "objet": "marché de prestations d'assurance complémentaire santé (volet no1) et prévoyance (volet no2) pour les salariés du groupement de commandes",
-   "filename": "BOAMP-J-IC-AA_2016_342004",
-   "famille": "JOUE",
-   "code_departement": [
-    "85"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2016-12-07",
-   "datefindiffusion": "2017-01-02",
-   "datelimitereponse": null,
-   "nomacheteur": "GIE des EPL de Vendée",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "ATTRIBUTION",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "20"
-   ],
-   "dc": [
-    "20"
-   ],
-   "descripteur_libelle": [
-    "Assurance"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-168588\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-168588.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-12-07\", \"DATE_FIN_DIFFUSION\": \"2017-01-02\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"20\", \"LIBELLE\": \"Assurance\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"marché de prestations d'assurance complémentaire santé (volet no1) et prévoyance (volet no2) pour les salariés du groupement de commandes\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"GIE des EPL de Vendée\", \"ADJUDICATEUR_NUTS\": \"FR\", \"ADRESSE\": \"33 rue de l'AtlantiqueCS 80206\", \"CP\": \"85005\", \"VILLE\": \"La Roche sur Yon\", \"MEL\": \"s.leger@gie-epl-vendee.fr\", \"URL\": \"http://www.vendee-expansion.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"GIE\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Aménagement, développement et tourisme\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Marché de prestations d'assurance complémentaire santé (volet no1) et prévoyance (volet no2) pour les salariés du groupement de commandes\", \"REF_MARCHE\": \"GIESTRUC02 - 12.07.2016\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Le marché a pour objet de confier à un professionnel de l'assurance la couverture des risques assurés et la gestion des sinistres résultant de l'assurance complémentaire frais de santé et prévoyance des salariés et assimilés du groupement de commandes GIE des EPL de Vendée / Vendée Expansion / Agence de Services aux Collectivités Locales de Vendée\", \"CPV\": {\"PRINCIPAL\": \"66512200\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"551300\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Le marché a pour objet de confier à un professionnel de l'assurance la couverture des risques assurés et la gestion des sinistres résultant de l'assurance complémentaire frais de santé et prévoyance des salariés t assimilés du groupement de commandes GIE des EPL de Vendée / Vendée Expansion / Agence de Services aux Collectivités Locales de Vendée\", \"CPV\": {\"PRINCIPAL\": \"66512200\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"Valeur technique\"}, {\"@POIDS\": \"10\", \"#text\": \"Respect du CCTP\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Prestation supplémentaire éventuelle alternative de garanties et tarifications au titre du volet no1 (frais de santé); prestation supplémentaire éventuelle alternative de garanties et tarifications au titre du volet no2 (prévoyance)\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"146\", \"NUM_ANNONCE\": \"263840\", \"DATE_PUBLICATION\": \"2016-07-30\"}}}, \"ATTRIBUTION\": {\"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"GIESTRUC02 - 12.07.16\", \"INTITULE\": \"Prestations d'assurance complémentaire santé (volet no1) et prévoyance (volet no2) pour les salariés du groupement de commandes\", \"TITULAIRE\": [{\"DENOMINATION\": \"COLLECTeam\", \"ADRESSE\": \"13 rue Croquechâtaigne\", \"CP\": \"45380\", \"VILLE\": \"LA CHAPELLE SAINT MESMIN\", \"CODE_NUTS\": \"FR\", \"PME_NON\": \"\"}, {\"DENOMINATION\": \"ALLIANZ VIE\", \"VILLE\": \"PARIS\", \"CODE_NUTS\": \"FR\", \"PME_NON\": \"\"}], \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-11-15\", \"NB_OFFRE_RECU\": \"2\", \"NB_OFFRE_RECU_ELECT\": \"0\", \"GROUPEMENT_ECONOMIQUE\": \"\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"551300\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 5 décembre 2016.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"GIE des EPL de Vendée\", \"ADRESSE\": \"33 rue de l'AtlantiqueCS 80206\", \"CP\": \"85005\", \"VILLE\": \"LA ROCHE SUR YON\", \"CODE_NUTS\": \"FR\", \"MEL\": \"s.leger@gie-epl-vendee.fr\", \"URL\": \"http://www.vendee-expansion.fr\"}, {\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"Vendée Expansion\", \"ADRESSE\": \"33 rue de l'AtlantiqueCS 80206\", \"CP\": \"85005\", \"VILLE\": \"LA ROCHE SUR YON\", \"CODE_NUTS\": \"FR\", \"MEL\": \"s.leger@gie-epl-vendee.fr\", \"URL\": \"http://www.vendee-expansion.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal de Grande Instance de Rennes\", \"ADRESSE\": \"Cité Judiciaire7 rue PIerre AbélardCS 73127\", \"CP\": \"35031\", \"VILLE\": \"Rennes\"}, {\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"Agence de Services aux Collectivités Locales de Vendée\", \"ADRESSE\": \"33 rue de l'AtlantiqueCS 80206\", \"CP\": \"85005\", \"VILLE\": \"LA ROCHE SUR YON\", \"CODE_NUTS\": \"FR\", \"MEL\": \"s.leger@gie-epl-vendee.fr\", \"URL\": \"http://www.vendee-expansion.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-168588"
   },
   {
    "idweb": "16-173171",
@@ -6149,63 +6149,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-172293"
   },
   {
-   "idweb": "16-176251",
-   "id": "16_176251",
-   "contractfolderid": null,
-   "objet": "Maine et Loire (49) Mise aux normes de la station carburant -Fontevraud l'abbaye - Camp de Fontevraud, Avrillé - Quartier Dalstein",
-   "filename": "BOAMP-N-AO_2016_343011",
-   "famille": "FNS",
-   "code_departement": [
-    "49"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2016-12-08",
-   "datefindiffusion": "2017-01-14",
-   "datelimitereponse": "2017-01-13T10:00:00+00:00",
-   "nomacheteur": "ESID de Rennes",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": [
-    "environnementaux"
-   ],
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "345"
-   ],
-   "dc": [
-    "345"
-   ],
-   "descripteur_libelle": [
-    "Tous corps d'état"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-176251\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-176251.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-12-08\", \"DATE_LIMITE_REPONSE\": \"2017-01-13T11:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2017-01-14\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"345\", \"LIBELLE\": \"Tous corps d'état\"}}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Maine et Loire (49) Mise aux normes de la station carburant -Fontevraud l'abbaye - Camp de Fontevraud, Avrillé - Quartier Dalstein\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"ESID de Rennes\", \"CORRESPONDANT\": \"M. LERAY MARIE, Etablissement du Service d'Infrastructure de la Défense de RENNES\", \"ADRESSE\": \"Quartier Margueritte BP14 Quartier Margueritte bp14\", \"CP\": \"35998\", \"VILLE\": \"Rennes cedex 9\", \"TEL\": \"02-23-35-22-95\", \"FAX\": \"02-23-35-21-93\", \"MEL\": \"marie.leray@intradef.gouv.fr\"}, \"TYPE_ORGANISME\": {\"ETAT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Maine et Loire (49) Mise aux normes de la station carburant -Fontevraud l'abbaye - Camp de Fontevraud, Avrillé - Quartier Dalstein\", \"CPV\": {\"PRINCIPAL\": \"45259900\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Camp de Fontevraud - (49) Fontevraud l'Abbaye et Quartier Dalstein - route de la Meignanne (49) Avrillé\", \"CODE_NUTS\": \"FR51\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Lot 1 comporte 2 sections techniquesLot 2 comporte 2 sections techniques\", \"QUANTITE\": \"Maine et Loire (49) Mise aux normes de la station carburant -Fontevraud l'abbaye - Camp de Fontevraud, Avrillé - Quartier Dalstein\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"DESCRIPTION\": \"Installations hydrocarbures - électricité\", \"CPV\": {\"PRINCIPAL\": \"45259900\"}}, {\"NUM\": \"2\", \"DESCRIPTION\": \"VRD - gros oeuvre\", \"CPV\": {\"PRINCIPAL\": \"45110000\"}}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-01-13T11:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Paiement selon les modalités du CMP, prix actualisables\", \"FORME_JURIDIQUE\": \"Groupement solidaire ou groupement conjoint avec mandataire solidaire (cf. article 3.10 du RC)\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"Capacités économiques et financières\", \"CAP_ECO\": \"Article 6.1 du règlement de la consultation\", \"CAP_TECH\": \"Article 6.1 du règlement de la consultation\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Certificats de qualifications professionnelles. La preuve de la capacité du candidat peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de travaux attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"S'il s'appuie, pour présenter sa candidature, sur les capacités professionnelles, techniques et financières d'autres opérateurs économiques, le candidat produit les mêmes documents concernant cet opérateur économique que ceux qui lui sont exigés par l'acheteur public. Le candidat doit également apporter la preuve que chacun de ces opérateurs économiques mettra à sa disposition les moyens nécessaires, pendant toute la durée d'exécution du marché public ou de l'accord-cadre\", \"Si les documents fournis par le candidat ne sont pas établis en langue française, ils doivent être accompagnés d'une traduction en français, certifiée conforme à l'original par un traducteur assermenté\", \"Les pièces prévues aux articles D. 8222-5 ou D. 8222-7 et D. 8222-8 du code du travail\", \"Si l'attributaire est établi en France, les attestations et certificats délivrés par les administrations et organismes compétents prouvant qu'il a satisfait à ses obligations fiscales et sociales ou un état annuel des certificats reçus\", \"Si l'attributaire est établi dans un Etat autre que la France, un certificat établi par les administrations et organismes du pays d'origine. Lorsqu'un tel certificat n'est pas délivré par le pays concerné, il peut être remplacé par une déclaration sous serment, ou dans les Etats où un tel serment n'existe pas, par une déclaration solennelle faite par l'intéressé devant l'autorité judiciaire ou administrative compétente, un notaire ou un organisme professionnel qualifié du pays\", \"Si les documents fournis par le candidat ne sont pas établis en langue française, ils doivent être accompagnés d'une traduction en français, certifiée conforme à l'original par un traducteur assermenté\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"16-028\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Durée d'exécution du marché public : 6 mois à/c de la date de début d'exécution des travaux notifiée par ordre de service.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"ESID de Rennes\", \"CORRESPONDANT\": \"Mme Marie Leray\", \"ADRESSE\": \"Quartier Margueritte Bp 14\", \"CP\": \"35998\", \"VILLE\": \"Rennes cedex 9\", \"TEL\": \"02-23-35-22-95\", \"FAX\": \"02-23-35-21-93\", \"MEL\": \"marie.leray@intradef.gouv.fr\", \"URL\": \"http://www.marches-publics.gouv.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-176251"
-  },
-  {
    "idweb": "16-175116",
    "id": "16_175116",
    "contractfolderid": null,
@@ -6269,6 +6212,63 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-175116\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-82876\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-06-06\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-06-08\", \"DATE_FIN_DIFFUSION\": \"2016-07-13\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"110\", \"NUM_ANNONCE\": \"195922\", \"DATE_PUBLICATION\": \"2016-06-09\"}}]}}, \"NOM_HTML\": \"16-175116.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-12-08\", \"DATE_FIN_DIFFUSION\": \"2016-12-15\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"239\", \"LIBELLE\": \"Nettoyage de locaux\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"2016-26\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Université d'Angers\", \"CODE_IDENT_NATIONAL\": \"19490970100303\", \"ADJUDICATEUR_NUTS\": \"FR512\", \"ADRESSE\": \"40 rue de Rennes - BP 73532\", \"CP\": \"49035\", \"VILLE\": \"Angers cedex 01\", \"TEL\": \"(+33) 2-41-96-22-23\", \"FAX\": \"(+33) 2-41-96-22-65\", \"MEL\": \"marche.public@univ-angers.fr\", \"URL\": \"http://www.univ-angers.fr\", \"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\", \"LOI_COMPTE_AUTRE_PAYS\": \"Groupement de commandes, conformément aux dispositions de l'article 28 de l'ordonnance 2015-899.\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"EDUCATION\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"2016-26\", \"REF_MARCHE\": \"2016-26\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Prestations d'entretien pour les locaux des bâtiments abritant les composantes et les services communs de l'Université d'Angers, selon les surfaces et les fréquences décrites en annexes 1 et 2 du C.C.T.P.\", \"CPV\": {\"PRINCIPAL\": \"90911000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"2962241\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Saint-Serge\", \"DESCRIPTION\": \"Prestations de nettoyage des locaux et les services associés dans des conditions respectueuses de l'environnement pour les bâtiments des composantes et des services communs du pole Saint-Serge (3 sites)\", \"CPV\": {\"PRINCIPAL\": \"33770000\"}, \"CODE_NUTS\": \"FR512\", \"LIEU_PRINCIPAL\": \"Angers\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"40\", \"#text\": \"Qualité des prestations\"}, {\"@POIDS\": \"10\", \"#text\": \"Environnemental\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"50\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Le présent accord-cadre comporte les prestations supplémentaires décrites dans le CCTP, à savoir : - Lot 1 - PSE no1 - Prestations de nettoyage pour 33 dimanches dans l'année (site Bibliothèque universitaire Saint-Serge) La PSE no1 devra être chiffrée à l'annexe 1 (lot 1) de l'acte d'engagement ; l'absence de proposition pour la PSE no1 obligatoire entrainera le rejet de l'offre pour le lot no1.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Santé\", \"DESCRIPTION\": \"Prestations de nettoyage des locaux et les services associés dans des conditions respectueuses de l'environnement pour les bâtiments des composantes et des services communs du pole Santé (3 sites)\", \"CPV\": {\"PRINCIPAL\": \"33770000\"}, \"CODE_NUTS\": \"FR512\", \"LIEU_PRINCIPAL\": \"Angers\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"40\", \"#text\": \"Qualité des prestations\"}, {\"@POIDS\": \"10\", \"#text\": \"Environnemental\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"50\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Belle Beille\", \"DESCRIPTION\": \"Prestations de nettoyage des locaux et les services associés dans des conditions respectueuses de l'environnement pour les bâtiments des composantes et des services communs du pole Belle Beille (10 sites).\", \"CPV\": {\"PRINCIPAL\": \"33770000\"}, \"CODE_NUTS\": \"FR512\", \"LIEU_PRINCIPAL\": \"Angers\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"40\", \"#text\": \"Qualité des prestations\"}, {\"@POIDS\": \"10\", \"#text\": \"Environnemental\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"50\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"110\", \"NUM_ANNONCE\": \"195922\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2016-26\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Prestations de nettoyage des locaux et les services associés dans des conditions respectueuses de l'environnement pour les bâtiments du pole Saint-Serge (3 sites)\", \"TITULAIRE\": {\"DENOMINATION\": \"TFN PROPRETE OUEST\", \"ADRESSE\": \"ZIN des Frères Voisin\", \"CP\": \"72021\", \"VILLE\": \"Le Mans cedex 2\", \"CODE_NUTS\": \"FR514\", \"URL\": \"http://atalian.com/\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-10-25\", \"NB_OFFRE_RECU\": \"5\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"585348.83\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2016-26\", \"NUM_LOT\": \"2\", \"INTITULE\": \"Prestations de nettoyage des locaux et les services associés dans des conditions respectueuses de l'environnement pour les bâtiments des composantes et des services communs du pole Santé (3 sites)\", \"TITULAIRE\": {\"DENOMINATION\": \"TFN PROPRETE OUEST\", \"ADRESSE\": \"ZIN des Frères Voisin\", \"CP\": \"72021\", \"VILLE\": \"Le Mans cedex 2\", \"CODE_NUTS\": \"FR514\", \"URL\": \"http://atalian.com/\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-10-25\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"551993.20\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2016-26\", \"NUM_LOT\": \"3\", \"INTITULE\": \"Prestations de nettoyage des locaux et les services associés dans des conditions respectueuses de l'environnement pour les bâtiments du pole Belle Beille (10 sites).\", \"TITULAIRE\": {\"DENOMINATION\": \"SARL NET PLUS\", \"ADRESSE\": \"355 avenue Patton Espace Patton\", \"CP\": \"49066\", \"VILLE\": \"Angers\", \"CODE_NUTS\": \"FR512\", \"URL\": \"http://www.net-plus.fr/angers-267.html\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-10-25\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"1824900\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 6 décembre 2016.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"6 quai Cerneray BP 33515\", \"CP\": \"44035\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-08-64-33\", \"FAX\": \"(+33) 2-40-99-46-00\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Greffe du Tribunal Administratif\", \"ADRESSE\": \"6 allée de l'Ile Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"CHU ANGERS\", \"ADRESSE\": \"4 rue Larrey\", \"CP\": \"49933\", \"VILLE\": \"Angers\", \"CODE_NUTS\": \"FR512\", \"MEL\": \"bureaumarche@chu-angers.fr\", \"URL\": \"http://www.chu-angers.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-175116"
+  },
+  {
+   "idweb": "16-176251",
+   "id": "16_176251",
+   "contractfolderid": null,
+   "objet": "Maine et Loire (49) Mise aux normes de la station carburant -Fontevraud l'abbaye - Camp de Fontevraud, Avrillé - Quartier Dalstein",
+   "filename": "BOAMP-N-AO_2016_343011",
+   "famille": "FNS",
+   "code_departement": [
+    "49"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2016-12-08",
+   "datefindiffusion": "2017-01-14",
+   "datelimitereponse": "2017-01-13T10:00:00+00:00",
+   "nomacheteur": "ESID de Rennes",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": [
+    "environnementaux"
+   ],
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "345"
+   ],
+   "dc": [
+    "345"
+   ],
+   "descripteur_libelle": [
+    "Tous corps d'état"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-176251\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-176251.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-12-08\", \"DATE_LIMITE_REPONSE\": \"2017-01-13T11:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2017-01-14\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"345\", \"LIBELLE\": \"Tous corps d'état\"}}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Maine et Loire (49) Mise aux normes de la station carburant -Fontevraud l'abbaye - Camp de Fontevraud, Avrillé - Quartier Dalstein\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"ESID de Rennes\", \"CORRESPONDANT\": \"M. LERAY MARIE, Etablissement du Service d'Infrastructure de la Défense de RENNES\", \"ADRESSE\": \"Quartier Margueritte BP14 Quartier Margueritte bp14\", \"CP\": \"35998\", \"VILLE\": \"Rennes cedex 9\", \"TEL\": \"02-23-35-22-95\", \"FAX\": \"02-23-35-21-93\", \"MEL\": \"marie.leray@intradef.gouv.fr\"}, \"TYPE_ORGANISME\": {\"ETAT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Maine et Loire (49) Mise aux normes de la station carburant -Fontevraud l'abbaye - Camp de Fontevraud, Avrillé - Quartier Dalstein\", \"CPV\": {\"PRINCIPAL\": \"45259900\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Camp de Fontevraud - (49) Fontevraud l'Abbaye et Quartier Dalstein - route de la Meignanne (49) Avrillé\", \"CODE_NUTS\": \"FR51\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Lot 1 comporte 2 sections techniquesLot 2 comporte 2 sections techniques\", \"QUANTITE\": \"Maine et Loire (49) Mise aux normes de la station carburant -Fontevraud l'abbaye - Camp de Fontevraud, Avrillé - Quartier Dalstein\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"DESCRIPTION\": \"Installations hydrocarbures - électricité\", \"CPV\": {\"PRINCIPAL\": \"45259900\"}}, {\"NUM\": \"2\", \"DESCRIPTION\": \"VRD - gros oeuvre\", \"CPV\": {\"PRINCIPAL\": \"45110000\"}}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-01-13T11:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Paiement selon les modalités du CMP, prix actualisables\", \"FORME_JURIDIQUE\": \"Groupement solidaire ou groupement conjoint avec mandataire solidaire (cf. article 3.10 du RC)\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"Capacités économiques et financières\", \"CAP_ECO\": \"Article 6.1 du règlement de la consultation\", \"CAP_TECH\": \"Article 6.1 du règlement de la consultation\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Certificats de qualifications professionnelles. La preuve de la capacité du candidat peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de travaux attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"S'il s'appuie, pour présenter sa candidature, sur les capacités professionnelles, techniques et financières d'autres opérateurs économiques, le candidat produit les mêmes documents concernant cet opérateur économique que ceux qui lui sont exigés par l'acheteur public. Le candidat doit également apporter la preuve que chacun de ces opérateurs économiques mettra à sa disposition les moyens nécessaires, pendant toute la durée d'exécution du marché public ou de l'accord-cadre\", \"Si les documents fournis par le candidat ne sont pas établis en langue française, ils doivent être accompagnés d'une traduction en français, certifiée conforme à l'original par un traducteur assermenté\", \"Les pièces prévues aux articles D. 8222-5 ou D. 8222-7 et D. 8222-8 du code du travail\", \"Si l'attributaire est établi en France, les attestations et certificats délivrés par les administrations et organismes compétents prouvant qu'il a satisfait à ses obligations fiscales et sociales ou un état annuel des certificats reçus\", \"Si l'attributaire est établi dans un Etat autre que la France, un certificat établi par les administrations et organismes du pays d'origine. Lorsqu'un tel certificat n'est pas délivré par le pays concerné, il peut être remplacé par une déclaration sous serment, ou dans les Etats où un tel serment n'existe pas, par une déclaration solennelle faite par l'intéressé devant l'autorité judiciaire ou administrative compétente, un notaire ou un organisme professionnel qualifié du pays\", \"Si les documents fournis par le candidat ne sont pas établis en langue française, ils doivent être accompagnés d'une traduction en français, certifiée conforme à l'original par un traducteur assermenté\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"16-028\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Durée d'exécution du marché public : 6 mois à/c de la date de début d'exécution des travaux notifiée par ordre de service.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"ESID de Rennes\", \"CORRESPONDANT\": \"Mme Marie Leray\", \"ADRESSE\": \"Quartier Margueritte Bp 14\", \"CP\": \"35998\", \"VILLE\": \"Rennes cedex 9\", \"TEL\": \"02-23-35-22-95\", \"FAX\": \"02-23-35-21-93\", \"MEL\": \"marie.leray@intradef.gouv.fr\", \"URL\": \"http://www.marches-publics.gouv.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-176251"
   },
   {
    "idweb": "16-175165",

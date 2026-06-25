@@ -5514,6 +5514,68 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-119259"
   },
   {
+   "idweb": "20-120185",
+   "id": "20_120185",
+   "contractfolderid": null,
+   "objet": "Recherche et diagnostic des réseaux enterrés pour les besoins des services du Département de la Sarthe",
+   "filename": "BOAMP-J-AO_2020_277005",
+   "famille": "JOUE",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2020-10-03",
+   "datefindiffusion": "2020-11-03",
+   "datelimitereponse": null,
+   "nomacheteur": "DEPARTEMENT DE LA SARTHE",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "19",
+    "455"
+   ],
+   "dc": [
+    "19",
+    "455"
+   ],
+   "descripteur_libelle": [
+    "Assistance technique",
+    "Ingénierie"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-120185\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"20-120185.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-10-03\", \"DATE_FIN_DIFFUSION\": \"2020-11-03\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"19\", \"LIBELLE\": \"Assistance technique\"}, {\"CODE\": \"455\", \"LIBELLE\": \"Ingénierie\"}]}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Recherche et diagnostic des réseaux enterrés pour les besoins des services du Département de la Sarthe\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"DEPARTEMENT DE LA SARTHE\", \"CODE_IDENT_NATIONAL\": \"22720002900014\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"Hôtel du département, Place Aristide Briand\", \"CP\": \"72072\", \"VILLE\": \"Le Mans\", \"MEL\": \"scp@cg72.fr\", \"URL\": \"http://www.sarthe.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\", \"URL_PARTICIPATION\": \"http://www.sarthe-marchespublics.fr\", \"URL_DOCUMENT\": \"http://www.sarthe-marchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Recherche et diagnostic des réseaux enterrés pour les besoins des services du Département de la Sarthe\", \"REF_MARCHE\": \"20fs-Dimg-2801-C\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Les prestations feront l'objet d'un accord-cadre mono-attributaire exécuté par émission de bons de commande conformément aux dispositions des articles R2162-2, R2162-4 à R2162-6, R2162-13 et R2162-14 du Code de la Commande publique.L'accord-cadre est renouvelable par reconduction tacite sans que sa durée totale puisse excéder 4 années.Il est fixé un montant minimum de 50 000 euro(s) Ht par période. En revanche, il n'est pas fixé de montant maximum\", \"CPV\": {\"PRINCIPAL\": \"71351810\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Les prestations feront l'objet d'un accord-cadre mono-attributaire exécuté par émission de bons de commande conformément aux dispositions des articles R2162-2, R2162-4 à R2162-6, R2162-13 et R2162-14 du Code de la Commande publique.L'accord-cadre est renouvelable par reconduction tacite sans que sa durée totale puisse excéder 4 années.Il est fixé un montant minimum de 50 000 euro(s) Ht par période. En revanche, il n'est pas fixé de montant maximum\", \"CPV\": [{\"PRINCIPAL\": \"71300000\"}, {\"PRINCIPAL\": \"71335000\"}], \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"La valeur technique (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"40\", \"#text\": \"Le prix des prestations (voir détail dans le règlement de la consultation)\"}]}}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"L'accord-cadre est renouvelable par reconduction tacite sans que sa durée totale puisse excéder 4 années\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2020-11-03T11:30:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Les candidats peuvent, dès le stade de la candidature, fournir les éléments demandés à l'article 6-2 du Règlement de la consultation\", \"CAP_ECO\": \"Les candidats peuvent, dès le stade de la candidature, fournir les éléments demandés à l'article 6-2 du Règlement de la consultation\", \"CAP_TECH\": \"* La présentation d'une liste de références significatives dans des prestations de même nature, effectuées au cours des trois dernières années, attestant de la compétence du candidat à réaliser les prestations de l'accord-cadre, indiquant notamment le montant, la date et le destinataire public ou privé ;* Certifications en géo-détection et levés topographiques ;*Pour le passage caméra, Accréditation Cofrac réseaux neufs et réseaux en services, caméra munie de sonde afin de détecter depuis l'extérieur la position des réseaux existants dans le cadre d'une recherche\", \"MARCHE_RESERVE_NON\": \"\", \"CONDITION_PARTICULIERE_EXECUTION\": \"Financement :Paiement par virement à 30 jours, sur fonds propres.Conformément aux articles R2191-3 à R2191-12 du Code de la Commande Publique, une avance est accordée au titulaire, sauf indication contraire au moment de l'émission du bon de commande, lorsque le montant du bon de commande de l'accord-cadre est supérieur à 50 000 euro(s) Ht.Forme juridique :L'accord-cadre sera conclu soit avec un prestataire unique ; soit avec des prestataires groupés solidaires ; soit avec des prestataires groupés conjoints\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2020-11-03\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.sarthe-marchespublics.fr -Depuis le 1er octobre 2018, l'offre électronique est obligatoire.En revanche, la signature électronique est facultative lors de la remise des offres.Seul le candidat retenu devra obligatoirement se doter d'une signature électronique pour signer le marché.Pour obtenir tous les renseignements d'ordre administratif et technique qui leur seraient nécessaires au cours de leur étude, les candidats sont invités au plus tard 10 jours avant la date limite de remise des offres à passer par le module \\\" Correspondre avec l'acheteur \\\" de la plate-forme www.sarthe-marchespublics.fr.En cas de dysfonctionnement, vous pouvez contacter le secrétariat du Service Juridique et Commande Publique au 02.43.54.72.66.Une réponse sera alors adressée en temps utile à tous les candidats au plus tard 8 jours avant la date limite de remise des offres. Date d'envoi du présent avis au JOUE et au BOAMP : 1 octobre 2020.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"www.telerecours.fr\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette, Cs 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"Immeuble Skyline, 22 mail Pablo Picasso\", \"CP\": \"44202\", \"VILLE\": \"Nantes\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://www.marche-public.fr/Marches-publics/Definitions/Entrees/Ccra.htm\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-120185"
+  },
+  {
    "idweb": "20-119877",
    "id": "20_119877",
    "contractfolderid": null,
@@ -5576,68 +5638,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-119877\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"20-119877.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-10-03\", \"DATE_FIN_DIFFUSION\": \"2020-11-15\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}, {\"CODE\": \"332\", \"LIBELLE\": \"Sécurité incendie\"}]}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"PRESTATION DE SECURITE INCENDIE et DE SURETE, GESTION DES ACCES POUR LE CENTRE HOSPITALIER DU MANS\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CH LE MANS\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"194 avenue Rubillard\", \"CP\": \"72037\", \"VILLE\": \"Le mans cedex 09\", \"TEL\": \"(+33) 2-44-71-03-83\", \"MEL\": \"celluledesmarches@ch-lemans.fr\", \"URL\": \"http://www.ch-lemans.fr/\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Etablissement Public de Santé\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"PRESTATION DE SECURITE INCENDIE et DE SURETE, GESTION DES ACCES POUR LE CENTRE HOSPITALIER DU MANS\", \"REF_MARCHE\": \"PRSG20-003\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"PRESTATION DE SECURITE INCENDIE et DE SURETE, GESTION DES ACCES POUR LE CENTRE HOSPITALIER DU MANS\", \"CPV\": {\"PRINCIPAL\": \"79710000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"1900180\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"PRESTATION DE SECURITE INCENDIE et DE SURETE, GESTION DES ACCES POUR LE CENTRE HOSPITALIER DU MANS\", \"CPV\": {\"PRINCIPAL\": \"79710000\"}, \"CODE_NUTS\": \"FRG04\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"NEGOCIE\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2020\", \"NUM_PARUTION\": \"119\", \"NUM_ANNONCE\": \"290283\", \"DATE_PUBLICATION\": \"2020-06-22\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"20 2155\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Lot unique\", \"TITULAIRE\": {\"DENOMINATION\": \"TRAG SECURITE\", \"ADRESSE\": \"12 RUE DE LA BASTIDE\", \"CP\": \"95800\", \"VILLE\": \"CERGY\", \"CODE_NUTS\": \"FR108\", \"PAYS\": \"FR\", \"URL\": \"http://www.marches-publics.gouv.fr\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2020-09-10\", \"NB_OFFRE_RECU\": \"6\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"1900180\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Accord-cadre à bons de commande sans minimum ni maximum ; le montant total du marché indiqué correspond à l'estimation prévisionnelle sur la durée totale du marché.. Date d'envoi du présent avis au JOUE et au BOAMP : 1 octobre 2020.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"DIRECCTE des pays de la Loire\", \"ADRESSE\": \"22 mail Pablo Picasso - BP 24209\", \"CP\": \"44042\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://pays-de-la-loire.direccte.gouv.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-119877"
-  },
-  {
-   "idweb": "20-120185",
-   "id": "20_120185",
-   "contractfolderid": null,
-   "objet": "Recherche et diagnostic des réseaux enterrés pour les besoins des services du Département de la Sarthe",
-   "filename": "BOAMP-J-AO_2020_277005",
-   "famille": "JOUE",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2020-10-03",
-   "datefindiffusion": "2020-11-03",
-   "datelimitereponse": null,
-   "nomacheteur": "DEPARTEMENT DE LA SARTHE",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "19",
-    "455"
-   ],
-   "dc": [
-    "19",
-    "455"
-   ],
-   "descripteur_libelle": [
-    "Assistance technique",
-    "Ingénierie"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-120185\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"20-120185.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-10-03\", \"DATE_FIN_DIFFUSION\": \"2020-11-03\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"19\", \"LIBELLE\": \"Assistance technique\"}, {\"CODE\": \"455\", \"LIBELLE\": \"Ingénierie\"}]}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Recherche et diagnostic des réseaux enterrés pour les besoins des services du Département de la Sarthe\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"DEPARTEMENT DE LA SARTHE\", \"CODE_IDENT_NATIONAL\": \"22720002900014\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"Hôtel du département, Place Aristide Briand\", \"CP\": \"72072\", \"VILLE\": \"Le Mans\", \"MEL\": \"scp@cg72.fr\", \"URL\": \"http://www.sarthe.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\", \"URL_PARTICIPATION\": \"http://www.sarthe-marchespublics.fr\", \"URL_DOCUMENT\": \"http://www.sarthe-marchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Recherche et diagnostic des réseaux enterrés pour les besoins des services du Département de la Sarthe\", \"REF_MARCHE\": \"20fs-Dimg-2801-C\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Les prestations feront l'objet d'un accord-cadre mono-attributaire exécuté par émission de bons de commande conformément aux dispositions des articles R2162-2, R2162-4 à R2162-6, R2162-13 et R2162-14 du Code de la Commande publique.L'accord-cadre est renouvelable par reconduction tacite sans que sa durée totale puisse excéder 4 années.Il est fixé un montant minimum de 50 000 euro(s) Ht par période. En revanche, il n'est pas fixé de montant maximum\", \"CPV\": {\"PRINCIPAL\": \"71351810\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Les prestations feront l'objet d'un accord-cadre mono-attributaire exécuté par émission de bons de commande conformément aux dispositions des articles R2162-2, R2162-4 à R2162-6, R2162-13 et R2162-14 du Code de la Commande publique.L'accord-cadre est renouvelable par reconduction tacite sans que sa durée totale puisse excéder 4 années.Il est fixé un montant minimum de 50 000 euro(s) Ht par période. En revanche, il n'est pas fixé de montant maximum\", \"CPV\": [{\"PRINCIPAL\": \"71300000\"}, {\"PRINCIPAL\": \"71335000\"}], \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"La valeur technique (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"40\", \"#text\": \"Le prix des prestations (voir détail dans le règlement de la consultation)\"}]}}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"L'accord-cadre est renouvelable par reconduction tacite sans que sa durée totale puisse excéder 4 années\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2020-11-03T11:30:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Les candidats peuvent, dès le stade de la candidature, fournir les éléments demandés à l'article 6-2 du Règlement de la consultation\", \"CAP_ECO\": \"Les candidats peuvent, dès le stade de la candidature, fournir les éléments demandés à l'article 6-2 du Règlement de la consultation\", \"CAP_TECH\": \"* La présentation d'une liste de références significatives dans des prestations de même nature, effectuées au cours des trois dernières années, attestant de la compétence du candidat à réaliser les prestations de l'accord-cadre, indiquant notamment le montant, la date et le destinataire public ou privé ;* Certifications en géo-détection et levés topographiques ;*Pour le passage caméra, Accréditation Cofrac réseaux neufs et réseaux en services, caméra munie de sonde afin de détecter depuis l'extérieur la position des réseaux existants dans le cadre d'une recherche\", \"MARCHE_RESERVE_NON\": \"\", \"CONDITION_PARTICULIERE_EXECUTION\": \"Financement :Paiement par virement à 30 jours, sur fonds propres.Conformément aux articles R2191-3 à R2191-12 du Code de la Commande Publique, une avance est accordée au titulaire, sauf indication contraire au moment de l'émission du bon de commande, lorsque le montant du bon de commande de l'accord-cadre est supérieur à 50 000 euro(s) Ht.Forme juridique :L'accord-cadre sera conclu soit avec un prestataire unique ; soit avec des prestataires groupés solidaires ; soit avec des prestataires groupés conjoints\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2020-11-03\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.sarthe-marchespublics.fr -Depuis le 1er octobre 2018, l'offre électronique est obligatoire.En revanche, la signature électronique est facultative lors de la remise des offres.Seul le candidat retenu devra obligatoirement se doter d'une signature électronique pour signer le marché.Pour obtenir tous les renseignements d'ordre administratif et technique qui leur seraient nécessaires au cours de leur étude, les candidats sont invités au plus tard 10 jours avant la date limite de remise des offres à passer par le module \\\" Correspondre avec l'acheteur \\\" de la plate-forme www.sarthe-marchespublics.fr.En cas de dysfonctionnement, vous pouvez contacter le secrétariat du Service Juridique et Commande Publique au 02.43.54.72.66.Une réponse sera alors adressée en temps utile à tous les candidats au plus tard 8 jours avant la date limite de remise des offres. Date d'envoi du présent avis au JOUE et au BOAMP : 1 octobre 2020.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"www.telerecours.fr\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette, Cs 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"Immeuble Skyline, 22 mail Pablo Picasso\", \"CP\": \"44202\", \"VILLE\": \"Nantes\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://www.marche-public.fr/Marches-publics/Definitions/Entrees/Ccra.htm\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-120185"
   },
   {
    "idweb": "20-119980",

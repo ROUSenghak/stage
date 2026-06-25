@@ -3064,63 +3064,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-182325"
   },
   {
-   "idweb": "17-183217",
-   "id": "17_183217",
-   "contractfolderid": null,
-   "objet": "Maintenance et évolution du progiciel SCRIBE Stock Année 2018 renouvelable en 2019 - 2020 et 2021",
-   "filename": "BOAMP-N-IC-AA_2017_363006",
-   "famille": "FNS",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2017-12-29",
-   "datefindiffusion": "2018-02-12",
-   "datelimitereponse": null,
-   "nomacheteur": "Ville du Mans",
-   "titulaire": [
-    "SCRIBE I.S"
-   ],
-   "perimetre": "CMP-2006",
-   "type_procedure": "NEGOCIE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Négociée",
-   "procedure_categorise": "NEGOCIE/",
-   "nature": "ATTRIBUTION",
-   "sousnature": null,
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "163"
-   ],
-   "dc": [
-    "163"
-   ],
-   "descripteur_libelle": [
-    "Informatique (prestations de services)"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-183217\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-183217.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-12-29\", \"DATE_FIN_DIFFUSION\": \"2018-02-12\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"163\", \"LIBELLE\": \"Informatique (prestations de services)\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Maintenance et évolution du progiciel SCRIBE Stock Année 2018 renouvelable en 2019 - 2020 et 2021\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville du Mans\", \"CORRESPONDANT\": \"Le Maire\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, CS 40010 - 16 avenue François Mitterrand, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"LE MANS\", \"TEL\": \"02-43-47-47-47\", \"FAX\": \"02-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"OBJET\": {\"OBJET_COMPLET\": \"Maintenance et évolution du progiciel SCRIBE Stock Année 2018 renouvelable en 2019 - 2020 et 2021\", \"CPV\": {\"PRINCIPAL\": \"72267000\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"NEGOCIE\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"DESCRIPTION\": \"Maintenance et évolution du progiciel SCRIBE Stock Année 2018 renouvelable en 2019 - 2020 et 2021\", \"TITULAIRE\": {\"DENOMINATION\": \"SCRIBE I.S\", \"ADRESSE\": \"27 Bd Solférino\", \"CP\": \"35000\", \"VILLE\": \"Rennes\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-22\", \"NB_OFFRE_RECU\": \"1\", \"MONTANT_INDEFINI\": \"\"}}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-183217"
-  },
-  {
    "idweb": "17-182469",
    "id": "17_182469",
    "contractfolderid": null,
@@ -3239,6 +3182,63 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-180638\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-91902\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-07-03\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-07-05\", \"DATE_FIN_DIFFUSION\": \"2017-09-12\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"127\", \"NUM_ANNONCE\": \"258976\", \"DATE_PUBLICATION\": \"2017-07-06\"}}]}}, \"NOM_HTML\": \"17-180638.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-12-29\", \"DATE_FIN_DIFFUSION\": \"2018-02-27\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"338\", \"LIBELLE\": \"Télécommunications\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"services de télécommunications (2018-2021) - groupement de commandes\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Cholet\", \"CONTACT\": \"service Marchés-Contrats\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"Groupement de commandes Ville de Cholet / Agglomération du Choletais / Centre Intercommunal dAction SocialeHôtel de Ville - Rue Saint Bonaventure - B.P. 32135\", \"CP\": \"49321\", \"VILLE\": \"Cholet cedex\", \"TEL\": \"(+33) 2-44-09-26-90\", \"FAX\": \"(+33) 2-44-09-26-98\", \"MEL\": \"marches-ville@ville-cholet.fr\", \"URL\": \"http://www.cholet.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Services de télécommunications (2018-2021) - Groupement de commandes\", \"REF_MARCHE\": \"VDC17S0006\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"La consultation concerne la fourniture de prestations de services de télécommunications pour la période 2018 à 2021, au départ des sites et des bâtiments de la Ville de Cholet, de l'Agglomération du Choletais (AdC) et du Centre Intercommunal d'Action Sociale du Choletais (CIAS). Forme et durée du marché : Laccord-cadre prend effet à sa notification. Les prestations sont passées pour une période allant du 1er janvier 2018 au 31 décembre 2018, renouvelable 3 fois, par reconduction expresse, chaque année civile, pour une durée maximale de 4 ans, et sont susceptibles de varier ainsi (montants annuels en HT) : Lot no1 : Ville de Cholet : minimum : 25 000 euros ; maximum : 100 000 euros ; AdC : minimum : 7 916,67 euros ; maximum : 31 666,67 euros ; CIAS : minimum : 5 883,33 euros ; maximum : 23 333,33 euros ; Lot no2 : Ville de Cholet : mini : 15 000 euros ; maxi : 60 000 euros ; AdC : mini : 6 666,67 euros ; maxi : 26 666,67 euros ; CIAS : mini : 3 333,33 euros ; maxi : 13333,33 euro\", \"CPV\": {\"PRINCIPAL\": \"64200000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"1020000\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Télecommunications fixes\", \"DESCRIPTION\": \"Télecommunications fixes\", \"CPV\": {\"PRINCIPAL\": \"64200000\"}, \"CODE_NUTS\": \"FRG02\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"30\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"70\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Services ADSL et lignes supports associés\", \"DESCRIPTION\": \"Services ADSL et lignes supports associés\", \"CPV\": {\"PRINCIPAL\": \"64200000\"}, \"CODE_NUTS\": \"FRG02\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"30\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"70\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2017\", \"NUM_PARUTION\": \"127\", \"NUM_ANNONCE\": \"258976\", \"DATE_PUBLICATION\": \"2017-07-06\"}}}, \"ATTRIBUTION\": {\"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"V17067 C17103 G17013\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Télécommunications fixes\", \"TITULAIRE\": [{\"DENOMINATION\": \"Groupement COMPLETEL SAS (mandataire) / SFR\", \"ADRESSE\": \"12, rue Jean-Philippe Rameau CS 80001\", \"CP\": \"93634\", \"VILLE\": \"La plaine saint denis cedex\", \"CODE_NUTS\": \"FR106\", \"PME_NON\": \"\"}, {\"DENOMINATION\": \"SFR\", \"ADRESSE\": \"12, rue Jean-Philippe Rameau CS 80001\", \"CP\": \"93634\", \"VILLE\": \"La plaine saint denis cedex\", \"CODE_NUTS\": \"FR106\", \"PME_NON\": \"\"}], \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-14\", \"NB_OFFRE_RECU\": \"4\", \"NB_OFFRE_RECU_ELECT\": \"4\", \"GROUPEMENT_ECONOMIQUE\": \"\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"620000\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"V17068 C17104 G17014\", \"NUM_LOT\": \"2\", \"INTITULE\": \"Services ADSL et lignes supports associés\", \"TITULAIRE\": [{\"DENOMINATION\": \"Groupement COMPLETEL SAS (mandataire) / SFR\", \"ADRESSE\": \"12, rue Jean-Philippe Rameau CS 80001\", \"CP\": \"93634\", \"VILLE\": \"La plaine saint denis cedex\", \"CODE_NUTS\": \"FR106\", \"PME_NON\": \"\"}, {\"DENOMINATION\": \"SFR\", \"ADRESSE\": \"12, rue Jean-Philippe Rameau CS 80001\", \"CP\": \"93634\", \"VILLE\": \"La plaine saint denis cedex\", \"CODE_NUTS\": \"FR106\", \"PME_NON\": \"\"}], \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-14\", \"NB_OFFRE_RECU\": \"2\", \"NB_OFFRE_RECU_ELECT\": \"2\", \"GROUPEMENT_ECONOMIQUE\": \"\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"400000\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Avis d'appel public à la concurrence envoyé le 26/6/2017 au Bulletin Officiel des Annonces des Marchés Publics et au Journal Officiel de lUnion Européenne.. Date d'envoi du présent avis au JOUE et au BOAMP : 27 décembre 2017.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile Gloriette  BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 1\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile Gloriette  BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 1\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-180638"
+  },
+  {
+   "idweb": "17-183217",
+   "id": "17_183217",
+   "contractfolderid": null,
+   "objet": "Maintenance et évolution du progiciel SCRIBE Stock Année 2018 renouvelable en 2019 - 2020 et 2021",
+   "filename": "BOAMP-N-IC-AA_2017_363006",
+   "famille": "FNS",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2017-12-29",
+   "datefindiffusion": "2018-02-12",
+   "datelimitereponse": null,
+   "nomacheteur": "Ville du Mans",
+   "titulaire": [
+    "SCRIBE I.S"
+   ],
+   "perimetre": "CMP-2006",
+   "type_procedure": "NEGOCIE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Négociée",
+   "procedure_categorise": "NEGOCIE/",
+   "nature": "ATTRIBUTION",
+   "sousnature": null,
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "163"
+   ],
+   "dc": [
+    "163"
+   ],
+   "descripteur_libelle": [
+    "Informatique (prestations de services)"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-183217\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-183217.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-12-29\", \"DATE_FIN_DIFFUSION\": \"2018-02-12\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"163\", \"LIBELLE\": \"Informatique (prestations de services)\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Maintenance et évolution du progiciel SCRIBE Stock Année 2018 renouvelable en 2019 - 2020 et 2021\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville du Mans\", \"CORRESPONDANT\": \"Le Maire\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, CS 40010 - 16 avenue François Mitterrand, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"LE MANS\", \"TEL\": \"02-43-47-47-47\", \"FAX\": \"02-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"OBJET\": {\"OBJET_COMPLET\": \"Maintenance et évolution du progiciel SCRIBE Stock Année 2018 renouvelable en 2019 - 2020 et 2021\", \"CPV\": {\"PRINCIPAL\": \"72267000\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"NEGOCIE\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"DESCRIPTION\": \"Maintenance et évolution du progiciel SCRIBE Stock Année 2018 renouvelable en 2019 - 2020 et 2021\", \"TITULAIRE\": {\"DENOMINATION\": \"SCRIBE I.S\", \"ADRESSE\": \"27 Bd Solférino\", \"CP\": \"35000\", \"VILLE\": \"Rennes\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-22\", \"NB_OFFRE_RECU\": \"1\", \"MONTANT_INDEFINI\": \"\"}}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-183217"
   },
   {
    "idweb": "17-183321",

@@ -5404,71 +5404,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:21-128969"
   },
   {
-   "idweb": "21-130895",
-   "id": "21_130895",
-   "contractfolderid": null,
-   "objet": "Création de déchetteries sur les communes de Brûlon et Noyen sur Sarthe",
-   "filename": "BOAMP-N-IC-AA_2021_273012",
-   "famille": "FNS",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2021-09-30",
-   "datefindiffusion": "2021-12-28",
-   "datelimitereponse": null,
-   "nomacheteur": "cc pays de loué vegre champagne",
-   "titulaire": [
-    "Colas"
-   ],
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "ATTRIBUTION",
-   "sousnature": null,
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "96",
-    "341",
-    "365"
-   ],
-   "dc": [
-    "96",
-    "341",
-    "365"
-   ],
-   "descripteur_libelle": [
-    "Déchetterie (travaux)",
-    "Terrassement",
-    "Voirie"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "21-104167"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"21-104167\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2021-07-26\", \"DATE_FIN_DIFFUSION\": \"2021-09-10\"}}}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"21-130895\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"21-104167\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2021-07-26\", \"DATE_FIN_DIFFUSION\": \"2021-09-10\"}}}}, \"NOM_HTML\": \"21-130895.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2021-09-30\", \"DATE_FIN_DIFFUSION\": \"2021-12-28\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"96\", \"LIBELLE\": \"Déchetterie (travaux)\"}, {\"CODE\": \"341\", \"LIBELLE\": \"Terrassement\"}, {\"CODE\": \"365\", \"LIBELLE\": \"Voirie\"}]}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Création de déchetteries sur les communes de Brûlon et Noyen sur Sarthe\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"cc pays de loué vegre champagne\", \"CORRESPONDANT\": \"COUDREUSE Daniel, Président\", \"ADRESSE\": \"27 rue Rémy Lambert\", \"CP\": \"72540\", \"VILLE\": \"Loué\", \"TEL\": \"02-43-92-31-58\", \"MEL\": \"jeremy.behiers@cc-lbn.fr\", \"URL\": \"http://www.cc-lbn.fr/\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Création de déchetteries sur les communes de Brûlon et Noyen sur Sarthe\", \"CPV\": {\"PRINCIPAL\": \"45200000\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"DESCRIPTION\": \"Création de déchetteries sur les communes de Brûlon et Noyen sur Sarthe\", \"TITULAIRE\": {\"DENOMINATION\": \"Colas\", \"ADRESSE\": \"Route de Paris\", \"CP\": \"72470\", \"VILLE\": \"Champagné\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2021-09-29\", \"NB_OFFRE_RECU\": \"6\", \"MONTANT_INDEFINI\": \"\"}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\"}}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:21-130895"
-  },
-  {
    "idweb": "21-121431",
    "id": "21_121431",
    "contractfolderid": null,
@@ -5708,6 +5643,71 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"21-129254\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-25\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"21-129254.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2021-09-30\", \"DATE_FIN_DIFFUSION\": \"2021-10-19\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"105\", \"LIBELLE\": \"Electricité (travaux)\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Connexion L1L2 Phase 2 - Construction du CETEX Babinière - ELECTRICITE COURANTS FORTS - COURANTS FAIBLES - MTB14\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"SEMITAN mandataire de Nantes Métropole\", \"CONTACT\": \"Service Achats-Marchés\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"3 rue Bellier - BP 64 605\", \"CP\": \"44046\", \"VILLE\": \"Nantes Cedex 1\", \"TEL\": \"(+33) 2-51-81-77-00\", \"MEL\": \"marchespublics@semitan.fr\", \"URL\": \"http://www.tan.fr\", \"URL_PROFIL_ACHETEUR\": \"http://marchespublics.semitan.fr\", \"URL_PARTICIPATION\": \"http://marchespublics.semitan.fr\", \"URL_DOCUMENT\": \"http://marchespublics.semitan.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"ENTITE_ADJUDICATRICE\": {\"SER_CHEMIN_FER_TRAM_BUS\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"CONNEXION L1L2 PHASE 2  Construction du CETEX Babinière - ELECTRICITE COURANTS FORTS  COURANTS FAIBLES - MTB14\", \"REF_MARCHE\": \"21M87/324\", \"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"La présente opération est établie dans le cadre de la seconde phase du projet global de connexion des lignes 1 et 2 du tramway de la métropole nantaise pour relier la \\\" Haluchère \\\" à lEst et \\\" Petit Port - Facultés \\\" à lOuest. Elle a pour objet la construction des bâtiments et des équipements de maintenance du nouveau Centre Technique et dExploitation (CETEX)Tramway situé à Babinière, sur la commune de la Chapelle sur Erdre. Le projet comprend environ 14 300 mètres carrés datelier et espaces annexes ainsi que 1300 mètres carrés de bureaux.Le marché MTB14 intègre les prestations suivantes : Postes de transformations ; TGBT et TD ; Réseau de distribution vers les armoires divisionnaires ; Réseau de distribution terminale ; Appareillage ; Luminaires ; Eclairage de sécurité ; Protection contre la foudre ; Distribution courant faible ; Protection contre lintrusion ; Contrôle daccès ; Vidéo-surveillance ; Système de sécurité incendie ; GTB ; ..\", \"CPV\": {\"PRINCIPAL\": \"45310000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Postes de transformations ; TGBT et TD ; réseau de distribution vers les armoires divisionnaires ; réseau de distribution terminale ; appareillage ; luminaires ; éclairage de sécurité ; protection contre la foudre ; distribution courant faible ; protection contre lintrusion ; contrôle daccès ; vidéo-surveillance ; système de sécurité incendie ; GTB ; etc.\", \"CPV\": [{\"PRINCIPAL\": \"45317200\"}, {\"PRINCIPAL\": \"45312100\"}, {\"PRINCIPAL\": \"45210000\"}], \"CODE_NUTS\": \"FRG01\", \"LIEU_PRINCIPAL\": \"La Chapelle-Sur-Erdre\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"35\", \"RENOUVELLEMENT_NON\": \"\", \"NB_CANDIDATS\": {\"NB_MAX_OFFRE\": \"6\", \"NB_MIN_OFFRE\": \"1\", \"LIMITATION_CANDIDATS\": \"Mise en concurrence effective\"}, \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"NEGOCIE\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2021\", \"NUM_PARUTION\": \"094\", \"NUM_ANNONCE\": \"245740\", \"DATE_PUBLICATION\": \"2021-05-17\"}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2021-10-19T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"5\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FORME_JURIDIQUE\": \"Groupement conjoint avec mandataire solidaire ou groupement solidaire. Les entreprises ont la possibilité de présenter plusieurs offres pour le marché en agissant à la fois en qualité de candidats individuels ou de membres dun ou plusieurs groupements. Dans ce cas, un candidat ne pourra être désigné mandataire que dun seul groupement\", \"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"-\\tL'imprimé DC1 (lettre de candidature) dûment rempli et signé doit obligatoirement être fourni à l'appui de la candidature, que celle-ci soit présentée à titre individuel ou en groupement ;-\\tLes documents attestant les pouvoirs de la personne habilitée pour engager le candidat ;-\\tLa copie du ou des jugements prononcés, si le candidat est en redressement judiciaire ;-\\tUne déclaration sur lhonneur, dûment datée et signée pour justifier quil nentre dans aucun des cas mentionnés aux articles L. 2141-1 à 2141-5, L. 2141-7 à L. 2141-11 et R. 2143-6 à R. 2143-10 du code de la commande publique et notamment quil est en règle au regard des articles L.5212-1 à L.5212-11 du code du travail concernant lemploi des travailleurs handicapés ;-\\tUne attestation dassurance de responsabilité civile professionnelle en cours de validité.\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"-\\tUne déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du marché, réalisés au cours des trois exercices suivants : 2019 ; 2018 ; 2017. Le candidat pourra utiliser le formulaire DC2 ; -\\tUn extrait kbis de moins de 3 mois.\", \"CAP_ECO_NIVEAU_MINI\": \"le chiffre daffaires annuel de lentreprise titulaire ou du groupement doit être égal ou supérieur à 4 millions deuros, sur les trois années suivantes : 2019 ; 2018 ; 2017. En cas de groupement, le chiffre daffaires exigé sera apprécié en cumul des chiffres daffaires de chacun des membres.\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"-\\tUne déclaration indiquant les effectifs moyens annuels du candidat et limportance du personnel dencadrement pour chacune des trois dernières années ;-\\tLa présentation d'une liste des travaux équivalents exécutés au cours des cinq dernières années, appuyée d'attestations de bonne exécution pour les travaux les plus importants. Afin de garantir un niveau de concurrence suffisant, les éléments de preuve relatifs à des travaux exécutés il y a plus de cinq ans seront pris en compte. Ces attestations indiquent le montant, la date et le lieu d'exécution des travaux et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin. -\\tLindication des titres d'études et professionnels du candidat ou des cadres de lentreprise, et notamment des responsables de conduite des travaux de même nature que celle du marché public ;-\\tUne description de l'outillage, du matériel et de l'équipement technique dont le candidat dispose pour la réalisation du marché ;-\\tLes certificats de qualification professionnelle établis par des organismes indépendants : la preuve de la capacité du candidat peut être apportée par tout moyen équivalent, notamment par des certificats équivalents dorganismes établis dans dautres Etats membres ;-\\tL'indication des techniciens ou des organismes techniques, qu'ils soient ou non intégrés au candidat, en particulier de ceux qui sont responsables du contrôle de la qualité et auquel le candidat pourra faire appel pour l'exécution de l'ouvrage ;-\\tL'indication des mesures de gestion environnementale que le candidat pourra appliquer lors de l'exécution du marché public\", \"CAP_TECH_NIVEAU_MINI\": \"les tableaux situés en annexes 3 et 4 du RC doivent être complétés avec les références et les qualifications par le candidat\", \"CRITERES_PARTICIPATION\": \"Les candidats seront sélectionnés selon leurs capacités économiques, financières, techniques et professionnelles.Les entreprises ou groupements dentreprises souhaitant candidater devront disposer de compétences dans les domaines suivants :-\\tElectricité Courants Forts Courants FaiblesLe mandataire du groupement dentreprise ou le titulaire devra obligatoirement posséder les compétences requises dans le domaine de \\\" Electricité Courants Forts Courants Faibles \\\".Pour justifier des capacités professionnelles, techniques et financières dautres opérateurs économiques (sous-traitants) sur lesquels il sappuie pour présenter sa candidature, le candidat produit les mêmes documents concernant cet opérateur économique que ceux qui lui sont exigés ci-dessus. En outre, pour justifier quil dispose des capacités de cet opérateur économique pour lexécution du marché, le candidat produit un engagement écrit du ou des sous-traitants.\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_NON\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Cette procédure est dématérialisée. Le présent avis ainsi que le DCE peuvent être téléchargés sur le site http://marchespublics.semitan.fr.Les candidatures et les offres seront entièrement rédigées en langue française ainsi que les documents de présentation associés ou accompagnés d'une traduction en français certifiés conforme à l'original par un traducteur assermenté.Remise des plis : La transmission des plis par courrier postal, courrier électronique ou par fax n'est pas autorisée. Les candidats qui souhaitent déposer leur pli doivent le faire via le site http://marchespublics.semitan.fr  . Date d'envoi du présent avis au JOUE et au BOAMP : 28 septembre 2021.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 Allée Ile Gloriette - B.P. 24111\", \"CP\": \"44000\", \"VILLE\": \"Nantes Cedex 1\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 Allée Ile Gloriette - B.P. 24111\", \"CP\": \"44000\", \"VILLE\": \"Nantes Cedex 1\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:21-129254"
+  },
+  {
+   "idweb": "21-130895",
+   "id": "21_130895",
+   "contractfolderid": null,
+   "objet": "Création de déchetteries sur les communes de Brûlon et Noyen sur Sarthe",
+   "filename": "BOAMP-N-IC-AA_2021_273012",
+   "famille": "FNS",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2021-09-30",
+   "datefindiffusion": "2021-12-28",
+   "datelimitereponse": null,
+   "nomacheteur": "cc pays de loué vegre champagne",
+   "titulaire": [
+    "Colas"
+   ],
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "ATTRIBUTION",
+   "sousnature": null,
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "96",
+    "341",
+    "365"
+   ],
+   "dc": [
+    "96",
+    "341",
+    "365"
+   ],
+   "descripteur_libelle": [
+    "Déchetterie (travaux)",
+    "Terrassement",
+    "Voirie"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "21-104167"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"21-104167\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2021-07-26\", \"DATE_FIN_DIFFUSION\": \"2021-09-10\"}}}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"21-130895\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"21-104167\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2021-07-26\", \"DATE_FIN_DIFFUSION\": \"2021-09-10\"}}}}, \"NOM_HTML\": \"21-130895.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2021-09-30\", \"DATE_FIN_DIFFUSION\": \"2021-12-28\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"96\", \"LIBELLE\": \"Déchetterie (travaux)\"}, {\"CODE\": \"341\", \"LIBELLE\": \"Terrassement\"}, {\"CODE\": \"365\", \"LIBELLE\": \"Voirie\"}]}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Création de déchetteries sur les communes de Brûlon et Noyen sur Sarthe\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"cc pays de loué vegre champagne\", \"CORRESPONDANT\": \"COUDREUSE Daniel, Président\", \"ADRESSE\": \"27 rue Rémy Lambert\", \"CP\": \"72540\", \"VILLE\": \"Loué\", \"TEL\": \"02-43-92-31-58\", \"MEL\": \"jeremy.behiers@cc-lbn.fr\", \"URL\": \"http://www.cc-lbn.fr/\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Création de déchetteries sur les communes de Brûlon et Noyen sur Sarthe\", \"CPV\": {\"PRINCIPAL\": \"45200000\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"DESCRIPTION\": \"Création de déchetteries sur les communes de Brûlon et Noyen sur Sarthe\", \"TITULAIRE\": {\"DENOMINATION\": \"Colas\", \"ADRESSE\": \"Route de Paris\", \"CP\": \"72470\", \"VILLE\": \"Champagné\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2021-09-29\", \"NB_OFFRE_RECU\": \"6\", \"MONTANT_INDEFINI\": \"\"}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\"}}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:21-130895"
   },
   {
    "idweb": "21-129173",

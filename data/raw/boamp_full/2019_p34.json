@@ -2,48 +2,51 @@
  "total_count": 3689,
  "results": [
   {
-   "idweb": "19-171860",
-   "id": "19_171860",
+   "idweb": "19-173143",
+   "id": "19_173143",
    "contractfolderid": null,
-   "objet": "Mission de maîtrise d'oeuvre pour la mise en place et le suivi des travaux de restauration de la continuité écologique sur l'axe Mayenne en Maine-et-Loire",
-   "filename": "BOAMP-J-AO_2019_324008",
+   "objet": "Prestations de surveillance sécurité du 1er octobre 2019 au 31 décembre 2019, renouvelable pour les années 2020, 2021, 2022 et du 1er janvier 2023 au 30 septembre 2023",
+   "filename": "BOAMP-J-IC-AA_2019_324009",
    "famille": "JOUE",
    "code_departement": [
-    "49"
+    "72"
    ],
    "code_departement_prestation": null,
    "famille_libelle": "Marchés européens",
    "dateparution": "2019-11-20",
-   "datefindiffusion": "2019-12-20",
+   "datefindiffusion": "2020-02-15",
    "datelimitereponse": null,
-   "nomacheteur": "Département de Maine-et-Loire",
-   "titulaire": null,
+   "nomacheteur": "CCAS du Mans",
+   "titulaire": [
+    "Challancin Prevention Et Securite",
+    "Spi"
+   ],
    "perimetre": "DIRECTIVE-24",
    "type_procedure": "OUVERT",
    "soustype_procedure": null,
    "procedure_libelle": "Procédure Ouverte",
    "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
+   "nature": "ATTRIBUTION",
    "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
+   "nature_libelle": "Résultat de marché",
    "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
    "criteres": null,
    "marche_public_simplifie": null,
    "marche_public_simplifie_label": null,
    "etat": "INITIAL",
    "descripteur_code": [
-    "197",
-    "253"
+    "138",
+    "415"
    ],
    "dc": [
-    "197",
-    "253"
+    "138",
+    "415"
    ],
    "descripteur_libelle": [
-    "Maîtrise d'oeuvre",
-    "Ouvrage d'infrastructure"
+    "Gardiennage",
+    "Télésurveillance"
    ],
    "type_marche": [
     "SERVICES"
@@ -52,16 +55,18 @@
     "Services"
    ],
    "type_avis": [
-    "5",
-    "1",
-    ""
+    "",
+    "10",
+    "6"
    ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
+   "annonce_lie": [
+    "19-45972"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"19-45972\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-03-25\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-03-27\", \"DATE_FIN_DIFFUSION\": \"2019-04-26\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"062\", \"NUM_ANNONCE\": \"144242\", \"DATE_PUBLICATION\": \"2019-03-28\"}}]}",
    "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-171860\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-171860.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-11-20\", \"DATE_FIN_DIFFUSION\": \"2019-12-20\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"197\", \"LIBELLE\": \"Maîtrise d'oeuvre\"}, {\"CODE\": \"253\", \"LIBELLE\": \"Ouvrage d'infrastructure\"}]}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Mission de maîtrise d'oeuvre pour la mise en place et le suivi des travaux de restauration de la continuité écologique sur l'axe Mayenne en Maine-et-Loire\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Département de Maine-et-Loire\", \"CODE_IDENT_NATIONAL\": \"22490001900015\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"Direction des finances, des affaires juridiques et de l'évaluation - 48B, boulevard Foch - CS 94104\", \"CP\": \"49941\", \"VILLE\": \"Angers Cedex 9\", \"TEL\": \"(+33) 2-41-81-44-29\", \"MEL\": \"commande-publique@maine-et-loire.fr\", \"URL\": \"http://www.maine-et-loire.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.anjoumarchespublics.fr\", \"URL_PARTICIPATION\": \"https://www.anjoumarchespublics.fr\", \"URL_DOCUMENT\": \"https://www.anjoumarchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Mission de maîtrise duvre pour la mise en place et le suivi des travaux de restauration de la continuité écologique sur laxe Mayenne en Maine-et-Loire\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Mission de maîtrise duvre pour la mise en place et le suivi des travaux de restauration de la continuité écologique sur laxe Mayenne en Maine-et-Loire - La mission comprend les éléments ACT, VISA, DET et AOR et porte sur 8 sites. Lensemble des travaux est estimé à 2 560 670 euro HT.\", \"CPV\": {\"PRINCIPAL\": \"71240000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"La mission comprend les éléments ACT, VISA, DET et AOR et porte sur 8 sites :  - La Jaille Yvon : bras de contournement en rive gauche + passe à anguilles en rive droite du déversoir.- Chenillé-Changé : passe à macrorugosités en rive gauche + passe à anguilles en rive droite du déversoir.- Roche-Chambellay : passe à macrorugosités en rive gauche + passe à anguilles en rive droite du déversoir.- Montreuil sur Maine : bras de contournement en rive gauche + passe à anguilles en rive droite du déversoir.- Grez Neuville : passe à macrorugosités en rive droite + passe à anguilles en rive gauche du déversoir.- La Roussière : passe à macrorugosités en rive gauche + passe à anguilles en rive droite du déversoir principal + arasement partiel de la crête du déversoir secondaire. - Sautré : passe à macrorugosités en rive droite + passe à anguilles en rive gauche du déversoir.- Montreuil Juigné : passe à macrorugosités poursuivie dune passe à seuils déversants (pré-barrages) en rive droite sur déversoir principal + passe à anguilles en rive gauche du déversoir principal.Lensemble des travaux est estimé à 2 560 670 euros HT\", \"CPV\": {\"PRINCIPAL\": \"71240000\"}, \"CODE_NUTS\": \"FRG02\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"60\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-12-20T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"3\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Le candidat produit une lettre de candidature (formulaire DC1) avec une déclaration sur l'honneur justifiant qu'il n'entre dans aucun des cas d'interdiction de soumissionner mentionnés par les articles L2141-1 à 2141-11 du Code de la commande publique\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"Le candidat produit une déclaration (formulaire DC2) avec mention du chiffre d'affaires global et du chiffre d'affaires du domaine d'activités faisant l'objet du marché, sur les trois derniers exercices disponibles\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"Le candidat produit : * Une liste des principaux services effectuées au cours des 3 dernières années, notamment les références en lien avec lobjet du marché, avec indication des montants, des dates et des destinataires * une déclaration indiquant ses effectifs moyens annuels et l'importance du personnel d'encadrement pendant les trois dernières années. * Des certificats de qualification professionnelle établis par des organismes indépendants, ou autres preuves de la capacité du candidat\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"PERS_OUVERTURE_OFFRES_OUI\": \"Les date et heure sont mentionnées à titre indicatif. La séance d'ouverture des offres n'est pas publique.\", \"DATE_OUVERTURE_OFFRES\": \"2019-12-20\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"En cas de versement d'une avance, le candidat doit constituer une garantie à première demande ou une caution personnelle et solidaire garantissant le remboursement total de cette avance - délai maximum de paiement de 30 jours - financement sur ressources propres de la collectivité - irrecevabilité des candidatures : * Candidat se trouvant dans un des cas d'interdiction de soumissionner prévus par les articles L2141-1 à 2141-11 du Code de la commande publique * Dossier incomplet (ne comprenant pas l'ensemble des pièces demandées) * Capacités professionnelles, techniques et financières insuffisantes * Candidat produisant, à l'appui de sa candidature, de faux renseignements ou documents. - Les candidatures et offres doivent être obligatoirement transmises par voie électronique sur le profil d'acheteur de la collectivité - les candidats doivent télécharger les documents de la consultation sur le profil d'acheteur de la collectivité ; la mise en ligne des documents de la consultation est totale  La signature électronique des offres nest pas obligatoire mais fortement recommandée - date prévisionnelle de commencement des prestations : février 2020 - unité de compte : euros. Date d'envoi du présent avis au JOUE et au BOAMP : 18 novembre 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'ile Gloriette - CS 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'ile Gloriette - CS 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-171860"
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-173143\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"19-45972\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-03-25\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-03-27\", \"DATE_FIN_DIFFUSION\": \"2019-04-26\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"062\", \"NUM_ANNONCE\": \"144242\", \"DATE_PUBLICATION\": \"2019-03-28\"}}]}}, \"NOM_HTML\": \"19-173143.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-11-20\", \"DATE_FIN_DIFFUSION\": \"2020-02-15\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"138\", \"LIBELLE\": \"Gardiennage\"}, {\"CODE\": \"415\", \"LIBELLE\": \"Télésurveillance\"}]}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Prestations de surveillance sécurité du 1er octobre 2019 au 31 décembre 2019, renouvelable pour les années 2020, 2021, 2022 et du 1er janvier 2023 au 30 septembre 2023\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CCAS du Mans\", \"CODE_IDENT_NATIONAL\": \"26720051700089\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"1 rue Hémon\", \"CP\": \"72015\", \"VILLE\": \"Le Mans Cedex 2\", \"MEL\": \"achats.ccas@lemans.fr\", \"URL\": \"http://www.marches-publics.info\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.info/\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"autre\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Autres formes d'action sociale\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Prestations de surveillance sécurité du 1er octobre 2019 au 31 décembre 2019, renouvelable pour les années 2020, 2021, 2022 et du 1er janvier 2023 au 30 septembre 2023\", \"REF_MARCHE\": \"19fs-0213-H\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Il s'agit d'assurer des prestations de surveillance sécurité pour le compte du Centre Communal d'Action Sociale (C.C.A.S.) de la ville du Mans.Décomposition en deux lots :. Lot 1 - Sécurisation du siège administratif,. Lot 2 - Télésurveillance et interventions connexes.Voir la description détaillée par lot\", \"CPV\": {\"PRINCIPAL\": \"79714000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"350103\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Sécurisation du siège administratif\", \"DESCRIPTION\": \"Présence d'un agent de sécurité aux heures d'ouverture du siège administratif, soit de 9h00 à 12h00 et de 13h00 à 17h00, du lundi au vendredi, jours fériés exclus. Il aura pour mission principale de canaliser le public reçu, et en priorité les usagers violents verbalement et/ou physiquement.Ce lot est destiné à devenir un marché public\", \"CPV\": [{\"PRINCIPAL\": \"79710000\"}, {\"PRINCIPAL\": \"79710000\"}, {\"PRINCIPAL\": \"79713000\"}], \"CODE_NUTS\": \"FRG04\", \"LIEU_PRINCIPAL\": \"Le Mans72000\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Quantité : environ 1.820 heures par an\"}, {\"NUM\": \"2\", \"INTITULE\": \"Télésurveillance et interventions connexes\", \"DESCRIPTION\": \"Surveillance sécurité de 12 sites, de manière récurrente ou ponctuelle.Les prestations les plus importantes sont les suivantes :- Télésurveillance de 3 établissements à usage de bureaux et d'ateliers pendant leurs heures de fermeture, soit les nuits, samedis, dimanches et jours fériés, en l'absence de tout personnel de la collectivité, et interventions connexes ;- Gestion des appels de détresse des résidents de 7 établissements d'hébergement de personnes âgées en l'absence de tout personnel de la collectivité, principalement la nuit, et interventions connexes ;- Réalisation d'une ronde de surveillance, chaque nuit, 7 jours sur 7, pour un des établissements d'hébergement de personnes âgées.Ce lot est destiné à devenir un accord-cadre mono-attributaire à bons de commande (article 80 du décret no 2016-360 du 25 mars 2016 relatif aux marchés publics) conclu san\", \"CPV\": [{\"PRINCIPAL\": \"79714000\"}, {\"PRINCIPAL\": \"79710000\"}, {\"PRINCIPAL\": \"79713000\"}], \"CODE_NUTS\": \"FRG04\", \"LIEU_PRINCIPAL\": \"Le Mans72000\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Le montant estimé en euro(s) Hors Taxes correspond à l'estimation annuelle\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"062\", \"NUM_ANNONCE\": \"144242\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Sécurisation du siège administratif\", \"TITULAIRE\": {\"DENOMINATION\": \"Challancin Prevention Et Securite\", \"ADRESSE\": \"9/11 Avenue Michelet\", \"CP\": \"93400\", \"VILLE\": \"Saint Ouen\", \"CODE_NUTS\": \"FR106\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-09-24\", \"NB_OFFRE_RECU\": \"7\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"127843.2\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"2\", \"INTITULE\": \"Télésurveillance et interventions connexes\", \"TITULAIRE\": {\"DENOMINATION\": \"Spi\", \"ADRESSE\": \"11 Rue Chanzy\", \"CP\": \"72000\", \"VILLE\": \"Le Mans\", \"CODE_NUTS\": \"FRG04\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-09-24\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"222260.44\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les deux contrats sont consultables à l'adresse suivante : 1 rue Hémon - 72000 Le Mans. Date d'envoi du présent avis au JOUE et au BOAMP : 18 novembre 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Les délais et voies de recours sont les suivants :- La procédure de passation peut faire l'objet, jusqu'à la signature du contrat, d'un référé précontractuel devant le Tribunal Administratif territorialement compétent, conformément à l'article L.551-1 et suivants du Code de Justice Administrative (C.J.A.) ;- A partir de la signature du contrat, celui-ci peut faire l'objet d'un référé contractuel devant le Tribunal Administratif territorialement compétent, conformément à l'article L.551-13 et suivants du C.J.A. ;- Dans l'hypothèse d'une déclaration d'infructuosité ou de sans suite de la procédure, le candidat peut exercer un recours pour excès de pouvoir contre cette décision, devant le Tribunal Administratif territorialement compétent, dans un délai de deux mois à compter de sa notification.Nota : Outre le Ccira défini précédemment pour une procédure de médiation, il est désormais possible de faire appel au médiateur des entreprises dont l'adresse électronique est la suivante : http://www.economie.gouv.fr/mediateur-des-entreprises\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif Interrégional de Règlement Amiable des différends et litiges relatifs aux marchés publics (C.C.I.R.A.) de Nantes\", \"ADRESSE\": \"Préfecture de la région Pays de Loire, 6 quai Ceineray\", \"CP\": \"44035\", \"VILLE\": \"Nantes\"}]}}, \"ANNEXE_D1\": \"\"}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-173143"
   },
   {
    "idweb": "19-172259",
@@ -3486,77 +3491,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-177620"
   },
   {
-   "idweb": "19-176641",
-   "id": "19_176641",
-   "contractfolderid": null,
-   "objet": "Service de nettoyage des locaux pour les Chambres d'agriculture des Pays de la Loire sur les départements 44, 72 et 85",
-   "filename": "BOAMP-J-IC-AA_2019_331010",
-   "famille": "JOUE",
-   "code_departement": [
-    "49",
-    "85",
-    "72",
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2019-11-27",
-   "datefindiffusion": "2019-12-09",
-   "datelimitereponse": null,
-   "nomacheteur": "Chambre Agriculture Pays de la Loire",
-   "titulaire": [
-    "ARC EN CIEL",
-    "ONET",
-    "ATMOS"
-   ],
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "ATTRIBUTION",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "239",
-    "274"
-   ],
-   "dc": [
-    "239",
-    "274"
-   ],
-   "descripteur_libelle": [
-    "Nettoyage de locaux",
-    "Prestations de services"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "19-77289"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"19-77289\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-05-16\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-05-19\", \"DATE_FIN_DIFFUSION\": \"2019-06-26\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"096\", \"NUM_ANNONCE\": \"232398\", \"DATE_PUBLICATION\": \"2019-05-20\"}}]}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-176641\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"19-77289\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-05-16\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-05-19\", \"DATE_FIN_DIFFUSION\": \"2019-06-26\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"096\", \"NUM_ANNONCE\": \"232398\", \"DATE_PUBLICATION\": \"2019-05-20\"}}]}}, \"NOM_HTML\": \"19-176641.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-11-27\", \"DATE_FIN_DIFFUSION\": \"2019-12-09\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"239\", \"LIBELLE\": \"Nettoyage de locaux\"}, {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}]}, \"DEP_PUBLICATION\": [\"49\", \"85\", \"72\", \"44\"], \"RESUME_OBJET\": \"Service de nettoyage des locaux pour les Chambres d'agriculture des Pays de la Loire sur les départements 44, 72 et 85\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Chambre Agriculture Pays de la Loire\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"9 rue André-Brouard\", \"CP\": \"49105\", \"VILLE\": \"ANGERS\", \"TEL\": \"(+33) 2-41-18-60-74\", \"MEL\": \"christophe.suard@pl.chambagri.fr\", \"URL\": \"http://www.paysdelaloire.chambagri.fr\", \"URL_PROFIL_ACHETEUR\": \"https://e-marchespublics.com\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Organisme consulaire\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Agriculture\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"MARCHE PUBLIC DE NETTOYAGE DES LOCAUX POUR LES CHAMBRES D'AGRICULTURE DES PAYS DE LA LOIRE\", \"REF_MARCHE\": \"2019-AO-GPT-NETTOYAGE\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Service de nettoyage des locaux pour les Chambres d'agriculture des Pays de la Loire sur les département 44, 72 et 85\", \"CPV\": {\"PRINCIPAL\": \"90911200\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"305007\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"NETTOYAGE DES LOCAUX POUR LES SITES DU DEPARTEMENT 44\", \"DESCRIPTION\": \"Nettoyage des locaux pour les Chambres d'agriculture des Pays de la Loire situés sur le département de La Loire Atlantique (NANTES, NOZAY, CLISSON, ANCENIS, PONTCHATEAU, CHATEAUBRIANT, DERVAL, SAINTE PAZANNE)\", \"CPV\": {\"PRINCIPAL\": \"90911200\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"40\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"60\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"NETTOYAGE DES LOCAUX POUR LES SITES DU DEPARTEMENT 72\", \"DESCRIPTION\": \"Nettoyage des locaux pour les Chambres d'agriculture des Pays de la Loire situés sur le département de la SARTHE (LE MANS, BOULOIRE, LA SUZE, FRESNAY SUR SARTHE, ECOMMOY)\", \"CPV\": {\"PRINCIPAL\": \"90911200\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"40\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"60\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"NETTOYAGE DES LOCAUX POUR LES SITES DU DEPARTEMENT 85\", \"DESCRIPTION\": \"Nettoyage des locaux pour les Chambres d'agriculture des Pays de la Loire situés sur le département de la VENDEE (LE POIRE SUR VIE, LUCON, SAINT GEORGES DE MONTAIGU, LA ROCHE SUR YON)\", \"CPV\": {\"PRINCIPAL\": \"90911200\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"40\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"60\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"096\", \"NUM_ANNONCE\": \"232398\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"20196-AO-GPT COMMANDE NETTOYAGE\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Nettoyage des locaux implantés en Loire Atlantique (44)\", \"TITULAIRE\": {\"DENOMINATION\": \"ARC EN CIEL\", \"ADRESSE\": \"29 rue du Marché Rollay\", \"CP\": \"94500\", \"VILLE\": \"CHAMPIGNY SUR MARNE\", \"CODE_NUTS\": \"FR\", \"MEL\": \"j.gombert@t2mc.fr\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-08-06\", \"NB_OFFRE_RECU\": \"10\", \"NB_OFFRE_RECU_ELECT\": \"10\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"472972\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"20196-AO-GPT COMMANDE NETTOYAGE\", \"NUM_LOT\": \"2\", \"INTITULE\": \"Nettoyage des locaux situés en Sarthe (72)\", \"TITULAIRE\": {\"DENOMINATION\": \"ONET\", \"ADRESSE\": \"5bis rue de bel air\", \"CP\": \"44470\", \"VILLE\": \"CARQUEFOU\", \"CODE_NUTS\": \"FR\", \"MEL\": \"fchiaradia@onet.fr\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-08-06\", \"NB_OFFRE_RECU\": \"8\", \"NB_OFFRE_RECU_ELECT\": \"8\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"111790\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"20196-AO-GPT COMMANDE NETTOYAGE\", \"NUM_LOT\": \"3\", \"INTITULE\": \"Nettoyage des locaux situés en Vendée (85)\", \"TITULAIRE\": {\"DENOMINATION\": \"ATMOS\", \"ADRESSE\": \"Rue Charles Sauria\", \"CP\": \"49130\", \"VILLE\": \"LES PONTS DE CE\", \"CODE_NUTS\": \"FR\", \"MEL\": \"magnat@atmos.fr\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-08-06\", \"NB_OFFRE_RECU\": \"4\", \"NB_OFFRE_RECU_ELECT\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"25250\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 25 novembre 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"TRIBUNAL ADMINISTRATIF DE NANTES\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"NANTES\"}}}, \"ANNEXE_D1\": \"\"}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-176641"
-  },
-  {
    "idweb": "19-178171",
    "id": "19_178171",
    "contractfolderid": null,
@@ -3673,6 +3607,77 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-177082\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-177082.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-11-27\", \"DATE_FIN_DIFFUSION\": \"2020-01-10\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Prestations d'accompagnement Ressources Humaines (RH) pour les entreprises participant au dispositif régional DINAMIC Entreprises en Pays de la Loire\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CCIR Pays de la Loire\", \"ADJUDICATEUR_NUTS\": \"FRG\", \"ADRESSE\": \"16 quai Ernest Renaud CS 70515\", \"CP\": \"44105\", \"VILLE\": \"Nantes cedex 4\", \"MEL\": \"stephane.retail@paysdelaloire.cci.fr\", \"URL\": \"http://www.paysdelaloire.cci.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.gouv.fr\", \"URL_PARTICIPATION\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=505441&orgAcronyme=l2m\", \"URL_DOCUMENT\": \"http://www.marches-publics.gouv.fr/\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"CCI\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Prestations d'accompagnement Ressources Humaines (RH) pour les entreprises participant au dispositif régional DINAMIC Entreprises en Pays de la Loire\", \"REF_MARCHE\": \"2019RTPF1078\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Prestations d'accompagnement Ressources Humaines (RH) pour les entreprises participant au dispositif régional DINAMIC Entreprises en Pays de la Loire\", \"CPV\": {\"PRINCIPAL\": \"79411100\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Management\", \"DESCRIPTION\": \"Management\", \"CPV\": {\"PRINCIPAL\": \"79411100\"}, \"CODE_NUTS\": \"FRG\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le contrat est conclu pour une durée d'un an renouvelable trois (3) fois par tacite reconduction sans que la durée totale du contrat ne puisse excéder quatre (4) ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Programme opérationnel FEDER des Pays de la Loire pour la période 2014-2020 (axe 3 \\\" Améliorer la compétitivité des PME \\\"), et de son renouvellement sur la programmation 2021-2027\"}, {\"NUM\": \"2\", \"INTITULE\": \"Commercial\", \"DESCRIPTION\": \"Commercial\", \"CPV\": {\"PRINCIPAL\": \"79411100\"}, \"CODE_NUTS\": \"FRG\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le contrat est conclu pour une durée d'un an renouvelable trois (3) fois par tacite reconduction sans que la durée totale du contrat ne puisse excéder quatre (4) ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Programme opérationnel FEDER des Pays de la Loire pour la période 2014-2020 (axe 3 \\\" Améliorer la compétitivité des PME \\\"), et de son renouvellement sur la programmation 2021-2027\"}, {\"NUM\": \"3\", \"INTITULE\": \"Production\", \"DESCRIPTION\": \"Production\", \"CPV\": {\"PRINCIPAL\": \"79411100\"}, \"CODE_NUTS\": \"FRG\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le contrat est conclu pour une durée d'un an renouvelable trois (3) fois par tacite reconduction sans que la durée totale du contrat ne puisse excéder quatre (4) ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Programme opérationnel FEDER des Pays de la Loire pour la période 2014-2020 (axe 3 \\\" Améliorer la compétitivité des PME \\\"), et de son renouvellement sur la programmation 2021-2027\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"Le contrat est conclu pour une durée d'un an renouvelable trois (3) fois par tacite reconduction sans que la durée totale du contrat ne puisse excéder quatre (4) ans\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2020-01-09T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2020-01-09\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 26 novembre 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 1\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-177082"
+  },
+  {
+   "idweb": "19-176641",
+   "id": "19_176641",
+   "contractfolderid": null,
+   "objet": "Service de nettoyage des locaux pour les Chambres d'agriculture des Pays de la Loire sur les départements 44, 72 et 85",
+   "filename": "BOAMP-J-IC-AA_2019_331010",
+   "famille": "JOUE",
+   "code_departement": [
+    "49",
+    "85",
+    "72",
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2019-11-27",
+   "datefindiffusion": "2019-12-09",
+   "datelimitereponse": null,
+   "nomacheteur": "Chambre Agriculture Pays de la Loire",
+   "titulaire": [
+    "ARC EN CIEL",
+    "ONET",
+    "ATMOS"
+   ],
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "ATTRIBUTION",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "239",
+    "274"
+   ],
+   "dc": [
+    "239",
+    "274"
+   ],
+   "descripteur_libelle": [
+    "Nettoyage de locaux",
+    "Prestations de services"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "19-77289"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"19-77289\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-05-16\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-05-19\", \"DATE_FIN_DIFFUSION\": \"2019-06-26\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"096\", \"NUM_ANNONCE\": \"232398\", \"DATE_PUBLICATION\": \"2019-05-20\"}}]}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-176641\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"19-77289\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-05-16\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-05-19\", \"DATE_FIN_DIFFUSION\": \"2019-06-26\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"096\", \"NUM_ANNONCE\": \"232398\", \"DATE_PUBLICATION\": \"2019-05-20\"}}]}}, \"NOM_HTML\": \"19-176641.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-11-27\", \"DATE_FIN_DIFFUSION\": \"2019-12-09\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"239\", \"LIBELLE\": \"Nettoyage de locaux\"}, {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}]}, \"DEP_PUBLICATION\": [\"49\", \"85\", \"72\", \"44\"], \"RESUME_OBJET\": \"Service de nettoyage des locaux pour les Chambres d'agriculture des Pays de la Loire sur les départements 44, 72 et 85\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Chambre Agriculture Pays de la Loire\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"9 rue André-Brouard\", \"CP\": \"49105\", \"VILLE\": \"ANGERS\", \"TEL\": \"(+33) 2-41-18-60-74\", \"MEL\": \"christophe.suard@pl.chambagri.fr\", \"URL\": \"http://www.paysdelaloire.chambagri.fr\", \"URL_PROFIL_ACHETEUR\": \"https://e-marchespublics.com\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Organisme consulaire\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Agriculture\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"MARCHE PUBLIC DE NETTOYAGE DES LOCAUX POUR LES CHAMBRES D'AGRICULTURE DES PAYS DE LA LOIRE\", \"REF_MARCHE\": \"2019-AO-GPT-NETTOYAGE\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Service de nettoyage des locaux pour les Chambres d'agriculture des Pays de la Loire sur les département 44, 72 et 85\", \"CPV\": {\"PRINCIPAL\": \"90911200\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"305007\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"NETTOYAGE DES LOCAUX POUR LES SITES DU DEPARTEMENT 44\", \"DESCRIPTION\": \"Nettoyage des locaux pour les Chambres d'agriculture des Pays de la Loire situés sur le département de La Loire Atlantique (NANTES, NOZAY, CLISSON, ANCENIS, PONTCHATEAU, CHATEAUBRIANT, DERVAL, SAINTE PAZANNE)\", \"CPV\": {\"PRINCIPAL\": \"90911200\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"40\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"60\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"NETTOYAGE DES LOCAUX POUR LES SITES DU DEPARTEMENT 72\", \"DESCRIPTION\": \"Nettoyage des locaux pour les Chambres d'agriculture des Pays de la Loire situés sur le département de la SARTHE (LE MANS, BOULOIRE, LA SUZE, FRESNAY SUR SARTHE, ECOMMOY)\", \"CPV\": {\"PRINCIPAL\": \"90911200\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"40\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"60\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"NETTOYAGE DES LOCAUX POUR LES SITES DU DEPARTEMENT 85\", \"DESCRIPTION\": \"Nettoyage des locaux pour les Chambres d'agriculture des Pays de la Loire situés sur le département de la VENDEE (LE POIRE SUR VIE, LUCON, SAINT GEORGES DE MONTAIGU, LA ROCHE SUR YON)\", \"CPV\": {\"PRINCIPAL\": \"90911200\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"40\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"60\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"096\", \"NUM_ANNONCE\": \"232398\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"20196-AO-GPT COMMANDE NETTOYAGE\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Nettoyage des locaux implantés en Loire Atlantique (44)\", \"TITULAIRE\": {\"DENOMINATION\": \"ARC EN CIEL\", \"ADRESSE\": \"29 rue du Marché Rollay\", \"CP\": \"94500\", \"VILLE\": \"CHAMPIGNY SUR MARNE\", \"CODE_NUTS\": \"FR\", \"MEL\": \"j.gombert@t2mc.fr\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-08-06\", \"NB_OFFRE_RECU\": \"10\", \"NB_OFFRE_RECU_ELECT\": \"10\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"472972\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"20196-AO-GPT COMMANDE NETTOYAGE\", \"NUM_LOT\": \"2\", \"INTITULE\": \"Nettoyage des locaux situés en Sarthe (72)\", \"TITULAIRE\": {\"DENOMINATION\": \"ONET\", \"ADRESSE\": \"5bis rue de bel air\", \"CP\": \"44470\", \"VILLE\": \"CARQUEFOU\", \"CODE_NUTS\": \"FR\", \"MEL\": \"fchiaradia@onet.fr\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-08-06\", \"NB_OFFRE_RECU\": \"8\", \"NB_OFFRE_RECU_ELECT\": \"8\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"111790\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"20196-AO-GPT COMMANDE NETTOYAGE\", \"NUM_LOT\": \"3\", \"INTITULE\": \"Nettoyage des locaux situés en Vendée (85)\", \"TITULAIRE\": {\"DENOMINATION\": \"ATMOS\", \"ADRESSE\": \"Rue Charles Sauria\", \"CP\": \"49130\", \"VILLE\": \"LES PONTS DE CE\", \"CODE_NUTS\": \"FR\", \"MEL\": \"magnat@atmos.fr\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-08-06\", \"NB_OFFRE_RECU\": \"4\", \"NB_OFFRE_RECU_ELECT\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"25250\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 25 novembre 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"TRIBUNAL ADMINISTRATIF DE NANTES\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"NANTES\"}}}, \"ANNEXE_D1\": \"\"}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-176641"
   },
   {
    "idweb": "19-177026",
@@ -3801,6 +3806,67 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-176752"
   },
   {
+   "idweb": "19-176684",
+   "id": "19_176684",
+   "contractfolderid": null,
+   "objet": "Mise à disposition de moyens radio VHF et de prestations techniques d'installation et de maintenance pour le Vendée Globe 2020-2021",
+   "filename": "BOAMP-J-IC-AA_2019_331010",
+   "famille": "JOUE",
+   "code_departement": [
+    "85"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2019-11-27",
+   "datefindiffusion": "2019-12-25",
+   "datelimitereponse": null,
+   "nomacheteur": "VENDEE",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "ATTRIBUTION",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "274"
+   ],
+   "dc": [
+    "274"
+   ],
+   "descripteur_libelle": [
+    "Prestations de services"
+   ],
+   "type_marche": [
+    "FOURNITURES"
+   ],
+   "type_marche_facette": [
+    "Fournitures"
+   ],
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "19-156107"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"19-156107\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-10-15\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-10-17\", \"DATE_FIN_DIFFUSION\": \"2019-11-14\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"201\", \"NUM_ANNONCE\": \"487882\", \"DATE_PUBLICATION\": \"2019-10-17\"}}]}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-176684\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"19-156107\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-10-15\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-10-17\", \"DATE_FIN_DIFFUSION\": \"2019-11-14\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"201\", \"NUM_ANNONCE\": \"487882\", \"DATE_PUBLICATION\": \"2019-10-17\"}}]}}, \"NOM_HTML\": \"19-176684.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-11-27\", \"DATE_FIN_DIFFUSION\": \"2019-12-25\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"Mise à disposition de moyens radio VHF et de prestations techniques d'installation et de maintenance pour le Vendée Globe 2020-2021\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"VENDEE\", \"CODE_IDENT_NATIONAL\": \"45151864100035\", \"CONTACT\": \"Stéphanie Ruchaud\", \"ADJUDICATEUR_NUTS\": \"FRG0\", \"ADRESSE\": \"45 boulevard des Etats-Unis\", \"CP\": \"85000\", \"VILLE\": \"La Roche sur Yon\", \"TEL\": \"(+33) 2-51-44-91-07\", \"MEL\": \"stephanie.ruchaud@vendeeglobe.fr\", \"URL\": \"https://www.vendeeglobe.org\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"SAEM\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"EVENEMENT SPORTIF\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Mise à disposition de moyens radio VHF et de prestations techniques d'installation et de maintenance pour le Vendée Globe 2020-2021\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Mise à disposition de moyens radio VHF et de prestations techniques d'installation et de maintenance pour le Vendée Globe 2020-2021.\", \"CPV\": {\"PRINCIPAL\": \"92622000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Mise à disposition de moyens radio VHF et de prestations techniques d'installation et de maintenance pour le Vendée Globe 2020-2021.\", \"CPV\": {\"PRINCIPAL\": \"92622000\"}, \"CODE_NUTS\": \"FRG0\", \"LIEU_PRINCIPAL\": \"Les Sables d'Olonne\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"40\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"60\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"201\", \"NUM_ANNONCE\": \"487882\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"INFRUCTUEUX\": \"\", \"INTITULE\": \"Mise à disposition de moyens radio VHF et de prestations techniques d'installation et de maintenance pour le Vendée Globe 2020-2021.\"}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 25 novembre 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"TGI de Rennes\", \"ADRESSE\": \"Cité Judiciaire7 Rue Pierre Abelard\", \"CP\": \"35031\", \"VILLE\": \"Rennes\"}}}, \"ANNEXE_D1\": \"\"}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-176684"
+  },
+  {
    "idweb": "19-177974",
    "id": "19_177974",
    "contractfolderid": null,
@@ -3919,67 +3985,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-176890\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-176890.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-11-27\", \"DATE_FIN_DIFFUSION\": \"2020-01-06\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"239\", \"LIBELLE\": \"Nettoyage de locaux\"}}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\"}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Prestations de nettoyage des locaux pour la Région des Pays de la Loire Lot 1\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Conseil régional des Pays de la Loire\", \"CONTACT\": \"Service de la commande publique et stratégie d'achat\", \"ADJUDICATEUR_NUTS\": \"FRG\", \"ADRESSE\": \"1 rue de la Loire\", \"CP\": \"44966\", \"VILLE\": \"Nantes cedex 9\", \"TEL\": \"(+33) 2-28-20-58-38\", \"MEL\": \"demandedce@paysdelaloire.fr\", \"URL\": \"http://www.paysdelaloire.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.paysdelaloire.fr/\", \"URL_PARTICIPATION\": \"https://marchespublics.paysdelaloire.fr/\", \"URL_DOCUMENT\": \"https://marchespublics.paysdelaloire.fr/\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Prestations de nettoyage des locaux pour la Région des Pays de la Loire Lot 1\", \"REF_MARCHE\": \"DAG11-201940862\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Prestations de nettoyage des locaux pour la Région des Pays de la Loire Lot 1 : Bâtiments du campus régional et Auditorium du Lycée Nelson Mandela\", \"CPV\": {\"PRINCIPAL\": \"90911000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Prestations de nettoyage des locaux pour la Région des Pays de la Loire - Lot 1 : Bâtiments du campus régional et Auditorium du lycée Nelson Mandela\", \"CPV\": {\"PRINCIPAL\": \"90911000\"}, \"CODE_NUTS\": \"FRG0\", \"LIEU_PRINCIPAL\": \"Nantes\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"L'accord-cadre prend effet à compter du 1er avril 2020 ou à sa date de notification au titulaire si celle-ci est postérieure. Il est conclu pour une durée de 12 mois reconductible 3 fois par tacite reconduction pour une nouvelle période de 12 mois, sans que sa durée totale ne puisse excéder 48 mois.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2020-01-06T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO\": \"La déclaration du candidat dûment complétée - DC2 (jointe au DCE) ou document de forme libre comportant les mêmes informations notamment la déclaration concernant le chiffre d'affaires global et le chiffre d'affaires du domaine d'activité faisant l'objet de cet accord-cadre, portant au maximum sur les trois derniers exercices disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles.\", \"CAP_TECH\": \"Une déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années.La présentation d'une liste des principales fournitures et services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé.\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2020-01-07\", \"LIEU_OUVERTURE_OFFRES\": \"Nantes\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"VISITE : Afin de permettre à chaque soumissionnaire de se rendre compte sur place de l'état des lieux et des difficultés éventuelles d'exécution des prestations, les candidats se présentent pour une visite obligatoire des locaux situés sur le Campus régional à Nantes : le 06 décembre 2019 à 9h00 ou le 11 décembre 2019 à 9h00. Les modalités sont décrites à l'article 4.3 du RC.DOCUMENTS A PRODUIRE : La liste des documents à fournir est prévue à l'article 4.2 du règlement de la consultation.DEMATERIALISATION : Conformément aux articles R2132-7 à R2132-14 du code de la commande publique, la présente consultation fait l'objet d'une procédure dématérialisée. Cette procédure permet aux candidats qui le souhaitent, via le site internet https://marchespublics.paysdelaloire.fr/ :- d'accéder à la \\\" plateforme \\\" de dématérialisation des procédures de marchés publics lancée par la Région Pays de la Loire ;- de télécharger gratuitement l'avis de publicité, le règlement de la consultation et le dossier de consultation des entreprises ;- de poser des questions ou solliciter des documents complémentaires ;- de déposer leurs documents de candidature et d'offre par voie électronique sur la plateforme, ce qui constituera \\\" une offre dématérialisée \\\".ATTENTION : Seul le dépôt d'une offre par voie électronique est autorisé. Si une offre est déposée uniquement sur support physique, elle sera déclarée irrégulière.. Date d'envoi du présent avis au JOUE et au BOAMP : 25 novembre 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé précontractuel article L551-1 et suivants du Code de Justice administrativeRéféré contractuel article L551-13 et suivants du Code de Justice administrative\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES CEDEX\", \"TEL\": \"(+33) 2-55-10-10-02\", \"FAX\": \"(+33) 2-55-10-10-03\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Médiateur régional délégué Médiation des entreprises\", \"ADRESSE\": \"22 mail Pablo Picasso, BP 24209\", \"CP\": \"44042\", \"VILLE\": \"Nantes Cedex 1\", \"URL\": \"http://www.mediateur-des-entreprises.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES CEDEX\", \"TEL\": \"(+33) 2-55-10-10-02\", \"FAX\": \"(+33) 2-55-10-10-03\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-176890"
-  },
-  {
-   "idweb": "19-176684",
-   "id": "19_176684",
-   "contractfolderid": null,
-   "objet": "Mise à disposition de moyens radio VHF et de prestations techniques d'installation et de maintenance pour le Vendée Globe 2020-2021",
-   "filename": "BOAMP-J-IC-AA_2019_331010",
-   "famille": "JOUE",
-   "code_departement": [
-    "85"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2019-11-27",
-   "datefindiffusion": "2019-12-25",
-   "datelimitereponse": null,
-   "nomacheteur": "VENDEE",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "ATTRIBUTION",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "274"
-   ],
-   "dc": [
-    "274"
-   ],
-   "descripteur_libelle": [
-    "Prestations de services"
-   ],
-   "type_marche": [
-    "FOURNITURES"
-   ],
-   "type_marche_facette": [
-    "Fournitures"
-   ],
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "19-156107"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"19-156107\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-10-15\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-10-17\", \"DATE_FIN_DIFFUSION\": \"2019-11-14\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"201\", \"NUM_ANNONCE\": \"487882\", \"DATE_PUBLICATION\": \"2019-10-17\"}}]}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-176684\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"19-156107\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-10-15\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-10-17\", \"DATE_FIN_DIFFUSION\": \"2019-11-14\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"201\", \"NUM_ANNONCE\": \"487882\", \"DATE_PUBLICATION\": \"2019-10-17\"}}]}}, \"NOM_HTML\": \"19-176684.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-11-27\", \"DATE_FIN_DIFFUSION\": \"2019-12-25\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"Mise à disposition de moyens radio VHF et de prestations techniques d'installation et de maintenance pour le Vendée Globe 2020-2021\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"VENDEE\", \"CODE_IDENT_NATIONAL\": \"45151864100035\", \"CONTACT\": \"Stéphanie Ruchaud\", \"ADJUDICATEUR_NUTS\": \"FRG0\", \"ADRESSE\": \"45 boulevard des Etats-Unis\", \"CP\": \"85000\", \"VILLE\": \"La Roche sur Yon\", \"TEL\": \"(+33) 2-51-44-91-07\", \"MEL\": \"stephanie.ruchaud@vendeeglobe.fr\", \"URL\": \"https://www.vendeeglobe.org\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"SAEM\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"EVENEMENT SPORTIF\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Mise à disposition de moyens radio VHF et de prestations techniques d'installation et de maintenance pour le Vendée Globe 2020-2021\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Mise à disposition de moyens radio VHF et de prestations techniques d'installation et de maintenance pour le Vendée Globe 2020-2021.\", \"CPV\": {\"PRINCIPAL\": \"92622000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Mise à disposition de moyens radio VHF et de prestations techniques d'installation et de maintenance pour le Vendée Globe 2020-2021.\", \"CPV\": {\"PRINCIPAL\": \"92622000\"}, \"CODE_NUTS\": \"FRG0\", \"LIEU_PRINCIPAL\": \"Les Sables d'Olonne\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"40\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"60\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"201\", \"NUM_ANNONCE\": \"487882\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"INFRUCTUEUX\": \"\", \"INTITULE\": \"Mise à disposition de moyens radio VHF et de prestations techniques d'installation et de maintenance pour le Vendée Globe 2020-2021.\"}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 25 novembre 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"TGI de Rennes\", \"ADRESSE\": \"Cité Judiciaire7 Rue Pierre Abelard\", \"CP\": \"35031\", \"VILLE\": \"Rennes\"}}}, \"ANNEXE_D1\": \"\"}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-176684"
   },
   {
    "idweb": "19-178128",
@@ -5041,6 +5046,68 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-177726"
   },
   {
+   "idweb": "19-177705",
+   "id": "19_177705",
+   "contractfolderid": null,
+   "objet": "Maintenance préventive et curative des installations du contrôle d'accès du Pont de Cheviré à Nantes",
+   "filename": "BOAMP-J-IC-AA_2019_332010",
+   "famille": "JOUE",
+   "code_departement": [
+    "44",
+    "35"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2019-11-28",
+   "datefindiffusion": "2019-12-26",
+   "datelimitereponse": null,
+   "nomacheteur": "DIR INTERDEPARTEMENTALE DES RTE OUEST",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "ATTRIBUTION",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "115"
+   ],
+   "dc": [
+    "115"
+   ],
+   "descripteur_libelle": [
+    "Equipements spécialisés"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "19-80591"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"19-80591\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-05-23\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-05-24\", \"DATE_FIN_DIFFUSION\": \"2019-07-12\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"100\", \"NUM_ANNONCE\": \"242574\", \"DATE_PUBLICATION\": \"2019-05-24\"}}]}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-177705\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"19-80591\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-05-23\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-05-24\", \"DATE_FIN_DIFFUSION\": \"2019-07-12\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"100\", \"NUM_ANNONCE\": \"242574\", \"DATE_PUBLICATION\": \"2019-05-24\"}}]}}, \"NOM_HTML\": \"19-177705.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-11-28\", \"DATE_FIN_DIFFUSION\": \"2019-12-26\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"115\", \"LIBELLE\": \"Equipements spécialisés\"}}, \"DEP_PUBLICATION\": [\"44\", \"35\"], \"RESUME_OBJET\": \"Maintenance préventive et curative des installations du contrôle d'accès du Pont de Cheviré à Nantes\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"DIR INTERDEPARTEMENTALE DES RTE OUEST\", \"ADJUDICATEUR_NUTS\": \"FRH\", \"ADRESSE\": \"10 rue Maurice Fabre CS 63108\", \"CP\": \"35031\", \"VILLE\": \"Rennes cedex\", \"MEL\": \"magma.smt.diro@developpement-durable.gouv.fr\", \"URL\": \"http://www.marches-publics.gouv.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.gouv.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"MIN_AUTORITE_NATIONALE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ENVIRONNEMENT\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Maintenance préventive et curative des installations du contrôle d'accès du Pont de Cheviré à Nantes\", \"REF_MARCHE\": \"...-DIR-UDI-104\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Maintenance préventive et curative des installations du contraôle d'accès du Pont de Cheviré à Nantes, prestations incluant la fourniture et la gestion du stock des pièces de maintenance nécessaires à ces équipements\", \"CPV\": {\"PRINCIPAL\": \"50230000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Maintenance préventive et curative des installations du contraôle d'accès du Pontde Cheviré à Nantes, prestations incluant la fourniture et la gestion du stock despièces de maintenance nécessaires à ces équipements\", \"CPV\": {\"PRINCIPAL\": \"50230000\"}, \"CODE_NUTS\": \"FRG01\", \"LIEU_PRINCIPAL\": \"Nantes\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"Valeur technique\"}, {\"@POIDS\": \"10\", \"#text\": \"Optimisation du délai et de la mise à disposition des pièces et des frais de livraison\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"100\", \"NUM_ANNONCE\": \"242574\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"SANS_SUITE\": \"\", \"NUM_MARCHE\": \"DIR-UDI-104\", \"INTITULE\": \"Maintenance préventive et curative des installations du contrôle d'accès du Pont deCheviré à Nantes\"}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 26 novembre 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"* Référé précontractuel : depuis le début de la procédure de passation jusqu'à la signature du contrat (article L551-1du Code de Justice Administrative) ;* Référé contractuel : 31 jours à compter de la date de publication de l'avis d'attribution du marché (article L551-13à L551-23 et R551-7 à R551-10 du Code de Justice Administrative) ;* Recours pour excès de pouvoir : dans un délai de 2 mois à compter de la notification de la décision de rejet(articles R421-1 à R421-3 du Code de Justice Administrative) ;* Recours de plein contentieux : dans un délai de 2 mois à compter de l'accomplissement des mesures de publicitéconcernant l'attribution du marché.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Rennes\", \"ADRESSE\": \"Hotel de Bizien - 3 cour de la motte CS 44416\", \"CP\": \"35044\", \"VILLE\": \"Rennes\", \"TEL\": \"(+33) 2-23-21-28-28\", \"FAX\": \"(+33) 2-99-63-56-84\", \"MEL\": \"greffe.ta-rennes@juradm.fr\", \"URL\": \"http://rennes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Rennes\", \"ADRESSE\": \"Hotel de Bizien - 3 cour de la motte CS 44416\", \"CP\": \"35044\", \"VILLE\": \"Rennes Cedex\", \"TEL\": \"(+33) 2-23-21-28-28\", \"FAX\": \"(+33) 2-99-63-56-84\", \"MEL\": \"greffe.ta-rennes@juradm.fr\", \"URL\": \"http://rennes.tribunal-administratif.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-177705"
+  },
+  {
    "idweb": "19-177092",
    "id": "19_177092",
    "contractfolderid": null,
@@ -5218,129 +5285,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-177591"
   },
   {
-   "idweb": "19-177705",
-   "id": "19_177705",
-   "contractfolderid": null,
-   "objet": "Maintenance préventive et curative des installations du contrôle d'accès du Pont de Cheviré à Nantes",
-   "filename": "BOAMP-J-IC-AA_2019_332010",
-   "famille": "JOUE",
-   "code_departement": [
-    "44",
-    "35"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2019-11-28",
-   "datefindiffusion": "2019-12-26",
-   "datelimitereponse": null,
-   "nomacheteur": "DIR INTERDEPARTEMENTALE DES RTE OUEST",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "ATTRIBUTION",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "115"
-   ],
-   "dc": [
-    "115"
-   ],
-   "descripteur_libelle": [
-    "Equipements spécialisés"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "19-80591"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"19-80591\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-05-23\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-05-24\", \"DATE_FIN_DIFFUSION\": \"2019-07-12\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"100\", \"NUM_ANNONCE\": \"242574\", \"DATE_PUBLICATION\": \"2019-05-24\"}}]}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-177705\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"19-80591\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-05-23\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-05-24\", \"DATE_FIN_DIFFUSION\": \"2019-07-12\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"100\", \"NUM_ANNONCE\": \"242574\", \"DATE_PUBLICATION\": \"2019-05-24\"}}]}}, \"NOM_HTML\": \"19-177705.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-11-28\", \"DATE_FIN_DIFFUSION\": \"2019-12-26\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"115\", \"LIBELLE\": \"Equipements spécialisés\"}}, \"DEP_PUBLICATION\": [\"44\", \"35\"], \"RESUME_OBJET\": \"Maintenance préventive et curative des installations du contrôle d'accès du Pont de Cheviré à Nantes\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"DIR INTERDEPARTEMENTALE DES RTE OUEST\", \"ADJUDICATEUR_NUTS\": \"FRH\", \"ADRESSE\": \"10 rue Maurice Fabre CS 63108\", \"CP\": \"35031\", \"VILLE\": \"Rennes cedex\", \"MEL\": \"magma.smt.diro@developpement-durable.gouv.fr\", \"URL\": \"http://www.marches-publics.gouv.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.gouv.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"MIN_AUTORITE_NATIONALE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ENVIRONNEMENT\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Maintenance préventive et curative des installations du contrôle d'accès du Pont de Cheviré à Nantes\", \"REF_MARCHE\": \"...-DIR-UDI-104\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Maintenance préventive et curative des installations du contraôle d'accès du Pont de Cheviré à Nantes, prestations incluant la fourniture et la gestion du stock des pièces de maintenance nécessaires à ces équipements\", \"CPV\": {\"PRINCIPAL\": \"50230000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Maintenance préventive et curative des installations du contraôle d'accès du Pontde Cheviré à Nantes, prestations incluant la fourniture et la gestion du stock despièces de maintenance nécessaires à ces équipements\", \"CPV\": {\"PRINCIPAL\": \"50230000\"}, \"CODE_NUTS\": \"FRG01\", \"LIEU_PRINCIPAL\": \"Nantes\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"Valeur technique\"}, {\"@POIDS\": \"10\", \"#text\": \"Optimisation du délai et de la mise à disposition des pièces et des frais de livraison\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"100\", \"NUM_ANNONCE\": \"242574\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"SANS_SUITE\": \"\", \"NUM_MARCHE\": \"DIR-UDI-104\", \"INTITULE\": \"Maintenance préventive et curative des installations du contrôle d'accès du Pont deCheviré à Nantes\"}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 26 novembre 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"* Référé précontractuel : depuis le début de la procédure de passation jusqu'à la signature du contrat (article L551-1du Code de Justice Administrative) ;* Référé contractuel : 31 jours à compter de la date de publication de l'avis d'attribution du marché (article L551-13à L551-23 et R551-7 à R551-10 du Code de Justice Administrative) ;* Recours pour excès de pouvoir : dans un délai de 2 mois à compter de la notification de la décision de rejet(articles R421-1 à R421-3 du Code de Justice Administrative) ;* Recours de plein contentieux : dans un délai de 2 mois à compter de l'accomplissement des mesures de publicitéconcernant l'attribution du marché.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Rennes\", \"ADRESSE\": \"Hotel de Bizien - 3 cour de la motte CS 44416\", \"CP\": \"35044\", \"VILLE\": \"Rennes\", \"TEL\": \"(+33) 2-23-21-28-28\", \"FAX\": \"(+33) 2-99-63-56-84\", \"MEL\": \"greffe.ta-rennes@juradm.fr\", \"URL\": \"http://rennes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Rennes\", \"ADRESSE\": \"Hotel de Bizien - 3 cour de la motte CS 44416\", \"CP\": \"35044\", \"VILLE\": \"Rennes Cedex\", \"TEL\": \"(+33) 2-23-21-28-28\", \"FAX\": \"(+33) 2-99-63-56-84\", \"MEL\": \"greffe.ta-rennes@juradm.fr\", \"URL\": \"http://rennes.tribunal-administratif.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-177705"
-  },
-  {
-   "idweb": "19-172745",
-   "id": "19_172745",
-   "contractfolderid": null,
-   "objet": "concession de travaux et de services pour le financement, la construction, la maintenance et l'exploitation de boucles locales optiques de dessertes à l'usager final sur le territoire de la sarthe",
-   "filename": "BOAMP-J-IC-AA_2019_332010",
-   "famille": "JOUE",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2019-11-28",
-   "datefindiffusion": "2020-12-31",
-   "datelimitereponse": null,
-   "nomacheteur": "S. M. Sarthois d'Aménagement Numérique",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-23",
-   "type_procedure": null,
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure NC",
-   "procedure_categorise": "/",
-   "nature": "MODIFICATION",
-   "sousnature": null,
-   "nature_libelle": "Modification",
-   "sousnature_libelle": "Modification",
-   "nature_categorise": "modification/standard",
-   "nature_categorise_libelle": "Modification/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "MODIFICATION",
-   "descripteur_code": [
-    "133",
-    "338"
-   ],
-   "dc": [
-    "133",
-    "338"
-   ],
-   "descripteur_libelle": [
-    "Fibre optique",
-    "Télécommunications"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": null,
-   "annonce_lie": [
-    "17-165318",
-    "19-28399"
-   ],
-   "annonces_anterieures": "[{\"REFERENCE\": {\"IDWEB\": \"17-165318\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-23\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"CONCESSION\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-11-22\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-11-24\", \"DATE_FIN_DIFFUSION\": \"2018-01-03\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"227\", \"NUM_ANNONCE\": \"473924\", \"DATE_PUBLICATION\": \"2017-11-25\"}}]}, {\"REFERENCE\": {\"IDWEB\": \"19-28399\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-23\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"CONCESSION\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-02-21\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-02-23\", \"DATE_FIN_DIFFUSION\": \"2019-05-21\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"040\", \"NUM_ANNONCE\": \"091837\", \"DATE_PUBLICATION\": \"2019-02-26\"}}]}]",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-172745\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-23\": \"\"}, \"NATURE\": {\"MODIFICATION\": \"\"}, \"STATUT\": {\"MODIFICATION\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": [{\"REFERENCE\": {\"IDWEB\": \"17-165318\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-23\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"CONCESSION\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-11-22\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-11-24\", \"DATE_FIN_DIFFUSION\": \"2018-01-03\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"227\", \"NUM_ANNONCE\": \"473924\", \"DATE_PUBLICATION\": \"2017-11-25\"}}]}, {\"REFERENCE\": {\"IDWEB\": \"19-28399\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-23\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"CONCESSION\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-02-21\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-02-23\", \"DATE_FIN_DIFFUSION\": \"2019-05-21\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"040\", \"NUM_ANNONCE\": \"091837\", \"DATE_PUBLICATION\": \"2019-02-26\"}}]}]}, \"NOM_HTML\": \"19-172745.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-11-28\", \"DATE_FIN_DIFFUSION\": \"2020-12-31\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"133\", \"LIBELLE\": \"Fibre optique\"}, {\"CODE\": \"338\", \"LIBELLE\": \"Télécommunications\"}]}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"concession de travaux et de services pour le financement, la construction, la maintenance et l'exploitation de boucles locales optiques de dessertes à l'usager final sur le territoire de la sarthe\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"S. M. Sarthois d'Aménagement Numérique\", \"CODE_IDENT_NATIONAL\": \"25720243200015\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"Hôtel du Département\", \"CP\": \"72072\", \"VILLE\": \"Le Mans\", \"TEL\": \"(+33) 2-43-54-73-43\", \"MEL\": \"sarthenumerique@sarthe.fr\", \"URL\": \"http://www.sarthe.fr/sarthe-numerique\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.info/\"}, \"OBJET\": {\"TITRE_MARCHE\": \"Concession de travaux et de services pour le financement, la construction, la maintenance et l'exploitation de boucles locales optiques de dessertes à l'usager final sur le territoire de la Sarthe\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Critères de sélection des candidatures:- garanties professionnelles et financières du candidat- aptitude du candidat à assurer la continuité du service public- aptitude du candidat à assurer l'égalité des usagers devant le service public***Le futur délégataire aura en charge :-Mission1: déploiement et travaux sous la responsabilité du Délégataire du Réseau Thd sans subvention*tranche ferme-Mission2: exploitation des ouvrages Ftth établis par le Délégataire et de ceux établis par le Smsn*tranche ferme-Mission3: poursuite et achèvement du déploiement du Réseau, avec subvention*tranche optionnelle-Mission4: reprise en exploitation du réseau d'initiative publique de première génération 'Sartel' au plus tard fin 2024*tranche optionnelle\", \"CPV\": {\"PRINCIPAL\": \"64200000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"932000000\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Services\", \"CPV\": {\"PRINCIPAL\": \"32412100\"}, \"CODE_NUTS\": \"FRG04\", \"LIEU_PRINCIPAL\": \"Département de la Sarthe\", \"DUREE_MOIS\": \"300\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Programme 2.1.1 Desserte très haut débit (réseaux d'initiatives publiques ou projet porté par une maîtrise d'ouvrage publique). Programme opérationnel régional FEDER-FSE 2014-2020.\"}}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_ATTRIBUTION\": \"\"}, \"ANNEE\": \"2019\", \"NUM_PARUTION\": \"040\", \"NUM_ANNONCE\": \"091837\", \"DATE_PUBLICATION\": \"2019-02-26\"}}}, \"ATTRIBUTION\": {\"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"19001\", \"TITULAIRE\": [{\"DENOMINATION\": \"SARTEL THD\", \"ADRESSE\": \"2, allée des Gémeaux\", \"CP\": \"72100\", \"VILLE\": \"Le Mans\", \"CODE_NUTS\": \"FRG04\", \"PME_NON\": \"\"}, {\"DENOMINATION\": \"AXIONE INFRASTRUCTURES\", \"ADRESSE\": \"19 rue Stephenson\", \"CP\": \"78180\", \"VILLE\": \"Montigny le Bretonneux\", \"CODE_NUTS\": \"FR103\", \"PME_NON\": \"\"}, {\"DENOMINATION\": \"AXIONE\", \"ADRESSE\": \"130 Boulevard Camélinat\", \"CP\": \"92240\", \"VILLE\": \"Malakoff\", \"CODE_NUTS\": \"FR105\", \"PME_NON\": \"\"}, {\"DENOMINATION\": \"BOUYGUES ENERGIES ET SERVICES\", \"ADRESSE\": \"19 rue Stephenson\", \"CP\": \"78180\", \"VILLE\": \"Montigny le Bretonneux\", \"CODE_NUTS\": \"FR103\", \"PME_NON\": \"\"}, {\"DENOMINATION\": \"BEE INVEST 72\", \"ADRESSE\": \"19 rue Stephenson\", \"CP\": \"78180\", \"VILLE\": \"Montigny le Bretonneux\", \"CODE_NUTS\": \"FR103\", \"PME_NON\": \"\"}], \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-01-09\", \"GROUPEMENT_ECONOMIQUE\": \"\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"932000000\"}}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La convention est entrée en vigueur dès sa notification le 9 janvier 2019 pour une durée de 30 ans. L'attributaire est un groupement d'entreprises composés des 4 sociétés suivantes : Axione Infrastructures, Axione, Bouygues Energies et Services et BEE Invest 72. Date d'envoi du présent avis au JOUE et au BOAMP : 25 novembre 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"- référé précontractuel depuis le début de la procédure de passation jusqu'à la signature du contrat, devant le juge des référés précontractuels du tribunal administratif (article L.551-1 du Code de Justice Administrative); - référé-suspension avant la signature du marché contre les actes détachables du contrat, devant le juge des référés précontractuels du tribunal administratif (article L.521-1 du Code de Justice Administrative); - référé contractuel devant le tribunal administratif dans un délai de 30 jours calendaires à compter du lendemain du jour de publication de l'avis d'attribution (article R551-7 du Code de Justice Administrative); - recours pour excès de pouvoir devant le tribunal administratif, dans un délai de deux mois à compter de la publication ou de la notification de la décision ou de l'acte attaqué (article R.421-1 du Code de Justice Administrative); - recours en indemnisation (article R.421-3 du Code de Justice Administrative); - recours de pleine juridiction formé contre la validité du contrat ou certaines de ses clauses qui en sont divisibles dans le délai de deux mois à compter de la parution de l'avis d'attribution (Ce, ass. 16 juillet 2007, no291545, Sté Tropic travaux signalisation)\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif inter-régional du règlement amiable des litiges\", \"ADRESSE\": \"8 rue Chateaubriand\", \"CP\": \"44000\", \"VILLE\": \"Nantes\"}]}}, \"MODIF\": {\"CPV\": [{\"PRINCIPAL\": \"64200000\"}, {\"PRINCIPAL\": \"32412100\"}], \"CODE_NUTS\": \"FRG04\", \"LIEU_PRINCIPAL\": \"Territoire Sarthois\", \"DESCRIPTION\": \"Concession de travaux et de services pour le financement, la construction, la maintenance et l'exploitation de boucles locales optiques de dessertes à l'usager final sur le territoire de la Sarthe\", \"DUREE_MOIS\": \"300\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"932000000\"}, \"GROUPEMENT_ECONOMIQUE\": \"\", \"TITULAIRE\": [{\"DENOMINATION\": \"SARTEL THD\", \"ADRESSE\": \"2, allée des Gémeaux\", \"CP\": \"72100\", \"VILLE\": \"Le Mans\", \"CODE_NUTS\": \"FRG04\", \"PME_NON\": \"\"}, {\"DENOMINATION\": \"AXIONE INFRASTRUCTURES\", \"ADRESSE\": \"19 rue Stephenson\", \"CP\": \"78180\", \"VILLE\": \"Montigny le Bretonneux\", \"CODE_NUTS\": \"FR103\", \"PME_NON\": \"\"}, {\"DENOMINATION\": \"AXIONE\", \"ADRESSE\": \"130 Boulevard Camélinat\", \"CP\": \"92240\", \"VILLE\": \"Malakoff\", \"CODE_NUTS\": \"FR105\", \"PME_NON\": \"\"}, {\"DENOMINATION\": \"BOUYGUES ENERGIES ET SERVICES\", \"ADRESSE\": \"19 rue Stephenson\", \"CP\": \"78180\", \"VILLE\": \"Montigny le Bretonneux\", \"CODE_NUTS\": \"FR103\", \"PME_NON\": \"\"}, {\"DENOMINATION\": \"BBE INVEST 72\", \"ADRESSE\": \"19 rue Stephenson\", \"CP\": \"78180\", \"VILLE\": \"Montigny le Bretonneux\", \"CODE_NUTS\": \"FR103\", \"PME_NON\": \"\"}], \"DESC_MODIF\": \"Le présent avenant no1 à la convention a pour objet : - d'affermir de manière anticipée la Mission no4 prévue à l'article 17 de la Convention et d'adapter certaines clauses s'y rapportant ; - d'introduire un mécanisme de participation publique aux coûts de raccordement des entreprises non-éligibles aux offres d'accès FTTH du Délégataire sur le territoire de la Sarthe ; - d'actualiser le plan d'affaires de la Convention compte tenu de l'affermissement anticipée de la Mission 4 ; - de modifier la dénomination, la fréquence et la composition des comités visés aux articles 39 et 40 de la Convention ; - de modifier le catalogue de service de la Convention. Cet avenant a été notifié le 8 octobre 2019.\", \"BESOIN_TVX\": \"La reprise anticipée de l'exploitation du réseau Sartel par le concessionnaire SARTEL THD était une option prévue dans le contrat initial. L'augmentation de la valeur du contrat est juste la conséquence de la mise en uvre de cette disposition contractuelle.\", \"VALEUR_AVT\": {\"@DEVISE\": \"EUR\", \"#text\": \"932000000\"}, \"VALEUR_APR\": {\"@DEVISE\": \"EUR\", \"#text\": \"969070203\"}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-172745"
-  },
-  {
    "idweb": "19-177134",
    "id": "19_177134",
    "contractfolderid": null,
@@ -5419,6 +5363,67 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-177134\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-177134.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-11-28\", \"DATE_FIN_DIFFUSION\": \"2020-01-09\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"38\", \"LIBELLE\": \"Bois\"}, {\"CODE\": \"198\", \"LIBELLE\": \"Matériaux de construction\"}, {\"CODE\": \"203\", \"LIBELLE\": \"Matériel électrique\"}, {\"CODE\": \"251\", \"LIBELLE\": \"Outillage\"}, {\"CODE\": \"263\", \"LIBELLE\": \"Peinture (fourniture)\"}, {\"CODE\": \"291\", \"LIBELLE\": \"Quincaillerie (articles)\"}, {\"CODE\": \"319\", \"LIBELLE\": \"Sanitaire\"}, {\"CODE\": \"321\", \"LIBELLE\": \"Serrurerie\"}]}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Fourniture de matériels et de matériaux de bâtiment pour la Ville de Saint Herblain.\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Commune de Saint-Herblain\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"2 rue de l'Hôtel de Ville BP 30299\", \"CP\": \"44803\", \"VILLE\": \"Saint herblain cedex\", \"TEL\": \"(+33) 2-28-25-21-87\", \"FAX\": \"(+33) 2-28-25-21-88\", \"MEL\": \"commandepublique@saint-herblain.fr\", \"URL\": \"http://www.saint-herblain.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.achatpublic.com/sdm/ent/gen/index.jsp\", \"URL_PARTICIPATION\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2019_XDTPjIsLK6\", \"URL_DOCUMENT\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2019_XDTPjIsLK6\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de matériels et de matériaux de bâtiment pour la Ville de Saint Herblain.\", \"REF_MARCHE\": \"Fournitures régie\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Fourniture de matériels et de matériaux de bâtiment pour la Ville de Saint Herblain.\", \"CPV\": {\"PRINCIPAL\": \"44111000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Peinture\", \"DESCRIPTION\": \"PeintureAucun minimum - maximum annuel de 100 000 euro(s) HT\", \"CPV\": {\"PRINCIPAL\": \"44810000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Durée : 1 an à compter du 1er mai 2020 éventuellement reconductible 3 fois un an\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Maçonnerie\", \"DESCRIPTION\": \"MaçonnerieAucun minium - maximum annuel de 50 000 euro(s) HT\", \"CPV\": {\"PRINCIPAL\": \"44110000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Durée : 1 an à compter du 1er mai 2020 éventuellement reconductible 3 fois un an\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Bois\", \"DESCRIPTION\": \"Bois Aucun minimum - maximum annuel de 150 000 euro(s) HT\", \"CPV\": {\"PRINCIPAL\": \"03410000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Durée : 1 an à compter du 1er mai 2020 éventuellement reconductible 3 fois un an\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"4\", \"INTITULE\": \"Plomberie - Sanitaires\", \"DESCRIPTION\": \"Plomberie - SanitairesAucun minium - maximum annuel de 100 000 euro(s) HT\", \"CPV\": {\"PRINCIPAL\": \"44115210\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Durée : 1 an à compter du 1er mai 2020 éventuellement reconductible 3 fois un an\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"5\", \"INTITULE\": \"Electricité\", \"DESCRIPTION\": \"Electricité Aucun minimum - maximum annuel de 150 000 euro(s) HT\", \"CPV\": {\"PRINCIPAL\": \"31000000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Durée : 1 an à compter du 1er mai 2020 éventuellement reconductible 3 fois un an\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"6\", \"INTITULE\": \"Eclairages\", \"DESCRIPTION\": \"EclairagesAucun minimum - maximum annuel de 150 000 euro(s) HT\", \"CPV\": {\"PRINCIPAL\": \"31000000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Durée : 1 an à compter du 1er mai 2020 éventuellement reconductible 3 fois un an\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"7\", \"INTITULE\": \"Piles accumulateurs\", \"DESCRIPTION\": \"Piles accumulateursAucun minimum - Maximum annuel de 15 000 euro(s) HT\", \"CPV\": {\"PRINCIPAL\": \"31400000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Durée : 1 an à compter du 1er mai 2020 éventuellement reconductible 3 fois un an\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"8\", \"INTITULE\": \"Visserie, consommables\", \"DESCRIPTION\": \"Visserie, consommables Aucun minimum - maximum annuel de 50 000 euro(s) HT\", \"CPV\": {\"PRINCIPAL\": \"44316000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Durée : 1 an à compter du 1er mai 2020 éventuellement reconductible 3 fois un an\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"9\", \"INTITULE\": \"Quincaillerie\", \"DESCRIPTION\": \"QuincaillerieAucun minimum - maximum annuel de 100 000 euro(s) HT\", \"CPV\": {\"PRINCIPAL\": \"44316000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Durée : 1 an à compter du 1er mai 2020 éventuellement reconductible 3 fois un an\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"10\", \"INTITULE\": \"Serrurerie - Tôles\", \"DESCRIPTION\": \"Serrurerie - TôlesAucun minimum - Maximum annuel de 25 000 euro(s) HT\", \"CPV\": {\"PRINCIPAL\": \"44316500\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Durée : 1 an à compter du 1er mai 2020 éventuellement reconductible 3 fois un an\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"11\", \"INTITULE\": \"Organigrammes\", \"DESCRIPTION\": \"OrganigrammesAucun minimum - maximum annuel de 50 000 euro(s) HT\", \"CPV\": {\"PRINCIPAL\": \"44522200\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Durée : 1 an à compter du 1er mai 2020 éventuellement reconductible 3 fois un an\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"12\", \"INTITULE\": \"Petit outillage et rangement\", \"DESCRIPTION\": \"Petit outillage et rangementAucun minimum - Maximum annuel de 150 000 euro(s) HT\", \"CPV\": {\"PRINCIPAL\": \"44510000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Durée : 1 an à compter du 1er mai 2020 éventuellement reconductible 3 fois un an\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"Non connu à ce jour\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2020-01-09T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"6\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Lettre de candidature, que la candidature soit présentée à titre individuel ou en groupement, accompagnée des attestations sur l'honneur justifiant que le candidat n'entre dans aucun des cas mentionnés aux articles L.2141-1 à L.2141-11 du CCP et est en règle au regard des articles L5212-1 à L5212-11 du code du travail relatif à l'emploi des travailleurs handicapés Les documents attestant les pouvoirs de la personne habilitée pour engager le candidat Le cas échéant, lorsque le candidat est en redressement judiciaire, il produit la copie du ou des jugements prononcés\", \"CAP_ECO\": \"Chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du contrat, réalisés au cours des trois derniers exercices disponibles ou depuis leur création pour les entreprises plus récentes. La preuve d'une assurance des risques professionnels.\", \"CAP_TECH\": \"Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années. Liste de références des prestations objet du contrat effectuées au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Description de l'outillage, du matériel et de l'équipement technique dont le candidat dispose pour la réalisation du contrat.\", \"MARCHE_RESERVE_NON\": \"\", \"CONDITION_PARTICULIERE_EXECUTION\": \"Cautionnement garantie : garantie à première demande pour remboursement de l'avance / Financement et de paiement : Budget Ville ; mandat administratif sous 30 jours ; une facture mensuelle regroupant l'ensemble des commandes entièrement réceptionnées dans le mois (et non pas une facture par bon de livraison, ni par bon de commande) / Forme juridique que devra revêtir le groupement d'opérateurs économique attributaires: opérateur unique ou groupement conjoint avec mandataire solidaire ou groupement solidaire. /Durée: un (1) an à compter du 1er mai 2020 ou de sa date de notification si celle-ci est postérieure, éventuellement reconduit trois (3) fois un an. Chaque période annuelle peut prendre fin, soit au terme de la durée d'1 an, soit de manière anticipée si le maximum annuel est atteint.\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"PERS_OUVERTURE_OFFRES_OUI\": \"Agents compétents dans la matière qui fait l'objet de la consultation ou en matière de marchés publics\", \"DATE_OUVERTURE_OFFRES\": \"2020-01-09\", \"LIEU_OUVERTURE_OFFRES\": \"Mairie de Saint Herblain\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Appel d'offres ouvert, accords cadres à bons de commande mono attributaires. Pas de prestations supplémentaires éventuelles obligatoires ou non obligatoires. Aucune variante autorisée, aucune variante obligatoire.Critères d'analyse des offres: Pour les lots 1 à 9 et 12: Critère 1 : Evaluation financière de l'offre (40%) avec: Sous - critère no1 : Analyse financière à partir du panier type (35%) / Sous - critère no2 : Frais de livraison (5%) / Critère 2 : Valeur technique (60%) avec: Sous - critère no1 : Qualité des matériels et produits proposés par le candidat dans le panier type (20%) / Sous - critère no2 : Qualité des moyens humains et matériels mis à disposition et leur organisation pour l'exécution du marché (10%) / Sous - critère no3 : Qualité des produits pour lesquels des échantillons sont fournis (15%) / Sous - critère no4 : Gestion des commandes, modalités de livraisons (e-shop, ...) (15%) Pour les lots 10 et 11: Critère 1 : Evaluation financière de l'offre (55%) avec : Sous - critère no1 : Analyse financière à partir du panier type (50%) / Sous - critère no2 : Frais de livraison (5%) / Critère 2 : Valeur technique (45%) avec: Sous - critère no1 : Qualité des matériels et produits proposés par le candidat dans le panier type (20%) / Sous - critère no2 : Qualité des moyens humains et matériels mis à disposition et leur organisation pour l'exécution du marché (10%) / Sous - critère no3 : Gestion des commandes, modalités de livraisons (e-shop, ...) (15%)Renseignements : E.HERZOG 0228252187, commandepublique@saint-herblain.frDate limite de dépôt des questions : 26 décembre 2019, à 12h sur la plateforme www.achatpublic.comRetrait du dossier (documents gratuits à retirer via le site internet de la Ville : www.saint-herblain.fr (rubrique \\\"La Ville\\\" \\\"l'institution \\\" et \\\" marchés publics \\\") ou directement sur la plate-forme de dématérialisation www.achatpublic.com à l'adresse précisée ci-dessous: https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2019_XDTPjIsLK6Remise des offres uniquement par voie électronique (plate-forme de dématérialisation www.achatpublic.com).Remise des échantillons (sauf pour lots 10 et 11) (détaillée à l'article 6.3 du règlement de consultation): avant le 9 janvier 2020 à 12 heures, à l'Hôtel de Ville de Saint Herblain (service Finances et Commande Publique). Critère d'analyse des candidatures : capacités professionnelles, techniques et financières. Les renseignements demandés permettent d'évaluer les capacités professionnelles, techniques et financières du candidat et attester de sa compétence à réaliser la prestation (la preuve de cette capacité peut être apportée par tout moyen) /Monnaie : euro. Date d'envoi du présent avis au JOUE et au BOAMP : 26 novembre 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Recours pour excès de pouvoir (2 mois à compter de la décision faisant grief) / Référé précontractuel - art.L.551-1 et suivants du Code de justice administrative (11 jours à compter de l'envoi du courrier d'information de rejet) / Référé contractuel - art. L.551-13 et suivants du Code de justice administrative (6 mois à compter de la conclusion du contrat, délai ramené à 31 jours en cas de publication d'un avis d'attribution) / Recours en contestation de la validité du contrat dans un délai de deux mois à compter des mesures de publicité appropriées relatives à l'attribution et la conclusion du contrat (CE,Ass, 4 avril 2014 département de Tarn et Garonne no 35899)\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette - CS 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"(+33) 2-55-10-10-02\", \"FAX\": \"(+33) 2-55-10-10-03\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://Nantes.tribunaladministratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette - CS 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"(+33) 2-55-10-10-02\", \"FAX\": \"(+33) 2-55-10-10-03\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://Nantes.tribunaladministratif.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-177134"
+  },
+  {
+   "idweb": "19-172745",
+   "id": "19_172745",
+   "contractfolderid": null,
+   "objet": "concession de travaux et de services pour le financement, la construction, la maintenance et l'exploitation de boucles locales optiques de dessertes à l'usager final sur le territoire de la sarthe",
+   "filename": "BOAMP-J-IC-AA_2019_332010",
+   "famille": "JOUE",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2019-11-28",
+   "datefindiffusion": "2020-12-31",
+   "datelimitereponse": null,
+   "nomacheteur": "S. M. Sarthois d'Aménagement Numérique",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-23",
+   "type_procedure": null,
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure NC",
+   "procedure_categorise": "/",
+   "nature": "MODIFICATION",
+   "sousnature": null,
+   "nature_libelle": "Modification",
+   "sousnature_libelle": "Modification",
+   "nature_categorise": "modification/standard",
+   "nature_categorise_libelle": "Modification/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "MODIFICATION",
+   "descripteur_code": [
+    "133",
+    "338"
+   ],
+   "dc": [
+    "133",
+    "338"
+   ],
+   "descripteur_libelle": [
+    "Fibre optique",
+    "Télécommunications"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": null,
+   "annonce_lie": [
+    "17-165318",
+    "19-28399"
+   ],
+   "annonces_anterieures": "[{\"REFERENCE\": {\"IDWEB\": \"17-165318\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-23\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"CONCESSION\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-11-22\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-11-24\", \"DATE_FIN_DIFFUSION\": \"2018-01-03\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"227\", \"NUM_ANNONCE\": \"473924\", \"DATE_PUBLICATION\": \"2017-11-25\"}}]}, {\"REFERENCE\": {\"IDWEB\": \"19-28399\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-23\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"CONCESSION\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-02-21\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-02-23\", \"DATE_FIN_DIFFUSION\": \"2019-05-21\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"040\", \"NUM_ANNONCE\": \"091837\", \"DATE_PUBLICATION\": \"2019-02-26\"}}]}]",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-172745\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-23\": \"\"}, \"NATURE\": {\"MODIFICATION\": \"\"}, \"STATUT\": {\"MODIFICATION\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": [{\"REFERENCE\": {\"IDWEB\": \"17-165318\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-23\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"CONCESSION\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-11-22\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-11-24\", \"DATE_FIN_DIFFUSION\": \"2018-01-03\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"227\", \"NUM_ANNONCE\": \"473924\", \"DATE_PUBLICATION\": \"2017-11-25\"}}]}, {\"REFERENCE\": {\"IDWEB\": \"19-28399\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-23\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"CONCESSION\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-02-21\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-02-23\", \"DATE_FIN_DIFFUSION\": \"2019-05-21\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"040\", \"NUM_ANNONCE\": \"091837\", \"DATE_PUBLICATION\": \"2019-02-26\"}}]}]}, \"NOM_HTML\": \"19-172745.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-11-28\", \"DATE_FIN_DIFFUSION\": \"2020-12-31\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"133\", \"LIBELLE\": \"Fibre optique\"}, {\"CODE\": \"338\", \"LIBELLE\": \"Télécommunications\"}]}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"concession de travaux et de services pour le financement, la construction, la maintenance et l'exploitation de boucles locales optiques de dessertes à l'usager final sur le territoire de la sarthe\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"S. M. Sarthois d'Aménagement Numérique\", \"CODE_IDENT_NATIONAL\": \"25720243200015\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"Hôtel du Département\", \"CP\": \"72072\", \"VILLE\": \"Le Mans\", \"TEL\": \"(+33) 2-43-54-73-43\", \"MEL\": \"sarthenumerique@sarthe.fr\", \"URL\": \"http://www.sarthe.fr/sarthe-numerique\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.info/\"}, \"OBJET\": {\"TITRE_MARCHE\": \"Concession de travaux et de services pour le financement, la construction, la maintenance et l'exploitation de boucles locales optiques de dessertes à l'usager final sur le territoire de la Sarthe\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Critères de sélection des candidatures:- garanties professionnelles et financières du candidat- aptitude du candidat à assurer la continuité du service public- aptitude du candidat à assurer l'égalité des usagers devant le service public***Le futur délégataire aura en charge :-Mission1: déploiement et travaux sous la responsabilité du Délégataire du Réseau Thd sans subvention*tranche ferme-Mission2: exploitation des ouvrages Ftth établis par le Délégataire et de ceux établis par le Smsn*tranche ferme-Mission3: poursuite et achèvement du déploiement du Réseau, avec subvention*tranche optionnelle-Mission4: reprise en exploitation du réseau d'initiative publique de première génération 'Sartel' au plus tard fin 2024*tranche optionnelle\", \"CPV\": {\"PRINCIPAL\": \"64200000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"932000000\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Services\", \"CPV\": {\"PRINCIPAL\": \"32412100\"}, \"CODE_NUTS\": \"FRG04\", \"LIEU_PRINCIPAL\": \"Département de la Sarthe\", \"DUREE_MOIS\": \"300\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Programme 2.1.1 Desserte très haut débit (réseaux d'initiatives publiques ou projet porté par une maîtrise d'ouvrage publique). Programme opérationnel régional FEDER-FSE 2014-2020.\"}}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_ATTRIBUTION\": \"\"}, \"ANNEE\": \"2019\", \"NUM_PARUTION\": \"040\", \"NUM_ANNONCE\": \"091837\", \"DATE_PUBLICATION\": \"2019-02-26\"}}}, \"ATTRIBUTION\": {\"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"19001\", \"TITULAIRE\": [{\"DENOMINATION\": \"SARTEL THD\", \"ADRESSE\": \"2, allée des Gémeaux\", \"CP\": \"72100\", \"VILLE\": \"Le Mans\", \"CODE_NUTS\": \"FRG04\", \"PME_NON\": \"\"}, {\"DENOMINATION\": \"AXIONE INFRASTRUCTURES\", \"ADRESSE\": \"19 rue Stephenson\", \"CP\": \"78180\", \"VILLE\": \"Montigny le Bretonneux\", \"CODE_NUTS\": \"FR103\", \"PME_NON\": \"\"}, {\"DENOMINATION\": \"AXIONE\", \"ADRESSE\": \"130 Boulevard Camélinat\", \"CP\": \"92240\", \"VILLE\": \"Malakoff\", \"CODE_NUTS\": \"FR105\", \"PME_NON\": \"\"}, {\"DENOMINATION\": \"BOUYGUES ENERGIES ET SERVICES\", \"ADRESSE\": \"19 rue Stephenson\", \"CP\": \"78180\", \"VILLE\": \"Montigny le Bretonneux\", \"CODE_NUTS\": \"FR103\", \"PME_NON\": \"\"}, {\"DENOMINATION\": \"BEE INVEST 72\", \"ADRESSE\": \"19 rue Stephenson\", \"CP\": \"78180\", \"VILLE\": \"Montigny le Bretonneux\", \"CODE_NUTS\": \"FR103\", \"PME_NON\": \"\"}], \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-01-09\", \"GROUPEMENT_ECONOMIQUE\": \"\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"932000000\"}}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La convention est entrée en vigueur dès sa notification le 9 janvier 2019 pour une durée de 30 ans. L'attributaire est un groupement d'entreprises composés des 4 sociétés suivantes : Axione Infrastructures, Axione, Bouygues Energies et Services et BEE Invest 72. Date d'envoi du présent avis au JOUE et au BOAMP : 25 novembre 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"- référé précontractuel depuis le début de la procédure de passation jusqu'à la signature du contrat, devant le juge des référés précontractuels du tribunal administratif (article L.551-1 du Code de Justice Administrative); - référé-suspension avant la signature du marché contre les actes détachables du contrat, devant le juge des référés précontractuels du tribunal administratif (article L.521-1 du Code de Justice Administrative); - référé contractuel devant le tribunal administratif dans un délai de 30 jours calendaires à compter du lendemain du jour de publication de l'avis d'attribution (article R551-7 du Code de Justice Administrative); - recours pour excès de pouvoir devant le tribunal administratif, dans un délai de deux mois à compter de la publication ou de la notification de la décision ou de l'acte attaqué (article R.421-1 du Code de Justice Administrative); - recours en indemnisation (article R.421-3 du Code de Justice Administrative); - recours de pleine juridiction formé contre la validité du contrat ou certaines de ses clauses qui en sont divisibles dans le délai de deux mois à compter de la parution de l'avis d'attribution (Ce, ass. 16 juillet 2007, no291545, Sté Tropic travaux signalisation)\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif inter-régional du règlement amiable des litiges\", \"ADRESSE\": \"8 rue Chateaubriand\", \"CP\": \"44000\", \"VILLE\": \"Nantes\"}]}}, \"MODIF\": {\"CPV\": [{\"PRINCIPAL\": \"64200000\"}, {\"PRINCIPAL\": \"32412100\"}], \"CODE_NUTS\": \"FRG04\", \"LIEU_PRINCIPAL\": \"Territoire Sarthois\", \"DESCRIPTION\": \"Concession de travaux et de services pour le financement, la construction, la maintenance et l'exploitation de boucles locales optiques de dessertes à l'usager final sur le territoire de la Sarthe\", \"DUREE_MOIS\": \"300\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"932000000\"}, \"GROUPEMENT_ECONOMIQUE\": \"\", \"TITULAIRE\": [{\"DENOMINATION\": \"SARTEL THD\", \"ADRESSE\": \"2, allée des Gémeaux\", \"CP\": \"72100\", \"VILLE\": \"Le Mans\", \"CODE_NUTS\": \"FRG04\", \"PME_NON\": \"\"}, {\"DENOMINATION\": \"AXIONE INFRASTRUCTURES\", \"ADRESSE\": \"19 rue Stephenson\", \"CP\": \"78180\", \"VILLE\": \"Montigny le Bretonneux\", \"CODE_NUTS\": \"FR103\", \"PME_NON\": \"\"}, {\"DENOMINATION\": \"AXIONE\", \"ADRESSE\": \"130 Boulevard Camélinat\", \"CP\": \"92240\", \"VILLE\": \"Malakoff\", \"CODE_NUTS\": \"FR105\", \"PME_NON\": \"\"}, {\"DENOMINATION\": \"BOUYGUES ENERGIES ET SERVICES\", \"ADRESSE\": \"19 rue Stephenson\", \"CP\": \"78180\", \"VILLE\": \"Montigny le Bretonneux\", \"CODE_NUTS\": \"FR103\", \"PME_NON\": \"\"}, {\"DENOMINATION\": \"BBE INVEST 72\", \"ADRESSE\": \"19 rue Stephenson\", \"CP\": \"78180\", \"VILLE\": \"Montigny le Bretonneux\", \"CODE_NUTS\": \"FR103\", \"PME_NON\": \"\"}], \"DESC_MODIF\": \"Le présent avenant no1 à la convention a pour objet : - d'affermir de manière anticipée la Mission no4 prévue à l'article 17 de la Convention et d'adapter certaines clauses s'y rapportant ; - d'introduire un mécanisme de participation publique aux coûts de raccordement des entreprises non-éligibles aux offres d'accès FTTH du Délégataire sur le territoire de la Sarthe ; - d'actualiser le plan d'affaires de la Convention compte tenu de l'affermissement anticipée de la Mission 4 ; - de modifier la dénomination, la fréquence et la composition des comités visés aux articles 39 et 40 de la Convention ; - de modifier le catalogue de service de la Convention. Cet avenant a été notifié le 8 octobre 2019.\", \"BESOIN_TVX\": \"La reprise anticipée de l'exploitation du réseau Sartel par le concessionnaire SARTEL THD était une option prévue dans le contrat initial. L'augmentation de la valeur du contrat est juste la conséquence de la mise en uvre de cette disposition contractuelle.\", \"VALEUR_AVT\": {\"@DEVISE\": \"EUR\", \"#text\": \"932000000\"}, \"VALEUR_APR\": {\"@DEVISE\": \"EUR\", \"#text\": \"969070203\"}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-172745"
   },
   {
    "idweb": "19-178528",

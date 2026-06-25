@@ -697,70 +697,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-82529"
   },
   {
-   "idweb": "22-82130",
-   "id": "22_82130",
-   "contractfolderid": null,
-   "objet": "impression OFFSET, Lot multi-attributaires. * Lot 2 : impression numérique, départements 44-85. Lot mono-attributaire. * Lot 3 : impression numérique, - départements 49-53-72. Lot mono-attributaire",
-   "filename": "BOAMP-J-AO_2022_166003",
-   "famille": "JOUE",
-   "code_departement": [
-    "49"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2022-06-15",
-   "datefindiffusion": "2022-10-18",
-   "datelimitereponse": null,
-   "nomacheteur": "Chambre Agriculture Pays de la Loire",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": [
-    "environnementaux"
-   ],
-   "marche_public_simplifie": "1",
-   "marche_public_simplifie_label": "Marché public simplifié",
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "160",
-    "305"
-   ],
-   "dc": [
-    "160",
-    "305"
-   ],
-   "descripteur_libelle": [
-    "Impression",
-    "Reprographie"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v240.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"22-82130\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"22-82130.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2022-06-15\", \"DATE_FIN_DIFFUSION\": \"2022-10-18\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"160\", \"LIBELLE\": \"Impression\"}, {\"CODE\": \"305\", \"LIBELLE\": \"Reprographie\"}]}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"impression OFFSET, Lot multi-attributaires. * Lot 2 : impression numérique, départements 44-85. Lot mono-attributaire. * Lot 3 : impression numérique, - départements 49-53-72. Lot mono-attributaire\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Chambre Agriculture Pays de la Loire\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"9 RUE ANDRE BROUARD\", \"CP\": \"49100\", \"VILLE\": \"Angers\", \"TEL\": \"(+33) 2-41-96-77-81\", \"MEL\": \"valerie.belz@pl.chambagri.fr\", \"URL\": \"http://www.paysdelaloire.chambagri.fr\", \"URL_PROFIL_ACHETEUR\": \"http://chambre-agriculture-pdl.e-marchespublics.com\", \"URL_PARTICIPATION\": \"http://chambre-agriculture-pdl.e-marchespublics.com\", \"URL_DOCUMENT\": \"http://chambre-agriculture-pdl.e-marchespublics.com\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Etat\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Agriculture\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Marché de fournitures et de services de communication et d'impression\", \"REF_MARCHE\": \"2022-01SCM\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"La présente consultation porte sur la sélection d'attributaires pour : * Lot 1 : impression OFFSET, façonnage, fabrication et livraison de supports de communication. Lot multi-attributaires. * Lot 2 : impression numérique, travaux de reprographie, façonnage et livraison de documents - départements 44-85. Lot mono-attributaire sur la base d'un BPU. * Lot 3 : impression numérique, travaux de reprographie, façonnage et livraison de documents - départements 49-53-72. Lot mono-attributaire sur la base d'un BPU.\", \"CPV\": {\"PRINCIPAL\": \"79810000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"440000\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Impression OFFSET, façonnage, fabrication et livraison de supports de communication. Lot multi-attributaire\", \"DESCRIPTION\": \"Impression OFFSET, façonnage, fabrication et livraison de supports de communication. Lot multi-attributaire\", \"CPV\": {\"PRINCIPAL\": \"30122100\"}, \"CODE_NUTS\": \"FRG02\", \"LIEU_PRINCIPAL\": \"Angers (49)\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"240000\"}, \"DATE_DEBUT\": \"2022-09-19\", \"DATE_FIN\": \"2024-09-18\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le lot 1 comporte une reconduction.\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Impression numérique, travaux de reprographie, façonnage et livraison de documents. départements 44-85 - lot mono-attributaire sur la base d'un BPU\", \"DESCRIPTION\": \"Impression numérique, travaux de reprographie, façonnage et livraison de documents - départements 44-85. Lot mono-attributaire sur la base d'un BPU\", \"CPV\": {\"PRINCIPAL\": \"79520000\"}, \"CODE_NUTS\": [\"FRG\", \"FRG05\"], \"LIEU_PRINCIPAL\": \"Nantes (44)La Roche sur Yon (85)\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"100000\"}, \"DATE_DEBUT\": \"2022-09-19\", \"DATE_FIN\": \"2024-09-18\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le lot 2 comporte une reconduction.\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Impression numérique, travaux de reprographie, façonnage et livraison de documents. départements 49-53-72 - lot mono-attributaire sur la base d'un BPU\", \"DESCRIPTION\": \"Impression numérique, travaux de reprographie, façonnage et livraison de documents - départements 49-53-72. Lot mono-attributaire sur la base d'un BPU\", \"CPV\": {\"PRINCIPAL\": \"79520000\"}, \"CODE_NUTS\": [\"FRG02\", \"FRG03\", \"FRG04\"], \"LIEU_PRINCIPAL\": \"Nantes (44)La Roche sur Yon (85)\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"100000\"}, \"DATE_DEBUT\": \"2022-09-19\", \"DATE_FIN\": \"2024-09-18\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le lot 3 comporte une reconduction.\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"PLUSIEURS_OPERATEURS\": \"\", \"NB_MAX_PARTICIPANTS\": \"4\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2022-07-18T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"PERS_OUVERTURE_OFFRES_OUI\": \"Pôle achats et moyens généraux\", \"DATE_OUVERTURE_OFFRES\": \"2022-07-19\", \"LIEU_OUVERTURE_OFFRES\": \"Chambre d'agriculture Pays de la Loire - Angers (49)\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 13 juin 2022.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"NANTES Cedex\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"NANTES Cedex\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-82130"
-  },
-  {
    "idweb": "22-83859",
    "id": "22_83859",
    "contractfolderid": null,
@@ -833,6 +769,70 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"22-83859\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": [{\"REFERENCE\": {\"IDWEB\": \"22-9157\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2022-01-18\"}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2022-01-18\", \"DATE_FIN_DIFFUSION\": \"2022-02-11\"}}}, {\"REFERENCE\": {\"IDWEB\": \"22-20576\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}, \"DATE_ENVOI\": \"2022-02-09\"}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2022-02-09\", \"DATE_FIN_DIFFUSION\": \"2022-02-19\"}}}]}, \"NOM_HTML\": \"22-83859.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2022-06-15\", \"DATE_FIN_DIFFUSION\": \"2022-09-12\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"57\", \"LIBELLE\": \"Charpente\"}, {\"CODE\": \"63\", \"LIBELLE\": \"Cloison, faux plafond\"}, {\"CODE\": \"222\", \"LIBELLE\": \"Menuiserie\"}, {\"CODE\": \"341\", \"LIBELLE\": \"Terrassement\"}, {\"CODE\": \"360\", \"LIBELLE\": \"Ventilation\"}]}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Construction d'une école primaire\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"COMMUNE DE LA JAILLE YVON\", \"TYPE_IDENT_NATIONAL\": {\"SIRET\": \"\"}, \"CODE_IDENT_NATIONAL\": \"21490161300015\", \"CP\": \"49220\", \"VILLE\": \"La Jaille -Yvon\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"OBJET\": {\"TITRE_MARCHE\": \"Construction d'une école primaire\", \"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"Chaque lot fera l'objet d'une attribution séparée\", \"CPV\": {\"PRINCIPAL\": \"45214210\"}, \"TRANCHE_NON\": \"\", \"MARCHE_RESERVE_NON\": \"\"}, \"PROCEDURE\": {\"TECH_ACHAT\": {\"ACCORD_CADRE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_LIBRE\": \"énoncé dans le Rc\"}}, \"ATTRIBUTION\": \"\", \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Lot N° 01 - Gros-Oeuvre Gros-OeuvreNombre d'offres reçues : 2Date d'attribution : 26/04/22Marché no : 22jy001-01Sum Constructions, 3 rue de Eglantiers, 49460 Cantenay-EpinardMontant Ht : 99 126,60 EurosLot N° 02 - Charpente Bois Charpente BoisNombre d'offres reçues : 2Date d'attribution : 26/04/22Marché no : 22jy001-02Sas Renou, 11 rue des Fontaines, 49170 Saint-Georges-sur-LoireMontant Ht : 14 000,00 EurosLot N° 03 - Couverture Multicouche - Zinguerie Couverture Multicouche - ZinguerieNombre d'offres reçues : 3Date d'attribution : 26/04/22Marché no : 22jy001-03Cruard Couverture Sas, 3 rue des Sports, 53360 SimpléMontant Ht : 35 200,16 EurosLot N° 04 - Menuiseries Exterieures Pvc Et Aluminium Menuiseries Exterieures Pvc Et AluminiumNombre d'offres reçues : 5Date d'attribution : 26/04/22Marché no : 22jy001-04Atlantique Ouvertures, Za des Iv Nations, 44360 Vigneux-de-BretagneMontant Ht : 25 691,00 EurosLot N° 05 - Menuiseries Interieures Bois Menuiseries Interieures BoisNombre d'offres reçues : 2Date d'attribution : 26/04/22Marché no : 22jy001-05Sigma, 2 rue Jean Monnet, 49500 SegréMontant Ht : 18 500,00 EurosLot N° 06 - Isolation - Doublages - Plafonds - Cloisons Seches Isolation - Doublages - Plafonds - Cloisons SechesNombre d'offres reçues : 6Date d'attribution : 26/04/22Marché no : 22jy001-06Mf2p, 27, rue Félix Marchand, 53200 Saint-FortMontant Ht : 31 300,00 EurosLot N° 07 - Electricite - Chauffage Electricite - ChauffageNombre d'offres reçues : 3Date d'attribution : 26/04/22Marché no : 22jy001-07Sarl Ets Aubert, 3 rue Chauviniere, 53200 Saint-FortMontant Ht : 49 300,18 EurosLot N° 08 - Plomberie - Sanitaires - V.M.C. Plomberie - Sanitaires - V.M.C.Nombre d'offres reçues : 1Date d'attribution : 26/04/22Marché no : 22jy001-08Societe Nouvelle Dormet, 8 Rue Gutenberg / Zi Ouest De Bazouges, 53200 Château-GontierMontant Ht : 40 607,89 EurosLot N° 09 - Carrelage - Faience Carrelage - FaienceNombre d'offres reçues : 3Date d'attribution : 26/04/22Marché no : 22jy001-09Sas Maleinge, 59 Bis Avenue De Bon Air, 49110 Saint-Pierre-MontlimartMontant Ht : 21 300,00 EurosLot N° 10 - Peinture PeintureNombre d'offres reçues : 5Date d'attribution : 26/04/22Marché no : 22jy001-10Gerault, 16 rue André Citroën - Zone du Millénium 2, 53940 Saint-BerthevinMontant Ht : 6 746,96 EurosLot N° 11 - Terrassements - Voirie Reseaux Divers Terrassements - Voirie Reseaux DiversNombre d'offres reçues : 3Date d'attribution : 26/04/22Marché no : 22jy001-11S.A.S., Za De La Chesnaie, 49220 PruilléMontant Ht : 75 399,50 Euros\"}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-83859"
+  },
+  {
+   "idweb": "22-82130",
+   "id": "22_82130",
+   "contractfolderid": null,
+   "objet": "impression OFFSET, Lot multi-attributaires. * Lot 2 : impression numérique, départements 44-85. Lot mono-attributaire. * Lot 3 : impression numérique, - départements 49-53-72. Lot mono-attributaire",
+   "filename": "BOAMP-J-AO_2022_166003",
+   "famille": "JOUE",
+   "code_departement": [
+    "49"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2022-06-15",
+   "datefindiffusion": "2022-10-18",
+   "datelimitereponse": null,
+   "nomacheteur": "Chambre Agriculture Pays de la Loire",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": [
+    "environnementaux"
+   ],
+   "marche_public_simplifie": "1",
+   "marche_public_simplifie_label": "Marché public simplifié",
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "160",
+    "305"
+   ],
+   "dc": [
+    "160",
+    "305"
+   ],
+   "descripteur_libelle": [
+    "Impression",
+    "Reprographie"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v240.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"22-82130\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"22-82130.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2022-06-15\", \"DATE_FIN_DIFFUSION\": \"2022-10-18\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"160\", \"LIBELLE\": \"Impression\"}, {\"CODE\": \"305\", \"LIBELLE\": \"Reprographie\"}]}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"impression OFFSET, Lot multi-attributaires. * Lot 2 : impression numérique, départements 44-85. Lot mono-attributaire. * Lot 3 : impression numérique, - départements 49-53-72. Lot mono-attributaire\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Chambre Agriculture Pays de la Loire\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"9 RUE ANDRE BROUARD\", \"CP\": \"49100\", \"VILLE\": \"Angers\", \"TEL\": \"(+33) 2-41-96-77-81\", \"MEL\": \"valerie.belz@pl.chambagri.fr\", \"URL\": \"http://www.paysdelaloire.chambagri.fr\", \"URL_PROFIL_ACHETEUR\": \"http://chambre-agriculture-pdl.e-marchespublics.com\", \"URL_PARTICIPATION\": \"http://chambre-agriculture-pdl.e-marchespublics.com\", \"URL_DOCUMENT\": \"http://chambre-agriculture-pdl.e-marchespublics.com\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Etat\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Agriculture\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Marché de fournitures et de services de communication et d'impression\", \"REF_MARCHE\": \"2022-01SCM\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"La présente consultation porte sur la sélection d'attributaires pour : * Lot 1 : impression OFFSET, façonnage, fabrication et livraison de supports de communication. Lot multi-attributaires. * Lot 2 : impression numérique, travaux de reprographie, façonnage et livraison de documents - départements 44-85. Lot mono-attributaire sur la base d'un BPU. * Lot 3 : impression numérique, travaux de reprographie, façonnage et livraison de documents - départements 49-53-72. Lot mono-attributaire sur la base d'un BPU.\", \"CPV\": {\"PRINCIPAL\": \"79810000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"440000\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Impression OFFSET, façonnage, fabrication et livraison de supports de communication. Lot multi-attributaire\", \"DESCRIPTION\": \"Impression OFFSET, façonnage, fabrication et livraison de supports de communication. Lot multi-attributaire\", \"CPV\": {\"PRINCIPAL\": \"30122100\"}, \"CODE_NUTS\": \"FRG02\", \"LIEU_PRINCIPAL\": \"Angers (49)\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"240000\"}, \"DATE_DEBUT\": \"2022-09-19\", \"DATE_FIN\": \"2024-09-18\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le lot 1 comporte une reconduction.\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Impression numérique, travaux de reprographie, façonnage et livraison de documents. départements 44-85 - lot mono-attributaire sur la base d'un BPU\", \"DESCRIPTION\": \"Impression numérique, travaux de reprographie, façonnage et livraison de documents - départements 44-85. Lot mono-attributaire sur la base d'un BPU\", \"CPV\": {\"PRINCIPAL\": \"79520000\"}, \"CODE_NUTS\": [\"FRG\", \"FRG05\"], \"LIEU_PRINCIPAL\": \"Nantes (44)La Roche sur Yon (85)\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"100000\"}, \"DATE_DEBUT\": \"2022-09-19\", \"DATE_FIN\": \"2024-09-18\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le lot 2 comporte une reconduction.\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Impression numérique, travaux de reprographie, façonnage et livraison de documents. départements 49-53-72 - lot mono-attributaire sur la base d'un BPU\", \"DESCRIPTION\": \"Impression numérique, travaux de reprographie, façonnage et livraison de documents - départements 49-53-72. Lot mono-attributaire sur la base d'un BPU\", \"CPV\": {\"PRINCIPAL\": \"79520000\"}, \"CODE_NUTS\": [\"FRG02\", \"FRG03\", \"FRG04\"], \"LIEU_PRINCIPAL\": \"Nantes (44)La Roche sur Yon (85)\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"100000\"}, \"DATE_DEBUT\": \"2022-09-19\", \"DATE_FIN\": \"2024-09-18\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le lot 3 comporte une reconduction.\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"PLUSIEURS_OPERATEURS\": \"\", \"NB_MAX_PARTICIPANTS\": \"4\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2022-07-18T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"PERS_OUVERTURE_OFFRES_OUI\": \"Pôle achats et moyens généraux\", \"DATE_OUVERTURE_OFFRES\": \"2022-07-19\", \"LIEU_OUVERTURE_OFFRES\": \"Chambre d'agriculture Pays de la Loire - Angers (49)\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 13 juin 2022.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"NANTES Cedex\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"NANTES Cedex\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-82130"
   },
   {
    "idweb": "22-82710",
@@ -2230,65 +2230,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-85384"
   },
   {
-   "idweb": "22-84090",
-   "id": "22_84090",
-   "contractfolderid": null,
-   "objet": "Prestation de services en assurance",
-   "filename": "BOAMP-J-AO_2022_168009",
-   "famille": "JOUE",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2022-06-17",
-   "datefindiffusion": "2022-09-12",
-   "datelimitereponse": null,
-   "nomacheteur": "CDC du Pays des Brières et du Gesnois",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "20"
-   ],
-   "dc": [
-    "20"
-   ],
-   "descripteur_libelle": [
-    "Assurance"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v240.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"22-84090\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"22-84090.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2022-06-17\", \"DATE_FIN_DIFFUSION\": \"2022-09-12\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"20\", \"LIBELLE\": \"Assurance\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Prestation de services en assurance\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CDC du Pays des Brières et du Gesnois\", \"CODE_IDENT_NATIONAL\": \"24720041300018\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"Parc des Sittelles\", \"CP\": \"72450\", \"VILLE\": \"Montfort-le-Gesnois\", \"TEL\": \"(+33) 2-43-54-80-40\", \"MEL\": \"contact@cc-gesnoisbilurien.fr\", \"URL\": \"http://cc-gesnoisbilurien.fr/\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.info/\", \"URL_PARTICIPATION\": \"http://www.marches-publics.info/\", \"URL_DOCUMENT\": \"http://www.marches-publics.info/\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"autre\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Prestation de services en assurance\", \"REF_MARCHE\": \"2022-03\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"La présente consultation a pour objet la souscription et la gestion de contrats d'assurances\", \"CPV\": {\"PRINCIPAL\": \"66510000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_UN\": \"\"}, \"NB_LOT_ATTRIB_MAX\": \"5\", \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Dommages aux biens et risques annexes\", \"DESCRIPTION\": \"Dommages aux biens et risques annexes\", \"CPV\": {\"PRINCIPAL\": \"66500000\"}, \"CODE_NUTS\": \"FRG04\", \"LIEU_PRINCIPAL\": \"Parc des Sittelles 72450 - Montfort le Gesnois\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"70\", \"#text\": \"valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"30\"}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"23200\"}, \"DATE_DEBUT\": \"2023-01-01\", \"DATE_FIN\": \"2026-12-31\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Responsabilité civile générale et risques annexes\", \"DESCRIPTION\": \"Responsabilité civile générale et risques annexes\", \"CPV\": {\"PRINCIPAL\": \"66516000\"}, \"CODE_NUTS\": \"FRG04\", \"LIEU_PRINCIPAL\": \"Parc des Sittelles 72450 - Montfort le Gesnois\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"70\", \"#text\": \"valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"30\"}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"11500\"}, \"DATE_DEBUT\": \"2023-01-01\", \"DATE_FIN\": \"2026-12-31\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Protection juridique et risques annexes\", \"DESCRIPTION\": \"Protection juridique et risques annexes\", \"CPV\": {\"PRINCIPAL\": \"66513100\"}, \"CODE_NUTS\": \"FRG04\", \"LIEU_PRINCIPAL\": \"Parc des Sittelles 72450 - Montfort le Gesnois\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"70\", \"#text\": \"valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"30\"}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"4800\"}, \"DATE_DEBUT\": \"2023-01-01\", \"DATE_FIN\": \"2026-12-31\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"4\", \"INTITULE\": \"Assurances véhicules à moteur et risques annexes\", \"DESCRIPTION\": \"Assurances véhicules à moteur et risques annexes\", \"CPV\": {\"PRINCIPAL\": \"66514110\"}, \"CODE_NUTS\": \"FRG04\", \"LIEU_PRINCIPAL\": \"Parc des Sittelles 72450 - Montfort le Gesnois\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"70\", \"#text\": \"valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"30\"}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"30000\"}, \"DATE_DEBUT\": \"2023-01-01\", \"DATE_FIN\": \"2026-12-31\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"5\", \"INTITULE\": \"Assurance du personnel et risques statutaires\", \"DESCRIPTION\": \"Assurance du personnel et risques statutaires\", \"CPV\": {\"PRINCIPAL\": \"66512000\"}, \"CODE_NUTS\": \"FRG04\", \"LIEU_PRINCIPAL\": \"Parc des Sittelles 72450 - Montfort le Gesnois\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"70\", \"#text\": \"valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"30\"}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"450000\"}, \"DATE_DEBUT\": \"2023-01-01\", \"DATE_FIN\": \"2026-12-31\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2022-09-21T17:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Pour les assureurs : agréments ministériels en cours de validité relatifs à la garantie des risques objet du marchéPour les intermédiaires : inscriptions auprès de l'Orias en cours de validité\", \"CAP_ECO\": \"Déclaration concernant le chiffre d'affaires global réalisé au cours des trois derniers exercices disponiblesPreuve d'une assurance de responsabilité civile professionnelle\", \"CAP_TECH\": \"Liste des principaux services fournis au cours des 3 dernières années, indiquant le montant, la date et le destinataire public ou privé. Les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration du candidat\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_OUI\": \"Références des dispositions législatives, règlementaires ou administratives applicables : Code des Assurances\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2022-09-22\", \"LIEU_OUVERTURE_OFFRES\": \"Montfort le gesnois\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.marches-publics.info -. Date d'envoi du présent avis au JOUE et au BOAMP : 15 juin 2022.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-84090"
-  },
-  {
    "idweb": "22-85631",
    "id": "22_85631",
    "contractfolderid": null,
@@ -2349,21 +2290,21 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-85631"
   },
   {
-   "idweb": "22-83892",
-   "id": "22_83892",
+   "idweb": "22-84090",
+   "id": "22_84090",
    "contractfolderid": null,
-   "objet": "Prestation de service pour la gestion des services d'accueil de la petite enfance.",
+   "objet": "Prestation de services en assurance",
    "filename": "BOAMP-J-AO_2022_168009",
    "famille": "JOUE",
    "code_departement": [
-    "49"
+    "72"
    ],
    "code_departement_prestation": null,
    "famille_libelle": "Marchés européens",
    "dateparution": "2022-06-17",
-   "datefindiffusion": "2022-09-05",
+   "datefindiffusion": "2022-09-12",
    "datelimitereponse": null,
-   "nomacheteur": "COMMUNE DE LOIRE AUTHION",
+   "nomacheteur": "CDC du Pays des Brières et du Gesnois",
    "titulaire": null,
    "perimetre": "DIRECTIVE-24",
    "type_procedure": "OUVERT",
@@ -2381,13 +2322,13 @@
    "marche_public_simplifie_label": null,
    "etat": "INITIAL",
    "descripteur_code": [
-    "274"
+    "20"
    ],
    "dc": [
-    "274"
+    "20"
    ],
    "descripteur_libelle": [
-    "Prestations de services"
+    "Assurance"
    ],
    "type_marche": [
     "SERVICES"
@@ -2400,14 +2341,12 @@
     "1",
     ""
    ],
-   "annonce_lie": [
-    "22-67298"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"22-67298\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"PRE-INFORMATION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2022-05-11\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2022-05-13\", \"DATE_FIN_DIFFUSION\": \"2022-06-20\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2022\", \"NUM_PARUTION\": \"094\", \"NUM_ANNONCE\": \"259582\", \"DATE_PUBLICATION\": \"2022-05-16\"}}]}",
+   "annonce_lie": null,
+   "annonces_anterieures": null,
    "source_schema": "Boamp_v240.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"22-83892\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"22-67298\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"PRE-INFORMATION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2022-05-11\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2022-05-13\", \"DATE_FIN_DIFFUSION\": \"2022-06-20\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2022\", \"NUM_PARUTION\": \"094\", \"NUM_ANNONCE\": \"259582\", \"DATE_PUBLICATION\": \"2022-05-16\"}}]}}, \"NOM_HTML\": \"22-83892.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2022-06-17\", \"DATE_FIN_DIFFUSION\": \"2022-09-05\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Prestation de service pour la gestion des services d'accueil de la petite enfance.\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"COMMUNE DE LOIRE AUTHION\", \"CODE_IDENT_NATIONAL\": \"80385661600013\", \"CONTACT\": \"Mairie de Loire-Authion\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"24/26 Levée Jeanne de Laval Saint-Mathurin-sur-Loire\", \"CP\": \"49250\", \"VILLE\": \"Loire-Authion\", \"TEL\": \"(+33) 2-41-57-36-08\", \"MEL\": \"marches@loire-authion.fr\", \"URL\": \"https://loire-authion.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-securises.fr/\", \"URL_PARTICIPATION\": \"https://www.marches-securises.fr/\", \"URL_DOCUMENT\": \"https://www.marches-securises.fr/\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Prestation de service pour la gestion des services d'accueil de la petite enfance.\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Prestation de service pour la gestion des services d'accueil de la petite enfance.Les missions confiées au prestataire portent sur la gestion de 4 équipements : Deux Multi-accueilsLe Relais Petite Enfance Le Lieu d'Accueil Enfants-Parents (LAEP)\", \"CPV\": {\"PRINCIPAL\": \"85312110\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Prestation de service pour la gestion des services d'accueil de la petite enfance.\", \"CPV\": {\"PRINCIPAL\": \"85312110\"}, \"CODE_NUTS\": \"FRG02\", \"LIEU_PRINCIPAL\": \"Territoire de la Ville de Loire-Authion.\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Marché d'une durée initiale de 4 ans reconductible une fois 4 ans soit une durée totale de 8 ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Reprise de personnel Visites de sites\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"période initiale de 4 ans renouvelable une fois 4 ans soit 8 ans\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2022\", \"NUM_PARUTION\": \"094\", \"NUM_ANNONCE\": \"259582\"}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2022-09-05T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO_MARCHE_OUI\": \"\", \"CAP_TECH_OFFRE_OUI\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2022-09-05\", \"LIEU_OUVERTURE_OFFRES\": \"Loire-Authion\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_OUI\": \"\", \"RENS_COMPLEMENT\": \"Reprise du personnel Visite des sites obligatoire avant la remise de l'offre. Date d'envoi du présent avis au JOUE et au BOAMP : 15 juin 2022.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 Allée de l'île Gloriette BP24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES Cedex 1\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"https://controle.infogreffe.fr/greffe-tribunal/greffe-nantes.html\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional région\", \"ADRESSE\": \"22 mail Pablo Picasso - BP 24209\", \"CP\": \"44042\", \"VILLE\": \"NANTES Cedex 1\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"https://pays-de-la-loire.dreets.gouv.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-83892"
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"22-84090\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"22-84090.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2022-06-17\", \"DATE_FIN_DIFFUSION\": \"2022-09-12\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"20\", \"LIBELLE\": \"Assurance\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Prestation de services en assurance\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CDC du Pays des Brières et du Gesnois\", \"CODE_IDENT_NATIONAL\": \"24720041300018\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"Parc des Sittelles\", \"CP\": \"72450\", \"VILLE\": \"Montfort-le-Gesnois\", \"TEL\": \"(+33) 2-43-54-80-40\", \"MEL\": \"contact@cc-gesnoisbilurien.fr\", \"URL\": \"http://cc-gesnoisbilurien.fr/\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.info/\", \"URL_PARTICIPATION\": \"http://www.marches-publics.info/\", \"URL_DOCUMENT\": \"http://www.marches-publics.info/\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"autre\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Prestation de services en assurance\", \"REF_MARCHE\": \"2022-03\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"La présente consultation a pour objet la souscription et la gestion de contrats d'assurances\", \"CPV\": {\"PRINCIPAL\": \"66510000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_UN\": \"\"}, \"NB_LOT_ATTRIB_MAX\": \"5\", \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Dommages aux biens et risques annexes\", \"DESCRIPTION\": \"Dommages aux biens et risques annexes\", \"CPV\": {\"PRINCIPAL\": \"66500000\"}, \"CODE_NUTS\": \"FRG04\", \"LIEU_PRINCIPAL\": \"Parc des Sittelles 72450 - Montfort le Gesnois\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"70\", \"#text\": \"valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"30\"}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"23200\"}, \"DATE_DEBUT\": \"2023-01-01\", \"DATE_FIN\": \"2026-12-31\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Responsabilité civile générale et risques annexes\", \"DESCRIPTION\": \"Responsabilité civile générale et risques annexes\", \"CPV\": {\"PRINCIPAL\": \"66516000\"}, \"CODE_NUTS\": \"FRG04\", \"LIEU_PRINCIPAL\": \"Parc des Sittelles 72450 - Montfort le Gesnois\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"70\", \"#text\": \"valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"30\"}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"11500\"}, \"DATE_DEBUT\": \"2023-01-01\", \"DATE_FIN\": \"2026-12-31\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Protection juridique et risques annexes\", \"DESCRIPTION\": \"Protection juridique et risques annexes\", \"CPV\": {\"PRINCIPAL\": \"66513100\"}, \"CODE_NUTS\": \"FRG04\", \"LIEU_PRINCIPAL\": \"Parc des Sittelles 72450 - Montfort le Gesnois\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"70\", \"#text\": \"valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"30\"}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"4800\"}, \"DATE_DEBUT\": \"2023-01-01\", \"DATE_FIN\": \"2026-12-31\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"4\", \"INTITULE\": \"Assurances véhicules à moteur et risques annexes\", \"DESCRIPTION\": \"Assurances véhicules à moteur et risques annexes\", \"CPV\": {\"PRINCIPAL\": \"66514110\"}, \"CODE_NUTS\": \"FRG04\", \"LIEU_PRINCIPAL\": \"Parc des Sittelles 72450 - Montfort le Gesnois\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"70\", \"#text\": \"valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"30\"}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"30000\"}, \"DATE_DEBUT\": \"2023-01-01\", \"DATE_FIN\": \"2026-12-31\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"5\", \"INTITULE\": \"Assurance du personnel et risques statutaires\", \"DESCRIPTION\": \"Assurance du personnel et risques statutaires\", \"CPV\": {\"PRINCIPAL\": \"66512000\"}, \"CODE_NUTS\": \"FRG04\", \"LIEU_PRINCIPAL\": \"Parc des Sittelles 72450 - Montfort le Gesnois\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"70\", \"#text\": \"valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"30\"}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"450000\"}, \"DATE_DEBUT\": \"2023-01-01\", \"DATE_FIN\": \"2026-12-31\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2022-09-21T17:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Pour les assureurs : agréments ministériels en cours de validité relatifs à la garantie des risques objet du marchéPour les intermédiaires : inscriptions auprès de l'Orias en cours de validité\", \"CAP_ECO\": \"Déclaration concernant le chiffre d'affaires global réalisé au cours des trois derniers exercices disponiblesPreuve d'une assurance de responsabilité civile professionnelle\", \"CAP_TECH\": \"Liste des principaux services fournis au cours des 3 dernières années, indiquant le montant, la date et le destinataire public ou privé. Les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration du candidat\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_OUI\": \"Références des dispositions législatives, règlementaires ou administratives applicables : Code des Assurances\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2022-09-22\", \"LIEU_OUVERTURE_OFFRES\": \"Montfort le gesnois\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.marches-publics.info -. Date d'envoi du présent avis au JOUE et au BOAMP : 15 juin 2022.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-84090"
   },
   {
    "idweb": "22-85667",
@@ -2528,6 +2467,67 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"22-85640\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"22-79931\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2022-06-07\"}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2022-06-07\", \"DATE_FIN_DIFFUSION\": \"2022-06-16\"}}}}, \"NOM_HTML\": \"22-85640.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2022-06-17\", \"DATE_FIN_DIFFUSION\": \"2022-09-14\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"443\", \"LIBELLE\": \"Electricité, gaz (fourniture)\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Le marché a pour objet la fourniture et la distribution d'énergie électrique des 4 sites de l'Epcc les Quinconces & L'espal\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"EPCC Les Quinconces & L'Espal\", \"TYPE_IDENT_NATIONAL\": {\"SIRET\": \"\"}, \"CODE_IDENT_NATIONAL\": \"89982886700015\", \"CP\": \"72000\", \"VILLE\": \"Le Mans\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"OBJET\": {\"TITRE_MARCHE\": \"Le marché a pour objet la fourniture et la distribution d'énergie électrique des 4 sites de l'Epcc les Quinconces & L'espal\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Fourniture d'énergie électrique pour l'ensemble des points de livraison inclus dans le périmètre du marché (C2 à C5);Distribution d'électricité dans le cadre des sites bénéficiant des Contrats Uniques;Prestation de Responsable d'Equilibre;Mise à disposition d'un outil permettant le suivi des consommations et de la facturation des sites via une interface Web;La fourniture d'énergie électrique débute le 1er juillet 2022 et s'achève le 1er Janvier 2023\", \"CPV\": {\"PRINCIPAL\": \"09310000\"}, \"TRANCHE_NON\": \"\", \"MARCHE_RESERVE_NON\": \"\"}, \"PROCEDURE\": {\"TECH_ACHAT\": {\"ACCORD_CADRE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_LIBRE\": \"énoncé dans le Rc\"}}, \"ATTRIBUTION\": \"\", \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Nombre d'offres reçues : 1Date d'attribution : 17/06/22Marché no : 2022mp002Direct Energie, 2 Rue Louis Armand, 75015 Paris 15Montant indéfini\"}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-85640"
+  },
+  {
+   "idweb": "22-83892",
+   "id": "22_83892",
+   "contractfolderid": null,
+   "objet": "Prestation de service pour la gestion des services d'accueil de la petite enfance.",
+   "filename": "BOAMP-J-AO_2022_168009",
+   "famille": "JOUE",
+   "code_departement": [
+    "49"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2022-06-17",
+   "datefindiffusion": "2022-09-05",
+   "datelimitereponse": null,
+   "nomacheteur": "COMMUNE DE LOIRE AUTHION",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "274"
+   ],
+   "dc": [
+    "274"
+   ],
+   "descripteur_libelle": [
+    "Prestations de services"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": [
+    "22-67298"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"22-67298\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"PRE-INFORMATION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2022-05-11\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2022-05-13\", \"DATE_FIN_DIFFUSION\": \"2022-06-20\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2022\", \"NUM_PARUTION\": \"094\", \"NUM_ANNONCE\": \"259582\", \"DATE_PUBLICATION\": \"2022-05-16\"}}]}",
+   "source_schema": "Boamp_v240.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"22-83892\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"22-67298\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"PRE-INFORMATION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2022-05-11\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2022-05-13\", \"DATE_FIN_DIFFUSION\": \"2022-06-20\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2022\", \"NUM_PARUTION\": \"094\", \"NUM_ANNONCE\": \"259582\", \"DATE_PUBLICATION\": \"2022-05-16\"}}]}}, \"NOM_HTML\": \"22-83892.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2022-06-17\", \"DATE_FIN_DIFFUSION\": \"2022-09-05\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Prestation de service pour la gestion des services d'accueil de la petite enfance.\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"COMMUNE DE LOIRE AUTHION\", \"CODE_IDENT_NATIONAL\": \"80385661600013\", \"CONTACT\": \"Mairie de Loire-Authion\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"24/26 Levée Jeanne de Laval Saint-Mathurin-sur-Loire\", \"CP\": \"49250\", \"VILLE\": \"Loire-Authion\", \"TEL\": \"(+33) 2-41-57-36-08\", \"MEL\": \"marches@loire-authion.fr\", \"URL\": \"https://loire-authion.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-securises.fr/\", \"URL_PARTICIPATION\": \"https://www.marches-securises.fr/\", \"URL_DOCUMENT\": \"https://www.marches-securises.fr/\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Prestation de service pour la gestion des services d'accueil de la petite enfance.\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Prestation de service pour la gestion des services d'accueil de la petite enfance.Les missions confiées au prestataire portent sur la gestion de 4 équipements : Deux Multi-accueilsLe Relais Petite Enfance Le Lieu d'Accueil Enfants-Parents (LAEP)\", \"CPV\": {\"PRINCIPAL\": \"85312110\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Prestation de service pour la gestion des services d'accueil de la petite enfance.\", \"CPV\": {\"PRINCIPAL\": \"85312110\"}, \"CODE_NUTS\": \"FRG02\", \"LIEU_PRINCIPAL\": \"Territoire de la Ville de Loire-Authion.\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Marché d'une durée initiale de 4 ans reconductible une fois 4 ans soit une durée totale de 8 ans\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Reprise de personnel Visites de sites\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"période initiale de 4 ans renouvelable une fois 4 ans soit 8 ans\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2022\", \"NUM_PARUTION\": \"094\", \"NUM_ANNONCE\": \"259582\"}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2022-09-05T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO_MARCHE_OUI\": \"\", \"CAP_TECH_OFFRE_OUI\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2022-09-05\", \"LIEU_OUVERTURE_OFFRES\": \"Loire-Authion\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_OUI\": \"\", \"RENS_COMPLEMENT\": \"Reprise du personnel Visite des sites obligatoire avant la remise de l'offre. Date d'envoi du présent avis au JOUE et au BOAMP : 15 juin 2022.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 Allée de l'île Gloriette BP24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES Cedex 1\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"https://controle.infogreffe.fr/greffe-tribunal/greffe-nantes.html\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional région\", \"ADRESSE\": \"22 mail Pablo Picasso - BP 24209\", \"CP\": \"44042\", \"VILLE\": \"NANTES Cedex 1\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"https://pays-de-la-loire.dreets.gouv.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-83892"
   },
   {
    "idweb": "22-83817",

@@ -1669,65 +1669,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-137388"
   },
   {
-   "idweb": "18-138068",
-   "id": "18_138068",
-   "contractfolderid": null,
-   "objet": "Acquisition d'ouvrages français et étrangers",
-   "filename": "BOAMP-J-AO_2018_278003",
-   "famille": "JOUE",
-   "code_departement": [
-    "49"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-10-05",
-   "datefindiffusion": "2018-12-08",
-   "datelimitereponse": null,
-   "nomacheteur": "Université d'Angers",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "184"
-   ],
-   "dc": [
-    "184"
-   ],
-   "descripteur_libelle": [
-    "Livres"
-   ],
-   "type_marche": [
-    "FOURNITURES"
-   ],
-   "type_marche_facette": [
-    "Fournitures"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-138068\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-138068.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-10-05\", \"DATE_FIN_DIFFUSION\": \"2018-12-08\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"184\", \"LIBELLE\": \"Livres\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Acquisition d'ouvrages français et étrangers\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Université d'Angers\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"40 rue de Rennes - BP 73532\", \"CP\": \"49035\", \"VILLE\": \"Angers cedex 01\", \"TEL\": \"(+33) 2-41-96-22-52\", \"FAX\": \"(+33) 2-41-96-22-65\", \"MEL\": \"marche-public@univ-angers.fr\", \"URL\": \"http://www.univ-angers.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-publics.gouv.fr\", \"URL_PARTICIPATION\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=396835&orgAcronyme=f2h\", \"URL_DOCUMENT\": \"https://www.marches-publics.gouv.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"EDUCATION\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Acquisition d'ouvrages français et étrangers\", \"REF_MARCHE\": \"2018-207\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"La consultation a pour objet la fourniture de livres français et étrangers pour les différents sites de l'Université d'Angers et principalement à la Bibliothèque Universitaire.\", \"CPV\": {\"PRINCIPAL\": \"22100000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"2500000\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS_RESERVE_POUVOIR_ADJUDICATEUR\": \"Néant\", \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Livres français\", \"DESCRIPTION\": \"Acquisition de livres français\", \"CPV\": {\"PRINCIPAL\": \"22100000\"}, \"CODE_NUTS\": \"FRG02\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"qualité et prestations de service\"}, {\"@POIDS\": \"20\", \"#text\": \"délais et modalités de livraison\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"20\"}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"2000000\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché est conclu pour une période initiale de UN AN à compter à compter du 1er janvier 2019 jusqu'au 31 décembre 2019. Il sera renouvelable d'un an en un an, tacitement à compter du 1er janvier de chaque année. La durée totale du marché, reconductions comprises, ne pourra excéder 4 ans, soit une fin de marché au 31 décembre 2022.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Le critère qualité et prestations de services est composé des 5 sous-critères pondérés suivants :-Sous-critère 1 - Sélection des ouvrages : 15 points-Sous-critère 2 - Commandes en ligne : 20 points-Sous-critère 3 - Suivi des commandes : 15 points-Sous-critère 4 - Commandes permanentes : 5 points-Sous-critère 5 - Interlocuteurs : 5 points\"}, {\"NUM\": \"2\", \"INTITULE\": \"Livres étrangers\", \"DESCRIPTION\": \"Acquisition de livres étrangers\", \"CPV\": {\"PRINCIPAL\": \"22100000\"}, \"CODE_NUTS\": \"FRG02\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"qualité et prestations de service\"}, {\"@POIDS\": \"20\", \"#text\": \"délais et modalités de livraison\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"20\"}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"500000\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché est conclu pour une période initiale de UN AN à compter à compter du 1er janvier 2019 jusqu'au 31 décembre 2019 La date d'effet prévisible du marché : 1er janvier 2019. Il sera renouvelable d'un an en un an, tacitement à compter du 1er janvier de chaque année. La durée totale du marché, reconductions comprises, ne pourra excéder 4 ans, soit une fin de marché au 31 décembre 2022.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Le critère qualité et prestations de service est composé des 4 sous-critères pondérés suivants :-Sous-critère 1 - Sélection des ouvrages : 24 points-Sous-critère 2 - Commandes en ligne : 15 points-Sous-critère 3 - Suivi des commandes : 16 points-Sous-critère 4 - Interlocuteurs : 5 points\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"2022\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-11-08T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"5\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"La lettre de candidature (DC1* ou format libre) dûment complétée et datée ;En cas de groupement, habilitation du mandataire par ses co-traitants dûment datée et signée par l'ensemble du groupement Délégation de pouvoir ou les pouvoirs de la personne habilitée à engager le candidat ;Une déclaration sur l'honneur, rédigée comme suit : - n'entrer dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles 45 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 ou, pour les marchés publics de défense ou de sécurité, n'entrer dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles 45, 46 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 ;- être en règle au regard des articles L. 5212-1 à L. 5212-11 du code du travail concernant l'emploi des travailleurs handicapés ; - à respecter les dispositions de la loi no2014-873 du 4 août 2014 pour l'égalité réelle entre les femmes et les hommes ;- que les renseignements fournis dans le formulaire DC2, et ses annexes, sont exactsLa déclaration du candidat (DC2* joint au dossier de consultation ou format libre) ;Si l'entreprise est en redressement judiciaire, la copie du (ou des) jugement(s) prononcé(s) à cet effet (DC2 ou forme libre) ;\", \"CAP_ECO\": \"Déclaration concernant le chiffre d'affaires global du candidat et, le cas échéant, le chiffre d'affaires du domaine d'activité faisant l'objet du marché, portant au maximum sur les trois derniers exercices disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles ; Déclarations appropriées de banques ou, le cas échéant, preuve d'une assurance des risques professionnels pertinents ;\", \"CAP_TECH\": \"Une liste des principaux matériels fournis au cours des trois dernières années, se rapprochant de lobjet du marché, indiquant le montant, la date et le destinataire public ou privé. Les livraisons et les fournitures sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique ;\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-11-09\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 3 octobre 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"(+33) -02-40-99-46-00\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso - BP 24209\", \"CP\": \"44042\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-53-46-79-83\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Greffe du Tribunal Administratif\", \"ADRESSE\": \"6 allée de l'Ile Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-138068"
-  },
-  {
    "idweb": "18-139429",
    "id": "18_139429",
    "contractfolderid": null,
@@ -1785,6 +1726,65 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-139429\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-139429.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-10-05\", \"DATE_LIMITE_REPONSE\": \"2018-11-23T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-11-23\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"333\", \"LIBELLE\": \"Signalétique\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Signalétique directionnelle et décorative\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"ALTER Cités\", \"CORRESPONDANT\": \"M. BALLARINI Michel, Directeur général\", \"ADRESSE\": \"48 C Bd Foch BP 80110\", \"CP\": \"49101\", \"VILLE\": \"Angers cedex 02\", \"TEL\": \"02-41-18-21-21\", \"MEL\": \"l.thomas@anjouloireterritoire.fr\", \"URL\": \"http://www.anjouloireterritoire.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.achatpublic.com/sdm/ent/gen/index.jsp\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"SAEM - Aménagement de territoire et construction\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"TRAVAUX\": {\"EXECUTION\": \"\"}}, \"OBJET_COMPLET\": \"Signalétique directionnelle et décorative\", \"CPV\": {\"PRINCIPAL\": \"44423400\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Les variantes libres sont possibles, le candidat doit présenter une offre conforme au dossier de consultation en répondant à l'offre de base.Le marché ne comporte pas de variantes exigées.\", \"QUANTITE\": \"Signalétique directionnelle et décorative\", \"OPTIONS\": {\"OUI\": \"\", \"DESCRIPTION\": \"Des modifications en cours d'exécution (avenants), des marchés complémentaires et des clauses de réexamens pourront être passés.\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"57\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-11-23T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Les prix sont forfaitaires et révisables. Le délai de paiement est de 50 jours à compter de la réception de la demande d'acompte par le maître d'oeuvre. une avance de 5% pourra être versée. Une retenue de garantie de 5 % sera appliquée sur chaque acompte, elle pourra être remplacée par une garantie à première demande.\", \"FINANCEMENT\": \"Le financement est assuré par autofinancement de l'Hôpital de la Corniche Angevine complété par, le cas échéant, par des ressources externes (subventions, emprunts...) conformément aux lois et règlements en vigueur.\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Une lettre de candidature (DC1 ou équivalent) ; Une déclaration sur l'honneur attestant qu'il ne fait pas l'objet d'une des interdictions de soumissionner telles que définies aux articles 45 et 48 de l'ordonnance du 23 juillet 2015 ; DC2 ou équivalent (avec une adresse mail régulièrement consultée) ; L'attestation d'assurance responsabilité civile professionnelle en cours de validité ; Un document relatif aux pouvoirs de la personne habilitée à engager le candidat (délégation de signature)\", \"CAP_ECO\": \"Chiffre d'affaire des 3 dernières années et chiffre d'affaires concernant les travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"CAP_TECH\": \"Liste de travaux équivalents en cours d'exécution ou exécutés au cours des cinq dernières années, indiquant notamment le montant, la date et le destinataire ; Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour des marchés de même nature ;\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"AOA 650 18 82\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Une première consultation a eu lieu attribuant les 15 premiers lots dédiés à la construction de l'Hôpital. La consultation est passée selon la procédure de l'article 22 du décret no 2016-360 relatif aux marchés publics.Les candidats peuvent poser des questions jusqu'au 26/10/2018 à 17h00 sur le site http://www.achatpublic.com. Les réponses seront apportées au plus tard à l'ensemble des candidats le 8/11/2018 via le même site.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé pré-contractuel prévu aux articles L.551-1 à L.551-12 du Code de justice administrative (CJA), et pouvant être exercé avant la signature du contrat. Référécontractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant être exercé dans les délais prévus à l'article R. 551-7 du CJA. Recours pour excès de pouvoir contre une décision administrative prévu aux articles R. 421-1 à R. 421-7 du CJA, et pouvant être exercé dans les 2 mois suivant la notification ou publication de la décision de l'organisme (le recours ne peut plus, toutefois, être exercé après la signature du contrat). Recours de pleine juridiction ouvert aux tiers justifiant d'un intérêt lésé, et pouvant être exercé dans les deux mois suivant la date à laquelle la conclusion du contrat est rendue publique.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Alter Cités\", \"MEL\": \"e.maisseu@anjouloireterritoire.fr\", \"URL\": \"http://www.achatpublic.com\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 Allée de l'ile Gloriette, BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"MEL\": \"greffe.ta.nantes@juradm.fr\", \"URL\": \"http://www.conseil-etat.fr/ta/nantes/index_ta_co.shtml\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"URL\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2018_79y0Bfg5QY\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"URL\": \"http://www.achatpublic.com\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-139429"
+  },
+  {
+   "idweb": "18-138068",
+   "id": "18_138068",
+   "contractfolderid": null,
+   "objet": "Acquisition d'ouvrages français et étrangers",
+   "filename": "BOAMP-J-AO_2018_278003",
+   "famille": "JOUE",
+   "code_departement": [
+    "49"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-10-05",
+   "datefindiffusion": "2018-12-08",
+   "datelimitereponse": null,
+   "nomacheteur": "Université d'Angers",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "184"
+   ],
+   "dc": [
+    "184"
+   ],
+   "descripteur_libelle": [
+    "Livres"
+   ],
+   "type_marche": [
+    "FOURNITURES"
+   ],
+   "type_marche_facette": [
+    "Fournitures"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-138068\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-138068.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-10-05\", \"DATE_FIN_DIFFUSION\": \"2018-12-08\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"184\", \"LIBELLE\": \"Livres\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Acquisition d'ouvrages français et étrangers\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Université d'Angers\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"40 rue de Rennes - BP 73532\", \"CP\": \"49035\", \"VILLE\": \"Angers cedex 01\", \"TEL\": \"(+33) 2-41-96-22-52\", \"FAX\": \"(+33) 2-41-96-22-65\", \"MEL\": \"marche-public@univ-angers.fr\", \"URL\": \"http://www.univ-angers.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-publics.gouv.fr\", \"URL_PARTICIPATION\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=396835&orgAcronyme=f2h\", \"URL_DOCUMENT\": \"https://www.marches-publics.gouv.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"EDUCATION\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Acquisition d'ouvrages français et étrangers\", \"REF_MARCHE\": \"2018-207\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"La consultation a pour objet la fourniture de livres français et étrangers pour les différents sites de l'Université d'Angers et principalement à la Bibliothèque Universitaire.\", \"CPV\": {\"PRINCIPAL\": \"22100000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"2500000\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS_RESERVE_POUVOIR_ADJUDICATEUR\": \"Néant\", \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Livres français\", \"DESCRIPTION\": \"Acquisition de livres français\", \"CPV\": {\"PRINCIPAL\": \"22100000\"}, \"CODE_NUTS\": \"FRG02\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"qualité et prestations de service\"}, {\"@POIDS\": \"20\", \"#text\": \"délais et modalités de livraison\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"20\"}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"2000000\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché est conclu pour une période initiale de UN AN à compter à compter du 1er janvier 2019 jusqu'au 31 décembre 2019. Il sera renouvelable d'un an en un an, tacitement à compter du 1er janvier de chaque année. La durée totale du marché, reconductions comprises, ne pourra excéder 4 ans, soit une fin de marché au 31 décembre 2022.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Le critère qualité et prestations de services est composé des 5 sous-critères pondérés suivants :-Sous-critère 1 - Sélection des ouvrages : 15 points-Sous-critère 2 - Commandes en ligne : 20 points-Sous-critère 3 - Suivi des commandes : 15 points-Sous-critère 4 - Commandes permanentes : 5 points-Sous-critère 5 - Interlocuteurs : 5 points\"}, {\"NUM\": \"2\", \"INTITULE\": \"Livres étrangers\", \"DESCRIPTION\": \"Acquisition de livres étrangers\", \"CPV\": {\"PRINCIPAL\": \"22100000\"}, \"CODE_NUTS\": \"FRG02\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"qualité et prestations de service\"}, {\"@POIDS\": \"20\", \"#text\": \"délais et modalités de livraison\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"20\"}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"500000\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché est conclu pour une période initiale de UN AN à compter à compter du 1er janvier 2019 jusqu'au 31 décembre 2019 La date d'effet prévisible du marché : 1er janvier 2019. Il sera renouvelable d'un an en un an, tacitement à compter du 1er janvier de chaque année. La durée totale du marché, reconductions comprises, ne pourra excéder 4 ans, soit une fin de marché au 31 décembre 2022.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Le critère qualité et prestations de service est composé des 4 sous-critères pondérés suivants :-Sous-critère 1 - Sélection des ouvrages : 24 points-Sous-critère 2 - Commandes en ligne : 15 points-Sous-critère 3 - Suivi des commandes : 16 points-Sous-critère 4 - Interlocuteurs : 5 points\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"2022\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-11-08T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"5\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"La lettre de candidature (DC1* ou format libre) dûment complétée et datée ;En cas de groupement, habilitation du mandataire par ses co-traitants dûment datée et signée par l'ensemble du groupement Délégation de pouvoir ou les pouvoirs de la personne habilitée à engager le candidat ;Une déclaration sur l'honneur, rédigée comme suit : - n'entrer dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles 45 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 ou, pour les marchés publics de défense ou de sécurité, n'entrer dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles 45, 46 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 ;- être en règle au regard des articles L. 5212-1 à L. 5212-11 du code du travail concernant l'emploi des travailleurs handicapés ; - à respecter les dispositions de la loi no2014-873 du 4 août 2014 pour l'égalité réelle entre les femmes et les hommes ;- que les renseignements fournis dans le formulaire DC2, et ses annexes, sont exactsLa déclaration du candidat (DC2* joint au dossier de consultation ou format libre) ;Si l'entreprise est en redressement judiciaire, la copie du (ou des) jugement(s) prononcé(s) à cet effet (DC2 ou forme libre) ;\", \"CAP_ECO\": \"Déclaration concernant le chiffre d'affaires global du candidat et, le cas échéant, le chiffre d'affaires du domaine d'activité faisant l'objet du marché, portant au maximum sur les trois derniers exercices disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles ; Déclarations appropriées de banques ou, le cas échéant, preuve d'une assurance des risques professionnels pertinents ;\", \"CAP_TECH\": \"Une liste des principaux matériels fournis au cours des trois dernières années, se rapprochant de lobjet du marché, indiquant le montant, la date et le destinataire public ou privé. Les livraisons et les fournitures sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique ;\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-11-09\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 3 octobre 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"(+33) -02-40-99-46-00\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso - BP 24209\", \"CP\": \"44042\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-53-46-79-83\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Greffe du Tribunal Administratif\", \"ADRESSE\": \"6 allée de l'Ile Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-138068"
   },
   {
    "idweb": "18-137905",
@@ -5704,6 +5704,63 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-140369"
   },
   {
+   "idweb": "18-142763",
+   "id": "18_142763",
+   "contractfolderid": null,
+   "objet": "Accompagnement à l'élaboration et la mise en oeuvre de la politique de sécurité du système d'information du Département de la Sarthe",
+   "filename": "MAPA-AO_2018_284007",
+   "famille": "MAPA",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés <90 k€ (MAPA)",
+   "dateparution": "2018-10-11",
+   "datefindiffusion": "2018-10-22",
+   "datelimitereponse": null,
+   "nomacheteur": "DEPARTEMENT DE LA SARTHE",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "RECTIFICATIF",
+   "descripteur_code": [
+    "118"
+   ],
+   "dc": [
+    "118"
+   ],
+   "descripteur_libelle": [
+    "Etude"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": [
+    "18-134123"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"18-134123\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-09-26\", \"DATE_FIN_DIFFUSION\": \"2018-10-18\"}}}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-142763\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-134123\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-09-26\", \"DATE_FIN_DIFFUSION\": \"2018-10-18\"}}}}, \"NOM_HTML\": \"18-142763.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-10-11\", \"DATE_FIN_DIFFUSION\": \"2018-10-22\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"118\", \"LIBELLE\": \"Etude\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Accompagnement à l'élaboration et la mise en oeuvre de la politique de sécurité du système d'information du Département de la Sarthe\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"DEPARTEMENT DE LA SARTHE\", \"CORRESPONDANT\": \"le Président\", \"ADRESSE\": \"Hôtel du département, Place Aristide Briand\", \"CP\": \"72072\", \"VILLE\": \"Le Mans\", \"MEL\": \"scp@sarthe.fr\", \"URL\": \"http://www.sarthe.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"DEPARTEMENT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Accompagnement à l'élaboration et la mise en oeuvre de la politique de sécurité du système d'information du Département de la Sarthe\", \"CPV\": {\"PRINCIPAL\": \"79311000\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-134123\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-09-26\", \"DATE_FIN_DIFFUSION\": \"2018-10-18\"}}}, \"MODIFICATION\": {\"RUB_INIT\": \"Date limite de réception des offres\", \"TXT_INIT\": \"2018-10-18T11:30:00+01:00\", \"LIRE\": \"2018-10-22T11:30:00+01:00\"}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-142763"
+  },
+  {
    "idweb": "18-140780",
    "id": "18_140780",
    "contractfolderid": null,
@@ -5890,63 +5947,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-141413\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-52354\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-04-16\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-04-18\", \"DATE_FIN_DIFFUSION\": \"2018-05-31\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"075\", \"NUM_ANNONCE\": \"167380\", \"DATE_PUBLICATION\": \"2018-04-18\"}}]}}, \"NOM_HTML\": \"18-141413.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-10-11\", \"DATE_FIN_DIFFUSION\": \"2019-01-07\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"118\", \"LIBELLE\": \"Etude\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"études relatives au barreau de liaison à la Mothe Achard et à la déviation à Triaize\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Conseil général de la Vendée\", \"CODE_IDENT_NATIONAL\": \"22850001300658\", \"ADJUDICATEUR_NUTS\": \"FRG05\", \"ADRESSE\": \"40 rue du Maréchal Foch\", \"CP\": \"85923\", \"VILLE\": \"La Roche sur Yon\", \"TEL\": \"(+33) 2-28-85-83-84\", \"MEL\": \"marchespublics@vendee.fr\", \"URL\": \"http://www.vendee.fr\", \"URL_PROFIL_ACHETEUR\": \"http://marchespublics.vendee.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"études relatives au barreau de liaison à la Mothe Achard et à la déviation à Triaize\", \"REF_MARCHE\": \"18s0042bg\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Il s'agit de marchés séparés de prestations intellectuelles traités à prix global et forfaitaire avec détermination d'un prix unitaire pour d'éventuelles réunions physiques de concertation supplémentaires\", \"CPV\": {\"PRINCIPAL\": \"71241000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"352022\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"marché d'études relatives au barreau de liaison Rd 160/Rd 760 à la Mothe Achard\", \"DESCRIPTION\": \"marché d'études relatives au barreau de liaison Rd 160/Rd 760 à la Mothe Achard\", \"CPV\": {\"PRINCIPAL\": \"71241000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Organisation prévue pour le marché\"}}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"40\", \"#text\": \"Prix\"}}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Lot composé de tranches optionnelles:- Tranche optionnelle 1 : Accompagnement au titre de l'instruction des services de l'état et après l'enquête publique ;- Tranche optionnelle 2 : Réalisation de panneaux de concertation- Tranche optionnelle 3 : Demande de dérogation au titre des espèces protégées\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"le périmètre de l'étude porte sur la réalisation du barreau de liaison Rd 160/Rd 760. (commune des Achards)\"}, {\"NUM\": \"2\", \"INTITULE\": \"marché d'études relatives à la déviation de la Rd 746 à Triaize\", \"DESCRIPTION\": \"marché d'études relatives à la déviation de la Rd 746 à Triaize\", \"CPV\": {\"PRINCIPAL\": \"71241000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Organisation prévue pour le marché\"}}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"40\", \"#text\": \"Prix\"}}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Lot composé de tranches optionnelles:- Tranche optionnelle 1 : Accompagnement au titre de l'instruction des services de l'état et après l'enquête publique ;- Tranche optionnelle 2 : Réalisation de panneaux de concertation- Tranche optionnelle 3 : Demande de dérogation au titre des espèces protégées\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"le périmètre de l'étude est située dans le Sage du Lay (lui-même faisant partie du Sdage Loire Bretagne). Elle est cependant implantée dans le grand marais de Triaize\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"075\", \"NUM_ANNONCE\": \"167380\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_LOT\": \"1\", \"INTITULE\": \"marché d'études relatives au barreau de liaison Rd 160/Rd 760 à la Mothe Achard\", \"TITULAIRE\": {\"DENOMINATION\": \"Sce\", \"ADRESSE\": \"4 rue Viviani\", \"CP\": \"44200\", \"VILLE\": \"Nantes\", \"CODE_NUTS\": \"FRG01\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-10-02\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"181623.5\"}, \"SOUSTRAITANCE_OUI\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"2\", \"INTITULE\": \"marché d'études relatives à la déviation de la Rd 746 à Triaize\", \"TITULAIRE\": {\"DENOMINATION\": \"Sce\", \"ADRESSE\": \"4 rue Viviani\", \"CP\": \"44200\", \"VILLE\": \"Nantes\", \"CODE_NUTS\": \"FRG01\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-10-02\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"170398.5\"}, \"SOUSTRAITANCE_OUI\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Le marché public peut être consulté à l'adresse suivante : Département de la Vendée - service Marchés - 40 rue Maréchal Foch - 85923 La Roche sur Yon cedex 9. Merci de prendre préalablement rendez-vous en appelant au 02.28.85.83.84. Date d'envoi du présent avis au JOUE et au BOAMP : 9 octobre 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Médiation des entreprises : Direccte Pays de la Loire\", \"ADRESSE\": \"Tour Bretagne, Place Bretagne\", \"CP\": \"44047\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-53-46-79-64\", \"MEL\": \"aude.raverdy@direccte.gouv.fr\", \"URL\": \"http://www.mediateur-des-entreprises.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-141413"
-  },
-  {
-   "idweb": "18-142763",
-   "id": "18_142763",
-   "contractfolderid": null,
-   "objet": "Accompagnement à l'élaboration et la mise en oeuvre de la politique de sécurité du système d'information du Département de la Sarthe",
-   "filename": "MAPA-AO_2018_284007",
-   "famille": "MAPA",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés <90 k€ (MAPA)",
-   "dateparution": "2018-10-11",
-   "datefindiffusion": "2018-10-22",
-   "datelimitereponse": null,
-   "nomacheteur": "DEPARTEMENT DE LA SARTHE",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "RECTIFICATIF",
-   "descripteur_code": [
-    "118"
-   ],
-   "dc": [
-    "118"
-   ],
-   "descripteur_libelle": [
-    "Etude"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": [
-    "18-134123"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"18-134123\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-09-26\", \"DATE_FIN_DIFFUSION\": \"2018-10-18\"}}}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-142763\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-134123\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-09-26\", \"DATE_FIN_DIFFUSION\": \"2018-10-18\"}}}}, \"NOM_HTML\": \"18-142763.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-10-11\", \"DATE_FIN_DIFFUSION\": \"2018-10-22\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"118\", \"LIBELLE\": \"Etude\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Accompagnement à l'élaboration et la mise en oeuvre de la politique de sécurité du système d'information du Département de la Sarthe\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"DEPARTEMENT DE LA SARTHE\", \"CORRESPONDANT\": \"le Président\", \"ADRESSE\": \"Hôtel du département, Place Aristide Briand\", \"CP\": \"72072\", \"VILLE\": \"Le Mans\", \"MEL\": \"scp@sarthe.fr\", \"URL\": \"http://www.sarthe.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"DEPARTEMENT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Accompagnement à l'élaboration et la mise en oeuvre de la politique de sécurité du système d'information du Département de la Sarthe\", \"CPV\": {\"PRINCIPAL\": \"79311000\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-134123\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-09-26\", \"DATE_FIN_DIFFUSION\": \"2018-10-18\"}}}, \"MODIFICATION\": {\"RUB_INIT\": \"Date limite de réception des offres\", \"TXT_INIT\": \"2018-10-18T11:30:00+01:00\", \"LIRE\": \"2018-10-22T11:30:00+01:00\"}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-142763"
   },
   {
    "idweb": "18-140759",

@@ -1827,62 +1827,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-104238"
   },
   {
-   "idweb": "17-104345",
-   "id": "17_104345",
-   "contractfolderid": null,
-   "objet": "2017-32 fiabilisation et sécurisation du système de collecte de la station d'épuration de saint michel chef chef - tranche no2",
-   "filename": "BOAMP-N-AO_2017_201011",
-   "famille": "FNS",
-   "code_departement": [
-    "44",
-    "85"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2017-07-20",
-   "datefindiffusion": "2017-09-14",
-   "datelimitereponse": "2017-09-14T11:00:00+00:00",
-   "nomacheteur": "CA PORNIC AGGLO PAYS DE RETZ",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "328"
-   ],
-   "dc": [
-    "328"
-   ],
-   "descripteur_libelle": [
-    "Station d'épuration (travaux)"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-104345\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-104345.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-07-20\", \"DATE_LIMITE_REPONSE\": \"2017-09-14T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2017-09-14\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"328\", \"LIBELLE\": \"Station d'épuration (travaux)\"}}, \"DEP_PUBLICATION\": [\"44\", \"85\"], \"RESUME_OBJET\": \"2017-32 fiabilisation et sécurisation du système de collecte de la station d'épuration de saint michel chef chef - tranche no2\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CA PORNIC AGGLO PAYS DE RETZ\", \"CORRESPONDANT\": \"M. le président\", \"ADRESSE\": \"2, rue du Docteur Ange Guépin ZAC de la Chaussée 44215 Pornic\", \"CP\": \"44215\", \"VILLE\": \"Pornic\", \"URL\": \"http://www.pornicagglo.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.synapse-ouest.com\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"OBJET\": {\"OBJET_COMPLET\": \"2017-32 Fiabilisation et sécurisation du système de collecte de la station d'épuration de Saint Michel Chef Chef - Tranche no2\", \"CPV\": [{\"PRINCIPAL\": \"45232410\"}, {\"PRINCIPAL\": \"45223000\"}, {\"PRINCIPAL\": \"39350000\"}], \"VARIANTES_OUI\": \"\", \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-09-14T12:00:00+01:00\"}, \"CONDITION_PARTICIPATION\": {\"ELIGIBLE_MPS\": {\"non\": \"\"}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-104345"
-  },
-  {
    "idweb": "17-100105",
    "id": "17_100105",
    "contractfolderid": null,
@@ -2186,6 +2130,62 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-103065\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-32128\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-03-07\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-03-09\", \"DATE_FIN_DIFFUSION\": \"2017-04-11\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"049\", \"NUM_ANNONCE\": \"089440\", \"DATE_PUBLICATION\": \"2017-03-10\"}}]}}, \"NOM_HTML\": \"17-103065.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-07-20\", \"DATE_FIN_DIFFUSION\": \"2017-10-10\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"115\", \"LIBELLE\": \"Equipements spécialisés\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"A completer\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Université du Maine\", \"ADJUDICATEUR_NUTS\": \"FR51\", \"ADRESSE\": \"Avenue Olivier Messiaen\", \"CP\": \"72085\", \"VILLE\": \"Le Mans\", \"TEL\": \"(+33) 2-43-83-37-37\", \"MEL\": \"achats@univ-lemans.fr\", \"URL\": \"http://www.univ-lemans.fr/fr/index.html\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Enseignement supérieur Recherche\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Console neuve pour un spectromètre RMN\", \"REF_MARCHE\": \"2017_030\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Console neuve pour un spectromètre RMN\", \"CPV\": {\"PRINCIPAL\": \"38433100\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"149000\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Console neuve pour un spectromètre RMN\", \"CPV\": {\"PRINCIPAL\": \"38433100\"}, \"CODE_NUTS\": \"FR51\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"Valeur technique de l'équipement\"}, {\"@POIDS\": \"5\", \"#text\": \"Qualité du SAV\"}, {\"@POIDS\": \"5\", \"#text\": \"Délais de livraison\"}]}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"40\", \"#text\": \"Couts liés à l'acquisition\"}}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"FEDER\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"049\", \"NUM_ANNONCE\": \"089440\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2017 030\", \"INTITULE\": \"Console neuve pour un spectromètre RMN\", \"TITULAIRE\": {\"DENOMINATION\": \"BRUKER FRANCE\", \"ADRESSE\": \"34 RUE DES LINDUSTRIE - BP 10002 -\", \"CP\": \"67166\", \"VILLE\": \"WISSEMBOURG CEDEX\", \"CODE_NUTS\": \"FR514\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-05-04\", \"NB_OFFRE_RECU\": \"1\", \"ESTIMATION_INITIALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"149000\"}, \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"149000\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 18 juillet 2017.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"Allée Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"URL\": \"http://nantes.tribunal-administratif.fr/Informations-pratiques/Acces-et-coordonnees\"}}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-103065"
+  },
+  {
+   "idweb": "17-104345",
+   "id": "17_104345",
+   "contractfolderid": null,
+   "objet": "2017-32 fiabilisation et sécurisation du système de collecte de la station d'épuration de saint michel chef chef - tranche no2",
+   "filename": "BOAMP-N-AO_2017_201011",
+   "famille": "FNS",
+   "code_departement": [
+    "44",
+    "85"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2017-07-20",
+   "datefindiffusion": "2017-09-14",
+   "datelimitereponse": "2017-09-14T11:00:00+00:00",
+   "nomacheteur": "CA PORNIC AGGLO PAYS DE RETZ",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "328"
+   ],
+   "dc": [
+    "328"
+   ],
+   "descripteur_libelle": [
+    "Station d'épuration (travaux)"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-104345\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-104345.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-07-20\", \"DATE_LIMITE_REPONSE\": \"2017-09-14T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2017-09-14\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"328\", \"LIBELLE\": \"Station d'épuration (travaux)\"}}, \"DEP_PUBLICATION\": [\"44\", \"85\"], \"RESUME_OBJET\": \"2017-32 fiabilisation et sécurisation du système de collecte de la station d'épuration de saint michel chef chef - tranche no2\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CA PORNIC AGGLO PAYS DE RETZ\", \"CORRESPONDANT\": \"M. le président\", \"ADRESSE\": \"2, rue du Docteur Ange Guépin ZAC de la Chaussée 44215 Pornic\", \"CP\": \"44215\", \"VILLE\": \"Pornic\", \"URL\": \"http://www.pornicagglo.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.synapse-ouest.com\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"OBJET\": {\"OBJET_COMPLET\": \"2017-32 Fiabilisation et sécurisation du système de collecte de la station d'épuration de Saint Michel Chef Chef - Tranche no2\", \"CPV\": [{\"PRINCIPAL\": \"45232410\"}, {\"PRINCIPAL\": \"45223000\"}, {\"PRINCIPAL\": \"39350000\"}], \"VARIANTES_OUI\": \"\", \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-09-14T12:00:00+01:00\"}, \"CONDITION_PARTICIPATION\": {\"ELIGIBLE_MPS\": {\"non\": \"\"}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-104345"
   },
   {
    "idweb": "17-103062",
@@ -3748,69 +3748,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-105635"
   },
   {
-   "idweb": "17-104474",
-   "id": "17_104474",
-   "contractfolderid": null,
-   "objet": "Accord-cadre pour des missions de repérage amiante et de diagnostics immobiliers sur le patrimoine de SLH - Années 2017/2020",
-   "filename": "BOAMP-J-IC-AA_2017_203005",
-   "famille": "JOUE",
-   "code_departement": [
-    "49"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2017-07-22",
-   "datefindiffusion": "2017-09-30",
-   "datelimitereponse": null,
-   "nomacheteur": "Sèvre Loire Habitat",
-   "titulaire": [
-    "AC ENVIRONNEMENT"
-   ],
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "ATTRIBUTION",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "274"
-   ],
-   "dc": [
-    "274"
-   ],
-   "descripteur_libelle": [
-    "Prestations de services"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "17-47794"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"17-47794\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-04-05\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-04-07\", \"DATE_FIN_DIFFUSION\": \"2017-05-16\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"070\", \"NUM_ANNONCE\": \"132445\", \"DATE_PUBLICATION\": \"2017-04-08\"}}]}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-104474\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-47794\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-04-05\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-04-07\", \"DATE_FIN_DIFFUSION\": \"2017-05-16\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"070\", \"NUM_ANNONCE\": \"132445\", \"DATE_PUBLICATION\": \"2017-04-08\"}}]}}, \"NOM_HTML\": \"17-104474.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-07-22\", \"DATE_FIN_DIFFUSION\": \"2017-09-30\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Accord-cadre pour des missions de repérage amiante et de diagnostics immobiliers sur le patrimoine de SLH - Années 2017/2020\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Sèvre Loire Habitat\", \"CODE_IDENT_NATIONAL\": \"34200781200023\", \"CONTACT\": \"Service Marchés\", \"ADJUDICATEUR_NUTS\": \"FR512\", \"ADRESSE\": \"34, rue Saint Christophe - CS 32144\", \"CP\": \"49321\", \"VILLE\": \"Cholet\", \"TEL\": \"(+33) 2-41-75-25-33\", \"FAX\": \"(+33) 2-41-75-25-20\", \"MEL\": \"marches@slh-habitat.fr\", \"URL\": \"http://www.slh-habitat.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.achatpublic.com/sdm/ent/gen/index.jsp\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AGENCE_NATIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"LOG_DEV_COL\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Accord-cadre pour des missions de repérage amiante et de diagnostics immobiliers sur le patrimoine de SLH - Années 2017/2020\", \"REF_MARCHE\": \"AC diagnostics immobiliers\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Accord-cadre pour des missions de repérage amiante et de diagnostics immobiliers sur le patrimoine de SLH - Années 2017/2020\", \"CPV\": {\"PRINCIPAL\": \"71335000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"1000000\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Accord-cadre pour des missions de repérage amiante et de diagnostics immobiliers sur le patrimoine de SLH - Années 2017/2020\", \"CPV\": {\"PRINCIPAL\": \"71335000\"}, \"CODE_NUTS\": \"FR512\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"30\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"70\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2017\", \"NUM_PARUTION\": \"070\", \"NUM_ANNONCE\": \"132445\", \"DATE_PUBLICATION\": \"2017-04-08\"}}}, \"ATTRIBUTION\": {\"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2017.07.0085\", \"TITULAIRE\": {\"DENOMINATION\": \"AC ENVIRONNEMENT\", \"ADRESSE\": \"64 rue Clément Ader - CS 70064\", \"CP\": \"42153\", \"VILLE\": \"Riorges\", \"CODE_NUTS\": \"FR715\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-07-19\", \"NB_OFFRE_RECU\": \"9\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"1000000\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 20 juillet 2017.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette - CS 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"SEVRE LOIRE HABITAT\", \"CONTACT\": \"Direction du Patrimoine - Mr Karl ANDRE\", \"ADRESSE\": \"34 rue St Christophe - CS 32144\", \"CP\": \"49321\", \"VILLE\": \"Cholet cedex\", \"CODE_NUTS\": \"FR512\", \"TEL\": \"(+33) 2-41-75-65-15\", \"FAX\": \"(+33) 2-41-75-25-20\", \"MEL\": \"karl.andre@slh-habitat.fr\", \"URL\": \"http://www.slh-habitat.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-104474"
-  },
-  {
    "idweb": "17-102998",
    "id": "17_102998",
    "contractfolderid": null,
@@ -3989,6 +3926,69 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-98186\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-98186.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-07-22\", \"DATE_FIN_DIFFUSION\": \"2017-09-12\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"102\", \"LIBELLE\": \"Eclairage public\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Acquisition et maintenance d'une application centralisée de pilotage d'équipements de commande de l'éclairage public\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Nantes Métropole\", \"ADJUDICATEUR_NUTS\": \"FR511\", \"ADRESSE\": \"2 cours du Champ de Mars\", \"CP\": \"44923\", \"VILLE\": \"Nantes cedex 9\", \"MEL\": \"estelle.talhouarn@nantesmetropole.fr\", \"URL\": \"http://www.nantesmetropole.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.nantesmetropole.fr\", \"URL_PARTICIPATION\": \"https://marchespublics.nantesmetropole.fr\", \"URL_DOCUMENT\": \"https://marchespublics.nantesmetropole.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Acquisition et maintenance dune application centralisée de pilotage  déquipements de commande de léclairage public\", \"REF_MARCHE\": \"17EB009\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Acquisition et maintenance dune application centralisée de pilotage  déquipements de commande de léclairage public. Dans un souci de gestion optimisée, Nantes Métropole recherche ainsi une solution de substitution au système actuel de commande centralisée d'allumage de l'éclairage public (PULSADIS dEnedis) équipant environ la moitié de son patrimoine, Ce système Pulsadis devrait disparaître à terme avec la mise en place des nouveaux compteurs électriques Linky.Tout comme le système Pulsadis actuel, le système recherché devra tenir compte de la luminosité réelle locale,Il est envisagé déquiper à terme  les 1 940 armoires que compte le patrimoine Éclairage Public.\", \"CPV\": {\"PRINCIPAL\": \"50232110\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Accord-cadre mono-attributaire dénué de minimum, mais assorti d'un montant maximum de 500 000 euro HT sur la durée globale du contrat.\", \"CPV\": {\"PRINCIPAL\": \"50232110\"}, \"CODE_NUTS\": \"FR511\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"24\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché pourra être reconduit dans les conditions suivantes : deux (2) reconductions de deux (2) années maximum, soit une durée de reconduction de 48 mois maximum\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Tous les candidats ayant remis une candidature recevable seront retenus au terme de la phase candidature. Adresse de consultation, de téléchargement et de réponse par voie électronique :https://marchespublics.nantesmetropole.fr. La transmission électronique des candidatures et des offres nest pas obligatoire. Tous les candidats ayant remis une candidature recevable seront retenus au terme de la phase candidature.\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"NEGOCIE\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\", \"SUP_QUATRE_ANS_JUSTIFICATION\": \"-objet du contrat qui concerne une infrastructure couvrant l'ensemble du territoire métropolitain,- planning prévisionnel d'exécution qui prévoit 4 années pour équiper l'intégralité des équipements,- possible recours à des développements applicatifs tiers,- amortissement supérieur à 4 années\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-09-12T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"5\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Les renseignements concernant la situation juridique de lentreprise : Lettre de candidature (imprimé DC1) que la candidature soit présentée à titre individuel ou en groupement.Critères de recevabilité des candidatures : Aptitude à exercerl'activité professionnelle, capacité économique et financière, capacités techniques et professionnelle\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"Déclaration concernant le chiffre d'affaires global du candidat et le chiffre d'affaires du domaine d'activité faisant l'objet du marché public, portant sur les trois derniers exercices disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles (cadre D1 du document DC2 à remplir si utilisation de ce document)\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"- Déclaration indiquant les effectifs moyens annuels du candidat et limportance du personnel dencadrement pour chacune des trois dernières années;- Description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation du marché- Une liste des principales livraisons effectuées ou des principaux services fournis au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Les réalisations sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique- La description de l'équipement technique ainsi que des mesures employées par le candidat pour s'assurer de la qualité et des moyens d'étude et de recherche de son entreprise ;\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_OUI\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_NON\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Date prévisionnelle de début des prestations : février 2018.La présente consultation peut faire lobjet dune transmission des candidatures par voie électronique. Les candidats qui souhaitentdéposer leur candidature par voie électronique peuvent le faire via le site https://marchespublics.nantesmetropole.fr. Plus de détailssur l'annexe : Règles de dématérialisation des dossiers de candidature, disponible sur le profil acheteur. Date d'envoi du présent avis au JOUE et au BOAMP : 20 juillet 2017.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Nantes Métropole\", \"ADRESSE\": \"Direction générale déléguée à la cohérence territorialeDirection de lEspace Public Service Eclairage public et infrastructures de communications électroniques5 rue de SaverneDany JOLYFax : 02 40 99 50 45\", \"CP\": \"44923\", \"VILLE\": \"Nantes cedex 9\", \"CODE_NUTS\": \"FR511\", \"MEL\": \"dany.joly@nantesmetropole.fr\", \"URL\": \"http://www.nantesmetropole.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Nantes Métropole\", \"ADRESSE\": \"Direction de la Commande PubliqueService des Marchés PublicsHôtel de Ville29 rue de StrasbourgOuvert de 8h30h à 12h30 et de 13h30 à 17h30Estelle TALHOUARN Tel : 02.40.41.51.20Fax : 02.40.41.51.08\", \"CP\": \"44094\", \"VILLE\": \"Nantes cedex 1\", \"CODE_NUTS\": \"FR511\", \"MEL\": \"estelle.talhouarn@nantesmetropole.fr\", \"URL\": \"http://www.nantesmetropole.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée Ile GlorietteBP 24111\", \"CP\": \"44000\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée Ile GlorietteBP 24111\", \"CP\": \"44000\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-98186"
+  },
+  {
+   "idweb": "17-104474",
+   "id": "17_104474",
+   "contractfolderid": null,
+   "objet": "Accord-cadre pour des missions de repérage amiante et de diagnostics immobiliers sur le patrimoine de SLH - Années 2017/2020",
+   "filename": "BOAMP-J-IC-AA_2017_203005",
+   "famille": "JOUE",
+   "code_departement": [
+    "49"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2017-07-22",
+   "datefindiffusion": "2017-09-30",
+   "datelimitereponse": null,
+   "nomacheteur": "Sèvre Loire Habitat",
+   "titulaire": [
+    "AC ENVIRONNEMENT"
+   ],
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "ATTRIBUTION",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "274"
+   ],
+   "dc": [
+    "274"
+   ],
+   "descripteur_libelle": [
+    "Prestations de services"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "17-47794"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"17-47794\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-04-05\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-04-07\", \"DATE_FIN_DIFFUSION\": \"2017-05-16\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"070\", \"NUM_ANNONCE\": \"132445\", \"DATE_PUBLICATION\": \"2017-04-08\"}}]}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-104474\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-47794\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-04-05\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-04-07\", \"DATE_FIN_DIFFUSION\": \"2017-05-16\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"070\", \"NUM_ANNONCE\": \"132445\", \"DATE_PUBLICATION\": \"2017-04-08\"}}]}}, \"NOM_HTML\": \"17-104474.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-07-22\", \"DATE_FIN_DIFFUSION\": \"2017-09-30\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Accord-cadre pour des missions de repérage amiante et de diagnostics immobiliers sur le patrimoine de SLH - Années 2017/2020\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Sèvre Loire Habitat\", \"CODE_IDENT_NATIONAL\": \"34200781200023\", \"CONTACT\": \"Service Marchés\", \"ADJUDICATEUR_NUTS\": \"FR512\", \"ADRESSE\": \"34, rue Saint Christophe - CS 32144\", \"CP\": \"49321\", \"VILLE\": \"Cholet\", \"TEL\": \"(+33) 2-41-75-25-33\", \"FAX\": \"(+33) 2-41-75-25-20\", \"MEL\": \"marches@slh-habitat.fr\", \"URL\": \"http://www.slh-habitat.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.achatpublic.com/sdm/ent/gen/index.jsp\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AGENCE_NATIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"LOG_DEV_COL\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Accord-cadre pour des missions de repérage amiante et de diagnostics immobiliers sur le patrimoine de SLH - Années 2017/2020\", \"REF_MARCHE\": \"AC diagnostics immobiliers\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Accord-cadre pour des missions de repérage amiante et de diagnostics immobiliers sur le patrimoine de SLH - Années 2017/2020\", \"CPV\": {\"PRINCIPAL\": \"71335000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"1000000\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Accord-cadre pour des missions de repérage amiante et de diagnostics immobiliers sur le patrimoine de SLH - Années 2017/2020\", \"CPV\": {\"PRINCIPAL\": \"71335000\"}, \"CODE_NUTS\": \"FR512\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"30\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"70\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2017\", \"NUM_PARUTION\": \"070\", \"NUM_ANNONCE\": \"132445\", \"DATE_PUBLICATION\": \"2017-04-08\"}}}, \"ATTRIBUTION\": {\"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2017.07.0085\", \"TITULAIRE\": {\"DENOMINATION\": \"AC ENVIRONNEMENT\", \"ADRESSE\": \"64 rue Clément Ader - CS 70064\", \"CP\": \"42153\", \"VILLE\": \"Riorges\", \"CODE_NUTS\": \"FR715\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-07-19\", \"NB_OFFRE_RECU\": \"9\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"1000000\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 20 juillet 2017.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette - CS 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"SEVRE LOIRE HABITAT\", \"CONTACT\": \"Direction du Patrimoine - Mr Karl ANDRE\", \"ADRESSE\": \"34 rue St Christophe - CS 32144\", \"CP\": \"49321\", \"VILLE\": \"Cholet cedex\", \"CODE_NUTS\": \"FR512\", \"TEL\": \"(+33) 2-41-75-65-15\", \"FAX\": \"(+33) 2-41-75-25-20\", \"MEL\": \"karl.andre@slh-habitat.fr\", \"URL\": \"http://www.slh-habitat.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-104474"
   },
   {
    "idweb": "17-95452",

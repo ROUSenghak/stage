@@ -5861,61 +5861,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-166565"
   },
   {
-   "idweb": "16-163108",
-   "id": "16_163108",
-   "contractfolderid": null,
-   "objet": "collecte des eaux usées des communes des sables d'olonne, du château d'olonne et d'olonne sur mer (85)",
-   "filename": "BOAMP-N-IC-AA_2016_322006",
-   "famille": "DSP",
-   "code_departement": [
-    "85"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Délégation de service public",
-   "dateparution": "2016-11-17",
-   "datefindiffusion": "2016-12-17",
-   "datelimitereponse": null,
-   "nomacheteur": "Communauté de Communes des Olonnes",
-   "titulaire": null,
-   "perimetre": "DSP",
-   "type_procedure": null,
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure NC",
-   "procedure_categorise": "/",
-   "nature": "INTENTION_CONCLURE",
-   "sousnature": null,
-   "nature_libelle": "Avis d'intention de conclure",
-   "sousnature_libelle": null,
-   "nature_categorise": "intentionconclure/standard",
-   "nature_categorise_libelle": "Avis d'intention de conclure/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "18"
-   ],
-   "dc": [
-    "18"
-   ],
-   "descripteur_libelle": [
-    "Assainissement"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "",
-    "7",
-    "9"
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-163108\", \"TYPE_AVIS\": {\"FAMILLE\": {\"DSP\": \"\"}, \"PERIMETRE\": {\"DSP\": \"\"}, \"NATURE\": {\"INTENTION_CONCLURE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-163108.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-11-17\", \"DATE_FIN_DIFFUSION\": \"2016-12-17\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"18\", \"LIBELLE\": \"Assainissement\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"collecte des eaux usées des communes des sables d'olonne, du château d'olonne et d'olonne sur mer (85)\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Communauté de Communes des Olonnes\", \"CORRESPONDANT\": \"Monsieur le Président\", \"ADRESSE\": \"3 avenue Carnot\", \"CP\": \"85100\", \"VILLE\": \"les sables d'olonne\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-securises.fr\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"OBJET\": {\"TITRE_MARCHE\": \"Collecte des eaux usées des communes des Sables d'Olonne, du Château d'Olonne et d'Olonne sur Mer (85)\", \"OBJET_COMPLET\": \"Délégation du Service Public d'assainissement de collecte des eaux usées des communes des Sables d'Olonne, du Château d'Olonne et d'Olonne sur Mer.\", \"CPV\": {\"PRINCIPAL\": \"90480000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"les sables d'olonne\", \"CP\": \"85100\", \"CODE_NUTS\": \"FR\"}, \"DELEGATION\": {\"TEXTE_APPLICATION\": \"La consultation est menée conformément à la procédure décrite aux articles L.1411-1 àL.1411-18 et R.1411-1 à R.1411-8 du Code Général des Collectivités Territoriales (CGCT), issue de la loi no93-122 du 29 janvier 1993 modifiée relative à la prévention de la corruption et à la transparence de la vie économique et des procédures publiques.\", \"DOMAINE\": {\"ASSAINISSEMENT\": \"\"}, \"DUREE_AN\": \"8\"}}, \"PROCEDURE\": {\"FONDS_COMMUNAUTAIRES_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_LIBRE\": \"-la valeur technique, la qualité de la gestion du service, la valeur des engagements pris par le Délégataire et la transparence seront appréciées au vu des compléments techniques au projet de contrat et du mémoire technique -les prix et les aspects financiers seront appréciés au vu des compléments financiers au projet de contrat et de la proposition financière\"}}, \"ATTRIBUTION\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"3535000\"}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes,\", \"ADRESSE\": \"Ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\"}}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-163108"
-  },
-  {
    "idweb": "16-163900",
    "id": "16_163900",
    "contractfolderid": null,
@@ -6038,6 +5983,61 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-164951\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-105214\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2016-07-13\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-07-15\", \"DATE_FIN_DIFFUSION\": \"2016-09-05\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"136\", \"NUM_ANNONCE\": \"244874\", \"DATE_PUBLICATION\": \"2016-07-16\"}}]}}, \"NOM_HTML\": \"16-164951.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-11-17\", \"DATE_FIN_DIFFUSION\": \"2016-12-15\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"118\", \"LIBELLE\": \"Etude\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"prestation d'élaboration d'un schéma directeur modes doux pour le compte de PETR du Pays de Retz à SAINT BREVIN LES PINS\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Syndicat Mixte du Scot du Pays de Retz\", \"ADJUDICATEUR_NUTS\": \"FR511\", \"ADRESSE\": \"Place de l'hôtel de ville\", \"CP\": \"44250\", \"VILLE\": \"SAINT BREVIN LES PINS\", \"TEL\": \"(+33) 2-44-06-80-10\", \"MEL\": \"c.gmyrek@cc-sudestuaire.fr\", \"URL\": \"http://www.petr-paysderetz.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.cc-sudestuaire-marches.com\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Syndicat mixte\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Elaboration d'un schéma directeur modes doux\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Elaboration d'un schéma directeur modes doux\", \"CPV\": {\"PRINCIPAL\": \"79311000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Elaboration d'un schéma directeur modes doux\", \"CPV\": {\"PRINCIPAL\": \"79311000\"}, \"CODE_NUTS\": \"FR511\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Durée de l'accord-cadre 1 an, reconductible une fois pour un an\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"FEADER programme LEADER\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2016\", \"NUM_PARUTION\": \"136\", \"NUM_ANNONCE\": \"244874\", \"DATE_PUBLICATION\": \"2016-07-16\"}}}, \"ATTRIBUTION\": {\"DECISION\": {\"ATTRIBUE\": \"\", \"TITULAIRE\": {\"DENOMINATION\": \"MOBHILIS\", \"ADRESSE\": \"23 La Couplais\", \"CP\": \"35600\", \"VILLE\": \"SAINTE MARIE\", \"CODE_NUTS\": \"FR523\", \"TEL\": \"(+33) 2-99-72-67-05\", \"FAX\": \"(+33) 2-30-96-64-99\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-11-10\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"88099\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 15 novembre 2016.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'ile gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cédex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'ile gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cédex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-164951"
+  },
+  {
+   "idweb": "16-163108",
+   "id": "16_163108",
+   "contractfolderid": null,
+   "objet": "collecte des eaux usées des communes des sables d'olonne, du château d'olonne et d'olonne sur mer (85)",
+   "filename": "BOAMP-N-IC-AA_2016_322006",
+   "famille": "DSP",
+   "code_departement": [
+    "85"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Délégation de service public",
+   "dateparution": "2016-11-17",
+   "datefindiffusion": "2016-12-17",
+   "datelimitereponse": null,
+   "nomacheteur": "Communauté de Communes des Olonnes",
+   "titulaire": null,
+   "perimetre": "DSP",
+   "type_procedure": null,
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure NC",
+   "procedure_categorise": "/",
+   "nature": "INTENTION_CONCLURE",
+   "sousnature": null,
+   "nature_libelle": "Avis d'intention de conclure",
+   "sousnature_libelle": null,
+   "nature_categorise": "intentionconclure/standard",
+   "nature_categorise_libelle": "Avis d'intention de conclure/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "18"
+   ],
+   "dc": [
+    "18"
+   ],
+   "descripteur_libelle": [
+    "Assainissement"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "",
+    "7",
+    "9"
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-163108\", \"TYPE_AVIS\": {\"FAMILLE\": {\"DSP\": \"\"}, \"PERIMETRE\": {\"DSP\": \"\"}, \"NATURE\": {\"INTENTION_CONCLURE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-163108.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-11-17\", \"DATE_FIN_DIFFUSION\": \"2016-12-17\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"18\", \"LIBELLE\": \"Assainissement\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"collecte des eaux usées des communes des sables d'olonne, du château d'olonne et d'olonne sur mer (85)\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Communauté de Communes des Olonnes\", \"CORRESPONDANT\": \"Monsieur le Président\", \"ADRESSE\": \"3 avenue Carnot\", \"CP\": \"85100\", \"VILLE\": \"les sables d'olonne\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-securises.fr\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"OBJET\": {\"TITRE_MARCHE\": \"Collecte des eaux usées des communes des Sables d'Olonne, du Château d'Olonne et d'Olonne sur Mer (85)\", \"OBJET_COMPLET\": \"Délégation du Service Public d'assainissement de collecte des eaux usées des communes des Sables d'Olonne, du Château d'Olonne et d'Olonne sur Mer.\", \"CPV\": {\"PRINCIPAL\": \"90480000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"les sables d'olonne\", \"CP\": \"85100\", \"CODE_NUTS\": \"FR\"}, \"DELEGATION\": {\"TEXTE_APPLICATION\": \"La consultation est menée conformément à la procédure décrite aux articles L.1411-1 àL.1411-18 et R.1411-1 à R.1411-8 du Code Général des Collectivités Territoriales (CGCT), issue de la loi no93-122 du 29 janvier 1993 modifiée relative à la prévention de la corruption et à la transparence de la vie économique et des procédures publiques.\", \"DOMAINE\": {\"ASSAINISSEMENT\": \"\"}, \"DUREE_AN\": \"8\"}}, \"PROCEDURE\": {\"FONDS_COMMUNAUTAIRES_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_LIBRE\": \"-la valeur technique, la qualité de la gestion du service, la valeur des engagements pris par le Délégataire et la transparence seront appréciées au vu des compléments techniques au projet de contrat et du mémoire technique -les prix et les aspects financiers seront appréciés au vu des compléments financiers au projet de contrat et de la proposition financière\"}}, \"ATTRIBUTION\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"3535000\"}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes,\", \"ADRESSE\": \"Ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\"}}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-163108"
   },
   {
    "idweb": "16-166758",

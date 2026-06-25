@@ -2,6 +2,69 @@
  "total_count": 3689,
  "results": [
   {
+   "idweb": "19-85576",
+   "id": "19_85576",
+   "contractfolderid": null,
+   "objet": "Ensemble multi-techniques d'enceintes de synthèse - Relance après déclaration sans suite pour motif d'intérêt général",
+   "filename": "BOAMP-J-AO_2019_156003",
+   "famille": "JOUE",
+   "code_departement": [
+    "72",
+    "53"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2019-06-05",
+   "datefindiffusion": "2019-07-08",
+   "datelimitereponse": null,
+   "nomacheteur": "Université du Maine",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "1",
+    "115"
+   ],
+   "dc": [
+    "1",
+    "115"
+   ],
+   "descripteur_libelle": [
+    "Abris",
+    "Equipements spécialisés"
+   ],
+   "type_marche": [
+    "FOURNITURES"
+   ],
+   "type_marche_facette": [
+    "Fournitures"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-85576\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-85576.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-06-05\", \"DATE_FIN_DIFFUSION\": \"2019-07-08\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"1\", \"LIBELLE\": \"Abris\"}, {\"CODE\": \"115\", \"LIBELLE\": \"Equipements spécialisés\"}]}, \"DEP_PUBLICATION\": [\"72\", \"53\"], \"RESUME_OBJET\": \"Ensemble multi-techniques d'enceintes de synthèse - Relance après déclaration sans suite pour motif d'intérêt général\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Université du Maine\", \"ADJUDICATEUR_NUTS\": \"FRG0\", \"ADRESSE\": \"Avenue Olivier Messiaen\", \"CP\": \"72085\", \"VILLE\": \"Le mans\", \"TEL\": \"(+33) 2-43-83-37-37\", \"MEL\": \"achats@univ-lemans.fr\", \"URL\": \"http://www.univ-lemans.fr/fr/index.html\", \"URL_PARTICIPATION\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=433262&orgAcronyme=f2h\", \"URL_DOCUMENT\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=433262&orgAcronyme=f2h\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Enseignement supérieur et recherche\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Enseignement supérieur et recherche\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Ensemble multi-techniques d'enceintes de synthèse - Relance après déclaration sans suite pour motif d'intérêt général\", \"REF_MARCHE\": \"2019_052\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Ensemble multi-techniques d'enceintes de synthèse - Relance après déclaration sans suite pour motif d'intérêt général\", \"CPV\": {\"PRINCIPAL\": \"42300000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"2 Fours à moufle haute température\", \"DESCRIPTION\": \"Équipement - 2 fours à moufle haute température\", \"CPV\": {\"PRINCIPAL\": \"42300000\"}, \"CODE_NUTS\": \"FRG0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"90\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Ensemble multi-techniques d'enceintes de synthèse\"}, {\"NUM\": \"2\", \"INTITULE\": \"1 Four tubulaire orientable\", \"DESCRIPTION\": \"Equipement : 1 four tubulaire orientable\", \"CPV\": {\"PRINCIPAL\": \"42300000\"}, \"CODE_NUTS\": \"FRG0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"90\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Ensemble multi-techniques d'enceintes de synthèse\"}, {\"NUM\": \"3\", \"INTITULE\": \"1 Four à moufle 1200°C pour boîte à gants\", \"DESCRIPTION\": \"Equipement : 1 Four à moufle 1200°C pour boîte à gants\", \"CPV\": {\"PRINCIPAL\": \"42300000\"}, \"CODE_NUTS\": \"FRG0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"90\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Ensemble multi-techniques d'enceintes de synthèse\"}, {\"NUM\": \"4\", \"INTITULE\": \"Tubes en alumine pour fours tubulaires\", \"DESCRIPTION\": \"Tubes en alumine pour fours tubulaires\", \"CPV\": {\"PRINCIPAL\": \"42390000\"}, \"CODE_NUTS\": \"FRG0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"90\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Ensemble multi-techniques d'enceintes de synthèse\"}, {\"NUM\": \"5\", \"INTITULE\": \"Câble d'alimentation blindé pour spire Haute Fréquence\", \"DESCRIPTION\": \"Câble d'alimentation blindé pour spire Haute Fréquence\", \"CPV\": {\"PRINCIPAL\": \"42390000\"}, \"CODE_NUTS\": \"FRG0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"90\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Ensemble multi-techniques d'enceintes de synthèse\"}, {\"NUM\": \"6\", \"INTITULE\": \"1 Four pour l'hydrogénation en chimie de flux\", \"DESCRIPTION\": \"Four pour l'hydrogénation en chimie de flux\", \"CPV\": {\"PRINCIPAL\": \"42300000\"}, \"CODE_NUTS\": \"FRG0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"90\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Ensemble multi-techniques d'enceintes de synthèse\"}, {\"NUM\": \"7\", \"INTITULE\": \"1 Four Micro-ondes pour synthèse organique\", \"DESCRIPTION\": \"Four Micro-ondes pour synthèse organique\", \"CPV\": {\"PRINCIPAL\": \"42300000\"}, \"CODE_NUTS\": \"FRG0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"90\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Ensemble multi-techniques d'enceintes de synthèse\"}, {\"NUM\": \"8\", \"INTITULE\": \"1 Four Micro-ondes pour synthèse inorganique\", \"DESCRIPTION\": \"Four Micro-ondes pour synthèse inorganique\", \"CPV\": {\"PRINCIPAL\": \"42300000\"}, \"CODE_NUTS\": \"FRG0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"90\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Ensemble multi-techniques d'enceintes de synthèse\"}, {\"NUM\": \"9\", \"INTITULE\": \"1 Enceinte Etuve sous vide\", \"DESCRIPTION\": \"Enceinte Etuve sous vide\", \"CPV\": {\"PRINCIPAL\": \"42940000\"}, \"CODE_NUTS\": \"FRG0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"90\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Ensemble multi-techniques d'enceintes de synthèse\"}, {\"NUM\": \"10\", \"INTITULE\": \"1 Pompe pour vide (primaire/secondaire)\", \"DESCRIPTION\": \"Pompe pour vide (primaire/secondaire)\", \"CPV\": {\"PRINCIPAL\": \"42390000\"}, \"CODE_NUTS\": \"FRG0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"90\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Ensemble multi-techniques d'enceintes de synthèse\"}, {\"NUM\": \"11\", \"INTITULE\": \"1 Sonificateur avec caisson\", \"DESCRIPTION\": \"Sonificateur avec caisson\", \"CPV\": {\"PRINCIPAL\": \"38436000\"}, \"CODE_NUTS\": \"FRG0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"90\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Ensemble multi-techniques d'enceintes de synthèse\"}, {\"NUM\": \"12\", \"INTITULE\": \"Ensemble Sorbonnes/Hottes\", \"DESCRIPTION\": \"Ensemble Sorbonnes/Hottes\", \"CPV\": {\"PRINCIPAL\": \"38430000\"}, \"CODE_NUTS\": \"FRG0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"90\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Ensemble multi-techniques d'enceintes de synthèse\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-07-08T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-07-08\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 3 juin 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-85576"
+  },
+  {
    "idweb": "19-86737",
    "id": "19_86737",
    "contractfolderid": null,
@@ -128,69 +191,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-86141\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"19-53095\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-04-02\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-04-04\", \"DATE_FIN_DIFFUSION\": \"2019-05-02\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"067\", \"NUM_ANNONCE\": \"157358\", \"DATE_PUBLICATION\": \"2019-04-04\"}}]}}, \"NOM_HTML\": \"19-86141.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-06-05\", \"DATE_FIN_DIFFUSION\": \"2019-06-27\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"Affrètement de bateaux pour le Vendée Globe 2020-2021\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"VENDEE\", \"CODE_IDENT_NATIONAL\": \"45151864100035\", \"CONTACT\": \"Stéphanie Ruchaud\", \"ADJUDICATEUR_NUTS\": \"FRG0\", \"ADRESSE\": \"45 boulevard des Etats-UnisBP 233\", \"CP\": \"85006\", \"VILLE\": \"La Roche sur Yon\", \"TEL\": \"(+33) 2-51-44-91-07\", \"MEL\": \"stephanie.ruchaud@vendeeglobe.fr\", \"URL\": \"http://www.vendeeglobe.fr\", \"URL_PROFIL_ACHETEUR\": \"http://marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"SAEM\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"EVENEMENT SPORTIF\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Affrètement de bateaux pour le Vendée Globe 2020-2021\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Affrètement de bateaux pour le Vendée Globe 2020-2021\", \"CPV\": {\"PRINCIPAL\": \"92622000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Affrètement de bateaux pour le Vendée Globe 2020-2021\", \"CPV\": {\"PRINCIPAL\": \"92622000\"}, \"CODE_NUTS\": \"FRG\", \"LIEU_PRINCIPAL\": \"VOIR CCTP\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"20\", \"#text\": \"Pourcentage de royalties\"}, {\"@POIDS\": \"15\", \"#text\": \"Montant du tarif affrètement public\"}, {\"@POIDS\": \"25\", \"#text\": \"Qualité du mémoire technique\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AMP_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"067\", \"NUM_ANNONCE\": \"157358\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"SANS_SUITE\": \"\", \"INTITULE\": \"Affrètement de bateaux pour le Vendée Globe 2020-2021\"}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 4 juin 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"TGI de Rennes\", \"ADRESSE\": \"Cité Judiciaire7 Rue Pierre Abelard\", \"CP\": \"35031\", \"VILLE\": \"Rennes\"}}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-86141"
-  },
-  {
-   "idweb": "19-85576",
-   "id": "19_85576",
-   "contractfolderid": null,
-   "objet": "Ensemble multi-techniques d'enceintes de synthèse - Relance après déclaration sans suite pour motif d'intérêt général",
-   "filename": "BOAMP-J-AO_2019_156003",
-   "famille": "JOUE",
-   "code_departement": [
-    "72",
-    "53"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2019-06-05",
-   "datefindiffusion": "2019-07-08",
-   "datelimitereponse": null,
-   "nomacheteur": "Université du Maine",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "1",
-    "115"
-   ],
-   "dc": [
-    "1",
-    "115"
-   ],
-   "descripteur_libelle": [
-    "Abris",
-    "Equipements spécialisés"
-   ],
-   "type_marche": [
-    "FOURNITURES"
-   ],
-   "type_marche_facette": [
-    "Fournitures"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-85576\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-85576.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-06-05\", \"DATE_FIN_DIFFUSION\": \"2019-07-08\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"1\", \"LIBELLE\": \"Abris\"}, {\"CODE\": \"115\", \"LIBELLE\": \"Equipements spécialisés\"}]}, \"DEP_PUBLICATION\": [\"72\", \"53\"], \"RESUME_OBJET\": \"Ensemble multi-techniques d'enceintes de synthèse - Relance après déclaration sans suite pour motif d'intérêt général\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Université du Maine\", \"ADJUDICATEUR_NUTS\": \"FRG0\", \"ADRESSE\": \"Avenue Olivier Messiaen\", \"CP\": \"72085\", \"VILLE\": \"Le mans\", \"TEL\": \"(+33) 2-43-83-37-37\", \"MEL\": \"achats@univ-lemans.fr\", \"URL\": \"http://www.univ-lemans.fr/fr/index.html\", \"URL_PARTICIPATION\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=433262&orgAcronyme=f2h\", \"URL_DOCUMENT\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=433262&orgAcronyme=f2h\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Enseignement supérieur et recherche\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Enseignement supérieur et recherche\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Ensemble multi-techniques d'enceintes de synthèse - Relance après déclaration sans suite pour motif d'intérêt général\", \"REF_MARCHE\": \"2019_052\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Ensemble multi-techniques d'enceintes de synthèse - Relance après déclaration sans suite pour motif d'intérêt général\", \"CPV\": {\"PRINCIPAL\": \"42300000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"2 Fours à moufle haute température\", \"DESCRIPTION\": \"Équipement - 2 fours à moufle haute température\", \"CPV\": {\"PRINCIPAL\": \"42300000\"}, \"CODE_NUTS\": \"FRG0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"90\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Ensemble multi-techniques d'enceintes de synthèse\"}, {\"NUM\": \"2\", \"INTITULE\": \"1 Four tubulaire orientable\", \"DESCRIPTION\": \"Equipement : 1 four tubulaire orientable\", \"CPV\": {\"PRINCIPAL\": \"42300000\"}, \"CODE_NUTS\": \"FRG0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"90\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Ensemble multi-techniques d'enceintes de synthèse\"}, {\"NUM\": \"3\", \"INTITULE\": \"1 Four à moufle 1200°C pour boîte à gants\", \"DESCRIPTION\": \"Equipement : 1 Four à moufle 1200°C pour boîte à gants\", \"CPV\": {\"PRINCIPAL\": \"42300000\"}, \"CODE_NUTS\": \"FRG0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"90\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Ensemble multi-techniques d'enceintes de synthèse\"}, {\"NUM\": \"4\", \"INTITULE\": \"Tubes en alumine pour fours tubulaires\", \"DESCRIPTION\": \"Tubes en alumine pour fours tubulaires\", \"CPV\": {\"PRINCIPAL\": \"42390000\"}, \"CODE_NUTS\": \"FRG0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"90\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Ensemble multi-techniques d'enceintes de synthèse\"}, {\"NUM\": \"5\", \"INTITULE\": \"Câble d'alimentation blindé pour spire Haute Fréquence\", \"DESCRIPTION\": \"Câble d'alimentation blindé pour spire Haute Fréquence\", \"CPV\": {\"PRINCIPAL\": \"42390000\"}, \"CODE_NUTS\": \"FRG0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"90\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Ensemble multi-techniques d'enceintes de synthèse\"}, {\"NUM\": \"6\", \"INTITULE\": \"1 Four pour l'hydrogénation en chimie de flux\", \"DESCRIPTION\": \"Four pour l'hydrogénation en chimie de flux\", \"CPV\": {\"PRINCIPAL\": \"42300000\"}, \"CODE_NUTS\": \"FRG0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"90\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Ensemble multi-techniques d'enceintes de synthèse\"}, {\"NUM\": \"7\", \"INTITULE\": \"1 Four Micro-ondes pour synthèse organique\", \"DESCRIPTION\": \"Four Micro-ondes pour synthèse organique\", \"CPV\": {\"PRINCIPAL\": \"42300000\"}, \"CODE_NUTS\": \"FRG0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"90\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Ensemble multi-techniques d'enceintes de synthèse\"}, {\"NUM\": \"8\", \"INTITULE\": \"1 Four Micro-ondes pour synthèse inorganique\", \"DESCRIPTION\": \"Four Micro-ondes pour synthèse inorganique\", \"CPV\": {\"PRINCIPAL\": \"42300000\"}, \"CODE_NUTS\": \"FRG0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"90\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Ensemble multi-techniques d'enceintes de synthèse\"}, {\"NUM\": \"9\", \"INTITULE\": \"1 Enceinte Etuve sous vide\", \"DESCRIPTION\": \"Enceinte Etuve sous vide\", \"CPV\": {\"PRINCIPAL\": \"42940000\"}, \"CODE_NUTS\": \"FRG0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"90\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Ensemble multi-techniques d'enceintes de synthèse\"}, {\"NUM\": \"10\", \"INTITULE\": \"1 Pompe pour vide (primaire/secondaire)\", \"DESCRIPTION\": \"Pompe pour vide (primaire/secondaire)\", \"CPV\": {\"PRINCIPAL\": \"42390000\"}, \"CODE_NUTS\": \"FRG0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"90\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Ensemble multi-techniques d'enceintes de synthèse\"}, {\"NUM\": \"11\", \"INTITULE\": \"1 Sonificateur avec caisson\", \"DESCRIPTION\": \"Sonificateur avec caisson\", \"CPV\": {\"PRINCIPAL\": \"38436000\"}, \"CODE_NUTS\": \"FRG0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"90\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Ensemble multi-techniques d'enceintes de synthèse\"}, {\"NUM\": \"12\", \"INTITULE\": \"Ensemble Sorbonnes/Hottes\", \"DESCRIPTION\": \"Ensemble Sorbonnes/Hottes\", \"CPV\": {\"PRINCIPAL\": \"38430000\"}, \"CODE_NUTS\": \"FRG0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"90\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Ensemble multi-techniques d'enceintes de synthèse\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-07-08T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-07-08\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 3 juin 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-85576"
   },
   {
    "idweb": "19-87143",
@@ -1138,6 +1138,75 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-86256"
   },
   {
+   "idweb": "19-86891",
+   "id": "19_86891",
+   "contractfolderid": null,
+   "objet": "Travaux d'aménagement intérieur pour les besoins des services du Département de la Sarthe",
+   "filename": "BOAMP-J-AO_2019_158003",
+   "famille": "JOUE",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2019-06-07",
+   "datefindiffusion": "2019-06-13",
+   "datelimitereponse": null,
+   "nomacheteur": "DEPARTEMENT DE LA SARTHE",
+   "titulaire": null,
+   "perimetre": "AUTRE",
+   "type_procedure": null,
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure NC",
+   "procedure_categorise": "/",
+   "nature": "RECTIFICATIF",
+   "sousnature": null,
+   "nature_libelle": "Rectificatif",
+   "sousnature_libelle": "Rectificatif",
+   "nature_categorise": "rectificatif/standard",
+   "nature_categorise_libelle": "Rectificatif/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "RECTIFICATIF",
+   "descripteur_code": [
+    "63",
+    "222",
+    "264",
+    "308",
+    "309"
+   ],
+   "dc": [
+    "63",
+    "222",
+    "264",
+    "308",
+    "309"
+   ],
+   "descripteur_libelle": [
+    "Cloison, faux plafond",
+    "Menuiserie",
+    "Peinture (travaux)",
+    "Revêtements de sols",
+    "Revêtements muraux"
+   ],
+   "type_marche": [
+    "TRAVAUX"
+   ],
+   "type_marche_facette": [
+    "Travaux"
+   ],
+   "type_avis": null,
+   "annonce_lie": [
+    "19-73073"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"19-73073\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-05-09\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-05-11\", \"DATE_FIN_DIFFUSION\": \"2019-06-11\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"091\", \"NUM_ANNONCE\": \"217657\", \"DATE_PUBLICATION\": \"2019-05-13\"}}]}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-86891\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"19-73073\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-05-09\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-05-11\", \"DATE_FIN_DIFFUSION\": \"2019-06-11\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"091\", \"NUM_ANNONCE\": \"217657\", \"DATE_PUBLICATION\": \"2019-05-13\"}}]}}, \"NOM_HTML\": \"19-86891.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-06-07\", \"DATE_FIN_DIFFUSION\": \"2019-06-13\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"63\", \"LIBELLE\": \"Cloison, faux plafond\"}, {\"CODE\": \"222\", \"LIBELLE\": \"Menuiserie\"}, {\"CODE\": \"264\", \"LIBELLE\": \"Peinture (travaux)\"}, {\"CODE\": \"308\", \"LIBELLE\": \"Revêtements de sols\"}, {\"CODE\": \"309\", \"LIBELLE\": \"Revêtements muraux\"}]}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Travaux d'aménagement intérieur pour les besoins des services du Département de la Sarthe\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"DEPARTEMENT DE LA SARTHE\", \"CODE_IDENT_NATIONAL\": \"22720002900014\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"Hôtel du département, Place Aristide Briand\", \"CP\": \"72072\", \"VILLE\": \"Le Mans\", \"MEL\": \"scp@cg72.fr\", \"URL\": \"http://www.sarthe.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"OBJET\": {\"TITRE_MARCHE\": \"Travaux d'aménagement intérieur pour les besoins des services du Département de la Sarthe\", \"REF_MARCHE\": \"19ft-Dimg-2579-E\", \"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"Les prestations feront l'objet d'un accord-cadre exécuté par émission de bons de commande sans minimum ni maximum suivant la définition des articles R2162-2, R2162-4 à R2162-6, R2162-13 et R2162-14 du Code de la Commande Publique***Les travaux commandés seront répartis entre le patrimoine des établissements scolaires (collèges) et le reste du patrimoine immobilier départemental\", \"CPV\": {\"PRINCIPAL\": \"45400000\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"19-73073\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-05-09\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-05-11\", \"DATE_FIN_DIFFUSION\": \"2019-06-11\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"091\", \"NUM_ANNONCE\": \"217657\", \"DATE_PUBLICATION\": \"2019-05-13\"}}]}, \"MODIFICATION\": [{\"RUB_INIT\": \"IV.2\", \"DATE\": {\"INIT\": \"2019-06-11\", \"LIRE\": \"2019-06-13\"}}, {\"RUB_INIT\": \"IV.2.7\", \"TEXTE\": {\"INIT\": \"Modalités d'ouverture des offres :  Date : le 11/06/19 à 14h00\", \"LIRE\": \"Modalités d'ouverture des offres :  Date : le 13/06/19 à 14h00\"}}]}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 5 juin 2019.\"}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-86891"
+  },
+  {
    "idweb": "19-77310",
    "id": "19_77310",
    "contractfolderid": null,
@@ -1381,75 +1450,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-85588\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-78171\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-06-07\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-06-09\", \"DATE_FIN_DIFFUSION\": \"2018-07-11\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"109\", \"NUM_ANNONCE\": \"247808\", \"DATE_PUBLICATION\": \"2018-06-09\"}}]}}, \"NOM_HTML\": \"19-85588.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-06-07\", \"DATE_FIN_DIFFUSION\": \"2019-08-15\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"16\", \"LIBELLE\": \"Articles de bureau et articles scolaires\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Achat de fournitures de bureau, cachets et tampons pour le Département et Service Départemental d'Incendie et de Secours (SDIS) de Loire-Atlantique\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Conseil départemental Loire-Atlantique\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"3, Quai Ceineray CS 94109\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-10-00\", \"FAX\": \"(+33) 2-40-99-11-48\", \"MEL\": \"contact@loire-atlantique.fr\", \"URL\": \"http://www.loire-atlantique.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marches.loire-atlantique.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Achat de fournitures de bureau, cachets et tampons pour le Département et Service Départemental d'Incendie et de Secours (SDIS) de Loire-Atlantique\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Achat de fournitures de bureau, cachets et tampons pour le Département et Service Départemental d'Incendie et de Secours (SDIS) de Loire-Atlantique\", \"CPV\": {\"PRINCIPAL\": \"30100000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"1580000\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Fournitures de bureau\", \"DESCRIPTION\": \"Fournitures de bureau\", \"CPV\": [{\"PRINCIPAL\": \"30100000\"}, {\"PRINCIPAL\": \"30190000\"}, {\"PRINCIPAL\": \"30192000\"}, {\"PRINCIPAL\": \"30195300\"}], \"CODE_NUTS\": \"FRG01\", \"LIEU_PRINCIPAL\": \"Nantes\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"valeur technique\"}, {\"@POIDS\": \"10\", \"#text\": \"performance environnement\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Cachets et tampons\", \"DESCRIPTION\": \"Cachets et tampons\", \"CPV\": [{\"PRINCIPAL\": \"30192151\"}, {\"PRINCIPAL\": \"30192111\"}, {\"PRINCIPAL\": \"30192152\"}, {\"PRINCIPAL\": \"30192153\"}], \"CODE_NUTS\": \"FRG01\", \"LIEU_PRINCIPAL\": \"Nantes\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"valeur technique\"}, {\"@POIDS\": \"10\", \"#text\": \"performance environnement\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2018\", \"NUM_PARUTION\": \"109\", \"NUM_ANNONCE\": \"247808\", \"DATE_PUBLICATION\": \"2018-06-09\"}}}, \"ATTRIBUTION\": {\"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"18MH01\", \"NUM_LOT\": \"1\", \"INTITULE\": \"fournitures de bureau\", \"TITULAIRE\": {\"DENOMINATION\": \"FIDUCIAL BUREAUTIQUE\", \"ADRESSE\": \"41 rue du Capitaine Guynemer\", \"CP\": \"92400\", \"VILLE\": \"Courbevoie\", \"CODE_NUTS\": \"FR108\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-03-28\", \"NB_OFFRE_RECU\": \"3\", \"ESTIMATION_INITIALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"1480000\"}, \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"1480000\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"18MH02\", \"NUM_LOT\": \"2\", \"INTITULE\": \"Cachets et tampons\", \"TITULAIRE\": {\"DENOMINATION\": \"SMTT\", \"ADRESSE\": \"139 Boulevard Baille\", \"CP\": \"13005\", \"VILLE\": \"Marseille\", \"CODE_NUTS\": \"FRL0\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-11-19\", \"NB_OFFRE_RECU\": \"4\", \"ESTIMATION_INITIALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"10000\"}, \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"100000\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 5 juin 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé pré-contractuel prévu aux articles L.551-1 à L.551-12 du Code de justice administrative (CJA), et pouvant être exercé avant la signature du contrat. Référé contractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant être exercé dans les délais prévus à l'article R. 551-7 du CJA. Recours pour excès de pouvoir contre une décision administrative prévu aux articles R. 421-1 à R. 421-7 du CJA, et pouvant être exercé dans les 2 mois suivant la notification ou publication de la décision de l'organisme (le recours ne peut plus, toutefois, être exercé après la signature du contrat). Recours de pleine juridiction ouvert aux tiers justifiant d'un intérêt lésé, et pouvant être exercé dans les deux mois suivant la date à laquelle la conclusion du contrat est rendue publique. Dans le respect des secrets protégés par la loi, les pièces du marché peuvent être consultées sur rendez-vous auprès du service moyens généraux, 02 40 99 81 64, à l'adresse suivante : Immeuble Sully 1 - 23-25 rue Pitre Chevalier - 44000 NANTES\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette Cedex 1 BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr/\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité de règlement amiable\", \"ADRESSE\": \"22, Mail Pablo Picasso Cedex 01\", \"CP\": \"44042\", \"VILLE\": \"NANTES\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-85588"
-  },
-  {
-   "idweb": "19-86891",
-   "id": "19_86891",
-   "contractfolderid": null,
-   "objet": "Travaux d'aménagement intérieur pour les besoins des services du Département de la Sarthe",
-   "filename": "BOAMP-J-AO_2019_158003",
-   "famille": "JOUE",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2019-06-07",
-   "datefindiffusion": "2019-06-13",
-   "datelimitereponse": null,
-   "nomacheteur": "DEPARTEMENT DE LA SARTHE",
-   "titulaire": null,
-   "perimetre": "AUTRE",
-   "type_procedure": null,
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure NC",
-   "procedure_categorise": "/",
-   "nature": "RECTIFICATIF",
-   "sousnature": null,
-   "nature_libelle": "Rectificatif",
-   "sousnature_libelle": "Rectificatif",
-   "nature_categorise": "rectificatif/standard",
-   "nature_categorise_libelle": "Rectificatif/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "RECTIFICATIF",
-   "descripteur_code": [
-    "63",
-    "222",
-    "264",
-    "308",
-    "309"
-   ],
-   "dc": [
-    "63",
-    "222",
-    "264",
-    "308",
-    "309"
-   ],
-   "descripteur_libelle": [
-    "Cloison, faux plafond",
-    "Menuiserie",
-    "Peinture (travaux)",
-    "Revêtements de sols",
-    "Revêtements muraux"
-   ],
-   "type_marche": [
-    "TRAVAUX"
-   ],
-   "type_marche_facette": [
-    "Travaux"
-   ],
-   "type_avis": null,
-   "annonce_lie": [
-    "19-73073"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"19-73073\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-05-09\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-05-11\", \"DATE_FIN_DIFFUSION\": \"2019-06-11\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"091\", \"NUM_ANNONCE\": \"217657\", \"DATE_PUBLICATION\": \"2019-05-13\"}}]}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-86891\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"19-73073\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-05-09\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-05-11\", \"DATE_FIN_DIFFUSION\": \"2019-06-11\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"091\", \"NUM_ANNONCE\": \"217657\", \"DATE_PUBLICATION\": \"2019-05-13\"}}]}}, \"NOM_HTML\": \"19-86891.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-06-07\", \"DATE_FIN_DIFFUSION\": \"2019-06-13\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"63\", \"LIBELLE\": \"Cloison, faux plafond\"}, {\"CODE\": \"222\", \"LIBELLE\": \"Menuiserie\"}, {\"CODE\": \"264\", \"LIBELLE\": \"Peinture (travaux)\"}, {\"CODE\": \"308\", \"LIBELLE\": \"Revêtements de sols\"}, {\"CODE\": \"309\", \"LIBELLE\": \"Revêtements muraux\"}]}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Travaux d'aménagement intérieur pour les besoins des services du Département de la Sarthe\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"DEPARTEMENT DE LA SARTHE\", \"CODE_IDENT_NATIONAL\": \"22720002900014\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"Hôtel du département, Place Aristide Briand\", \"CP\": \"72072\", \"VILLE\": \"Le Mans\", \"MEL\": \"scp@cg72.fr\", \"URL\": \"http://www.sarthe.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"OBJET\": {\"TITRE_MARCHE\": \"Travaux d'aménagement intérieur pour les besoins des services du Département de la Sarthe\", \"REF_MARCHE\": \"19ft-Dimg-2579-E\", \"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"Les prestations feront l'objet d'un accord-cadre exécuté par émission de bons de commande sans minimum ni maximum suivant la définition des articles R2162-2, R2162-4 à R2162-6, R2162-13 et R2162-14 du Code de la Commande Publique***Les travaux commandés seront répartis entre le patrimoine des établissements scolaires (collèges) et le reste du patrimoine immobilier départemental\", \"CPV\": {\"PRINCIPAL\": \"45400000\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"19-73073\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-05-09\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-05-11\", \"DATE_FIN_DIFFUSION\": \"2019-06-11\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"091\", \"NUM_ANNONCE\": \"217657\", \"DATE_PUBLICATION\": \"2019-05-13\"}}]}, \"MODIFICATION\": [{\"RUB_INIT\": \"IV.2\", \"DATE\": {\"INIT\": \"2019-06-11\", \"LIRE\": \"2019-06-13\"}}, {\"RUB_INIT\": \"IV.2.7\", \"TEXTE\": {\"INIT\": \"Modalités d'ouverture des offres :  Date : le 11/06/19 à 14h00\", \"LIRE\": \"Modalités d'ouverture des offres :  Date : le 13/06/19 à 14h00\"}}]}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 5 juin 2019.\"}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-86891"
   },
   {
    "idweb": "19-88265",
@@ -2224,66 +2224,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-88096"
   },
   {
-   "idweb": "19-87101",
-   "id": "19_87101",
-   "contractfolderid": null,
-   "objet": "Marché de services relatif à la prestation d'assurance pour les besoins de la ville de Sablé sur Sarthe",
-   "filename": "BOAMP-J-AO_2019_159006",
-   "famille": "JOUE",
-   "code_departement": [
-    "72",
-    "49"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2019-06-08",
-   "datefindiffusion": "2019-07-17",
-   "datelimitereponse": null,
-   "nomacheteur": "Ville de Sablé sur Sarthe",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "20"
-   ],
-   "dc": [
-    "20"
-   ],
-   "descripteur_libelle": [
-    "Assurance"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-87101\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-87101.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-06-08\", \"DATE_FIN_DIFFUSION\": \"2019-07-17\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"20\", \"LIBELLE\": \"Assurance\"}}, \"DEP_PUBLICATION\": [\"72\", \"49\"], \"RESUME_OBJET\": \"Marché de services relatif à la prestation d'assurance pour les besoins de la ville de Sablé sur Sarthe\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Sablé sur Sarthe\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"Hôtel de Ville - Place Raphael Elizé\", \"CP\": \"72300\", \"VILLE\": \"Sablé sur sarthe\", \"MEL\": \"marches.publics@sablesursarthe.fr\", \"URL\": \"http://www.sablesursarthe.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthemarchespublics.fr\", \"URL_PARTICIPATION\": \"http://www.sarthemarchespublics.fr\", \"URL_DOCUMENT\": \"http://www.sarthemarchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Marché de services relatif à la prestation d'assurance pour les besoins de la Ville de Sablé sur Sarthe\", \"REF_MARCHE\": \"19Sab013\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Souscription de différents contrats d'assurances au profit de la Ville de SABLÉ-SUR-SARTHE\", \"CPV\": {\"PRINCIPAL\": \"66510000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Responsabilité et risques annexes\", \"DESCRIPTION\": \"Le présent contrat garantit, dans les limites des engagements et des franchises prévus plus loin, la Collectivité contre les conséquences pécuniaires de laresponsabilité que celle-ci peut encourir en raison des dommages ou préjudicescausés à autrui.Le présent contrat garantit également les recours qui peuvent être exercés contre la Collectivité par ses préposés salariés, les organismes de protection sociale, les régimes de prévoyance sociale ou d'autres collectivités, ainsi que les dommages subis par les personnes stagiaires ou pré-embauchées, les collaborateurs et les bénévoles de la collectivité.\", \"CPV\": {\"PRINCIPAL\": \"66516000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"coefficient 5\", \"#text\": \"Nature et étendue des garanties\"}, {\"@POIDS\": \"coefficient 1\", \"#text\": \"Modalités et procédure de gestion des dossiers et notamment des sinistres, par la compagnie et/ou l'intermédiaire\"}]}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"coefficient 4\", \"#text\": \"Tarification\"}}}, \"DUREE_MOIS\": \"60\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Assurance \\\"Responsabilité et risques annexes\\\" - Les variantes imposées sont définies à l'acte d'engagement et aux conditions particulières\"}, {\"NUM\": \"2\", \"INTITULE\": \"Flotte automobile et risques annexes\", \"DESCRIPTION\": \"Le lot a pour objet d'assurer l'ensemble des véhicules automobiles, engins, remorques, cyclos soumis à l'obligation d'assurance prévue à l'article L. 211-1 du Code des assurances et dont la Ville de SABLÉ-SUR-SARTHE est propriétaire ou dont elle a la garde ou l'usage selon les garanties et dispositions ci-après et celles prévues aux annexes des présentes Conditions Particulières.\", \"CPV\": {\"PRINCIPAL\": \"66514110\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"coefficient 5\", \"#text\": \"Nature et étendue des garanties\"}, {\"@POIDS\": \"coefficient 1\", \"#text\": \"Modalités et procédure de gestion des dossiers et notamment des sinistres, par la compagnie et/ou l'intermédiaire\"}]}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"coefficient 4\", \"#text\": \"Tarification\"}}}, \"DUREE_MOIS\": \"60\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Assurance \\\"Flotte automobile et risques annexes\\\" - Les variantes imposées sont définies à l'acte d'engagement et aux conditions particulières\"}, {\"NUM\": \"3\", \"INTITULE\": \"Risques statutaires du personnel\", \"DESCRIPTION\": \"L'assureur garantit à la collectivité le remboursement des prestations ci-après définies qui lui incombent en application des textes législatifs ou réglementaires vis-à-vis de ses agents, en cas de décès, d'accidents du travail, de maladies professionnelles, d'incapacité temporaire de travail.\", \"CPV\": {\"PRINCIPAL\": \"66512000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"coefficient 5\", \"#text\": \"Nature et étendue des garanties\"}, {\"@POIDS\": \"coefficient 1\", \"#text\": \"Modalités et procédure de gestion des dossiers et notamment des sinistres, par la compagnie et/ou l'intermédiaire\"}]}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"coefficient 4\", \"#text\": \"Tarification\"}}}, \"DUREE_MOIS\": \"60\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Assurance \\\"Risques statutaires du personnel\\\" - Les variantes imposées sont définies à l'acte d'engagement et aux conditions particulières\"}, {\"NUM\": \"4\", \"INTITULE\": \"Protection juridique des agents et des élus\", \"DESCRIPTION\": \"Le présent lot a pour objet dassurer en cas de survenance dun litige garanti, la défense des droits delassuré, soit dans un cadre amiable, soit dans un cadre judiciaire si une solution transactionnelle nest pas trouvée.Le contrat garantit dans les limites prévues au contrat, lensemble des frais de justice,d'expertise et honoraires davocat qui savèrent nécessaires ainsi que les frais d'exécution des jugements en particulier les frais d'huissier de justice.Dans les domaines de droit garantis et dans le cadre de sa mission de prévention des litiges, lassureur répond aux demandes de conseil juridique téléphonique de lassuré, conformément aux règles du contrat.\", \"CPV\": {\"PRINCIPAL\": \"66513100\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"coefficient 5\", \"#text\": \"Nature et étendue des garanties\"}, {\"@POIDS\": \"coefficient 1\", \"#text\": \"Modalités et procédure de gestion des dossiers et notamment des sinistres, par la compagnie et/ou l'intermédiaire\"}]}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"coefficient 4\", \"#text\": \"Tarification\"}}}, \"DUREE_MOIS\": \"60\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"5\", \"INTITULE\": \"Tous risques expositions\", \"DESCRIPTION\": \"Le lot concerne la garantie de risques ayant pour intitulé générique \\\"Assurance dommages aux objets précieux et/ou d'expositions\\\".\", \"CPV\": {\"PRINCIPAL\": \"66515000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"coefficient 5\", \"#text\": \"Nature et étendue des garanties\"}, {\"@POIDS\": \"coefficient 1\", \"#text\": \"Modalités et procédure de gestion des dossiers et notamment des sinistres, par la compagnie et/ou l'intermédiaire\"}]}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"coefficient 4\", \"#text\": \"Tarification\"}}}, \"DUREE_MOIS\": \"60\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Assurance \\\"Tous risques expositions\\\" - Les variantes imposées sont définies à l'acte d'engagement et aux conditions particulières\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-07-17T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"6\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"- Lettre de candidature modèle DC1 ou équivalent.- Déclaration du candidat  modèle DC2 ou équivalent.Les formulaires DC sont accessibles, non exclusivement, sur le site internet http://www.economie.gouv.fr/daj/formulaires- Mandat de la compagnie d'assurance au courtier, le cas échéant.- Mandat de la compagnie d'assurance à l'agent, le cas échéant.- Le pouvoir de la personne habilitée à engager le candidat.- Pour les intermédiaires dassurance, lattestation dinscription à un registre des intermédiaires en assurance (attestation ORIAS ou tous autres certificats équivalents dorganismes établis dans un autre Etat membre que la France)- Attestation d'assurance et de caution financière conforme au Code des assurances (agents et courtiers).- Si le formulaire DC1 nest pas utilisé, la déclaration sur lhonneur que le candidat nentre dans aucun des cas dinterdiction de soumissionner. (modèle joint)- Le candidat peut présenter sa candidature sous la forme dun document unique de marché européen (DUME).- Lorsqu'il y a groupement, les documents précités sont à fournir pour chacun des membres.\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"-\\tDéclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les services objet du marché, réalisés au cours des trois derniers exercices disponibles.\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"-\\tRéférences notamment en matière dacheteurs publics pour chacune des trois dernières années.-\\tDéclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement.\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_OUI\": \"Le marché est réservé aux entreprises d'assurances et personnes habilitées à présenter des opérations d'assurance en vertu des articles L.310-1 et suivants, L.500, L.500-1 et L.511-1 et suivants du Code des assurances ou équivalent pour les candidats européens.\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_OUI\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-07-17\", \"LIEU_OUVERTURE_OFFRES\": \"Sablé sur Sarthe\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_OUI\": \"\", \"RENS_COMPLEMENT\": \"Le dossier de consultation est téléchargeable gratuitement à ladresse électronique suivante : http://www.sarthe-marchespublics.fr.Conformément aux articles R. 2132-7 et suivants du code de la commande publique et aux arrêtés du 27 juillet 2018, la transmission des candidatures et des offres seffectue exclusivement par voie dématérialisée sur la plateforme citée ci-dessus.Les demandes de renseignements doivent aussi être effectuées via la plate-forme de dématérialisation de lacheteur.. Date d'envoi du présent avis au JOUE et au BOAMP : 6 juin 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"- recours contentieux devant le tribunal administratif dans le délai de 2 mois dans les conditions des articles R 421-1 et suivants du Code de Justice Administrative-- référé précontractuel devant le président du Tribunal administratif de Nantes avant la signature du marché (article L 551-1 du Code de Justice Administrative)- recours en indemnisation devant le tribunal administratif (article R 421-3 du Code de Justice Administrative)\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif de règlement amiable des litiges relatifs aux marchés publics\", \"ADRESSE\": \"8 rue de Chateaubriand\", \"CP\": \"44000\", \"VILLE\": \"Nantes\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-87101"
-  },
-  {
    "idweb": "19-87732",
    "id": "19_87732",
    "contractfolderid": null,
@@ -2368,6 +2308,66 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-87732\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-132306\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-09-21\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-09-23\", \"DATE_FIN_DIFFUSION\": \"2018-10-24\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"184\", \"NUM_ANNONCE\": \"415422\", \"DATE_PUBLICATION\": \"2018-09-25\"}}]}}, \"NOM_HTML\": \"19-87732.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-06-08\", \"DATE_FIN_DIFFUSION\": \"2019-08-06\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"63\", \"LIBELLE\": \"Cloison, faux plafond\"}, {\"CODE\": \"105\", \"LIBELLE\": \"Electricité (travaux)\"}, {\"CODE\": \"169\", \"LIBELLE\": \"Isolation\"}, {\"CODE\": \"222\", \"LIBELLE\": \"Menuiserie\"}, {\"CODE\": \"253\", \"LIBELLE\": \"Ouvrage d'infrastructure\"}, {\"CODE\": \"308\", \"LIBELLE\": \"Revêtements de sols\"}]}, \"DEP_PUBLICATION\": [\"44\", \"29\"], \"RESUME_OBJET\": \"Travaux de construction du Pôle de Réadaptation de Cornouaille sur le site du Porzou à Concarneau\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"UGECAM Bretagne - Pays de la Loire\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"2 chemin du Breil BP60075\", \"CP\": \"44814\", \"VILLE\": \"Saint herblain cedex\", \"TEL\": \"(+33) 2-40-13-82-24\", \"MEL\": \"secretariat.siege.ug-brpl@ugecam.assurance-maladie.fr\", \"URL\": \"http://www.ugecam-brpl.fr/\", \"URL_PROFIL_ACHETEUR\": \"https://www.achatpublic.com/sdm/ent/gen/index.jsp\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"organisme de sécurité sociale\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Travaux de construction du Pôle de Réadaptation de Cornouaille sur le site du Porzou à Concarneau\", \"REF_MARCHE\": \"93bis/2018\", \"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"Cette consultation fait suite à un appel d'offres ouvert déclaré partiellement infructueux. Sont relancés 8 lots : - lot 1 : voieries - réseaux divers - paysage - lot 4 : isolation - bardage - couverture - lot 5 menuiseries extérieures - lot 6 : revêtements de sols - carrelage - lot 7 : menuiseries intérieures - agencement - lot 8 : cloisons - doublages - lot 9 : faux - plafonds - lot 15 : électricité courants forts - courants faibles - SSI\", \"CPV\": {\"PRINCIPAL\": \"45000000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"10991935\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Voierie réseaux divers - paysage\", \"DESCRIPTION\": \"Lot 1 : Voierie réseaux divers - paysage\", \"CPV\": {\"PRINCIPAL\": \"45234116\"}, \"CODE_NUTS\": \"FRH02\", \"LIEU_PRINCIPAL\": \"Centre Hospitalier de Cornouaille - 61 rue de Tregunc - 29900 Concarneau\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"50\", \"#text\": \"valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"50\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"En application de l'article 30-I-7° du décret no2016-360 du 25/03/2016, il pourra être passé un marché négocié sans publicité ni mise en concurrence pour la réalisation de prestations similaires.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"4\", \"INTITULE\": \"isolation - bardage - couverture\", \"DESCRIPTION\": \"Lot 4 : isolation - bardage - couverture\", \"CPV\": {\"PRINCIPAL\": \"45320000\"}, \"CODE_NUTS\": \"FRH02\", \"LIEU_PRINCIPAL\": \"Centre Hospitalier de Cornouaille - 61 rue de Tregunc - 29900 Concarneau\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"50\", \"#text\": \"valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"50\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"En application de l'article 30-I-7° du décret no2016-360 du 25/03/2016, il pourra être passé un marché négocié sans publicité ni mise en concurrence pour la réalisation de prestations similaires.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"5\", \"INTITULE\": \"Menuiseries extérieures\", \"DESCRIPTION\": \"Lot 5 : menuiseries extérieures\", \"CPV\": {\"PRINCIPAL\": \"45421000\"}, \"CODE_NUTS\": \"FRH02\", \"LIEU_PRINCIPAL\": \"Centre Hospitalier de Cornouaille - 61 rue de Tregunc - 29900 Concarneau\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"50\", \"#text\": \"valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"50\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"En application de l'article 30-I-7° du décret no2016-360 du 25/03/2016, il pourra être passé un marché négocié sans publicité ni mise en concurrence pour la réalisation de prestations similaires.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"6\", \"INTITULE\": \"Revêtements de sols - carrelage\", \"DESCRIPTION\": \"Lot 6 : revêtements de sols - carrelage\", \"CPV\": {\"PRINCIPAL\": \"45432100\"}, \"CODE_NUTS\": \"FRH02\", \"LIEU_PRINCIPAL\": \"Centre Hospitalier de Cornouaille - 61 rue de Tregunc - 29900 Concarneau\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"50\", \"#text\": \"valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"50\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"En application de l'article 30-I-7° du décret no2016-360 du 25/03/2016, il pourra être passé un marché négocié sans publicité ni mise en concurrence pour la réalisation de prestations similaires.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"7\", \"INTITULE\": \"Menuiseries intérieures - agencement\", \"DESCRIPTION\": \"Lot 7 : menuiseries intérieures - agencement\", \"CPV\": {\"PRINCIPAL\": \"45421000\"}, \"CODE_NUTS\": \"FRH02\", \"LIEU_PRINCIPAL\": \"Centre Hospitalier de Cornouaille - 61 rue de Tregunc - 29900 Concarneau\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"50\", \"#text\": \"valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"50\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"En application de l'article 30-I-7° du décret no2016-360 du 25/03/2016, il pourra être passé un marché négocié sans publicité ni mise en concurrence pour la réalisation de prestations similaires.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"8\", \"INTITULE\": \"Cloisons - doublages\", \"DESCRIPTION\": \"Lot 8 : cloisons - doublages\", \"CPV\": {\"PRINCIPAL\": \"45421141\"}, \"CODE_NUTS\": \"FRH02\", \"LIEU_PRINCIPAL\": \"Centre Hospitalier de Cornouaille - 61 rue de Tregunc - 29900 Concarneau\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"50\", \"#text\": \"valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"50\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"En application de l'article 30-I-7° du décret no2016-360 du 25/03/2016, il pourra être passé un marché négocié sans publicité ni mise en concurrence pour la réalisation de prestations similaires.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"9\", \"INTITULE\": \"Faux Plafonds\", \"DESCRIPTION\": \"Lot 9 : faux plafonds\", \"CPV\": {\"PRINCIPAL\": \"45421146\"}, \"CODE_NUTS\": \"FRH02\", \"LIEU_PRINCIPAL\": \"Centre Hospitalier de Cornouaille - 61 rue de Tregunc - 29900 Concarneau\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"50\", \"#text\": \"valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"50\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"En application de l'article 30-I-7° du décret no2016-360 du 25/03/2016, il pourra être passé un marché négocié sans publicité ni mise en concurrence pour la réalisation de prestations similaires.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"15\", \"INTITULE\": \"Electricité courants forts - courants faibles - SSI\", \"DESCRIPTION\": \"Lot 15 : électricité courants forts - courants faibles - SSI\", \"CPV\": {\"PRINCIPAL\": \"45311100\"}, \"CODE_NUTS\": \"FRH02\", \"LIEU_PRINCIPAL\": \"Centre Hospitalier de Cornouaille - 61 rue de Tregunc - 29900 Concarneau\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"50\", \"#text\": \"valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"50\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"En application de l'article 30-I-7° du décret no2016-360 du 25/03/2016, il pourra être passé un marché négocié sans publicité ni mise en concurrence pour la réalisation de prestations similaires.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"NEGOCIE\": \"\"}, \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"184\", \"NUM_ANNONCE\": \"415422\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Voierie - réseaux divers - paysage\", \"TITULAIRE\": {\"DENOMINATION\": \"COLAS CENTRE OUEST\", \"ADRESSE\": \"4 rue de Rontgen ZI de Kernevez\", \"CP\": \"29000\", \"VILLE\": \"Quimper\", \"CODE_NUTS\": \"FRH02\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-06-04\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"1772100\"}, \"SOUSTRAITANCE_OUI\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"4\", \"INTITULE\": \"isolation - bardage - couverture\", \"TITULAIRE\": {\"DENOMINATION\": \"ENGIE AXIMA\", \"ADRESSE\": \"8 rue Galillée CS70006\", \"CP\": \"44344\", \"VILLE\": \"Bouguenais cedex\", \"CODE_NUTS\": \"FRG01\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-06-04\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"2430000\"}, \"SOUSTRAITANCE_OUI\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"5\", \"INTITULE\": \"Menuiseries extérieures\", \"TITULAIRE\": {\"DENOMINATION\": \"SAS SOGEA BRETAGNE\", \"ADRESSE\": \"39 rue Chaptal CS70119\", \"CP\": \"22001\", \"VILLE\": \"Saint brieuc\", \"CODE_NUTS\": \"FRH01\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-06-04\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"1188771\"}, \"SOUSTRAITANCE_OUI\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"6\", \"INTITULE\": \"Revêtements de sols - carrelage\", \"TITULAIRE\": {\"DENOMINATION\": \"SAS LE DORTZ\", \"ADRESSE\": \"ZI de Tyr er Douar BP37\", \"CP\": \"56150\", \"VILLE\": \"BAUD\", \"CODE_NUTS\": \"FRH04\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-06-04\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"714000\"}, \"SOUSTRAITANCE_OUI\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"7\", \"INTITULE\": \"Menuiseries intérieures - agencement\", \"TITULAIRE\": {\"DENOMINATION\": \"SEBACO\", \"ADRESSE\": \"BP663\", \"CP\": \"29552\", \"VILLE\": \"Quimper cedex 9\", \"CODE_NUTS\": \"FRH02\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-06-04\", \"NB_OFFRE_RECU\": \"1\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"1385204\"}, \"SOUSTRAITANCE_OUI\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"8\", \"INTITULE\": \"Cloisons - doublages\", \"TITULAIRE\": {\"DENOMINATION\": \"SASU MAURICE RAULT\", \"ADRESSE\": \"rue du moulin Saint-Samson\", \"CP\": \"56580\", \"VILLE\": \"Rohan\", \"CODE_NUTS\": \"FRH04\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-06-04\", \"NB_OFFRE_RECU\": \"1\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"847945\"}, \"SOUSTRAITANCE_OUI\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"9\", \"INTITULE\": \"Faux-plafonds\", \"TITULAIRE\": {\"DENOMINATION\": \"SAS LE GALL PLAFONDS\", \"ADRESSE\": \"3 route de Kervallan\", \"CP\": \"29200\", \"VILLE\": \"Brest\", \"CODE_NUTS\": \"FRH02\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-06-04\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"440000\"}, \"SOUSTRAITANCE_OUI\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"15\", \"INTITULE\": \"Electricité courants forts - courants faibles - SSI\", \"TITULAIRE\": {\"DENOMINATION\": \"SAS LE BOHEC BENOIT\", \"ADRESSE\": \"ZI du Vern BP50418\", \"CP\": \"29404\", \"VILLE\": \"Landivisiau cedex\", \"CODE_NUTS\": \"FRH02\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-06-04\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"2213914\"}, \"SOUSTRAITANCE_OUI\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 6 juin 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Sur le fondement du décret no2009-1456 du 27/11/2009 relatif aux procédures applicables aux contrats de la commande publique et en application de l'article 1441-1 du code de procédure civile, il existe deux types de référés en matière de marchés publics qui peuvent être actionnés par les requérants : - avant la notification du marché : le référé pré-contractuel ; - après la signature du marché : le référé contractuel\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal de Grande Instance de Rennes\", \"ADRESSE\": \"Cité judiciaire 7 rue Pierre Abélard CS73127\", \"CP\": \"35031\", \"VILLE\": \"Rennes cedex\", \"URL\": \"http://www.justice.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal de grande Instance de Rennes\", \"ADRESSE\": \"Cité judiciaire 7 rue Pierre Abélard CS73127\", \"CP\": \"35031\", \"VILLE\": \"Rennes cedex\", \"TEL\": \"(+33) 2-99-31-06-15\", \"FAX\": \"(+33) 2-99-31-06-15\", \"URL\": \"http://www.justice.gouv.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-87732"
+  },
+  {
+   "idweb": "19-87101",
+   "id": "19_87101",
+   "contractfolderid": null,
+   "objet": "Marché de services relatif à la prestation d'assurance pour les besoins de la ville de Sablé sur Sarthe",
+   "filename": "BOAMP-J-AO_2019_159006",
+   "famille": "JOUE",
+   "code_departement": [
+    "72",
+    "49"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2019-06-08",
+   "datefindiffusion": "2019-07-17",
+   "datelimitereponse": null,
+   "nomacheteur": "Ville de Sablé sur Sarthe",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "20"
+   ],
+   "dc": [
+    "20"
+   ],
+   "descripteur_libelle": [
+    "Assurance"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-87101\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-87101.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-06-08\", \"DATE_FIN_DIFFUSION\": \"2019-07-17\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"20\", \"LIBELLE\": \"Assurance\"}}, \"DEP_PUBLICATION\": [\"72\", \"49\"], \"RESUME_OBJET\": \"Marché de services relatif à la prestation d'assurance pour les besoins de la ville de Sablé sur Sarthe\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Sablé sur Sarthe\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"Hôtel de Ville - Place Raphael Elizé\", \"CP\": \"72300\", \"VILLE\": \"Sablé sur sarthe\", \"MEL\": \"marches.publics@sablesursarthe.fr\", \"URL\": \"http://www.sablesursarthe.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthemarchespublics.fr\", \"URL_PARTICIPATION\": \"http://www.sarthemarchespublics.fr\", \"URL_DOCUMENT\": \"http://www.sarthemarchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Marché de services relatif à la prestation d'assurance pour les besoins de la Ville de Sablé sur Sarthe\", \"REF_MARCHE\": \"19Sab013\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Souscription de différents contrats d'assurances au profit de la Ville de SABLÉ-SUR-SARTHE\", \"CPV\": {\"PRINCIPAL\": \"66510000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Responsabilité et risques annexes\", \"DESCRIPTION\": \"Le présent contrat garantit, dans les limites des engagements et des franchises prévus plus loin, la Collectivité contre les conséquences pécuniaires de laresponsabilité que celle-ci peut encourir en raison des dommages ou préjudicescausés à autrui.Le présent contrat garantit également les recours qui peuvent être exercés contre la Collectivité par ses préposés salariés, les organismes de protection sociale, les régimes de prévoyance sociale ou d'autres collectivités, ainsi que les dommages subis par les personnes stagiaires ou pré-embauchées, les collaborateurs et les bénévoles de la collectivité.\", \"CPV\": {\"PRINCIPAL\": \"66516000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"coefficient 5\", \"#text\": \"Nature et étendue des garanties\"}, {\"@POIDS\": \"coefficient 1\", \"#text\": \"Modalités et procédure de gestion des dossiers et notamment des sinistres, par la compagnie et/ou l'intermédiaire\"}]}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"coefficient 4\", \"#text\": \"Tarification\"}}}, \"DUREE_MOIS\": \"60\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Assurance \\\"Responsabilité et risques annexes\\\" - Les variantes imposées sont définies à l'acte d'engagement et aux conditions particulières\"}, {\"NUM\": \"2\", \"INTITULE\": \"Flotte automobile et risques annexes\", \"DESCRIPTION\": \"Le lot a pour objet d'assurer l'ensemble des véhicules automobiles, engins, remorques, cyclos soumis à l'obligation d'assurance prévue à l'article L. 211-1 du Code des assurances et dont la Ville de SABLÉ-SUR-SARTHE est propriétaire ou dont elle a la garde ou l'usage selon les garanties et dispositions ci-après et celles prévues aux annexes des présentes Conditions Particulières.\", \"CPV\": {\"PRINCIPAL\": \"66514110\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"coefficient 5\", \"#text\": \"Nature et étendue des garanties\"}, {\"@POIDS\": \"coefficient 1\", \"#text\": \"Modalités et procédure de gestion des dossiers et notamment des sinistres, par la compagnie et/ou l'intermédiaire\"}]}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"coefficient 4\", \"#text\": \"Tarification\"}}}, \"DUREE_MOIS\": \"60\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Assurance \\\"Flotte automobile et risques annexes\\\" - Les variantes imposées sont définies à l'acte d'engagement et aux conditions particulières\"}, {\"NUM\": \"3\", \"INTITULE\": \"Risques statutaires du personnel\", \"DESCRIPTION\": \"L'assureur garantit à la collectivité le remboursement des prestations ci-après définies qui lui incombent en application des textes législatifs ou réglementaires vis-à-vis de ses agents, en cas de décès, d'accidents du travail, de maladies professionnelles, d'incapacité temporaire de travail.\", \"CPV\": {\"PRINCIPAL\": \"66512000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"coefficient 5\", \"#text\": \"Nature et étendue des garanties\"}, {\"@POIDS\": \"coefficient 1\", \"#text\": \"Modalités et procédure de gestion des dossiers et notamment des sinistres, par la compagnie et/ou l'intermédiaire\"}]}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"coefficient 4\", \"#text\": \"Tarification\"}}}, \"DUREE_MOIS\": \"60\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Assurance \\\"Risques statutaires du personnel\\\" - Les variantes imposées sont définies à l'acte d'engagement et aux conditions particulières\"}, {\"NUM\": \"4\", \"INTITULE\": \"Protection juridique des agents et des élus\", \"DESCRIPTION\": \"Le présent lot a pour objet dassurer en cas de survenance dun litige garanti, la défense des droits delassuré, soit dans un cadre amiable, soit dans un cadre judiciaire si une solution transactionnelle nest pas trouvée.Le contrat garantit dans les limites prévues au contrat, lensemble des frais de justice,d'expertise et honoraires davocat qui savèrent nécessaires ainsi que les frais d'exécution des jugements en particulier les frais d'huissier de justice.Dans les domaines de droit garantis et dans le cadre de sa mission de prévention des litiges, lassureur répond aux demandes de conseil juridique téléphonique de lassuré, conformément aux règles du contrat.\", \"CPV\": {\"PRINCIPAL\": \"66513100\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"coefficient 5\", \"#text\": \"Nature et étendue des garanties\"}, {\"@POIDS\": \"coefficient 1\", \"#text\": \"Modalités et procédure de gestion des dossiers et notamment des sinistres, par la compagnie et/ou l'intermédiaire\"}]}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"coefficient 4\", \"#text\": \"Tarification\"}}}, \"DUREE_MOIS\": \"60\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"5\", \"INTITULE\": \"Tous risques expositions\", \"DESCRIPTION\": \"Le lot concerne la garantie de risques ayant pour intitulé générique \\\"Assurance dommages aux objets précieux et/ou d'expositions\\\".\", \"CPV\": {\"PRINCIPAL\": \"66515000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"coefficient 5\", \"#text\": \"Nature et étendue des garanties\"}, {\"@POIDS\": \"coefficient 1\", \"#text\": \"Modalités et procédure de gestion des dossiers et notamment des sinistres, par la compagnie et/ou l'intermédiaire\"}]}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"coefficient 4\", \"#text\": \"Tarification\"}}}, \"DUREE_MOIS\": \"60\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Assurance \\\"Tous risques expositions\\\" - Les variantes imposées sont définies à l'acte d'engagement et aux conditions particulières\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-07-17T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"6\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"- Lettre de candidature modèle DC1 ou équivalent.- Déclaration du candidat  modèle DC2 ou équivalent.Les formulaires DC sont accessibles, non exclusivement, sur le site internet http://www.economie.gouv.fr/daj/formulaires- Mandat de la compagnie d'assurance au courtier, le cas échéant.- Mandat de la compagnie d'assurance à l'agent, le cas échéant.- Le pouvoir de la personne habilitée à engager le candidat.- Pour les intermédiaires dassurance, lattestation dinscription à un registre des intermédiaires en assurance (attestation ORIAS ou tous autres certificats équivalents dorganismes établis dans un autre Etat membre que la France)- Attestation d'assurance et de caution financière conforme au Code des assurances (agents et courtiers).- Si le formulaire DC1 nest pas utilisé, la déclaration sur lhonneur que le candidat nentre dans aucun des cas dinterdiction de soumissionner. (modèle joint)- Le candidat peut présenter sa candidature sous la forme dun document unique de marché européen (DUME).- Lorsqu'il y a groupement, les documents précités sont à fournir pour chacun des membres.\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"-\\tDéclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les services objet du marché, réalisés au cours des trois derniers exercices disponibles.\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"-\\tRéférences notamment en matière dacheteurs publics pour chacune des trois dernières années.-\\tDéclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement.\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_OUI\": \"Le marché est réservé aux entreprises d'assurances et personnes habilitées à présenter des opérations d'assurance en vertu des articles L.310-1 et suivants, L.500, L.500-1 et L.511-1 et suivants du Code des assurances ou équivalent pour les candidats européens.\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_OUI\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-07-17\", \"LIEU_OUVERTURE_OFFRES\": \"Sablé sur Sarthe\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_OUI\": \"\", \"RENS_COMPLEMENT\": \"Le dossier de consultation est téléchargeable gratuitement à ladresse électronique suivante : http://www.sarthe-marchespublics.fr.Conformément aux articles R. 2132-7 et suivants du code de la commande publique et aux arrêtés du 27 juillet 2018, la transmission des candidatures et des offres seffectue exclusivement par voie dématérialisée sur la plateforme citée ci-dessus.Les demandes de renseignements doivent aussi être effectuées via la plate-forme de dématérialisation de lacheteur.. Date d'envoi du présent avis au JOUE et au BOAMP : 6 juin 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"- recours contentieux devant le tribunal administratif dans le délai de 2 mois dans les conditions des articles R 421-1 et suivants du Code de Justice Administrative-- référé précontractuel devant le président du Tribunal administratif de Nantes avant la signature du marché (article L 551-1 du Code de Justice Administrative)- recours en indemnisation devant le tribunal administratif (article R 421-3 du Code de Justice Administrative)\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif de règlement amiable des litiges relatifs aux marchés publics\", \"ADRESSE\": \"8 rue de Chateaubriand\", \"CP\": \"44000\", \"VILLE\": \"Nantes\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-87101"
   },
   {
    "idweb": "19-88143",
@@ -3932,6 +3932,116 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-90239"
   },
   {
+   "idweb": "19-89648",
+   "id": "19_89648",
+   "contractfolderid": null,
+   "objet": "Construction de 56 LOGEMENTS COLLECTIFS ET 1 RESIDENCE SERVICE ' BOTANIK '",
+   "filename": "BOAMP-J-AO_2019_164003",
+   "famille": "JOUE",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2019-06-13",
+   "datefindiffusion": "2019-07-15",
+   "datelimitereponse": null,
+   "nomacheteur": "CIF COOPERATIVE",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "17",
+    "30",
+    "33",
+    "61",
+    "63",
+    "105",
+    "116",
+    "117",
+    "144",
+    "169",
+    "222",
+    "223",
+    "264",
+    "270",
+    "308",
+    "309",
+    "341",
+    "360"
+   ],
+   "dc": [
+    "17",
+    "30",
+    "33",
+    "61",
+    "63",
+    "105",
+    "116",
+    "117",
+    "144",
+    "169",
+    "222",
+    "223",
+    "264",
+    "270",
+    "308",
+    "309",
+    "341",
+    "360"
+   ],
+   "descripteur_libelle": [
+    "Ascenseur",
+    "Bardage",
+    "Bâtiment",
+    "Chauffage (travaux)",
+    "Cloison, faux plafond",
+    "Electricité (travaux)",
+    "Espaces verts",
+    "Etanchéité",
+    "Gros oeuvre",
+    "Isolation",
+    "Menuiserie",
+    "Métallerie",
+    "Peinture (travaux)",
+    "Plomberie (travaux)",
+    "Revêtements de sols",
+    "Revêtements muraux",
+    "Terrassement",
+    "Ventilation"
+   ],
+   "type_marche": [
+    "TRAVAUX"
+   ],
+   "type_marche_facette": [
+    "Travaux"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-89648\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-89648.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-06-13\", \"DATE_FIN_DIFFUSION\": \"2019-07-15\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"17\", \"LIBELLE\": \"Ascenseur\"}, {\"CODE\": \"30\", \"LIBELLE\": \"Bardage\"}, {\"CODE\": \"33\", \"LIBELLE\": \"Bâtiment\"}, {\"CODE\": \"61\", \"LIBELLE\": \"Chauffage (travaux)\"}, {\"CODE\": \"63\", \"LIBELLE\": \"Cloison, faux plafond\"}, {\"CODE\": \"105\", \"LIBELLE\": \"Electricité (travaux)\"}, {\"CODE\": \"116\", \"LIBELLE\": \"Espaces verts\"}, {\"CODE\": \"117\", \"LIBELLE\": \"Etanchéité\"}, {\"CODE\": \"144\", \"LIBELLE\": \"Gros oeuvre\"}, {\"CODE\": \"169\", \"LIBELLE\": \"Isolation\"}, {\"CODE\": \"222\", \"LIBELLE\": \"Menuiserie\"}, {\"CODE\": \"223\", \"LIBELLE\": \"Métallerie\"}, {\"CODE\": \"264\", \"LIBELLE\": \"Peinture (travaux)\"}, {\"CODE\": \"270\", \"LIBELLE\": \"Plomberie (travaux)\"}, {\"CODE\": \"308\", \"LIBELLE\": \"Revêtements de sols\"}, {\"CODE\": \"309\", \"LIBELLE\": \"Revêtements muraux\"}, {\"CODE\": \"341\", \"LIBELLE\": \"Terrassement\"}, {\"CODE\": \"360\", \"LIBELLE\": \"Ventilation\"}]}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Construction de 56 LOGEMENTS COLLECTIFS ET 1 RESIDENCE SERVICE ' BOTANIK '\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CIF COOPERATIVE\", \"CODE_IDENT_NATIONAL\": \"85580046200027\", \"ADJUDICATEUR_NUTS\": \"FR\", \"ADRESSE\": \"10 RUE DE BEL AIR CS 53205\", \"CP\": \"44032\", \"VILLE\": \"NANTES CEDEX 1\", \"MEL\": \"mao-cif@groupecif.com\", \"URL\": \"http://www.ao-groupecif.com\", \"URL_INFORMATION\": \"http://www.ao-groupecif.com\", \"URL_DOCUMENT\": \"http://www.ao-groupecif.com\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"CIF COOPERATIVE\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"IMMOBILIER\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Construction de 56 LOGEMENTS COLLECTIFS ET 1 RESIDENCE SERVICE' BOTANIK '\", \"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"ILOT BS5A - ZAC CHAMP DE MANOEUVRE - NANTES\", \"CPV\": {\"PRINCIPAL\": \"45210000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"DESCRIPTION\": \"GENERALITES\", \"CPV\": {\"PRINCIPAL\": \"45210000\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"DESCRIPTION\": \"TERRASSEMENT - VRD\", \"CPV\": {\"PRINCIPAL\": \"45112500\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"DESCRIPTION\": \"GROS OEUVRE\", \"CPV\": {\"PRINCIPAL\": \"45223220\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"4\", \"DESCRIPTION\": \"BARDAGE BOIS ET OSSATURE BOIS\", \"CPV\": {\"PRINCIPAL\": \"45262650\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"5\", \"DESCRIPTION\": \"ETANCHEITE\", \"CPV\": {\"PRINCIPAL\": \"45261420\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"6\", \"DESCRIPTION\": \"MENUISERIES EXTERIEURES ALUMINIUM\", \"CPV\": {\"PRINCIPAL\": \"45421000\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"7\", \"DESCRIPTION\": \"METALLERIE\", \"CPV\": {\"PRINCIPAL\": \"44316500\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"8\", \"DESCRIPTION\": \"CLOISONS SECHES - ISOLATION\", \"CPV\": [{\"PRINCIPAL\": \"45421152\"}, {\"PRINCIPAL\": \"45321000\"}], \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"9\", \"DESCRIPTION\": \"MENUISERIES INTERIEURES BOIS\", \"CPV\": {\"PRINCIPAL\": \"45421000\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"10\", \"DESCRIPTION\": \"REVETEMENTS DE SOLS - FAIENCE\", \"CPV\": [{\"PRINCIPAL\": \"45430000\"}, {\"PRINCIPAL\": \"45431100\"}], \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"11\", \"DESCRIPTION\": \"PEINTURE INTERIEURE ET EXTERIEURE\", \"CPV\": [{\"PRINCIPAL\": \"45442100\"}, {\"PRINCIPAL\": \"45443000\"}], \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"12\", \"DESCRIPTION\": \"ASCENSEURS\", \"CPV\": {\"PRINCIPAL\": \"45313000\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"13\", \"DESCRIPTION\": \"CHAUFFAGE - VENTILATION - PLOMBERIE\", \"CPV\": [{\"PRINCIPAL\": \"45330000\"}, {\"PRINCIPAL\": \"45331000\"}], \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"14\", \"DESCRIPTION\": \"ELECTRICITE - COURANTS FORT et COURANTS FAIBLES\", \"CPV\": {\"PRINCIPAL\": \"45311200\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"15\", \"DESCRIPTION\": \"AMENAGEMENTS EXTERIEURS\", \"CPV\": {\"PRINCIPAL\": \"45112700\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AMP_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-07-15T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-07-15\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"DOSSIERS : Le DCE est consultable et téléchargeable gratuitement sur le site Internet :www.ao-groupecif.com à compter du mercredi 5 juin 2019.MODALITES DE DEPOT DES OFFRES : Les offres devront être remises uniquement en dématérialisées sur le site Internet : www.ao-groupecif.comJUSTIFICATIONS A PRODUIRE SUR LES QUALITES ET LES CAPACITES DES CANDIDATS : A l'offre de prix, devront être jointes les pièces mentionnées au RPAORENSEIGNEMENTS :JACQUES BOUCHETON ARCHITECTE 1 Rue Bisson 44100 NANTES Tél : 02 40 35 03 20. Date d'envoi du présent avis au JOUE et au BOAMP : 11 juin 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal de Grande Instance de Nantes\", \"ADRESSE\": \"19 Quai François Mitterrand\", \"CP\": \"44000\", \"VILLE\": \"Nantes\"}}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-89648"
+  },
+  {
    "idweb": "19-91273",
    "id": "19_91273",
    "contractfolderid": null,
@@ -4056,116 +4166,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-89564\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-89564.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-06-13\", \"DATE_FIN_DIFFUSION\": \"2019-07-11\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"17\", \"LIBELLE\": \"Ascenseur\"}, {\"CODE\": \"222\", \"LIBELLE\": \"Menuiserie\"}]}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\"}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"nantes quartier dervallières-zola restructuration de l'ancien lycée leloup bouhier en groupe scolaire- reconsultation lots 7 & 10\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"COMMUNE DE NANTES\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"CP\": \"44024\", \"VILLE\": \"Nantes cedex 1\", \"MEL\": \"christophe.cotta@nantesmetropole.fr\", \"URL\": \"https://nantesmetropole.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.nantesmetropole.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Nantes Quartier Dervallières-Zola restructuration de l'ancien lycée Leloup Bouhier en groupe scolaire- Reconsultation lots 7 &amp; 10\", \"REF_MARCHE\": \"1897A047-R\", \"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"La présente reconsultation concerne les lots 7 et 10 de l'opération de travaux de restructuration de lancien lycée Leloup Bouhier en groupe scolaire, sis à Boulevard de Launay, à Nantes. Pour le lot no 7, le marché comportera une clause dexécution tenant à linsertion professionnelle de publics en difficulté. D'autres lots sont en cours de consultation sous forme d'Appel d'offres ouvert. A titre indicatif, il est prévu que les travaux débutent en mai 2019.\", \"CPV\": {\"PRINCIPAL\": \"45421000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"285272\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"07\", \"INTITULE\": \"Menuiseries extérieures bois\", \"DESCRIPTION\": \"Menuiseries extérieures bois\", \"CPV\": {\"PRINCIPAL\": \"45421000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"40\", \"#text\": \"valeur technique\"}, {\"@POIDS\": \"10\", \"#text\": \"insertion\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"50\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"10\", \"INTITULE\": \"Ascenseur\", \"DESCRIPTION\": \"Ascenseur\", \"CPV\": {\"PRINCIPAL\": \"45313100\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"50\", \"#text\": \"valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"50\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Le lot 10 a été lancé deux fois en procédure adaptée ouverte, mais aucune offre remises. Suite à cette double infructuosité, et compte tenu du calendrier de l'opération, il a été décidé de satisfaire ce besoin en ayant recours à une procédure négociée sans publicité ni mise en concurrence préalables, comme le permet l'article 30 I 2° du décret 2016-360 du 25 mars 2016 relatif aux marchés publics.\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"ATTRIBUTION\": {\"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"19-80019\", \"NUM_LOT\": \"07\", \"INTITULE\": \"Menuiseries extérieures bois\", \"TITULAIRE\": {\"DENOMINATION\": \"LES MENUISERIES BOURNEUF\", \"CP\": \"72250\", \"VILLE\": \"Parigne L'Evéque\", \"CODE_NUTS\": \"FRG04\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-04-03\", \"NB_OFFRE_RECU\": \"2\", \"ESTIMATION_INITIALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"191000\"}, \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"229624\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"19-80022\", \"NUM_LOT\": \"10\", \"INTITULE\": \"Ascenseur\", \"TITULAIRE\": {\"DENOMINATION\": \"OTIS\", \"CP\": \"44406\", \"VILLE\": \"Rezé\", \"CODE_NUTS\": \"FRG01\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-05-23\", \"NB_OFFRE_RECU\": \"1\", \"ESTIMATION_INITIALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"58500\"}, \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"55648\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La date indiquée est celle de la notification du marché.. Date d'envoi du présent avis au JOUE et au BOAMP : 11 juin 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette B.P. 241116 allée Ile Gloriette B.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-40-99-46-00\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette B.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-40-99-46-00\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-89564"
-  },
-  {
-   "idweb": "19-89648",
-   "id": "19_89648",
-   "contractfolderid": null,
-   "objet": "Construction de 56 LOGEMENTS COLLECTIFS ET 1 RESIDENCE SERVICE ' BOTANIK '",
-   "filename": "BOAMP-J-AO_2019_164003",
-   "famille": "JOUE",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2019-06-13",
-   "datefindiffusion": "2019-07-15",
-   "datelimitereponse": null,
-   "nomacheteur": "CIF COOPERATIVE",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "17",
-    "30",
-    "33",
-    "61",
-    "63",
-    "105",
-    "116",
-    "117",
-    "144",
-    "169",
-    "222",
-    "223",
-    "264",
-    "270",
-    "308",
-    "309",
-    "341",
-    "360"
-   ],
-   "dc": [
-    "17",
-    "30",
-    "33",
-    "61",
-    "63",
-    "105",
-    "116",
-    "117",
-    "144",
-    "169",
-    "222",
-    "223",
-    "264",
-    "270",
-    "308",
-    "309",
-    "341",
-    "360"
-   ],
-   "descripteur_libelle": [
-    "Ascenseur",
-    "Bardage",
-    "Bâtiment",
-    "Chauffage (travaux)",
-    "Cloison, faux plafond",
-    "Electricité (travaux)",
-    "Espaces verts",
-    "Etanchéité",
-    "Gros oeuvre",
-    "Isolation",
-    "Menuiserie",
-    "Métallerie",
-    "Peinture (travaux)",
-    "Plomberie (travaux)",
-    "Revêtements de sols",
-    "Revêtements muraux",
-    "Terrassement",
-    "Ventilation"
-   ],
-   "type_marche": [
-    "TRAVAUX"
-   ],
-   "type_marche_facette": [
-    "Travaux"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-89648\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-89648.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-06-13\", \"DATE_FIN_DIFFUSION\": \"2019-07-15\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"17\", \"LIBELLE\": \"Ascenseur\"}, {\"CODE\": \"30\", \"LIBELLE\": \"Bardage\"}, {\"CODE\": \"33\", \"LIBELLE\": \"Bâtiment\"}, {\"CODE\": \"61\", \"LIBELLE\": \"Chauffage (travaux)\"}, {\"CODE\": \"63\", \"LIBELLE\": \"Cloison, faux plafond\"}, {\"CODE\": \"105\", \"LIBELLE\": \"Electricité (travaux)\"}, {\"CODE\": \"116\", \"LIBELLE\": \"Espaces verts\"}, {\"CODE\": \"117\", \"LIBELLE\": \"Etanchéité\"}, {\"CODE\": \"144\", \"LIBELLE\": \"Gros oeuvre\"}, {\"CODE\": \"169\", \"LIBELLE\": \"Isolation\"}, {\"CODE\": \"222\", \"LIBELLE\": \"Menuiserie\"}, {\"CODE\": \"223\", \"LIBELLE\": \"Métallerie\"}, {\"CODE\": \"264\", \"LIBELLE\": \"Peinture (travaux)\"}, {\"CODE\": \"270\", \"LIBELLE\": \"Plomberie (travaux)\"}, {\"CODE\": \"308\", \"LIBELLE\": \"Revêtements de sols\"}, {\"CODE\": \"309\", \"LIBELLE\": \"Revêtements muraux\"}, {\"CODE\": \"341\", \"LIBELLE\": \"Terrassement\"}, {\"CODE\": \"360\", \"LIBELLE\": \"Ventilation\"}]}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Construction de 56 LOGEMENTS COLLECTIFS ET 1 RESIDENCE SERVICE ' BOTANIK '\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CIF COOPERATIVE\", \"CODE_IDENT_NATIONAL\": \"85580046200027\", \"ADJUDICATEUR_NUTS\": \"FR\", \"ADRESSE\": \"10 RUE DE BEL AIR CS 53205\", \"CP\": \"44032\", \"VILLE\": \"NANTES CEDEX 1\", \"MEL\": \"mao-cif@groupecif.com\", \"URL\": \"http://www.ao-groupecif.com\", \"URL_INFORMATION\": \"http://www.ao-groupecif.com\", \"URL_DOCUMENT\": \"http://www.ao-groupecif.com\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"CIF COOPERATIVE\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"IMMOBILIER\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Construction de 56 LOGEMENTS COLLECTIFS ET 1 RESIDENCE SERVICE' BOTANIK '\", \"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"ILOT BS5A - ZAC CHAMP DE MANOEUVRE - NANTES\", \"CPV\": {\"PRINCIPAL\": \"45210000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"DESCRIPTION\": \"GENERALITES\", \"CPV\": {\"PRINCIPAL\": \"45210000\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"DESCRIPTION\": \"TERRASSEMENT - VRD\", \"CPV\": {\"PRINCIPAL\": \"45112500\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"DESCRIPTION\": \"GROS OEUVRE\", \"CPV\": {\"PRINCIPAL\": \"45223220\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"4\", \"DESCRIPTION\": \"BARDAGE BOIS ET OSSATURE BOIS\", \"CPV\": {\"PRINCIPAL\": \"45262650\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"5\", \"DESCRIPTION\": \"ETANCHEITE\", \"CPV\": {\"PRINCIPAL\": \"45261420\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"6\", \"DESCRIPTION\": \"MENUISERIES EXTERIEURES ALUMINIUM\", \"CPV\": {\"PRINCIPAL\": \"45421000\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"7\", \"DESCRIPTION\": \"METALLERIE\", \"CPV\": {\"PRINCIPAL\": \"44316500\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"8\", \"DESCRIPTION\": \"CLOISONS SECHES - ISOLATION\", \"CPV\": [{\"PRINCIPAL\": \"45421152\"}, {\"PRINCIPAL\": \"45321000\"}], \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"9\", \"DESCRIPTION\": \"MENUISERIES INTERIEURES BOIS\", \"CPV\": {\"PRINCIPAL\": \"45421000\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"10\", \"DESCRIPTION\": \"REVETEMENTS DE SOLS - FAIENCE\", \"CPV\": [{\"PRINCIPAL\": \"45430000\"}, {\"PRINCIPAL\": \"45431100\"}], \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"11\", \"DESCRIPTION\": \"PEINTURE INTERIEURE ET EXTERIEURE\", \"CPV\": [{\"PRINCIPAL\": \"45442100\"}, {\"PRINCIPAL\": \"45443000\"}], \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"12\", \"DESCRIPTION\": \"ASCENSEURS\", \"CPV\": {\"PRINCIPAL\": \"45313000\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"13\", \"DESCRIPTION\": \"CHAUFFAGE - VENTILATION - PLOMBERIE\", \"CPV\": [{\"PRINCIPAL\": \"45330000\"}, {\"PRINCIPAL\": \"45331000\"}], \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"14\", \"DESCRIPTION\": \"ELECTRICITE - COURANTS FORT et COURANTS FAIBLES\", \"CPV\": {\"PRINCIPAL\": \"45311200\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"15\", \"DESCRIPTION\": \"AMENAGEMENTS EXTERIEURS\", \"CPV\": {\"PRINCIPAL\": \"45112700\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60 %\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40 %\"}}, \"DUREE_MOIS\": \"19\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AMP_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-07-15T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-07-15\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"DOSSIERS : Le DCE est consultable et téléchargeable gratuitement sur le site Internet :www.ao-groupecif.com à compter du mercredi 5 juin 2019.MODALITES DE DEPOT DES OFFRES : Les offres devront être remises uniquement en dématérialisées sur le site Internet : www.ao-groupecif.comJUSTIFICATIONS A PRODUIRE SUR LES QUALITES ET LES CAPACITES DES CANDIDATS : A l'offre de prix, devront être jointes les pièces mentionnées au RPAORENSEIGNEMENTS :JACQUES BOUCHETON ARCHITECTE 1 Rue Bisson 44100 NANTES Tél : 02 40 35 03 20. Date d'envoi du présent avis au JOUE et au BOAMP : 11 juin 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal de Grande Instance de Nantes\", \"ADRESSE\": \"19 Quai François Mitterrand\", \"CP\": \"44000\", \"VILLE\": \"Nantes\"}}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-89648"
   },
   {
    "idweb": "19-87563",
@@ -5393,6 +5393,65 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-90615"
   },
   {
+   "idweb": "19-90578",
+   "id": "19_90578",
+   "contractfolderid": null,
+   "objet": "Travaux d'entretien raisonné de la végétation des berges et du lit mineur des rivières Sarthe Aval, Loir et retrait des encombres au droit des ouvrages du Département de la Sarthe",
+   "filename": "BOAMP-J-AO_2019_165009",
+   "famille": "JOUE",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2019-06-14",
+   "datefindiffusion": "2019-07-15",
+   "datelimitereponse": null,
+   "nomacheteur": "DEPARTEMENT DE LA SARTHE",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "116"
+   ],
+   "dc": [
+    "116"
+   ],
+   "descripteur_libelle": [
+    "Espaces verts"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-90578\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-90578.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-06-14\", \"DATE_FIN_DIFFUSION\": \"2019-07-15\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"116\", \"LIBELLE\": \"Espaces verts\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Travaux d'entretien raisonné de la végétation des berges et du lit mineur des rivières Sarthe Aval, Loir et retrait des encombres au droit des ouvrages du Département de la Sarthe\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"DEPARTEMENT DE LA SARTHE\", \"CODE_IDENT_NATIONAL\": \"22720002900014\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"Hôtel du département, Place Aristide Briand\", \"CP\": \"72072\", \"VILLE\": \"Le Mans\", \"MEL\": \"scp@cg72.fr\", \"URL\": \"http://www.sarthe.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\", \"URL_PARTICIPATION\": \"http://www.sarthe-marchespublics.fr\", \"URL_DOCUMENT\": \"http://www.sarthe-marchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Travaux d'entretien raisonné de la végétation des berges et du lit mineur des rivières Sarthe Aval, Loir et retrait des encombres au droit des ouvrages du Département de la Sarthe\", \"REF_MARCHE\": \"19fs-Hyd-2596-M\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Les prestations feront l'objet d'un accord-cadre exécuté par émission de bons de commande conformément aux dispositions des articles R2162-2, R2162-4 à R2162-6, R2162-13 et R2162-14 du Code de la Commande publique\", \"CPV\": {\"PRINCIPAL\": \"77310000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"NB_LOT_OFFRE_MAX\": \"3\", \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Travaux d'entretien raisonné de la végétation des berges et du lit mineur de la rivière Sarthe aval dans le cadre d'un programme pluriannuel\", \"DESCRIPTION\": \"Le maximum par période est fixé à 90 000,00 euro(s) Ht\", \"CPV\": {\"PRINCIPAL\": \"77310000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"La valeur technique (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"40\", \"#text\": \"Le prix des prestations (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"10\", \"#text\": \"La performance en matière de protection de l'environnement (voir détail dans le règlement de la consultation)\"}]}}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"L'accord-cadre commencera à compter du 1er janvier 2020 et se terminera le 31 décembre 2020.Il est renouvelable par reconduction tacite sans que sa durée puisse excéder 4 années\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Travaux d'entretien raisonné de la végétation des berges et du lit mineur de la rivière Loir domanial dans le cadre d'un programme pluriannuel\", \"DESCRIPTION\": \"Le maximum par période est fixé à 90 000 euro(s) Ht\", \"CPV\": {\"PRINCIPAL\": \"77310000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"La valeur technique (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"40\", \"#text\": \"Le prix des prestations (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"10\", \"#text\": \"La performance en matière de protection de l'environnement (voir détail dans le règlement de la consultation)\"}]}}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"L'accord-cadre commencera à compter du 1er janvier 2020 et se terminera le 31 décembre 2020.Il est renouvelable par reconduction tacite sans que sa durée puisse excéder 4 années\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Travaux d'interventions ponctuelles au droit des parcelles et des ouvrages du Département (barrages, pertuis, pont des routes départementales)\", \"DESCRIPTION\": \"Le maximum par période est fixé à 40 000,00 euro(s) Ht\", \"CPV\": {\"PRINCIPAL\": \"77310000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"La valeur technique (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"40\", \"#text\": \"Le prix des prestations (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"10\", \"#text\": \"La performance en matière de protection de l'environnement (voir détail dans le règlement de la consultation)\"}]}}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"L'accord-cadre commencera à compter du 1er janvier 2020 et se terminera le 31 décembre 2020.Il est renouvelable par reconduction tacite sans que sa durée puisse excéder 4 années\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-07-15T11:30:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Voir annexes 1 à 2 du présent règlement\", \"CAP_ECO\": \"Voir annexes 1 à 2 du présent règlement\", \"CAP_TECH\": \"* pour les 3 lots : la présentation d'une liste de travaux similaires en cours d'exécution ou exécutés au cours des 5 dernières années, indiquant pour chacune de ces réalisations la nature et l'étendue des travaux exécutés, le montant, la date et le maître de l'ouvrage public ou privé.* pour les 3 lots : une liste des moyens humains et matériels dont le candidat dispose\", \"MARCHE_RESERVE_NON\": \"\", \"CONDITION_PARTICULIERE_EXECUTION\": \"Financement :Paiement par virement à 30 jours, sur fonds propres.Conformément aux articles R2191-3 à R2191-12 du Code de la Commande Publique, une avance est accordée au titulaire, sauf indication contraire dans l'acte d'engagement, lorsque le montant du bon de commande de l'accord-cadre est supérieur à 50 000 euro(s) Ht.Forme juridique :L'accord-cadre sera conclu soit avec un prestataire unique ; soit avec des prestataires groupés solidaires ; soit avec des prestataires groupés conjoints\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-07-15\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.sarthe-marchespublics.fr -Pour obtenir tous les renseignements d'ordre administratif et technique qui leur seraient nécessaires au cours de leur étude, les candidats sont invités au plus tard 10 jours avant la date limite de remise des offres à passer par le module \\\" Correspondre avec l'acheteur \\\" de la plateforme www.sarthe-marchespublics.fr.En cas de dysfonctionnement, vous pouvez contacter le secrétariat du Service de la Commande Publique au 02.43.54.72.66.Une réponse sera alors adressée en temps utile à tous les candidats au plus tard 8 jours avant la date limite de remise des offres. Date d'envoi du présent avis au JOUE et au BOAMP : 12 juin 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"www.telerecours.fr\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette, Cs 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"Immeuble Skyline, 22 mail Pablo Picasso\", \"CP\": \"44202\", \"VILLE\": \"Nantes\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://www.marche-public.fr/Marches-publics/Definitions/Entrees/Ccra.htm\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-90578"
+  },
+  {
    "idweb": "18-20987",
    "id": "18_20987",
    "contractfolderid": null,
@@ -5528,65 +5587,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-91466\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-91466.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-06-14\", \"DATE_LIMITE_REPONSE\": \"2019-09-04T17:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2019-09-04\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"347\", \"LIBELLE\": \"Transport\"}}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\", \"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"PRESTATION DE TRANSPORT AVEC CONDUCTEUR\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"MAIRIE DE LA CHAPELLE SUR ERDRE\", \"CORRESPONDANT\": \"ROUSSEL Fabrice, Le Maire\", \"ADRESSE\": \"Rue Olivier de Sesmaisons BP 4409\", \"CP\": \"44240\", \"VILLE\": \"La Chapelle sur Erdre\", \"TEL\": \"02-51-81-87-10\", \"MEL\": \"correspondre@aws-france.com\", \"URL\": \"https://www.lachapellesurerdre.fr\", \"URL_PROFIL_ACHETEUR\": \"http://agysoft.marches-publics.info/\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"PRESTATION DE TRANSPORT AVEC CONDUCTEUR\", \"CPV\": {\"PRINCIPAL\": \"60172000\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"188000\"}}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"La Ville de LA CHAPELLE-SUR-ERDRE lance une procédure adaptée sous la forme d'un accord cadre à bons de commande pour la prestation de transport avec conducteur afin d' assurer les activités scolaires ou dont elle est l'organisatrice, à destination des enfants, jeunes et adultes, sur des temps scolaires ou de loisirs\", \"QUANTITE\": \"Le marché est un accord cadre à bons de commande établi en procédure adaptée, avec maximum exprimé en euros, en application du code de la commande publiqueLes candidats pourront soumissionner pour un lot, plusieurs lots ou tous les lots. La VILLE DE LA CHAPELLE-SUR-ERDRE retiendra un titulaire par lot, plusieurs lots pourront être attribués à un titulaire;Calendrier du marché :Exécutable après notification, le marché à bons de commande est établi pour une durée de 1 année à compter du 1er janvier 2020, puis reconductible tacitement une fois maximum. Il prendra fin au maximum le 31 décembre 2021\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"DESCRIPTION\": \"TRANSPORT SORTIES SCOLAIRES - MAX 30 700 euros ht An\", \"CPV\": {\"PRINCIPAL\": \"60172000\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"30700\"}}, {\"NUM\": \"2\", \"DESCRIPTION\": \"TRANSPORT ACTIVITE PISCINE - MAX 9 300 euros ht An\", \"CPV\": {\"PRINCIPAL\": \"60172000\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"9300\"}}, {\"NUM\": \"3\", \"DESCRIPTION\": \"TRANSPORT MERCREDI ECOLE CENTRES DE LOISIRS - MAX 28 000 euros ht An\", \"CPV\": {\"PRINCIPAL\": \"60172000\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"28000\"}}, {\"NUM\": \"4\", \"DESCRIPTION\": \"TRANSPORT DES SORTIES AUTRES QUE SCOLAIRES - MAX 16 000 euros ht An\", \"CPV\": {\"PRINCIPAL\": \"60172000\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"16000\"}}, {\"NUM\": \"5\", \"DESCRIPTION\": \"TRANSPORT RENCONTRES SPORTIVES INTERCOMMUNALES - MAX 10 000 euros ht An\", \"CPV\": {\"PRINCIPAL\": \"60172000\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"10000\"}}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-09-04T17:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire obligatoirement par le candidat, à l'appui de sa candidature\", \"Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire\", \"Déclaration sur l'honneur du candidat attestant qu'il est en règle, au cours de l'année précédant celle au cours de laquelle a lieu le lancement de la consultation, au regard des articles L. 5212-1, L. 5212-2, L. 5212 5 et L. 5212-9 du code du travail, concernant l'emploi des travailleurs handicapés\", \"Si le candidat est établi en France, une déclaration sur l'honneur du candidat justifiant que le travail est effectué par des salariés employés régulièrement au regard des articles L. 1221-10, L. 3243-2 et R. 3243-1 du code du travail (dans le cas où le candidat emploie des salariés, conformément à l'article D. 8222-5-3° du code du travail)\", \"Si le candidat est établi ou domicilié à l'étranger, une déclaration sur l'honneur du candidat attestant qu'il fournit à ses salariés des bulletins de paie comportant les mentions prévues à l'article R. 3243-1 du code du travail, ou des documents équivalents\", \"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels\", \"Présentation d'une liste des principales fournitures ou des principaux services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Les livraisons et les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique\", \"Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation de marchés de même nature\", \"En matière de fournitures et services, une description de l'équipement technique, des mesures employées par l'opérateur économique pour s'assurer de la qualité et des moyens d'étude et de recherche de son entreprise\", \"Certificats de qualifications professionnelles. La preuve de la capacité du candidat peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de travaux attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat\", \"Certificats établis par des services chargés du contrôle de la qualité et habilités à attester la conformité des fournitures par des références à certaines spécifications techniques. Il est accepté d'autres preuves de mesures équivalentes de garantie de la qualité produites par le candidat, si celui-ci n'a pas accès à ces certificats ou n'a aucune possibilité de les obtenir dans les délais fixés\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Si les documents fournis par le candidat ne sont pas établis en langue française, ils doivent être accompagnés d'une traduction en français, certifiée conforme à l'original par un traducteur assermenté\", \"Les pièces prévues aux articles D. 8222-5 ou D. 8222-7 et D. 8222-8 du code du travail\", \"Si l'attributaire est établi en France, les attestations et certificats délivrés par les administrations et organismes compétents prouvant qu'il a satisfait à ses obligations fiscales et sociales ou un état annuel des certificats reçus\", \"Si l'attributaire est établi dans un Etat autre que la France, un certificat établi par les administrations et organismes du pays d'origine. Lorsqu'un tel certificat n'est pas délivré par le pays concerné, il peut être remplacé par une déclaration sous serment, ou dans les Etats où un tel serment n'existe pas, par une déclaration solennelle faite par l'intéressé devant l'autorité judiciaire ou administrative compétente, un notaire ou un organisme professionnel qualifié du pays\", \"Si les documents fournis par le candidat ne sont pas établis en langue française, ils doivent être accompagnés d'une traduction en français, certifiée conforme à l'original par un traducteur assermenté\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"19AS-MACP-0006-H\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Cette consultation bénéficie du Service DUME.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://agysoft.marches-publics.info/Criteres d'attributions : 1 PRIX SELON DQE TTC ANNUEL 35%2 PERFORMANCES DU SERVICE PROPOSE 50%2-1 : réactivité et engagement de ponctualité du service proposé : Prise et traitement des commandes, interlocuteur dédié, mise à disposition du véhicule, suivi de la parfaite exécution, observés selon son mode opératoire détaillé, engagement complet du le candidat 25%2-2 : Qualité technique, sécuritaire des véhicules, performance technique et relationnelle des conducteurs, respect rigoureux des processus 15%2-3 : Performances administratives et capacité du candidat : facturation, réponses aux relevés de dysfonctionnements éventuels et réclamations, statistiques et rapports le cas échéant 10%3 ACHAT RESPONSABLE - Performance en matière de Responsabilité Environnementale et Sociale selon mémoire : Consommation des véhicules, Dispositifs mis en place en faveur de l'environnement, des personnels, dans le cadre de l'exécution du marché 15%MARCHE ALLOTI EN 5 LOTS\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Recours TRIBUNAL ADMINISTRATIF DE NANTES\", \"ADRESSE\": \"6 allée de l'Île-Gloriette, CS 24 111\", \"CP\": \"44041\", \"VILLE\": \"NANTES cédex\"}}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-91466"
-  },
-  {
-   "idweb": "19-90578",
-   "id": "19_90578",
-   "contractfolderid": null,
-   "objet": "Travaux d'entretien raisonné de la végétation des berges et du lit mineur des rivières Sarthe Aval, Loir et retrait des encombres au droit des ouvrages du Département de la Sarthe",
-   "filename": "BOAMP-J-AO_2019_165009",
-   "famille": "JOUE",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2019-06-14",
-   "datefindiffusion": "2019-07-15",
-   "datelimitereponse": null,
-   "nomacheteur": "DEPARTEMENT DE LA SARTHE",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "116"
-   ],
-   "dc": [
-    "116"
-   ],
-   "descripteur_libelle": [
-    "Espaces verts"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-90578\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-90578.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-06-14\", \"DATE_FIN_DIFFUSION\": \"2019-07-15\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"116\", \"LIBELLE\": \"Espaces verts\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Travaux d'entretien raisonné de la végétation des berges et du lit mineur des rivières Sarthe Aval, Loir et retrait des encombres au droit des ouvrages du Département de la Sarthe\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"DEPARTEMENT DE LA SARTHE\", \"CODE_IDENT_NATIONAL\": \"22720002900014\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"Hôtel du département, Place Aristide Briand\", \"CP\": \"72072\", \"VILLE\": \"Le Mans\", \"MEL\": \"scp@cg72.fr\", \"URL\": \"http://www.sarthe.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\", \"URL_PARTICIPATION\": \"http://www.sarthe-marchespublics.fr\", \"URL_DOCUMENT\": \"http://www.sarthe-marchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Travaux d'entretien raisonné de la végétation des berges et du lit mineur des rivières Sarthe Aval, Loir et retrait des encombres au droit des ouvrages du Département de la Sarthe\", \"REF_MARCHE\": \"19fs-Hyd-2596-M\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Les prestations feront l'objet d'un accord-cadre exécuté par émission de bons de commande conformément aux dispositions des articles R2162-2, R2162-4 à R2162-6, R2162-13 et R2162-14 du Code de la Commande publique\", \"CPV\": {\"PRINCIPAL\": \"77310000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"NB_LOT_OFFRE_MAX\": \"3\", \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Travaux d'entretien raisonné de la végétation des berges et du lit mineur de la rivière Sarthe aval dans le cadre d'un programme pluriannuel\", \"DESCRIPTION\": \"Le maximum par période est fixé à 90 000,00 euro(s) Ht\", \"CPV\": {\"PRINCIPAL\": \"77310000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"La valeur technique (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"40\", \"#text\": \"Le prix des prestations (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"10\", \"#text\": \"La performance en matière de protection de l'environnement (voir détail dans le règlement de la consultation)\"}]}}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"L'accord-cadre commencera à compter du 1er janvier 2020 et se terminera le 31 décembre 2020.Il est renouvelable par reconduction tacite sans que sa durée puisse excéder 4 années\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Travaux d'entretien raisonné de la végétation des berges et du lit mineur de la rivière Loir domanial dans le cadre d'un programme pluriannuel\", \"DESCRIPTION\": \"Le maximum par période est fixé à 90 000 euro(s) Ht\", \"CPV\": {\"PRINCIPAL\": \"77310000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"La valeur technique (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"40\", \"#text\": \"Le prix des prestations (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"10\", \"#text\": \"La performance en matière de protection de l'environnement (voir détail dans le règlement de la consultation)\"}]}}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"L'accord-cadre commencera à compter du 1er janvier 2020 et se terminera le 31 décembre 2020.Il est renouvelable par reconduction tacite sans que sa durée puisse excéder 4 années\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Travaux d'interventions ponctuelles au droit des parcelles et des ouvrages du Département (barrages, pertuis, pont des routes départementales)\", \"DESCRIPTION\": \"Le maximum par période est fixé à 40 000,00 euro(s) Ht\", \"CPV\": {\"PRINCIPAL\": \"77310000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"La valeur technique (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"40\", \"#text\": \"Le prix des prestations (voir détail dans le règlement de la consultation)\"}, {\"@POIDS\": \"10\", \"#text\": \"La performance en matière de protection de l'environnement (voir détail dans le règlement de la consultation)\"}]}}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"L'accord-cadre commencera à compter du 1er janvier 2020 et se terminera le 31 décembre 2020.Il est renouvelable par reconduction tacite sans que sa durée puisse excéder 4 années\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-07-15T11:30:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Voir annexes 1 à 2 du présent règlement\", \"CAP_ECO\": \"Voir annexes 1 à 2 du présent règlement\", \"CAP_TECH\": \"* pour les 3 lots : la présentation d'une liste de travaux similaires en cours d'exécution ou exécutés au cours des 5 dernières années, indiquant pour chacune de ces réalisations la nature et l'étendue des travaux exécutés, le montant, la date et le maître de l'ouvrage public ou privé.* pour les 3 lots : une liste des moyens humains et matériels dont le candidat dispose\", \"MARCHE_RESERVE_NON\": \"\", \"CONDITION_PARTICULIERE_EXECUTION\": \"Financement :Paiement par virement à 30 jours, sur fonds propres.Conformément aux articles R2191-3 à R2191-12 du Code de la Commande Publique, une avance est accordée au titulaire, sauf indication contraire dans l'acte d'engagement, lorsque le montant du bon de commande de l'accord-cadre est supérieur à 50 000 euro(s) Ht.Forme juridique :L'accord-cadre sera conclu soit avec un prestataire unique ; soit avec des prestataires groupés solidaires ; soit avec des prestataires groupés conjoints\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-07-15\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.sarthe-marchespublics.fr -Pour obtenir tous les renseignements d'ordre administratif et technique qui leur seraient nécessaires au cours de leur étude, les candidats sont invités au plus tard 10 jours avant la date limite de remise des offres à passer par le module \\\" Correspondre avec l'acheteur \\\" de la plateforme www.sarthe-marchespublics.fr.En cas de dysfonctionnement, vous pouvez contacter le secrétariat du Service de la Commande Publique au 02.43.54.72.66.Une réponse sera alors adressée en temps utile à tous les candidats au plus tard 8 jours avant la date limite de remise des offres. Date d'envoi du présent avis au JOUE et au BOAMP : 12 juin 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"www.telerecours.fr\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette, Cs 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"Immeuble Skyline, 22 mail Pablo Picasso\", \"CP\": \"44202\", \"VILLE\": \"Nantes\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://www.marche-public.fr/Marches-publics/Definitions/Entrees/Ccra.htm\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-90578"
   },
   {
    "idweb": "19-90134",
@@ -6331,49 +6331,51 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-91153"
   },
   {
-   "idweb": "19-67996",
-   "id": "19_67996",
+   "idweb": "19-91298",
+   "id": "19_91298",
    "contractfolderid": null,
-   "objet": "Etude de faisabilité relative à l'aménagement d'une unité de fabrication de csr à partir de déchets ménagers ultimes et de bois en mélange",
-   "filename": "BOAMP-J-IC-AA_2019_166006",
+   "objet": "Prise de notes et rédactions des procès-verbaux et compte-rendus des réunions du MEAE",
+   "filename": "BOAMP-J-AO_2019_166005",
    "famille": "JOUE",
    "code_departement": [
-    "85"
+    "75",
+    "44",
+    "92",
+    "78",
+    "93"
    ],
    "code_departement_prestation": null,
    "famille_libelle": "Marchés européens",
    "dateparution": "2019-06-15",
-   "datefindiffusion": "2019-08-13",
+   "datefindiffusion": "2019-08-30",
    "datelimitereponse": null,
-   "nomacheteur": "Syndicat Trivalis",
-   "titulaire": [
-    "INDDIGO"
-   ],
+   "nomacheteur": "Ministère des Affaires étrangères",
+   "titulaire": null,
    "perimetre": "DIRECTIVE-24",
    "type_procedure": "OUVERT",
    "soustype_procedure": null,
    "procedure_libelle": "Procédure Ouverte",
    "procedure_categorise": "OUVERT/",
-   "nature": "ATTRIBUTION",
+   "nature": "APPEL_OFFRE",
    "sousnature": "STANDARD",
-   "nature_libelle": "Résultat de marché",
+   "nature_libelle": "Avis de marché",
    "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
    "criteres": null,
    "marche_public_simplifie": null,
    "marche_public_simplifie_label": null,
    "etat": "INITIAL",
    "descripteur_code": [
-    "118",
+    "19",
     "274"
    ],
    "dc": [
-    "118",
+    "19",
     "274"
    ],
    "descripteur_libelle": [
-    "Etude",
+    "Assistance technique",
     "Prestations de services"
    ],
    "type_marche": [
@@ -6383,18 +6385,16 @@
     "Services"
    ],
    "type_avis": [
-    "",
-    "10",
-    "6"
+    "5",
+    "1",
+    ""
    ],
-   "annonce_lie": [
-    "19-15074"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"19-15074\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-03-06\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-03-08\", \"DATE_FIN_DIFFUSION\": \"2019-04-10\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"049\", \"NUM_ANNONCE\": \"112657\", \"DATE_PUBLICATION\": \"2019-03-11\"}}]}",
+   "annonce_lie": null,
+   "annonces_anterieures": null,
    "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-67996\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"19-15074\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2019-03-06\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2019-03-08\", \"DATE_FIN_DIFFUSION\": \"2019-04-10\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2019\", \"NUM_PARUTION\": \"049\", \"NUM_ANNONCE\": \"112657\", \"DATE_PUBLICATION\": \"2019-03-11\"}}]}}, \"NOM_HTML\": \"19-67996.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-06-15\", \"DATE_FIN_DIFFUSION\": \"2019-08-13\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"118\", \"LIBELLE\": \"Etude\"}, {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}]}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"Etude de faisabilité relative à l'aménagement d'une unité de fabrication de csr à partir de déchets ménagers ultimes et de bois en mélange\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Syndicat Trivalis\", \"ADJUDICATEUR_NUTS\": \"FRG05\", \"ADRESSE\": \"31 rue de l'Atlantique CS 30605\", \"CP\": \"85015\", \"VILLE\": \"LA ROCHE SUR YON Cedex\", \"TEL\": \"(+33) 2-51-45-14-51\", \"FAX\": \"(+33) 2-51-45-14-50\", \"MEL\": \"contact@trivalis.fr\", \"URL\": \"http://www.trivalis.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Syndicat Mixte Départemental d'Etudes et de Traitement des Déchets Ménagers et Assimilés de la Vendée\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ENVIRONNEMENT\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Etude de faisabilité relative à l'aménagement d'une unité de fabrication de CSR à partir de déchets ménagers ultimes et de bois en mélange\", \"REF_MARCHE\": \"2019_M088\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Le présent marché public a pour objet de confier à un opérateur économique ou un groupement dopérateurs économiques, une étude de faisabilité qui doit permettre à Trivalis de mesurer lopportunité technique, logistique, financière et réglementaire daménager une unité de production de Combustible Solide de Récupération (CSR) produit à partir de déchets ménagers de type tout-venants de déchèteries (pré-triés en haut de quai) et bois en mélange, et aussi éventuellement refus de collectes sélectives des ménages.\", \"CPV\": {\"PRINCIPAL\": \"79311000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"74175\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Cette étude sera menée sur la base de trois scénarii distincts : - Scénario 1 : aménagement dun module de production de CSR à léchelle du seul territoire vendéen - Scénario 2 : aménagement dun module de production de CSR à léchelle du territoire vendéen et des quatre communautés de communes du sud de la Loire-Atlantique - Scénario 3 : aménagement dun module de production de CSR à léchelle du territoire vendéen, des quatre communautés de communes du sud de la Loire-Atlantique et des collectivités adhérentes au projet de SPL dUNITRI. Conformément à l'article 77 du décret no 2016-360 du 25 mars 2016, la consultation donnera lieu à un marché à tranches. La tranche ferme comprendra 2 prestations : - Prestation 1 : Etat des lieux et étude qualitative et quantitative de gisement - Prestation 2 : Etude de compatibilité avec les différents exutoires potentiels\", \"CPV\": {\"PRINCIPAL\": \"79311000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Tranche optionnelle no 1 : Etude technique et financière dimplantation du module de production du CSR (Prestation 3)Tranche optionnelle no 2 : Etude de compatibilité du gisement de CSR avec de potentiels exutoires vendéens (Prestation 4)\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_NON\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2019\", \"NUM_PARUTION\": \"049\", \"NUM_ANNONCE\": \"112657\", \"DATE_PUBLICATION\": \"2019-03-11\"}}}, \"ATTRIBUTION\": {\"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2019_M095\", \"INTITULE\": \"Etude de faisabilité relative à laménagement dune unité de fabrication de CSR à partir de déchets ménagers ultimes et de bois en mélange\", \"TITULAIRE\": {\"DENOMINATION\": \"INDDIGO\", \"CODE_IDENT_NATIONAL\": \"4 Avenue Millet\", \"CP\": \"44000\", \"VILLE\": \"NANTES\", \"CODE_NUTS\": \"FRG01\", \"TEL\": \"(+33) 2-40-48-99-99\", \"FAX\": \"(+33) 2-40-48-04-44\", \"MEL\": \"s.barralbaron@inddigo.com\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-06-07\", \"NB_OFFRE_RECU\": \"8\", \"NB_OFFRE_RECU_PME\": \"8\", \"NB_OFFRE_RECU_UE\": \"0\", \"NB_OFFRE_RECU_NON_UE\": \"0\", \"NB_OFFRE_RECU_ELECT\": \"8\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"74175\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Le montant total indiqué est contractuel. Le nombre d'offres reçues correspond à 5 offres de base et 3 offres variantes, et comprend le montant des 2 tranches optionnelles.Dans le respect des secrets protégés par la loi et sur demande écrite préalable, le marché 2019_M088 peut être consulté gratuitement au siège de Trivalis dont l'adresse est mentionnée ci-dessus, la date et l'heure de consultation étant préalablement communiquées par ce dernier, et/ou une copie peut-être remise ou adressée par voie postale, moyennant une participation du demandeur de 0.15 EUR par copie au format A4 et 0.30 EUR par copie au format A3, et frais réels pour l'affranchissement.Le marché a été conclu, c'est-à-dire signé le 28 mai 2019 et notifié le 07/06/19. La durée du marché court à compter de la date de sa notification jusqu'à l'achèvement de la prestation no2 si aucune tranche optionnelle n'est affermie, de la prestation no 3 ou no4 selon la ou les tranches optionnelles affermies.. Date d'envoi du présent avis au JOUE et au BOAMP : 13 juin 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé précontractuel (CJA, art. L. 551-1 et suivants) Référé contractuel (CJA, art. L.551-13 et suivants) Recours en contestation de validité du contrat, dans un délai de 2 mois à compter des mesures de publicité appropriées\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 Allée de l'île Gloriette CS 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES Cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso BP 24209\", \"CP\": \"44042\", \"VILLE\": \"NANTES cedex 1\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://www.economie.gouv.fr/files/directions_services/daj/marches_publics/ccra/contacts\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'ile gloriette CS 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES Cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-67996"
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-91298\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-91298.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-06-15\", \"DATE_FIN_DIFFUSION\": \"2019-08-30\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"19\", \"LIBELLE\": \"Assistance technique\"}, {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}]}, \"DEP_PUBLICATION\": [\"75\", \"44\", \"92\", \"78\", \"93\"], \"RESUME_OBJET\": \"Prise de notes et rédactions des procès-verbaux et compte-rendus des réunions du MEAE\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ministère des Affaires étrangères\", \"ADJUDICATEUR_NUTS\": \"FR101\", \"ADRESSE\": \"Direction des Ressources humaines 27 rue de la Convention\", \"CP\": \"75732\", \"VILLE\": \"PARIS cedex 15\", \"MEL\": \"matthieu.john@diplomatie.gouv.fr\", \"URL\": \"https://www.diplomatie.gouv.fr/fr/\", \"URL_PARTICIPATION\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=430076&orgAcronyme=c8v\", \"URL_DOCUMENT\": \"https://www.marches-publics.gouv.fr/index.php?page=agent.PubliciteConsultation&refConsultation=NDMwMDc2\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"MIN_AUTORITE_NATIONALE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Prise de notes et rédactions des procès-verbaux et compte-rendus des réunions du MEAE\", \"REF_MARCHE\": \"MEAE_19027_RH\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Prise de notes et rédactions des procès-verbaux et compte-rendus des réunions du MEAE\", \"CPV\": {\"PRINCIPAL\": \"79500000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"145000\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Prise de notes et rédactions des procès-verbaux et compte-rendus des réunions du MEAE\", \"CPV\": {\"PRINCIPAL\": \"79500000\"}, \"CODE_NUTS\": [\"FR10\", \"FRG01\"], \"LIEU_PRINCIPAL\": \"Paris et Nantes\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"145000\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-07-15T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Inscription au registre du commerce et des sociétés\", \"CAP_ECO\": \"- Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du marché, réalisés au cours des trois derniers exercices - Preuve d'une assurance pour les risques professionnels ;\", \"CAP_TECH\": \"- Présentation d'une liste des principaux services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Les prestations sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique. - Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pendant les trois dernières années ;\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-07-15\", \"LIEU_OUVERTURE_OFFRES\": \"Paris\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 13 juin 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"- référé précontractuel contre la procédure de passation (articles L. 551-1 et suivants du code de justice administrative) jusqu'à la signature du marché,- référé contractuel (articles L. 551-13 et suivants du code de justice administrative) dans un délai de 31 jours à compter de la publication de l'avis d'attribution du marché ou, à défaut, dans les 6 mois suivant la conclusion du contrat,- recours en contestation de la validité du contrat issu de la jurisprudence \\\"Tarn-et-Garonne\\\" ouvert aux tiers au contrat dans un délai de 2 mois à compter de l'accomplissement des mesures de publicité appropriées (avis d'attribution ou information des candidats évincés), ou à défaut sans délai.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Paris\", \"ADRESSE\": \"7 rue de Jouy\", \"CP\": \"75004\", \"VILLE\": \"Paris\", \"MEL\": \"greffe.ta-paris@juradm.fr\", \"URL\": \"http://Paris.tribunal-administratif.fr/\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Paris\", \"ADRESSE\": \"7 rue de Jouy\", \"CP\": \"75004\", \"VILLE\": \"Paris\", \"MEL\": \"greffe.ta-paris@juradm.fr\", \"URL\": \"http://Paris.tribunal-administratif.fr/\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-91298"
   }
  ]
 }

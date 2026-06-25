@@ -331,69 +331,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-148622"
   },
   {
-   "idweb": "17-148452",
-   "id": "17_148452",
-   "contractfolderid": null,
-   "objet": "Prestations de services d'assurances - Risques Statutaires",
-   "filename": "BOAMP-N-AO_2017_293011",
-   "famille": "FNS",
-   "code_departement": [
-    "35",
-    "56",
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2017-10-20",
-   "datefindiffusion": "2017-11-22",
-   "datelimitereponse": "2017-11-22T11:00:00+00:00",
-   "nomacheteur": "Commune de Groix",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": [
-    "environnementaux"
-   ],
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "20"
-   ],
-   "dc": [
-    "20"
-   ],
-   "descripteur_libelle": [
-    "Assurance"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-148452\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-148452.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-10-20\", \"DATE_LIMITE_REPONSE\": \"2017-11-22T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2017-11-22\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"20\", \"LIBELLE\": \"Assurance\"}}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": [\"35\", \"56\", \"44\"], \"RESUME_OBJET\": \"Prestations de services d'assurances - Risques Statutaires\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Commune de Groix\", \"CORRESPONDANT\": \"Dominique YVON\", \"ADRESSE\": \"GROUPEMENT DE COMMANDES GROIX VILLE ET CCAS 13, Place Joseph Yvon\", \"CP\": \"56590\", \"VILLE\": \"GROIX\", \"TEL\": \"02-97-86-80-15\", \"FAX\": \"02-97-86-59-97\", \"MEL\": \"mairie@groix.fr\", \"URL\": \"http://groix.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.megalisbretagne.org\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"6a\"}, \"OBJET_COMPLET\": \"Prestations de services d'assurances\", \"CPV\": {\"PRINCIPAL\": \"66512000\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Groupement de commande Ville CCASLes prestations sont réparties en 2 lots:Lot 1 : Risques statutaires VilleLot 2 : Risques statutaires CCASDurée du marché : 4 ans pour tous les lots\"}, \"DUREE_DELAI\": {\"DATE_DEBUT\": \"2018-01-01\", \"DATE_FIN\": \"2021-12-31\", \"DATE_EXECUTION\": \"2018-01-01\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Risques statutaires Ville\", \"DESCRIPTION\": \"Risques statutaires Ville\"}, {\"NUM\": \"2\", \"INTITULE\": \"Risques statutaires CCAS\", \"DESCRIPTION\": \"Risques statutaires CCAS\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"1. La valeur technique de l'offre (note sur 10,00 pondérée à 60%)\"}, {\"@POIDS\": \"39\", \"#text\": \"2. Le coût de l'offre (note sur 10,00 pondérée à 39%),\"}, {\"@POIDS\": \"1\", \"#text\": \"3. La valeur durable de l'offre (note sur 10,00 pondérée à 1%)\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-11-22T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Références professionnelles et capacité technique - références requises : liste de références significatives.\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": \"Justifications à produire quant aux qualités et capacités du candidat :Déclaration sur l'honneur prévue aux articles 45, 47, 48, 49 et 50 de l'ordonnance no 2015-899 et à l'article 51 du décret no 2016-360,Celles fixées dans le dossier de consultation.\"}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"2017_SERV_ASSU_2\", \"CONDITIONS_ET_MODE_PAIEMENT_OBTENIR_DOCUMENTS\": \"Le dossier de consultation peut être obtenu gratuitement :à l'adresse électronique suivante : www.megalisbretagne.orgles demandes complémentaires, les candidatures et les offres : sur demande à l'adresse suivante :Monsieur Le MaireMairie de GROIX Place Joseph Yvon BP 3456590 GROIXTélécopieur : 0297865997\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"TECH\": \"\"}, \"DENOMINATION\": \"CONSULTASSUR\", \"ADRESSE\": \"19, allée François-Joseph BROUSSAISParc d'Activités du Ténénio\", \"CP\": \"56000\", \"VILLE\": \"Vannes\", \"TEL\": \"02-97-40-61-85\", \"MEL\": \"consultassur@yahoo.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Rennes\", \"ADRESSE\": \"GreffeCS 44416\", \"CP\": \"35044\", \"VILLE\": \"Rennes Cedex\", \"TEL\": \"02 -23- 2-1 -28\", \"FAX\": \"02 -99- 6-3 -56- 8\", \"MEL\": \"greffe.ta-rennes@juradm.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-148452"
-  },
-  {
    "idweb": "17-146216",
    "id": "17_146216",
    "contractfolderid": null,
@@ -522,6 +459,69 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-147413\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-73349\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-05-24\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-05-26\", \"DATE_FIN_DIFFUSION\": \"2017-06-30\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"101\", \"NUM_ANNONCE\": \"200601\", \"DATE_PUBLICATION\": \"2017-05-27\"}}]}}, \"NOM_HTML\": \"17-147413.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-10-20\", \"DATE_FIN_DIFFUSION\": \"2017-11-25\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"212\", \"LIBELLE\": \"Matériel médical\"}, {\"CODE\": \"248\", \"LIBELLE\": \"Optique\"}]}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Fourniture, l'installation et la mise en service d'équipements (1 angiographe et 1 OCT) pour les consultations d'Ophtalmologie\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CH LE MANS\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"194 avenue Rubillard\", \"CP\": \"72037\", \"VILLE\": \"Le mans cedex 09\", \"MEL\": \"scteco@ch-lemans.fr\", \"URL\": \"http://www.ch-lemans.fr/\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Etablissement Public de Santé\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture, l'installation et la mise en service d'équipements (1 angiographe et 1 OCT) pour les consultations d'Ophtalmologie\", \"REF_MARCHE\": \"DHA2017-23\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Fourniture, l'installation et la mise en service d'équipements (1 angiographe et 1 OCT) pour les consultations d'Ophtalmologie\", \"CPV\": {\"PRINCIPAL\": \"33122000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Angiographe\", \"DESCRIPTION\": \"Angiographe\", \"CPV\": [{\"PRINCIPAL\": \"33111000\"}, {\"PRINCIPAL\": \"33111720\"}], \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"30\", \"#text\": \"Critère 1.1 Valeur technique : Performances techniques\"}, {\"@POIDS\": \"30\", \"#text\": \"Critère 1.2 Valeur technique : Ergonomie d'utilisation\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Le présent lot comporte 4 prestations supplémentaires éventuelles à réponse obligatoire et 6 prestations supplémentaires éventuelles à réponse facultative. Cf. article 11 du règlement de consultation\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"OCT\", \"DESCRIPTION\": \"OCT (x1)\", \"CPV\": {\"PRINCIPAL\": \"33122000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"30\", \"#text\": \"Critère 1.1 Valeur technique : Performances techniques\"}, {\"@POIDS\": \"30\", \"#text\": \"Critère 1.2 Valeur technique : Ergonomie d'utilisation\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Le présent lot comporte 4 prestations supplémentaires éventuelles à réponse obligatoire et 5 prestations supplémentaires éventuelles à réponse facultative. Cf. article 11 du règlement de consultation\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"101\", \"NUM_ANNONCE\": \"200601\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"20170084\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Angiographe\", \"TITULAIRE\": {\"DENOMINATION\": \"Sanotek\", \"ADRESSE\": \"118 rue de Chevilly\", \"CP\": \"94240\", \"VILLE\": \"L'Hay les roses\", \"CODE_NUTS\": \"FR107\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-09-28\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"82649.47\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"20170085\", \"NUM_LOT\": \"2\", \"INTITULE\": \"OCT pour ophtalmologie\", \"TITULAIRE\": {\"DENOMINATION\": \"Topcon\", \"ADRESSE\": \"3 route de Révolte\", \"CP\": \"93206\", \"VILLE\": \"Saint Denis cedex\", \"CODE_NUTS\": \"FR106\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-09-28\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"79829.49\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 18 octobre 2017.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé précontractuel depuis le début de la procédure jusqu'à la signature du contrat : devant le tribunal administratif de Nantes (article L551-1 du code de justice administrative)\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional de règlement amiable des litiges relatifs aux marchés publics\", \"ADRESSE\": \"8 rue de Châteaubriand\", \"CP\": \"44000\", \"VILLE\": \"Nantes\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-147413"
+  },
+  {
+   "idweb": "17-148452",
+   "id": "17_148452",
+   "contractfolderid": null,
+   "objet": "Prestations de services d'assurances - Risques Statutaires",
+   "filename": "BOAMP-N-AO_2017_293011",
+   "famille": "FNS",
+   "code_departement": [
+    "35",
+    "56",
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2017-10-20",
+   "datefindiffusion": "2017-11-22",
+   "datelimitereponse": "2017-11-22T11:00:00+00:00",
+   "nomacheteur": "Commune de Groix",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": [
+    "environnementaux"
+   ],
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "20"
+   ],
+   "dc": [
+    "20"
+   ],
+   "descripteur_libelle": [
+    "Assurance"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-148452\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-148452.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-10-20\", \"DATE_LIMITE_REPONSE\": \"2017-11-22T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2017-11-22\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"20\", \"LIBELLE\": \"Assurance\"}}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": [\"35\", \"56\", \"44\"], \"RESUME_OBJET\": \"Prestations de services d'assurances - Risques Statutaires\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Commune de Groix\", \"CORRESPONDANT\": \"Dominique YVON\", \"ADRESSE\": \"GROUPEMENT DE COMMANDES GROIX VILLE ET CCAS 13, Place Joseph Yvon\", \"CP\": \"56590\", \"VILLE\": \"GROIX\", \"TEL\": \"02-97-86-80-15\", \"FAX\": \"02-97-86-59-97\", \"MEL\": \"mairie@groix.fr\", \"URL\": \"http://groix.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.megalisbretagne.org\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"6a\"}, \"OBJET_COMPLET\": \"Prestations de services d'assurances\", \"CPV\": {\"PRINCIPAL\": \"66512000\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Groupement de commande Ville CCASLes prestations sont réparties en 2 lots:Lot 1 : Risques statutaires VilleLot 2 : Risques statutaires CCASDurée du marché : 4 ans pour tous les lots\"}, \"DUREE_DELAI\": {\"DATE_DEBUT\": \"2018-01-01\", \"DATE_FIN\": \"2021-12-31\", \"DATE_EXECUTION\": \"2018-01-01\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Risques statutaires Ville\", \"DESCRIPTION\": \"Risques statutaires Ville\"}, {\"NUM\": \"2\", \"INTITULE\": \"Risques statutaires CCAS\", \"DESCRIPTION\": \"Risques statutaires CCAS\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"1. La valeur technique de l'offre (note sur 10,00 pondérée à 60%)\"}, {\"@POIDS\": \"39\", \"#text\": \"2. Le coût de l'offre (note sur 10,00 pondérée à 39%),\"}, {\"@POIDS\": \"1\", \"#text\": \"3. La valeur durable de l'offre (note sur 10,00 pondérée à 1%)\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-11-22T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Références professionnelles et capacité technique - références requises : liste de références significatives.\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": \"Justifications à produire quant aux qualités et capacités du candidat :Déclaration sur l'honneur prévue aux articles 45, 47, 48, 49 et 50 de l'ordonnance no 2015-899 et à l'article 51 du décret no 2016-360,Celles fixées dans le dossier de consultation.\"}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"2017_SERV_ASSU_2\", \"CONDITIONS_ET_MODE_PAIEMENT_OBTENIR_DOCUMENTS\": \"Le dossier de consultation peut être obtenu gratuitement :à l'adresse électronique suivante : www.megalisbretagne.orgles demandes complémentaires, les candidatures et les offres : sur demande à l'adresse suivante :Monsieur Le MaireMairie de GROIX Place Joseph Yvon BP 3456590 GROIXTélécopieur : 0297865997\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"TECH\": \"\"}, \"DENOMINATION\": \"CONSULTASSUR\", \"ADRESSE\": \"19, allée François-Joseph BROUSSAISParc d'Activités du Ténénio\", \"CP\": \"56000\", \"VILLE\": \"Vannes\", \"TEL\": \"02-97-40-61-85\", \"MEL\": \"consultassur@yahoo.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Rennes\", \"ADRESSE\": \"GreffeCS 44416\", \"CP\": \"35044\", \"VILLE\": \"Rennes Cedex\", \"TEL\": \"02 -23- 2-1 -28\", \"FAX\": \"02 -99- 6-3 -56- 8\", \"MEL\": \"greffe.ta-rennes@juradm.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-148452"
   },
   {
    "idweb": "17-148953",

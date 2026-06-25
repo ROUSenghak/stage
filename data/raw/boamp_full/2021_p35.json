@@ -1582,64 +1582,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:21-162274"
   },
   {
-   "idweb": "21-161214",
-   "id": "21_161214",
-   "contractfolderid": null,
-   "objet": "maintenance des installations de génie climatique pour les établissements du ght 72 (rectificatif)",
-   "filename": "BOAMP-J-AO_2021_345005",
-   "famille": "JOUE",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2021-12-11",
-   "datefindiffusion": "2022-01-20",
-   "datelimitereponse": null,
-   "nomacheteur": "CH LE MANS",
-   "titulaire": null,
-   "perimetre": "AUTRE",
-   "type_procedure": null,
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure NC",
-   "procedure_categorise": "/",
-   "nature": "RECTIFICATIF",
-   "sousnature": null,
-   "nature_libelle": "Rectificatif",
-   "sousnature_libelle": "Rectificatif",
-   "nature_categorise": "rectificatif/standard",
-   "nature_categorise_libelle": "Rectificatif/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "RECTIFICATIF",
-   "descripteur_code": [
-    "196"
-   ],
-   "dc": [
-    "196"
-   ],
-   "descripteur_libelle": [
-    "Maintenance"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": null,
-   "annonce_lie": [
-    "21-146989",
-    "21-153359"
-   ],
-   "annonces_anterieures": "[{\"REFERENCE\": {\"IDWEB\": \"21-146989\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2021-11-03\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2021-11-05\", \"DATE_FIN_DIFFUSION\": \"2021-12-25\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2021\", \"NUM_PARUTION\": \"216\", \"NUM_ANNONCE\": \"569032\", \"DATE_PUBLICATION\": \"2021-11-08\"}}]}, {\"REFERENCE\": {\"IDWEB\": \"21-153359\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}, \"DATE_ENVOI\": \"2021-11-19\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2021-11-21\", \"DATE_FIN_DIFFUSION\": \"2021-12-18\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2021\", \"NUM_PARUTION\": \"228\", \"NUM_ANNONCE\": \"601276\", \"DATE_PUBLICATION\": \"2021-11-24\"}}]}]",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"21-161214\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": [{\"REFERENCE\": {\"IDWEB\": \"21-146989\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2021-11-03\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2021-11-05\", \"DATE_FIN_DIFFUSION\": \"2021-12-25\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2021\", \"NUM_PARUTION\": \"216\", \"NUM_ANNONCE\": \"569032\", \"DATE_PUBLICATION\": \"2021-11-08\"}}]}, {\"REFERENCE\": {\"IDWEB\": \"21-153359\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}, \"DATE_ENVOI\": \"2021-11-19\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2021-11-21\", \"DATE_FIN_DIFFUSION\": \"2021-12-18\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2021\", \"NUM_PARUTION\": \"228\", \"NUM_ANNONCE\": \"601276\", \"DATE_PUBLICATION\": \"2021-11-24\"}}]}]}, \"NOM_HTML\": \"21-161214.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2021-12-11\", \"DATE_FIN_DIFFUSION\": \"2022-01-20\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"196\", \"LIBELLE\": \"Maintenance\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"maintenance des installations de génie climatique pour les établissements du ght 72 (rectificatif)\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CH LE MANS\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"194 avenue Rubillard\", \"CP\": \"72037\", \"VILLE\": \"Le mans cedex 09\", \"TEL\": \"(+33) 2-44-71-03-83\", \"MEL\": \"celluledesmarches@ch-lemans.fr\", \"URL\": \"http://www.ch-lemans.fr/\"}, \"OBJET\": {\"TITRE_MARCHE\": \"Maintenance des installations de génie climatique pour les établissements du GHT 72\", \"REF_MARCHE\": \"TECH 21-007\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Maintenance des installations de génie climatique pour les établissements du GHT 72\", \"CPV\": {\"PRINCIPAL\": \"50720000\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"21-146989\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2021-11-03\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2021-11-05\", \"DATE_FIN_DIFFUSION\": \"2021-12-25\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2021\", \"NUM_PARUTION\": \"216\", \"NUM_ANNONCE\": \"569032\", \"DATE_PUBLICATION\": \"2021-11-08\"}}]}, \"MODIFICATION\": [{\"RUB_INIT\": \"IV.2.2\", \"DATE\": {\"INIT\": \"2021-12-13\", \"LIRE\": \"2021-12-20\"}}, {\"RUB_INIT\": \"IV.2.7\", \"DATE\": {\"INIT\": \"2021-12-14\", \"LIRE\": \"2021-12-21\"}}]}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 9 décembre 2021.\"}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:21-161214"
-  },
-  {
    "idweb": "21-161781",
    "id": "21_161781",
    "contractfolderid": null,
@@ -1766,6 +1708,64 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"21-161847\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"21-17588\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2021-02-08\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2021-02-10\", \"DATE_FIN_DIFFUSION\": \"2021-03-17\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2021\", \"NUM_PARUTION\": \"030\", \"NUM_ANNONCE\": \"073320\", \"DATE_PUBLICATION\": \"2021-02-12\"}}]}}, \"NOM_HTML\": \"21-161847.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2021-12-11\", \"DATE_FIN_DIFFUSION\": \"2022-02-10\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"455\", \"LIBELLE\": \"Ingénierie\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"mission de maîtrise d'oeuvre pour la réhabilitation, l'extension et la rénovation énergétique de l'espace culturel et de congrès de la fleuriaye\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Carquefou\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"CP\": \"44471\", \"VILLE\": \"Carquefou Cedex\", \"MEL\": \"achats@mairie-carquefou.fr\", \"URL\": \"http://www.carquefou.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Mission de Maîtrise d'Oeuvre pour la réhabilitation, l'extension et la rénovation énergétique de l'Espace Culturel et de Congrès de la Fleuriaye\", \"REF_MARCHE\": \"21S0002\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Mission de Maîtrise d'Oeuvre pour la réhabilitation, l'extension et la rénovation énergétique de l'Espace Culturel et de Congrès de la Fleuriaye\", \"CPV\": {\"PRINCIPAL\": \"71240000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"1204961.72\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Mission de Maîtrise d'Oeuvre pour la réhabilitation, l'extension et la rénovation énergétique de l'Espace Culturel et de Congrès de la Fleuriaye\", \"CPV\": {\"PRINCIPAL\": \"71240000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"70\", \"#text\": \"Qualité de la réponse au programme\"}}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"30\", \"#text\": \"Compatibilité du projet avec l'estimation prévisionnelle\"}}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"RESTREINT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_NON\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2021\", \"NUM_PARUTION\": \"030\", \"NUM_ANNONCE\": \"073320\", \"DATE_PUBLICATION\": \"2021-02-12\"}}}, \"ATTRIBUTION\": {\"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"21S0002\", \"INTITULE\": \"Mission de Maîtrise d'Oeuvre pour la réhabilitation, l'extension et la rénovation énergétique de l'Espace Culturel et de Congrès de la Fleuriaye\", \"TITULAIRE\": [{\"DENOMINATION\": \"Atelier d'Architecture King Kong\", \"ADRESSE\": \"353 boulevard du Président Wilson\", \"CP\": \"33300\", \"VILLE\": \"Bordeaux\", \"CODE_NUTS\": \"FRI12\", \"PME_NON\": \"\"}, {\"DENOMINATION\": \"OTE Ingénierie Sa\", \"ADRESSE\": \"1 rue de la Lisière - BP 40110\", \"CP\": \"67403\", \"VILLE\": \"Illkirch Cedex\", \"CODE_NUTS\": \"FRF11\", \"PME_OUI\": \"\"}, {\"DENOMINATION\": \"dUCKS scéno SCOP\", \"ADRESSE\": \"1 rue du Docteur Fleury Pierre Papillon\", \"CP\": \"69100\", \"VILLE\": \"Villeurbanne\", \"CODE_NUTS\": \"FRK26\", \"PME_NON\": \"\"}, {\"DENOMINATION\": \"A+R Paysages\", \"ADRESSE\": \"76 cours de Luze\", \"CP\": \"33300\", \"VILLE\": \"Bordeaux\", \"CODE_NUTS\": \"FRI12\", \"PME_OUI\": \"\"}, {\"DENOMINATION\": \"Kahle Acoustics SRL\", \"ADRESSE\": \"Rue Emile Banning, 24\", \"CP\": \"B-1050\", \"VILLE\": \"Bruxelles\", \"CODE_NUTS\": \"BE10\", \"PAYS\": \"BE\", \"PME_OUI\": \"\"}, {\"DENOMINATION\": \"OTELIO Sarl\", \"ADRESSE\": \"52 rue du Prunier\", \"CP\": \"68000\", \"VILLE\": \"Colmar\", \"CODE_NUTS\": \"FRF12\", \"PME_OUI\": \"\"}], \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2021-12-06\", \"NB_OFFRE_RECU\": \"5\", \"GROUPEMENT_ECONOMIQUE\": \"\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"1204961.72\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 9 décembre 2021.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"2 mois\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\", \"MEL\": \"greffe.ta.nantes@juradm.fr\", \"URL\": \"http://www.ta-nantes.juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\", \"MEL\": \"greffe.ta.nantes@juradm.fr\", \"URL\": \"http://www.ta-nantes.juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\", \"MEL\": \"greffe.ta.nantes@juradm.fr\", \"URL\": \"http://www.ta-nantes.juradm.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:21-161847"
+  },
+  {
+   "idweb": "21-161214",
+   "id": "21_161214",
+   "contractfolderid": null,
+   "objet": "maintenance des installations de génie climatique pour les établissements du ght 72 (rectificatif)",
+   "filename": "BOAMP-J-AO_2021_345005",
+   "famille": "JOUE",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2021-12-11",
+   "datefindiffusion": "2022-01-20",
+   "datelimitereponse": null,
+   "nomacheteur": "CH LE MANS",
+   "titulaire": null,
+   "perimetre": "AUTRE",
+   "type_procedure": null,
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure NC",
+   "procedure_categorise": "/",
+   "nature": "RECTIFICATIF",
+   "sousnature": null,
+   "nature_libelle": "Rectificatif",
+   "sousnature_libelle": "Rectificatif",
+   "nature_categorise": "rectificatif/standard",
+   "nature_categorise_libelle": "Rectificatif/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "RECTIFICATIF",
+   "descripteur_code": [
+    "196"
+   ],
+   "dc": [
+    "196"
+   ],
+   "descripteur_libelle": [
+    "Maintenance"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": null,
+   "annonce_lie": [
+    "21-146989",
+    "21-153359"
+   ],
+   "annonces_anterieures": "[{\"REFERENCE\": {\"IDWEB\": \"21-146989\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2021-11-03\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2021-11-05\", \"DATE_FIN_DIFFUSION\": \"2021-12-25\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2021\", \"NUM_PARUTION\": \"216\", \"NUM_ANNONCE\": \"569032\", \"DATE_PUBLICATION\": \"2021-11-08\"}}]}, {\"REFERENCE\": {\"IDWEB\": \"21-153359\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}, \"DATE_ENVOI\": \"2021-11-19\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2021-11-21\", \"DATE_FIN_DIFFUSION\": \"2021-12-18\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2021\", \"NUM_PARUTION\": \"228\", \"NUM_ANNONCE\": \"601276\", \"DATE_PUBLICATION\": \"2021-11-24\"}}]}]",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"21-161214\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": [{\"REFERENCE\": {\"IDWEB\": \"21-146989\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2021-11-03\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2021-11-05\", \"DATE_FIN_DIFFUSION\": \"2021-12-25\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2021\", \"NUM_PARUTION\": \"216\", \"NUM_ANNONCE\": \"569032\", \"DATE_PUBLICATION\": \"2021-11-08\"}}]}, {\"REFERENCE\": {\"IDWEB\": \"21-153359\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}, \"DATE_ENVOI\": \"2021-11-19\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2021-11-21\", \"DATE_FIN_DIFFUSION\": \"2021-12-18\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2021\", \"NUM_PARUTION\": \"228\", \"NUM_ANNONCE\": \"601276\", \"DATE_PUBLICATION\": \"2021-11-24\"}}]}]}, \"NOM_HTML\": \"21-161214.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2021-12-11\", \"DATE_FIN_DIFFUSION\": \"2022-01-20\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"196\", \"LIBELLE\": \"Maintenance\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"maintenance des installations de génie climatique pour les établissements du ght 72 (rectificatif)\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CH LE MANS\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"194 avenue Rubillard\", \"CP\": \"72037\", \"VILLE\": \"Le mans cedex 09\", \"TEL\": \"(+33) 2-44-71-03-83\", \"MEL\": \"celluledesmarches@ch-lemans.fr\", \"URL\": \"http://www.ch-lemans.fr/\"}, \"OBJET\": {\"TITRE_MARCHE\": \"Maintenance des installations de génie climatique pour les établissements du GHT 72\", \"REF_MARCHE\": \"TECH 21-007\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Maintenance des installations de génie climatique pour les établissements du GHT 72\", \"CPV\": {\"PRINCIPAL\": \"50720000\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"21-146989\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2021-11-03\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2021-11-05\", \"DATE_FIN_DIFFUSION\": \"2021-12-25\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2021\", \"NUM_PARUTION\": \"216\", \"NUM_ANNONCE\": \"569032\", \"DATE_PUBLICATION\": \"2021-11-08\"}}]}, \"MODIFICATION\": [{\"RUB_INIT\": \"IV.2.2\", \"DATE\": {\"INIT\": \"2021-12-13\", \"LIRE\": \"2021-12-20\"}}, {\"RUB_INIT\": \"IV.2.7\", \"DATE\": {\"INIT\": \"2021-12-14\", \"LIRE\": \"2021-12-21\"}}]}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 9 décembre 2021.\"}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:21-161214"
   },
   {
    "idweb": "21-161874",
@@ -2086,127 +2086,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:21-162866"
   },
   {
-   "idweb": "21-162356",
-   "id": "21_162356",
-   "contractfolderid": null,
-   "objet": "Fourniture de contenants alimentaires durables en inox",
-   "filename": "BOAMP-J-AO_2021_346001",
-   "famille": "JOUE",
-   "code_departement": [
-    "49"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2021-12-12",
-   "datefindiffusion": "2022-01-24",
-   "datelimitereponse": null,
-   "nomacheteur": "Angers Loire Restauration",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "1",
-    "67"
-   ],
-   "dc": [
-    "1",
-    "67"
-   ],
-   "descripteur_libelle": [
-    "Abris",
-    "Conditionnement"
-   ],
-   "type_marche": [
-    "FOURNITURES"
-   ],
-   "type_marche_facette": [
-    "Fournitures"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"21-162356\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"21-162356.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2021-12-12\", \"DATE_FIN_DIFFUSION\": \"2022-01-24\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"1\", \"LIBELLE\": \"Abris\"}, {\"CODE\": \"67\", \"LIBELLE\": \"Conditionnement\"}]}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Fourniture de contenants alimentaires durables en inox\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Angers Loire Restauration\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"49 Rue des Claveries\", \"CP\": \"49124\", \"VILLE\": \"Saint Barthélemy d'Anjou\", \"TEL\": \"(+33) 2-41-21-18-80\", \"MEL\": \"contact@alrest.fr\", \"URL\": \"https://www.papillote-et-cie.fr/\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-securises.fr\", \"URL_INFORMATION\": \"https://www.papillote-et-cie.fr/\", \"URL_PARTICIPATION\": \"https://www.marches-securises.fr\", \"URL_DOCUMENT\": \"https://www.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Autre\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Restauration\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de contenants alimentaires durables en inox\", \"REF_MARCHE\": \"2022-03\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Le présent marché à procédure formalisé concerne la fourniture de contenants alimentaires durables en inox pour la restauration collective.\", \"CPV\": {\"PRINCIPAL\": \"39222000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"600000.00\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Fourniture de contenants alimentaires durables en inox\", \"CPV\": {\"PRINCIPAL\": \"39221130\"}, \"CODE_NUTS\": \"FRG02\", \"LIEU_PRINCIPAL\": \"Rue Jacqueline Pertus 49100 Angers\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"Valeur technique\"}, {\"@POIDS\": \"10\", \"#text\": \"Critères environnementaux\"}]}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"40\", \"#text\": \"Prix\"}}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"600000.00\"}, \"DATE_DEBUT\": \"2022-07-05\", \"DATE_FIN\": \"2022-07-25\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2022-01-24T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Le candidat peut présenter sa candidature sous forme d'un document unique de marché européen (DUME), en lieu et place des formulaires DC1 et DC2. En cas de groupement de commande, chacun des membres du groupement fournira un formulaire DUME complété.\", \"CAP_ECO\": \"1. Déclaration concernant le chiffre d'affaires global du candidat et, le cas échéant, le chiffre d'affaires du domaine d'activité faisant l'objet du marché public, portant au maximum sur les trois derniers exercices disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles.2. Déclarations appropriées de banques ou, le cas échéant, preuve d'une assurance des risques professionnels pertinents.\", \"CAP_TECH\": \"1. Une déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années.2. Une description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation du marché public.\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2022-01-24\", \"LIEU_OUVERTURE_OFFRES\": \"Papillotes et Compagnie 49 Rue des Claveries, 49124 Saint Barthélemy d'Anjou\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Les offres peuvent être remises électroniquement. Date d'envoi du présent avis au JOUE et au BOAMP : 10 décembre 2021.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal de Grande Instance de RENNES\", \"ADRESSE\": \"7 rue Pierre Abélard\", \"CP\": \"35000\", \"VILLE\": \"Rennes\", \"TEL\": \"(+33) 2-99-65-37-37\", \"FAX\": \"(+33) 2-23-44-85-53\", \"MEL\": \"accueil.tj-rennes@justice.fr\", \"URL\": \"http://www.justice.gouv.fr/\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Tribunal de Grande Instance de RENNES\", \"ADRESSE\": \"7 rue Pierre Abélard\", \"CP\": \"35000\", \"VILLE\": \"Rennes\", \"TEL\": \"(+33) 2-99-65-37-37\", \"FAX\": \"(+33) 2-23-44-85-53\", \"MEL\": \"accueil.tj-rennes@justice.fr\", \"URL\": \"http://www.justice.gouv.fr/\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal de Grande Instance de RENNES\", \"ADRESSE\": \"7 rue Pierre Abélard\", \"CP\": \"35000\", \"VILLE\": \"Rennes\", \"TEL\": \"(+33) 2-99-65-37-37\", \"FAX\": \"(+33) 2-23-44-85-53\", \"MEL\": \"accueil.tj-rennes@justice.fr\", \"URL\": \"http://www.justice.gouv.fr/\"}, {\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Angers Loire Restauration\", \"CODE_IDENT_NATIONAL\": \"84097537900016\", \"CONTACT\": \"Helene.hode@alrest.fr\", \"ADRESSE\": \"49 Rue des Claveries\", \"CP\": \"49124\", \"VILLE\": \"Saint Barthélemy d'Anjou\", \"CODE_NUTS\": \"FRG02\", \"TEL\": \"(+33) 2-41-21-18-90\", \"MEL\": \"helene.hode@alrest.fr\", \"URL\": \"https://www.papillote-et-cie.fr/\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:21-162356"
-  },
-  {
-   "idweb": "21-162760",
-   "id": "21_162760",
-   "contractfolderid": null,
-   "objet": "FOURNITURE DE CARBURANTS ET PRESTATIONS ANNEXES A L'AIDE DE CARTES ACCREDITIVES POUR LA REGION DES PAYS DE LA LOIRE",
-   "filename": "BOAMP-J-AO_2021_346004",
-   "famille": "JOUE",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2021-12-12",
-   "datefindiffusion": "2022-01-18",
-   "datelimitereponse": null,
-   "nomacheteur": "Conseil régional des Pays de la Loire",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": "1",
-   "marche_public_simplifie_label": "Marché public simplifié",
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "52"
-   ],
-   "dc": [
-    "52"
-   ],
-   "descripteur_libelle": [
-    "Carburant, hydrocarbure"
-   ],
-   "type_marche": [
-    "FOURNITURES"
-   ],
-   "type_marche_facette": [
-    "Fournitures"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"21-162760\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"21-162760.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2021-12-12\", \"DATE_FIN_DIFFUSION\": \"2022-01-18\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"52\", \"LIBELLE\": \"Carburant, hydrocarbure\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"FOURNITURE DE CARBURANTS ET PRESTATIONS ANNEXES A L'AIDE DE CARTES ACCREDITIVES POUR LA REGION DES PAYS DE LA LOIRE\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Conseil régional des Pays de la Loire\", \"CODE_IDENT_NATIONAL\": \"23440003400026\", \"CONTACT\": \"Service Commande publique et stratégie d'achat\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"1, Rue de la Loire\", \"CP\": \"44966\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-28-20-58-38\", \"MEL\": \"demandedce@paysdelaloire.fr\", \"URL\": \"https://www.paysdelaloire.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.paysdelaloire.fr\", \"URL_PARTICIPATION\": \"https://marchespublics.paysdelaloire.fr\", \"URL_DOCUMENT\": \"https://marchespublics.paysdelaloire.fr\", \"URL_OUTIL_LOGICIEL\": \"https://marchespublics.paysdelaloire.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"FOURNITURE DE CARBURANTS ET PRESTATIONS ANNEXES A L'AIDE DE CARTES ACCREDITIVES POUR LA REGION DES PAYS DE LA LOIRE\", \"REF_MARCHE\": \"DAG30-202145774\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"ACCORD CADRE : FOURNITURE DE CARBURANTS ET PRESTATIONS ANNEXES A L'AIDE DE CARTES ACCREDITIVES POUR LA REGION DES PAYS DE LA LOIRE ET MARCHE SUBSEQUENT 1 : FOURNITURE DE CARBURANTS, DE SERVICES ET FOURNITURES EN STATION ET DE L'ACCES AUX ROUTES ET AUTOROUTES A PEAGE A L'AIDE DE CARTES ACCREDITIVES POUR LA REGION DES PAYS DE LA LOIRE\", \"CPV\": {\"PRINCIPAL\": \"09100000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Le présent accord-cadre a pour objet la fourniture de carburants et prestations annexes à l'aide de cartes accréditives pour la Région des Pays de la Loire.\", \"CPV\": {\"PRINCIPAL\": \"09100000\"}, \"CODE_NUTS\": \"FRG01\", \"LIEU_PRINCIPAL\": \"Nantes\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"24\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"L'accord-cadre prend effet à compter du 15 février 2022 ou de sa date de notification au titulaire si elle est postérieure. Il est conclu pour une durée de 24 mois reconductible 1 fois par tacite reconduction pour une nouvelle période de 24 mois sans que sa durée ne puisse excéder 48 mois.\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Prestations supplémentaires éventuellesLe marché subséquent no1 conclu sur la base de l'accord-cadre comporte la prestation supplémentaire éventuelle facultative suivante : PSE1 : Accès aux parkings urbains et péri-urbains à péage du réseau du titulaire sur tout le territoire national avec la même carte accréditive.\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2022-01-17T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"6\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Les entreprises candidates se présentent soit individuellement, soit en groupement.La forme du groupement sera précisée par les candidats sur l'acte d'engagement ainsi que le nom de l'entreprise mandataire. Ces indications devront être cohérentes avec les informations contenues dans la lettre de candidature. Le mandataire pourra signer, seul, les candidatures et les offres, s'il joint à la candidature du groupement les habilitations nécessaires pour représenter l'ensemble des co-traitants au stade de la passation de l'accord-cadre.Il est interdit aux candidats de présenter pour l'accord-cadre plusieurs offres en agissant à la fois :- en qualité de candidats individuels et de membres d'un ou plusieurs groupements- en qualité de membres de plusieurs groupements.La sous-traitance est autorisée dans les conditions fixées au CCP. et au règlement de la consultation Les opérations sous traitées devront être identifiées dans le formulaire DC4 - déclaration de sous-traitance.\", \"CAP_ECO\": \"La \\\" lettre de candidature-désignation du mandataire par ses cotraitants \\\" dûment complétée, - DC1 (jointe au DCE) ou document de forme libre comportant les mêmes informations dont notamment l'attestation sur l'honneur prévue aux articles R2143-3 et R2143-16 du code de la commande publique ; La déclaration du candidat dûment complétée- DC2 (jointe au DCE) ou document de forme libre comportant les mêmes informations dont notamment : La déclaration concernant le chiffre d'affaires global et le chiffre d'affaires du domaine d'activité faisant l'objet du de l'accord-cadre, portant au maximum sur les trois derniers exercices disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles.\", \"CAP_TECH\": \"Une déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pendant les trois dernières années ; Une liste des principales livraisons effectuées ou des principaux services fournis au cours des trois dernières années.\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2022-01-17\", \"LIEU_OUVERTURE_OFFRES\": \"NANTES\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_OUI\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"RENS_COMPLEMENT\": \"Conformément aux dispositions des articles R2132-7 et R2132-8 du code de la commande publique, la présente consultation fait l'objet d'une procédure dématérialisée. Les communications et les échanges d'informations ont également lieu par voie électronique.Seul le dépôt d'une offre par voie électronique est autorisé.Conformément aux articles R2132-7 à R2132-14 du code de la commande publique, la présente consultation fait l'objet d'une procédure dématérialisée. Cette procédure permet aux candidats qui le souhaitent, via le site internet https://marchespublics.paysdelaloire.fr/ :- d'accéder à la \\\" plateforme \\\" de dématérialisation des procédures de marchés publics lancée par la Région Pays de la Loire ;- de télécharger gratuitement le règlement de la consultation et le dossier de consultation des entreprises ;- de poser des questions ou solliciter des documents complémentaires ;- de déposer leurs documents de candidature et d'offre par voieélectronique sur la plateforme, ce qui constituera \\\" une offre dématérialisée \\\".La signature électronique de l'acte d'engagement n'est pas obligatoire au stade de la remise de l'offre. Pour autant, dans un souci de simplification des démarches après attribution, il est conseillé aux soumissionnaires de signer électroniquement l'acte d'engagement dès la remise des offres. Il leur faudra également fournir une copie des pouvoirs donnant délégation de signature au signataire des documents.Les documents à produire sont définis à l'article 4.3 du règlement de la consultation.. Date d'envoi du présent avis au JOUE et au BOAMP : 10 décembre 2021.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé précontractuel : article L551-1 et suivants du code de justice administrativeRéféré contractuel : article L551-13 et suivants du code de justice administrative\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, Allée de l'Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"(+33) 2-55-10-10-02\", \"FAX\": \"(+33) 2-55-10-10-03\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Médiateur régional délégué Médiation des entreprises\", \"ADRESSE\": \"22 mail Pablo Picasso BP 24209\", \"CP\": \"44042\", \"VILLE\": \"Nantes cedex 1\", \"URL\": \"http://www.mediateur-des-entreprises.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, Allée de l'Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"(+33) 2-55-10-10-02\", \"FAX\": \"(+33) 2-55-10-10-03\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:21-162760"
-  },
-  {
    "idweb": "21-162641",
    "id": "21_162641",
    "contractfolderid": null,
@@ -2341,6 +2220,127 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"21-162688\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"21-119266\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2021-09-06\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2021-09-08\", \"DATE_FIN_DIFFUSION\": \"2021-10-06\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2021\", \"NUM_PARUTION\": \"176\", \"NUM_ANNONCE\": \"457708\", \"DATE_PUBLICATION\": \"2021-09-10\"}}]}}, \"NOM_HTML\": \"21-162688.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2021-12-12\", \"DATE_FIN_DIFFUSION\": \"2021-12-31\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"118\", \"LIBELLE\": \"Etude\"}}, \"DEP_PUBLICATION\": [\"44\", \"72\", \"49\", \"53\", \"85\"], \"RESUME_OBJET\": \"Etude de zone sur le territoire de la CARENE\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"DREAL Pays de la Loire\", \"ADJUDICATEUR_NUTS\": \"FRG\", \"ADRESSE\": \"5 rue Francoise Giroud\", \"CP\": \"44263\", \"VILLE\": \"Nantes cedex 2\", \"TEL\": \"(+33) 2-72-74-73-00\", \"FAX\": \"(+33) 2-72-74-73-09\", \"MEL\": \"marches.ubf.sg.dreal-pays-loire@developpement-durable.gouv.fr\", \"URL\": \"http://www.pays-de-la-loire.developpement-durable.gouv.fr/\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"MIN_AUTORITE_NATIONALE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ENVIRONNEMENT\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Etude de zone sur le territoire de la CARENE\", \"REF_MARCHE\": \"CONSULT-PDL-21017-SRNT\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Réalisation des phases 1 et 2 de l'étude de zone sur le territoire de la CARENE\", \"CPV\": {\"PRINCIPAL\": \"79311000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"144500\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Etude de zone sur le territoire de la CARENE\", \"CPV\": {\"PRINCIPAL\": \"79311000\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_NON\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2021\", \"NUM_PARUTION\": \"176\", \"NUM_ANNONCE\": \"457708\", \"DATE_PUBLICATION\": \"2021-09-10\"}}}, \"ATTRIBUTION\": {\"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"M21-41-006\", \"TITULAIRE\": {\"DENOMINATION\": \"GINGER BURGEAP SAS\", \"CODE_IDENT_NATIONAL\": \"68200822200379\", \"ADRESSE\": \"143 Avenue de Verdun\", \"CP\": \"92442\", \"VILLE\": \"Issy les Moulineau\", \"CODE_NUTS\": \"FR\", \"TEL\": \"(+33) 1-46-10-25-70\", \"FAX\": \"(+33) 1-46-10-25-25\", \"MEL\": \"burgeap.paris@groupeginger.com\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2021-12-07\", \"NB_OFFRE_RECU\": \"2\", \"NB_OFFRE_RECU_UE\": \"0\", \"NB_OFFRE_RECU_NON_UE\": \"0\", \"NB_OFFRE_RECU_ELECT\": \"2\", \"ESTIMATION_INITIALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"200000\"}, \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"144500\"}, \"SOUSTRAITANCE_OUI\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"21755\"}, \"DESCRIPTION\": \"Prestation sous-traitée : phase 2 - modélisation de la dispersion et des transferts\"}}}}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 10 décembre 2021.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 Allée de l'ile Gloriette CS 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:21-162688"
+  },
+  {
+   "idweb": "21-162356",
+   "id": "21_162356",
+   "contractfolderid": null,
+   "objet": "Fourniture de contenants alimentaires durables en inox",
+   "filename": "BOAMP-J-AO_2021_346001",
+   "famille": "JOUE",
+   "code_departement": [
+    "49"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2021-12-12",
+   "datefindiffusion": "2022-01-24",
+   "datelimitereponse": null,
+   "nomacheteur": "Angers Loire Restauration",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "1",
+    "67"
+   ],
+   "dc": [
+    "1",
+    "67"
+   ],
+   "descripteur_libelle": [
+    "Abris",
+    "Conditionnement"
+   ],
+   "type_marche": [
+    "FOURNITURES"
+   ],
+   "type_marche_facette": [
+    "Fournitures"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"21-162356\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"21-162356.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2021-12-12\", \"DATE_FIN_DIFFUSION\": \"2022-01-24\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"1\", \"LIBELLE\": \"Abris\"}, {\"CODE\": \"67\", \"LIBELLE\": \"Conditionnement\"}]}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Fourniture de contenants alimentaires durables en inox\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Angers Loire Restauration\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"49 Rue des Claveries\", \"CP\": \"49124\", \"VILLE\": \"Saint Barthélemy d'Anjou\", \"TEL\": \"(+33) 2-41-21-18-80\", \"MEL\": \"contact@alrest.fr\", \"URL\": \"https://www.papillote-et-cie.fr/\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-securises.fr\", \"URL_INFORMATION\": \"https://www.papillote-et-cie.fr/\", \"URL_PARTICIPATION\": \"https://www.marches-securises.fr\", \"URL_DOCUMENT\": \"https://www.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Autre\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Restauration\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de contenants alimentaires durables en inox\", \"REF_MARCHE\": \"2022-03\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Le présent marché à procédure formalisé concerne la fourniture de contenants alimentaires durables en inox pour la restauration collective.\", \"CPV\": {\"PRINCIPAL\": \"39222000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"600000.00\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Fourniture de contenants alimentaires durables en inox\", \"CPV\": {\"PRINCIPAL\": \"39221130\"}, \"CODE_NUTS\": \"FRG02\", \"LIEU_PRINCIPAL\": \"Rue Jacqueline Pertus 49100 Angers\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"Valeur technique\"}, {\"@POIDS\": \"10\", \"#text\": \"Critères environnementaux\"}]}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"40\", \"#text\": \"Prix\"}}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"600000.00\"}, \"DATE_DEBUT\": \"2022-07-05\", \"DATE_FIN\": \"2022-07-25\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2022-01-24T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Le candidat peut présenter sa candidature sous forme d'un document unique de marché européen (DUME), en lieu et place des formulaires DC1 et DC2. En cas de groupement de commande, chacun des membres du groupement fournira un formulaire DUME complété.\", \"CAP_ECO\": \"1. Déclaration concernant le chiffre d'affaires global du candidat et, le cas échéant, le chiffre d'affaires du domaine d'activité faisant l'objet du marché public, portant au maximum sur les trois derniers exercices disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles.2. Déclarations appropriées de banques ou, le cas échéant, preuve d'une assurance des risques professionnels pertinents.\", \"CAP_TECH\": \"1. Une déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années.2. Une description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation du marché public.\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2022-01-24\", \"LIEU_OUVERTURE_OFFRES\": \"Papillotes et Compagnie 49 Rue des Claveries, 49124 Saint Barthélemy d'Anjou\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Les offres peuvent être remises électroniquement. Date d'envoi du présent avis au JOUE et au BOAMP : 10 décembre 2021.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal de Grande Instance de RENNES\", \"ADRESSE\": \"7 rue Pierre Abélard\", \"CP\": \"35000\", \"VILLE\": \"Rennes\", \"TEL\": \"(+33) 2-99-65-37-37\", \"FAX\": \"(+33) 2-23-44-85-53\", \"MEL\": \"accueil.tj-rennes@justice.fr\", \"URL\": \"http://www.justice.gouv.fr/\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Tribunal de Grande Instance de RENNES\", \"ADRESSE\": \"7 rue Pierre Abélard\", \"CP\": \"35000\", \"VILLE\": \"Rennes\", \"TEL\": \"(+33) 2-99-65-37-37\", \"FAX\": \"(+33) 2-23-44-85-53\", \"MEL\": \"accueil.tj-rennes@justice.fr\", \"URL\": \"http://www.justice.gouv.fr/\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal de Grande Instance de RENNES\", \"ADRESSE\": \"7 rue Pierre Abélard\", \"CP\": \"35000\", \"VILLE\": \"Rennes\", \"TEL\": \"(+33) 2-99-65-37-37\", \"FAX\": \"(+33) 2-23-44-85-53\", \"MEL\": \"accueil.tj-rennes@justice.fr\", \"URL\": \"http://www.justice.gouv.fr/\"}, {\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Angers Loire Restauration\", \"CODE_IDENT_NATIONAL\": \"84097537900016\", \"CONTACT\": \"Helene.hode@alrest.fr\", \"ADRESSE\": \"49 Rue des Claveries\", \"CP\": \"49124\", \"VILLE\": \"Saint Barthélemy d'Anjou\", \"CODE_NUTS\": \"FRG02\", \"TEL\": \"(+33) 2-41-21-18-90\", \"MEL\": \"helene.hode@alrest.fr\", \"URL\": \"https://www.papillote-et-cie.fr/\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:21-162356"
+  },
+  {
+   "idweb": "21-162760",
+   "id": "21_162760",
+   "contractfolderid": null,
+   "objet": "FOURNITURE DE CARBURANTS ET PRESTATIONS ANNEXES A L'AIDE DE CARTES ACCREDITIVES POUR LA REGION DES PAYS DE LA LOIRE",
+   "filename": "BOAMP-J-AO_2021_346004",
+   "famille": "JOUE",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2021-12-12",
+   "datefindiffusion": "2022-01-18",
+   "datelimitereponse": null,
+   "nomacheteur": "Conseil régional des Pays de la Loire",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": "1",
+   "marche_public_simplifie_label": "Marché public simplifié",
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "52"
+   ],
+   "dc": [
+    "52"
+   ],
+   "descripteur_libelle": [
+    "Carburant, hydrocarbure"
+   ],
+   "type_marche": [
+    "FOURNITURES"
+   ],
+   "type_marche_facette": [
+    "Fournitures"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"21-162760\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"21-162760.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2021-12-12\", \"DATE_FIN_DIFFUSION\": \"2022-01-18\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"52\", \"LIBELLE\": \"Carburant, hydrocarbure\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"FOURNITURE DE CARBURANTS ET PRESTATIONS ANNEXES A L'AIDE DE CARTES ACCREDITIVES POUR LA REGION DES PAYS DE LA LOIRE\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Conseil régional des Pays de la Loire\", \"CODE_IDENT_NATIONAL\": \"23440003400026\", \"CONTACT\": \"Service Commande publique et stratégie d'achat\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"1, Rue de la Loire\", \"CP\": \"44966\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-28-20-58-38\", \"MEL\": \"demandedce@paysdelaloire.fr\", \"URL\": \"https://www.paysdelaloire.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.paysdelaloire.fr\", \"URL_PARTICIPATION\": \"https://marchespublics.paysdelaloire.fr\", \"URL_DOCUMENT\": \"https://marchespublics.paysdelaloire.fr\", \"URL_OUTIL_LOGICIEL\": \"https://marchespublics.paysdelaloire.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"FOURNITURE DE CARBURANTS ET PRESTATIONS ANNEXES A L'AIDE DE CARTES ACCREDITIVES POUR LA REGION DES PAYS DE LA LOIRE\", \"REF_MARCHE\": \"DAG30-202145774\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"ACCORD CADRE : FOURNITURE DE CARBURANTS ET PRESTATIONS ANNEXES A L'AIDE DE CARTES ACCREDITIVES POUR LA REGION DES PAYS DE LA LOIRE ET MARCHE SUBSEQUENT 1 : FOURNITURE DE CARBURANTS, DE SERVICES ET FOURNITURES EN STATION ET DE L'ACCES AUX ROUTES ET AUTOROUTES A PEAGE A L'AIDE DE CARTES ACCREDITIVES POUR LA REGION DES PAYS DE LA LOIRE\", \"CPV\": {\"PRINCIPAL\": \"09100000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Le présent accord-cadre a pour objet la fourniture de carburants et prestations annexes à l'aide de cartes accréditives pour la Région des Pays de la Loire.\", \"CPV\": {\"PRINCIPAL\": \"09100000\"}, \"CODE_NUTS\": \"FRG01\", \"LIEU_PRINCIPAL\": \"Nantes\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"24\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"L'accord-cadre prend effet à compter du 15 février 2022 ou de sa date de notification au titulaire si elle est postérieure. Il est conclu pour une durée de 24 mois reconductible 1 fois par tacite reconduction pour une nouvelle période de 24 mois sans que sa durée ne puisse excéder 48 mois.\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Prestations supplémentaires éventuellesLe marché subséquent no1 conclu sur la base de l'accord-cadre comporte la prestation supplémentaire éventuelle facultative suivante : PSE1 : Accès aux parkings urbains et péri-urbains à péage du réseau du titulaire sur tout le territoire national avec la même carte accréditive.\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2022-01-17T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"6\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Les entreprises candidates se présentent soit individuellement, soit en groupement.La forme du groupement sera précisée par les candidats sur l'acte d'engagement ainsi que le nom de l'entreprise mandataire. Ces indications devront être cohérentes avec les informations contenues dans la lettre de candidature. Le mandataire pourra signer, seul, les candidatures et les offres, s'il joint à la candidature du groupement les habilitations nécessaires pour représenter l'ensemble des co-traitants au stade de la passation de l'accord-cadre.Il est interdit aux candidats de présenter pour l'accord-cadre plusieurs offres en agissant à la fois :- en qualité de candidats individuels et de membres d'un ou plusieurs groupements- en qualité de membres de plusieurs groupements.La sous-traitance est autorisée dans les conditions fixées au CCP. et au règlement de la consultation Les opérations sous traitées devront être identifiées dans le formulaire DC4 - déclaration de sous-traitance.\", \"CAP_ECO\": \"La \\\" lettre de candidature-désignation du mandataire par ses cotraitants \\\" dûment complétée, - DC1 (jointe au DCE) ou document de forme libre comportant les mêmes informations dont notamment l'attestation sur l'honneur prévue aux articles R2143-3 et R2143-16 du code de la commande publique ; La déclaration du candidat dûment complétée- DC2 (jointe au DCE) ou document de forme libre comportant les mêmes informations dont notamment : La déclaration concernant le chiffre d'affaires global et le chiffre d'affaires du domaine d'activité faisant l'objet du de l'accord-cadre, portant au maximum sur les trois derniers exercices disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles.\", \"CAP_TECH\": \"Une déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pendant les trois dernières années ; Une liste des principales livraisons effectuées ou des principaux services fournis au cours des trois dernières années.\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2022-01-17\", \"LIEU_OUVERTURE_OFFRES\": \"NANTES\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_OUI\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"RENS_COMPLEMENT\": \"Conformément aux dispositions des articles R2132-7 et R2132-8 du code de la commande publique, la présente consultation fait l'objet d'une procédure dématérialisée. Les communications et les échanges d'informations ont également lieu par voie électronique.Seul le dépôt d'une offre par voie électronique est autorisé.Conformément aux articles R2132-7 à R2132-14 du code de la commande publique, la présente consultation fait l'objet d'une procédure dématérialisée. Cette procédure permet aux candidats qui le souhaitent, via le site internet https://marchespublics.paysdelaloire.fr/ :- d'accéder à la \\\" plateforme \\\" de dématérialisation des procédures de marchés publics lancée par la Région Pays de la Loire ;- de télécharger gratuitement le règlement de la consultation et le dossier de consultation des entreprises ;- de poser des questions ou solliciter des documents complémentaires ;- de déposer leurs documents de candidature et d'offre par voieélectronique sur la plateforme, ce qui constituera \\\" une offre dématérialisée \\\".La signature électronique de l'acte d'engagement n'est pas obligatoire au stade de la remise de l'offre. Pour autant, dans un souci de simplification des démarches après attribution, il est conseillé aux soumissionnaires de signer électroniquement l'acte d'engagement dès la remise des offres. Il leur faudra également fournir une copie des pouvoirs donnant délégation de signature au signataire des documents.Les documents à produire sont définis à l'article 4.3 du règlement de la consultation.. Date d'envoi du présent avis au JOUE et au BOAMP : 10 décembre 2021.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé précontractuel : article L551-1 et suivants du code de justice administrativeRéféré contractuel : article L551-13 et suivants du code de justice administrative\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, Allée de l'Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"(+33) 2-55-10-10-02\", \"FAX\": \"(+33) 2-55-10-10-03\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Médiateur régional délégué Médiation des entreprises\", \"ADRESSE\": \"22 mail Pablo Picasso BP 24209\", \"CP\": \"44042\", \"VILLE\": \"Nantes cedex 1\", \"URL\": \"http://www.mediateur-des-entreprises.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, Allée de l'Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"(+33) 2-55-10-10-02\", \"FAX\": \"(+33) 2-55-10-10-03\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:21-162760"
   },
   {
    "idweb": "21-161842",
@@ -3605,6 +3605,65 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:21-163463"
   },
   {
+   "idweb": "21-164572",
+   "id": "21_164572",
+   "contractfolderid": null,
+   "objet": "ASSURANCE Risques statutaires",
+   "filename": "BOAMP-N-AO_2021_349011",
+   "famille": "FNS",
+   "code_departement": [
+    "49"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2021-12-15",
+   "datefindiffusion": "2022-01-07",
+   "datelimitereponse": "2022-01-07T11:00:00+00:00",
+   "nomacheteur": "MAINE LOIRE HABITAT OFFICE PUB HABITAT",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "20"
+   ],
+   "dc": [
+    "20"
+   ],
+   "descripteur_libelle": [
+    "Assurance"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"21-164572\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"21-164572.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2021-12-15\", \"DATE_LIMITE_REPONSE\": \"2022-01-07T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2022-01-07\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"20\", \"LIBELLE\": \"Assurance\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"ASSURANCE Risques statutaires\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"MAINE LOIRE HABITAT OFFICE PUB HABITAT\", \"CORRESPONDANT\": \"COLOBERT Laurent, Directeur général\", \"ADRESSE\": \"11 rue du Clon, CS 70146\", \"CP\": \"49001\", \"VILLE\": \"ANGERS\", \"TEL\": \"02-41-81-68-00\", \"MEL\": \"courrier.marches@mlhabitat.fr\", \"URL\": \"http://www.maineetloire-habitat.fr\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Construction de logements sociaux\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"ASSURANCE Risques statutaires\", \"CPV\": [{\"PRINCIPAL\": \"66512000\"}, {\"PRINCIPAL\": \"66510000\"}], \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG02\"}, \"AMP_NON\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"SERVICE D'ASSURANCE Risques statutaires\", \"QUANTITE\": \"ASSURANCE Risques statutaires\", \"OPTIONS\": {\"OUI\": \"\", \"DESCRIPTION\": \"Le marché comporte une clause de réexamen en application de l'article R.2194-1 du code de la commande publique\"}}, \"DUREE_DELAI\": {\"DATE_DEBUT\": \"2022-02-01\", \"DATE_FIN\": \"2023-12-31\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"35\", \"#text\": \"Qualité technique de l'offre\"}, {\"@POIDS\": \"35\", \"#text\": \"Qualité des prestations de gestion\"}, {\"@POIDS\": \"30\", \"#text\": \"Prix\"}]}}, \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2022-01-07T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"2\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"- Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire.- Formulaire DC1, Lettre de candidature _ Habilitation du mandataire par ses co-traitants.(disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat)- Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement.(disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat)\", \"CAP_ECO\": \"- Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles.- Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels\", \"CAP_TECH\": \"- Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années.- Présentation d'une liste des principales fournitures ou des principaux services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_OUI\": \"- Pour les assureurs : joindre les agréments ministériels nécessaires pour garantir les risques objet du marché.- Pour les intermédiaires : joindre attestation d'inscription auprès de l'ORIAS\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"1-21S0094\", \"DATE_OUVERTURE_OFFRES\": \"2022-01-07\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.marches-publics.infoLe dossier de consultation des entreprises peut être téléchargé au lien suivant : http://www.marches-publics.infoLe marché est passé selon la procédure adaptée prévue par les articles L2123-1, R2123-1 et R2123-4 à R2123-6 du Code de la commande publique.La consultation comporte des variantes imposées. Les variantes à l'initiative des candidats sont interdites.Il prendra effet au 1er février 2022 jusqu'au 31/12/2023.Le marché est financé par des fonds propres.Le dossier de consultation des entreprises peut être retiré au format papier auprès de la société SIGNAL'IMPRIM (21 rue René Rouchy - 49000 ANGERS - 02.41.44.41.41). Les entreprises devront envoyer leur demande par mail à l'adresse suivante : angers@signalimprim.fr. Le retrait du dossier est gratuit.Les entreprises devront envoyer leur demande par mail à l'adresse suivante : angers@signalimprim.fr. Le retrait du dossier est gratuit\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Les recours et délais d'introduction sont régis par les articles suivants :- Le référé précontractuel, jusqu'à la signature du contrat, régi par les articles L 551-1 à L 551-12, et R 551-1 à R 551-6 du code de justice administrative ;- Le référé contractuel, après la signature du contrat, régi par les articles L 551-13 à L 551-23, et R 551-7 à R 551-10 du code de justice administrative ;- Le recours de pleine juridiction en contestation de la validité du contrat ;- Le recours pour excès de pouvoir\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:21-164572"
+  },
+  {
    "idweb": "21-163129",
    "id": "21_163129",
    "contractfolderid": null,
@@ -3667,65 +3726,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"21-163129\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"21-126501\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2021-09-21\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2021-09-23\", \"DATE_FIN_DIFFUSION\": \"2021-10-22\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2021\", \"NUM_PARUTION\": \"186\", \"NUM_ANNONCE\": \"481660\", \"DATE_PUBLICATION\": \"2021-09-24\"}}]}}, \"NOM_HTML\": \"21-163129.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2021-12-15\", \"DATE_FIN_DIFFUSION\": \"2022-03-12\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"71\", \"LIBELLE\": \"Conteneur, poubelles\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Fourniture, livraison et pose de bornes d'apport volontaire aériennes, semi-enterrées et enterrées pour la collecte du verre\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"MAINE COEUR DE SARTHE\", \"CODE_IDENT_NATIONAL\": \"20006896300129\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"918 rue des Petites Forges, Za Les Petites Forges\", \"CP\": \"72380\", \"VILLE\": \"Joue L Abbe\", \"MEL\": \"correspondre@aws-france.com\", \"URL\": \"http://www.mainecoeurdesarthe.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.info/\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"autre\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture, livraison et pose de bornes d'apport volontaire aériennes, semi-enterrées et enterrées pour la collecte du verre\", \"REF_MARCHE\": \"21ff-0030-K\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"seconde procédure initiée après déclaration sans suite pour motif d'intérêt général de la précédentelieu d'exécution: ensemble du territoiregénie civil non inclus\", \"CPV\": {\"PRINCIPAL\": \"44613800\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"227270\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Fourniture, livraison de bornes d'apport volontaire aériennes\", \"DESCRIPTION\": \"variante concernant le matériau de fabrication des parois des colonnesmodèle de base en bois, variante en métal ou variante en bois/métalPse\", \"CPV\": {\"PRINCIPAL\": \"44613800\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"marché de prestations similaires\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Fourniture, livraison et pose de bornes d'apport volontaire semi-enterrées et enterrées\", \"DESCRIPTION\": \"génie civil non inclus\", \"CPV\": {\"PRINCIPAL\": \"44613800\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Valeur technique de l'offre\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"marché de prestations similaires\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2021\", \"NUM_PARUTION\": \"186\", \"NUM_ANNONCE\": \"481660\", \"DATE_PUBLICATION\": \"2021-09-24\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2021colverre01\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Fourniture, livraison de bornes d'apport volontaire aériennes\", \"TITULAIRE\": {\"DENOMINATION\": \"Biloba Environnement- Ecoba\", \"ADRESSE\": \"4 Chemin Du Lyonnais\", \"CP\": \"69720\", \"VILLE\": \"Saint-Bonnet-de-Mure\", \"CODE_NUTS\": \"FRK26\", \"PAYS\": \"FR\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2021-11-15\", \"NB_OFFRE_RECU\": \"3\", \"NB_OFFRE_RECU_PME\": \"3\", \"NB_OFFRE_RECU_ELECT\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"133520\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2021colverre02\", \"NUM_LOT\": \"2\", \"INTITULE\": \"Fourniture, livraison et pose de bornes d'apport volontaire semi-enterrées et enterrées\", \"TITULAIRE\": {\"DENOMINATION\": \"Biloba Environnement- Ecoba\", \"ADRESSE\": \"4 Chemin Du Lyonnais\", \"CP\": \"69720\", \"VILLE\": \"Saint-Bonnet-de-Mure\", \"CODE_NUTS\": \"FRK26\", \"PAYS\": \"FR\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2021-11-15\", \"NB_OFFRE_RECU\": \"5\", \"NB_OFFRE_RECU_PME\": \"4\", \"NB_OFFRE_RECU_ELECT\": \"5\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"93750\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 13 décembre 2021.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:21-163129"
-  },
-  {
-   "idweb": "21-164572",
-   "id": "21_164572",
-   "contractfolderid": null,
-   "objet": "ASSURANCE Risques statutaires",
-   "filename": "BOAMP-N-AO_2021_349011",
-   "famille": "FNS",
-   "code_departement": [
-    "49"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2021-12-15",
-   "datefindiffusion": "2022-01-07",
-   "datelimitereponse": "2022-01-07T11:00:00+00:00",
-   "nomacheteur": "MAINE LOIRE HABITAT OFFICE PUB HABITAT",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "20"
-   ],
-   "dc": [
-    "20"
-   ],
-   "descripteur_libelle": [
-    "Assurance"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"21-164572\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"21-164572.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2021-12-15\", \"DATE_LIMITE_REPONSE\": \"2022-01-07T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2022-01-07\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"20\", \"LIBELLE\": \"Assurance\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"ASSURANCE Risques statutaires\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"MAINE LOIRE HABITAT OFFICE PUB HABITAT\", \"CORRESPONDANT\": \"COLOBERT Laurent, Directeur général\", \"ADRESSE\": \"11 rue du Clon, CS 70146\", \"CP\": \"49001\", \"VILLE\": \"ANGERS\", \"TEL\": \"02-41-81-68-00\", \"MEL\": \"courrier.marches@mlhabitat.fr\", \"URL\": \"http://www.maineetloire-habitat.fr\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Construction de logements sociaux\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"ASSURANCE Risques statutaires\", \"CPV\": [{\"PRINCIPAL\": \"66512000\"}, {\"PRINCIPAL\": \"66510000\"}], \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG02\"}, \"AMP_NON\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"SERVICE D'ASSURANCE Risques statutaires\", \"QUANTITE\": \"ASSURANCE Risques statutaires\", \"OPTIONS\": {\"OUI\": \"\", \"DESCRIPTION\": \"Le marché comporte une clause de réexamen en application de l'article R.2194-1 du code de la commande publique\"}}, \"DUREE_DELAI\": {\"DATE_DEBUT\": \"2022-02-01\", \"DATE_FIN\": \"2023-12-31\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"35\", \"#text\": \"Qualité technique de l'offre\"}, {\"@POIDS\": \"35\", \"#text\": \"Qualité des prestations de gestion\"}, {\"@POIDS\": \"30\", \"#text\": \"Prix\"}]}}, \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2022-01-07T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"2\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"- Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire.- Formulaire DC1, Lettre de candidature _ Habilitation du mandataire par ses co-traitants.(disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat)- Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement.(disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat)\", \"CAP_ECO\": \"- Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles.- Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels\", \"CAP_TECH\": \"- Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années.- Présentation d'une liste des principales fournitures ou des principaux services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_OUI\": \"- Pour les assureurs : joindre les agréments ministériels nécessaires pour garantir les risques objet du marché.- Pour les intermédiaires : joindre attestation d'inscription auprès de l'ORIAS\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"1-21S0094\", \"DATE_OUVERTURE_OFFRES\": \"2022-01-07\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.marches-publics.infoLe dossier de consultation des entreprises peut être téléchargé au lien suivant : http://www.marches-publics.infoLe marché est passé selon la procédure adaptée prévue par les articles L2123-1, R2123-1 et R2123-4 à R2123-6 du Code de la commande publique.La consultation comporte des variantes imposées. Les variantes à l'initiative des candidats sont interdites.Il prendra effet au 1er février 2022 jusqu'au 31/12/2023.Le marché est financé par des fonds propres.Le dossier de consultation des entreprises peut être retiré au format papier auprès de la société SIGNAL'IMPRIM (21 rue René Rouchy - 49000 ANGERS - 02.41.44.41.41). Les entreprises devront envoyer leur demande par mail à l'adresse suivante : angers@signalimprim.fr. Le retrait du dossier est gratuit.Les entreprises devront envoyer leur demande par mail à l'adresse suivante : angers@signalimprim.fr. Le retrait du dossier est gratuit\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Les recours et délais d'introduction sont régis par les articles suivants :- Le référé précontractuel, jusqu'à la signature du contrat, régi par les articles L 551-1 à L 551-12, et R 551-1 à R 551-6 du code de justice administrative ;- Le référé contractuel, après la signature du contrat, régi par les articles L 551-13 à L 551-23, et R 551-7 à R 551-10 du code de justice administrative ;- Le recours de pleine juridiction en contestation de la validité du contrat ;- Le recours pour excès de pouvoir\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:21-164572"
   },
   {
    "idweb": "21-164578",
@@ -5149,65 +5149,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:21-164596"
   },
   {
-   "idweb": "21-164559",
-   "id": "21_164559",
-   "contractfolderid": null,
-   "objet": "accord-cadre en vue des prestations de transport d'oeuvres et d'objets d'art pour les services de nantes métropole et de la ville de nantes",
-   "filename": "BOAMP-J-AO_2021_351009",
-   "famille": "JOUE",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2021-12-17",
-   "datefindiffusion": "2022-01-19",
-   "datelimitereponse": null,
-   "nomacheteur": "Nantes Métropole",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "230"
-   ],
-   "dc": [
-    "230"
-   ],
-   "descripteur_libelle": [
-    "Mobilier"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"21-164559\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"21-164559.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2021-12-17\", \"DATE_FIN_DIFFUSION\": \"2022-01-19\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"230\", \"LIBELLE\": \"Mobilier\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"accord-cadre en vue des prestations de transport d'oeuvres et d'objets d'art pour les services de nantes métropole et de la ville de nantes\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Nantes Métropole\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"2 cours du champs de Mars\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-55-10-10-02\", \"MEL\": \"seraphin.mankabou@nantesmetropole.fr\", \"URL\": \"https://metropole.nantes.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.nantesmetropole.fr\", \"URL_PARTICIPATION\": \"https://marchespublics.nantesmetropole.fr\", \"URL_DOCUMENT\": \"https://marchespublics.nantesmetropole.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Accord-cadre en vue des prestations de transport doeuvres et dobjets dart pour les services de Nantes Métropole et de la Ville de Nantes\", \"REF_MARCHE\": \"2021-2416\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"La présente consultation porte sur des prestations de transport duvres et dobjets dart pour lesservices de Nantes Métropole et de la Ville de Nantes.Les prestations de déménagements et transport autre que les objets et oeuvres d'art en sont exclues.\", \"CPV\": {\"PRINCIPAL\": \"60000000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"3500000\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"La présente consultation porte sur des prestations de transport duvres et dobjets dart pour les services de Nantes Métropole et de la Ville de Nantes.Les prestations de déménagements et transport autre que les objets et uvres d'art en sont exclues.\", \"CPV\": {\"PRINCIPAL\": \"60000000\"}, \"CODE_NUTS\": \"FRG01\", \"LIEU_PRINCIPAL\": \"Nantes Métropole\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"3500000\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ACCORD_CADRE\": {\"PLUSIEURS_OPERATEURS\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2022-01-19T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"5\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Formulaire DC1* (Lettre de candidature), que la candidature soit présentée à titre individuel ou en groupement\", \"CAP_ECO_MARCHE_OUI\": \"\", \"CAP_TECH_OFFRE_OUI\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_OUI\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2022-01-19\", \"LIEU_OUVERTURE_OFFRES\": \"Nantes\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_NON\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 15 décembre 2021.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette - B.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-55-10-10-02\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette - B.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-55-10-10-02\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:21-164559"
-  },
-  {
    "idweb": "21-165904",
    "id": "21_165904",
    "contractfolderid": null,
@@ -5277,6 +5218,65 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"21-165904\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"21-165904.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2021-12-17\", \"DATE_LIMITE_REPONSE\": \"2022-02-09T10:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2022-02-09\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"18\", \"LIBELLE\": \"Assainissement\"}, {\"CODE\": \"48\", \"LIBELLE\": \"Canalisations\"}, {\"CODE\": \"331\", \"LIBELLE\": \"Surveillance\"}, {\"CODE\": \"352\", \"LIBELLE\": \"Télégestion\"}, {\"CODE\": \"415\", \"LIBELLE\": \"Télésurveillance\"}]}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Autosurveillance du système d'assainissement de Mauges Communauté - Programme 2022\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"MAUGES COMMUNAUTE\", \"CORRESPONDANT\": \"GRENOUILLEAU Guillaume\", \"ADRESSE\": \"1 rue Robert Schuman\", \"CP\": \"49600\", \"VILLE\": \"Beaupréau-en-mauges\", \"TEL\": \"02-41-71-77-10\", \"MEL\": \"fcp@maugescommunaute.fr\", \"URL\": \"http://maugescommunaute.e-marchespublics.com\", \"URL_PROFIL_ACHETEUR\": \"http://maugescommunaute.e-marchespublics.com\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"ENTITE_ADJUDICATRICE\": {\"EAU\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"Autosurveillance du système d'assainissement de Mauges Communauté - Programme 2022\", \"CPV\": {\"PRINCIPAL\": \"45232410\"}, \"AMP_NON\": \"\", \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"QUANTITE\": \"Autosurveillance du système d'assainissement de Mauges Communauté - Programme 2022\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Orée-d'Anjou - Montrevault-sur-Èvre - Mauges-sur-Loire\", \"DESCRIPTION\": \"Les travaux prévus dans le cadre du programme 2022 d'autosurveillance du système d'assainissement consistent à mettre en conformité les dispositifs d'autosurveillance sur les réseaux Eaux Usées (EU) et Unitaires (U) et les stations d'épurations (STEP), tel qu'exigé par la règlementation.Les ouvrages et équipements seront réalisés sur le territoire de MAUGES COMMUNAUTE (49).Les travaux sont répartis de la façon suivante :- Lot no1 : OREE-D'ANJOU, MONTREVAULT-SUR-EVRE et MAUGES-SUR-LOIRE,- Lot no2 : SEVREMOINE, BEAUPREAU-EN-MAUGES et CHEMILLE-EN-ANJOU.Les projets comprennent les terrassements, les soutènements, les épuisements, les fondations, le génie civil, les équipements hydrauliques, les canalisations gravitaire et pression, les ouvrages hydrauliques associés et les raccordements hydrauliques, l'instrumentation, les équipements électriques, électromécaniques, d'automatisme et de communication ainsi que la remise en état des parcelles des sites.\", \"CPV\": {\"PRINCIPAL\": \"45232410\"}}, {\"NUM\": \"2\", \"INTITULE\": \"Sèvremoine, Beaupréau-en-Mauges et Chemillé-en-Anjou\", \"DESCRIPTION\": \"Les travaux prévus dans le cadre du programme 2022 d'autosurveillance du système d'assainissement consistent à mettre en conformité les dispositifs d'autosurveillance sur les réseaux Eaux Usées (EU) et Unitaires (U) et les stations d'épurations (STEP), tel qu'exigé par la règlementation.Les ouvrages et équipements seront réalisés sur le territoire de MAUGES COMMUNAUTE (49).Les travaux sont répartis de la façon suivante :- Lot no1 : OREE-D'ANJOU, MONTREVAULT-SUR-EVRE et MAUGES-SUR-LOIRE,- Lot no2 : SEVREMOINE, BEAUPREAU-EN-MAUGES et CHEMILLE-EN-ANJOU.Les projets comprennent les terrassements, les soutènements, les épuisements, les fondations, le génie civil, les équipements hydrauliques, les canalisations gravitaire et pression, les ouvrages hydrauliques associés et les raccordements hydrauliques, l'instrumentation, les équipements électriques, électromécaniques, d'automatisme et de communication ainsi que la remise en état des parcelles des sites.\", \"CPV\": {\"PRINCIPAL\": \"45232410\"}}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2022-02-09T10:00:00+01:00\"}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire obligatoirement par le candidat, à l'appui de sa candidature\", \"Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire\", \"Déclaration sur l'honneur du candidat justifiant qu'il n'entre dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles 45 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 ou, pour les marchés publics de défense ou de sécurité, qu'il n'entre dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles 45 ,46 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 (si cette déclaration n'est pas déjà demandée dans le cadre du formulaire DC1, ci-après)\", \"Déclaration sur l'honneur du candidat attestant qu'il est en règle, au cours de l'année précédant celle au cours de laquelle a lieu le lancement de la consultation, au regard des articles L. 5212-1, L. 5212-2, L. 5212 5 et L. 5212-9 du code du travail, concernant l'emploi des travailleurs handicapés\", \"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels\", \"Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années\", \"Présentation d'une liste des travaux exécutés au cours des cinq dernières années, appuyée d'attestations de bonne exécution pour les travaux les plus importants. Ces attestations indiquent le montant, l'époque et le lieu d'exécution des travaux et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin\", \"Indication des titres d'études et professionnels de l'opérateur économique\", \"Indication des titres d'études et professionnels des cadres de l'entreprise et notamment des responsables de prestation de services ou de conduite des travaux de même nature que celle du marché\", \"Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation de marchés de même nature\", \"Certificats de qualifications professionnelles. La preuve de la capacité du candidat peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de travaux attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat\", \"- Les qualifications FNTP suivantes (ou équivalentes) sont exigées :- 5143 : Construction de réseaux gravitaires en site urbanisé à une profondeur de tranchée â¤ 3.50 m en présence de nappe phréatique ou 3.50 m < profondeur de tranchée â¤ 5.50 m hors nappe phréatique,- 5193 : Construction de canalisations de refoulement d'eaux usées (en site urbanisé ou non urbanisé) établis en canalisations de DN â¤ 100 mm,- 5422 : Equipement des stations de pompage, refoulement, relèvement Eaux Usées de stations d'un débit < 250 m3/h.- 633 : Alimentation BT et automatismes,- 6341 : Supervision,- 6342 : Télégestion,- 6343 : Télésurveillance\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC4, Déclaration de sous-traitance (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"S'il s'appuie, pour présenter sa candidature, sur les capacités professionnelles, techniques et financières d'autres opérateurs économiques, le candidat produit les mêmes documents concernant cet opérateur économique que ceux qui lui sont exigés par l'acheteur public. Le candidat doit également apporter la preuve que chacun de ces opérateurs économiques mettra à sa disposition les moyens nécessaires, pendant toute la durée d'exécution du marché public ou de l'accord-cadre\", \"Si les documents fournis par le candidat ne sont pas établis en langue française, ils doivent être accompagnés d'une traduction en français, certifiée conforme à l'original par un traducteur assermenté\", \"Les pièces prévues aux articles D. 8222-5 ou D. 8222-7 et D. 8222-8 du code du travail\", \"Si l'attributaire est établi en France, les attestations et certificats délivrés par les administrations et organismes compétents prouvant qu'il a satisfait à ses obligations fiscales et sociales ou un état annuel des certificats reçus\", \"Si l'attributaire est établi dans un Etat autre que la France, un certificat établi par les administrations et organismes du pays d'origine. Lorsqu'un tel certificat n'est pas délivré par le pays concerné, il peut être remplacé par une déclaration sous serment, ou dans les Etats où un tel serment n'existe pas, par une déclaration solennelle faite par l'intéressé devant l'autorité judiciaire ou administrative compétente, un notaire ou un organisme professionnel qualifié du pays\", \"Si les documents fournis par le candidat ne sont pas établis en langue française, ils doivent être accompagnés d'une traduction en français, certifiée conforme à l'original par un traducteur assermenté\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"202133-457-L01/L02\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette - CS 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\"}}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:21-165904"
+  },
+  {
+   "idweb": "21-164559",
+   "id": "21_164559",
+   "contractfolderid": null,
+   "objet": "accord-cadre en vue des prestations de transport d'oeuvres et d'objets d'art pour les services de nantes métropole et de la ville de nantes",
+   "filename": "BOAMP-J-AO_2021_351009",
+   "famille": "JOUE",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2021-12-17",
+   "datefindiffusion": "2022-01-19",
+   "datelimitereponse": null,
+   "nomacheteur": "Nantes Métropole",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "230"
+   ],
+   "dc": [
+    "230"
+   ],
+   "descripteur_libelle": [
+    "Mobilier"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"21-164559\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"21-164559.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2021-12-17\", \"DATE_FIN_DIFFUSION\": \"2022-01-19\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"230\", \"LIBELLE\": \"Mobilier\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"accord-cadre en vue des prestations de transport d'oeuvres et d'objets d'art pour les services de nantes métropole et de la ville de nantes\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Nantes Métropole\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"2 cours du champs de Mars\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-55-10-10-02\", \"MEL\": \"seraphin.mankabou@nantesmetropole.fr\", \"URL\": \"https://metropole.nantes.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.nantesmetropole.fr\", \"URL_PARTICIPATION\": \"https://marchespublics.nantesmetropole.fr\", \"URL_DOCUMENT\": \"https://marchespublics.nantesmetropole.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Accord-cadre en vue des prestations de transport doeuvres et dobjets dart pour les services de Nantes Métropole et de la Ville de Nantes\", \"REF_MARCHE\": \"2021-2416\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"La présente consultation porte sur des prestations de transport duvres et dobjets dart pour lesservices de Nantes Métropole et de la Ville de Nantes.Les prestations de déménagements et transport autre que les objets et oeuvres d'art en sont exclues.\", \"CPV\": {\"PRINCIPAL\": \"60000000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"3500000\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"La présente consultation porte sur des prestations de transport duvres et dobjets dart pour les services de Nantes Métropole et de la Ville de Nantes.Les prestations de déménagements et transport autre que les objets et uvres d'art en sont exclues.\", \"CPV\": {\"PRINCIPAL\": \"60000000\"}, \"CODE_NUTS\": \"FRG01\", \"LIEU_PRINCIPAL\": \"Nantes Métropole\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"3500000\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ACCORD_CADRE\": {\"PLUSIEURS_OPERATEURS\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2022-01-19T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"5\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Formulaire DC1* (Lettre de candidature), que la candidature soit présentée à titre individuel ou en groupement\", \"CAP_ECO_MARCHE_OUI\": \"\", \"CAP_TECH_OFFRE_OUI\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_OUI\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2022-01-19\", \"LIEU_OUVERTURE_OFFRES\": \"Nantes\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_NON\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 15 décembre 2021.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette - B.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-55-10-10-02\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette - B.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-55-10-10-02\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:21-164559"
   },
   {
    "idweb": "21-164997",

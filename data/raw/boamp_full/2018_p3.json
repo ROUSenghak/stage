@@ -622,6 +622,66 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-10231"
   },
   {
+   "idweb": "18-9170",
+   "id": "18_9170",
+   "contractfolderid": null,
+   "objet": "fourniture et maintenance de logiciels métiers",
+   "filename": "BOAMP-J-AO_2018_024003",
+   "famille": "JOUE",
+   "code_departement": [
+    "85",
+    "79"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-01-24",
+   "datefindiffusion": "2018-02-19",
+   "datelimitereponse": null,
+   "nomacheteur": "Communauté Communes La Chataigneraie",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": "1",
+   "marche_public_simplifie_label": "Marché public simplifié",
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "186"
+   ],
+   "dc": [
+    "186"
+   ],
+   "descripteur_libelle": [
+    "Logiciel"
+   ],
+   "type_marche": [
+    "FOURNITURES"
+   ],
+   "type_marche_facette": [
+    "Fournitures"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-9170\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-9170.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-24\", \"DATE_FIN_DIFFUSION\": \"2018-02-19\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"186\", \"LIBELLE\": \"Logiciel\"}}, \"DEP_PUBLICATION\": [\"85\", \"79\"], \"RESUME_OBJET\": \"fourniture et maintenance de logiciels métiers\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Communauté Communes La Chataigneraie\", \"ADJUDICATEUR_NUTS\": \"FRG0\", \"CP\": \"85120\", \"VILLE\": \"La Châtaigneraie\", \"TEL\": \"(+33) 2-51-69-61-43\", \"MEL\": \"juridique@ccplc.fr\", \"URL\": \"http://www.pays-chataigneraie.fr/\", \"URL_PARTICIPATION\": \"https://www.marches-securises.fr/\", \"URL_DOCUMENT\": \"https://www.marches-securises.fr/\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture et maintenance de logiciels métiers\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Fourniture de logiciels métiers commerciaux standards ainsi que leur tierce maintenance applicative,pour l'ensemble des utilisateurs du territoire du Pays de La Châtaigneraie\", \"CPV\": {\"PRINCIPAL\": \"48000000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"221000\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Logiciels finances, ressources humaines, administrés\", \"DESCRIPTION\": \"Fourniture et maintenance de logiciels métiers pour administration publique : finances, ressources humaines et administrés (état civil, élections, etc...)\", \"CPV\": [{\"PRINCIPAL\": \"48443000\"}, {\"PRINCIPAL\": \"48219300\"}], \"CODE_NUTS\": \"FRG\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"40\", \"#text\": \"Valeur technique\"}}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Coût global d'utilisation\"}}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"221000\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_OUI\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Fourniture et maintenance logiciel en SaaS (Software as a Service)\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Logiciel enfance\", \"DESCRIPTION\": \"Fourniture et maintenance d'un logiciel pour la gestion du service enfance (accueil périscolaire et de loisirs, transport scolaire, restauration, gestion d'un relais d'assistants maternels)\", \"CPV\": [{\"PRINCIPAL\": \"48000000\"}, {\"PRINCIPAL\": \"85312110\"}, {\"PRINCIPAL\": \"92331210\"}], \"CODE_NUTS\": \"FRG\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"40\", \"#text\": \"Valeur technique\"}}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Coût global d'utilisation\"}}}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_OUI\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Fourniture et maintenance logiciel en SaaS (Software as a Service)\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-02-19T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"6\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO_MARCHE_OUI\": \"\", \"CAP_TECH_OFFRE_OUI\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-02-19\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 22 janvier 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Communauté de Communes du Pays de La Châtaigneraie\", \"CP\": \"85120\", \"VILLE\": \"La TARDIERE\", \"CODE_NUTS\": \"FRG0\", \"MEL\": \"juridique@ccplc.fr\", \"URL\": \"http://www.pays-chataigneraie.fr/\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"VILLE\": \"Nantes\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-9170"
+  },
+  {
    "idweb": "18-8172",
    "id": "18_8172",
    "contractfolderid": null,
@@ -755,66 +815,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-9736\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-105440\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-07-21\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-07-23\", \"DATE_FIN_DIFFUSION\": \"2017-10-03\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"141\", \"NUM_ANNONCE\": \"289963\", \"DATE_PUBLICATION\": \"2017-07-26\"}}]}}, \"NOM_HTML\": \"18-9736.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-24\", \"DATE_FIN_DIFFUSION\": \"2018-03-22\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"163\", \"LIBELLE\": \"Informatique (prestations de services)\"}, {\"CODE\": \"454\", \"LIBELLE\": \"Informatique (maintenance serveurs et réseaux)\"}]}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Fourniture, installation et maintenance des équipements des réseaux informatique et téléphonique\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Conseil départemental Loire-Atlantique\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"3, Quai Ceineray CS 94109\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-10-00\", \"FAX\": \"(+33) 2-40-99-11-48\", \"MEL\": \"contact@loire-atlantique.fr\", \"URL\": \"http://www.loire-atlantique.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marches.loire-atlantique.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture, installation et maintenance des équipements des réseaux informatique et téléphonique\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Le présent contrat concerne les fourniture, installation, maintenance des équipements de réseaux informatique et téléphonique. Pour les sites, établissements et collèges départementaux. Il s'agit du lot no2 de l'appel d'offres ouvert pour le câblage voix, données, image des bâtiments et les fourniture, installation, maintenance des équipements de réseaux informatique et téléphonique.\", \"CPV\": {\"PRINCIPAL\": \"45314000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"4800000\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Le présent contrat concerne les fourniture, installation, maintenance des équipements de réseaux informatique et téléphonique. pour les sites, établissements et collèges départementaux. Il s'agit du lot no2 de l'appel d'offres ouvert pour le câblage voix, données, image des bâtiments et les fourniture, installation, maintenance des équipements de réseaux informatique et téléphonique.\", \"CPV\": {\"PRINCIPAL\": \"45314000\"}, \"CODE_NUTS\": \"FRG01\", \"LIEU_PRINCIPAL\": \"Loire-Atlantique 44000 NANTES\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"Valeur technique\"}, {\"@POIDS\": \"5\", \"#text\": \"Responsabilité sociale de l'entreprise\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"35\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2017\", \"NUM_PARUTION\": \"141\", \"NUM_ANNONCE\": \"289963\", \"DATE_PUBLICATION\": \"2017-07-26\"}}}, \"ATTRIBUTION\": {\"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"HAEB00\", \"INTITULE\": \"Fourniture, installation et maintenance des équipements des réseaux informatique et téléphonique\", \"TITULAIRE\": {\"DENOMINATION\": \"Société RETIS COMMUNICATION\", \"ADRESSE\": \"espace Jacques cartier - BP 37\", \"CP\": \"35360\", \"VILLE\": \"Montauban de Bretagne\", \"CODE_NUTS\": \"FRH03\", \"TEL\": \"(+33) 2-99-06-61-61\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-19\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"4800000.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La consultation du(des) contrat(s) peut être effectuée à l'adresse de l'organisme acheteur. Les tiers justifiant d'un intérêt lésé peuvent exercer un recours de pleine juridiction devant le juge administratif dans un délai de deux mois à compter de la publication du présent avis. Dans le respect des secrets protégés par la loi, les pièces du marché peuvent être consultées sur rendez-vous auprès de Mme PERCHER Charlotte, 02.40.99.16.51 (charlotte.PERCHER@loire-atlantique.fr) à l'adresse suivante : Immeuble Sully 2  11, rue Henri Cochard - 44000 NANTES.. Date d'envoi du présent avis au JOUE et au BOAMP : 22 janvier 2018.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé pré-contractuel prévu aux articles L.551-1 à L.551-12 du Code de justice administrative (CJA), et pouvant etre exercé avant la signature du contrat. Référé contractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant etre exercé dans les délais prévus à l'article R. 551-7 du CJA. Recours pour excès de pouvoir contre une décision administrative prévu aux articles R. 421-1 à R. 421-7 du CJA, et pouvant etre exercé dans les 2 mois suivant la notification ou publication de la décision de l'organisme (le recours ne peut plus, toutefois, etre exercé après la signature du contrat). Recours de pleine juridiction ouvert aux tiers justifiant d'un intéret lésé, et pouvant etre exercé dans les deux mois suivant la date à laquelle la conclusion du contrat est rendue publique.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette Cedex 1 BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr/\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité de règlement amiable\", \"ADRESSE\": \"22, Mail Pablo Picasso Cedex 01\", \"CP\": \"44042\", \"VILLE\": \"NANTES\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-9736"
-  },
-  {
-   "idweb": "18-9170",
-   "id": "18_9170",
-   "contractfolderid": null,
-   "objet": "fourniture et maintenance de logiciels métiers",
-   "filename": "BOAMP-J-AO_2018_024003",
-   "famille": "JOUE",
-   "code_departement": [
-    "85",
-    "79"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-01-24",
-   "datefindiffusion": "2018-02-19",
-   "datelimitereponse": null,
-   "nomacheteur": "Communauté Communes La Chataigneraie",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": "1",
-   "marche_public_simplifie_label": "Marché public simplifié",
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "186"
-   ],
-   "dc": [
-    "186"
-   ],
-   "descripteur_libelle": [
-    "Logiciel"
-   ],
-   "type_marche": [
-    "FOURNITURES"
-   ],
-   "type_marche_facette": [
-    "Fournitures"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-9170\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-9170.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-24\", \"DATE_FIN_DIFFUSION\": \"2018-02-19\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"186\", \"LIBELLE\": \"Logiciel\"}}, \"DEP_PUBLICATION\": [\"85\", \"79\"], \"RESUME_OBJET\": \"fourniture et maintenance de logiciels métiers\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Communauté Communes La Chataigneraie\", \"ADJUDICATEUR_NUTS\": \"FRG0\", \"CP\": \"85120\", \"VILLE\": \"La Châtaigneraie\", \"TEL\": \"(+33) 2-51-69-61-43\", \"MEL\": \"juridique@ccplc.fr\", \"URL\": \"http://www.pays-chataigneraie.fr/\", \"URL_PARTICIPATION\": \"https://www.marches-securises.fr/\", \"URL_DOCUMENT\": \"https://www.marches-securises.fr/\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture et maintenance de logiciels métiers\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Fourniture de logiciels métiers commerciaux standards ainsi que leur tierce maintenance applicative,pour l'ensemble des utilisateurs du territoire du Pays de La Châtaigneraie\", \"CPV\": {\"PRINCIPAL\": \"48000000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"221000\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Logiciels finances, ressources humaines, administrés\", \"DESCRIPTION\": \"Fourniture et maintenance de logiciels métiers pour administration publique : finances, ressources humaines et administrés (état civil, élections, etc...)\", \"CPV\": [{\"PRINCIPAL\": \"48443000\"}, {\"PRINCIPAL\": \"48219300\"}], \"CODE_NUTS\": \"FRG\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"40\", \"#text\": \"Valeur technique\"}}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Coût global d'utilisation\"}}}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"221000\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_OUI\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Fourniture et maintenance logiciel en SaaS (Software as a Service)\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Logiciel enfance\", \"DESCRIPTION\": \"Fourniture et maintenance d'un logiciel pour la gestion du service enfance (accueil périscolaire et de loisirs, transport scolaire, restauration, gestion d'un relais d'assistants maternels)\", \"CPV\": [{\"PRINCIPAL\": \"48000000\"}, {\"PRINCIPAL\": \"85312110\"}, {\"PRINCIPAL\": \"92331210\"}], \"CODE_NUTS\": \"FRG\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"40\", \"#text\": \"Valeur technique\"}}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Coût global d'utilisation\"}}}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_OUI\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Fourniture et maintenance logiciel en SaaS (Software as a Service)\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-02-19T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"6\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO_MARCHE_OUI\": \"\", \"CAP_TECH_OFFRE_OUI\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-02-19\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 22 janvier 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Communauté de Communes du Pays de La Châtaigneraie\", \"CP\": \"85120\", \"VILLE\": \"La TARDIERE\", \"CODE_NUTS\": \"FRG0\", \"MEL\": \"juridique@ccplc.fr\", \"URL\": \"http://www.pays-chataigneraie.fr/\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"VILLE\": \"Nantes\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-9170"
   },
   {
    "idweb": "18-9622",
@@ -2100,68 +2100,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-11543"
   },
   {
-   "idweb": "18-12108",
-   "id": "18_12108",
-   "contractfolderid": null,
-   "objet": "MISSIONS DE PREVENTION, SURVEILLANCE ET DE GARDIENNAGE DE DIFFERENTS SITES",
-   "filename": "BOAMP-N-AO_2018_026004",
-   "famille": "FNS",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2018-01-26",
-   "datefindiffusion": "2018-02-26",
-   "datelimitereponse": "2018-02-26T15:00:00+00:00",
-   "nomacheteur": "Ville de Le Pouliguen",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "138",
-    "331"
-   ],
-   "dc": [
-    "138",
-    "331"
-   ],
-   "descripteur_libelle": [
-    "Gardiennage",
-    "Surveillance"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-12108\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-12108.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-26\", \"DATE_LIMITE_REPONSE\": \"2018-02-26T16:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-02-26\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"138\", \"LIBELLE\": \"Gardiennage\"}, {\"CODE\": \"331\", \"LIBELLE\": \"Surveillance\"}]}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"MISSIONS DE PREVENTION, SURVEILLANCE ET DE GARDIENNAGE DE DIFFERENTS SITES\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Le Pouliguen\", \"CORRESPONDANT\": \"Monsieur le Maire\", \"ADRESSE\": \"Ville de LE POULIGUEN Hôtel de Ville 17, rue Jules Benoît BP 122\", \"CP\": \"44510\", \"VILLE\": \"LE POULIGUEN\", \"TEL\": \"(+33) 2-40-15-08-07\", \"FAX\": \"(+33) 2-40-62-27-79\", \"MEL\": \"marchespublics@mairie-lepouliguen.fr\", \"URL\": \"https://marchespublics-le-pouliguen.omnikles.com\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"27\"}, \"OBJET_COMPLET\": \"MISSIONS DE PREVENTION, SURVEILLANCE ET DE GARDIENNAGE DE DIFFERENTS SITES\", \"CPV\": {\"PRINCIPAL\": \"79714000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"*, CAMPINGS MUNICIPAUX, BOIS, PROMENADE ET PLAGE\", \"VILLE\": \"*\", \"CODE_NUTS\": \"FRG01\"}, \"AMP_NON\": \"\", \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"MISSIONS DE PREVENTION, SURVEILLANCE ET DE GARDIENNAGE DE DIFFERENTS SITES\", \"QUANTITE\": \"MISSIONS DE PREVENTION, SURVEILLANCE ET DE GARDIENNAGE DE DIFFERENTS SITES\", \"OPTIONS\": {\"OUI\": \"\"}, \"RECONDUCTIONS\": {\"NB_RECONDUCTIONS\": \"3\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"12\", \"DATE_EXECUTION\": \"2018-06-30\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"70\", \"#text\": \"Valeur technique : - L'effectif de l'entreprise (10 points) - - Qualification des agents et formations (15 points) - - Contrôle interne des agents sur le terrain (15 points) - - Moyens matériels confiés aux agents (15 points) - - Capacité à remplacer un agent défaillant (15 points)\"}, {\"@POIDS\": \"30\", \"#text\": \"Prix des prestations\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-02-26T16:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Sûreté : Sans objet\", \"FINANCEMENT\": \"Mode de financement : Fonds propres de la Commune..- Mode de paiement : Virement bancaire (Mandat administratif).- Délai de paiement : 30 jours\", \"FORME_JURIDIQUE\": \"Pas de forme imposée\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"Capacités économiques et financières- Capacités techniques et professionnelles- Références\", \"MARCHE_RESERVE_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Autres renseignements demandés\", \"=== Candidature ===\", \"Autres renseignements demandés\", \"En vertu des articles 45, 48 et 51 de l'ordonnance du 23/07/2015 et des articles 44, 48 à 50 du décret no 2016-360 du 25/03/2016 relatif aux marchés publics, le candidat individuel, ou chaque membre du groupement, produit à l'appui de sa candidature\", \"Autres renseignements demandés\", \"Fiches de synthèse (cadre joint à compléter) reprenant la composition de l'équipe constituée et précisant, pour chaque compétence, l'entité en charge de cette dernière\", \"Autres renseignements demandés\", \"1 - Pièces juridiques :1-1 Déclaration sur l'honneur signée pour justifier que le candidat n'entre dans aucun des cas d'interdictions de soumissionner mentionnés aux articles 45 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 relative aux marchés publics, 1-2 Déclaration sur l'honneur signée pour justifier que le candidat qu'il est en règle au regard des articles L 5212-1 à L 5212-11 du code du travail concernant l'emploi des travailleurs handicapés,1-3 Déclaration sur l'honneur, datée et signée, certifiant que le candidat a souscrit les déclarations lui incombant en matière fiscale et sociale et acquitté les impôts et contributions ou cotisations exigibles dont la liste est fixée par l'arrêté du 25 mai 2016, et qu'il a bien effectué le paiement des impôts et cotisations exigibles au 31 décembre de l'année précédant l'année de la consultation ou certificats fiscaux ou sociaux à jour ;1-4 Extrait K bis ou document équivalent de - de 3 mois à la date de remise de l'offre,1-5 La copie du ou des jugements prononcés, si le candidat est en redressement judiciaire,\", \"Autres renseignements demandés\", \"2 - Les documents et renseignements suivants aux fins de vérification, de la capacité économique et financière et des capacités techniques et professionnelles du candidat individuel, ou de chaque membre du groupement (cf. Arrêté du 29 mars 2016 fixant la liste des renseignements et des documents pouvant être demandés aux candidats aux marchés publics) :2-1 Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du contrat, réalisés au cours des 3 derniers exercices disponibles,2-2 Déclarations appropriées de banques ou, le cas échéant, preuve d'une assurance des risques professionnels pertinents,2-3 Liste des prestations exécutées au cours des 5 dernières années, assorties d'attestations de bonne exécution pour les plus importantes (indiquant le montant, l'époque, le lieu d'exécution, et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin),2-4 Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des 3 dernières années,2-5 Description de l'outillage, du matériel, de l'équipement technique ainsi que des mesures employées par le candidat pour s'assurer de la qualité et les moyens d'étude et de recherche de son entreprise pour la réalisation de marché public de même nature,2-6 Certificats de qualification professionnelle établis par des organismes indépendants,\", \"Autres renseignements demandés\", \"Pour présenter leur candidature, les candidats peuvent utiliser les formulaires DC1 (lettre de candidature et désignation du mandataire par ses cotraitants) et formulaire DC2 (déclaration du candidat individuel ou du membre du groupement) dûment complétés, datés et signés par la personne habilitée par un pouvoir joint. Ces documents (dernière version) sont disponibles gratuitement sur le site internet du ministère de l'économie, des finances et de l'industrie : http://www.economie.gouv.fr/daj/formulaires\", \"Autres renseignements demandés\", \"L'offre, qu'elle soit présentée par une seule entreprise ou par un groupement, devra indiquer tous les sous-traitants connus lors de son dépôt. Elle devra également indiquer les prestations dont la sous-traitance est envisagée, la dénomination et la qualité des sous-traitants sur l'imprimé DC4 disponible gratuitement sur le site internet du ministère de l'économie, des finances et de l'industrie : http://www.economie.gouv.fr/daj/formulaires\", \"Autres renseignements demandés\", \"3 - En vertu de l'article 51 du décret no 2016-360 du 25/03/2016 relatif aux marchés publics, le candidat auquel il est envisagé d'attribuer le marché produit dans un délai de 7 jours calendaires à compter de la réception de la demande écrite qui lui sera fait par le pouvoir adjudicateur, les documents justificatifs et moyens de preuve suivants entièrement rédigés en langue française (ou accompagnée d'une traduction en français si les documents sont rédigés dans une autre langue\", \"Autres renseignements demandés\", \"A - Pour permettre au pouvoir adjudicateur de vérifier que le soumissionnaire ne se trouve pas dans un cas d'interdiction de soumissionner :- les certificats délivrés par les administrations et organismes compétents justifiant que le soumissionnaire est à jour de ses obligations (déclarations et paiements) en matière fiscales et sociales conformément au 2° de l'article 45 de l'ordonnance no 2015-899 du 23 juillet 2015 ;- un extrait du registre pertinent (registre du commerce ou répertoire des métiers), tel qu'un extrait K, un extrait Kbis, ou un extrait D1 de mois de 3 moins à la date de remise des offres, attestant que le soumissionnaire ne se trouve pas dans un cas d'interdiction de soumissionner mentionné au 3° de l'article 45 de l'ordonnance no 2015-899 du 23 juillet 2015. Lorsque le soumissionnaire est en redressement judiciaire il produit la copie du ou des jugements prononcés.Les candidats établis à l'étranger produisent les éléments conformément aux dispositions des articles 51-1, 51-II, 51-IV et 51-V du Décret no 2016-360 du 25 mars 2016\", \"Autres renseignements demandés\", \"B - Pour les obligations incombant aux maîtres de l'ouvrage au titre du code du travail :- les pièces prévues à l'article R 1263-12 du code du travail (salariés détachés temporairement par une entreprise non établie en France) ;- les documents mentionnés aux articles D 8222-5 (soumissionnaire établi en France) ou D 8222-7 (soumissionnaire établi à l'étranger) du code du travail (lutte contre le travail dissimulé) ; il est d'ores et déjà précisé aux soumissionnaires que ces documents devront également être remis par le titulaire du marché public au pouvoir adjudicateur, dans le délai de 7 jours calendaires, tous les 6 mois jusqu'à la fin de l'exécution du marché public.- les éléments édictés par les articles D 8254-2 à D 8254-5 du code du travail (emplois d'étrangers sans titre de travail) ; il est d'ores et déjà précisé aux soumissionnaires que ces documents devront également être remis par le titulaire du marché public au pouvoir adjudicateur, dans le même délai de 7 jours calendaires, tous les six mois jusqu'à la fin de l'exécution du marché public\", \"Autres renseignements demandés\", \"C - Pour permettre au pouvoir adjudicateur de vérifier la capacité économique et financière et les capacités techniques et professionnelles du soumissionnaire et donc la satisfaction des conditions de participation à la procédure de passation par le soumissionnaire :Le soumissionnaire produit au pouvoir adjudicateur, les documents justificatifs et éléments de preuve conformes à la liste détaillée figurant à l'article 5-1 §2 du présent règlement de la consultation ci-dessous (se reporter à cet article) soit de façon résumée les éléments suivants :- les déclarations concernant les chiffres d'affaires ;- une attestation d'assurance des risques professionnels ;- une liste des principales missions exécutées ;- une déclaration indiquant les effectifs ;- une description du matériel et de l'équipement technique ; - certificats de qualification professionnelle\", \"Autres renseignements demandés\", \"D - Pour les personnes soumises à l'obligation d'assurance de responsabilité décennale prévue à l'article L 241-1 du code des assurances, l'attestation d'assurance de responsabilité obligatoire prévue à l'article L.243-2 du code des assurances, conformément à l'article A 243-3 du même code\", \"Autres renseignements demandés\", \"Une mise au point des composantes du marché public avant sa signature, pourra, si besoin, être envisagée avec le soumissionnaire retenu, dans les conditions stipulées à l'article 64 du Décret no2016-360 du 25 mars 2016\", \"Autres renseignements demandés\", \"=== Offre ===\", \"Autres renseignements demandés\", \"Acte d'Engagement (AE)) dûment complété, daté et signé, et ses annexes (document joint)\", \"Autres renseignements demandés\", \"Cahier des Clauses Administratives Particulières (CCAP) à accepter sans modifications\", \"Autres renseignements demandés\", \"Cahier des Clauses Techniques Particulières (CCTP)à accepter sans modifications\", \"Autres renseignements demandés\", \"Bordereau des Prix Unitaires à compléter ;\", \"Autres renseignements demandés\", \"Détail Quantitatif Estimatif (DQE) à compléter ;\", \"Autres renseignements demandés\", \"Notice descriptive de l'offre (Services\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"18S0002\", \"CONDITIONS_REMISE_OFFRES\": \"Support papier : LR-AR ou remise en main propre contre récépissé / - Support électronique : https://marchespublics-le-pouliguen.omnikles.com, dont détails dans le RC\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Précision : Les délais d'exécution courent à compter d'une date fixée au 30/06/2018.Modalités de retrait des documents : Support ELECTRONIQUE : https://marchespublics-le-pouliguen.omnikles.com\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de NANTES\", \"ADRESSE\": \"Tribunal administratif de NANTES 6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES CEDEX 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-00\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.ta-nantes.juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de NANTES\", \"ADRESSE\": \"Tribunal administratif de NANTES 6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES CEDEX 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.ta-nantes.juradm.fr\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"DENOMINATION\": \"Ville de LE POULIGUEN\", \"CORRESPONDANT\": \"ALEXANDRA CREPEL\", \"ADRESSE\": \"Ville de LE POULIGUEN Direction Services Techniques & Développement Urbain 17, rue Jules Benoît BP 122\", \"CP\": \"44510\", \"VILLE\": \"LE POULIGUEN\", \"TEL\": \"(+33) 2-40-15-08-07\", \"FAX\": \"(+33) 2-40-62-27-79\", \"MEL\": \"marchespublics@mairie-lepouliguen.fr\", \"URL\": \"https://marchespublics-le-pouliguen.omnikles.com\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Ville de LE POULIGUEN\", \"CORRESPONDANT\": \"Alexandra CREPEL\", \"ADRESSE\": \"Ville de LE POULIGUEN Hôtel de Ville Direction Services Techniques & Développement Urbain 17, rue Jules Benoît - BP 122\", \"CP\": \"44510\", \"VILLE\": \"LE POULIGUEN\", \"MEL\": \"marchespublics@mairie-lepouliguen.fr\", \"URL\": \"https://marchespublics-le-pouliguen.omnikles.com\"}, {\"TYPE\": {\"ADMIN\": \"\"}, \"DENOMINATION\": \"Ville de LE POULIGUEN\", \"CORRESPONDANT\": \"ALEXANDRA CREPEL/FRANCOIS GUERIN\", \"ADRESSE\": \"Ville de LE POULIGUEN Hôtel de Ville Direction Services Techniques & Développement Urbain 17, rue Jules Benoît - BP 122\", \"CP\": \"44510\", \"VILLE\": \"LE POULIGUEN\", \"TEL\": \"(+33) 2-40-15-08-07\", \"FAX\": \"(+33) 2-40-62-27-79\", \"MEL\": \"marchespublics@mairie-lepouliguen.fr\", \"URL\": \"https://marchespublics-le-pouliguen.omnikles.com\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-12108"
-  },
-  {
    "idweb": "18-11095",
    "id": "18_11095",
    "contractfolderid": null,
@@ -2283,6 +2221,68 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-11187\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-11187.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-26\", \"DATE_FIN_DIFFUSION\": \"2018-03-09\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"239\", \"LIBELLE\": \"Nettoyage de locaux\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Nettoyage, entretien des locaux bâtiments Quinconces-espal - année 2018Renouvelable en 2019, 2020 et 2021\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Les Quinconces l'Espal\", \"CODE_IDENT_NATIONAL\": \"40256198900011\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"60/62 rue de l'Estérel\", \"CP\": \"72000\", \"VILLE\": \"Le Mans\", \"MEL\": \"pauline.quantin@lemans.fr\", \"URL\": \"http://www.quinconces-espal.com\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\", \"URL_PARTICIPATION\": \"http://www.sarthe-marchespublics.fr\", \"URL_DOCUMENT\": \"http://www.sarthe-marchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"LOIS_CULT_REL\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Nettoyage, entretien des locaux bâtiments Quinconces-espal - année 2018Renouvelable en 2019, 2020 et 2021\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Marché en appel d'offres ouvert, avec prestation régulière et bons de commande.Période initiale de 12 mois, renouvelable 3 fois 12 mois\", \"CPV\": {\"PRINCIPAL\": \"90911200\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Marché en appel d'offres ouvert, avec prestation régulière et bons de commande.Période initiale de 12 mois, renouvelable 3 fois 12 mois\", \"CPV\": {\"PRINCIPAL\": \"90911200\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Renouvelable 3 fois 12 mois\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-03-09T17:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-03-12\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.sarthe-marchespublics.fr -. Date d'envoi du présent avis au JOUE et au BOAMP : 24 janvier 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso\", \"CP\": \"44042\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://pays-de-la-loire.direccte.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-11187"
+  },
+  {
+   "idweb": "18-12108",
+   "id": "18_12108",
+   "contractfolderid": null,
+   "objet": "MISSIONS DE PREVENTION, SURVEILLANCE ET DE GARDIENNAGE DE DIFFERENTS SITES",
+   "filename": "BOAMP-N-AO_2018_026004",
+   "famille": "FNS",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2018-01-26",
+   "datefindiffusion": "2018-02-26",
+   "datelimitereponse": "2018-02-26T15:00:00+00:00",
+   "nomacheteur": "Ville de Le Pouliguen",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "138",
+    "331"
+   ],
+   "dc": [
+    "138",
+    "331"
+   ],
+   "descripteur_libelle": [
+    "Gardiennage",
+    "Surveillance"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-12108\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-12108.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-26\", \"DATE_LIMITE_REPONSE\": \"2018-02-26T16:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-02-26\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"138\", \"LIBELLE\": \"Gardiennage\"}, {\"CODE\": \"331\", \"LIBELLE\": \"Surveillance\"}]}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"MISSIONS DE PREVENTION, SURVEILLANCE ET DE GARDIENNAGE DE DIFFERENTS SITES\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Le Pouliguen\", \"CORRESPONDANT\": \"Monsieur le Maire\", \"ADRESSE\": \"Ville de LE POULIGUEN Hôtel de Ville 17, rue Jules Benoît BP 122\", \"CP\": \"44510\", \"VILLE\": \"LE POULIGUEN\", \"TEL\": \"(+33) 2-40-15-08-07\", \"FAX\": \"(+33) 2-40-62-27-79\", \"MEL\": \"marchespublics@mairie-lepouliguen.fr\", \"URL\": \"https://marchespublics-le-pouliguen.omnikles.com\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"27\"}, \"OBJET_COMPLET\": \"MISSIONS DE PREVENTION, SURVEILLANCE ET DE GARDIENNAGE DE DIFFERENTS SITES\", \"CPV\": {\"PRINCIPAL\": \"79714000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"*, CAMPINGS MUNICIPAUX, BOIS, PROMENADE ET PLAGE\", \"VILLE\": \"*\", \"CODE_NUTS\": \"FRG01\"}, \"AMP_NON\": \"\", \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"MISSIONS DE PREVENTION, SURVEILLANCE ET DE GARDIENNAGE DE DIFFERENTS SITES\", \"QUANTITE\": \"MISSIONS DE PREVENTION, SURVEILLANCE ET DE GARDIENNAGE DE DIFFERENTS SITES\", \"OPTIONS\": {\"OUI\": \"\"}, \"RECONDUCTIONS\": {\"NB_RECONDUCTIONS\": \"3\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"12\", \"DATE_EXECUTION\": \"2018-06-30\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"70\", \"#text\": \"Valeur technique : - L'effectif de l'entreprise (10 points) - - Qualification des agents et formations (15 points) - - Contrôle interne des agents sur le terrain (15 points) - - Moyens matériels confiés aux agents (15 points) - - Capacité à remplacer un agent défaillant (15 points)\"}, {\"@POIDS\": \"30\", \"#text\": \"Prix des prestations\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-02-26T16:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Sûreté : Sans objet\", \"FINANCEMENT\": \"Mode de financement : Fonds propres de la Commune..- Mode de paiement : Virement bancaire (Mandat administratif).- Délai de paiement : 30 jours\", \"FORME_JURIDIQUE\": \"Pas de forme imposée\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"Capacités économiques et financières- Capacités techniques et professionnelles- Références\", \"MARCHE_RESERVE_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Autres renseignements demandés\", \"=== Candidature ===\", \"Autres renseignements demandés\", \"En vertu des articles 45, 48 et 51 de l'ordonnance du 23/07/2015 et des articles 44, 48 à 50 du décret no 2016-360 du 25/03/2016 relatif aux marchés publics, le candidat individuel, ou chaque membre du groupement, produit à l'appui de sa candidature\", \"Autres renseignements demandés\", \"Fiches de synthèse (cadre joint à compléter) reprenant la composition de l'équipe constituée et précisant, pour chaque compétence, l'entité en charge de cette dernière\", \"Autres renseignements demandés\", \"1 - Pièces juridiques :1-1 Déclaration sur l'honneur signée pour justifier que le candidat n'entre dans aucun des cas d'interdictions de soumissionner mentionnés aux articles 45 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 relative aux marchés publics, 1-2 Déclaration sur l'honneur signée pour justifier que le candidat qu'il est en règle au regard des articles L 5212-1 à L 5212-11 du code du travail concernant l'emploi des travailleurs handicapés,1-3 Déclaration sur l'honneur, datée et signée, certifiant que le candidat a souscrit les déclarations lui incombant en matière fiscale et sociale et acquitté les impôts et contributions ou cotisations exigibles dont la liste est fixée par l'arrêté du 25 mai 2016, et qu'il a bien effectué le paiement des impôts et cotisations exigibles au 31 décembre de l'année précédant l'année de la consultation ou certificats fiscaux ou sociaux à jour ;1-4 Extrait K bis ou document équivalent de - de 3 mois à la date de remise de l'offre,1-5 La copie du ou des jugements prononcés, si le candidat est en redressement judiciaire,\", \"Autres renseignements demandés\", \"2 - Les documents et renseignements suivants aux fins de vérification, de la capacité économique et financière et des capacités techniques et professionnelles du candidat individuel, ou de chaque membre du groupement (cf. Arrêté du 29 mars 2016 fixant la liste des renseignements et des documents pouvant être demandés aux candidats aux marchés publics) :2-1 Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du contrat, réalisés au cours des 3 derniers exercices disponibles,2-2 Déclarations appropriées de banques ou, le cas échéant, preuve d'une assurance des risques professionnels pertinents,2-3 Liste des prestations exécutées au cours des 5 dernières années, assorties d'attestations de bonne exécution pour les plus importantes (indiquant le montant, l'époque, le lieu d'exécution, et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin),2-4 Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des 3 dernières années,2-5 Description de l'outillage, du matériel, de l'équipement technique ainsi que des mesures employées par le candidat pour s'assurer de la qualité et les moyens d'étude et de recherche de son entreprise pour la réalisation de marché public de même nature,2-6 Certificats de qualification professionnelle établis par des organismes indépendants,\", \"Autres renseignements demandés\", \"Pour présenter leur candidature, les candidats peuvent utiliser les formulaires DC1 (lettre de candidature et désignation du mandataire par ses cotraitants) et formulaire DC2 (déclaration du candidat individuel ou du membre du groupement) dûment complétés, datés et signés par la personne habilitée par un pouvoir joint. Ces documents (dernière version) sont disponibles gratuitement sur le site internet du ministère de l'économie, des finances et de l'industrie : http://www.economie.gouv.fr/daj/formulaires\", \"Autres renseignements demandés\", \"L'offre, qu'elle soit présentée par une seule entreprise ou par un groupement, devra indiquer tous les sous-traitants connus lors de son dépôt. Elle devra également indiquer les prestations dont la sous-traitance est envisagée, la dénomination et la qualité des sous-traitants sur l'imprimé DC4 disponible gratuitement sur le site internet du ministère de l'économie, des finances et de l'industrie : http://www.economie.gouv.fr/daj/formulaires\", \"Autres renseignements demandés\", \"3 - En vertu de l'article 51 du décret no 2016-360 du 25/03/2016 relatif aux marchés publics, le candidat auquel il est envisagé d'attribuer le marché produit dans un délai de 7 jours calendaires à compter de la réception de la demande écrite qui lui sera fait par le pouvoir adjudicateur, les documents justificatifs et moyens de preuve suivants entièrement rédigés en langue française (ou accompagnée d'une traduction en français si les documents sont rédigés dans une autre langue\", \"Autres renseignements demandés\", \"A - Pour permettre au pouvoir adjudicateur de vérifier que le soumissionnaire ne se trouve pas dans un cas d'interdiction de soumissionner :- les certificats délivrés par les administrations et organismes compétents justifiant que le soumissionnaire est à jour de ses obligations (déclarations et paiements) en matière fiscales et sociales conformément au 2° de l'article 45 de l'ordonnance no 2015-899 du 23 juillet 2015 ;- un extrait du registre pertinent (registre du commerce ou répertoire des métiers), tel qu'un extrait K, un extrait Kbis, ou un extrait D1 de mois de 3 moins à la date de remise des offres, attestant que le soumissionnaire ne se trouve pas dans un cas d'interdiction de soumissionner mentionné au 3° de l'article 45 de l'ordonnance no 2015-899 du 23 juillet 2015. Lorsque le soumissionnaire est en redressement judiciaire il produit la copie du ou des jugements prononcés.Les candidats établis à l'étranger produisent les éléments conformément aux dispositions des articles 51-1, 51-II, 51-IV et 51-V du Décret no 2016-360 du 25 mars 2016\", \"Autres renseignements demandés\", \"B - Pour les obligations incombant aux maîtres de l'ouvrage au titre du code du travail :- les pièces prévues à l'article R 1263-12 du code du travail (salariés détachés temporairement par une entreprise non établie en France) ;- les documents mentionnés aux articles D 8222-5 (soumissionnaire établi en France) ou D 8222-7 (soumissionnaire établi à l'étranger) du code du travail (lutte contre le travail dissimulé) ; il est d'ores et déjà précisé aux soumissionnaires que ces documents devront également être remis par le titulaire du marché public au pouvoir adjudicateur, dans le délai de 7 jours calendaires, tous les 6 mois jusqu'à la fin de l'exécution du marché public.- les éléments édictés par les articles D 8254-2 à D 8254-5 du code du travail (emplois d'étrangers sans titre de travail) ; il est d'ores et déjà précisé aux soumissionnaires que ces documents devront également être remis par le titulaire du marché public au pouvoir adjudicateur, dans le même délai de 7 jours calendaires, tous les six mois jusqu'à la fin de l'exécution du marché public\", \"Autres renseignements demandés\", \"C - Pour permettre au pouvoir adjudicateur de vérifier la capacité économique et financière et les capacités techniques et professionnelles du soumissionnaire et donc la satisfaction des conditions de participation à la procédure de passation par le soumissionnaire :Le soumissionnaire produit au pouvoir adjudicateur, les documents justificatifs et éléments de preuve conformes à la liste détaillée figurant à l'article 5-1 §2 du présent règlement de la consultation ci-dessous (se reporter à cet article) soit de façon résumée les éléments suivants :- les déclarations concernant les chiffres d'affaires ;- une attestation d'assurance des risques professionnels ;- une liste des principales missions exécutées ;- une déclaration indiquant les effectifs ;- une description du matériel et de l'équipement technique ; - certificats de qualification professionnelle\", \"Autres renseignements demandés\", \"D - Pour les personnes soumises à l'obligation d'assurance de responsabilité décennale prévue à l'article L 241-1 du code des assurances, l'attestation d'assurance de responsabilité obligatoire prévue à l'article L.243-2 du code des assurances, conformément à l'article A 243-3 du même code\", \"Autres renseignements demandés\", \"Une mise au point des composantes du marché public avant sa signature, pourra, si besoin, être envisagée avec le soumissionnaire retenu, dans les conditions stipulées à l'article 64 du Décret no2016-360 du 25 mars 2016\", \"Autres renseignements demandés\", \"=== Offre ===\", \"Autres renseignements demandés\", \"Acte d'Engagement (AE)) dûment complété, daté et signé, et ses annexes (document joint)\", \"Autres renseignements demandés\", \"Cahier des Clauses Administratives Particulières (CCAP) à accepter sans modifications\", \"Autres renseignements demandés\", \"Cahier des Clauses Techniques Particulières (CCTP)à accepter sans modifications\", \"Autres renseignements demandés\", \"Bordereau des Prix Unitaires à compléter ;\", \"Autres renseignements demandés\", \"Détail Quantitatif Estimatif (DQE) à compléter ;\", \"Autres renseignements demandés\", \"Notice descriptive de l'offre (Services\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"18S0002\", \"CONDITIONS_REMISE_OFFRES\": \"Support papier : LR-AR ou remise en main propre contre récépissé / - Support électronique : https://marchespublics-le-pouliguen.omnikles.com, dont détails dans le RC\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Précision : Les délais d'exécution courent à compter d'une date fixée au 30/06/2018.Modalités de retrait des documents : Support ELECTRONIQUE : https://marchespublics-le-pouliguen.omnikles.com\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de NANTES\", \"ADRESSE\": \"Tribunal administratif de NANTES 6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES CEDEX 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-00\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.ta-nantes.juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de NANTES\", \"ADRESSE\": \"Tribunal administratif de NANTES 6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES CEDEX 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.ta-nantes.juradm.fr\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"DENOMINATION\": \"Ville de LE POULIGUEN\", \"CORRESPONDANT\": \"ALEXANDRA CREPEL\", \"ADRESSE\": \"Ville de LE POULIGUEN Direction Services Techniques & Développement Urbain 17, rue Jules Benoît BP 122\", \"CP\": \"44510\", \"VILLE\": \"LE POULIGUEN\", \"TEL\": \"(+33) 2-40-15-08-07\", \"FAX\": \"(+33) 2-40-62-27-79\", \"MEL\": \"marchespublics@mairie-lepouliguen.fr\", \"URL\": \"https://marchespublics-le-pouliguen.omnikles.com\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Ville de LE POULIGUEN\", \"CORRESPONDANT\": \"Alexandra CREPEL\", \"ADRESSE\": \"Ville de LE POULIGUEN Hôtel de Ville Direction Services Techniques & Développement Urbain 17, rue Jules Benoît - BP 122\", \"CP\": \"44510\", \"VILLE\": \"LE POULIGUEN\", \"MEL\": \"marchespublics@mairie-lepouliguen.fr\", \"URL\": \"https://marchespublics-le-pouliguen.omnikles.com\"}, {\"TYPE\": {\"ADMIN\": \"\"}, \"DENOMINATION\": \"Ville de LE POULIGUEN\", \"CORRESPONDANT\": \"ALEXANDRA CREPEL/FRANCOIS GUERIN\", \"ADRESSE\": \"Ville de LE POULIGUEN Hôtel de Ville Direction Services Techniques & Développement Urbain 17, rue Jules Benoît - BP 122\", \"CP\": \"44510\", \"VILLE\": \"LE POULIGUEN\", \"TEL\": \"(+33) 2-40-15-08-07\", \"FAX\": \"(+33) 2-40-62-27-79\", \"MEL\": \"marchespublics@mairie-lepouliguen.fr\", \"URL\": \"https://marchespublics-le-pouliguen.omnikles.com\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-12108"
   },
   {
    "idweb": "18-11071",
@@ -2653,65 +2653,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-12421"
   },
   {
-   "idweb": "18-11133",
-   "id": "18_11133",
-   "contractfolderid": null,
-   "objet": "FOURNITURE ET POSE DE BATIMENTS MODULAIRES AMENAGES POUR LES BESOINS DU POINT ACCUEIL SANTE SOLIDARITES",
-   "filename": "BOAMP-J-AO_2018_026002",
-   "famille": "JOUE",
-   "code_departement": [
-    "49"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-01-26",
-   "datefindiffusion": "2018-02-26",
-   "datelimitereponse": null,
-   "nomacheteur": "CENTRE COMMUNAL D ACTION SOCIALE",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": "1",
-   "marche_public_simplifie_label": "Marché public simplifié",
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "27"
-   ],
-   "dc": [
-    "27"
-   ],
-   "descripteur_libelle": [
-    "Bâtiments modulaires"
-   ],
-   "type_marche": [
-    "FOURNITURES"
-   ],
-   "type_marche_facette": [
-    "Fournitures"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-11133\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-11133.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-26\", \"DATE_FIN_DIFFUSION\": \"2018-02-26\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"27\", \"LIBELLE\": \"Bâtiments modulaires\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"FOURNITURE ET POSE DE BATIMENTS MODULAIRES AMENAGES POUR LES BESOINS DU POINT ACCUEIL SANTE SOLIDARITES\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CENTRE COMMUNAL D ACTION SOCIALE\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"BP 80011 Cedex 02\", \"CP\": \"49020\", \"VILLE\": \"ANGERS\", \"MEL\": \"marches.ccas@ville.angers.fr\", \"URL\": \"https://alm.marches-securises.fr\", \"URL_PROFIL_ACHETEUR\": \"https://alm.marches-securises.fr\", \"URL_INFORMATION\": \"https://alm.marches-securises.fr\", \"URL_PARTICIPATION\": \"https://alm.marches-securises.fr\", \"URL_DOCUMENT\": \"https://alm.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AGENCE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"FOURNITURE ET POSE DE BATIMENTS MODULAIRES AMENAGES POUR LES BESOINS DU POINT ACCUEIL SANTE SOLIDARITES\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"FOURNITURE ET POSE DE BATIMENTS MODULAIRES AMENAGES POUR LES BESOINS DU POINT ACCUEIL SANTE SOLIDARITES\", \"CPV\": {\"PRINCIPAL\": \"44211100\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Forme de marché : ordinaire. Attribution d'un marché unique.\", \"CPV\": {\"PRINCIPAL\": \"44211100\"}, \"CODE_NUTS\": \"FRG02\", \"LIEU_PRINCIPAL\": \"Rue Cussonneau 49000 ANGERS\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"5\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AMP_NON\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-02-26T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas d'interdiction de soumissionner;\", \"CAP_ECO\": \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du contrat, réalisées au cours des trois derniers exercices disponibles;\", \"CAP_TECH\": \"Liste des principales prestations effectuées au cours des trois dernières années, indiquant le montant, la date et le destinataire. Elles sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration du candidat; Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation du contrat; Agrément technique Européen ETAG023; Certification Qualibat 2712; Pour chaque certificat demandé, acceptation de tout moyen de preuve équivalent.\", \"MARCHE_RESERVE_NON\": \"\", \"CONDITION_PARTICULIERE_EXECUTION\": \"Possibilité pour les candidats de proposer un délai d'exécution sans dépasser le délai d'exécution maximum ci-dessus. Début d'exécution du marché à compter de la date de notification du contrat.Prestations réglées par un prix global forfaitaire Prix fermes. Avance de 5.0 % accordée dans les conditions prévues au contrat. Délai global de paiement des prestations de 30 jours. Modalités de financement des prestations : Les paiements s'effectuent par virement administratif.\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-02-27\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La candidature peut etre présentée soit sous la forme des formulaires DC1 et DC2 (disponibles gratuitement sur le site www.economie.gouv.fr.), soit sous la forme d'un Document Unique de Marché Européen (DUME). Le pouvoir adjudicateur impose la transmission des plis par voie électronique. Par conséquent, la transmission par voie papier n'est pas autorisée. La transmission des documents par voie électronique est effectuée sur le profil d'acheteur. En revanche, la transmission des documents sur un support physique électronique (CD-ROM, clé usb...) n'est pas autorisée. Le choix du mode de transmission est global et irréversible. Les candidats doivent appliquer le meme mode de transmission à l'ensemble des documents transmis au pouvoir adjudicateur. Chaque transmission fera l'objet d'une date certaine de réception et d'un accusé de réception électronique. A ce titre, le fuseau horaire de référence est celui de (GMT+01:00) Paris, Bruxelles, Copenhague, Madrid. Le pli sera considéré \\\" hors délai \\\" si le téléchargement se termine après la date et l'heure limites prévues. Si un nouveau pli est envoyé par voie électronique par le meme candidat, celui-ci annule et remplace le pli précédent. Le pli peut etre doublé d'une copie de sauvegarde transmise dans les délais impartis, sur support physique électronique ou sur support papier. Cette copie est transmise sous pli scellé et comporte obligatoirement la mention \\\" copie de sauvegarde \\\", ainsi que le nom du candidat et l'identification de la procédure concernée. Aucun format électronique n'est préconisé pour la transmission des documents. Cependant, les fichiers devront etre transmis dans des formats largement disponibles. Les formats électroniques dans lesquels les documents peuvent etre transmis sont les suivants : Chaque pièce pour laquelle une signature est exigée doit faire l'objet d'une signature électronique individuelle et conforme au format XAdES, CAdES ou PAdES. La seule signature électronique du pli n'emporte pas valeur d'engagement du candidat. Le niveau de sécurité requis pour le certificat de signature électronique est le niveau (**) du RGS. Après attribution, l'offre électronique retenue sera transformée en offre papier pour donner lieu à la signature manuscrite du marché par les parties. Les frais d'accès au réseau et de recours à la signature électronique sont à la charge des candidats. Relance suite à infructuosité Numéro de la consultation : POSEBATIMODULPASS2 Une visite sur site est préconisée. Les conditions de visites sont les suivantes : Merci par avance de prendre contact avec David JAFFRE au 02 41 05 43 08 ou bien par mail : david.jaffre@ville.angers.fr. Date d'envoi du présent avis au JOUE et au BOAMP : 24 janvier 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'île Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES CEDEX\"}, {\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"CCAS Service Finances Patrimoine\", \"ADRESSE\": \"31B, rue David d'Angers Cedex 02 BP 80011\", \"CP\": \"49020\", \"VILLE\": \"ANGERS\", \"CODE_NUTS\": \"FRG02\", \"TEL\": \"(+33) 2-41-05-49-72\", \"MEL\": \"mehdi.abadlia@ville.angers.fr\", \"URL\": \"https://alm.marches-securises.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"CCAS Service Finances Patrimoine\", \"ADRESSE\": \"31B, David d'Angers Cedex 02 BP 80011\", \"CP\": \"49020\", \"VILLE\": \"ANGERS\", \"CODE_NUTS\": \"FRG02\", \"MEL\": \"marches.ccas@ville.angers.fr\", \"URL\": \"https://alm.marches-securises.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-11133"
-  },
-  {
    "idweb": "18-10955",
    "id": "18_10955",
    "contractfolderid": null,
@@ -2773,6 +2714,65 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-10955\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-62842\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-05-05\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-05-07\", \"DATE_FIN_DIFFUSION\": \"2017-06-07\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"089\", \"NUM_ANNONCE\": \"174512\", \"DATE_PUBLICATION\": \"2017-05-10\"}}]}}, \"NOM_HTML\": \"18-10955.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-26\", \"DATE_FIN_DIFFUSION\": \"2018-02-03\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"197\", \"LIBELLE\": \"Maîtrise d'oeuvre\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Désignation d'un maître d'oeuvre pour l'aménagement du secteur Voltaire/Cordelet au Mans\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Le Mans Métropole - Communauté Urbaine\", \"CODE_IDENT_NATIONAL\": \"24720013200014\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, Cs 40010 - 16 avenue François Mitterrand - Le Condorcet, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"Le Mans\", \"TEL\": \"(+33) 2-43-47-37-31\", \"FAX\": \"(+33) 2-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Désignation d'un maître d'oeuvre pour l'aménagement du secteur Voltaire/Cordelet au Mans\", \"REF_MARCHE\": \"2017_moe_0020_jmd\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"La Collectivité entreprend la requalification des axes d'accès au centre ville sis dans le quartier du Pré sur la rive ouest de la Sarthe. En 2016, une étude de circulation réalisée dans l'objectif de fluidifier et d'apaiser les flux de véhicules transitant dans le quartier a permis l'élaboration d'un nouveau schéma de circulation. La mission de Moe pour l'aménagement des espaces publics nécessaire à la réalisation de ce nouveau schéma comprend la conception de plusieurs voies, places et carrefours compris entre l'avenue Rhin et Danube et le pont Yssoir.Enveloppe financière travaux : 5 000 000 euro(s) Ht. Missions : Ep, Avp, Pro, Act, Visa, Det, Aor, Opc et mission complémentaire Aci. Compétences attendues : aménagement urbain, paysager, Vrd et mise en lumière. Forme du groupement non imposée, avec mandataire solidaire qui sera le concepteur (urbaniste, architecte ou paysagiste). Le marc\", \"CPV\": {\"PRINCIPAL\": \"71400000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"999999999999\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"La Collectivité entreprend la requalification des axes d'accès au centre ville sis dans le quartier du Pré sur la rive ouest de la Sarthe. En 2016, une étude de circulation réalisée dans l'objectif de fluidifier et d'apaiser les flux de véhicules transitant dans le quartier a permis l'élaboration d'un nouveau schéma de circulation. La mission de Moe pour l'aménagement des espaces publics nécessaire à la réalisation de ce nouveau schéma comprend la conception de plusieurs voies, places et carrefours compris entre l'avenue Rhin et Danube et le pont Yssoir.Enveloppe financière travaux : 5 000 000 euro(s) Ht. Missions : Ep, Avp, Pro, Act, Visa, Det, Aor, Opc et mission complémentaire Aci. Compétences attendues : aménagement urbain, paysager, Vrd et mise en lumière. Forme du groupement non imposée, avec mandataire solidaire qui sera le concepteur (urbaniste, architecte ou paysagiste). Le marc\", \"CPV\": {\"PRINCIPAL\": \"71400000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"1\", \"#text\": \"Le prix n'est pas le seul critère d'attribution et tous les critères sont énoncés uniquement dans les documents du marché.\"}}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Des modifications, des contrats similaires, des contrats complémentaires pourront être conclus au cours de l'exécution du contrat dans le respect des dispositions du décret 2016-360 du 25 mars 2016 et du Code Général des Collectivités Territoriales\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"NEGOCIE\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"089\", \"NUM_ANNONCE\": \"174512\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"TITULAIRE\": {\"DENOMINATION\": \"groupement L'Anton-Nox-Zoom-Franjou-Cercia\", \"ADRESSE\": \"31 avenue laplace\", \"CP\": \"94110\", \"VILLE\": \"Arcueil\", \"CODE_NUTS\": \"FR107\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-01-23\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"99999999999\"}, \"SOUSTRAITANCE_OUI\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Il s'agit d'un accord cadre sans minimum ni maximum, à marchés subséquents, d'une durée de 4 ans.Le marché est consultable au siège du pouvoir adjudicateur sur demande auprès du service des Marchés Publics. Date d'envoi du présent avis au JOUE et au BOAMP : 24 janvier 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso\", \"CP\": \"44042\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://pays-de-la-loire.direccte.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-10955"
+  },
+  {
+   "idweb": "18-11133",
+   "id": "18_11133",
+   "contractfolderid": null,
+   "objet": "FOURNITURE ET POSE DE BATIMENTS MODULAIRES AMENAGES POUR LES BESOINS DU POINT ACCUEIL SANTE SOLIDARITES",
+   "filename": "BOAMP-J-AO_2018_026002",
+   "famille": "JOUE",
+   "code_departement": [
+    "49"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-01-26",
+   "datefindiffusion": "2018-02-26",
+   "datelimitereponse": null,
+   "nomacheteur": "CENTRE COMMUNAL D ACTION SOCIALE",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": "1",
+   "marche_public_simplifie_label": "Marché public simplifié",
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "27"
+   ],
+   "dc": [
+    "27"
+   ],
+   "descripteur_libelle": [
+    "Bâtiments modulaires"
+   ],
+   "type_marche": [
+    "FOURNITURES"
+   ],
+   "type_marche_facette": [
+    "Fournitures"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-11133\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-11133.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-26\", \"DATE_FIN_DIFFUSION\": \"2018-02-26\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"27\", \"LIBELLE\": \"Bâtiments modulaires\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"FOURNITURE ET POSE DE BATIMENTS MODULAIRES AMENAGES POUR LES BESOINS DU POINT ACCUEIL SANTE SOLIDARITES\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CENTRE COMMUNAL D ACTION SOCIALE\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"BP 80011 Cedex 02\", \"CP\": \"49020\", \"VILLE\": \"ANGERS\", \"MEL\": \"marches.ccas@ville.angers.fr\", \"URL\": \"https://alm.marches-securises.fr\", \"URL_PROFIL_ACHETEUR\": \"https://alm.marches-securises.fr\", \"URL_INFORMATION\": \"https://alm.marches-securises.fr\", \"URL_PARTICIPATION\": \"https://alm.marches-securises.fr\", \"URL_DOCUMENT\": \"https://alm.marches-securises.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AGENCE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"FOURNITURE ET POSE DE BATIMENTS MODULAIRES AMENAGES POUR LES BESOINS DU POINT ACCUEIL SANTE SOLIDARITES\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"FOURNITURE ET POSE DE BATIMENTS MODULAIRES AMENAGES POUR LES BESOINS DU POINT ACCUEIL SANTE SOLIDARITES\", \"CPV\": {\"PRINCIPAL\": \"44211100\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Forme de marché : ordinaire. Attribution d'un marché unique.\", \"CPV\": {\"PRINCIPAL\": \"44211100\"}, \"CODE_NUTS\": \"FRG02\", \"LIEU_PRINCIPAL\": \"Rue Cussonneau 49000 ANGERS\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"5\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AMP_NON\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-02-26T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas d'interdiction de soumissionner;\", \"CAP_ECO\": \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du contrat, réalisées au cours des trois derniers exercices disponibles;\", \"CAP_TECH\": \"Liste des principales prestations effectuées au cours des trois dernières années, indiquant le montant, la date et le destinataire. Elles sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration du candidat; Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation du contrat; Agrément technique Européen ETAG023; Certification Qualibat 2712; Pour chaque certificat demandé, acceptation de tout moyen de preuve équivalent.\", \"MARCHE_RESERVE_NON\": \"\", \"CONDITION_PARTICULIERE_EXECUTION\": \"Possibilité pour les candidats de proposer un délai d'exécution sans dépasser le délai d'exécution maximum ci-dessus. Début d'exécution du marché à compter de la date de notification du contrat.Prestations réglées par un prix global forfaitaire Prix fermes. Avance de 5.0 % accordée dans les conditions prévues au contrat. Délai global de paiement des prestations de 30 jours. Modalités de financement des prestations : Les paiements s'effectuent par virement administratif.\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-02-27\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La candidature peut etre présentée soit sous la forme des formulaires DC1 et DC2 (disponibles gratuitement sur le site www.economie.gouv.fr.), soit sous la forme d'un Document Unique de Marché Européen (DUME). Le pouvoir adjudicateur impose la transmission des plis par voie électronique. Par conséquent, la transmission par voie papier n'est pas autorisée. La transmission des documents par voie électronique est effectuée sur le profil d'acheteur. En revanche, la transmission des documents sur un support physique électronique (CD-ROM, clé usb...) n'est pas autorisée. Le choix du mode de transmission est global et irréversible. Les candidats doivent appliquer le meme mode de transmission à l'ensemble des documents transmis au pouvoir adjudicateur. Chaque transmission fera l'objet d'une date certaine de réception et d'un accusé de réception électronique. A ce titre, le fuseau horaire de référence est celui de (GMT+01:00) Paris, Bruxelles, Copenhague, Madrid. Le pli sera considéré \\\" hors délai \\\" si le téléchargement se termine après la date et l'heure limites prévues. Si un nouveau pli est envoyé par voie électronique par le meme candidat, celui-ci annule et remplace le pli précédent. Le pli peut etre doublé d'une copie de sauvegarde transmise dans les délais impartis, sur support physique électronique ou sur support papier. Cette copie est transmise sous pli scellé et comporte obligatoirement la mention \\\" copie de sauvegarde \\\", ainsi que le nom du candidat et l'identification de la procédure concernée. Aucun format électronique n'est préconisé pour la transmission des documents. Cependant, les fichiers devront etre transmis dans des formats largement disponibles. Les formats électroniques dans lesquels les documents peuvent etre transmis sont les suivants : Chaque pièce pour laquelle une signature est exigée doit faire l'objet d'une signature électronique individuelle et conforme au format XAdES, CAdES ou PAdES. La seule signature électronique du pli n'emporte pas valeur d'engagement du candidat. Le niveau de sécurité requis pour le certificat de signature électronique est le niveau (**) du RGS. Après attribution, l'offre électronique retenue sera transformée en offre papier pour donner lieu à la signature manuscrite du marché par les parties. Les frais d'accès au réseau et de recours à la signature électronique sont à la charge des candidats. Relance suite à infructuosité Numéro de la consultation : POSEBATIMODULPASS2 Une visite sur site est préconisée. Les conditions de visites sont les suivantes : Merci par avance de prendre contact avec David JAFFRE au 02 41 05 43 08 ou bien par mail : david.jaffre@ville.angers.fr. Date d'envoi du présent avis au JOUE et au BOAMP : 24 janvier 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'île Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES CEDEX\"}, {\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"CCAS Service Finances Patrimoine\", \"ADRESSE\": \"31B, rue David d'Angers Cedex 02 BP 80011\", \"CP\": \"49020\", \"VILLE\": \"ANGERS\", \"CODE_NUTS\": \"FRG02\", \"TEL\": \"(+33) 2-41-05-49-72\", \"MEL\": \"mehdi.abadlia@ville.angers.fr\", \"URL\": \"https://alm.marches-securises.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"CCAS Service Finances Patrimoine\", \"ADRESSE\": \"31B, David d'Angers Cedex 02 BP 80011\", \"CP\": \"49020\", \"VILLE\": \"ANGERS\", \"CODE_NUTS\": \"FRG02\", \"MEL\": \"marches.ccas@ville.angers.fr\", \"URL\": \"https://alm.marches-securises.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-11133"
   },
   {
    "idweb": "18-10901",
@@ -3937,6 +3937,71 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-11990"
   },
   {
+   "idweb": "18-12557",
+   "id": "18_12557",
+   "contractfolderid": null,
+   "objet": "L'objet du marché concerne la refonte du Lan et du Wifi, les évolutions des infrastructures Pare-Feu, l'évolution de la Téléphonie et les prestations de maintenance associées",
+   "filename": "BOAMP-J-AO_2018_028003",
+   "famille": "JOUE",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-01-28",
+   "datefindiffusion": "2018-03-01",
+   "datelimitereponse": null,
+   "nomacheteur": "La Cité des Congrès de Nantes",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "196",
+    "306",
+    "454"
+   ],
+   "dc": [
+    "196",
+    "306",
+    "454"
+   ],
+   "descripteur_libelle": [
+    "Maintenance",
+    "Réseaux divers",
+    "Informatique (maintenance serveurs et réseaux)"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-12557\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-12557.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-28\", \"DATE_FIN_DIFFUSION\": \"2018-03-01\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"196\", \"LIBELLE\": \"Maintenance\"}, {\"CODE\": \"306\", \"LIBELLE\": \"Réseaux divers\"}, {\"CODE\": \"454\", \"LIBELLE\": \"Informatique (maintenance serveurs et réseaux)\"}]}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"L'objet du marché concerne la refonte du Lan et du Wifi, les évolutions des infrastructures Pare-Feu, l'évolution de la Téléphonie et les prestations de maintenance associées\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"La Cité des Congrès de Nantes\", \"CONTACT\": \"Emmanuelle Le Maire\", \"ADJUDICATEUR_NUTS\": \"FR\", \"ADRESSE\": \"5 rue de Valmy - BP 24102\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-51-88-20-11\", \"FAX\": \"(+33) 2-51-88-20-20\", \"MEL\": \"emmanuelle.le.maire@lacite-nantes.fr\", \"URL\": \"http://www.lacite-nantes.fr/\", \"URL_PROFIL_ACHETEUR\": \"http://lacite-nantes.e-marchespublics.com\", \"URL_PARTICIPATION\": \"http://lacite-nantes.e-marchespublics.com/\", \"URL_DOCUMENT\": \"http://lacite-nantes.e-marchespublics.com\", \"URL_OUTIL_LOGICIEL\": \"http://lacite-nantes.e-marchespublics.com\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Societe Publique Locale\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Cité des Congrés\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Marché d'évolutions et de maintenance des infrastructures Lan, Wifi, Sécurité et Téléphonie\", \"REF_MARCHE\": \"M18001\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"L'objet du marché concerne la refonte du Lan et du Wifi, les évolutions des infrastructures Pare-Feu, l'évolution de la Téléphonie et les prestations de maintenance associées\", \"CPV\": {\"PRINCIPAL\": \"32424000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"L'objet du marché concerne la refonte du Lan et du Wifi, les évolutions des infrastructures Pare-Feu, l'évolution de la Téléphonie et les prestations de maintenance associées\", \"CPV\": [{\"PRINCIPAL\": \"32424000\"}, {\"PRINCIPAL\": \"32571000\"}], \"CODE_NUTS\": \"FR\", \"LIEU_PRINCIPAL\": \"La Cité des Congrés de Nantes5 rue de Valmy44000 Nantes\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Valeur Technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Il est reconductible tacitement trois (3) fois, pour une durée d'un (1) an, sans que la durée maximale puisse excéder quatre (4) ans.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-03-02T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Cf règlement de la consultation\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-03-05\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_OUI\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 26 janvier 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"TRIBUNAL DE COMMERCE DE NANTES\", \"ADRESSE\": \"2 ter Quai François Mitterrand\", \"CP\": \"44000\", \"VILLE\": \"Nantes\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"TRIBUNAL DE COMMERCE DE NANTES\", \"ADRESSE\": \"2 TER QUAI FRANÇOIS MITTERAND\", \"CP\": \"44000\", \"VILLE\": \"NANTES\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-12557"
+  },
+  {
    "idweb": "18-12148",
    "id": "18_12148",
    "contractfolderid": null,
@@ -4016,71 +4081,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-12148\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-113947\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-08-11\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-08-13\", \"DATE_FIN_DIFFUSION\": \"2017-09-26\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"155\", \"NUM_ANNONCE\": \"321530\", \"DATE_PUBLICATION\": \"2017-08-16\"}}]}}, \"NOM_HTML\": \"18-12148.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-28\", \"DATE_FIN_DIFFUSION\": \"2018-07-26\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"66\", \"LIBELLE\": \"Restauration collective\"}, {\"CODE\": \"88\", \"LIBELLE\": \"Denrées alimentaires\"}, {\"CODE\": \"276\", \"LIBELLE\": \"Produits de l'agriculture\"}]}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Fournitures de denrées alimentaires et plats cuisinés\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Vertou\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"Ville de Vertou, place Saint-Martin - C.S 22319, à l'attention de M. Le Maire, F-44123, Vertou.\", \"VILLE\": \"Vertou\", \"MEL\": \"marchespublics@mairie-vertou.fr\", \"URL\": \"http://vertou.e-marchespublics.com\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fournitures de denrées alimentaires et plats surgelés\", \"REF_MARCHE\": \"17S0027\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Fournitures de denrées alimentaires et plats surgelés pour les besoins de la restauration scolaire de Vertou.\", \"CPV\": {\"PRINCIPAL\": \"03000000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"155021.99\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Légumes surgelés\", \"DESCRIPTION\": \"Légumes surgelés\", \"CPV\": {\"PRINCIPAL\": \"15331170\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"75%\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"25%\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Préparations alimentaires surgelées\", \"DESCRIPTION\": \"Préparations alimentaires surgelées\", \"CPV\": {\"PRINCIPAL\": \"15896000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"75%\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"25%\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Viande de porc fraîche\", \"DESCRIPTION\": \"Viande de porc fraîche\", \"CPV\": {\"PRINCIPAL\": \"15113000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"75%\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"25%\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"4\", \"INTITULE\": \"Charcuteries fraîches\", \"DESCRIPTION\": \"Charcuteries fraîches\", \"CPV\": {\"PRINCIPAL\": \"15131120\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"75%\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"25%\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"5\", \"INTITULE\": \"Produits laitiers\", \"DESCRIPTION\": \"Produits laitiers\", \"CPV\": {\"PRINCIPAL\": \"15500000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"75%\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"25%\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"6\", \"INTITULE\": \"Lait\", \"DESCRIPTION\": \"Lait\", \"CPV\": {\"PRINCIPAL\": \"15511000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"65%\", \"#text\": \"Valeur technique\"}, {\"@POIDS\": \"15%\", \"#text\": \"Performance des approvisionnements\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"20%\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"7\", \"INTITULE\": \"Produits laitiers issus de l'agriculture biologique\", \"DESCRIPTION\": \"Produits laitiers issus de l'agriculture biologique\", \"CPV\": {\"PRINCIPAL\": \"15500000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"65%\", \"#text\": \"Valeur technique\"}, {\"@POIDS\": \"15%\", \"#text\": \"Performance des approvisionnements\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"20%\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"8\", \"INTITULE\": \"Fromages issus de l'agriculture biologique\", \"DESCRIPTION\": \"Fromages issus de l'agriculture biologique\", \"CPV\": {\"PRINCIPAL\": \"15540000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"65%\", \"#text\": \"Valeur technique\"}, {\"@POIDS\": \"15%\", \"#text\": \"Performance des approvisionnements\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"20%\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"9\", \"INTITULE\": \"Epicerie\", \"DESCRIPTION\": \"Epicerie\", \"CPV\": {\"PRINCIPAL\": \"15894700\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"75%\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"25%\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"10\", \"INTITULE\": \"Epicerie Commerce Equitable et issue de l'agriculture biologique\", \"DESCRIPTION\": \"Epicerie Commerce Equitable et issue de l'agriculture biologique\", \"CPV\": {\"PRINCIPAL\": \"15894700\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"75%\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"25%\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"11\", \"INTITULE\": \"Biscuits\", \"DESCRIPTION\": \"Biscuits\", \"CPV\": {\"PRINCIPAL\": \"15821200\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"75%\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"25%\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"12\", \"INTITULE\": \"Fruits et légumes frais, 4ème et 5ème gamme\", \"DESCRIPTION\": \"Fruits et légumes frais, 4ème et 5ème gamme\", \"CPV\": {\"PRINCIPAL\": \"03221200\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"75%\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"25%\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"13\", \"INTITULE\": \"Fruits et légumes frais, du Commerce Equitable, issus de l'agriculture biologique\", \"DESCRIPTION\": \"Fruits et légumes frais, du Commerce Equitable, issus de l'agriculture biologique\", \"CPV\": {\"PRINCIPAL\": \"03221200\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"75%\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"25%\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"14\", \"INTITULE\": \"Légumes 4ème gamme issus de l'agriculture biologique\", \"DESCRIPTION\": \"Légumes 4ème gamme issus de l'agriculture biologique\", \"CPV\": {\"PRINCIPAL\": \"03221000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"75%\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"25%\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2017\", \"NUM_PARUTION\": \"155\", \"NUM_ANNONCE\": \"321530\", \"DATE_PUBLICATION\": \"2017-08-16\"}}}, \"ATTRIBUTION\": {\"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"17S0027\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Légumes surgelés\", \"TITULAIRE\": {\"DENOMINATION\": \"POMONA PASSIONFROID\", \"CP\": \"44470\", \"VILLE\": \"CARQUEFOU\", \"CODE_NUTS\": \"FRG01\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-27\", \"NB_OFFRE_RECU\": \"5\", \"NB_OFFRE_RECU_ELECT\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"17057.43\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"17S0027\", \"NUM_LOT\": \"2\", \"INTITULE\": \"Préparations alimentaires surgelées\", \"TITULAIRE\": {\"DENOMINATION\": \"DAVIGEL\", \"CP\": \"44850\", \"VILLE\": \"LE CELLIER\", \"CODE_NUTS\": \"FRG01\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-27\", \"NB_OFFRE_RECU\": \"4\", \"NB_OFFRE_RECU_ELECT\": \"1\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"8720.75\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"17S0027\", \"NUM_LOT\": \"3\", \"INTITULE\": \"Viande de porc fraîche\", \"TITULAIRE\": {\"DENOMINATION\": \"SOCOPA\", \"CP\": \"27110\", \"VILLE\": \"LE NEUBOURG\", \"CODE_NUTS\": \"FRD21\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-27\", \"NB_OFFRE_RECU\": \"2\", \"NB_OFFRE_RECU_ELECT\": \"0\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"7732.17\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"17S0027\", \"NUM_LOT\": \"4\", \"INTITULE\": \"Charcuteries fraîches\", \"TITULAIRE\": {\"DENOMINATION\": \"LB VIANDES\", \"CP\": \"56880\", \"VILLE\": \"PLOEREN\", \"CODE_NUTS\": \"FRH04\", \"PME_OUI\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-27\", \"NB_OFFRE_RECU\": \"5\", \"NB_OFFRE_RECU_ELECT\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"8644.54\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"17S0027\", \"NUM_LOT\": \"5\", \"INTITULE\": \"Produits laitiers\", \"TITULAIRE\": {\"DENOMINATION\": \"POMONA PASSIONFROID\", \"CP\": \"44470\", \"VILLE\": \"CARQUEFOU\", \"CODE_NUTS\": \"FRG01\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-27\", \"NB_OFFRE_RECU\": \"3\", \"NB_OFFRE_RECU_ELECT\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"29865.36\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"INFRUCTUEUX\": \"\", \"NUM_MARCHE\": \"17S0027\", \"NUM_LOT\": \"6\", \"INTITULE\": \"Lait\"}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"17S0027\", \"NUM_LOT\": \"7\", \"INTITULE\": \"Produits laitiers issus de l'agriculture biologique\", \"TITULAIRE\": {\"DENOMINATION\": \"AMB44\", \"CP\": \"44200\", \"VILLE\": \"NANTES\", \"CODE_NUTS\": \"FRG01\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-27\", \"NB_OFFRE_RECU\": \"3\", \"NB_OFFRE_RECU_ELECT\": \"1\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"7577\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"17S0027\", \"NUM_LOT\": \"8\", \"INTITULE\": \"Fromages issus de l'agriculture biologique\", \"TITULAIRE\": {\"DENOMINATION\": \"AMB44\", \"CP\": \"44200\", \"VILLE\": \"NANTES\", \"CODE_NUTS\": \"FRG01\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-27\", \"NB_OFFRE_RECU\": \"3\", \"NB_OFFRE_RECU_ELECT\": \"1\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"1786.67\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"17S0027\", \"NUM_LOT\": \"9\", \"INTITULE\": \"Epicerie\", \"TITULAIRE\": {\"DENOMINATION\": \"POMONA EPISAVEURS\", \"CP\": \"35136\", \"VILLE\": \"SAINT JACQUES DE LA LANDE\", \"CODE_NUTS\": \"FRH03\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-27\", \"NB_OFFRE_RECU\": \"3\", \"NB_OFFRE_RECU_ELECT\": \"1\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"27580.67\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"17S0027\", \"NUM_LOT\": \"10\", \"INTITULE\": \"Epicerie Commerce Equitable et issue de l'agriculture biologique\", \"TITULAIRE\": {\"DENOMINATION\": \"AMB44\", \"CP\": \"44200\", \"VILLE\": \"NANTES\", \"CODE_NUTS\": \"FRG01\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-27\", \"NB_OFFRE_RECU\": \"2\", \"NB_OFFRE_RECU_ELECT\": \"1\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"6361.38\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"17S0027\", \"NUM_LOT\": \"11\", \"INTITULE\": \"Biscuits\", \"TITULAIRE\": {\"DENOMINATION\": \"LA TRIADE\", \"CP\": \"95130\", \"VILLE\": \"FRANCONVILLE\", \"CODE_NUTS\": \"FR108\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-27\", \"NB_OFFRE_RECU\": \"4\", \"NB_OFFRE_RECU_ELECT\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"2626.6\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"17S0027\", \"NUM_LOT\": \"12\", \"INTITULE\": \"Fruits et légumes frais, 4e et 5e gamme\", \"TITULAIRE\": {\"DENOMINATION\": \"BOUYER GUINDON\", \"CP\": \"44220\", \"VILLE\": \"NANTES\", \"CODE_NUTS\": \"FRG01\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-27\", \"NB_OFFRE_RECU\": \"3\", \"NB_OFFRE_RECU_ELECT\": \"0\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"18829.96\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"17S0027\", \"NUM_LOT\": \"13\", \"INTITULE\": \"Fruits et légumes frais du Commerce Equitable, issus de l'agriculture biologique\", \"TITULAIRE\": {\"DENOMINATION\": \"AMB44\", \"CP\": \"44200\", \"VILLE\": \"NANTES\", \"CODE_NUTS\": \"FRG01\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-27\", \"NB_OFFRE_RECU\": \"3\", \"NB_OFFRE_RECU_ELECT\": \"0\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"15759.46\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"17S0027\", \"NUM_LOT\": \"14\", \"INTITULE\": \"Légumes 4e gamme issus de l'agriculture biologique\", \"TITULAIRE\": {\"DENOMINATION\": \"BOUYER GUINDON\", \"CP\": \"44200\", \"VILLE\": \"NANTES\", \"CODE_NUTS\": \"FRG01\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-27\", \"NB_OFFRE_RECU\": \"4\", \"NB_OFFRE_RECU_ELECT\": \"0\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"2480\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 26 janvier 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'île GlorietteB.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'île GlorietteB.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-12148"
-  },
-  {
-   "idweb": "18-12557",
-   "id": "18_12557",
-   "contractfolderid": null,
-   "objet": "L'objet du marché concerne la refonte du Lan et du Wifi, les évolutions des infrastructures Pare-Feu, l'évolution de la Téléphonie et les prestations de maintenance associées",
-   "filename": "BOAMP-J-AO_2018_028003",
-   "famille": "JOUE",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-01-28",
-   "datefindiffusion": "2018-03-01",
-   "datelimitereponse": null,
-   "nomacheteur": "La Cité des Congrès de Nantes",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "196",
-    "306",
-    "454"
-   ],
-   "dc": [
-    "196",
-    "306",
-    "454"
-   ],
-   "descripteur_libelle": [
-    "Maintenance",
-    "Réseaux divers",
-    "Informatique (maintenance serveurs et réseaux)"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-12557\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-12557.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-28\", \"DATE_FIN_DIFFUSION\": \"2018-03-01\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"196\", \"LIBELLE\": \"Maintenance\"}, {\"CODE\": \"306\", \"LIBELLE\": \"Réseaux divers\"}, {\"CODE\": \"454\", \"LIBELLE\": \"Informatique (maintenance serveurs et réseaux)\"}]}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"L'objet du marché concerne la refonte du Lan et du Wifi, les évolutions des infrastructures Pare-Feu, l'évolution de la Téléphonie et les prestations de maintenance associées\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"La Cité des Congrès de Nantes\", \"CONTACT\": \"Emmanuelle Le Maire\", \"ADJUDICATEUR_NUTS\": \"FR\", \"ADRESSE\": \"5 rue de Valmy - BP 24102\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-51-88-20-11\", \"FAX\": \"(+33) 2-51-88-20-20\", \"MEL\": \"emmanuelle.le.maire@lacite-nantes.fr\", \"URL\": \"http://www.lacite-nantes.fr/\", \"URL_PROFIL_ACHETEUR\": \"http://lacite-nantes.e-marchespublics.com\", \"URL_PARTICIPATION\": \"http://lacite-nantes.e-marchespublics.com/\", \"URL_DOCUMENT\": \"http://lacite-nantes.e-marchespublics.com\", \"URL_OUTIL_LOGICIEL\": \"http://lacite-nantes.e-marchespublics.com\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Societe Publique Locale\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Cité des Congrés\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Marché d'évolutions et de maintenance des infrastructures Lan, Wifi, Sécurité et Téléphonie\", \"REF_MARCHE\": \"M18001\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"L'objet du marché concerne la refonte du Lan et du Wifi, les évolutions des infrastructures Pare-Feu, l'évolution de la Téléphonie et les prestations de maintenance associées\", \"CPV\": {\"PRINCIPAL\": \"32424000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"L'objet du marché concerne la refonte du Lan et du Wifi, les évolutions des infrastructures Pare-Feu, l'évolution de la Téléphonie et les prestations de maintenance associées\", \"CPV\": [{\"PRINCIPAL\": \"32424000\"}, {\"PRINCIPAL\": \"32571000\"}], \"CODE_NUTS\": \"FR\", \"LIEU_PRINCIPAL\": \"La Cité des Congrés de Nantes5 rue de Valmy44000 Nantes\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Valeur Technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Il est reconductible tacitement trois (3) fois, pour une durée d'un (1) an, sans que la durée maximale puisse excéder quatre (4) ans.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-03-02T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Cf règlement de la consultation\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-03-05\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_OUI\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 26 janvier 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"TRIBUNAL DE COMMERCE DE NANTES\", \"ADRESSE\": \"2 ter Quai François Mitterrand\", \"CP\": \"44000\", \"VILLE\": \"Nantes\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"TRIBUNAL DE COMMERCE DE NANTES\", \"ADRESSE\": \"2 TER QUAI FRANÇOIS MITTERAND\", \"CP\": \"44000\", \"VILLE\": \"NANTES\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-12557"
   },
   {
    "idweb": "18-12119",
@@ -5800,133 +5800,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-13611"
   },
   {
-   "idweb": "18-13307",
-   "id": "18_13307",
-   "contractfolderid": null,
-   "objet": "Fourniture de fruits et légumes, boulangerie et lait",
-   "filename": "BOAMP-J-IC-AA_2018_031004",
-   "famille": "JOUE",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-01-31",
-   "datefindiffusion": "2018-03-09",
-   "datelimitereponse": null,
-   "nomacheteur": "Ville de Rezé",
-   "titulaire": [
-    "TERRE AZUR Pays de Loire",
-    "FL 44",
-    "MARAIS NANTES SAS",
-    "TRADEOZ",
-    "POMONA PASSION FROID"
-   ],
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "ATTRIBUTION",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "88"
-   ],
-   "dc": [
-    "88"
-   ],
-   "descripteur_libelle": [
-    "Denrées alimentaires"
-   ],
-   "type_marche": [
-    "FOURNITURES"
-   ],
-   "type_marche_facette": [
-    "Fournitures"
-   ],
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "17-130790",
-    "17-140482"
-   ],
-   "annonces_anterieures": "[{\"REFERENCE\": {\"IDWEB\": \"17-130790\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-09-15\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-09-17\", \"DATE_FIN_DIFFUSION\": \"2017-10-16\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"180\", \"NUM_ANNONCE\": \"368131\", \"DATE_PUBLICATION\": \"2017-09-20\"}}]}, {\"REFERENCE\": {\"IDWEB\": \"17-140482\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}, \"DATE_ENVOI\": \"2017-10-05\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-10-07\", \"DATE_FIN_DIFFUSION\": \"2017-11-06\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"194\", \"NUM_ANNONCE\": \"398166\", \"DATE_PUBLICATION\": \"2017-10-10\"}}]}]",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-13307\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": [{\"REFERENCE\": {\"IDWEB\": \"17-130790\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-09-15\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-09-17\", \"DATE_FIN_DIFFUSION\": \"2017-10-16\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"180\", \"NUM_ANNONCE\": \"368131\", \"DATE_PUBLICATION\": \"2017-09-20\"}}]}, {\"REFERENCE\": {\"IDWEB\": \"17-140482\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}, \"DATE_ENVOI\": \"2017-10-05\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-10-07\", \"DATE_FIN_DIFFUSION\": \"2017-11-06\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"194\", \"NUM_ANNONCE\": \"398166\", \"DATE_PUBLICATION\": \"2017-10-10\"}}]}]}, \"NOM_HTML\": \"18-13307.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-31\", \"DATE_FIN_DIFFUSION\": \"2018-03-09\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"88\", \"LIBELLE\": \"Denrées alimentaires\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Fourniture de fruits et légumes, boulangerie et lait\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Rezé\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"place Jean-Baptiste-Daviais BP 159\", \"CP\": \"44403\", \"VILLE\": \"REZE\", \"MEL\": \"administration@mairie-reze.fr\", \"URL\": \"http://www.reze.fr/La-mairie/Marches-publics/\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.info\", \"URL_INFORMATION\": \"http://mairie-reze.marcoweb.fr/\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de fruits et légumes, boulangerie et lait\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Fourniture de fruits et légumes, boulangerie et lait\", \"CPV\": {\"PRINCIPAL\": \"15800000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"896000.00\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"Lot 1-16\", \"DESCRIPTION\": \"Marché subséquent multi-attributaires\", \"CPV\": {\"PRINCIPAL\": \"15300000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"55.0\", \"#text\": \"Valeur technique\"}, {\"@POIDS\": \"10.0\", \"#text\": \"Performance en matière de RSE\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"35.0\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"Lot 2-17\", \"DESCRIPTION\": \"Marché à bon de commande mono-attributaire\", \"CPV\": {\"PRINCIPAL\": \"15811100\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"55.0\", \"#text\": \"Valeur technique\"}, {\"@POIDS\": \"10.0\", \"#text\": \"Performance en matière de RSE\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"35.0\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"Lot 3-18\", \"DESCRIPTION\": \"Marché à bon de commande mono-attributaire\", \"CPV\": {\"PRINCIPAL\": \"15511210\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"55.0\", \"#text\": \"Valeur technique\"}, {\"@POIDS\": \"10.0\", \"#text\": \"Performance en matière de RSE\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"35.0\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\"}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"1707701\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Fruits et légumes frais / fruits biologiques\", \"TITULAIRE\": {\"DENOMINATION\": \"TERRE AZUR Pays de Loire\", \"ADRESSE\": \"4, rue Nicolas Appert ZAC de la Brosse\", \"CP\": \"44400\", \"VILLE\": \"REZE\", \"CODE_NUTS\": \"FR\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-28\", \"NB_OFFRE_RECU\": \"5\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"640000.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"1707701\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Fruits et légumes frais / fruits biologiques\", \"TITULAIRE\": {\"DENOMINATION\": \"FL 44\", \"ADRESSE\": \"Rue Thomas Edison ZAC de Brais\", \"CP\": \"44600\", \"VILLE\": \"SAINT NAZAIRE\", \"CODE_NUTS\": \"FR\", \"TEL\": \"(+33) -40-01-78-78\", \"FAX\": \"(+33) -40-01-78-79\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-28\", \"NB_OFFRE_RECU\": \"5\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"640000.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"1707701\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Fruits et légumes frais / fruits biologiques\", \"TITULAIRE\": {\"DENOMINATION\": \"MARAIS NANTES SAS\", \"ADRESSE\": \"1, rue de l'Atlantique BP 12\", \"CP\": \"44840\", \"VILLE\": \"LES SORINIÈRES\", \"CODE_NUTS\": \"FR\", \"TEL\": \"(+33) -51-72-96-96\", \"FAX\": \"(+33) -40-47-44-72\", \"MEL\": \"pascal@marais.fr\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-28\", \"NB_OFFRE_RECU\": \"5\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"640000.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"1707702\", \"NUM_LOT\": \"2\", \"INTITULE\": \"Boulangerie\", \"TITULAIRE\": {\"DENOMINATION\": \"TRADEOZ\", \"ADRESSE\": \"1, rue Joset Belami ZA La Teillais\", \"CP\": \"35740\", \"VILLE\": \"PACE\", \"CODE_NUTS\": \"FR\", \"TEL\": \"(+33) -99-85-35-26\", \"FAX\": \"(+33) -99-85-36-28\", \"MEL\": \"tradeozrennes@orange.fr\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-28\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"160000.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"1707703\", \"NUM_LOT\": \"3\", \"INTITULE\": \"Lait-\", \"TITULAIRE\": {\"DENOMINATION\": \"POMONA PASSION FROID\", \"ADRESSE\": \"Rue Véga BP 40137\", \"CP\": \"44471\", \"VILLE\": \"CARQUEFOU CEDEX\", \"CODE_NUTS\": \"FR\", \"TEL\": \"(+33) -40-18-27-55\", \"FAX\": \"(+33) -40-18-27-33\", \"MEL\": \"passionfroid_ouest@sendao.fr\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-28\", \"NB_OFFRE_RECU\": \"1\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"96000.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La consultation du(des) contrat(s) peut etre effectuée à l'adresse de l'organisme acheteur. Les tiers justifiant d'un intéret lésé peuvent exercer un recours de pleine juridiction devant le juge administratif dans un délai de deux mois à compter de la publication du présent avis.. Date d'envoi du présent avis au JOUE et au BOAMP : 29 janvier 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"8, allée de l'île Gloriette\", \"CP\": \"44000\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr/\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"8, allée de l'île Gloriette\", \"CP\": \"44000\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr/\"}]}}, \"ANNEXE_D1\": \"\"}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-13307"
-  },
-  {
-   "idweb": "18-11361",
-   "id": "18_11361",
-   "contractfolderid": null,
-   "objet": "Groupes scolaires du 1er degré - programme 2018 des travaux d'entretien durable - réfection des couvertures",
-   "filename": "BOAMP-N-AO_2018_031011",
-   "famille": "FNS",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2018-01-31",
-   "datefindiffusion": "2018-02-28",
-   "datelimitereponse": "2018-02-28T11:00:00+00:00",
-   "nomacheteur": "COMMUNE DE NANTES",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": "1",
-   "marche_public_simplifie_label": "Marché public simplifié",
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "74"
-   ],
-   "dc": [
-    "74"
-   ],
-   "descripteur_libelle": [
-    "Couverture"
-   ],
-   "type_marche": [
-    "TRAVAUX"
-   ],
-   "type_marche_facette": [
-    "Travaux"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-11361\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-11361.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-31\", \"DATE_LIMITE_REPONSE\": \"2018-02-28T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-02-28\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"74\", \"LIBELLE\": \"Couverture\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Groupes scolaires du 1er degré - programme 2018 des travaux d'entretien durable - réfection des couvertures\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"COMMUNE DE NANTES\", \"CORRESPONDANT\": \"Madame le Maire\", \"ADRESSE\": \"Département du B.A.T.I.11 Bd de Stalingrad\", \"CP\": \"44094\", \"VILLE\": \"Nantes cedex 1\", \"MEL\": \"christophe.cotta@mairie-nantes.fr\", \"URL\": \"https://www.nantes.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.nantesmetropole.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"TRAVAUX\": {\"EXECUTION\": \"\"}}, \"OBJET_COMPLET\": \"Groupes scolaires du 1er degré - Programme 2018 des travaux d'entretien durable - Réfection des couvertures\", \"CPV\": {\"PRINCIPAL\": \"45261210\"}, \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG01\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"01\", \"DESCRIPTION\": \"École élémentaire Urbain Leverrier - Bâtiment 1 (Tranche ferme)Restaurant scolaire Urbain Leverrier - Bâtiment 2 (Tranche optionnelle 1)\", \"CPV\": {\"PRINCIPAL\": \"45261210\"}, \"INFO_COMPL\": \"Les délais d'exécution des travaux de chacune des tranches pour le lot concerné (hors période de préparation de 6 semaines), sont de 7 semaines à compter de la date fixée dans l'ordre de service de démarrage des travaux.Le titulaire s'engage à avoir impérativement terminé ses prestations pour permettre la livraison de l'équipement au plus tard le 24 août 2018.\"}, {\"NUM\": \"02\", \"DESCRIPTION\": \"École élémentaire Grand Carcouët - Bâtiment 3 (Tranche ferme)\", \"CPV\": {\"PRINCIPAL\": \"45261210\"}, \"INFO_COMPL\": \"Le délais d'exécution, période de préparation de chantier incluse, est de 13 semaines(6 semaines de préparation et 7 semaines de travaux). Le début d'exécution de la période de préparation du marché part de la date précisée dans la lettre de notification. Le délai d'exécution des travaux court à compter de la date fixée dans l'ordre de service de démarrage des travaux.Le titulaire s'engage à avoir impérativement terminé ses prestations pour permettre la livraison de l'équipement au plus tard le 24 août 2018.\"}, {\"NUM\": \"03\", \"DESCRIPTION\": \"Restaurant scolaire Maurice Macé - Bâtiment 1 (Tranche ferme)\", \"CPV\": {\"PRINCIPAL\": \"45261210\"}, \"INFO_COMPL\": \"Le délais d'exécution, période de préparation de chantier incluse, est de 13 semaines(6 semaines de préparation et 7 semaines de travaux). Le début d'exécution de la période de préparation du marché part de la date précisée dans la lettre de notification. Le délai d'exécution des travaux court à compter de la date fixée dans l'ordre de service de démarrage des travaux.Le titulaire s'engage à avoir impérativement terminé ses prestations pour permettre la livraison de l'équipement au plus tard le 24 août 2018\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-02-28T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"5\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"Aptitude à exercer l'activité professionnelle, capacité économique et financière, capacités techniques et professionnelles.\", \"SITUATION_JURIDIQUE\": \"Lettre de candidature (imprimé DC1) que la candidature soit présentée à titre individuel ou en groupement.\", \"CAP_ECO\": \"Déclaration concernant le chiffre d'affaires global du candidat et, le cas échéant, le chiffre d'affaires du domaine d'activité faisant l'objet du marché public, portant au maximum sur les trois derniers exercices disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles (cadre D1 du document DC2 à remplir si utilisation de ce document).\", \"CAP_TECH\": \"- Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années (en annexe au DC2 si utilisation de ce document et tout document complémentaire).- Description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation du marché public (en annexe au DC2 si utilisation de ce document et tout document complémentaire).- Liste des travaux exécutés au cours des cinq dernières années, assortie d'attestations de bonne exécution pour les travaux les plus importants. Ces attestations indiquent le montant, la date et le lieu d'exécution des travaux et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin (en annexe au DC2 si utilisation de ce document et tout document complémentaire).\", \"CAP_TECH_NIVEAU_MINI\": \"Les qualifications suivantes sont demandées pour les lots 1, 2 et 3 : QUALIBAT 1552, ou équivalent.\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"1897A007\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"1) A titre indicatif, les travaux des tranches fermes débuteront le 9 juillet 2018.2) Une visite préalable à toute remise d'offre est fortement conseillée. Pour la visite sur site, prendre rendez-vous. Modalités d'accès aux écoles nantaises pendant le temps scolaire : le retrait des clés se fera à la Direction de l'Education - 11, Bd de Stalingrad - 2ème étage - Téléphone 02 40 41 98 02l'entreprise devra au préalable prendre contact avec le Directeur de l'établissement scolaire pour organiser sa visite :- Lot 1 - école élémentaire Urbain Leverrier - 02 40 49 62 72- Lot 2 - école élémentaire du Grand Carcouët - 02 40 76 09 46- Lot 3 - école élémentaire Maurice Macé - 02 40 49 39 57\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"TECH\": \"\"}, \"DENOMINATION\": \"Ville de NantesDépartement du B.A.T.I.\", \"CORRESPONDANT\": \"M. Stéphane LEROY\", \"ADRESSE\": \"11 Bd de Stalingrad\", \"CP\": \"44094\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"02-40-41-65-48\", \"MEL\": \"stephane.leroy@nantesmetropole.fr\"}, {\"TYPE\": {\"ADMIN\": \"\"}, \"DENOMINATION\": \"Ville de NantesDirection de la Commande publiqueService des Marchés publics\", \"CORRESPONDANT\": \"M. Christophe COTTA\", \"ADRESSE\": \"29 rue de Strasbourg\", \"CP\": \"44094\", \"VILLE\": \"Nantes cedex 01\", \"TEL\": \"02-40-41-51-15\", \"MEL\": \"christophe.cotta@mairie-nantes.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette - B.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette - B.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-11361"
-  },
-  {
    "idweb": "18-12822",
    "id": "18_12822",
    "contractfolderid": null,
@@ -6050,6 +5923,133 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-12873\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": [{\"REFERENCE\": {\"IDWEB\": \"17-165099\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-11-22\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-11-24\", \"DATE_FIN_DIFFUSION\": \"2018-01-08\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"227\", \"NUM_ANNONCE\": \"473005\", \"DATE_PUBLICATION\": \"2017-11-25\"}}]}, {\"REFERENCE\": {\"IDWEB\": \"17-179721\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}, \"DATE_ENVOI\": \"2017-12-21\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-12-23\", \"DATE_FIN_DIFFUSION\": \"2018-03-06\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"247\", \"NUM_ANNONCE\": \"520592\", \"DATE_PUBLICATION\": \"2017-12-23\"}}]}]}, \"NOM_HTML\": \"18-12873.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-31\", \"DATE_FIN_DIFFUSION\": \"2018-02-12\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"343\", \"LIBELLE\": \"Textile\"}}, \"DEP_PUBLICATION\": [\"57\", \"13\", \"71\", \"78\", \"72\", \"38\"], \"RESUME_OBJET\": \"Confection de vêtements d'uniformes (lots 1 à 6) et fourniture de jeans (lot 7) au profit des élèves des lycées militaires de l'Armée de Terre et de l'Armée de l'Air\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Plate Forme Achats Finances Nord Est\", \"CODE_IDENT_NATIONAL\": \"130 015 357 00010\", \"CONTACT\": \"Dervault Sébastien\", \"ADJUDICATEUR_NUTS\": \"FRF33\", \"ADRESSE\": \"PFAF NE Bureau achat public 10 rue d'Asfeld - BP 60004\", \"CP\": \"57044\", \"VILLE\": \"Metz\", \"TEL\": \"(+33) 3-87-15-51-85\", \"FAX\": \"(+33) 3-87-15-51-53\", \"MEL\": \"bap.pfaf-ne@terre-net.defense.gouv.fr\", \"URL\": \"http://www.marches-publics.gouv.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"DEF\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Confection de vêtements d'uniformes (lots 1 à 6) et fourniture de jeans (lot 7) au profit des élèves des lycées militaires de l'Armée de Terre et de l'Armée de l'Air\", \"REF_MARCHE\": \"17-245 du 25/09/2017\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Confection de vêtements d'uniformes (lots 1 à 6) et fourniture de jeans (lot 7) au profit des élèves des lycées militaires de l'Armée de Terre et de l'Armée de l'Air\", \"CPV\": {\"PRINCIPAL\": \"18223100\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-165099\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-11-22\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-11-24\", \"DATE_FIN_DIFFUSION\": \"2018-01-08\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"227\", \"NUM_ANNONCE\": \"473005\", \"DATE_PUBLICATION\": \"2017-11-25\"}}]}, \"MODIFICATION\": [{\"RUB_INIT\": \"IV.2.2\", \"APRES_MENTION\": \"Date limite de réception des offres ou des demandes de participation\", \"DATE\": {\"INIT\": \"2018-02-06\", \"LIRE\": \"2018-02-12\"}}, {\"RUB_INIT\": \"IV.2.7\", \"APRES_MENTION\": \"Date d'ouverture des offres\", \"DATE\": {\"INIT\": \"2018-02-07\", \"LIRE\": \"2018-02-13\"}}, {\"RUB_INIT\": \"VI.3\", \"APRES_MENTION\": \"Informations complémentaires - date et heure de remise des échantillons\", \"DATE\": {\"INIT\": \"2018-02-06\", \"LIRE\": \"2018-02-12\"}}]}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 29 janvier 2018.\"}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-12873"
+  },
+  {
+   "idweb": "18-11361",
+   "id": "18_11361",
+   "contractfolderid": null,
+   "objet": "Groupes scolaires du 1er degré - programme 2018 des travaux d'entretien durable - réfection des couvertures",
+   "filename": "BOAMP-N-AO_2018_031011",
+   "famille": "FNS",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2018-01-31",
+   "datefindiffusion": "2018-02-28",
+   "datelimitereponse": "2018-02-28T11:00:00+00:00",
+   "nomacheteur": "COMMUNE DE NANTES",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": "1",
+   "marche_public_simplifie_label": "Marché public simplifié",
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "74"
+   ],
+   "dc": [
+    "74"
+   ],
+   "descripteur_libelle": [
+    "Couverture"
+   ],
+   "type_marche": [
+    "TRAVAUX"
+   ],
+   "type_marche_facette": [
+    "Travaux"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-11361\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-11361.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-31\", \"DATE_LIMITE_REPONSE\": \"2018-02-28T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-02-28\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"74\", \"LIBELLE\": \"Couverture\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Groupes scolaires du 1er degré - programme 2018 des travaux d'entretien durable - réfection des couvertures\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"COMMUNE DE NANTES\", \"CORRESPONDANT\": \"Madame le Maire\", \"ADRESSE\": \"Département du B.A.T.I.11 Bd de Stalingrad\", \"CP\": \"44094\", \"VILLE\": \"Nantes cedex 1\", \"MEL\": \"christophe.cotta@mairie-nantes.fr\", \"URL\": \"https://www.nantes.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.nantesmetropole.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"TRAVAUX\": {\"EXECUTION\": \"\"}}, \"OBJET_COMPLET\": \"Groupes scolaires du 1er degré - Programme 2018 des travaux d'entretien durable - Réfection des couvertures\", \"CPV\": {\"PRINCIPAL\": \"45261210\"}, \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG01\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"01\", \"DESCRIPTION\": \"École élémentaire Urbain Leverrier - Bâtiment 1 (Tranche ferme)Restaurant scolaire Urbain Leverrier - Bâtiment 2 (Tranche optionnelle 1)\", \"CPV\": {\"PRINCIPAL\": \"45261210\"}, \"INFO_COMPL\": \"Les délais d'exécution des travaux de chacune des tranches pour le lot concerné (hors période de préparation de 6 semaines), sont de 7 semaines à compter de la date fixée dans l'ordre de service de démarrage des travaux.Le titulaire s'engage à avoir impérativement terminé ses prestations pour permettre la livraison de l'équipement au plus tard le 24 août 2018.\"}, {\"NUM\": \"02\", \"DESCRIPTION\": \"École élémentaire Grand Carcouët - Bâtiment 3 (Tranche ferme)\", \"CPV\": {\"PRINCIPAL\": \"45261210\"}, \"INFO_COMPL\": \"Le délais d'exécution, période de préparation de chantier incluse, est de 13 semaines(6 semaines de préparation et 7 semaines de travaux). Le début d'exécution de la période de préparation du marché part de la date précisée dans la lettre de notification. Le délai d'exécution des travaux court à compter de la date fixée dans l'ordre de service de démarrage des travaux.Le titulaire s'engage à avoir impérativement terminé ses prestations pour permettre la livraison de l'équipement au plus tard le 24 août 2018.\"}, {\"NUM\": \"03\", \"DESCRIPTION\": \"Restaurant scolaire Maurice Macé - Bâtiment 1 (Tranche ferme)\", \"CPV\": {\"PRINCIPAL\": \"45261210\"}, \"INFO_COMPL\": \"Le délais d'exécution, période de préparation de chantier incluse, est de 13 semaines(6 semaines de préparation et 7 semaines de travaux). Le début d'exécution de la période de préparation du marché part de la date précisée dans la lettre de notification. Le délai d'exécution des travaux court à compter de la date fixée dans l'ordre de service de démarrage des travaux.Le titulaire s'engage à avoir impérativement terminé ses prestations pour permettre la livraison de l'équipement au plus tard le 24 août 2018\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-02-28T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"5\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"Aptitude à exercer l'activité professionnelle, capacité économique et financière, capacités techniques et professionnelles.\", \"SITUATION_JURIDIQUE\": \"Lettre de candidature (imprimé DC1) que la candidature soit présentée à titre individuel ou en groupement.\", \"CAP_ECO\": \"Déclaration concernant le chiffre d'affaires global du candidat et, le cas échéant, le chiffre d'affaires du domaine d'activité faisant l'objet du marché public, portant au maximum sur les trois derniers exercices disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles (cadre D1 du document DC2 à remplir si utilisation de ce document).\", \"CAP_TECH\": \"- Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années (en annexe au DC2 si utilisation de ce document et tout document complémentaire).- Description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation du marché public (en annexe au DC2 si utilisation de ce document et tout document complémentaire).- Liste des travaux exécutés au cours des cinq dernières années, assortie d'attestations de bonne exécution pour les travaux les plus importants. Ces attestations indiquent le montant, la date et le lieu d'exécution des travaux et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin (en annexe au DC2 si utilisation de ce document et tout document complémentaire).\", \"CAP_TECH_NIVEAU_MINI\": \"Les qualifications suivantes sont demandées pour les lots 1, 2 et 3 : QUALIBAT 1552, ou équivalent.\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"1897A007\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"1) A titre indicatif, les travaux des tranches fermes débuteront le 9 juillet 2018.2) Une visite préalable à toute remise d'offre est fortement conseillée. Pour la visite sur site, prendre rendez-vous. Modalités d'accès aux écoles nantaises pendant le temps scolaire : le retrait des clés se fera à la Direction de l'Education - 11, Bd de Stalingrad - 2ème étage - Téléphone 02 40 41 98 02l'entreprise devra au préalable prendre contact avec le Directeur de l'établissement scolaire pour organiser sa visite :- Lot 1 - école élémentaire Urbain Leverrier - 02 40 49 62 72- Lot 2 - école élémentaire du Grand Carcouët - 02 40 76 09 46- Lot 3 - école élémentaire Maurice Macé - 02 40 49 39 57\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"TECH\": \"\"}, \"DENOMINATION\": \"Ville de NantesDépartement du B.A.T.I.\", \"CORRESPONDANT\": \"M. Stéphane LEROY\", \"ADRESSE\": \"11 Bd de Stalingrad\", \"CP\": \"44094\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"02-40-41-65-48\", \"MEL\": \"stephane.leroy@nantesmetropole.fr\"}, {\"TYPE\": {\"ADMIN\": \"\"}, \"DENOMINATION\": \"Ville de NantesDirection de la Commande publiqueService des Marchés publics\", \"CORRESPONDANT\": \"M. Christophe COTTA\", \"ADRESSE\": \"29 rue de Strasbourg\", \"CP\": \"44094\", \"VILLE\": \"Nantes cedex 01\", \"TEL\": \"02-40-41-51-15\", \"MEL\": \"christophe.cotta@mairie-nantes.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette - B.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette - B.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-11361"
+  },
+  {
+   "idweb": "18-13307",
+   "id": "18_13307",
+   "contractfolderid": null,
+   "objet": "Fourniture de fruits et légumes, boulangerie et lait",
+   "filename": "BOAMP-J-IC-AA_2018_031004",
+   "famille": "JOUE",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-01-31",
+   "datefindiffusion": "2018-03-09",
+   "datelimitereponse": null,
+   "nomacheteur": "Ville de Rezé",
+   "titulaire": [
+    "TERRE AZUR Pays de Loire",
+    "FL 44",
+    "MARAIS NANTES SAS",
+    "TRADEOZ",
+    "POMONA PASSION FROID"
+   ],
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "ATTRIBUTION",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "88"
+   ],
+   "dc": [
+    "88"
+   ],
+   "descripteur_libelle": [
+    "Denrées alimentaires"
+   ],
+   "type_marche": [
+    "FOURNITURES"
+   ],
+   "type_marche_facette": [
+    "Fournitures"
+   ],
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "17-130790",
+    "17-140482"
+   ],
+   "annonces_anterieures": "[{\"REFERENCE\": {\"IDWEB\": \"17-130790\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-09-15\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-09-17\", \"DATE_FIN_DIFFUSION\": \"2017-10-16\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"180\", \"NUM_ANNONCE\": \"368131\", \"DATE_PUBLICATION\": \"2017-09-20\"}}]}, {\"REFERENCE\": {\"IDWEB\": \"17-140482\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}, \"DATE_ENVOI\": \"2017-10-05\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-10-07\", \"DATE_FIN_DIFFUSION\": \"2017-11-06\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"194\", \"NUM_ANNONCE\": \"398166\", \"DATE_PUBLICATION\": \"2017-10-10\"}}]}]",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-13307\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": [{\"REFERENCE\": {\"IDWEB\": \"17-130790\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2017-09-15\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-09-17\", \"DATE_FIN_DIFFUSION\": \"2017-10-16\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"180\", \"NUM_ANNONCE\": \"368131\", \"DATE_PUBLICATION\": \"2017-09-20\"}}]}, {\"REFERENCE\": {\"IDWEB\": \"17-140482\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"AUTRE\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}, \"DATE_ENVOI\": \"2017-10-05\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-10-07\", \"DATE_FIN_DIFFUSION\": \"2017-11-06\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2017\", \"NUM_PARUTION\": \"194\", \"NUM_ANNONCE\": \"398166\", \"DATE_PUBLICATION\": \"2017-10-10\"}}]}]}, \"NOM_HTML\": \"18-13307.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-01-31\", \"DATE_FIN_DIFFUSION\": \"2018-03-09\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"88\", \"LIBELLE\": \"Denrées alimentaires\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Fourniture de fruits et légumes, boulangerie et lait\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Rezé\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"place Jean-Baptiste-Daviais BP 159\", \"CP\": \"44403\", \"VILLE\": \"REZE\", \"MEL\": \"administration@mairie-reze.fr\", \"URL\": \"http://www.reze.fr/La-mairie/Marches-publics/\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.info\", \"URL_INFORMATION\": \"http://mairie-reze.marcoweb.fr/\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de fruits et légumes, boulangerie et lait\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Fourniture de fruits et légumes, boulangerie et lait\", \"CPV\": {\"PRINCIPAL\": \"15800000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"896000.00\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"Lot 1-16\", \"DESCRIPTION\": \"Marché subséquent multi-attributaires\", \"CPV\": {\"PRINCIPAL\": \"15300000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"55.0\", \"#text\": \"Valeur technique\"}, {\"@POIDS\": \"10.0\", \"#text\": \"Performance en matière de RSE\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"35.0\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"Lot 2-17\", \"DESCRIPTION\": \"Marché à bon de commande mono-attributaire\", \"CPV\": {\"PRINCIPAL\": \"15811100\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"55.0\", \"#text\": \"Valeur technique\"}, {\"@POIDS\": \"10.0\", \"#text\": \"Performance en matière de RSE\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"35.0\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"Lot 3-18\", \"DESCRIPTION\": \"Marché à bon de commande mono-attributaire\", \"CPV\": {\"PRINCIPAL\": \"15511210\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"55.0\", \"#text\": \"Valeur technique\"}, {\"@POIDS\": \"10.0\", \"#text\": \"Performance en matière de RSE\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"35.0\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\"}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"1707701\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Fruits et légumes frais / fruits biologiques\", \"TITULAIRE\": {\"DENOMINATION\": \"TERRE AZUR Pays de Loire\", \"ADRESSE\": \"4, rue Nicolas Appert ZAC de la Brosse\", \"CP\": \"44400\", \"VILLE\": \"REZE\", \"CODE_NUTS\": \"FR\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-28\", \"NB_OFFRE_RECU\": \"5\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"640000.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"1707701\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Fruits et légumes frais / fruits biologiques\", \"TITULAIRE\": {\"DENOMINATION\": \"FL 44\", \"ADRESSE\": \"Rue Thomas Edison ZAC de Brais\", \"CP\": \"44600\", \"VILLE\": \"SAINT NAZAIRE\", \"CODE_NUTS\": \"FR\", \"TEL\": \"(+33) -40-01-78-78\", \"FAX\": \"(+33) -40-01-78-79\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-28\", \"NB_OFFRE_RECU\": \"5\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"640000.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"1707701\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Fruits et légumes frais / fruits biologiques\", \"TITULAIRE\": {\"DENOMINATION\": \"MARAIS NANTES SAS\", \"ADRESSE\": \"1, rue de l'Atlantique BP 12\", \"CP\": \"44840\", \"VILLE\": \"LES SORINIÈRES\", \"CODE_NUTS\": \"FR\", \"TEL\": \"(+33) -51-72-96-96\", \"FAX\": \"(+33) -40-47-44-72\", \"MEL\": \"pascal@marais.fr\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-28\", \"NB_OFFRE_RECU\": \"5\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"640000.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"1707702\", \"NUM_LOT\": \"2\", \"INTITULE\": \"Boulangerie\", \"TITULAIRE\": {\"DENOMINATION\": \"TRADEOZ\", \"ADRESSE\": \"1, rue Joset Belami ZA La Teillais\", \"CP\": \"35740\", \"VILLE\": \"PACE\", \"CODE_NUTS\": \"FR\", \"TEL\": \"(+33) -99-85-35-26\", \"FAX\": \"(+33) -99-85-36-28\", \"MEL\": \"tradeozrennes@orange.fr\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-28\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"160000.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"1707703\", \"NUM_LOT\": \"3\", \"INTITULE\": \"Lait-\", \"TITULAIRE\": {\"DENOMINATION\": \"POMONA PASSION FROID\", \"ADRESSE\": \"Rue Véga BP 40137\", \"CP\": \"44471\", \"VILLE\": \"CARQUEFOU CEDEX\", \"CODE_NUTS\": \"FR\", \"TEL\": \"(+33) -40-18-27-55\", \"FAX\": \"(+33) -40-18-27-33\", \"MEL\": \"passionfroid_ouest@sendao.fr\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-12-28\", \"NB_OFFRE_RECU\": \"1\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"96000.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La consultation du(des) contrat(s) peut etre effectuée à l'adresse de l'organisme acheteur. Les tiers justifiant d'un intéret lésé peuvent exercer un recours de pleine juridiction devant le juge administratif dans un délai de deux mois à compter de la publication du présent avis.. Date d'envoi du présent avis au JOUE et au BOAMP : 29 janvier 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"8, allée de l'île Gloriette\", \"CP\": \"44000\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr/\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"8, allée de l'île Gloriette\", \"CP\": \"44000\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr/\"}]}}, \"ANNEXE_D1\": \"\"}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-13307"
   },
   {
    "idweb": "18-12852",

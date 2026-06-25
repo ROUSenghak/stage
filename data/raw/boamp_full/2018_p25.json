@@ -3290,63 +3290,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-135254"
   },
   {
-   "idweb": "18-134620",
-   "id": "18_134620",
-   "contractfolderid": null,
-   "objet": "Location d'une machine à affranchir - Année 2019 renouvelable en 2020, 2021, 2022 et 2023",
-   "filename": "MAPA-AO_2018_270001",
-   "famille": "MAPA",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés <90 k€ (MAPA)",
-   "dateparution": "2018-09-27",
-   "datefindiffusion": "2018-10-22",
-   "datelimitereponse": null,
-   "nomacheteur": "Le Mans Métropole - Communauté Urbaine",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "RECTIFICATIF",
-   "descripteur_code": [
-    "207"
-   ],
-   "dc": [
-    "207"
-   ],
-   "descripteur_libelle": [
-    "Matériel de bureau"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": [
-    "18-127732"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"18-127732\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-09-13\", \"DATE_FIN_DIFFUSION\": \"2018-10-11\"}}}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-134620\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-127732\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-09-13\", \"DATE_FIN_DIFFUSION\": \"2018-10-11\"}}}}, \"NOM_HTML\": \"18-134620.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-09-27\", \"DATE_FIN_DIFFUSION\": \"2018-10-22\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"207\", \"LIBELLE\": \"Matériel de bureau\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Location d'une machine à affranchir - Année 2019 renouvelable en 2020, 2021, 2022 et 2023\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Le Mans Métropole - Communauté Urbaine\", \"CORRESPONDANT\": \"Le Président\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, CS 40010 - 16 avenue François Mitterrand - Le Condorcet, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"Le Mans\", \"TEL\": \"02-43-47-37-31\", \"FAX\": \"02-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Location d'une machine à affranchir - Année 2019 renouvelable en 2020, 2021, 2022 et 2023\", \"CPV\": {\"PRINCIPAL\": \"30131400\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-127732\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-09-13\", \"DATE_FIN_DIFFUSION\": \"2018-10-11\"}}}, \"MODIFICATION\": {\"RUB_INIT\": \"Date limite de réception des offres\", \"TXT_INIT\": \"2018-10-11T17:00:00+01:00\", \"LIRE\": \"2018-10-22T17:00:00+01:00\"}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-134620"
-  },
-  {
    "idweb": "18-132616",
    "id": "18_132616",
    "contractfolderid": null,
@@ -3404,6 +3347,63 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-132616\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-132616.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-09-27\", \"DATE_FIN_DIFFUSION\": \"2018-11-05\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"20\", \"LIBELLE\": \"Assurance\"}}, \"DEP_PUBLICATION\": \"53\", \"RESUME_OBJET\": \"PRESTATION D ASSURANCES DOMMAGES AUX BIENS ET RISQUES STATUTAIRES POUR LE CENTRE HOSPITALIER DE LAVAL\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CENTRE HOSPITALIER DE LAVAL\", \"CODE_IDENT_NATIONAL\": \"265 300 236 00014\", \"CONTACT\": \"Marie-Laure BRIARD\", \"ADJUDICATEUR_NUTS\": \"FRG03\", \"ADRESSE\": \"33 RUE DU HAUT ROCHER CS 91525\", \"CP\": \"53015\", \"VILLE\": \"LAVAL\", \"TEL\": \"(+33) -02-43-66-50-02\", \"MEL\": \"marie-laure.briard@chlaval.fr\", \"URL\": \"http://www.achat-hopital.com/\", \"URL_PROFIL_ACHETEUR\": \"http://www.achat-hopital.com/\", \"URL_PARTICIPATION\": \"https://www.achat-hopital.com/\", \"URL_DOCUMENT\": \"https://plateforme.achat-hopital.com/index.php?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=1548&orgAcronyme=53HLA01\", \"URL_OUTIL_LOGICIEL\": \"https://www.achat-hopital.com/\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"ETABLISSEMENT DE SANTE\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"PRESTATION D ASSURANCES DOMMAGES AUX BIENS ET RISQUES STATUTAIRES POUR LE CENTRE HOSPITALIER DE LAVAL\", \"REF_MARCHE\": \"AO_ASSURANCE_DAB_ET_STAT_2018_06\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"PRESTATION D ASSURANCES DOMMAGES AUX BIENS ET RISQUES STATUTAIRES POUR LE CENTRE HOSPITALIER DE LAVAL\", \"CPV\": {\"PRINCIPAL\": \"66515200\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"NB_LOT_ATTRIB_MAX\": \"2\", \"LOTS_RESERVE_POUVOIR_ADJUDICATEUR\": \"NEANT\", \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Assurance Dommages aux biens et risques annexes\", \"DESCRIPTION\": \"Assurance Dommages aux biens et risques annexes\", \"CPV\": {\"PRINCIPAL\": \"66515200\"}, \"CODE_NUTS\": \"FRG03\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Les contrats sont souscrits à effet du 1ER JANVIER 2019 pour une durée de 12 mois, reconductible de manière expresse 3 fois par période de 12 mois, soit jusqu'au 31 DECEMBRE 2022, avec faculté pour les deux parties de résiliation annuelle sous préavis de 4 mois avant l'échéance du 1er janvier.\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Assurance Risques statutaires du personnel\", \"DESCRIPTION\": \"Assurance Risques statutaires du personnel\", \"CPV\": {\"PRINCIPAL\": \"66512000\"}, \"CODE_NUTS\": \"FRG03\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Les contrats sont souscrits à effet du 1ER JANVIER 2019 pour une durée de 12 mois, reconductible de manière expresse 3 fois par période de 12 mois, soit jusqu'au 31 DECEMBRE 2022, avec faculté pour les deux parties de résiliation annuelle sous préavis de 4 mois avant l'échéance du 1er janvier.\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-11-05T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"6\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO_MARCHE_OUI\": \"\", \"CAP_TECH_OFFRE_OUI\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_OUI\": \"Référence des dispositions législatives, réglementaires ou administratives applicables : Le marché est réservé aux entreprises d'assurances et personnes habilitées à présenter des opérations d'assurance en vertu des articles L.310-1 et suivants, L.500, L.500-1 et L.511-1 et suivants du Code des assurances ou équivalent pour les candidats européens.\", \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-11-05\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_OUI\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 24 septembre 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette - B.P 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) -02-40-99-46-00\", \"FAX\": \"(+33) -02-40-99-46-58\", \"MEL\": \"greffe.ta.nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr/\"}}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-132616"
+  },
+  {
+   "idweb": "18-134620",
+   "id": "18_134620",
+   "contractfolderid": null,
+   "objet": "Location d'une machine à affranchir - Année 2019 renouvelable en 2020, 2021, 2022 et 2023",
+   "filename": "MAPA-AO_2018_270001",
+   "famille": "MAPA",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés <90 k€ (MAPA)",
+   "dateparution": "2018-09-27",
+   "datefindiffusion": "2018-10-22",
+   "datelimitereponse": null,
+   "nomacheteur": "Le Mans Métropole - Communauté Urbaine",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "RECTIFICATIF",
+   "descripteur_code": [
+    "207"
+   ],
+   "dc": [
+    "207"
+   ],
+   "descripteur_libelle": [
+    "Matériel de bureau"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": [
+    "18-127732"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"18-127732\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-09-13\", \"DATE_FIN_DIFFUSION\": \"2018-10-11\"}}}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-134620\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-127732\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-09-13\", \"DATE_FIN_DIFFUSION\": \"2018-10-11\"}}}}, \"NOM_HTML\": \"18-134620.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-09-27\", \"DATE_FIN_DIFFUSION\": \"2018-10-22\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"207\", \"LIBELLE\": \"Matériel de bureau\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Location d'une machine à affranchir - Année 2019 renouvelable en 2020, 2021, 2022 et 2023\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Le Mans Métropole - Communauté Urbaine\", \"CORRESPONDANT\": \"Le Président\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, CS 40010 - 16 avenue François Mitterrand - Le Condorcet, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"Le Mans\", \"TEL\": \"02-43-47-37-31\", \"FAX\": \"02-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Location d'une machine à affranchir - Année 2019 renouvelable en 2020, 2021, 2022 et 2023\", \"CPV\": {\"PRINCIPAL\": \"30131400\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-127732\", \"TYPE_AVIS\": {\"FAMILLE\": {\"MAPA\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-09-13\", \"DATE_FIN_DIFFUSION\": \"2018-10-11\"}}}, \"MODIFICATION\": {\"RUB_INIT\": \"Date limite de réception des offres\", \"TXT_INIT\": \"2018-10-11T17:00:00+01:00\", \"LIRE\": \"2018-10-22T17:00:00+01:00\"}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-134620"
   },
   {
    "idweb": "18-128455",
@@ -4149,65 +4149,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-133770"
   },
   {
-   "idweb": "18-134314",
-   "id": "18_134314",
-   "contractfolderid": null,
-   "objet": "Fourniture de vestes et de pantalons de protection textile destinés à l'activité des Sapeur-Pompiers du SDIS 44",
-   "filename": "BOAMP-J-AO_2018_271009",
-   "famille": "JOUE",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-09-28",
-   "datefindiffusion": "2018-10-09",
-   "datelimitereponse": null,
-   "nomacheteur": "SDIS 44",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "343"
-   ],
-   "dc": [
-    "343"
-   ],
-   "descripteur_libelle": [
-    "Textile"
-   ],
-   "type_marche": [
-    "FOURNITURES"
-   ],
-   "type_marche_facette": [
-    "Fournitures"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-134314\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-134314.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-09-28\", \"DATE_FIN_DIFFUSION\": \"2018-10-09\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"343\", \"LIBELLE\": \"Textile\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Fourniture de vestes et de pantalons de protection textile destinés à l'activité des Sapeur-Pompiers du SDIS 44\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"SDIS 44\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"12 rue Arago BP4309\", \"CP\": \"44243\", \"VILLE\": \"La chapelle sur erdre\", \"TEL\": \"(+33) 2-28-09-81-00\", \"MEL\": \"service_marches_publics@sdis44.fr\", \"URL\": \"http://www.sdis44.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.achatpublic.com/sdm/ent/gen/index.jsp\", \"URL_PARTICIPATION\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2018_t5JJ0c5MaS\", \"URL_DOCUMENT\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2018_t5JJ0c5MaS\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Service départemental d'incendie et de secours\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de vestes et de pantalons de protection textile destinés à l'activité des Sapeur-Pompiers du SDIS 44\", \"REF_MARCHE\": \"SDIS44/VESTES ET PANTALONS SP\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Fourniture de vestes et de pantalons de protection textile destinés à l'activité des Sapeur-Pompiers du Service Départemental d'Incendie et de Secours de Loire Atlantique.\", \"CPV\": {\"PRINCIPAL\": \"18100000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"La présente consultation est passée par Appel d'offres ouvert européen conformément aux articles 25, 66 à 68 du décret no 2016-360 du 25 mars 2016.Il s'agit d'un accord cadre mono attributaire qui s'exécute : - pour une partie par l'émission de bons de commande, lorsque toutes les stipulations contractuelles sont fixées au présent accord cadre, - pour une partie par la conclusion de marchés subséquents, lorsque toutes les stipulations contractuelles ne sont pas fixées au présent accord cadre.En application de l'article 78 du décret précité, les valeurs d'exécution sont les suivantes :- Montant minimum pour 1 an : 75 000 euro(s) HT- Montant maximum pour 1 an : 300 000 euro(s) HTIl s'agit d'un accord cadre non alloti. Le présent accord cadre est conclu pour une durée de 1 an, reconductible tacitement 3 fois, sans que la durée maximale puisse excéder 4 ans. Il prend effet à la date de réception de la notification par le titulaire.Le délai de livraison est fixé à 80 jours calendaires maximum. Le délai de garantie est fixé à 24 mois minimum.Afin de juger de la valeur technique des produits, le candidat doit joindre obligatoirement, avec le dossier d'offres 2 exemplaires de chacun des articles suivants : - Vestes d'intervention en taille 104 L (sans marquage dorsal)- Pantalons d'intervention en taille 2 L\", \"CPV\": {\"PRINCIPAL\": \"18100000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le présent accord cadre est conclu pour une durée de 1 an, reconductible tacitement 3 fois, sans que la durée maximale puisse excéder 4 ans. Il prend effet à la date de réception de la notification par le titulaire.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"La publication du prochain marché interviendra avant l'échéance du présent marché\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-10-30T16:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"La lettre de candidature (formulaire DC1 - OBLIGATOIRE), contenant notamment les attestations sur l'honneur en application des articles 45 et 48 de l'ordonnance 2015-899. Tout renseignement permettant d'évaluer l'aptitude à exercer l'activité professionnelle, la capacité économique et financière et les capacités professionnelles et techniques (Attestation du SDIS 44 CONSEILLÉE)Une assurance garantissant les tiers en cas d'accidents ou de dommages causés par l'exécution des prestations\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-10-31\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Conditions de retrait du dossier de consultation des entreprises : www.achatpublic.com aussi accessible via le site du sdis 44: www.sdis44.frConditions de remise des offres : Voie dématérialisée : www.achatpublic.com aussi accessible via le site du sdis 44: www.sdis44.frOu adresse postale : M. le président du Sdis44 -Service marchés publics - 12 rue Arago - B.P. 4309 - 44243 La Chapelle sur Erdre Cedex. Les offres devront être adressées par pli recommandé avec avis de réception postal ou remises contre récépissé à l'accueil du SDIS du lundi au vendredi de 8h30 à 17h00 à l'adresse ci-dessus.Pour obtenir tous les renseignements complémentaires qui leur seraient nécessaires au cours de leur étude, les candidats doivent faire parvenir une demande écrite au SDIS 44, par voie dématérialisée à l'adresse suivante : www.achatpublic.comHotline achatpublic.com : +33 892232120. Date d'envoi du présent avis au JOUE et au BOAMP : 26 septembre 2018.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"- référé précontractuel (CJA, art. L. 551-1 et s. pour les pouvoirs adjudicateurs et art. L 551-5 et s. pour les entités adjudicatrices) ;- référé contractuel (CJA, art. L. 551-13 et s.).- recours en contestation de validité du contrat, issu de la jurisprudence \\\" Tarn-et-Garonne \\\", qui peut être exercé par les tiers au contrat, sans considération de leur qualité, dans un délai de 2 mois à compter des mesures de publicité appropriées\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'ile gloriette B.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"nantes\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'ile gloriette B.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"nantes\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-134314"
-  },
-  {
    "idweb": "18-135446",
    "id": "18_135446",
    "contractfolderid": null,
@@ -4327,6 +4268,65 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-135925\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-135925.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-09-28\", \"DATE_LIMITE_REPONSE\": \"2018-11-12T17:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-11-12\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"45\", \"LIBELLE\": \"Cd, DVD\"}, {\"CODE\": \"184\", \"LIBELLE\": \"Livres\"}]}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"FOURNITURE DE DOCUMENTS TOUS SUPPORTS POUR LE RESEAU INTERCOMMUNAL DES BIBLIOTHEQUES\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"cc du Pays de Mortagne\", \"CORRESPONDANT\": \"M. Gérard HERAULT, Président\", \"ADRESSE\": \"21 rue Johannes GutenbergPôle du Landreau - CS 80055\", \"CP\": \"85130\", \"VILLE\": \"La Verrie\", \"TEL\": \"(+33) 2-51-63-06-06\", \"FAX\": \"(+33) 2-51-65-23-95\", \"MEL\": \"estelle.fay@mortagne-vendee.fr\", \"URL\": \"https://www.cc-mortagne-vendee.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-securises.fr\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"FOURNITURES\": {\"ACHAT\": \"\"}}, \"OBJET_COMPLET\": \"FOURNITURE DE DOCUMENTS TOUS SUPPORTS POUR LE RESEAU INTERCOMMUNAL DES BIBLIOTHEQUES\", \"CPV\": [{\"PRINCIPAL\": \"22113000\"}, {\"PRINCIPAL\": \"30234400\"}, {\"PRINCIPAL\": \"30234300\"}], \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"21 Rue Johannes Gutenberg - Pôle du Landreau\", \"CP\": \"85130\", \"VILLE\": \"LA VERRIE\", \"CODE_NUTS\": \"FRG05\"}, \"AVIS_CORRESPOND\": {\"AVIS_PERIODIQUE_INDICATIF\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\", \"DUREE_AN\": \"3\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"186600\"}}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Acquisition de livres, de DVD et de CD audio pour les besoins du réseau intercommunal des bibliothèques de la Communauté de Communes du Pays de Mortagne\", \"QUANTITE\": \"FOURNITURE DE DOCUMENTS TOUS SUPPORTS POUR LE RESEAU INTERCOMMUNAL DES BIBLIOTHEQUES\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"186600\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"36\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Romans de littérature adulte\", \"DESCRIPTION\": \"Romans de littérature adulte\", \"CPV\": {\"PRINCIPAL\": \"22113000\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"45000\"}, \"DUREE_MOIS\": \"36\"}, {\"NUM\": \"2\", \"INTITULE\": \"Livres de fiction jeunesse (hors bandes dessinées)\", \"DESCRIPTION\": \"Livres de fiction jeunesse (hors bandes dessinées)\", \"CPV\": {\"PRINCIPAL\": \"22113000\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"32100\"}, \"DUREE_MOIS\": \"36\"}, {\"NUM\": \"3\", \"INTITULE\": \"Bandes dessinées adultes et jeunesse\", \"DESCRIPTION\": \"Bandes dessinées adultes et jeunesse\", \"CPV\": {\"PRINCIPAL\": \"22113000\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"27600\"}, \"DUREE_MOIS\": \"36\"}, {\"NUM\": \"4\", \"INTITULE\": \"Documentaires adultes et enfants\", \"DESCRIPTION\": \"Documentaires adultes et enfants\", \"CPV\": {\"PRINCIPAL\": \"22113000\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"53100\"}, \"DUREE_MOIS\": \"36\"}, {\"NUM\": \"5\", \"INTITULE\": \"DVD\", \"DESCRIPTION\": \"DVD-DVD\", \"CPV\": {\"PRINCIPAL\": \"30234400\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"17400\"}, \"DUREE_MOIS\": \"36\"}, {\"NUM\": \"6\", \"INTITULE\": \"CD audio\", \"DESCRIPTION\": \"CD audio\", \"CPV\": {\"PRINCIPAL\": \"30234300\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"8400\"}, \"DUREE_MOIS\": \"36\"}, {\"NUM\": \"7\", \"INTITULE\": \"Romans policiers, romans d'anticipation et science-fiction et livres en gros caractères pour adultes\", \"DESCRIPTION\": \"Romans policiers, romans d'anticipation et science-fiction et livres en gros caractères pour adultes\", \"CPV\": {\"PRINCIPAL\": \"22113000\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"3000\"}, \"DUREE_MOIS\": \"36\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"70\", \"#text\": \"valeur technique\"}, {\"@POIDS\": \"20\", \"#text\": \"délais\"}, {\"@POIDS\": \"10\", \"#text\": \"prix\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-11-12T17:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": \"Les documents à produire par les soumissionnaires et par l'attributaire lors de l'attribution du marché sont énoncés dans le règlement de la consultation.\"}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"CC-Pays-Mortagne_85_A_20180928W_\", \"DOCUMENT_PAYANT_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Pour les lots 5 et 6, un critère d'attribution est ajouté à ceux énoncés pour les lots 1 à 4 et 7. Il s'agit de la qualité des services dont la pondération est fixée à 20%\"}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-135925"
+  },
+  {
+   "idweb": "18-134314",
+   "id": "18_134314",
+   "contractfolderid": null,
+   "objet": "Fourniture de vestes et de pantalons de protection textile destinés à l'activité des Sapeur-Pompiers du SDIS 44",
+   "filename": "BOAMP-J-AO_2018_271009",
+   "famille": "JOUE",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-09-28",
+   "datefindiffusion": "2018-10-09",
+   "datelimitereponse": null,
+   "nomacheteur": "SDIS 44",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "343"
+   ],
+   "dc": [
+    "343"
+   ],
+   "descripteur_libelle": [
+    "Textile"
+   ],
+   "type_marche": [
+    "FOURNITURES"
+   ],
+   "type_marche_facette": [
+    "Fournitures"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-134314\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-134314.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-09-28\", \"DATE_FIN_DIFFUSION\": \"2018-10-09\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"343\", \"LIBELLE\": \"Textile\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Fourniture de vestes et de pantalons de protection textile destinés à l'activité des Sapeur-Pompiers du SDIS 44\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"SDIS 44\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"12 rue Arago BP4309\", \"CP\": \"44243\", \"VILLE\": \"La chapelle sur erdre\", \"TEL\": \"(+33) 2-28-09-81-00\", \"MEL\": \"service_marches_publics@sdis44.fr\", \"URL\": \"http://www.sdis44.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.achatpublic.com/sdm/ent/gen/index.jsp\", \"URL_PARTICIPATION\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2018_t5JJ0c5MaS\", \"URL_DOCUMENT\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2018_t5JJ0c5MaS\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Service départemental d'incendie et de secours\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de vestes et de pantalons de protection textile destinés à l'activité des Sapeur-Pompiers du SDIS 44\", \"REF_MARCHE\": \"SDIS44/VESTES ET PANTALONS SP\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Fourniture de vestes et de pantalons de protection textile destinés à l'activité des Sapeur-Pompiers du Service Départemental d'Incendie et de Secours de Loire Atlantique.\", \"CPV\": {\"PRINCIPAL\": \"18100000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"La présente consultation est passée par Appel d'offres ouvert européen conformément aux articles 25, 66 à 68 du décret no 2016-360 du 25 mars 2016.Il s'agit d'un accord cadre mono attributaire qui s'exécute : - pour une partie par l'émission de bons de commande, lorsque toutes les stipulations contractuelles sont fixées au présent accord cadre, - pour une partie par la conclusion de marchés subséquents, lorsque toutes les stipulations contractuelles ne sont pas fixées au présent accord cadre.En application de l'article 78 du décret précité, les valeurs d'exécution sont les suivantes :- Montant minimum pour 1 an : 75 000 euro(s) HT- Montant maximum pour 1 an : 300 000 euro(s) HTIl s'agit d'un accord cadre non alloti. Le présent accord cadre est conclu pour une durée de 1 an, reconductible tacitement 3 fois, sans que la durée maximale puisse excéder 4 ans. Il prend effet à la date de réception de la notification par le titulaire.Le délai de livraison est fixé à 80 jours calendaires maximum. Le délai de garantie est fixé à 24 mois minimum.Afin de juger de la valeur technique des produits, le candidat doit joindre obligatoirement, avec le dossier d'offres 2 exemplaires de chacun des articles suivants : - Vestes d'intervention en taille 104 L (sans marquage dorsal)- Pantalons d'intervention en taille 2 L\", \"CPV\": {\"PRINCIPAL\": \"18100000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le présent accord cadre est conclu pour une durée de 1 an, reconductible tacitement 3 fois, sans que la durée maximale puisse excéder 4 ans. Il prend effet à la date de réception de la notification par le titulaire.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"La publication du prochain marché interviendra avant l'échéance du présent marché\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-10-30T16:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"La lettre de candidature (formulaire DC1 - OBLIGATOIRE), contenant notamment les attestations sur l'honneur en application des articles 45 et 48 de l'ordonnance 2015-899. Tout renseignement permettant d'évaluer l'aptitude à exercer l'activité professionnelle, la capacité économique et financière et les capacités professionnelles et techniques (Attestation du SDIS 44 CONSEILLÉE)Une assurance garantissant les tiers en cas d'accidents ou de dommages causés par l'exécution des prestations\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-10-31\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Conditions de retrait du dossier de consultation des entreprises : www.achatpublic.com aussi accessible via le site du sdis 44: www.sdis44.frConditions de remise des offres : Voie dématérialisée : www.achatpublic.com aussi accessible via le site du sdis 44: www.sdis44.frOu adresse postale : M. le président du Sdis44 -Service marchés publics - 12 rue Arago - B.P. 4309 - 44243 La Chapelle sur Erdre Cedex. Les offres devront être adressées par pli recommandé avec avis de réception postal ou remises contre récépissé à l'accueil du SDIS du lundi au vendredi de 8h30 à 17h00 à l'adresse ci-dessus.Pour obtenir tous les renseignements complémentaires qui leur seraient nécessaires au cours de leur étude, les candidats doivent faire parvenir une demande écrite au SDIS 44, par voie dématérialisée à l'adresse suivante : www.achatpublic.comHotline achatpublic.com : +33 892232120. Date d'envoi du présent avis au JOUE et au BOAMP : 26 septembre 2018.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"- référé précontractuel (CJA, art. L. 551-1 et s. pour les pouvoirs adjudicateurs et art. L 551-5 et s. pour les entités adjudicatrices) ;- référé contractuel (CJA, art. L. 551-13 et s.).- recours en contestation de validité du contrat, issu de la jurisprudence \\\" Tarn-et-Garonne \\\", qui peut être exercé par les tiers au contrat, sans considération de leur qualité, dans un délai de 2 mois à compter des mesures de publicité appropriées\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'ile gloriette B.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"nantes\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'ile gloriette B.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"nantes\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-134314"
   },
   {
    "idweb": "18-131892",
@@ -4506,65 +4506,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-134201"
   },
   {
-   "idweb": "18-136052",
-   "id": "18_136052",
-   "contractfolderid": null,
-   "objet": "Fourniture de détecteurs de gaz monogaz, multigaz électrochimique et multigaz à détection par photo-ionisation (PID), portables et reconditionnables",
-   "filename": "BOAMP-N-AO_2018_271011",
-   "famille": "FNS",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2018-09-28",
-   "datefindiffusion": "2018-11-05",
-   "datelimitereponse": "2018-11-05T15:00:00+00:00",
-   "nomacheteur": "SDIS 44",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "209"
-   ],
-   "dc": [
-    "209"
-   ],
-   "descripteur_libelle": [
-    "Matériel de sécurité"
-   ],
-   "type_marche": [
-    "FOURNITURES"
-   ],
-   "type_marche_facette": [
-    "Fournitures"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-136052\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-136052.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-09-28\", \"DATE_LIMITE_REPONSE\": \"2018-11-05T16:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-11-05\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"209\", \"LIBELLE\": \"Matériel de sécurité\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Fourniture de détecteurs de gaz monogaz, multigaz électrochimique et multigaz à détection par photo-ionisation (PID), portables et reconditionnables\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"SDIS 44\", \"CORRESPONDANT\": \"M. Monsieur Le président, gestionnaire marché public\", \"ADRESSE\": \"ZAC de Gesvrine 12, rue Arago BP 4309\", \"CP\": \"44243\", \"VILLE\": \"La chapelle sur erdre\", \"TEL\": \"02-28-09-81-99\", \"MEL\": \"marches.publics@sdis44.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.achatpublic.com/sdm/ent/gen/index.jsp\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Service départemental d'incendie et de secours\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"FOURNITURES\": {\"ACHAT\": \"\"}}, \"OBJET_COMPLET\": \"Fourniture de détecteurs de gaz monogaz, multigaz électrochimique et multigaz à détection par photo-ionisation (PID), portables et reconditionnables\", \"CPV\": {\"PRINCIPAL\": \"31642000\"}, \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG01\"}, \"AMP_NON\": \"\", \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"La présente consultation est passée sous la forme d'un Marché à Procédure Adaptée conformément à l'article 27 du Décret no 2016-360 du 25 mars 2016. Il s'agit d'un accord cadre mono attributaire qui s'exécute : - pour une partie par l'émission de bons de commande, lorsque toutes les stipulations contractuelles sont fixées au présent accord-cadre (achat sur BPU et annexe 1 - Liste d'articles complémentaires).- pour une partie par la conclusion de marchés subséquents, lorsque toutes les stipulations contractuelles ne sont pas fixées au présent accord-cadre (achat hors BPU et annexe 1 : Liste d'articles complémentaires).dont les valeurs d'exécution sont les suivantes : - Montant minimum pour 2 ans : 20 000 euro(s) HT- Montant maximum pour 2 ans : 60 000 euro(s) HTLe présent accord cadre est conclu pour une durée de 2 ans, reconductible tacitement 1 fois, sans que la durée maximale puisse excéder 4 ans.Le délai de livraison doit être au maximum de 35 jours calendaires.Le délai de garantie est fixé à 12 mois, et prend effet à compter de la date d'admission des fournitures ou prestations.\", \"QUANTITE\": \"Fourniture de détecteurs de gaz monogaz, multigaz électrochimique et multigaz à détection par photo-ionisation (PID), portables et reconditionnables\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-11-05T16:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Autres renseignements demandés\", \"Critères de sélection des candidatures : les candidats devront produire un dossier complet accompagné des pièces suivantes relatives à la candidature :La lettre de candidature (formulaire DC1 - OBLIGATOIRE), contenant notamment les attestations sur l'honneur en application des articles 45 et 48 de l'ordonnance 2015-899. Tout renseignement permettant d'évaluer l'aptitude à exercer l'activité professionnelle, la capacité économique et financière et les capacités professionnelles et techniques (Attestation du SDIS 44 CONSEILLÉE)Une assurance garantissant les tiers en cas d'accidents ou de dommages causés par l'exécution des prestations.\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Conditions pour obtenir gratuitement les documents contractuels :Voie dématérialisée : www.achatpublic.com ou accessible via le site du sdis44 : www.sdis44.frConditions de remise des offres : Voie dématérialisée : www.achatpublic.com ou accessible via le site du sdis 44: www.sdis44.fr Ou adresse postale : M. le président du Sdis44 -Service marchés publics - 12 rue Arago B.P. 4309 44243 La Chapelle sur Erdre Cedex.Les offres devront être adressées par pli recommandé avec avis de réception postal ou remises contre récépissé à l'accueil du SDIS du lundi au vendredi de 8h30 à 17h00 à l'adresse ci-dessus.Hotline achatpublic.com : 0892232120Pour obtenir tous les renseignements complémentaires qui leur seraient nécessaires au cours de leur étude, les candidats doivent faire parvenir une demande écrite au SDIS 44 par voie dématérialisée à l'adresse https://www.achatpublic.com\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette, BP2411\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette - BP2411\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"URL\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2018_hykAMGFOlW\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"URL\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2018_hykAMGFOlW\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-136052"
-  },
-  {
    "idweb": "18-134052",
    "id": "18_134052",
    "contractfolderid": null,
@@ -4686,6 +4627,65 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-134465\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-134465.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-09-28\", \"DATE_FIN_DIFFUSION\": \"2018-10-30\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"209\", \"LIBELLE\": \"Matériel de sécurité\"}}, \"DEP_PUBLICATION\": [\"44\", \"22\", \"35\", \"50\", \"53\", \"61\", \"72\", \"85\"], \"RESUME_OBJET\": \"Fourniture de gilets de signalisation haute visibilité, de reconnaissance et de fonction destinée à l'activité des Sapeur-Pompiers\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"SDIS 44\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"ZAC de Gesvrine 12, rue Arago BP 4309\", \"CP\": \"44243\", \"VILLE\": \"La chapelle sur erdre\", \"TEL\": \"(+33) 2-28-09-81-99\", \"MEL\": \"service_marches_publics@sdis44.fr\", \"URL\": \"http://www.sdis44.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.achatpublic.com/sdm/ent/gen/index.jsp\", \"URL_PARTICIPATION\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2018__p4omhvB1A\", \"URL_DOCUMENT\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2018__p4omhvB1A\", \"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Service Départemental d'Incendie et de Secours\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de gilets de signalisation haute visibilité, de reconnaissance et de fonction destinée à l'activité des Sapeur-Pompiers\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Fourniture de gilets de signalisation haute visibilité, de reconnaissance et de fonction destinée à l'activité des Sapeur-Pompiers des Services Départementaux d'Incendie et de Secours des Côtes d'Armor, d'Ille-et-Vilaine, de Loire-Atlantique, de la Manche, de la Mayenne, de l'Orne, de la Sarthe et de la Vendée.\", \"CPV\": {\"PRINCIPAL\": \"35113440\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"La présente consultation est passée sous la forme d'un Appel d'Offres Ouvert conformément aux articles 25, 66 à 68 du décret no 2016-360 du 25 mars 2016.Conformément à l'article 78 du décret précité, il s'agit d'un accord-cadre sans minimum ni maximum qui s'exécute,- pour une partie par l'émission de bons de commande, lorsque toutes les stipulations contractuelles sont fixées au présent accord cadre, - pour une partie par la conclusion de marchés subséquents, lorsque toutes les stipulations contractuelles ne sont pas fixées au présent accord cadre.Le présent accord-cadre est conclu pour une durée d'un an reconductible tacitement 3 fois, sans que la durée maximale puisse excéder 4 ans et prend effet à compter de la date de réception de la notification par le titulaire.Le délai maximum de livraison est de 60 jours calendairesLe délai de garantie minimum est fixé à 24 mois\", \"CPV\": {\"PRINCIPAL\": \"35113440\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le présent accord cadre est conclu pour une durée d'un an reconductible tacitement 3 fois, sans que la durée maximale puisse excéder 4 ans et prend effet à compter de la date de réception de la notification par le titulaire.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"la publication du prochaine avis interviendra avant l'échéance du présent marché.\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-10-30T16:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"- La lettre de candidature (formulaire DC1 - OBLIGATOIRE), contenant notamment les attestations sur l'honneur en application des articles 45 et 48 de l'ordonnance 2015-899. - Tout renseignement permettant d'évaluer l'aptitude à exercer l'activité professionnelle, la capacité économique et financière et les capacités professionnelles et techniques (Attestation du SDIS 44 CONSEILLÉE)La preuve de la capacité de l'entreprise peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de prestations attestant de la compétence de l'entreprise à réaliser la prestation pour laquelle elle se porte candidate.- Une assurance garantissant les tiers en cas d'accidents ou de dommages causés par l'exécution des prestations,\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-10-31\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Conditions de remise des offres : Voie dématérialisée : www.achatpublic.com aussi accessible via le site du sdis 44: www.sdis44.fr - hotline achatpublic.com: +33 892232120.Ou adresse postale : M. le président du Sdis44 -Service marchés publics - 12 rue Arago - B.P. 4309 - 44243 La Chapelle sur Erdre Cedex - Les offres devront être adressées par pli recommandé avec avis de réception postal ou remises contre récépissé à l'accueil du SDIS du lundi au vendredi de 8h30 à 17h00 à l'adresse ci-dessus.. Date d'envoi du présent avis au JOUE et au BOAMP : 26 septembre 2018.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Précisions concernant les délais d'introduction de recours : - référé précontractuel (CJA, art. L. 551-1 et s. pour les pouvoirs adjudicateurs et art. L 551-5 et s. pour les entités adjudicatrices) ;- référé contractuel (CJA, art. L. 551-13 et s.).- recours en contestation de validité du contrat, issu de la jurisprudence \\\" Tarn-et-Garonne \\\", qui peut être exercé par les tiers au contrat, sans considération de leur qualité, dans un délai de 2 mois à compter des mesures de publicité appropriée\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'ile gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\", \"URL\": \"http://nantes.tribunal-administratif.fr/\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'ile gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\"}, {\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"Service départemental d''incendie et de secours des côtes d''Armor\", \"ADRESSE\": \"13 rue de Guernesey\", \"CP\": \"22015\", \"VILLE\": \"Saint-brieuc\", \"CODE_NUTS\": \"FRH01\", \"MEL\": \"samuel.mousseaux@sdis22.fr\", \"URL\": \"https://www.pompiercenter.com/annuaire-sdis/sdis-22.htm\"}, {\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"Service départemental d''incendie et de secours d''Ille et Vilaine\", \"ADRESSE\": \"2 rue du moulin de joue BP 80127\", \"CP\": \"35701\", \"VILLE\": \"Rennes cedex 7\", \"CODE_NUTS\": \"FRH03\", \"MEL\": \"anne-marie.morice@sdis35.fr\", \"URL\": \"https://sapeurs-pompiers35.fr/\"}, {\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"Service départemental d''incendie et de secours de La Manche\", \"ADRESSE\": \"1238 rue du vieux Candol\", \"CP\": \"50009\", \"VILLE\": \"Saint Lo\", \"CODE_NUTS\": \"FRD12\", \"MEL\": \"f.lion@sdis50.fr\", \"URL\": \"http://www.sdis50.fr\"}, {\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"Service départemental d''incendie et de secours de La Mayenne\", \"ADRESSE\": \"19 rue Eugène Messmer CS 60533\", \"CP\": \"53005\", \"VILLE\": \"Laval cedex\", \"CODE_NUTS\": \"FRG03\", \"MEL\": \"g.hoyaux@sdis53.fr\", \"URL\": \"http://www.sdis53.fr/\"}, {\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"Service départemental d''incendie et de secours de l''Orne\", \"ADRESSE\": \"12 rue Philippe Lebon\", \"CP\": \"61000\", \"VILLE\": \"Alencon\", \"CODE_NUTS\": \"FRD13\", \"MEL\": \"georges.kerlidou@sdis61.fr\", \"URL\": \"http://www.sdis61.fr/\"}, {\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"Service départemental d''incendie et de secours de la Sarthe\", \"ADRESSE\": \"15 boulevard saint-michel CS 90035\", \"CP\": \"72190\", \"VILLE\": \"coulaines\", \"CODE_NUTS\": \"FRG04\", \"MEL\": \"philippe.lechat@sdis72.fr\", \"URL\": \"https://www.pompiercenter.com/annuaire-sdis/sdis-72.htm\"}, {\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"Service départemental d''incendie et de secours de la Vendée\", \"ADRESSE\": \"les oudairies BP 695\", \"CP\": \"85017\", \"VILLE\": \"La roche sur yon cedex\", \"CODE_NUTS\": \"FRG05\", \"MEL\": \"scop@sdis-vendee.fr\", \"URL\": \"http://www.sdis85.com/\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-134465"
+  },
+  {
+   "idweb": "18-136052",
+   "id": "18_136052",
+   "contractfolderid": null,
+   "objet": "Fourniture de détecteurs de gaz monogaz, multigaz électrochimique et multigaz à détection par photo-ionisation (PID), portables et reconditionnables",
+   "filename": "BOAMP-N-AO_2018_271011",
+   "famille": "FNS",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2018-09-28",
+   "datefindiffusion": "2018-11-05",
+   "datelimitereponse": "2018-11-05T15:00:00+00:00",
+   "nomacheteur": "SDIS 44",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "209"
+   ],
+   "dc": [
+    "209"
+   ],
+   "descripteur_libelle": [
+    "Matériel de sécurité"
+   ],
+   "type_marche": [
+    "FOURNITURES"
+   ],
+   "type_marche_facette": [
+    "Fournitures"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-136052\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-136052.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-09-28\", \"DATE_LIMITE_REPONSE\": \"2018-11-05T16:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-11-05\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"209\", \"LIBELLE\": \"Matériel de sécurité\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Fourniture de détecteurs de gaz monogaz, multigaz électrochimique et multigaz à détection par photo-ionisation (PID), portables et reconditionnables\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"SDIS 44\", \"CORRESPONDANT\": \"M. Monsieur Le président, gestionnaire marché public\", \"ADRESSE\": \"ZAC de Gesvrine 12, rue Arago BP 4309\", \"CP\": \"44243\", \"VILLE\": \"La chapelle sur erdre\", \"TEL\": \"02-28-09-81-99\", \"MEL\": \"marches.publics@sdis44.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.achatpublic.com/sdm/ent/gen/index.jsp\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Service départemental d'incendie et de secours\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"FOURNITURES\": {\"ACHAT\": \"\"}}, \"OBJET_COMPLET\": \"Fourniture de détecteurs de gaz monogaz, multigaz électrochimique et multigaz à détection par photo-ionisation (PID), portables et reconditionnables\", \"CPV\": {\"PRINCIPAL\": \"31642000\"}, \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG01\"}, \"AMP_NON\": \"\", \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"La présente consultation est passée sous la forme d'un Marché à Procédure Adaptée conformément à l'article 27 du Décret no 2016-360 du 25 mars 2016. Il s'agit d'un accord cadre mono attributaire qui s'exécute : - pour une partie par l'émission de bons de commande, lorsque toutes les stipulations contractuelles sont fixées au présent accord-cadre (achat sur BPU et annexe 1 - Liste d'articles complémentaires).- pour une partie par la conclusion de marchés subséquents, lorsque toutes les stipulations contractuelles ne sont pas fixées au présent accord-cadre (achat hors BPU et annexe 1 : Liste d'articles complémentaires).dont les valeurs d'exécution sont les suivantes : - Montant minimum pour 2 ans : 20 000 euro(s) HT- Montant maximum pour 2 ans : 60 000 euro(s) HTLe présent accord cadre est conclu pour une durée de 2 ans, reconductible tacitement 1 fois, sans que la durée maximale puisse excéder 4 ans.Le délai de livraison doit être au maximum de 35 jours calendaires.Le délai de garantie est fixé à 12 mois, et prend effet à compter de la date d'admission des fournitures ou prestations.\", \"QUANTITE\": \"Fourniture de détecteurs de gaz monogaz, multigaz électrochimique et multigaz à détection par photo-ionisation (PID), portables et reconditionnables\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-11-05T16:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Autres renseignements demandés\", \"Critères de sélection des candidatures : les candidats devront produire un dossier complet accompagné des pièces suivantes relatives à la candidature :La lettre de candidature (formulaire DC1 - OBLIGATOIRE), contenant notamment les attestations sur l'honneur en application des articles 45 et 48 de l'ordonnance 2015-899. Tout renseignement permettant d'évaluer l'aptitude à exercer l'activité professionnelle, la capacité économique et financière et les capacités professionnelles et techniques (Attestation du SDIS 44 CONSEILLÉE)Une assurance garantissant les tiers en cas d'accidents ou de dommages causés par l'exécution des prestations.\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Conditions pour obtenir gratuitement les documents contractuels :Voie dématérialisée : www.achatpublic.com ou accessible via le site du sdis44 : www.sdis44.frConditions de remise des offres : Voie dématérialisée : www.achatpublic.com ou accessible via le site du sdis 44: www.sdis44.fr Ou adresse postale : M. le président du Sdis44 -Service marchés publics - 12 rue Arago B.P. 4309 44243 La Chapelle sur Erdre Cedex.Les offres devront être adressées par pli recommandé avec avis de réception postal ou remises contre récépissé à l'accueil du SDIS du lundi au vendredi de 8h30 à 17h00 à l'adresse ci-dessus.Hotline achatpublic.com : 0892232120Pour obtenir tous les renseignements complémentaires qui leur seraient nécessaires au cours de leur étude, les candidats doivent faire parvenir une demande écrite au SDIS 44 par voie dématérialisée à l'adresse https://www.achatpublic.com\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette, BP2411\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette - BP2411\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"URL\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2018_hykAMGFOlW\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"URL\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2018_hykAMGFOlW\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-136052"
   },
   {
    "idweb": "18-136381",

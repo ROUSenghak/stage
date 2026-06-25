@@ -3113,70 +3113,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-67192"
   },
   {
-   "idweb": "16-66922",
-   "id": "16_66922",
-   "contractfolderid": null,
-   "objet": "Rénovation énergétique de la Mairie et de la Mairie annexe",
-   "filename": "BOAMP-N-IC-AA_2016_131009",
-   "famille": "FNS",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2016-05-10",
-   "datefindiffusion": "2016-06-23",
-   "datelimitereponse": null,
-   "nomacheteur": "Commune d'Ecommoy",
-   "titulaire": [
-    "Les Menuiseries BOURNEUF",
-    "Ets LEROI",
-    "papin",
-    "SARL APM",
-    "ANVOLIA 72",
-    "ELEC EAU"
-   ],
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "ATTRIBUTION",
-   "sousnature": null,
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "33"
-   ],
-   "dc": [
-    "33"
-   ],
-   "descripteur_libelle": [
-    "Bâtiment"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "16-14467"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"16-14467\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-02-01\", \"DATE_FIN_DIFFUSION\": \"2016-02-26\"}}}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-66922\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-14467\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-02-01\", \"DATE_FIN_DIFFUSION\": \"2016-02-26\"}}}}, \"NOM_HTML\": \"16-66922.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-05-10\", \"DATE_FIN_DIFFUSION\": \"2016-06-23\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"33\", \"LIBELLE\": \"Bâtiment\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Rénovation énergétique de la Mairie et de la Mairie annexe\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Commune d'Ecommoy\", \"CORRESPONDANT\": \"Gouhier Sébastien, Maire\", \"ADRESSE\": \"Place du Général de Gaulle\", \"CP\": \"72220\", \"VILLE\": \"Ecommoy\", \"TEL\": \"02-43-42-10-14\", \"MEL\": \"mairie@ecommoy.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Rénovation énergétique de la Mairie et de la Mairie annexe\", \"CPV\": {\"PRINCIPAL\": \"45300000\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"Valeur technique de l'offre\"}, {\"@POIDS\": \"40\", \"#text\": \"Prix des prestations\"}, {\"@POIDS\": \"10\", \"#text\": \"Délai d'exécution\"}]}}}, \"ATTRIBUTION\": {\"ATTRIBUE_COMPORTE_LOT_INFRUCTUEUX\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_LOT\": \"1\", \"DESCRIPTION\": \"Menuiseries extérieures bois - Marché no : 2016/02/01\", \"TITULAIRE\": {\"DENOMINATION\": \"Les Menuiseries BOURNEUF\", \"ADRESSE\": \"ZA de La Boussardière\", \"CP\": \"72250\", \"VILLE\": \"Parigné-l'Evêque\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-03-29\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"59930\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"2\", \"DESCRIPTION\": \"Menuiseries intérieures bois - Marché no : 2016/02/02\", \"TITULAIRE\": {\"DENOMINATION\": \"Ets LEROI\", \"ADRESSE\": \"75, Rue Saint Denis\", \"CP\": \"72300\", \"VILLE\": \"Sablé-sur-Sarthe\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-03-29\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"18798\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"3\", \"DESCRIPTION\": \"Cloison/isolation traditionnelle et écologique - Marché no : 2016/02/03\", \"TITULAIRE\": {\"DENOMINATION\": \"papin\", \"ADRESSE\": \"12 CHEMIN DE LA BOULANDERIE\", \"CP\": \"72440\", \"VILLE\": \"Bouloire\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-03-29\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"21467\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"4\", \"DESCRIPTION\": \"Faux plafond - Isolation - Marché no : 2016/02/04\", \"TITULAIRE\": {\"DENOMINATION\": \"SARL APM\", \"ADRESSE\": \"10 rue Leonard de Vinci\", \"CP\": \"49070\", \"VILLE\": \"Saint-Jean-de-Linières\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-03-29\", \"NB_OFFRE_RECU\": \"5\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"17054\"}}}, {\"INFRUCTUEUX\": \"\", \"NUM_LOT\": \"5\", \"DESCRIPTION\": \"Peinture - tissu tendu - raccord carrelage\"}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"6\", \"DESCRIPTION\": \"Chauffage - VMC - Plomberie - Marché no : 2016/02/06\", \"TITULAIRE\": {\"DENOMINATION\": \"ANVOLIA 72\", \"ADRESSE\": \"2 rue des Peupliers\", \"CP\": \"72190\", \"VILLE\": \"SARGE LES LE MANS\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-03-29\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"89907\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"7\", \"DESCRIPTION\": \"Electricité - Eclairage - Marché no : 2016/02/07\", \"TITULAIRE\": {\"DENOMINATION\": \"ELEC EAU\", \"ADRESSE\": \"47 Bd de la Petite Vitesse\", \"CP\": \"72300\", \"VILLE\": \"Sablé-sur-Sarthe\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-03-29\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"11207\"}}}]}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.sarthe-marchespublics.fr\"}}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-66922"
-  },
-  {
    "idweb": "16-66657",
    "id": "16_66657",
    "contractfolderid": null,
@@ -3302,6 +3238,70 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-63902\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-63902.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-05-10\", \"DATE_FIN_DIFFUSION\": \"2016-06-13\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"20\", \"LIBELLE\": \"Assurance\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Prestation de service en assurances pour les besoins de la ville et du CCAS de Beaupreau-en-Mauges\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"COMMUNE DE BEAUPREAU EN MAUGES\", \"ADJUDICATEUR_NUTS\": \"FR\", \"ADRESSE\": \"rue Robert Schuman - CS 10063 Beaupréau\", \"CP\": \"49602\", \"VILLE\": \"BEAUPREAU EN MAUGES cedex\", \"TEL\": \"(+33) 2-41-71-76-80\", \"FAX\": \"(+33) 2-41-71-76-82\", \"MEL\": \"commandepublique@beaupreauenmauges.fr\", \"URL\": \"http://klekoon.com\", \"URL_PROFIL_ACHETEUR\": \"http://klekoon.com\", \"URL_PARTICIPATION\": \"http://klekoon.com\", \"URL_DOCUMENT\": \"http://klekoon.com\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Prestation de service en assurances pour les besoins de la Ville et du CCAS de BEAUPREAU-EN-MAUGES\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Prestation de service en assurances pour les besoins de la Ville et du CCAS de BEAUPREAU-EN-MAUGES\", \"CPV\": {\"PRINCIPAL\": \"66510000\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"1267265\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"NB_LOT_OFFRE_MAX\": \"5\", \"NB_LOT_ATTRIB_MAX\": \"5\", \"LOTS_RESERVE_POUVOIR_ADJUDICATEUR\": \"néant\", \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Dommages aux biens et risques annexes\", \"DESCRIPTION\": \"1.1 VILLE DE BEAUPREAU-EN-MAUGES : 108 251 m21.2 CCAS DE BEAUPREAU-EN-MAUGES : 6 239 m2\", \"CPV\": {\"PRINCIPAL\": \"66515200\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"158946\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Responsabilité civile et risques annexes\", \"DESCRIPTION\": \"2.1 VILLE DE BEAUPREAU-EN-MAUGESBudget de fonctionnement : 30 042 281 ? (budget principal)Nbre d'habitants : 23 078Nbre d'agents : 337 - Masse salariale : 5 018 151 ?2.2 CCAS DE BEAUPREAU-EN-MAUGESBudget de fonctionnement : 118 162 ? (budget principal)Nbre d'agents : 41 - Masse salariale : 556 254 ?\", \"CPV\": {\"PRINCIPAL\": \"66516000\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"55367\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Protection juridique et risques annexes\", \"DESCRIPTION\": \"3.1 VILLE DE BEAUPREAU-EN-MAUGESNbre d'habitants : 23 078Conseil Municipal : 176Nbre d'agents : 3373.2 CCAS DE BEAUPREAU-EN-MAUGESNbre de membres au conseil d'administration : 17Nbre d'agents : 41\", \"CPV\": {\"PRINCIPAL\": \"66513100\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"26107\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"4\", \"INTITULE\": \"Assurance véhicules à moteur et risques annexes\", \"DESCRIPTION\": \"4.1 VILLE DE BEAUPREAU-EN-MAUGES : 113 véhicules4.2 CCAS DE BEAUPREAU-EN-MAUGES : 11 véhicules\", \"CPV\": {\"PRINCIPAL\": \"66514110\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"74563\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"5\", \"INTITULE\": \"Assurances risques statutaires\", \"DESCRIPTION\": \"5.1 VILLE DE BEAUPREAU-EN-MAUGESNbre d'agents CNRACL : 159Nbre d'agents IRCANTEC : 1835.2 CCAS DE BEAUPREAU-EN-MAUGESNbre d'agents CNRACL : 8Nbre d'agents IRCANTEC : 33\", \"CPV\": {\"PRINCIPAL\": \"66512000\"}, \"CODE_NUTS\": \"FR\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"952283\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_OUI\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2016-06-13T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO_MARCHE_OUI\": \"\", \"CAP_TECH_OFFRE_OUI\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2016-06-14\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 2 mai 2016.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"TRIBUNAL ADMINISTRATIF DE NANTES\", \"ADRESSE\": \"6, allée de l'Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Service du Greffe du Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"DELTA CONSULTANT SAS\", \"ADRESSE\": \"2, rue de la Chambre aux Deniers\", \"CP\": \"49000\", \"VILLE\": \"ANGERS\", \"CODE_NUTS\": \"00\", \"MEL\": \"accueil@deltaconsultant.fr\", \"URL\": \"http://klekoon.com\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-63902"
+  },
+  {
+   "idweb": "16-66922",
+   "id": "16_66922",
+   "contractfolderid": null,
+   "objet": "Rénovation énergétique de la Mairie et de la Mairie annexe",
+   "filename": "BOAMP-N-IC-AA_2016_131009",
+   "famille": "FNS",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2016-05-10",
+   "datefindiffusion": "2016-06-23",
+   "datelimitereponse": null,
+   "nomacheteur": "Commune d'Ecommoy",
+   "titulaire": [
+    "Les Menuiseries BOURNEUF",
+    "Ets LEROI",
+    "papin",
+    "SARL APM",
+    "ANVOLIA 72",
+    "ELEC EAU"
+   ],
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "ATTRIBUTION",
+   "sousnature": null,
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "33"
+   ],
+   "dc": [
+    "33"
+   ],
+   "descripteur_libelle": [
+    "Bâtiment"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "16-14467"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"16-14467\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-02-01\", \"DATE_FIN_DIFFUSION\": \"2016-02-26\"}}}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-66922\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"16-14467\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2016-02-01\", \"DATE_FIN_DIFFUSION\": \"2016-02-26\"}}}}, \"NOM_HTML\": \"16-66922.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-05-10\", \"DATE_FIN_DIFFUSION\": \"2016-06-23\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"33\", \"LIBELLE\": \"Bâtiment\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Rénovation énergétique de la Mairie et de la Mairie annexe\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Commune d'Ecommoy\", \"CORRESPONDANT\": \"Gouhier Sébastien, Maire\", \"ADRESSE\": \"Place du Général de Gaulle\", \"CP\": \"72220\", \"VILLE\": \"Ecommoy\", \"TEL\": \"02-43-42-10-14\", \"MEL\": \"mairie@ecommoy.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Rénovation énergétique de la Mairie et de la Mairie annexe\", \"CPV\": {\"PRINCIPAL\": \"45300000\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"Valeur technique de l'offre\"}, {\"@POIDS\": \"40\", \"#text\": \"Prix des prestations\"}, {\"@POIDS\": \"10\", \"#text\": \"Délai d'exécution\"}]}}}, \"ATTRIBUTION\": {\"ATTRIBUE_COMPORTE_LOT_INFRUCTUEUX\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_LOT\": \"1\", \"DESCRIPTION\": \"Menuiseries extérieures bois - Marché no : 2016/02/01\", \"TITULAIRE\": {\"DENOMINATION\": \"Les Menuiseries BOURNEUF\", \"ADRESSE\": \"ZA de La Boussardière\", \"CP\": \"72250\", \"VILLE\": \"Parigné-l'Evêque\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-03-29\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"59930\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"2\", \"DESCRIPTION\": \"Menuiseries intérieures bois - Marché no : 2016/02/02\", \"TITULAIRE\": {\"DENOMINATION\": \"Ets LEROI\", \"ADRESSE\": \"75, Rue Saint Denis\", \"CP\": \"72300\", \"VILLE\": \"Sablé-sur-Sarthe\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-03-29\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"18798\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"3\", \"DESCRIPTION\": \"Cloison/isolation traditionnelle et écologique - Marché no : 2016/02/03\", \"TITULAIRE\": {\"DENOMINATION\": \"papin\", \"ADRESSE\": \"12 CHEMIN DE LA BOULANDERIE\", \"CP\": \"72440\", \"VILLE\": \"Bouloire\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-03-29\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"21467\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"4\", \"DESCRIPTION\": \"Faux plafond - Isolation - Marché no : 2016/02/04\", \"TITULAIRE\": {\"DENOMINATION\": \"SARL APM\", \"ADRESSE\": \"10 rue Leonard de Vinci\", \"CP\": \"49070\", \"VILLE\": \"Saint-Jean-de-Linières\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-03-29\", \"NB_OFFRE_RECU\": \"5\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"17054\"}}}, {\"INFRUCTUEUX\": \"\", \"NUM_LOT\": \"5\", \"DESCRIPTION\": \"Peinture - tissu tendu - raccord carrelage\"}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"6\", \"DESCRIPTION\": \"Chauffage - VMC - Plomberie - Marché no : 2016/02/06\", \"TITULAIRE\": {\"DENOMINATION\": \"ANVOLIA 72\", \"ADRESSE\": \"2 rue des Peupliers\", \"CP\": \"72190\", \"VILLE\": \"SARGE LES LE MANS\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-03-29\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"89907\"}}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"7\", \"DESCRIPTION\": \"Electricité - Eclairage - Marché no : 2016/02/07\", \"TITULAIRE\": {\"DENOMINATION\": \"ELEC EAU\", \"ADRESSE\": \"47 Bd de la Petite Vitesse\", \"CP\": \"72300\", \"VILLE\": \"Sablé-sur-Sarthe\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-03-29\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"11207\"}}}]}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.sarthe-marchespublics.fr\"}}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-66922"
   },
   {
    "idweb": "16-68252",
@@ -4507,73 +4507,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-66819"
   },
   {
-   "idweb": "16-67126",
-   "id": "16_67126",
-   "contractfolderid": null,
-   "objet": "Acquisition de produits chimiques destinés aux traitements des effluents de 3 stations d'épuration. Année 2016 renouvelable en 2017 - 2018 et 2019",
-   "filename": "BOAMP-J-IC-AA_2016_134004",
-   "famille": "JOUE",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2016-05-13",
-   "datefindiffusion": "2016-05-20",
-   "datelimitereponse": null,
-   "nomacheteur": "Le Mans Métropole - Communauté Urbaine",
-   "titulaire": [
-    "Beauseigneur",
-    "Snf",
-    "Snf",
-    "Societe Des Fours A Chaux De Sorcy",
-    "Yara France"
-   ],
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "ATTRIBUTION",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "275"
-   ],
-   "dc": [
-    "275"
-   ],
-   "descripteur_libelle": [
-    "Produits chimiques"
-   ],
-   "type_marche": [
-    "FOURNITURES"
-   ],
-   "type_marche_facette": [
-    "Fournitures"
-   ],
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "15-182058"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"15-182058\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2015-12-03\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2015-12-03\", \"DATE_FIN_DIFFUSION\": \"2016-01-14\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2015\", \"NUM_PARUTION\": \"237\", \"NUM_ANNONCE\": \"430096\", \"DATE_PUBLICATION\": \"2015-12-08\"}}]}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-67126\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"15-182058\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2015-12-03\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2015-12-03\", \"DATE_FIN_DIFFUSION\": \"2016-01-14\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2015\", \"NUM_PARUTION\": \"237\", \"NUM_ANNONCE\": \"430096\", \"DATE_PUBLICATION\": \"2015-12-08\"}}]}}, \"NOM_HTML\": \"16-67126.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-05-13\", \"DATE_FIN_DIFFUSION\": \"2016-05-20\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"275\", \"LIBELLE\": \"Produits chimiques\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Acquisition de produits chimiques destinés aux traitements des effluents de 3 stations d'épuration. Année 2016 renouvelable en 2017 - 2018 et 2019\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Le Mans Métropole - Communauté Urbaine\", \"CODE_IDENT_NATIONAL\": \"24720013200014\", \"ADJUDICATEUR_NUTS\": \"FR514\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, Cs 40010 - 16 avenue François Mitterrand - Le Condorcet, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"Le Mans\", \"TEL\": \"(+33) 2-43-47-37-31\", \"FAX\": \"(+33) 2-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.sarthe-marchespublics.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Acquisition de produits chimiques destinés aux traitements des effluents de 3 stations d'épuration\", \"REF_MARCHE\": \"Bl/15076f\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Les marchés issus de cette consultation seront des marchés à bons de commande au sens du code des marchés publics français - article 77 du C.M.P. -conclus avec un seul opérateur économique. Cependant, ce sera un accord cadre avec un seul opérateur économique au sens de la directive 2004/18/ce.Il s'agit de marchés à bons de commande avec minimum et maximum.Le délai d'exécution des commandes est laissé à l'initiative du candidat qui devra le préciser à l'acte d'engagement, sans toutefois dépasser le délai plafond de 5 jours calendaires\", \"CPV\": {\"PRINCIPAL\": \"24962000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"128500\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Sulfate de fer neigeux\", \"DESCRIPTION\": \"Minimum Ht annuel : 5 000,00 eurosMaximum Ht annuel : 20 000,00 euros\", \"CPV\": [{\"PRINCIPAL\": \"24962000\"}, {\"PRINCIPAL\": \"24300000\"}], \"CODE_NUTS\": \"FR514\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"1\", \"#text\": \"Le prix n'est pas le seul critère d'attribution et tous les critères sont énoncés uniquement dans les documents du marché.\"}}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Aucune prestation supplémentaire ou alternative n'est prévue.Des avenants ou marchés complémentaires pourront être conclus au cours de l'exécution du contrat dans le respect des dispositions du Code des Marchés Publics et du Code Général des Collectivités Territoriales\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Chlorure ferrique à 41%\", \"DESCRIPTION\": \"Minimum Ht annuel : 4 000,00 eurosMaximum Ht annuel : 8 000,00 euros\", \"CPV\": [{\"PRINCIPAL\": \"24962000\"}, {\"PRINCIPAL\": \"24300000\"}], \"CODE_NUTS\": \"FR514\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"1\", \"#text\": \"Le prix n'est pas le seul critère d'attribution et tous les critères sont énoncés uniquement dans les documents du marché.\"}}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Aucune prestation supplémentaire ou alternative n'est prévue.Des avenants ou marchés complémentaires pourront être conclus au cours de l'exécution du contrat dans le respect des dispositions du Code des Marchés Publics et du Code Général des Collectivités Territoriales\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Polymères\", \"DESCRIPTION\": \"Minimum Ht annuel : 9 000,00 eurosMaximum Ht annuel : 15 000,00 euros\", \"CPV\": [{\"PRINCIPAL\": \"24962000\"}, {\"PRINCIPAL\": \"24300000\"}], \"CODE_NUTS\": \"FR514\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"1\", \"#text\": \"Le prix n'est pas le seul critère d'attribution et tous les critères sont énoncés uniquement dans les documents du marché.\"}}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Aucune prestation supplémentaire ou alternative n'est prévue.Des avenants ou marchés complémentaires pourront être conclus au cours de l'exécution du contrat dans le respect des dispositions du Code des Marchés Publics et du Code Général des Collectivités Territoriales\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"5\", \"INTITULE\": \"Chaux\", \"DESCRIPTION\": \"Minimum Ht annuel : 2 000,00 eurosMaximum Ht annuel : 5 500,00 euros\", \"CPV\": [{\"PRINCIPAL\": \"24962000\"}, {\"PRINCIPAL\": \"24300000\"}], \"CODE_NUTS\": \"FR514\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"1\", \"#text\": \"Le prix n'est pas le seul critère d'attribution et tous les critères sont énoncés uniquement dans les documents du marché.\"}}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Aucune prestation supplémentaire ou alternative n'est prévue.Des avenants ou marchés complémentaires pourront être conclus au cours de l'exécution du contrat dans le respect des dispositions du Code des Marchés Publics et du Code Général des Collectivités Territoriales\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"11\", \"INTITULE\": \"Nitrate de calcium (pour le traitement de l'H2s)\", \"DESCRIPTION\": \"Minimum Ht annuel : 35 000,00 eurosMaximum Ht annuel : 80 000,00 euros\", \"CPV\": [{\"PRINCIPAL\": \"24962000\"}, {\"PRINCIPAL\": \"24300000\"}], \"CODE_NUTS\": \"FR514\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"1\", \"#text\": \"Le prix n'est pas le seul critère d'attribution et tous les critères sont énoncés uniquement dans les documents du marché.\"}}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Aucune prestation supplémentaire ou alternative n'est prévue.Des avenants ou marchés complémentaires pourront être conclus au cours de l'exécution du contrat dans le respect des dispositions du Code des Marchés Publics et du Code Général des Collectivités Territoriales\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Produits chimiques organiques et inorganiques de base. (243000007)Produits chimiques utilisés pour le traitement de l'eau. (249620005)Services de maintenance préventive. (503242004)\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2015\", \"NUM_PARUTION\": \"237\", \"NUM_ANNONCE\": \"430096\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Sulfate de fer neigeux\", \"TITULAIRE\": {\"DENOMINATION\": \"Beauseigneur\", \"ADRESSE\": \"6 Rue Andre Viellard\", \"CP\": \"90140\", \"VILLE\": \"Froidefontaine\", \"CODE_NUTS\": \"FR434\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-04-07\", \"NB_OFFRE_RECU\": \"1\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"20000\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"2\", \"INTITULE\": \"Chlorure ferrique à 41%\", \"TITULAIRE\": {\"DENOMINATION\": \"Snf\", \"ADRESSE\": \"Zac de Milieux\", \"CP\": \"42160\", \"VILLE\": \"Andrézieux-Bouthéon\", \"CODE_NUTS\": \"FR715\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-04-07\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"8000\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"3\", \"INTITULE\": \"Polymères\", \"TITULAIRE\": {\"DENOMINATION\": \"Snf\", \"ADRESSE\": \"Zac de Milieux\", \"CP\": \"42160\", \"VILLE\": \"Andrézieux-Bouthéon\", \"CODE_NUTS\": \"FR715\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-04-08\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"15000\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"5\", \"INTITULE\": \"Chaux\", \"TITULAIRE\": {\"DENOMINATION\": \"Societe Des Fours A Chaux De Sorcy\", \"ADRESSE\": \"Tour W 102 terrasse Boieldieu\", \"CP\": \"92085\", \"VILLE\": \"Paris La Defense\", \"CODE_NUTS\": \"FR105\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-05-03\", \"NB_OFFRE_RECU\": \"1\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"5500\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"11\", \"INTITULE\": \"Nitrate de calcium (pour le traitement de l'H2s)\", \"TITULAIRE\": {\"DENOMINATION\": \"Yara France\", \"ADRESSE\": \"Immeuble Opus 12\", \"CP\": \"92914\", \"VILLE\": \"Paris-la-Defense\", \"CODE_NUTS\": \"FR105\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-04-07\", \"NB_OFFRE_RECU\": \"1\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"80000\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"BL/15076F\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les marchés correspondants sont des marchés à bons de commande avec minimum et maximum d'un an reconductible 3 fois.N° 1Sulfate de fer neigeuxMini Ht annuel : 5 000,00 euros - Maxi Ht annuel : 20 000,00 eurosN° 2Chlorure ferrique à 41%Mini Ht annuel : 4 000,00 euros - Maxi Ht annuel : 8 000,00 eurosN° 3PolymèresMini Ht annuel : 9 000,00 euros - Maxi Ht annuel : 15 000,00 eurosN° 5ChauxMini Ht annuel : 2 000,00 euros - Maxi Ht annuel : 5 500,00 eurosN° 11Nitrate de calciumMini Ht annuel : 35 000,00 euros - Maxi Ht annuel : 80 000,00 eurosLes marchés sont consultables au siège du pouvoir adjudicateur sur demande auprès du service des Marchés Publics. Date d'envoi du présent avis au JOUE et au BOAMP : 10 mai 2016.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso\", \"CP\": \"44042\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-67126"
-  },
-  {
    "idweb": "16-69580",
    "id": "16_69580",
    "contractfolderid": null,
@@ -4690,6 +4623,73 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-69415\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"16-69415.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-05-13\", \"DATE_LIMITE_REPONSE\": \"2016-06-16T17:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2016-06-16\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"72\", \"LIBELLE\": \"Contrôle technique\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Missions de contrôle technique pour la restructuration du Centre Robert Debré du CHU d'Angers\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CHU d'Angers\", \"CORRESPONDANT\": \"M. CHU ANGERS Le directeur général du\", \"ADRESSE\": \"4 rue Larrey\", \"CP\": \"49933\", \"VILLE\": \"Angers\", \"TEL\": \"02-41-35-33-21\", \"FAX\": \"02-41-35-55-04\", \"MEL\": \"bureaumarche@chu-angers.fr\", \"URL\": \"http://www.chu-angers.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.achats-hopitaux.com\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"11\"}, \"OBJET_COMPLET\": \"Missions de contrôle technique pour la restructuration du Centre Robert Debré du CHU d'Angers\", \"CPV\": {\"PRINCIPAL\": \"71356100\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Chu angers - 4 rue larrey\", \"CP\": \"49933\", \"VILLE\": \"Angers cedex 9\", \"CODE_NUTS\": \"FR512\"}, \"AMP_NON\": \"\", \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"La présente consultation a pour objet des prestations intellectuelles pour des missions de contrôle technique pour la conception et l'exécution des travaux de restructuration du Centre Robert Debré (CRD) du CHU d'Angers. Le marché est conclu à compter de sa date de notification, pour une période ferme selon les délais d'exécution prévisionnels de réalisation des travaux (réalisés en plusieurs phases entre 2017 et 2021), jusqu'à l'achèvement de la garantie de parfait achèvement des derniers travaux, soit une durée prévisionnelle globale du marché de 7 ans.\", \"QUANTITE\": \"Les caractéristiques de cette consultation sont décrites dans le dossier de consultation.\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2016-06-16T17:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Financement par le budget propre du chu, paiement (à 50 jours) selon les règles prévues par le code des marchés publics (articles 86 à 118), par virement sur compte bancaire.\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Autres renseignements demandés\", \"Celles fixées dans le règlement de la consultation et notamment seront demandés : - l'agrément technique en cours de validité délivré en application de l'article L 111.25 du Code de la Construction et de l'Habitation.- l'agrément par le Ministre chargé du travail pour les vérifications réglementaires des installations électriques prévues par l'article 53 du décret 88.1056 du 14 novembre 1988.\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"ATRAV/2016/MAPA/N°02CRD-CT\", \"CONDITIONS_REMISE_OFFRES\": \"Soit être adressées par pli recommandé avec avis de réception à l'adresse ci-dessous-soit être transmises par voie électronique via le site https://www.achats-hopitaux.com-Soit être déposées au chu angers, Direction des Travaux et des Logistiques Techniques-4 rue Larrey-49933 Angers Cedex 9.\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Pour des renseignements: CHU ANGERS- Direction des Travaux et Logistiques Techniques-Tél : 02 41 35 37 05 ou 02 41 35 38 50- fax : 02 41 35 55 05- mail : dtlt@chu-angers.fr-administratif(s) : Mme PIGNON Sophie-technique(s) : Mme PERRIDY Sophie-pouvoir adjudicateur: organisme de droit public-santé -code nuts FR512 -Les dispositions relatives au dépôt de réponses électroniques font l'objet d'une note dans le dossier de consultation-\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée ile gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Greffe du tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée ile gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"DOCUMENTS\": \"\"}, \"DENOMINATION\": \"Le dce sera téléchargé (URL cidessous) ou transmis gratuitement aux candidats qui en auront fait la demande auprès:Direction des Travaux et des Logistiques Techniques - dtlt-st©chu-angers.fr, CHU ANGERS.\", \"URL\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2016_sPAwX6f2tD\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"URL\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2016_sPAwX6f2tD&v=1&selected=0\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-69415"
+  },
+  {
+   "idweb": "16-67126",
+   "id": "16_67126",
+   "contractfolderid": null,
+   "objet": "Acquisition de produits chimiques destinés aux traitements des effluents de 3 stations d'épuration. Année 2016 renouvelable en 2017 - 2018 et 2019",
+   "filename": "BOAMP-J-IC-AA_2016_134004",
+   "famille": "JOUE",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2016-05-13",
+   "datefindiffusion": "2016-05-20",
+   "datelimitereponse": null,
+   "nomacheteur": "Le Mans Métropole - Communauté Urbaine",
+   "titulaire": [
+    "Beauseigneur",
+    "Snf",
+    "Snf",
+    "Societe Des Fours A Chaux De Sorcy",
+    "Yara France"
+   ],
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "ATTRIBUTION",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "275"
+   ],
+   "dc": [
+    "275"
+   ],
+   "descripteur_libelle": [
+    "Produits chimiques"
+   ],
+   "type_marche": [
+    "FOURNITURES"
+   ],
+   "type_marche_facette": [
+    "Fournitures"
+   ],
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "15-182058"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"15-182058\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2015-12-03\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2015-12-03\", \"DATE_FIN_DIFFUSION\": \"2016-01-14\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2015\", \"NUM_PARUTION\": \"237\", \"NUM_ANNONCE\": \"430096\", \"DATE_PUBLICATION\": \"2015-12-08\"}}]}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"16-67126\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"15-182058\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-18\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2015-12-03\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2015-12-03\", \"DATE_FIN_DIFFUSION\": \"2016-01-14\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2015\", \"NUM_PARUTION\": \"237\", \"NUM_ANNONCE\": \"430096\", \"DATE_PUBLICATION\": \"2015-12-08\"}}]}}, \"NOM_HTML\": \"16-67126.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2016-05-13\", \"DATE_FIN_DIFFUSION\": \"2016-05-20\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"275\", \"LIBELLE\": \"Produits chimiques\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Acquisition de produits chimiques destinés aux traitements des effluents de 3 stations d'épuration. Année 2016 renouvelable en 2017 - 2018 et 2019\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Le Mans Métropole - Communauté Urbaine\", \"CODE_IDENT_NATIONAL\": \"24720013200014\", \"ADJUDICATEUR_NUTS\": \"FR514\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, Cs 40010 - 16 avenue François Mitterrand - Le Condorcet, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"Le Mans\", \"TEL\": \"(+33) 2-43-47-37-31\", \"FAX\": \"(+33) 2-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.sarthe-marchespublics.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Acquisition de produits chimiques destinés aux traitements des effluents de 3 stations d'épuration\", \"REF_MARCHE\": \"Bl/15076f\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Les marchés issus de cette consultation seront des marchés à bons de commande au sens du code des marchés publics français - article 77 du C.M.P. -conclus avec un seul opérateur économique. Cependant, ce sera un accord cadre avec un seul opérateur économique au sens de la directive 2004/18/ce.Il s'agit de marchés à bons de commande avec minimum et maximum.Le délai d'exécution des commandes est laissé à l'initiative du candidat qui devra le préciser à l'acte d'engagement, sans toutefois dépasser le délai plafond de 5 jours calendaires\", \"CPV\": {\"PRINCIPAL\": \"24962000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"128500\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Sulfate de fer neigeux\", \"DESCRIPTION\": \"Minimum Ht annuel : 5 000,00 eurosMaximum Ht annuel : 20 000,00 euros\", \"CPV\": [{\"PRINCIPAL\": \"24962000\"}, {\"PRINCIPAL\": \"24300000\"}], \"CODE_NUTS\": \"FR514\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"1\", \"#text\": \"Le prix n'est pas le seul critère d'attribution et tous les critères sont énoncés uniquement dans les documents du marché.\"}}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Aucune prestation supplémentaire ou alternative n'est prévue.Des avenants ou marchés complémentaires pourront être conclus au cours de l'exécution du contrat dans le respect des dispositions du Code des Marchés Publics et du Code Général des Collectivités Territoriales\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Chlorure ferrique à 41%\", \"DESCRIPTION\": \"Minimum Ht annuel : 4 000,00 eurosMaximum Ht annuel : 8 000,00 euros\", \"CPV\": [{\"PRINCIPAL\": \"24962000\"}, {\"PRINCIPAL\": \"24300000\"}], \"CODE_NUTS\": \"FR514\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"1\", \"#text\": \"Le prix n'est pas le seul critère d'attribution et tous les critères sont énoncés uniquement dans les documents du marché.\"}}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Aucune prestation supplémentaire ou alternative n'est prévue.Des avenants ou marchés complémentaires pourront être conclus au cours de l'exécution du contrat dans le respect des dispositions du Code des Marchés Publics et du Code Général des Collectivités Territoriales\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Polymères\", \"DESCRIPTION\": \"Minimum Ht annuel : 9 000,00 eurosMaximum Ht annuel : 15 000,00 euros\", \"CPV\": [{\"PRINCIPAL\": \"24962000\"}, {\"PRINCIPAL\": \"24300000\"}], \"CODE_NUTS\": \"FR514\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"1\", \"#text\": \"Le prix n'est pas le seul critère d'attribution et tous les critères sont énoncés uniquement dans les documents du marché.\"}}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Aucune prestation supplémentaire ou alternative n'est prévue.Des avenants ou marchés complémentaires pourront être conclus au cours de l'exécution du contrat dans le respect des dispositions du Code des Marchés Publics et du Code Général des Collectivités Territoriales\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"5\", \"INTITULE\": \"Chaux\", \"DESCRIPTION\": \"Minimum Ht annuel : 2 000,00 eurosMaximum Ht annuel : 5 500,00 euros\", \"CPV\": [{\"PRINCIPAL\": \"24962000\"}, {\"PRINCIPAL\": \"24300000\"}], \"CODE_NUTS\": \"FR514\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"1\", \"#text\": \"Le prix n'est pas le seul critère d'attribution et tous les critères sont énoncés uniquement dans les documents du marché.\"}}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Aucune prestation supplémentaire ou alternative n'est prévue.Des avenants ou marchés complémentaires pourront être conclus au cours de l'exécution du contrat dans le respect des dispositions du Code des Marchés Publics et du Code Général des Collectivités Territoriales\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"11\", \"INTITULE\": \"Nitrate de calcium (pour le traitement de l'H2s)\", \"DESCRIPTION\": \"Minimum Ht annuel : 35 000,00 eurosMaximum Ht annuel : 80 000,00 euros\", \"CPV\": [{\"PRINCIPAL\": \"24962000\"}, {\"PRINCIPAL\": \"24300000\"}], \"CODE_NUTS\": \"FR514\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"1\", \"#text\": \"Le prix n'est pas le seul critère d'attribution et tous les critères sont énoncés uniquement dans les documents du marché.\"}}}, \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Aucune prestation supplémentaire ou alternative n'est prévue.Des avenants ou marchés complémentaires pourront être conclus au cours de l'exécution du contrat dans le respect des dispositions du Code des Marchés Publics et du Code Général des Collectivités Territoriales\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Produits chimiques organiques et inorganiques de base. (243000007)Produits chimiques utilisés pour le traitement de l'eau. (249620005)Services de maintenance préventive. (503242004)\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2015\", \"NUM_PARUTION\": \"237\", \"NUM_ANNONCE\": \"430096\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Sulfate de fer neigeux\", \"TITULAIRE\": {\"DENOMINATION\": \"Beauseigneur\", \"ADRESSE\": \"6 Rue Andre Viellard\", \"CP\": \"90140\", \"VILLE\": \"Froidefontaine\", \"CODE_NUTS\": \"FR434\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-04-07\", \"NB_OFFRE_RECU\": \"1\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"20000\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"2\", \"INTITULE\": \"Chlorure ferrique à 41%\", \"TITULAIRE\": {\"DENOMINATION\": \"Snf\", \"ADRESSE\": \"Zac de Milieux\", \"CP\": \"42160\", \"VILLE\": \"Andrézieux-Bouthéon\", \"CODE_NUTS\": \"FR715\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-04-07\", \"NB_OFFRE_RECU\": \"3\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"8000\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"3\", \"INTITULE\": \"Polymères\", \"TITULAIRE\": {\"DENOMINATION\": \"Snf\", \"ADRESSE\": \"Zac de Milieux\", \"CP\": \"42160\", \"VILLE\": \"Andrézieux-Bouthéon\", \"CODE_NUTS\": \"FR715\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-04-08\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"15000\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"5\", \"INTITULE\": \"Chaux\", \"TITULAIRE\": {\"DENOMINATION\": \"Societe Des Fours A Chaux De Sorcy\", \"ADRESSE\": \"Tour W 102 terrasse Boieldieu\", \"CP\": \"92085\", \"VILLE\": \"Paris La Defense\", \"CODE_NUTS\": \"FR105\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-05-03\", \"NB_OFFRE_RECU\": \"1\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"5500\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"11\", \"INTITULE\": \"Nitrate de calcium (pour le traitement de l'H2s)\", \"TITULAIRE\": {\"DENOMINATION\": \"Yara France\", \"ADRESSE\": \"Immeuble Opus 12\", \"CP\": \"92914\", \"VILLE\": \"Paris-la-Defense\", \"CODE_NUTS\": \"FR105\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2016-04-07\", \"NB_OFFRE_RECU\": \"1\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"80000\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"BL/15076F\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les marchés correspondants sont des marchés à bons de commande avec minimum et maximum d'un an reconductible 3 fois.N° 1Sulfate de fer neigeuxMini Ht annuel : 5 000,00 euros - Maxi Ht annuel : 20 000,00 eurosN° 2Chlorure ferrique à 41%Mini Ht annuel : 4 000,00 euros - Maxi Ht annuel : 8 000,00 eurosN° 3PolymèresMini Ht annuel : 9 000,00 euros - Maxi Ht annuel : 15 000,00 eurosN° 5ChauxMini Ht annuel : 2 000,00 euros - Maxi Ht annuel : 5 500,00 eurosN° 11Nitrate de calciumMini Ht annuel : 35 000,00 euros - Maxi Ht annuel : 80 000,00 eurosLes marchés sont consultables au siège du pouvoir adjudicateur sur demande auprès du service des Marchés Publics. Date d'envoi du présent avis au JOUE et au BOAMP : 10 mai 2016.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso\", \"CP\": \"44042\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:16-67126"
   },
   {
    "idweb": "16-69672",

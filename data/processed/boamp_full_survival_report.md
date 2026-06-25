@@ -68,11 +68,3 @@
    generic descriptions ('prestations informatiques', 'maintenance informatique').
 3. Contracts started in 2021-2024 are almost certainly right-censored: with
    typical 48-month durations, their renewals fall after the 2024-12-31 study end.
-
-## Enriched version (SIREN buyer deduplication — 2026-06-24)
-
-SIREN enrichment (API Recherche d'Entreprises) was applied to resolve buyer name aliases.
-Enriched survival: **234 events (12.1%)** — +15 events vs this baseline, −22 buyer groups.
-Log-rank test baseline vs enriched: p = 0.47 (not significant).
-Output: `boamp_renewal_linking_siren_enriched/outputs/boamp_full_survival_enriched.csv`
-See also: `buyer_siren_enrichment/outputs/baseline_vs_siren_enriched_linking_comparison.csv`

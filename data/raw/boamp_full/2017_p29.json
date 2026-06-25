@@ -1347,66 +1347,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-150372"
   },
   {
-   "idweb": "17-154221",
-   "id": "17_154221",
-   "contractfolderid": null,
-   "objet": "Formation du personnel - Permis motocyclettes (AM, attestation motocyclette pour titulaires du permis B), permis B, BE et poids lourds (C, C1, CE, C1E), FIMO et FCO marchandise - un an - reconductible",
-   "filename": "BOAMP-N-IC-AA_2017_304006",
-   "famille": "FNS",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2017-10-31",
-   "datefindiffusion": "2017-12-15",
-   "datelimitereponse": null,
-   "nomacheteur": "Le Mans Métropole - Communauté Urbaine",
-   "titulaire": [
-    "ECF COA",
-    "ECF COA"
-   ],
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "ATTRIBUTION",
-   "sousnature": null,
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "410"
-   ],
-   "dc": [
-    "410"
-   ],
-   "descripteur_libelle": [
-    "Formation"
-   ],
-   "type_marche": null,
-   "type_marche_facette": null,
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": [
-    "17-60833"
-   ],
-   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"17-60833\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-05-02\", \"DATE_FIN_DIFFUSION\": \"2017-05-29\"}}}",
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-154221\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-60833\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-05-02\", \"DATE_FIN_DIFFUSION\": \"2017-05-29\"}}}}, \"NOM_HTML\": \"17-154221.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-10-31\", \"DATE_FIN_DIFFUSION\": \"2017-12-15\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"410\", \"LIBELLE\": \"Formation\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Formation du personnel - Permis motocyclettes (AM, attestation motocyclette pour titulaires du permis B), permis B, BE et poids lourds (C, C1, CE, C1E), FIMO et FCO marchandise - un an - reconductible\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Le Mans Métropole - Communauté Urbaine\", \"CORRESPONDANT\": \"Le Président\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, CS 40010 - 16 avenue François Mitterrand - Le Condorcet, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"Le Mans\", \"TEL\": \"02-43-47-37-31\", \"FAX\": \"02-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Formation du personnel - Permis motocyclettes (AM, attestation motocyclette pour titulaires du permis B), permis B, BE et poids lourds (C, C1, CE, C1E), FIMO et FCO marchandise - un an - reconductible deux fois\", \"CPV\": {\"PRINCIPAL\": \"80510000\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_LOT\": \"1\", \"DESCRIPTION\": \"Permis de catégorie B, BE, AM et formations pour les motocyclettes légères\", \"TITULAIRE\": {\"DENOMINATION\": \"ECF COA\", \"ADRESSE\": \"Route de la mothe\", \"CP\": \"79260\", \"VILLE\": \"La Crèche\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-10-23\", \"NB_OFFRE_RECU\": \"1\", \"MONTANT_INDEFINI\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"2\", \"DESCRIPTION\": \"Permis de catégorie C, FIMO marchandise et FCO\", \"TITULAIRE\": {\"DENOMINATION\": \"ECF COA\", \"ADRESSE\": \"Route de la mothe\", \"CP\": \"79260\", \"VILLE\": \"La Crèche\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-10-23\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT_INDEFINI\": \"\"}}]}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-154221"
-  },
-  {
    "idweb": "17-154004",
    "id": "17_154004",
    "contractfolderid": null,
@@ -1534,6 +1474,66 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-154244\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-154244.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-10-31\", \"DATE_LIMITE_REPONSE\": \"2017-12-01T15:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2017-11-30\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"82\", \"LIBELLE\": \"Collecte sélective\"}, {\"CODE\": \"96\", \"LIBELLE\": \"Déchetterie (travaux)\"}, {\"CODE\": \"404\", \"LIBELLE\": \"Déchets non ménagers (prestations)\"}, {\"CODE\": \"405\", \"LIBELLE\": \"Déchetterie (exploitation)\"}]}, \"DEP_PUBLICATION\": [\"35\", \"56\", \"44\", \"22\", \"14\"], \"RESUME_OBJET\": \"MARCHE DE COLLECTE ET DE TRAITEMENT DES DECHETS DU CENTRE EUGENE MARQUIS\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CENTRE EUGENE MARQUIS\", \"CORRESPONDANT\": \"Briois Philippe\", \"ADRESSE\": \"SERVICE TECHNIQUE BIOMEDICAL AVENUE DE LA BATAILLE FLANDRES DUNKERQUE\", \"CP\": \"35000\", \"VILLE\": \"Rennes\", \"TEL\": \"02-99-25-30-59\", \"MEL\": \"p.briois@rennes.unicancer.fr\", \"URL\": \"http://unicancer.e-marchespublics.com\", \"URL_PROFIL_ACHETEUR\": \"http://unicancer.e-marchespublics.com\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"27\"}, \"OBJET_COMPLET\": \"MARCHE DE COLLECTE ET DE TRAITEMENT DES DECHETS\", \"CPV\": [{\"PRINCIPAL\": \"90524100\", \"SUPPLEMENTAIRE\": \"FC01\"}, {\"PRINCIPAL\": \"90524200\", \"SUPPLEMENTAIRE\": \"DA37\"}, {\"PRINCIPAL\": \"90524000\"}, {\"PRINCIPAL\": \"90514000\"}], \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Centre Eugène Marquis Avenue de la Bataille Flandres Dunkerque\", \"CP\": \"35000\", \"VILLE\": \"RENNES\", \"CODE_NUTS\": \"FRH03\"}, \"AMP_NON\": \"\", \"AVIS_CORRESPOND\": {\"SYSTEME_QUALIFICATION\": \"\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_OUI\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Mise à disposition de dispositifs de recueil des déchets - collecte - traitement et / ou valorisationDéchets: DAOM - DASRI - PAPIER ET CARTONS - CHIMIQUES\", \"QUANTITE\": \"Principales caractéristiques: DASRI: 39 Tonnes annuel - DAOM: 70 Tonnes annuel\", \"OPTIONS\": {\"OUI\": \"\", \"DESCRIPTION\": \"Collecte et traitement des déchets de type:piles - cartouches encres - bois - métaux\"}, \"RECONDUCTIONS\": {\"NB_RECONDUCTIONS\": \"1\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"36\", \"DATE_EXECUTION\": \"2018-02-15\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"DAOM\", \"INTITULE\": \"COLLECTE ET TRAITEMENT DES DECHETS ASSIMILES AUX ORDURES MENAGERES\", \"DESCRIPTION\": \"COLLECTE ET TRAITEMENT DES DECHETS ASSIMILES AUX ORDURES MENAGERES\", \"CPV\": {\"PRINCIPAL\": \"90524100\"}, \"QUANTITE\": \"70 tonnes annuel\"}, {\"NUM\": \"DASRI\", \"INTITULE\": \"COLLECTE ET TRAITEMENT DES DECHETS D'ACTIVITE DE SOINS A RISQUES INFECTIEUX\", \"DESCRIPTION\": \"COLLECTE ET TRAITEMENT DES DECHETS D'ACTIVITE DE SOINS A RISQUES INFECTIEUX\", \"CPV\": {\"PRINCIPAL\": \"90524100\"}, \"QUANTITE\": \"39 tonnes annuel\"}, {\"NUM\": \"DECHETS CHIMIQUES\", \"INTITULE\": \"COLLECTE ET TRAITEMENT DES DECHETS CHIMIQUES\", \"DESCRIPTION\": \"COLLECTE ET TRAITEMENT DES DECHETS CHIMIQUES\", \"CPV\": {\"PRINCIPAL\": \"90524100\"}, \"QUANTITE\": \"0.5 tonnes annuel\"}, {\"NUM\": \"PAPIERS ET CARTONS\", \"INTITULE\": \"COLLECTE ET VALORISATION DES PAPIERS ET CARTONS\", \"DESCRIPTION\": \"COLLECTE ET VALORISATION DES PAPIERS ET CARTONS\", \"CPV\": {\"PRINCIPAL\": \"90524100\"}, \"QUANTITE\": \"19 tonnes annuel\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-12-01T15:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"Suivant conditions énoncées dans le RGC\", \"SITUATION_JURIDIQUE\": \"Suivant conditions énoncées dans le RGC\", \"CAP_ECO\": \"Suivant conditions énoncées dans le RGC\", \"CAP_ECO_NIVEAU_MINI\": \"Suivant conditions énoncées dans le RGC\", \"CAP_TECH\": \"Suivant conditions énoncées dans le RGC\", \"CAP_TECH_NIVEAU_MINI\": \"Suivant conditions énoncées dans le RGC\", \"MARCHE_RESERVE_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire obligatoirement par le candidat, à l'appui de sa candidature\", \"Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire\", \"Déclaration sur l'honneur du candidat justifiant qu'il n'entre dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles 45 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 ou, pour les marchés publics de défense ou de sécurité, qu'il n'entre dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles 45 ,46 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 (si cette déclaration n'est pas déjà demandée dans le cadre du formulaire DC1, ci-après)\", \"Déclaration sur l'honneur du candidat attestant qu'il est en règle, au cours de l'année précédant celle au cours de laquelle a lieu le lancement de la consultation, au regard des articles L. 5212-1, L. 5212-2, L. 5212 5 et L. 5212-9 du code du travail, concernant l'emploi des travailleurs handicapés\", \"Si le candidat est établi en France, une déclaration sur l'honneur du candidat justifiant que le travail est effectué par des salariés employés régulièrement au regard des articles L. 1221-10, L. 3243-2 et R. 3243-1 du code du travail (dans le cas où le candidat emploie des salariés, conformément à l'article D. 8222-5-3° du code du travail)\", \"Si le candidat est établi ou domicilié à l'étranger, une déclaration sur l'honneur du candidat attestant qu'il fournit à ses salariés des bulletins de paie comportant les mentions prévues à l'article R. 3243-1 du code du travail, ou des documents équivalents\", \"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels\", \"Bilans ou extraits de bilans, concernant les trois dernières années, des opérateurs économiques pour lesquels l'établissement des bilans est obligatoire en vertu de la loi\", \"Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années\", \"Présentation d'une liste des principales fournitures ou des principaux services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Les livraisons et les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique\", \"Présentation d'une liste des travaux exécutés au cours des cinq dernières années, appuyée d'attestations de bonne exécution pour les travaux les plus importants. Ces attestations indiquent le montant, l'époque et le lieu d'exécution des travaux et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin\", \"Indication des titres d'études et professionnels de l'opérateur économique\", \"Indication des titres d'études et professionnels des cadres de l'entreprise et notamment des responsables de prestation de services ou de conduite des travaux de même nature que celle du marché\", \"Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation de marchés de même nature\", \"En matière de fournitures et services, une description de l'équipement technique, des mesures employées par l'opérateur économique pour s'assurer de la qualité et des moyens d'étude et de recherche de son entreprise\", \"Certificats de qualifications professionnelles. La preuve de la capacité du candidat peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de travaux attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat\", \"Certificats établis par des services chargés du contrôle de la qualité et habilités à attester la conformité des fournitures par des références à certaines spécifications techniques. Il est accepté d'autres preuves de mesures équivalentes de garantie de la qualité produites par le candidat, si celui-ci n'a pas accès à ces certificats ou n'a aucune possibilité de les obtenir dans les délais fixés\", \"Document prouvant que le candidat dispose d'une autorisation spécifique ou est membre d'une organisation spécifique pour pouvoir fournir, dans leur pays d'origine, le service concerné\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC3, Acte d'engagement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC4, Déclaration de sous-traitance (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"S'il s'appuie, pour présenter sa candidature, sur les capacités professionnelles, techniques et financières d'autres opérateurs économiques, le candidat produit les mêmes documents concernant cet opérateur économique que ceux qui lui sont exigés par l'acheteur public. Le candidat doit également apporter la preuve que chacun de ces opérateurs économiques mettra à sa disposition les moyens nécessaires, pendant toute la durée d'exécution du marché public ou de l'accord-cadre\", \"Si les documents fournis par le candidat ne sont pas établis en langue française, ils doivent être accompagnés d'une traduction en français, certifiée conforme à l'original par un traducteur assermenté\", \"Les pièces prévues aux articles D. 8222-5 ou D. 8222-7 et D. 8222-8 du code du travail\", \"Si l'attributaire est établi en France, les attestations et certificats délivrés par les administrations et organismes compétents prouvant qu'il a satisfait à ses obligations fiscales et sociales ou un état annuel des certificats reçus\", \"Si l'attributaire est établi dans un Etat autre que la France, un certificat établi par les administrations et organismes du pays d'origine. Lorsqu'un tel certificat n'est pas délivré par le pays concerné, il peut être remplacé par une déclaration sous serment, ou dans les Etats où un tel serment n'existe pas, par une déclaration solennelle faite par l'intéressé devant l'autorité judiciaire ou administrative compétente, un notaire ou un organisme professionnel qualifié du pays\", \"Si les documents fournis par le candidat ne sont pas établis en langue française, ils doivent être accompagnés d'une traduction en français, certifiée conforme à l'original par un traducteur assermenté\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_PARTICIPATION_SYSTME_QUALIF\": {\"CONDITIONS\": \"Suivant conditions énoncées dans le RGC\", \"METHODE_VERIFICATION\": \"Suivant conditions énoncées dans le RGC\"}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"PhB/2017/33\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"ADMIN_TECH\": \"\"}, \"DENOMINATION\": \"CENTRE EUGENE MARQUIS\", \"CORRESPONDANT\": \"PHILIPPE BRIOIS\", \"ADRESSE\": \"SERVICE TECHNIQUE BIOMEDICAL AVENUE DE LA BATAILLE FLANDRES DUNKERQUE\", \"CP\": \"35000\", \"VILLE\": \"RENNES\", \"MEL\": \"p.briois@rennes.unicancer.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"TGI RENNES\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"CENTRE EUGENE MARQUIS\", \"CORRESPONDANT\": \"Ph BRIOIS\", \"ADRESSE\": \"SERVICE TECHNIQUE BIOMEDICAL AVENUE DE LA BATAILLE FLANDRES DUNKERQUE\", \"CP\": \"35000\", \"VILLE\": \"RENNES\", \"MEL\": \"p.briois@rennes.unicancer.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-154244"
+  },
+  {
+   "idweb": "17-154221",
+   "id": "17_154221",
+   "contractfolderid": null,
+   "objet": "Formation du personnel - Permis motocyclettes (AM, attestation motocyclette pour titulaires du permis B), permis B, BE et poids lourds (C, C1, CE, C1E), FIMO et FCO marchandise - un an - reconductible",
+   "filename": "BOAMP-N-IC-AA_2017_304006",
+   "famille": "FNS",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2017-10-31",
+   "datefindiffusion": "2017-12-15",
+   "datelimitereponse": null,
+   "nomacheteur": "Le Mans Métropole - Communauté Urbaine",
+   "titulaire": [
+    "ECF COA",
+    "ECF COA"
+   ],
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "ATTRIBUTION",
+   "sousnature": null,
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "410"
+   ],
+   "dc": [
+    "410"
+   ],
+   "descripteur_libelle": [
+    "Formation"
+   ],
+   "type_marche": null,
+   "type_marche_facette": null,
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": [
+    "17-60833"
+   ],
+   "annonces_anterieures": "{\"REFERENCE\": {\"IDWEB\": \"17-60833\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-05-02\", \"DATE_FIN_DIFFUSION\": \"2017-05-29\"}}}",
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-154221\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"17-60833\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2017-05-02\", \"DATE_FIN_DIFFUSION\": \"2017-05-29\"}}}}, \"NOM_HTML\": \"17-154221.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-10-31\", \"DATE_FIN_DIFFUSION\": \"2017-12-15\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"410\", \"LIBELLE\": \"Formation\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Formation du personnel - Permis motocyclettes (AM, attestation motocyclette pour titulaires du permis B), permis B, BE et poids lourds (C, C1, CE, C1E), FIMO et FCO marchandise - un an - reconductible\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Le Mans Métropole - Communauté Urbaine\", \"CORRESPONDANT\": \"Le Président\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, CS 40010 - 16 avenue François Mitterrand - Le Condorcet, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"Le Mans\", \"TEL\": \"02-43-47-37-31\", \"FAX\": \"02-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"OBJET_COMPLET\": \"Formation du personnel - Permis motocyclettes (AM, attestation motocyclette pour titulaires du permis B), permis B, BE et poids lourds (C, C1, CE, C1E), FIMO et FCO marchandise - un an - reconductible deux fois\", \"CPV\": {\"PRINCIPAL\": \"80510000\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_LOT\": \"1\", \"DESCRIPTION\": \"Permis de catégorie B, BE, AM et formations pour les motocyclettes légères\", \"TITULAIRE\": {\"DENOMINATION\": \"ECF COA\", \"ADRESSE\": \"Route de la mothe\", \"CP\": \"79260\", \"VILLE\": \"La Crèche\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-10-23\", \"NB_OFFRE_RECU\": \"1\", \"MONTANT_INDEFINI\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_LOT\": \"2\", \"DESCRIPTION\": \"Permis de catégorie C, FIMO marchandise et FCO\", \"TITULAIRE\": {\"DENOMINATION\": \"ECF COA\", \"ADRESSE\": \"Route de la mothe\", \"CP\": \"79260\", \"VILLE\": \"La Crèche\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-10-23\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT_INDEFINI\": \"\"}}]}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-154221"
   },
   {
    "idweb": "17-154544",
@@ -2378,67 +2378,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-155359"
   },
   {
-   "idweb": "17-154967",
-   "id": "17_154967",
-   "contractfolderid": null,
-   "objet": "Maintenance et vérification périodique obligatoire du parc d'appareils de levage de l'ELOCA d'Angers",
-   "filename": "BOAMP-N-AO_2017_306005",
-   "famille": "FNS",
-   "code_departement": [
-    "49"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2017-11-02",
-   "datefindiffusion": "2018-01-11",
-   "datelimitereponse": "2017-12-11T14:00:00+00:00",
-   "nomacheteur": "MINDEF/EMA/DC SCA/PFAF CO Rennes",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": [
-    "environnementaux"
-   ],
-   "marche_public_simplifie": "1",
-   "marche_public_simplifie_label": "Marché public simplifié",
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "196"
-   ],
-   "dc": [
-    "196"
-   ],
-   "descripteur_libelle": [
-    "Maintenance"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-154967\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-154967.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-11-02\", \"DATE_LIMITE_REPONSE\": \"2017-12-11T15:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-01-11\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"196\", \"LIBELLE\": \"Maintenance\"}}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Maintenance et vérification périodique obligatoire du parc d'appareils de levage de l'ELOCA d'Angers\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"MINDEF/EMA/DC SCA/PFAF CO Rennes\", \"CORRESPONDANT\": \"Mme LE BAIL Juliette, PFAF-CO\", \"ADRESSE\": \"BP 22\", \"CP\": \"35998\", \"VILLE\": \"Rennes cedex 9\", \"TEL\": \"02-23-44-53-78\", \"FAX\": \"02-23-44-53-87\", \"URL\": \"http://marches-publics.gouv.fr\"}, \"TYPE_ORGANISME\": {\"ETAT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"DEF\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"1\"}, \"OBJET_COMPLET\": \"Maintenance et vérification périodique obligatoire du parc d'appareils de levage de l'ELOCA d'Angers\", \"CPV\": {\"PRINCIPAL\": \"50100000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"88 avenue jean boutton\", \"CP\": \"49130\", \"VILLE\": \"Les ponts de cé\", \"CODE_NUTS\": \"FRG02\"}, \"AMP_OUI\": \"\", \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Maintenance et vérification périodique obligatoire du parc d'appareils de levage\", \"QUANTITE\": \"Maintenance et vérification périodique obligatoire du parc d'appareils de levage de l'ELOCA d'Angers\"}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"48\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"Technique\"}, {\"@POIDS\": \"30\", \"#text\": \"Prix\"}, {\"@POIDS\": \"10\", \"#text\": \"Performance en matière de développement durable\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-12-11T15:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"CCP35-170262\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Rennes\", \"ADRESSE\": \"Hôtel de Bizien - 3 contour de la motte - CS 44416\", \"CP\": \"35044\", \"VILLE\": \"Rennes cedex\", \"TEL\": \"02-23-21-28-28\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Rennes\", \"ADRESSE\": \"Hôtel de Bizien - 3 contour de la motte - CS 44416\", \"CP\": \"35044\", \"VILLE\": \"Rennes cedex\", \"TEL\": \"02-23-21-28-28\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-154967"
-  },
-  {
    "idweb": "17-154845",
    "id": "17_154845",
    "contractfolderid": null,
@@ -2498,6 +2437,67 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-154845\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-154845.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-11-02\", \"DATE_FIN_DIFFUSION\": \"2017-12-31\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"212\", \"LIBELLE\": \"Matériel médical\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Fourniture de systèmes de radiologie diagnostique\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CHU de Nantes\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"5 allée de l'île gloriette\", \"CP\": \"44093\", \"VILLE\": \"Nantes cedex\", \"MEL\": \"bureau.desmarches@chu-nantes.fr\", \"URL\": \"http://www.chu-nantes.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.gouv.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de systèmes de radiologie diagnostique\", \"REF_MARCHE\": \"PCN-16103\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Fourniture de systèmes de radiologie diagnostique\", \"CPV\": {\"PRINCIPAL\": \"33110000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Fourniture de systèmes de radiologie diagnostique\", \"CPV\": {\"PRINCIPAL\": \"33110000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"10\", \"#text\": \"Qualité matérielle des systèmes proposés pour la salle HSJ\"}, {\"@POIDS\": \"10\", \"#text\": \"Qualité matérielle des systèmes proposés pour la sale Urgences HD\"}, {\"@POIDS\": \"10\", \"#text\": \"Qualité matérielle des systèmes proposés pour mobile numérique HGRL\"}, {\"@POIDS\": \"10\", \"#text\": \"Solutions de numérisation de l'existant\"}, {\"@POIDS\": \"2\", \"#text\": \"Mutualisation des capteurs\"}, {\"@POIDS\": \"10\", \"#text\": \"Proposition gestion de bris\"}, {\"@POIDS\": \"5\", \"#text\": \"Structure SAV\"}, {\"@POIDS\": \"5\", \"#text\": \"Offre de formation\"}, {\"@POIDS\": \"3\", \"#text\": \"Qualité du dossier de réponse\"}]}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"35\", \"#text\": \"Coût de l'offre\"}}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"NEGOCIE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2016\", \"NUM_PARUTION\": \"204\", \"NUM_ANNONCE\": \"368190\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"170140\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Fourniture de systèmes de radiologie diagnostique.\", \"TITULAIRE\": {\"DENOMINATION\": \"SIEMENS HEALTHCARE S.A.S\", \"ADRESSE\": \"40 avenue des Fruitiers\", \"CP\": \"93527\", \"VILLE\": \"Saint denis cedex\", \"CODE_NUTS\": \"FR\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-03-22\", \"NB_OFFRE_RECU\": \"5\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"1458878\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Le marché public est consultable dans le respect des secrets protégés par la loi sur demande écrite adressée au pouvoir adjudicateur dont les coordonnées sont mentionnées à la section I du présent avis.Le marché public est conclu pour une durée d'un an à compter de sa date de notification au titulaire. Il pourra être reconduit tacitement 9 fois pour une nouvelle période d'un an.Pour la Composante 1 : \\\" Matériels et prestations associées \\\" et la Composante 3 : \\\" Maintenance tous risques des équipements\\\", le marché est ordinaire. Pour la Composante 2 : \\\" Matériels et prestations associées, le marché public est un accord-cadre à émission de bons de commande en application de l'article 78 I alinéa 3 et l'article 80 du décret no2016-360, conclu avec un seul opérateur économique, sans minimum et maximum en valeur ou en quantité. Date d'envoi du présent avis au JOUE et au BOAMP : 31 octobre 2017.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"* Référé contractuel (art. L 551-13 et s. du CJA)* Recours en contestation de validité du contrat issu de la jurisprudence \\\" Tarn et Garonne \\\".\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de lIle Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-154845"
+  },
+  {
+   "idweb": "17-154967",
+   "id": "17_154967",
+   "contractfolderid": null,
+   "objet": "Maintenance et vérification périodique obligatoire du parc d'appareils de levage de l'ELOCA d'Angers",
+   "filename": "BOAMP-N-AO_2017_306005",
+   "famille": "FNS",
+   "code_departement": [
+    "49"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2017-11-02",
+   "datefindiffusion": "2018-01-11",
+   "datelimitereponse": "2017-12-11T14:00:00+00:00",
+   "nomacheteur": "MINDEF/EMA/DC SCA/PFAF CO Rennes",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": [
+    "environnementaux"
+   ],
+   "marche_public_simplifie": "1",
+   "marche_public_simplifie_label": "Marché public simplifié",
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "196"
+   ],
+   "dc": [
+    "196"
+   ],
+   "descripteur_libelle": [
+    "Maintenance"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-154967\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-154967.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-11-02\", \"DATE_LIMITE_REPONSE\": \"2017-12-11T15:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-01-11\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"196\", \"LIBELLE\": \"Maintenance\"}}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Maintenance et vérification périodique obligatoire du parc d'appareils de levage de l'ELOCA d'Angers\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"MINDEF/EMA/DC SCA/PFAF CO Rennes\", \"CORRESPONDANT\": \"Mme LE BAIL Juliette, PFAF-CO\", \"ADRESSE\": \"BP 22\", \"CP\": \"35998\", \"VILLE\": \"Rennes cedex 9\", \"TEL\": \"02-23-44-53-78\", \"FAX\": \"02-23-44-53-87\", \"URL\": \"http://marches-publics.gouv.fr\"}, \"TYPE_ORGANISME\": {\"ETAT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"DEF\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"1\"}, \"OBJET_COMPLET\": \"Maintenance et vérification périodique obligatoire du parc d'appareils de levage de l'ELOCA d'Angers\", \"CPV\": {\"PRINCIPAL\": \"50100000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"88 avenue jean boutton\", \"CP\": \"49130\", \"VILLE\": \"Les ponts de cé\", \"CODE_NUTS\": \"FRG02\"}, \"AMP_OUI\": \"\", \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Maintenance et vérification périodique obligatoire du parc d'appareils de levage\", \"QUANTITE\": \"Maintenance et vérification périodique obligatoire du parc d'appareils de levage de l'ELOCA d'Angers\"}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"48\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"Technique\"}, {\"@POIDS\": \"30\", \"#text\": \"Prix\"}, {\"@POIDS\": \"10\", \"#text\": \"Performance en matière de développement durable\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2017-12-11T15:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"CCP35-170262\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Rennes\", \"ADRESSE\": \"Hôtel de Bizien - 3 contour de la motte - CS 44416\", \"CP\": \"35044\", \"VILLE\": \"Rennes cedex\", \"TEL\": \"02-23-21-28-28\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Rennes\", \"ADRESSE\": \"Hôtel de Bizien - 3 contour de la motte - CS 44416\", \"CP\": \"35044\", \"VILLE\": \"Rennes cedex\", \"TEL\": \"02-23-21-28-28\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-154967"
   },
   {
    "idweb": "17-154793",
@@ -5203,68 +5203,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-156920"
   },
   {
-   "idweb": "17-157750",
-   "id": "17_157750",
-   "contractfolderid": null,
-   "objet": "services de téléphonie mobile sur smartphones avec abonnements voix et data selon les usages.les prestations incluent la fourniture des smartphones et objets communicants (environ 500 unités).",
-   "filename": "BOAMP-N-AO_2017_312011",
-   "famille": "FNS",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2017-11-08",
-   "datefindiffusion": "2017-11-24",
-   "datelimitereponse": "2017-11-24T11:00:00+00:00",
-   "nomacheteur": "SEMITAN",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "2",
-    "338"
-   ],
-   "dc": [
-    "2",
-    "338"
-   ],
-   "descripteur_libelle": [
-    "Abonnement",
-    "Télécommunications"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-157750\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-157750.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-11-08\", \"DATE_LIMITE_REPONSE\": \"2017-11-24T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2017-11-24\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"2\", \"LIBELLE\": \"Abonnement\"}, {\"CODE\": \"338\", \"LIBELLE\": \"Télécommunications\"}]}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"services de téléphonie mobile sur smartphones avec abonnements voix et data selon les usages.les prestations incluent la fourniture des smartphones et objets communicants (environ 500 unités).\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"SEMITAN\", \"CORRESPONDANT\": \"Christian ARDOUIN\", \"ADRESSE\": \"3 Rue Bellier, BP 64605\", \"CP\": \"44046\", \"VILLE\": \"Nantes Cedex 1\", \"TEL\": \"02-51-81-80-03\", \"FAX\": \"02-51-81-80-50\", \"URL\": \"http://www.tan.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.tan-marches.com\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"ENTITE_ADJUDICATRICE\": {\"SER_CHEMIN_FER_TRAM_BUS\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"5\"}, \"OBJET_COMPLET\": \"Services de téléphonie mobile sur smartphones avec abonnements voix et data selon les usages.Les prestations incluent la fourniture des smartphones et objets communicants (environ 500 unités).\", \"CPV\": [{\"PRINCIPAL\": \"64212000\"}, {\"PRINCIPAL\": \"64210000\"}], \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"3 Rue du Bellier\", \"CP\": \"44046\", \"VILLE\": \"Nantes Cedex 1\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Services de téléphonie mobile sur smartphones avec abonnements voix et data selon les usages.Les prestations incluent la fourniture des smartphones et objets communicants (environ 500 unités).Il est demandé : - La fourniture d'équipements 4G ou supérieur qui devront être compatibles avec notre MDM airwatch,- Des forfaits voix en illimité et data sur le territoire français et européen,- Les outils d'administration pour la gestion,- La fourniture de rapports d'analyse sur les consommations, les alertes, ...,- Le portage et/ou le maintien du plan de numérotation actuel.Durée du marché : 24 mois, avec une possible reconduction d'une année.La durée du marché commence à courir à compter du 20 février 2018 et se termine le 19 février 2020. Le marché pourra être reconduit pour une période d'une année.\"}, \"DUREE_DELAI\": {\"DATE_DEBUT\": \"2018-02-20\", \"DATE_FIN\": \"2020-02-19\", \"DATE_EXECUTION\": \"2018-02-20\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_CANDIDAT\": \"2017-11-24T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"FORME_JURIDIQUE\": \"Les candidats peuvent présenter des candidatures individuelles ou, conformément aux dispositions de l'article 45 du décret 2016-360 du 25 mars 2016 relatif aux marchés publics, sous forme groupée. Toute situation qui équivaudrait à ce qu'un même candidat se présente sous plusieurs candidatures en tant que candidat individuel et membre d'un ou plusieurs groupements ou en tant que membre de plusieurs groupements, conduirait au rejet de toutes les candidatures dans lesquelles ce candidat serait présent.\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"Les candidats seront sélectionnés en fonction de leurs capacités professionnelles, techniques et financières.Conformément à l'article 45 du décret 2016-360 relatif aux marchés publics, pour justifier de ses capacités professionnelles, techniques et financières, chaque candidat, individuel ou groupé, peut demander que soient également prises en compte les capacités professionnelles, techniques et financières d'autres opérateurs économiques, quelle que soit la nature juridique des liens existant entre ces opérateurs et le candidat. Dans ce cas, il justifie des capacités de ce ou ces opérateurs économiques en produisant les mêmes documents concernant cet opérateur économique que ceux qui lui sont exigés par la SEMITAN et apporte la preuve qu'il en disposera pour l'exécution du marché\", \"SITUATION_JURIDIQUE\": \"Le candidat devra fournir une lettre de candidature datée et signée par une personne compétente à l'effet d'engager le candidat indiquant les noms, adresse, numéros de téléphone et de télécopie du siège du candidat, les raison sociale, forme juridique et le cas échéant le numéro d'immatriculation au registre du commerce ou le numéro SIREN du candidat, ainsi que les noms, prénom et qualité du signataire, à laquelle sera annexé, pour chaque signature, un document attestant que le signataire a qualité à l'effet de signer et d'engager le candidat. Les documents permettant de justifier de la qualité du signataire à engager le candidat sont les suivants : - Si le signataire est le représentant légal de l'opérateur économique : le justificatif de l'inscription au registre de la profession ou au registre du commerce, faisant clairement apparaître son identité, ou toute autre pièce (statuts de la société, etc.) justifiant valablement la qualité de représentant légal de la société du signataire, - Si le signataire n'est pas le représentant légal de l'opérateur économique, le pouvoir en vigueur, signé par le représentant légal attestant de la capacité du signataire à représenter l'opérateur économique.Le candidat devra également fournir une déclaration sur l'honneur datée et signée par la personne ayant le pouvoir d'engager le candidat, en application de l'article 48 du décret 2016-360 relatif aux marchés publics.Pour les items ci-dessus, les candidats peuvent valablement utiliser le formulaire de déclaration du candidat DC1, disponible sur le site http://www.economie.gouv.fr/daj/formulaires-declaration-candidat, dans l'espace des marchés publics, rubrique \\\" formulaires \\\". Les rubriques du formulaire devront être renseignées et complétées de telle sorte que les informations sollicitées soient bien fournies. Le candidat devra enfin fournir, s'il est en redressement judiciaire, la copie du ou des jugements l'autorisant à poursuivre son activité.\", \"CAP_ECO\": \"Le candidat devra fournir une déclaration portant sur le chiffre d'affaires annuel global et le chiffre d'affaires concernant les prestations objet du marché du candidat au cours des trois derniers exercices clos.\", \"CAP_TECH\": \"Le candidat devra fournir une notice indiquant :- Pour les trois dernières années disponibles, l'effectif annuel incluant le personnel d'encadrement Les informations générales sur l'entreprise dont la politique qualité, sécurité et environnement.- La carte nationale de couverture du réseau de l'opérateur voix & données ainsi qu'un descriptif détaillé pour les 24 communes de Nantes Métropole.- La carte nationale des zones d'ombre du réseau de l'opérateur voix et data ainsi qu'un descriptif détaillé pour les 24 communes de Nantes Métropole.- La présentation des principaux contrats conclus ou en cours d'exécution depuis 2013, pour des prestations similaires et de même importance à la présente consultation. Cette présentation indiquera : le destinataire public ou privé, le volume de prestations, le montant annuel global des prestations, les dates de début et de fin du contrat. Ces prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration du candidat. Les références citées doivent, dans la mesure où elles l'ont autorisé, pouvoir être jointes par téléphone ou par messagerie électronique.Ces prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration du candidat. Les références citées doivent, dans la mesure où elles l'ont autorisé, pouvoir être jointes par téléphone ou par messagerie électronique.\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"CONDITIONS_REMISE_OFFRES\": \"Vous avez la possibilité de transmettre votre candidature soit par voie électronique sur le site www.tan-marches.com , soit par voie papier, sous enveloppe cachetée portant l'indication suivante : \\\" Candidature : Téléphonie mobile 2018 \\\" Entreprise : .................................................- Ils devront être remis contre récépissé au : SEMITAN, Direction Administrative et Financière - Service Achats Marchés, Service Achats Marchés, 3, rue Bellier BP 64605 - 44046 NANTES CEDEX 1- ou, s'ils sont envoyés par la poste, devront l'être à cette même adresse, par pli recommandé avec avis de réception postal, et parvenir à destination avant ces mêmes dates et heure limites.\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Nombre limite de candidats admis à remettre une prestation : 4(Critère limitation : mise en concurrence effective)L'avis est consultable sur : www.tan.fr, rubrique consultations achats, contrats, services.Aucun renseignement ne sera communiqué par téléphone.Les questions sont à formuler par e-mail à la SEMITAN, Service Achats Marchés : A : yalvado@semitan.fr, Cc : saudrain@semitan.fr, mmazoue@semitan.fr Objet : Téléphonie mobile 2018\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal de Grande Instance\", \"ADRESSE\": \"19 Quai François Mitterrand\", \"CP\": \"44921\", \"VILLE\": \"Nantes Cedex 9\", \"TEL\": \"02-51-17-95-00\", \"FAX\": \"02-51-17-98-27\"}}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-157750"
-  },
-  {
    "idweb": "17-156580",
    "id": "17_156580",
    "contractfolderid": null,
@@ -5327,6 +5265,68 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-156580\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-156580.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-11-08\", \"DATE_FIN_DIFFUSION\": \"2017-12-29\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"252\", \"LIBELLE\": \"Ouvrage d'art\"}, {\"CODE\": \"455\", \"LIBELLE\": \"Ingénierie\"}]}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Auscultations et Diagnostics d'ouvrages d'art\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Conseil départemental Loire-Atlantique\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"3, Quai Ceineray CS 94109\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-10-00\", \"FAX\": \"(+33) 2-40-99-11-48\", \"MEL\": \"contact@loire-atlantique.fr\", \"URL\": \"http://www.loire-atlantique.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marches.loire-atlantique.fr\", \"URL_INFORMATION\": \"https://marches.loire-atlantique.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Auscultations et Diagnostics d'ouvrages d'art\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Le marché d'auscultations et de diagnostics d'ouvrages d'art, est un marché pour réaliser des inspections détaillées d'ouvrages, des visites subaquatiques d'ouvrages, ainsi que des prélèvements de matériaux pour des essais en laboratoire. Ce marché comporte également une partie vérification et recalcul d'ouvrage pour les travaux de réhabilitation, et de vérification de charges lors de transport exceptionnel spécifique.\", \"CPV\": {\"PRINCIPAL\": \"79311000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Le marché d'auscultations et de diagnostics d'ouvrages d'art, est un marché pour réaliser des inspections détaillées d'ouvrages, des visites subaquatiques d'ouvrages, ainsi que des prélèvements de matériaux pour des essais en laboratoire. Ce marché comporte également une partie vérification et recalcul d'ouvrage pour les travaux de réhabilitation, et de vérification de charges lors de transport exceptionnel spécifique.\", \"CPV\": {\"PRINCIPAL\": \"79311000\"}, \"CODE_NUTS\": \"FRG01\", \"LIEU_PRINCIPAL\": \"Sur l'ensemble du réseau routier et du patrimoine des ouvrages d'art du Département de Loire-Atlantique. 44000 NANTES\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"40.0\", \"#text\": \"Valeur technique\"}, {\"@POIDS\": \"15.0\", \"#text\": \"Valeur technique : Organisation des interventions\"}, {\"@POIDS\": \"15.0\", \"#text\": \"Valeur technique : Modes opératoires et méthodologie des interventions\"}, {\"@POIDS\": \"10.0\", \"#text\": \"Valeur technique : Moyens matériels des interventions\"}, {\"@POIDS\": \"20.0\", \"#text\": \"Aptitudes techniques des équipes\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"40.0\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"AMP_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"H063PA\", \"INTITULE\": \"Auscultations et Diagnostics d'ouvrages d'art\", \"TITULAIRE\": {\"DENOMINATION\": \"GINGER CEBTP\", \"ADRESSE\": \"23, Rue Jan Palach\", \"CP\": \"44220\", \"VILLE\": \"COUERON\", \"CODE_NUTS\": \"FR\", \"TEL\": \"(+33) -40-92-17-71\", \"FAX\": \"(+33) -40-92-06-10\", \"MEL\": \"cebtp.nantes@groupe-cebtp.com\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2017-10-24\", \"NB_OFFRE_RECU\": \"10\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"250000.00\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La consultation du(des) contrat(s) peut etre effectuée à l'adresse de l'organisme acheteur. Les tiers justifiant d'un intéret lésé peuvent exercer un recours de pleine juridiction devant le juge administratif dans un délai de deux mois à compter de la publication du présent avis. Dans le respect des secrets protégés par la loi, les pièces du marché peuvent etre consultées sur rendez-vous auprès de Mme BOUSSEAUD Fabienne, 02.40.99.13.82 (fabienne.bousseaud@loire-atlantique.fr) à l'adresse suivante : Immeuble Jean-Baptiste Daviais - 8, rue Sully - 44041 NANTES. Marché à bons de commande d'un montant minimum de 60 000,00 euros HT et maximum de 250 000,00 euros HT pour une durée de 4 années.. Date d'envoi du présent avis au JOUE et au BOAMP : 6 novembre 2017.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Référé pré-contractuel prévu aux articles L.551-1 à L.551-12 du Code de justice administrative (CJA), et pouvant etre exercé avant la signature du contrat. Référé contractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant etre exercé dans les délais prévus à l'article R. 551-7 du CJA. Recours pour excès de pouvoir contre une décision administrative prévu aux articles R. 421-1 à R. 421-7 du CJA, et pouvant etre exercé dans les 2 mois suivant la notification ou publication de la décision de l'organisme (le recours ne peut plus, toutefois, etre exercé après la signature du contrat). Recours de pleine juridiction ouvert aux tiers justifiant d'un intéret lésé, et pouvant etre exercé dans les deux mois suivant la date à laquelle la conclusion du contrat est rendue publique.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette Cedex 1 BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr/\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité de règlement amiable\", \"ADRESSE\": \"22, Mail Pablo Picasso Cedex 01\", \"CP\": \"44042\", \"VILLE\": \"NANTES\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-156580"
+  },
+  {
+   "idweb": "17-157750",
+   "id": "17_157750",
+   "contractfolderid": null,
+   "objet": "services de téléphonie mobile sur smartphones avec abonnements voix et data selon les usages.les prestations incluent la fourniture des smartphones et objets communicants (environ 500 unités).",
+   "filename": "BOAMP-N-AO_2017_312011",
+   "famille": "FNS",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2017-11-08",
+   "datefindiffusion": "2017-11-24",
+   "datelimitereponse": "2017-11-24T11:00:00+00:00",
+   "nomacheteur": "SEMITAN",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "2",
+    "338"
+   ],
+   "dc": [
+    "2",
+    "338"
+   ],
+   "descripteur_libelle": [
+    "Abonnement",
+    "Télécommunications"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"17-157750\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"17-157750.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2017-11-08\", \"DATE_LIMITE_REPONSE\": \"2017-11-24T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2017-11-24\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"2\", \"LIBELLE\": \"Abonnement\"}, {\"CODE\": \"338\", \"LIBELLE\": \"Télécommunications\"}]}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"services de téléphonie mobile sur smartphones avec abonnements voix et data selon les usages.les prestations incluent la fourniture des smartphones et objets communicants (environ 500 unités).\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"SEMITAN\", \"CORRESPONDANT\": \"Christian ARDOUIN\", \"ADRESSE\": \"3 Rue Bellier, BP 64605\", \"CP\": \"44046\", \"VILLE\": \"Nantes Cedex 1\", \"TEL\": \"02-51-81-80-03\", \"FAX\": \"02-51-81-80-50\", \"URL\": \"http://www.tan.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.tan-marches.com\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"ENTITE_ADJUDICATRICE\": {\"SER_CHEMIN_FER_TRAM_BUS\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"5\"}, \"OBJET_COMPLET\": \"Services de téléphonie mobile sur smartphones avec abonnements voix et data selon les usages.Les prestations incluent la fourniture des smartphones et objets communicants (environ 500 unités).\", \"CPV\": [{\"PRINCIPAL\": \"64212000\"}, {\"PRINCIPAL\": \"64210000\"}], \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"3 Rue du Bellier\", \"CP\": \"44046\", \"VILLE\": \"Nantes Cedex 1\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Services de téléphonie mobile sur smartphones avec abonnements voix et data selon les usages.Les prestations incluent la fourniture des smartphones et objets communicants (environ 500 unités).Il est demandé : - La fourniture d'équipements 4G ou supérieur qui devront être compatibles avec notre MDM airwatch,- Des forfaits voix en illimité et data sur le territoire français et européen,- Les outils d'administration pour la gestion,- La fourniture de rapports d'analyse sur les consommations, les alertes, ...,- Le portage et/ou le maintien du plan de numérotation actuel.Durée du marché : 24 mois, avec une possible reconduction d'une année.La durée du marché commence à courir à compter du 20 février 2018 et se termine le 19 février 2020. Le marché pourra être reconduit pour une période d'une année.\"}, \"DUREE_DELAI\": {\"DATE_DEBUT\": \"2018-02-20\", \"DATE_FIN\": \"2020-02-19\", \"DATE_EXECUTION\": \"2018-02-20\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_CANDIDAT\": \"2017-11-24T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"FORME_JURIDIQUE\": \"Les candidats peuvent présenter des candidatures individuelles ou, conformément aux dispositions de l'article 45 du décret 2016-360 du 25 mars 2016 relatif aux marchés publics, sous forme groupée. Toute situation qui équivaudrait à ce qu'un même candidat se présente sous plusieurs candidatures en tant que candidat individuel et membre d'un ou plusieurs groupements ou en tant que membre de plusieurs groupements, conduirait au rejet de toutes les candidatures dans lesquelles ce candidat serait présent.\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"Les candidats seront sélectionnés en fonction de leurs capacités professionnelles, techniques et financières.Conformément à l'article 45 du décret 2016-360 relatif aux marchés publics, pour justifier de ses capacités professionnelles, techniques et financières, chaque candidat, individuel ou groupé, peut demander que soient également prises en compte les capacités professionnelles, techniques et financières d'autres opérateurs économiques, quelle que soit la nature juridique des liens existant entre ces opérateurs et le candidat. Dans ce cas, il justifie des capacités de ce ou ces opérateurs économiques en produisant les mêmes documents concernant cet opérateur économique que ceux qui lui sont exigés par la SEMITAN et apporte la preuve qu'il en disposera pour l'exécution du marché\", \"SITUATION_JURIDIQUE\": \"Le candidat devra fournir une lettre de candidature datée et signée par une personne compétente à l'effet d'engager le candidat indiquant les noms, adresse, numéros de téléphone et de télécopie du siège du candidat, les raison sociale, forme juridique et le cas échéant le numéro d'immatriculation au registre du commerce ou le numéro SIREN du candidat, ainsi que les noms, prénom et qualité du signataire, à laquelle sera annexé, pour chaque signature, un document attestant que le signataire a qualité à l'effet de signer et d'engager le candidat. Les documents permettant de justifier de la qualité du signataire à engager le candidat sont les suivants : - Si le signataire est le représentant légal de l'opérateur économique : le justificatif de l'inscription au registre de la profession ou au registre du commerce, faisant clairement apparaître son identité, ou toute autre pièce (statuts de la société, etc.) justifiant valablement la qualité de représentant légal de la société du signataire, - Si le signataire n'est pas le représentant légal de l'opérateur économique, le pouvoir en vigueur, signé par le représentant légal attestant de la capacité du signataire à représenter l'opérateur économique.Le candidat devra également fournir une déclaration sur l'honneur datée et signée par la personne ayant le pouvoir d'engager le candidat, en application de l'article 48 du décret 2016-360 relatif aux marchés publics.Pour les items ci-dessus, les candidats peuvent valablement utiliser le formulaire de déclaration du candidat DC1, disponible sur le site http://www.economie.gouv.fr/daj/formulaires-declaration-candidat, dans l'espace des marchés publics, rubrique \\\" formulaires \\\". Les rubriques du formulaire devront être renseignées et complétées de telle sorte que les informations sollicitées soient bien fournies. Le candidat devra enfin fournir, s'il est en redressement judiciaire, la copie du ou des jugements l'autorisant à poursuivre son activité.\", \"CAP_ECO\": \"Le candidat devra fournir une déclaration portant sur le chiffre d'affaires annuel global et le chiffre d'affaires concernant les prestations objet du marché du candidat au cours des trois derniers exercices clos.\", \"CAP_TECH\": \"Le candidat devra fournir une notice indiquant :- Pour les trois dernières années disponibles, l'effectif annuel incluant le personnel d'encadrement Les informations générales sur l'entreprise dont la politique qualité, sécurité et environnement.- La carte nationale de couverture du réseau de l'opérateur voix & données ainsi qu'un descriptif détaillé pour les 24 communes de Nantes Métropole.- La carte nationale des zones d'ombre du réseau de l'opérateur voix et data ainsi qu'un descriptif détaillé pour les 24 communes de Nantes Métropole.- La présentation des principaux contrats conclus ou en cours d'exécution depuis 2013, pour des prestations similaires et de même importance à la présente consultation. Cette présentation indiquera : le destinataire public ou privé, le volume de prestations, le montant annuel global des prestations, les dates de début et de fin du contrat. Ces prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration du candidat. Les références citées doivent, dans la mesure où elles l'ont autorisé, pouvoir être jointes par téléphone ou par messagerie électronique.Ces prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration du candidat. Les références citées doivent, dans la mesure où elles l'ont autorisé, pouvoir être jointes par téléphone ou par messagerie électronique.\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"CONDITIONS_REMISE_OFFRES\": \"Vous avez la possibilité de transmettre votre candidature soit par voie électronique sur le site www.tan-marches.com , soit par voie papier, sous enveloppe cachetée portant l'indication suivante : \\\" Candidature : Téléphonie mobile 2018 \\\" Entreprise : .................................................- Ils devront être remis contre récépissé au : SEMITAN, Direction Administrative et Financière - Service Achats Marchés, Service Achats Marchés, 3, rue Bellier BP 64605 - 44046 NANTES CEDEX 1- ou, s'ils sont envoyés par la poste, devront l'être à cette même adresse, par pli recommandé avec avis de réception postal, et parvenir à destination avant ces mêmes dates et heure limites.\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Nombre limite de candidats admis à remettre une prestation : 4(Critère limitation : mise en concurrence effective)L'avis est consultable sur : www.tan.fr, rubrique consultations achats, contrats, services.Aucun renseignement ne sera communiqué par téléphone.Les questions sont à formuler par e-mail à la SEMITAN, Service Achats Marchés : A : yalvado@semitan.fr, Cc : saudrain@semitan.fr, mmazoue@semitan.fr Objet : Téléphonie mobile 2018\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal de Grande Instance\", \"ADRESSE\": \"19 Quai François Mitterrand\", \"CP\": \"44921\", \"VILLE\": \"Nantes Cedex 9\", \"TEL\": \"02-51-17-95-00\", \"FAX\": \"02-51-17-98-27\"}}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:17-157750"
   },
   {
    "idweb": "17-157573",

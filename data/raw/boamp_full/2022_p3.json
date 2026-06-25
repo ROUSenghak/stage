@@ -1540,74 +1540,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-13731"
   },
   {
-   "idweb": "22-12003",
-   "id": "22_12003",
-   "contractfolderid": null,
-   "objet": "Acquisition de matériel de sonorisation et de vidéo projection, de matériels d'orchestre et d'instruments pour le pôle culturel de Laval",
-   "filename": "BOAMP-J-AO_2022_026009",
-   "famille": "JOUE",
-   "code_departement": [
-    "53"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2022-01-26",
-   "datefindiffusion": "2022-03-01",
-   "datelimitereponse": null,
-   "nomacheteur": "Laval Agglomération",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "166",
-    "213",
-    "216",
-    "230"
-   ],
-   "dc": [
-    "166",
-    "213",
-    "216",
-    "230"
-   ],
-   "descripteur_libelle": [
-    "Instruments de musique",
-    "Matériel phonique",
-    "Matériel scénique",
-    "Mobilier"
-   ],
-   "type_marche": [
-    "FOURNITURES"
-   ],
-   "type_marche_facette": [
-    "Fournitures"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v240.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"22-12003\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"22-12003.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2022-01-26\", \"DATE_FIN_DIFFUSION\": \"2022-03-01\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"166\", \"LIBELLE\": \"Instruments de musique\"}, {\"CODE\": \"213\", \"LIBELLE\": \"Matériel phonique\"}, {\"CODE\": \"216\", \"LIBELLE\": \"Matériel scénique\"}, {\"CODE\": \"230\", \"LIBELLE\": \"Mobilier\"}]}, \"DEP_PUBLICATION\": \"53\", \"RESUME_OBJET\": \"Acquisition de matériel de sonorisation et de vidéo projection, de matériels d'orchestre et d'instruments pour le pôle culturel de Laval\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Laval Agglomération\", \"CONTACT\": \"Service Commande Publique,\", \"ADJUDICATEUR_NUTS\": \"FRG03\", \"ADRESSE\": \"Hôtel Communautaire, 1 place du Général Ferrié, CS 60809\", \"CP\": \"53008\", \"VILLE\": \"Laval cedex\", \"TEL\": \"(+33) -02-43-49-45-57\", \"MEL\": \"commande.publique@laval.fr\", \"URL\": \"http://www.agglo-laval.fr\", \"URL_PROFIL_ACHETEUR\": \"http://Agglo-laval.achatpublic.com\", \"URL_PARTICIPATION\": \"https://agglo-laval.achatpublic.com\", \"URL_DOCUMENT\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2022_Yy0K5uVYk4\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Acquisition de matériel de sonorisation et de vidéo projection, de matériels d'orchestre et d'instruments pour le pôle culturel de Laval\", \"REF_MARCHE\": \"22-008\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Acquisition de matériel de sonorisation et de vidéo projection, de matériels d'orchestre et d'instruments pour le pôle culturel de Laval\", \"CPV\": {\"PRINCIPAL\": \"32342410\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"DESCRIPTION\": \"Matériel de sonorisation\", \"CPV\": {\"PRINCIPAL\": \"32342410\"}, \"CODE_NUTS\": \"FRG03\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"140\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"DESCRIPTION\": \"Matériel de vide projection\", \"CPV\": {\"PRINCIPAL\": \"38652100\"}, \"CODE_NUTS\": \"FRG03\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"140\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"DESCRIPTION\": \"Matériel d'orchestre\", \"CPV\": {\"PRINCIPAL\": \"39100000\"}, \"CODE_NUTS\": \"FRG03\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"140\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"4\", \"DESCRIPTION\": \"Instruments de musique\", \"CPV\": {\"PRINCIPAL\": \"37310000\"}, \"CODE_NUTS\": \"FRG03\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"140\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2022-03-01T23:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO_MARCHE_OUI\": \"\", \"CAP_TECH_OFFRE_OUI\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2022-03-02\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La consultation est passée en appel d'offres ouvert en application des articles L 2124-1, L2124-2, R 2124-1 et R2124-2 du code de la commande publique.Le marché est conclu à compter de sa notification jusqu'à l'exécution complète de la prestation. Le délai d'exécution est fixé à 20 semaines à compter de la notification du marché. Les candidats peuvent proposer un délai moindre dans l'acte d'engagement.Critères de jugement des candidatures : Conformité juridique et administrative Capacité économique et financière Capacité technique et professionnelleCritères de jugement des offres :Les critères intervenant pour le jugement des offres sont pondérés de la manière suivante : - Prix (pondération : 30)- Valeur technique au regard du mémoire technique (pondération : 10)- Valeur technique au regard des fiches techniques (pondération : 60). Date d'envoi du présent avis au JOUE et au BOAMP : 24 janvier 2022.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Avant la signature de l'accord cadre pour le référé pré contractuel;- trente et un jours suivant la publication de l'avis d'attribution ou à défaut six mois à compter du lendemain de la conclusion de l'accord cadre pour le référé contractuel;- deux mois à compter de la décision faisant grief pour le recours en excès de pouvoir;- deux mois à compter de la publicité relative à la signature et à la consultation du contrat\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) -02-40-99-46-00\", \"FAX\": \"(+33) -02-40-99-46-58\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif de règlement amiable des litiges\", \"ADRESSE\": \"6 quai Ceineray\", \"CP\": \"44000\", \"VILLE\": \"Nantes\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-12003"
-  },
-  {
    "idweb": "22-12813",
    "id": "22_12813",
    "contractfolderid": null,
@@ -1766,6 +1698,74 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"22-13334\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"22-13334.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2022-01-26\", \"DATE_FIN_DIFFUSION\": \"2022-02-21\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"252\", \"LIBELLE\": \"Ouvrage d'art\"}}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Travaux de petites réparations et divers entretien des ouvrages d'artsur le réseau routier départemental de la Sarthe\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"DEPARTEMENT DE LA SARTHE\", \"TYPE_IDENT_NATIONAL\": {\"SIRET\": \"\"}, \"CODE_IDENT_NATIONAL\": \"22720002900014\", \"CONTACT\": \"le Président\", \"CP\": \"72072\", \"VILLE\": \"Le Mans\", \"MEL\": \"scp@cg72.fr\", \"URL_DOCUMENT\": \"https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematent.login&type=Dce&Idm=1054869\", \"INTEGRALITE_DOC_OUI\": \"\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"OBJET\": {\"TITRE_MARCHE\": \"Travaux de petites réparations et divers entretien des ouvrages d'artsur le réseau routier départemental de la Sarthe\", \"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"Les prestations feront l'objet d'un accord-cadre multi-attributaire exécuté par l'émission de bons de commande en application des articles R2162-2, R2162-4 à R2162-6, R2162-13 et R2162-14 avec un maximum / période en valeur fixé à 150 000,00 euro(s) Ht par titulaire.L'accord-cadre est renouvelable par reconduction tacite selon la périodicité suivante sans que sa durée totale puisse excéder 4 années.Le délai de validité des offres est de 120 jours, il court à compter de la date limite fixée pour la remise des offres.Les candidats doivent répondre à la solution de base.Aucune variante n'est autorisée.Pour obtenir tous les renseignements d'ordre administratif et technique, se reporter à l'article 7 du Règlement de consultation concernant les modalités\", \"CPV\": {\"PRINCIPAL\": \"45221119\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Departement De La Sarthe 72000 - Sarthe\"}, \"CARACTERISTIQUES\": {\"VALEUR_MAX\": {\"@DEVISE\": \"EUR\", \"#text\": \"600000\"}}, \"TRANCHE_NON\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"TECH_ACHAT\": {\"ACCORD_CADRE\": \"\"}, \"ATTRIB_SANS_NEG_OUI\": \"\", \"VARIANTES_NON\": \"\", \"CATEGORIE_ACHETEUR\": \"Le Bureau des Ouvrages d'Art du Département de la Sarthe\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_LIBRE\": \"Le prix des prestations évalué sur la base du détail estimatif (voir le détail dans le règlement de la consultation) : 50%La valeur technique des prestations (voir le détail dans le règlement de consultation) : 40%La performance en matière de protection de l'environnement (voir détail dans le règlement de la consultation) : 10%\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_AUTORISEE\": \"\"}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"Le prix des prestations évalué sur la base du détail estimatif (voir le détail dans le règlement de la consultation) : 50%La valeur technique des prestations (voir le détail dans le règlement de consultation) : 40%La performance en matière de protection de l'environnement (voir détail dans le règlement de la consultation) : 10%\", \"SITUATION_JURIDIQUE\": \"Les candidats peuvent, dès le stade de la candidature, fournir les éléments demandés à l'article 6-2 du Règlement de la Consultation\", \"CAP_ECO\": \"Les candidats peuvent, dès le stade de la candidature, fournir les éléments demandés à l'article 6-2 du Règlement de la Consultation\", \"CAP_TECH\": \"La présentation d'une liste des travaux en cours d'exécution ou exécutés au cours des 3 dernières années, indiquant notamment le montant, la date et le maître de l'ouvrage public ou privé\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"VISITE_NON\": \"\", \"RENS_COMPLEMENT\": \"Depuis le 1er octobre 2018, l'offre électronique est obligatoire.En revanche, la signature électronique est facultative lors de la remise des offres.Seul le candidat retenu devra obligatoirement se doter d'une signature électronique pour signer le marché\"}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-13334"
+  },
+  {
+   "idweb": "22-12003",
+   "id": "22_12003",
+   "contractfolderid": null,
+   "objet": "Acquisition de matériel de sonorisation et de vidéo projection, de matériels d'orchestre et d'instruments pour le pôle culturel de Laval",
+   "filename": "BOAMP-J-AO_2022_026009",
+   "famille": "JOUE",
+   "code_departement": [
+    "53"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2022-01-26",
+   "datefindiffusion": "2022-03-01",
+   "datelimitereponse": null,
+   "nomacheteur": "Laval Agglomération",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "166",
+    "213",
+    "216",
+    "230"
+   ],
+   "dc": [
+    "166",
+    "213",
+    "216",
+    "230"
+   ],
+   "descripteur_libelle": [
+    "Instruments de musique",
+    "Matériel phonique",
+    "Matériel scénique",
+    "Mobilier"
+   ],
+   "type_marche": [
+    "FOURNITURES"
+   ],
+   "type_marche_facette": [
+    "Fournitures"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v240.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"22-12003\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"22-12003.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2022-01-26\", \"DATE_FIN_DIFFUSION\": \"2022-03-01\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"166\", \"LIBELLE\": \"Instruments de musique\"}, {\"CODE\": \"213\", \"LIBELLE\": \"Matériel phonique\"}, {\"CODE\": \"216\", \"LIBELLE\": \"Matériel scénique\"}, {\"CODE\": \"230\", \"LIBELLE\": \"Mobilier\"}]}, \"DEP_PUBLICATION\": \"53\", \"RESUME_OBJET\": \"Acquisition de matériel de sonorisation et de vidéo projection, de matériels d'orchestre et d'instruments pour le pôle culturel de Laval\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Laval Agglomération\", \"CONTACT\": \"Service Commande Publique,\", \"ADJUDICATEUR_NUTS\": \"FRG03\", \"ADRESSE\": \"Hôtel Communautaire, 1 place du Général Ferrié, CS 60809\", \"CP\": \"53008\", \"VILLE\": \"Laval cedex\", \"TEL\": \"(+33) -02-43-49-45-57\", \"MEL\": \"commande.publique@laval.fr\", \"URL\": \"http://www.agglo-laval.fr\", \"URL_PROFIL_ACHETEUR\": \"http://Agglo-laval.achatpublic.com\", \"URL_PARTICIPATION\": \"https://agglo-laval.achatpublic.com\", \"URL_DOCUMENT\": \"https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2022_Yy0K5uVYk4\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Acquisition de matériel de sonorisation et de vidéo projection, de matériels d'orchestre et d'instruments pour le pôle culturel de Laval\", \"REF_MARCHE\": \"22-008\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Acquisition de matériel de sonorisation et de vidéo projection, de matériels d'orchestre et d'instruments pour le pôle culturel de Laval\", \"CPV\": {\"PRINCIPAL\": \"32342410\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"DESCRIPTION\": \"Matériel de sonorisation\", \"CPV\": {\"PRINCIPAL\": \"32342410\"}, \"CODE_NUTS\": \"FRG03\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"140\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"DESCRIPTION\": \"Matériel de vide projection\", \"CPV\": {\"PRINCIPAL\": \"38652100\"}, \"CODE_NUTS\": \"FRG03\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"140\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"DESCRIPTION\": \"Matériel d'orchestre\", \"CPV\": {\"PRINCIPAL\": \"39100000\"}, \"CODE_NUTS\": \"FRG03\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"140\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"4\", \"DESCRIPTION\": \"Instruments de musique\", \"CPV\": {\"PRINCIPAL\": \"37310000\"}, \"CODE_NUTS\": \"FRG03\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_JOURS\": \"140\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2022-03-01T23:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO_MARCHE_OUI\": \"\", \"CAP_TECH_OFFRE_OUI\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2022-03-02\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La consultation est passée en appel d'offres ouvert en application des articles L 2124-1, L2124-2, R 2124-1 et R2124-2 du code de la commande publique.Le marché est conclu à compter de sa notification jusqu'à l'exécution complète de la prestation. Le délai d'exécution est fixé à 20 semaines à compter de la notification du marché. Les candidats peuvent proposer un délai moindre dans l'acte d'engagement.Critères de jugement des candidatures : Conformité juridique et administrative Capacité économique et financière Capacité technique et professionnelleCritères de jugement des offres :Les critères intervenant pour le jugement des offres sont pondérés de la manière suivante : - Prix (pondération : 30)- Valeur technique au regard du mémoire technique (pondération : 10)- Valeur technique au regard des fiches techniques (pondération : 60). Date d'envoi du présent avis au JOUE et au BOAMP : 24 janvier 2022.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Avant la signature de l'accord cadre pour le référé pré contractuel;- trente et un jours suivant la publication de l'avis d'attribution ou à défaut six mois à compter du lendemain de la conclusion de l'accord cadre pour le référé contractuel;- deux mois à compter de la décision faisant grief pour le recours en excès de pouvoir;- deux mois à compter de la publicité relative à la signature et à la consultation du contrat\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) -02-40-99-46-00\", \"FAX\": \"(+33) -02-40-99-46-58\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif de règlement amiable des litiges\", \"ADRESSE\": \"6 quai Ceineray\", \"CP\": \"44000\", \"VILLE\": \"Nantes\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-12003"
   },
   {
    "idweb": "22-11807",

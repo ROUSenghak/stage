@@ -197,6 +197,73 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-42390"
   },
   {
+   "idweb": "19-43447",
+   "id": "19_43447",
+   "contractfolderid": null,
+   "objet": "Collecte des déchets ménagers et assimilés",
+   "filename": "BOAMP-J-AO_2019_081009",
+   "famille": "JOUE",
+   "code_departement": [
+    "35",
+    "44",
+    "56",
+    "22"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2019-03-22",
+   "datefindiffusion": "2019-06-04",
+   "datelimitereponse": null,
+   "nomacheteur": "SMICTOM DES PAYS DE VILAINE",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": [
+    "environnementaux"
+   ],
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "249",
+    "274"
+   ],
+   "dc": [
+    "249",
+    "274"
+   ],
+   "descripteur_libelle": [
+    "Ordures ménagères (prestations)",
+    "Prestations de services"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-43447\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-43447.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-22\", \"DATE_FIN_DIFFUSION\": \"2019-06-04\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"249\", \"LIBELLE\": \"Ordures ménagères (prestations)\"}, {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}]}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": [\"35\", \"44\", \"56\", \"22\"], \"RESUME_OBJET\": \"Collecte des déchets ménagers et assimilés\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"SMICTOM DES PAYS DE VILAINE\", \"ADJUDICATEUR_NUTS\": \"FRH03\", \"ADRESSE\": \"36 RUE DE L AVENIR\", \"CP\": \"35550\", \"VILLE\": \"Pipriac\", \"TEL\": \"(+33) 2-99-57-02-50\", \"FAX\": \"(+33) 8-99-34-15-76\", \"MEL\": \"e.fleho@smictom-paysdevilaine.fr\", \"URL\": \"http://www.smictom-paysdevilaine.fr\", \"URL_PARTICIPATION\": \"https://marches.megalisbretagne.org/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=113570&orgAcronyme=g1o\", \"URL_DOCUMENT\": \"https://www.marches.megalisbretagne.org\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ENVIRONNEMENT\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Collecte des déchets ménagers et assimilés\", \"REF_MARCHE\": \"SMICTOMPV201903COLL\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Le présent marché porte sur l?ensemble des prestations liées à la collecte des déchets ménagers du territoire du SMICTOM des Pays de Vilaine. Ce marché n?inclut pas les prestations relatives au traitement des déchets collectés. Le territoire est composé de 44 communes pour environ 83 000 habitants (INSEE).\", \"CPV\": {\"PRINCIPAL\": \"90500000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Le présent marché porte sur l?ensemble des prestations liées à la collecte des déchets ménagers du territoire du SMICTOM des Pays de Vilaine. Ce marché n?inclut pas les prestations relatives au traitement des déchets collectés. Le territoire est composé de 44 communes pour environ 83 000 habitants (INSEE).\", \"CPV\": [{\"PRINCIPAL\": \"90500000\"}, {\"PRINCIPAL\": \"90511000\"}, {\"PRINCIPAL\": \"90511100\"}], \"CODE_NUTS\": \"FRH03\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"60\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché sera reconductible expressément pour une ou deux périodes de une année chacune.\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-06-04T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-06-04\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 20 mars 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"TRIBUNAL ADMINISTRATIF DE RENNES\", \"ADRESSE\": \"Hotel de Bizien - 3 contour de la Motte\", \"CP\": \"35044\", \"VILLE\": \"Rennes cedex\", \"URL\": \"http://rennes.tribunal-administratif.fr/\"}}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-43447"
+  },
+  {
    "idweb": "19-44487",
    "id": "19_44487",
    "contractfolderid": null,
@@ -386,73 +453,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-43586\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-167431\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-11-30\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-12-03\", \"DATE_FIN_DIFFUSION\": \"2019-01-16\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"234\", \"NUM_ANNONCE\": \"535091\", \"DATE_PUBLICATION\": \"2018-12-05\"}}]}}, \"NOM_HTML\": \"19-43586.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-22\", \"DATE_FIN_DIFFUSION\": \"2019-04-19\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"19\", \"LIBELLE\": \"Assistance technique\"}, {\"CODE\": \"453\", \"LIBELLE\": \"Informatique (assistance)\"}]}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"PRESTATION DE MISE EN PLACE ET D'EXPLOITATION D'UN CENTRE D'APPELS ET DE TRAITEMENT DES SERVICES INFORMATIQUES,TELECOMS ET DE REPROGRAPHIE\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CNIEG\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"20 RUE DES FRANCAIS LIBRES\", \"CP\": \"44200\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-51-17-13-28\", \"MEL\": \"marchespublics@cnieg.fr\", \"URL\": \"https://cnieg.fr\", \"URL_PROFIL_ACHETEUR\": \"http://cnieg.e-marchespublics.com\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"organisme de securite sociale\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"caisse de retraite\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"PRESTATION DE MISE EN PLACE ET D'EXPLOITATION D'UN CENTRE D'APPELS ET DE TRAITEMENT DES SERVICES INFORMATIQUES, TELECOMS ET REPROGRAPHIE\", \"REF_MARCHE\": \"2018-07\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Service de proximité pour la gestion des appels téléphoniques\", \"CPV\": {\"PRINCIPAL\": \"72611000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"470000\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"HOT LINE INTERNE CNIEG\", \"CPV\": {\"PRINCIPAL\": \"72611000\"}, \"CODE_NUTS\": \"FRG01\", \"LIEU_PRINCIPAL\": \"NANTES\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"50\", \"#text\": \"COUT\"}}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AMP_OUI\": \"\"}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2018-07\", \"INTITULE\": \"MISE EN PLACE ET EXPLOITATION D'UN CENTRE D'APPEL ET TRAITEMENT DES SERVICES INFORMATIQUES TELECOM ET REPROGRAPHIE\", \"TITULAIRE\": {\"DENOMINATION\": \"DCS EASYWARE\", \"ADRESSE\": \"20 BD EUGENE DERUELLE\", \"CP\": \"69432\", \"VILLE\": \"LYON CEDEX\", \"CODE_NUTS\": \"FRG01\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-03-08\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"470000\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 20 mars 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"TGI\", \"ADRESSE\": \"19 Quai François Mitterrand\", \"CP\": \"44921\", \"VILLE\": \"NANTES\"}}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-43586"
-  },
-  {
-   "idweb": "19-43447",
-   "id": "19_43447",
-   "contractfolderid": null,
-   "objet": "Collecte des déchets ménagers et assimilés",
-   "filename": "BOAMP-J-AO_2019_081009",
-   "famille": "JOUE",
-   "code_departement": [
-    "35",
-    "44",
-    "56",
-    "22"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2019-03-22",
-   "datefindiffusion": "2019-06-04",
-   "datelimitereponse": null,
-   "nomacheteur": "SMICTOM DES PAYS DE VILAINE",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": [
-    "environnementaux"
-   ],
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "249",
-    "274"
-   ],
-   "dc": [
-    "249",
-    "274"
-   ],
-   "descripteur_libelle": [
-    "Ordures ménagères (prestations)",
-    "Prestations de services"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-43447\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-43447.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-22\", \"DATE_FIN_DIFFUSION\": \"2019-06-04\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"249\", \"LIBELLE\": \"Ordures ménagères (prestations)\"}, {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}]}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": [\"35\", \"44\", \"56\", \"22\"], \"RESUME_OBJET\": \"Collecte des déchets ménagers et assimilés\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"SMICTOM DES PAYS DE VILAINE\", \"ADJUDICATEUR_NUTS\": \"FRH03\", \"ADRESSE\": \"36 RUE DE L AVENIR\", \"CP\": \"35550\", \"VILLE\": \"Pipriac\", \"TEL\": \"(+33) 2-99-57-02-50\", \"FAX\": \"(+33) 8-99-34-15-76\", \"MEL\": \"e.fleho@smictom-paysdevilaine.fr\", \"URL\": \"http://www.smictom-paysdevilaine.fr\", \"URL_PARTICIPATION\": \"https://marches.megalisbretagne.org/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=113570&orgAcronyme=g1o\", \"URL_DOCUMENT\": \"https://www.marches.megalisbretagne.org\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ENVIRONNEMENT\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Collecte des déchets ménagers et assimilés\", \"REF_MARCHE\": \"SMICTOMPV201903COLL\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Le présent marché porte sur l?ensemble des prestations liées à la collecte des déchets ménagers du territoire du SMICTOM des Pays de Vilaine. Ce marché n?inclut pas les prestations relatives au traitement des déchets collectés. Le territoire est composé de 44 communes pour environ 83 000 habitants (INSEE).\", \"CPV\": {\"PRINCIPAL\": \"90500000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Le présent marché porte sur l?ensemble des prestations liées à la collecte des déchets ménagers du territoire du SMICTOM des Pays de Vilaine. Ce marché n?inclut pas les prestations relatives au traitement des déchets collectés. Le territoire est composé de 44 communes pour environ 83 000 habitants (INSEE).\", \"CPV\": [{\"PRINCIPAL\": \"90500000\"}, {\"PRINCIPAL\": \"90511000\"}, {\"PRINCIPAL\": \"90511100\"}], \"CODE_NUTS\": \"FRH03\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"60\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché sera reconductible expressément pour une ou deux périodes de une année chacune.\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-06-04T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-06-04\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 20 mars 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"TRIBUNAL ADMINISTRATIF DE RENNES\", \"ADRESSE\": \"Hotel de Bizien - 3 contour de la Motte\", \"CP\": \"35044\", \"VILLE\": \"Rennes cedex\", \"URL\": \"http://rennes.tribunal-administratif.fr/\"}}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-43447"
   },
   {
    "idweb": "19-45297",
@@ -1297,67 +1297,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-45626"
   },
   {
-   "idweb": "19-43982",
-   "id": "19_43982",
-   "contractfolderid": null,
-   "objet": "fourniture de fruits et légumes frais issus d'un mode de production agricole en \" conventionnel \" et en \" biologique \" pour les besoins des multi-accueils de la DPE",
-   "filename": "BOAMP-J-AO_2019_082006",
-   "famille": "JOUE",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2019-03-23",
-   "datefindiffusion": "2019-04-23",
-   "datelimitereponse": null,
-   "nomacheteur": "Ville de Nantes",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": [
-    "environnementaux"
-   ],
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "88"
-   ],
-   "dc": [
-    "88"
-   ],
-   "descripteur_libelle": [
-    "Denrées alimentaires"
-   ],
-   "type_marche": [
-    "FOURNITURES"
-   ],
-   "type_marche_facette": [
-    "Fournitures"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-43982\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-43982.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-23\", \"DATE_FIN_DIFFUSION\": \"2019-04-23\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"88\", \"LIBELLE\": \"Denrées alimentaires\"}}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"fourniture de fruits et légumes frais issus d'un mode de production agricole en \\\" conventionnel \\\" et en \\\" biologique \\\" pour les besoins des multi-accueils de la DPE\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Nantes\", \"CONTACT\": \"Céline MOUSSION\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"2 rue de l'hôtel de ville\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-40-41-51-16\", \"MEL\": \"celine.moussion@nantesmetropole.fr\", \"URL\": \"http://www.nantes.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marchespublics.nantesmetropole.fr\", \"URL_PARTICIPATION\": \"http://www.marchespublics.nantesmetropole.fr\", \"URL_DOCUMENT\": \"http://www.marchespublics.nantesmetropole.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de fruits et légumes frais issus dun mode de production agricole en \\\" conventionnel \\\" et en \\\" biologique \\\" pour les besoins des multi-accueils de la Direction Petite Enfance (D.P.E.)\", \"REF_MARCHE\": \"1836A05R\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Le présent marché a pour objet la fourniture et la livraison de fruits et légumes frais issus dun mode de production agricole en \\\" conventionnel \\\" et &quot; biologique \\\" pour 9 équipements de la Petite Enfance de la Ville de Nantes. Il s'agit d'une reconsultation.Ce marché prend la forme dun accord cadre mono-attributaire donnant lieu à lémission de bons de commande.\", \"CPV\": {\"PRINCIPAL\": \"03200000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"L'accord cadre est conclu sans seuil minimum mais avec un seuil maximum de commandes de 950 000euros HT pour la durée totale de l'accord cadre, soit 4 ans.\", \"CPV\": {\"PRINCIPAL\": \"03200000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Lexécution du présent accord cadre prendra effet à compter de la date de sa notification pour une durée de 4 ans.\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-04-23T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"5\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Les critères intervenant pour la sélection des candidatures sont : Aptitude à exercer l'activité professionnelle, capacité économique et financière, capacités techniques et professionnelles.  Lettre de candidature (imprimé DC1) que la candidature soit présentée à titre individuel ou en groupement\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"Déclaration concernant le chiffre d'affaires global du candidat et, le cas échéant, le chiffre d'affaires du domaine d'activité faisant l'objet du marché public, portant au maximum sur les trois derniers exercices disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles (imprimé DC2)\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"Déclaration indiquant les effectifs moyens annuels du candidat et limportance du personnel dencadrement pour chacune des trois dernières années (en annexe au DC2 si utilisation de ce document et tout document complémentaire)  Description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation du marché public (en annexe au DC2 si utilisation de ce document et tout document complémentaire)  Liste des principales livraisons effectuées au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Les livraisons et les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique (en annexe au DC2 si utilisation de ce document et tout document complémentaire)\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-04-23\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_OUI\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_OUI\": \"\", \"RENS_COMPLEMENT\": \"Les réponses des opérateurs économiques doivent être obligatoirement transmises par voie dématérialisée, cest àdire déposées sur le profil acheteur à ladresse suivante :https://marchespublics.nantesmetropole.fr/Toute candidature ou offre déposée sous format papier, sera considérée irrégulière.. Date d'envoi du présent avis au JOUE et au BOAMP : 21 mars 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Ville de Nantes\", \"CONTACT\": \"Céline MOUSSION\", \"ADRESSE\": \"29 rue de Strasbourg\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"CODE_NUTS\": \"FRG01\", \"TEL\": \"(+33) 2-40-41-51-16\", \"MEL\": \"celine.moussion@nantesmetropole.fr\", \"URL\": \"http://www.nantes.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Ville de Nantes\", \"ADRESSE\": \"29 rue de Strasbourg\", \"VILLE\": \"Nantes cedex 1\", \"CODE_NUTS\": \"FRG01\", \"MEL\": \"celine.moussion@nantesmetropole.fr\", \"URL\": \"http://www.nantes.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette - B.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-40-99-46-00\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette - B.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-40-99-46-00\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-43982"
-  },
-  {
    "idweb": "19-35166",
    "id": "19_35166",
    "contractfolderid": null,
@@ -1427,6 +1366,67 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-35166"
   },
   {
+   "idweb": "19-43982",
+   "id": "19_43982",
+   "contractfolderid": null,
+   "objet": "fourniture de fruits et légumes frais issus d'un mode de production agricole en \" conventionnel \" et en \" biologique \" pour les besoins des multi-accueils de la DPE",
+   "filename": "BOAMP-J-AO_2019_082006",
+   "famille": "JOUE",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2019-03-23",
+   "datefindiffusion": "2019-04-23",
+   "datelimitereponse": null,
+   "nomacheteur": "Ville de Nantes",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": [
+    "environnementaux"
+   ],
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "88"
+   ],
+   "dc": [
+    "88"
+   ],
+   "descripteur_libelle": [
+    "Denrées alimentaires"
+   ],
+   "type_marche": [
+    "FOURNITURES"
+   ],
+   "type_marche_facette": [
+    "Fournitures"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-43982\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-43982.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-23\", \"DATE_FIN_DIFFUSION\": \"2019-04-23\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"88\", \"LIBELLE\": \"Denrées alimentaires\"}}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"fourniture de fruits et légumes frais issus d'un mode de production agricole en \\\" conventionnel \\\" et en \\\" biologique \\\" pour les besoins des multi-accueils de la DPE\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Nantes\", \"CONTACT\": \"Céline MOUSSION\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"2 rue de l'hôtel de ville\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-40-41-51-16\", \"MEL\": \"celine.moussion@nantesmetropole.fr\", \"URL\": \"http://www.nantes.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marchespublics.nantesmetropole.fr\", \"URL_PARTICIPATION\": \"http://www.marchespublics.nantesmetropole.fr\", \"URL_DOCUMENT\": \"http://www.marchespublics.nantesmetropole.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de fruits et légumes frais issus dun mode de production agricole en \\\" conventionnel \\\" et en \\\" biologique \\\" pour les besoins des multi-accueils de la Direction Petite Enfance (D.P.E.)\", \"REF_MARCHE\": \"1836A05R\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Le présent marché a pour objet la fourniture et la livraison de fruits et légumes frais issus dun mode de production agricole en \\\" conventionnel \\\" et &quot; biologique \\\" pour 9 équipements de la Petite Enfance de la Ville de Nantes. Il s'agit d'une reconsultation.Ce marché prend la forme dun accord cadre mono-attributaire donnant lieu à lémission de bons de commande.\", \"CPV\": {\"PRINCIPAL\": \"03200000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"L'accord cadre est conclu sans seuil minimum mais avec un seuil maximum de commandes de 950 000euros HT pour la durée totale de l'accord cadre, soit 4 ans.\", \"CPV\": {\"PRINCIPAL\": \"03200000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Lexécution du présent accord cadre prendra effet à compter de la date de sa notification pour une durée de 4 ans.\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-04-23T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"5\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Les critères intervenant pour la sélection des candidatures sont : Aptitude à exercer l'activité professionnelle, capacité économique et financière, capacités techniques et professionnelles.  Lettre de candidature (imprimé DC1) que la candidature soit présentée à titre individuel ou en groupement\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"Déclaration concernant le chiffre d'affaires global du candidat et, le cas échéant, le chiffre d'affaires du domaine d'activité faisant l'objet du marché public, portant au maximum sur les trois derniers exercices disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles (imprimé DC2)\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"Déclaration indiquant les effectifs moyens annuels du candidat et limportance du personnel dencadrement pour chacune des trois dernières années (en annexe au DC2 si utilisation de ce document et tout document complémentaire)  Description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation du marché public (en annexe au DC2 si utilisation de ce document et tout document complémentaire)  Liste des principales livraisons effectuées au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Les livraisons et les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique (en annexe au DC2 si utilisation de ce document et tout document complémentaire)\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-04-23\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_OUI\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_OUI\": \"\", \"RENS_COMPLEMENT\": \"Les réponses des opérateurs économiques doivent être obligatoirement transmises par voie dématérialisée, cest àdire déposées sur le profil acheteur à ladresse suivante :https://marchespublics.nantesmetropole.fr/Toute candidature ou offre déposée sous format papier, sera considérée irrégulière.. Date d'envoi du présent avis au JOUE et au BOAMP : 21 mars 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Ville de Nantes\", \"CONTACT\": \"Céline MOUSSION\", \"ADRESSE\": \"29 rue de Strasbourg\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"CODE_NUTS\": \"FRG01\", \"TEL\": \"(+33) 2-40-41-51-16\", \"MEL\": \"celine.moussion@nantesmetropole.fr\", \"URL\": \"http://www.nantes.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Ville de Nantes\", \"ADRESSE\": \"29 rue de Strasbourg\", \"VILLE\": \"Nantes cedex 1\", \"CODE_NUTS\": \"FRG01\", \"MEL\": \"celine.moussion@nantesmetropole.fr\", \"URL\": \"http://www.nantes.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette - B.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-40-99-46-00\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette - B.P. 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 1\", \"TEL\": \"(+33) 2-40-99-46-00\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-43982"
+  },
+  {
    "idweb": "19-40043",
    "id": "19_40043",
    "contractfolderid": null,
@@ -1491,67 +1491,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-40043\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-23\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"CONCESSION\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-279\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-23\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"CONCESSION\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-01-02\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-01-04\", \"DATE_FIN_DIFFUSION\": \"2018-03-01\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"002\", \"NUM_ANNONCE\": \"002350\", \"DATE_PUBLICATION\": \"2018-01-04\"}}]}}, \"NOM_HTML\": \"19-40043.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-23\", \"DATE_FIN_DIFFUSION\": \"2019-05-21\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"265\", \"LIBELLE\": \"Piscine\"}, {\"CODE\": \"406\", \"LIBELLE\": \"Délégation de service public\"}]}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Délégation de service public pour la gestion du Centre Aquatique Aquabaule\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CAP Atlantique\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"3 avenue des Noëlles\", \"CP\": \"44503\", \"VILLE\": \"La baule\", \"MEL\": \"service.juridique@cap-atlantique.fr\", \"URL\": \"http://www.cap-atlantique.fr/\", \"URL_PROFIL_ACHETEUR\": \"https://www.achatpublic.com/sdm/ent/gen/index.jsp\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Délégation de service public pour la gestion du Centre Aquatique Aquabaule\", \"REF_MARCHE\": \"18002 DSP\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Gestion et exploitation du centre aquatique Aquabaule\", \"CPV\": {\"PRINCIPAL\": \"92610000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"8742483\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"- prise en charge du fonctionnement et de lagestion de l'équipement, - innovation et conception d'une offre grand public (activités aquatiques et activités bien-être), - maintenance et entretiencourant du centre aquatique, - accueil des usagers (public, scolaires, associations), - animation et promotion du centre aquatique, - gestion dupatrimoine du centre aquatique, - informations techniques à la collectivité.\", \"CPV\": [{\"PRINCIPAL\": \"92610000\"}, {\"PRINCIPAL\": \"92000000\"}], \"CODE_NUTS\": \"FRG0\", \"LIEU_PRINCIPAL\": \"avenue Honore de Balzac 44500 La Baule-Escoublac\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_COUT\": {\"CRITERE\": [\"technique\", \"Conditions économiques\"]}}, \"DUREE_MOIS\": \"60\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"NEGOCIE\": {\"AVEC_PUB_PREALABLE\": \"\"}}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2018\", \"NUM_PARUTION\": \"002\", \"NUM_ANNONCE\": \"002350\", \"DATE_PUBLICATION\": \"2018-01-04\"}}}, \"ATTRIBUTION\": {\"DECISION\": {\"ATTRIBUE\": \"\", \"INTITULE\": \"Gestion et exploitation du centre aquatique Aquabaule sur la commune de la Baule-Escoublac\", \"TITULAIRE\": {\"DENOMINATION\": \"ESPACE RECREA\", \"CODE_IDENT_NATIONAL\": \"488530759\", \"ADRESSE\": \"18,rue MartinLuther King\", \"CP\": \"14280\", \"VILLE\": \"SAINT CONTEST\", \"CODE_NUTS\": \"FRD11\", \"TEL\": \"(+33) 2-31-73-20-10\", \"MEL\": \"accueil.siege@recrea.fr\", \"URL\": \"http://www.recrea.fr\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-02-28\", \"NB_OFFRE_RECU\": \"3\", \"NB_OFFRE_RECU_PME\": \"0\", \"NB_OFFRE_RECU_UE\": \"0\", \"NB_OFFRE_RECU_NON_UE\": \"0\", \"NB_OFFRE_RECU_ELECT\": \"1\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"8742483\"}}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 21 mars 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"Précisions concernant les délais d'introduction de recours:Le juge du référé précontractuel peut être saisi jusqu'à la signature du contrat (articles L. 551-1 à L. 551-12 etR. 551-1 à R. 551-6 du code de justice administrative).Le référé contractuel (articles L.551-13 à L. 551-23, et R. 551-7 à R. 551-10 du code de justice administrative)peut être exercé dans un délai de:- 31 jours, à compter de la publication d'un avis d'attribution du contrat au Journal officiel de l'Unioneuropéenne (JOUE),- 6 mois, à compter du lendemain du jour de la conclusion du contrat, si aucun avis d'attribution n'a été publié.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Greffe tribunal administratif Nantes\", \"ADRESSE\": \"6 allée de l'Île-Gloriette - BP 2411\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex, FRANCE.\", \"URL\": \"http://nantes.tribunal-administratif.fr/\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Médiateur régional délégué médiation des entreprises\", \"ADRESSE\": \"22 mail Pablo Picasso - BP 24209\", \"CP\": \"44042\", \"VILLE\": \"Nantes\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Greffe tribunal administratif NantesNantes\", \"ADRESSE\": \"6 allée de l'Île-Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\"}]}}, \"ANNEXE_D4\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-40043"
-  },
-  {
-   "idweb": "19-45486",
-   "id": "19_45486",
-   "contractfolderid": null,
-   "objet": "Maintenance corrective, adaptative, réglementaire et évolutive des PROGICIELs DIAMIC, diamic CS et GENNO et de tous leurs modules sous licence associés",
-   "filename": "BOAMP-J-IC-AA_2019_083005",
-   "famille": "JOUE",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2019-03-24",
-   "datefindiffusion": "2019-05-21",
-   "datelimitereponse": null,
-   "nomacheteur": "CHU de Nantes",
-   "titulaire": [
-    "INFOLOGIC SANTE"
-   ],
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "ATTRIBUE_SANS_PUB_JOUE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure NC",
-   "procedure_categorise": "ATTRIBUE_SANS_PUB_JOUE/",
-   "nature": "ATTRIBUTION",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "163"
-   ],
-   "dc": [
-    "163"
-   ],
-   "descripteur_libelle": [
-    "Informatique (prestations de services)"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-45486\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-45486.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-24\", \"DATE_FIN_DIFFUSION\": \"2019-05-21\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"163\", \"LIBELLE\": \"Informatique (prestations de services)\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Maintenance corrective, adaptative, réglementaire et évolutive des PROGICIELs DIAMIC, diamic CS et GENNO et de tous leurs modules sous licence associés\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CHU de Nantes\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"5 allée de l'île gloriette\", \"CP\": \"44093\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"(+33) 2-40-84-68-87\", \"MEL\": \"bureau.desmarches@chu-nantes.fr\", \"URL\": \"http://www.chu-nantes.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.gouv.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Maintenance corrective, adaptative, réglementaire et évolutive des PROGICIELs DIAMIC, diamic CS et GENNO et de tous leurs modules sous licence associés\", \"REF_MARCHE\": \"MN-18078\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Maintenance corrective, adaptative, réglementaire et évolutive des PROGICIELs DIAMIC, diamic CS et GENNO et de tous leurs modules sous licence associés\", \"CPV\": {\"PRINCIPAL\": \"72267000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"284625\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Maintenance corrective, adaptative, réglementaire et évolutive des PROGICIELs DIAMIC, diamic CS et GENNO et de tous leurs modules sous licence associés\", \"CPV\": {\"PRINCIPAL\": \"72267000\"}, \"CODE_NUTS\": \"FRG01\", \"LIEU_PRINCIPAL\": \"CHU de Nantes 44093 Nantes\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"ATTRIBUE_SANS_PUB_JOUE\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"190023\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Maintenance corrective, adaptative, réglementaire et évolutive des PROGICIELs DIAMIC, diamic CS et GENNO et de tous leurs modules sous licence associés\", \"TITULAIRE\": {\"DENOMINATION\": \"INFOLOGIC SANTE\", \"ADRESSE\": \"Rovaltain TGV Parce du 45ème parallèle 24 rue Brillat Savarin\", \"CP\": \"26300\", \"VILLE\": \"CHATEAUNEUF SUR ISERE\", \"CODE_NUTS\": \"FR\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-02-12\", \"NB_OFFRE_RECU\": \"1\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"284625\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Le marché public est consultable dans le respect des secrets protégés par la loi sur demande écrite adressée au pouvoir adjudicateur dont les coordonnées sont mentionnées à la section I du présent avis.Le marché est conclu à compter du 12/02/2019 au 12/02/2020, reconductible 3X1 an soit jusqu'au 12/02/2023.Nombre d'offres reçues = 1 pli.Le marché public est ordinaire pour la sous-composante 1. Pour les sous-composantes 2 et 3, le présent marché public est un accord cadre qui s'exécutera au fur et à mesure de l'émission de bons de commande, conformément aux dispositions de l'article 78 I alinéa 3 et l'article 80 du décret no2016-360. L'accord cadre est conclu avec un seul opérateur économique sans minimum et sans maximum en montant. Les bons de commande seront émis au fur et à mesure des besoins.. Date d'envoi du présent avis au JOUE et au BOAMP : 22 mars 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"* Référé contractuel (art. L 551-13 et s. du CJA)* Recours en contestation de validité du contrat issu de la jurisprudence \\\" Tarn et Garonne \\\".\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de lIle Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}}}, \"ANNEXE_D1\": {\"PROPRIETE_INTELLECTUELLE\": \"\", \"EXPLICATION\": \"Le marché public ne peut être confié qu'à la société DEDALUS C&G au motif suivant : La société DEDALUS C&G est seule titulaire de l'intégralité des droits de propriété intellectuelle de la suite DIAMIC\"}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-45486"
   },
   {
    "idweb": "19-45055",
@@ -1674,6 +1613,67 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-45415\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-45415.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-24\", \"DATE_FIN_DIFFUSION\": \"2019-04-23\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"150\", \"LIBELLE\": \"Habillement\"}}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Acquisition de fournitures concernant l'habillement et les équipements de protection individuelle des agents de la Ville du Mans et de Le Mans Métropole pour 4 ans\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Le Mans Métropole - Communauté Urbaine\", \"CODE_IDENT_NATIONAL\": \"24720013200014\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, Cs40010- 16 avenue François Mitterrand, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"Le Mans\", \"TEL\": \"(+33) 2-43-47-37-31\", \"FAX\": \"(+33) 2-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\", \"URL_PARTICIPATION\": \"http://www.sarthe-marchespublics.fr\", \"URL_DOCUMENT\": \"http://www.sarthe-marchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Acquisition de fournitures concernant l'habillement et les équipements de protection individuelle des agents de la Ville du Mans et de Le Mans Métropole pour 4 ans\", \"REF_MARCHE\": \"2019_0020_fcs_cl\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Accord cadre à bons de commande passé pour 4 ans composé de 3 lots.Remise d'échantillons obligatoire.Pour l'ensemble du marché le montant minimum Ht est de 270 000.00 euro(s) et le montant maximum Ht est de 1 940 000.00 euro(s)\", \"CPV\": {\"PRINCIPAL\": \"18100000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Vêtements de travail\", \"DESCRIPTION\": \"Fourniture de vêtements de travail\", \"CPV\": [{\"PRINCIPAL\": \"18110000\"}, {\"PRINCIPAL\": \"18143000\"}, {\"PRINCIPAL\": \"18222000\"}, {\"PRINCIPAL\": \"18830000\"}], \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Des modifications des contrats complémentaires pourront être conclus au cours de l'exécution du contrat dans le respect des dispositions du décret 2016-360 du 25 mars 2016 et du Code Général des Collectivités Territoriales\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Vêtements de travail spécifiques et Epi spécifiques\", \"DESCRIPTION\": \"Fournitures de vêtements de travail spécifiques et d'équipement de protection spécifiques\", \"CPV\": [{\"PRINCIPAL\": \"18143000\"}, {\"PRINCIPAL\": \"18143000\"}, {\"PRINCIPAL\": \"18222000\"}, {\"PRINCIPAL\": \"18830000\"}], \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Des modifications des contrats complémentaires pourront être conclus au cours de l'exécution du contrat dans le respect des dispositions du décret 2016-360 du 25 mars 2016 et du Code Général des Collectivités Territoriales\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Chaussures et Epi\", \"DESCRIPTION\": \"Fourniture de chaussures et d'équipement de protection\", \"CPV\": [{\"PRINCIPAL\": \"18830000\"}, {\"PRINCIPAL\": \"18143000\"}, {\"PRINCIPAL\": \"18222000\"}, {\"PRINCIPAL\": \"18830000\"}], \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Des modifications des contrats complémentaires pourront être conclus au cours de l'exécution du contrat dans le respect des dispositions du décret 2016-360 du 25 mars 2016 et du Code Général des Collectivités Territoriales\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"premier semestre 2023\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-04-23T17:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"- Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire\", \"CAP_ECO\": \"- Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"CAP_TECH\": \"- Présentation d'une liste des principales fournitures ou des principaux services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-04-24\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Cette consultation bénéficie du Service DUME.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.sarthe-marchespublics.fr -Le DCE peut être téléchargé jusqu'au jour de la date et heure limite de remise des offres à l'adresse suivante http://www.sarthe-marchespublics.fr. Seules les offres électroniques sont admises ; tout autre mode de transmission conduirait à un rejet de l'offre. Les modalités de transmission électronique des plis sont définies dans le règlement de la consultation.Critères de sélection candidats 1 Aptitude à exercer l'activité professionnelle - 2 Capacités techniques et professionnelles - 3 Capacité économique et financièreRenseignements administratifs : Cassandra LUCAS 02.43.47.42.19Renseignements techniques : Annie CHARLES 02.43.47.17.81. Date d'envoi du présent avis au JOUE et au BOAMP : 22 mars 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso\", \"CP\": \"44042\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-53-46-79-83\", \"FAX\": \"(+33) 2-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://pays-de-la-loire.direccte.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-45415"
+  },
+  {
+   "idweb": "19-45486",
+   "id": "19_45486",
+   "contractfolderid": null,
+   "objet": "Maintenance corrective, adaptative, réglementaire et évolutive des PROGICIELs DIAMIC, diamic CS et GENNO et de tous leurs modules sous licence associés",
+   "filename": "BOAMP-J-IC-AA_2019_083005",
+   "famille": "JOUE",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2019-03-24",
+   "datefindiffusion": "2019-05-21",
+   "datelimitereponse": null,
+   "nomacheteur": "CHU de Nantes",
+   "titulaire": [
+    "INFOLOGIC SANTE"
+   ],
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "ATTRIBUE_SANS_PUB_JOUE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure NC",
+   "procedure_categorise": "ATTRIBUE_SANS_PUB_JOUE/",
+   "nature": "ATTRIBUTION",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "163"
+   ],
+   "dc": [
+    "163"
+   ],
+   "descripteur_libelle": [
+    "Informatique (prestations de services)"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-45486\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-45486.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-24\", \"DATE_FIN_DIFFUSION\": \"2019-05-21\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"163\", \"LIBELLE\": \"Informatique (prestations de services)\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Maintenance corrective, adaptative, réglementaire et évolutive des PROGICIELs DIAMIC, diamic CS et GENNO et de tous leurs modules sous licence associés\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CHU de Nantes\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"5 allée de l'île gloriette\", \"CP\": \"44093\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"(+33) 2-40-84-68-87\", \"MEL\": \"bureau.desmarches@chu-nantes.fr\", \"URL\": \"http://www.chu-nantes.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.gouv.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Maintenance corrective, adaptative, réglementaire et évolutive des PROGICIELs DIAMIC, diamic CS et GENNO et de tous leurs modules sous licence associés\", \"REF_MARCHE\": \"MN-18078\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Maintenance corrective, adaptative, réglementaire et évolutive des PROGICIELs DIAMIC, diamic CS et GENNO et de tous leurs modules sous licence associés\", \"CPV\": {\"PRINCIPAL\": \"72267000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"284625\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Maintenance corrective, adaptative, réglementaire et évolutive des PROGICIELs DIAMIC, diamic CS et GENNO et de tous leurs modules sous licence associés\", \"CPV\": {\"PRINCIPAL\": \"72267000\"}, \"CODE_NUTS\": \"FRG01\", \"LIEU_PRINCIPAL\": \"CHU de Nantes 44093 Nantes\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"ATTRIBUE_SANS_PUB_JOUE\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"190023\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Maintenance corrective, adaptative, réglementaire et évolutive des PROGICIELs DIAMIC, diamic CS et GENNO et de tous leurs modules sous licence associés\", \"TITULAIRE\": {\"DENOMINATION\": \"INFOLOGIC SANTE\", \"ADRESSE\": \"Rovaltain TGV Parce du 45ème parallèle 24 rue Brillat Savarin\", \"CP\": \"26300\", \"VILLE\": \"CHATEAUNEUF SUR ISERE\", \"CODE_NUTS\": \"FR\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-02-12\", \"NB_OFFRE_RECU\": \"1\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"284625\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Le marché public est consultable dans le respect des secrets protégés par la loi sur demande écrite adressée au pouvoir adjudicateur dont les coordonnées sont mentionnées à la section I du présent avis.Le marché est conclu à compter du 12/02/2019 au 12/02/2020, reconductible 3X1 an soit jusqu'au 12/02/2023.Nombre d'offres reçues = 1 pli.Le marché public est ordinaire pour la sous-composante 1. Pour les sous-composantes 2 et 3, le présent marché public est un accord cadre qui s'exécutera au fur et à mesure de l'émission de bons de commande, conformément aux dispositions de l'article 78 I alinéa 3 et l'article 80 du décret no2016-360. L'accord cadre est conclu avec un seul opérateur économique sans minimum et sans maximum en montant. Les bons de commande seront émis au fur et à mesure des besoins.. Date d'envoi du présent avis au JOUE et au BOAMP : 22 mars 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"* Référé contractuel (art. L 551-13 et s. du CJA)* Recours en contestation de validité du contrat issu de la jurisprudence \\\" Tarn et Garonne \\\".\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de lIle Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}}}, \"ANNEXE_D1\": {\"PROPRIETE_INTELLECTUELLE\": \"\", \"EXPLICATION\": \"Le marché public ne peut être confié qu'à la société DEDALUS C&G au motif suivant : La société DEDALUS C&G est seule titulaire de l'intégralité des droits de propriété intellectuelle de la suite DIAMIC\"}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-45486"
   },
   {
    "idweb": "19-45714",
@@ -1808,6 +1808,65 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-44926"
   },
   {
+   "idweb": "19-45003",
+   "id": "19_45003",
+   "contractfolderid": null,
+   "objet": "Location et maintenance des systèmes d'impression pour les besoins de la COMPA et de l'Office de Tourisme",
+   "filename": "BOAMP-J-AO_2019_083001",
+   "famille": "JOUE",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2019-03-24",
+   "datefindiffusion": "2019-04-23",
+   "datelimitereponse": null,
+   "nomacheteur": "Cté de Cnes du Pays d'Ancenis",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "160"
+   ],
+   "dc": [
+    "160"
+   ],
+   "descripteur_libelle": [
+    "Impression"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-45003\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-45003.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-24\", \"DATE_FIN_DIFFUSION\": \"2019-04-23\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"160\", \"LIBELLE\": \"Impression\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Location et maintenance des systèmes d'impression pour les besoins de la COMPA et de l'Office de Tourisme\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Cté de Cnes du Pays d'Ancenis\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"Centre administratif Les Ursulines\", \"CP\": \"44156\", \"VILLE\": \"Ancenis-Saint-Géréon\", \"TEL\": \"(+33) 2-40-96-31-89\", \"MEL\": \"compa@pays-ancenis.com\", \"URL\": \"http://http://www.pays-ancenis.com\", \"URL_PROFIL_ACHETEUR\": \"http://pays-ancenis.e-marchespublics.com\", \"URL_PARTICIPATION\": \"http://pays-ancenis.e-marchespublics.com\", \"URL_DOCUMENT\": \"http://pays-ancenis.e-marchespublics.com\", \"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Location et maintenance des systèmes d'impression pour les besoins de la COMPA et de l'Office de Tourisme\", \"REF_MARCHE\": \"2019SYSTIMPR_PF\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Location et maintenance des systèmes d'impression pour les besoins de la COMPA et de l'Office de Tourisme\", \"CPV\": {\"PRINCIPAL\": \"30120000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Le présent marché est un accord-cadre à bons de commande qui donnera lieu à l'attribution d'un marché à un opérateur unique pour la durée du marché, passé en application des articles 78 et 80 du décret du 25 mars 2016. L'opérateur retenu sera identique pour la COMPA et l'OTI.Au global, le montant des prestations sur la durée totale du marché est compris entre un montant minimum de 108 000 euros HT et un montant maximum de 325 000 euros HT.\", \"CPV\": {\"PRINCIPAL\": \"30120000\"}, \"CODE_NUTS\": \"FRG01\", \"LIEU_PRINCIPAL\": \"Périmètre du Pays d'Ancenis (cf : Annexe A du CCATP )\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"325000\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Le marché prendra effet à compter de sa date de notification pour une durée de 48 mois étant précisé que les bons de commande s'exécuteront dans un délai maximum de 3 mois après la date d'échéance du contrat. Délais d'exécution du marché :de la date de mise en service initiale le 23/09/2019 à l'arrêt du contrat le 23/09/2023 (co-terminus). Date prévisionnelle de notification : 15 juillet 2019\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-04-23T16:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"6\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-04-24\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"RENS_COMPLEMENT\": \"La présente consultation est lancée dans le cadre d'un groupement de commandes, constitué de la COMPA et de l'Office de Tourisme Intercommunal du Pays d'Ancenis (OTI). Coordinateur du groupement : Monsieur le Président de la Communauté de Communes du Pays d'Ancenis (COMPA)Caractéristiques principales- Livraison, installation, location et maintenance de copieurs multifonctions- Livraison, installation, location et maintenance d'imprimantes- Livraison, installation, paramétrage et maintenance d'un logiciel de supervision et de routage des impressions- Service de télécopies dématérialisées à partir des copieurs multifonctions- Livraison, installation, paramétrage et maintenance d'un automate de numérisation sommaireLe présent marché est un accord-cadre à bons de commande qui donnera lieu à l'attribution d'un marché à un opérateur unique pour la durée du marché, passé en application des articles 78 et 80 du décret du 25 mars 2016. L'opérateur retenu sera identique pour la COMPA et l'OTI.Modalités essentielles de financement et de paiement et/ou références aux textes qui les réglementent :Budget de la COMPA, ressources propres.Budget de l'OTI, ressources propres.Forme du prix /forme des prix : unitaire(s) et forfaitaire(s)Les factures seront payées dans le délai global de paiement fixé à 30 jours maximum dans les conditions fixées par la loi 2013-100 du 28 janvier 2013.Possibilité de bénéficier de l'avance dans les conditions fixées à l'article 110 du décret du 25 mars 2016.Prix révisable(s) selon les modalités décrites au CCATP.Dans le cas où le candidat ferait une offre sous la forme d'un groupement, il n'est pas imposé de forme au groupement retenu après attribution du marché.Retrait des dossiers de consultation par voie électronique : Les dossiers de consultation sont uniquement téléchargeables sur site http://www.pays-ancenis.com/compa/marches-publics/ qui vous redirigera vers le profil acheteur de la collectivité.Conditions d'envoi ou de remise des plis : transmission électronique imposée conformément aux dispositions du RC.Par conséquent, la transmission par voie papier n'est pas autorisée.Pour les marchés supérieurs ou égaux > à 25 000 euros HT, la signature électronique de l'offre est imposée pour le candidat proposé à l'attribution, dans les conditions fixées au RC.Critères de sélection des candidatures- Conformité administrative au regard des pièces exigées à l'appui de la candidature (DC1, DC2, déclaration sur l'honneur ou équivalents)- Qualité des références- Qualités des moyens humains généraux de la société- Qualités des moyens matériels généraux de la sociétéCritères d'attribution : Offre économiquement la plus avantageuse en fonction des critères énoncés ci-dessous et de leur pondération :- VALEUR TECHNIQUE (pondération 45%) appréciée au vu de la qualité du contenu de la note méthodologique et du cadre de réponse et au vu des sous-critères exposés au RC.- PRIX (pondération 35%) apprécié au vu du prix total en euros TTC du devis estimatif et quantitatif représentatif des besoins de la COMPA et de l'OTI- DELAIS (pondération 20%) apprécié au vu des délais renseignés à l'acte d'engagementPrestation supplémentaire éventuelle facultative : Il est prévu une prestation supplémentaire éventuelle facultative relative à l'impression en mobilité.. Date d'envoi du présent avis au JOUE et au BOAMP : 22 mars 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"- référé précontractuel : recours possible jusqu'à la signature du marché ;- référé contractuel : recours possible dans un délai de 31 jours à compter de la publication de l'avis d'attribution du marché au JOUE ;- recours en contestation de validité du contrat : recours dans un délai de 2 mois à compter de la publication de l'avis d'attribution du marché au JOUE\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette - BP 2411\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\"}, {\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"Office de Tourisme du Pays d''Ancenis\", \"ADRESSE\": \"Centre Administratif Les Ursulines\", \"CP\": \"44156\", \"VILLE\": \"ANCENIS-SAINT-GEREON\", \"CODE_NUTS\": \"FRG01\", \"MEL\": \"compa@pays-ancenis.com\", \"URL\": \"http://www.pays-ancenis.com\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-45003"
+  },
+  {
    "idweb": "19-45275",
    "id": "19_45275",
    "contractfolderid": null,
@@ -1876,65 +1935,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-45275\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"CONCOURS\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-86948\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"CONCOURS\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-06-22\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-06-24\", \"DATE_FIN_DIFFUSION\": \"2018-09-10\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"120\", \"NUM_ANNONCE\": \"274294\", \"DATE_PUBLICATION\": \"2018-06-26\"}}]}}, \"NOM_HTML\": \"19-45275.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-24\", \"DATE_FIN_DIFFUSION\": \"2019-05-22\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"197\", \"LIBELLE\": \"Maîtrise d'oeuvre\"}, {\"CODE\": \"234\", \"LIBELLE\": \"Mission d'ordonnancement, pilotage, coordination (OPC)\"}, {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}, {\"CODE\": \"455\", \"LIBELLE\": \"Ingénierie\"}]}, \"DEP_PUBLICATION\": [\"35\", \"44\", \"29\", \"22\", \"56\"], \"RESUME_OBJET\": \"construction d'une halle expérimentale et réhabilitation complète du rdc du bâtiment 14a sur le campus de beaulieu à rennes \\\" (2ème consultation)\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"université de Rennes 1\", \"CONTACT\": \"Pôle des Achats\", \"ADJUDICATEUR_NUTS\": \"FRH03\", \"ADRESSE\": \"Pôle des Achats, CS46510\", \"CP\": \"35065\", \"VILLE\": \"Rennes Cedex\", \"TEL\": \"(+33) 2-23-23-36-70\", \"MEL\": \"concoursmoe14a@listes.univ-rennes1.fr\", \"URL\": \"http://www.univ-rennes1.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&amp;AllCons&amp;refConsultation=383791&amp;orgAcronyme=f2h\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Etablissement public\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Enseignement supérieur et recherche\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Construction d'une halle expérimentale et Réhabilitation complète du RDC du bâtiment 14A sur le Campus de Beaulieu à Rennes \\\" (2ème Consultation)\", \"REF_MARCHE\": \"2018036COS\", \"CPV\": {\"PRINCIPAL\": \"71200000\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Seconde consultation faisant suite à déclaration sans suite pour raisons économiques et budgétaires du dossier 2017052COS. Concours restreint de maîtrise d'uvre sur esquisse (art. 88 à 90 du Décret 2016-360) relatif à la Construction dune halle expérimentale et Réhabilitation complète du RDC du bâtiment 14A sur le Campus de Beaulieu de lUniversité de Rennes 1. Les ouvrages concernés sont dédiés à la modélisation des systèmes complexes en environnement pour l'Observatoire des Sciences de l'Univers de Rennes (OSUR), composante de l'Université de Rennes 1 qui assure une mission de formation et de recherche dans le domaine des sciences de la Terre, de l'écologie, de l'environnement, de la génomique, et qui comporte en son sein de nombreux laboratoires, plateaux techniques et plateformes mixtes de recherche. Missions de base suivant la loi MOP et missions en variante supplémentaire obligatoire : Coordination SSI, OPC, EXE Structure Le projet concerne 469 mètres carrés de réhabilitation, 690 mètres carrés SU de construction neuve et 400 mètres carrés de surfaces extérieures (parking et dispositif expérimental). La part de l'enveloppe financière prévisionnelle affectée aux travaux par le maître de l'ouvrage est 2.500.000 HT. Ce projet s'insère dans le cadre du dispositif CPER 2015-2020 \\\" BUFFON \\\" - opération 420. Cette opération de travaux est cofinancée par l'Europe (dispositif FEDER), la Région Bretagne, le Rectorat d'Académie de Rennes ainsi que par le Conseil Départemental d'Ille et Vilaine (35) et Rennes Métropole.\", \"CPV\": [{\"PRINCIPAL\": \"71200000\"}, {\"PRINCIPAL\": \"71000000\"}, {\"PRINCIPAL\": \"71220000\"}], \"FONDS_COMMUNAUTAIRES_OUI\": \"\", \"FONDS_COMMUNAUTAIRES_DESCRIPTION\": \"Fonds FEDER (pour l'enveloppe financière des travaux de construction de la Halle), pas pour le marché de maîtrise d'uvre\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"RESTREINT\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_LIBRE\": \"L'examen par le jury de concours des esquisses des 3 candidats sélectionnés en PHASE 2 sera effectué selon les critères définis dans le Règlement de concours : Critère technique : conformité des prestations, qualité architecturale du projet, respect du PLU, traitement des abords, prise en compte de laccessibilité handicapé, propositions techniques sur les différents lots (structure, clos, couvert, installations techniques), prise en compte de la maintenance ultérieure et du coût global, évolutivité du projet, proposition de planning. Critère environnemental : performances énergétiques du bâtiment 14A, performances énergétiques de la halle, méthodologie proposée concernant le référentiel Energie Carbone, prise en compte du confort des usagers, gestion de chantier en site occupé. Critère fonctionnel : organisation générale, accès au bâtiment, respect du gradient de propreté, respect du programme pour lensemble des surfaces demandées. Critère économique : Adéquation projet / enveloppe financière réservée aux travaux ; contre-chiffrage réalisé par léconomiste du maitre douvrage.\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2018\", \"NUM_PARUTION\": \"120\", \"NUM_ANNONCE\": \"274294\", \"DATE_PUBLICATION\": \"2018-06-26\"}}}, \"ATTRIBUTION\": {\"DECISION\": {\"ATTRIBUE\": \"\", \"TITULAIRE\": [{\"DENOMINATION\": \"GOSPEL Architectes (mandataire)\", \"ADRESSE\": \"121 rue du Temple de Blosne\", \"CP\": \"35136\", \"VILLE\": \"SAINT JACQUES DE LA LANDE\", \"CODE_NUTS\": \"FRH0\", \"MEL\": \"gospel@gospel-architectes.fr\", \"PME_OUI\": \"\"}, {\"DENOMINATION\": \"BEC Ingénierie (BET cotraitant)\", \"ADRESSE\": \"3D rue de Paris\", \"CP\": \"35510\", \"VILLE\": \"CESSON SEVIGNE\", \"CODE_NUTS\": \"FRH0\", \"MEL\": \"contact@tce-ingenierie.fr\", \"PME_OUI\": \"\"}, {\"DENOMINATION\": \"TCE INGENIERIE (BET cotraitant)\", \"ADRESSE\": \"2A rue du Patis Tatelin\", \"CP\": \"35700\", \"VILLE\": \"RENNES\", \"CODE_NUTS\": \"FRH0\", \"MEL\": \"contact@tce-ingenierie.fr\", \"PME_OUI\": \"\"}, {\"DENOMINATION\": \"TYECO² (BET cotraitant)\", \"ADRESSE\": \"Zone Artisanale La Touche\", \"CP\": \"35890\", \"VILLE\": \"Bourg-des-Comptes\", \"CODE_NUTS\": \"FRH0\", \"MEL\": \"contact@tyeco2.com\", \"PME_OUI\": \"\"}], \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-02-26\", \"NB_OFFRE_RECU\": \"3\", \"NB_OFFRE_RECU_PME\": \"3\", \"NB_OFFRE_RECU_NON_UE\": \"0\", \"CONCOURS_PRIME\": {\"@DEVISE\": \"EUR\", \"#text\": \"12000\"}}}}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Suivant l'avis favorable du jury lors de la séance d'examen des prestations et classement des projets des candidats, l'indemnisation maximale prévue à l'article 7 du Règlement sera versée aux trois groupements soumissionnaires.. Date d'envoi du présent avis au JOUE et au BOAMP : 22 mars 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Rennes\", \"ADRESSE\": \"3, Contour de la Motte, CS44416\", \"CP\": \"35044\", \"VILLE\": \"Rennes Cedex\", \"TEL\": \"(+33) 2-23-21-28-28\", \"MEL\": \"greffe.ta-rennes@juradm.fr\", \"URL\": \"http://www.rennes.tribunal-administratif.fr/\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Rennes\", \"ADRESSE\": \"3, Contour de la Motte, CS44416\", \"CP\": \"35044\", \"VILLE\": \"Rennes Cedex\", \"TEL\": \"(+33) 2-23-21-28-28\", \"MEL\": \"greffe.ta-rennes@juradm.fr\", \"URL\": \"http://www.rennes.tribunal-administratif.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-45275"
-  },
-  {
-   "idweb": "19-45003",
-   "id": "19_45003",
-   "contractfolderid": null,
-   "objet": "Location et maintenance des systèmes d'impression pour les besoins de la COMPA et de l'Office de Tourisme",
-   "filename": "BOAMP-J-AO_2019_083001",
-   "famille": "JOUE",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2019-03-24",
-   "datefindiffusion": "2019-04-23",
-   "datelimitereponse": null,
-   "nomacheteur": "Cté de Cnes du Pays d'Ancenis",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "160"
-   ],
-   "dc": [
-    "160"
-   ],
-   "descripteur_libelle": [
-    "Impression"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-45003\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-45003.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-24\", \"DATE_FIN_DIFFUSION\": \"2019-04-23\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"160\", \"LIBELLE\": \"Impression\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Location et maintenance des systèmes d'impression pour les besoins de la COMPA et de l'Office de Tourisme\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Cté de Cnes du Pays d'Ancenis\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"Centre administratif Les Ursulines\", \"CP\": \"44156\", \"VILLE\": \"Ancenis-Saint-Géréon\", \"TEL\": \"(+33) 2-40-96-31-89\", \"MEL\": \"compa@pays-ancenis.com\", \"URL\": \"http://http://www.pays-ancenis.com\", \"URL_PROFIL_ACHETEUR\": \"http://pays-ancenis.e-marchespublics.com\", \"URL_PARTICIPATION\": \"http://pays-ancenis.e-marchespublics.com\", \"URL_DOCUMENT\": \"http://pays-ancenis.e-marchespublics.com\", \"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Location et maintenance des systèmes d'impression pour les besoins de la COMPA et de l'Office de Tourisme\", \"REF_MARCHE\": \"2019SYSTIMPR_PF\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Location et maintenance des systèmes d'impression pour les besoins de la COMPA et de l'Office de Tourisme\", \"CPV\": {\"PRINCIPAL\": \"30120000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Le présent marché est un accord-cadre à bons de commande qui donnera lieu à l'attribution d'un marché à un opérateur unique pour la durée du marché, passé en application des articles 78 et 80 du décret du 25 mars 2016. L'opérateur retenu sera identique pour la COMPA et l'OTI.Au global, le montant des prestations sur la durée totale du marché est compris entre un montant minimum de 108 000 euros HT et un montant maximum de 325 000 euros HT.\", \"CPV\": {\"PRINCIPAL\": \"30120000\"}, \"CODE_NUTS\": \"FRG01\", \"LIEU_PRINCIPAL\": \"Périmètre du Pays d'Ancenis (cf : Annexe A du CCATP )\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"325000\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Le marché prendra effet à compter de sa date de notification pour une durée de 48 mois étant précisé que les bons de commande s'exécuteront dans un délai maximum de 3 mois après la date d'échéance du contrat. Délais d'exécution du marché :de la date de mise en service initiale le 23/09/2019 à l'arrêt du contrat le 23/09/2023 (co-terminus). Date prévisionnelle de notification : 15 juillet 2019\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-04-23T16:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"6\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-04-24\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"RENS_COMPLEMENT\": \"La présente consultation est lancée dans le cadre d'un groupement de commandes, constitué de la COMPA et de l'Office de Tourisme Intercommunal du Pays d'Ancenis (OTI). Coordinateur du groupement : Monsieur le Président de la Communauté de Communes du Pays d'Ancenis (COMPA)Caractéristiques principales- Livraison, installation, location et maintenance de copieurs multifonctions- Livraison, installation, location et maintenance d'imprimantes- Livraison, installation, paramétrage et maintenance d'un logiciel de supervision et de routage des impressions- Service de télécopies dématérialisées à partir des copieurs multifonctions- Livraison, installation, paramétrage et maintenance d'un automate de numérisation sommaireLe présent marché est un accord-cadre à bons de commande qui donnera lieu à l'attribution d'un marché à un opérateur unique pour la durée du marché, passé en application des articles 78 et 80 du décret du 25 mars 2016. L'opérateur retenu sera identique pour la COMPA et l'OTI.Modalités essentielles de financement et de paiement et/ou références aux textes qui les réglementent :Budget de la COMPA, ressources propres.Budget de l'OTI, ressources propres.Forme du prix /forme des prix : unitaire(s) et forfaitaire(s)Les factures seront payées dans le délai global de paiement fixé à 30 jours maximum dans les conditions fixées par la loi 2013-100 du 28 janvier 2013.Possibilité de bénéficier de l'avance dans les conditions fixées à l'article 110 du décret du 25 mars 2016.Prix révisable(s) selon les modalités décrites au CCATP.Dans le cas où le candidat ferait une offre sous la forme d'un groupement, il n'est pas imposé de forme au groupement retenu après attribution du marché.Retrait des dossiers de consultation par voie électronique : Les dossiers de consultation sont uniquement téléchargeables sur site http://www.pays-ancenis.com/compa/marches-publics/ qui vous redirigera vers le profil acheteur de la collectivité.Conditions d'envoi ou de remise des plis : transmission électronique imposée conformément aux dispositions du RC.Par conséquent, la transmission par voie papier n'est pas autorisée.Pour les marchés supérieurs ou égaux > à 25 000 euros HT, la signature électronique de l'offre est imposée pour le candidat proposé à l'attribution, dans les conditions fixées au RC.Critères de sélection des candidatures- Conformité administrative au regard des pièces exigées à l'appui de la candidature (DC1, DC2, déclaration sur l'honneur ou équivalents)- Qualité des références- Qualités des moyens humains généraux de la société- Qualités des moyens matériels généraux de la sociétéCritères d'attribution : Offre économiquement la plus avantageuse en fonction des critères énoncés ci-dessous et de leur pondération :- VALEUR TECHNIQUE (pondération 45%) appréciée au vu de la qualité du contenu de la note méthodologique et du cadre de réponse et au vu des sous-critères exposés au RC.- PRIX (pondération 35%) apprécié au vu du prix total en euros TTC du devis estimatif et quantitatif représentatif des besoins de la COMPA et de l'OTI- DELAIS (pondération 20%) apprécié au vu des délais renseignés à l'acte d'engagementPrestation supplémentaire éventuelle facultative : Il est prévu une prestation supplémentaire éventuelle facultative relative à l'impression en mobilité.. Date d'envoi du présent avis au JOUE et au BOAMP : 22 mars 2019.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"- référé précontractuel : recours possible jusqu'à la signature du marché ;- référé contractuel : recours possible dans un délai de 31 jours à compter de la publication de l'avis d'attribution du marché au JOUE ;- recours en contestation de validité du contrat : recours dans un délai de 2 mois à compter de la publication de l'avis d'attribution du marché au JOUE\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée Ile Gloriette - BP 2411\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\"}, {\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"Office de Tourisme du Pays d''Ancenis\", \"ADRESSE\": \"Centre Administratif Les Ursulines\", \"CP\": \"44156\", \"VILLE\": \"ANCENIS-SAINT-GEREON\", \"CODE_NUTS\": \"FRG01\", \"MEL\": \"compa@pays-ancenis.com\", \"URL\": \"http://www.pays-ancenis.com\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-45003"
   },
   {
    "idweb": "19-45205",
@@ -3061,6 +3061,65 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-47722"
   },
   {
+   "idweb": "19-46191",
+   "id": "19_46191",
+   "contractfolderid": null,
+   "objet": "Fourniture de services de télécommunications",
+   "filename": "BOAMP-J-AO_2019_086009",
+   "famille": "JOUE",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2019-03-27",
+   "datefindiffusion": "2019-05-17",
+   "datelimitereponse": null,
+   "nomacheteur": "GPT COOPERATION SOC MEDICO SOC ESTUAIR",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "338"
+   ],
+   "dc": [
+    "338"
+   ],
+   "descripteur_libelle": [
+    "Télécommunications"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-46191\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-46191.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-27\", \"DATE_FIN_DIFFUSION\": \"2019-05-17\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"338\", \"LIBELLE\": \"Télécommunications\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Fourniture de services de télécommunications\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"GPT COOPERATION SOC MEDICO SOC ESTUAIR\", \"CODE_IDENT_NATIONAL\": \"13001380800014\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"66 avenue Bodon\", \"CP\": \"44250\", \"VILLE\": \"Saint Brevin Les Pins\", \"TEL\": \"(+33) 2-51-74-71-75\", \"FAX\": \"(+33) 2-51-74-71-45\", \"MEL\": \"correspondre@aws-france.com\", \"URL\": \"http://agysoft.marches-publics.info\", \"URL_PROFIL_ACHETEUR\": \"http://agysoft.marches-publics.info\", \"URL_PARTICIPATION\": \"http://agysoft.marches-publics.info\", \"URL_DOCUMENT\": \"http://agysoft.marches-publics.info\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"autre\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Gcsms\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de services de télécommunications\", \"REF_MARCHE\": \"20190202\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Téléphonie fixeTéléphonie mobileVpn/Services internet\", \"CPV\": {\"PRINCIPAL\": \"64210000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Téléphonie fixe\", \"DESCRIPTION\": \"La prestation comprendra :-Fourniture des accès au réseau-Fourniture des numéros de lignes et Sda-Acheminement du trafic entrant-Acheminement du trafic sortant vers l'ensemble des destinations-Services associés\", \"CPV\": [{\"PRINCIPAL\": \"64221000\"}, {\"PRINCIPAL\": \"64221000\"}, {\"PRINCIPAL\": \"64212000\"}, {\"PRINCIPAL\": \"64216110\"}], \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Qualité\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché pourra faire l'objet de trois reconductions tacites pour une durée de 12 mois\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Téléphonie mobile\", \"DESCRIPTION\": \"La prestation comprendra :-Fourniture d'abonnements de lignes mobiles et acheminement des communications.-Fourniture de forfaits data.-Services associés\", \"CPV\": [{\"PRINCIPAL\": \"64212000\"}, {\"PRINCIPAL\": \"64221000\"}, {\"PRINCIPAL\": \"64212000\"}, {\"PRINCIPAL\": \"64216110\"}], \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Qualité\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché pourra faire l'objet de trois reconductions tacites pour une durée de 12 mois\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Vpn/Services internet\", \"DESCRIPTION\": \"La prestation comprendra :-Fourniture de liens moyen, haut et très haut débit-Fourniture de services internet-Services associés\", \"CPV\": [{\"PRINCIPAL\": \"64216110\"}, {\"PRINCIPAL\": \"64221000\"}, {\"PRINCIPAL\": \"64212000\"}, {\"PRINCIPAL\": \"64216110\"}], \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Qualité\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché pourra faire l'objet de trois reconductions tacites pour une durée de 12 mois\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"MARCHE_PERIODIQUE_OUI\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-05-17T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"- Formulaire Dc1, Lettre de candidature _ Habilitation du mandataire par ses co-traitants.(disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat)- Formulaire Dc2, Déclaration du candidat individuel ou du membre du groupement.(disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat)Une déclaration sur l'honneur pour justifier qu'il n'entre dans aucun des cas mentionnés aux articles 45 et 48 de l'ordonnance du 23 juillet 2015 susvisée et notamment qu'il est en règle au regard des articles L. 5212-1 à L. 5212-11 du code du travail concernant l'emploi des travailleurs handicapés\", \"CAP_TECH\": \"- Une déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années.- Une déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation de contrats de même nature.- Une liste des principaux services effectués au cours des trois dernières années, dans le domaine du présent accord-cadre, indiquant le montant, la date et le destinataire public ou privé. Les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique.Les entreprises récemment créées peuvent justifier de leurs références par d'autres moyens.- La production d'un justificatif ou la copie d'un extrait du Journal Officiel attestant qu'il est titulaire d'une licence opérateur ou d'un certificat équivalent délivrée par l'Autorité de Régulation des Communications Electroniques et des Postes - Arcep\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-05-17\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://agysoft.marches-publics.info -. Date d'envoi du présent avis au JOUE et au BOAMP : 25 mars 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-46191"
+  },
+  {
    "idweb": "19-45956",
    "id": "19_45956",
    "contractfolderid": null,
@@ -3122,65 +3181,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-45956\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"18-165271\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2018-11-30\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2018-12-03\", \"DATE_FIN_DIFFUSION\": \"2019-01-04\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2018\", \"NUM_PARUTION\": \"234\", \"NUM_ANNONCE\": \"535114\", \"DATE_PUBLICATION\": \"2018-12-05\"}}]}}, \"NOM_HTML\": \"19-45956.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-27\", \"DATE_FIN_DIFFUSION\": \"2019-04-27\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"mise en oeuvre et animation des \\\" chantiers plan job \\\"\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Nantes\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"2 rue de l'hôtel de ville\", \"CP\": \"44094\", \"VILLE\": \"Nantes cedex 1\", \"MEL\": \"laurence.jouneau@nantesmetropole.fr\", \"URL\": \"https://nantes.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.nantesmetropole.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Mise en uvre et animation des \\\" chantiers plan job \\\"\", \"REF_MARCHE\": \"1852A003\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Mise en uvre et animation des \\\" chantiers plan job \\\"\", \"CPV\": {\"PRINCIPAL\": \"85300000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"174171.52\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Mise en uvre et animation des \\\" chantiers plan job \\\"\", \"CPV\": {\"PRINCIPAL\": \"75231240\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"70\", \"#text\": \"Valeur technique\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"30\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\"}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"NATURE\": {\"AVIS_MARCHE\": \"\"}, \"ANNEE\": \"2018\", \"NUM_PARUTION\": \"234\", \"NUM_ANNONCE\": \"535114\", \"DATE_PUBLICATION\": \"2018-12-05\"}}}, \"ATTRIBUTION\": {\"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2019-039\", \"INTITULE\": \"Mise en uvre et animation des \\\" chantiers plan job \\\"\", \"TITULAIRE\": {\"DENOMINATION\": \"Leo Lagrange Ouest\", \"ADRESSE\": \"23 rue de lEtoile du Matin BP 324\", \"CP\": \"44135\", \"VILLE\": \"SAINT NAZAIRE cedex\", \"CODE_NUTS\": \"FRG01\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2019-02-28\", \"NB_OFFRE_RECU\": \"1\", \"NB_OFFRE_RECU_ELECT\": \"1\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"174171.52\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ABANDON_SAD_NON\": \"\", \"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"V.2) Attribution du marché V.2.1) Date de conclusion du marché : la date de conclusion du marché correspond à la date de notification. Date de signature: 26/02/2019. Le montant du marché correspond au montant total annuel estimatif. Date d'envoi du présent avis au JOUE et au BOAMP : 25 mars 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-45956"
-  },
-  {
-   "idweb": "19-46191",
-   "id": "19_46191",
-   "contractfolderid": null,
-   "objet": "Fourniture de services de télécommunications",
-   "filename": "BOAMP-J-AO_2019_086009",
-   "famille": "JOUE",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2019-03-27",
-   "datefindiffusion": "2019-05-17",
-   "datelimitereponse": null,
-   "nomacheteur": "GPT COOPERATION SOC MEDICO SOC ESTUAIR",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "338"
-   ],
-   "dc": [
-    "338"
-   ],
-   "descripteur_libelle": [
-    "Télécommunications"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-46191\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-46191.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-27\", \"DATE_FIN_DIFFUSION\": \"2019-05-17\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"338\", \"LIBELLE\": \"Télécommunications\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Fourniture de services de télécommunications\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"GPT COOPERATION SOC MEDICO SOC ESTUAIR\", \"CODE_IDENT_NATIONAL\": \"13001380800014\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"66 avenue Bodon\", \"CP\": \"44250\", \"VILLE\": \"Saint Brevin Les Pins\", \"TEL\": \"(+33) 2-51-74-71-75\", \"FAX\": \"(+33) 2-51-74-71-45\", \"MEL\": \"correspondre@aws-france.com\", \"URL\": \"http://agysoft.marches-publics.info\", \"URL_PROFIL_ACHETEUR\": \"http://agysoft.marches-publics.info\", \"URL_PARTICIPATION\": \"http://agysoft.marches-publics.info\", \"URL_DOCUMENT\": \"http://agysoft.marches-publics.info\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"autre\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Gcsms\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fourniture de services de télécommunications\", \"REF_MARCHE\": \"20190202\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Téléphonie fixeTéléphonie mobileVpn/Services internet\", \"CPV\": {\"PRINCIPAL\": \"64210000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Téléphonie fixe\", \"DESCRIPTION\": \"La prestation comprendra :-Fourniture des accès au réseau-Fourniture des numéros de lignes et Sda-Acheminement du trafic entrant-Acheminement du trafic sortant vers l'ensemble des destinations-Services associés\", \"CPV\": [{\"PRINCIPAL\": \"64221000\"}, {\"PRINCIPAL\": \"64221000\"}, {\"PRINCIPAL\": \"64212000\"}, {\"PRINCIPAL\": \"64216110\"}], \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Qualité\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché pourra faire l'objet de trois reconductions tacites pour une durée de 12 mois\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Téléphonie mobile\", \"DESCRIPTION\": \"La prestation comprendra :-Fourniture d'abonnements de lignes mobiles et acheminement des communications.-Fourniture de forfaits data.-Services associés\", \"CPV\": [{\"PRINCIPAL\": \"64212000\"}, {\"PRINCIPAL\": \"64221000\"}, {\"PRINCIPAL\": \"64212000\"}, {\"PRINCIPAL\": \"64216110\"}], \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Qualité\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché pourra faire l'objet de trois reconductions tacites pour une durée de 12 mois\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Vpn/Services internet\", \"DESCRIPTION\": \"La prestation comprendra :-Fourniture de liens moyen, haut et très haut débit-Fourniture de services internet-Services associés\", \"CPV\": [{\"PRINCIPAL\": \"64216110\"}, {\"PRINCIPAL\": \"64221000\"}, {\"PRINCIPAL\": \"64212000\"}, {\"PRINCIPAL\": \"64216110\"}], \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": {\"@POIDS\": \"60\", \"#text\": \"Qualité\"}}, \"CRITERES_PRIX\": {\"POIDS\": \"40\"}}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché pourra faire l'objet de trois reconductions tacites pour une durée de 12 mois\", \"VARIANTES_OUI\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"MARCHE_PERIODIQUE_OUI\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-05-17T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"- Formulaire Dc1, Lettre de candidature _ Habilitation du mandataire par ses co-traitants.(disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat)- Formulaire Dc2, Déclaration du candidat individuel ou du membre du groupement.(disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat)Une déclaration sur l'honneur pour justifier qu'il n'entre dans aucun des cas mentionnés aux articles 45 et 48 de l'ordonnance du 23 juillet 2015 susvisée et notamment qu'il est en règle au regard des articles L. 5212-1 à L. 5212-11 du code du travail concernant l'emploi des travailleurs handicapés\", \"CAP_TECH\": \"- Une déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années.- Une déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation de contrats de même nature.- Une liste des principaux services effectués au cours des trois dernières années, dans le domaine du présent accord-cadre, indiquant le montant, la date et le destinataire public ou privé. Les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique.Les entreprises récemment créées peuvent justifier de leurs références par d'autres moyens.- La production d'un justificatif ou la copie d'un extrait du Journal Officiel attestant qu'il est titulaire d'une licence opérateur ou d'un certificat équivalent délivrée par l'Autorité de Régulation des Communications Electroniques et des Postes - Arcep\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-05-17\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://agysoft.marches-publics.info -. Date d'envoi du présent avis au JOUE et au BOAMP : 25 mars 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-46191"
   },
   {
    "idweb": "19-42020",
@@ -4947,68 +4947,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-47192"
   },
   {
-   "idweb": "19-49505",
-   "id": "19_49505",
-   "contractfolderid": null,
-   "objet": "Réfection de l'éclairage et pose de faux plafonds - Ecole élémentaire Camille Claudel - 17 rue d'Helsinki 72000 Le Mans",
-   "filename": "BOAMP-N-AO_2019_087011",
-   "famille": "FNS",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2019-03-28",
-   "datefindiffusion": "2019-04-23",
-   "datelimitereponse": "2019-04-23T16:00:00+00:00",
-   "nomacheteur": "Ville du Mans",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": "1",
-   "marche_public_simplifie_label": "Marché public simplifié",
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "105",
-    "269"
-   ],
-   "dc": [
-    "105",
-    "269"
-   ],
-   "descripteur_libelle": [
-    "Electricité (travaux)",
-    "Plâtrerie"
-   ],
-   "type_marche": [
-    "TRAVAUX"
-   ],
-   "type_marche_facette": [
-    "Travaux"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-49505\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-49505.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-28\", \"DATE_LIMITE_REPONSE\": \"2019-04-23T17:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2019-04-23\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"105\", \"LIBELLE\": \"Electricité (travaux)\"}, {\"CODE\": \"269\", \"LIBELLE\": \"Plâtrerie\"}]}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Réfection de l'éclairage et pose de faux plafonds - Ecole élémentaire Camille Claudel - 17 rue d'Helsinki 72000 Le Mans\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville du Mans\", \"CORRESPONDANT\": \"Le Maire\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, CS 40010 - 16 avenue François Mitterrand, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"LE MANS\", \"TEL\": \"02-43-47-47-47\", \"FAX\": \"02-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"Réfection de l'éclairage et pose de faux plafonds - Ecole élémentaire Camille Claudel - 17 rue d'Helsinki 72000 Le Mans\", \"CPV\": [{\"PRINCIPAL\": \"45310000\"}, {\"PRINCIPAL\": \"45324000\"}], \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG04\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Les travaux décomposés en 2 lots feront l'objet d'un phasage prévisionnel comme suit :- phase 1 : été 2019- phase 2 : automne 2019- phase 3 : hiver 2020- phase 4 : printemps 2020- phase 2 : été 2020\", \"QUANTITE\": \"Réfection de l'éclairage et pose de faux plafonds - Ecole élémentaire Camille Claudel - 17 rue d'Helsinki 72000 Le Mans\", \"OPTIONS\": {\"OUI\": \"\", \"DESCRIPTION\": \"Des modifications, des contrats similaires, des contrats complémentaires pourront être conclus au cours de l'exécution du contrat dans le respect des dispositions du décret 2016-360 du 25 mars 2016 et du Code Général des Collectivités Territoriales\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"DESCRIPTION\": \"ELECTRICITE\", \"CPV\": {\"PRINCIPAL\": \"45310000\"}}, {\"NUM\": \"2\", \"DESCRIPTION\": \"FAUX PLAFONDS\", \"CPV\": {\"PRINCIPAL\": \"45324000\"}}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-04-23T17:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FORME_JURIDIQUE\": \"Forme non imposée. Mandataire solidaire\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": \"Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas d'interdiction de soumissionner..Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du contrat, réalisées au cours des trois derniers exercices disponibles..Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années..Liste des travaux exécutés au cours des cinq dernières années, appuyée d'attestations de bonne exécution pour les plus importants (montant, époque, lieu d'exécution, s'ils ont été effectués selon les règles de l'art et menés à bonne fin)\"}, \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"2019_0038_TX_MA\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.sarthe-marchespublics.frLe DCE peut être téléchargé jusqu'au jour de la date et heure limite de remise des offres à l'adresse suivante http://www.sarthe-marchespublics.fr. Seules les offres électroniques sont admises ; tout autre mode de transmission conduirait à un rejet de l'offre. Les modalités de transmission électronique des plis sont définies dans le règlement de la consultation.Critères de sélection candidats 1 Aptitude à exercer l'activité professionnelle - 2 Capacités techniques et professionnelles - 3 Capacité économique et financièreLe pouvoir adjudicateur se réserve la possibilité d'attribuer les marchés sur la base des offres initiales sans négociation.Renseignements administratifs : Myriam Aveline au 02.43.47.45.77Renseignements techniques :Léopold Guittet au 02.43.47.47.78 ou Eric Bourge au 02.43.47.48.94\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso Cedex 1 BP 24209\", \"CP\": \"44042\", \"VILLE\": \"Nantes\", \"TEL\": \"02-53-46-79-83\", \"FAX\": \"02-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://pays-de-la-loire.direccte.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-49505"
-  },
-  {
    "idweb": "19-47208",
    "id": "19_47208",
    "contractfolderid": null,
@@ -5192,6 +5130,68 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-47730\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-47730.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-28\", \"DATE_FIN_DIFFUSION\": \"2019-08-14\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"116\", \"LIBELLE\": \"Espaces verts\"}}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\"}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"ENTRETIEN DES ESPACES VERTS\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CHD VENDEE\", \"ADJUDICATEUR_NUTS\": \"FRG05\", \"ADRESSE\": \"Les Oudairies\", \"CP\": \"85925\", \"VILLE\": \"La roche sur yon cedex 9\", \"TEL\": \"(+33) 2-51-44-61-38\", \"FAX\": \"(+33) 2-51-44-60-38\", \"MEL\": \"dstc@chd-vendee.fr\", \"URL\": \"https://www.chd-vendee.fr/\", \"URL_PARTICIPATION\": \"https://www.marches-publics.gouv.fr/?page=entreprise.EntrepriseAdvancedSearch&AllCons&refConsultation=422460&orgAcronyme=x7c\", \"URL_DOCUMENT\": \"http://www.marches-publics.gouv.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"SANTE\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"ENTRETIEN DES ESPACES VERTS\", \"REF_MARCHE\": \"GC-DRM-2019-M16\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Le présent marché a pour objet l'entretien des espaces verts des établissements membres du groupement de commandes sur le département de la Vendée, à savoir le CHD Vendée, le GCS Energelog, le CH de Fontenay le Comte, le CH Loire Vendée Océan, le CH les Collines Vendéennes, le CH Côte de Lumière et le CH Georges Mazurelles.\", \"CPV\": {\"PRINCIPAL\": \"77310000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS_RESERVE_POUVOIR_ADJUDICATEUR\": \"Néant\", \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Taille de l'ensemble des haiesdu site du Centre Georges MAZURELLE\", \"DESCRIPTION\": \"Taille de l'ensemble des haies du site du Centre Georges MAZURELLE Rue d'Aubigny 85000 LA ROCHE SUR YON\", \"CPV\": {\"PRINCIPAL\": \"77310000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché est conclu pour une période ferme d'un an à compter du 1er octobre 2019 ou de sa date de notification si celle-ci est postérieure au 1er octobre 2019. Il sera reconduit tacitement par période annuelle, dans la limite de 3 reconductions, soit une durée maximum de 4 années.\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Le CHD Vendée, agissant pour l'ensemble des membres du GHT VENDÉE 85, se réserve la possibilité de réaliser des marchés similaires au titre de l'article 30-7° du Décret 2016-360 du 25 mars 2016 modifié.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Il s'agit d'un marché réservé au titre de l'article 13 du Décret no2016-360\"}, {\"NUM\": \"2\", \"INTITULE\": \"Entretien des espaces verts pour les structures situées à la Roche sur Yon\", \"DESCRIPTION\": \"Entretien des espaces verts pour les structures situées à la Roche sur Yon- Sous lot no 1 : CMP pour adultes le val Fleuri 7 rue Flandres Dunkerque 85000 La Roche sur Yon (Centre Hospitalier Georges Mazurelle)- Sous lot no 2 : CMP POUR ADOLESCENTS 80 rue Louis Lumière 85000 LA ROCHE SUR YON (Centre Hospitalier Georges Mazurelle)- Sous lot no 3 : CMP Le Train Bleu, 12 impasse Beauséjour 85000 LA ROCHE SUR YON (Centre Hospitalier Georges Mazurelle)- Sous lot no 4 : Centre Ergothérapique La Simbrandière, 84 Rue de la Simbrandière, 85000 LA ROCHE (Centre Hospitalier Georges Mazurelle)- Sous lot no 5 : CMP Camille Claudel, 17 rue Védrines 85000 LA ROCHE SUR YON (Centre Hospitalier Georges Mazurelle)- Sous lot no 6 : CMP Toulouse Lautrec, 19 rue du Moulin Rouge 85000 LA ROCHE SUR YON (Centre Hospitalier Georges Mazurelle)- Sous lot no 7 : CMP E. D. Winnicott, 53 rue Prunier, 85000 LA ROCHE SUR YON (Centre Hospitalier Georges Mazurelle)- Sous lot no 8 : Maison Thérapeutique la Pas\", \"CPV\": {\"PRINCIPAL\": \"77310000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché est conclu pour une période ferme d'un an à compter du 1er octobre 2019 ou de sa date de notification si celle-ci est postérieure au 1er octobre 2019. Il sera reconduit tacitement par période annuelle, dans la limite de 3 reconductions, soit une durée maximum de 4 années.\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Le CHD Vendée, agissant pour l'ensemble des membres du GHT VENDÉE 85, se réserve la possibilité de réaliser des marchés similaires au titre de l'article 30-7° du Décret 2016-360 du 25 mars 2016 modifié.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Il s'agit d'un marché réservé au titre de l'article 13 du Décret no2016-360\"}, {\"NUM\": \"3\", \"INTITULE\": \"Entretien des espaces verts pour les structures situées sur le territoire des Sables d'Olonne\", \"DESCRIPTION\": \"Entretien des espaces verts pour les structures situées sur le territoire des Sables d'Olonne- Sous lot no 1 : Centre de soins en milieu maritime 69 av Fr. Mitterrand 85340 OLONNE SUR MER (Centre Hospitalier Georges Mazurelle)- Sous lot no 2 : CMP Jean Itard, 39 rue Printanière 85100 LES SABLES D'OLONNE (Centre Hospitalier Georges Mazurelle)- Sous lot no 3 : Site Aquitaine, Les Roses, Les Tamaris et le Centre de soins de Longue durée - Les Sables d'Olonne (Centre Hospitalier Côte de Lumière)- Sous lot no 4 : Résidence Georges Godet - Olonne sur Mer (Centre Hospitalier Côte de Lumière)- Sous lot no 5 : Pôle santé - Clinique Chirurgicale Porte Océane - Olonne sur Mer (GCS Energelog)- Sous lot no 6 : Pôle santé - Centre Hospitalier Côte de Lumière - Olonne sur Mer (GCS Energelog)- Sous lot no 7 : Nettoyage des abords du Site Aquitaine, Les Roses, Les Tamaris et C.S.L.D - 6 Bd Laplace 85100 Les Sables d'Olonne (Centre Hospitalier Côte de Lumière)\", \"CPV\": {\"PRINCIPAL\": \"77310000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché est conclu pour une période ferme d'un an à compter du 1er octobre 2019 ou de sa date de notification si celle-ci est postérieure au 1er octobre 2019. Il sera reconduit tacitement par période annuelle, dans la limite de 3 reconductions, soit une durée maximum de 4 années.\", \"VARIANTES_OUI\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Le CHD Vendée, agissant pour l'ensemble des membres du GHT VENDÉE 85, se réserve la possibilité de réaliser des marchés similaires au titre de l'article 30-7° du Décret 2016-360 du 25 mars 2016 modifié.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Il s'agit d'un marché réservé au titre de l'article 13 du Décret no2016-360\"}, {\"NUM\": \"4\", \"INTITULE\": \"Entretien des espaces verts pour les structures situées à Fontenay Le Comte\", \"DESCRIPTION\": \"Entretien des espaces verts pour les structures situées à Fontenay Le Comte- Sous lot 1 : CMP Enfants, 24 rue F. Rabelais, 85200 FONTENAY LE COMTE (Centre Hospitalier Georges Mazurelle)- Sous lot 2 : Centre Hospitalier de Fontenay le Comte, 40 rue Rabelais et 11 rue du Docteur René Laforge, 85 200 FONTENAY LE COMTE (Centre Hospitalier de Fontenay le Comte)\", \"CPV\": {\"PRINCIPAL\": \"77310000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché est conclu pour une période ferme d'un an à compter du 1er octobre 2019 ou de sa date de notification si celle-ci est postérieure au 1er octobre 2019. Il sera reconduit tacitement par période annuelle, dans la limite de 3 reconductions, soit une durée maximum de 4 années.\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Le CHD Vendée, agissant pour l'ensemble des membres du GHT VENDÉE 85, se réserve la possibilité de réaliser des marchés similaires au titre de l'article 30-7° du Décret 2016-360 du 25 mars 2016 modifié.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Il s'agit d'un marché réservé au titre de l'article 13 du Décret no2016-360\"}, {\"NUM\": \"5\", \"INTITULE\": \"Entretien des espaces verts pour la structure située sur la ville de Saint Gilles Croix de Vie\", \"DESCRIPTION\": \"Entretien des espaces verts pour la structure située sur la ville de Saint Gilles Croix de Vie : Centre Hospitalier Loire Vendée Océan Site de Saint Gilles Croix de Vie rue Laennec (CHLVO)\", \"CPV\": {\"PRINCIPAL\": \"77310000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché est conclu pour une période ferme d'un an à compter du 1er octobre 2019 ou de sa date de notification si celle-ci est postérieure au 1er octobre 2019. Il sera reconduit tacitement par période annuelle, dans la limite de 3 reconductions, soit une durée maximum de 4 années.\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Le CHD Vendée, agissant pour l'ensemble des membres du GHT VENDÉE 85, se réserve la possibilité de réaliser des marchés similaires au titre de l'article 30-7° du Décret 2016-360 du 25 mars 2016 modifié.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Il s'agit d'un marché réservé au titre de l'article 13 du Décret no2016-360\"}, {\"NUM\": \"6\", \"INTITULE\": \"Entretien des espaces verts pour la structure située sur la ville de Challans\", \"DESCRIPTION\": \"Entretien des espaces verts pour la structure située sur la ville de Challans : CMP Les Charmettes, Rue E. Segré 85300 CHALLANS (Centre Hospitalier Georges Mazurelle)\", \"CPV\": {\"PRINCIPAL\": \"77310000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché est conclu pour une période ferme d'un an à compter du 1er octobre 2019 ou de sa date de notification si celle-ci est postérieure au 1er octobre 2019. Il sera reconduit tacitement par période annuelle, dans la limite de 3 reconductions, soit une durée maximum de 4 années.\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Le CHD Vendée, agissant pour l'ensemble des membres du GHT VENDÉE 85, se réserve la possibilité de réaliser des marchés similaires au titre de l'article 30-7° du Décret 2016-360 du 25 mars 2016 modifié.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Il s'agit d'un marché réservé au titre de l'article 13 du Décret n°2016-360\"}, {\"NUM\": \"7\", \"INTITULE\": \"Entretien des espaces verts pour les structures situées sur les villes de Chantonnay, la Chataigneraie et Pouzauges\", \"DESCRIPTION\": \"Entretien des espaces verts pour les structures situées sur les villes de Chantonnay, la Chataigneraie et Pouzauges - Sous lot 1 : CMP Enfants, 7 bis rue Colineau 85100 CHANTONNAY (Centre Hospitalier Georges Mazurelle)- Sous lot 2 : CH Les Collines Vendéennes, 9 avenue du maréchal Leclerc 85120 LA CHATAIGNERAIE (Centre Hospitalier Les Collines Vendéennes)- Sous lot 3 : Résidence du Pré Bailly - 6, rue du Pré Bailly 82120 LA CHATAIGNERAIE (Centre Hospitalier Les Collines Vendéennes)- Sous lot 4 : Maison Bleue 32 Ter avenue du Générale de gaulle Impasse de Vivonne 85120 LA CHATAIGNERAIE (Centre Hospitalier Les Collines Vendéennes)- Sous lot 5 : Résidence Comtesse d'Asnières - 48, rue Pierre Bressuire 85120 SAINT PIERRE DU CHEMIN (Centre Hospitalier Les Collines Vendéennes)- Sous lot 6 : Résidence Catherine de Thouars - 9, rue Emilie Angelotz 85700 POUZAUGES (Centre Hospitalier Les Collines Vendéennes)- Sous lot 7 : SAVS 8 impasse des pavillons 85120 LA TARDIERE (Centre Hospitalier Les Collines Vendéennes)\", \"CPV\": {\"PRINCIPAL\": \"77310000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché est conclu pour une période ferme d'un an à compter du 1er octobre 2019 ou de sa date de notification si celle-ci est postérieure au 1er octobre 2019. Il sera reconduit tacitement par période annuelle, dans la limite de 3 reconductions, soit une durée maximum de 4 années.\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Le CHD Vendée, agissant pour l'ensemble des membres du GHT VENDÉE 85, se réserve la possibilité de réaliser des marchés similaires au titre de l'article 30-7° du Décret 2016-360 du 25 mars 2016 modifié.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Il s'agit d'un marché réservé au titre de l'article 13 du Décret n°2016-360\"}, {\"NUM\": \"8\", \"INTITULE\": \"Entretien des espaces verts pour les structures situées sur la ville des Herbiers\", \"DESCRIPTION\": \"Entretien des espaces verts pour les structures situées sur la ville des Herbiers.- Sous lot 1 : CMP Les Cytises, Chemin de Bel Air, 85500 LES HERBIERS (Centre Hospitalier Georges Mazurelle)- Sous lot 2 : CMP Le Tricotin, 3 rue P. de Coubertin 85500 LES HERBIERS (Centre Hospitalier Georges Mazurelle)\", \"CPV\": {\"PRINCIPAL\": \"77310000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché est conclu pour une période ferme d'un an à compter du 1er octobre 2019 ou de sa date de notification si celle-ci est postérieure au 1er octobre 2019. Il sera reconduit tacitement par période annuelle, dans la limite de 3 reconductions, soit une durée maximum de 4 années.\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Le CHD Vendée, agissant pour l'ensemble des membres du GHT VENDÉE 85, se réserve la possibilité de réaliser des marchés similaires au titre de l'article 30-7° du Décret 2016-360 du 25 mars 2016 modifié.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Il s'agit d'un marché réservé au titre de l'article 13 du Décret n°2016-360\"}, {\"NUM\": \"9\", \"INTITULE\": \"Entretien des espaces verts pour les structures situées sur la ville de Luçon\", \"DESCRIPTION\": \"Entretien des espaces verts pour les structures situées sur la ville de Luçon- Sous lot 1 : CMP enfants, 100 rue des Carrières 85400 LUCON (Centre Hospitalier Georges Mazurelle)- Sous lot 2 : CMP G. Millandy, 4 Place Richelieu 85400 LUCON (Centre Hospitalier Georges Mazurelle)\", \"CPV\": {\"PRINCIPAL\": \"77310000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché est conclu pour une période ferme d'un an à compter du 1er octobre 2019 ou de sa date de notification si celle-ci est postérieure au 1er octobre 2019. Il sera reconduit tacitement par période annuelle, dans la limite de 3 reconductions, soit une durée maximum de 4 années.\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Le CHD Vendée, agissant pour l'ensemble des membres du GHT VENDÉE 85, se réserve la possibilité de réaliser des marchés similaires au titre de l'article 30-7° du Décret 2016-360 du 25 mars 2016 modifié.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Il s'agit d'un marché réservé au titre de l'article 13 du Décret n°2016-360\"}, {\"NUM\": \"10\", \"INTITULE\": \"Entretien des espaces verts pour la structure située sur la ville de Montaigu\", \"DESCRIPTION\": \"Entretien des espaces verts pour la structure située sur la ville de Montaigu ; CMP G. Chaissac, 12 rue de l'Egault 85600 MONTAIGU (Centre Hospitalier Georges Mazurelle)\", \"CPV\": {\"PRINCIPAL\": \"77310000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché est conclu pour une période ferme d'un an à compter du 1er octobre 2019 ou de sa date de notification si celle-ci est postérieure au 1er octobre 2019. Il sera reconduit tacitement par période annuelle, dans la limite de 3 reconductions, soit une durée maximum de 4 années.\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Le CHD Vendée, agissant pour l'ensemble des membres du GHT VENDÉE 85, se réserve la possibilité de réaliser des marchés similaires au titre de l'article 30-7° du Décret 2016-360 du 25 mars 2016 modifié.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Il s'agit d'un marché réservé au titre de l'article 13 du Décret n°2016-360\"}, {\"NUM\": \"11\", \"INTITULE\": \"Entretien des espaces verts pour les structures situées sur la ville de Longeville sur Mer\", \"DESCRIPTION\": \"Entretien des espaces verts pour les structures situées sur la ville de Longeville sur Mer : MAS La Rose des Vents, Rue du Dr Mathevet 85000 LONGEVILLE (Centre Hospitalier Georges Mazurelle)\", \"CPV\": {\"PRINCIPAL\": \"77310000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché est conclu pour une période ferme d'un an à compter du 1er octobre 2019 ou de sa date de notification si celle-ci est postérieure au 1er octobre 2019. Il sera reconduit tacitement par période annuelle, dans la limite de 3 reconductions, soit une durée maximum de 4 années.\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Le CHD Vendée, agissant pour l'ensemble des membres du GHT VENDÉE 85, se réserve la possibilité de réaliser des marchés similaires au titre de l'article 30-7° du Décret 2016-360 du 25 mars 2016 modifié.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Il s'agit d'un marché réservé au titre de l'article 13 du Décret n°2016-360\"}, {\"NUM\": \"12\", \"INTITULE\": \"Elagage et abattage des arbres pour le Centre Hospitalier Georges MAZURELLE\", \"DESCRIPTION\": \"Elagage et abattage des arbres pour le Centre Hospitalier Georges MAZURELLE\", \"CPV\": {\"PRINCIPAL\": \"77310000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché est conclu pour une période ferme d'un an à compter du 1er octobre 2019 ou de sa date de notification si celle-ci est postérieure au 1er octobre 2019. Il sera reconduit tacitement par période annuelle, dans la limite de 3 reconductions, soit une durée maximum de 4 années.\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Le CHD Vendée, agissant pour l'ensemble des membres du GHT VENDÉE 85, se réserve la possibilité de réaliser des marchés similaires au titre de l'article 30-7° du Décret 2016-360 du 25 mars 2016 modifié.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Lot 12 : Accord cadre mono attributaire (1 seul candidat)à bons de commandes sans minimum ni maximum en quantité et en valeur en vertu de l'article 78 du décret n° 2016-360 du 25 mars 2016 relatif aux marchés publics modifié\"}, {\"NUM\": \"13\", \"INTITULE\": \"Elagage et abattage des arbres pour les autres établissements du groupement de commandes (hors CH Mazurelle)\", \"DESCRIPTION\": \"Elagage et abattage des arbres pour les autres établissements du groupement de commandes (hors CH Mazurelle)\", \"CPV\": {\"PRINCIPAL\": \"77310000\"}, \"CODE_NUTS\": \"FRG05\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"12\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le marché est conclu pour une période ferme d'un an à compter du 1er octobre 2019 ou de sa date de notification si celle-ci est postérieure au 1er octobre 2019. Il sera reconduit tacitement par période annuelle, dans la limite de 3 reconductions, soit une durée maximum de 4 années.\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Le CHD Vendée, agissant pour l'ensemble des membres du GHT VENDÉE 85, se réserve la possibilité de réaliser des marchés similaires au titre de l'article 30-7° du Décret 2016-360 du 25 mars 2016 modifié.\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"Lot 13 : accord-cadre multiattributaires (3 candidats maximum sous réserve d'un nombre suffisant de candidatures et d'offres) avec marchés subséquents conclu en vertu de l'article 78 du décret n° 2016-360 du 25 mars 2016 relatif aux marchés publics modifié\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-06-14T17:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"6\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-06-17\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Avant la remise de son offre, le candidat effectuera un état des lieux en présence du responsable des espaces verts ou du cadre responsable de la structure afin d'apprécier au mieux les possibilités d'accès, les contraintes particulières, la nature des techniques à mettre en oeuvre. Se référer au calendrier de visite pré défini (annexe n° 5 du DCE) Il ne pourra pas ensuite se prévaloir d'une méconnaissance de ses obligations pour majorer le montant de sa prestation. Un certificat sera attribué lors de la visite. Celui-ci sera à remettre avec l'offre (visite obligatoire).Les lots 12 et 13 : élagage, abattage ne sont pas concernés par les visites.. Date d'envoi du présent avis au JOUE et au BOAMP : 26 mars 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\"}}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-47730"
+  },
+  {
+   "idweb": "19-49505",
+   "id": "19_49505",
+   "contractfolderid": null,
+   "objet": "Réfection de l'éclairage et pose de faux plafonds - Ecole élémentaire Camille Claudel - 17 rue d'Helsinki 72000 Le Mans",
+   "filename": "BOAMP-N-AO_2019_087011",
+   "famille": "FNS",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2019-03-28",
+   "datefindiffusion": "2019-04-23",
+   "datelimitereponse": "2019-04-23T16:00:00+00:00",
+   "nomacheteur": "Ville du Mans",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": "1",
+   "marche_public_simplifie_label": "Marché public simplifié",
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "105",
+    "269"
+   ],
+   "dc": [
+    "105",
+    "269"
+   ],
+   "descripteur_libelle": [
+    "Electricité (travaux)",
+    "Plâtrerie"
+   ],
+   "type_marche": [
+    "TRAVAUX"
+   ],
+   "type_marche_facette": [
+    "Travaux"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-49505\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-49505.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-28\", \"DATE_LIMITE_REPONSE\": \"2019-04-23T17:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2019-04-23\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"105\", \"LIBELLE\": \"Electricité (travaux)\"}, {\"CODE\": \"269\", \"LIBELLE\": \"Plâtrerie\"}]}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Réfection de l'éclairage et pose de faux plafonds - Ecole élémentaire Camille Claudel - 17 rue d'Helsinki 72000 Le Mans\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville du Mans\", \"CORRESPONDANT\": \"Le Maire\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, CS 40010 - 16 avenue François Mitterrand, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"LE MANS\", \"TEL\": \"02-43-47-47-47\", \"FAX\": \"02-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"COMMUNE\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"Réfection de l'éclairage et pose de faux plafonds - Ecole élémentaire Camille Claudel - 17 rue d'Helsinki 72000 Le Mans\", \"CPV\": [{\"PRINCIPAL\": \"45310000\"}, {\"PRINCIPAL\": \"45324000\"}], \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG04\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Les travaux décomposés en 2 lots feront l'objet d'un phasage prévisionnel comme suit :- phase 1 : été 2019- phase 2 : automne 2019- phase 3 : hiver 2020- phase 4 : printemps 2020- phase 2 : été 2020\", \"QUANTITE\": \"Réfection de l'éclairage et pose de faux plafonds - Ecole élémentaire Camille Claudel - 17 rue d'Helsinki 72000 Le Mans\", \"OPTIONS\": {\"OUI\": \"\", \"DESCRIPTION\": \"Des modifications, des contrats similaires, des contrats complémentaires pourront être conclus au cours de l'exécution du contrat dans le respect des dispositions du décret 2016-360 du 25 mars 2016 et du Code Général des Collectivités Territoriales\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"DESCRIPTION\": \"ELECTRICITE\", \"CPV\": {\"PRINCIPAL\": \"45310000\"}}, {\"NUM\": \"2\", \"DESCRIPTION\": \"FAUX PLAFONDS\", \"CPV\": {\"PRINCIPAL\": \"45324000\"}}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-04-23T17:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FORME_JURIDIQUE\": \"Forme non imposée. Mandataire solidaire\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": \"Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas d'interdiction de soumissionner..Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du contrat, réalisées au cours des trois derniers exercices disponibles..Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années..Liste des travaux exécutés au cours des cinq dernières années, appuyée d'attestations de bonne exécution pour les plus importants (montant, époque, lieu d'exécution, s'ils ont été effectués selon les règles de l'art et menés à bonne fin)\"}, \"ELIGIBLE_MPS\": {\"oui\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"2019_0038_TX_MA\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.sarthe-marchespublics.frLe DCE peut être téléchargé jusqu'au jour de la date et heure limite de remise des offres à l'adresse suivante http://www.sarthe-marchespublics.fr. Seules les offres électroniques sont admises ; tout autre mode de transmission conduirait à un rejet de l'offre. Les modalités de transmission électronique des plis sont définies dans le règlement de la consultation.Critères de sélection candidats 1 Aptitude à exercer l'activité professionnelle - 2 Capacités techniques et professionnelles - 3 Capacité économique et financièreLe pouvoir adjudicateur se réserve la possibilité d'attribuer les marchés sur la base des offres initiales sans négociation.Renseignements administratifs : Myriam Aveline au 02.43.47.45.77Renseignements techniques :Léopold Guittet au 02.43.47.47.78 ou Eric Bourge au 02.43.47.48.94\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso Cedex 1 BP 24209\", \"CP\": \"44042\", \"VILLE\": \"Nantes\", \"TEL\": \"02-53-46-79-83\", \"FAX\": \"02-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://pays-de-la-loire.direccte.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-49505"
   },
   {
    "idweb": "19-47717",
@@ -5399,6 +5399,68 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-50140"
   },
   {
+   "idweb": "19-47955",
+   "id": "19_47955",
+   "contractfolderid": null,
+   "objet": "quartier dervallieres-zola extension du groupe scolaire des chataigniers (lot 1 (vrd - aménagements extérieurs))",
+   "filename": "BOAMP-J-AO_2019_088009",
+   "famille": "JOUE",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2019-03-29",
+   "datefindiffusion": "2019-04-29",
+   "datelimitereponse": null,
+   "nomacheteur": "COMMUNE DE NANTES",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": [
+    "sociaux",
+    "environnementaux"
+   ],
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "366"
+   ],
+   "dc": [
+    "366"
+   ],
+   "descripteur_libelle": [
+    "Voirie et réseaux divers"
+   ],
+   "type_marche": [
+    "TRAVAUX"
+   ],
+   "type_marche_facette": [
+    "Travaux"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-47955\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-47955.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-29\", \"DATE_FIN_DIFFUSION\": \"2019-04-29\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"366\", \"LIBELLE\": \"Voirie et réseaux divers\"}}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\", \"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"quartier dervallieres-zola extension du groupe scolaire des chataigniers (lot 1 (vrd - aménagements extérieurs))\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"COMMUNE DE NANTES\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"2 rue de l'Hôtel de Ville\", \"CP\": \"44000\", \"VILLE\": \"Nantes Cedex 1\", \"MEL\": \"sarah.laigle@nantesmetropole.fr\", \"URL\": \"http://www.nantesmetropole.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.nantesmetropole.fr\", \"URL_PARTICIPATION\": \"https://marchespublics.nantesmetropole.fr\", \"URL_DOCUMENT\": \"https://marchespublics.nantesmetropole.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"QUARTIER Dervallieres-zola extension du groupe scolaire des chataigniers (Lot 1 (VRD  Aménagements extérieurs))\", \"REF_MARCHE\": \"2019-264\", \"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"Le présent marché de travaux a pour objet à titre principal des travaux dextension du groupe scolaire des Châtaigniers à Nantes dans le quartier Dervallières-Zola.A titre accessoire, ce marché comporte une prestation dinsertion professionnelle de publics en difficultés pour les lots 1,4, 6 à 8, 10 à 13, 15, et 18.Ce marché prend la forme dun marché alloti.Les prestations sont réparties en 20 lots, dont 15 lots faisant lobjet  d'un appel doffres ouvert.La présente consultation concerne uniquement le lot 1 (VRD  Aménagements extérieurs). Les autres lots feront lobjet dune consultation séparée. Chacun des lots fera lobjet dun marché séparé et leur répartition par tranche est indiquée au C.C.A.P. Néanmoins, un même soumissionnaire pourra se voir attribuer plusieurs lots. Les candidats pourront présenter une offre pour un ou plusieurs lots.\", \"CPV\": {\"PRINCIPAL\": \"45233000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": {\"NUM\": \"1\", \"INTITULE\": \"VRD  Aménagements extérieurs\", \"DESCRIPTION\": \"Le présent marché de travaux a pour objet à titre principal des travaux dextension du groupe scolaire des Châtaigniers à Nantes dans le quartier Dervallières-Zola.A titre accessoire, ce marché comporte une prestation dinsertion professionnelle de publics en difficultés pour les lots 1,4, 6 à 8, 10 à 13, 15, et 18.\", \"CPV\": [{\"PRINCIPAL\": \"45233000\"}, {\"PRINCIPAL\": \"32400000\"}], \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"26\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-04-29T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"5\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Aptitude à exercer l'activité professionnelle, capacité économique et financière, capacités techniques et professionnelles. Les renseignements concernant la situation juridique de lentreprise : Lettre de candidature (imprimé DC1) que la candidature soit présentée à titre individuel ou en groupement.\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"- Déclaration concernant le chiffre d'affaires global du candidat et, le cas échéant, le chiffre d'affaires du domaine d'activité faisant l'objet du marché public, portant au maximum sur les trois derniers exercices disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles (imprimé DC2)     - Preuve dune assurance pour les risques professionnels\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"- Déclaration indiquant les effectifs moyens annuels du candidat et limportance du personnel dencadrement pour chacune des trois dernières années (en annexe au DC2 si utilisation de ce document et tout document complémentaire)     - Description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation du marché public (en annexe au DC2 si utilisation de ce document et tout document complémentaire)    - Liste des travaux exécutés au cours des cinq dernières années, assortie d'attestations de bonne exécution pour les travaux les plus importants. Ces attestations indiquent le montant, la date et le lieu d'exécution des travaux et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin (en annexe au DC2 si utilisation de ce document et tout document complémentaire)\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-04-29\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_NON\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Les délais dexécution des travaux sont fixés à lacte dengagement et ne peuvent en aucun cas être modifiés.A titre indicatif, la phase 1 des travaux démarrera à lété 2019, pour une livraison de la restauration en août 2020. Suivra la phase 2 des travaux, pour une livraison en juillet 2021 de la maternelle, et de lélémentaire.. Date d'envoi du présent avis au JOUE et au BOAMP : 27 mars 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Département du B.A.T.I.\", \"CONTACT\": \"Lionel Fondain\", \"ADRESSE\": \"1, RUE CELESTIN FREINET\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"CODE_NUTS\": \"FRG01\", \"TEL\": \"(+33) 2-40-41-55-85\", \"MEL\": \"lionel.fondain@nantesmetropole.fr\", \"URL\": \"https://www.nantesmetropole.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-47955"
+  },
+  {
    "idweb": "19-50830",
    "id": "19_50830",
    "contractfolderid": null,
@@ -5524,68 +5586,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-51081\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-51081.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-29\", \"DATE_LIMITE_REPONSE\": \"2019-04-24T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2019-04-27\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"200\", \"LIBELLE\": \"Matériel agricole, horticole\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"Fourniture et livraison de 3 tondeuses autoportées sur les quartiers de L'Oie, Boulogne et Les Essarts - Commune d'Essarts en Bocage, incluant la reprise d'une tondeuse\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Essarts en Bocage\", \"CORRESPONDANT\": \"Mélanie BROCHARD\", \"ADRESSE\": \"51 rue Georges CléménceauBP 46\", \"CP\": \"85140\", \"VILLE\": \"Essarts en Bocage\", \"TEL\": \"(+33) 2-51-62-64-62\", \"MEL\": \"m.brochard@essartsenbocage.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-securises.fr\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"FOURNITURES\": {\"ACHAT\": \"\"}}, \"OBJET_COMPLET\": \"Fourniture et livraison de 3 tondeuses autoportées sur les quartiers de L'Oie, Boulogne et Les Essarts - Commune d'Essarts en Bocage, incluant la reprise d'une tondeuse\", \"CPV\": {\"PRINCIPAL\": \"16311100\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Commune d'Essarts en Bocage\", \"CP\": \"85140\", \"VILLE\": \"ESSARTS EN BOCAGE\"}, \"AMP_NON\": \"\", \"AVIS_CORRESPOND\": {\"AVIS_PERIODIQUE_INDICATIF\": \"\"}, \"AVIS_IMPLIQUE\": {\"MARCHE_PUBLIC\": \"\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Fourniture et livraison de 3 tondeuses autoportées sur les quartiers de L'Oie, Boulogne et Les Essarts - Commune d'Essarts en Bocage, incluant la reprise d'une tondeuse\", \"QUANTITE\": \"Fourniture et livraison de 3 tondeuses autoportées sur les quartiers de L'Oie, Boulogne et Les Essarts - Commune d'Essarts en Bocage, incluant la reprise d'une tondeuse\", \"VALEUR_MIN\": {\"@DEVISE\": \"EUR\", \"#text\": \"75000\"}, \"VALEUR_MAX\": {\"@DEVISE\": \"EUR\", \"#text\": \"95000\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"1\", \"DATE_EXECUTION\": \"2019-05-02\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"NB_CANDIDATS\": {\"NB_MAX_OFFRE\": \"3\", \"NB_MIN_OFFRE\": \"3\", \"LIMITATION_CANDIDATS\": \"Après examen des offres, le pouvoir adjudicateur engagera des négociations avec les 3 candidats sélectionnés. Toutefois, le pouvoir adjudicateur se réserve la possibilité d'attribuer le marché sur la base des offres initiales, sans négociation.Dans le cas d'une négociation, cette dernière se fera par échange de mail ou simple appel téléphonique et portera sur le coût global du service et sur les aspects techniques.\"}, \"ENCHERE_ELECTRONIQUE_OUI\": \"Dans le cas d'une négociation, cette dernière se fera par échange de mail ou simple appel téléphonique et portera sur le coût global du service et sur les aspects techniques.\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"50\", \"#text\": \"Prix des prestations\"}, {\"@POIDS\": \"20\", \"#text\": \"Délais de garanties\"}, {\"@POIDS\": \"30\", \"#text\": \"Valeur technique\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-04-24T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"CAUTIONNEMENT\": \"Aucune clause de garantie financière ne sera appliquée.\", \"FINANCEMENT\": \"Les modalités de règlement des comptes sont définies dans les conditions de l'article 11 du CCAG-FCS.\", \"FORME_JURIDIQUE\": \"Le pouvoir adjudicateur ne souhaite imposer aucune forme de groupement à l'attributaire du marché.\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"1. Prix des prestations: 50 %2. Délais de garanties: 20 %3. Valeur technique: 30 %\", \"SITUATION_JURIDIQUE\": \"Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas d'interdiction de soumissionner\", \"CAP_ECO\": \"-Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels-Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du contrat, réalisées au cours des trois derniers exercices disponibles\", \"CAP_TECH\": \"- Liste des principales prestations effectuées au cours des trois dernières années, indiquant le montant, la date et le destinataire. Elles sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration du candidat- Description de l'équipement technique, des mesures employées par l'opérateur économique pour s'assurer de la qualité et des moyens d'étude et de recherche de son entreprise\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire obligatoirement par le candidat, à l'appui de sa candidature\", \"Déclaration sur l'honneur du candidat justifiant qu'il n'entre dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles 45 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 ou, pour les marchés publics de défense ou de sécurité, qu'il n'entre dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles 45 ,46 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 (si cette déclaration n'est pas déjà demandée dans le cadre du formulaire DC1, ci-après)\", \"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels\", \"Présentation d'une liste des principales fournitures ou des principaux services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Les livraisons et les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique\", \"Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation de marchés de même nature\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Les pièces prévues aux articles D. 8222-5 ou D. 8222-7 et D. 8222-8 du code du travail\", \"Si l'attributaire est établi en France, les attestations et certificats délivrés par les administrations et organismes compétents prouvant qu'il a satisfait à ses obligations fiscales et sociales ou un état annuel des certificats reçus\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"EEB1911MP\", \"ETUDES_CONCOURS\": \"fourniture et la livraison de 3 tondeuses autoportées sur les quartiers de L'Oie, Boulogne et Les Essarts - Commune d'Essarts en Bocage, incluant la reprise d'une tondeuse\", \"DOCUMENT_PAYANT_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"ADMIN_TECH\": \"\"}, \"DENOMINATION\": \"Commune d'Essarts en Bocage\", \"ADRESSE\": \"51 rue Georges Clémenceau Les Essarts\", \"CP\": \"85140\", \"VILLE\": \"Essarts en Bocage\", \"TEL\": \"(+33) 2-51-62-83-26\", \"MEL\": \"mairie-essarts@essartsenbocage.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette CS 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette CS 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-51081"
-  },
-  {
-   "idweb": "19-47955",
-   "id": "19_47955",
-   "contractfolderid": null,
-   "objet": "quartier dervallieres-zola extension du groupe scolaire des chataigniers (lot 1 (vrd - aménagements extérieurs))",
-   "filename": "BOAMP-J-AO_2019_088009",
-   "famille": "JOUE",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2019-03-29",
-   "datefindiffusion": "2019-04-29",
-   "datelimitereponse": null,
-   "nomacheteur": "COMMUNE DE NANTES",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": [
-    "sociaux",
-    "environnementaux"
-   ],
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "366"
-   ],
-   "dc": [
-    "366"
-   ],
-   "descripteur_libelle": [
-    "Voirie et réseaux divers"
-   ],
-   "type_marche": [
-    "TRAVAUX"
-   ],
-   "type_marche_facette": [
-    "Travaux"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"19-47955\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"19-47955.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2019-03-29\", \"DATE_FIN_DIFFUSION\": \"2019-04-29\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"366\", \"LIBELLE\": \"Voirie et réseaux divers\"}}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\", \"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"quartier dervallieres-zola extension du groupe scolaire des chataigniers (lot 1 (vrd - aménagements extérieurs))\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"COMMUNE DE NANTES\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"2 rue de l'Hôtel de Ville\", \"CP\": \"44000\", \"VILLE\": \"Nantes Cedex 1\", \"MEL\": \"sarah.laigle@nantesmetropole.fr\", \"URL\": \"http://www.nantesmetropole.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.nantesmetropole.fr\", \"URL_PARTICIPATION\": \"https://marchespublics.nantesmetropole.fr\", \"URL_DOCUMENT\": \"https://marchespublics.nantesmetropole.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"QUARTIER Dervallieres-zola extension du groupe scolaire des chataigniers (Lot 1 (VRD  Aménagements extérieurs))\", \"REF_MARCHE\": \"2019-264\", \"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"Le présent marché de travaux a pour objet à titre principal des travaux dextension du groupe scolaire des Châtaigniers à Nantes dans le quartier Dervallières-Zola.A titre accessoire, ce marché comporte une prestation dinsertion professionnelle de publics en difficultés pour les lots 1,4, 6 à 8, 10 à 13, 15, et 18.Ce marché prend la forme dun marché alloti.Les prestations sont réparties en 20 lots, dont 15 lots faisant lobjet  d'un appel doffres ouvert.La présente consultation concerne uniquement le lot 1 (VRD  Aménagements extérieurs). Les autres lots feront lobjet dune consultation séparée. Chacun des lots fera lobjet dun marché séparé et leur répartition par tranche est indiquée au C.C.A.P. Néanmoins, un même soumissionnaire pourra se voir attribuer plusieurs lots. Les candidats pourront présenter une offre pour un ou plusieurs lots.\", \"CPV\": {\"PRINCIPAL\": \"45233000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": {\"NUM\": \"1\", \"INTITULE\": \"VRD  Aménagements extérieurs\", \"DESCRIPTION\": \"Le présent marché de travaux a pour objet à titre principal des travaux dextension du groupe scolaire des Châtaigniers à Nantes dans le quartier Dervallières-Zola.A titre accessoire, ce marché comporte une prestation dinsertion professionnelle de publics en difficultés pour les lots 1,4, 6 à 8, 10 à 13, 15, et 18.\", \"CPV\": [{\"PRINCIPAL\": \"45233000\"}, {\"PRINCIPAL\": \"32400000\"}], \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"26\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2019-04-29T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"5\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Aptitude à exercer l'activité professionnelle, capacité économique et financière, capacités techniques et professionnelles. Les renseignements concernant la situation juridique de lentreprise : Lettre de candidature (imprimé DC1) que la candidature soit présentée à titre individuel ou en groupement.\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"- Déclaration concernant le chiffre d'affaires global du candidat et, le cas échéant, le chiffre d'affaires du domaine d'activité faisant l'objet du marché public, portant au maximum sur les trois derniers exercices disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles (imprimé DC2)     - Preuve dune assurance pour les risques professionnels\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"- Déclaration indiquant les effectifs moyens annuels du candidat et limportance du personnel dencadrement pour chacune des trois dernières années (en annexe au DC2 si utilisation de ce document et tout document complémentaire)     - Description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation du marché public (en annexe au DC2 si utilisation de ce document et tout document complémentaire)    - Liste des travaux exécutés au cours des cinq dernières années, assortie d'attestations de bonne exécution pour les travaux les plus importants. Ces attestations indiquent le montant, la date et le lieu d'exécution des travaux et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin (en annexe au DC2 si utilisation de ce document et tout document complémentaire)\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2019-04-29\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_NON\": \"\", \"FACTURATION_ELECTRONIQUE_NON\": \"\", \"PAIEMENT_ELECTRONIQUE_NON\": \"\", \"RENS_COMPLEMENT\": \"Les délais dexécution des travaux sont fixés à lacte dengagement et ne peuvent en aucun cas être modifiés.A titre indicatif, la phase 1 des travaux démarrera à lété 2019, pour une livraison de la restauration en août 2020. Suivra la phase 2 des travaux, pour une livraison en juillet 2021 de la maternelle, et de lélémentaire.. Date d'envoi du présent avis au JOUE et au BOAMP : 27 mars 2019.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Département du B.A.T.I.\", \"CONTACT\": \"Lionel Fondain\", \"ADRESSE\": \"1, RUE CELESTIN FREINET\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"CODE_NUTS\": \"FRG01\", \"TEL\": \"(+33) 2-40-41-55-85\", \"MEL\": \"lionel.fondain@nantesmetropole.fr\", \"URL\": \"https://www.nantesmetropole.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"TEL\": \"(+33) 2-40-99-46-00\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:19-47955"
   },
   {
    "idweb": "19-47028",

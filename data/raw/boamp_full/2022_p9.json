@@ -959,6 +959,67 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-44510"
   },
   {
+   "idweb": "22-44434",
+   "id": "22_44434",
+   "contractfolderid": null,
+   "objet": "2022-03-Gardiennage",
+   "filename": "BOAMP-N-AO_2022_084011",
+   "famille": "FNS",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2022-03-25",
+   "datefindiffusion": "2022-04-22",
+   "datelimitereponse": null,
+   "nomacheteur": "ENSA Nantes",
+   "titulaire": null,
+   "perimetre": "FNSimple",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": [
+    "sociaux"
+   ],
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "138"
+   ],
+   "dc": [
+    "138"
+   ],
+   "descripteur_libelle": [
+    "Gardiennage"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v240.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"22-44434\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"22-44434.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2022-03-25\", \"DATE_FIN_DIFFUSION\": \"2022-04-22\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"138\", \"LIBELLE\": \"Gardiennage\"}}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\"}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"2022-03-Gardiennage\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"ENSA Nantes\", \"TYPE_IDENT_NATIONAL\": {\"SIRET\": \"\"}, \"CODE_IDENT_NATIONAL\": \"19440104800021\", \"CONTACT\": \"Service Financier\", \"CP\": \"44300\", \"VILLE\": \"NANTES CEDEX 2\", \"MEL\": \"finances@nantes.archi\", \"URL_DOCUMENT\": \"https://www.marches-publics.gouv.fr/?page=Entreprise.EntrepriseAdvancedSearch&AllCons&id=1999410&orgAcronyme=f5j\", \"INTEGRALITE_DOC_OUI\": \"\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"OBJET\": {\"TITRE_MARCHE\": \"2022-03-Gardiennage\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Accord-cadre à bons de commande mono-attributaires en 2 lots distincts / Durée : LOT 1, 1 an à compter du 1er septembre 2022, reconductible tacitement 3 fois sauf dénonciation expresse par LRAR 2 mois avant la fin de la période en cours - LOT 2 : 1 an à compter du 1er octobre 2022, reconductible tacitement 3 fois sauf dénonciation expresse par LRAR 2 mois avant la fin de la période en cours\", \"CPV\": {\"PRINCIPAL\": \"79710000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"ENSA Nantes\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"354000\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"48\"}, \"TRANCHE_NON\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"DESCRIPTION\": \"LOT 1 : Prestations de gardiennage, surveillance et sécurité incendie. Comprenant : une prestation principale de gardiennage, surveillance et sécurité incendie récurrents, des prestations accessoires de gardiennage ponctuel programmé, des prestations accessoires de gardiennage ponctuel d'urgence.\", \"LIEU_PRINCIPAL\": \"ENSA Nantes : Bâtiment principal et Bâtiment Loire\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"350000\"}}, {\"DESCRIPTION\": \"LOT 2 : Prestations de télésurveillanceComprenant : une prestation principale de télésurveillance pour lequel un bon de commande forfaitaire annuel sera émis, et des prestations accessoires pour lesquelles un bon de commande sera émis au vu des besoins.\", \"LIEU_PRINCIPAL\": \"ENSA Nantes : Bâtiment principal et Bâtiment Loire\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"4000\"}}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"TECH_ACHAT\": {\"SANS_OBJET\": \"\"}, \"ATTRIB_SANS_NEG_OUI\": \"\", \"VARIANTES_NON\": \"\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_AUTORISEE\": \"\"}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Lettre de candidature\", \"CAP_ECO\": \"Déclaration du candidat individuel ou du membre du groupement\", \"CAP_TECH\": \"Cf Article 4.1 du règlement de la consultation\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"VISITE_OUI\": \"Le 06/04/2022 à partir de 10h00 POUR LE LOT 1 / FACULTATIVE POUR LE LOT 2 / Lieu : Accueil, 6 quai François Mitterrand, 44200 Nantes / Attestation remise à l'issue de la visite : à joindre à la candidature lors de la remise des / Contact : alexis.paszkowski@nantes.archi\", \"RENS_COMPLEMENT\": \"Procédure adaptée en vertu de l'article R2123-1 3° CCP // Pour le LOT 1 : cadre de réponse - Pour le LOT 2 : mémoire technique libre / Critères d'attribution : Offre économiquement la plus avantageuse appréciée en fonction des critères énoncés dans le règlement de la consultation // Date limite des questions : 08/04/2022 - 12H00 uniquement via la plateforme des achats de l'Etat - Contact administratif : finances@nantes.archi // Budget ENSA NANTES / Modalités de paiement : mandat administratif sous 30 jours / Modalités de facturation : le titulaire transmet sa facture électronique via la plateforme Chorus Pro // Les recours doivent être adressés à : Tribunal administratif de Nantes, 6 allée de l'Île Gloriette, CS24111, F - 44041 NANTES cedex 01, Tél : +33255101002, courriel : Greffe.ta-nantes@juradm.fr, Adresse internet : http://Nantes.tribunal-administratif.fr\"}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-44434"
+  },
+  {
    "idweb": "22-42908",
    "id": "22_42908",
    "contractfolderid": null,
@@ -1079,67 +1140,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"22-39758\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"22-39758.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2022-03-25\", \"DATE_FIN_DIFFUSION\": \"2022-06-22\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}}, \"CRITERES_SOCIAUX_ENV\": {\"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Fournitures de chèques d'accompagnement personnalisé et de cartes prépayées\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Département de Maine-et-Loire\", \"CODE_IDENT_NATIONAL\": \"22490001900015\", \"CONTACT\": \"Service de la Commande publique et des assurances\", \"ADJUDICATEUR_NUTS\": \"FRG02\", \"ADRESSE\": \"Hôtel du Département DIFAJE 48 BIS bd Foch CS 94104\", \"CP\": \"49941\", \"VILLE\": \"ANGERS\", \"TEL\": \"(+33) 1-02-81-41-17\", \"MEL\": \"commande-publique@maine-et-loire.fr\", \"URL\": \"https://www.maine-et-loire.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.anjoumarchespublics.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Fournitures de chèques daccompagnement personnalisé et de cartes prépayées\", \"REF_MARCHE\": \"FCS/2021/69\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Marché à procédure adaptée en application des articles L.2123-1-2° et R.2123-1-3° du code de la commande publique *Accord-cadre à bons de commande conclu avec un seul opérateur économique *Accord-cadre passé pour une période d'un an à compter du 16 avril 2022 et reconductible tacitement 3 fois par période annuelle\", \"CPV\": {\"PRINCIPAL\": \"66133000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"2800000\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Toutes les prestations indiquées au CCTP et notamment : *Fourniture et livraison de titres (CAP et cartes prépayées) *Gestion et développement du réseau de commerçants affiliés *Accompagnement et communication des usagers et agents de la collectivité\", \"CPV\": {\"PRINCIPAL\": \"66133000\"}, \"CODE_NUTS\": \"FRG02\", \"LIEU_PRINCIPAL\": \"Maine-et-Loire\", \"FONDS_COMMUNAUTAIRES_NON\": \"\", \"INFO_COMPL\": \"*Pas de minimum, mais un maximum annuel de 700 000 euros (valeur des titres) *Marché reconductible 3 fois 1 an tacitement\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2021\", \"NUM_PARUTION\": \"251\", \"NUM_ANNONCE\": \"668377\", \"DATE_PUBLICATION\": \"2021-12-27\"}}}, \"ATTRIBUTION\": {\"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"2021/189\", \"INTITULE\": \"Fournitures de chèques daccompagnement personnalisé et de cartes prépayées\", \"TITULAIRE\": {\"DENOMINATION\": \"UP\", \"CP\": \"92230\", \"VILLE\": \"GENNEVILLIERS\", \"CODE_NUTS\": \"FR10\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2022-03-17\", \"NB_OFFRE_RECU\": \"1\", \"NB_OFFRE_RECU_PME\": \"0\", \"NB_OFFRE_RECU_ELECT\": \"1\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"2800000\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"FIN_ATTRIBUTION_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Le montant de 2 800 000 euro correspond au montant maximum sur la totalité du marché et représente la valeur des titres.. Date d'envoi du présent avis au JOUE et au BOAMP : 23 mars 2022.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif\", \"ADRESSE\": \"6 allée de l'Ile-Gloriette - CS 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 01\", \"TEL\": \"(+33) 2-55-10-10-02\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Greffe du Tribunal administratif\", \"ADRESSE\": \"6 allée de l'île Gloriette - CS 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 01\", \"TEL\": \"(+33) 2-55-10-10-02\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-39758"
-  },
-  {
-   "idweb": "22-44434",
-   "id": "22_44434",
-   "contractfolderid": null,
-   "objet": "2022-03-Gardiennage",
-   "filename": "BOAMP-N-AO_2022_084011",
-   "famille": "FNS",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2022-03-25",
-   "datefindiffusion": "2022-04-22",
-   "datelimitereponse": null,
-   "nomacheteur": "ENSA Nantes",
-   "titulaire": null,
-   "perimetre": "FNSimple",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": [
-    "sociaux"
-   ],
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "138"
-   ],
-   "dc": [
-    "138"
-   ],
-   "descripteur_libelle": [
-    "Gardiennage"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v240.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"22-44434\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"22-44434.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2022-03-25\", \"DATE_FIN_DIFFUSION\": \"2022-04-22\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"138\", \"LIBELLE\": \"Gardiennage\"}}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\"}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"2022-03-Gardiennage\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"ENSA Nantes\", \"TYPE_IDENT_NATIONAL\": {\"SIRET\": \"\"}, \"CODE_IDENT_NATIONAL\": \"19440104800021\", \"CONTACT\": \"Service Financier\", \"CP\": \"44300\", \"VILLE\": \"NANTES CEDEX 2\", \"MEL\": \"finances@nantes.archi\", \"URL_DOCUMENT\": \"https://www.marches-publics.gouv.fr/?page=Entreprise.EntrepriseAdvancedSearch&AllCons&id=1999410&orgAcronyme=f5j\", \"INTEGRALITE_DOC_OUI\": \"\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"OBJET\": {\"TITRE_MARCHE\": \"2022-03-Gardiennage\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Accord-cadre à bons de commande mono-attributaires en 2 lots distincts / Durée : LOT 1, 1 an à compter du 1er septembre 2022, reconductible tacitement 3 fois sauf dénonciation expresse par LRAR 2 mois avant la fin de la période en cours - LOT 2 : 1 an à compter du 1er octobre 2022, reconductible tacitement 3 fois sauf dénonciation expresse par LRAR 2 mois avant la fin de la période en cours\", \"CPV\": {\"PRINCIPAL\": \"79710000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"ENSA Nantes\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"354000\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"48\"}, \"TRANCHE_NON\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"DESCRIPTION\": \"LOT 1 : Prestations de gardiennage, surveillance et sécurité incendie. Comprenant : une prestation principale de gardiennage, surveillance et sécurité incendie récurrents, des prestations accessoires de gardiennage ponctuel programmé, des prestations accessoires de gardiennage ponctuel d'urgence.\", \"LIEU_PRINCIPAL\": \"ENSA Nantes : Bâtiment principal et Bâtiment Loire\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"350000\"}}, {\"DESCRIPTION\": \"LOT 2 : Prestations de télésurveillanceComprenant : une prestation principale de télésurveillance pour lequel un bon de commande forfaitaire annuel sera émis, et des prestations accessoires pour lesquelles un bon de commande sera émis au vu des besoins.\", \"LIEU_PRINCIPAL\": \"ENSA Nantes : Bâtiment principal et Bâtiment Loire\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"4000\"}}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"TECH_ACHAT\": {\"SANS_OBJET\": \"\"}, \"ATTRIB_SANS_NEG_OUI\": \"\", \"VARIANTES_NON\": \"\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_AUTORISEE\": \"\"}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Lettre de candidature\", \"CAP_ECO\": \"Déclaration du candidat individuel ou du membre du groupement\", \"CAP_TECH\": \"Cf Article 4.1 du règlement de la consultation\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"VISITE_OUI\": \"Le 06/04/2022 à partir de 10h00 POUR LE LOT 1 / FACULTATIVE POUR LE LOT 2 / Lieu : Accueil, 6 quai François Mitterrand, 44200 Nantes / Attestation remise à l'issue de la visite : à joindre à la candidature lors de la remise des / Contact : alexis.paszkowski@nantes.archi\", \"RENS_COMPLEMENT\": \"Procédure adaptée en vertu de l'article R2123-1 3° CCP // Pour le LOT 1 : cadre de réponse - Pour le LOT 2 : mémoire technique libre / Critères d'attribution : Offre économiquement la plus avantageuse appréciée en fonction des critères énoncés dans le règlement de la consultation // Date limite des questions : 08/04/2022 - 12H00 uniquement via la plateforme des achats de l'Etat - Contact administratif : finances@nantes.archi // Budget ENSA NANTES / Modalités de paiement : mandat administratif sous 30 jours / Modalités de facturation : le titulaire transmet sa facture électronique via la plateforme Chorus Pro // Les recours doivent être adressés à : Tribunal administratif de Nantes, 6 allée de l'Île Gloriette, CS24111, F - 44041 NANTES cedex 01, Tél : +33255101002, courriel : Greffe.ta-nantes@juradm.fr, Adresse internet : http://Nantes.tribunal-administratif.fr\"}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-44434"
   },
   {
    "idweb": "22-44382",
@@ -3699,65 +3699,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-45258"
   },
   {
-   "idweb": "22-45097",
-   "id": "22_45097",
-   "contractfolderid": null,
-   "objet": "Passation d'un marché d'assurances 'risques statutaires' pour les besoins de la ville, du Ccas de Coulaines et du Sivos de l'école Molière",
-   "filename": "BOAMP-J-AO_2022_089008",
-   "famille": "JOUE",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2022-03-30",
-   "datefindiffusion": "2022-05-02",
-   "datelimitereponse": null,
-   "nomacheteur": "ville de Coulaines",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "20"
-   ],
-   "dc": [
-    "20"
-   ],
-   "descripteur_libelle": [
-    "Assurance"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v240.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"22-45097\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"22-45097.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2022-03-30\", \"DATE_FIN_DIFFUSION\": \"2022-05-02\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"20\", \"LIBELLE\": \"Assurance\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Passation d'un marché d'assurances 'risques statutaires' pour les besoins de la ville, du Ccas de Coulaines et du Sivos de l'école Molière\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"ville de Coulaines\", \"CODE_IDENT_NATIONAL\": \"21720095500011\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"Square Weyhe, Bp 60077\", \"CP\": \"72190\", \"VILLE\": \"Coulaines\", \"TEL\": \"(+33) 2-43-74-35-15\", \"MEL\": \"laetitia.bignon@coulaines.fr\", \"URL\": \"http://www.coulaines.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.info/\", \"URL_PARTICIPATION\": \"http://www.marches-publics.info/\", \"URL_DOCUMENT\": \"http://www.marches-publics.info/\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Passation d'un marché d'assurances 'risques statutaires' pour les besoins de la ville, du Ccas de Coulaines et du Sivos de l'école Molière\", \"REF_MARCHE\": \"22fs-0045-B\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Passation d'un marché d'assurances 'risques statutaires' pour les besoins de la ville, du Ccas de Coulaines et du Sivos de l'école Molière dans le cadre d'un groupement de commande dont la ville est coordonnateur\", \"CPV\": {\"PRINCIPAL\": \"66512000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Passation d'un marché d'assurances 'risques statutaires' pour les besoins de la ville, du Ccas de Coulaines et du Sivos de l'école Molière dans le cadre d'un groupement de commande dont la ville est coordonnateur\", \"CPV\": {\"PRINCIPAL\": \"66512000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"20\", \"#text\": \"Importance des réserves\"}, {\"@POIDS\": \"15\", \"#text\": \"Gestion\"}, {\"@POIDS\": \"5\", \"#text\": \"Respect des préavis\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"60\"}}, \"DATE_DEBUT\": \"2022-07-01\", \"DATE_FIN\": \"2026-12-31\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2022-05-02T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_OUI\": \"La présente consultation est réservée aux organismes portant et provisionnant les risques objet du marché auquel ils postulent et pour lesquels ils disposent d'un agrément de l'autorité de contrôle nationale dont ils dépendent. Les intermédiaires habilités à présenter des opérations d'assurance (attestation Orias à fournir - sauf si prestataire de service non soumis à Orias) peuvent également candidater en complément de ces organismes\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2022-05-02\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.marches-publics.info -. Date d'envoi du présent avis au JOUE et au BOAMP : 28 mars 2022.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-45097"
-  },
-  {
    "idweb": "22-46636",
    "id": "22_46636",
    "contractfolderid": null,
@@ -3820,6 +3761,124 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-46636"
   },
   {
+   "idweb": "22-45097",
+   "id": "22_45097",
+   "contractfolderid": null,
+   "objet": "Passation d'un marché d'assurances 'risques statutaires' pour les besoins de la ville, du Ccas de Coulaines et du Sivos de l'école Molière",
+   "filename": "BOAMP-J-AO_2022_089008",
+   "famille": "JOUE",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2022-03-30",
+   "datefindiffusion": "2022-05-02",
+   "datelimitereponse": null,
+   "nomacheteur": "ville de Coulaines",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "20"
+   ],
+   "dc": [
+    "20"
+   ],
+   "descripteur_libelle": [
+    "Assurance"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v240.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"22-45097\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"22-45097.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2022-03-30\", \"DATE_FIN_DIFFUSION\": \"2022-05-02\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"20\", \"LIBELLE\": \"Assurance\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Passation d'un marché d'assurances 'risques statutaires' pour les besoins de la ville, du Ccas de Coulaines et du Sivos de l'école Molière\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"ville de Coulaines\", \"CODE_IDENT_NATIONAL\": \"21720095500011\", \"ADJUDICATEUR_NUTS\": \"FRG04\", \"ADRESSE\": \"Square Weyhe, Bp 60077\", \"CP\": \"72190\", \"VILLE\": \"Coulaines\", \"TEL\": \"(+33) 2-43-74-35-15\", \"MEL\": \"laetitia.bignon@coulaines.fr\", \"URL\": \"http://www.coulaines.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-publics.info/\", \"URL_PARTICIPATION\": \"http://www.marches-publics.info/\", \"URL_DOCUMENT\": \"http://www.marches-publics.info/\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Passation d'un marché d'assurances 'risques statutaires' pour les besoins de la ville, du Ccas de Coulaines et du Sivos de l'école Molière\", \"REF_MARCHE\": \"22fs-0045-B\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Passation d'un marché d'assurances 'risques statutaires' pour les besoins de la ville, du Ccas de Coulaines et du Sivos de l'école Molière dans le cadre d'un groupement de commande dont la ville est coordonnateur\", \"CPV\": {\"PRINCIPAL\": \"66512000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Passation d'un marché d'assurances 'risques statutaires' pour les besoins de la ville, du Ccas de Coulaines et du Sivos de l'école Molière dans le cadre d'un groupement de commande dont la ville est coordonnateur\", \"CPV\": {\"PRINCIPAL\": \"66512000\"}, \"CODE_NUTS\": \"FRG04\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"20\", \"#text\": \"Importance des réserves\"}, {\"@POIDS\": \"15\", \"#text\": \"Gestion\"}, {\"@POIDS\": \"5\", \"#text\": \"Respect des préavis\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"60\"}}, \"DATE_DEBUT\": \"2022-07-01\", \"DATE_FIN\": \"2026-12-31\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}, \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2022-05-02T12:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_OUI\": \"La présente consultation est réservée aux organismes portant et provisionnant les risques objet du marché auquel ils postulent et pour lesquels ils disposent d'un agrément de l'autorité de contrôle nationale dont ils dépendent. Les intermédiaires habilités à présenter des opérations d'assurance (attestation Orias à fournir - sauf si prestataire de service non soumis à Orias) peuvent également candidater en complément de ces organismes\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2022-05-02\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.marches-publics.info -. Date d'envoi du présent avis au JOUE et au BOAMP : 28 mars 2022.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-45097"
+  },
+  {
+   "idweb": "22-46379",
+   "id": "22_46379",
+   "contractfolderid": null,
+   "objet": "TRAVAUX de V.R.D. pour les établissements du GHT 72",
+   "filename": "BOAMP-N-AO_2022_089010",
+   "famille": "FNS",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2022-03-30",
+   "datefindiffusion": "2022-05-25",
+   "datelimitereponse": null,
+   "nomacheteur": "CH LE MANS",
+   "titulaire": null,
+   "perimetre": "FNSimple",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "365"
+   ],
+   "dc": [
+    "365"
+   ],
+   "descripteur_libelle": [
+    "Voirie"
+   ],
+   "type_marche": [
+    "TRAVAUX"
+   ],
+   "type_marche_facette": [
+    "Travaux"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v240.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"22-46379\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"22-46379.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2022-03-30\", \"DATE_FIN_DIFFUSION\": \"2022-05-25\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"365\", \"LIBELLE\": \"Voirie\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"TRAVAUX de V.R.D. pour les établissements du GHT 72\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CH LE MANS\", \"TYPE_IDENT_NATIONAL\": {\"SIRET\": \"\"}, \"CODE_IDENT_NATIONAL\": \"26720016000013\", \"CONTACT\": \"Cellule des marchés du GHT 72\", \"CP\": \"72037\", \"VILLE\": \"Le Mans cedex 9\", \"TEL\": \"(+33) 2-55-46-50-42\", \"MEL\": \"celluledesmarches@ch-lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-publics.gouv.fr\", \"INTEGRALITE_DOC_OUI\": \"\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"OBJET\": {\"TITRE_MARCHE\": \"TRAVAUX de V.R.D. pour les établissements du GHT 72\", \"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"TRAVAUX de V.R.D. pour les établissements du GHT 72\", \"CPV\": {\"PRINCIPAL\": \"45000000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Etablissements parties du GHT 72\"}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"48\"}, \"TRANCHE_NON\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"DESCRIPTION\": \"LOT 1 pour : Centre Hospitalier du Mans - Etablissement Public de Santé Mentale de la Sarthe - Pôle Hospitalier Gérontologique Nord Sarthe - Centre Hospitalier de Château du Loir - Centre Hospitalier du Lude\", \"LIEU_PRINCIPAL\": \"Etablissements du GHT 72\"}, {\"DESCRIPTION\": \"Lot 2 pour : Centre Hospitalier de la Ferté-Bernard - Centre Hospitalier de Saint-Calais - EHPAD de Bessé-sur-Braye\", \"LIEU_PRINCIPAL\": \"Etablissements du GHT 72\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"TECH_ACHAT\": {\"ACCORD_CADRE\": \"\"}, \"ATTRIB_SANS_NEG_OUI\": \"\", \"VARIANTES_NON\": \"\", \"CATEGORIE_ACHETEUR\": \"Etablissements parties du GHT 72\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_LIBRE\": \"Critère 1 - Prix 70%Sous-critère 1.1 - résultat du prix proratisé (simulation en pourcentage) 50%Sous-critère 1.2 - Total des prix remis sur le bordereau de prix 20 %Critère 2 - Qualités de l'organisation de l'entreprise décrite dans le mémoire technique 30%Sous-critère 2.1 - Organisation interne de l'entreprise, pour la réalisation des études, mise au point technique avec la fourniture du dossier technique, plans d'exécution avec prise en compte des limites de prestation des autres corps d'état, préparation du chantier, intégration des délais d'approvisionnement 10%Sous-critère 2.2 - Organisation interne de l'entreprise pour réaliser les travaux, moyens humains, intégration de la sécurité, le maintien des organisations de l'hôpital et ses contraintes par rapport à l'hygiène 10%Sous-critère 2.3 - Organisation pour permettre une intervention programmée de nuit ou notamment lors des périodes de vacances scolaires y compris Noël, le week-end. Organisation pour pouvoir intervenir dans des délais très courts, dans la journée 5%Sous-critère 2.4 - Développement de la formation pour améliorer la qualité, la technique et la sécurité du chantier en lien avec l'objet du marché 5%\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_NON\": \"\"}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"Critère 1 - Prix 70%Sous-critère 1.1 - résultat du prix proratisé (simulation en pourcentage) 50%Sous-critère 1.2 - Total des prix remis sur le bordereau de prix 20 %Critère 2 - Qualités de l'organisation de l'entreprise décrite dans le mémoire technique 30%Sous-critère 2.1 - Organisation interne de l'entreprise, pour la réalisation des études, mise au point technique avec la fourniture du dossier technique, plans d'exécution avec prise en compte des limites de prestation des autres corps d'état, préparation du chantier, intégration des délais d'approvisionnement 10%Sous-critère 2.2 - Organisation interne de l'entreprise pour réaliser les travaux, moyens humains, intégration de la sécurité, le maintien des organisations de l'hôpital et ses contraintes par rapport à l'hygiène 10%Sous-critère 2.3 - Organisation pour permettre une intervention programmée de nuit ou notamment lors des périodes de vacances scolaires y compris Noël, le week-end. Organisation pour pouvoir intervenir dans des délais très courts, dans la journée 5%Sous-critère 2.4 - Développement de la formation pour améliorer la qualité, la technique et la sécurité du chantier en lien avec l'objet du marché 5%\", \"SITUATION_JURIDIQUE\": \"Voir indications complètes dans le Règlement de consultation\", \"CAP_ECO\": \"Voir indications complètes dans le Règlement de consultation\", \"CAP_TECH\": \"Voir indications complètes dans le Règlement de consultation\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"VISITE_NON\": \"\", \"RENS_COMPLEMENT\": \"Le marché prend effet pour une période initiale de deux ans, à compter du 09 août 2022, ou à sa date de notification si celle-ci est postérieure à cette date, et jusqu'au 08 août 2024.Il pourra être reconduit par période successive d'un an pour une durée maximale de reconduction de 2 ans.Le pouvoir adjudicateur, dans un souci de promotion de l'emploi et de lutte contre l'exclusion, a décidé de faire application des dispositions de l'article L2112-2 de l'ordonnance no 2018-1074 du 26 novembre 2018 et son décret no 2018-1075 du 3 décembre 2018 relative aux marchés publics en incluant dans le cahier des charges de ce marché une clause obligatoire d'insertion par l'activité économique.\"}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-46379"
+  },
+  {
    "idweb": "22-45067",
    "id": "22_45067",
    "contractfolderid": null,
@@ -3880,65 +3939,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"22-45067\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"22-45067.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2022-03-30\", \"DATE_FIN_DIFFUSION\": \"2022-05-02\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"239\", \"LIBELLE\": \"Nettoyage de locaux\"}}, \"CRITERES_SOCIAUX_ENV\": {\"SOCIAUX\": \"\", \"ENVIRONNEMENTAUX\": \"\"}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"PRESTATIONS DE NETTOYAGE DES LOCAUX ET DE LA VITRERIE DE LA CCI DE MAINE ET LOIRE\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CCI de Maine et Loire\", \"ADJUDICATEUR_NUTS\": \"FRG\", \"ADRESSE\": \"8 BD DU ROI RENE\", \"CP\": \"49006\", \"VILLE\": \"Angers\", \"TEL\": \"(+33) 2-41-20-49-00\", \"FAX\": \"(+33) 2-41-20-54-14\", \"MEL\": \"marches-publics@maineetloire.cci.fr\", \"URL\": \"http://www.maineetloire.cci.fr\", \"URL_PARTICIPATION\": \"https://www.marches-publics.gouv.fr/?page=Entreprise.EntrepriseAdvancedSearch&AllCons&id=2006015&orgAcronyme=l2m\", \"URL_DOCUMENT\": \"https://www.marches-publics.gouv.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AFF_ECO_FIN\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"PRESTATIONS DE NETTOYAGE DES LOCAUX ET DE LA VITRERIE DE LA CCI DE MAINE ET LOIRE\", \"REF_MARCHE\": \"2022RTPF2024\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Le présent marché a pour objet de définir les conditions d'exécution pour l'entretien et le nettoyage des locaux et de la vitrerie de la CCI de Maine et Loire, sur les sites d'Angers, Cholet et Saumur.\", \"CPV\": {\"PRINCIPAL\": \"90910000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Nettoyage des locaux et vitrerie Sites ANGERS\", \"DESCRIPTION\": \"Nettoyage des locaux et vitrerie Sites ANGERS\", \"CPV\": {\"PRINCIPAL\": \"90910000\"}, \"CODE_NUTS\": \"FRG\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Pse 1 fourniture de consommable d'hygiène\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Nettoyage des locaux et vitrerie Sites CHOLET\", \"DESCRIPTION\": \"Nettoyage des locaux et vitrerie Sites CHOLET\", \"CPV\": {\"PRINCIPAL\": \"90910000\"}, \"CODE_NUTS\": \"FRG\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Pse 1 fourniture de consommable d'hygiène\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Nettoyage des locaux et vitrerie Site SAUMUR\", \"DESCRIPTION\": \"Nettoyage des locaux et vitrerie Site SAUMUR\", \"CPV\": {\"PRINCIPAL\": \"90910000\"}, \"CODE_NUTS\": \"FRG0\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_OUI\": \"\", \"OPTIONS_DESCRIPTION\": \"Pse 1 fourniture de consommable d'hygiène\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"2026\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2022-05-02T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"6\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CAP_ECO_MARCHE_OUI\": \"\", \"CAP_TECH_OFFRE_OUI\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2022-05-02\", \"LIEU_OUVERTURE_OFFRES\": \"ANGERS\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 28 mars 2022.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'ile Gloriette\", \"CP\": \"44000\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-55-10-10-02\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Cci de Maine et Loire\", \"ADRESSE\": \"8 bd du roi René\", \"CP\": \"49000\", \"VILLE\": \"Angers\", \"TEL\": \"(+33) 2-41-20-53-86\", \"MEL\": \"marches-publics@maineetloire.cci.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-45067"
-  },
-  {
-   "idweb": "22-46379",
-   "id": "22_46379",
-   "contractfolderid": null,
-   "objet": "TRAVAUX de V.R.D. pour les établissements du GHT 72",
-   "filename": "BOAMP-N-AO_2022_089010",
-   "famille": "FNS",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2022-03-30",
-   "datefindiffusion": "2022-05-25",
-   "datelimitereponse": null,
-   "nomacheteur": "CH LE MANS",
-   "titulaire": null,
-   "perimetre": "FNSimple",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "365"
-   ],
-   "dc": [
-    "365"
-   ],
-   "descripteur_libelle": [
-    "Voirie"
-   ],
-   "type_marche": [
-    "TRAVAUX"
-   ],
-   "type_marche_facette": [
-    "Travaux"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v240.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"22-46379\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"22-46379.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2022-03-30\", \"DATE_FIN_DIFFUSION\": \"2022-05-25\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"365\", \"LIBELLE\": \"Voirie\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"TRAVAUX de V.R.D. pour les établissements du GHT 72\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CH LE MANS\", \"TYPE_IDENT_NATIONAL\": {\"SIRET\": \"\"}, \"CODE_IDENT_NATIONAL\": \"26720016000013\", \"CONTACT\": \"Cellule des marchés du GHT 72\", \"CP\": \"72037\", \"VILLE\": \"Le Mans cedex 9\", \"TEL\": \"(+33) 2-55-46-50-42\", \"MEL\": \"celluledesmarches@ch-lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-publics.gouv.fr\", \"INTEGRALITE_DOC_OUI\": \"\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"OBJET\": {\"TITRE_MARCHE\": \"TRAVAUX de V.R.D. pour les établissements du GHT 72\", \"TYPE_MARCHE\": {\"TRAVAUX\": \"\"}, \"OBJET_COMPLET\": \"TRAVAUX de V.R.D. pour les établissements du GHT 72\", \"CPV\": {\"PRINCIPAL\": \"45000000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Etablissements parties du GHT 72\"}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"48\"}, \"TRANCHE_NON\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"DESCRIPTION\": \"LOT 1 pour : Centre Hospitalier du Mans - Etablissement Public de Santé Mentale de la Sarthe - Pôle Hospitalier Gérontologique Nord Sarthe - Centre Hospitalier de Château du Loir - Centre Hospitalier du Lude\", \"LIEU_PRINCIPAL\": \"Etablissements du GHT 72\"}, {\"DESCRIPTION\": \"Lot 2 pour : Centre Hospitalier de la Ferté-Bernard - Centre Hospitalier de Saint-Calais - EHPAD de Bessé-sur-Braye\", \"LIEU_PRINCIPAL\": \"Etablissements du GHT 72\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"TECH_ACHAT\": {\"ACCORD_CADRE\": \"\"}, \"ATTRIB_SANS_NEG_OUI\": \"\", \"VARIANTES_NON\": \"\", \"CATEGORIE_ACHETEUR\": \"Etablissements parties du GHT 72\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_LIBRE\": \"Critère 1 - Prix 70%Sous-critère 1.1 - résultat du prix proratisé (simulation en pourcentage) 50%Sous-critère 1.2 - Total des prix remis sur le bordereau de prix 20 %Critère 2 - Qualités de l'organisation de l'entreprise décrite dans le mémoire technique 30%Sous-critère 2.1 - Organisation interne de l'entreprise, pour la réalisation des études, mise au point technique avec la fourniture du dossier technique, plans d'exécution avec prise en compte des limites de prestation des autres corps d'état, préparation du chantier, intégration des délais d'approvisionnement 10%Sous-critère 2.2 - Organisation interne de l'entreprise pour réaliser les travaux, moyens humains, intégration de la sécurité, le maintien des organisations de l'hôpital et ses contraintes par rapport à l'hygiène 10%Sous-critère 2.3 - Organisation pour permettre une intervention programmée de nuit ou notamment lors des périodes de vacances scolaires y compris Noël, le week-end. Organisation pour pouvoir intervenir dans des délais très courts, dans la journée 5%Sous-critère 2.4 - Développement de la formation pour améliorer la qualité, la technique et la sécurité du chantier en lien avec l'objet du marché 5%\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_NON\": \"\"}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"Critère 1 - Prix 70%Sous-critère 1.1 - résultat du prix proratisé (simulation en pourcentage) 50%Sous-critère 1.2 - Total des prix remis sur le bordereau de prix 20 %Critère 2 - Qualités de l'organisation de l'entreprise décrite dans le mémoire technique 30%Sous-critère 2.1 - Organisation interne de l'entreprise, pour la réalisation des études, mise au point technique avec la fourniture du dossier technique, plans d'exécution avec prise en compte des limites de prestation des autres corps d'état, préparation du chantier, intégration des délais d'approvisionnement 10%Sous-critère 2.2 - Organisation interne de l'entreprise pour réaliser les travaux, moyens humains, intégration de la sécurité, le maintien des organisations de l'hôpital et ses contraintes par rapport à l'hygiène 10%Sous-critère 2.3 - Organisation pour permettre une intervention programmée de nuit ou notamment lors des périodes de vacances scolaires y compris Noël, le week-end. Organisation pour pouvoir intervenir dans des délais très courts, dans la journée 5%Sous-critère 2.4 - Développement de la formation pour améliorer la qualité, la technique et la sécurité du chantier en lien avec l'objet du marché 5%\", \"SITUATION_JURIDIQUE\": \"Voir indications complètes dans le Règlement de consultation\", \"CAP_ECO\": \"Voir indications complètes dans le Règlement de consultation\", \"CAP_TECH\": \"Voir indications complètes dans le Règlement de consultation\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"VISITE_NON\": \"\", \"RENS_COMPLEMENT\": \"Le marché prend effet pour une période initiale de deux ans, à compter du 09 août 2022, ou à sa date de notification si celle-ci est postérieure à cette date, et jusqu'au 08 août 2024.Il pourra être reconduit par période successive d'un an pour une durée maximale de reconduction de 2 ans.Le pouvoir adjudicateur, dans un souci de promotion de l'emploi et de lutte contre l'exclusion, a décidé de faire application des dispositions de l'article L2112-2 de l'ordonnance no 2018-1074 du 26 novembre 2018 et son décret no 2018-1075 du 3 décembre 2018 relative aux marchés publics en incluant dans le cahier des charges de ce marché une clause obligatoire d'insertion par l'activité économique.\"}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-46379"
   },
   {
    "idweb": "22-45009",
@@ -5079,6 +5079,68 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-47374"
   },
   {
+   "idweb": "22-47336",
+   "id": "22_47336",
+   "contractfolderid": null,
+   "objet": "Fournitures pédagogiques scolaires et périscolaires",
+   "filename": "BOAMP-N-AO_2022_090011",
+   "famille": "FNS",
+   "code_departement": [
+    "72"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2022-03-31",
+   "datefindiffusion": "2022-05-02",
+   "datelimitereponse": null,
+   "nomacheteur": "Ville d'Allonnes",
+   "titulaire": null,
+   "perimetre": "FNSimple",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "16",
+    "202"
+   ],
+   "dc": [
+    "16",
+    "202"
+   ],
+   "descripteur_libelle": [
+    "Articles de bureau et articles scolaires",
+    "Matériel didactique"
+   ],
+   "type_marche": [
+    "FOURNITURES"
+   ],
+   "type_marche_facette": [
+    "Fournitures"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v240.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"22-47336\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"22-47336.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2022-03-31\", \"DATE_FIN_DIFFUSION\": \"2022-05-02\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"16\", \"LIBELLE\": \"Articles de bureau et articles scolaires\"}, {\"CODE\": \"202\", \"LIBELLE\": \"Matériel didactique\"}]}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Fournitures pédagogiques scolaires et périscolaires\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville d'Allonnes\", \"TYPE_IDENT_NATIONAL\": {\"SIRET\": \"\"}, \"CODE_IDENT_NATIONAL\": \"21720003900014\", \"CONTACT\": \"Leproust\", \"CP\": \"72700\", \"VILLE\": \"Allonnes\", \"MEL\": \"marches.publics@ville-allonnes.fr\", \"URL_DOCUMENT\": \"https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematent.login&type=Dce&Idm=1088711\", \"INTEGRALITE_DOC_OUI\": \"\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"OBJET\": {\"TITRE_MARCHE\": \"Fournitures pédagogiques scolaires et périscolaires\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Fournitures pédagogiques scolaires et périscolaires pour les besoins des groupes scolaires et des accueils périscolaires de la ville d'Allonnes.Marché de 12 mois reconductible 2 fois 12 mois\", \"CPV\": {\"PRINCIPAL\": \"39162110\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Etablissements scolaires, accueils périscolaires et Service Enfance Education 72700 - Allonnes\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"159000\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"12\"}, \"TRANCHE_NON\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"DESCRIPTION\": \"1 : Fournitures pédagogiques, scolaires, périscolaires, jeux et jouets. Fournitures pédagogiques scolaires et périscolaires pour les besoins des groupes scolaires et des accueils périscolaires de la ville d'Allonnes.Marché de 12 mois reconductible 2 fois 12 mois\", \"LIEU_PRINCIPAL\": \"Allonnes\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"45000\"}}, {\"DESCRIPTION\": \"2 : Manuels et livres scolaires et pédagogiques. Fournitures pédagogiques scolaires et périscolaires pour les besoins des groupes scolaires et des accueils périscolaires de la ville d'Allonnes.Marché de 12 mois reconductible 2 fois 12 mois\", \"LIEU_PRINCIPAL\": \"Allonnes\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"8000\"}}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"TECH_ACHAT\": {\"SANS_OBJET\": \"\"}, \"ATTRIB_SANS_NEG_OUI\": \"\", \"VARIANTES_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_LIBRE\": \"Service après-vente et gestion des commandes : 30%Délai et modalités de livraison : 20%Démarche environnementale et sociale du candidat : 20%Prix : 30%\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_NON\": \"\"}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"Service après-vente et gestion des commandes : 30%Délai et modalités de livraison : 20%Démarche environnementale et sociale du candidat : 20%Prix : 30%\", \"SITUATION_JURIDIQUE\": \"- Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire.- Formulaire Dc1, Lettre de candidature _ Habilitation du mandataire par ses co-traitants.(disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat)- Formulaire Dc2, Déclaration du candidat individuel ou du membre du groupement.(disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat)\", \"CAP_ECO\": \"- Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels.- Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"CAP_TECH\": \"- Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation de marchés de même nature.- Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années.- Présentation d'une liste des principales fournitures ou des principaux services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"VISITE_NON\": \"\", \"RENS_COMPLEMENT\": \"Critères d'évaluation des offres du lot 2 :Prix 20%Service après-vente et gestion des commandes 30%Gamme proposée par le candidat 20%Délai et modalités de livraison 20%Démarche environnementale et sociale du candidat 10%Echantillons de papier à remettre pour le lot 1\"}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-47336"
+  },
+  {
    "idweb": "22-45626",
    "id": "22_45626",
    "contractfolderid": null,
@@ -5140,68 +5202,6 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"22-45626\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"22-45626.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2022-03-31\", \"DATE_FIN_DIFFUSION\": \"2022-05-02\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"22\", \"LIBELLE\": \"Audiovisuel\"}}, \"DEP_PUBLICATION\": [\"35\", \"22\", \"29\", \"56\", \"44\"], \"RESUME_OBJET\": \"Prestations de captation, de retransmission en direct et de VOD des réunions des assemblées régionales\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Région Bretagne\", \"ADJUDICATEUR_NUTS\": \"FRH\", \"ADRESSE\": \"283, avenue du Général Patton - CS21101\", \"CP\": \"35711\", \"VILLE\": \"Rennes cedex 7\", \"TEL\": \"(+33) 2-99-27-10-10\", \"MEL\": \"communication@bretagne.bzh\", \"URL\": \"http://www.bretagne.bzh\", \"URL_PROFIL_ACHETEUR\": \"http://Marches.megalis.bretagne.bzh\", \"URL_PARTICIPATION\": \"https://marches.megalis.bretagne.bzh/?page=Entreprise.EntrepriseAdvancedSearch&AllCons&id=159921&orgAcronyme=a1j\", \"URL_DOCUMENT\": \"https://marches.megalis.bretagne.bzh\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Prestations de captation, de retransmission en direct et de VOD des réunions des assemblées régionales\", \"REF_MARCHE\": \"DIRCOM-AOO-2022-002\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Le présent accord cadre vise à mettre à disposition de la Région Bretagne les moyens de captation, réalisation, rediffusion et VOD des réunions des assemblées régionales.\", \"CPV\": {\"PRINCIPAL\": \"92111200\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"400000\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Le présent accord cadre vise à mettre à disposition de la Région Bretagne les moyens de captation, réalisation, rediffusion et VOD des réunions des assemblées régionales.\", \"CPV\": {\"PRINCIPAL\": \"92111200\"}, \"CODE_NUTS\": \"FRH\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"400000\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_OUI\": \"\", \"RENOUVELLEMENT_DESCRIPTION\": \"Le présent accord-cadre est conclu pour une durée de 12 mois à compter de sa notification au titulaire ; il est renouvelable tacitement 3 fois par périodes successives de 12 mois.\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"Avril 2026\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2022-05-02T18:30:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"3\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2022-05-03\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 29 mars 2022.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Rennes\", \"ADRESSE\": \"3 Contour de la Motte CS44416\", \"CP\": \"35044\", \"VILLE\": \"Rennes\", \"TEL\": \"(+33) 2-23-21-28-28\", \"MEL\": \"greffe.ta-rennes@juradm.fr\", \"URL\": \"http://rennes.tribunal-administratif.fr/\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif Interrégional pour le règlement amiable des marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso BP 24209\", \"CP\": \"44042\", \"VILLE\": \"Nantes Cedex 1\", \"TEL\": \"(+33) 2-53-46-79-83\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Rennes\", \"ADRESSE\": \"3 Contour de la Motte CS44416\", \"CP\": \"35044\", \"VILLE\": \"Rennes\", \"TEL\": \"(+33) 2-23-21-28-28\", \"MEL\": \"greffe.ta-rennes@juradm.fr\", \"URL\": \"http://rennes.tribunal-administratif.fr/\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-45626"
-  },
-  {
-   "idweb": "22-47336",
-   "id": "22_47336",
-   "contractfolderid": null,
-   "objet": "Fournitures pédagogiques scolaires et périscolaires",
-   "filename": "BOAMP-N-AO_2022_090011",
-   "famille": "FNS",
-   "code_departement": [
-    "72"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2022-03-31",
-   "datefindiffusion": "2022-05-02",
-   "datelimitereponse": null,
-   "nomacheteur": "Ville d'Allonnes",
-   "titulaire": null,
-   "perimetre": "FNSimple",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "16",
-    "202"
-   ],
-   "dc": [
-    "16",
-    "202"
-   ],
-   "descripteur_libelle": [
-    "Articles de bureau et articles scolaires",
-    "Matériel didactique"
-   ],
-   "type_marche": [
-    "FOURNITURES"
-   ],
-   "type_marche_facette": [
-    "Fournitures"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v240.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"22-47336\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"22-47336.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2022-03-31\", \"DATE_FIN_DIFFUSION\": \"2022-05-02\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"16\", \"LIBELLE\": \"Articles de bureau et articles scolaires\"}, {\"CODE\": \"202\", \"LIBELLE\": \"Matériel didactique\"}]}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"Fournitures pédagogiques scolaires et périscolaires\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville d'Allonnes\", \"TYPE_IDENT_NATIONAL\": {\"SIRET\": \"\"}, \"CODE_IDENT_NATIONAL\": \"21720003900014\", \"CONTACT\": \"Leproust\", \"CP\": \"72700\", \"VILLE\": \"Allonnes\", \"MEL\": \"marches.publics@ville-allonnes.fr\", \"URL_DOCUMENT\": \"https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematent.login&type=Dce&Idm=1088711\", \"INTEGRALITE_DOC_OUI\": \"\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"OBJET\": {\"TITRE_MARCHE\": \"Fournitures pédagogiques scolaires et périscolaires\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Fournitures pédagogiques scolaires et périscolaires pour les besoins des groupes scolaires et des accueils périscolaires de la ville d'Allonnes.Marché de 12 mois reconductible 2 fois 12 mois\", \"CPV\": {\"PRINCIPAL\": \"39162110\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Etablissements scolaires, accueils périscolaires et Service Enfance Education 72700 - Allonnes\"}, \"CARACTERISTIQUES\": {\"VALEUR_TOTALE\": {\"@DEVISE\": \"EUR\", \"#text\": \"159000\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"12\"}, \"TRANCHE_NON\": \"\", \"MARCHE_RESERVE_NON\": \"\", \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"DESCRIPTION\": \"1 : Fournitures pédagogiques, scolaires, périscolaires, jeux et jouets. Fournitures pédagogiques scolaires et périscolaires pour les besoins des groupes scolaires et des accueils périscolaires de la ville d'Allonnes.Marché de 12 mois reconductible 2 fois 12 mois\", \"LIEU_PRINCIPAL\": \"Allonnes\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"45000\"}}, {\"DESCRIPTION\": \"2 : Manuels et livres scolaires et pédagogiques. Fournitures pédagogiques scolaires et périscolaires pour les besoins des groupes scolaires et des accueils périscolaires de la ville d'Allonnes.Marché de 12 mois reconductible 2 fois 12 mois\", \"LIEU_PRINCIPAL\": \"Allonnes\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"8000\"}}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"TECH_ACHAT\": {\"SANS_OBJET\": \"\"}, \"ATTRIB_SANS_NEG_OUI\": \"\", \"VARIANTES_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_LIBRE\": \"Service après-vente et gestion des commandes : 30%Délai et modalités de livraison : 20%Démarche environnementale et sociale du candidat : 20%Prix : 30%\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_NON\": \"\"}, \"CONDITION_PARTICIPATION\": {\"CRITERE_SELECTION\": \"Service après-vente et gestion des commandes : 30%Délai et modalités de livraison : 20%Démarche environnementale et sociale du candidat : 20%Prix : 30%\", \"SITUATION_JURIDIQUE\": \"- Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire.- Formulaire Dc1, Lettre de candidature _ Habilitation du mandataire par ses co-traitants.(disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat)- Formulaire Dc2, Déclaration du candidat individuel ou du membre du groupement.(disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat)\", \"CAP_ECO\": \"- Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels.- Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"CAP_TECH\": \"- Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation de marchés de même nature.- Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années.- Présentation d'une liste des principales fournitures ou des principaux services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"VISITE_NON\": \"\", \"RENS_COMPLEMENT\": \"Critères d'évaluation des offres du lot 2 :Prix 20%Service après-vente et gestion des commandes 30%Gamme proposée par le candidat 20%Délai et modalités de livraison 20%Démarche environnementale et sociale du candidat 10%Echantillons de papier à remettre pour le lot 1\"}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-47336"
   },
   {
    "idweb": "22-46039",
@@ -5876,68 +5876,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-47742"
   },
   {
-   "idweb": "22-46214",
-   "id": "22_46214",
-   "contractfolderid": null,
-   "objet": "MARCHE DE SERVICES DE CONFECTION ET DE LIVRAISON DE PLATEAUX REPAS POUR POLE EMPLOI PAYS DE LA LOIRE",
-   "filename": "BOAMP-J-AO_2022_091003",
-   "famille": "JOUE",
-   "code_departement": [
-    "44",
-    "49",
-    "72",
-    "85"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2022-04-01",
-   "datefindiffusion": "2022-05-31",
-   "datelimitereponse": null,
-   "nomacheteur": "Pôle emploi Pays de la Loire",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "274"
-   ],
-   "dc": [
-    "274"
-   ],
-   "descripteur_libelle": [
-    "Prestations de services"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v240.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"22-46214\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"22-46214.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2022-04-01\", \"DATE_FIN_DIFFUSION\": \"2022-05-31\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}}, \"DEP_PUBLICATION\": [\"44\", \"49\", \"72\", \"85\"], \"RESUME_OBJET\": \"MARCHE DE SERVICES DE CONFECTION ET DE LIVRAISON DE PLATEAUX REPAS POUR POLE EMPLOI PAYS DE LA LOIRE\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Pôle emploi Pays de la Loire\", \"ADJUDICATEUR_NUTS\": \"FRG0\", \"ADRESSE\": \"1 rue de la Cale Crucy - CS 67910\", \"CP\": \"44179\", \"VILLE\": \"Nantes cedex 4\", \"MEL\": \"dr-marches.44116@pole-emploi.fr\", \"URL\": \"http://www.pole-emploi.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-public.gouv.fr\", \"URL_PARTICIPATION\": \"https://www.marches-publics.gouv.fr/?page=Entreprise.EntrepriseAdvancedSearch&AllCons&id=2005950&orgAcronyme=h8j\", \"URL_DOCUMENT\": \"http://www.marches-public.gouv.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Emploi\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"MARCHE DE SERVICES DE CONFECTION ET DE LIVRAISON DE PLATEAUX REPAS POUR POLE EMPLOI PAYS DE LA LOIRE\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Marchés ayant pour objet l'achat par Pôle emploi Pays de Loire de prestations de confection et de livraison de plateaux repas\", \"CPV\": {\"PRINCIPAL\": \"55521200\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Nantes Métropole\", \"DESCRIPTION\": \"Prestations de confection et de livraison de plateaux repas sur les sites de Nantes Métropole\", \"CPV\": {\"PRINCIPAL\": \"55521200\"}, \"CODE_NUTS\": \"FRG01\", \"DUREE_MOIS\": \"48\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Angers Loire Métropole\", \"DESCRIPTION\": \"Prestations de confection et de livraison de plateaux repas sur les sites d'Angers Loire Métropole\", \"CPV\": {\"PRINCIPAL\": \"55521200\"}, \"CODE_NUTS\": \"FRG02\", \"DUREE_MOIS\": \"48\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Le Mans Métropole\", \"DESCRIPTION\": \"Prestations de confection et de livraison de plateaux repas sur les sites de Le Mans Métropole\", \"CPV\": {\"PRINCIPAL\": \"55521200\"}, \"CODE_NUTS\": \"FRG04\", \"DUREE_MOIS\": \"48\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"4\", \"INTITULE\": \"La Roche sur Yon Agglomération\", \"DESCRIPTION\": \"Prestations de confection et de livraison de plateaux repas sur les sites de La Roche sur Yon Agglomération\", \"CPV\": {\"PRINCIPAL\": \"55521200\"}, \"CODE_NUTS\": \"FRG05\", \"DUREE_MOIS\": \"48\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2022-05-06T16:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CRITERES_PARTICIPATION\": \"L'attention des candidats est attirée sur le fait que, en application des articles L. 2113-12 à L.2113-14 du code de la commande publique, cette consultation est réservée : - aux entreprises adaptées mentionnées à l'article L. 5213-13 du code du travail, aux établissements et services d'aide par le travail mentionnés à l'article L. 344-2 du code de l'action sociale et des familles ainsi qu'aux structures équivalentes, lorsqu'ils emploient une proportion minimale, fixée par voie réglementaire à 50%, de travailleurs handicapés qui, en raison de la nature ou de la gravité de leurs déficiences, ne peuvent exercer une activité professionnelle dans des conditions normales ; - aux structures d'insertion par l'activité économique mentionnées à l'article L. 5132-4 du code du travail et aux structures équivalentes, lorsqu'elles emploient une proportion minimale, fixée par voie réglementaire à 50%, de travailleurs défavorisés.\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Néant. Date d'envoi du présent avis au JOUE et au BOAMP : 30 mars 2022.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"A) Avant la conclusion du contrat, recours sur la base de l'article L. 551-1 du code de justice administrative.B) Après la conclusion du contrat: 1°) recours sur la base de l'article L. 551-13 du même code dans un délai de 31 jours à compter de la publication de l'avis d'attribution du contrat; 2°) recours de pleine juridiction contestant la validité du contrat ou de certaines de ses clauses, dans un délai de 2 mois à compter de la publication de l'avis d'attribution du contrat, le cas échéant assorti d'une demande de suspension sur le fondement précité et/ou d'une demande indemnitaire; en cas de demande indemnitaire, recours administratif préalable auprès du directeur régional aux coordonnées en tête d'avis et recours de pleine juridiction dans un délai de 2 mois à compter de la décision expresse ou implicite de rejet.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette CS24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunaladministratif.fr\"}}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-46214"
-  },
-  {
    "idweb": "22-48148",
    "id": "22_48148",
    "contractfolderid": null,
@@ -6136,6 +6074,68 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"22-48158\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"RECTIFICATIF\": \"\"}, \"STATUT\": {\"RECTIFICATIF\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"22-35058\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2022-03-09\"}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2022-03-09\", \"DATE_FIN_DIFFUSION\": \"2022-04-14\"}}}}, \"NOM_HTML\": \"22-48158.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2022-04-01\", \"DATE_FIN_DIFFUSION\": \"2022-04-21\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"118\", \"LIBELLE\": \"Etude\"}, {\"CODE\": \"165\", \"LIBELLE\": \"Installation portuaire\"}, {\"CODE\": \"253\", \"LIBELLE\": \"Ouvrage d'infrastructure\"}]}, \"DEP_PUBLICATION\": [\"29\", \"35\", \"44\", \"22\"], \"RESUME_OBJET\": \"Etude de faisabilité relative à l'adaptation du port de commerce de roscoff-bloscon au nouveau format de ferries\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"CCI METROPOLITAINE BRETAGNE OUEST\", \"TYPE_IDENT_NATIONAL\": {\"SIRET\": \"\"}, \"CODE_IDENT_NATIONAL\": \"13002293200094\", \"CP\": \"29600\", \"VILLE\": \"Morlaix\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"OBJET\": {\"TITRE_MARCHE\": \"Etude de faisabilité relative à l'adaptation du port de commerce de roscoff-bloscon au nouveau format de ferries\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"CPV\": {\"PRINCIPAL\": \"79314000\"}, \"TRANCHE_NON\": \"\", \"MARCHE_RESERVE_NON\": \"\"}, \"PROCEDURE\": {\"TECH_ACHAT\": {\"ACCORD_CADRE\": \"\"}}, \"RECTIF\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"22-35058\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"FNSimple\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2022-03-09\"}, \"REFERENCE_PUBLICATION\": {\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2022-03-09\", \"DATE_FIN_DIFFUSION\": \"2022-04-14\"}}}, \"MODIFICATION\": \"\", \"INFO_COMPLEMENTAIRE\": \"La date de remise des offres est reportée au jeudi 21 avril 2022, à 14h00.\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La date de remise des offres est reportée au jeudi 21 avril 2022, à 14h00.\"}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-48158"
+  },
+  {
+   "idweb": "22-46214",
+   "id": "22_46214",
+   "contractfolderid": null,
+   "objet": "MARCHE DE SERVICES DE CONFECTION ET DE LIVRAISON DE PLATEAUX REPAS POUR POLE EMPLOI PAYS DE LA LOIRE",
+   "filename": "BOAMP-J-AO_2022_091003",
+   "famille": "JOUE",
+   "code_departement": [
+    "44",
+    "49",
+    "72",
+    "85"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2022-04-01",
+   "datefindiffusion": "2022-05-31",
+   "datelimitereponse": null,
+   "nomacheteur": "Pôle emploi Pays de la Loire",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "274"
+   ],
+   "dc": [
+    "274"
+   ],
+   "descripteur_libelle": [
+    "Prestations de services"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v240.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"22-46214\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"22-46214.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2022-04-01\", \"DATE_FIN_DIFFUSION\": \"2022-05-31\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}}, \"DEP_PUBLICATION\": [\"44\", \"49\", \"72\", \"85\"], \"RESUME_OBJET\": \"MARCHE DE SERVICES DE CONFECTION ET DE LIVRAISON DE PLATEAUX REPAS POUR POLE EMPLOI PAYS DE LA LOIRE\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Pôle emploi Pays de la Loire\", \"ADJUDICATEUR_NUTS\": \"FRG0\", \"ADRESSE\": \"1 rue de la Cale Crucy - CS 67910\", \"CP\": \"44179\", \"VILLE\": \"Nantes cedex 4\", \"MEL\": \"dr-marches.44116@pole-emploi.fr\", \"URL\": \"http://www.pole-emploi.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-public.gouv.fr\", \"URL_PARTICIPATION\": \"https://www.marches-publics.gouv.fr/?page=Entreprise.EntrepriseAdvancedSearch&AllCons&id=2005950&orgAcronyme=h8j\", \"URL_DOCUMENT\": \"http://www.marches-public.gouv.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"ORG_DROIT_PUBLIC\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"AUTRE\": \"Emploi\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"MARCHE DE SERVICES DE CONFECTION ET DE LIVRAISON DE PLATEAUX REPAS POUR POLE EMPLOI PAYS DE LA LOIRE\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Marchés ayant pour objet l'achat par Pôle emploi Pays de Loire de prestations de confection et de livraison de plateaux repas\", \"CPV\": {\"PRINCIPAL\": \"55521200\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Nantes Métropole\", \"DESCRIPTION\": \"Prestations de confection et de livraison de plateaux repas sur les sites de Nantes Métropole\", \"CPV\": {\"PRINCIPAL\": \"55521200\"}, \"CODE_NUTS\": \"FRG01\", \"DUREE_MOIS\": \"48\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Angers Loire Métropole\", \"DESCRIPTION\": \"Prestations de confection et de livraison de plateaux repas sur les sites d'Angers Loire Métropole\", \"CPV\": {\"PRINCIPAL\": \"55521200\"}, \"CODE_NUTS\": \"FRG02\", \"DUREE_MOIS\": \"48\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Le Mans Métropole\", \"DESCRIPTION\": \"Prestations de confection et de livraison de plateaux repas sur les sites de Le Mans Métropole\", \"CPV\": {\"PRINCIPAL\": \"55521200\"}, \"CODE_NUTS\": \"FRG04\", \"DUREE_MOIS\": \"48\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"4\", \"INTITULE\": \"La Roche sur Yon Agglomération\", \"DESCRIPTION\": \"Prestations de confection et de livraison de plateaux repas sur les sites de La Roche sur Yon Agglomération\", \"CPV\": {\"PRINCIPAL\": \"55521200\"}, \"CODE_NUTS\": \"FRG05\", \"DUREE_MOIS\": \"48\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2022-05-06T16:00:00+01:00\"}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"CRITERES_PARTICIPATION\": \"L'attention des candidats est attirée sur le fait que, en application des articles L. 2113-12 à L.2113-14 du code de la commande publique, cette consultation est réservée : - aux entreprises adaptées mentionnées à l'article L. 5213-13 du code du travail, aux établissements et services d'aide par le travail mentionnés à l'article L. 344-2 du code de l'action sociale et des familles ainsi qu'aux structures équivalentes, lorsqu'ils emploient une proportion minimale, fixée par voie réglementaire à 50%, de travailleurs handicapés qui, en raison de la nature ou de la gravité de leurs déficiences, ne peuvent exercer une activité professionnelle dans des conditions normales ; - aux structures d'insertion par l'activité économique mentionnées à l'article L. 5132-4 du code du travail et aux structures équivalentes, lorsqu'elles emploient une proportion minimale, fixée par voie réglementaire à 50%, de travailleurs défavorisés.\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Néant. Date d'envoi du présent avis au JOUE et au BOAMP : 30 mars 2022.\", \"PROCEDURES_RECOURS_PRECISIONS\": \"A) Avant la conclusion du contrat, recours sur la base de l'article L. 551-1 du code de justice administrative.B) Après la conclusion du contrat: 1°) recours sur la base de l'article L. 551-13 du même code dans un délai de 31 jours à compter de la publication de l'avis d'attribution du contrat; 2°) recours de pleine juridiction contestant la validité du contrat ou de certaines de ses clauses, dans un délai de 2 mois à compter de la publication de l'avis d'attribution du contrat, le cas échéant assorti d'une demande de suspension sur le fondement précité et/ou d'une demande indemnitaire; en cas de demande indemnitaire, recours administratif préalable auprès du directeur régional aux coordonnées en tête d'avis et recours de pleine juridiction dans un délai de 2 mois à compter de la décision expresse ou implicite de rejet.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'Ile Gloriette CS24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunaladministratif.fr\"}}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:22-46214"
   },
   {
    "idweb": "22-47537",

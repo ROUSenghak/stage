@@ -34,7 +34,7 @@ Two key improvements over the existing `task_boamp_full_survival.py` baseline
 |---|---|---|---|
 | Baseline (Jaccard, buyer+CPV group) | 219 | 1,933 | 11.3% |
 | TF-IDF cosine (intermediate) | 279 | 1,100 | 25.4% |
-| **Sentence-Transformers (final)** | **697** | **1,100** | **63.4%** |
+| **Sentence-Transformers (final)** | **705** | **1,100** | **64.1%** |
 
 ## Contents
 
@@ -79,8 +79,8 @@ base EDA stack (`pandas`, `numpy`, `matplotlib`, `seaborn`).
 
 | File | Rows | Description |
 |------|------|-------------|
-| `boamp_renewal_candidates.csv` | 5,356 | All pairs passing hard filters, before best-match selection |
-| `boamp_renewal_links.csv` | 1,100 | One row per eligible AO; `event=1` (697) if a renewal was found — **official BOAMP linking output** |
+| `boamp_renewal_candidates.csv` | 5,519 | All pairs passing hard filters, before best-match selection |
+| `boamp_renewal_links.csv` | 1,100 | One row per eligible AO; `event=1` (705) if a renewal was found — **official BOAMP linking output** |
 | `boamp_linking_stats.csv` | 1 | Linking rate (primary = over eligible denominator) |
 | `boamp_bias_report.csv` | 62 | Failure reason × CPV breakdown |
 
@@ -106,5 +106,5 @@ generated directly inside `boamp_renewal_linking_quality/data.ipynb`.
 ## Limitations
 
 - 94.2% of buyer keys are name-based; variant spellings of the same buyer may split records into separate groups, creating structural misses.
-- Buyers who issued only one notice within the eligible window are structurally uncoverable — the main residual ceiling on the 36.6% unlinked AO.
+- Buyers who issued only one notice within the eligible window are structurally uncoverable — the main residual ceiling on the 35.9% unlinked AO.
 - CPV removed from hard filters increases recall but may introduce false positives where two unrelated contracts from the same buyer share similar text and fall in the right time window.

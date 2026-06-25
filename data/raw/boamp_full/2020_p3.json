@@ -2632,65 +2632,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-10036"
   },
   {
-   "idweb": "20-11557",
-   "id": "20_11557",
-   "contractfolderid": null,
-   "objet": "Dossier d'instauration des périmètres de protection autour de la prise d'eau des Martyrs dans la Sèvre Nantaise à Saint Laurent Sur Sèvre.",
-   "filename": "BOAMP-N-AO_2020_024005",
-   "famille": "FNS",
-   "code_departement": [
-    "85"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2020-01-24",
-   "datefindiffusion": "2020-02-23",
-   "datelimitereponse": "2020-02-25T11:00:00+00:00",
-   "nomacheteur": "VENDEE EAU",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "274"
-   ],
-   "dc": [
-    "274"
-   ],
-   "descripteur_libelle": [
-    "Prestations de services"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-11557\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"20-11557.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-01-24\", \"DATE_LIMITE_REPONSE\": \"2020-02-25T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2020-02-23\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"Dossier d'instauration des périmètres de protection autour de la prise d'eau des Martyrs dans la Sèvre Nantaise à Saint Laurent Sur Sèvre.\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"VENDEE EAU\", \"CORRESPONDANT\": \"Cécile LE BRAS\", \"ADRESSE\": \"Zac Bell57 rue Paul Emile Victor\", \"CP\": \"85036\", \"VILLE\": \"La Roche sur Yon\", \"TEL\": \"(+33) 2-51-24-82-20\", \"MEL\": \"marches@vendee-eau.fr\", \"URL\": \"http://www.vendee-eau.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-securises.fr\"}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"27\"}, \"OBJET_COMPLET\": \"Dossier d'instauration des périmètres de protection autour de la prise d'eau des Martyrs dans la Sèvre Nantaise à Saint Laurent Sur Sèvre.\", \"CPV\": {\"PRINCIPAL\": \"71241000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Prise d'eau des Martyrs dans la Sèvre Nantaise\", \"CP\": \"85290\", \"VILLE\": \"Saint Laurent sur Sèvre\", \"CODE_NUTS\": \"FRG05\"}, \"AMP_NON\": \"\", \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\", \"DUREE_AN\": \"4\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"La présente étude a pour objet la constitution du dossier d'instauration des périmètres de protection autour de la prise d'eau des Martyrs dans la Sèvre Nantaise à Saint Laurent Sur Sèvre.\", \"QUANTITE\": \"Elle se déroulera en 4 phases :- Phase 0 : Lancement de l'étude- Phase 1 : Réalisation des études nécessaires à la définition des périmètres de protection- Phase 2 : Constitution du dossier de DUP- Phase 3 : Organisation de l'enquête publique\"}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"48\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2020-02-25T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Le mode de règlement est le virement par mandat administratif.Le délai de paiement est celui fixé par l'article R.2192-10 du Code de la Commande Publique ; il est actuellement de 30 jours.\", \"FORME_JURIDIQUE\": \"Le marché sera conclu soit avec un opérateur économique présentant une candidature individuelle, soit avec un groupement d'opérateurs économiques. En cas de groupement d'entreprises conjoint, le mandataire sera solidaire de chacun des autres membres du groupement. Vendée Eau pourra le cas échéant demander, au stade de l'attribution, la modification de la forme initiale du groupement.\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"PRESTATION_RESERVEE_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Autres renseignements demandés\", \"Celles fixées dans le règlement de la consultation.\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"20SD07PI\", \"DOCUMENT_PAYANT_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La remise des offres s'effectue obligatoirement par voie électronique (en application de l'article R.2132-7 du Code de la Commande Publique) sur la plateforme www.marches-securises.fr (disponible depuis le site de Vendée Eau www.vendee-eau.fr, rubrique 'Espace Marchés').Une offre transmise sous format papier sera considérée comme irrégulière.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 Allée de l'Ile GlorietteBP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES CEDEX\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 Allée de l'Ile GlorietteBP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES CEDEX\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-11557"
-  },
-  {
    "idweb": "20-9960",
    "id": "20_9960",
    "contractfolderid": null,
@@ -2817,6 +2758,65 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-10119\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"20-10119.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-01-24\", \"DATE_FIN_DIFFUSION\": \"2020-02-28\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": [{\"CODE\": \"163\", \"LIBELLE\": \"Informatique (prestations de services)\"}, {\"CODE\": \"171\", \"LIBELLE\": \"Site internet\"}]}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"Acquisition d'une plateforme technique collaborative de recherche, d'enrichissement et de diffusion de ressources documentaires pour les archives départementales de la Vendée\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Conseil général de la Vendée\", \"CODE_IDENT_NATIONAL\": \"22850001300658\", \"ADJUDICATEUR_NUTS\": \"FRG05\", \"ADRESSE\": \"40 rue du Maréchal Foch\", \"CP\": \"85923\", \"VILLE\": \"La Roche sur Yon\", \"TEL\": \"(+33) 2-28-85-83-84\", \"MEL\": \"marchespublics@vendee.fr\", \"URL\": \"http://www.vendee.fr\", \"URL_PROFIL_ACHETEUR\": \"http://marchespublics.vendee.fr\", \"URL_PARTICIPATION\": \"http://marchespublics.vendee.fr\", \"URL_DOCUMENT\": \"http://marchespublics.vendee.fr\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Acquisition d'une plateforme technique collaborative de recherche, d'enrichissement et de diffusion de ressources documentaires pour les archives départementales de la Vendée\", \"REF_MARCHE\": \"19c0003bg\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Les prestations attendues dans l'accord-cadre concernent l'acquisition d'une plateforme technique collaborative de recherche, d'enrichissement et de diffusion de ressources documentaires pour les Archives départementales de la Vendée à destination des usagers, et les prestations de mise en oeuvre associées (marché subséquent).Les bons de commande auront pour objet l'hébergement, l'exploitation, la maintenance et le support de la plateforme technique, du portail collaboratif et des données, les prestations associées.Il est également attendu du titulaire la fourniture d'un portail public collaboratif s'appuyant sur la plateforme technique, qui a vocation à remplacer l'actuel portail internet des Archives et qui puisse s'intégrer avec d'autres sites et outils complémentaires, existants ou à venir.Le montant minimum est de 80 000 euro(s) Ht et le montant maximum est de 400 000 euro(s) Ht.Le début d'exécution des prestations est envisagé au second semestre 2020\", \"CPV\": {\"PRINCIPAL\": \"72400000\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Les prestations attendues dans l'accord-cadre concernent l'acquisition d'une plateforme technique collaborative de recherche, d'enrichissement et de diffusion de ressources documentaires pour les Archives départementales de la Vendée à destination des usagers, et les prestations de mise en oeuvre associées (marché subséquent).Les bons de commande auront pour objet l'hébergement, l'exploitation, la maintenance et le support de la plateforme technique, du portail collaboratif et des données, les prestations associées.Il est également attendu du titulaire la fourniture d'un portail public collaboratif s'appuyant sur la plateforme technique, qui a vocation à remplacer l'actuel portail internet des Archives et qui puisse s'intégrer avec d'autres sites et outils complémentaires, existants ou à venir.Le montant minimum est de 80 000 euro(s) Ht et le montant maximum est de 400 000 euro(s) Ht.Le début d'exécution des prestations est envisagé au second semestre 2020\", \"CPV\": [{\"PRINCIPAL\": \"48900000\"}, {\"PRINCIPAL\": \"72267100\"}, {\"PRINCIPAL\": \"92512000\"}], \"CODE_NUTS\": \"FRG05\", \"LIEU_PRINCIPAL\": \"44 boulevard d'Angleterre 85000 - La Roche Sur Yon Cedex\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"40\", \"#text\": \"Qualité fonctionnelle\"}, {\"@POIDS\": \"10\", \"#text\": \"Valeur technique\"}, {\"@POIDS\": \"10\", \"#text\": \"Organisation mise en oeuvre\"}, {\"@POIDS\": \"10\", \"#text\": \"Délai d'exécution\"}]}, \"CRITERES_COUT\": {\"CRITERE\": {\"@POIDS\": \"30\", \"#text\": \"Prix\"}}}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"NB_CANDIDATS\": {\"NB_MAX_OFFRE\": \"4\", \"LIMITATION_CANDIDATS\": \"Les candidatures recevables seront notées sur un maximum de 21 points :- 12 points pour la qualité et pertinence des 3 références ;- 8 pour la capacité technique (composition de l'équipe) ;- 1 point pour la capacité financière (chiffres d'affaires)\"}, \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"NEGOCIE\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_NON\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2020-02-28T17:00:00+01:00\", \"LIMITE_ENVOI_INVIT\": \"2020-03-19\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"- Une adresse mail valide afin que l'acheteur puisse informer les candidats du rejet de leur offre ou candidature ou du fait que leur offre a été retenue\", \"CAP_ECO\": \"- Pour les entreprises de création récente, le chiffre d'affaires peut être remplacé par la production de tout document permettant de justifier la capacité financière du candidat (chiffre d'affaires partiel, montant de références en cours, déclaration appropriée de banques notamment)- Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles.- Déclaration du chiffre d'affaires liée aux prestations objet du présent marché public au cours des trois derniers exercices\", \"CAP_TECH\": \"- Déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation de marchés de même nature.- Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années.- Présentation d'une liste des principales fournitures ou des principaux services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé.Pour justifier de sa compétence fonctionnelle et technique, chaque candidat doit établir une sélection de 3 références pertinentes et suffisantes portant sur la mise en oeuvre de portails publics collaboratifs sur une plateforme technique spécialisée dans le domaine des Archives et couvrant un ou plusieurs périmètres suivants : restitution et diffusion d'informations, moteur de recherche fédéré, dictionnaires collaboratifs ou toute autres fonctions collaboratives au cours des 5 dernières années.Les références doivent prioritairement concerner des portails publics d'Archives mis en oeuvre par le candidat et datant de moins de 3 ans.Cette sélection devra être présentée à l'aide du \\\" Cadre de présentation des références indiquant entre-autres, le nom, l'url du portail, une description sommaire des prestations effectuées et le périmètre fonctionnel couvert.Capacité technique :Liste des moyens humains du candidat, permettant de réaliser les missions suivantes :-Installation, paramétrage et mise en oeuvre de la plateforme technique et du portail public collaboratif-Formation du personnel à son utilisation-Mise en oeuvre de l'hébergement-Maintenance et support de la plateforme technique et du portail public collaboratif-Capacité à effectuer des développements complémentairesCette liste devra être présentée à l'aide du \\\" Tableau des capacités techniques \\\" indiquant entre-autres, le nom, le poste occupé, la missions dans le cadre du projet, l?ancienneté et le/les diplômes obtenu(s)\", \"MARCHE_RESERVE_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Cette consultation bénéficie du Service DUME.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://marchespublics.vendee.fr -La remise des candidatures par voie papier ou sur support physique électronique (hors cas de la copie de sauvegarde) n'est pas autorisée.Transmission par voie électronique : les candidats remettront leur candidature en se connectant sur le site : http://www.marchespublics.vendee.fr. Leur dossier de candidature devra se présenter sous des formats électroniques compatibles avec ceux du Département. Un accusé de réception (e-mail) est envoyé au soumissionnaire après le dépôt de son pli, confirmant la bonne prise en compte de l'enveloppe accompagnée de l'heure retenue pour le dépôt du pli ainsi que sa taille et la procédure concernée. Le dépôt électronique doit obligatoirement être réalisé et terminé avant la date et l'heure limites de remise des candidatures fixées ci-dessus.Les candidats peuvent parallèlement remettre une copie de sauvegarde par voie papier ou sur support physique électronique. Date d'envoi du présent avis au JOUE et au BOAMP : 22 janvier 2020.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr/\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Médiation des entreprises : Direccte Pays de la Loire\", \"ADRESSE\": \"Tour Bretagne, Place Bretagne\", \"CP\": \"44047\", \"VILLE\": \"Nantes\", \"TEL\": \"(+33) 2-53-46-79-65\", \"MEL\": \"yann.quere@direccte.gouv.fr\", \"URL\": \"http://www.mediateur-des-entreprises.fr\"}, {\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Département de la Vendée : Direction des Solutions Numériques- Sandrine Briaud\", \"ADRESSE\": \"44, boulevard d'Angleterre\", \"CP\": \"85923\", \"VILLE\": \"La Roche sur Yon\", \"CODE_NUTS\": \"FRG05\", \"TEL\": \"(+33) 2-28-85-80-46\", \"MEL\": \"correspondre@aws-france.com\", \"URL\": \"http://marchespublics.vendee.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-10119"
+  },
+  {
+   "idweb": "20-11557",
+   "id": "20_11557",
+   "contractfolderid": null,
+   "objet": "Dossier d'instauration des périmètres de protection autour de la prise d'eau des Martyrs dans la Sèvre Nantaise à Saint Laurent Sur Sèvre.",
+   "filename": "BOAMP-N-AO_2020_024005",
+   "famille": "FNS",
+   "code_departement": [
+    "85"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2020-01-24",
+   "datefindiffusion": "2020-02-23",
+   "datelimitereponse": "2020-02-25T11:00:00+00:00",
+   "nomacheteur": "VENDEE EAU",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "274"
+   ],
+   "dc": [
+    "274"
+   ],
+   "descripteur_libelle": [
+    "Prestations de services"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-11557\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"20-11557.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-01-24\", \"DATE_LIMITE_REPONSE\": \"2020-02-25T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2020-02-23\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"274\", \"LIBELLE\": \"Prestations de services\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"Dossier d'instauration des périmètres de protection autour de la prise d'eau des Martyrs dans la Sèvre Nantaise à Saint Laurent Sur Sèvre.\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"VENDEE EAU\", \"CORRESPONDANT\": \"Cécile LE BRAS\", \"ADRESSE\": \"Zac Bell57 rue Paul Emile Victor\", \"CP\": \"85036\", \"VILLE\": \"La Roche sur Yon\", \"TEL\": \"(+33) 2-51-24-82-20\", \"MEL\": \"marches@vendee-eau.fr\", \"URL\": \"http://www.vendee-eau.fr\", \"URL_PROFIL_ACHETEUR\": \"https://www.marches-securises.fr\"}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"27\"}, \"OBJET_COMPLET\": \"Dossier d'instauration des périmètres de protection autour de la prise d'eau des Martyrs dans la Sèvre Nantaise à Saint Laurent Sur Sèvre.\", \"CPV\": {\"PRINCIPAL\": \"71241000\"}, \"LIEU_EXEC_LIVR\": {\"ADRESSE\": \"Prise d'eau des Martyrs dans la Sèvre Nantaise\", \"CP\": \"85290\", \"VILLE\": \"Saint Laurent sur Sèvre\", \"CODE_NUTS\": \"FRG05\"}, \"AMP_NON\": \"\", \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\", \"DUREE_AN\": \"4\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"La présente étude a pour objet la constitution du dossier d'instauration des périmètres de protection autour de la prise d'eau des Martyrs dans la Sèvre Nantaise à Saint Laurent Sur Sèvre.\", \"QUANTITE\": \"Elle se déroulera en 4 phases :- Phase 0 : Lancement de l'étude- Phase 1 : Réalisation des études nécessaires à la définition des périmètres de protection- Phase 2 : Constitution du dossier de DUP- Phase 3 : Organisation de l'enquête publique\"}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"48\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2020-02-25T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Le mode de règlement est le virement par mandat administratif.Le délai de paiement est celui fixé par l'article R.2192-10 du Code de la Commande Publique ; il est actuellement de 30 jours.\", \"FORME_JURIDIQUE\": \"Le marché sera conclu soit avec un opérateur économique présentant une candidature individuelle, soit avec un groupement d'opérateurs économiques. En cas de groupement d'entreprises conjoint, le mandataire sera solidaire de chacun des autres membres du groupement. Vendée Eau pourra le cas échéant demander, au stade de l'attribution, la modification de la forme initiale du groupement.\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"PRESTATION_RESERVEE_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Autres renseignements demandés\", \"Celles fixées dans le règlement de la consultation.\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"20SD07PI\", \"DOCUMENT_PAYANT_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La remise des offres s'effectue obligatoirement par voie électronique (en application de l'article R.2132-7 du Code de la Commande Publique) sur la plateforme www.marches-securises.fr (disponible depuis le site de Vendée Eau www.vendee-eau.fr, rubrique 'Espace Marchés').Une offre transmise sous format papier sera considérée comme irrégulière.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 Allée de l'Ile GlorietteBP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES CEDEX\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6 Allée de l'Ile GlorietteBP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES CEDEX\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-11557"
   },
   {
    "idweb": "20-11625",

@@ -2404,65 +2404,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-148574"
   },
   {
-   "idweb": "18-144659",
-   "id": "18_144659",
-   "contractfolderid": null,
-   "objet": "acquisiton et installation de mobilier et matériel de sport",
-   "filename": "BOAMP-J-AO_2018_298003",
-   "famille": "JOUE",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-10-25",
-   "datefindiffusion": "2018-11-29",
-   "datelimitereponse": null,
-   "nomacheteur": "Ville de Nantes",
-   "titulaire": null,
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "113"
-   ],
-   "dc": [
-    "113"
-   ],
-   "descripteur_libelle": [
-    "Equipement sportif"
-   ],
-   "type_marche": [
-    "FOURNITURES"
-   ],
-   "type_marche_facette": [
-    "Fournitures"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-144659\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-144659.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-10-25\", \"DATE_FIN_DIFFUSION\": \"2018-11-29\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"113\", \"LIBELLE\": \"Equipement sportif\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"acquisiton et installation de mobilier et matériel de sport\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Nantes\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"2 rue de l'hôtel de Ville\", \"CP\": \"44094\", \"VILLE\": \"Nantes cedex 1\", \"MEL\": \"laurence.jouneau@nantesmetropole.fr\", \"URL\": \"https://nantes.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.nantesmetropole.fr\", \"URL_PARTICIPATION\": \"https://marchespublics.nantesmetropole.fr\", \"URL_DOCUMENT\": \"https://marchespublics.nantesmetropole.fr\", \"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Acquisition et installation de mobiliers et matériels de sport\", \"REF_MARCHE\": \"1831A004\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Le présent marché de fournitures a pour objet l'acquisition et l'installation de mobiliers et matériels de sport.L'exécution des prestations aura lieu sur Nantes et son agglomération.Ce marché prend la forme dun accord cadre mono-attributaire donnant lieu à lémission de bon de commande.La présente procédure formalisée est soumise aux dispositions des articles25 I 1°, et 66 à 68 du décret no2016-360relatifs aux marchés publics.Les prestations sont réparties en 7 lots.L'accord cadre est conclu sans seuil minimum et maximum pour 4 ans\", \"CPV\": {\"PRINCIPAL\": \"37400000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Buts et poteaux\", \"DESCRIPTION\": \"Buts et poteaux\", \"CPV\": {\"PRINCIPAL\": \"37400000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Mobiliers et matériels de gymnastique\", \"DESCRIPTION\": \"Mobiliers et matériels de gymnastique\", \"CPV\": {\"PRINCIPAL\": \"37400000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Mobiliers et matériels de sports de combat\", \"DESCRIPTION\": \"Mobiliers et matériels de sports de combat\", \"CPV\": [{\"PRINCIPAL\": \"37400000\"}, {\"PRINCIPAL\": \"37430000\"}], \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"4\", \"INTITULE\": \"Mobiliers et matériels de musculation\", \"DESCRIPTION\": \"Mobiliers et matériels de musculation\", \"CPV\": [{\"PRINCIPAL\": \"37400000\"}, {\"PRINCIPAL\": \"37440000\"}], \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"5\", \"INTITULE\": \"Filets pour mobiliers sportifs et filets de protection\", \"DESCRIPTION\": \"Filets pour mobiliers sportifs et filets de protection\", \"CPV\": {\"PRINCIPAL\": \"37400000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"6\", \"INTITULE\": \"Matériels d'animation\", \"DESCRIPTION\": \"Matériels d'animation\", \"CPV\": [{\"PRINCIPAL\": \"37400000\"}, {\"PRINCIPAL\": \"37450000\"}], \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"7\", \"INTITULE\": \"Matériels de piscine\", \"DESCRIPTION\": \"Matériels de piscine\", \"CPV\": {\"PRINCIPAL\": \"37400000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-11-29T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"5\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Les renseignements concernant la situation juridique de lentreprise : Lettre de candidature (imprimé DC1) que la candidature soit présentée à titre individuel ou en groupement\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"Les renseignements concernant la capacité économique et financière de lentreprise : Déclaration concernant le chiffre d'affaires global du candidat et, le cas échéant, le chiffre d'affaires du domained'activité faisant l'objet du marché public, portant au maximum sur les trois derniers exercices disponibles enfonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesureoù les informations sur ces chiffres d'affaires sont disponibles (imprimé DC2)\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"Les renseignements concernant les références professionnelles, l'aptitude à exercer l'activité et la capacitétechnique de lentreprise : Déclaration indiquant les effectifs moyens annuels du candidat et limportance du personnel dencadrementpour chacune des trois dernières années (en annexe au DC2 si utilisation de ce document et tout documentcomplémentaire) Description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour laréalisation du marché public (en annexe au DC2 si utilisation de ce document et tout documentcomplémentaire) Liste des principales livraisons effectuées ou des principaux services fournis au cours des trois dernièresannées, indiquant le montant, la date et le destinataire public ou privé. Les livraisons et les prestations deservices sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateuréconomique (en annexe au DC2 si utilisation de ce document et tout document complémentaire)\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-11-29\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_OUI\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_OUI\": \"\", \"RENS_COMPLEMENT\": \"La sélection des candidatures et le jugement des offres seront effectués dans le respect des principes fondamentaux de la commande publique. Les critères intervenant pour la sélection des candidatures sont les suivants: - laptitude à exercer l'activité professionnelle, - la capacité économique et financière, - les capacités techniques et professionnelles Lexécution des présents accords cadres prendra effet à compter du 1er janvier 2019, ou sils nétaient pas notifiés avantcette date, à compter de la date leur notification pour une durée de quatre ans.Remise déchantillons pour les lot 5, 6 et 7Une remise déchantillons est à prévoir avant la date limite de remise des offres à ladresse suivante :NANTIL Bat BDirection des Sports - Mme CHABROUX1er étage gauche3 rue Célestin Freinet44400 NANTESElle doit intervenir avant la date limite de remise des offres.- Renseignements techniques :Direction des SportsMme Chabroux ChristèleTéléphone : 02 40 41 93 39Courriel : christele.chabroux@nantesmetropole.frTransmission obligatoire des plis par voie électroniqueLes réponses des opérateurs économiques doivent être obligatoirement transmises par voie dématérialisée, cest àdire déposées sur le profil acheteur à ladresse suivante :https://marchespublics.nantesmetropole.fr. Date d'envoi du présent avis au JOUE et au BOAMP : 23 octobre 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Ville de Nantes\", \"ADRESSE\": \"2 rue de l'hôtel de Ville - Service marchés publics\", \"CP\": \"44094\", \"VILLE\": \"Nantes cedex 01\", \"CODE_NUTS\": \"FRG01\", \"TEL\": \"(+33) 2-40-41-51-17\", \"MEL\": \"laurence.jouneau@nantesmetropole.fr\", \"URL\": \"https://nantesmetropole.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Ville de Nantes\", \"ADRESSE\": \"2 rue de l'hôtel de Ville\", \"CP\": \"44094\", \"VILLE\": \"Nantes cedex 1\", \"CODE_NUTS\": \"FRG01\", \"MEL\": \"laurence.jouneau@nantesmetropole.fr\", \"URL\": \"https://marchespublics.nantesmetropole.fr\"}, {\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"Nantes Métropole\", \"ADRESSE\": \"2 cours du champ de mars\", \"CP\": \"44923\", \"VILLE\": \"Nantes cedex 9\", \"CODE_NUTS\": \"FRG01\", \"MEL\": \"laurence.jouneau@nantesmetropole.fr\", \"URL\": \"https://nantesmetropole.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 01\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}]}}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-144659"
-  },
-  {
    "idweb": "18-150770",
    "id": "18_150770",
    "contractfolderid": null,
@@ -2520,6 +2461,65 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-150770\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-150770.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-10-25\", \"DATE_LIMITE_REPONSE\": \"2018-11-20T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-11-20\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"254\", \"LIBELLE\": \"Ouvrage métallique\"}}, \"DEP_PUBLICATION\": \"85\", \"RESUME_OBJET\": \"conception, conditionnement et livraison de présentoirs pour le pôle tourisme\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Vendée Expansion\", \"CORRESPONDANT\": \"Eric GUILLOUX, en qualité de Directeur Général\", \"ADRESSE\": \"33 rue de l'AtlantiqueCS 80206\", \"CP\": \"85005\", \"VILLE\": \"La Roche sur Yon\", \"MEL\": \"s.leger@gie-epl-vendee.fr\", \"URL\": \"http://www.vendee-expansion.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.marches-securises.fr\"}, \"TYPE_ORGANISME\": {\"AUTRE\": \"\"}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"27\"}, \"OBJET_COMPLET\": \"Conception, conditionnement et livraison de présentoirs pour le Pôle tourisme\", \"CPV\": {\"PRINCIPAL\": \"39133000\"}, \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG05\"}, \"AMP_NON\": \"\", \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\", \"DUREE_MOIS\": \"12\", \"VALEUR_MIN\": {\"@DEVISE\": \"EUR\", \"#text\": \"0\"}, \"VALEUR_MAX\": {\"@DEVISE\": \"EUR\", \"#text\": \"15000\"}}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"La SAEML Vendée Expansion a pour mission, via son Pôle tourisme, d'assurer la promotion et le développement touristique du département de la Vendée.Dans ce cadre, le Pôle tourisme réalise des brochures et des dépliants promotionnels en partenariat avec les professionnels du tourisme vendéen. Afin de présenter les fiches et cartes, Vendée Expansion va procéder à la commande de présentoirs auprès du titulaire du présent accord-cadre.\"}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"12\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"40\", \"#text\": \"Qualités techniques et esthétiques du présentoir proposé\"}, {\"@POIDS\": \"10\", \"#text\": \"Délais d'exécution pour la fabrication et la livraison en fonction des indications fournies au mémoire technique\"}, {\"@POIDS\": \"50\", \"#text\": \"Prix en fonction du montant indiqué au détail quantitatif estimatif\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-11-20T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FINANCEMENT\": \"Le financement du marché est assuré par les ressources propres du pouvoir adjudicateur.\", \"FORME_JURIDIQUE\": \"Conformément à l'article 45 du décret no2016-360 du 25 mars 2016 relatif aux marchés publics, les groupements d'opérateurs économiques pourront présenter une candidature et une offre. Si un groupement est déclaré attributaire du marché, celui-ci devra être solidaire ou conjoint avec mandataire solidaire.\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"JUSTIFICATIFS_CANDIDAT\": {\"P\": [\"Documents à produire obligatoirement par le candidat, à l'appui de sa candidature\", \"Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire\", \"Déclaration sur l'honneur du candidat justifiant qu'il n'entre dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles 45 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 ou, pour les marchés publics de défense ou de sécurité, qu'il n'entre dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles 45 ,46 et 48 de l'ordonnance no 2015-899 du 23 juillet 2015 (si cette déclaration n'est pas déjà demandée dans le cadre du formulaire DC1, ci-après)\", \"Si le candidat est établi en France, une déclaration sur l'honneur du candidat justifiant que le travail est effectué par des salariés employés régulièrement au regard des articles L. 1221-10, L. 3243-2 et R. 3243-1 du code du travail (dans le cas où le candidat emploie des salariés, conformément à l'article D. 8222-5-3° du code du travail)\", \"Si le candidat est établi ou domicilié à l'étranger, une déclaration sur l'honneur du candidat attestant qu'il fournit à ses salariés des bulletins de paie comportant les mentions prévues à l'article R. 3243-1 du code du travail, ou des documents équivalents\", \"Documents à produire à l'appui des candidatures par le candidat, au choix de l'acheteur public\", \"Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles\", \"Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels\", \"Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années\", \"Présentation d'une liste des principales fournitures ou des principaux services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Les livraisons et les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique\", \"Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"Formulaire DC4, Déclaration de sous-traitance (disponible à l'adresse suivante : http://www.economie.gouv.fr/directions_services/daj/marches_publics/formulaires/DC/daj_dc.htm)\", \"S'il s'appuie, pour présenter sa candidature, sur les capacités professionnelles, techniques et financières d'autres opérateurs économiques, le candidat produit les mêmes documents concernant cet opérateur économique que ceux qui lui sont exigés par l'acheteur public. Le candidat doit également apporter la preuve que chacun de ces opérateurs économiques mettra à sa disposition les moyens nécessaires, pendant toute la durée d'exécution du marché public ou de l'accord-cadre\", \"Si les documents fournis par le candidat ne sont pas établis en langue française, ils doivent être accompagnés d'une traduction en français, certifiée conforme à l'original par un traducteur assermenté\", \"Les pièces prévues aux articles D. 8222-5 ou D. 8222-7 et D. 8222-8 du code du travail\", \"Si l'attributaire est établi en France, les attestations et certificats délivrés par les administrations et organismes compétents prouvant qu'il a satisfait à ses obligations fiscales et sociales ou un état annuel des certificats reçus\", \"Si l'attributaire est établi dans un Etat autre que la France, un certificat établi par les administrations et organismes du pays d'origine. Lorsqu'un tel certificat n'est pas délivré par le pays concerné, il peut être remplacé par une déclaration sous serment, ou dans les Etats où un tel serment n'existe pas, par une déclaration solennelle faite par l'intéressé devant l'autorité judiciaire ou administrative compétente, un notaire ou un organisme professionnel qualifié du pays\", \"Si les documents fournis par le candidat ne sont pas établis en langue française, ils doivent être accompagnés d'une traduction en français, certifiée conforme à l'original par un traducteur assermenté\"]}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"VETOUR38-11.10.18\", \"CONDITIONS_REMISE_OFFRES\": \"Les plis seront remis uniquement par voie électronique via la plateforme de dématérialisation du pouvoir adjudicateur : www.marches-securises.fr.\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"L'accord-cadre est conclu pour une période d'un an à compter de sa date de notification au titulaire. Les délais d'exécution des prestations sont précisés au sein de chaque bon de commande.Vendée Expansion pourra renouveler le présent marché 3 fois, pour des périodes équivalentes, par reconduction tacite. Dans le cas où le pouvoir adjudicateur ne souhaiterait pas reconduire l'accord-cadre, il devra en informer le titulaire par tout moyen permettant de donner date certaine au minimum 2 mois avant la date anniversaire de l'accord-cadre.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal de Grande Instance de Rennes\", \"ADRESSE\": \"Cité judiciaire - 7 rue Pierre Abélard - CS 73127\", \"CP\": \"35031\", \"VILLE\": \"Rennes\"}}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-150770"
+  },
+  {
+   "idweb": "18-144659",
+   "id": "18_144659",
+   "contractfolderid": null,
+   "objet": "acquisiton et installation de mobilier et matériel de sport",
+   "filename": "BOAMP-J-AO_2018_298003",
+   "famille": "JOUE",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-10-25",
+   "datefindiffusion": "2018-11-29",
+   "datelimitereponse": null,
+   "nomacheteur": "Ville de Nantes",
+   "titulaire": null,
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "113"
+   ],
+   "dc": [
+    "113"
+   ],
+   "descripteur_libelle": [
+    "Equipement sportif"
+   ],
+   "type_marche": [
+    "FOURNITURES"
+   ],
+   "type_marche_facette": [
+    "Fournitures"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-144659\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-144659.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-10-25\", \"DATE_FIN_DIFFUSION\": \"2018-11-29\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"113\", \"LIBELLE\": \"Equipement sportif\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"acquisiton et installation de mobilier et matériel de sport\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Ville de Nantes\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"2 rue de l'hôtel de Ville\", \"CP\": \"44094\", \"VILLE\": \"Nantes cedex 1\", \"MEL\": \"laurence.jouneau@nantesmetropole.fr\", \"URL\": \"https://nantes.fr\", \"URL_PROFIL_ACHETEUR\": \"https://marchespublics.nantesmetropole.fr\", \"URL_PARTICIPATION\": \"https://marchespublics.nantesmetropole.fr\", \"URL_DOCUMENT\": \"https://marchespublics.nantesmetropole.fr\", \"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Acquisition et installation de mobiliers et matériels de sport\", \"REF_MARCHE\": \"1831A004\", \"TYPE_MARCHE\": {\"FOURNITURES\": \"\"}, \"OBJET_COMPLET\": \"Le présent marché de fournitures a pour objet l'acquisition et l'installation de mobiliers et matériels de sport.L'exécution des prestations aura lieu sur Nantes et son agglomération.Ce marché prend la forme dun accord cadre mono-attributaire donnant lieu à lémission de bon de commande.La présente procédure formalisée est soumise aux dispositions des articles25 I 1°, et 66 à 68 du décret no2016-360relatifs aux marchés publics.Les prestations sont réparties en 7 lots.L'accord cadre est conclu sans seuil minimum et maximum pour 4 ans\", \"CPV\": {\"PRINCIPAL\": \"37400000\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_TOUS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Buts et poteaux\", \"DESCRIPTION\": \"Buts et poteaux\", \"CPV\": {\"PRINCIPAL\": \"37400000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Mobiliers et matériels de gymnastique\", \"DESCRIPTION\": \"Mobiliers et matériels de gymnastique\", \"CPV\": {\"PRINCIPAL\": \"37400000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Mobiliers et matériels de sports de combat\", \"DESCRIPTION\": \"Mobiliers et matériels de sports de combat\", \"CPV\": [{\"PRINCIPAL\": \"37400000\"}, {\"PRINCIPAL\": \"37430000\"}], \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"4\", \"INTITULE\": \"Mobiliers et matériels de musculation\", \"DESCRIPTION\": \"Mobiliers et matériels de musculation\", \"CPV\": [{\"PRINCIPAL\": \"37400000\"}, {\"PRINCIPAL\": \"37440000\"}], \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"5\", \"INTITULE\": \"Filets pour mobiliers sportifs et filets de protection\", \"DESCRIPTION\": \"Filets pour mobiliers sportifs et filets de protection\", \"CPV\": {\"PRINCIPAL\": \"37400000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"6\", \"INTITULE\": \"Matériels d'animation\", \"DESCRIPTION\": \"Matériels d'animation\", \"CPV\": [{\"PRINCIPAL\": \"37400000\"}, {\"PRINCIPAL\": \"37450000\"}], \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"7\", \"INTITULE\": \"Matériels de piscine\", \"DESCRIPTION\": \"Matériels de piscine\", \"CPV\": {\"PRINCIPAL\": \"37400000\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"DUREE_MOIS\": \"48\", \"RENOUVELLEMENT_NON\": \"\", \"VARIANTES_NON\": \"\", \"OPTIONS_NON\": \"\", \"CATALOGUE_ELECTRONIQUE_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"NB_CANDIDATS\": {\"REDUCTION_PROGRESSIVE_NON\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_NON\": \"\", \"SAD_NON\": \"\", \"SAD_AUTRES_ACHETEURS_NON\": \"\"}, \"ATTRIB_POUVOIR_ADJUDICATEUR_SANS_NEGOCIATION_NON\": \"\", \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"MARCHE_PERIODIQUE_OUI\": \"\"}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-11-29T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"5\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"PARTICIPATION_ELECTRONIQUE_OUI\": \"\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"SITUATION_JURIDIQUE\": \"Les renseignements concernant la situation juridique de lentreprise : Lettre de candidature (imprimé DC1) que la candidature soit présentée à titre individuel ou en groupement\", \"CAP_ECO_MARCHE_NON\": \"\", \"CAP_ECO\": \"Les renseignements concernant la capacité économique et financière de lentreprise : Déclaration concernant le chiffre d'affaires global du candidat et, le cas échéant, le chiffre d'affaires du domained'activité faisant l'objet du marché public, portant au maximum sur les trois derniers exercices disponibles enfonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesureoù les informations sur ces chiffres d'affaires sont disponibles (imprimé DC2)\", \"CAP_TECH_OFFRE_NON\": \"\", \"CAP_TECH\": \"Les renseignements concernant les références professionnelles, l'aptitude à exercer l'activité et la capacitétechnique de lentreprise : Déclaration indiquant les effectifs moyens annuels du candidat et limportance du personnel dencadrementpour chacune des trois dernières années (en annexe au DC2 si utilisation de ce document et tout documentcomplémentaire) Description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour laréalisation du marché public (en annexe au DC2 si utilisation de ce document et tout documentcomplémentaire) Liste des principales livraisons effectuées ou des principaux services fournis au cours des trois dernièresannées, indiquant le montant, la date et le destinataire public ou privé. Les livraisons et les prestations deservices sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateuréconomique (en annexe au DC2 si utilisation de ce document et tout document complémentaire)\", \"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"INDICATION_OBLIGATOIRE_NOM_QUALIFICATIONS_NON\": \"\", \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"DATE_OUVERTURE_OFFRES\": \"2018-11-29\", \"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"COMMANDE_ELECTRONIQUE_OUI\": \"\", \"FACTURATION_ELECTRONIQUE_OUI\": \"\", \"PAIEMENT_ELECTRONIQUE_OUI\": \"\", \"RENS_COMPLEMENT\": \"La sélection des candidatures et le jugement des offres seront effectués dans le respect des principes fondamentaux de la commande publique. Les critères intervenant pour la sélection des candidatures sont les suivants: - laptitude à exercer l'activité professionnelle, - la capacité économique et financière, - les capacités techniques et professionnelles Lexécution des présents accords cadres prendra effet à compter du 1er janvier 2019, ou sils nétaient pas notifiés avantcette date, à compter de la date leur notification pour une durée de quatre ans.Remise déchantillons pour les lot 5, 6 et 7Une remise déchantillons est à prévoir avant la date limite de remise des offres à ladresse suivante :NANTIL Bat BDirection des Sports - Mme CHABROUX1er étage gauche3 rue Célestin Freinet44400 NANTESElle doit intervenir avant la date limite de remise des offres.- Renseignements techniques :Direction des SportsMme Chabroux ChristèleTéléphone : 02 40 41 93 39Courriel : christele.chabroux@nantesmetropole.frTransmission obligatoire des plis par voie électroniqueLes réponses des opérateurs économiques doivent être obligatoirement transmises par voie dématérialisée, cest àdire déposées sur le profil acheteur à ladresse suivante :https://marchespublics.nantesmetropole.fr. Date d'envoi du présent avis au JOUE et au BOAMP : 23 octobre 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"RENSEIGNEMENTS\": \"\"}, \"DENOMINATION\": \"Ville de Nantes\", \"ADRESSE\": \"2 rue de l'hôtel de Ville - Service marchés publics\", \"CP\": \"44094\", \"VILLE\": \"Nantes cedex 01\", \"CODE_NUTS\": \"FRG01\", \"TEL\": \"(+33) 2-40-41-51-17\", \"MEL\": \"laurence.jouneau@nantesmetropole.fr\", \"URL\": \"https://nantesmetropole.fr\"}, {\"TYPE\": {\"ENVOYER_OFFRES\": \"\"}, \"DENOMINATION\": \"Ville de Nantes\", \"ADRESSE\": \"2 rue de l'hôtel de Ville\", \"CP\": \"44094\", \"VILLE\": \"Nantes cedex 1\", \"CODE_NUTS\": \"FRG01\", \"MEL\": \"laurence.jouneau@nantesmetropole.fr\", \"URL\": \"https://marchespublics.nantesmetropole.fr\"}, {\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"Nantes Métropole\", \"ADRESSE\": \"2 cours du champ de mars\", \"CP\": \"44923\", \"VILLE\": \"Nantes cedex 9\", \"CODE_NUTS\": \"FRG01\", \"MEL\": \"laurence.jouneau@nantesmetropole.fr\", \"URL\": \"https://nantesmetropole.fr\"}, {\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette - BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes Cedex 01\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6 allée de l'île Gloriette\", \"CP\": \"44041\", \"VILLE\": \"Nantes cedex 01\", \"MEL\": \"greffe.ta.nantes@juradm.fr\"}]}}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-144659"
   },
   {
    "idweb": "18-148731",
@@ -3532,67 +3532,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-150831"
   },
   {
-   "idweb": "18-149667",
-   "id": "18_149667",
-   "contractfolderid": null,
-   "objet": "Assurance des véhicules et des risques annexes",
-   "filename": "BOAMP-J-IC-AA_2018_299004",
-   "famille": "JOUE",
-   "code_departement": [
-    "44"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés européens",
-   "dateparution": "2018-10-26",
-   "datefindiffusion": "2018-12-24",
-   "datelimitereponse": null,
-   "nomacheteur": "Commune de La Baule",
-   "titulaire": [
-    "SMACL"
-   ],
-   "perimetre": "DIRECTIVE-24",
-   "type_procedure": "OUVERT",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Ouverte",
-   "procedure_categorise": "OUVERT/",
-   "nature": "ATTRIBUTION",
-   "sousnature": "STANDARD",
-   "nature_libelle": "Résultat de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "attribution/standard",
-   "nature_categorise_libelle": "Résultat de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "20"
-   ],
-   "dc": [
-    "20"
-   ],
-   "descripteur_libelle": [
-    "Assurance"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "",
-    "10",
-    "6"
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-149667\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-149667.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-10-26\", \"DATE_FIN_DIFFUSION\": \"2018-12-24\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"20\", \"LIBELLE\": \"Assurance\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Assurance des véhicules et des risques annexes\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Commune de La Baule\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"7, avenue Olivier Guichard BP 171\", \"CP\": \"44504\", \"VILLE\": \"LA BAULE CEDEX\", \"TEL\": \"(+33) 2-51-75-77-70\", \"MEL\": \"marches-publics@mairie-labaule.fr\", \"URL\": \"http://achatpublic.com\", \"URL_PROFIL_ACHETEUR\": \"http://achatpublic.com\", \"URL_INFORMATION\": \"http://www.achatpublic.com\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Assurance des véhicules et des risques annexes\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Assurance des véhicules et des risques annexes\", \"CPV\": {\"PRINCIPAL\": \"66514110\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"280000.00\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Assurance des véhicules et des risques annexes\", \"CPV\": {\"PRINCIPAL\": \"66514110\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"55.0\", \"#text\": \"Valeur technique jugée (article 8 du règlement de la consultation\"}, {\"@POIDS\": \"5.0\", \"#text\": \"Assistance technique\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"40.0\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"18027\", \"INTITULE\": \"Assurance des véhicules et des risques annexes\", \"TITULAIRE\": {\"DENOMINATION\": \"SMACL\", \"ADRESSE\": \"141, avenue Salvador Allende\", \"CP\": \"79031\", \"VILLE\": \"NIORT CEDEX\", \"CODE_NUTS\": \"FR\", \"TEL\": \"(+33) -49-32-56-56\", \"FAX\": \"(+33) -49-73-47-20\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-10-23\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"42568.28\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La consultation du(des) contrat(s) peut être effectuée à l'adresse de l'organisme acheteur. Les tiers justifiant d'un intérêt lésé peuvent exercer un recours de pleine juridiction devant le juge administratif dans un délai de deux mois à compter de la publication du présent avis.. Date d'envoi du présent avis au JOUE et au BOAMP : 24 octobre 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette Cedex 1 BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr/\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette Cedex 1 BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr/\"}]}}, \"ANNEXE_D1\": \"\"}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-149667"
-  },
-  {
    "idweb": "18-151055",
    "id": "18_151055",
    "contractfolderid": null,
@@ -3709,6 +3648,67 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-151425\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-151425.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-10-26\", \"DATE_LIMITE_REPONSE\": \"2018-11-20T17:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2018-11-20\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"86\", \"LIBELLE\": \"Déménagement\"}}, \"DEP_PUBLICATION\": \"72\", \"RESUME_OBJET\": \"La réalisation de déménagements et transports de mobiliers matériels courants pour Le Mans Métropole et la Ville du Mans - Année 2019 renouvelable en 2020 - 2021 et 2022\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Le Mans Métropole - Communauté Urbaine\", \"CORRESPONDANT\": \"Le Président\", \"ADRESSE\": \"Pôle Marchés et Achats Publics, CS 40010 - 16 avenue François Mitterrand - Le Condorcet, Le Condorcet\", \"CP\": \"72039\", \"VILLE\": \"Le Mans\", \"TEL\": \"02-43-47-37-31\", \"FAX\": \"02-43-47-37-40\", \"MEL\": \"marches@lemans.fr\", \"URL\": \"http://www.lemans.fr\", \"URL_PROFIL_ACHETEUR\": \"http://www.sarthe-marchespublics.fr\"}, \"TYPE_ORGANISME\": {\"EPT\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"La réalisation de déménagements et transports de mobiliers matériels courants pour Le Mans Métropole et la Ville du Mans - Année 2019 renouvelable en 2020 - 2021 et 2022\", \"CPV\": [{\"PRINCIPAL\": \"60100000\"}, {\"PRINCIPAL\": \"63110000\"}], \"LIEU_EXEC_LIVR\": {\"CODE_NUTS\": \"FRG04\"}, \"AMP_NON\": \"\", \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\", \"DUREE_MOIS\": \"12\", \"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"200000\"}}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"Cette consultation s'effectue dans le cadre d'un groupement de commandes (article 28 de l'Ordonnance no2015-899 du 23 juillet 2015) avec les organismes suivants : Ville du Mans. Le coordonnateur du groupement est Le Mans Métropole.Elle aboutira à la conclusion de deux accords cadre (un par collectivité) à bons de commande avec maximum annuel de 25 000 euros HT.L'accord-cadre sera conclu pour une période initiale allant du 1er janvier 2019 au 31 décembre 2019, reconductible 3 fois\", \"QUANTITE\": \"Les prestations comprennent notamment :- montage, démontage d'équipements puis manutention et transferts de mobiliers vides ou pleins, d'équipements de bureaux dans un même site ou d'un site à un autre- manutention et transferts de mobiliers ou d'équipements de bureaux vers le site de la Chauvinière ou ils seront stockés voire vers une déchetterie communautaire- transport d'équipements en dehors du périmètre de Le Mans Métropole\", \"OPTIONS\": {\"OUI\": \"\", \"DESCRIPTION\": \"Des modifications, des contrats similaires, des contrats complémentaires pourront être conclus au cours de l'exécution du contrat dans le respect des dispositions du décret 2016-360 du 25 mars 2016 et du Code Général des Collectivités Territoriales\"}, \"RECONDUCTIONS\": {\"NB_RECONDUCTIONS\": \"3\"}}, \"DUREE_DELAI\": {\"DUREE_MOIS\": \"12\"}, \"DIV_EN_LOTS\": {\"NON\": \"\"}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_CCTP\": \"\"}, \"MARCHE_PERIODIQUE_OUI\": {\"CALENDRIER_PROCHAINS_AVIS\": \"Dernier semestre 2022\"}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2018-11-20T17:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_MOIS\": \"4\"}}, \"CONDITION_RELATIVE_MARCHE\": {\"FORME_JURIDIQUE\": \"Forme non imposée. Mandataire solidaire\", \"AUTRES_CONDITIONS_PART_NON\": \"\", \"UNITE_MONETAIRE_EUR\": \"\", \"LANGUES\": {\"LANGUE\": \"fr\"}}, \"CONDITION_PARTICIPATION\": {\"MARCHE_RESERVE_NON\": \"\", \"PRESTATION_RESERVEE_NON\": \"\", \"JUSTIFICATIFS_CANDIDAT\": {\"P\": \"Renseignements concernant la situation juridique de l'entreprise :- Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas d'interdiction de soumissionnerRenseignements concernant la capacité économique et financière de l'entreprise :- Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du contrat, réalisées au cours des trois derniers exercices disponiblesRenseignements concernant les références professionnelles et la capacité technique de l'entreprise :- Liste des principales prestations effectuées au cours des trois dernières années,indiquant le montant, la date et le destinataire. Elles sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration du candidat\"}, \"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"2018_0119_FCS_BL\", \"DOCUMENT_PAYANT_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Les dépôts de plis doivent être impérativement remis par voie dématérialisée.Cette consultation bénéficie du Service DUME.Pour retrouver cet avis intégral, accéder au DCE, poser des questions à l'acheteur, déposer un pli, allez sur http://www.sarthe-marchespublics.frLe DCE peut être téléchargé jusqu'au jour de la date et heure limite de remise des offres à l'adresse suivante http://www.sarthe-marchespublics.fr. Seules les offres électroniques sont admises ; tout autre mode de transmission conduirait à un rejet de l'offre. Les modalités de transmission électronique des plis sont définies dans le règlement de la consultation.Critères de sélection candidats 1 Aptitude à exercer l'activité professionnelle - 2 Capacités techniques et professionnelles - 3 Capacité économique et financièreLe pouvoir adjudicateur se réserve la possibilité d'attribuer les marchés sur la base des offres initiales sans négociation.Renseignements administratifs : B. Labbé 02.43.47.48.02Renseignements techniques :D. Poteloin 02.43.47.46.16\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité Consultatif de règlement amiable des différends ou litiges relatifs aux marchés publics\", \"ADRESSE\": \"22 mail Pablo Picasso Cedex 1 BP 24209\", \"CP\": \"44042\", \"VILLE\": \"Nantes\", \"TEL\": \"02-53-46-79-83\", \"FAX\": \"02-53-46-79-79\", \"MEL\": \"paysdl.ccira@direccte.gouv.fr\", \"URL\": \"http://pays-de-la-loire.direccte.gouv.fr\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile-Gloriette BP 24111\", \"CP\": \"44041\", \"VILLE\": \"Nantes\", \"TEL\": \"02-40-99-46-00\", \"FAX\": \"02-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://nantes.tribunal-administratif.fr\"}]}}}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-151425"
+  },
+  {
+   "idweb": "18-149667",
+   "id": "18_149667",
+   "contractfolderid": null,
+   "objet": "Assurance des véhicules et des risques annexes",
+   "filename": "BOAMP-J-IC-AA_2018_299004",
+   "famille": "JOUE",
+   "code_departement": [
+    "44"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés européens",
+   "dateparution": "2018-10-26",
+   "datefindiffusion": "2018-12-24",
+   "datelimitereponse": null,
+   "nomacheteur": "Commune de La Baule",
+   "titulaire": [
+    "SMACL"
+   ],
+   "perimetre": "DIRECTIVE-24",
+   "type_procedure": "OUVERT",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Ouverte",
+   "procedure_categorise": "OUVERT/",
+   "nature": "ATTRIBUTION",
+   "sousnature": "STANDARD",
+   "nature_libelle": "Résultat de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "attribution/standard",
+   "nature_categorise_libelle": "Résultat de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "20"
+   ],
+   "dc": [
+    "20"
+   ],
+   "descripteur_libelle": [
+    "Assurance"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "",
+    "10",
+    "6"
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"18-149667\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"18-149667.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2018-10-26\", \"DATE_FIN_DIFFUSION\": \"2018-12-24\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"20\", \"LIBELLE\": \"Assurance\"}}, \"DEP_PUBLICATION\": \"44\", \"RESUME_OBJET\": \"Assurance des véhicules et des risques annexes\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Commune de La Baule\", \"ADJUDICATEUR_NUTS\": \"FRG01\", \"ADRESSE\": \"7, avenue Olivier Guichard BP 171\", \"CP\": \"44504\", \"VILLE\": \"LA BAULE CEDEX\", \"TEL\": \"(+33) 2-51-75-77-70\", \"MEL\": \"marches-publics@mairie-labaule.fr\", \"URL\": \"http://achatpublic.com\", \"URL_PROFIL_ACHETEUR\": \"http://achatpublic.com\", \"URL_INFORMATION\": \"http://www.achatpublic.com\", \"AGIT_POUR_AUTRE_COMPTE_NON\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Assurance des véhicules et des risques annexes\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Assurance des véhicules et des risques annexes\", \"CPV\": {\"PRINCIPAL\": \"66514110\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"280000.00\"}}, \"DIV_EN_LOTS\": {\"NON\": \"\"}, \"LOTS\": {\"LOT\": {\"DESCRIPTION\": \"Assurance des véhicules et des risques annexes\", \"CPV\": {\"PRINCIPAL\": \"66514110\"}, \"CODE_NUTS\": \"FRG01\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"55.0\", \"#text\": \"Valeur technique jugée (article 8 du règlement de la consultation\"}, {\"@POIDS\": \"5.0\", \"#text\": \"Assistance technique\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"40.0\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"18027\", \"INTITULE\": \"Assurance des véhicules et des risques annexes\", \"TITULAIRE\": {\"DENOMINATION\": \"SMACL\", \"ADRESSE\": \"141, avenue Salvador Allende\", \"CP\": \"79031\", \"VILLE\": \"NIORT CEDEX\", \"CODE_NUTS\": \"FR\", \"TEL\": \"(+33) -49-32-56-56\", \"FAX\": \"(+33) -49-73-47-20\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2018-10-23\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"42568.28\"}, \"SOUSTRAITANCE_NON\": \"\"}}}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"La consultation du(des) contrat(s) peut être effectuée à l'adresse de l'organisme acheteur. Les tiers justifiant d'un intérêt lésé peuvent exercer un recours de pleine juridiction devant le juge administratif dans un délai de deux mois à compter de la publication du présent avis.. Date d'envoi du présent avis au JOUE et au BOAMP : 24 octobre 2018.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette Cedex 1 BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr/\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Tribunal Administratif de Nantes\", \"ADRESSE\": \"6, allée de l'Ile Gloriette Cedex 1 BP 24111\", \"CP\": \"44041\", \"VILLE\": \"NANTES\", \"TEL\": \"(+33) 2-40-99-46-00\", \"FAX\": \"(+33) 2-40-99-46-58\", \"MEL\": \"greffe.ta-nantes@juradm.fr\", \"URL\": \"http://www.nantes.tribunal-administratif.fr/\"}]}}, \"ANNEXE_D1\": \"\"}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:18-149667"
   },
   {
    "idweb": "18-151142",

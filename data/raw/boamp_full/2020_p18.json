@@ -4463,65 +4463,6 @@
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-89418"
   },
   {
-   "idweb": "20-89297",
-   "id": "20_89297",
-   "contractfolderid": null,
-   "objet": "Accord-cadre de prestations de services de télécommunications fixe et mobile pour la ville le CCAS de Saint-Barthélemy-d'Anjou",
-   "filename": "BOAMP-N-AO_2020_192011",
-   "famille": "FNS",
-   "code_departement": [
-    "49"
-   ],
-   "code_departement_prestation": null,
-   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
-   "dateparution": "2020-07-10",
-   "datefindiffusion": "2020-08-06",
-   "datelimitereponse": "2020-07-30T11:00:00+00:00",
-   "nomacheteur": "Saint Barthélemy d'Anjou",
-   "titulaire": null,
-   "perimetre": "CMP-2006",
-   "type_procedure": "PROCEDURE_ADAPTE",
-   "soustype_procedure": null,
-   "procedure_libelle": "Procédure Adaptée",
-   "procedure_categorise": "PROCEDURE_ADAPTE/",
-   "nature": "APPEL_OFFRE",
-   "sousnature": null,
-   "nature_libelle": "Avis de marché",
-   "sousnature_libelle": null,
-   "nature_categorise": "appeloffre/standard",
-   "nature_categorise_libelle": "Avis de marché/",
-   "criteres": null,
-   "marche_public_simplifie": null,
-   "marche_public_simplifie_label": null,
-   "etat": "INITIAL",
-   "descripteur_code": [
-    "339"
-   ],
-   "dc": [
-    "339"
-   ],
-   "descripteur_libelle": [
-    "Matériel de téléphonie"
-   ],
-   "type_marche": [
-    "SERVICES"
-   ],
-   "type_marche_facette": [
-    "Services"
-   ],
-   "type_avis": [
-    "5",
-    "1",
-    ""
-   ],
-   "annonce_lie": null,
-   "annonces_anterieures": null,
-   "source_schema": "Boamp_v230.xsd",
-   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-89297\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"20-89297.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-07-10\", \"DATE_LIMITE_REPONSE\": \"2020-07-30T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2020-08-06\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"339\", \"LIBELLE\": \"Matériel de téléphonie\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Accord-cadre de prestations de services de télécommunications fixe et mobile pour la ville le CCAS de Saint-Barthélemy-d'Anjou\"}}",
-   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Saint Barthélemy d'Anjou\", \"CORRESPONDANT\": \"Monsieur le Maire\", \"ADRESSE\": \"1 rue Jean Gilles CS 40009\", \"CP\": \"49180\", \"VILLE\": \"Saint Barthélemy d'Anjou cedex\", \"TEL\": \"(+33) 2-41-96-82-67\", \"MEL\": \"m.bernhard@ville-stbarth.fr\", \"URL_PROFIL_ACHETEUR\": \"http://alm.marches-securises.fr\"}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"5\"}, \"OBJET_COMPLET\": \"Accord-cadre de prestations de services de télécommunications fixe et mobile pour la ville le CCAS de Saint-Barthélemy-d'Anjou\", \"CPV\": {\"PRINCIPAL\": \"64200000\"}, \"AVIS_CORRESPOND\": {\"AVIS_PERIODIQUE_INDICATIF\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\", \"DUREE_AN\": \"4\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"conclusion d'un accord-cadre de prestations de téléphonie fixe (lot 1) et mobile (lot 2) pour la ville de Saint Barthélémy d'Anjou et le CCAS à compter d'octobre 2020 pour 4 ans\", \"QUANTITE\": \"Accord-cadre de prestations de services de télécommunications fixe et mobile pour la ville le CCAS de Saint-Barthélemy-d'Anjou\"}, \"DUREE_DELAI\": {\"DATE_EXECUTION\": \"2020-10-01\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"téléphonie fixe\", \"DESCRIPTION\": \"téléphonie fixe\", \"CPV\": {\"PRINCIPAL\": \"64200000\"}, \"VALEUR_MIN\": {\"@DEVISE\": \"EUR\", \"#text\": \"1\"}, \"VALEUR_MAX\": {\"@DEVISE\": \"EUR\", \"#text\": \"25000\"}, \"DUREE_MOIS\": \"48\"}, {\"NUM\": \"2\", \"INTITULE\": \"téléphonie mobile\", \"DESCRIPTION\": \"télephonie mobile\", \"CPV\": {\"PRINCIPAL\": \"64200000\"}, \"VALEUR_MIN\": {\"@DEVISE\": \"EUR\", \"#text\": \"1\"}, \"VALEUR_MAX\": {\"@DEVISE\": \"EUR\", \"#text\": \"25000\"}, \"DUREE_MOIS\": \"48\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"qualité technique\"}, {\"@POIDS\": \"35\", \"#text\": \"conditions financières\"}, {\"@POIDS\": \"5\", \"#text\": \"délai de déploiement\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2020-07-30T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_PARTICIPATION\": {\"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"télephonie\", \"CONDITIONS_REMISE_OFFRES\": \"offres numériques sur le profil acheteur et envoi de terminal et cartes sim par courrier pour tests de couverture voix et data 4G lot 2 téléphone mobile\", \"DOCUMENT_PAYANT_NON\": \"\"}}",
-   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-89297"
-  },
-  {
    "idweb": "20-87480",
    "id": "20_87480",
    "contractfolderid": null,
@@ -4655,6 +4596,65 @@
    "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-87811\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"ATTRIBUTION\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"MARCHE\": {\"ANNONCE_ANTERIEUR\": {\"REFERENCE\": {\"IDWEB\": \"20-8016\", \"TYPE_AVIS\": {\"FAMILLE\": {\"JOUE\": \"\"}, \"PERIMETRE\": {\"DIRECTIVE-24\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": {\"STANDARD\": \"\"}}, \"STATUT\": {\"INITIAL\": \"\"}}, \"DATE_ENVOI\": \"2020-01-17\"}, \"REFERENCE_PUBLICATION\": [{\"PUBLICATION_ELECTRONIQUE\": {\"DATE_PUBLICATION\": \"2020-01-22\", \"DATE_FIN_DIFFUSION\": \"2020-02-18\"}}, {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2020\", \"NUM_PARUTION\": \"015\", \"NUM_ANNONCE\": \"031132\", \"DATE_PUBLICATION\": \"2020-01-22\"}}]}}, \"NOM_HTML\": \"20-87811.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-07-10\", \"DATE_FIN_DIFFUSION\": \"2020-09-10\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"338\", \"LIBELLE\": \"Télécommunications\"}}, \"DEP_PUBLICATION\": [\"35\", \"44\", \"56\"], \"RESUME_OBJET\": \"Services de télécommunications\"}}",
    "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"COMMUNAUTE COMMUNES PAYS DE REDON\", \"ADJUDICATEUR_NUTS\": \"FRH03\", \"ADRESSE\": \"3 rue Charles Sillard\", \"CP\": \"35600\", \"VILLE\": \"Redon\", \"TEL\": \"(+33) 2-99-70-34-34\", \"MEL\": \"contact@redon-agglomeration.bzh\", \"URL\": \"http://Redon-agglomeration.bzh\", \"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\", \"ORGANISME_ACHETEUR_CENTRAL_NON\": \"\"}, \"TYPE_POUVOIR_ADJUDICATEUR\": {\"AUTOTRITE_REGIONAL\": \"\"}, \"ACTIVITE_PRINCIPALE\": {\"POUVOIR_ADJUDICATEUR\": {\"ACT_SERV_ADM_PUB\": \"\"}}, \"OBJET\": {\"TITRE_MARCHE\": \"Services de télécommunications\", \"REF_MARCHE\": \"RA-AOO2020-02\", \"TYPE_MARCHE\": {\"SERVICE\": \"\"}, \"OBJET_COMPLET\": \"Prestations de services de télécommunications avec la fourniture limitée d'accessoires.\", \"CPV\": {\"PRINCIPAL\": \"64200000\"}, \"CARACTERISTIQUES\": {\"VALEUR\": {\"@DEVISE\": \"EUR\", \"#text\": \"279988.27\"}}, \"DIV_EN_LOTS\": {\"OUI\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"Téléphonie fixe\", \"DESCRIPTION\": \"Téléphonie fixe\", \"CPV\": [{\"PRINCIPAL\": \"64212000\"}, {\"PRINCIPAL\": \"64221000\"}, {\"PRINCIPAL\": \"72400000\"}], \"CODE_NUTS\": \"FRH03\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"Valeur technique\"}, {\"@POIDS\": \"10\", \"#text\": \"Délai\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"30\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"2\", \"INTITULE\": \"Téléphonie mobile\", \"DESCRIPTION\": \"Téléphonie mobile\", \"CPV\": [{\"PRINCIPAL\": \"64212000\"}, {\"PRINCIPAL\": \"64221000\"}, {\"PRINCIPAL\": \"72400000\"}], \"CODE_NUTS\": \"FRH03\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"Technique\"}, {\"@POIDS\": \"10\", \"#text\": \"Délai\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"30\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"3\", \"INTITULE\": \"Accès à Internet, interconnexion des sites et téléphonie fixe sur IP\", \"DESCRIPTION\": \"Accès à Internet, interconnexion des sites et téléphonie fixe sur IP\", \"CPV\": [{\"PRINCIPAL\": \"64212000\"}, {\"PRINCIPAL\": \"64221000\"}, {\"PRINCIPAL\": \"72400000\"}], \"CODE_NUTS\": \"FRH03\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"Technique\"}, {\"@POIDS\": \"10\", \"#text\": \"Délai\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"30\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}, {\"NUM\": \"4\", \"INTITULE\": \"Accès à Internet grand public\", \"DESCRIPTION\": \"Accès à Internet grand public\", \"CPV\": [{\"PRINCIPAL\": \"64212000\"}, {\"PRINCIPAL\": \"64221000\"}, {\"PRINCIPAL\": \"72400000\"}], \"CODE_NUTS\": \"FRH03\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_QUALITE\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"Technique\"}, {\"@POIDS\": \"10\", \"#text\": \"Délai\"}]}, \"CRITERES_PRIX\": {\"POIDS\": \"30\"}}, \"OPTIONS_NON\": \"\", \"FONDS_COMMUNAUTAIRES_NON\": \"\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"OUVERT\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE_OUI\": \"\"}, \"ENCHERE_ELECTRONIQUE_NON\": \"\", \"AMP_OUI\": \"\", \"CRITERES_ATTRIBUTION\": {\"CRITERES_PRIX\": \"\"}}, \"PUBLICATION_ANTERIEURE\": {\"OUI\": \"\", \"REFERENCE_PUBLICATION\": {\"PUBLICATION_JOUE\": {\"ANNEE\": \"2020\", \"NUM_PARUTION\": \"015\", \"NUM_ANNONCE\": \"031132\", \"DATE_PUBLICATION\": \"2020-01-22\"}}}, \"ATTRIBUTION\": {\"ATTRIBUE_PAR_LOTS_MARCHES\": \"\", \"DECISION\": [{\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"20.028\", \"NUM_LOT\": \"1\", \"INTITULE\": \"Service de télécommunications - téléphonie fixe\", \"TITULAIRE\": {\"DENOMINATION\": \"SFR\", \"ADRESSE\": \"16 RUE GENERAL ALAIN DE BOISSIEU\", \"CP\": \"75015\", \"VILLE\": \"PARIS\", \"CODE_NUTS\": \"FR101\", \"PAYS\": \"FR\", \"URL\": \"https://www.sfr.fr\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2020-03-27\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"125294.35\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"20.029\", \"NUM_LOT\": \"2\", \"INTITULE\": \"Services de télécommunication - Téléphonie mobile\", \"TITULAIRE\": {\"DENOMINATION\": \"BOUYGUES TELECOM\", \"ADRESSE\": \"37/39 RUE BOISSIERE\", \"CP\": \"75116\", \"VILLE\": \"PARIS\", \"CODE_NUTS\": \"FR101\", \"PAYS\": \"FR\", \"URL\": \"https://bouyguestelecom.fr\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2020-03-27\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"71512.32\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"20.030\", \"NUM_LOT\": \"3\", \"INTITULE\": \"Services de télécommunications - Accès à internet, interconnexion des sites et téléphonie fixe sur IP\", \"TITULAIRE\": {\"DENOMINATION\": \"SFR\", \"ADRESSE\": \"16 Rue du Général Alain de Boissieu\", \"CP\": \"75015\", \"VILLE\": \"PARIS\", \"CODE_NUTS\": \"FR101\", \"PAYS\": \"FR\", \"URL\": \"https://www.sfr.fr\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2020-03-27\", \"NB_OFFRE_RECU\": \"4\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"73581.60\"}, \"SOUSTRAITANCE_NON\": \"\"}}, {\"ATTRIBUE\": \"\", \"NUM_MARCHE\": \"20.031\", \"NUM_LOT\": \"4\", \"INTITULE\": \"Services de télécommunications - Accès internet grand public\", \"TITULAIRE\": {\"DENOMINATION\": \"ORANGE\", \"ADRESSE\": \"78 Rue Olivier de Serres\", \"CP\": \"75015\", \"VILLE\": \"PARIS\", \"CODE_NUTS\": \"FR101\", \"PAYS\": \"FR\", \"URL\": \"https://www.orange.fr\", \"PME_NON\": \"\"}, \"RENSEIGNEMENT\": {\"DATE_ATTRIBUTION\": \"2020-03-27\", \"NB_OFFRE_RECU\": \"2\", \"MONTANT\": {\"@DEVISE\": \"EUR\", \"#text\": \"9600\"}, \"SOUSTRAITANCE_NON\": \"\"}}]}, \"CONDITION_ADMINISTRATIVE\": {\"ENVOI_ELECTRONIQUE_AVEC_OUTIL_NON\": \"\"}, \"RENSEIGNEMENTS_COMPLEMENTAIRES\": {\"RENS_COMPLEMENT\": \"Date d'envoi du présent avis au JOUE et au BOAMP : 8 juillet 2020.\", \"ADRESSES_COMPLEMENTAIRES\": {\"ADRESSE\": [{\"TYPE\": {\"INSTANCE_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Rennes\", \"ADRESSE\": \"Hôtel de Bizien, 3 contour de la Motte\", \"CP\": \"35044\", \"VILLE\": \"Rennes cedex\", \"TEL\": \"(+33) 2-23-21-28-28\", \"FAX\": \"(+33) 2-99-63-56-84\", \"MEL\": \"greffe.ta-rennes@juradm.fr\", \"URL\": \"http://Rennes.tribunal-administratif.fr/\"}, {\"TYPE\": {\"ORGANE_MEDIATION\": \"\"}, \"DENOMINATION\": \"Comité consultatif interrégional pour le règlement amiable des marchés publics\", \"ADRESSE\": \"6 quai Ceineray\", \"CP\": \"44000\", \"VILLE\": \"Nantes\"}, {\"TYPE\": {\"RENS_RECOURS\": \"\"}, \"DENOMINATION\": \"Tribunal administratif de Rennes\", \"ADRESSE\": \"Hôtel de Bizien, 3 contour de la Motte\", \"CP\": \"35044\", \"VILLE\": \"Rennes cedex\", \"TEL\": \"(+33) 2-23-21-28-28\", \"FAX\": \"(+33) 2-99-63-56-84\", \"MEL\": \"greffe.ta-rennes@juradm.fr\"}, {\"TYPE\": {\"AGIT_POUR_AUTRE_COMPTE_OUI\": \"\"}, \"DENOMINATION\": \"Ville de Redon\", \"ADRESSE\": \"18 place Saint Sauveur\", \"CP\": \"35601\", \"VILLE\": \"Redon\", \"CODE_NUTS\": \"FRH03\", \"MEL\": \"contact@mairie-redon.fr\", \"URL\": \"http://www.redon.fr\"}]}}, \"ANNEXE_D1\": \"\"}",
    "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-87811"
+  },
+  {
+   "idweb": "20-89297",
+   "id": "20_89297",
+   "contractfolderid": null,
+   "objet": "Accord-cadre de prestations de services de télécommunications fixe et mobile pour la ville le CCAS de Saint-Barthélemy-d'Anjou",
+   "filename": "BOAMP-N-AO_2020_192011",
+   "famille": "FNS",
+   "code_departement": [
+    "49"
+   ],
+   "code_departement_prestation": null,
+   "famille_libelle": "Marchés entre 90 k€ et seuils européens",
+   "dateparution": "2020-07-10",
+   "datefindiffusion": "2020-08-06",
+   "datelimitereponse": "2020-07-30T11:00:00+00:00",
+   "nomacheteur": "Saint Barthélemy d'Anjou",
+   "titulaire": null,
+   "perimetre": "CMP-2006",
+   "type_procedure": "PROCEDURE_ADAPTE",
+   "soustype_procedure": null,
+   "procedure_libelle": "Procédure Adaptée",
+   "procedure_categorise": "PROCEDURE_ADAPTE/",
+   "nature": "APPEL_OFFRE",
+   "sousnature": null,
+   "nature_libelle": "Avis de marché",
+   "sousnature_libelle": null,
+   "nature_categorise": "appeloffre/standard",
+   "nature_categorise_libelle": "Avis de marché/",
+   "criteres": null,
+   "marche_public_simplifie": null,
+   "marche_public_simplifie_label": null,
+   "etat": "INITIAL",
+   "descripteur_code": [
+    "339"
+   ],
+   "dc": [
+    "339"
+   ],
+   "descripteur_libelle": [
+    "Matériel de téléphonie"
+   ],
+   "type_marche": [
+    "SERVICES"
+   ],
+   "type_marche_facette": [
+    "Services"
+   ],
+   "type_avis": [
+    "5",
+    "1",
+    ""
+   ],
+   "annonce_lie": null,
+   "annonces_anterieures": null,
+   "source_schema": "Boamp_v230.xsd",
+   "gestion": "{\"REFERENCE\": {\"IDWEB\": \"20-89297\", \"TYPE_AVIS\": {\"FAMILLE\": {\"FNS\": \"\"}, \"PERIMETRE\": {\"CMP-2006\": \"\"}, \"NATURE\": {\"APPEL_OFFRE\": \"\"}, \"STATUT\": {\"INITIAL\": \"\"}}}, \"NOM_HTML\": \"20-89297.html\", \"INDEXATION\": {\"DATE_PUBLICATION\": \"2020-07-10\", \"DATE_LIMITE_REPONSE\": \"2020-07-30T12:00:00+01:00\", \"DATE_FIN_DIFFUSION\": \"2020-08-06\", \"DESCRIPTEURS\": {\"DESCRIPTEUR\": {\"CODE\": \"339\", \"LIBELLE\": \"Matériel de téléphonie\"}}, \"DEP_PUBLICATION\": \"49\", \"RESUME_OBJET\": \"Accord-cadre de prestations de services de télécommunications fixe et mobile pour la ville le CCAS de Saint-Barthélemy-d'Anjou\"}}",
+   "donnees": "{\"IDENTITE\": {\"DENOMINATION\": \"Saint Barthélemy d'Anjou\", \"CORRESPONDANT\": \"Monsieur le Maire\", \"ADRESSE\": \"1 rue Jean Gilles CS 40009\", \"CP\": \"49180\", \"VILLE\": \"Saint Barthélemy d'Anjou cedex\", \"TEL\": \"(+33) 2-41-96-82-67\", \"MEL\": \"m.bernhard@ville-stbarth.fr\", \"URL_PROFIL_ACHETEUR\": \"http://alm.marches-securises.fr\"}, \"OBJET\": {\"TYPE_MARCHE\": {\"SERVICE\": \"5\"}, \"OBJET_COMPLET\": \"Accord-cadre de prestations de services de télécommunications fixe et mobile pour la ville le CCAS de Saint-Barthélemy-d'Anjou\", \"CPV\": {\"PRINCIPAL\": \"64200000\"}, \"AVIS_CORRESPOND\": {\"AVIS_PERIODIQUE_INDICATIF\": \"\"}, \"AVIS_IMPLIQUE\": {\"ACCORD_CADRE\": \"\"}, \"ACCORD_CADRE\": {\"UN_SEUL_OPERATEUR\": \"\", \"DUREE_AN\": \"4\"}, \"VARIANTES_NON\": \"\", \"CARACTERISTIQUES\": {\"PRINCIPALES\": \"conclusion d'un accord-cadre de prestations de téléphonie fixe (lot 1) et mobile (lot 2) pour la ville de Saint Barthélémy d'Anjou et le CCAS à compter d'octobre 2020 pour 4 ans\", \"QUANTITE\": \"Accord-cadre de prestations de services de télécommunications fixe et mobile pour la ville le CCAS de Saint-Barthélemy-d'Anjou\"}, \"DUREE_DELAI\": {\"DATE_EXECUTION\": \"2020-10-01\"}, \"DIV_EN_LOTS\": {\"OUI\": \"\", \"OFFRE_PLUSIEURS\": \"\"}, \"LOTS\": {\"LOT\": [{\"NUM\": \"1\", \"INTITULE\": \"téléphonie fixe\", \"DESCRIPTION\": \"téléphonie fixe\", \"CPV\": {\"PRINCIPAL\": \"64200000\"}, \"VALEUR_MIN\": {\"@DEVISE\": \"EUR\", \"#text\": \"1\"}, \"VALEUR_MAX\": {\"@DEVISE\": \"EUR\", \"#text\": \"25000\"}, \"DUREE_MOIS\": \"48\"}, {\"NUM\": \"2\", \"INTITULE\": \"téléphonie mobile\", \"DESCRIPTION\": \"télephonie mobile\", \"CPV\": {\"PRINCIPAL\": \"64200000\"}, \"VALEUR_MIN\": {\"@DEVISE\": \"EUR\", \"#text\": \"1\"}, \"VALEUR_MAX\": {\"@DEVISE\": \"EUR\", \"#text\": \"25000\"}, \"DUREE_MOIS\": \"48\"}]}}, \"PROCEDURE\": {\"TYPE_PROCEDURE\": {\"PROCEDURE_ADAPTE\": \"\"}, \"CRITERES_ATTRIBUTION\": {\"CRITERES_PONDERES\": {\"CRITERE\": [{\"@POIDS\": \"60\", \"#text\": \"qualité technique\"}, {\"@POIDS\": \"35\", \"#text\": \"conditions financières\"}, {\"@POIDS\": \"5\", \"#text\": \"délai de déploiement\"}]}}}, \"CONDITION_DELAI\": {\"RECEPT_OFFRES\": \"2020-07-30T12:00:00+01:00\", \"VALIDITE_OFFRE\": {\"DUREE_JOUR\": \"120\"}}, \"CONDITION_PARTICIPATION\": {\"ELIGIBLE_MPS\": {\"non\": \"\"}}, \"CONDITION_ADMINISTRATIVE\": {\"REFERENCE_MARCHE\": \"télephonie\", \"CONDITIONS_REMISE_OFFRES\": \"offres numériques sur le profil acheteur et envoi de terminal et cartes sim par courrier pour tests de couverture voix et data 4G lot 2 téléphone mobile\", \"DOCUMENT_PAYANT_NON\": \"\"}}",
+   "url_avis": "https://www.boamp.fr/pages/avis/?q=idweb:20-89297"
   },
   {
    "idweb": "20-87245",
