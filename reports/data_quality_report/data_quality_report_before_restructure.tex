@@ -1,0 +1,554 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{ragged2e}
+\usepackage{makecell}
+\usepackage{hyperref}
+\usepackage{xurl}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage{pdflscape}
+
+\geometry{margin=2.1cm, top=2.2cm, bottom=2.3cm}
+\setstretch{1.05}
+\setlength{\parskip}{0.45em}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\setlength{\emergencystretch}{3em}
+
+\definecolor{darkblue}{RGB}{0,51,102}
+\hypersetup{colorlinks=true, linkcolor=darkblue, urlcolor=darkblue}
+
+\newcolumntype{L}[1]{>{\RaggedRight\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{Y}{>{\RaggedRight\arraybackslash}X}
+
+\title{\textbf{Data Quality Report --- BOAMP Renewal Modeling Dataset}\\[0.3em]
+\large Gigalis Internship --- Phase 1 Deliverable L1}
+\author{Internship Project --- Gigalis}
+\date{June 2026}
+
+\begin{document}
+
+\maketitle
+
+\section{Objective and Scope}
+
+This report documents the quality of the BOAMP corpus used to construct the
+renewal proxy and the survival modeling dataset. The scope is the BOAMP-only
+pipeline for digital-sector public procurement notices in Pays de la Loire over
+2015--2024. The official modeling population is the set of eligible
+\texttt{APPEL\_OFFRE} contracts retained in
+\texttt{data/processed/boamp\_phase2\_survival.csv}. In this report,
+\texttt{event = 1} denotes a \emph{proxy renewal event} found by the linking
+algorithm; \texttt{event = 0} denotes right-censoring or no observed link under
+the rule before the study end date. It does not prove that no renewal occurred.
+
+\section{Raw Corpus Overview}
+
+The cleaned BOAMP corpus is stored in
+\texttt{data/processed/boamp\_full\_clean.csv}. It contains 3{,}181 notices
+published between 2015-03-02 and 2024-12-29.
+
+\begin{table}[H]
+\centering
+\caption{Raw BOAMP notice types}
+\small
+\begin{tabular}{lrr}
+\toprule
+Notice type & Count & Share \\
+\midrule
+APPEL\_OFFRE & 1{,}933 & 60.8\% \\
+ATTRIBUTION & 1{,}081 & 34.0\% \\
+RECTIFICATIF & 150 & 4.7\% \\
+PRE-INFORMATION & 7 & 0.2\% \\
+MODIFICATION & 5 & 0.2\% \\
+INTENTION\_CONCLURE & 4 & 0.1\% \\
+PERIODIQUE & 1 & 0.0\% \\
+\midrule
+Total & 3{,}181 & 100.0\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The renewal-linking pipeline uses only the 1{,}933 \texttt{APPEL\_OFFRE}
+notices as possible source contracts. \texttt{ATTRIBUTION} notices are used as
+an auxiliary source to refine contract start dates when a BOAMP back-reference
+is available.
+
+\section{Final Modeling Population}
+
+The study population is narrower than the raw corpus because not every notice is
+a candidate source contract and not every source contract has an observable
+renewal window before the 2024-12-31 study end.
+
+\begin{table}[H]
+\centering
+\caption{Population construction summary}
+\small
+\begin{tabularx}{\linewidth}{L{4.2cm}L{1.6cm}Y}
+\toprule
+Population & Count & Interpretation \\
+\midrule
+Raw BOAMP notices & 3{,}181 & Full digital-sector corpus downloaded from the BOAMP API. \\
+APPEL\_OFFRE source notices & 1{,}933 & Potential source contracts for renewal linking. \\
+Eligible source contracts & 1{,}100 & APPEL\_OFFRE contracts whose estimated end date falls before study end. \\
+Linked proxy-renewal events & 705 & \texttt{event = 1}; a plausible later BOAMP notice was linked. \\
+Right-censored contracts & 395 & \texttt{event = 0}; no observed link under the rule before study end. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The linking rate in the eligible population is 64.1\% ($705 / 1{,}100$). This
+is the denominator that matters for Phase 2 survival modeling. The lexical
+baseline retained in the repository for comparison is 11.3\%.
+
+\section{Missing-Value and Cleaning Summary}
+
+Table~\ref{tab:quality} summarizes the main variable-level quality issues that
+carry forward into modeling.
+
+\begin{landscape}
+\begin{table}[p]
+\centering
+\caption{Variable quality and cleaning decisions}
+\label{tab:quality}
+\footnotesize
+\begin{tabularx}{\linewidth}{@{}L{4.7cm}L{4.2cm}Y Y@{}}
+\toprule
+Variable & Issue & Cleaning / treatment & Modeling impact \\
+\midrule
+\texttt{buyer\_siret} / \texttt{buyer\_key} & Raw \texttt{buyer\_siret} coverage is 9.1\% in the 3{,}181-row corpus; post SIREN enrichment, 660 of the 1{,}100 eligible contracts carry a \texttt{SIREN:} key and 440 a \texttt{NAME:} key. & Build \texttt{buyer\_key} as \texttt{SIREN:...} when matched with HIGH confidence via the API Recherche d'Entreprises, else \texttt{NAME:...}. & Buyer-name fragmentation is the main source of false negatives in linking; SIREN enrichment partially mitigates this. \\
+\texttt{CPV} fields & \texttt{cpv\_principal} is missing for 1.9\% of the raw corpus; generic codes reduce specificity. Eligible \texttt{cpv\_div2} coverage is 95.3\%. & Clean and standardize CPV; generic codes are capped at division-level similarity; missing CPV is excluded from the composite score with weight renormalization. & Missing or generic CPV weakens auditability and may reduce match discrimination. \\
+\texttt{amount\_clean} & Valid amount coverage is 41.1\% in the full corpus and 21.4\% among \texttt{APPEL\_OFFRE}; 20.3\% in the eligible handoff. & Flag zero, tiny, and ceiling values; set flagged amounts to missing. & Amount is too sparse to act as a linking signal and must be handled as optional context only. \\
+\makecell[l]{\texttt{declared\_duration\_months}\\\texttt{duration\_clean}} & Raw cleaned duration coverage is 47.3\% overall and 76.6\% for \texttt{APPEL\_OFFRE}. In the eligible cohort, 25.1\% are imputed. & Remove suspect durations and impute missing eligible durations to 48 months with \texttt{dur\_was\_imputed}. & Duration affects eligibility and temporal search windows, so imputed rows are less reliable. \\
+\texttt{start\_date} & No missing values in the eligible handoff, but 59.3\% use publication date and 40.7\% use an attribution-derived award date. & Use award date via \texttt{annonce\_lie} when available, else publication date. & Temporal scores contain date noise because publication is not always the operational contract start. \\
+\texttt{type\_procedure} & 0.3\% missing in the eligible handoff. & Retain as-is; no imputation required. & Low risk for descriptive summaries and covariate use. \\
+\texttt{type\_marche} & 14.4\% missing in the eligible handoff. & Retain missing values explicitly. & Missingness may blur segment-level interpretation. \\
+\texttt{event} / renewal link & No explicit BOAMP renewal identifier exists; \texttt{event} is algorithmic rather than observed ground truth. & Use the linking algorithm to build a proxy event; keep confidence diagnostics. & False positives and false negatives remain possible, so event quality must be interpreted as bounded evidence. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+\end{landscape}
+
+\section{Key Data Quality Issues}
+
+The dominant data quality problems are structural rather than cosmetic. Buyer
+identity was initially weak because the eligible cohort had no SIRET-anchored
+\texttt{buyer\_key}; most grouping relied on normalized buyer names. SIREN
+enrichment (completed 2026-06-24 via the API Recherche d'Entreprises) has
+partially resolved this: 660 of the 1,100 eligible rows now carry a
+HIGH-confidence SIREN-enriched buyer identity in
+\texttt{boamp\_phase2\_survival\_siren\_enriched.csv}; 440 remain on the
+name-based key (see Section~\ref{sec:siren-enrichment}). Residual name-based
+fragmentation remains possible for the unresolved cases. CPV coverage is high
+but not perfect, and generic CPV values reduce matching precision. Contract
+amount is sparse on source notices, so it cannot support renewal linking. BOAMP
+also has no explicit renewal label, which means the linking output is
+necessarily an inferred event proxy.
+
+\section{Duration Field Reliability}
+
+Declared duration is not the survival target. In the \texttt{APPEL\_OFFRE}
+population, the cleaned declared duration field is heavily concentrated on
+administrative values of 12, 24, 36, and 48 months.
+
+\begin{table}[H]
+\centering
+\caption{Declared duration concentration in APPEL\_OFFRE notices}
+\small
+\begin{tabular}{lrr}
+\toprule
+Duration value & Count & Share of non-missing durations \\
+\midrule
+48 months & 462 & 31.2\% \\
+12 months & 316 & 21.4\% \\
+24 months & 151 & 10.2\% \\
+36 months & 99 & 6.7\% \\
+Subtotal exactly 12/24/36/48 & 1{,}028 & 69.5\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+This concentration is more consistent with administrative ceilings than with
+realized renewal timing. For that reason, \texttt{declared\_duration\_months}
+is used as a covariate and as a temporal search prior, while
+\texttt{observed\_duration\_months} is the survival time used in Phase 2.
+
+\section{Renewal Linking Quality}
+
+BOAMP provides no explicit renewal ID, so the renewal variable is constructed by
+matching later notices from the same \texttt{buyer\_key} using text, CPV, and
+timing. The eligible modeling dataset contains 705 linked proxy-renewal events
+and 395 right-censored contracts.
+
+\begin{table}[H]
+\centering
+\caption{Linking outcome summary}
+\small
+\begin{tabularx}{\linewidth}{L{4.7cm}L{2cm}Y}
+\toprule
+Metric & Value & Interpretation \\
+\midrule
+Linked events & 705 & Proxy renewal events retained in the official BOAMP handoff. \\
+Right-censored & 395 & No observed link before study end under the chosen rule. \\
+Linking rate & 64.1\% & Share of eligible contracts with \texttt{event = 1}. \\
+Strict high-confidence links & 100 & Conservative subset with composite score $\geq 0.70$ and score margin $\geq 0.05$, \emph{excluding} the 133 single-candidate links (margin undefined). A broader count of 116 results when single-candidate links with score $\geq 0.70$ are also included. \\
+Single-candidate links & 133 & Linked contracts with only one surviving candidate after filtering; margin is undefined for these. \\
+Ambiguous multi-candidate links & 265 of 572 & 46.3\% of multi-candidate events have a score margin below 0.05. \\
+Main unlinked failure mode & 339 of 395 & Most unlinked contracts have no temporal partner in the search window. \\
+Secondary failure modes & 32 text, 32 CPV & Some eligible contracts had a temporal partner but failed semantic or CPV checks. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The confidence diagnostics are useful for sensitivity analysis, not as legal
+ground truth. A strict subset can bound the event definition, but it does not
+prove that the remaining links are false.
+
+\section{Biases and Limitations}
+
+Selection bias remains possible because contracts with no temporal partner cannot
+be linked even if a real-world renewal occurred outside the observable window.
+Buyer fragmentation can create false negatives, while generic or repetitive
+contract descriptions can create false positives. Missing or generic CPV reduces
+auditability. Contracts from late 2023 face compressed observation windows, and
+2024 contracts are structurally excluded from the eligible denominator because
+their expected renewal window falls after study end. Manual validation is still
+required to estimate the precision of the proxy renewal event.
+
+\begin{table}[H]
+\centering
+\caption{Principal data quality risks}
+\small
+\begin{tabularx}{\linewidth}{L{3.2cm}Y Y}
+\toprule
+Risk & Evidence in current data & Modeling impact \\
+\midrule
+Buyer fragmentation & Post SIREN enrichment, 660 of 1{,}100 eligible rows carry a \texttt{SIREN:} key and 440 a \texttt{NAME:} key; 23 buyer merges added 8 renewal events (697 → 705). Residual name-based keys may still fragment some buyers. & Residual structural false negatives when the same buyer appears under multiple name spellings not resolved by the SIREN API. \\
+Generic or missing CPV & Raw CPV missingness is 1.9\%; generic codes are capped at low similarity. & Lower match precision and weaker audit trail for some links. \\
+Sparse amount field & Only 21.4\% of source \texttt{APPEL\_OFFRE} notices have a usable amount. & Amount cannot serve as a reliable matching signal or segmentation variable. \\
+Administrative duration values & 69.5\% of observed source durations equal 12, 24, 36, or 48 months. & Declared duration should not be interpreted as realized renewal time. \\
+Observation-window censoring & 395 eligible contracts are right-censored; late cohorts have less time to reveal renewals. & Apparent non-renewal may reflect study-end truncation rather than true absence of renewal. \\
+Proxy event definition & BOAMP contains no explicit renewal label. & Event quality depends on the linking rule and should be stress-tested with confidence diagnostics. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Event Variable: Scoring, Robustness, and Validation Status}
+
+\subsection*{Exact definition}
+
+\texttt{event = 1} is assigned when the linking algorithm finds a later BOAMP
+\texttt{APPEL\_OFFRE} notice from the same buyer within a window of [6, 72]
+months around the source contract's expected end date, passing a hard
+\texttt{text\_similarity} $\geq 0.20$ filter, and achieving the highest
+composite score among all candidates considered.
+\texttt{event = 0} is right-censored: no such successor was detected under the
+rule before the 2024-12-31 study end. Right-censoring does \emph{not} mean the
+contract was not renewed; it means no identifiable BOAMP successor was found
+under the current chaining rule. The variable is a \textbf{proxy chaining
+result}, not a legally certified renewal and not a confirmed absence of renewal.
+
+\subsection*{Scoring formula and acceptance threshold}
+
+For source contract $i$ and candidate $j$ the composite score is:
+\[
+  S(i,j) = 0.40\,s_{\mathrm{text}} + 0.25\,s_{\mathrm{cpv}}
+          + 0.20\,s_{\mathrm{temp}} + 0.15\,s_{\mathrm{buyer}}
+\]
+When CPV is missing for either notice, the CPV weight is redistributed
+proportionally: $S = (0.40\,s_{\mathrm{text}} + 0.20\,s_{\mathrm{temp}} +
+0.15\,s_{\mathrm{buyer}})\,/\,0.75$.
+The \textbf{only hard acceptance threshold} in the baseline model is
+\texttt{text\_similarity} $\geq 0.20$; no composite floor is applied.
+The observed minimum composite score for accepted links is approximately $0.37$,
+arising from the weighting formula applied to pairs that pass the text filter.
+Two post-hoc confidence tiers are defined for sensitivity analysis:
+\begin{itemize}[nosep]
+  \item Medium/high confidence: composite $\geq 0.50$ --- 497 of 705 events
+        (70.5\%);
+  \item Strict high-confidence: composite $\geq 0.70$ \emph{and} score margin
+        $\geq 0.05$, multi-candidate links only --- 100 events (14.2\%).
+\end{itemize}
+
+\subsection*{Threshold sensitivity}
+
+Table~\ref{tab:threshold_dq} reports survival model outcomes under seven
+increasingly strict event definitions, sourced from
+\texttt{validation\_robustness/outputs/threshold\_sensitivity\_summary.csv}.
+
+\begin{table}[H]
+\centering
+\caption{Threshold sensitivity of the survival model. KM median in months;
+``---'' = median not reached within the study window.}
+\label{tab:threshold_dq}
+\small
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+\textbf{Scenario} & \textbf{Events} & \textbf{Rate} & \textbf{KM med.}
+  & \textbf{Cox C} \\
+\midrule
+Baseline (all accepted links) & 705 & 64.1\% & 48.2 & 0.654 \\
+Score $\geq 0.50$             & 497 & 45.2\% & 52.8 & 0.645 \\
+Score $\geq 0.60$             & 275 & 25.0\% & ---  & 0.623 \\
+Score $\geq 0.70$             & 148 & 13.5\% & ---  & 0.620 \\
+Score $\geq 0.80$             &  79 &  7.2\% & ---  & 0.535 \\
+Score $\geq 0.90$             &  25 &  2.3\% & ---  & 0.550 \\
+Strict HC ($S\!\geq\!0.70$, $\Delta\!\geq\!0.05$) & 116 & 10.5\% & --- & 0.647 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The absolute event rate and KM survival level are sensitive to the event
+definition. The Cox concordance index, however, stays above 0.59 across all
+seven scenarios, and the direction of both significant hazard ratios (HR $< 1$
+for declared duration, HR $> 1$ for start year) is preserved in every scenario.
+The qualitative conclusions of the survival model are therefore robust to the
+choice of linking threshold.
+
+\subsection*{Uncertain cases}
+
+The median composite score of the 705 accepted links is 0.555 (IQR 0.489--0.653).
+Of the 572 multi-candidate links, 265 (46.3\%) have a score margin below
+0.05 --- the algorithm selected a winner but an alternative was nearly equally
+plausible. Removing all uncertain links (composite $< 0.50$ or margin $< 0.05$)
+reduces the analysis to 767 contracts and 372 events (48.5\%), shifts the KM
+median to 54.8 months, and lowers the Cox concordance from 0.6541 to 0.601.
+The drop in concordance confirms that the uncertain links carry positive
+discriminative signal and do not appear to introduce dominant systematic bias.
+
+\subsection*{Manual validation sample}
+
+A stratified 150-row sample has been drawn to support future record-level
+review (file: \nolinkurl{event_validation/outputs/manual_validation_sample.csv}).
+
+\begin{table}[H]
+\centering
+\caption{Manual validation sample design (150 rows). Review not yet executed.}
+\label{tab:valdesign}
+\small
+\begin{tabularx}{\linewidth}{@{}L{3.0cm}Y r@{}}
+\toprule
+\textbf{Stratum} & \textbf{Criterion} & \textbf{$n$} \\
+\midrule
+A --- High confidence & \texttt{event=1}, strict HC (\nolinkurl{high_confidence_strict}) & 20 \\
+B --- Ambiguous margin & \texttt{event=1}, margin $< 0.05$, multi-candidate & 20 \\
+C --- Single-candidate & \texttt{event=1}, \nolinkurl{single_candidate_match=True} & 15 \\
+D --- No successor & \texttt{event=0} & 50 \\
+E --- Remaining linked & \texttt{event=1}, medium/low confidence, not in A--C & 45 \\
+\midrule
+\textbf{Total} & & \textbf{150} \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\textbf{Record-level review has not yet been completed.} No empirical precision
+or recall estimate for the linking step is therefore available. Until the review
+is done, the quality of the event variable rests solely on algorithmic
+confidence diagnostics and the threshold sensitivity analysis above.
+
+\subsection*{Bias impact on survival analysis}
+
+Covariate balance between linked (event$=1$) and censored (event$=0$) contracts
+is good on all survival-model predictors: the standardised mean difference
+(SMD) is 0.128 for declared duration, $-0.029$ for start year, and $-0.019$
+for the imputation flag --- all well below the conventional 0.20 threshold
+for substantial imbalance. The largest observed imbalance is amount
+non-missing ($\Delta = -0.099$): censored contracts are more likely to carry a
+reported amount, possibly because high-value contracts are renegotiated through
+channels that do not produce a new BOAMP notice. This does not affect the
+survival model (amount is not a covariate).
+
+Event rate by cohort year is broadly stable at 56--75\% for contracts starting
+in 2015--2022. The 2023 cohort shows only 4 linked events out of 12 eligible
+(33.3\%), but the sample is too small to interpret as a trend; the short
+observation window (less than 24 months to study end) is the more likely
+explanation. The dominant source of bias remains \textbf{structural
+right-censoring} of the 2022--2024 cohort, whose expected renewal windows fall
+after the 2024-12-31 study end --- a study-design constraint, not a
+measurement error in the linking rule.
+
+\medskip
+\noindent In summary, the 64.1\% linking rate should be read as a
+\textbf{chaining result}: the proportion of eligible contracts for which the
+algorithm identified a plausible BOAMP successor under the current rule. It is
+not a measurement of the true renewal rate, because false positives and false
+negatives are both possible and no empirical precision estimate is yet
+available. The sensitivity analysis demonstrates, however, that the qualitative
+conclusions of the survival model are stable across all seven threshold
+scenarios tested. The variable is fit for purpose as a prioritisation signal,
+provided its proxy nature is communicated wherever the model output is used.
+
+\section{Reproducibility}
+
+This report is reproducible from tracked project outputs. The core files are:
+
+\begin{itemize}
+	\item \path{data/processed/boamp_full_clean.csv}
+	\item \path{data/processed/boamp_phase2_survival.csv}
+	\item \path{boamp_renewal_linking_quality/outputs/boamp_linking_stats.csv}
+	\item \path{boamp_renewal_linking_quality/outputs/boamp_renewal_links.csv}
+	\item \path{boamp_renewal_linking_quality/outputs/boamp_renewal_candidates.csv}
+	\item \path{boamp_renewal_linking_quality/outputs/boamp_bias_report.csv}
+	\item \path{boamp_renewal_linking_quality/outputs/boamp_link_confidence_diagnostics.csv}
+\end{itemize}
+
+The relevant pipeline steps are implemented in \path{scripts/task_boamp_full_clean.py},
+\path{scripts/task9_boamp_phase2_handoff.py}, and
+\path{scripts/task10_link_confidence_diagnostics.py}. No manual, untracked data
+manipulation is required to reproduce the counts reported here.
+
+\section{SIREN/SIRET Enrichment of Buyer Identifiers}
+\label{sec:siren-enrichment}
+
+\subsection{Motivation: buyer fragmentation}
+
+The baseline pipeline builds a canonical buyer key using a SIRET-first rule:
+when a valid 14-digit SIRET is present in the BOAMP record, the key is
+\texttt{SIRET:\{14-digit\}}; otherwise it falls back to a normalized name key
+\texttt{NAME:\{normalized\_name\}} after stripping accents, punctuation, and
+legal-form suffixes. In the cleaned corpus, approximately 95\% of rows carry a
+name-based key. Because the same public buyer can appear under slightly different
+spellings across procurements (\emph{e.g.}\ ``Ville de Nantes'' vs.\ ``Nantes
+Métropole''), name-based keys fragment what is in reality a single buyer into
+multiple groups. Fragmented groups reduce the pool of candidate renewals
+available to the linker and can produce false negatives in the event variable.
+
+\subsection{Data source and tool}
+
+Enrichment uses the \emph{API Recherche d'Entreprises}
+(\url{https://recherche-entreprises.api.gouv.fr}), the official open-data search
+interface for the French SIRENE register. It is publicly accessible, requires no
+authentication, and covers all legal entities registered in France, including
+public bodies (\emph{communes}, \emph{départements}, \emph{établissements
+publics}, hospitals, \emph{intercommunalités}). The API returns up to ten
+candidates per query with a declared rate limit of 7 requests per second; the
+pipeline uses a conservative limit of 5 requests per second with local caching
+to avoid redundant calls on re-runs.
+
+\subsection{Why SIREN, not SIRET}
+
+SIRET (14 digits) identifies a specific establishment of a legal entity. SIREN
+(9 digits) identifies the legal entity itself. For buyer grouping, SIREN is
+more appropriate: a single public buyer (\emph{e.g.}\ a \emph{département})
+can have multiple establishments with different SIRETs but a single SIREN. Using
+SIREN as the enriched key prefix (\texttt{SIREN:\{9-digit\}}) makes the source
+and grouping level unambiguous and distinguishes enriched keys from
+BOAMP-sourced keys (which retain the \texttt{SIRET:} prefix).
+
+\subsection{Matching method and confidence levels}
+
+For each unique buyer name, the pipeline:
+\begin{enumerate}[noitemsep]
+  \item Detects the likely entity type from the name (commune, SDIS, CHU,
+    région, EPCI, etc.) to select the appropriate \emph{nature juridique} API
+    filter and query formulation.
+  \item Queries the API with the normalized buyer name, filtered by department
+    code when available.
+  \item Scores every returned candidate using a token-sort string similarity
+    (rapidfuzz) on normalized names, with a small bonus for token overlap and a
+    department-match check.
+  \item Classifies the best candidate into one of four confidence levels:
+\end{enumerate}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{\linewidth}{@{}L{2.4cm}L{4.4cm}Y@{}}
+\toprule
+\textbf{Level} & \textbf{Score threshold} & \textbf{Interpretation} \\
+\midrule
+HIGH   & $\geq 85$, or $\geq 75$ with single candidate or margin $\geq 10$ &
+         Strong match; used automatically for \texttt{buyer\_key\_enriched} \\
+MEDIUM & $\geq 70$ (not HIGH) & Plausible but ambiguous; retained for manual review only \\
+LOW    & $\geq 55$ (not MEDIUM) & Weak or generic match; not used automatically \\
+NO\_MATCH & $< 55$ or no candidates & No reliable candidate found \\
+\bottomrule
+\end{tabularx}
+\caption{Confidence classification for SIREN enrichment.}
+\label{tab:siren-confidence}
+\end{table}
+
+\subsection{New buyer key}
+
+A new column \texttt{buyer\_key\_enriched} is defined with a simple rule:
+use \texttt{SIREN:\{siren\}} when the match is HIGH confidence and the SIREN is
+valid; otherwise keep the original \texttt{buyer\_key}. MEDIUM, LOW, and
+NO\_MATCH rows are therefore unchanged.
+The original \texttt{buyer\_key} is preserved in \texttt{buyer\_key\_original}.
+Confidence levels MEDIUM and LOW are surfaced in
+\nolinkurl{buyer_siren_enrichment/outputs/ambiguous_buyer_matches_for_review.csv}
+for optional manual validation but are never applied automatically.
+
+\subsection{Coverage and effect on renewal linking}
+
+To evaluate the effect of SIREN resolution, an \textbf{auxiliary Jaccard-based
+comparison} was run separately from the official Sentence-Transformer phase-2
+pipeline, using \texttt{buyer\_key\_enriched} for grouping. This comparison
+uses the legacy Jaccard parameters (window $\pm 12$ months, Jaccard threshold
+0.20, weighting 0.7 text + 0.3 time) and produces two auxiliary files:
+\nolinkurl{boamp_full_survival.csv} (name-based baseline, 1,933 rows) and
+\nolinkurl{boamp_full_survival_enriched.csv} (SIREN-enriched, 1,933 rows) in
+\nolinkurl{boamp_renewal_linking_siren_enriched/outputs/}. These are
+\textbf{legacy comparison artifacts}, not the current-stage survival dataset.
+Numerical comparison results are also saved in
+\nolinkurl{buyer_siren_enrichment/outputs/baseline_vs_siren_enriched_linking_comparison.csv}.
+The observed effect was a modest increase in the Jaccard event rate, driven by
+merging contracts from the same legal entity that were previously split across
+multiple name keys.
+
+\subsection{Limitations}
+
+\begin{itemize}[noitemsep]
+  \item \textbf{API results are not ground truth.} The SIRENE register records
+    the entity as legally registered, not necessarily under the name used in
+    procurement. Fuzzy matching can produce false positives, particularly for
+    common generic names.
+  \item \textbf{MEDIUM and LOW matches are not applied automatically.} They are
+    kept in the review file for optional human validation.
+  \item \textbf{HIGH-confidence mistakes remain possible.} A score $\geq 85$
+    does not guarantee a correct match; it reflects strong textual similarity
+    under a specific normalization scheme. Rare false positives at HIGH
+    confidence would introduce a small number of incorrect group merges.
+  \item \textbf{NO\_MATCH buyers are unresolved.} Buyers with acronyms, internal
+    codes, or abbreviated names (\emph{e.g.}\ ``CNIEG'', ``SAELSI'', ``DIR
+    Ouest'') often fail to match and remain name-keyed. Their renewal groups are
+    unchanged relative to the baseline.
+  \item \textbf{The SIREN enrichment annotation does not recompute the event variable.}
+    The official phase-2 dataset (\nolinkurl{boamp_phase2_survival.csv},
+    705 events) incorporates SIREN-based buyer key merges into its
+    \texttt{buyer\_key} column (660 \texttt{SIREN:} keys, 440 \texttt{NAME:}
+    keys). The file \nolinkurl{boamp_phase2_survival_siren_enriched.csv} extends
+    it with four annotation columns (\texttt{buyer\_key\_enriched},
+    \texttt{enriched\_siren}, \texttt{enrichment\_confidence},
+    \texttt{enrichment\_score}) added by left-join; these columns record
+    enrichment metadata but do not change the event or survival-time columns.
+\end{itemize}
+
+\textbf{Scientific framing.} SIREN enrichment is a buyer-resolution improvement,
+not a new ground truth. It is expected to reduce false negatives arising from
+buyer fragmentation and to improve the precision of renewal-group boundaries, but
+it cannot compensate for the fundamental limitation that \texttt{event} remains
+a proxy.
+
+\section{Conclusion}
+
+The BOAMP dataset satisfies the internship guide's minimum data-quality
+requirement for Phase 1 because it provides a documented corpus, explicit
+cleaning rules, missingness information, a transparent linking rate, and a
+survival-ready population of more than 800 eligible contracts with either
+observed or censored duration. The main limitation is conceptual rather than
+technical: \texttt{event} remains a proxy renewal event, not legal ground truth,
+so later manual validation is still needed to estimate precision.
+
+\end{document}

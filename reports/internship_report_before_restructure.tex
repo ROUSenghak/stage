@@ -1,0 +1,546 @@
+\documentclass[11pt,a4paper]{article}
+
+% ---------------------------------------------------------------------------
+% Gigalis internship report -- Quick-scan orientation document.
+% For implementation details, diagnostics, and methodology see
+% phase1_technical_report.tex / phase1_technical_report.pdf.
+% ---------------------------------------------------------------------------
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{pdflscape}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+
+\geometry{margin=2.3cm}
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0pt}
+\setlength{\emergencystretch}{3em}
+\captionsetup{font=small,labelfont=bf}
+
+\definecolor{darkblue}{RGB}{0,51,102}
+\definecolor{done}{RGB}{0,120,50}
+\definecolor{partial}{RGB}{180,100,0}
+\definecolor{notdone}{RGB}{160,0,0}
+\hypersetup{colorlinks=true,linkcolor=darkblue,urlcolor=darkblue,citecolor=darkblue}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\small Gigalis Internship --- Orientation Report}
+\lhead{\small Predictive Procurement Modeling}
+\cfoot{\thepage}
+\setlength{\headheight}{14pt}
+
+\title{\textbf{Predicting Contract Renewal in Public Digital Procurement}\\[0.4em]
+      \large A Survival-Analysis Approach on BOAMP Notices for Gigalis\\[0.3em]
+      \normalsize Internship Report --- Quick Orientation to What Was Done and Where}
+\author{Internship Report --- Gigalis (Pays de la Loire)}
+\date{June 2026}
+
+\begin{document}
+\maketitle
+\thispagestyle{fancy}
+
+% ===========================================================================
+\begin{abstract}
+\noindent
+This report is the \textbf{quick-reading guide} to the internship: it is meant
+to let a reader scan the project rapidly and understand \emph{what was done},
+\emph{why it matters}, and \emph{where each workstream sits} in the overall
+pipeline. The detailed implementation, audit logic, intermediate diagnostics,
+and methodological justifications are intentionally left to the separate
+\textbf{technical report} (\texttt{phase1\_technical\_report.pdf}).
+
+The internship work concerns predictive analysis of public digital procurement
+for \textbf{Gigalis}, a central purchasing body in Pays de la Loire. The goal
+is to move from a descriptive view (``what happened?'') towards a predictive one
+(``when will a contract be re-tendered?''). Because BOAMP contains
+\emph{no explicit renewal field}, the renewal relationship must be reconstructed
+from observable signals. We build a proxy renewal event using
+Sentence-Transformer text embeddings combined with CPV, temporal, and buyer
+signals, and use it as the event variable for survival analysis. On
+1{,}100 eligible source contracts the linking method recovers a plausible renewal
+for 705 of them (\textbf{64.1\%}), against an 11.3\% lexical baseline. Survival
+modeling gives a global Kaplan--Meier median survival of \textbf{48.2 months},
+a Cox concordance of \textbf{0.6541}, and a best-fitting log-normal parametric
+model. The fitted model is then translated into 12- and 24-month renewal-risk
+indicators at contract, buyer, and segment level.
+\end{abstract}
+
+% ===========================================================================
+\section{How to Read This Report}
+
+This document is a \textbf{high-level navigation guide}. Each section states
+\emph{what} was done, \emph{what the key result is}, and \emph{where} the
+outputs live. When you need the exact field logic, preprocessing rules, linking
+formula, diagnostics, or full model specification, go directly to the
+\textbf{technical report}.
+
+% ---------------------------------------------------------------------------
+\subsection*{Pipeline at a glance}
+
+\begin{landscape}
+\begin{table}[p]
+\centering
+\caption{Component status and key outputs. Status: \textcolor{done}{Done},
+\textcolor{partial}{Partial}, \textcolor{notdone}{Not started}.}
+\label{tab:pipeline}
+\scriptsize
+\begin{tabular}{@{}p{4.2cm}p{1.6cm}p{5.4cm}p{10.0cm}@{}}
+\toprule
+\textbf{Component} & \textbf{Status} & \textbf{Key result} & \textbf{Where} \\
+\midrule
+Data cleaning \& EDA
+  & \textcolor{done}{Done}
+  & 3,181 notices $\to$ 1,933 source contracts
+  & \nolinkurl{data/processed/boamp_full_clean.csv} \\[3pt]
+Renewal linking (event reconstruction)
+  & \textcolor{done}{Done}
+  & 705/1,100 eligible linked (64.1\%)
+  & \nolinkurl{boamp_renewal_linking_quality/} \\[3pt]
+Survival dataset construction
+  & \textcolor{done}{Done}
+  & 1,100 rows $\times$ 36 cols
+  & \nolinkurl{data/processed/boamp_phase2_survival.csv} \\[3pt]
+Kaplan--Meier \& log-rank
+  & \textcolor{done}{Done}
+  & Median 48.2 mo; duration significant
+  & \nolinkurl{notebooks/02_survival_modeling_boamp.ipynb} \\[3pt]
+Cox PH model
+  & \textcolor{done}{Done}
+  & C-index 0.6541
+  & same notebook + \nolinkurl{reports/tables/survival/} \\[3pt]
+Parametric AFT models
+  & \textcolor{done}{Done}
+  & Log-normal best (AIC 7,176.5)
+  & same notebook \\[3pt]
+Sensitivity analysis
+  & \textcolor{done}{Done}
+  & Ranking stable across 3 definitions
+  & \nolinkurl{reports/tables/survival/sensitivity_comparison.csv} \\[3pt]
+Robustness checks
+  & \textcolor{done}{Done}
+  & Placebo, bias check, threshold sweep
+  & \nolinkurl{validation_robustness/} \\[3pt]
+Operational risk indicators
+  & \textcolor{done}{Done}
+  & 12/24-mo risk at contract/buyer/segment
+  & \nolinkurl{reports/tables/survival/top20_renewal_risk.csv} \\[3pt]
+Technology taxonomy
+  & \textcolor{done}{Done}
+  & Rule-based (CPV + keywords), 11 categories
+  & \nolinkurl{data/processed/taxonomy.csv} \\[3pt]
+Manual event validation
+  & \textcolor{partial}{Partial}
+  & Sample drawn; \textbf{review not done}
+  & \nolinkurl{event_validation/} \\[3pt]
+Trained NLP classifier
+  & \textcolor{notdone}{Not done}
+  & Taxonomy is rule-based only
+  & --- \\[3pt]
+Change-point detection (Phase 4)
+  & \textcolor{notdone}{Not done}
+  & Scoped but not implemented
+  & --- \\
+\bottomrule
+\end{tabular}
+\end{table}
+\end{landscape}
+
+% ===========================================================================
+\section{Context and Problem}
+
+\subsection{Why this project}
+Gigalis operates a central purchasing body for digital services in Pays de la
+Loire. To anticipate re-tendering workloads, it wants to predict \emph{when}
+digital contracts come up for renewal. The core obstacle: BOAMP publishes
+calls for tenders and awards, but \emph{no notice says ``this renews contract X''}.
+The renewal link must be inferred from text, classification, timing, and buyer
+identity.
+
+\subsection{Scope}
+\begin{itemize}[leftmargin=1.4em,itemsep=1pt]
+  \item \textbf{Sectors:} CPV divisions 48 (software), 72 (IT services), 32 (telecom), 35 (security).
+  \item \textbf{Territory:} departments 44, 49, 53, 72, 85 (Pays de la Loire).
+  \item \textbf{Period:} 2015--2024. Study end date: 2024-12-31.
+  \item \textbf{Modeling path:} BOAMP only. DECP is documented but not linked
+        (no shared key between the two sources).
+\end{itemize}
+
+% ===========================================================================
+\section{Data}
+\label{sec:data}
+
+\subsection{Corpus numbers}
+\begin{itemize}[leftmargin=1.4em,itemsep=1pt]
+  \item 3,181 BOAMP notices downloaded (2015--2024).
+  \item 1,933 are \texttt{APPEL\_OFFRE} (source contracts); 1,081 are \texttt{ATTRIBUTION}.
+  \item 1,100 are \emph{eligible}: their expected renewal window falls before 2024-12-31.
+  \item 833 are structurally censored upfront (too recent to observe a renewal).
+\end{itemize}
+
+DECP (3,039 digital contracts, same scope) is far richer (100\% SIRET,
+99.4\% durations) but cannot be merged to BOAMP at contract level.
+Contract-level DECP merging remains a future path.
+Buyer-name SIREN enrichment (API Recherche d'Entreprises) was completed separately
+on 2026-06-24 and is described in the next-steps section below.
+
+\subsection{Key data quality issues (modeling consequences)}
+
+\begin{table}[H]
+\centering
+\caption{Key BOAMP data-quality findings and their modeling consequence.}
+\label{tab:dq}
+\small
+\begin{tabular}{@{}p{4.8cm}p{2.8cm}p{6.0cm}@{}}
+\toprule
+\textbf{Finding} & \textbf{Value} & \textbf{Consequence} \\
+\midrule
+Buyer SIRET coverage & $\sim$9\% of corpus & Grouping uses normalised names; same entity may fragment into several keys. \\
+Amount fill rate (\texttt{APPEL\_OFFRE}) & $\sim$21\% & Amount excluded from linking signals. \\
+Declared duration granularity & 69\% at 12/24/36/48 mo & Duration used as a covariate, not as survival target. \\
+Imputed durations & 25\% of eligible cohort & Flagged with \texttt{dur\_was\_imputed}; imputation is 48 months. \\
+No explicit renewal label & structural & \texttt{event} is a proxy reconstructed by the linking algorithm. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Full field-level cleaning rules and missingness tables are in the technical
+report (\S2) and \nolinkurl{reports/data_quality_report/}.
+
+\subsection{Taxonomy}
+Each contract is tagged with one of eleven technology categories
+(Software \& Applications, IT Services \& Consulting, Telecom \& Networks,
+Cybersecurity, Cloud \& Infrastructure, Data \& AI, etc.) via a
+\textbf{deterministic rule-based mapping} from CPV codes and description keywords.
+This is \emph{not} a trained classifier --- the planned NLP classifier was not
+implemented. Output: \nolinkurl{data/processed/taxonomy.csv}.
+
+% ===========================================================================
+\section{What Was Built}
+
+\subsection{Phase 1 --- Renewal-event reconstruction}
+\label{sec:linking}
+
+Each eligible source contract is matched against later BOAMP notices from the
+same buyer using a four-signal composite score: semantic text embeddings
+(Sentence-Transformer, model \nolinkurl{paraphrase-multilingual-MiniLM-L12-v2}),
+CPV hierarchy match, temporal proximity, and buyer-identity agreement
+(weights 0.40 / 0.25 / 0.20 / 0.15). The best candidate above the hard
+filter threshold is selected as the renewal successor.
+See technical report \S3.2 for the full formula and weight derivation.
+
+\begin{table}[H]
+\centering
+\caption{Renewal-linking outcome.}
+\label{tab:link}
+\small
+\begin{tabular}{@{}lr@{}}
+\toprule
+\textbf{Quantity} & \textbf{Value} \\
+\midrule
+Source contracts (\texttt{APPEL\_OFFRE}) & 1,933 \\
+Eligible (renewal window observable) & 1,100 \\
+Linked renewals (\texttt{event}~$=1$) & 705 \quad(64.1\%) \\
+Right-censored (\texttt{event}~$=0$) & 395 \quad(36.6\%) \\
+Lexical baseline linking rate & 11.3\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Linking rate by category (Table~\ref{tab:bycat}): Software \& Applications
+and IT Services \& Consulting renew most (71\%, 68\%); Data \& AI and IT Hardware
+least (41\%, 48\%). Small categories ($n < 10$) are underpowered.
+
+\begin{table}[H]
+\centering
+\caption{Event rate by technology category (1,100 eligible contracts).}
+\label{tab:bycat}
+\small
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+\textbf{Category} & \textbf{n} & \textbf{events} & \textbf{rate \%} \\
+\midrule
+IT Services \& Consulting          & 312 & 211 & 67.6 \\
+Software \& Applications           & 209 & 148 & 70.8 \\
+Telecom \& Networks                & 204 & 120 & 58.8 \\
+Cybersecurity                      & 121 &  76 & 62.8 \\
+Unknown                            & 108 &  58 & 53.7 \\
+Digital Workplace \& Collaboration &  45 &  29 & 64.4 \\
+Data \& AI                         &  34 &  14 & 41.2 \\
+IT Maintenance \& Support          &  22 &  14 & 63.6 \\
+IT Hardware \& Equipment           &  21 &  10 & 47.6 \\
+Cloud \& Infrastructure            &  19 &  13 & 68.4 \\
+GIS \& Mapping                     &   5 &   4 & 80.0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Link quality.} Of the 705 accepted links: 133 are single-candidate
+(no competing match); of the remaining 572 multi-candidate links, 265 (46\%)
+have a score margin below 0.05, flagging an ambiguous winner.
+Of the 705 links, 100 (14.2\%) satisfy the \texttt{high\_confidence\_strict}
+criterion ($S \geq 0.70$ and margin $\geq 0.05$, multi-candidate only); these
+form the Model~C core (Table~\ref{tab:sens}). This low high-confidence rate
+motivates the manual validation step (not yet done; see Section~\ref{sec:open}).
+
+\textbf{Main unlinked failure mode.} 339 of 395 unlinked contracts (84\%) have
+no temporal partner in the search window --- not a scoring failure, but a true
+absence of a candidate notice in the observable period.
+
+Outputs: \nolinkurl{boamp_renewal_linking_quality/outputs/} (\nolinkurl{boamp_renewal_links.csv},
+\nolinkurl{boamp_renewal_candidates.csv}, \nolinkurl{boamp_linking_stats.csv}).
+
+\subsection{Phase 2 --- Survival analysis}
+\label{sec:survival}
+
+The survival dataset (\nolinkurl{data/processed/boamp_phase2_survival.csv}) has
+one row per eligible contract with observed/censored duration and covariates
+(\nolinkurl{declared_duration_months}, \nolinkurl{dur_was_imputed}, \texttt{start\_year},
+category, procedure type). Three model families were fitted in
+\nolinkurl{notebooks/02_survival_modeling_boamp.ipynb}.
+
+\paragraph{Kaplan--Meier.} Global median survival: \textbf{48.2 months},
+consistent with the prevalence of 48-month framework contracts.
+Log-rank tests (Table~\ref{tab:logrank}): renewal timing is driven by
+declared duration and imputation status ($p<0.001$), not by technology category
+($p=0.15$).
+
+\begin{table}[H]
+\centering
+\caption{Log-rank tests for differences in renewal timing.}
+\label{tab:logrank}
+\small
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+\textbf{Stratifying variable} & \textbf{statistic} & \textbf{p} & \textbf{df} \\
+\midrule
+Category (multivariate)        &  6.75 & 0.150 & 4 \\
+Duration was imputed           & 24.41 & $<0.001$ & 1 \\
+Declared-duration group        & 62.43 & $<0.001$ & 2 \\
+Procedure type (collapsed)     &  2.10 & 0.349 & 2 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Cox proportional-hazards model.} In-sample concordance:
+\textbf{0.6541}. Two predictors are significant (Table~\ref{tab:cox}): longer
+declared duration lowers hazard (HR 0.991 per month), and later start year
+raises it (HR 1.094 per year). No category or procedure effect.
+
+\begin{table}[H]
+\centering
+\caption{Cox model: significant covariates (multivariate).}
+\label{tab:cox}
+\small
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+\textbf{Covariate} & \textbf{HR} & \textbf{95\% CI} & \textbf{p} \\
+\midrule
+\texttt{declared\_duration\_months} & 0.991 & [0.987, 0.995] & $<0.001$ \\
+\texttt{start\_year}                & 1.094 & [1.050, 1.140] & $<0.001$ \\
+\texttt{dur\_was\_imputed}          & 0.864 & [0.718, 1.040] & 0.123 \\
+Category / procedure terms          & \multicolumn{3}{c}{not significant ($p>0.1$)} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The positive \texttt{start\_year} HR is partly structural: 2021--2024 contracts
+are right-censored because a typical 48-month contract would renew after the
+2024-12-31 study close.
+
+\paragraph{Parametric AFT models.} Log-normal fits best (AIC 7,176.5,
+concordance 0.672), outperforming log-logistic (7,248.8) and Weibull (7,380.3).
+Full parametric results: \nolinkurl{reports/tables/survival/parametric_aic_comparison.csv}.
+
+\paragraph{Sensitivity analysis.} Three event definitions were tested
+(Table~\ref{tab:sens}). The Cox concordance is stable across all three,
+confirming that the \emph{ranking} of renewal risk is robust even under the
+strictest definition.
+
+\begin{table}[H]
+\centering
+\caption{Sensitivity to event definition. ``--'' = KM median never reached. KM median in months.}
+\label{tab:sens}
+\small
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+\textbf{Variant} & \textbf{events} & \textbf{rate \%} & \textbf{KM median} & \textbf{Cox C} \\
+\midrule
+A --- baseline (all links)            & 705 & 64.1 & 48.2 & 0.6541 \\
+B --- conservative ($\geq 0.50$)      & 497 & 45.2 & --   & 0.6061 \\
+C --- strict H.C.\ ($S\!\geq\!0.70$, $\Delta\!\geq\!0.05$, multi-cand.) & 100 & 9.1 & -- & --- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Full results: \nolinkurl{reports/tables/survival/} (9 CSV files: univariate,
+multivariate, log-rank, AIC, sensitivity, top-20 risk ranking).
+
+\paragraph{Proportional hazards assumption.} Schoenfeld test flags a violation
+for \nolinkurl{declared_duration_months} ($p < 10^{-5}$); all other covariates
+pass. Stratification or a time interaction for duration is flagged as future
+work. The log-normal AFT avoids the PH assumption and gives the same conclusions.
+
+\subsection{Robustness and validation checks}
+\label{sec:robustness}
+
+These are in \nolinkurl{validation_robustness/} (untracked --- results exist but
+not merged to main git history yet).
+
+\begin{itemize}[leftmargin=1.4em,itemsep=1pt]
+  \item \textbf{Threshold sensitivity (7 scenarios, score 0.35 to 0.90):}
+        Cox concordance stays above 0.59 throughout; directional findings stable.
+        Full table: \nolinkurl{validation_robustness/outputs/threshold_sensitivity_summary.csv}.
+  \item \textbf{Placebo check:} winning link mean score 0.579 vs.\ runner-up
+        0.435 vs.\ synthetic no-buyer 0.425 --- scoring discriminates.
+  \item \textbf{Event/censoring bias:} SMD = 0.13 (duration), $-$0.03 (start year)
+        between event and censored groups --- covariates balanced; dominant
+        bias is structural right-censoring of 2022--2024 contracts.
+  \item \textbf{Manual validation:} 150-row sample drawn
+        (\nolinkurl{event_validation/outputs/manual_validation_sample.csv}),
+        protocol documented (\nolinkurl{event_validation/event_validation_protocol.md}).
+        \textbf{Record-level review not yet executed.}
+        Precision/recall of the linking step therefore unknown.
+\end{itemize}
+
+\subsection{Operational renewal-risk indicators}
+\label{sec:operational}
+
+The log-normal AFT model is applied to all 1,097 scored contracts to produce
+conditional renewal probabilities at 12 and 24 months ahead.
+
+\begin{table}[H]
+\centering
+\caption{Operational risk summary (1,097 scored contracts).}
+\label{tab:risk}
+\small
+\begin{tabular}{@{}lr@{}}
+\toprule
+\textbf{Metric} & \textbf{Value} \\
+\midrule
+Mean 12-month renewal probability & 0.190 \\
+Mean 24-month renewal probability & 0.332 \\
+Max 12-month probability (any contract) & 0.435 \\
+Contracts in \emph{medium} band (0.25--0.50) & 222 \\
+Contracts in \emph{low} band ($<0.25$) & 875 \\
+Expected renewals within 12 months & 208 \\
+Expected renewals within 24 months & 365 \\
+Top buyer by expected 12-month volume & Pays de la Loire (18.6) \\
+Top segment by expected 12-month volume & IT Services \& Consulting (61.6) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+These are prioritisation indicators, not legally verified renewal probabilities.
+Output: \nolinkurl{reports/tables/survival/top20_renewal_risk.csv}.
+
+% ===========================================================================
+\section{What Was Not Done}
+\label{sec:open}
+
+\begin{itemize}[leftmargin=1.4em,itemsep=2pt]
+  \item \textbf{Manual validation of linked pairs.} The 150-row sample is ready;
+        the review has not been executed. Until done, there are no independently
+        verified precision/recall estimates for the linking step.
+  \item \textbf{Trained NLP classifier.} The technology taxonomy is rule-based
+        (CPV + keywords). The planned learned classifier was not implemented.
+  \item \textbf{Change-point / trend detection (Phase 4).} Scoped but not
+        started. No code or outputs exist.
+  \item \textbf{DECP semantic linking.} The Sentence-Transformer method was
+        applied to BOAMP only. DECP linking remains at the 8.3\% lexical
+        prototype.
+  \item \textbf{Live prediction scoring.} The current model evaluates contract
+        age as of the study end date. A production run would need to re-evaluate
+        each contract at a live prediction date.
+\end{itemize}
+
+% ===========================================================================
+\section{Key Limitations}
+
+\begin{itemize}[leftmargin=1.4em,itemsep=2pt]
+  \item \textbf{Proxy event.} \texttt{event = 1} means a plausible renewal link
+        was found, not a legally certified renewal. Most links are low-to-medium
+        confidence (62.4\% low, 10.2\% medium, 8.5\% high in the four-tier system).
+  \item \textbf{Weak buyer identification.} Only $\sim$13\% of buyers carry a
+        SIRET; the rest are matched by normalised name. Spelling variants
+        (``Ville de Nantes'' vs ``Nantes M\'etropole'') create false negatives.
+        The 2024 eForms notices do include SIRET but are all censored upfront.
+        After SIREN enrichment (completed 2026-06-24), 660 of the 1,100
+        phase-2 eligible rows carry a HIGH-confidence SIREN-enriched buyer
+        identity in \nolinkurl{boamp_phase2_survival_siren_enriched.csv};
+        440 remain on the name-based key.
+  \item \textbf{Short-text false positives.} Generic descriptions
+        (``prestations informatiques'') can match spuriously.
+  \item \textbf{Structural right-censoring.} Contracts from 2021--2024 are
+        largely censored; the positive start\_year hazard partly reflects study
+        truncation, not a genuine cohort trend.
+  \item \textbf{Modest discrimination.} Concordance $\approx$0.65 --- useful
+        for prioritisation, not sufficient for high-stakes individual decisions.
+\end{itemize}
+
+% ===========================================================================
+\section{Conclusion and Next Steps}
+
+The internship delivered a reproducible end-to-end pipeline: BOAMP notice
+acquisition $\to$ cleaning $\to$ renewal-event reconstruction $\to$ survival
+modeling $\to$ operational risk indicators. The main methodological result is
+lifting the renewal linking rate from 11.3\% (lexical baseline) to 64.1\%
+using Sentence-Transformer embeddings. Survival modeling shows renewal timing is
+driven by declared contract duration (median 48.2 months) rather than
+technology family, and the log-normal AFT model translates this into
+actionable 12/24-month renewal-risk rankings.
+
+\textbf{Immediate next steps (prioritised):}
+\begin{enumerate}[leftmargin=1.4em,itemsep=2pt]
+  \item \textbf{Execute manual validation} of the 150-row sample to obtain
+        independently verified precision/recall estimates for the linking step
+        (\nolinkurl{event_validation/}).
+  \item \textbf{Re-score contracts at a live prediction date} (current scores
+        use end-of-study ages).
+  \item \textbf{SIREN buyer enrichment} --- \textit{completed 2026-06-24.}
+        275 of 525 unique buyers (52.4\%) matched with HIGH confidence via
+        API Recherche d'Entreprises; 23 previously fragmented buyer groups merged.
+        An \textbf{auxiliary Jaccard comparison} (separate from the official
+        Sentence-Transformer phase-2 pipeline) evaluated the effect of SIREN
+        resolution on the Jaccard method: the Jaccard event rate rose from
+        $11.3\%$ to $12.1\%$ ($+$15 events; log-rank $p = 0.47$, not significant).
+        The two Jaccard output files ---
+        \nolinkurl{boamp_full_survival.csv} (name-based baseline, 1,933 rows) and
+        \nolinkurl{boamp_full_survival_enriched.csv} in
+        \nolinkurl{boamp_renewal_linking_siren_enriched/outputs/} ---
+        are \textbf{legacy comparison artifacts}, not the current-stage survival
+        dataset.
+
+        The official phase-2 survival dataset
+        (\nolinkurl{data/processed/boamp_phase2_survival.csv}, 1,100 rows,
+        705 events) has been \textbf{annotated} with buyer identity enrichment
+        metadata in
+        \nolinkurl{data/processed/boamp_phase2_survival_siren_enriched.csv}.
+        This annotation adds four columns (\nolinkurl{buyer_key_enriched},
+        \nolinkurl{enriched_siren}, \nolinkurl{enrichment_confidence},
+        \nolinkurl{enrichment_score}) via left-join; it does \textbf{not}
+        recompute the event variable.
+        Enrichment-confidence breakdown over the 1,100 phase-2 rows:
+        \textbf{HIGH 660 (60.0\%)}, MEDIUM 77, LOW 45, NO\_MATCH 318.
+        The 440 unresolved rows remain on the original name-based buyer key.
+        \textbf{Caution:} HIGH-confidence automated enrichment reflects strong
+        textual similarity under the chosen normalisation scheme; it is
+        \emph{not equivalent to manual validation} and rare false positives at
+        HIGH confidence remain possible.
+        See \nolinkurl{buyer_siren_enrichment/} and the Data Quality Report.
+  \item \textbf{Replace rule-based taxonomy} with a trained text classifier.
+  \item \textbf{Implement change-point detection} (Phase 4).
+\end{enumerate}
+
+\end{document}

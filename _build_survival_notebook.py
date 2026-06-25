@@ -703,27 +703,22 @@ cells.append(md("""## 13. Sensitivity Analysis — Proxy-Event Reliability
 - **MEDIUM** (0.50–0.70): 348 links
 - **LOW** (< 0.50): 144 links
 
-**Model A** (baseline): all 697 links treated as events.
+**Model A** (baseline): all 705 links treated as events.
 
-**Model B** (conservative): the 144 LOW-confidence links (composite_score < 0.50)
-are downgraded to censored (δ = 0). Their observed time is reset to the duration
-from `start_date` to the study end date (2024-12-31), since `censoring_duration_months`
-is NaN for event=1 rows.
+**Model B** (conservative): the 208 LOW-confidence links (composite_score < 0.50)
+are downgraded to censored (δ = 0) **in place** — their observed survival time is
+kept unchanged. This matches the threshold-sensitivity sweep in
+`validation_robustness/` (score ≥ 0.50 scenario), so the conservative model is
+directly comparable across the two analyses.
 """))
-cells.append(code("""STUDY_END = pd.Timestamp('2024-12-31')
-
-df_b = df.copy()
+cells.append(code("""df_b = df.copy()
 mask_low = (df_b['event'] == 1) & (df_b['composite_score'] < 0.50)
 print(f"Rows to downgrade (LOW confidence links): {mask_low.sum()}")
 
+# Censor LOW-confidence links in place: relabel the event only, keep observed time.
 df_b['event_b'] = df_b['event'].copy()
 df_b.loc[mask_low, 'event_b'] = 0
-
-# For downgraded rows, compute censoring time from start_date to study end
 df_b['T_b'] = df_b['observed_duration_months'].copy()
-df_b.loc[mask_low, 'T_b'] = (
-    (STUDY_END - df_b.loc[mask_low, 'start_date']).dt.days / 30.4375
-)
 
 print(f"\\nModel A: {int(df['event'].sum())} events / {len(df)} rows  "
       f"(event rate {df['event'].mean()*100:.1f}%)")
@@ -753,30 +748,27 @@ ax.legend(fontsize=9)
 save_fig("sensitivity_km_comparison.png")
 """))
 
-cells.append(code("""# Cox concordance comparison
-df_b_cox_in = df_b[['T_b', 'event_b', 'declared_duration_months',
-                      'dur_was_imputed', 'start_year', 'cat_cox', 'proc_cox']].copy()
-df_b_cox_in = df_b_cox_in.dropna()
-df_b_cox_enc = pd.get_dummies(df_b_cox_in, columns=['cat_cox','proc_cox'],
-                               drop_first=True, dtype=int)
+cells.append(code("""# Cox concordance comparison — reduced 3-covariate model for BOTH A and B,
+# matching the threshold-sensitivity sweep in validation_robustness/ so that the
+# conservative scenario is directly comparable across the two analyses. (The
+# headline Cox model elsewhere in this notebook is the full multivariate model.)
+cox_cols = ['declared_duration_months', 'dur_was_imputed', 'start_year']
 
-# Align columns with Model A encoding
-for col in df_cox_enc.columns:
-    if col not in df_b_cox_enc.columns and col not in ('observed_duration_months','event'):
-        df_b_cox_enc[col] = 0
-df_b_cox_enc = df_b_cox_enc[[c for c in df_cox_enc.columns
-                               if c not in ('observed_duration_months','event')]
-                             + ['T_b','event_b']]
+def _fit_c(d, dur_col, ev_col):
+    sub = d[cox_cols + [dur_col, ev_col]].dropna()
+    m = CoxPHFitter(penalizer=0.1)
+    m.fit(sub, duration_col=dur_col, event_col=ev_col, show_progress=False)
+    return round(m.concordance_index_, 4)
 
-cph_b = CoxPHFitter(penalizer=0.1)
-cph_b.fit(df_b_cox_enc, duration_col='T_b', event_col='event_b', show_progress=False)
+c_a = _fit_c(df,   'observed_duration_months', 'event')
+c_b = _fit_c(df_b, 'T_b',                      'event_b')
 
 sens_cmp = pd.DataFrame({
     'Model':       ['A (baseline)', 'B (conservative)'],
     'N_events':    [int(df['event'].sum()), int(df_b['event_b'].sum())],
     'Event_rate':  [round(df['event'].mean()*100,1), round(df_b['event_b'].mean()*100,1)],
     'KM_median':   [round(kmf_a.median_survival_time_,1), round(kmf_b.median_survival_time_,1)],
-    'Cox_C_index': [round(cph.concordance_index_,4), round(cph_b.concordance_index_,4)]
+    'Cox_C_index': [c_a, c_b]
 })
 sens_cmp.to_csv(TBL_DIR / "sensitivity_comparison.csv", index=False)
 print("Sensitivity comparison:")
