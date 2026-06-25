@@ -330,8 +330,7 @@ Angers Loire M\'etropole  &  46 \\
 \end{tabular}
 \end{table}
 
-The dominance of name-based buyer keys (87.2\%) is the primary structural
-risk: variant spellings of the same buyer (e.g.\ ``Nantes'' vs.\ ``Nantes
+Before SIREN enrichment, the dominance of name-based buyer keys (87.2\%) was the primary structural risk: variant spellings of the same buyer (e.g.\ ``Nantes'' vs.\ ``Nantes
 M\'etropole'' vs.\ ``NM'') fragment the buyer group, creating structural
 misses that the algorithm cannot recover.
 
@@ -1727,8 +1726,7 @@ similarity, and CPV compatibility.
         calibrates text similarity thresholds but is not a direct renewal label.
         The true precision of the 705 links is unknown without manual validation.
 
-  \item \textbf{Name-based buyer fragmentation.} 87.2\% of buyer keys are
-        name-based. Variant spellings of the same public entity (abbreviations,
+  \item \textbf{Name-based buyer fragmentation.} Before SIREN enrichment, most buyer grouping was name-based. After enrichment, 660 of the 1,100 eligible contracts use a SIREN key, while 440 remain NAME-keyed. Residual buyer fragmentation therefore remains possible only for unresolved NAME-keyed buyers. Variant spellings of the same public entity (abbreviations,
         accents, word order) create separate groups, producing structural false
         negatives that cannot be recovered by tuning thresholds alone.
 
@@ -2400,7 +2398,7 @@ proxy event variable. They should not be interpreted as causal effects.
 Table~\ref{tab:cox_multi} reports the final multivariate Cox model including
 all covariates. Two predictors are statistically significant at the 1\% level:
 \texttt{declared\_duration\_months} and \texttt{start\_year}. The model is fitted
-on the 1,097 contracts (696 events) with complete category and procedure
+on the 1,097 contracts (704 events) with complete category and procedure
 covariates; three rows are dropped for missing covariate values. The model
 concordance (C-index) is \textbf{0.6541}, indicating moderate in-sample ranking
 ability beyond a random ranking.

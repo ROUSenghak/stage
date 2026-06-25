@@ -342,8 +342,8 @@ GIS \& Mapping                     &   5 &   4 & 80.0 \\
 have a score margin below 0.05, flagging an ambiguous winner. 100 links (14.2\%)
 satisfy the \texttt{high\_confidence\_strict} criterion ($S \geq 0.70$ and margin
 $\geq 0.05$, multi-candidate only); these form the Model~C core
-(Table~\ref{tab:sens}). \textbf{Main unlinked failure mode:} 339 of 395 unlinked
-contracts (84\%) have no temporal partner in the search window --- a true absence
+(Table~\ref{tab:sens}). \textbf{Main unlinked failure mode:} 331 of 395 unlinked
+contracts (83.8\%, rounded 84\%) have no temporal partner in the search window --- a true absence
 of a candidate notice, not a scoring failure.
 
 \subsection{Survival analysis}
@@ -351,7 +351,7 @@ of a candidate notice, not a scoring failure.
 \paragraph{Kaplan--Meier.} Global median survival is \textbf{48.2 months},
 consistent with the prevalence of 48-month framework contracts. Log-rank tests
 (Table~\ref{tab:logrank}): renewal timing is driven by declared duration and
-imputation status ($p<0.001$), not by technology category ($p=0.15$).
+imputation status ($p<0.001$), not by technology category ($p=0.182$).
 
 \begin{table}[H]
 \centering
@@ -362,10 +362,10 @@ imputation status ($p<0.001$), not by technology category ($p=0.15$).
 \toprule
 \textbf{Stratifying variable} & \textbf{statistic} & \textbf{p} & \textbf{df} \\
 \midrule
-Category (multivariate)        &  6.75 & 0.150 & 4 \\
-Duration was imputed           & 24.41 & $<0.001$ & 1 \\
-Declared-duration group        & 62.43 & $<0.001$ & 2 \\
-Procedure type (collapsed)     &  2.10 & 0.349 & 2 \\
+Category (multivariate)        &  6.23 & 0.182 & 4 \\
+Duration was imputed           & 24.58 & $<0.001$ & 1 \\
+Declared-duration group        & 62.30 & $<0.001$ & 2 \\
+Procedure type (collapsed)     &  2.06 & 0.357 & 2 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -373,7 +373,7 @@ Procedure type (collapsed)     &  2.10 & 0.349 & 2 \\
 \paragraph{Cox proportional-hazards model.} In-sample concordance:
 \textbf{0.6541}. Two predictors are significant (Table~\ref{tab:cox}): longer
 declared duration lowers hazard (HR 0.991 per month), and later start year
-raises it (HR 1.097 per year). No category or procedure effect. The positive
+raises it (HR 1.094 per year). No category or procedure effect. The positive
 \texttt{start\_year} hazard is partly structural: 2021--2024 contracts are
 right-censored because a typical 48-month contract would renew after the
 2024-12-31 study close.
@@ -387,9 +387,9 @@ right-censored because a typical 48-month contract would renew after the
 \toprule
 \textbf{Covariate} & \textbf{HR} & \textbf{95\% CI} & \textbf{p} \\
 \midrule
-\texttt{declared\_duration\_months} & 0.991 & [0.986, 0.995] & $<0.001$ \\
-\texttt{start\_year}                & 1.097 & [1.053, 1.142] & $<0.001$ \\
-\texttt{dur\_was\_imputed}          & 0.845 & [0.702, 1.016] & 0.073 \\
+\texttt{declared\_duration\_months} & 0.991 & [0.987, 0.995] & $<0.001$ \\
+\texttt{start\_year}                & 1.094 & [1.050, 1.140] & $<0.001$ \\
+\texttt{dur\_was\_imputed}          & 0.864 & [0.718, 1.040] & 0.123 \\
 Category / procedure terms          & \multicolumn{3}{c}{not significant ($p>0.1$)} \\
 \bottomrule
 \end{tabular}

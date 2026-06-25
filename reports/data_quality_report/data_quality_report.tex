@@ -402,7 +402,7 @@ Linking rate & 64.1\% & Share of eligible contracts with \texttt{event = 1}. \\
 Strict high-confidence links & 100 & Composite score $\geq 0.70$ and score margin $\geq 0.05$, \emph{excluding} the 133 single-candidate links (margin undefined). A broader count of 116 results when single-candidate links with score $\geq 0.70$ are also included. \\
 Single-candidate links & 133 & Only one surviving candidate after filtering; margin is undefined for these. \\
 Ambiguous multi-candidate links & 265 of 572 & 46.3\% of multi-candidate events have a score margin below 0.05. \\
-Main unlinked failure mode & 339 of 395 & Most unlinked contracts have no temporal partner in the search window. \\
+Main unlinked failure mode & 331 of 395 & Most unlinked contracts have no temporal partner in the search window. \\
 Secondary failure modes & 32 text, 32 CPV & Some eligible contracts had a temporal partner but failed semantic or CPV checks. \\
 \bottomrule
 \end{tabularx}
@@ -447,7 +447,7 @@ robust to the choice of linking threshold.
 
 \subsection{Uncertain cases and score margins}
 
-The median composite score of the 705 accepted links is 0.555 (IQR 0.489--0.653).
+The median composite score of the 705 accepted links is 0.558 (IQR 0.489 -- 0.677).
 Of the 572 multi-candidate links, 265 (46.3\%) have a score margin below 0.05 ---
 the algorithm selected a winner but an alternative was nearly equally plausible.
 Removing all uncertain links (composite $< 0.50$ or margin $< 0.05$) reduces the
@@ -536,7 +536,7 @@ required to estimate the precision of the proxy renewal event.
 \toprule
 Risk & Evidence in current data & Modeling impact \\
 \midrule
-Buyer fragmentation & Post SIREN enrichment, 660 of 1{,}100 eligible rows carry a \texttt{SIREN:} key and 440 a \texttt{NAME:} key; 23 buyer merges added 8 renewal events (697 → 705). Residual name-based keys may still fragment some buyers. & Residual structural false negatives when the same buyer appears under multiple name spellings not resolved by the SIREN API. \\
+Buyer fragmentation & Post SIREN enrichment, 660 of 1{,}100 eligible rows carry a \texttt{SIREN:} key and 440 a \texttt{NAME:} key; 23 buyer merges added 8 renewal events (697 $\to$ 705). Residual name-based keys may still fragment some buyers. & Residual structural false negatives when the same buyer appears under multiple name spellings not resolved by the SIREN API. \\
 Generic or missing CPV & Raw CPV missingness is 1.9\%; generic codes are capped at low similarity. & Lower match precision and weaker audit trail for some links. \\
 Sparse amount field & Only 21.4\% of source \texttt{APPEL\_OFFRE} notices have a usable amount. & Amount cannot serve as a reliable matching signal or segmentation variable. \\
 Administrative duration values & 69.5\% of observed source durations equal 12, 24, 36, or 48 months. & Declared duration should not be interpreted as realized renewal time. \\
