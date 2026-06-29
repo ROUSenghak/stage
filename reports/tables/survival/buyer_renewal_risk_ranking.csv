@@ -1,307 +1,304 @@
 buyer_key,n_contracts,expected_renewals_12m,expected_renewals_24m,max_p_renewal_12m,mean_p_renewal_12m,high_risk_contracts_count
-NAME:des pays de la loire,85,18.5759,32.0363,0.3838,0.2185,0
-NAME:nantes metropole,60,9.5449,17.176,0.3198,0.1591,0
-NAME:de nantes,39,6.4807,11.5195,0.3443,0.1662,0
-NAME:loire atlantique,27,6.3423,10.8514,0.307,0.2349,0
-NAME:saint nazaire,34,6.0494,10.7447,0.3196,0.1779,0
-NAME:angers loire metropole,29,5.7921,10.0686,0.3605,0.1997,0
-NAME:le mans,22,5.1955,8.8144,0.3466,0.2362,0
-NAME:gie sesam vitale,25,4.6842,8.2612,0.3421,0.1874,0
-NAME:nantes,25,4.1796,7.4284,0.3725,0.1672,0
-NAME:universite d angers,21,3.8632,6.8375,0.3392,0.184,0
-NAME:la vendee,17,3.498,6.076,0.3479,0.2058,0
-NAME:la sarthe,22,3.242,5.8968,0.2574,0.1474,0
-NAME:le mans metropole communaute urbaine,18,3.0932,5.4566,0.3342,0.1718,0
-NAME:ville du mans,17,2.8331,5.0353,0.3181,0.1667,0
-NAME:ctre hosp universitaire angers,14,2.6662,4.6952,0.3374,0.1904,0
-NAME:cnieg,14,2.4599,4.3674,0.2592,0.1757,0
-NAME:vendee expansion,9,2.4038,4.0258,0.3511,0.2671,0
-NAME:ville d angers,11,2.2509,3.8812,0.3283,0.2046,0
-NAME:ministere des affaires etrangeres,11,1.9537,3.4485,0.283,0.1776,0
-NAME:44,12,1.8674,3.3734,0.2423,0.1556,0
-NAME:reseau canope,7,1.8604,3.1323,0.3285,0.2658,0
-NAME:la mayenne,7,1.7504,2.9422,0.3562,0.2501,0
-NAME:reze,10,1.681,2.9922,0.2869,0.1681,0
-NAME:cd 44,5,1.6487,2.6757,0.3483,0.3297,0
-NAME:maine et loire,8,1.6327,2.8143,0.3958,0.2041,0
-NAME:gpm de nantes st nazaire,11,1.6173,2.9068,0.3409,0.147,0
-NAME:semitan,6,1.5997,2.6805,0.3833,0.2666,0
-NAME:de la mayenne,10,1.5732,2.8277,0.2706,0.1573,0
-NAME:saint herblain,8,1.3007,2.333,0.2374,0.1626,0
-NAME:carene,8,1.2888,2.3248,0.1996,0.1611,0
-NAME:gie des epl de vendee,4,1.284,2.0725,0.4245,0.321,0
-NAME:85,9,1.276,2.3204,0.2412,0.1418,0
-NAME:arafer,7,1.2681,2.2575,0.2489,0.1812,0
-NAME:carquefou,6,1.2643,2.186,0.3032,0.2107,0
-NAME:agce pour l enst fr a l etranger,7,1.262,2.2516,0.2116,0.1803,0
-NAME:ademe,8,1.2394,2.2371,0.2256,0.1549,0
-NAME:crous de nantes,5,1.2383,2.0806,0.3418,0.2477,0
-NAME:com d agglo reg nazairienne estuaire,4,1.2046,1.9789,0.3854,0.3012,0
-NAME:conseil general de la vendee,8,1.1876,2.1523,0.2333,0.1484,0
-NAME:ubs,3,1.1005,1.745,0.3827,0.3668,0
-NAME:cdc du pays de saint gilles cx de vie,7,1.0833,1.9611,0.2093,0.1548,0
-NAME:bouguenais,4,1.0703,1.804,0.3101,0.2676,0
-NAME:de loire atlanti,3,1.0515,1.6838,0.3755,0.3505,0
-NAME:sec gal pour l adm min interieur ouest,5,1.0462,1.8181,0.3032,0.2092,0
-NAME:soc publique reg abe de fontevraud,3,1.0235,1.6457,0.3793,0.3412,0
-NAME:vendee eau,6,0.9466,1.6958,0.2679,0.1578,0
-NAME:ccir pays de la loire,7,0.929,1.7093,0.1708,0.1327,0
-NAME:communaute d agglomeration du niortais,4,0.9254,1.5853,0.3086,0.2314,0
-NAME:spr pays de la loire,4,0.906,1.5684,0.2549,0.2265,0
-NAME:ecole centrale de nantes,6,0.886,1.6117,0.194,0.1477,0
-NAME:dir interdepartementale routes ouest,4,0.8574,1.4882,0.2762,0.2144,0
-NAME:la roche sur yon,5,0.8566,1.5252,0.2341,0.1713,0
-NAME:ombree d anjou,3,0.848,1.4167,0.2933,0.2827,0
-NAME:cap atlantique,4,0.798,1.3968,0.2729,0.1995,0
-NAME:vendee grand littoral,2,0.787,1.2214,0.4347,0.3935,0
-NAME:laval agglomeration,4,0.7803,1.3569,0.311,0.1951,0
-NAME:communes de grand lieu,4,0.7534,1.336,0.2296,0.1884,0
-NAME:prefet de la region pays de la loire,3,0.7472,1.2715,0.3072,0.2491,0
-NAME:e collectivites vendee,4,0.7249,1.2827,0.2444,0.1812,0
-NAME:uniha gcs,3,0.6852,1.1862,0.229,0.2284,0
-NAME:thouare sur loire,4,0.683,1.2112,0.2757,0.1708,0
-NAME:dir ouest,4,0.6681,1.1894,0.2664,0.167,0
-NAME:la cite des congres de nantes,3,0.6434,1.1238,0.2243,0.2145,0
-NAME:la rochelle,4,0.6411,1.1608,0.1709,0.1603,0
-NAME:metropole nantes metropole,3,0.6386,1.1081,0.2808,0.2129,0
-NAME:lycee polyvalent leonard de vinci,4,0.6368,1.1354,0.2725,0.1592,0
-NAME:de cholet,5,0.6344,1.1724,0.1386,0.1269,0
-NAME:la baule escoublac,3,0.6169,1.0634,0.312,0.2056,0
-NAME:vendee,2,0.6155,1.0088,0.3565,0.3077,0
-NAME:mash,2,0.6064,0.9979,0.3358,0.3032,0
-NAME:communaute urbaine d alencon,2,0.6021,0.9937,0.3182,0.301,0
-NAME:ville d orvault,4,0.5995,1.091,0.1667,0.1499,0
-NAME:la roche sur yon agglomeration,3,0.5962,1.0497,0.2268,0.1987,0
-NAME:conseil general de loire atlantique,4,0.5924,1.0758,0.1819,0.1481,0
-NAME:loire ocean metropole amenagement,3,0.592,1.0491,0.2211,0.1973,0
-NAME:de la sarthe,4,0.5863,1.0673,0.1889,0.1466,0
-NAME:dir interdepartementale des rte ouest,2,0.5676,0.9473,0.3041,0.2838,0
-NAME:chd vendee,3,0.5605,0.9977,0.209,0.1868,0
-NAME:ville d alencon,2,0.5495,0.9212,0.3056,0.2748,0
-NAME:la baule,3,0.5449,0.968,0.2164,0.1816,0
-NAME:sydela,2,0.5313,0.8996,0.2757,0.2656,0
-NAME:loire ocean developpement,3,0.5282,0.9417,0.2031,0.1761,0
-NAME:ville d ecouflant,2,0.525,0.888,0.2833,0.2625,0
-NAME:cnes terres de montaigu,2,0.5203,0.8817,0.2875,0.2602,0
-NAME:ca saumur val de loire,2,0.5122,0.8658,0.3114,0.2561,0
-NAME:cholet,3,0.5114,0.9184,0.205,0.1705,0
-NAME:mauges sur loire,3,0.4996,0.9017,0.1956,0.1665,0
-NAME:ca pornic agglo pays de retz,2,0.4788,0.8234,0.2627,0.2394,0
-NAME:montrevault sur evre,3,0.4737,0.8565,0.1999,0.1579,0
-NAME:institut regional administration lyon,2,0.466,0.7902,0.3169,0.233,0
-NAME:shema,2,0.4619,0.7983,0.2394,0.231,0
-NAME:oniris,2,0.456,0.7881,0.2533,0.228,0
-NAME:inra angers nantes,2,0.4516,0.7723,0.2989,0.2258,0
-NAME:insee,2,0.4506,0.7605,0.329,0.2253,0
-NAME:universite du maine,2,0.4472,0.776,0.2396,0.2236,0
-NAME:bauge en anjou,2,0.4436,0.7658,0.2756,0.2218,0
-NAME:syndicat departemental d energie,3,0.4414,0.8006,0.1993,0.1471,0
-NAME:fondation partenariale polytech,2,0.4367,0.7527,0.2892,0.2184,0
-NAME:mairie du croisic,2,0.4311,0.7524,0.2179,0.2156,0
-NAME:saint etienne de montluc,2,0.4305,0.7335,0.3089,0.2152,0
-NAME:epf de la vendee,2,0.4295,0.744,0.2718,0.2148,0
-NAME:smictom de la vallee de l authion,2,0.4133,0.7241,0.234,0.2066,0
-NAME:maine loire habitat office pub habitat,3,0.4121,0.7575,0.1477,0.1374,0
-NAME:syndicat trivalis,3,0.4091,0.755,0.1402,0.1364,0
-NAME:cte de communes du pays des herbiers,2,0.4031,0.6959,0.2842,0.2016,0
-NAME:clisson,1,0.4024,0.6264,0.4024,0.4024,0
-NAME:regie dept passages d eau de vendee,3,0.3987,0.7343,0.1462,0.1329,0
-NAME:beaucouze,2,0.3942,0.6961,0.2023,0.1971,0
-NAME:association songo,2,0.3767,0.6628,0.2456,0.1884,0
-NAME:c s t b,2,0.3691,0.6568,0.1954,0.1846,0
-NAME:rectorat division scus,1,0.3594,0.5717,0.3594,0.3594,0
-NAME:vallons de l erdre,1,0.3555,0.5678,0.3555,0.3555,0
-NAME:gcs esante pays de la loire,2,0.3542,0.6313,0.2127,0.1771,0
-NAME:chbr reg metiers artisanat nouv aquit,2,0.3503,0.6271,0.201,0.1752,0
-NAME:concarneau cornouaille agglomeration,3,0.3502,0.651,0.1338,0.1167,0
-NAME:pornichet,2,0.3499,0.6235,0.2196,0.175,0
-NAME:dgac dsna,1,0.3493,0.5598,0.3493,0.3493,0
-NAME:gip vendee numerique,2,0.3439,0.6162,0.2061,0.172,0
-NAME:creha ouest,1,0.3421,0.5501,0.3421,0.3421,0
-NAME:la garnache,1,0.3387,0.5459,0.3387,0.3387,0
-NAME:cg49,3,0.3383,0.631,0.1193,0.1128,0
-NAME:groupement d interet public pix,1,0.3372,0.5441,0.3372,0.3372,0
-NAME:geves,1,0.3342,0.5419,0.3342,0.3342,0
-NAME:communes de nozay,1,0.326,0.5311,0.326,0.326,0
-NAME:conseil general de la sarthe,3,0.3223,0.6034,0.1167,0.1074,0
-NAME:sgami ouest,1,0.3171,0.5182,0.3171,0.3171,0
-NAME:larmor plage,1,0.3164,0.5174,0.3164,0.3164,0
-NAME:clisson sevre et maine agglo,1,0.3151,0.5167,0.3151,0.3151,0
-NAME:si energies de maine et loire,2,0.3147,0.5711,0.1649,0.1574,0
-NAME:loire atlantique developpement,1,0.3134,0.5146,0.3134,0.3134,0
-NAME:esat foyers,2,0.3129,0.568,0.1571,0.1564,0
-NAME:cesson sevigne,1,0.3127,0.5137,0.3127,0.3127,0
-NAME:sem cenovia,1,0.312,0.5116,0.312,0.312,0
-NAME:dreal bretagne,2,0.3111,0.565,0.1557,0.1556,0
-NAME:synd dep d energie et d eqpt de vendee,2,0.3102,0.5625,0.1856,0.1551,0
-NAME:prefecture d eure et loir,1,0.3044,0.5017,0.3044,0.3044,0
-NAME:cc du pays de st fulgent les essarts,1,0.3023,0.499,0.3023,0.3023,0
-NAME:de saint nazaire,2,0.3004,0.5454,0.1782,0.1502,0
-NAME:crdc le lieu unique,1,0.2995,0.4951,0.2995,0.2995,0
-NAME:cte de cnes de l ile de noirmoutier,2,0.2954,0.5371,0.1734,0.1477,0
-NAME:agence regionale pays de la loire ti,2,0.2947,0.5376,0.154,0.1473,0
-NAME:ville d arnage,2,0.2935,0.5363,0.1478,0.1468,0
-NAME:pornic,2,0.2917,0.5283,0.1908,0.1458,0
-NAME:iphv les hauts thebaudieres,2,0.2915,0.5327,0.1564,0.1458,0
-NAME:ca agglomeration du choletais,1,0.2903,0.4835,0.2903,0.2903,0
-NAME:ensa nantes,1,0.2901,0.483,0.2901,0.2901,0
-NAME:cc loire layon aubance,1,0.2881,0.4804,0.2881,0.2881,0
-NAME:commune du croisic,1,0.2872,0.4786,0.2872,0.2872,0
-NAME:groupement d achats de l herm,1,0.2864,0.478,0.2864,0.2864,0
-NAME:commune les sables d olonne,1,0.286,0.477,0.286,0.286,0
-NAME:angers loire tourisme expo congres,1,0.2835,0.4739,0.2835,0.2835,0
-NAME:le grand t theatre loire atlantique,2,0.2825,0.5178,0.1469,0.1412,0
-NAME:srd,1,0.2783,0.4664,0.2783,0.2783,0
-NAME:ircec,1,0.2768,0.4645,0.2768,0.2768,0
-NAME:office francais de la biodiversite,1,0.2732,0.4598,0.2732,0.2732,0
-NAME:cmar pays de la loire,2,0.2728,0.5019,0.1435,0.1364,0
-NAME:nantes metropole habitat,2,0.2703,0.497,0.1354,0.1352,0
-NAME:epsilon centrale d achat informatique,1,0.2694,0.4547,0.2694,0.2694,0
-NAME:chambre reg agri pays de la loire,1,0.268,0.4532,0.268,0.268,0
-NAME:gie loire ocean,1,0.2657,0.4489,0.2657,0.2657,0
-NAME:cci de region bretagne,1,0.2646,0.4474,0.2646,0.2646,0
-NAME:dir interregionale sces penitentiaires,2,0.2611,0.4831,0.1399,0.1306,0
-NAME:ecole nationale superieure maritime,1,0.259,0.4395,0.259,0.259,0
-NAME:grand lieu communaute,1,0.2586,0.4401,0.2586,0.2586,0
-NAME:ville des sables d olonne,1,0.2583,0.4388,0.2583,0.2583,0
-NAME:saint malo,1,0.2547,0.4334,0.2547,0.2547,0
-NAME:ecole national sup d arts et metiers,1,0.25,0.4282,0.25,0.25,0
-NAME:cte de communes de la blain,1,0.249,0.4253,0.249,0.249,0
-NAME:49,2,0.2469,0.4579,0.126,0.1234,0
-NAME:sdegm,2,0.2465,0.457,0.1263,0.1232,0
-NAME:communes vie et boulogne,1,0.245,0.4198,0.245,0.245,0
-NAME:verrieres en anjou,1,0.2412,0.414,0.2412,0.2412,0
-NAME:chateau gontier,1,0.2404,0.4128,0.2404,0.2404,0
-NAME:mindef ema dc sca pfaf co rennes,1,0.2389,0.4107,0.2389,0.2389,0
-NAME:sgami ouest bzamp,1,0.2371,0.4081,0.2371,0.2371,0
-NAME:vertou,2,0.237,0.441,0.1315,0.1185,0
-NAME:challans,1,0.2361,0.4067,0.2361,0.2361,0
-NAME:cte cnes coeur d estuaire,2,0.2348,0.4372,0.1202,0.1174,0
-NAME:ctre national d enst a distance,1,0.2336,0.4029,0.2336,0.2336,0
-NAME:vendee habitat oph de vendee,1,0.2333,0.4026,0.2333,0.2333,0
-NAME:sna ouest,1,0.2319,0.4005,0.2319,0.2319,0
-NAME:ars pays de la loire,1,0.2306,0.3986,0.2306,0.2306,0
-NAME:rennes 1,1,0.2287,0.3958,0.2287,0.2287,0
-NAME:le pouliguen,1,0.2283,0.3952,0.2283,0.2283,0
-NAME:cte cnes du pays de chateau de gontier,1,0.2276,0.3948,0.2276,0.2276,0
-NAME:association e toile,2,0.2254,0.421,0.1129,0.1127,0
-NAME:agrocampus ouest,1,0.2241,0.3889,0.2241,0.2241,0
-NAME:adoma,1,0.2219,0.386,0.2219,0.2219,0
-NAME:institut mines telecom atlantique,1,0.2215,0.3851,0.2215,0.2215,0
-NAME:caf de la somme,2,0.2189,0.4097,0.1198,0.1094,0
-NAME:mindef dga do s2a,2,0.2181,0.4081,0.1147,0.109,0
-NAME:comsopgn,1,0.2155,0.3762,0.2155,0.2155,0
-NAME:laval spla,1,0.2129,0.3722,0.2129,0.2129,0
-NAME:fondat region ouest ligue cancer,1,0.2108,0.3692,0.2108,0.2108,0
-NAME:c h d la roche sur yon lucon montaigu,1,0.2107,0.369,0.2107,0.2107,0
-NAME:drac pays de la loire,1,0.2098,0.3676,0.2098,0.2098,0
-NAME:communes du perche,1,0.2092,0.3666,0.2092,0.2092,0
-NAME:sainte luce sur loire,1,0.2092,0.3666,0.2092,0.2092,0
-NAME:bretagne developpement innovation,1,0.2065,0.3624,0.2065,0.2065,0
-NAME:sictiam,1,0.206,0.3618,0.206,0.206,0
-NAME:la chevroliere,1,0.2054,0.3609,0.2054,0.2054,0
-NAME:institut 4 10,1,0.2052,0.3606,0.2052,0.2052,0
-NAME:loire atlantique developpement gie,1,0.2047,0.3597,0.2047,0.2047,0
-NAME:plate forme achats finances nord est,1,0.2043,0.3591,0.2043,0.2043,0
-NAME:le pellerin,1,0.2037,0.3584,0.2037,0.2037,0
-NAME:17,1,0.2022,0.3559,0.2022,0.2022,0
-NAME:cte de cnes du pays d ancenis,1,0.2019,0.3564,0.2019,0.2019,0
-NAME:hop intercommunal du baugeois et val,1,0.2005,0.3533,0.2005,0.2005,0
-NAME:d angers,2,0.1974,0.3723,0.1045,0.0987,0
-NAME:ccas d angers,1,0.1965,0.3473,0.1965,0.1965,0
-NAME:rectorat de l academie de dijon,1,0.1952,0.3452,0.1952,0.1952,0
-NAME:ehpad residences les ligeriennes,1,0.1947,0.3446,0.1947,0.1947,0
-NAME:mancelle d habitation,1,0.1923,0.3409,0.1923,0.1923,0
-NAME:saumur aggloproprete,1,0.1892,0.336,0.1892,0.1892,0
-NAME:groupe d etude et de controle des vari,1,0.1882,0.3343,0.1882,0.1882,0
-NAME:cc pays de craon,1,0.188,0.3347,0.188,0.188,0
-NAME:saelsi,1,0.184,0.3278,0.184,0.184,0
-NAME:semitan mandataire de nantes metropole,1,0.1836,0.3286,0.1836,0.1836,0
-NAME:cte de communes d erdre et gesvres,1,0.178,0.3182,0.178,0.178,0
-NAME:acoss,1,0.1778,0.318,0.1778,0.1778,0
-NAME:vallet,1,0.1714,0.3078,0.1714,0.1714,0
-NAME:gcs e sante pays de la loire,1,0.1665,0.3006,0.1665,0.1665,0
-NAME:ville du croisic,1,0.1664,0.2997,0.1664,0.1664,0
-NAME:inserm,1,0.1653,0.2981,0.1653,0.1653,0
-NAME:sm megalis,1,0.1651,0.298,0.1651,0.1651,0
-NAME:ircantec,1,0.1648,0.2971,0.1648,0.1648,0
-NAME:villemomble,1,0.1606,0.2909,0.1606,0.1606,0
-NAME:universite europeenne de bretagne,1,0.1602,0.2897,0.1602,0.1602,0
-NAME:sdis49,1,0.1592,0.2884,0.1592,0.1592,0
-NAME:cci metropolitaine bretagne ouest,1,0.1584,0.2879,0.1584,0.1584,0
-NAME:cte de cnes de la vallee de clisson,1,0.1581,0.2862,0.1581,0.1581,0
-NAME:comm comm de doue la fontaine,1,0.1581,0.2869,0.1581,0.1581,0
-NAME:coulaines,1,0.1574,0.286,0.1574,0.1574,0
-NAME:conservatoire du littoral,1,0.157,0.2857,0.157,0.157,0
-NAME:communaute communes la chataigneraie,1,0.1538,0.2795,0.1538,0.1538,0
-NAME:semitan mandataire de la cun,1,0.1517,0.2767,0.1517,0.1517,0
-NAME:chambre agriculture pays de la loire,1,0.1506,0.2739,0.1506,0.1506,0
-NAME:du marais poitevi,1,0.1497,0.274,0.1497,0.1497,0
-NAME:communaute communes pays de redon,1,0.1495,0.2728,0.1495,0.1495,0
-NAME:saint hilaire de riez,1,0.1455,0.2657,0.1455,0.1455,0
-NAME:cesame de sainte gemmes sur loire,1,0.1449,0.2648,0.1449,0.1449,0
-NAME:cc du pays de chantonnay,1,0.1439,0.2632,0.1439,0.1439,0
-NAME:inra formation permanente nationale,1,0.1436,0.2624,0.1436,0.1436,0
-NAME:le voyage a nantes,1,0.1436,0.263,0.1436,0.1436,0
-NAME:champagne,1,0.1402,0.2585,0.1402,0.1402,0
-NAME:coueron,1,0.1399,0.2579,0.1399,0.1399,0
-NAME:ville d ancenis saint gereon,1,0.1399,0.2575,0.1399,0.1399,0
-NAME:ville d evron,1,0.1383,0.2542,0.1383,0.1383,0
-NAME:chemille en anjou,1,0.1366,0.2511,0.1366,0.1366,0
-NAME:com communes du pays d ancenis,1,0.136,0.2499,0.136,0.136,0
-NAME:communes de l ernee,1,0.1358,0.2497,0.1358,0.1358,0
-NAME:prefecture,1,0.1357,0.2496,0.1357,0.1357,0
-NAME:syndicat mixte pour le dvlpt numerique,1,0.1356,0.2495,0.1356,0.1356,0
-NAME:comcom estuaire et sillon,1,0.1332,0.247,0.1332,0.1332,0
-NAME:syndicat vendee des iles,1,0.1325,0.244,0.1325,0.1325,0
-NAME:sisto,1,0.1305,0.2416,0.1305,0.1305,0
-NAME:communes pays flechois,1,0.1304,0.2413,0.1304,0.1304,0
-NAME:mindef sga dcsid esid bordeaux,1,0.1304,0.2414,0.1304,0.1304,0
-NAME:dsna,1,0.13,0.2403,0.13,0.13,0
-NAME:baie de somme habitat,1,0.1286,0.2391,0.1286,0.1286,0
-NAME:ville d avrille,1,0.1279,0.2363,0.1279,0.1279,0
-NAME:specialise de blain,1,0.1267,0.2342,0.1267,0.1267,0
-NAME:communes des coevrons,1,0.1261,0.2333,0.1261,0.1261,0
-NAME:angers nantes opera syndicat mixte,1,0.1258,0.2329,0.1258,0.1258,0
-NAME:dreal pays de la loire,1,0.1243,0.2301,0.1243,0.1243,0
-NAME:cerema dtermed,1,0.1234,0.2295,0.1234,0.1234,0
-NAME:spic arena loire trelaze,1,0.1228,0.2282,0.1228,0.1228,0
-NAME:casier judiciaire national,1,0.1225,0.2275,0.1225,0.1225,0
-NAME:les quinconces l espal,1,0.1212,0.2252,0.1212,0.1212,0
-NAME:centre de gestion fpt loire atlantique,1,0.1207,0.2244,0.1207,0.1207,0
-NAME:la fleche,1,0.1207,0.2245,0.1207,0.1207,0
-NAME:sictom loir et sarthe,1,0.1194,0.2218,0.1194,0.1194,0
-NAME:inst interdpt bassin sevre niortaise,1,0.1193,0.2219,0.1193,0.1193,0
-NAME:saint saturnin,1,0.1192,0.2217,0.1192,0.1192,0
-NAME:smirgeom est sarthe,1,0.1191,0.2214,0.1191,0.1191,0
-NAME:e c a s gendarmerie nationale,1,0.1188,0.2208,0.1188,0.1188,0
-NAME:cte reg peches maritimes elevages mari,1,0.1175,0.2195,0.1175,0.1175,0
-NAME:mindef dga dt scat,1,0.1173,0.2181,0.1173,0.1173,0
-NAME:c h s de la sarthe,1,0.1163,0.2165,0.1163,0.1163,0
-NAME:crous de rennes,1,0.116,0.2164,0.116,0.116,0
-NAME:societe loire atlantique developpement,1,0.1159,0.2162,0.1159,0.1159,0
-NAME:chambre de commerce et d industrie,1,0.1154,0.2156,0.1154,0.1154,0
-NAME:cpam de loire atlantique,1,0.1133,0.2116,0.1133,0.1133,0
-NAME:residences saint alexandre,1,0.1129,0.2106,0.1129,0.1129,0
-NAME:saem vendee,1,0.1127,0.2103,0.1127,0.1127,0
-NAME:de laval,1,0.1126,0.2102,0.1126,0.1126,0
-NAME:centre des monuments nationaux,1,0.1122,0.2096,0.1122,0.1122,0
-NAME:synd mixte du pays de coutances,1,0.1121,0.2095,0.1121,0.1121,0
-NAME:noyal chatillon sur seiche,1,0.1121,0.2095,0.1121,0.1121,0
-NAME:cour d appel de rennes,1,0.1119,0.2091,0.1119,0.1119,0
-NAME:cndp,1,0.1117,0.2086,0.1117,0.1117,0
-NAME:loire vendee ocean,1,0.1109,0.2072,0.1109,0.1109,0
-NAME:sarthe habitat,1,0.1081,0.2026,0.1081,0.1081,0
-NAME:hopital intercommunal sevre et loire,1,0.1074,0.2014,0.1074,0.1074,0
-NAME:cci de maine et loire,1,0.1072,0.2009,0.1072,0.1072,0
-NAME:cpam de la sarthe,1,0.1071,0.2009,0.1071,0.1071,0
-NAME:ecole des mines de nantes,1,0.1066,0.1998,0.1066,0.1066,0
-NAME:talmont saint hilaire,1,0.1053,0.1975,0.1053,0.1053,0
-NAME:pole sante sarthe et loire,1,0.104,0.1952,0.104,0.104,0
-NAME:commune des herbiers,1,0.1007,0.1896,0.1007,0.1007,0
-NAME:du haut anjou,1,0.1006,0.1892,0.1006,0.1006,0
-NAME:ville d allonnes,1,0.1006,0.1893,0.1006,0.1006,0
-NAME:cte d agglomeration du choletais,1,0.0998,0.1879,0.0998,0.0998,0
-NAME:dirisi,1,0.0978,0.1853,0.0978,0.0978,0
-NAME:alter public,1,0.092,0.1751,0.092,0.092,0
-NAME:o p h le mans habitat,1,0.0754,0.1449,0.0754,0.0754,0
+SIREN:234400034,88,10.694,29.108,0.283,0.1215,0
+SIREN:935367433,27,3.6531,9.6878,0.2128,0.1353,0
+NAME:nantes metropole,60,3.1788,10.9971,0.2127,0.053,0
+NAME:le mans,22,2.8437,7.3339,0.2396,0.1293,0
+SIREN:244900015,29,2.7681,7.9363,0.2396,0.0955,0
+SIREN:264400136,39,2.7179,8.2398,0.2343,0.0697,0
+SIREN:214401846,34,2.4423,7.8321,0.2178,0.0718,0
+SIREN:391722881,25,2.126,6.4954,0.2504,0.085,0
+SIREN:228500013,17,1.7606,4.9332,0.2343,0.1036,0
+SIREN:546650169,9,1.6047,3.9425,0.2343,0.1783,0
+SIREN:194909701,21,1.5673,5.031,0.2299,0.0746,0
+SIREN:247200132,18,1.3731,4.0022,0.2386,0.0763,0
+SIREN:180043010,7,1.1918,2.9421,0.283,0.1703,0
+NAME:ville du mans,17,1.1291,3.4532,0.2107,0.0664,0
+SIREN:225300011,12,1.1167,3.0991,0.2343,0.0931,0
+NAME:ctre hosp universitaire angers,14,1.0757,3.3465,0.2086,0.0768,0
+NAME:cd 44,5,1.0714,2.4677,0.2343,0.2143,0
+SIREN:532458809,11,1.0627,2.975,0.2001,0.0966,0
+NAME:cnieg,14,1.0381,3.2636,0.1925,0.0742,0
+NAME:semitan,6,1.0046,2.5022,0.2978,0.1674,0
+NAME:gie des epl de vendee,4,0.9237,2.0375,0.3371,0.2309,0
+NAME:com d agglo reg nazairienne estuaire,4,0.8906,2.012,0.2815,0.2226,0
+SIREN:130001704,6,0.8873,2.2892,0.2128,0.1479,0
+SIREN:110006012,11,0.8795,2.6185,0.1926,0.08,0
+SIREN:227200029,22,0.8721,3.3115,0.1871,0.0396,0
+SIREN:214401093,11,0.8122,2.4364,0.2523,0.0738,0
+SIREN:214400269,6,0.7921,2.0789,0.2254,0.132,0
+SIREN:224900019,8,0.7594,2.1067,0.2825,0.0949,0
+NAME:ubs,3,0.753,1.6251,0.2662,0.251,0
+NAME:soc publique reg abe de fontevraud,3,0.7243,1.5882,0.2662,0.2414,0
+NAME:crous de nantes,5,0.7232,1.8027,0.2343,0.1446,0
+NAME:de loire atlanti,3,0.689,1.5408,0.2569,0.2297,0
+SIREN:214400202,4,0.6773,1.71,0.2103,0.1693,0
+SIREN:214401432,10,0.6329,2.0539,0.1972,0.0633,0
+SIREN:200071900,2,0.618,1.2184,0.3293,0.309,0
+SIREN:284400017,12,0.6087,2.1137,0.1453,0.0507,0
+SIREN:214400558,6,0.5965,1.6997,0.1885,0.0994,0
+SIREN:130029747,14,0.5883,2.2285,0.1697,0.042,0
+SIREN:200069474,3,0.5708,1.3787,0.2168,0.1903,0
+NAME:arafer,7,0.55,1.7885,0.1273,0.0786,0
+NAME:spr pays de la loire,4,0.53,1.4601,0.1643,0.1325,0
+NAME:sec gal pour l adm min interieur ouest,5,0.5285,1.4618,0.2298,0.1057,0
+NAME:uniha gcs,3,0.4925,1.2615,0.1684,0.1642,0
+NAME:communaute d agglomeration du niortais,4,0.4814,1.301,0.2342,0.1204,0
+SIREN:246100663,2,0.4804,1.0498,0.2878,0.2402,0
+SIREN:214401622,8,0.4751,1.6067,0.1149,0.0594,0
+NAME:ademe,8,0.4729,1.5696,0.1557,0.0591,0
+NAME:gpm de nantes st nazaire,11,0.4725,1.5815,0.2605,0.043,0
+NAME:agce pour l enst fr a l etranger,7,0.4636,1.593,0.1114,0.0662,0
+NAME:carene,8,0.4505,1.6055,0.107,0.0563,0
+SIREN:983291931,2,0.4222,0.9734,0.2523,0.2111,0
+SIREN:451518641,2,0.4078,0.9562,0.2343,0.2039,0
+NAME:ville d ecouflant,2,0.4039,0.9527,0.2212,0.202,0
+SIREN:244400404,3,0.4031,1.0288,0.2485,0.1344,0
+SIREN:381053768,3,0.3969,1.1009,0.1523,0.1323,0
+NAME:conseil general de la vendee,8,0.3865,1.3181,0.1827,0.0483,0
+NAME:cap atlantique,4,0.381,1.1421,0.1623,0.0952,0
+SIREN:285300018,5,0.3799,1.1885,0.1623,0.076,0
+NAME:communes de grand lieu,4,0.3668,1.0949,0.1607,0.0917,0
+SIREN:218501914,5,0.365,1.1184,0.1643,0.073,0
+SIREN:258500222,6,0.3608,1.1521,0.1578,0.0601,0
+SIREN:288500010,9,0.3575,1.3612,0.1265,0.0397,0
+SIREN:200083392,4,0.3536,1.0132,0.2086,0.0884,0
+NAME:ville d alencon,2,0.3463,0.8619,0.2128,0.1732,0
+NAME:e collectivites vendee,4,0.3273,0.9978,0.1391,0.0818,0
+SIREN:860800077,3,0.3053,0.8499,0.1885,0.1018,0
+NAME:mairie du croisic,2,0.2967,0.7892,0.1609,0.1483,0
+NAME:cdc du pays de saint gilles cx de vie,7,0.2953,1.1487,0.0897,0.0422,0
+SIREN:200071876,2,0.2882,0.7425,0.2178,0.1441,0
+SIREN:865800767,3,0.2829,0.8309,0.1343,0.0943,0
+SIREN:214400434,1,0.2806,0.5777,0.2806,0.2806,0
+NAME:cnes terres de montaigu,2,0.2765,0.7498,0.1697,0.1382,0
+NAME:sydela,2,0.2754,0.7535,0.1456,0.1377,0
+SIREN:198513905,4,0.2729,0.7797,0.219,0.0682,0
+SIREN:535164412,3,0.2726,0.8461,0.1407,0.0909,0
+SIREN:194401006,6,0.2658,1.0056,0.1097,0.0443,0
+NAME:rectorat division scus,1,0.2639,0.558,0.2639,0.2639,0
+NAME:smictom de la vallee de l authion,2,0.2635,0.7309,0.1505,0.1318,0
+NAME:oniris,2,0.2631,0.731,0.1463,0.1316,0
+SIREN:200067346,2,0.2562,0.7203,0.1295,0.1281,0
+NAME:dir ouest,4,0.2559,0.8051,0.1772,0.064,0
+SIREN:327822177,1,0.2504,0.5415,0.2504,0.2504,0
+NAME:la garnache,1,0.25,0.5409,0.25,0.25,0
+SIREN:248500589,3,0.2459,0.7892,0.1057,0.082,0
+SIREN:832970024,2,0.2436,0.6297,0.2128,0.1218,0
+SIREN:214402042,4,0.2427,0.7963,0.1457,0.0607,0
+SIREN:214401580,2,0.239,0.5963,0.2212,0.1195,0
+NAME:chd vendee,3,0.2378,0.7575,0.1429,0.0793,0
+NAME:shema,2,0.2365,0.6838,0.1268,0.1182,0
+NAME:sgami ouest,1,0.2364,0.5237,0.2364,0.2364,0
+SIREN:214400491,1,0.2363,0.5235,0.2363,0.2363,0
+SIREN:576150270,1,0.236,0.5231,0.236,0.236,0
+NAME:universite du maine,2,0.235,0.6756,0.1453,0.1175,0
+NAME:dgac dsna,1,0.2343,0.521,0.2343,0.2343,0
+SIREN:200078079,1,0.2343,0.521,0.2343,0.2343,0
+SIREN:130023435,1,0.2343,0.521,0.2343,0.2343,0
+NAME:ville des sables d olonne,1,0.2342,0.5208,0.2342,0.2342,0
+NAME:inra angers nantes,2,0.2341,0.6407,0.187,0.117,0
+SIREN:200052702,2,0.2278,0.626,0.1847,0.1139,0
+NAME:conseil general de loire atlantique,4,0.2224,0.7731,0.0968,0.0556,0
+NAME:epf de la vendee,2,0.2195,0.602,0.1847,0.1098,0
+NAME:insee,2,0.2179,0.5672,0.2001,0.109,0
+SIREN:215601071,1,0.2165,0.4973,0.2165,0.2165,0
+NAME:crdc le lieu unique,1,0.2149,0.4951,0.2149,0.2149,0
+SIREN:172800013,1,0.2126,0.492,0.2126,0.2126,0
+NAME:c s t b,2,0.2024,0.6143,0.1238,0.1012,0
+NAME:geves,1,0.2001,0.4745,0.2001,0.2001,0
+SIREN:831928452,2,0.198,0.5588,0.1697,0.099,0
+NAME:cc du pays de st fulgent les essarts,1,0.1965,0.4693,0.1965,0.1965,0
+NAME:communes de nozay,1,0.1965,0.4694,0.1965,0.1965,0
+SIREN:502035785,1,0.1926,0.4637,0.1926,0.1926,0
+NAME:gie loire ocean,1,0.1925,0.4636,0.1925,0.1925,0
+SIREN:200067635,1,0.1925,0.4636,0.1925,0.1925,0
+SIREN:200054302,3,0.1917,0.6185,0.1429,0.0639,0
+SIREN:409104007,2,0.191,0.5346,0.1698,0.0955,0
+SIREN:214900201,2,0.189,0.5913,0.0993,0.0945,0
+SIREN:213500515,1,0.1885,0.4578,0.1885,0.1885,0
+NAME:cte de communes du pays des herbiers,2,0.1875,0.5221,0.1697,0.0938,0
+SIREN:200082139,1,0.1806,0.4459,0.1806,0.1806,0
+SIREN:130013097,1,0.1779,0.4419,0.1779,0.1779,0
+SIREN:214401325,2,0.1761,0.5095,0.1557,0.088,0
+SIREN:922749635,1,0.1735,0.4352,0.1735,0.1735,0
+SIREN:287200265,4,0.171,0.6403,0.1016,0.0427,0
+NAME:groupement d achats de l herm,1,0.1697,0.4294,0.1697,0.1697,0
+NAME:ircec,1,0.1697,0.4294,0.1697,0.1697,0
+SIREN:830955068,1,0.1697,0.4294,0.1697,0.1697,0
+SIREN:200071678,1,0.1697,0.4294,0.1697,0.1697,0
+SIREN:200071553,1,0.1697,0.4294,0.1697,0.1697,0
+NAME:ccir pays de la loire,7,0.1683,0.7804,0.0446,0.024,0
+NAME:gcs esante pays de la loire,2,0.1674,0.5089,0.1391,0.0837,0
+SIREN:233500016,1,0.1647,0.4214,0.1647,0.1647,0
+NAME:ville d orvault,4,0.1647,0.6696,0.0566,0.0412,0
+NAME:sna ouest,1,0.1626,0.4182,0.1626,0.1626,0
+SIREN:777739160,1,0.1608,0.4153,0.1608,0.1608,0
+SIREN:218500478,1,0.1598,0.4137,0.1598,0.1598,0
+SIREN:214900995,3,0.1574,0.5793,0.0897,0.0525,0
+SIREN:200056679,1,0.1573,0.4097,0.1573,0.1573,0
+SIREN:214401200,1,0.157,0.4091,0.157,0.157,0
+NAME:sgami ouest bzamp,1,0.1556,0.407,0.1556,0.1556,0
+SIREN:180092025,1,0.1523,0.4015,0.1523,0.1523,0
+SIREN:213502883,1,0.1522,0.4014,0.1522,0.1522,0
+SIREN:214400418,1,0.1505,0.3986,0.1505,0.1505,0
+NAME:cte de communes de la blain,1,0.1495,0.397,0.1495,0.1495,0
+NAME:syndicat departemental d energie,3,0.1494,0.5268,0.1097,0.0498,0
+SIREN:130025919,1,0.1486,0.3954,0.1486,0.1486,0
+NAME:epsilon centrale d achat informatique,1,0.1457,0.3905,0.1457,0.1457,0
+SIREN:200084655,1,0.1453,0.3898,0.1453,0.1453,0
+NAME:ctre national d enst a distance,1,0.1453,0.3898,0.1453,0.1453,0
+SIREN:214401358,1,0.1452,0.3898,0.1452,0.1452,0
+SIREN:268502424,1,0.1429,0.386,0.1429,0.1429,0
+NAME:institut 4 10,1,0.1429,0.3859,0.1429,0.1429,0
+NAME:sictiam,1,0.1391,0.3795,0.1391,0.1391,0
+NAME:mindef ema dc sca pfaf co rennes,1,0.1391,0.3794,0.1391,0.1391,0
+NAME:chambre reg agri pays de la loire,1,0.1391,0.3793,0.1391,0.1391,0
+NAME:comsopgn,1,0.1391,0.3794,0.1391,0.1391,0
+NAME:drac pays de la loire,1,0.1374,0.3765,0.1374,0.1374,0
+NAME:vendee habitat oph de vendee,1,0.1359,0.3739,0.1359,0.1359,0
+NAME:ars pays de la loire,1,0.1359,0.3739,0.1359,0.1359,0
+NAME:rennes 1,1,0.1359,0.3739,0.1359,0.1359,0
+NAME:ccas d angers,1,0.1334,0.3695,0.1334,0.1334,0
+SIREN:264900259,1,0.1312,0.3657,0.1312,0.1312,0
+NAME:communes vie et boulogne,1,0.1298,0.3632,0.1298,0.1298,0
+SIREN:200006971,1,0.1282,0.3603,0.1282,0.1282,0
+SIREN:200054336,3,0.1277,0.5069,0.0665,0.0426,0
+SIREN:794885913,1,0.1273,0.3587,0.1273,0.1273,0
+NAME:laval spla,1,0.1252,0.3549,0.1252,0.1252,0
+SIREN:172104309,1,0.1238,0.3524,0.1238,0.1238,0
+NAME:saelsi,1,0.1208,0.347,0.1208,0.1208,0
+SIREN:281700252,1,0.1208,0.3469,0.1208,0.1208,0
+SIREN:244400438,1,0.1206,0.3466,0.1206,0.1206,0
+SIREN:264900390,5,0.1202,0.5707,0.0326,0.024,0
+NAME:agrocampus ouest,1,0.1186,0.3428,0.1186,0.1186,0
+NAME:ecole national sup d arts et metiers,1,0.1152,0.3366,0.1152,0.1152,0
+NAME:plate forme achats finances nord est,1,0.1149,0.336,0.1149,0.1149,0
+SIREN:214401721,1,0.114,0.3343,0.114,0.114,0
+SIREN:191700327,3,0.1137,0.4758,0.0446,0.0379,0
+SIREN:264400268,2,0.1121,0.3882,0.0943,0.056,0
+NAME:gip vendee numerique,2,0.1112,0.3958,0.0873,0.0556,0
+NAME:acoss,1,0.1097,0.3261,0.1097,0.1097,0
+NAME:hop intercommunal du baugeois et val,1,0.1097,0.3261,0.1097,0.1097,0
+NAME:chbr reg metiers artisanat nouv aquit,2,0.1044,0.3874,0.0748,0.0522,0
+NAME:bretagne developpement innovation,1,0.1019,0.3108,0.1019,0.1019,0
+SIREN:788058030,1,0.1019,0.3108,0.1019,0.1019,0
+NAME:cte cnes du pays de chateau de gontier,1,0.0993,0.3056,0.0993,0.0993,0
+NAME:vallet,1,0.0968,0.3006,0.0968,0.0968,0
+NAME:groupe d etude et de controle des vari,1,0.0897,0.2859,0.0897,0.0897,0
+SIREN:214401317,2,0.0866,0.3189,0.0764,0.0433,0
+NAME:cte de cnes de l ile de noirmoutier,2,0.0855,0.3358,0.063,0.0427,0
+SIREN:451324974,1,0.0851,0.2761,0.0851,0.0851,0
+NAME:maine loire habitat office pub habitat,3,0.0838,0.3817,0.0383,0.0279,0
+SIREN:784301525,1,0.0828,0.2712,0.0828,0.0828,0
+NAME:esat foyers,2,0.0766,0.3202,0.0383,0.0383,0
+NAME:dreal bretagne,2,0.0766,0.3202,0.0383,0.0383,0
+SIREN:254901309,2,0.0754,0.3156,0.0446,0.0377,0
+NAME:synd dep d energie et d eqpt de vendee,2,0.0753,0.305,0.0575,0.0377,0
+NAME:regie dept passages d eau de vendee,3,0.0725,0.3452,0.0296,0.0242,0
+SIREN:575850490,1,0.0725,0.2482,0.0725,0.0725,0
+NAME:cte de cnes du pays d ancenis,1,0.0724,0.2481,0.0724,0.0724,0
+NAME:syndicat trivalis,3,0.069,0.3343,0.0243,0.023,0
+NAME:agence regionale pays de la loire ti,2,0.0683,0.2956,0.0369,0.0342,0
+NAME:cte de communes d erdre et gesvres,1,0.0661,0.2332,0.0661,0.0661,0
+SIREN:200048551,1,0.0613,0.2215,0.0613,0.0613,0
+NAME:iphv les hauts thebaudieres,2,0.0609,0.2721,0.0348,0.0304,0
+NAME:ville d arnage,2,0.0604,0.2711,0.0308,0.0302,0
+NAME:universite europeenne de bretagne,1,0.0565,0.2097,0.0565,0.0565,0
+NAME:le grand t theatre loire atlantique,2,0.0557,0.2559,0.0296,0.0278,0
+NAME:nantes metropole habitat,2,0.0556,0.2552,0.0278,0.0278,0
+SIREN:242900769,3,0.0554,0.2803,0.0278,0.0185,0
+NAME:cte de cnes de la vallee de clisson,1,0.0546,0.2049,0.0546,0.0546,0
+SIREN:211703004,1,0.0534,0.2016,0.0534,0.0534,0
+NAME:cmar pays de la loire,2,0.0518,0.242,0.0314,0.0259,0
+NAME:inserm,1,0.0515,0.1969,0.0515,0.0515,0
+SIREN:130031487,1,0.0515,0.1968,0.0515,0.0515,0
+NAME:semitan mandataire de nantes metropole,1,0.0489,0.1898,0.0489,0.0489,0
+NAME:sm megalis,1,0.0471,0.1851,0.0471,0.0471,0
+NAME:cg49,3,0.0454,0.2454,0.0178,0.0151,0
+SIREN:538208455,1,0.0431,0.1739,0.0431,0.0431,0
+NAME:sdis49,1,0.043,0.1738,0.043,0.043,0
+NAME:dir interregionale sces penitentiaires,2,0.0421,0.2085,0.0243,0.021,0
+NAME:inra formation permanente nationale,1,0.042,0.1708,0.042,0.042,0
+NAME:sdegm,2,0.0403,0.2026,0.0225,0.0202,0
+NAME:conseil general de la sarthe,3,0.0395,0.2217,0.0178,0.0132,0
+SIREN:218502268,1,0.0392,0.1628,0.0392,0.0392,0
+SIREN:219300779,1,0.0391,0.1626,0.0391,0.0391,0
+SIREN:248500415,1,0.0383,0.1601,0.0383,0.0383,0
+SIREN:284900016,2,0.038,0.1943,0.019,0.019,0
+NAME:comm comm de doue la fontaine,1,0.0361,0.1538,0.0361,0.0361,0
+NAME:cesame de sainte gemmes sur loire,1,0.0352,0.1509,0.0352,0.0352,0
+SIREN:217200955,1,0.0348,0.1499,0.0348,0.0348,0
+NAME:cci metropolitaine bretagne ouest,1,0.0346,0.1491,0.0346,0.0346,0
+SIREN:214402158,2,0.0336,0.1761,0.0212,0.0168,0
+NAME:conservatoire du littoral,1,0.0334,0.1456,0.0334,0.0334,0
+NAME:semitan mandataire de la cun,1,0.0325,0.1427,0.0325,0.0325,0
+NAME:cte cnes coeur d estuaire,2,0.0321,0.1718,0.0178,0.0161,0
+NAME:cc du pays de chantonnay,1,0.0314,0.1395,0.0314,0.0314,0
+NAME:communaute communes pays de redon,1,0.0308,0.1374,0.0308,0.0308,0
+NAME:du marais poitevi,1,0.0304,0.1362,0.0304,0.0304,0
+SIREN:445400104,2,0.0284,0.1576,0.0142,0.0142,0
+SIREN:482414216,1,0.0284,0.1298,0.0284,0.0284,0
+NAME:com communes du pays d ancenis,1,0.0278,0.1276,0.0278,0.0278,0
+NAME:caf de la somme,2,0.0277,0.1526,0.0183,0.0138,0
+SIREN:449073014,1,0.0267,0.1241,0.0267,0.0267,0
+NAME:ville d evron,1,0.0267,0.1241,0.0267,0.0267,0
+SIREN:200053593,1,0.0261,0.1222,0.0261,0.0261,0
+SIREN:245300355,1,0.0261,0.1222,0.0261,0.0261,0
+NAME:syndicat mixte pour le dvlpt numerique,1,0.0251,0.1188,0.0251,0.0251,0
+NAME:prefecture,1,0.0251,0.1188,0.0251,0.0251,0
+NAME:mindef dga do s2a,2,0.0248,0.142,0.0151,0.0124,0
+SIREN:217200542,1,0.0243,0.1159,0.0243,0.0243,0
+SIREN:214400475,1,0.0243,0.1159,0.0243,0.0243,0
+NAME:ville d ancenis saint gereon,1,0.0226,0.1102,0.0226,0.0226,0
+NAME:dsna,1,0.0225,0.11,0.0225,0.0225,0
+NAME:ville d avrille,1,0.0221,0.1083,0.0221,0.0221,0
+NAME:specialise de blain,1,0.0221,0.1083,0.0221,0.0221,0
+SIREN:200033298,1,0.0212,0.1052,0.0212,0.0212,0
+NAME:dreal pays de la loire,1,0.0212,0.1052,0.0212,0.0212,0
+NAME:mindef sga dcsid esid bordeaux,1,0.0204,0.1025,0.0204,0.0204,0
+NAME:comcom estuaire et sillon,1,0.0204,0.1025,0.0204,0.0204,0
+NAME:sisto,1,0.0204,0.1025,0.0204,0.0204,0
+SIREN:247200348,1,0.0204,0.1025,0.0204,0.0204,0
+NAME:mindef dga dt scat,1,0.0193,0.0983,0.0193,0.0193,0
+SIREN:254902505,1,0.019,0.0972,0.019,0.019,0
+NAME:e c a s gendarmerie nationale,1,0.019,0.0971,0.019,0.019,0
+NAME:d angers,2,0.019,0.1155,0.0124,0.0095,0
+NAME:sictom loir et sarthe,1,0.0185,0.0955,0.0185,0.0185,0
+NAME:c h s de la sarthe,1,0.0183,0.0945,0.0183,0.0183,0
+NAME:centre de gestion fpt loire atlantique,1,0.0178,0.0926,0.0178,0.0178,0
+SIREN:130025158,1,0.0178,0.0926,0.0178,0.0178,0
+NAME:les quinconces l espal,1,0.0178,0.0926,0.0178,0.0178,0
+NAME:smirgeom est sarthe,1,0.0178,0.0927,0.0178,0.0178,0
+NAME:spic arena loire trelaze,1,0.0172,0.0903,0.0172,0.0172,0
+NAME:cerema dtermed,1,0.0172,0.0903,0.0172,0.0172,0
+SIREN:217201540,1,0.0171,0.0902,0.0171,0.0171,0
+NAME:inst interdpt bassin sevre niortaise,1,0.0171,0.0902,0.0171,0.0171,0
+SIREN:217203207,1,0.0171,0.0902,0.0171,0.0171,0
+SIREN:278000013,1,0.017,0.0897,0.017,0.017,0
+SIREN:940022890,1,0.0159,0.0853,0.0159,0.0159,0
+NAME:residences saint alexandre,1,0.0155,0.0839,0.0155,0.0155,0
+NAME:crous de rennes,1,0.0149,0.0813,0.0149,0.0149,0
+SIREN:515163749,1,0.0149,0.0813,0.0149,0.0149,0
+SIREN:265300236,1,0.0149,0.0813,0.0149,0.0149,0
+NAME:saem vendee,1,0.0149,0.0813,0.0149,0.0149,0
+SIREN:268504453,1,0.0143,0.0791,0.0143,0.0143,0
+SIREN:188500490,1,0.0143,0.0791,0.0143,0.0143,0
+SIREN:213503642,1,0.0143,0.0791,0.0143,0.0143,0
+NAME:synd mixte du pays de coutances,1,0.0143,0.0791,0.0143,0.0143,0
+SIREN:180046013,1,0.0143,0.0791,0.0143,0.0143,0
+SIREN:173501115,1,0.0133,0.0748,0.0133,0.0133,0
+NAME:cte reg peches maritimes elevages mari,1,0.0129,0.0734,0.0129,0.0129,0
+SIREN:218502888,1,0.0124,0.071,0.0124,0.0124,0
+SIREN:403040850,1,0.0119,0.069,0.0119,0.0119,0
+NAME:cci de maine et loire,1,0.0119,0.069,0.0119,0.0119,0
+SIREN:523699148,1,0.0119,0.069,0.0119,0.0119,0
+NAME:hopital intercommunal sevre et loire,1,0.0119,0.069,0.0119,0.0119,0
+NAME:pole sante sarthe et loire,1,0.0119,0.069,0.0119,0.0119,0
+NAME:cpam de la sarthe,1,0.0119,0.069,0.0119,0.0119,0
+SIREN:265300087,1,0.0102,0.0618,0.0102,0.0102,0
+SIREN:791052491,1,0.0102,0.0618,0.0102,0.0102,0
+NAME:cte d agglomeration du choletais,1,0.0098,0.06,0.0098,0.0098,0
+SIREN:218501096,1,0.0098,0.06,0.0098,0.0098,0
+NAME:dirisi,1,0.0084,0.0532,0.0084,0.0084,0
+SIREN:528848153,1,0.0069,0.0458,0.0069,0.0069,0
+NAME:o p h le mans habitat,1,0.0031,0.025,0.0031,0.0031,0

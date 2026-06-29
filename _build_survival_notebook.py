@@ -927,6 +927,194 @@ All figures saved to `reports/figures/survival/`.
 All result tables saved to `reports/tables/survival/`.
 """))
 
+# ─────────────────────────────────────────────────────────────────────────────
+# SECTION 16 — Operational Risk Indicators (12m / 24m)
+# ─────────────────────────────────────────────────────────────────────────────
+cells.append(md("""## 16. Operational Risk Indicators (12m / 24m)
+
+The LogNormal AFT model (best by AIC) is applied to all scored contracts to produce
+forward-looking renewal-probability estimates at the **contract**, **buyer**, and
+**segment** level. Two horizons are computed: 12 months and 24 months.
+
+Risk tiers are defined on the 12-month probability:
+- **High**: P(renewal ≤ 12 mo) ≥ 0.40
+- **Medium**: 0.25 ≤ P < 0.40
+- **Low**: P < 0.25
+
+All outputs below reflect the current post-SIREN-enrichment model (705 events, 1,100 contracts)."""))
+
+cells.append(code("""# 16.1 Contract-level renewal probability predictions
+STUDY_END     = pd.Timestamp("2024-12-31")
+HIGH_THRESH   = 0.40
+MEDIUM_THRESH = 0.25
+
+best_lnaf = fitted_models["LogNormal"]  # fitted in Section 14
+
+feature_df = df_cox_enc.drop(columns=["observed_duration_months", "event"])
+sf12 = best_lnaf.predict_survival_function(feature_df, times=[12]).T.rename(columns={12: "S_12mo"})
+sf24 = best_lnaf.predict_survival_function(feature_df, times=[24]).T.rename(columns={24: "S_24mo"})
+
+risk_df = sf12.join(sf24)
+risk_df.index = df_cox_enc.index
+risk_df["p_renewal_12m"] = (1 - risk_df["S_12mo"]).round(4)
+risk_df["p_renewal_24m"] = (1 - risk_df["S_24mo"]).round(4)
+
+def _tier(p):
+    if p >= HIGH_THRESH:   return "High"
+    if p >= MEDIUM_THRESH: return "Medium"
+    return "Low"
+
+risk_df["risk_tier"] = risk_df["p_renewal_12m"].apply(_tier)
+
+meta_cols = ["contract_id", "renewal_contract_id", "buyer_key", "category_label",
+             "start_date", "declared_duration_months", "dur_was_imputed",
+             "event", "observed_duration_months"]
+risk_df = risk_df.join(df[meta_cols])
+risk_df["start_date"] = pd.to_datetime(risk_df["start_date"])
+risk_df["age_months"] = ((STUDY_END - risk_df["start_date"]).dt.days / 30.44).round(2)
+risk_df["model_used"] = "LogNormal AFT"
+risk_df["event_definition_note"] = (
+    "Proxy BOAMP renewal event from algorithmic linking; not manually validated yet."
+)
+
+out_cols = ["contract_id", "renewal_contract_id", "buyer_key", "category_label",
+            "start_date", "age_months", "declared_duration_months", "dur_was_imputed",
+            "event", "observed_duration_months",
+            "p_renewal_12m", "p_renewal_24m", "risk_tier", "model_used",
+            "event_definition_note"]
+risk_out = risk_df[out_cols].reset_index(drop=True)
+risk_out.to_csv(TBL_DIR / "renewal_risk_12_24_months.csv", index=False)
+
+tier_counts = risk_df["risk_tier"].value_counts()
+print(f"Scored contracts: {len(risk_out):,}")
+print(f"Events in scored set: {int(risk_df['event'].sum())}")
+print(f"Risk tiers: {tier_counts.to_dict()}")
+print(f"Saved → renewal_risk_12_24_months.csv")"""))
+
+cells.append(code("""# 16.2 Buyer-level aggregation
+buyer_grp = (
+    risk_df.groupby("buyer_key")
+    .agg(
+        n_contracts=("contract_id", "count"),
+        expected_renewals_12m=("p_renewal_12m", "sum"),
+        expected_renewals_24m=("p_renewal_24m", "sum"),
+        max_p_renewal_12m=("p_renewal_12m", "max"),
+        mean_p_renewal_12m=("p_renewal_12m", "mean"),
+        high_risk_contracts_count=("risk_tier", lambda x: (x == "High").sum()),
+    )
+    .reset_index()
+    .round(4)
+    .sort_values("expected_renewals_12m", ascending=False)
+    .reset_index(drop=True)
+)
+buyer_grp.to_csv(TBL_DIR / "buyer_renewal_risk_ranking.csv", index=False)
+print(f"Buyer-level: {len(buyer_grp)} buyers saved")
+print(buyer_grp.head(10)[["buyer_key", "n_contracts", "expected_renewals_12m",
+                           "max_p_renewal_12m"]].to_string(index=False))
+
+# 16.3 Segment-level aggregation
+seg_grp = (
+    risk_df.groupby("category_label")
+    .agg(
+        n_contracts=("contract_id", "count"),
+        expected_renewals_12m=("p_renewal_12m", "sum"),
+        expected_renewals_24m=("p_renewal_24m", "sum"),
+        mean_p_renewal_12m=("p_renewal_12m", "mean"),
+        mean_p_renewal_24m=("p_renewal_24m", "mean"),
+        high_risk_contracts_count=("risk_tier", lambda x: (x == "High").sum()),
+    )
+    .reset_index()
+    .round(4)
+    .sort_values("expected_renewals_12m", ascending=False)
+    .reset_index(drop=True)
+)
+seg_grp.to_csv(TBL_DIR / "segment_renewal_risk_ranking.csv", index=False)
+print(f"\\nSegment-level: {len(seg_grp)} segments saved")
+print(seg_grp[["category_label", "n_contracts", "expected_renewals_12m",
+               "expected_renewals_24m"]].to_string(index=False))"""))
+
+cells.append(code("""# 16.4 Prediction histogram — 12m
+fig, ax = plt.subplots(figsize=(8, 5))
+ax.hist(risk_df["p_renewal_12m"], bins=40, color=PALETTE[0], edgecolor="white")
+ax.axvline(HIGH_THRESH,   color="red",    linestyle="--", linewidth=1.5,
+           label=f"High-risk threshold ({HIGH_THRESH:.2f})")
+ax.axvline(MEDIUM_THRESH, color="orange", linestyle="--", linewidth=1.2,
+           label=f"Medium-risk threshold ({MEDIUM_THRESH:.2f})")
+ax.set_xlabel("P(renewal \\u2264 12 months)")
+ax.set_ylabel("Contracts")
+ax.set_title(f"LogNormal AFT \\u2014 12-Month Renewal Probability Distribution\\n"
+             f"(N={len(risk_df):,} scored contracts, {int(risk_df['event'].sum())} events)")
+ax.legend(fontsize=9)
+save_fig("pred_hist_p12m.png")
+
+# 16.5 Prediction histogram — 24m
+fig, ax = plt.subplots(figsize=(8, 5))
+ax.hist(risk_df["p_renewal_24m"], bins=40, color=PALETTE[1], edgecolor="white")
+ax.set_xlabel("P(renewal \\u2264 24 months)")
+ax.set_ylabel("Contracts")
+ax.set_title(f"LogNormal AFT \\u2014 24-Month Renewal Probability Distribution\\n"
+             f"(N={len(risk_df):,} scored contracts, {int(risk_df['event'].sum())} events)")
+save_fig("pred_hist_p24m.png")
+
+# 16.6 Top-20 contracts by 12m risk
+top20 = (risk_df[["contract_id", "category_label", "declared_duration_months",
+                   "p_renewal_12m", "p_renewal_24m", "risk_tier", "event"]]
+         .sort_values("p_renewal_12m", ascending=False)
+         .head(20).reset_index(drop=True))
+top20.to_csv(TBL_DIR / "top20_renewal_risk.csv", index=False)
+
+labels = [f"{r.contract_id}\\n({r.category_label[:12]})" for r in top20.itertuples()]
+colors = [PALETTE[0] if t == "High" else PALETTE[1] if t == "Medium" else PALETTE[2]
+          for t in top20["risk_tier"]]
+fig, ax = plt.subplots(figsize=(10, 6))
+ax.barh(range(len(top20)), top20["p_renewal_12m"], color=colors)
+ax.set_yticks(range(len(top20)))
+ax.set_yticklabels(labels, fontsize=7)
+ax.set_xlabel("P(renewal \\u2264 12 months)")
+ax.set_title("Top-20 Contracts by 12-Month Renewal Probability\\n(LogNormal AFT)")
+ax.invert_yaxis()
+from matplotlib.patches import Patch
+ax.legend(handles=[Patch(color=PALETTE[0], label="High"),
+                   Patch(color=PALETTE[1], label="Medium"),
+                   Patch(color=PALETTE[2], label="Low")],
+          title="Risk tier", fontsize=9)
+save_fig("pred_top20_contracts.png")
+
+# 16.7 Top-15 buyers by expected renewals (12m)
+top15b = buyer_grp.head(15)
+short_keys = [k[:40] + "\\u2026" if len(k) > 40 else k for k in top15b["buyer_key"]]
+fig, ax = plt.subplots(figsize=(10, 6))
+ax.barh(range(len(top15b)), top15b["expected_renewals_12m"],
+        color=PALETTE[0], alpha=0.85, label="12m")
+ax.barh(range(len(top15b)), top15b["expected_renewals_24m"],
+        color=PALETTE[1], alpha=0.45, label="24m")
+ax.set_yticks(range(len(top15b)))
+ax.set_yticklabels(short_keys, fontsize=8)
+ax.invert_yaxis()
+ax.set_xlabel("Expected renewals (\\u03a3 predicted probability)")
+ax.set_title("Top-15 Buyers by Expected Renewals (12-Month Horizon)\\n(LogNormal AFT)")
+ax.legend(fontsize=9)
+save_fig("pred_top15_buyers.png")
+
+# 16.8 Segment expected renewals
+x = range(len(seg_grp))
+w = 0.38
+short_cats = [c[:18] + "\\u2026" if len(c) > 18 else c for c in seg_grp["category_label"]]
+fig, ax = plt.subplots(figsize=(11, 5))
+ax.bar([i - w/2 for i in x], seg_grp["expected_renewals_12m"], w,
+       color=PALETTE[0], label="12 months")
+ax.bar([i + w/2 for i in x], seg_grp["expected_renewals_24m"], w,
+       color=PALETTE[1], label="24 months")
+ax.set_xticks(list(x))
+ax.set_xticklabels(short_cats, rotation=35, ha="right", fontsize=9)
+ax.set_ylabel("Expected renewals (\\u03a3 predicted probability)")
+ax.set_title("Expected Renewals by Technology Segment\\n"
+             "(LogNormal AFT \\u2014 12m and 24m horizons)")
+ax.legend(fontsize=9)
+save_fig("pred_segment_expected.png")
+
+print("All Section 16 figures saved.")"""))
+
 # Assemble and write notebook
 nb.cells = cells
 

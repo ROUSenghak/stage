@@ -1,21 +1,21 @@
-Pr_renewal_le12mo,contract_id,category_label,declared_duration_months,composite_score,event
-0.3371,BOAMP:22-166149,Software & Applications,2.0,,0
-0.3293,BOAMP:23-98097,Software & Applications,3.0,,0
-0.2978,BOAMP:22-112462,IT Services & Consulting,3.0,0.5254,1
-0.2887,BOAMP:21-141754,Software & Applications,5.0,,0
-0.2878,BOAMP:20-100172,IT Services & Consulting,1.0,,0
-0.283,BOAMP:22-153148,IT Services & Consulting,5.0,0.5899,1
-0.283,BOAMP:21-11209,IT Services & Consulting,5.0,,0
-0.2825,BOAMP:23-30054,Cybersecurity,3.0,,0
-0.2815,BOAMP:22-94809,Software & Applications,6.0,0.6087,1
-0.2806,BOAMP:23-137061,Telecom & Networks,2.0,,0
-0.2662,BOAMP:23-56091,Telecom & Networks,4.0,,0
-0.2662,BOAMP:23-31948,Telecom & Networks,4.0,,0
-0.2639,BOAMP:22-102191,Telecom & Networks,1.0,,0
-0.2614,BOAMP:23-12742,Unknown,4.0,,0
-0.2605,BOAMP:21-155430,Software & Applications,8.0,0.5146,1
-0.2569,BOAMP:22-123056,IT Services & Consulting,12.0,0.5467,1
-0.2523,BOAMP:20-110309,IT Services & Consulting,6.0,0.5819,1
-0.2523,BOAMP:21-126360,IT Services & Consulting,6.0,,0
-0.2523,BOAMP:23-48831,Telecom & Networks,6.0,0.5343,1
-0.2517,BOAMP:21-62138,Cybersecurity,4.0,0.3588,1
+contract_id,category_label,declared_duration_months,p_renewal_12m,p_renewal_24m,risk_tier,event
+BOAMP:22-166149,Software & Applications,2.0,0.3371,0.6394,Medium,0
+BOAMP:23-98097,Software & Applications,3.0,0.3293,0.6313,Medium,0
+BOAMP:22-112462,IT Services & Consulting,3.0,0.2978,0.5974,Medium,1
+BOAMP:21-141754,Software & Applications,5.0,0.2887,0.5871,Medium,0
+BOAMP:20-100172,IT Services & Consulting,1.0,0.2878,0.5861,Medium,0
+BOAMP:21-11209,IT Services & Consulting,5.0,0.283,0.5805,Medium,0
+BOAMP:22-153148,IT Services & Consulting,5.0,0.283,0.5806,Medium,1
+BOAMP:23-30054,Cybersecurity,3.0,0.2825,0.58,Medium,0
+BOAMP:22-94809,Software & Applications,6.0,0.2815,0.5788,Medium,1
+BOAMP:23-137061,Telecom & Networks,2.0,0.2806,0.5777,Medium,0
+BOAMP:23-31948,Telecom & Networks,4.0,0.2662,0.5608,Medium,0
+BOAMP:23-56091,Telecom & Networks,4.0,0.2662,0.5608,Medium,0
+BOAMP:22-102191,Telecom & Networks,1.0,0.2639,0.558,Medium,0
+BOAMP:23-12742,Unknown,4.0,0.2614,0.555,Medium,0
+BOAMP:21-155430,Software & Applications,8.0,0.2605,0.5539,Medium,1
+BOAMP:22-123056,IT Services & Consulting,12.0,0.2569,0.5495,Medium,1
+BOAMP:21-126360,IT Services & Consulting,6.0,0.2523,0.5438,Medium,0
+BOAMP:20-110309,IT Services & Consulting,6.0,0.2523,0.5438,Medium,1
+BOAMP:23-48831,Telecom & Networks,6.0,0.2523,0.5438,Medium,1
+BOAMP:21-62138,Cybersecurity,4.0,0.2517,0.5431,Medium,1
