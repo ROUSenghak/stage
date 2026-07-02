@@ -1,4 +1,4 @@
 scenario,n_total,n_events,n_censored,event_rate_pct,km_median_months,km_surv_12m,km_surv_24m,km_surv_36m,km_surv_48m,cox_c_index,hr_declared_duration,hr_start_year
-baseline,1100,705,395,64.1,48.2,0.866,0.752,0.687,0.504,0.6536,0.9916,1.0936
-exclude_uncertain,767,372,395,48.5,54.8,0.907,0.824,0.769,0.619,0.6012,0.9973,1.0912
-strict_hc_only,1100,100,1000,9.1,inf,0.979,0.961,0.952,0.91,0.6333,0.9957,1.0351
+baseline,1210,665,545,55.0,50.1,0.879,0.79,0.738,0.581,0.6317,0.9924,1.0694
+exclude_uncertain,942,397,545,42.1,inf,0.912,0.85,0.806,0.671,0.5789,0.9963,1.0487
+strict_hc_only,1210,75,1135,6.2,inf,0.989,0.98,0.975,0.945,0.4549,1.0003,1.004

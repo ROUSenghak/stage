@@ -39,6 +39,12 @@ reports/phase1_technical_report_before_consistency_fix.pdf
 reports/phase1_technical_report_before_consistency_fix.tex
 ```
 
+> **Note (2026-07-02 cleanup):** these backup snapshots (and the later
+> `*_before_restructure.tex` snapshots) were moved to
+> `archive/obsolete_20260702/reports/`. This document is itself a historical
+> record of the 2026-06-23 consistency pass; its numbers describe that date's
+> state, not the current W=6 results.
+
 ---
 
 ## 4. Commands used to regenerate PDFs

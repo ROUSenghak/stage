@@ -1,6 +1,6 @@
 dataset,n_eligible,event_rate_pct,km_median_months,logrank_p_value,km_method
-baseline,1933.0,11.3,inf,0.4664,KaplanMeierFitter (lifelines)
-siren_enriched,1933.0,12.1,inf,0.4664,KaplanMeierFitter (lifelines)
+baseline,1933.0,7.6,inf,0.3783,KaplanMeierFitter (lifelines)
+siren_enriched,1933.0,8.3,inf,0.3783,KaplanMeierFitter (lifelines)
 baseline,,,,,by_category
 baseline,,,,,by_category
 baseline,,,,,by_category

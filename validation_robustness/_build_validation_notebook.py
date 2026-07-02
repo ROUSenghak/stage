@@ -889,7 +889,7 @@ The declared_duration HR direction ({base['hr_declared_duration']} at baseline, 
 declared contracts have lower renewal hazard) is expected to remain negative across all
 feasible thresholds (≥0.50 through ≥0.70). Similarly, the start_year HR ({base['hr_start_year']}
 at baseline) reflects a temporal trend in the study cohort. Readers should note that the
-Cox model at score≥0.80 ({int(sc070['n_events'] if sc070['n_events'] > 0 else 0)} events) and score≥0.90
+Cox model at score≥0.70 ({int(sc070['n_events'] if sc070['n_events'] > 0 else 0)} events) and stricter cuts
 are substantially underpowered — those C-index estimates are indicative only.
 
 ---

@@ -1,0 +1,32 @@
+metric,value
+audit_date,2026-07-02
+auditor,"AI-assisted manual review (Claude, full official BOAMP records + corpus-wide counter-search)"
+sample_size,150
+linked_audited,100
+unlinked_audited,50
+TP,14
+FP,82
+UNCERTAIN_linked,4
+TN,41
+FN,6
+UNCERTAIN_unlinked,3
+precision_raw_sample,0.146 (14/96 decided)
+precision_stratum_weighted_population,~0.088
+false_positive_rate_linked,0.854 (82/96 decided)
+missed_renewal_rate_unlinked,0.128 (6/47 decided)
+proxy_recall_rough,~0.46 (population-scaled; highly approximate)
+uncertainty_rate,7/150 = 4.7%
+precision_HIGH_tier(S>=0.70),0.50 (11/22 decided)
+precision_MEDIUM_tier,0.09 (3/34 decided)
+precision_LOW_tier,0.00 (0/40 decided)
+precision_strict_flag,0.50 (10/20 decided)
+precision_text_sim>=0.80,1.00 (11/11 decided)
+precision_text_sim_0.5-0.8,0.12
+precision_text_sim<0.5,0.00
+precision_cpv_exact_match,0.41
+precision_cpv_weak_or_zero,0.03
+precision_NAME_buyer_key,0.16
+precision_SIREN_buyer_key,0.14
+main_FP_causes,best same-buyer candidate near est_end is a different procurement need; generic CPV (48000000/72000000) inflates cpv component; large buyers publish many IT notices; 2 buyer-merge errors (region council vs prefecture)
+main_FN_causes,early renewal before window opens (admin-ceiling durations); buyer renamed/restructured; annual cycles missed by weeks; declared duration underestimates true cycle
+caveat,Manual audit estimate on a stratified sample of official BOAMP notice records; NOT population-level ground-truth precision/recall. Recall is approximate; no exhaustive ground truth exists.

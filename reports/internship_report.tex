@@ -68,16 +68,20 @@ move from a descriptive view (``what happened?'') towards a predictive one
 explicit renewal field}, the renewal relationship is reconstructed from
 observable signals: a proxy renewal \texttt{event} built from
 Sentence-Transformer text embeddings combined with CPV, temporal, and buyer
-signals, used as the event variable for survival analysis. On 1{,}100 eligible
-source contracts the linking method recovers a plausible renewal for 705 of them
-(\textbf{64.1\%}), against an 11.3\% lexical baseline. Survival modeling gives a
-global Kaplan--Meier median survival of \textbf{48.2 months}, a Cox concordance
-of \textbf{0.6541}, and a best-fitting log-normal parametric model (AIC
-7{,}176.6). The fitted model is translated into 12- and 24-month renewal-risk
+signals, used as the event variable for survival analysis. On 1{,}210 eligible
+source contracts the linking method recovers a plausible renewal for 665 of them
+(\textbf{55.0\%}), against a 7.6\% lexical baseline at the same window setting. Survival modeling gives a
+global Kaplan--Meier median survival of \textbf{50.1 months}, a Cox concordance
+of \textbf{0.6317}, and a best-fitting log-normal parametric model (AIC
+7{,}068.4). The fitted model is translated into 12- and 24-month renewal-risk
 indicators at contract, buyer, and segment level. Buyer identities were
 consolidated by a SIREN enrichment step (completed 2026-06-24). The headline
-caveat: \texttt{event} is a proxy, and its precision has not yet been validated
-by manual review.
+caveat: \texttt{event} is a proxy, and a manual audit of a stratified 150-case
+sample (2026-07-02) estimates its precision at only $\approx$9--15\% overall ---
+concentrated in the high-text-similarity core (precision 1.00 at text $\geq$0.80,
+$\approx$0.50 in the HIGH/strict tier, $\approx$0 below composite 0.50). The
+survival results should be read as describing algorithm-identifiable same-buyer
+re-publications, not validated renewals.
 \end{abstract}
 
 % ===========================================================================
@@ -116,8 +120,8 @@ diagnostics are deferred to the technical and data quality reports.
 \begin{itemize}[leftmargin=1.4em,itemsep=1pt]
   \item 3{,}181 BOAMP notices downloaded (2015--2024).
   \item 1{,}933 are \texttt{APPEL\_OFFRE} (source contracts); 1{,}081 are \texttt{ATTRIBUTION}.
-  \item 1{,}100 are \emph{eligible}: their expected renewal window falls before 2024-12-31.
-  \item 833 are structurally censored upfront (too recent to observe a renewal).
+  \item 1{,}210 are \emph{eligible}: their expected renewal window ($\pm 6$ months around the estimated end date) closes before 2024-12-31.
+  \item 723 are structurally censored upfront (too recent to observe a renewal).
 \end{itemize}
 
 DECP (3{,}039 digital contracts, same scope) is far richer (100\% SIRET, 99.4\%
@@ -179,31 +183,31 @@ Data cleaning \& EDA
   & \nolinkurl{data/processed/boamp_full_clean.csv} \\[3pt]
 Buyer SIREN enrichment
   & \textcolor{done}{Done}
-  & 660/1,100 eligible rows on a SIREN key
+  & 724/1,210 eligible rows on a SIREN key
   & \nolinkurl{buyer_siren_enrichment/} \\[3pt]
 Renewal linking (event reconstruction)
   & \textcolor{done}{Done}
-  & 705/1,100 eligible linked (64.1\%)
+  & 665/1,210 eligible linked (55.0\%)
   & \nolinkurl{boamp_renewal_linking_quality/} \\[3pt]
 Survival dataset construction
   & \textcolor{done}{Done}
-  & 1,100 rows $\times$ 36 cols
+  & 1,210 rows $\times$ 33 cols
   & \nolinkurl{data/processed/boamp_phase2_survival.csv} \\[3pt]
 Kaplan--Meier \& log-rank
   & \textcolor{done}{Done}
-  & Median 48.2 mo; duration significant
+  & Median 50.1 mo; duration significant
   & \nolinkurl{notebooks/02_survival_modeling_boamp.ipynb} \\[3pt]
 Cox PH model
   & \textcolor{done}{Done}
-  & C-index 0.6541
+  & C-index 0.6317
   & same notebook + \nolinkurl{reports/tables/survival/} \\[3pt]
 Parametric AFT models
   & \textcolor{done}{Done}
-  & Log-normal best (AIC 7,176.6)
+  & Log-normal best (AIC 7,068.4)
   & same notebook \\[3pt]
 Sensitivity analysis
   & \textcolor{done}{Done}
-  & Ranking stable across 3 definitions
+  & Directions stable (A/B); strict variant underpowered
   & \nolinkurl{reports/tables/survival/sensitivity_comparison.csv} \\[3pt]
 Robustness checks
   & \textcolor{done}{Done}
@@ -214,9 +218,9 @@ Operational risk indicators
   & 12/24-mo risk at contract/buyer/segment
   & \nolinkurl{reports/tables/survival/top20_renewal_risk.csv} \\[3pt]
 Manual event validation
-  & \textcolor{partial}{Partial}
-  & Sample drawn; \textbf{review not done}
-  & \nolinkurl{event_validation/} \\[3pt]
+  & \textcolor{done}{Done}
+  & 150 cases audited; precision $\approx$0.09--0.15 (HIGH tier 0.50)
+  & \nolinkurl{event_validation/manual_validation_summary.md} \\[3pt]
 Trained NLP classifier
   & \textcolor{notdone}{Not done}
   & Taxonomy is rule-based only
@@ -246,8 +250,8 @@ across spelling variants. A \textbf{SIREN enrichment step} (completed
 \textbf{2026-06-24}) queries the official \emph{API Recherche d'Entreprises} for
 each buyer name and, for \textbf{HIGH-confidence matches only}, upgrades the
 buyer key from \texttt{NAME:} to \texttt{SIREN:\{9-digit\}}, merging name aliases
-of the same legal entity. Of the 1{,}100 eligible contracts, \textbf{660 carry a
-SIREN key and 440 remain name-keyed}; 275 of 525 unique buyers (52.4\%) matched
+of the same legal entity. Of the 1{,}210 eligible contracts, \textbf{724 carry a
+SIREN key (plus 2 SIRET) and 484 remain name-keyed}; 275 of 525 unique buyers (52.4\%) matched
 with HIGH confidence. Medium/low matches are kept for review but never applied
 automatically. Enrichment is a buyer-resolution improvement, \emph{not} ground
 truth: rare false merges at HIGH confidence remain possible. Outputs:
@@ -301,57 +305,57 @@ legally verified renewal probabilities. Output:
 \textbf{Quantity} & \textbf{Value} \\
 \midrule
 Source contracts (\texttt{APPEL\_OFFRE}) & 1{,}933 \\
-Eligible (renewal window observable) & 1{,}100 \\
-Linked renewals (\texttt{event}~$=1$) & 705 \quad(64.1\%) \\
-Right-censored (\texttt{event}~$=0$) & 395 \quad(35.9\%) \\
-Lexical baseline linking rate & 11.3\% \\
+Eligible (renewal window observable) & 1{,}210 \\
+Linked renewals (\texttt{event}~$=1$) & 665 \quad(55.0\%) \\
+Right-censored (\texttt{event}~$=0$) & 545 \quad(45.0\%) \\
+Lexical baseline linking rate ($W=6$) & 7.6\% \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 Linking rate by category (Table~\ref{tab:bycat}): Software \& Applications and
-IT Services \& Consulting renew most (71.3\%, 67.9\%); Data \& AI and IT Hardware
-\& Equipment least (38.2\%, 47.6\%). Small categories ($n < 10$) are underpowered.
+IT Services \& Consulting renew most (62.8\%, 60.5\%); Data \& AI and IT Hardware
+\& Equipment least (30.0\%, 34.6\%). Small categories ($n < 10$) are underpowered.
 
 \begin{table}[H]
 \centering
-\caption{Event rate by technology category (1{,}100 eligible contracts; events sum to 705).}
+\caption{Event rate by technology category (1{,}210 eligible contracts; events sum to 665).}
 \label{tab:bycat}
 \small
 \begin{tabular}{@{}lrrr@{}}
 \toprule
 \textbf{Category} & \textbf{n} & \textbf{events} & \textbf{rate \%} \\
 \midrule
-IT Services \& Consulting          & 312 & 212 & 67.9 \\
-Software \& Applications           & 209 & 149 & 71.3 \\
-Telecom \& Networks                & 204 & 124 & 60.8 \\
-Cybersecurity                      & 121 &  75 & 62.0 \\
-Unknown                            & 108 &  60 & 55.6 \\
-Digital Workplace \& Collaboration &  45 &  30 & 66.7 \\
-Data \& AI                         &  34 &  13 & 38.2 \\
-IT Maintenance \& Support          &  22 &  15 & 68.2 \\
-IT Hardware \& Equipment           &  21 &  10 & 47.6 \\
-Cloud \& Infrastructure            &  19 &  13 & 68.4 \\
-GIS \& Mapping                     &   5 &   4 & 80.0 \\
+IT Services \& Consulting          & 344 & 208 & 60.5 \\
+Software \& Applications           & 223 & 140 & 62.8 \\
+Telecom \& Networks                & 223 & 116 & 52.0 \\
+Cybersecurity                      & 136 &  73 & 53.7 \\
+Unknown                            & 115 &  49 & 42.6 \\
+Digital Workplace \& Collaboration &  51 &  32 & 62.7 \\
+Data \& AI                         &  40 &  12 & 30.0 \\
+IT Maintenance \& Support          &  22 &  11 & 50.0 \\
+IT Hardware \& Equipment           &  26 &   9 & 34.6 \\
+Cloud \& Infrastructure            &  22 &  11 & 50.0 \\
+GIS \& Mapping                     &   8 &   4 & 50.0 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-\textbf{Link quality.} Of the 705 accepted links: 133 are single-candidate
-(no competing match); of the remaining 572 multi-candidate links, 265 (46\%)
-have a score margin below 0.05, flagging an ambiguous winner. 100 links (14.2\%)
+\textbf{Link quality.} Of the 665 accepted links: 164 are single-candidate
+(no competing match); of the remaining 501 multi-candidate links, 219 (44\%)
+have a score margin below 0.05, flagging an ambiguous winner. 75 links (11.3\%)
 satisfy the \texttt{high\_confidence\_strict} criterion ($S \geq 0.70$ and margin
 $\geq 0.05$, multi-candidate only); these form the Model~C core
-(Table~\ref{tab:sens}). \textbf{Main unlinked failure mode:} 331 of 395 unlinked
-contracts (83.8\%, rounded 84\%) have no temporal partner in the search window --- a true absence
+(Table~\ref{tab:sens}). \textbf{Main unlinked failure mode:} 491 of 545 unlinked
+contracts (90.1\%) have no temporal partner in the search window --- a true absence
 of a candidate notice, not a scoring failure.
 
 \subsection{Survival analysis}
 
-\paragraph{Kaplan--Meier.} Global median survival is \textbf{48.2 months},
+\paragraph{Kaplan--Meier.} Global median survival is \textbf{50.1 months},
 consistent with the prevalence of 48-month framework contracts. Log-rank tests
 (Table~\ref{tab:logrank}): renewal timing is driven by declared duration and
-imputation status ($p<0.001$), not by technology category ($p=0.182$).
+imputation status ($p<0.001$); category is marginally significant ($p=0.025$).
 
 \begin{table}[H]
 \centering
@@ -362,18 +366,19 @@ imputation status ($p<0.001$), not by technology category ($p=0.182$).
 \toprule
 \textbf{Stratifying variable} & \textbf{statistic} & \textbf{p} & \textbf{df} \\
 \midrule
-Category (multivariate)        &  6.23 & 0.182 & 4 \\
-Duration was imputed           & 24.58 & $<0.001$ & 1 \\
-Declared-duration group        & 62.30 & $<0.001$ & 2 \\
-Procedure type (collapsed)     &  2.06 & 0.357 & 2 \\
+Category (multivariate)        & 12.89 & 0.025 & 5 \\
+Duration was imputed           & 19.96 & $<0.001$ & 1 \\
+Declared-duration group        & 41.05 & $<0.001$ & 2 \\
+Procedure type (collapsed)     &  3.48 & 0.176 & 2 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 \paragraph{Cox proportional-hazards model.} In-sample concordance:
-\textbf{0.6541}. Two predictors are significant (Table~\ref{tab:cox}): longer
+\textbf{0.6317}. Two predictors are significant (Table~\ref{tab:cox}): longer
 declared duration lowers hazard (HR 0.991 per month), and later start year
-raises it (HR 1.094 per year). No category or procedure effect. The positive
+raises it (HR 1.071 per year). IT Services \& Consulting shows a positive
+category effect (HR 1.230, $p=0.037$). The positive
 \texttt{start\_year} hazard is partly structural: 2021--2024 contracts are
 right-censored because a typical 48-month contract would renew after the
 2024-12-31 study close.
@@ -387,24 +392,25 @@ right-censored because a typical 48-month contract would renew after the
 \toprule
 \textbf{Covariate} & \textbf{HR} & \textbf{95\% CI} & \textbf{p} \\
 \midrule
-\texttt{declared\_duration\_months} & 0.991 & [0.987, 0.995] & $<0.001$ \\
-\texttt{start\_year}                & 1.094 & [1.050, 1.140] & $<0.001$ \\
-\texttt{dur\_was\_imputed}          & 0.864 & [0.718, 1.040] & 0.123 \\
-Category / procedure terms          & \multicolumn{3}{c}{not significant ($p>0.1$)} \\
+\texttt{declared\_duration\_months} & 0.991 & [0.986, 0.995] & $<0.001$ \\
+\texttt{start\_year}                & 1.071 & [1.031, 1.113] & $<0.001$ \\
+IT Services \& Consulting (vs.\ Cybersecurity) & 1.230 & [1.013, 1.493] & 0.037 \\
+\texttt{dur\_was\_imputed}          & 0.871 & [0.722, 1.049] & 0.146 \\
+Other category / procedure terms    & \multicolumn{3}{c}{not significant ($p>0.1$)} \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-\paragraph{Parametric AFT models.} Log-normal fits best (AIC 7{,}176.6,
-concordance 0.672), outperforming log-logistic (7{,}248.8) and Weibull
-(7{,}380.3). Full results:
+\paragraph{Parametric AFT models.} Log-normal fits best (AIC 7{,}068.4,
+concordance 0.655), outperforming log-logistic (7{,}154.7) and Weibull
+(7{,}240.3). Full results:
 \nolinkurl{reports/tables/survival/parametric_aic_comparison.csv}.
 
 \paragraph{Sensitivity to event definition.} Three event definitions were tested
-(Table~\ref{tab:sens}). The Cox concordance is stable across all three (0.654,
-0.645, 0.633), confirming that the \emph{ranking} of renewal risk is robust even
-under the strictest definition, even though the absolute event rate and KM level
-move with the threshold.
+(Table~\ref{tab:sens}). The Cox concordance drops from 0.632 (Model A) to 0.616
+(Model B, $\geq$0.50) and 0.455 (Model C, strict H.C.), suggesting that
+low-confidence links add predictive signal not present in the strict subset ---
+and that the 75-event strict definition is too sparse for stable estimation.
 
 \begin{table}[H]
 \centering
@@ -416,9 +422,9 @@ KM median in months.}
 \toprule
 \textbf{Variant} & \textbf{events} & \textbf{rate \%} & \textbf{KM median} & \textbf{Cox C} \\
 \midrule
-A --- baseline (all links)            & 705 & 64.1 & 48.2 & 0.654 \\
-B --- conservative ($\geq 0.50$)      & 497 & 45.2 & 52.8 & 0.645 \\
-C --- strict H.C.\ ($S\!\geq\!0.70$, $\Delta\!\geq\!0.05$, multi-cand.) & 100 & 9.1 & -- & 0.633 \\
+A --- baseline (all links)            & 665 & 55.0 & 50.1 & 0.632 \\
+B --- conservative ($\geq 0.50$)      & 400 & 33.1 & -- & 0.616 \\
+C --- strict H.C.\ ($S\!\geq\!0.70$, $\Delta\!\geq\!0.05$, multi-cand.) &  75 & 6.2 & -- & 0.455 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -432,22 +438,22 @@ work. The log-normal AFT avoids the PH assumption and gives the same conclusions
 
 \begin{table}[H]
 \centering
-\caption{Operational risk summary (1{,}097 scored contracts).}
+\caption{Operational risk summary (1{,}204 scored contracts).}
 \label{tab:risk}
 \small
 \begin{tabular}{@{}lr@{}}
 \toprule
 \textbf{Metric} & \textbf{Value} \\
 \midrule
-Mean 12-month renewal probability & 0.190 \\
-Mean 24-month renewal probability & 0.332 \\
-Max 12-month probability (any contract) & 0.435 \\
-Contracts in \emph{medium} band (0.25--0.50) & 222 \\
-Contracts in \emph{low} band ($<0.25$) & 875 \\
-Expected renewals within 12 months & 208 \\
-Expected renewals within 24 months & 365 \\
-Top buyer by expected 12-month volume & Pays de la Loire (18.6) \\
-Top segment by expected 12-month volume & IT Services \& Consulting (61.6) \\
+Mean 12-month renewal probability & 0.074 \\
+Mean 24-month renewal probability & 0.216 \\
+Max 12-month probability (any contract) & 0.288 \\
+Contracts in \emph{medium} band (0.25--0.50) & 6 \\
+Contracts in \emph{low} band ($<0.25$) & 1{,}198 \\
+Expected renewals within 12 months & 89.7 \\
+Expected renewals within 24 months & 259.9 \\
+Top buyer by expected 12-month volume & SIREN:234400034 (9.3) \\
+Top segment by expected 12-month volume & IT Services \& Consulting (30.4) \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -459,32 +465,41 @@ Top segment by expected 12-month volume & IT Services \& Consulting (61.6) \\
 \subsection{Reliability evidence}
 The event variable was stress-tested with checks in \nolinkurl{validation_robustness/}:
 \begin{itemize}[leftmargin=1.4em,itemsep=1pt]
-  \item \textbf{Threshold sensitivity (7 scenarios, score 0.35 to 0.90):}
-        Cox concordance stays above 0.53 throughout (it dips to 0.535 only at the
-        extreme $\geq 0.80$ cut); directional findings stable.
+  \item \textbf{Threshold sensitivity (7 scenarios: baseline, composite floors
+        0.50--0.90, strict H.C.):} Cox concordance declines gradually from 0.632
+        (baseline) to 0.599 (score $\geq 0.60$), then becomes unstable below
+        $\approx$100 events (0.473 at $\geq 0.70$); hazard-ratio directions stay
+        stable at every threshold with enough events.
         Full table: \nolinkurl{validation_robustness/outputs/threshold_sensitivity_summary.csv}.
-  \item \textbf{Placebo check:} winning-link mean score 0.587 vs.\ runner-up
-        0.439 vs.\ synthetic no-buyer 0.434 --- the scoring discriminates
-        (21.0\% of winners reach $\geq 0.70$ vs.\ 1.2\% of runner-ups).
-  \item \textbf{Event/censoring bias:} SMD = 0.13 (duration), $-$0.03 (start year)
-        between event and censored groups --- covariates balanced; the dominant
-        bias is structural right-censoring of 2022--2024 contracts.
-  \item \textbf{Manual validation:} 150-row sample drawn
-        (\nolinkurl{event_validation/outputs/manual_validation_sample.csv}),
-        protocol documented. \textbf{Record-level review not yet executed};
-        precision/recall of the linking step therefore unknown.
+  \item \textbf{Placebo check:} winning-link mean score 0.554 vs.\ runner-up
+        0.428 vs.\ synthetic no-buyer 0.401 --- the scoring discriminates
+        (14.9\% of winners reach $\geq 0.70$ vs.\ 0.7\% of runner-ups).
+  \item \textbf{Event/censoring bias:} SMD = 0.17 (duration), $-$0.15 (start year)
+        between event and censored groups --- covariates reasonably balanced
+        (SMD $<$ 0.20); the dominant bias is structural right-censoring of
+        2022--2024 contracts.
+  \item \textbf{Manual validation (executed 2026-07-02):} 150 stratified cases
+        audited against the full official BOAMP records
+        (\nolinkurl{event_validation/outputs/manual_validation_audit_labeled.csv}).
+        Result: TP 14 / FP 82 / uncertain 4 on 100 linked pairs
+        (precision $\approx$0.15 raw, $\approx$0.09 weighted to the 665-event
+        population; 0.50 in the HIGH/strict tier; 1.00 at text similarity
+        $\geq$0.80); 6 of 47 decided unlinked sources hid a plausible missed
+        renewal (12.8\%). This is a sample-based audit estimate, not
+        population ground truth; it invalidates the LOW tier and weakens the
+        MEDIUM tier as renewal evidence.
 \end{itemize}
 
 \subsection{Key limitations}
 \begin{itemize}[leftmargin=1.4em,itemsep=2pt]
   \item \textbf{Proxy event.} \texttt{event = 1} means a plausible renewal link
-        was found, not a legally certified renewal. By composite score, 29.5\% of
-        the 705 links are below 0.50 (low), 49.5\% between 0.50 and 0.70 (medium),
-        and 21.0\% at or above 0.70 (high).
-  \item \textbf{Residual buyer fragmentation.} SIREN enrichment consolidated 660
-        of the 1{,}100 eligible rows onto a SIREN key, but 440 remain name-keyed,
-        so spelling variants not resolved by the API can still create false
-        negatives. Enrichment is not ground truth.
+        was found, not a legally certified renewal. By composite score, 39.8\% of
+        the 665 links are below 0.50 (low), 45.3\% between 0.50 and 0.70 (medium),
+        and 14.9\% at or above 0.70 (high).
+  \item \textbf{Residual buyer fragmentation.} SIREN enrichment consolidated 724
+        of the 1{,}210 eligible rows onto a SIREN key (plus 2 SIRET), but 484 remain
+        name-keyed, so spelling variants not resolved by the API can still create
+        false negatives. Enrichment is not ground truth.
   \item \textbf{Short-text false positives.} Generic descriptions
         (``prestations informatiques'') can match spuriously.
   \item \textbf{Structural right-censoring.} Contracts from 2021--2024 are largely
@@ -499,15 +514,18 @@ The event variable was stress-tested with checks in \nolinkurl{validation_robust
 \label{sec:open}
 
 \textbf{Completed.} BOAMP acquisition and cleaning; buyer SIREN enrichment
-(2026-06-24); renewal-event reconstruction (705 events, 64.1\%); survival
+(2026-06-24); renewal-event reconstruction (665 events, 55.0\%); survival
 modeling (KM, Cox, AFT) with sensitivity and robustness checks; operational
 12/24-month risk indicators; rule-based technology taxonomy.
 
 \textbf{Remaining.}
 \begin{itemize}[leftmargin=1.4em,itemsep=2pt]
-  \item \textbf{Manual validation of linked pairs.} The 150-row sample is ready;
-        the review has not been executed. Until done, there are no independently
-        verified precision/recall estimates for the linking step.
+  \item \textbf{Act on the manual-validation findings.} The 150-case audit
+        (executed 2026-07-02) estimates linking precision at only
+        $\approx$9--15\%. The priority is now to re-link with a higher text
+        floor ($\geq$0.5--0.65), stop crediting generic CPV codes as exact
+        matches, de-anchor the temporal window from ceiling durations, and
+        re-estimate the survival models on the corrected events.
   \item \textbf{Trained NLP classifier.} The technology taxonomy is rule-based
         (CPV + keywords); the planned learned classifier was not implemented.
   \item \textbf{Change-point / trend detection (Phase 4).} Scoped but not started.
@@ -524,20 +542,23 @@ modeling (KM, Cox, AFT) with sensitivity and robustness checks; operational
 The internship delivered a reproducible end-to-end pipeline: BOAMP notice
 acquisition $\to$ cleaning $\to$ buyer SIREN enrichment $\to$ renewal-event
 reconstruction $\to$ survival modeling $\to$ operational risk indicators. The
-main methodological result is lifting the renewal linking rate from 11.3\%
-(lexical baseline) to 64.1\% using Sentence-Transformer embeddings. Survival
+main methodological result is lifting the renewal linking rate from 7.6\%
+(lexical baseline at the same $W=6$ window) to 55.0\% using Sentence-Transformer
+embeddings. Survival
 modeling shows renewal timing is driven by declared contract duration (median
-48.2 months) rather than technology family, and the log-normal AFT model
+50.1 months), with a marginal category effect, and the log-normal AFT model
 translates this into actionable 12/24-month renewal-risk rankings.
 
 \textbf{Immediate next steps (prioritised):}
 \begin{enumerate}[leftmargin=1.4em,itemsep=2pt]
-  \item \textbf{Execute manual validation} of the 150-row sample to obtain
-        independently verified precision/recall estimates for the linking step.
+  \item \textbf{Re-link with stricter rules and re-model.} The executed manual
+        audit (precision $\approx$9--15\%) shows the baseline event definition is
+        too permissive: raise the text-similarity floor, fix generic-CPV
+        scoring, widen the temporal window, then re-estimate KM/Cox/AFT.
   \item \textbf{Re-score contracts at a live prediction date} (current scores use
         end-of-study ages).
   \item \textbf{Review medium/low SIREN matches} to extend buyer consolidation
-        beyond the 660 HIGH-confidence rows already applied.
+        beyond the 724 HIGH-confidence rows already applied.
   \item \textbf{Replace the rule-based taxonomy} with a trained text classifier.
   \item \textbf{Implement change-point detection} (Phase 4).
 \end{enumerate}

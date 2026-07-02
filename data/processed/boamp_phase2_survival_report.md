@@ -7,9 +7,9 @@ per eligible APPEL_OFFRE notice.
 ## Composition
 | Metric | Value |
 |--------|-------|
-| Contracts | 1100 |
-| Events (plausible renewals) | 705 (64.09%) |
-| Right-censored | 395 (35.91%) |
+| Contracts | 1210 |
+| Events (plausible renewals) | 665 (54.96%) |
+| Right-censored | 545 (45.04%) |
 
 ## Variable semantics
 - `event = 1`: a plausible renewal link was found under the BOAMP-only algorithm.
@@ -20,14 +20,14 @@ per eligible APPEL_OFFRE notice.
 ## By category
 | category_label | n | events | event_rate_% |
 |----------------|---|--------|--------------|
-| IT Services & Consulting | 312 | 212 | 67.95 |
-| Software & Applications | 209 | 149 | 71.29 |
-| Telecom & Networks | 204 | 124 | 60.78 |
-| Cybersecurity | 121 | 75 | 61.98 |
-| Unknown | 108 | 60 | 55.56 |
-| Digital Workplace & Collaboration | 45 | 30 | 66.67 |
-| Data & AI | 34 | 13 | 38.24 |
-| IT Maintenance & Support | 22 | 15 | 68.18 |
-| IT Hardware & Equipment | 21 | 10 | 47.62 |
-| Cloud & Infrastructure | 19 | 13 | 68.42 |
-| GIS & Mapping | 5 | 4 | 80.0 |
+| IT Services & Consulting | 344 | 208 | 60.47 |
+| Software & Applications | 223 | 140 | 62.78 |
+| Telecom & Networks | 223 | 116 | 52.02 |
+| Cybersecurity | 136 | 73 | 53.68 |
+| Unknown | 115 | 49 | 42.61 |
+| Digital Workplace & Collaboration | 51 | 32 | 62.75 |
+| Data & AI | 40 | 12 | 30.0 |
+| IT Hardware & Equipment | 26 | 9 | 34.62 |
+| Cloud & Infrastructure | 22 | 11 | 50.0 |
+| IT Maintenance & Support | 22 | 11 | 50.0 |
+| GIS & Mapping | 8 | 4 | 50.0 |

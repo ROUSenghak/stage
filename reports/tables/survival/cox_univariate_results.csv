@@ -1,11 +1,11 @@
 covariate,HR,HR_lower,HR_upper,p_value,concordance
-declared_duration_months,0.985,0.981,0.989,0.0,0.6621
-dur_was_imputed,0.645,0.542,0.767,0.0,0.5722
-start_year,1.166,1.118,1.215,0.0,0.59
-cat_cox_IT Services & Consulting,1.147,0.976,1.348,0.0951,0.5125
-cat_cox_Other,0.869,0.724,1.043,0.1318,0.5027
-cat_cox_Software & Applications,1.068,0.891,1.279,0.4772,0.4965
-cat_cox_Telecom & Networks,0.918,0.756,1.115,0.3901,0.5056
-proc_cox_OUVERT,1.105,0.952,1.283,0.1896,0.5249
-proc_cox_Other_proc,0.646,0.381,1.097,0.1056,0.5049
-proc_cox_PROCEDURE_ADAPTE,0.915,0.784,1.068,0.2597,0.5213
+declared_duration_months,0.987,0.983,0.991,0.0,0.6485
+dur_was_imputed,0.671,0.561,0.803,0.0,0.5639
+start_year,1.126,1.08,1.173,0.0,0.5698
+cat_cox_IT Services & Consulting,1.279,1.086,1.508,0.0033,0.5252
+cat_cox_Other,0.775,0.639,0.94,0.0096,0.5132
+cat_cox_Software & Applications,1.064,0.883,1.283,0.5121,0.4975
+cat_cox_Telecom & Networks,0.918,0.751,1.123,0.4049,0.507
+proc_cox_OUVERT,1.126,0.966,1.313,0.1299,0.526
+proc_cox_Other_proc,0.773,0.455,1.312,0.3404,0.503
+proc_cox_PROCEDURE_ADAPTE,0.871,0.742,1.023,0.0922,0.5236

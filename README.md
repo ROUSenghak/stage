@@ -41,7 +41,21 @@ python scripts/task_boamp_full_survival.py   # BOAMP scripted baseline (Jaccard)
 # from HuggingFace on first run. Internet access required; subsequent runs use
 # the local cache at ~/.cache/huggingface/.
 python scripts/task9_boamp_phase2_handoff.py
+
+# Phase 4 — manual validation of the proxy event (executed 2026-07-02)
+python event_validation/scripts/build_validation_sample.py
+python event_validation/scripts/rebuild_audit_excel.py
+python event_validation/extract_boamp_validation_records_from_json.py
+# Labeled results: event_validation/outputs/manual_validation_audit_labeled.csv
+# Summary: event_validation/manual_validation_summary.md
 ```
+
+**Manual-validation headline (2026-07-02):** on a 150-case stratified audit,
+the proxy `event` has an estimated precision of only **~9–15%** overall
+(0.50 in the HIGH/strict tier, 1.00 at text similarity ≥ 0.80, 0.00 in the LOW
+tier), and ~13% of audited censored contracts hide a missed renewal. Survival
+results describe algorithm-identifiable same-buyer re-publications, not
+validated renewals. See `event_validation/manual_validation_summary.md`.
 
 The official Phase 2 modeling input is
 `data/processed/boamp_phase2_survival.csv`, exported from the BOAMP renewal-linking
@@ -73,10 +87,10 @@ python scripts/task8_unified_survival.py     # mixed BOAMP + DECP survival datas
 | `data/processed/boamp_full_clean.csv` | **3,181 notices, cleaned** — buyer keys, amounts, durations, taxonomy |
 | `data/processed/boamp_phase2_survival.csv` | **official BOAMP-only Phase 2 handoff** — one row per eligible AO with event/censoring |
 | `data/processed/boamp_phase2_survival_report.md` | BOAMP-only handoff dataset report |
-| `data/processed/boamp_full_survival.csv` | **1,933 APPEL_OFFRE survival records** — event/censoring, ±12 month window |
+| `data/processed/boamp_full_survival.csv` | **1,933 APPEL_OFFRE survival records** — event/censoring, ±6 month window |
 | `data/processed/boamp_full_survival_report.md` | survival dataset composition report |
 | `data/processed/boamp_sample_flat.csv` | 500-notice BOAMP sample (reference only) |
-| `boamp_renewal_linking_quality/outputs/boamp_renewal_links.csv` | **official BOAMP renewal-linking notebook output** — 1,100 eligible AO, 705 linked |
+| `boamp_renewal_linking_quality/outputs/boamp_renewal_links.csv` | **official BOAMP renewal-linking notebook output** — 1,210 eligible AO, 665 linked |
 | `boamp_renewal_linking_quality/outputs/boamp_linking_stats.csv` | linking-rate summary for the BOAMP-only final method |
 | `boamp_renewal_linking_quality/outputs/boamp_bias_report.csv` | bias/failure-reason report for the BOAMP-only final method |
 | `boamp_renewal_linking_quality/outputs/boamp_renewal_candidates.csv` | candidate-pair table before best-match selection |
@@ -92,8 +106,21 @@ python scripts/task8_unified_survival.py     # mixed BOAMP + DECP survival datas
 | `data/processed/decp_renewal_linking_report.md` | DECP renewal linking method note |
 | `data/processed/*_field_profile.{csv,md}` | field-by-field profiling tables |
 | `data/processed/source_comparison.{csv,md}` | BOAMP vs DECP comparison |
+| `event_validation/outputs/manual_validation_audit_labeled.csv` | **manual audit of the proxy event** — 150 labeled cases (2026-07-02) |
+| `event_validation/outputs/boamp_event_validation_audit.xlsx` | audit workbook (labels + metrics in `Audit_Results` sheet) |
+| `event_validation/manual_validation_summary.md` | **validation summary** — precision/recall estimates and causes |
 | `reports/figures/` | duration histograms, EDA plots |
 | `reports/week1_summary.md` | **Week-1 summary report** |
+| `archive/obsolete_20260702/` | archived obsolete files (see its README; nothing there is used by the pipeline) |
+
+**Source of truth (current official files):** `data/processed/boamp_phase2_survival.csv`
+(modeling input, W=6, 1,210 rows / 665 events), the linking outputs under
+`boamp_renewal_linking_quality/outputs/`, the survival notebook
+`notebooks/02_survival_modeling_boamp.ipynb` with tables in `reports/tables/survival/`,
+and the three reports `reports/internship_report.tex`,
+`reports/phase1_technical_report.tex`, `reports/data_quality_report/data_quality_report.tex`
+(all recompiled 2026-07-02). The Jaccard baseline (`boamp_full_survival.csv`, 7.6% at W=6)
+and DECP/unified artefacts are comparison/exploratory only.
 
 ## Key technical notes
 

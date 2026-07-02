@@ -186,7 +186,7 @@ def main() -> None:
         "",
         "## Linking methods",
         "- `decp_jaccard`: Jaccard similarity ≥ 0.30, time window ± 6 months (task6).",
-        "- `boamp_jaccard`: Jaccard similarity ≥ 0.20, time window ± 12 months (task_boamp_full_survival).",
+        "- `boamp_jaccard`: Jaccard similarity ≥ 0.20, time window ± 6 months (task_boamp_full_survival).",
         "- `none`: no renewal found — contract treated as right-censored at study end.",
         "- `annonce_lie` was used to refine BOAMP start dates (award date > pub date).",
         "",

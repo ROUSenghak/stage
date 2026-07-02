@@ -11,15 +11,15 @@ stored locally as ~465 JSON files totalling approximately 513 MB across two dire
 This file is too large to include in a shared repository or to process in full for a
 150-row validation exercise. Instead, the script
 `event_validation/extract_boamp_validation_records_from_json.py`
-extracted only the **248 records** (out of 248 requested) whose
+extracted only the **243 records** (out of 243 requested) whose
 `idweb` appears in the manual validation sample.
 
 ## What was extracted
 
 | Item | Count |
 |---|---|
-| Unique idwebs requested (source + candidate + nearest-later) | 248 |
-| Records found in JSON export | 248 |
+| Unique idwebs requested (source + candidate + nearest-later) | 243 |
+| Records found in JSON export | 243 |
 | Missing IDs (not found in local export) | 0 |
 | Raw JSON source used | `/home/senghakrou/stage-1/data/raw/boamp_full` |
 | Files scanned | 348 |

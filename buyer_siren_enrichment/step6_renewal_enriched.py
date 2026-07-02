@@ -35,7 +35,7 @@ BOAMP_ENR   = ROOT / "data" / "processed" / "boamp_full_clean_siren_enriched.csv
 OUT_DIR     = ROOT / "boamp_renewal_linking_siren_enriched" / "outputs"
 
 STUDY_END        = pd.Timestamp("2024-12-31")
-WINDOW_MONTHS    = 12.0
+WINDOW_MONTHS    = 6.0
 MIN_TEXT_SIM     = 0.20
 DEFAULT_DURATION = 48.0
 MIN_DURATION     = 1.0

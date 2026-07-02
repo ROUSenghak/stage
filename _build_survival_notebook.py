@@ -55,7 +55,7 @@ took place.
 - Data: digital-sector public contracts from BOAMP (CPV families 48, 72, 32, 35)
 - Period: 2016–2024
 - Phase 1 linking: Sentence-Transformer text similarity + CPV + temporal + buyer scoring
-- Linking rate: 63.4 % (697 / 1,100 contracts linked)
+- Linking rate: 55.0 % (665 / 1,210 contracts linked, W=6 months)
 """))
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -168,8 +168,8 @@ else:
     print("✓  All 26 required columns present")
 
 # 4.2 Row count
-if df.shape[0] != 1100:
-    errors.append(f"Expected 1,100 rows, got {df.shape[0]}")
+if df.shape[0] != 1210:
+    errors.append(f"Expected 1,210 rows, got {df.shape[0]}")
 else:
     print(f"✓  Row count: {df.shape[0]:,}")
 
@@ -329,7 +329,7 @@ cells.append(code("""kmf_global = KaplanMeierFitter()
 kmf_global.fit(
     durations=df['observed_duration_months'],
     event_observed=df['event'],
-    label='All contracts (N=1,100)'
+    label='All contracts (N=1,210)'
 )
 
 median_surv = kmf_global.median_survival_time_
@@ -360,9 +360,9 @@ ax.annotate(
 ax.set_xlabel("Time to identifiable BOAMP renewal (months)")
 ax.set_ylabel("Survival probability S(t)")
 ax.set_title("Global Kaplan-Meier Estimate\\n"
-             "Time to Identifiable BOAMP Renewal (N = 1,100; 697 events)")
+             "Time to Identifiable BOAMP Renewal (N = 1,210; 665 events)")
 ax.set_ylim(0, 1.05)
-ax.text(0.98, 0.98, "Events: 697 / 1,100 (63.4%)",
+ax.text(0.98, 0.98, "Events: 665 / 1,210 (55.0%)",
         transform=ax.transAxes, ha='right', va='top', fontsize=9, color='dimgray')
 save_fig("km_global.png")
 """))
@@ -537,7 +537,7 @@ model parsimonious to avoid overfitting.
 `declared_duration_months` is included as a covariate representing the administrative
 structure of the contract. It is **not** the survival target.
 
-`amount_clean` is omitted from the main model (877/1,100 NaN) but included in an
+`amount_clean` is omitted from the main model (957/1,210 NaN) but included in an
 optional sensitivity model.
 """))
 
@@ -700,12 +700,12 @@ cells.append(md("""## 13. Sensitivity Analysis — Proxy-Event Reliability
 
 `event = 1` is assigned by a linking algorithm. Confidence tiers:
 - **HIGH** (composite_score ≥ 0.70): 205 links
-- **MEDIUM** (0.50–0.70): 348 links
-- **LOW** (< 0.50): 144 links
+- **MEDIUM** (0.50–0.70): 301 links
+- **LOW** (< 0.50): 265 links
 
-**Model A** (baseline): all 705 links treated as events.
+**Model A** (baseline): all 665 links treated as events.
 
-**Model B** (conservative): the 208 LOW-confidence links (composite_score < 0.50)
+**Model B** (conservative): the 265 LOW-confidence links (composite_score < 0.50)
 are downgraded to censored (δ = 0) **in place** — their observed survival time is
 kept unchanged. This matches the threshold-sensitivity sweep in
 `validation_robustness/` (score ≥ 0.50 scenario), so the conservative model is
@@ -893,7 +893,7 @@ cells.append(md("""## 15. Conclusion
    ~73 rows) is directionally consistent with training-set concordance, though the small
    test set limits interpretability.
 
-4. **Sensitivity (Model B)**: Downgrading the 144 LOW-confidence links to censored
+4. **Sensitivity (Model B)**: Downgrading the 265 LOW-confidence links to censored
    observations decreases the event rate and shifts the KM curve upward. The
    directional findings from the Cox model remain stable, indicating that the
    main conclusions do not hinge on borderline links.
@@ -916,7 +916,7 @@ cells.append(md("""## 15. Conclusion
 - **`declared_duration_months` as administrative proxy**: This covariate reflects
   the planned, not the actual, contract duration and may be imputed for
   ~37% of contracts.
-- **Sparse `amount_clean`** (877/1,100 NaN): Financial scale could not be included
+- **Sparse `amount_clean`** (957/1,210 NaN): Financial scale could not be included
   in the main model without substantial listwise deletion.
 - **Small test set**: Only 73 contracts start in 2022 or later, limiting the power
   of temporal validation.
@@ -941,7 +941,7 @@ Risk tiers are defined on the 12-month probability:
 - **Medium**: 0.25 ≤ P < 0.40
 - **Low**: P < 0.25
 
-All outputs below reflect the current post-SIREN-enrichment model (705 events, 1,100 contracts)."""))
+All outputs below reflect the current W=6 model (665 events, 1,210 contracts)."""))
 
 cells.append(code("""# 16.1 Contract-level renewal probability predictions
 STUDY_END     = pd.Timestamp("2024-12-31")

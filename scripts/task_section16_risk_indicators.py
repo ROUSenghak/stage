@@ -2,7 +2,7 @@
 Section 16 — Operational Risk Indicators (12m / 24m)
 
 Standalone script that re-fits the LogNormal AFT model on the current
-boamp_phase2_survival.csv (705 events post-SIREN) and regenerates:
+boamp_phase2_survival.csv (665 events, W=6 temporal window) and regenerates:
 
   reports/tables/survival/renewal_risk_12_24_months.csv
   reports/tables/survival/buyer_renewal_risk_ranking.csv
@@ -259,4 +259,4 @@ ax.set_title("Expected Renewals by Technology Segment\n(LogNormal AFT — 12m an
 ax.legend(fontsize=9)
 save_fig("pred_segment_expected.png")
 
-print("\nDone. All Section 16 outputs regenerated with 705-event model.")
+print("\nDone. All Section 16 outputs regenerated with 665-event model (W=6).")

@@ -1,4 +1,4 @@
 dataset,n_eligible,n_events,event_rate_pct,n_censored,n_groups,median_obs_months,median_event_months,n_keys_upgraded_to_siren,n_siren_deduplication_merges
-baseline_jaccard,1933,219,11.3,1714,869,46.6,38.3,,
-siren_enriched_jaccard,1933,234,12.1,1699,847,46.4,39.6,275.0,23.0
-delta (enriched - baseline),0,15,0.8,-15,-22,,,275.0,23.0
+baseline_jaccard,1933,146,7.6,1787,869,48.9,42.5,,
+siren_enriched_jaccard,1933,161,8.3,1772,847,48.6,43.7,275.0,23.0
+delta (enriched - baseline),0,15,0.7,-15,-22,,,275.0,23.0

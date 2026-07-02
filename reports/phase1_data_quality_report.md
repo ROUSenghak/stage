@@ -128,12 +128,12 @@ The low BOAMP fill rate reflects the mandatory reporting shift to eForms in 2024
 |---|---|
 | Total BOAMP notices | 3,181 |
 | APPEL_OFFRE notices | 1,933 |
-| Ineligible (estimated end date after 2024-12-31) | 833 |
-| **Eligible source contracts** | **1,100** |
-| Linked renewals found (event = 1) | 697 (63.36%) |
-| Right-censored (event = 0) | 403 (36.64%) |
+| Ineligible (estimated end date after 2024-06-30) | 723 |
+| **Eligible source contracts** | **1,210** |
+| Linked renewals found (event = 1) | 665 (54.96%) |
+| Right-censored (event = 0) | 545 (45.04%) |
 
-A contract is eligible if its estimated end date `ê_i = start_date + declared_duration_months` falls within the study period. Contracts with `ê_i > 2024-12-31` are excluded from the denominator; they are not treated as censored (the renewal window has not opened yet).
+A contract is eligible if its estimated end date `ê_i = start_date + declared_duration_months` satisfies `ê_i + W ≤ 2024-12-31`, where `W = 6 months` is the temporal search window. Contracts whose renewal window extends past the study end are excluded from the denominator; they are not treated as censored (the renewal window has not opened yet).
 
 ### 4.2 Algorithm summary
 
@@ -157,9 +157,9 @@ Text similarity uses `paraphrase-multilingual-MiniLM-L12-v2` (Sentence-Transform
 
 | Method | Linked | Eligible | Rate |
 |---|---|---|---|
-| Jaccard + buyer×CPV hard groupby (baseline) | 219 | 1,933 | 11.3% |
-| TF-IDF cosine + buyer-only groupby | 279 | 1,100 | 25.4% |
-| Sentence-Transformers (this study) | 697 | 1,100 | **63.4%** |
+| Jaccard + buyer×CPV hard groupby (baseline, W=6) | 146 | 1,933 | 7.6% |
+| TF-IDF cosine + buyer-only groupby (earlier W=12 pool) | 279 | 1,100 | 25.4% |
+| Sentence-Transformers (this study, W=6) | 665 | 1,210 | **55.0%** |
 
 ---
 
@@ -167,34 +167,34 @@ Text similarity uses `paraphrase-multilingual-MiniLM-L12-v2` (Sentence-Transform
 
 | Category | Eligible (n) | Linked | Event rate |
 |---|---|---|---|
-| IT Services & Consulting | 312 | 211 | 67.6% |
-| Software & Applications | 209 | 148 | 70.8% |
-| Telecom & Networks | 204 | 120 | 58.8% |
-| Cybersecurity | 121 | 76 | 62.8% |
-| Unknown | 108 | 58 | 53.7% |
-| Digital Workplace & Collaboration | 45 | 29 | 64.4% |
-| Data & AI | 34 | 14 | 41.2% |
-| IT Maintenance & Support | 22 | 14 | 63.6% |
-| IT Hardware & Equipment | 21 | 10 | 47.6% |
-| Cloud & Infrastructure | 19 | 13 | 68.4% |
-| GIS & Mapping | 5 | 4 | 80.0% |
-| **Total** | **1,100** | **697** | **63.4%** |
+| IT Services & Consulting | 344 | 208 | 60.5% |
+| Software & Applications | 223 | 140 | 62.8% |
+| Telecom & Networks | 223 | 116 | 52.0% |
+| Cybersecurity | 136 | 73 | 53.7% |
+| Unknown | 115 | 49 | 42.6% |
+| Digital Workplace & Collaboration | 51 | 32 | 62.7% |
+| Data & AI | 40 | 12 | 30.0% |
+| IT Maintenance & Support | 22 | 11 | 50.0% |
+| IT Hardware & Equipment | 26 | 9 | 34.6% |
+| Cloud & Infrastructure | 22 | 11 | 50.0% |
+| GIS & Mapping | 8 | 4 | 50.0% |
+| **Total** | **1,210** | **665** | **55.0%** |
 
-The lowest event rates are in **Data & AI** (41.2%) and **IT Hardware & Equipment** (47.6%). These categories tend to have shorter, more ad-hoc procurement cycles and may be systematically underrepresented in the linked set.
+The lowest event rates are in **Data & AI** (30.0%) and **IT Hardware & Equipment** (34.6%). These categories tend to have shorter, more ad-hoc procurement cycles and may be systematically underrepresented in the linked set.
 
 ### 5.1 Failure mode analysis
 
-Among the 403 unlinked eligible contracts:
+Among the 545 unlinked eligible contracts:
 
 | Failure reason | Count | % of unlinked |
 |---|---|---|
-| NO_TEMPORAL_PARTNER | 339 | 84.1% |
-| TEXT_MISMATCH | 32 | 7.9% |
-| CPV_MISMATCH | 32 | 7.9% |
+| NO_TEMPORAL_PARTNER | 491 | 90.1% |
+| TEXT_MISMATCH | 25 | 4.6% |
+| CPV_MISMATCH | 29 | 5.3% |
 
-**NO_TEMPORAL_PARTNER** (84.1%) means no candidate from the same buyer fell within the ±12-month temporal window around the expected renewal date. This is a structural ceiling: the buyer may not have renewed, or the renewal was published outside the study window. It cannot be improved by threshold tuning.
+**NO_TEMPORAL_PARTNER** (90.1%) means no candidate from the same buyer fell within the ±6-month temporal window around the expected renewal date. This is a structural ceiling: the buyer may not have renewed, or the renewal was published outside the study window. It cannot be improved by threshold tuning. The increase vs the previous ±12-month window (84.1%) is expected: the narrower window leaves more contracts without a temporal partner.
 
-**TEXT_MISMATCH** (7.9%) and **CPV_MISMATCH** (7.9%) identify cases where a temporal partner existed but failed the similarity or CPV check. CPV_MISMATCH counts sources whose every candidate had a valid but incompatible CPV division (score 0.0); sources with a missing CPV are excluded from this label since CPV is dropped from their composite. These are recoverable at the cost of increased false positives.
+**TEXT_MISMATCH** (4.6%) and **CPV_MISMATCH** (5.3%) identify cases where a temporal partner existed but failed the similarity or CPV check. CPV_MISMATCH counts sources whose every candidate had a valid but incompatible CPV division (score 0.0); sources with a missing CPV are excluded from this label since CPV is dropped from their composite. These are recoverable at the cost of increased false positives.
 
 ---
 
@@ -204,11 +204,11 @@ Links are stratified into three confidence tiers based on composite score:
 
 | Tier | Composite threshold | Count | % of linked |
 |---|---|---|---|
-| HIGH | ≥ 0.70 | 122 | 17.5% |
-| MEDIUM | 0.50 – 0.70 | 372 | 53.4% |
-| LOW | < 0.50 | 203 | 29.1% |
+| HIGH | ≥ 0.70 | 99 | 14.9% |
+| MEDIUM | 0.50 – 0.70 | 301 | 45.3% |
+| LOW | < 0.50 | 265 | 39.8% |
 
-For Phase 2 sensitivity analysis, a conservative scenario drops LOW-tier links to `event = 0` (494 events instead of 697). The recommended primary analysis uses all 697 events with composite score as a continuous covariate.
+For Phase 2 sensitivity analysis, a conservative scenario drops LOW-tier links to `event = 0` (400 events instead of 665). The recommended primary analysis uses all 665 events with composite score as a continuous covariate.
 
 ---
 
@@ -231,7 +231,7 @@ For Phase 2 sensitivity analysis, a conservative scenario drops LOW-tier links t
 ## 8. Phase 2 Handoff Dataset Summary
 
 **File:** `data/processed/boamp_phase2_survival.csv`  
-**Rows:** 1,100 (one per eligible APPEL_OFFRE notice)  
+**Rows:** 1,210 (one per eligible APPEL_OFFRE notice)  
 **Columns:** 27
 
 Key survival columns:
@@ -252,7 +252,7 @@ Key survival columns:
 
 ## 9. Selection-Bias Diagnostic
 
-The 403 censored contracts (event = 0) may differ systematically from the 697 linked contracts (event = 1) on observables. If so, the event indicator is partly determined by contract characteristics rather than by whether a renewal occurred, which would bias Phase 2 survival estimates.
+The 545 censored contracts (event = 0) may differ systematically from the 665 linked contracts (event = 1) on observables. If so, the event indicator is partly determined by contract characteristics rather than by whether a renewal occurred, which would bias Phase 2 survival estimates.
 
 **Important caveat:** This is a diagnostic, not a causal model. It tests whether linked and unlinked contracts differ on observed covariates. It cannot test whether the linking algorithm itself introduces bias.
 
@@ -260,30 +260,31 @@ The 403 censored contracts (event = 0) may differ systematically from the 697 li
 
 | Start year | n | Event rate (%) |
 |---|---|---|
-| 2015 | 116 | 68.1 |
-| 2016 | 170 | 55.9 |
-| 2017 | 187 | 66.8 |
-| 2018 | 189 | 63.5 |
-| 2019 | 178 | 69.1 |
-| 2020 | 97 | 61.9 |
-| 2021 | 90 | 50.0 |
-| 2022 | 61 | 75.4 |
-| 2023 | 12 | 33.3 |
+| 2015 | 116 | 60.3 |
+| 2016 | 171 | 52.0 |
+| 2017 | 187 | 58.8 |
+| 2018 | 190 | 58.9 |
+| 2019 | 181 | 59.7 |
+| 2020 | 149 | 51.0 |
+| 2021 | 97 | 41.2 |
+| 2022 | 73 | 67.1 |
+| 2023 | 33 | 24.2 |
+| 2024 | 13 | 23.1 |
 
-**Interpretation:** The 2023 cohort (n = 12, 33.3%) has a notably low event rate. These contracts are eligible (estimated end date ≤ 2024-12-31) but the renewal observation window is compressed — a plausible renewal published after late 2024 falls outside the study period. This is a structural observation ceiling, not an algorithmic failure. The 2023 cohort should be treated with caution in Phase 2, or excluded from time-stratified analyses. No other year shows a persistent bias relative to the overall 63.4% rate.
+**Interpretation:** The 2023–2024 cohorts have notably low event rates (24.2% and 23.1%). These contracts are eligible (estimated end date ≤ 2024-06-30 at W=6) but the renewal observation window is compressed — a plausible renewal published after mid-2024 falls outside the study period. This is a structural observation ceiling, not an algorithmic failure. The 2022–2024 cohort appears in larger numbers than before (the W=6 cutoff adds contracts with est_end in H1 2024). These cohorts should be treated with caution in Phase 2. No other year shows a persistent bias relative to the overall 55.0% rate.
 
 ### 9.2 Event rate by buyer key type
 
-All 1,100 eligible APPEL_OFFRE contracts have name-based buyer keys (`NAME:`). No SIRET-anchored contracts appear in the eligible set because BOAMP SIRET coverage is limited to eForms notices (2024+), which fall after the renewal-observation window for pre-2024 contracts. The buyer key type cannot differentiate linked from unlinked contracts in this dataset.
+All 1,210 eligible APPEL_OFFRE contracts have name-based buyer keys (`NAME:`). No SIRET-anchored contracts appear in the eligible set because BOAMP SIRET coverage is limited to eForms notices (2024+), which fall after the renewal-observation window for pre-2024 contracts. The buyer key type cannot differentiate linked from unlinked contracts in this dataset.
 
 ### 9.3 Event rate by duration imputation
 
 | dur_was_imputed | n | Event rate (%) |
 |---|---|---|
-| False (declared duration available) | 824 | 64.0 |
-| True (imputed to 48 months) | 276 | 61.6 |
+| False (declared duration available) | 915 | 55.3 |
+| True (imputed to 48 months) | 295 | 53.9 |
 
-**Interpretation:** The 2.4 pp difference is small. Imputed-duration contracts have a slightly lower event rate, consistent with less standardised procurement cycles being harder to match. This difference does not warrant excluding imputed rows from Phase 2; `dur_was_imputed` is already included as a covariate in the survival dataset.
+**Interpretation:** The 1.4 pp difference is small. Imputed-duration contracts have a slightly lower event rate, consistent with less standardised procurement cycles being harder to match. This difference does not warrant excluding imputed rows from Phase 2; `dur_was_imputed` is already included as a covariate in the survival dataset.
 
 ### 9.4 Event rate by CPV division (top 10 by volume)
 
@@ -304,7 +305,7 @@ All 1,100 eligible APPEL_OFFRE contracts have name-based buyer keys (`NAME:`). N
 
 ### 9.5 Logistic regression diagnostic
 
-A logistic regression (`event ~ CPV division + buyer_type + declared_duration_months + start_year + dur_was_imputed`) was estimated on all 1,100 eligible contracts. Top coefficients by absolute value:
+A logistic regression (`event ~ CPV division + buyer_type + declared_duration_months + start_year + dur_was_imputed`) was estimated on all 1,210 eligible contracts. Top coefficients by absolute value:
 
 | Predictor | Coefficient | Direction |
 |---|---|---|
@@ -317,6 +318,6 @@ A logistic regression (`event ~ CPV division + buyer_type + declared_duration_mo
 | cpv_div2 = 72 (IT services) | +0.50 | higher event rate |
 | cpv_div2 = 79 (business services) | +0.49 | higher event rate |
 
-N = 1,100. Intercept ≈ −0.01. Coefficients for rare CPV divisions (n < 10) have high variance and should not be over-interpreted.
+N = 1,210. Intercept ≈ −0.01. Coefficients for rare CPV divisions (n < 10) have high variance and should not be over-interpreted.
 
-**Conclusion:** The dominant predictor of event rate is CPV division, which is substantive rather than algorithmic (different procurement categories genuinely renew at different rates). Start year and duration imputation have minimal additional effect once CPV is controlled for. No dominant unexplained residual bias was identified among the observable covariates, though the analysis cannot rule out bias driven by unobserved factors (e.g., buyer size, contract complexity). The main structural risk for Phase 2 is the 2023 cohort's compressed observation window, which `start_year` as a covariate will partially absorb. The sensitivity analyses using HIGH-confidence links only (§6) provide an additional bias check; these should be interpreted as indicative rather than definitive.
+**Conclusion:** The dominant predictor of event rate is CPV division, which is substantive rather than algorithmic (different procurement categories genuinely renew at different rates). Start year and duration imputation have minimal additional effect once CPV is controlled for. No dominant unexplained residual bias was identified among the observable covariates, though the analysis cannot rule out bias driven by unobserved factors (e.g., buyer size, contract complexity). The main structural risk for Phase 2 is the 2023–2024 cohorts' compressed observation window, which `start_year` as a covariate will partially absorb. The sensitivity analyses using HIGH-confidence links only (§6) provide an additional bias check; these should be interpreted as indicative rather than definitive.
