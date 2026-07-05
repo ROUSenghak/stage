@@ -1,0 +1,5 @@
+input_name,file_path,rows
+recommended_rules,reports/tables/validation/recommended_event_rules.csv,3
+real_candidates,boamp_renewal_linking_quality/outputs/boamp_renewal_candidates.csv,3201
+real_links,boamp_renewal_linking_quality/outputs/boamp_renewal_links.csv,1210
+baseline_survival,data/processed/boamp_phase2_survival.csv,1210

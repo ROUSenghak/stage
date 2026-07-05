@@ -1,0 +1,116 @@
+metric,level,value,share,notes,source_file
+n_appel_offre,overall,1933.0,,Real AO count in selected processed file,data/processed/boamp_full_clean_siren_enriched.csv
+buyer_unique,overall,444.0,,,data/processed/boamp_full_clean_siren_enriched.csv
+buyer_top1_share,overall,0.0693222969477496,,,data/processed/boamp_full_clean_siren_enriched.csv
+buyer_top10_share,overall,0.3129849974133471,,,data/processed/boamp_full_clean_siren_enriched.csv
+notices_per_buyer_mean,overall,4.353603603603603,,,data/processed/boamp_full_clean_siren_enriched.csv
+notices_per_buyer_p90,overall,8.0,,,data/processed/boamp_full_clean_siren_enriched.csv
+generic_cpv_rate,overall,0.13191929643041903,,,data/processed/boamp_full_clean_siren_enriched.csv
+missing_cpv_rate,overall,0.03207449560269012,,,data/processed/boamp_full_clean_siren_enriched.csv
+missing_duration_rate,overall,0.23435075012933265,,,data/processed/boamp_full_clean_siren_enriched.csv
+admin_duration_12_24_36_48_rate,overall,0.5318158303155717,,,data/processed/boamp_full_clean_siren_enriched.csv
+object_length_median,overall,98.0,,,data/processed/boamp_full_clean_siren_enriched.csv
+object_length_p10,overall,50.0,,,data/processed/boamp_full_clean_siren_enriched.csv
+object_length_p90,overall,173.0,,,data/processed/boamp_full_clean_siren_enriched.csv
+current_observed_proxy_event_rate,overall,0.5495867768595041,,From current phase-2 survival file if available,data/processed/boamp_full_clean_siren_enriched.csv
+buyer_frequency,NAME:nantes metropole,134.0,0.1561771561771562,,data/processed/boamp_full_clean_siren_enriched.csv
+buyer_frequency,SIREN:234400034,116.0,0.1351981351981352,,data/processed/boamp_full_clean_siren_enriched.csv
+buyer_frequency,SIREN:264400136,66.0,0.07692307692307693,,data/processed/boamp_full_clean_siren_enriched.csv
+buyer_frequency,SIREN:214401846,50.0,0.05827505827505827,,data/processed/boamp_full_clean_siren_enriched.csv
+buyer_frequency,SIREN:391722881,46.0,0.053613053613053616,,data/processed/boamp_full_clean_siren_enriched.csv
+buyer_frequency,SIREN:244900015,46.0,0.053613053613053616,,data/processed/boamp_full_clean_siren_enriched.csv
+buyer_frequency,SIREN:935367433,38.0,0.04428904428904429,,data/processed/boamp_full_clean_siren_enriched.csv
+buyer_frequency,SIREN:194909701,38.0,0.04428904428904429,,data/processed/boamp_full_clean_siren_enriched.csv
+buyer_frequency,SIREN:227200029,36.0,0.04195804195804196,,data/processed/boamp_full_clean_siren_enriched.csv
+buyer_frequency,SIREN:247200132,35.0,0.04079254079254079,,data/processed/boamp_full_clean_siren_enriched.csv
+buyer_frequency,SIREN:225300011,34.0,0.039627039627039624,,data/processed/boamp_full_clean_siren_enriched.csv
+buyer_frequency,NAME:le mans,31.0,0.03613053613053613,,data/processed/boamp_full_clean_siren_enriched.csv
+buyer_frequency,SIREN:228500013,30.0,0.03496503496503497,,data/processed/boamp_full_clean_siren_enriched.csv
+buyer_frequency,SIREN:130029747,27.0,0.03146853146853147,,data/processed/boamp_full_clean_siren_enriched.csv
+buyer_frequency,SIREN:214401093,24.0,0.027972027972027972,,data/processed/boamp_full_clean_siren_enriched.csv
+buyer_frequency,NAME:semitan,23.0,0.026806526806526808,,data/processed/boamp_full_clean_siren_enriched.csv
+buyer_frequency,NAME:ville du mans,23.0,0.026806526806526808,,data/processed/boamp_full_clean_siren_enriched.csv
+buyer_frequency,NAME:gpm de nantes st nazaire,22.0,0.02564102564102564,,data/processed/boamp_full_clean_siren_enriched.csv
+buyer_frequency,NAME:ctre hosp universitaire angers,20.0,0.023310023310023312,,data/processed/boamp_full_clean_siren_enriched.csv
+buyer_frequency,SIREN:284400017,19.0,0.022144522144522144,,data/processed/boamp_full_clean_siren_enriched.csv
+category_distribution,IT Services & Consulting,583.0,0.30160372478013453,,data/processed/boamp_full_clean_siren_enriched.csv
+category_distribution,Software & Applications,373.0,0.19296430419037766,,data/processed/boamp_full_clean_siren_enriched.csv
+category_distribution,Telecom & Networks,337.0,0.1743404035178479,,data/processed/boamp_full_clean_siren_enriched.csv
+category_distribution,Cybersecurity,211.0,0.10915675116399379,,data/processed/boamp_full_clean_siren_enriched.csv
+category_distribution,Unknown,176.0,0.09105018106570098,,data/processed/boamp_full_clean_siren_enriched.csv
+category_distribution,Digital Workplace & Collaboration,89.0,0.04604242110708743,,data/processed/boamp_full_clean_siren_enriched.csv
+category_distribution,Data & AI,54.0,0.02793585100879462,,data/processed/boamp_full_clean_siren_enriched.csv
+category_distribution,IT Hardware & Equipment,45.0,0.023279875840662184,,data/processed/boamp_full_clean_siren_enriched.csv
+category_distribution,IT Maintenance & Support,31.0,0.01603724780134506,,data/processed/boamp_full_clean_siren_enriched.csv
+category_distribution,Cloud & Infrastructure,25.0,0.012933264355923435,,data/processed/boamp_full_clean_siren_enriched.csv
+category_distribution,GIS & Mapping,9.0,0.0046559751681324365,,data/processed/boamp_full_clean_siren_enriched.csv
+cpv_distribution,48000000,139.0,0.1739674593241552,,data/processed/boamp_full_clean_siren_enriched.csv
+cpv_distribution,72000000,89.0,0.1113892365456821,,data/processed/boamp_full_clean_siren_enriched.csv
+cpv_distribution,72500000,86.0,0.10763454317897372,,data/processed/boamp_full_clean_siren_enriched.csv
+cpv_distribution,MISSING,62.0,0.07759699624530664,,data/processed/boamp_full_clean_siren_enriched.csv
+cpv_distribution,72250000,47.0,0.058823529411764705,,data/processed/boamp_full_clean_siren_enriched.csv
+cpv_distribution,72267100,32.0,0.04005006257822278,,data/processed/boamp_full_clean_siren_enriched.csv
+cpv_distribution,72267000,31.0,0.03879849812265332,,data/processed/boamp_full_clean_siren_enriched.csv
+cpv_distribution,32323500,30.0,0.03754693366708386,,data/processed/boamp_full_clean_siren_enriched.csv
+cpv_distribution,72600000,29.0,0.03629536921151439,,data/processed/boamp_full_clean_siren_enriched.csv
+cpv_distribution,72611000,28.0,0.03504380475594493,,data/processed/boamp_full_clean_siren_enriched.csv
+cpv_distribution,48900000,28.0,0.03504380475594493,,data/processed/boamp_full_clean_siren_enriched.csv
+cpv_distribution,72224000,28.0,0.03504380475594493,,data/processed/boamp_full_clean_siren_enriched.csv
+cpv_distribution,32342410,26.0,0.03254067584480601,,data/processed/boamp_full_clean_siren_enriched.csv
+cpv_distribution,72212900,25.0,0.03128911138923655,,data/processed/boamp_full_clean_siren_enriched.csv
+cpv_distribution,32321300,22.0,0.02753441802252816,,data/processed/boamp_full_clean_siren_enriched.csv
+cpv_distribution,32321200,22.0,0.02753441802252816,,data/processed/boamp_full_clean_siren_enriched.csv
+cpv_distribution,30200000,19.0,0.023779724655819776,,data/processed/boamp_full_clean_siren_enriched.csv
+cpv_distribution,32424000,19.0,0.023779724655819776,,data/processed/boamp_full_clean_siren_enriched.csv
+cpv_distribution,48822000,19.0,0.023779724655819776,,data/processed/boamp_full_clean_siren_enriched.csv
+cpv_distribution,72220000,18.0,0.02252816020025031,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,-1.0,453.0,0.3416289592760181,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,1.0,6.0,0.004524886877828055,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,2.0,5.0,0.003770739064856712,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,2.9566360052562417,7.0,0.005279034690799397,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,3.0,18.0,0.013574660633484163,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,3.942181340341656,25.0,0.01885369532428356,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,4.0,67.0,0.05052790346907994,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,4.92772667542707,3.0,0.0022624434389140274,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,5.0,24.0,0.01809954751131222,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,5.5,1.0,0.0007541478129713424,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,5.913272010512483,9.0,0.006787330316742082,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,6.0,52.0,0.0392156862745098,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,7.0,7.0,0.005279034690799397,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,7.884362680683312,1.0,0.0007541478129713424,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,8.0,7.0,0.005279034690799397,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,8.869908015768726,1.0,0.0007541478129713424,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,9.0,4.0,0.0030165912518853697,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,10.0,3.0,0.0022624434389140274,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,11.0,5.0,0.003770739064856712,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,12.0,316.0,0.2383107088989442,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,13.0,1.0,0.0007541478129713424,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,14.0,4.0,0.0030165912518853697,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,15.0,2.0,0.0015082956259426848,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,16.0,7.0,0.005279034690799397,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,18.0,17.0,0.01282051282051282,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,19.0,3.0,0.0022624434389140274,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,20.0,3.0,0.0022624434389140274,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,22.0,2.0,0.0015082956259426848,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,24.0,151.0,0.1138763197586727,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,25.0,2.0,0.0015082956259426848,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,28.0,4.0,0.0030165912518853697,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,30.0,7.0,0.005279034690799397,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,33.0,1.0,0.0007541478129713424,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,34.0,2.0,0.0015082956259426848,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,35.0,1.0,0.0007541478129713424,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,36.0,99.0,0.0746606334841629,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,37.0,1.0,0.0007541478129713424,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,38.0,1.0,0.0007541478129713424,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,39.0,3.0,0.0022624434389140274,,data/processed/boamp_full_clean_siren_enriched.csv
+duration_distribution,41.0,1.0,0.0007541478129713424,,data/processed/boamp_full_clean_siren_enriched.csv
+start_year_distribution,2015,129.0,0.06673564407656493,,data/processed/boamp_full_clean_siren_enriched.csv
+start_year_distribution,2016,174.0,0.0900155199172271,,data/processed/boamp_full_clean_siren_enriched.csv
+start_year_distribution,2017,195.0,0.10087946197620279,,data/processed/boamp_full_clean_siren_enriched.csv
+start_year_distribution,2018,200.0,0.10346611484738748,,data/processed/boamp_full_clean_siren_enriched.csv
+start_year_distribution,2019,194.0,0.10036213140196586,,data/processed/boamp_full_clean_siren_enriched.csv
+start_year_distribution,2020,187.0,0.09674081738230729,,data/processed/boamp_full_clean_siren_enriched.csv
+start_year_distribution,2021,210.0,0.10863942058975685,,data/processed/boamp_full_clean_siren_enriched.csv
+start_year_distribution,2022,238.0,0.12312467666839111,,data/processed/boamp_full_clean_siren_enriched.csv
+start_year_distribution,2023,213.0,0.11019141231246767,,data/processed/boamp_full_clean_siren_enriched.csv
+start_year_distribution,2024,193.0,0.09984480082772892,,data/processed/boamp_full_clean_siren_enriched.csv

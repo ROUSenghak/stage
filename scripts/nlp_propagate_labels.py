@@ -4,8 +4,9 @@ Phase 2 NLP — Step 3: Full Corpus Propagation
 Loads the best trained model (SBERT if it won, else TF-IDF baseline),
 applies it to all 3,181 rows of boamp_full_clean.csv, and writes:
 
-  data/processed/boamp_full_clean_nlp.csv   — full corpus + NLP columns
-  data/processed/boamp_phase2_survival.csv  — survival cohort + NLP columns (join)
+  data/processed/boamp_full_clean_nlp.csv       — full corpus + NLP columns
+  data/processed/boamp_phase2_survival_nlp.csv  — survival cohort + NLP columns (join);
+                                                  boamp_phase2_survival.csv is read-only here
 
 NLP columns added:
   category_id_nlp       predicted category

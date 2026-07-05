@@ -1,0 +1,8 @@
+component,real project,synthetic notebook,status
+buyer key,SIREN-enriched buyer_key group,generated buyer_key from noisy buyer_name,same role; synthetic noise can fragment keys
+text similarity,"Sentence-Transformers cosine (paraphrase-multilingual-MiniLM-L12-v2, normalized embeddings)","same encoder, same text normalization, cosine on normalized embeddings",same
+CPV score,"hierarchy score, generic capped, missing excluded",same plus exact-credit counterfactual for sensitivity,mirrors current corrected rule
+temporal score,linear decay around declared duration within W,same,same
+composite score,"0.40 text + 0.25 CPV + 0.20 temporal + 0.15 buyer, CPV renorm if missing",same,same
+candidate selection,highest composite per source after filters,same,same
+event assignment,event=1 when a best candidate survives,same for predictions; synthetic truth held separately,same prediction rule

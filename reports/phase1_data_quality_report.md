@@ -8,6 +8,40 @@
 
 ---
 
+## Calibration Update — Current Recommended Event Definition (2026-07-05)
+
+The current recommended survival input is
+`data/processed/boamp_phase2_survival_calibrated_balanced.csv`, not the older
+665-event baseline. The selected **balanced** rule is:
+
+| Parameter | Value |
+|---|---|
+| Text similarity threshold | 0.50 |
+| Temporal window | W = 6 months |
+| Composite-score threshold | 0.50 |
+| Margin threshold | none |
+| Generic CPV rule | corrected: generic codes do not receive exact-match credit |
+
+This rule gives **269 proxy recurrence events** among **1,210 eligible BOAMP
+source contracts** (22.2%). It was chosen from the synthetic BOAMP benchmark
+(scored with the same Sentence-Transformer encoder as the real pipeline) and
+real BOAMP diagnostics, not from legal renewal-chain labels. Broad and strict
+sensitivity rules are retained: broad = 490 events (40.5%), strict = 79 events
+(6.5%, flagged LOW_EVENTS). All three calibrated datasets pass the
+survival-readiness integrity checks.
+
+The calibrated survival rerun shows that the KM median is not reached for all
+three rules. Under the balanced rule, survival is 94.3% at 12 months, 89.5% at
+24 months, 78.4% at 48 months, and 68.6% at 60 months. The Cox C-index is 0.591.
+These results describe algorithm-identifiable proxy recurrences, not verified
+legal renewals.
+
+The sections below document the original BOAMP data quality and the earlier
+baseline construction. They remain useful for provenance, but the calibrated
+balanced file is the recommended modeling input.
+
+---
+
 ## 1. Corpus Overview
 
 ### 1.1 Raw corpus (all notice types)
@@ -208,13 +242,19 @@ Links are stratified into three confidence tiers based on composite score:
 | MEDIUM | 0.50 – 0.70 | 301 | 45.3% |
 | LOW | < 0.50 | 265 | 39.8% |
 
-For Phase 2 sensitivity analysis, a conservative scenario drops LOW-tier links to `event = 0` (400 events instead of 665). The recommended primary analysis uses all 665 events with composite score as a continuous covariate.
+For the earlier Phase 2 sensitivity analysis, a conservative scenario dropped
+LOW-tier links to `event = 0` (400 events instead of 665). After the 2026-07-05
+calibration, the recommended primary analysis is the balanced rule with 343
+events.
 
 ---
 
 ## 7. Known Biases and Limitations
 
-1. **No ground truth.** No external validation set exists for BOAMP renewal links. Calibration uses `annonce_lie` back-references (68.2% recall on same-contract pairs) as a proxy, but systematic precision estimation is not possible.
+1. **No real BOAMP ground truth.** BOAMP has no official legal renewal-chain
+labels. The synthetic benchmark gives controlled precision/recall because its
+links are known by construction; real BOAMP still only has proxy recurrence
+labels and diagnostic linking rates.
 
 2. **Buyer fragmentation.** 94.1% of buyer keys are name-based. A single public entity with naming variants across years will appear as multiple buyer keys, blocking valid links. This is the primary source of false negatives. Enriching buyer identification with SIRET/SIREN data is a planned future improvement; it requires a cross-source join not available in the current BOAMP-only pipeline.
 

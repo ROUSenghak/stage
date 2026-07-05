@@ -6,6 +6,30 @@
 
 ---
 
+## 0. Current calibration note (2026-07-05)
+
+This consistency audit is historical for the June report-rebuild pass. The
+current recommended analysis is the calibrated **balanced** rule:
+
+- text similarity threshold = 0.50;
+- composite-score threshold = 0.50;
+- temporal window W = 6;
+- corrected generic CPV scoring;
+- no margin floor.
+
+It gives 269 proxy recurrence events among 1,210 eligible BOAMP source contracts
+(22.2%; Sentence-Transformer calibration). Broad and strict sensitivity rules
+give 490 events (40.5%) and 79 events (6.5%). Source tables:
+`reports/tables/validation/recommended_event_rules.csv`,
+`reports/tables/validation/calibrated_real_event_definition_summary.csv`, and
+`reports/tables/survival/calibrated_rule_km_summary.csv`.
+
+Do not read the older 697/705/665-event numbers in this audit as the current
+recommended event definition. They are retained to explain previous report
+states and pipeline changes.
+
+---
+
 ## 1. Reports checked
 
 | Report | Source file | Regenerated PDF |

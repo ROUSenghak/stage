@@ -59,6 +59,29 @@ buyer identification and SIREN enrichment, the exact construction of the
 \texttt{event} variable, its validation and robustness, and the limitations that
 carry into survival analysis.
 
+\subsection*{Calibration update --- 2026-07-05}
+
+The current recommended survival input is
+\texttt{data/processed/boamp\_phase2\_survival\_calibrated\_balanced.csv},
+created after calibrating the linking parameters with the synthetic BOAMP
+benchmark (scored with the same Sentence-Transformer encoder as the real
+pipeline) and real BOAMP diagnostics. The selected balanced rule is text
+similarity $\geq 0.50$, composite score $\geq 0.50$, $W=6$, corrected generic
+CPV scoring, and no margin floor.
+
+The calibrated rules give:
+\begin{itemize}[leftmargin=1.4em,itemsep=1pt]
+  \item broad sensitivity: 490 events out of 1{,}210 (40.5\%);
+  \item balanced main rule: 269 events out of 1{,}210 (22.2\%);
+  \item strict sensitivity: 79 events out of 1{,}210 (6.5\%, flagged
+        \texttt{LOW\_EVENTS} for Cox/AFT stability).
+\end{itemize}
+
+The balanced rule is recommended for the next survival analysis because it is
+more conservative than the broad baseline while still leaving enough events for
+Cox and AFT models. These event labels are proxy recurrences, not legally
+verified renewal chains.
+
 % ===========================================================================
 \section{Raw BOAMP Corpus}
 
@@ -110,16 +133,18 @@ Population & Count & Interpretation \\
 Raw BOAMP notices & 3{,}181 & Full digital-sector corpus downloaded from the BOAMP API. \\
 APPEL\_OFFRE source notices & 1{,}933 & Potential source contracts for renewal linking. \\
 Eligible source contracts & 1{,}210 & APPEL\_OFFRE contracts whose estimated end date falls before study end (W=6 months). \\
-Linked proxy-renewal events & 665 & \texttt{event = 1}; a plausible later BOAMP notice was linked. \\
-Right-censored contracts & 545 & \texttt{event = 0}; no observed link under the rule before study end. \\
+Linked proxy-renewal events, pre-calibration baseline & 665 & \texttt{event = 1}; a plausible later BOAMP notice was linked under the broad baseline. \\
+Linked proxy-recurrence events, calibrated balanced rule & 269 & Recommended current event definition after benchmark calibration. \\
+Right-censored contracts, calibrated balanced rule & 941 & \texttt{event = 0}; no observed link under the balanced rule before study end. \\
 \bottomrule
 \end{tabularx}
 \end{table}
 
-The linking rate in the eligible population is 55.0\% ($665 / 1{,}210$). This is
-the denominator that matters for Phase 2 survival modeling. The lexical baseline
-retained in the repository for comparison is 7.6\% at the same $W=6$ window
-(11.3\% at the earlier $W=12$ setting).
+The pre-calibration linking rate in the eligible population is 55.0\%
+($665 / 1{,}210$). The current calibrated balanced linking rate is 22.2\%
+($269 / 1{,}210$). The lexical baseline retained in the repository for
+comparison is 7.6\% at the same $W=6$ window (11.3\% at the earlier $W=12$
+setting).
 
 % ===========================================================================
 \section{Missing Values and Cleaning Decisions}
@@ -363,7 +388,7 @@ score for accepted links is approximately $0.37$, arising from the weighting
 formula applied to pairs that pass the text filter. Two post-hoc confidence tiers
 are defined for sensitivity analysis:
 \begin{itemize}[nosep]
-  \item Medium/high confidence: composite $\geq 0.50$ --- 400 of 665 events (60.2\%);
+  \item Medium/high confidence in the pre-calibration baseline: composite $\geq 0.50$ --- 400 of 665 events (60.2\%);
   \item Strict high-confidence: composite $\geq 0.70$ \emph{and} score margin
         $\geq 0.05$, multi-candidate links only --- 75 events (11.3\%).
 \end{itemize}
@@ -396,9 +421,10 @@ prove that the remaining links are false.
 \toprule
 Metric & Value & Interpretation \\
 \midrule
-Linked events & 665 & Proxy renewal events retained in the official BOAMP handoff. \\
-Right-censored & 545 & No observed link before study end under the chosen rule. \\
-Linking rate & 55.0\% & Share of eligible contracts with \texttt{event = 1}. \\
+Linked events, pre-calibration baseline & 665 & Proxy renewal events retained in the earlier BOAMP handoff. \\
+Linked events, calibrated balanced & 269 & Recommended current proxy recurrence events. \\
+Right-censored, calibrated balanced & 941 & No observed link before study end under the balanced rule. \\
+Linking rate, calibrated balanced & 22.2\% & Share of eligible contracts with \texttt{event = 1} under the current rule. \\
 Strict high-confidence links & 75 & Composite score $\geq 0.70$ and score margin $\geq 0.05$, \emph{excluding} the 164 single-candidate links (margin undefined). A broader count of 86 results when single-candidate links with score $\geq 0.70$ are also included. \\
 Single-candidate links & 164 & Only one surviving candidate after filtering; margin is undefined for these. \\
 Ambiguous multi-candidate links & 219 of 501 & 43.7\% of multi-candidate events have a score margin below 0.05. \\
@@ -519,16 +545,16 @@ cohort, whose expected renewal windows fall after the 2024-12-31 study end --- a
 study-design constraint, not a measurement error in the linking rule.
 
 \medskip
-\noindent In summary, the 55.0\% linking rate should be read as a \textbf{chaining
+\noindent In summary, the older 55.0\% baseline linking rate should be read as a \textbf{chaining
 result}: the proportion of eligible contracts for which the algorithm identified a
-plausible BOAMP successor under the current rule. It is \emph{not} a measurement of
-the true renewal rate: the executed manual audit estimates that only
-$\approx$9--15\% of the accepted links are credible renewals (concentrated at
+plausible BOAMP successor under the broad baseline rule. It is \emph{not} a measurement of
+the true renewal rate. The executed manual audit estimates that only
+$\approx$9--15\% of the accepted links are credible proxy recurrences (concentrated at
 high text similarity), while $\approx$13\% of audited censored contracts hide a
 missed renewal. The sensitivity analysis shows the qualitative covariate
 conclusions are stable across threshold scenarios, but the audited precision
 means the variable is at best a \emph{weak} prioritisation signal at the
-baseline definition; it approaches renewal meaning only in its
+baseline definition; it is stronger only in its
 high-text-similarity core, provided its proxy nature is communicated
 wherever the model output is used.
 
@@ -592,12 +618,13 @@ requirement for Phase 1 because it provides a documented corpus, explicit cleani
 rules, missingness information, a transparent linking rate, and a survival-ready
 population of 1{,}210 eligible contracts with either observed or censored duration.
 The main limitation is conceptual rather than technical: \texttt{event} remains a
-proxy renewal event, not legal ground truth. The 55.0\% figure is a chaining/linking
-rate, not a measured true renewal rate; SIREN enrichment is a buyer-resolution
-improvement, not ground truth. The 150-row manual review (executed 2026-07-02)
+proxy recurrence event, not legal ground truth. The current 22.2\% balanced
+figure is a chaining/linking rate, not a measured true renewal rate; SIREN
+enrichment is a buyer-resolution improvement, not ground truth. The 150-row manual review (executed 2026-07-02)
 puts an empirical bound on event quality: precision $\approx$9--15\% overall,
 0.50 in the HIGH/strict tier, 1.00 at text similarity $\geq$0.80, and a 12.8\%
-missed-renewal rate among audited censored contracts. Re-linking under stricter
-rules and re-estimating the survival models is the priority next step.
+missed-renewal rate among audited censored contracts. The next step is to use
+the calibrated balanced dataset as the main survival input and keep broad and
+strict as sensitivity checks.
 
 \end{document}

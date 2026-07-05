@@ -1,0 +1,4 @@
+rule_name,text_threshold,composite_threshold,margin_threshold,W,generic_cpv_rule,n_rows,n_events,n_censored,event_rate,median_text_similarity,median_composite_score,median_score_margin,n_high_confidence_strict,survival_dataset,best_links_table
+broad,0.4,none,none,6,generic_corrected,1210,490,720,0.4049586776859504,0.5298499999999999,0.55105,0.055150000000000005,44,data/processed/boamp_phase2_survival_calibrated_broad.csv,reports/tables/validation/calibrated_real_best_links_broad.csv
+balanced,0.5,0.5,none,6,generic_corrected,1210,269,941,0.22231404958677686,0.6291,0.6243,0.04815,23,data/processed/boamp_phase2_survival_calibrated_balanced.csv,reports/tables/validation/calibrated_real_best_links_balanced.csv
+strict,0.7,0.65,none,6,generic_corrected,1210,79,1131,0.0652892561983471,0.8465,0.8062,0.0319,1,data/processed/boamp_phase2_survival_calibrated_strict.csv,reports/tables/validation/calibrated_real_best_links_strict.csv

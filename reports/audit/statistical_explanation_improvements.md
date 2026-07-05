@@ -4,6 +4,15 @@ Date: 2026-06-25
 Target PDF: `reports/phase1_technical_report.pdf`
 Target source: `reports/phase1_technical_report.tex`
 
+## Current calibration note (2026-07-05)
+
+This file records the 2026-06-25 statistical-explanation cleanup. The current
+recommended event definition is now the calibrated balanced rule: text ≥ 0.50,
+composite ≥ 0.50, W=6, corrected generic CPV scoring, no margin floor
+(Sentence-Transformer calibration). It gives 269 proxy recurrence events among
+1,210 eligible BOAMP contracts (22.2%). The older 665/705-event numbers below are historical audit evidence,
+not the current recommended modeling input.
+
 ## Sections edited
 
 - Abstract Phase 2 summary

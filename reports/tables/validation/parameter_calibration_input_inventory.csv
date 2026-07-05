@@ -1,0 +1,10 @@
+input_name,file_path,exists,rows,columns,used_for
+synthetic_notices,data/synthetic/synthetic_boamp_notices_all.csv,True,11326,19,synthetic ID and scenario integrity checks
+synthetic_true_links,data/synthetic/synthetic_boamp_true_links_all.csv,True,4500,5,synthetic true-link integrity checks
+synthetic_threshold_grid,reports/tables/validation/synthetic_threshold_grid.csv,True,4320,23,synthetic precision/recall/F1 by rule
+real_boamp_candidates,boamp_renewal_linking_quality/outputs/boamp_renewal_candidates.csv,True,3201,17,real BOAMP rule diagnostics and negative controls
+real_boamp_links,boamp_renewal_linking_quality/outputs/boamp_renewal_links.csv,True,1210,30,eligible real BOAMP denominator for linking rates
+negative_control_placebo_summary,validation_robustness/outputs/placebo_check_summary.csv,True,3,7,external placebo/runner-up context
+score_margin_diagnostics,validation_robustness/outputs/score_margin_diagnostics.csv,True,5,9,external score-margin context
+manual_validation_metrics,event_validation/outputs/manual_validation_metrics.csv,True,31,2,"manual validation context, not used as full ground truth"
+manual_validation_labels,event_validation/outputs/manual_validation_audit_labeled.csv,True,150,33,"manual audit context, not used as full ground truth"

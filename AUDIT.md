@@ -1,6 +1,6 @@
 # Project Audit — Current State of the Gigalis BOAMP Renewal Repository
 
-**Audit date:** 2026-07-02 (W=6 rerun)
+**Audit date:** 2026-07-05 (calibrated event-definition update)
 **Scope:** What the internship directory *actually contains now* — verified against the live
 CSVs, the survival result tables, and the source code — versus the two rendered PDFs
 (`stage_dataset.pdf` = `reports/phase1_technical_report.tex`,
@@ -8,6 +8,53 @@ CSVs, the survival result tables, and the source code — versus the two rendere
 
 Every number below was checked directly against a file in this repository; the "Source" column
 names that file.
+
+---
+
+## 0. Current calibrated recommendation (2026-07-05, Sentence-Transformer calibration)
+
+The recommended analysis uses the calibrated **balanced** proxy-event rule,
+selected after the synthetic benchmark was re-scored with the **same
+Sentence-Transformer encoder as the real pipeline**
+(`paraphrase-multilingual-MiniLM-L12-v2`): text similarity ≥ 0.50, composite
+score ≥ 0.50, W=6, corrected generic CPV scoring, and no margin floor.
+
+| Rule | Thresholds (text / composite) | Real BOAMP events | Linking rate | Main use | Source |
+|---|---|---:|---:|---|---|
+| Broad | 0.40 / none | 490 / 1,210 | 40.5% | high-recall sensitivity | `reports/tables/validation/recommended_event_rules.csv` |
+| Balanced | 0.50 / 0.50 | 269 / 1,210 | 22.2% | recommended survival input | same |
+| Strict | 0.70 / 0.65 | 79 / 1,210 | 6.5% | high-precision sensitivity | same |
+
+The balanced survival-ready file is
+`data/processed/boamp_phase2_survival_calibrated_balanced.csv`. Readiness
+integrity checks passed for all three rules: no missing/non-positive durations,
+no duplicate contract IDs, and no event without a renewal ID; the strict rule is
+flagged `LOW_EVENTS` (79 < 100) for Cox/AFT stability
+(`reports/tables/validation/calibrated_survival_readiness.csv`).
+
+Calibrated survival rerun:
+
+| Rule | Events | KM median | Survival 48m | Cox C-index | Source |
+|---|---:|---:|---:|---:|---|
+| Broad | 490 | not reached | 0.683 | 0.626 | `reports/tables/survival/calibrated_rule_km_summary.csv`, `calibrated_rule_cox_comparison.csv` |
+| Balanced | 269 | not reached | 0.833 | 0.592 | same |
+| Strict | 79 | not reached | 0.958 | 0.607 | same |
+
+For the balanced rule, the best parametric AFT model by AIC is LogNormalAFT
+(AIC 3,544.8, ahead of Weibull 3,571.8 and LogLogistic 3,580.5;
+`reports/tables/survival/calibrated_balanced_aft_comparison.csv`).
+
+Operational 12/24-month risk indicators were re-scored under the balanced rule
+(`scripts/task_section16b_calibrated_risk_indicators.py`): 1,204 scored
+contracts, mean p12m = 0.023, mean p24m = 0.068, max p12m = 0.073, expected
+renewals 27.5 (12m) / 82.3 (24m), top buyer SIREN:234400034 (2.5 expected),
+top segment IT Services & Consulting (10.8 expected). Outputs:
+`reports/tables/survival/*_calibrated_balanced.csv`.
+
+Interpretation: real BOAMP still has no legal renewal-chain ground truth. The
+calibrated labels are proxy recurrences: identifiable reappearances of similar
+procurement needs under the selected rule. The older 665-event handoff remains
+below as the pre-calibration baseline.
 
 ---
 
@@ -290,3 +337,126 @@ only the high-text-similarity core is a reliable renewal signal. All three
 reports now state this. Files: `event_validation/outputs/manual_validation_audit_labeled.csv`,
 `.../boamp_event_validation_audit.xlsx` (Audit_Results sheet),
 `.../manual_validation_metrics.csv`, `event_validation/manual_validation_summary.md`.
+
+---
+
+# End-to-end reconciliation pass (2026-07-05, post-calibration)
+
+Full problem-statement → methodology → code → outputs → reports audit. Every
+headline number was re-verified against a fresh execution of the current code.
+
+## A. Reproducibility verified (fresh reruns)
+
+- **Calibrated chain (notebooks 04 → 05 → 06 → 07)** re-executed end-to-end
+  (Python 3.12 framework kernel): all outputs byte-identical to the committed
+  CSVs — synthetic corpus, threshold grid, `recommended_event_rules.csv`
+  (broad 490 / balanced 343 / strict 106 over 1,210), calibrated survival
+  datasets, KM/Cox/AFT tables (C 0.626/0.591/0.600; LogNormal AIC 4,308.4).
+- **Baseline chain (notebook 02 + `task_section16_risk_indicators.py`)**
+  re-executed: all tables reproduce numerically (only equal-score tie-order
+  swaps in `top20_renewal_risk.csv` / `buyer_renewal_risk_ranking.csv` and
+  ~1e-14 float noise in Cox coefficients).
+- Environment note: the notebooks execute under the framework Python 3.12
+  (has `lifelines`/`nbconvert`, no `sentence_transformers`); the project
+  `.venv` has `sentence_transformers` (for the linking notebook) but no
+  `lifelines`. Notebook 04's TF-IDF text-similarity fallback claim is true
+  for its execution kernel, not for `.venv`.
+
+## B. Inconsistencies found and fixed in this pass
+
+1. `phase1_technical_report.tex` data dictionary + margin section said
+   **133 single-candidate / 572 multi-candidate** links — stale W=12 numbers
+   (133+572=705). Actual W=6 data: **164 / 501** (`boamp_phase2_survival.csv`).
+   Fixed in three places.
+2. `phase1_technical_report.tex` sensitivity protocol described Model A as
+   "composite ≥ 0.20, text ≥ 0.20" — no composite floor exists in code
+   (same error class as the 2026-06-23 audit item A3, in a spot that pass
+   missed). Fixed to "text ≥ 0.20, all accepted links; no composite floor".
+3. **Temporal hold-out validation was implemented but reported nowhere.**
+   Notebook 02 §12 trains on start_year ≤ 2021 (1,088 rows / 604 events) and
+   tests on ≥ 2022 (116 rows / 60 events): train C 0.612, test C 0.543.
+   Added to `phase1_technical_report.tex` (new subsubsection) and
+   `internship_report.tex` (new paragraph). This answers the guide's
+   Week-7 temporal-validation requirement.
+4. Notebook 02 markdown/print claimed the temporal test set is "73 rows,
+   ~50 events" — stale 1,100-row-era numbers; actual 116/60. Fixed in
+   `_build_survival_notebook.py` (print now dynamic), notebook rebuilt and
+   re-executed; all survival tables unchanged.
+5. **Operational risk indicators (§16 / internship §4.3) still use the
+   pre-calibration 665-event model** while the recommended definition is the
+   calibrated balanced rule. Explicit event-definition notes added to both
+   reports; re-scoring under the balanced rule remains a pending step.
+6. `scripts/nlp_propagate_labels.py` docstring claimed it writes
+   `boamp_phase2_survival.csv`; it actually writes
+   `boamp_phase2_survival_nlp.csv` (never overwrites the handoff). Fixed.
+7. Internship report pipeline table marked the NLP classifier "Not done ---".
+   Updated to **Partial**: scaffolding exists (`scripts/nlp_*.py`,
+   `notebooks/03_nlp_classification.ipynb`, 350-row annotation sample drawn),
+   but `boamp_annotation_gold.csv` is unfilled and no model is trained.
+   Notebook 03 is unexecuted and depends on the missing gold file.
+
+## C. Verified-correct (no change)
+
+- Internship report: all §4 numbers (665/1,210/55.0%; KM 50.1; Cox 0.6317;
+  AIC 7,068.4 / 7,154.7 / 7,240.3; log-rank table; category table sums to 665;
+  164/501/219(43.7%)/75 link quality; risk table 1,204 / 0.074 / 0.216 /
+  0.288 / 6 / 1,198 / 89.7 / 259.9 / SIREN:234400034 9.3 / IT Services 30.4;
+  Model C 75 / 6.2% / 0.455 from `uncertain_link_exclusion_summary.csv`).
+- Calibration update sections present and numerically correct in all four
+  reports (`internship`, `phase1_technical`, `data_quality`,
+  `datasets_documentation`) + README + `validation_robustness_report.md` +
+  `calibrated_event_definition_summary.md`.
+- `boamp_linking_stats.csv` (1,933/723/1,210/665/54.96/7.6/W=6/0.20/48),
+  candidates 3,201, links 1,210/665 — all match the reports.
+- Notebook 06 re-scoring logic mirrors the linking notebook exactly
+  (temporal `1−|gap−dur|/W` clipped, CPV hierarchy 1.0/0.8/0.6/0.4/0.2 with
+  generic cap before exact-match, missing-CPV renorm /0.75, same tie-break
+  sort, strict flag requires margin — single candidates never auto-promoted).
+- Confidence tiers 99/301/265 (events ≥0.70 / 0.50–0.70 / <0.50) and
+  four-tier 42/33 recomputed from data — match reports.
+
+## D. Known scope gaps vs the internship guide (disclosed, not fixed)
+
+- **Phase 4 (change-point/trend detection): not implemented** — one of the
+  guide's three core sub-problems; all reports disclose this.
+- **Phase 2 NLP (deliverable L2): scaffolded only** — annotation gold file
+  pending, no trained classifier, no kappa/F1.
+- Guide's Week-8 list includes **generalized gamma** AFT — repo fits
+  Weibull/log-normal/log-logistic instead (reports do not overclaim).
+- Guide asks for **confidence intervals on the 12/24-month probabilities**
+  — point estimates only in §16.
+- Guide's shared-frailty stretch goal: not attempted (disclosed).
+
+## E. Sentence-Transformer recalibration (2026-07-05, same day, after user decision)
+
+The two items flagged in §B.5 and §D were then executed:
+
+1. **Synthetic benchmark re-scored with the real encoder.**
+   `sentence-transformers` was installed into the framework Python 3.12 (the
+   notebook kernel) and `_build_synthetic_benchmark_notebook.py` was changed to
+   score synthetic text similarity with
+   `paraphrase-multilingual-MiniLM-L12-v2` (normalized embeddings, cosine, same
+   `normalize_objet` text normalization as the linking notebook). The TF-IDF
+   fallback remains only for environments without the package/model, and the
+   algorithm-consistency audit records the backend actually used. Notebooks
+   04–07 were rebuilt/re-executed. **The selected rules changed**:
+
+   | Rule | TF-IDF-era (superseded) | ST calibration (current) |
+   |---|---|---|
+   | Broad | text 0.40, 490 events (40.5%) | unchanged |
+   | Balanced | text 0.50, no composite floor, 343 events (28.3%) | text 0.50 + composite 0.50, **269 events (22.2%)** |
+   | Strict | text 0.55 + composite 0.65, 106 events (8.8%) | text 0.70 + composite 0.65, **79 events (6.5%)**, LOW_EVENTS flag |
+
+   The §A byte-identical reproduction statement therefore now applies to the
+   TF-IDF-era outputs as they existed at that time; the current committed
+   outputs are the ST-calibration ones summarized in §0. Balanced survival:
+   KM median not reached, S48 = 0.833, Cox C = 0.592, LogNormalAFT best
+   (AIC 3,544.8). All reports/README updated to these values.
+
+2. **Risk indicators re-scored under the balanced rule** via the new
+   `scripts/task_section16b_calibrated_risk_indicators.py` (same design as
+   section 16: LogNormal AFT, same covariates, prediction date 2024-12-31,
+   deterministic tie-breaking): 1,204 scored, mean p12m 0.023 / p24m 0.068,
+   max p12m 0.073, all contracts in the Low tier, expected renewals 27.5 (12m)
+   / 82.3 (24m). The pre-calibration section-16 outputs are retained for
+   comparison; both reports now cite the calibrated numbers as current.

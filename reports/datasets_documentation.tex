@@ -39,6 +39,22 @@
 
 \begin{document}
 
+\section*{Mise à jour calibration --- 2026-07-05}
+
+La version recommandée pour l'analyse de survie BOAMP est maintenant le fichier
+\texttt{data/processed/boamp\_phase2\_survival\_calibrated\_balanced.csv}. Il
+contient 1\,210 appels d'offre éligibles et 269 événements de réapparition
+proxy (22,2\%, calibration Sentence-Transformer). La règle équilibrée est :
+similarité texte $\geq 0{,}50$, score composite $\geq 0{,}50$, fenêtre
+temporelle $W=6$, correction des codes CPV génériques, sans seuil minimum sur
+la marge.
+
+Les variantes conservées pour sensibilité sont :
+\texttt{boamp\_phase2\_survival\_calibrated\_broad.csv} (490 événements,
+40,5\%) et \texttt{boamp\_phase2\_survival\_calibrated\_strict.csv}
+(79 événements, 6,5\%). Ces événements sont des récurrences proxy identifiées
+dans BOAMP, pas des renouvellements légalement certifiés.
+
 % ============================================================
 \section{DECP -- Données Essentielles de la Commande Publique}
 % ============================================================

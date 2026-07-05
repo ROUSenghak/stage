@@ -1,0 +1,6 @@
+file,exists,size_bytes,status
+reports/tables/survival/calibrated_rule_km_summary.csv,True,514,PASS
+reports/tables/survival/calibrated_rule_cox_comparison.csv,True,6419,PASS
+reports/tables/survival/calibrated_balanced_aft_comparison.csv,True,219,PASS
+reports/figures/survival/calibrated_rules_km_curves.png,True,123228,PASS
+reports/figures/survival/calibrated_rules_cox_hazard_ratios.png,True,118189,PASS

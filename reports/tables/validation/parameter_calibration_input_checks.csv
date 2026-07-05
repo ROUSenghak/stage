@@ -1,0 +1,10 @@
+check,value,status
+synthetic notices rows,11326,PASS
+synthetic truth rows,4500,PASS
+synthetic grid rows,4320,PASS
+real candidate-pair rows,3201,PASS
+real eligible link rows,1210,PASS
+scenarios easy/medium/hard,"easy,hard,medium",PASS
+true-link candidate IDs exist,True,PASS
+true-link source IDs exist,True,PASS
+critical score missing rates,"{'text_similarity_score': 0.0, 'composite_score': 0.0, 'gap_months': 0.0, 'src_duration_months': 0.0}",PASS

@@ -1,0 +1,4 @@
+rule_name,status,event_count,eligible_source_count,linking_rate,median_text_similarity,median_score_margin,generic_cpv_share,n_low_confidence_links,real_application_note
+broad,ok,490,1210,0.4049586776859504,0.5277499999999999,0.05824999999999997,0.24081632653061225,347,limited: selected W exceeds existing real W=6 candidate table
+balanced,ok,255,1210,0.21074380165289255,0.6203,0.04570000000000002,0.21176470588235294,210,limited: selected W exceeds existing real W=6 candidate table
+strict,ok,0,1210,0.0,,,0.0,0,existing W=6 filtered candidate table

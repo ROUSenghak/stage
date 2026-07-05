@@ -1,0 +1,11 @@
+file,exists,size_bytes,status
+data/processed/boamp_phase2_survival_calibrated_broad.csv,True,290286,PASS
+data/processed/boamp_phase2_survival_calibrated_balanced.csv,True,283368,PASS
+data/processed/boamp_phase2_survival_calibrated_strict.csv,True,266991,PASS
+data/processed/boamp_phase2_survival_calibrated_rules_long.csv,True,839443,PASS
+reports/tables/validation/calibrated_real_event_definition_summary.csv,True,934,PASS
+reports/tables/validation/calibrated_survival_readiness.csv,True,508,PASS
+reports/tables/validation/calibrated_real_best_links_all_rules.csv,True,384078,PASS
+reports/figures/validation/calibrated_real_event_counts.png,True,49038,PASS
+reports/figures/validation/calibrated_real_event_rates.png,True,55640,PASS
+reports/figures/validation/calibrated_real_score_distributions.png,True,73843,PASS

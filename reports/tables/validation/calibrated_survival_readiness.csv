@@ -1,0 +1,4 @@
+rule_name,n_rows,n_events,event_rate,duration_missing,duration_nonpositive,duplicate_contract_id,event_without_renewal_id,cox_aft_event_count_status,recommended_use
+balanced,1210,269,0.22231404958677686,0,0,0,0,OK,Recommended main proxy-event definition for real BOAMP survival rerun.
+broad,1210,490,0.4049586776859504,0,0,0,0,OK,High recall / high linking-rate proxy-event upper sensitivity.
+strict,1210,79,0.0652892561983471,0,0,0,0,LOW_EVENTS,High-precision robustness sensitivity with fewer real events.

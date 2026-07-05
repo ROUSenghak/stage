@@ -1,0 +1,24 @@
+file path,purpose,whether current or legacy,whether reused,exists,rows_if_csv
+data/raw/boamp_full/,BOAMP raw JSON pages,current,yes: raw-data provenance only,True,
+data/raw/boamp_sample/,BOAMP raw sample JSON pages,legacy/supporting,no,True,
+data/processed/boamp_full_clean_siren_enriched.csv,Best available cleaned BOAMP notices with SIREN-enriched buyer keys,current,yes: real distributions,True,3188.0
+data/processed/boamp_full_clean.csv,Cleaned BOAMP notices before SIREN enrichment,current,fallback,True,3188.0
+data/processed/boamp_clean.csv,Earlier BOAMP cleaned sample/legacy file,legacy,no,True,502.0
+data/processed/boamp_phase2_survival.csv,Current phase-2 survival handoff with proxy event labels and confidence diagnostics,current,yes: observed event rate,True,1210.0
+data/processed/boamp_phase2_survival_siren_enriched.csv,Current phase-2 handoff with enrichment columns,current,yes: fallback diagnostics,True,1210.0
+boamp_renewal_linking_quality/outputs/boamp_renewal_candidates.csv,"Current candidate-pair table with text, CPV, temporal, and composite scores",current,yes: real-rule diagnostics,True,3203.0
+boamp_renewal_linking_quality/outputs/boamp_renewal_links.csv,Current one-row-per-source renewal-link output,current,yes: event and margin diagnostics,True,1210.0
+boamp_renewal_linking_quality/boamp_renewal_linking_eda_preprocessing.ipynb,Main BOAMP renewal-linking notebook using Sentence-Transformers and CPV hierarchy,current,yes: logic reference,True,
+scripts/link_confidence.py,Shared score-margin strict-confidence diagnostic logic,current,yes: logic reference,True,
+scripts/task10_link_confidence_diagnostics.py,Regenerates link-confidence diagnostics from candidate and link outputs,current,yes: logic reference,True,
+scripts/task_boamp_full_survival.py,Older Jaccard BOAMP survival/linking baseline,legacy/supporting,no,True,
+scripts/task6_renewal_linking.py,DECP Jaccard renewal-linking prototype,legacy/supporting,no,True,
+buyer_siren_enrichment/outputs/boamp_buyer_siren_enriched.csv,Buyer SIREN enrichment quality output,current,yes: buyer-key context,True,525.0
+buyer_siren_enrichment/,Buyer-key/SIREN enrichment pipeline,current,yes: buyer-key context,True,
+notebooks/02_survival_modeling_boamp.ipynb,Current survival-modeling notebook,current,yes: downstream context,True,
+validation_robustness/validation_robustness_analysis.ipynb,Existing robustness and threshold-sensitivity notebook,current,yes: context,True,
+validation_robustness/outputs/threshold_sensitivity_summary.csv,Existing survival robustness threshold summary,current,yes: context only,True,7.0
+event_validation/outputs/threshold_sensitivity.csv,Manual-validation event-retention threshold table,current,yes: context only,True,7.0
+event_validation/outputs/manual_validation_audit_labeled.csv,Manual validation labels if present,current/supporting,no: not needed for synthetic truth,True,150.0
+reports/figures/fig_threshold_sensitivity.png,Existing threshold-sensitivity figure,current,yes: context only,True,
+reports/figures/fig_score_distributions.png,Existing score-distribution figure,current,yes: context only,True,

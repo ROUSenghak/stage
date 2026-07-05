@@ -7,6 +7,27 @@ PDF/LaTeX text. See `current_results_audit.csv` for the metric-by-metric audit t
 
 ---
 
+## 0. Current calibration note (2026-07-05)
+
+This file documents the 2026-06-25 consistency pass. The current recommended
+analysis is now the calibrated **balanced** proxy-event rule:
+
+| Rule | Events / eligible | Linking rate | Use |
+|---|---:|---:|---|
+| Broad | 490 / 1,210 | 40.5% | high-recall sensitivity |
+| Balanced | 269 / 1,210 | 22.2% | recommended main survival input |
+| Strict | 79 / 1,210 | 6.5% | high-precision sensitivity |
+
+Balanced parameters: text ≥ 0.50, composite ≥ 0.50, W=6, corrected generic CPV
+scoring, no margin floor (Sentence-Transformer calibration). Source tables:
+`reports/tables/validation/recommended_event_rules.csv` and
+`reports/tables/validation/calibrated_real_event_definition_summary.csv`.
+
+The earlier 697/705 numbers below are kept as historical evidence for the June
+report audit, not as the current recommended event definition.
+
+---
+
 ## 1. Official current-stage numbers (post-SIREN, 2026-06-24)
 
 | Metric | Value | Source |

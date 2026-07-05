@@ -84,6 +84,30 @@ survival results should be read as describing algorithm-identifiable same-buyer
 re-publications, not validated renewals.
 \end{abstract}
 
+\section*{Calibration update --- 2026-07-05}
+\addcontentsline{toc}{section}{Calibration update --- 2026-07-05}
+
+After the manual-audit finding that the broad baseline was too permissive, the
+event definition was recalibrated with a synthetic BOAMP benchmark and real
+BOAMP diagnostics. The synthetic benchmark is scored with the \emph{same
+Sentence-Transformer encoder as the real pipeline}
+(\nolinkurl{paraphrase-multilingual-MiniLM-L12-v2}). The recommended main rule
+is the \textbf{balanced} definition: text similarity $\geq 0.50$, composite
+score $\geq 0.50$, temporal window $W=6$, corrected generic CPV scoring, and no
+margin floor. It produces 269 proxy recurrence events among 1{,}210 eligible
+source contracts (22.2\%). The broad sensitivity gives 490 events (40.5\%);
+the strict sensitivity gives 79 events (6.5\%, underpowered for Cox/AFT).
+
+The calibrated survival-ready file is
+\texttt{data/processed/boamp\_phase2\_survival\_calibrated\_balanced.csv}. Its
+Kaplan--Meier median is not reached; survival is 95.9\% at 12 months, 92.3\% at
+24 months, 83.3\% at 48 months, and 75.2\% at 60 months. The Cox C-index is
+0.592, and LogNormalAFT is the best balanced-rule AFT model by AIC (3{,}544.8).
+Re-scored 12/24-month risk indicators under this rule give a mean 12-month
+recurrence probability of 0.023 and 27.5 expected recurrences within 12 months
+(\nolinkurl{reports/tables/survival/renewal_risk_12_24_months_calibrated_balanced.csv}).
+These labels remain proxy recurrences, not legally verified renewals.
+
 % ===========================================================================
 \section{Context and Objective}
 
@@ -222,9 +246,9 @@ Manual event validation
   & 150 cases audited; precision $\approx$0.09--0.15 (HIGH tier 0.50)
   & \nolinkurl{event_validation/manual_validation_summary.md} \\[3pt]
 Trained NLP classifier
-  & \textcolor{notdone}{Not done}
-  & Taxonomy is rule-based only
-  & --- \\[3pt]
+  & \textcolor{partial}{Partial}
+  & Scaffolding only: annotation sample (350 rows) + training scripts exist; gold labels and training not yet done
+  & \nolinkurl{scripts/nlp_*.py}, \nolinkurl{notebooks/03_nlp_classification.ipynb} \\[3pt]
 Change-point detection (Phase 4)
   & \textcolor{notdone}{Not done}
   & Scoped but not implemented
@@ -434,7 +458,20 @@ violation for \nolinkurl{declared_duration_months} ($p < 10^{-5}$); all other
 covariates pass. Stratification or a time interaction for duration is future
 work. The log-normal AFT avoids the PH assumption and gives the same conclusions.
 
+\paragraph{Temporal hold-out.} A temporal validation (train on contracts
+starting $\leq$2021: 1{,}088 rows / 604 events; test on $\geq$2022: 116 rows /
+60 events) gives a test concordance of 0.543 against 0.612 in-sample ---
+a directional check only, since the small test cohort is structurally dominated
+by early renewals, but it confirms the in-sample C-index is an upper bound.
+
 \subsection{Operational risk indicators}
+
+The table below is computed under the \emph{pre-calibration} baseline event
+definition (665 events). Under the calibrated balanced rule (269 events; see
+the calibration update on p.~1), the re-scored indicators are substantially
+lower: mean 12/24-month probabilities 0.023/0.068, max 12-month probability
+0.073, and 27.5 expected recurrences within 12 months (83\% lower than the
+89.7 below). Files: \nolinkurl{reports/tables/survival/*_calibrated_balanced.csv}.
 
 \begin{table}[H]
 \centering
@@ -514,20 +551,25 @@ The event variable was stress-tested with checks in \nolinkurl{validation_robust
 \label{sec:open}
 
 \textbf{Completed.} BOAMP acquisition and cleaning; buyer SIREN enrichment
-(2026-06-24); renewal-event reconstruction (665 events, 55.0\%); survival
-modeling (KM, Cox, AFT) with sensitivity and robustness checks; operational
-12/24-month risk indicators; rule-based technology taxonomy.
+(2026-06-24); pre-calibration renewal-event reconstruction (665 events,
+55.0\%); synthetic benchmark calibration with the real Sentence-Transformer
+encoder; calibrated balanced event definition (269 events, 22.2\%); calibrated
+survival rerun (KM, Cox, AFT); operational 12/24-month risk indicators
+(pre-calibration and re-scored calibrated versions); rule-based technology
+taxonomy.
 
 \textbf{Remaining.}
 \begin{itemize}[leftmargin=1.4em,itemsep=2pt]
-  \item \textbf{Act on the manual-validation findings.} The 150-case audit
-        (executed 2026-07-02) estimates linking precision at only
-        $\approx$9--15\%. The priority is now to re-link with a higher text
-        floor ($\geq$0.5--0.65), stop crediting generic CPV codes as exact
-        matches, de-anchor the temporal window from ceiling durations, and
-        re-estimate the survival models on the corrected events.
+  \item \textbf{Use the calibrated event definition.} The 150-case audit
+        (executed 2026-07-02) showed that the broad baseline was too permissive.
+        The priority is now to use the balanced calibrated dataset as the main
+        survival input and keep broad/strict variants as sensitivity checks.
   \item \textbf{Trained NLP classifier.} The technology taxonomy is rule-based
-        (CPV + keywords); the planned learned classifier was not implemented.
+        (CPV + keywords). The classifier pipeline is scaffolded
+        (\nolinkurl{scripts/nlp_annotation_sample.py} through
+        \nolinkurl{scripts/nlp_propagate_labels.py} and notebook 03), and the
+        350-row annotation sample is drawn, but the gold labels have not been
+        filled in and no model has been trained yet.
   \item \textbf{Change-point / trend detection (Phase 4).} Scoped but not started.
   \item \textbf{DECP semantic linking.} Applied to BOAMP only; DECP linking remains
         at the lexical prototype stage.
@@ -542,19 +584,18 @@ modeling (KM, Cox, AFT) with sensitivity and robustness checks; operational
 The internship delivered a reproducible end-to-end pipeline: BOAMP notice
 acquisition $\to$ cleaning $\to$ buyer SIREN enrichment $\to$ renewal-event
 reconstruction $\to$ survival modeling $\to$ operational risk indicators. The
-main methodological result is lifting the renewal linking rate from 7.6\%
-(lexical baseline at the same $W=6$ window) to 55.0\% using Sentence-Transformer
-embeddings. Survival
-modeling shows renewal timing is driven by declared contract duration (median
-50.1 months), with a marginal category effect, and the log-normal AFT model
-translates this into actionable 12/24-month renewal-risk rankings.
+main methodological result is a calibrated proxy-event definition: the broad
+Sentence-Transformer rule gives 490 events (40.5\%), the balanced rule gives
+269 events (22.2\%), and the strict rule gives 79 events (6.5\%). Under the
+balanced rule, the Kaplan--Meier median is not reached and LogNormalAFT is the
+best AFT model by AIC (3{,}544.8). These outputs translate BOAMP proxy
+recurrence signals into 12/24-month renewal-risk rankings.
 
 \textbf{Immediate next steps (prioritised):}
 \begin{enumerate}[leftmargin=1.4em,itemsep=2pt]
-  \item \textbf{Re-link with stricter rules and re-model.} The executed manual
-        audit (precision $\approx$9--15\%) shows the baseline event definition is
-        too permissive: raise the text-similarity floor, fix generic-CPV
-        scoring, widen the temporal window, then re-estimate KM/Cox/AFT.
+  \item \textbf{Run the next survival interpretation on the balanced dataset.}
+        Use broad and strict only as sensitivity checks; do not report real
+        precision/recall without manual labels.
   \item \textbf{Re-score contracts at a live prediction date} (current scores use
         end-of-study ages).
   \item \textbf{Review medium/low SIREN matches} to extend buyer consolidation

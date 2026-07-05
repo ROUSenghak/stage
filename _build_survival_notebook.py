@@ -660,7 +660,7 @@ cells.append(md("""## 12. Temporal Validation
 
 The model is evaluated using a temporal hold-out: contracts starting in 2021 or
 earlier form the training set; contracts starting in 2022 or later form the test set.
-The test set is small (73 rows, ~50 events), so concordance should be interpreted
+The test set is small (116 rows, 60 events), so concordance should be interpreted
 with caution. We report it as a directional check, not a definitive validation.
 """))
 cells.append(code("""train_mask = df_cox_enc.index.map(lambda i: df.loc[i, 'start_year'] <= 2021)
@@ -686,7 +686,7 @@ if len(df_test) >= 10:
                    -ph_test,
                    df_test['event'])
     print(f"Concordance (test):  {c_test:.4f}")
-    print("\\nNote: test set is small (73 rows). Treat as directional only.")
+    print(f"\\nNote: test set is small ({len(df_test)} rows). Treat as directional only.")
 else:
     print("Test set too small for meaningful concordance estimate.")
 """))
@@ -890,7 +890,7 @@ cells.append(md("""## 15. Conclusion
    have heterogeneous effects consistent with log-rank test results.
 
 3. **Temporal stability**: The concordance index on the hold-out test set (start_year ≥ 2022,
-   ~73 rows) is directionally consistent with training-set concordance, though the small
+   116 rows) is directionally consistent with training-set concordance, though the small
    test set limits interpretability.
 
 4. **Sensitivity (Model B)**: Downgrading the 265 LOW-confidence links to censored

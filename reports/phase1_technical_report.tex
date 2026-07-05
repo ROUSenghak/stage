@@ -95,6 +95,48 @@ the proxy-linking rule, intended as prioritisation indicators rather than legall
 verified renewal probabilities.
 \end{abstract}
 
+\section*{Calibration update --- 2026-07-05}
+\addcontentsline{toc}{section}{Calibration update --- 2026-07-05}
+
+The 665-event output described in the original sections is now treated as the
+pre-calibration baseline. A synthetic BOAMP benchmark --- scored with the same
+Sentence-Transformer encoder as the real pipeline
+(\nolinkurl{paraphrase-multilingual-MiniLM-L12-v2}) --- and real BOAMP
+diagnostics were used to choose three explicit event-definition rules:
+
+\begin{table}[H]
+\centering
+\caption{Calibrated proxy-event rules}
+\small
+\begin{tabular}{lrrrrl}
+\toprule
+Rule & Text threshold & Composite floor & Margin floor & Events & Use \\
+\midrule
+Broad & 0.40 & none & none & 490 & high-recall sensitivity \\
+Balanced & 0.50 & 0.50 & none & 269 & recommended main input \\
+Strict & 0.70 & 0.65 & none & 79 & high-precision sensitivity \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+All three use $W=6$ and the corrected generic-CPV rule, where generic CPV codes
+do not receive exact-match credit. The recommended survival file is
+\texttt{data/processed/boamp\_phase2\_survival\_calibrated\_balanced.csv}
+(1{,}210 rows, 269 events, 22.2\%). Readiness checks found no missing or
+non-positive survival durations, no duplicate contract IDs, and no event without
+a renewal candidate ID; the strict rule is flagged \texttt{LOW\_EVENTS}
+(79 events $<$ 100) for Cox/AFT stability.
+
+Under the balanced rule the Kaplan--Meier median is not reached; survival is
+95.9\% at 12 months, 92.3\% at 24 months, 83.3\% at 48 months, and 75.2\% at
+60 months. The Cox C-index is 0.592, and LogNormalAFT is the best balanced-rule
+AFT model by AIC (3{,}544.8, ahead of Weibull 3{,}571.8 and LogLogistic
+3{,}580.5). Re-scored 12/24-month risk indicators under this rule
+(Section~\ref{sec:operational-indicators}) give mean probabilities of
+0.023/0.068 and 27.5 expected recurrences within 12 months. These are
+diagnostics for identifiable proxy recurrences in BOAMP, not estimates of
+legally verified renewal probability.
+
 \section*{How to read this report}
 \addcontentsline{toc}{section}{How to read this report}
 
@@ -103,8 +145,10 @@ scope, workstreams, and headline results should start with the separate
 \textbf{internship report}; the data-reliability and event-definition narrative
 is in the \textbf{data quality report}. This document is the place for the exact
 mechanics: preprocessing rules, the renewal-linking algorithm, diagnostics,
-survival-model specifications, and reproducibility. All figures and tables here
-reflect the current post-SIREN-enrichment re-run (665 events, 55.0\%).
+survival-model specifications, and reproducibility. The original detailed
+sections document the post-SIREN W=6 baseline (665 events, 55.0\%); the
+calibration update above gives the current recommended balanced rule
+(269 events, 22.2\%).
 
 \tableofcontents
 \newpage
@@ -1451,8 +1495,8 @@ notebook linking output and contains one row per eligible
 \texttt{best\_composite\_score}   & float & $S(i,j^{(1)})$: composite score of the best candidate (the selected link for \texttt{event}=1). \\
 \nolinkurl{second_best_composite_score} & float & $S(i,j^{(2)})$: composite score of the runner-up. NaN for single-candidate sources. \\
 \texttt{score\_margin}        & float & $m_i = S(i,j^{(1)}) - S(i,j^{(2)})$. Best-minus-second-best gap; NaN when only one candidate. \\
-\texttt{n\_candidates\_for\_source} & int & Number of filtered candidates for the source (133 sources have exactly one; 572 have $\geq 2$). \\
-\texttt{single\_candidate\_match} & bool & True when the source had a single candidate (133 rows); margin undefined, not auto-promoted to strict. \\
+\texttt{n\_candidates\_for\_source} & int & Number of filtered candidates for the source (164 sources have exactly one; 501 have $\geq 2$). \\
+\texttt{single\_candidate\_match} & bool & True when the source had a single candidate (164 rows); margin undefined, not auto-promoted to strict. \\
 \texttt{high\_confidence\_strict} & bool & True iff \texttt{event}=1 $\wedge\ S \geq 0.70 \wedge m_i \geq 0.05$ (75 rows). Conservative sensitivity flag for Model C (Section~\ref{sec:margin}). \\
 \end{longtable}
 \normalsize
@@ -2041,10 +2085,10 @@ Model~C.}
 \label{fig:confidence_tiers_4}
 \end{figure}
 
-For the survival model in Phase~2, the recommended protocol is:
+For the original Phase~2 baseline, the sensitivity protocol was:
 
 \begin{enumerate}
-  \item \textbf{Model A --- Primary}: all 665 events (composite $\geq 0.20$, text $\geq 0.20$).
+  \item \textbf{Model A --- Broad baseline}: all 665 events (text $\geq 0.20$, all accepted links; no composite floor).
   \item \textbf{Model B --- Sensitivity check}: 400 events only (drop LOW tier, i.e.\ composite $\geq 0.50$).
   \item \textbf{Model C --- Strict high-confidence}: 75 events only, keeping
         \texttt{event} = 1 only where the absolute score is high \emph{and} the
@@ -2056,6 +2100,12 @@ For the survival model in Phase~2, the recommended protocol is:
         but not bias. If results change substantially, report the sensitivity-check
         model as the primary.
 \end{enumerate}
+
+After the 2026-07-05 calibration, the recommended main event definition is the
+balanced rule described at the front of this report: text similarity
+$\geq 0.50$, composite score $\geq 0.50$, $W=6$, corrected generic CPV
+scoring, and no margin floor. It gives 269 events and should be used as the main
+survival input, with broad and strict rules kept as sensitivity checks.
 
 \subsection{Score Disambiguation: Margin Between Best and Second-Best Candidate}
 \label{sec:margin}
@@ -2096,7 +2146,7 @@ high-confidence} when it satisfies \emph{both} conditions
   m_i \geq 0.05, \qquad m_i = S(i,j^{(1)}) - S(i,j^{(2)}),
 \]
 i.e.\ a high absolute score \emph{and} a clear separation from the runner-up.
-Of the 665 links, \textbf{75} qualify. Single-candidate sources ($n = 133$)
+Of the 665 links, \textbf{75} qualify. Single-candidate sources ($n = 164$)
 have an undefined margin and are recorded as \texttt{single\_candidate\_match}
 rather than auto-promoted to strict, so a ``clear winner among several
 candidates'' is never conflated with an ``only candidate available''. This flag
@@ -2667,6 +2717,20 @@ dashed line at HR = 1 indicates no effect. Blue/filled markers are
 statistically significant at the 5\% level.}
 \label{fig:forest}
 \end{figure}
+
+\subsubsection*{Temporal Hold-Out Validation}
+
+Following the internship guide's validation protocol, the Cox model was also
+evaluated on a temporal hold-out: contracts starting in 2021 or earlier form the
+training set (1{,}088 rows, 604 events) and contracts starting in 2022 or later
+form the test set (116 rows, 60 events). The reduced Cox model refitted on the
+training set reaches a concordance of 0.612 in-sample and \textbf{0.543} on the
+temporal test set (notebook \texttt{02\_survival\_modeling\_boamp.ipynb},
+Section~12). The test cohort is small and structurally dominated by early
+renewals (later renewals of 2022--2024 contracts fall outside the study window),
+so this figure is a directional check rather than a definitive out-of-time
+validation; it nevertheless confirms that discrimination degrades out-of-time
+and that the in-sample C-index of 0.6317 should be read as an upper bound.
 
 \subsubsection*{Proportional Hazards Assumption Check}
 
@@ -3267,6 +3331,20 @@ survival models and re-audit.
 \section{Operational Risk Indicators}
 \label{sec:operational-indicators}
 
+\textbf{Event-definition note (2026-07-05).} All indicators in this section are
+computed from the \emph{pre-calibration} baseline event definition (665 events,
+log-normal AFT, AIC 7{,}068.4). They were subsequently re-scored under the
+calibrated balanced rule (269 events) via
+\texttt{scripts/task\_section16b\_calibrated\_risk\_indicators.py} (same
+design: LogNormal AFT, same covariates, prediction date 2024-12-31). Under the
+balanced rule the probabilities are substantially lower: mean $\hat p_{12}$ =
+0.023 (vs.\ 0.074), mean $\hat p_{24}$ = 0.068 (vs.\ 0.216), max
+$\hat p_{12}$ = 0.073, 27.5 expected recurrences within 12 months (vs.\ 89.7)
+and 82.3 within 24 months; the buyer and segment rankings keep the same leaders
+(SIREN:234400034; IT Services \& Consulting). Calibrated outputs:
+\nolinkurl{reports/tables/survival/*_calibrated_balanced.csv}. The subsections
+below document the pre-calibration run.
+
 \subsection{Operational 12/24-Month Renewal Risk Prediction}
 \label{sec:prediction}
 
@@ -3488,7 +3566,16 @@ be recalibrated after the recommended re-linking.
 \noindent All results in this report are reproducible from tracked outputs. The
 survival models are rebuilt by \texttt{notebooks/02\_survival\_modeling\_boamp.ipynb}
 (generated by \texttt{\_build\_survival\_notebook.py}); the robustness checks by
-\texttt{validation\_robustness/}. Survival figures are written to
+\texttt{validation\_robustness/}. The calibrated event-definition workflow
+(calibration update at the front of this report) is reproduced by executing
+notebooks \texttt{04\_synthetic\_boamp\_benchmark.ipynb},
+\texttt{05\_parameter\_calibration\_benchmark\_and\_real.ipynb},
+\texttt{06\_apply\_calibrated\_rules\_to\_real\_boamp.ipynb}, and
+\texttt{07\_calibrated\_survival\_analysis.ipynb} in order; its key outputs are
+\texttt{reports/tables/validation/recommended\_event\_rules.csv}, the three
+\texttt{boamp\_phase2\_survival\_calibrated\_*.csv} datasets (1{,}210 rows each),
+and \texttt{reports/tables/survival/calibrated\_rule\_\{km\_summary,cox\_comparison\}.csv}.
+Survival figures are written to
 \texttt{reports/figures/survival/} and result tables to
 \texttt{reports/tables/survival/}. The Phase-1 linking workflow produces five
 output files:
@@ -3522,11 +3609,14 @@ Phase 2, including the operational renewal-risk prediction layer
         (Section~\ref{sec:manual_audit}):} 150 stratified cases audited;
         precision $\approx$0.09--0.15 overall (0.50 HIGH/strict tier, 1.00 at
         text $\geq$0.80, 0.00 LOW tier); missed-renewal rate 12.8\% among
-        audited censored contracts. The follow-up task is to re-link under
-        stricter rules and re-estimate the models.
-  \item \textbf{Threshold calibration:} Re-calibrate the operational risk-tier thresholds and
-        prediction scores using the manual-audit findings (text floor
-        $\geq$0.5--0.65; no generic-CPV credit; wider window).
+        audited censored contracts. The follow-up re-linking under stricter
+        rules was executed as the 2026-07-05 calibration (notebooks 04--07).
+  \item \textbf{Event-definition calibration --- executed 2026-07-05:} broad /
+        balanced / strict rules selected from the synthetic benchmark (scored
+        with the real Sentence-Transformer encoder) and real diagnostics;
+        survival rerun completed under all three rules, and the operational
+        risk indicators were re-scored under the balanced 269-event rule
+        (\texttt{task\_section16b\_calibrated\_risk\_indicators.py}).
   \item \textbf{Trend / change-point analysis:} Analyse renewal-rate trends and structural
         breaks by technological segment.
   \item \textbf{Optional DECP enrichment:} Revisit DECP integration only after the BOAMP-only
@@ -3554,7 +3644,9 @@ significant; at the earlier $W=12$ setting the comparison was 11.3\% to 12.1\%).
 \textbf{The sentence-transformer pipeline was then fully re-run} with
 \texttt{buyer\_key\_enriched} as the active grouping key.
 The 23 SIREN merges expanded the candidate pool for affected source contracts,
-producing \textbf{665 renewal events} (W=6 rerun; pre-W=6: 705 events at W=12).
+producing \textbf{665 pre-calibration proxy events} (W=6 rerun; pre-W=6:
+705 events at W=12). The later 2026-07-05 calibration selects the balanced
+269-event rule as the recommended main survival input.
 Key impacts on the survival analysis:
 \begin{itemize}
   \item W=6 rerun (2026-07-02): linking rate 55.0\% (665/1,210); previously 64.1\% (705/1,100) at W=12.
