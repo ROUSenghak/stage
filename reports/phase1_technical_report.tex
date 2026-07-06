@@ -99,10 +99,85 @@ verified renewal probabilities.
 \addcontentsline{toc}{section}{Calibration update --- 2026-07-05}
 
 The 665-event output described in the original sections is now treated as the
-pre-calibration baseline. A synthetic BOAMP benchmark --- scored with the same
-Sentence-Transformer encoder as the real pipeline
+\textbf{pre-calibration baseline}, not the recommended input. This section
+documents why that baseline was replaced and how the replacement was built,
+validated, and applied.
+
+\paragraph{Initial method and challenge discovered.}
+The original linking rule (Section~\ref{sec:composite}) accepted any
+candidate with a non-negative composite score after a soft text-similarity
+filter, which maximized the linking rate (665/1{,}210, 55.0\%) but could not be
+checked against ground truth: BOAMP carries no certified renewal-chain label.
+A manual audit of 150 stratified cases against the full official BOAMP record
+(2026-07-02) found raw precision of only $\approx$0.15 (weighted
+$\approx$0.09 over the 665-event population), rising to 0.50 in the
+high-confidence tier and to 1.00 only above text similarity 0.80; 12.8\% of
+decided-unlinked sources also hid a plausible missed renewal
+(Section~\ref{sec:manual_audit}). The baseline optimized for linking rate,
+not for link correctness, and no legal ground truth exists to certify any
+individual real link. This is the reason the event definition was recalibrated:
+a synthetic BOAMP benchmark --- scored with the same Sentence-Transformer
+encoder as the real pipeline
 (\nolinkurl{paraphrase-multilingual-MiniLM-L12-v2}) --- and real BOAMP
 diagnostics were used to choose three explicit event-definition rules:
+
+\paragraph{Why a synthetic benchmark?}
+Real BOAMP does not provide certified renewal-chain labels, so the linking task
+cannot be evaluated on the real data with true precision and recall. The
+synthetic benchmark was therefore created to provide a controlled evaluation
+dataset where the true recurrence relation is known by construction, while still
+reflecting the empirical difficulties seen in BOAMP. Its role is methodological:
+to test and calibrate the proxy-event definition before using that definition in
+survival analysis.
+
+\paragraph{How it was built.}
+The synthetic benchmark is fully implemented as a simulation-based BOAMP-like
+dataset where recurrence truth is known by construction. It generates synthetic
+source notices, synthetic candidate notices, and an explicit true-link table in
+three scenarios (easy, medium, hard), with design parameters guided by the real
+BOAMP data. The simulation intentionally reproduces the main observed failure
+modes of the linking task: buyer-name variation, generic or drifting CPV codes,
+missing CPV or duration, short or paraphrased text, timing shifts around the
+expected end date, and ambiguous large-buyer same-name candidates. The same
+Sentence-Transformer encoder and the same scoring logic used in the operational
+pipeline are then applied to the synthetic pairs.
+
+\paragraph{What the benchmark shows.}
+Because the truth is synthetic, the benchmark is not presented as real BOAMP
+validation; instead it is a controlled stress test that allows direct
+computation of precision, recall, and F1. Under the final Sentence-Transformer
+scoring, the balanced rule performs strongly in the easy scenario (precision
+0.777, recall 0.806, F1 0.791), remains acceptable in the medium scenario
+(precision 0.601, recall 0.586, F1 0.593), and deteriorates in the deliberately
+adverse hard scenario (precision 0.318, recall 0.302, F1 0.310). This result is
+important substantively because it quantifies both the usefulness and the
+limits of the linking approach under realistic noise.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.92\textwidth]{figures/validation/parameter_selected_rules_scenario_performance}
+\caption{Synthetic-benchmark performance of the broad, balanced, and strict
+rules across the easy/medium/hard scenarios. All three rules degrade under
+harder synthetic noise, which is the intended stress test; the balanced rule
+was retained for its stability across scenarios rather than for being the
+single most precise option on paper.}
+\label{fig:tech-scenario-performance}
+\end{figure}
+
+\paragraph{How it is used in the pipeline.}
+Operationally, the benchmark is used to score a full threshold grid and then to
+compare candidate broad, balanced, and strict rules before re-applying them to
+real BOAMP candidate pairs. The balanced rule was retained because it preserved
+acceptable synthetic reliability, especially in the medium scenario, while also
+keeping enough real proxy events for downstream survival modeling. The benchmark
+therefore acts as the calibration layer between the raw linking algorithm and
+the final survival dataset: it informs the event-definition rule, while the real
+BOAMP outputs remain the basis for event counts, Kaplan--Meier estimation,
+Cox/AFT modeling, and operational risk indicators. The detailed implementation
+is reproducible from \texttt{notebooks/04\_synthetic\_boamp\_benchmark.ipynb}
+and \texttt{notebooks/05\_parameter\_calibration\_benchmark\_and\_real.ipynb},
+with generated artifacts tracked under \texttt{data/synthetic/} and
+\texttt{reports/tables/validation/}.
 
 \begin{table}[H]
 \centering
@@ -119,6 +194,16 @@ Strict & 0.70 & 0.65 & none & 79 & high-precision sensitivity \\
 \end{tabular}
 \end{table}
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{figures/validation/calibrated_real_event_rates}
+\caption{Proxy-event rate on real BOAMP under the three calibrated rules
+(1{,}210 eligible contracts). Moving from broad to balanced to strict trades
+linkage quantity for a rule whose behaviour has been checked on the synthetic
+benchmark above.}
+\label{fig:tech-event-rates}
+\end{figure}
+
 All three use $W=6$ and the corrected generic-CPV rule, where generic CPV codes
 do not receive exact-match credit. The recommended survival file is
 \texttt{data/processed/boamp\_phase2\_survival\_calibrated\_balanced.csv}
@@ -128,7 +213,7 @@ a renewal candidate ID; the strict rule is flagged \texttt{LOW\_EVENTS}
 (79 events $<$ 100) for Cox/AFT stability.
 
 Under the balanced rule the Kaplan--Meier median is not reached; survival is
-95.9\% at 12 months, 92.3\% at 24 months, 83.3\% at 48 months, and 75.2\% at
+95.9\% at 12 months, 92.3\% at 24 months, 83.2\% at 48 months, and 75.2\% at
 60 months. The Cox C-index is 0.592, and LogNormalAFT is the best balanced-rule
 AFT model by AIC (3{,}544.8, ahead of Weibull 3{,}571.8 and LogLogistic
 3{,}580.5). Re-scored 12/24-month risk indicators under this rule
@@ -136,6 +221,37 @@ AFT model by AIC (3{,}544.8, ahead of Weibull 3{,}571.8 and LogLogistic
 0.023/0.068 and 27.5 expected recurrences within 12 months. These are
 diagnostics for identifiable proxy recurrences in BOAMP, not estimates of
 legally verified renewal probability.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{figures/survival/calibrated_rules_km_curves}
+\caption{Kaplan--Meier survival curves under the three calibrated proxy-event
+rules. Stricter rules yield fewer, later-recorded events and higher residual
+survival at every horizon; the balanced curve sits between the broad and
+strict extremes, consistent with its intermediate event count.}
+\label{fig:tech-km-calibrated}
+\end{figure}
+
+\paragraph{Limitation.}
+Because BOAMP does not provide an official renewal label, the constructed
+\texttt{event} variable --- under any of the three calibrated rules, and under
+the pre-calibration baseline --- should be read as a proxy for likely
+procurement recurrence, not as verified legal renewal ground truth. The
+synthetic benchmark quantifies how the linking method behaves under controlled,
+known noise; it does not certify that any specific real BOAMP link is a true
+renewal, and the manual audit above shows precision on real data is far lower
+than on the easy/medium synthetic scenarios.
+
+\paragraph{Conclusion of the calibration.}
+The calibration phase's main deliverable is a change of objective, not a single
+statistic: the pipeline moved from a rule that maximized \textbf{linkage
+quantity} (665 events, 55.0\%, later found $\approx$9--15\% precise) to a rule
+calibrated to maximize \textbf{analytical reliability} against a controlled
+benchmark (269 events, 22.2\%). All downstream sections of this report should
+be read with that distinction in mind: the original sections below describe the
+pre-calibration baseline in full mechanical detail (still valid as a
+description of the algorithm), while this update section gives the numbers to
+actually use.
 
 \section*{How to read this report}
 \addcontentsline{toc}{section}{How to read this report}

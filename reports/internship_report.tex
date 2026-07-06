@@ -81,32 +81,139 @@ sample (2026-07-02) estimates its precision at only $\approx$9--15\% overall ---
 concentrated in the high-text-similarity core (precision 1.00 at text $\geq$0.80,
 $\approx$0.50 in the HIGH/strict tier, $\approx$0 below composite 0.50). The
 survival results should be read as describing algorithm-identifiable same-buyer
-re-publications, not validated renewals.
+re-publications, not validated renewals. \textbf{This finding triggered a
+methodological change}, described immediately below: the event definition was
+recalibrated against a synthetic benchmark, trading linkage quantity for
+analytical reliability (269 events, 22.2\%, rather than 665, 55.0\%).
 \end{abstract}
 
-\section*{Calibration update --- 2026-07-05}
-\addcontentsline{toc}{section}{Calibration update --- 2026-07-05}
+\section*{Methodological Note --- From Maximizing Linkage to Maximizing Reliability (2026-07-05)}
+\addcontentsline{toc}{section}{Methodological note --- calibration, 2026-07-05}
 
-After the manual-audit finding that the broad baseline was too permissive, the
-event definition was recalibrated with a synthetic BOAMP benchmark and real
-BOAMP diagnostics. The synthetic benchmark is scored with the \emph{same
-Sentence-Transformer encoder as the real pipeline}
-(\nolinkurl{paraphrase-multilingual-MiniLM-L12-v2}). The recommended main rule
-is the \textbf{balanced} definition: text similarity $\geq 0.50$, composite
-score $\geq 0.50$, temporal window $W=6$, corrected generic CPV scoring, and no
-margin floor. It produces 269 proxy recurrence events among 1{,}210 eligible
-source contracts (22.2\%). The broad sensitivity gives 490 events (40.5\%);
-the strict sensitivity gives 79 events (6.5\%, underpowered for Cox/AFT).
+This note explains \emph{why} the event definition changed after the main
+pipeline was first built, not just \emph{what} changed. It is the key to
+reading the rest of this report: numbers in Section~\ref{sec:results} were
+computed under the \textbf{initial} linking method; the numbers in this note
+and in Section~\ref{sec:reliability} reflect the \textbf{calibrated} method
+that should be used for any downstream decision.
+
+\paragraph{Initial method and its results.}
+The first version of the pipeline (Section~\ref{sec:linking}) linked a source
+contract to \emph{any} later same-buyer notice whose composite score was
+non-negative after passing a soft text-similarity filter. This maximized the
+linking rate: 665 of 1{,}210 eligible contracts (55.0\%) were linked, against a
+7.6\% lexical baseline --- a large apparent improvement.
+
+\paragraph{Challenge discovered.}
+BOAMP has no official field certifying that one notice renews another, so this
+55.0\% figure could not be checked against ground truth directly. A manual
+audit of 150 stratified cases against the full official BOAMP record
+(2026-07-02) showed the initial rule was too permissive: raw precision was only
+$\approx$0.15 (weighted $\approx$0.09 over the 665-event population), rising to
+0.50 in the high-confidence tier and 1.00 only above text similarity 0.80; 12.8\%
+of decided-unlinked sources also hid a plausible missed renewal. In short, the
+initial rule optimized for \emph{linking rate}, not for \emph{link
+correctness}, and there is no legal ground truth against which to prove any
+individual link is right.
+
+\paragraph{Reason for changing method.}
+Because no certified renewal label exists for BOAMP, the true precision/recall
+of any rule cannot be measured on the real data alone. The project therefore
+stopped trying to maximize the number of linked events and instead built a
+\textbf{synthetic BOAMP-like benchmark} with known recurrence truth by
+construction, so that candidate rules could be compared on measurable
+precision, recall, and F1 before being re-applied to real BOAMP. The goal
+changed from \emph{``detect every true renewal''} to \emph{``construct a
+reliable, calibrated proxy-event definition.''}
+
+\paragraph{New calibrated method.}
+The synthetic benchmark generates synthetic source notices, candidate notices,
+and an explicit true-link table under three difficulty scenarios (easy,
+medium, hard), with real-BOAMP-informed design parameters for timing,
+buyer-name variation, generic or drifting CPV codes, missing duration/CPV,
+short or paraphrased text, and large-buyer ambiguity. It is scored with the
+\emph{same Sentence-Transformer encoder as the real pipeline}
+(\nolinkurl{paraphrase-multilingual-MiniLM-L12-v2}), so benchmark performance is
+directly comparable to the operational linking setup. A full threshold grid was
+scored on the benchmark and three explicit rules were selected: \textbf{broad},
+\textbf{balanced}, and \textbf{strict}. The recommended main rule is
+\textbf{balanced}: text similarity $\geq 0.50$, composite score $\geq 0.50$,
+temporal window $W=6$, corrected generic CPV scoring, no margin floor. On the
+synthetic benchmark, the balanced rule scores precision/recall/F1 of
+0.777/0.806/0.791 (easy), 0.601/0.586/0.593 (medium), and 0.318/0.302/0.310
+(hard, Figure~\ref{fig:scenario-performance}) --- it was chosen over broad and
+strict because it keeps acceptable reliability in the medium (realistic-noise)
+scenario while still preserving enough real events for survival modeling.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.92\textwidth]{figures/validation/parameter_selected_rules_scenario_performance}
+\caption{Synthetic-benchmark performance of the broad, balanced, and strict
+rules across the easy/medium/hard scenarios. All three rules degrade under
+harder synthetic noise; the balanced rule was chosen for its stability and its
+yield of real events, not because it is the single most precise option on
+paper.}
+\label{fig:scenario-performance}
+\end{figure}
+
+\paragraph{Results after the change.}
+Re-applied to real BOAMP, the balanced rule produces \textbf{269 proxy
+recurrence events} among 1{,}210 eligible source contracts (\textbf{22.2\%}) ---
+down from 665 (55.0\%) under the initial rule. The broad sensitivity gives 490
+events (40.5\%); the strict sensitivity gives 79 events (6.5\%, underpowered for
+Cox/AFT). Figure~\ref{fig:event-rates} shows this drop in scale.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{figures/validation/calibrated_real_event_rates}
+\caption{Proxy-event rate on real BOAMP under the three calibrated rules
+(1{,}210 eligible contracts). The balanced rule keeps less than half the events
+of the broad rule, trading linkage quantity for a rule whose behaviour is
+checked on the synthetic benchmark.}
+\label{fig:event-rates}
+\end{figure}
 
 The calibrated survival-ready file is
 \texttt{data/processed/boamp\_phase2\_survival\_calibrated\_balanced.csv}. Its
 Kaplan--Meier median is not reached; survival is 95.9\% at 12 months, 92.3\% at
-24 months, 83.3\% at 48 months, and 75.2\% at 60 months. The Cox C-index is
-0.592, and LogNormalAFT is the best balanced-rule AFT model by AIC (3{,}544.8).
-Re-scored 12/24-month risk indicators under this rule give a mean 12-month
-recurrence probability of 0.023 and 27.5 expected recurrences within 12 months
+24 months, 83.2\% at 48 months, and 75.2\% at 60 months
+(Figure~\ref{fig:km-calibrated}). The Cox C-index is 0.592, and LogNormalAFT is
+the best balanced-rule AFT model by AIC (3{,}544.8). Re-scored 12/24-month risk
+indicators under this rule give a mean 12-month recurrence probability of 0.023
+and 27.5 expected recurrences within 12 months
 (\nolinkurl{reports/tables/survival/renewal_risk_12_24_months_calibrated_balanced.csv}).
-These labels remain proxy recurrences, not legally verified renewals.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{figures/survival/calibrated_rules_km_curves}
+\caption{Kaplan--Meier survival curves under the three calibrated proxy-event
+rules. The stricter the rule, the fewer and later the recorded events, and the
+higher the residual survival at any horizon --- the balanced curve sits between
+the broad and strict extremes, as intended by the calibration.}
+\label{fig:km-calibrated}
+\end{figure}
+
+\paragraph{Limitation.}
+Because BOAMP does not provide an official renewal label, the constructed
+\texttt{event} variable --- under any of the three rules --- should be
+interpreted as a proxy for \emph{likely procurement recurrence}, not as
+verified legal renewal ground truth. The synthetic benchmark quantifies how the
+linking method behaves under controlled noise; it does not certify that any
+specific real link is a true renewal. These labels remain proxy recurrences,
+not legally verified renewals.
+
+\paragraph{Conclusion of this note.}
+The methodological change is the main deliverable of the calibration phase: the
+project moved from \textbf{maximizing linkage quantity} (665 events, 55.0\%,
+uncalibrated) to \textbf{maximizing analytical reliability} (269 events, 22.2\%,
+calibrated against a controlled benchmark). The rest of this report documents
+both stages so the reader can see what changed and why. The detailed
+implementation is reproducible from
+\texttt{notebooks/04\_synthetic\_boamp\_benchmark.ipynb} and
+\texttt{notebooks/05\_parameter\_calibration\_benchmark\_and\_real.ipynb}, with
+generated artifacts tracked under \texttt{data/synthetic/} and
+\texttt{reports/tables/validation/}. Section~\ref{sec:reliability} gives the
+full manual-audit and robustness evidence behind this decision.
 
 % ===========================================================================
 \section{Context and Objective}
@@ -316,6 +423,13 @@ legally verified renewal probabilities. Output:
 % ===========================================================================
 \section{Main Results}
 \label{sec:results}
+
+\emph{Reading note:} the numbers in this section describe the \textbf{initial}
+linking method (broad, uncalibrated, 665 events). They are kept in full because
+they show how the method behaves and why it needed calibration. For any
+downstream decision, use the \textbf{calibrated balanced rule} (269 events,
+22.2\%) from the Methodological Note on p.~1 and Section~\ref{sec:reliability}
+instead.
 
 \subsection{Renewal linking}
 
@@ -529,10 +643,14 @@ The event variable was stress-tested with checks in \nolinkurl{validation_robust
 
 \subsection{Key limitations}
 \begin{itemize}[leftmargin=1.4em,itemsep=2pt]
-  \item \textbf{Proxy event.} \texttt{event = 1} means a plausible renewal link
-        was found, not a legally certified renewal. By composite score, 39.8\% of
-        the 665 links are below 0.50 (low), 45.3\% between 0.50 and 0.70 (medium),
-        and 14.9\% at or above 0.70 (high).
+  \item \textbf{Proxy event, not legal ground truth.} Because BOAMP does not
+        provide an official renewal label, the constructed \texttt{event}
+        variable should be interpreted as a proxy for likely procurement
+        recurrence, not as verified legal renewal ground truth --- under the
+        initial rule (\texttt{event = 1} means a plausible renewal link was
+        found; by composite score, 39.8\% of the 665 links are below 0.50 (low),
+        45.3\% between 0.50 and 0.70 (medium), 14.9\% at or above 0.70 (high))
+        and equally under the calibrated balanced rule.
   \item \textbf{Residual buyer fragmentation.} SIREN enrichment consolidated 724
         of the 1{,}210 eligible rows onto a SIREN key (plus 2 SIRET), but 484 remain
         name-keyed, so spelling variants not resolved by the API can still create
@@ -584,12 +702,16 @@ taxonomy.
 The internship delivered a reproducible end-to-end pipeline: BOAMP notice
 acquisition $\to$ cleaning $\to$ buyer SIREN enrichment $\to$ renewal-event
 reconstruction $\to$ survival modeling $\to$ operational risk indicators. The
-main methodological result is a calibrated proxy-event definition: the broad
-Sentence-Transformer rule gives 490 events (40.5\%), the balanced rule gives
-269 events (22.2\%), and the strict rule gives 79 events (6.5\%). Under the
-balanced rule, the Kaplan--Meier median is not reached and LogNormalAFT is the
-best AFT model by AIC (3{,}544.8). These outputs translate BOAMP proxy
-recurrence signals into 12/24-month renewal-risk rankings.
+main methodological result is not a single number but a \textbf{change in
+method}: the project moved from an initial rule that maximized \emph{linkage
+quantity} (665 events, 55.0\%, later shown by manual audit to be only
+$\approx$9--15\% precise) to a calibrated proxy-event definition that maximizes
+\textbf{analytical reliability} against a controlled synthetic benchmark ---
+the broad rule gives 490 events (40.5\%), the balanced rule gives 269 events
+(22.2\%), and the strict rule gives 79 events (6.5\%). Under the balanced rule,
+the Kaplan--Meier median is not reached and LogNormalAFT is the best AFT model
+by AIC (3{,}544.8). These outputs translate BOAMP proxy recurrence signals ---
+not verified legal renewals --- into 12/24-month renewal-risk rankings.
 
 \textbf{Immediate next steps (prioritised):}
 \begin{enumerate}[leftmargin=1.4em,itemsep=2pt]

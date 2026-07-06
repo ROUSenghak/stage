@@ -10,7 +10,40 @@
 
 ## Calibration Update — Current Recommended Event Definition (2026-07-05)
 
-The current recommended survival input is
+### Why this changed: from linkage quantity to analytical reliability
+
+**Initial method and its results.** The original linking rule accepted any
+later same-buyer notice with a non-negative composite score after a soft
+text-similarity filter. It gave 665 linked events among 1,210 eligible
+contracts (55.0%), against a 7.6% lexical baseline — a large apparent gain.
+
+**Challenge discovered.** BOAMP has no field certifying that one notice
+renews another, so 55.0% could not be checked against ground truth. A manual
+audit of 150 stratified cases against the full official BOAMP record
+(2026-07-02) found the rule was too permissive: raw precision was only
+≈0.15 (weighted ≈0.09 over the 665-event population), rising to 0.50 in the
+high-confidence tier and to 1.00 only above text similarity 0.80; 12.8% of
+decided-unlinked sources also hid a plausible missed renewal (§7 below). The
+rule optimized for *linking rate*, not *link correctness* — and there is no
+legal ground truth against which any single real link can be proven correct.
+
+**Reason for changing method.** Since no certified renewal label exists for
+BOAMP, precision/recall cannot be measured on the real data directly. The
+project therefore built a **synthetic BOAMP-like benchmark** with recurrence
+truth known by construction, so candidate rules could be compared on
+measurable precision/recall/F1 before being re-applied to real BOAMP. The goal
+shifted from "detect every true renewal" to "construct a reliable, calibrated
+proxy-event definition."
+
+**New calibrated method.** The synthetic benchmark generates synthetic source
+and candidate notices with an explicit true-link table under three difficulty
+scenarios (easy, medium, hard), reproducing the observed BOAMP failure modes
+(buyer-name variation, generic/drifting CPV, missing fields, short/paraphrased
+text, timing shifts, large-buyer ambiguity). It is scored with the **same
+Sentence-Transformer encoder as the real pipeline**
+(`paraphrase-multilingual-MiniLM-L12-v2`). A full threshold grid was scored and
+three explicit rules were selected — broad, balanced, strict. The current
+recommended survival input is
 `data/processed/boamp_phase2_survival_calibrated_balanced.csv`, not the older
 665-event baseline. The selected **balanced** rule is:
 
@@ -22,23 +55,46 @@ The current recommended survival input is
 | Margin threshold | none |
 | Generic CPV rule | corrected: generic codes do not receive exact-match credit |
 
-This rule gives **269 proxy recurrence events** among **1,210 eligible BOAMP
-source contracts** (22.2%). It was chosen from the synthetic BOAMP benchmark
-(scored with the same Sentence-Transformer encoder as the real pipeline) and
-real BOAMP diagnostics, not from legal renewal-chain labels. Broad and strict
-sensitivity rules are retained: broad = 490 events (40.5%), strict = 79 events
-(6.5%, flagged LOW_EVENTS). All three calibrated datasets pass the
+On the synthetic benchmark, the balanced rule scores precision/recall/F1 of
+0.777/0.806/0.791 (easy), 0.601/0.586/0.593 (medium), and 0.318/0.302/0.310
+(hard) — chosen over broad and strict for its stability across scenarios and
+its yield of real events, not because it is the single most precise option on
+paper (see figure below).
+
+![Synthetic-benchmark performance by scenario for the broad, balanced, and strict rules](figures/validation/parameter_selected_rules_scenario_performance.png)
+
+**Results after the change.** Re-applied to real BOAMP, the balanced rule
+gives **269 proxy recurrence events** among **1,210 eligible BOAMP source
+contracts** (22.2%) — down from 665 (55.0%) under the initial rule. Broad and
+strict sensitivity rules are retained: broad = 490 events (40.5%), strict = 79
+events (6.5%, flagged LOW_EVENTS). All three calibrated datasets pass the
 survival-readiness integrity checks.
 
-The calibrated survival rerun shows that the KM median is not reached for all
-three rules. Under the balanced rule, survival is 94.3% at 12 months, 89.5% at
-24 months, 78.4% at 48 months, and 68.6% at 60 months. The Cox C-index is 0.591.
-These results describe algorithm-identifiable proxy recurrences, not verified
-legal renewals.
+![Real BOAMP proxy-event rate under the three calibrated rules](figures/validation/calibrated_real_event_rates.png)
 
-The sections below document the original BOAMP data quality and the earlier
-baseline construction. They remain useful for provenance, but the calibrated
-balanced file is the recommended modeling input.
+The calibrated survival rerun shows the KM median is not reached for any of
+the three rules. Under the balanced rule, survival is 95.9% at 12 months,
+92.3% at 24 months, 90.5% at 36 months, 83.2% at 48 months, and 75.2% at 60
+months; the Cox C-index is 0.592, and LogNormalAFT is the best AFT model by
+AIC (3,544.8). These results describe algorithm-identifiable proxy
+recurrences, not verified legal renewals.
+
+![Kaplan-Meier curves under the three calibrated proxy-event rules](figures/survival/calibrated_rules_km_curves.png)
+
+**Limitation.** Because BOAMP does not provide an official renewal label, the
+constructed `event` variable — under any of the three rules — should be
+interpreted as a proxy for likely procurement recurrence, not as verified
+legal renewal ground truth. The synthetic benchmark quantifies how the linking
+method behaves under controlled noise; it does not certify that any specific
+real link is a true renewal.
+
+**Conclusion.** The calibration phase's main deliverable is a change of
+objective, not a single statistic: the project moved from **maximizing
+linkage quantity** (665 events, 55.0%, uncalibrated) to **maximizing
+analytical reliability** (269 events, 22.2%, calibrated against a controlled
+benchmark). The sections below document the original BOAMP data quality and
+the earlier baseline construction. They remain useful for provenance, but the
+calibrated balanced file is the recommended modeling input.
 
 ---
 
@@ -244,7 +300,7 @@ Links are stratified into three confidence tiers based on composite score:
 
 For the earlier Phase 2 sensitivity analysis, a conservative scenario dropped
 LOW-tier links to `event = 0` (400 events instead of 665). After the 2026-07-05
-calibration, the recommended primary analysis is the balanced rule with 343
+calibration, the recommended primary analysis is the balanced rule with 269
 events.
 
 ---
