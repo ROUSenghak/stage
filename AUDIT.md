@@ -460,3 +460,106 @@ The two items flagged in §B.5 and §D were then executed:
    max p12m 0.073, all contracts in the Low tier, expected renewals 27.5 (12m)
    / 82.3 (24m). The pre-calibration section-16 outputs are retained for
    comparison; both reports now cite the calibrated numbers as current.
+
+---
+
+# Full pipeline refresh and reproducibility audit (2026-07-06)
+
+The complete pipeline was re-executed from preprocessing through report
+compilation to confirm that every number in the reports comes from actual
+current outputs, and that the repository is fully consistent with the
+calibrated methodology (baseline → no-ground-truth challenge → synthetic
+benchmark → calibration → calibrated proxy events → survival → sensitivity).
+
+## A. What was re-run (in order, all exit 0)
+
+1. `scripts/task_boamp_full_clean.py` (preprocessing) — output **byte-identical**.
+2. `boamp_renewal_linking_quality/boamp_renewal_linking_eda_preprocessing.ipynb`
+   (candidate generation + baseline linking, Sentence-Transformer) — all five
+   CSV outputs **byte-identical** (1,933 → 723 censored → 1,210 eligible → 665
+   linked, 54.96%).
+3. `scripts/task9_boamp_phase2_handoff.py` — `boamp_phase2_survival.csv`
+   **byte-identical** (1,210 rows / 665 events).
+4. `notebooks/02_survival_modeling_boamp.ipynb` +
+   `scripts/task_section16_risk_indicators.py` (pre-calibration baseline
+   survival + risk indicators) — reproduced; only 1e-14 float noise in Cox
+   coefficients and equal-probability tie-order swaps at the bottom of
+   `top20_renewal_risk.csv` / row order in `buyer_renewal_risk_ranking.csv`.
+5. `notebooks/04 → 05 → 06 → 07` (synthetic benchmark → calibration → apply
+   rules → calibrated survival) + `scripts/task_section16b_calibrated_risk_indicators.py`.
+6. `validation_robustness/validation_robustness_analysis.ipynb` — all CSV
+   outputs **byte-identical**.
+7. All four LaTeX reports recompiled with TinyTeX latexmk:
+   `internship_report.pdf` (13 pp), `phase1_technical_report.pdf` (87 pp),
+   `datasets_documentation.pdf` (9 pp), `data_quality_report.pdf` (10 pp).
+   No missing figures; no undefined cross-references.
+
+## B. Reproducibility verdict
+
+**Every decision-bearing output reproduced byte-identically**, including:
+all three calibrated survival datasets (`*_calibrated_{broad,balanced,strict}.csv`),
+`recommended_event_rules.csv`, `calibrated_real_event_definition_summary.csv`,
+`calibrated_survival_readiness.csv`, `calibrated_rule_km_summary.csv`, all
+`*_calibrated_balanced.csv` risk tables, and every synthetic QC/audit table.
+
+Immaterial drift observed (documented, not a problem):
+- Sentence-Transformer encoding is nondeterministic at ~1e-7 float32 level;
+  this flips at most ±1 candidate pair at grid-cell threshold boundaries in
+  26 of 4,320 rows of `synthetic_threshold_grid.csv` (and 10–16 of 1,440 rows
+  of `parameter_calibration_results.csv`), changing precision/F1 in those
+  cells by ≤ 0.0013. **Rule selection is unaffected** (selected-rule tables
+  byte-identical).
+- lifelines Cox/AFT: float noise ≤ 1e-12 (`calibrated_balanced_aft_comparison.csv`,
+  `calibrated_rule_cox_comparison.csv`, `cox_multivariate_results.csv`).
+- `*_verification.csv` inventory logs differ only in recorded `size_bytes`.
+- One equal-frequency buyer-order swap in `synthetic_design_real_distributions.csv`.
+
+## C. Final numbers (verified against fresh execution outputs)
+
+| Quantity | Value | Source |
+|---|---|---|
+| Eligible source AO | 1,210 (of 1,933; 723 censored upfront) | `boamp_linking_stats.csv` |
+| Pre-calibration baseline | 665 events (55.0%) | `boamp_phase2_survival.csv` |
+| Lexical Jaccard baseline | 146/1,933 = 7.6% (W=6) | `boamp_full_survival.csv` |
+| **Calibrated balanced (MAIN)** | **269 events (22.2%)**; text ≥ 0.50, composite ≥ 0.50, W=6, corrected generic CPV, no margin floor | `recommended_event_rules.csv` |
+| Broad sensitivity | 490 events (40.5%); text ≥ 0.40, no floors | same |
+| Strict sensitivity | 79 events (6.5%); text ≥ 0.70, composite ≥ 0.65; LOW_EVENTS flag | same |
+| Benchmark balanced P/R/F1 | easy 0.777/0.806/0.791 · medium 0.601/0.586/0.593 · hard 0.318/0.302/0.310 | same |
+| Balanced KM | median not reached; S(12)=0.959, S(24)=0.923, S(48)=0.833, S(60)=0.752 | `calibrated_rule_km_summary.csv` |
+| Cox C-index (broad/balanced/strict) | 0.626 / 0.592 / 0.607 | `calibrated_rule_cox_comparison.csv` |
+| Balanced best AFT | LogNormalAFT AIC 3,544.8 (Weibull 3,571.8, LogLogistic 3,580.5) | `calibrated_balanced_aft_comparison.csv` |
+| Calibrated risk indicators | 1,204 scored; mean p12m 0.023 / p24m 0.068; max p12m 0.073; expected 27.5 (12m) / 82.3 (24m); top buyer SIREN:234400034 (2.5); top segment IT Services & Consulting (10.8) | `*_calibrated_balanced.csv` |
+| Baseline survival (kept as narrative) | KM median 50.1 mo; Cox C 0.6317; LogNormal AIC 7,068.4; sensitivity B 400 events / C 0.6162 | `sensitivity_comparison.csv`, `parametric_aic_comparison.csv` |
+
+## D. Report consistency (all four reports + README checked)
+
+- All reports follow the progression narrative: data source → initial
+  proxy-linking → no-ground-truth challenge → synthetic benchmark → benchmark
+  metrics → calibration → calibrated dataset → survival → sensitivity →
+  limitations. The 665-event output is everywhere labeled the
+  **pre-calibration baseline**; the calibrated **balanced** rule is the main
+  specification; broad/strict are sensitivity specifications.
+- No overclaiming found: no report states the benchmark "proves" real links
+  are true; all state it provides controlled evidence under BOAMP-like noise
+  and that `event` is a calibrated proxy recurrence outcome.
+- The superseded TF-IDF-era rules (balanced 343 / strict 106) appear only in
+  the disclosed historical note in `calibrated_event_definition_summary.md`.
+- Fixed this pass: re-executing the validation-robustness notebook clobbered
+  the manually added "Current Calibration Update (2026-07-05)" preamble of
+  `validation_robustness_report.md`; the section is now baked into
+  `validation_robustness/_build_validation_notebook.py` so regeneration
+  preserves it (restored, ASCII `>=` instead of `≥`).
+
+## E. Remaining limitations / manual-review items (unchanged, disclosed)
+
+- No legal renewal ground truth exists; even calibrated labels are proxy
+  recurrences (manual audit: baseline precision ≈ 0.09–0.15).
+- Strict rule underpowered (79 events) for Cox/AFT — flagged LOW_EVENTS.
+- Notebook 03 (NLP classifier) scaffolded but unexecuted — awaiting manual
+  gold labels in `boamp_annotation_gold.csv`.
+- Phase 4 change-point/trend detection not implemented; DECP linking remains
+  lexical/exploratory; generalized-gamma AFT and CIs on 12/24-month
+  probabilities not done.
+- Known nondeterminism to expect on future re-runs: ST encoder float noise
+  (±1 pair at grid boundaries), lifelines 1e-12 noise, tie-order swaps in
+  equal-score rankings.

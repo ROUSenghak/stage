@@ -16,7 +16,7 @@ baseline. The current recommended survival input is now the calibrated
 | Balanced | 269 / 1,210 | 22.2% | recommended main proxy-event definition |
 | Strict | 79 / 1,210 | 6.5% | high-precision sensitivity (LOW_EVENTS flag) |
 
-Balanced parameters: text similarity ≥ 0.50, composite score ≥ 0.50, W=6,
+Balanced parameters: text similarity >= 0.50, composite score >= 0.50, W=6,
 corrected generic CPV scoring, no margin floor. The rule was selected using
 the synthetic BOAMP benchmark (scored with the same Sentence-Transformer
 encoder as the real pipeline) and real BOAMP diagnostics. It does not create

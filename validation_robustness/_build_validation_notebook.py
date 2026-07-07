@@ -843,6 +843,30 @@ report_text = f\"\"\"# BOAMP Survival Analysis — Validation & Robustness Repor
 
 ---
 
+## Current Calibration Update (2026-07-05)
+
+This report is retained as the robustness report for the earlier 665-event
+baseline. The current recommended survival input is now the calibrated
+**balanced** rule:
+
+| Rule | Events / eligible | Linking rate | Use |
+|---|---:|---:|---|
+| Broad | 490 / 1,210 | 40.5% | high-recall sensitivity |
+| Balanced | 269 / 1,210 | 22.2% | recommended main proxy-event definition |
+| Strict | 79 / 1,210 | 6.5% | high-precision sensitivity (LOW_EVENTS flag) |
+
+Balanced parameters: text similarity >= 0.50, composite score >= 0.50, W=6,
+corrected generic CPV scoring, no margin floor. The rule was selected using
+the synthetic BOAMP benchmark (scored with the same Sentence-Transformer
+encoder as the real pipeline) and real BOAMP diagnostics. It does not create
+legal renewal labels; it defines a more conservative proxy recurrence
+label for survival analysis. Current calibration outputs are in
+`reports/tables/validation/recommended_event_rules.csv`,
+`reports/tables/validation/calibrated_real_event_definition_summary.csv`, and
+`reports/tables/survival/calibrated_rule_km_summary.csv`.
+
+---
+
 ## 1. Objective
 
 This report evaluates the reliability and stability of the Phase 2 BOAMP survival
