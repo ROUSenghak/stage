@@ -2,13 +2,13 @@
 ## BOAMP Procurement Renewal Linking — Pays-de-la-Loire (2015–2024)
 
 **Prepared:** 2026-06-17  
-**Dataset:** `data/processed/boamp_phase2_survival.csv`  
+**Dataset:** `data/processed/boamp_phase2_survival_method_m0_balanced.csv`  
 **Study period:** 2015-01-01 to 2024-12-31  
 **Scope:** Digital/ICT contracts (CPV divisions 48, 72, 32, 35), Pays-de-la-Loire (departments 44, 49, 53, 72, 85)
 
 ---
 
-## Calibration Update — Current Recommended Event Definition (2026-07-05)
+## Method-Comparison Update — Current Recommended Event Definition (2026-07-08)
 
 ### Why this changed: from linkage quantity to analytical reliability
 
@@ -44,8 +44,9 @@ Sentence-Transformer encoder as the real pipeline**
 (`paraphrase-multilingual-MiniLM-L12-v2`). A full threshold grid was scored and
 three explicit rules were selected — broad, balanced, strict. The current
 recommended survival input is
-`data/processed/boamp_phase2_survival_calibrated_balanced.csv`, not the older
-665-event baseline. The selected **balanced** rule is:
+`data/processed/boamp_phase2_survival_method_m0_balanced.csv`, not the older
+665-event baseline. In the method-comparison experiment this rule is called
+**M0 balanced**:
 
 | Parameter | Value |
 |---|---|
@@ -55,7 +56,7 @@ recommended survival input is
 | Margin threshold | none |
 | Generic CPV rule | corrected: generic codes do not receive exact-match credit |
 
-On the synthetic benchmark, the balanced rule scores precision/recall/F1 of
+On the synthetic benchmark, M0 balanced scores precision/recall/F1 of
 0.777/0.806/0.791 (easy), 0.601/0.586/0.593 (medium), and 0.318/0.302/0.310
 (hard) — chosen over broad and strict for its stability across scenarios and
 its yield of real events, not because it is the single most precise option on
@@ -70,23 +71,37 @@ strict sensitivity rules are retained: broad = 490 events (40.5%), strict = 79
 events (6.5%, flagged LOW_EVENTS). All three calibrated datasets pass the
 survival-readiness integrity checks.
 
+The 2026-07-08 method-comparison notebook then compared the current calibrated
+composite rule (M0) with probabilistic linkage (M1) and active-learning-assisted
+linkage (M2). M1 and M2 balanced improve synthetic benchmark precision/recall
+to 0.679/0.642, but the available manual labels are limited. The final
+recommendation remains **M0 balanced** as the current main method. M2 balanced
+is retained as the best alternative sensitivity candidate.
+
 ![Real BOAMP proxy-event rate under the three calibrated rules](figures/validation/calibrated_real_event_rates.png)
 
 The calibrated survival rerun shows the KM median is not reached for any of
 the three rules. Under the balanced rule, survival is 95.9% at 12 months,
 92.3% at 24 months, 90.5% at 36 months, 83.2% at 48 months, and 75.2% at 60
-months; the Cox C-index is 0.592, and LogNormalAFT is the best AFT model by
-AIC (3,544.8). These results describe algorithm-identifiable proxy
-recurrences, not verified legal renewals.
+months; the Cox C-index is 0.544 (reduced 3-covariate spec used for the
+M0/M1/M2/strict comparison; a richer category-aware spec on the same data
+gives 0.592 and is kept as a secondary fit), and LogNormalAFT is the best AFT
+model by AIC (3,542.5; Weibull 3,570.2, tested but not retained;
+LogLogistic 3,580.0). The Schoenfeld test on the official 0.544 spec flags a
+PH violation for `declared_duration_months` only (p<10⁻²⁴); the log-normal
+AFT is used as the PH-assumption-free cross-check. Operational risk
+indicators score 1,204 contracts, with median 12-month risk 0.0198 and median
+24-month risk 0.0624. These results describe algorithm-identifiable proxy
+recurrences, not verified renewal-chain outcomes.
 
 ![Kaplan-Meier curves under the three calibrated proxy-event rules](figures/survival/calibrated_rules_km_curves.png)
 
 **Limitation.** Because BOAMP does not provide an official renewal label, the
 constructed `event` variable — under any of the three rules — should be
 interpreted as a proxy for likely procurement recurrence, not as verified
-legal renewal ground truth. The synthetic benchmark quantifies how the linking
+renewal-chain ground truth. The synthetic benchmark quantifies how the linking
 method behaves under controlled noise; it does not certify that any specific
-real link is a true renewal.
+real link is an externally verified renewal-chain link.
 
 **Conclusion.** The calibration phase's main deliverable is a change of
 objective, not a single statistic: the project moved from **maximizing
@@ -94,7 +109,7 @@ linkage quantity** (665 events, 55.0%, uncalibrated) to **maximizing
 analytical reliability** (269 events, 22.2%, calibrated against a controlled
 benchmark). The sections below document the original BOAMP data quality and
 the earlier baseline construction. They remain useful for provenance, but the
-calibrated balanced file is the recommended modeling input.
+M0 balanced file is the recommended modeling input.
 
 ---
 
@@ -220,8 +235,8 @@ The low BOAMP fill rate reflects the mandatory reporting shift to eForms in 2024
 | APPEL_OFFRE notices | 1,933 |
 | Ineligible (estimated end date after 2024-06-30) | 723 |
 | **Eligible source contracts** | **1,210** |
-| Linked renewals found (event = 1) | 665 (54.96%) |
-| Right-censored (event = 0) | 545 (45.04%) |
+| Historical linked proxy events (event = 1, pre-calibration) | 665 (54.96%) |
+| Historical right-censored rows (event = 0, pre-calibration) | 545 (45.04%) |
 
 A contract is eligible if its estimated end date `ê_i = start_date + declared_duration_months` satisfies `ê_i + W ≤ 2024-12-31`, where `W = 6 months` is the temporal search window. Contracts whose renewal window extends past the study end are excluded from the denominator; they are not treated as censored (the renewal window has not opened yet).
 
@@ -307,7 +322,7 @@ events.
 
 ## 7. Known Biases and Limitations
 
-1. **No real BOAMP ground truth.** BOAMP has no official legal renewal-chain
+1. **No real BOAMP ground truth.** BOAMP has no official renewal-chain
 labels. The synthetic benchmark gives controlled precision/recall because its
 links are known by construction; real BOAMP still only has proxy recurrence
 labels and diagnostic linking rates.

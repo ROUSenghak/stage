@@ -563,3 +563,130 @@ Immaterial drift observed (documented, not a problem):
 - Known nondeterminism to expect on future re-runs: ST encoder float noise
   (±1 pair at grid boundaries), lifelines 1e-12 noise, tie-order swaps in
   equal-score rankings.
+
+---
+
+# L3 verification and Cox C-index resolution (2026-07-08)
+
+**Trigger:** confirm L3 (survival analysis notebook: KM curves, validated Cox
+model, parametric comparison incl. Weibull, 12/24-month individual
+predictions, high-risk contract table) is complete on the **official M0
+balanced dataset** (`data/processed/boamp_phase2_survival_method_m0_balanced.csv`,
+selected by the 2026-07-08 method-comparison experiment, §"Full pipeline
+refresh" superseded by this pass), and resolve a Cox C-index inconsistency
+(0.544 vs 0.592) found across reports.
+
+## A. Data identity check
+
+`boamp_phase2_survival_method_m0_balanced.csv` and
+`boamp_phase2_survival_calibrated_balanced.csv` were compared row-by-row on
+`contract_id` (merge on 1,210 rows): `event`, `observed_duration_months`,
+`declared_duration_months`, `start_date`, `dur_was_imputed` are **identical
+for all 1,210 rows**. The two files differ only in bookkeeping columns
+(`rule_name`, `link_method`, `event_definition` labels and float rounding of
+score columns). Conclusion: every KM/Cox/AFT/risk-indicator output already
+computed from `calibrated_balanced.csv` (notebook 07, and
+`task_section16b_calibrated_risk_indicators.py`) **is** the M0 balanced
+result; no rerun of those outputs was needed.
+
+## B. Root cause of the 0.544 / 0.592 Cox C-index inconsistency
+
+Two different Cox specifications were fit on the same 269-event balanced
+data:
+
+1. **Richer spec** (notebook 07, `fit_cox_for_rule`): `declared_duration_months`,
+   `start_year`, `dur_was_imputed`, plus category-segment dummies; penalizer
+   0.1. Gives **C = 0.592423...**, AFT AIC 3,544.8 (§0 above).
+2. **Reduced spec** (`scripts/linkage_method_comparison_no_ground_truth.py`,
+   used for the 2026-07-08 M0/M1/M2/strict method comparison so all methods
+   are compared on identical covariates): `declared_duration_months`,
+   `dur_was_imputed`, `start_year` only; penalizer 0.05. Gives **C =
+   0.544208**, AFT AIC 3,542.5
+   (`reports/method_comparison_report_consistency_audit_20260708.md`).
+
+Both are valid fits of the same data; they differ only in covariate set and
+penalizer. **Decision: 0.544 (reduced spec) is the official L3 Cox
+C-index**, because it is the specification actually used for the final
+method-comparison decision that selected M0 balanced, and because it was
+already the number used consistently in `phase1_technical_report.tex`,
+`phase1_data_quality_report.md`, and 3 of 4 occurrences in
+`internship_report.tex`. The one outlier (a stray 0.592/AIC 3,544.8 in the
+internship report's "Methodological Note" section, left over from before the
+method-comparison rerun) was fixed and both reports now carry an explicit
+"two Cox specifications" explanatory paragraph so the difference is never
+silently ambiguous again. The 0.592 richer model is kept as a secondary,
+category-aware fit in both reports, explicitly labeled as such.
+
+## C. Cox PH assumption gap — closed
+
+Neither Cox spec above had ever had its proportional-hazards assumption
+tested on the M0-balanced/calibrated-balanced data (notebook 02's Schoenfeld
+test only covers the old 665-event pre-calibration model). This was a real
+gap against the internship guide's L3 requirement for a "validated Cox
+model."
+
+Closed this pass: `scripts/task_l3_cox_ph_diagnostics_m0_balanced.py` (and an
+inserted "3b" section in `notebooks/07_calibrated_survival_analysis.ipynb`,
+executed via `jupyter nbconvert --execute --inplace`) fits the **official**
+reduced spec and runs `lifelines.statistics.proportional_hazard_test`
+(rank transform):
+
+| Covariate | test statistic | p |
+|---|---:|---:|
+| `declared_duration_months` | 105.82 | 8.07e-25 (violates PH) |
+| `dur_was_imputed` | 0.46 | 0.497 (passes) |
+| `start_year` | 0.26 | 0.611 (passes) |
+
+Same pattern as the pre-calibration model (`declared_duration_months` was
+also the only violator there) — expected, since it is the same variable
+playing the same structural role (administrative contract length, ceiling-
+heavy distribution). Mitigation is unchanged: the log-normal AFT model does
+not require the PH assumption and is used as the cross-check for
+individual-level 12/24-month predictions.
+Output: `reports/tables/survival/m0_balanced_cox_ph_assumption_test.csv`,
+`reports/figures/survival/m0_balanced_coxph_loglog_dur_imputed.png`.
+
+## D. L3 component checklist (verified against actual executed outputs)
+
+| L3 requirement | Status | Source |
+|---|---|---|
+| Kaplan-Meier curves | Done | `calibrated_rule_km_summary.csv`, `calibrated_rules_km_curves.png` |
+| Validated Cox model | Done (this pass closes the PH-check gap) | `calibrated_rule_cox_comparison.csv` (C=0.592, richer spec) + `m0_balanced_cox_ph_assumption_test.csv` (official C=0.544 spec, PH-checked) |
+| Parametric comparison incl. Weibull | Done — Weibull tested, not retained (LogNormalAFT best AIC) | `calibrated_balanced_aft_comparison.csv` |
+| 12/24-month individual predictions | Done | `renewal_risk_12_24_months_calibrated_balanced.csv` |
+| High-risk contract/buyer/segment table | Done | `top20_renewal_risk_calibrated_balanced.csv`, `buyer_renewal_risk_ranking_calibrated_balanced.csv`, `segment_renewal_risk_ranking_calibrated_balanced.csv` |
+
+**All five L3 components verified present and consistent on the official M0
+balanced dataset. L3 = Done.**
+
+## E. Reports and README updated this pass
+
+- `reports/internship_report.tex`: fixed the 0.592/3,544.8 outlier, added the
+  "two Cox specifications" paragraph, added explicit Weibull-not-retained and
+  L2-does-not-block-L3 language, added a high-risk-tables row to the
+  component-status table, added an explicit "L3 status: Done" paragraph.
+- `reports/phase1_technical_report.tex`: added the Cox-spec/PH-check
+  paragraph (with a new `sec:calibration-update` label), Weibull-not-retained
+  wording, and an explicit L3-status paragraph in "Remaining Work."
+- `reports/phase1_data_quality_report.md`: added the two-Cox-spec note,
+  Weibull-not-retained wording, and the Schoenfeld-test result.
+- `reports/method_comparison_report_consistency_audit_20260708.md`: see its
+  own addendum below.
+- `README.md`: added an L1–L6 deliverable-status table, with L3 marked
+  **Done** and L2 marked "Partial — handled separately by the team, does not
+  block L3."
+- `notebooks/07_calibrated_survival_analysis.ipynb`: new section 3b (PH
+  check) inserted and executed; "Final Interpretation" markdown cell updated
+  with the L3-status summary.
+
+## F. Remaining gaps (not blocking L3, disclosed)
+
+- The two Cox specifications (0.544 official / 0.592 secondary) are now
+  documented but still coexist by design (they serve different comparison
+  purposes); a future cleanup could unify them into one spec used everywhere.
+- `declared_duration_months` still violates the PH assumption in both specs;
+  stratifying by it or adding a time interaction remains future work (as
+  already disclosed for the pre-calibration model).
+- L2 (trained NLP classifier) remains scaffolded only, per the team's
+  separate ownership of that workstream; taxonomy is provisional.
+- Phase 4 (change-point detection, L4) not started.

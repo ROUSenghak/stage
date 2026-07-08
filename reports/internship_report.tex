@@ -65,26 +65,23 @@ The work concerns predictive analysis of public digital procurement for
 \textbf{Gigalis}, a central purchasing body in Pays de la Loire. The goal is to
 move from a descriptive view (``what happened?'') towards a predictive one
 (``when will a contract be re-tendered?''). Because BOAMP contains \emph{no
-explicit renewal field}, the renewal relationship is reconstructed from
-observable signals: a proxy renewal \texttt{event} built from
+explicit recurrence-chain field}, the relationship is reconstructed from
+observable signals: a proxy recurrence \texttt{event} built from
 Sentence-Transformer text embeddings combined with CPV, temporal, and buyer
-signals, used as the event variable for survival analysis. On 1{,}210 eligible
-source contracts the linking method recovers a plausible renewal for 665 of them
-(\textbf{55.0\%}), against a 7.6\% lexical baseline at the same window setting. Survival modeling gives a
-global Kaplan--Meier median survival of \textbf{50.1 months}, a Cox concordance
-of \textbf{0.6317}, and a best-fitting log-normal parametric model (AIC
-7{,}068.4). The fitted model is translated into 12- and 24-month renewal-risk
-indicators at contract, buyer, and segment level. Buyer identities were
-consolidated by a SIREN enrichment step (completed 2026-06-24). The headline
-caveat: \texttt{event} is a proxy, and a manual audit of a stratified 150-case
-sample (2026-07-02) estimates its precision at only $\approx$9--15\% overall ---
-concentrated in the high-text-similarity core (precision 1.00 at text $\geq$0.80,
-$\approx$0.50 in the HIGH/strict tier, $\approx$0 below composite 0.50). The
-survival results should be read as describing algorithm-identifiable same-buyer
-re-publications, not validated renewals. \textbf{This finding triggered a
-methodological change}, described immediately below: the event definition was
-recalibrated against a synthetic benchmark, trading linkage quantity for
-analytical reliability (269 events, 22.2\%, rather than 665, 55.0\%).
+signals, used as the event variable for survival analysis. The current selected
+method is \textbf{M0 balanced}, a calibrated composite rule with text similarity
+$\geq 0.50$, composite score $\geq 0.50$, $W=6$ months, corrected generic CPV
+handling, and no margin floor. On 1{,}210 eligible source contracts it records
+\textbf{269 proxy recurrence events} (\textbf{22.2\%}). The older 665-event
+output is retained only as the pre-calibration baseline. A new method-comparison
+experiment tested M0 against probabilistic linkage (M1) and active-learning-
+assisted linkage (M2); M2 balanced is the best alternative candidate but does
+not replace M0 in the current report. Under M0 balanced, the Kaplan--Meier
+median is not reached, Cox C-index is \textbf{0.544}, and the best AFT model is
+LogNormalAFT (AIC 3{,}542.5). Operational 12- and 24-month indicators are
+available for 1{,}204 contracts, with median probabilities 0.0198 and 0.0624.
+The headline caveat: \texttt{event} is a proxy recurrence outcome, not BOAMP
+ground truth; real BOAMP precision and recall are not directly observable.
 \end{abstract}
 
 \section*{Methodological Note --- From Maximizing Linkage to Maximizing Reliability (2026-07-05)}
@@ -174,14 +171,35 @@ checked on the synthetic benchmark.}
 \end{figure}
 
 The calibrated survival-ready file is
-\texttt{data/processed/boamp\_phase2\_survival\_calibrated\_balanced.csv}. Its
+\texttt{data/processed/boamp\_phase2\_survival\_calibrated\_balanced.csv},
+row-identical to the later official selection
+\texttt{data/processed/boamp\_phase2\_survival\_method\_m0\_balanced.csv}. Its
 Kaplan--Meier median is not reached; survival is 95.9\% at 12 months, 92.3\% at
 24 months, 83.2\% at 48 months, and 75.2\% at 60 months
-(Figure~\ref{fig:km-calibrated}). The Cox C-index is 0.592, and LogNormalAFT is
-the best balanced-rule AFT model by AIC (3{,}544.8). Re-scored 12/24-month risk
-indicators under this rule give a mean 12-month recurrence probability of 0.023
-and 27.5 expected recurrences within 12 months
+(Figure~\ref{fig:km-calibrated}). LogNormalAFT is the best balanced-rule AFT
+model by AIC. Re-scored 12/24-month risk indicators under this rule give a
+mean 12-month recurrence probability of 0.023 and 27.5 expected recurrences
+within 12 months
 (\nolinkurl{reports/tables/survival/renewal_risk_12_24_months_calibrated_balanced.csv}).
+
+\paragraph{Two Cox specifications, one dataset.} Two Cox models were fitted on
+this same 269-event balanced data: an initial richer model with
+category-segment covariates (penalizer 0.1, C-index 0.592, AFT AIC 3{,}544.8,
+notebook \nolinkurl{07_calibrated_survival_analysis.ipynb}), and a reduced
+3-covariate model (\texttt{declared\_duration\_months},
+\texttt{dur\_was\_imputed}, \texttt{start\_year}; penalizer 0.05) used in the
+2026-07-08 method-comparison rerun so that M0, M1, M2, and the strict variant
+are compared on identical covariates
+(\nolinkurl{scripts/linkage_method_comparison_no_ground_truth.py}). Both are
+valid fits; \textbf{the official L3 Cox result reported throughout this
+document is the reduced-spec C-index of 0.544} (AFT AIC 3{,}542.5), because it
+is the specification used for the final method-comparison decision. The
+richer 0.592 model is retained only as a secondary, category-aware fit. The
+Schoenfeld residual test on the official 0.544 spec flags a PH violation for
+\texttt{declared\_duration\_months} ($p<10^{-24}$) and passes for
+\texttt{dur\_was\_imputed} and \texttt{start\_year} --- the same pattern as
+the pre-calibration model, for which the log-normal AFT above is used as the
+PH-assumption-free cross-check.
 
 \begin{figure}[H]
 \centering
@@ -197,10 +215,10 @@ the broad and strict extremes, as intended by the calibration.}
 Because BOAMP does not provide an official renewal label, the constructed
 \texttt{event} variable --- under any of the three rules --- should be
 interpreted as a proxy for \emph{likely procurement recurrence}, not as
-verified legal renewal ground truth. The synthetic benchmark quantifies how the
+verified renewal-chain ground truth. The synthetic benchmark quantifies how the
 linking method behaves under controlled noise; it does not certify that any
-specific real link is a true renewal. These labels remain proxy recurrences,
-not legally verified renewals.
+specific real link is a verified renewal-chain link. These labels remain proxy
+recurrences, not externally verified outcomes.
 
 \paragraph{Conclusion of this note.}
 The methodological change is the main deliverable of the calibration phase: the
@@ -214,6 +232,62 @@ implementation is reproducible from
 generated artifacts tracked under \texttt{data/synthetic/} and
 \texttt{reports/tables/validation/}. Section~\ref{sec:reliability} gives the
 full manual-audit and robustness evidence behind this decision.
+
+\section*{Method-Comparison Update --- M0, M1, and M2 (2026-07-08)}
+\addcontentsline{toc}{section}{Method-comparison update --- M0, M1, and M2}
+
+The latest notebook,
+\nolinkurl{notebooks/06_linkage_method_comparison_no_ground_truth.ipynb},
+compares the current calibrated rule (M0) with two literature-supported
+alternatives: a probabilistic linkage classifier (M1) and an
+active-learning-assisted variant (M2). Splink and recordlinkage were not
+available in the environment, so M1/M2 were implemented as transparent
+logistic match-probability models trained on synthetic pair labels, with mapped
+manual TP/FP labels added for M2 where available. This is a comparison under
+no legal ground truth: real BOAMP precision and recall are not directly
+observable.
+
+\begin{table}[H]
+\centering
+\caption{Latest real BOAMP method-comparison result.}
+\label{tab:exec-method-comparison}
+\small
+\begin{tabular}{llrrrr}
+\toprule
+Method & Variant & Events & Event rate & Neg.-control accept. & Manual audit precision \\
+\midrule
+M0 & Balanced & 269 & 22.2\% & 9.4\% & 43.8\% \\
+M1 & Balanced & 278 & 23.0\% & 9.2\% & 32.4\% \\
+M2 & Balanced & 256 & 21.2\% & 7.8\% & 34.3\% \\
+M0 & Strict   &  79 &  6.5\% & 0.4\% & 85.7\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Across all synthetic scenarios, M0 balanced scores precision 0.575 and recall
+0.568; M1/M2 balanced score precision 0.679 and recall 0.642. However, the
+final recommendation remains \textbf{M0 balanced as the current main method},
+with M2 balanced retained as the best alternative for targeted manual review.
+The active-learning output is a 150-pair review queue: 25 pairs in each of six
+review categories (near-threshold, high-score generic CPV, event=0 with high
+nearest candidate, low top1--top2 margin, high text with CPV mismatch, and
+same-buyer/same-CPV weak-text).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.72\textwidth]{figures/validation/method_comparison_synthetic_precision_recall}
+\caption{Synthetic precision and recall for M0, M1, and M2. The synthetic
+benchmark supports comparing methods, but it does not prove real BOAMP truth.}
+\label{fig:exec-method-pr}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.72\textwidth]{figures/validation/method_survival_km_probabilities}
+\caption{Fixed-horizon Kaplan--Meier survival probabilities for M0 balanced,
+M2 balanced, and M0 strict. M0 balanced remains the selected method.}
+\label{fig:exec-method-km}
+\end{figure}
 
 % ===========================================================================
 \section{Context and Objective}
@@ -318,36 +392,43 @@ Buyer SIREN enrichment
   & \nolinkurl{buyer_siren_enrichment/} \\[3pt]
 Renewal linking (event reconstruction)
   & \textcolor{done}{Done}
-  & 665/1,210 eligible linked (55.0\%)
+  & M0 balanced: 269/1,210 proxy events (22.2\%)
   & \nolinkurl{boamp_renewal_linking_quality/} \\[3pt]
 Survival dataset construction
   & \textcolor{done}{Done}
   & 1,210 rows $\times$ 33 cols
-  & \nolinkurl{data/processed/boamp_phase2_survival.csv} \\[3pt]
+  & \nolinkurl{data/processed/boamp_phase2_survival_method_m0_balanced.csv} \\[3pt]
 Kaplan--Meier \& log-rank
   & \textcolor{done}{Done}
-  & Median 50.1 mo; duration significant
-  & \nolinkurl{notebooks/02_survival_modeling_boamp.ipynb} \\[3pt]
+  & Median not reached; fewer than half have observed proxy events before censoring
+  & \nolinkurl{notebooks/06_linkage_method_comparison_no_ground_truth.ipynb} \\[3pt]
 Cox PH model
   & \textcolor{done}{Done}
-  & C-index 0.6317
+  & C-index 0.544
   & same notebook + \nolinkurl{reports/tables/survival/} \\[3pt]
 Parametric AFT models
   & \textcolor{done}{Done}
-  & Log-normal best (AIC 7,068.4)
+  & LogNormalAFT best (AIC 3,542.5)
   & same notebook \\[3pt]
 Sensitivity analysis
   & \textcolor{done}{Done}
-  & Directions stable (A/B); strict variant underpowered
-  & \nolinkurl{reports/tables/survival/sensitivity_comparison.csv} \\[3pt]
+  & M2 balanced alternative; M0 strict high-confidence sensitivity
+  & \nolinkurl{reports/tables/validation/method_survival_comparison.csv} \\[3pt]
 Robustness checks
   & \textcolor{done}{Done}
-  & Placebo, bias check, threshold sweep
-  & \nolinkurl{validation_robustness/} \\[3pt]
+  & Synthetic benchmark, negative controls, threshold sweep, manual audit
+  & \nolinkurl{reports/tables/validation/} \\[3pt]
 Operational risk indicators
   & \textcolor{done}{Done}
-  & 12/24-mo risk at contract/buyer/segment
-  & \nolinkurl{reports/tables/survival/top20_renewal_risk.csv} \\[3pt]
+  & 1,204 contracts scored; median p12=0.0198, p24=0.0624
+  & \nolinkurl{reports/tables/survival/renewal_risk_12_24_months_calibrated_balanced.csv} \\[3pt]
+High-risk contract/buyer/segment tables
+  & \textcolor{done}{Done}
+  & Top-20 contracts by 12-month recurrence probability, plus buyer- and
+    segment-level rankings, under M0 balanced
+  & \nolinkurl{reports/tables/survival/top20_renewal_risk_calibrated_balanced.csv},
+    \nolinkurl{buyer_renewal_risk_ranking_calibrated_balanced.csv},
+    \nolinkurl{segment_renewal_risk_ranking_calibrated_balanced.csv} \\[3pt]
 Manual event validation
   & \textcolor{done}{Done}
   & 150 cases audited; precision $\approx$0.09--0.15 (HIGH tier 0.50)
@@ -364,6 +445,21 @@ Change-point detection (Phase 4)
 \end{tabular}
 \end{table}
 \end{landscape}
+
+\paragraph{L3 status (internship-guide deliverable).} Mapping the rows above
+to the internship guide's deliverable list: \textbf{L3, the survival analysis
+notebook, is \textcolor{done}{Done}.} All five required L3 components are
+present on the official M0 balanced dataset: Kaplan--Meier curves, a validated
+Cox model (Section~\ref{sec:results} PH check above), a parametric AFT
+comparison including Weibull (tested, not retained; LogNormalAFT selected by
+AIC), individual 12- and 24-month predictions, and the high-risk
+contract/buyer/segment tables. \textbf{L2, the trained NLP classifier, is
+handled separately by the team and does not block L3.} The survival analysis
+above uses the rule-based CPV/keyword taxonomy
+(\nolinkurl{data/processed/taxonomy.csv}) as a provisional segment covariate;
+the survival pipeline (notebooks 06--07 and
+\nolinkurl{scripts/task_section16b_calibrated_risk_indicators.py}) can be
+rerun unchanged once final NLP-classifier labels are delivered.
 
 \subsection{BOAMP cleaning}
 Raw notices are parsed from the BOAMP API, deduplicated, and standardised:
@@ -417,25 +513,22 @@ robustness checks.
 The best parametric model (log-normal AFT) is applied to all scored contracts to
 produce conditional renewal probabilities at 12 and 24 months ahead, aggregated
 to contract, buyer, and segment level. These are prioritisation indicators, not
-legally verified renewal probabilities. Output:
-\nolinkurl{reports/tables/survival/top20_renewal_risk.csv}.
+verified renewal-chain probabilities. Output:
+\nolinkurl{reports/tables/survival/renewal_risk_12_24_months_calibrated_balanced.csv}.
 
 % ===========================================================================
 \section{Main Results}
 \label{sec:results}
 
-\emph{Reading note:} the numbers in this section describe the \textbf{initial}
-linking method (broad, uncalibrated, 665 events). They are kept in full because
-they show how the method behaves and why it needed calibration. For any
-downstream decision, use the \textbf{calibrated balanced rule} (269 events,
-22.2\%) from the Methodological Note on p.~1 and Section~\ref{sec:reliability}
-instead.
+\emph{Reading note:} the numbers in this section now use the \textbf{selected
+M0 balanced} method. The old 665-event result appears only as a historical
+pre-calibration baseline and should not be read as the current main result.
 
 \subsection{Renewal linking}
 
 \begin{table}[H]
 \centering
-\caption{Renewal-linking outcome.}
+\caption{Current proxy-recurrence outcome under selected M0 balanced method.}
 \label{tab:link}
 \small
 \begin{tabular}{@{}lr@{}}
@@ -444,20 +537,27 @@ instead.
 \midrule
 Source contracts (\texttt{APPEL\_OFFRE}) & 1{,}933 \\
 Eligible (renewal window observable) & 1{,}210 \\
-Linked renewals (\texttt{event}~$=1$) & 665 \quad(55.0\%) \\
-Right-censored (\texttt{event}~$=0$) & 545 \quad(45.0\%) \\
-Lexical baseline linking rate ($W=6$) & 7.6\% \\
+Proxy recurrence events (\texttt{event}~$=1$) & 269 \quad(22.2\%) \\
+Censored/no observed link under rule (\texttt{event}~$=0$) & 941 \quad(77.8\%) \\
+Old pre-calibration baseline & 665 \quad(55.0\%; historical only) \\
+Best alternative candidate & M2 balanced: 256 events \quad(21.2\%) \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-Linking rate by category (Table~\ref{tab:bycat}): Software \& Applications and
-IT Services \& Consulting renew most (62.8\%, 60.5\%); Data \& AI and IT Hardware
-\& Equipment least (30.0\%, 34.6\%). Small categories ($n < 10$) are underpowered.
+The broad sensitivity gives 490 events (40.5\%) and the strict sensitivity gives
+79 events (6.5\%). The probabilistic and active-learning alternatives are not
+selected as the main method, but they are documented for review: M1 balanced has
+278 real proxy events and M2 balanced has 256.
+
+\paragraph{Historical category table.}
+The category table below is retained only to document the pre-calibration
+baseline and should not be used as the selected method's event distribution.
 
 \begin{table}[H]
 \centering
-\caption{Event rate by technology category (1{,}210 eligible contracts; events sum to 665).}
+\caption{Historical pre-calibration event rate by technology category
+(1{,}210 eligible contracts; events sum to 665).}
 \label{tab:bycat}
 \small
 \begin{tabular}{@{}lrrr@{}}
@@ -489,6 +589,22 @@ contracts (90.1\%) have no temporal partner in the search window --- a true abse
 of a candidate notice, not a scoring failure.
 
 \subsection{Survival analysis}
+
+\paragraph{Selected-method survival summary.}
+Under M0 balanced, the survival dataset has 1{,}210 rows and 269 proxy events.
+The Kaplan--Meier median is not reached, meaning fewer than 50\% of contracts
+experience the calibrated proxy event before censoring. Fixed-horizon survival
+is 95.9\% at 12 months, 92.3\% at 24 months, 83.2\% at 48 months, and 75.2\%
+at 60 months. The Cox C-index is 0.544 (see the two-specification note above).
+LogNormalAFT is the best AFT model by AIC (3{,}542.5), ahead of WeibullAFT
+(3{,}570.2) and LogLogisticAFT (3{,}580.0) --- WeibullAFT was tested but not
+retained since it does not have the lowest AIC. Operational 12/24-month
+indicators are available under M0 balanced for 1{,}204 contracts, with median
+probabilities 0.0198 and 0.0624 and expected counts 27.5 and 82.3.
+
+\paragraph{Historical pre-calibration survival.} The following detailed tables
+come from the old 665-event baseline and are retained as provenance for why
+calibration was needed.
 
 \paragraph{Kaplan--Meier.} Global median survival is \textbf{50.1 months},
 consistent with the prevalence of 48-month framework contracts. Log-rank tests
@@ -643,10 +759,10 @@ The event variable was stress-tested with checks in \nolinkurl{validation_robust
 
 \subsection{Key limitations}
 \begin{itemize}[leftmargin=1.4em,itemsep=2pt]
-  \item \textbf{Proxy event, not legal ground truth.} Because BOAMP does not
+  \item \textbf{Proxy event, not official ground truth.} Because BOAMP does not
         provide an official renewal label, the constructed \texttt{event}
         variable should be interpreted as a proxy for likely procurement
-        recurrence, not as verified legal renewal ground truth --- under the
+        recurrence, not as verified renewal-chain ground truth --- under the
         initial rule (\texttt{event = 1} means a plausible renewal link was
         found; by composite score, 39.8\% of the 665 links are below 0.50 (low),
         45.3\% between 0.50 and 0.70 (medium), 14.9\% at or above 0.70 (high))
@@ -682,12 +798,16 @@ taxonomy.
         (executed 2026-07-02) showed that the broad baseline was too permissive.
         The priority is now to use the balanced calibrated dataset as the main
         survival input and keep broad/strict variants as sensitivity checks.
-  \item \textbf{Trained NLP classifier.} The technology taxonomy is rule-based
-        (CPV + keywords). The classifier pipeline is scaffolded
+  \item \textbf{Trained NLP classifier (L2).} The technology taxonomy is
+        rule-based (CPV + keywords). The classifier pipeline is scaffolded
         (\nolinkurl{scripts/nlp_annotation_sample.py} through
         \nolinkurl{scripts/nlp_propagate_labels.py} and notebook 03), and the
         350-row annotation sample is drawn, but the gold labels have not been
-        filled in and no model has been trained yet.
+        filled in and no model has been trained yet. This L2 work is now
+        handled separately by the team and \textbf{does not block L3}: the
+        survival analysis uses the available CPV/keyword taxonomy as a
+        provisional segment variable, and the pipeline can be rerun unchanged
+        once final NLP-classifier labels are delivered.
   \item \textbf{Change-point / trend detection (Phase 4).} Scoped but not started.
   \item \textbf{DECP semantic linking.} Applied to BOAMP only; DECP linking remains
         at the lexical prototype stage.
@@ -710,8 +830,9 @@ $\approx$9--15\% precise) to a calibrated proxy-event definition that maximizes
 the broad rule gives 490 events (40.5\%), the balanced rule gives 269 events
 (22.2\%), and the strict rule gives 79 events (6.5\%). Under the balanced rule,
 the Kaplan--Meier median is not reached and LogNormalAFT is the best AFT model
-by AIC (3{,}544.8). These outputs translate BOAMP proxy recurrence signals ---
-not verified legal renewals --- into 12/24-month renewal-risk rankings.
+by AIC (3{,}542.5). These outputs translate BOAMP proxy recurrence signals ---
+not externally verified renewal-chain outcomes --- into 12/24-month
+renewal-risk rankings.
 
 \textbf{Immediate next steps (prioritised):}
 \begin{enumerate}[leftmargin=1.4em,itemsep=2pt]

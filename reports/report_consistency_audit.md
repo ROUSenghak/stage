@@ -6,10 +6,11 @@
 
 ---
 
-## 0. Current calibration note (2026-07-05)
+## 0. Latest method-comparison note (2026-07-08)
 
 This consistency audit is historical for the June report-rebuild pass. The
-current recommended analysis is the calibrated **balanced** rule:
+current recommended analysis after the method-comparison experiment is
+**M0 balanced**, the calibrated composite rule:
 
 - text similarity threshold = 0.50;
 - composite-score threshold = 0.50;
@@ -17,16 +18,33 @@ current recommended analysis is the calibrated **balanced** rule:
 - corrected generic CPV scoring;
 - no margin floor.
 
-It gives 269 proxy recurrence events among 1,210 eligible BOAMP source contracts
-(22.2%; Sentence-Transformer calibration). Broad and strict sensitivity rules
-give 490 events (40.5%) and 79 events (6.5%). Source tables:
-`reports/tables/validation/recommended_event_rules.csv`,
-`reports/tables/validation/calibrated_real_event_definition_summary.csv`, and
-`reports/tables/survival/calibrated_rule_km_summary.csv`.
+It gives 269 proxy recurrence events among 1,210 eligible BOAMP source
+contracts (22.2%). Broad and strict M0 sensitivity rules give 490 events
+(40.5%) and 79 events (6.5%). M1 probabilistic linkage and M2
+active-learning-assisted linkage were tested against the synthetic benchmark;
+M2 balanced is retained as the best alternative sensitivity candidate, but M0
+balanced remains the current main method. Real BOAMP precision and recall are
+not directly observable.
+
+Current source tables:
+`reports/tables/validation/linkage_method_comparison.csv`,
+`reports/tables/validation/linkage_method_comparison_synthetic_metrics.csv`,
+`reports/tables/validation/final_method_recommendation.csv`, and
+`reports/tables/validation/method_survival_comparison.csv`.
 
 Do not read the older 697/705/665-event numbers in this audit as the current
 recommended event definition. They are retained to explain previous report
 states and pipeline changes.
+
+## 0b. Current survival summary
+
+The selected M0 balanced dataset is
+`data/processed/boamp_phase2_survival_method_m0_balanced.csv`. The KM median is
+not reached, because fewer than 50% of contracts experience the calibrated
+proxy recurrence event before censoring. Fixed-horizon survival probabilities
+are 0.959 at 12 months, 0.923 at 24 months, 0.832 at 48 months, and 0.752 at
+60 months. The Cox C-index is 0.544. LogNormalAFT is selected by AIC
+(3,542.5), ahead of WeibullAFT (3,570.2) and LogLogisticAFT (3,580.0).
 
 ---
 

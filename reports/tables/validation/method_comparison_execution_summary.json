@@ -1,0 +1,355 @@
+{
+  "completed_successfully": true,
+  "files_loaded": [
+    "boamp_renewal_linking_quality/outputs/boamp_renewal_candidates.csv",
+    "reports/tables/validation/calibrated_real_best_links_all_rules.csv",
+    "reports/tables/validation/calibrated_real_best_links_balanced.csv",
+    "reports/tables/validation/calibrated_real_best_links_broad.csv",
+    "reports/tables/validation/calibrated_real_best_links_strict.csv",
+    "data/synthetic/synthetic_boamp_true_links_all.csv",
+    "reports/tables/validation/synthetic_threshold_grid.csv",
+    "event_validation/outputs/manual_validation_audit_labeled.csv",
+    "data/processed/boamp_phase2_survival_calibrated_balanced.csv",
+    "reports/tables/survival/calibrated_rule_km_summary.csv",
+    "reports/tables/survival/calibrated_rule_cox_comparison.csv",
+    "reports/tables/survival/calibrated_balanced_aft_comparison.csv"
+  ],
+  "files_created": [
+    "reports/tables/validation/unified_candidate_pair_table.csv",
+    "reports/tables/validation/linkage_method_comparison.csv",
+    "reports/tables/validation/linkage_method_comparison_synthetic_metrics.csv",
+    "reports/tables/validation/active_learning_review_sample.csv",
+    "reports/tables/validation/probabilistic_linkage_results.csv",
+    "reports/tables/validation/final_method_recommendation.csv",
+    "reports/tables/validation/method_survival_comparison.csv",
+    "reports/figures/validation/method_comparison_synthetic_precision_recall.png",
+    "reports/figures/validation/method_comparison_real_event_counts.png",
+    "reports/figures/validation/method_survival_km_probabilities.png"
+  ],
+  "methods_tested": {
+    "M0": "Current calibrated composite rule reference.",
+    "M1": "LogisticRegression classifier trained on synthetic benchmark pair labels; Splink and recordlinkage were unavailable.",
+    "M2": "Active-learning-assisted LogisticRegression using synthetic labels plus mapped manual TP/FP accepted-link labels where available."
+  },
+  "selected_method": "M0",
+  "recommendation": "retain_m0_balanced_as_main_method",
+  "selected_thresholds": [
+    {
+      "method": "M0",
+      "variant": "broad",
+      "selection_score": NaN,
+      "threshold": "none",
+      "text_threshold": 0.4,
+      "composite_threshold": "none",
+      "margin_threshold": "none",
+      "W": 6,
+      "generic_cpv_rule": "generic_corrected",
+      "selection_basis": "Current calibrated reference rule M0 from recommended_event_rules.csv."
+    },
+    {
+      "method": "M0",
+      "variant": "balanced",
+      "selection_score": NaN,
+      "threshold": "0.5",
+      "text_threshold": 0.5,
+      "composite_threshold": "0.5",
+      "margin_threshold": "none",
+      "W": 6,
+      "generic_cpv_rule": "generic_corrected",
+      "selection_basis": "Current calibrated reference rule M0 from recommended_event_rules.csv."
+    },
+    {
+      "method": "M0",
+      "variant": "strict",
+      "selection_score": NaN,
+      "threshold": "0.65",
+      "text_threshold": 0.7,
+      "composite_threshold": "0.65",
+      "margin_threshold": "none",
+      "W": 6,
+      "generic_cpv_rule": "generic_corrected",
+      "selection_basis": "Current calibrated reference rule M0 from recommended_event_rules.csv."
+    },
+    {
+      "method": "M1",
+      "variant": "broad",
+      "selection_score": NaN,
+      "threshold": 0.05,
+      "text_threshold": NaN,
+      "composite_threshold": NaN,
+      "margin_threshold": NaN,
+      "W": 6,
+      "generic_cpv_rule": "corrected_generic_cpv_features",
+      "selection_basis": "Selected from observed probability-threshold grid using synthetic precision/recall, negative controls, real BOAMP event count, manual audit labels when available, and survival event sufficiency."
+    },
+    {
+      "method": "M1",
+      "variant": "balanced",
+      "selection_score": 0.7325463559736736,
+      "threshold": 0.85,
+      "text_threshold": NaN,
+      "composite_threshold": NaN,
+      "margin_threshold": NaN,
+      "W": 6,
+      "generic_cpv_rule": "corrected_generic_cpv_features",
+      "selection_basis": "Selected from observed probability-threshold grid using synthetic precision/recall, negative controls, real BOAMP event count, manual audit labels when available, and survival event sufficiency."
+    },
+    {
+      "method": "M1",
+      "variant": "strict",
+      "selection_score": NaN,
+      "threshold": 0.95,
+      "text_threshold": NaN,
+      "composite_threshold": NaN,
+      "margin_threshold": NaN,
+      "W": 6,
+      "generic_cpv_rule": "corrected_generic_cpv_features",
+      "selection_basis": "Selected from observed probability-threshold grid using synthetic precision/recall, negative controls, real BOAMP event count, manual audit labels when available, and survival event sufficiency."
+    },
+    {
+      "method": "M2",
+      "variant": "broad",
+      "selection_score": NaN,
+      "threshold": 0.05,
+      "text_threshold": NaN,
+      "composite_threshold": NaN,
+      "margin_threshold": NaN,
+      "W": 6,
+      "generic_cpv_rule": "corrected_generic_cpv_features",
+      "selection_basis": "Selected from observed probability-threshold grid using synthetic precision/recall, negative controls, real BOAMP event count, manual audit labels when available, and survival event sufficiency."
+    },
+    {
+      "method": "M2",
+      "variant": "balanced",
+      "selection_score": 0.7365289753663875,
+      "threshold": 0.85,
+      "text_threshold": NaN,
+      "composite_threshold": NaN,
+      "margin_threshold": NaN,
+      "W": 6,
+      "generic_cpv_rule": "corrected_generic_cpv_features",
+      "selection_basis": "Selected from observed probability-threshold grid using synthetic precision/recall, negative controls, real BOAMP event count, manual audit labels when available, and survival event sufficiency."
+    },
+    {
+      "method": "M2",
+      "variant": "strict",
+      "selection_score": NaN,
+      "threshold": 0.95,
+      "text_threshold": NaN,
+      "composite_threshold": NaN,
+      "margin_threshold": NaN,
+      "W": 6,
+      "generic_cpv_rule": "corrected_generic_cpv_features",
+      "selection_basis": "Selected from observed probability-threshold grid using synthetic precision/recall, negative controls, real BOAMP event count, manual audit labels when available, and survival event sufficiency."
+    }
+  ],
+  "real_boamp_event_counts": [
+    {
+      "method": "M0",
+      "variant": "balanced",
+      "event_count": 269,
+      "event_rate": 0.22231404958677686
+    },
+    {
+      "method": "M0",
+      "variant": "broad",
+      "event_count": 490,
+      "event_rate": 0.4049586776859504
+    },
+    {
+      "method": "M0",
+      "variant": "strict",
+      "event_count": 79,
+      "event_rate": 0.0652892561983471
+    },
+    {
+      "method": "M1",
+      "variant": "balanced",
+      "event_count": 278,
+      "event_rate": 0.22975206611570248
+    },
+    {
+      "method": "M1",
+      "variant": "broad",
+      "event_count": 665,
+      "event_rate": 0.5495867768595041
+    },
+    {
+      "method": "M1",
+      "variant": "strict",
+      "event_count": 142,
+      "event_rate": 0.11735537190082644
+    },
+    {
+      "method": "M2",
+      "variant": "balanced",
+      "event_count": 256,
+      "event_rate": 0.2115702479338843
+    },
+    {
+      "method": "M2",
+      "variant": "broad",
+      "event_count": 665,
+      "event_rate": 0.5495867768595041
+    },
+    {
+      "method": "M2",
+      "variant": "strict",
+      "event_count": 139,
+      "event_rate": 0.11487603305785124
+    }
+  ],
+  "synthetic_benchmark_metrics_all": [
+    {
+      "method": "M0",
+      "variant": "broad",
+      "precision": 0.4761593729588504,
+      "recall": 0.6451327433628319,
+      "FP": 1604,
+      "FN": 802,
+      "event_rate": 0.6804444444444444
+    },
+    {
+      "method": "M0",
+      "variant": "balanced",
+      "precision": 0.5750111957008509,
+      "recall": 0.5681415929203539,
+      "FP": 949,
+      "FN": 976,
+      "event_rate": 0.49622222222222223
+    },
+    {
+      "method": "M0",
+      "variant": "strict",
+      "precision": 0.7751798561151079,
+      "recall": 0.38141592920353984,
+      "FP": 250,
+      "FN": 1398,
+      "event_rate": 0.24711111111111111
+    },
+    {
+      "method": "M1",
+      "variant": "broad",
+      "precision": 0.43805198082260915,
+      "recall": 0.768141592920354,
+      "FP": 2227,
+      "FN": 524,
+      "event_rate": 0.8806666666666667
+    },
+    {
+      "method": "M1",
+      "variant": "balanced",
+      "precision": 0.6785212915301825,
+      "recall": 0.6415929203539823,
+      "FP": 687,
+      "FN": 810,
+      "event_rate": 0.4748888888888889
+    },
+    {
+      "method": "M1",
+      "variant": "strict",
+      "precision": 0.7854571634269258,
+      "recall": 0.4827433628318584,
+      "FP": 298,
+      "FN": 1169,
+      "event_rate": 0.30866666666666664
+    },
+    {
+      "method": "M2",
+      "variant": "broad",
+      "precision": 0.43805198082260915,
+      "recall": 0.768141592920354,
+      "FP": 2227,
+      "FN": 524,
+      "event_rate": 0.8806666666666667
+    },
+    {
+      "method": "M2",
+      "variant": "balanced",
+      "precision": 0.6785212915301825,
+      "recall": 0.6415929203539823,
+      "FP": 687,
+      "FN": 810,
+      "event_rate": 0.4748888888888889
+    },
+    {
+      "method": "M2",
+      "variant": "strict",
+      "precision": 0.7854571634269258,
+      "recall": 0.4827433628318584,
+      "FP": 298,
+      "FN": 1169,
+      "event_rate": 0.30866666666666664
+    }
+  ],
+  "survival_results": [
+    {
+      "method": "M0",
+      "variant": "balanced",
+      "n": 1210,
+      "events": 269,
+      "event_rate": 0.22231404958677686,
+      "km_median_months": Infinity,
+      "km_median_reached": false,
+      "survival_12m": 0.9593262418851396,
+      "survival_24m": 0.9229928714737403,
+      "survival_48m": 0.8324989827689695,
+      "survival_60m": 0.7517968179148288,
+      "cox_c_index": 0.5442076079295669,
+      "best_aft_model": "LogNormalAFT",
+      "best_aft_aic": 3542.540041214592,
+      "aft_models_fit": "WeibullAFT:3570.18; LogNormalAFT:3542.54; LogLogisticAFT:3579.97",
+      "survival_dataset": "data/processed/boamp_phase2_survival_method_m0_balanced.csv",
+      "operational_risk_indicators_available": true,
+      "risk_indicator_rows": 1204,
+      "median_p_renewal_12m": 0.0198,
+      "median_p_renewal_24m": 0.0624
+    },
+    {
+      "method": "M2",
+      "variant": "balanced",
+      "n": 1210,
+      "events": 256,
+      "event_rate": 0.2115702479338843,
+      "km_median_months": Infinity,
+      "km_median_reached": false,
+      "survival_12m": 0.9582366462302292,
+      "survival_24m": 0.9194233695207331,
+      "survival_48m": 0.8405883106685981,
+      "survival_60m": 0.7560747454558635,
+      "cox_c_index": 0.5621309986375335,
+      "best_aft_model": "LogNormalAFT",
+      "best_aft_aic": 3372.1757831305695,
+      "aft_models_fit": "WeibullAFT:3404.40; LogNormalAFT:3372.18; LogLogisticAFT:3408.18",
+      "survival_dataset": "data/processed/boamp_phase2_survival_method_m2_balanced.csv",
+      "operational_risk_indicators_available": false,
+      "risk_indicator_rows": 0,
+      "median_p_renewal_12m": NaN,
+      "median_p_renewal_24m": NaN
+    },
+    {
+      "method": "M0",
+      "variant": "strict",
+      "n": 1210,
+      "events": 79,
+      "event_rate": 0.0652892561983471,
+      "km_median_months": Infinity,
+      "km_median_reached": false,
+      "survival_12m": 0.9898866360714502,
+      "survival_24m": 0.9810471724008155,
+      "survival_48m": 0.954612485098655,
+      "survival_60m": 0.9163296472815944,
+      "cox_c_index": 0.5380956275215353,
+      "best_aft_model": "LogNormalAFT",
+      "best_aft_aic": 1242.8293799655912,
+      "aft_models_fit": "WeibullAFT:1245.37; LogNormalAFT:1242.83; LogLogisticAFT:1253.32",
+      "survival_dataset": "data/processed/boamp_phase2_survival_method_m0_strict.csv",
+      "operational_risk_indicators_available": false,
+      "risk_indicator_rows": 0,
+      "median_p_renewal_12m": NaN,
+      "median_p_renewal_24m": NaN
+    }
+  ],
+  "manual_training_pairs": 96,
+  "language_guardrail": "No real BOAMP precision/recall is claimed; event means proxy recurrence."
+}

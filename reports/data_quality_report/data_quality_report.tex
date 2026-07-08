@@ -14,6 +14,7 @@
 \usepackage{xurl}
 \usepackage{xcolor}
 \usepackage{float}
+\usepackage{graphicx}
 \usepackage{setspace}
 \usepackage{parskip}
 \usepackage{enumitem}
@@ -27,7 +28,7 @@
 \setlength{\emergencystretch}{3em}
 
 \definecolor{darkblue}{RGB}{0,51,102}
-\hypersetup{colorlinks=true, linkcolor=darkblue, urlcolor=darkblue}
+\hypersetup{colorlinks=true, linkcolor=darkblue, urlcolor=darkblue, hypertexnames=false}
 
 \newcolumntype{L}[1]{>{\RaggedRight\arraybackslash\hspace{0pt}}p{#1}}
 \newcolumntype{Y}{>{\RaggedRight\arraybackslash}X}
@@ -48,12 +49,13 @@ This report documents the quality of the BOAMP corpus used to construct the
 renewal proxy and the survival modeling dataset, and whether the dataset is
 reliable enough to support Phase 2. The scope is the BOAMP-only pipeline for
 digital-sector public procurement notices in Pays de la Loire over 2015--2024.
-The official modeling population is the set of eligible \texttt{APPEL\_OFFRE}
-contracts retained in \texttt{data/processed/boamp\_phase2\_survival.csv}. In
-this report, \texttt{event = 1} denotes a \emph{proxy renewal event} found by the
+The current modeling population is the set of eligible \texttt{APPEL\_OFFRE}
+contracts retained in the selected M0 balanced dataset
+\texttt{data/processed/boamp\_phase2\_survival\_method\_m0\_balanced.csv}. In
+this report, \texttt{event = 1} denotes a \emph{proxy recurrence event} found by the
 linking algorithm; \texttt{event = 0} denotes right-censoring or no observed link
-under the rule before the study end date. It does not prove that no renewal
-occurred. The report covers: the raw corpus and final population, missing-value
+under the rule before the study end date. It does not prove that no similar
+procurement need reappeared. The report covers: the raw corpus and final population, missing-value
 and cleaning decisions, the dominant data-quality issues, duration reliability,
 buyer identification and SIREN enrichment, the exact construction of the
 \texttt{event} variable, its validation and robustness, and the limitations that
@@ -62,7 +64,9 @@ carry into survival analysis.
 \subsection*{Calibration update --- 2026-07-05}
 
 The current recommended survival input is
-\texttt{data/processed/boamp\_phase2\_survival\_calibrated\_balanced.csv},
+\texttt{data/processed/boamp\_phase2\_survival\_method\_m0\_balanced.csv}
+(equivalent event definition to
+\texttt{data/processed/boamp\_phase2\_survival\_calibrated\_balanced.csv}),
 created after calibrating the linking parameters with the synthetic BOAMP
 benchmark (scored with the same Sentence-Transformer encoder as the real
 pipeline) and real BOAMP diagnostics. The selected balanced rule is text
@@ -81,6 +85,46 @@ The balanced rule is recommended for the next survival analysis because it is
 more conservative than the broad baseline while still leaving enough events for
 Cox and AFT models. These event labels are proxy recurrences, not legally
 verified renewal chains.
+
+\subsection*{Method-comparison update --- 2026-07-08}
+
+The latest validation notebook
+\texttt{notebooks/06\_linkage\_method\_comparison\_no\_ground\_truth.ipynb}
+tested the current calibrated rule (M0), a probabilistic linkage model (M1),
+and an active-learning-assisted model (M2). The final recommendation remains
+\textbf{M0 balanced as the main method}; M2 balanced is the best alternative
+candidate for targeted manual review, not a replacement. Real BOAMP precision
+and recall are not directly observable.
+
+\begin{table}[H]
+\centering
+\caption{Method-comparison data-quality summary.}
+\small
+\begin{tabular}{llrrrr}
+\toprule
+Method & Variant & Events & Event rate & Negative-control accept. & Manual audit precision \\
+\midrule
+M0 & Balanced & 269 & 22.2\% & 9.4\% & 43.8\% \\
+M1 & Balanced & 278 & 23.0\% & 9.2\% & 32.4\% \\
+M2 & Balanced & 256 & 21.2\% & 7.8\% & 34.3\% \\
+M0 & Strict   &  79 &  6.5\% & 0.4\% & 85.7\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Across all synthetic scenarios, M0 balanced has precision 0.575 and recall
+0.568; M1/M2 balanced have precision 0.679 and recall 0.642. The active
+learning review sample contains 150 pairs, with 25 pairs in each of six review
+categories. These values come from
+\texttt{reports/tables/validation/linkage\_method\_comparison.csv},
+\texttt{linkage\_method\_comparison\_synthetic\_metrics.csv}, and
+\texttt{active\_learning\_review\_sample.csv}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.72\textwidth]{../figures/validation/method_comparison_real_event_counts}
+\caption{Real BOAMP proxy-event counts by method and variant.}
+\end{figure}
 
 % ===========================================================================
 \section{Raw BOAMP Corpus}
@@ -336,9 +380,10 @@ Numerical comparison results are saved in
     codes, or abbreviated names (\emph{e.g.}\ ``CNIEG'', ``SAELSI'', ``DIR
     Ouest'') often fail to match and remain name-keyed. Their renewal groups are
     unchanged relative to the baseline.
-  \item \textbf{The SIREN enrichment annotation does not recompute the event
-    variable.} The official phase-2 dataset (\nolinkurl{boamp_phase2_survival.csv},
-    665 events) incorporates SIREN-based buyer key merges into its
+  \item \textbf{The SIREN enrichment annotation does not by itself define the
+    current event variable.} The historical phase-2 dataset
+    (\nolinkurl{boamp_phase2_survival.csv}, 665 pre-calibration events)
+    incorporates SIREN-based buyer key merges into its
     \texttt{buyer\_key} column (724 \texttt{SIREN:} keys, 484 \texttt{NAME:} keys, 2 \texttt{SIRET:}
     keys). The file \nolinkurl{boamp_phase2_survival_siren_enriched.csv} extends it
     with four annotation columns (\texttt{buyer\_key\_enriched},
@@ -358,13 +403,12 @@ proxy.
 
 \subsection{Exact definition}
 
-\texttt{event = 1} is assigned when the linking algorithm finds a later BOAMP
-\texttt{APPEL\_OFFRE} notice from the same buyer within a window of [6, 72] months
-around the source contract's expected end date, passing a hard
-\texttt{text\_similarity} $\geq 0.20$ filter, and achieving the highest composite
-score among all candidates considered. The renewal variable is constructed by
-matching later notices from the same \texttt{buyer\_key} using text, CPV, and
-timing; BOAMP provides no explicit renewal ID.
+\texttt{event = 1} is assigned under the selected M0 balanced rule when the
+linking algorithm finds a later BOAMP \texttt{APPEL\_OFFRE} notice from the same
+buyer within the observable window, with text similarity $\geq 0.50$ and
+composite score $\geq 0.50$, after corrected generic-CPV scoring. The variable
+is constructed by matching later notices from the same \texttt{buyer\_key} using
+text, CPV, and timing; BOAMP provides no explicit recurrence-chain ID.
 
 \subsection{Scoring formula}
 
@@ -379,7 +423,7 @@ proportionally: $S = (0.40\,s_{\mathrm{text}} + 0.20\,s_{\mathrm{temp}} +
 
 \subsection{Hard threshold and justification}
 
-The \textbf{only hard acceptance threshold} in the baseline model is
+The \textbf{only hard acceptance threshold} in the pre-calibration baseline model is
 \texttt{text\_similarity} $\geq 0.20$; no composite floor is applied. The hard
 filter is placed on text similarity because semantic similarity of the contract
 description is the most reliable single discriminator between a genuine renewal
@@ -392,6 +436,11 @@ are defined for sensitivity analysis:
   \item Strict high-confidence: composite $\geq 0.70$ \emph{and} score margin
         $\geq 0.05$, multi-candidate links only --- 75 events (11.3\%).
 \end{itemize}
+
+The selected current M0 balanced rule is stricter: text similarity
+$\geq 0.50$, composite score $\geq 0.50$, $W=6$, corrected generic CPV scoring,
+and no margin floor. It produces 269 proxy recurrence events out of 1{,}210
+eligible contracts.
 
 \subsection{Interpretation of \texttt{event = 0}}
 
@@ -428,7 +477,7 @@ Linking rate, calibrated balanced & 22.2\% & Share of eligible contracts with \t
 Strict high-confidence links & 75 & Composite score $\geq 0.70$ and score margin $\geq 0.05$, \emph{excluding} the 164 single-candidate links (margin undefined). A broader count of 86 results when single-candidate links with score $\geq 0.70$ are also included. \\
 Single-candidate links & 164 & Only one surviving candidate after filtering; margin is undefined for these. \\
 Ambiguous multi-candidate links & 219 of 501 & 43.7\% of multi-candidate events have a score margin below 0.05. \\
-Main unlinked failure mode & 491 of 545 & Most unlinked contracts have no temporal partner in the search window. \\
+Main unlinked failure mode, pre-calibration baseline & 491 of 545 & Most old-baseline unlinked contracts had no temporal partner in the search window. \\
 Secondary failure modes & 25 text, 29 CPV & Some eligible contracts had a temporal partner but failed semantic or CPV checks. \\
 \bottomrule
 \end{tabularx}
@@ -518,8 +567,8 @@ LOW tier. On the 50 audited unlinked sources: 41 plausible censorings, 6
 missed renewals (12.8\% of decided cases), 3 uncertain --- the dominant miss
 causes are early renewals published before the $\pm$6-month window opens and
 buyer renames. These are \emph{sample-based audit estimates}, not
-population-level ground truth, and the ``true renewal'' judgment itself is
-based on notice content, not legal records. The practical conclusion: the
+population-level ground truth, and the manual recurrence judgment itself is
+based on notice content, not official chain records. The practical conclusion: the
 event variable is not validated at the baseline definition; only its
 high-text-similarity core carries reliable renewal meaning, and a re-linking
 with a higher text floor, corrected generic-CPV scoring and a wider window is
@@ -548,7 +597,7 @@ study-design constraint, not a measurement error in the linking rule.
 \noindent In summary, the older 55.0\% baseline linking rate should be read as a \textbf{chaining
 result}: the proportion of eligible contracts for which the algorithm identified a
 plausible BOAMP successor under the broad baseline rule. It is \emph{not} a measurement of
-the true renewal rate. The executed manual audit estimates that only
+the actual recurrence rate. The executed manual audit estimates that only
 $\approx$9--15\% of the accepted links are credible proxy recurrences (concentrated at
 high text similarity), while $\approx$13\% of audited censored contracts hide a
 missed renewal. The sensitivity analysis shows the qualitative covariate
@@ -584,7 +633,7 @@ Buyer fragmentation & Post SIREN enrichment, 724 of 1{,}210 eligible rows carry 
 Generic or missing CPV & Raw CPV missingness is 1.9\%; generic codes are capped at low similarity. & Lower match precision and weaker audit trail for some links. \\
 Sparse amount field & Only 21.4\% of source \texttt{APPEL\_OFFRE} notices have a usable amount. & Amount cannot serve as a reliable matching signal or segmentation variable. \\
 Administrative duration values & 69.5\% of observed source durations equal 12, 24, 36, or 48 months. & Declared duration should not be interpreted as realized renewal time. \\
-Observation-window censoring & 545 eligible contracts are right-censored; late cohorts have less time to reveal renewals. & Apparent non-renewal may reflect study-end truncation rather than true absence of renewal. \\
+Observation-window censoring & 941 eligible contracts are censored/no observed link under M0 balanced; late cohorts have less time to reveal recurrences. & Apparent non-recurrence may reflect study-end truncation rather than true absence of a recurring procurement need. \\
 Proxy event definition & BOAMP contains no explicit renewal label. & Event quality depends on the linking rule and should be stress-tested with confidence diagnostics. \\
 \bottomrule
 \end{tabularx}
@@ -597,18 +646,26 @@ This report is reproducible from tracked project outputs. The core files are:
 
 \begin{itemize}
 	\item \path{data/processed/boamp_full_clean.csv}
-	\item \path{data/processed/boamp_phase2_survival.csv}
+	\item \path{data/processed/boamp_phase2_survival_method_m0_balanced.csv}
+	\item \path{data/processed/boamp_phase2_survival_calibrated_balanced.csv}
 	\item \path{boamp_renewal_linking_quality/outputs/boamp_linking_stats.csv}
 	\item \path{boamp_renewal_linking_quality/outputs/boamp_renewal_links.csv}
 	\item \path{boamp_renewal_linking_quality/outputs/boamp_renewal_candidates.csv}
 	\item \path{boamp_renewal_linking_quality/outputs/boamp_bias_report.csv}
 	\item \path{boamp_renewal_linking_quality/outputs/boamp_link_confidence_diagnostics.csv}
+	\item \path{notebooks/06_linkage_method_comparison_no_ground_truth.ipynb}
+	\item \path{reports/tables/validation/linkage_method_comparison.csv}
+	\item \path{reports/tables/validation/final_method_recommendation.csv}
+	\item \path{reports/tables/validation/method_survival_comparison.csv}
 \end{itemize}
 
 The relevant pipeline steps are implemented in \path{scripts/task_boamp_full_clean.py},
-\path{scripts/task9_boamp_phase2_handoff.py}, and
-\path{scripts/task10_link_confidence_diagnostics.py}. No manual, untracked data
-manipulation is required to reproduce the counts reported here.
+\path{scripts/task9_boamp_phase2_handoff.py},
+\path{scripts/task10_link_confidence_diagnostics.py}, and
+\path{scripts/linkage_method_comparison_no_ground_truth.py}. No manual,
+untracked data manipulation is required to reproduce the counts reported here.
+The latest refresh date for the method-comparison outputs is 2026-07-08. The
+PDF rebuild command is \path{latexmk -pdf -cd reports/data_quality_report/data_quality_report.tex}.
 
 % ===========================================================================
 \section{Conclusion}
@@ -618,8 +675,8 @@ requirement for Phase 1 because it provides a documented corpus, explicit cleani
 rules, missingness information, a transparent linking rate, and a survival-ready
 population of 1{,}210 eligible contracts with either observed or censored duration.
 The main limitation is conceptual rather than technical: \texttt{event} remains a
-proxy recurrence event, not legal ground truth. The current 22.2\% balanced
-figure is a chaining/linking rate, not a measured true renewal rate; SIREN
+proxy recurrence event, not official renewal-chain ground truth. The current 22.2\% balanced
+figure is a chaining/linking rate, not a measured recurrence rate; SIREN
 enrichment is a buyer-resolution improvement, not ground truth. The 150-row manual review (executed 2026-07-02)
 puts an empirical bound on event quality: precision $\approx$9--15\% overall,
 0.50 in the HIGH/strict tier, 1.00 at text similarity $\geq$0.80, and a 12.8\%
