@@ -31,8 +31,25 @@
     "M1": "LogisticRegression classifier trained on synthetic benchmark pair labels; Splink and recordlinkage were unavailable.",
     "M2": "Active-learning-assisted LogisticRegression using synthetic labels plus mapped manual TP/FP accepted-link labels where available."
   },
-  "selected_method": "M0",
-  "recommendation": "retain_m0_balanced_as_main_method",
+  "selected_method": "M2",
+  "recommendation": "promote_m2_balanced_to_main_method",
+  "benchmark_preferred_method": "M2",
+  "m0_role": "conservative_baseline_sensitivity",
+  "best_alternative_role": "main_method_benchmark_preferred",
+  "promotion_criteria": {
+    "score_exceeds_m0_by_margin": true,
+    "negative_control_not_worse_than_m0": true,
+    "event_count_sufficient_for_survival": true,
+    "synthetic_real_profile_shift_acceptable": true,
+    "same_text_backend_as_real_pipeline": true
+  },
+  "text_similarity_backend": "sentence_transformers",
+  "synthetic_real_text_shift": {
+    "M0": 0.12825151767730714,
+    "M1": 0.04575025463104243,
+    "M2": 0.04475025463104254
+  },
+  "manual_audit_role": "Diagnostic only: audit sample stratified on the pre-calibration baseline's links; mapped audit precision is baseline-anchored and excluded from selection scores.",
   "selected_thresholds": [
     {
       "method": "M0",
@@ -85,8 +102,8 @@
     {
       "method": "M1",
       "variant": "balanced",
-      "selection_score": 0.7325463559736736,
-      "threshold": 0.85,
+      "selection_score": 0.7955152422828045,
+      "threshold": 0.65,
       "text_threshold": NaN,
       "composite_threshold": NaN,
       "margin_threshold": NaN,
@@ -121,8 +138,8 @@
     {
       "method": "M2",
       "variant": "balanced",
-      "selection_score": 0.7365289753663875,
-      "threshold": 0.85,
+      "selection_score": 0.7969939489074102,
+      "threshold": 0.65,
       "text_threshold": NaN,
       "composite_threshold": NaN,
       "margin_threshold": NaN,
@@ -165,38 +182,38 @@
     {
       "method": "M1",
       "variant": "balanced",
-      "event_count": 278,
-      "event_rate": 0.22975206611570248
-    },
-    {
-      "method": "M1",
-      "variant": "broad",
-      "event_count": 665,
-      "event_rate": 0.5495867768595041
-    },
-    {
-      "method": "M1",
-      "variant": "strict",
-      "event_count": 142,
-      "event_rate": 0.11735537190082644
-    },
-    {
-      "method": "M2",
-      "variant": "balanced",
       "event_count": 256,
       "event_rate": 0.2115702479338843
     },
     {
+      "method": "M1",
+      "variant": "broad",
+      "event_count": 664,
+      "event_rate": 0.5487603305785124
+    },
+    {
+      "method": "M1",
+      "variant": "strict",
+      "event_count": 92,
+      "event_rate": 0.07603305785123966
+    },
+    {
+      "method": "M2",
+      "variant": "balanced",
+      "event_count": 254,
+      "event_rate": 0.20991735537190082
+    },
+    {
       "method": "M2",
       "variant": "broad",
-      "event_count": 665,
-      "event_rate": 0.5495867768595041
+      "event_count": 664,
+      "event_rate": 0.5487603305785124
     },
     {
       "method": "M2",
       "variant": "strict",
-      "event_count": 139,
-      "event_rate": 0.11487603305785124
+      "event_count": 92,
+      "event_rate": 0.07603305785123966
     }
   ],
   "synthetic_benchmark_metrics_all": [
@@ -230,56 +247,56 @@
     {
       "method": "M1",
       "variant": "broad",
-      "precision": 0.43805198082260915,
-      "recall": 0.768141592920354,
-      "FP": 2227,
-      "FN": 524,
-      "event_rate": 0.8806666666666667
+      "precision": 0.4495575221238938,
+      "recall": 0.7867256637168142,
+      "FP": 2177,
+      "FN": 482,
+      "event_rate": 0.8788888888888889
     },
     {
       "method": "M1",
       "variant": "balanced",
-      "precision": 0.6785212915301825,
-      "recall": 0.6415929203539823,
-      "FP": 687,
-      "FN": 810,
-      "event_rate": 0.4748888888888889
+      "precision": 0.6117473217584042,
+      "recall": 0.7327433628318584,
+      "FP": 1051,
+      "FN": 604,
+      "event_rate": 0.6015555555555555
     },
     {
       "method": "M1",
       "variant": "strict",
-      "precision": 0.7854571634269258,
-      "recall": 0.4827433628318584,
-      "FP": 298,
-      "FN": 1169,
-      "event_rate": 0.30866666666666664
+      "precision": 0.8205128205128205,
+      "recall": 0.49557522123893805,
+      "FP": 245,
+      "FN": 1140,
+      "event_rate": 0.30333333333333334
     },
     {
       "method": "M2",
       "variant": "broad",
-      "precision": 0.43805198082260915,
-      "recall": 0.768141592920354,
-      "FP": 2227,
-      "FN": 524,
-      "event_rate": 0.8806666666666667
+      "precision": 0.4495575221238938,
+      "recall": 0.7867256637168142,
+      "FP": 2177,
+      "FN": 482,
+      "event_rate": 0.8788888888888889
     },
     {
       "method": "M2",
       "variant": "balanced",
-      "precision": 0.6785212915301825,
-      "recall": 0.6415929203539823,
-      "FP": 687,
-      "FN": 810,
-      "event_rate": 0.4748888888888889
+      "precision": 0.6117473217584042,
+      "recall": 0.7327433628318584,
+      "FP": 1051,
+      "FN": 604,
+      "event_rate": 0.6015555555555555
     },
     {
       "method": "M2",
       "variant": "strict",
-      "precision": 0.7854571634269258,
-      "recall": 0.4827433628318584,
-      "FP": 298,
-      "FN": 1169,
-      "event_rate": 0.30866666666666664
+      "precision": 0.8205128205128205,
+      "recall": 0.49557522123893805,
+      "FP": 245,
+      "FN": 1140,
+      "event_rate": 0.30333333333333334
     }
   ],
   "survival_results": [
@@ -309,23 +326,23 @@
       "method": "M2",
       "variant": "balanced",
       "n": 1210,
-      "events": 256,
-      "event_rate": 0.2115702479338843,
+      "events": 254,
+      "event_rate": 0.20991735537190082,
       "km_median_months": Infinity,
       "km_median_reached": false,
-      "survival_12m": 0.9582366462302292,
-      "survival_24m": 0.9194233695207331,
-      "survival_48m": 0.8405883106685981,
-      "survival_60m": 0.7560747454558635,
-      "cox_c_index": 0.5621309986375335,
+      "survival_12m": 0.955835208475405,
+      "survival_24m": 0.9206697976230506,
+      "survival_48m": 0.8401250301747325,
+      "survival_60m": 0.759505407906109,
+      "cox_c_index": 0.553401633996557,
       "best_aft_model": "LogNormalAFT",
-      "best_aft_aic": 3372.1757831305695,
-      "aft_models_fit": "WeibullAFT:3404.40; LogNormalAFT:3372.18; LogLogisticAFT:3408.18",
+      "best_aft_aic": 3357.886656296012,
+      "aft_models_fit": "WeibullAFT:3390.56; LogNormalAFT:3357.89; LogLogisticAFT:3392.03",
       "survival_dataset": "data/processed/boamp_phase2_survival_method_m2_balanced.csv",
-      "operational_risk_indicators_available": false,
-      "risk_indicator_rows": 0,
-      "median_p_renewal_12m": NaN,
-      "median_p_renewal_24m": NaN
+      "operational_risk_indicators_available": true,
+      "risk_indicator_rows": 1204,
+      "median_p_renewal_12m": 0.0206,
+      "median_p_renewal_24m": 0.0634
     },
     {
       "method": "M0",

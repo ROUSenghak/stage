@@ -17,7 +17,7 @@ enrichment path, but it is **not part of the current official Phase 2 handoff**.
 |---|---|---|---|
 | L1 | Data quality report | Done | `reports/phase1_data_quality_report.md` |
 | L2 | Annotated corpus + NLP model | Partial — handled separately by the team | Rule-based CPV/keyword taxonomy (`data/processed/taxonomy.csv`) used as provisional segment variable; does not block L3; pipeline reruns unchanged once NLP labels are delivered |
-| L3 | Survival analysis notebook | **Done** | KM curves, validated Cox model (C-index 0.544, PH-checked), parametric AFT incl. Weibull (tested, not retained; LogNormalAFT selected), 12/24-month predictions, high-risk contract/buyer/segment tables — all on the official M0 balanced dataset (`data/processed/boamp_phase2_survival_method_m0_balanced.csv`); see `notebooks/07_calibrated_survival_analysis.ipynb` |
+| L3 | Survival analysis notebook | **Done** | KM curves, validated Cox model (C-index 0.553 official reduced spec, PH-checked; 0.606 richer category-aware spec), parametric AFT incl. Weibull (tested, not retained; LogNormalAFT selected), 12/24-month predictions, high-risk contract/buyer/segment tables — all on the selected M2 balanced dataset (`data/processed/boamp_phase2_survival_method_m2_balanced.csv`), with M0 balanced kept as the conservative baseline sensitivity; see `notebooks/07_calibrated_survival_analysis.ipynb` |
 | L4 | Trend report (change-point detection) | Not started | Scoped, Phase 4 |
 | L5 | Final methodological report | In progress | `reports/internship_report.tex`, `reports/phase1_technical_report.tex` |
 | L6 | Documented pipeline, Git repository | Done | see run order below |
@@ -82,11 +82,19 @@ python event_validation/extract_boamp_validation_records_from_json.py
 # text >= 0.50, composite >= 0.50, W = 6, corrected generic CPV scoring, no margin floor.
 python scripts/task_section16b_calibrated_risk_indicators.py  # 12/24-month risk under the balanced rule
 
-# Phase 6 — method comparison without real BOAMP ground truth (executed 2026-07-08)
+# Phase 6 — method comparison without real BOAMP ground truth
+# (executed 2026-07-08; reassessed same day with ST-scored synthetic pairs and
+#  an audit-free selection score — see AUDIT.md)
 python scripts/linkage_method_comparison_no_ground_truth.py
 # Notebook: notebooks/06_linkage_method_comparison_no_ground_truth.ipynb
-# Final selected method remains M0 balanced; M2 balanced is the best alternative
-# candidate for targeted manual review, not the current replacement.
+# Final selected method: M2 balanced (promoted by the transparent promotion
+# rule; all five criteria pass). M0 balanced is retained as the conservative
+# transparent baseline sensitivity. The mapped manual audit is a diagnostic
+# only (its sample was stratified on the pre-calibration baseline's links).
+python scripts/task_section16b_calibrated_risk_indicators.py \
+    data/processed/boamp_phase2_survival_method_m2_balanced.csv \
+    _m2_balanced "M2 balanced (selected method)"   # 12/24-month risk under M2 balanced
+python scripts/task_l3_cox_ph_diagnostics_m0_balanced.py  # PH checks, M0 + M2 balanced
 ```
 
 **Manual-validation headline (2026-07-02):** on a 150-case stratified audit,
@@ -94,30 +102,43 @@ the proxy `event` has an estimated precision of only **~9–15%** overall
 (0.50 in the HIGH/strict tier, 1.00 at text similarity ≥ 0.80, 0.00 in the LOW
 tier), and ~13% of audited censored contracts hide a missed proxy recurrence.
 Survival results describe algorithm-identifiable same-buyer re-publications,
-not verified renewal-chain outcomes. See
+not verified renewal-chain outcomes. Because the audit sample was stratified on
+the pre-calibration baseline's own links and confidence tiers, mapped audit
+precision is a baseline-anchored plausibility diagnostic and is **not** used to
+arbitrate between M0, M1, and M2. See
 `event_validation/manual_validation_summary.md`.
 
-**Current selected recommendation (2026-07-08 method comparison):** the main
-event definition remains **M0 balanced**, the calibrated composite rule selected from
-the synthetic benchmark (scored with the same Sentence-Transformer encoder as
-the real pipeline) plus real BOAMP diagnostics: text similarity ≥ 0.50,
-composite score ≥ 0.50, temporal window W=6, corrected generic CPV scoring, and
-no margin floor. It produces **269 proxy events out of 1,210 eligible BOAMP
-source contracts** (22.2%). Broad and strict variants are kept for sensitivity:
-broad = 490 events (40.5%, text ≥ 0.40, no floors), strict = 79 events (6.5%,
-text ≥ 0.70, composite ≥ 0.65; flagged LOW_EVENTS for Cox/AFT stability). These
-are proxy recurrence labels, not real BOAMP ground truth. M1 probabilistic
-linkage and M2 active-learning-assisted linkage were tested in
-`notebooks/06_linkage_method_comparison_no_ground_truth.ipynb`; M2 balanced is
-the best alternative candidate, but it does not replace M0 in the current
-reports.
+**Current selected recommendation (2026-07-08 method comparison, reassessed):**
+the main event definition is **M2 balanced** — a probabilistic
+(active-learning-assisted) match-probability model over the same engineered
+features as the composite rule, applied at threshold 0.65 — promoted because,
+with the synthetic pairs scored by the same Sentence-Transformer encoder as
+the real pipeline, it improves benchmark-estimated precision (0.612 vs 0.575)
+and recall (0.733 vs 0.568) over M0 balanced in every scenario, has a lower
+real-data negative-control acceptance rate (7.9% vs 9.4%), a smaller
+synthetic-to-real accepted-link profile shift (0.045 vs 0.128), and enough
+events for survival modeling. It produces **254 proxy events out of 1,210
+eligible BOAMP source contracts** (21.0%). **M0 balanced** (text ≥ 0.50,
+composite ≥ 0.50, W=6, corrected generic CPV scoring; 269 events, 22.2%) is
+retained as the **conservative, fully transparent rule-based baseline**; M0
+broad = 490 events (40.5%) and M0 strict = 79 events (6.5%; flagged LOW_EVENTS)
+remain sensitivity bounds. All of these are proxy recurrence labels
+(identifiable reappearances of a similar procurement need), not real BOAMP
+ground truth. The mapped manual-audit precision was **excluded from the
+selection score**: the 150-case audit sample was stratified on the
+pre-calibration baseline's own links and confidence tiers, so it is a
+baseline-anchored plausibility diagnostic, not an independent validation set
+for comparing M0, M1, and M2. Headline survival results are stable across M0
+and M2 balanced (12-month survival 95.9% vs 95.6%), so substantive conclusions
+do not hinge on the method choice.
 
 The earlier Phase 2 modeling input is
 `data/processed/boamp_phase2_survival.csv`, exported from the BOAMP renewal-linking
 notebook output `boamp_renewal_linking_quality/outputs/boamp_renewal_links.csv`.
 The current selected input is
-`data/processed/boamp_phase2_survival_method_m0_balanced.csv`; the equivalent
-calibrated-rule input remains
+`data/processed/boamp_phase2_survival_method_m2_balanced.csv`; the conservative
+baseline inputs are `data/processed/boamp_phase2_survival_method_m0_balanced.csv`
+and the equivalent calibrated-rule file
 `data/processed/boamp_phase2_survival_calibrated_balanced.csv`.
 
 The original 500-notice sample (`task1_boamp_fetch.py`) is kept for reference
@@ -145,11 +166,13 @@ python scripts/task8_unified_survival.py     # mixed BOAMP + DECP survival datas
 | `data/processed/boamp_full_flat.csv` | **3,181 BOAMP notices, flattened** (primary) |
 | `data/processed/boamp_full_clean.csv` | **3,181 notices, cleaned** — buyer keys, amounts, durations, taxonomy |
 | `data/processed/boamp_phase2_survival.csv` | historical BOAMP-only Phase 2 handoff — one row per eligible AO with the pre-calibration 665-event output |
-| `data/processed/boamp_phase2_survival_method_m0_balanced.csv` | **current selected survival input** — M0 balanced, 1,210 rows / 269 proxy events |
-| `data/processed/boamp_phase2_survival_calibrated_balanced.csv` | equivalent calibrated balanced survival input, 1,210 rows / 269 events |
+| `data/processed/boamp_phase2_survival_method_m2_balanced.csv` | **current selected survival input** — M2 balanced, 1,210 rows / 254 proxy events |
+| `data/processed/boamp_phase2_survival_method_m0_balanced.csv` | conservative baseline survival input — M0 balanced, 1,210 rows / 269 proxy events |
+| `data/processed/boamp_phase2_survival_calibrated_balanced.csv` | equivalent calibrated balanced (M0) survival input, 1,210 rows / 269 events |
 | `data/processed/boamp_phase2_survival_calibrated_broad.csv` | broad sensitivity survival input, 1,210 rows / 490 events |
 | `data/processed/boamp_phase2_survival_calibrated_strict.csv` | strict sensitivity survival input, 1,210 rows / 79 events |
-| `reports/tables/survival/renewal_risk_12_24_months_calibrated_balanced.csv` | 12/24-month risk indicators re-scored under the balanced rule |
+| `reports/tables/survival/renewal_risk_12_24_months_m2_balanced.csv` | 12/24-month risk indicators under the selected M2 balanced method |
+| `reports/tables/survival/renewal_risk_12_24_months_calibrated_balanced.csv` | 12/24-month risk indicators under the M0 balanced baseline rule |
 | `data/processed/boamp_phase2_survival_report.md` | BOAMP-only handoff dataset report |
 | `data/processed/boamp_full_survival.csv` | **1,933 APPEL_OFFRE survival records** — event/censoring, ±6 month window |
 | `data/processed/boamp_full_survival_report.md` | survival dataset composition report |
@@ -179,9 +202,9 @@ python scripts/task8_unified_survival.py     # mixed BOAMP + DECP survival datas
 | `notebooks/06_linkage_method_comparison_no_ground_truth.ipynb` | compares M0/M1/M2 without assuming real BOAMP ground truth |
 | `notebooks/07_calibrated_survival_analysis.ipynb` | survival rerun under calibrated broad/balanced/strict rules |
 | `reports/tables/validation/recommended_event_rules.csv` | selected broad, balanced, and strict parameter rules |
-| `reports/tables/validation/linkage_method_comparison.csv` | real BOAMP M0/M1/M2 event counts, negative controls, manual-audit precision |
+| `reports/tables/validation/linkage_method_comparison.csv` | real BOAMP M0/M1/M2 event counts, negative controls, mapped-audit diagnostic |
 | `reports/tables/validation/linkage_method_comparison_synthetic_metrics.csv` | synthetic precision/recall/FP/FN for M0/M1/M2 |
-| `reports/tables/validation/final_method_recommendation.csv` | final selected method: M0 balanced |
+| `reports/tables/validation/final_method_recommendation.csv` | final selected method: M2 balanced (with promotion criteria and roles) |
 | `reports/tables/validation/method_survival_comparison.csv` | survival comparison for M0 balanced, M2 balanced, and M0 strict |
 | `reports/tables/validation/active_learning_review_sample.csv` | 150-pair targeted review queue for active learning |
 | `reports/tables/validation/calibrated_real_event_definition_summary.csv` | real BOAMP event counts and diagnostics under the calibrated rules |
@@ -192,8 +215,10 @@ python scripts/task8_unified_survival.py     # mixed BOAMP + DECP survival datas
 | `archive/obsolete_20260702/` | archived obsolete files (see its README; nothing there is used by the pipeline) |
 
 **Source of truth (current selected method-comparison path):**
-`data/processed/boamp_phase2_survival_method_m0_balanced.csv` (W=6, 1,210 rows /
-269 proxy events), `reports/tables/validation/final_method_recommendation.csv`,
+`data/processed/boamp_phase2_survival_method_m2_balanced.csv` (1,210 rows /
+254 proxy events, selected main method),
+`data/processed/boamp_phase2_survival_method_m0_balanced.csv` (269 events,
+conservative baseline), `reports/tables/validation/final_method_recommendation.csv`,
 `reports/tables/validation/linkage_method_comparison.csv`, and
 `notebooks/06_linkage_method_comparison_no_ground_truth.ipynb`. The earlier
 `data/processed/boamp_phase2_survival.csv` file (665 events) is retained as the

@@ -2,7 +2,7 @@
 ## BOAMP Procurement Renewal Linking — Pays-de-la-Loire (2015–2024)
 
 **Prepared:** 2026-06-17  
-**Dataset:** `data/processed/boamp_phase2_survival_method_m0_balanced.csv`  
+**Dataset:** `data/processed/boamp_phase2_survival_method_m2_balanced.csv` (selected main); `boamp_phase2_survival_method_m0_balanced.csv` (conservative baseline)  
 **Study period:** 2015-01-01 to 2024-12-31  
 **Scope:** Digital/ICT contracts (CPV divisions 48, 72, 32, 35), Pays-de-la-Loire (departments 44, 49, 53, 72, 85)
 
@@ -42,11 +42,11 @@ scenarios (easy, medium, hard), reproducing the observed BOAMP failure modes
 text, timing shifts, large-buyer ambiguity). It is scored with the **same
 Sentence-Transformer encoder as the real pipeline**
 (`paraphrase-multilingual-MiniLM-L12-v2`). A full threshold grid was scored and
-three explicit rules were selected — broad, balanced, strict. The current
-recommended survival input is
-`data/processed/boamp_phase2_survival_method_m0_balanced.csv`, not the older
-665-event baseline. In the method-comparison experiment this rule is called
-**M0 balanced**:
+three explicit rules were selected — broad, balanced, strict. In the
+method-comparison experiment this rule family is called **M0**; its balanced
+member (below) was the recommended input until 2026-07-08 and is now the
+conservative baseline. Neither is the older 665-event baseline, which is
+historical only. M0 balanced parameters:
 
 | Parameter | Value |
 |---|---|
@@ -71,28 +71,41 @@ strict sensitivity rules are retained: broad = 490 events (40.5%), strict = 79
 events (6.5%, flagged LOW_EVENTS). All three calibrated datasets pass the
 survival-readiness integrity checks.
 
-The 2026-07-08 method-comparison notebook then compared the current calibrated
+The 2026-07-08 method-comparison notebook then compared the calibrated
 composite rule (M0) with probabilistic linkage (M1) and active-learning-assisted
-linkage (M2). M1 and M2 balanced improve synthetic benchmark precision/recall
-to 0.679/0.642, but the available manual labels are limited. The final
-recommendation remains **M0 balanced** as the current main method. M2 balanced
-is retained as the best alternative sensitivity candidate.
+linkage (M2), with the synthetic pairs scored by the same Sentence-Transformer
+encoder as the real pipeline. M1/M2 balanced improve benchmark-estimated
+precision/recall to 0.612/0.733 (vs 0.575/0.568 for M0 balanced) in every
+scenario, and M2 balanced also lowers the real-data negative-control
+acceptance rate (7.9% vs 9.4%). The final recommendation **promotes M2
+balanced to the main method** (254 events, 21.0%), via a transparent
+promotion rule whose selection score deliberately excludes mapped
+manual-audit precision: the 150-case audit sample was stratified on the
+pre-calibration baseline's own links and confidence tiers, so it is a
+baseline-anchored plausibility diagnostic, not an independent validation set
+for comparing M0, M1, and M2. **M0 balanced is retained as the conservative
+transparent baseline** sensitivity; M1 (which never uses audit labels) shows
+nearly identical gains, confirming the promotion does not rest on
+audit-informed training.
 
 ![Real BOAMP proxy-event rate under the three calibrated rules](figures/validation/calibrated_real_event_rates.png)
 
-The calibrated survival rerun shows the KM median is not reached for any of
-the three rules. Under the balanced rule, survival is 95.9% at 12 months,
-92.3% at 24 months, 90.5% at 36 months, 83.2% at 48 months, and 75.2% at 60
-months; the Cox C-index is 0.544 (reduced 3-covariate spec used for the
-M0/M1/M2/strict comparison; a richer category-aware spec on the same data
-gives 0.592 and is kept as a secondary fit), and LogNormalAFT is the best AFT
-model by AIC (3,542.5; Weibull 3,570.2, tested but not retained;
-LogLogistic 3,580.0). The Schoenfeld test on the official 0.544 spec flags a
-PH violation for `declared_duration_months` only (p<10⁻²⁴); the log-normal
-AFT is used as the PH-assumption-free cross-check. Operational risk
-indicators score 1,204 contracts, with median 12-month risk 0.0198 and median
-24-month risk 0.0624. These results describe algorithm-identifiable proxy
-recurrences, not verified renewal-chain outcomes.
+The survival rerun shows the KM median is not reached under any current
+definition. Under the selected M2 balanced method, survival is 95.6% at 12
+months, 92.1% at 24 months, 90.3% at 36 months, 84.0% at 48 months, and 76.0%
+at 60 months; the official reduced-spec Cox C-index is 0.553 (richer
+category-aware spec 0.606), and LogNormalAFT is the best AFT model by AIC
+(3,357.9 in the method-comparison rerun; Weibull 3,404.4, tested but not
+retained). Under the M0 balanced baseline the corresponding figures are 269
+events, 12-month survival 95.9%, C-index 0.544 (richer spec 0.592), and
+LogNormalAFT AIC 3,542.5 — AIC values are not comparable across event
+definitions. The Schoenfeld test on the official reduced spec flags a PH
+violation for `declared_duration_months` only (p<10⁻²⁴, both methods); the
+log-normal AFT is used as the PH-assumption-free cross-check. Operational risk
+indicators score 1,204 contracts under M2 balanced, with median 12-month risk
+0.0206 and median 24-month risk 0.0634 (M0 balanced baseline: 0.0198 and
+0.0624). These results describe algorithm-identifiable proxy recurrences, not
+verified renewal-chain outcomes.
 
 ![Kaplan-Meier curves under the three calibrated proxy-event rules](figures/survival/calibrated_rules_km_curves.png)
 
@@ -106,10 +119,12 @@ real link is an externally verified renewal-chain link.
 **Conclusion.** The calibration phase's main deliverable is a change of
 objective, not a single statistic: the project moved from **maximizing
 linkage quantity** (665 events, 55.0%, uncalibrated) to **maximizing
-analytical reliability** (269 events, 22.2%, calibrated against a controlled
-benchmark). The sections below document the original BOAMP data quality and
-the earlier baseline construction. They remain useful for provenance, but the
-M0 balanced file is the recommended modeling input.
+analytical reliability** against a controlled benchmark (M0 balanced, 269
+events, 22.2%; then the selected M2 balanced, 254 events, 21.0%). The sections
+below document the original BOAMP data quality and the earlier baseline
+construction. They remain useful for provenance, but the M2 balanced file is
+the current modeling input and the M0 balanced file is the conservative
+baseline.
 
 ---
 
@@ -315,8 +330,9 @@ Links are stratified into three confidence tiers based on composite score:
 
 For the earlier Phase 2 sensitivity analysis, a conservative scenario dropped
 LOW-tier links to `event = 0` (400 events instead of 665). After the 2026-07-05
-calibration, the recommended primary analysis is the balanced rule with 269
-events.
+calibration the primary analysis moved to the M0 balanced rule (269 events),
+and after the 2026-07-08 method comparison to the selected M2 balanced method
+(254 events), with M0 balanced as the conservative baseline.
 
 ---
 
@@ -325,7 +341,10 @@ events.
 1. **No real BOAMP ground truth.** BOAMP has no official renewal-chain
 labels. The synthetic benchmark gives controlled precision/recall because its
 links are known by construction; real BOAMP still only has proxy recurrence
-labels and diagnostic linking rates.
+labels and diagnostic linking rates. The 150-case manual audit is a
+plausibility diagnostic, and because its sample was stratified on the
+pre-calibration baseline's own links it is baseline-anchored: mapped audit
+precision cannot fairly arbitrate between linkage methods (M0/M1/M2).
 
 2. **Buyer fragmentation.** 94.1% of buyer keys are name-based. A single public entity with naming variants across years will appear as multiple buyer keys, blocking valid links. This is the primary source of false negatives. Enriching buyer identification with SIRET/SIREN data is a planned future improvement; it requires a cross-source join not available in the current BOAMP-only pipeline.
 

@@ -1,6 +1,9 @@
 file,exists,size_bytes,status
-reports/tables/survival/calibrated_rule_km_summary.csv,True,514,PASS
-reports/tables/survival/calibrated_rule_cox_comparison.csv,True,6420,PASS
+reports/tables/survival/calibrated_rule_km_summary.csv,True,652,PASS
+reports/tables/survival/calibrated_rule_cox_comparison.csv,True,8541,PASS
 reports/tables/survival/calibrated_balanced_aft_comparison.csv,True,219,PASS
-reports/figures/survival/calibrated_rules_km_curves.png,True,130009,PASS
-reports/figures/survival/calibrated_rules_cox_hazard_ratios.png,True,123637,PASS
+reports/tables/survival/m2_balanced_aft_comparison.csv,True,222,PASS
+reports/tables/survival/m0_balanced_cox_ph_assumption_test.csv,True,418,PASS
+reports/tables/survival/m2_balanced_cox_ph_assumption_test.csv,True,417,PASS
+reports/figures/survival/calibrated_rules_km_curves.png,True,145538,PASS
+reports/figures/survival/calibrated_rules_cox_hazard_ratios.png,True,154392,PASS

@@ -27,6 +27,19 @@ reviewer (Claude); borderline cases were marked UNCERTAIN rather than forced.
 ground truth.** There is no legal renewal register; even a "TP" label means
 *credible* renewal, not certified renewal.
 
+**Scope limitation for method comparison (added 2026-07-08).** The sample was
+stratified on the *pre-calibration baseline's* own event flags, score margins,
+and confidence tiers, and its 100 linked pairs are pairs chosen by that
+baseline. When these labels are mapped onto the links of other methods
+(M0/M1/M2 in `notebooks/06_linkage_method_comparison_no_ground_truth.ipynb`),
+each method is evaluated only on the ~12–14% of its links that coincide with
+baseline-audited pairs (n≈32–35 decided pairs per balanced variant). Mapped
+audit precision is therefore a **baseline-anchored plausibility diagnostic**;
+it is not an independent validation set and is excluded from the
+method-selection score. A method-neutral audit of the selected method's links
+(see `reports/tables/validation/active_learning_review_sample.csv`) remains
+open follow-up work.
+
 ## Results
 
 | Quantity | Value |

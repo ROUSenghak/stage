@@ -50,8 +50,11 @@ renewal proxy and the survival modeling dataset, and whether the dataset is
 reliable enough to support Phase 2. The scope is the BOAMP-only pipeline for
 digital-sector public procurement notices in Pays de la Loire over 2015--2024.
 The current modeling population is the set of eligible \texttt{APPEL\_OFFRE}
-contracts retained in the selected M0 balanced dataset
-\texttt{data/processed/boamp\_phase2\_survival\_method\_m0\_balanced.csv}. In
+contracts retained in the selected M2 balanced dataset
+\texttt{data/processed/boamp\_phase2\_survival\_method\_m2\_balanced.csv}
+(M0 balanced,
+\texttt{boamp\_phase2\_survival\_method\_m0\_balanced.csv}, is the
+conservative baseline). In
 this report, \texttt{event = 1} denotes a \emph{proxy recurrence event} found by the
 linking algorithm; \texttt{event = 0} denotes right-censoring or no observed link
 under the rule before the study end date. It does not prove that no similar
@@ -63,7 +66,7 @@ carry into survival analysis.
 
 \subsection*{Calibration update --- 2026-07-05}
 
-The current recommended survival input is
+The calibrated-rule survival input is
 \texttt{data/processed/boamp\_phase2\_survival\_method\_m0\_balanced.csv}
 (equivalent event definition to
 \texttt{data/processed/boamp\_phase2\_survival\_calibrated\_balanced.csv}),
@@ -81,20 +84,25 @@ The calibrated rules give:
         \texttt{LOW\_EVENTS} for Cox/AFT stability).
 \end{itemize}
 
-The balanced rule is recommended for the next survival analysis because it is
-more conservative than the broad baseline while still leaving enough events for
-Cox and AFT models. These event labels are proxy recurrences, not legally
-verified renewal chains.
+The balanced rule was the recommended survival input until the 2026-07-08
+method comparison (below) promoted M2 balanced; it now serves as the
+conservative transparent baseline. These event labels are proxy recurrences,
+not legally verified renewal chains.
 
 \subsection*{Method-comparison update --- 2026-07-08}
 
 The latest validation notebook
 \texttt{notebooks/06\_linkage\_method\_comparison\_no\_ground\_truth.ipynb}
-tested the current calibrated rule (M0), a probabilistic linkage model (M1),
-and an active-learning-assisted model (M2). The final recommendation remains
-\textbf{M0 balanced as the main method}; M2 balanced is the best alternative
-candidate for targeted manual review, not a replacement. Real BOAMP precision
-and recall are not directly observable.
+tested the calibrated rule (M0), a probabilistic linkage model (M1),
+and an active-learning-assisted model (M2), with the synthetic pairs scored by
+the same Sentence-Transformer encoder as the real pipeline. The final
+recommendation \textbf{promotes M2 balanced to the main method} (254 events,
+21.0\%; all five criteria of the transparent, audit-free promotion rule
+pass); \textbf{M0 balanced is the conservative transparent baseline}. Mapped
+manual-audit precision is reported as a diagnostic only: the audit sample was
+stratified on the pre-calibration baseline's own links, so it is
+baseline-anchored and cannot fairly arbitrate between M0, M1, and M2. Real
+BOAMP precision and recall are not directly observable.
 
 \begin{table}[H]
 \centering
@@ -102,18 +110,19 @@ and recall are not directly observable.
 \small
 \begin{tabular}{llrrrr}
 \toprule
-Method & Variant & Events & Event rate & Negative-control accept. & Manual audit precision \\
+Method & Variant & Events & Event rate & Negative-control accept. & Mapped-audit diagnostic \\
 \midrule
-M0 & Balanced & 269 & 22.2\% & 9.4\% & 43.8\% \\
-M1 & Balanced & 278 & 23.0\% & 9.2\% & 32.4\% \\
-M2 & Balanced & 256 & 21.2\% & 7.8\% & 34.3\% \\
-M0 & Strict   &  79 &  6.5\% & 0.4\% & 85.7\% \\
+M0 & Balanced & 269 & 22.2\% & 9.4\% & 43.8\% ($n{=}32$) \\
+M1 & Balanced & 256 & 21.2\% & 8.5\% & 37.1\% ($n{=}35$) \\
+M2 & Balanced & 254 & 21.0\% & 7.9\% & 37.1\% ($n{=}35$) \\
+M0 & Strict   &  79 &  6.5\% & 0.4\% & 85.7\% ($n{=}14$) \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-Across all synthetic scenarios, M0 balanced has precision 0.575 and recall
-0.568; M1/M2 balanced have precision 0.679 and recall 0.642. The active
+Across all synthetic scenarios, M0 balanced has benchmark-estimated precision
+0.575 and recall 0.568; M1/M2 balanced have 0.612 and 0.733 and improve on M0
+in every scenario. The active
 learning review sample contains 150 pairs, with 25 pairs in each of six review
 categories. These values come from
 \texttt{reports/tables/validation/linkage\_method\_comparison.csv},
@@ -403,11 +412,14 @@ proxy.
 
 \subsection{Exact definition}
 
-\texttt{event = 1} is assigned under the selected M0 balanced rule when the
-linking algorithm finds a later BOAMP \texttt{APPEL\_OFFRE} notice from the same
-buyer within the observable window, with text similarity $\geq 0.50$ and
-composite score $\geq 0.50$, after corrected generic-CPV scoring. The variable
-is constructed by matching later notices from the same \texttt{buyer\_key} using
+Under the selected M2 balanced method, \texttt{event = 1} is assigned when
+the match-probability model (a logistic model over the same engineered
+features: text similarity, CPV score, temporal score, composite score, rank,
+margin, buyer frequency, missing-data flags) scores the best later same-buyer
+candidate at $\geq 0.65$. Under the conservative M0 balanced baseline,
+\texttt{event = 1} requires text similarity $\geq 0.50$ and composite score
+$\geq 0.50$ after corrected generic-CPV scoring. In both cases the variable is
+constructed by matching later notices from the same \texttt{buyer\_key} using
 text, CPV, and timing; BOAMP provides no explicit recurrence-chain ID.
 
 \subsection{Scoring formula}
@@ -437,10 +449,11 @@ are defined for sensitivity analysis:
         $\geq 0.05$, multi-candidate links only --- 75 events (11.3\%).
 \end{itemize}
 
-The selected current M0 balanced rule is stricter: text similarity
+The M0 balanced baseline rule is stricter: text similarity
 $\geq 0.50$, composite score $\geq 0.50$, $W=6$, corrected generic CPV scoring,
 and no margin floor. It produces 269 proxy recurrence events out of 1{,}210
-eligible contracts.
+eligible contracts. The selected M2 balanced method (match probability
+$\geq 0.65$ over the same features) produces 254.
 
 \subsection{Interpretation of \texttt{event = 0}}
 
@@ -633,7 +646,7 @@ Buyer fragmentation & Post SIREN enrichment, 724 of 1{,}210 eligible rows carry 
 Generic or missing CPV & Raw CPV missingness is 1.9\%; generic codes are capped at low similarity. & Lower match precision and weaker audit trail for some links. \\
 Sparse amount field & Only 21.4\% of source \texttt{APPEL\_OFFRE} notices have a usable amount. & Amount cannot serve as a reliable matching signal or segmentation variable. \\
 Administrative duration values & 69.5\% of observed source durations equal 12, 24, 36, or 48 months. & Declared duration should not be interpreted as realized renewal time. \\
-Observation-window censoring & 941 eligible contracts are censored/no observed link under M0 balanced; late cohorts have less time to reveal recurrences. & Apparent non-recurrence may reflect study-end truncation rather than true absence of a recurring procurement need. \\
+Observation-window censoring & 956 eligible contracts are censored/no observed link under the selected M2 balanced method (941 under the M0 balanced baseline); late cohorts have less time to reveal recurrences. & Apparent non-recurrence may reflect study-end truncation rather than true absence of a recurring procurement need. \\
 Proxy event definition & BOAMP contains no explicit renewal label. & Event quality depends on the linking rule and should be stress-tested with confidence diagnostics. \\
 \bottomrule
 \end{tabularx}
@@ -646,6 +659,7 @@ This report is reproducible from tracked project outputs. The core files are:
 
 \begin{itemize}
 	\item \path{data/processed/boamp_full_clean.csv}
+	\item \path{data/processed/boamp_phase2_survival_method_m2_balanced.csv}
 	\item \path{data/processed/boamp_phase2_survival_method_m0_balanced.csv}
 	\item \path{data/processed/boamp_phase2_survival_calibrated_balanced.csv}
 	\item \path{boamp_renewal_linking_quality/outputs/boamp_linking_stats.csv}

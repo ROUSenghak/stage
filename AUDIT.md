@@ -690,3 +690,107 @@ balanced dataset. L3 = Done.**
 - L2 (trained NLP classifier) remains scaffolded only, per the team's
   separate ownership of that workstream; taxonomy is provisional.
 - Phase 4 (change-point detection, L4) not started.
+
+# Method-choice reassessment (2026-07-08, second pass)
+
+Trigger: concern that the manual audit / mapped audit is baseline-biased
+(the audited sample was constructed from the pre-calibration baseline's
+links) and therefore must not arbitrate between M0, M1, and M2.
+
+## A. Findings on the previous comparison
+
+1. **Audit construction confirmed baseline-anchored.**
+   `event_validation/scripts/build_validation_sample.py` stratifies the
+   150-case sample on the pre-calibration baseline's own `event` flags,
+   `score_margin` bins, `single_candidate_match`, and
+   `high_confidence_strict` tiers (strata A/B/C/E are baseline event=1 rows;
+   the 100 linked pairs are the baseline's chosen pairs). Mapped audit
+   precision for any method is computed only on the ~12-14% of its links that
+   coincide with baseline-audited pairs (n=32-35 decided per balanced
+   variant). Verdict: plausibility diagnostic only; not method-neutral; the
+   0.44-vs-0.37 differences are also within sampling noise at these n.
+2. **Synthetic-backend mismatch (bug).** `make_synthetic_pairs` in
+   `scripts/linkage_method_comparison_no_ground_truth.py` scored synthetic
+   pairs with TF-IDF, while M0's synthetic metrics came from the ST-scored
+   notebook-05 grid and the real pairs are ST-scored. M1/M2 were trained on
+   TF-IDF features and applied to ST features (accepted-link median text-sim:
+   0.31 synthetic vs 0.57 real). Fixed: synthetic pairs now scored with
+   `paraphrase-multilingual-MiniLM-L12-v2` (same normalization as the real
+   linking notebook); backend recorded in outputs.
+3. **Hard-coded selection (bug).** The script always set
+   `selected_method = "M0"`; only the recommendation string varied, and the
+   selection score included a 0.10-weight audit term (the biased diagnostic).
+   Fixed: audit term removed from all selection scores; a transparent
+   five-criterion promotion rule now decides (score margin > 0.05,
+   neg-control not worse, >= 150 events, synthetic-to-real accepted-link
+   profile shift acceptable, same text backend as real pipeline).
+
+## B. Reassessed evidence (executed 2026-07-08, .venv python, exit 0)
+
+- Synthetic (all scenarios, ST backend): M0 balanced P 0.575 / R 0.568 /
+  F1 0.572; M1/M2 balanced P 0.612 / R 0.733 / F1 0.667 (better in easy,
+  medium, hard, and generic-CPV subsets). M1/M2 share the synthetic model;
+  M2's audit-informed refinement applies to real pairs only.
+- Real BOAMP: M0 balanced 269/1,210 (22.2%); M1 balanced 256 (21.2%);
+  M2 balanced 254 (21.0%); M0 strict 79 (6.5%); M1/M2 broad 664 (54.9%).
+- Negative controls: M2 balanced 7.9% < M1 8.5% < M0 9.4%.
+- Median margin: M2 0.158 vs M0 0.048. Generic-CPV share: M2 37.0% vs M0
+  23.0% (documented caution; benchmark generic-CPV precision still favors
+  M2: 0.487 vs 0.464).
+- Profile shift (|median accepted text-sim, synthetic - real|): M0 0.128,
+  M1 0.046, M2 0.045.
+- Selection scores (audit-free): M2 0.797 > M1 ~0.796 > M0 0.741.
+- Promotion rule: all five criteria PASS for M2 balanced.
+
+**Decision: promote M2 balanced to main method; keep M0 balanced as the
+conservative transparent baseline; M0 broad/strict remain sensitivity
+bounds. Mapped audit stays a diagnostic.** Robustness: M1, which never uses
+audit labels, shows nearly identical gains, so the promotion does not rest on
+the biased audit; and the survival headline is stable across M0/M2 (S12
+95.9% vs 95.6%).
+
+## C. Outputs refreshed this pass
+
+- `scripts/linkage_method_comparison_no_ground_truth.py` rerun twice
+  (standalone + via notebook 06 execution); results byte-stable across runs.
+- `data/processed/boamp_phase2_survival_method_{m0_balanced,m2_balanced,m0_strict}.csv`
+  regenerated (M2 balanced now 254 events at threshold 0.65).
+- `scripts/task_section16b_calibrated_risk_indicators.py` parameterized
+  (CLI dataset/suffix/label) and run for M2 balanced:
+  `reports/tables/survival/{renewal_risk_12_24_months,top20_renewal_risk,buyer_renewal_risk_ranking,segment_renewal_risk_ranking}_m2_balanced.csv`
+  + 2 figures. M2: 1,204 scored, mean p12 0.0241 / p24 0.0698, median
+  0.0206 / 0.0634, expected 29.0 / 84.1, max p12 0.0785 (all Low tier),
+  top buyer SIREN:234400034, top segment IT Services & Consulting.
+- `scripts/task_l3_cox_ph_diagnostics_m0_balanced.py` generalized to loop
+  over M0 and M2 balanced; new
+  `reports/tables/survival/m2_balanced_cox_ph_assumption_test.csv` (C-index
+  0.5534; declared_duration_months violates PH, chi2=107.4, p~3.6e-25;
+  others pass) + log-log figure.
+- Notebook 07 builder extended (m2_balanced rule, PH section 3b now in the
+  builder for both specs, M2 AFT table `m2_balanced_aft_comparison.csv`:
+  LogNormal 3,360.5 best); notebook regenerated and re-executed. Richer-spec
+  Cox C-index for m2_balanced: 0.6059 (`calibrated_rule_cox_comparison.csv`).
+- Notebook 06 builder markdown rewritten (decision logic + audit-bias
+  caveat); notebook regenerated and re-executed.
+- Reports updated: `phase1_technical_report.tex`, `internship_report.tex`,
+  `phase1_data_quality_report.md`, `calibrated_event_definition_summary.md`,
+  `event_validation/manual_validation_summary.md`, `README.md`,
+  `method_comparison_report_consistency_audit_20260708.md` (Addendum 2).
+
+## D. Remaining limitations (disclosed)
+
+- Real BOAMP precision/recall remain unobservable; all precision/recall
+  claims are benchmark-estimated on a controlled BOAMP-like dataset.
+- M1/M2 thresholds are selected on the same synthetic grid used for
+  evaluation (mild optimism, symmetric with M0's calibration on the same
+  benchmark).
+- M2's real generic-CPV share (37.0%) exceeds M0's (23.0%); flagged for the
+  method-neutral review.
+- AFT AICs are not comparable across event definitions (different event
+  sets).
+- A method-neutral manual audit of the selected M2 balanced links (the
+  150-pair active-learning queue) has not been performed; it is the
+  recommended path to confirm (or revoke) the promotion on real data.
+- The old audit-era mapped labels remain in M2's training set by design
+  (that is what makes it "active-learning-assisted"); M1 is the clean
+  audit-free variant and is reported alongside.

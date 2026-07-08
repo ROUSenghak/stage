@@ -15,8 +15,16 @@ Outputs (suffix `_calibrated_balanced`, originals untouched):
   reports/tables/survival/segment_renewal_risk_ranking_calibrated_balanced.csv
   reports/figures/survival/pred_hist_p12m_calibrated_balanced.png
   reports/figures/survival/pred_top20_contracts_calibrated_balanced.png
+
+Optional CLI override for another survival dataset (e.g. the selected M2
+balanced method from the 2026-07-08 method comparison):
+
+  python scripts/task_section16b_calibrated_risk_indicators.py \
+      data/processed/boamp_phase2_survival_method_m2_balanced.csv \
+      _m2_balanced "M2 balanced (selected method)"
 """
 
+import sys
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -34,6 +42,11 @@ FIG_DIR.mkdir(parents=True, exist_ok=True)
 TBL_DIR.mkdir(parents=True, exist_ok=True)
 
 SUFFIX = "_calibrated_balanced"
+RULE_LABEL = "calibrated balanced rule"
+if len(sys.argv) >= 3:
+    DATA_PATH = ROOT / sys.argv[1]
+    SUFFIX = sys.argv[2]
+    RULE_LABEL = sys.argv[3] if len(sys.argv) > 3 else SUFFIX.strip("_")
 STUDY_END = pd.Timestamp("2024-12-31")
 HIGH_THRESH = 0.40
 MEDIUM_THRESH = 0.25
@@ -62,7 +75,7 @@ def save_fig(name: str):
     print(f"  saved → {path}")
 
 
-print("Loading calibrated balanced data …")
+print(f"Loading survival data ({RULE_LABEL}) …")
 df = pd.read_csv(DATA_PATH, parse_dates=["start_date"])
 df["start_year"] = df["start_date"].dt.year
 df["dur_was_imputed"] = (
@@ -118,7 +131,7 @@ risk_df["start_date"] = pd.to_datetime(risk_df["start_date"])
 risk_df["age_months"] = ((STUDY_END - risk_df["start_date"]).dt.days / 30.44).round(2)
 risk_df["model_used"] = "LogNormal AFT"
 risk_df["event_definition_note"] = (
-    f"Calibrated balanced proxy recurrence event ({rule_desc}); "
+    f"{RULE_LABEL} proxy recurrence event ({rule_desc}); "
     "identifiable BOAMP re-publication, not a legally verified renewal."
 )
 
@@ -183,7 +196,7 @@ ax.axvline(MEDIUM_THRESH, color="orange", linestyle="--", linewidth=1.2,
            label=f"Medium-risk threshold ({MEDIUM_THRESH:.2f})")
 ax.set_xlabel("P(recurrence ≤ 12 months)")
 ax.set_ylabel("Contracts")
-ax.set_title(f"LogNormal AFT — 12-Month Recurrence Probability (calibrated balanced rule)\n"
+ax.set_title(f"LogNormal AFT — 12-Month Recurrence Probability ({RULE_LABEL})\n"
              f"(N={len(risk_df):,} scored contracts, {int(risk_df['event'].sum())} events)")
 ax.legend(fontsize=9)
 save_fig(f"pred_hist_p12m{SUFFIX}.png")
@@ -205,7 +218,7 @@ ax.barh(range(len(top20)), top20["p_renewal_12m"], color=colors)
 ax.set_yticks(range(len(top20)))
 ax.set_yticklabels(labels, fontsize=7)
 ax.set_xlabel("P(recurrence ≤ 12 months)")
-ax.set_title("Top-20 Contracts by 12-Month Recurrence Probability\n(LogNormal AFT, calibrated balanced rule)")
+ax.set_title(f"Top-20 Contracts by 12-Month Recurrence Probability\n(LogNormal AFT, {RULE_LABEL})")
 ax.invert_yaxis()
 from matplotlib.patches import Patch
 legend_elems = [Patch(color=PALETTE[0], label="High"),
@@ -214,5 +227,5 @@ legend_elems = [Patch(color=PALETTE[0], label="High"),
 ax.legend(handles=legend_elems, title="Risk tier", fontsize=9)
 save_fig(f"pred_top20_contracts{SUFFIX}.png")
 
-print(f"\nDone. Section 16b outputs regenerated under the calibrated balanced rule "
+print(f"\nDone. Section 16b outputs regenerated under {RULE_LABEL} "
       f"({int(df['event'].sum())} events).")

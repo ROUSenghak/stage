@@ -39,15 +39,19 @@
 
 \begin{document}
 
-\section*{Mise à jour calibration --- 2026-07-05}
+\section*{Mise à jour calibration --- 2026-07-05 (complétée le 2026-07-08)}
 
-La version recommandée pour l'analyse de survie BOAMP est maintenant le fichier
-\texttt{data/processed/boamp\_phase2\_survival\_calibrated\_balanced.csv}. Il
-contient 1\,210 appels d'offre éligibles et 269 événements de réapparition
-proxy (22,2\%, calibration Sentence-Transformer). La règle équilibrée est :
-similarité texte $\geq 0{,}50$, score composite $\geq 0{,}50$, fenêtre
-temporelle $W=6$, correction des codes CPV génériques, sans seuil minimum sur
-la marge.
+Depuis la comparaison de méthodes du 2026-07-08, la version sélectionnée pour
+l'analyse de survie BOAMP est le fichier
+\texttt{data/processed/boamp\_phase2\_survival\_method\_m2\_balanced.csv}
+(1\,210 appels d'offre éligibles, 254 événements de réapparition proxy,
+21,0\%; méthode M2 équilibrée, seuil de probabilité 0,65). Le fichier calibré
+\texttt{data/processed/boamp\_phase2\_survival\_calibrated\_balanced.csv}
+reste la référence conservatrice (M0 équilibrée) : 1\,210 appels d'offre
+éligibles et 269 événements (22,2\%, calibration Sentence-Transformer). La
+règle équilibrée M0 est : similarité texte $\geq 0{,}50$, score composite
+$\geq 0{,}50$, fenêtre temporelle $W=6$, correction des codes CPV génériques,
+sans seuil minimum sur la marge.
 
 Les variantes conservées pour sensibilité sont :
 \texttt{boamp\_phase2\_survival\_calibrated\_broad.csv} (490 événements,

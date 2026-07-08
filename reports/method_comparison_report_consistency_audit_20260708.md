@@ -111,3 +111,56 @@ and found:
 
 Full detail in `AUDIT.md`, section "L3 verification and Cox C-index
 resolution (2026-07-08)". **L3 status: Done.**
+
+## Addendum 2: method-choice reassessment — M2 balanced promoted (2026-07-08, later same day)
+
+**This addendum supersedes the "Current selected method" section above.**
+A reassessment of the linkage-method choice found two defects in the earlier
+comparison and fixed them in
+`scripts/linkage_method_comparison_no_ground_truth.py`:
+
+1. **Backend mismatch.** The synthetic pairs used to train/evaluate M1 and M2
+   were scored with TF-IDF, while M0's synthetic grid metrics (notebooks
+   04/05) and the real candidate pairs use the Sentence-Transformer encoder.
+   The M0-vs-M1/M2 synthetic comparison was therefore not apples-to-apples,
+   and the M1/M2 model was trained in a different feature regime than the one
+   it was applied to. Fixed: synthetic pairs are now scored with the same
+   encoder (`paraphrase-multilingual-MiniLM-L12-v2`), TF-IDF only as recorded
+   fallback.
+2. **Biased and hard-coded selection.** The selection score included a
+   0.10-weight mapped-audit term even though the 150-case audit sample was
+   stratified on the pre-calibration baseline's own links (baseline-anchored,
+   n=32–35 decided pairs per balanced variant), and the script hard-coded
+   `selected_method = "M0"` regardless of scores. Fixed: the audit term is
+   excluded (kept as a reported diagnostic with coverage counts), and a
+   transparent five-criterion promotion rule decides the outcome.
+
+**Reassessed result (all values from the executed rerun):**
+
+| Method | Variant | Events | Event rate | Neg.-control | Synthetic P | Synthetic R | Profile shift | Mapped-audit diagnostic |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| M0 | balanced | 269 | 22.2% | 0.094 | 0.575 | 0.568 | 0.128 | 0.438 (n=32) |
+| M1 | balanced | 256 | 21.2% | 0.085 | 0.612 | 0.733 | 0.046 | 0.371 (n=35) |
+| **M2 (selected)** | balanced | **254** | **21.0%** | **0.079** | **0.612** | **0.733** | **0.045** | 0.371 (n=35) |
+| M0 | strict | 79 | 6.5% | 0.004 | 0.775 | 0.381 | — | 0.857 (n=14) |
+
+All five promotion criteria pass for M2 balanced (score 0.797 vs 0.741;
+negative controls not worse; ≥150 events; smaller synthetic-to-real profile
+shift; same text backend). **Selected main method: M2 balanced.** **M0
+balanced: conservative transparent baseline.** M1 (which never touches the
+audit labels) shows nearly identical gains, so the promotion does not depend
+on audit-informed training.
+
+**Refreshed survival results (reduced official spec):** M2 balanced — 254
+events, KM median not reached, S12 0.956, S24 0.921, S48 0.840, S60 0.760,
+Cox C-index 0.553 (richer spec 0.606), LogNormalAFT best (AIC 3,357.9;
+notebook-07 spec 3,360.5), PH check run
+(`m2_balanced_cox_ph_assumption_test.csv`: `declared_duration_months`
+violates, others pass). Operational 12/24-month indicators now exist for both
+methods: M2 balanced median p12 = 0.0206, p24 = 0.0634 (1,204 rows,
+`renewal_risk_12_24_months_m2_balanced.csv`); M0 balanced median p12 =
+0.0198, p24 = 0.0624.
+
+Reports, README, notebooks 06/07 (regenerated and re-executed), and the
+markdown summaries were updated accordingly; PDFs rebuilt. Full detail in
+`AUDIT.md`, section "Method-choice reassessment (2026-07-08)".

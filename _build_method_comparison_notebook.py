@@ -75,16 +75,24 @@ Survival results for the required selected runs:
 Selected thresholds:
 {bullet_table(thresholds, [("method", "method"), ("variant", "variant"), ("threshold", "threshold"), ("text_threshold", "text_threshold"), ("composite_threshold", "composite_threshold"), ("margin_threshold", "margin_threshold")])}
 
-### Recommendation
+### Decision logic and the manual-audit bias caveat
 
-The current calibrated balanced rule remains the main method for now: {summary.get("recommendation", "NA")}. M0 balanced is retained because the project instruction is not to replace it immediately, and because the real BOAMP labels remain proxy recurrences rather than formally verified renewal-chain labels. The best alternative balanced method is included in the survival comparison as a candidate for further targeted manual review.
+The final selection deliberately does **not** use mapped manual-audit precision as a decision criterion. The 150-case audit sample (`event_validation/scripts/build_validation_sample.py`) was stratified on the **pre-calibration baseline's own links**, event flags, score margins, and confidence tiers, so the audited pairs are baseline-anchored: each method's mapped audit precision is computed only on the small subset of its links that coincide with baseline-audited pairs (roughly 32-35 decided pairs per balanced variant, 12-14% coverage). That makes it a plausibility diagnostic, not an independent validation set for comparing M0, M1, and M2.
+
+Instead, the selection score combines only method-neutral evidence: benchmark-estimated precision and recall (synthetic pairs scored with the **same Sentence-Transformer encoder as the real pipeline**), real-data negative-control acceptance, and survival event sufficiency. An alternative is promoted over M0 balanced only if it passes every promotion criterion (score margin, negative controls not worse, enough events, acceptable synthetic-to-real accepted-link profile shift, and same text backend as the real pipeline).
+
+Result: **{summary.get("recommendation", "NA")}** — benchmark-preferred method: {summary.get("benchmark_preferred_method", "NA")}; M0 role: {summary.get("m0_role", "NA")}; alternative role: {summary.get("best_alternative_role", "NA")}.
+
+Promotion criteria: {"; ".join(f"{k}={'PASS' if v else 'FAIL'}" for k, v in summary.get("promotion_criteria", {}).items()) or "NA"}.
 
 ### Limitations
 
-- Real BOAMP precision and recall are not directly observable.
-- Synthetic benchmark labels are known only by construction and cannot certify real BOAMP legal recurrence chains.
+- Real BOAMP precision and recall are not directly observable; only synthetic benchmark precision/recall are, and they describe a controlled BOAMP-like benchmark, not real BOAMP truth.
+- The mapped manual audit is baseline-biased (see above) and is reported as a diagnostic only.
 - M1 and M2 use a logistic probability model because Splink and recordlinkage were unavailable.
-- M2 uses only mapped manual TP/FP accepted-link labels; uncertain labels, false negatives, and plausible censored cases are kept as review context rather than treated as complete ground truth.
+- M2 additionally trains on the mapped manual TP/FP labels (weighted); because those labels come from the baseline-anchored audit, M1 (which never touches them) is the cleaner check — M1 balanced shows nearly identical gains, so the promotion does not hinge on the audit labels.
+- M1/M2 thresholds are chosen on the same synthetic grid used for evaluation (mild optimism, symmetric with M0's calibration on the same benchmark).
+- AFT AIC values are not comparable across event definitions (different event sets imply different likelihood scales).
 - The active-learning review sample is a prioritization output, not a completed validation result.
 
 ### Outputs generated
@@ -93,8 +101,8 @@ The current calibrated balanced rule remains the main method for now: {summary.g
 
 ### Report updates needed
 
-- Add this method comparison as a validation/sensitivity section.
-- State that M0 balanced remains the current reference method, with M1/M2 as alternatives requiring targeted manual review before replacement.
+- Present the selected main method and roles exactly as computed above (selected method, benchmark-preferred method, conservative baseline).
+- Explain that mapped audit precision is a baseline-biased diagnostic and was excluded from the selection score.
 - Report synthetic precision and recall separately, not only F1.
 - Report real BOAMP event counts, negative-control behavior, manual audit precision where available, and survival sufficiency without claiming known real precision/recall.
 - Keep the language as proxy recurrence or identifiable reappearance of a similar procurement need, not as a formally verified renewal chain.

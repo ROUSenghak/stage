@@ -4,6 +4,7 @@ import json
 import math
 import os
 import re
+import unicodedata
 import warnings
 from datetime import datetime
 from pathlib import Path
@@ -227,13 +228,50 @@ def make_calibrated_selected(calibrated: pd.DataFrame, real_pairs: pd.DataFrame,
     return d
 
 
+def normalize_objet_st(text) -> str:
+    # Mirror of the real linking notebook's normalize_objet (ST input):
+    # lowercase, strip accents, keep [a-z0-9 ] only.
+    if not isinstance(text, str):
+        return ""
+    text = text.lower()
+    text = "".join(
+        c for c in unicodedata.normalize("NFD", text)
+        if unicodedata.category(c) != "Mn"
+    )
+    text = re.sub(r"[^a-z0-9\s]", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+# Synthetic pairs must be scored with the same text-similarity backend as the
+# real candidate table, otherwise M1/M2 (trained on synthetic pairs, applied to
+# real pairs) face a feature-distribution mismatch and their synthetic metrics
+# are not comparable with M0's grid metrics from notebooks 04/05.
+try:
+    from sentence_transformers import SentenceTransformer
+
+    _ST_MODEL = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
+    TEXT_SIMILARITY_BACKEND = "sentence_transformers"
+except Exception as _st_exc:  # pragma: no cover - environment-dependent
+    _ST_MODEL = None
+    TEXT_SIMILARITY_BACKEND = "tfidf_fallback"
+    print(f"sentence_transformers unavailable ({_st_exc}); using TF-IDF fallback")
+
+
+def _synthetic_similarity_matrix(notices: pd.DataFrame):
+    if TEXT_SIMILARITY_BACKEND == "sentence_transformers":
+        norm_texts = notices["object_text"].map(normalize_objet_st).tolist()
+        emb = _ST_MODEL.encode(norm_texts, batch_size=64, show_progress_bar=False, normalize_embeddings=True)
+        return np.asarray(emb), "dense"
+    tfidf = TfidfVectorizer(min_df=1, ngram_range=(1, 2), strip_accents="unicode", lowercase=True)
+    return sk_normalize(tfidf.fit_transform(notices["object_text"])), "sparse"
+
+
 def make_synthetic_pairs(notices: pd.DataFrame, truth: pd.DataFrame) -> pd.DataFrame:
     notices = notices.copy()
     notices["start_date"] = pd.to_datetime(notices["start_date"], errors="coerce")
     notices["estimated_end_date"] = pd.to_datetime(notices["estimated_end_date"], errors="coerce")
     notices["object_text"] = notices["object"].fillna("").astype(str)
-    tfidf = TfidfVectorizer(min_df=1, ngram_range=(1, 2), strip_accents="unicode", lowercase=True)
-    matrix = sk_normalize(tfidf.fit_transform(notices["object_text"]))
+    matrix, matrix_kind = _synthetic_similarity_matrix(notices)
     loc = {notice_id: i for i, notice_id in enumerate(notices["notice_id"])}
     truth_map = truth.set_index("source_id")["true_candidate_id"].to_dict()
     event_map = truth.set_index("source_id")["true_event"].to_dict()
@@ -259,7 +297,10 @@ def make_synthetic_pairs(notices: pd.DataFrame, truth: pd.DataFrame) -> pd.DataF
             s_idx = loc[src["notice_id"]]
             for _, cand in cands.iterrows():
                 c_idx = loc[cand["notice_id"]]
-                text_s = float(matrix[s_idx].multiply(matrix[c_idx]).sum())
+                if matrix_kind == "dense":
+                    text_s = float(np.dot(matrix[s_idx], matrix[c_idx]))
+                else:
+                    text_s = float(matrix[s_idx].multiply(matrix[c_idx]).sum())
                 cpv_s = cpv_score(src["cpv"], cand["cpv"])
                 temp_s = temporal_score(cand["time_gap_months"], duration, W=6)
                 comp_s = composite_score(text_s, cpv_s, temp_s)
@@ -466,6 +507,8 @@ def real_metrics_for_method(
         "negative_control_acceptance_rate": neg_rate,
         "manual_audit_decided_n": int(len(manual_decided)),
         "manual_audit_precision": manual_precision,
+        "manual_audit_coverage_of_links": float(len(manual_decided) / len(selected)) if len(selected) else np.nan,
+        "manual_audit_role": "diagnostic_only_baseline_selected_sample",
         "events_available_for_survival": int(len(selected)),
     }
 
@@ -508,15 +551,17 @@ def threshold_grid_selection(
         return eligible.sort_values(["synthetic_recall", "real_event_count"], ascending=[False, False]).iloc[0]
 
     def choose_balanced(g):
+        # Mapped manual-audit precision is deliberately excluded from the
+        # selection score: the audited pairs were drawn from the
+        # pre-calibration baseline's links, so the term is baseline-anchored
+        # and would bias threshold choice toward baseline-like behavior.
         h = g.copy()
         h["event_sufficiency"] = np.minimum(h["real_event_count"] / 250.0, 1.0)
-        h["audit_term"] = h["manual_audit_precision"].fillna(0.5)
         h["selection_score"] = (
             0.30 * h["synthetic_precision"]
             + 0.25 * h["synthetic_recall"]
             + 0.20 * h["event_sufficiency"]
-            + 0.15 * (1.0 - h["negative_control_acceptance_rate"].fillna(1.0))
-            + 0.10 * h["audit_term"]
+            + 0.25 * (1.0 - h["negative_control_acceptance_rate"].fillna(1.0))
         )
         eligible = h[h["real_event_count"].ge(80)]
         if eligible.empty:
@@ -812,6 +857,7 @@ def main() -> dict:
     source_truth["true_event"] = source_truth["true_event"].astype(int)
 
     selected_sets: dict[tuple[str, str], pd.DataFrame] = {}
+    syn_selected_sets: dict[tuple[str, str], pd.DataFrame] = {}
     synthetic_metric_rows = []
     real_metric_rows = []
     threshold_rows = []
@@ -824,6 +870,7 @@ def main() -> dict:
         calibrated_selected = make_calibrated_selected(load_csv(calibrated_path), real_pairs, variant)
         syn_sel = select_by_rule(synthetic_pairs, row["text_threshold"], row["composite_threshold"], row["margin_threshold"])
         selected_sets[("M0", variant)] = calibrated_selected
+        syn_selected_sets[("M0", variant)] = syn_sel
         grid_match = synthetic_threshold_grid[
             synthetic_threshold_grid["text_threshold"].astype(float).eq(float(row["text_threshold"]))
             & synthetic_threshold_grid["W"].astype(int).eq(int(row["W"]))
@@ -914,6 +961,7 @@ def main() -> dict:
             syn_sel = predict_from_score(synthetic_pairs, score_col, threshold)
             real_sel = predict_from_score(real_pairs, score_col, threshold)
             selected_sets[(method, variant)] = real_sel
+            syn_selected_sets[(method, variant)] = syn_sel
             synthetic_metric_rows.extend(synthetic_metrics_for_method(source_truth, synthetic_pairs, method, variant, syn_sel))
             real_metric_rows.append(real_metrics_for_method(real_sources_n, real_pairs, method, variant, real_sel, score_col, threshold))
             threshold_selection_rows.append(
@@ -949,23 +997,70 @@ def main() -> dict:
     balanced = real_comparison[real_comparison["variant"].eq("balanced")].copy()
     syn_all = synthetic_comparison[synthetic_comparison["scenario"].eq("all")][["method", "variant", "precision", "recall", "F1"]]
     balanced = balanced.merge(syn_all, on=["method", "variant"], how="left", suffixes=("", "_synthetic"))
-    balanced["manual_term"] = balanced["manual_audit_precision"].fillna(0.5)
+
+    # Synthetic-to-real profile shift: how far the accepted-link text-similarity
+    # profile on real BOAMP sits from the profile where the benchmark metrics
+    # were estimated. A large shift means the benchmark-estimated precision and
+    # recall are less transferable to the real operating point.
+    def _profile_shift(method: str) -> float:
+        syn_sel = syn_selected_sets.get((method, "balanced"))
+        real_sel = selected_sets.get((method, "balanced"))
+        if syn_sel is None or real_sel is None or syn_sel.empty or real_sel.empty:
+            return np.nan
+        return float(abs(syn_sel["text_similarity"].median() - real_sel["text_similarity"].median()))
+
+    balanced["synthetic_real_text_shift"] = balanced["method"].map(_profile_shift)
+
+    # Selection score deliberately excludes mapped manual-audit precision: the
+    # audited pairs were drawn from the pre-calibration baseline's links
+    # (event_validation/scripts/build_validation_sample.py stratifies on the
+    # baseline's own event flags, margins, and confidence tiers), so mapped
+    # audit precision is a baseline-anchored plausibility diagnostic, not an
+    # independent arbiter between M0, M1, and M2.
     balanced["selection_score"] = (
         0.30 * balanced["precision"]
-        + 0.20 * balanced["recall"]
+        + 0.25 * balanced["recall"]
         + 0.20 * np.minimum(balanced["event_count"] / 250.0, 1.0)
-        + 0.20 * (1 - balanced["negative_control_acceptance_rate"].fillna(1.0))
-        + 0.10 * balanced["manual_term"]
+        + 0.25 * (1 - balanced["negative_control_acceptance_rate"].fillna(1.0))
     )
-    m0_score = float(balanced.loc[balanced["method"].eq("M0"), "selection_score"].iloc[0])
+    m0_row = balanced[balanced["method"].eq("M0")].iloc[0]
+    m0_score = float(m0_row["selection_score"])
     best_row = balanced.sort_values("selection_score", ascending=False).iloc[0]
-    selected_method = "M0"
-    if best_row["method"] != "M0" and best_row["selection_score"] > m0_score + 0.05:
-        recommendation = "retain_m0_balanced_as_current_main_method_pending_targeted_review_of_best_alternative"
-    else:
-        recommendation = "retain_m0_balanced_as_main_method"
-
     best_alt = balanced[balanced["method"].ne("M0")].sort_values("selection_score", ascending=False).iloc[0]
+    benchmark_preferred = str(best_row["method"])
+
+    # Promotion rule: an alternative replaces M0 balanced as the main method
+    # only if every criterion below holds; otherwise the project runs
+    # dual-track (M0 balanced = main conservative baseline, best alternative =
+    # benchmark-preferred sensitivity).
+    promotion_criteria = {
+        "score_exceeds_m0_by_margin": bool(float(best_alt["selection_score"]) > m0_score + 0.05),
+        "negative_control_not_worse_than_m0": bool(
+            float(best_alt["negative_control_acceptance_rate"]) <= float(m0_row["negative_control_acceptance_rate"]) + 1e-9
+        ),
+        "event_count_sufficient_for_survival": bool(int(best_alt["event_count"]) >= 150),
+        "synthetic_real_profile_shift_acceptable": bool(
+            not pd.isna(best_alt["synthetic_real_text_shift"])
+            and float(best_alt["synthetic_real_text_shift"]) <= float(m0_row["synthetic_real_text_shift"]) + 0.10
+        ),
+        "same_text_backend_as_real_pipeline": TEXT_SIMILARITY_BACKEND == "sentence_transformers",
+    }
+    promote = all(promotion_criteria.values())
+    if promote:
+        selected_method = str(best_alt["method"])
+        recommendation = f"promote_{selected_method.lower()}_balanced_to_main_method"
+        m0_role = "conservative_baseline_sensitivity"
+        alternative_role = "main_method_benchmark_preferred"
+    else:
+        selected_method = "M0"
+        recommendation = "retain_m0_balanced_as_main_method_dual_track"
+        m0_role = "main_method_conservative_baseline"
+        alternative_role = (
+            "benchmark_preferred_sensitivity"
+            if float(best_alt["selection_score"]) >= m0_score
+            else "alternative_candidate"
+        )
+
     final_recommendation = pd.DataFrame(
         [
             {
@@ -975,8 +1070,20 @@ def main() -> dict:
                 "reference_method": "M0 calibrated balanced composite rule",
                 "best_alternative_method": best_alt["method"],
                 "best_alternative_variant": "balanced",
+                "m0_role": m0_role,
+                "best_alternative_role": alternative_role,
                 "m0_balanced_score": m0_score,
-                "best_observed_score": float(best_row["selection_score"]),
+                "best_alternative_score": float(best_alt["selection_score"]),
+                "benchmark_preferred_method": benchmark_preferred,
+                "m0_synthetic_real_text_shift": float(m0_row["synthetic_real_text_shift"]),
+                "best_alternative_synthetic_real_text_shift": float(best_alt["synthetic_real_text_shift"]),
+                "text_similarity_backend": TEXT_SIMILARITY_BACKEND,
+                **{f"criterion_{k}": v for k, v in promotion_criteria.items()},
+                "manual_audit_role": (
+                    "Diagnostic only: the 150-case audit sample was stratified on the pre-calibration baseline's "
+                    "own links and confidence tiers, so mapped audit precision is baseline-anchored and excluded "
+                    "from the selection score."
+                ),
                 "language_note": "Real BOAMP event labels remain proxy recurrences: identifiable reappearances of similar procurement needs, not formally verified renewal chains. Real precision and recall are not directly observable.",
             }
         ]
@@ -994,8 +1101,13 @@ def main() -> dict:
         surv.to_csv(surv_path, index=False)
         row = survival_summary(surv, method, variant)
         row["survival_dataset"] = rel(surv_path)
-        if method == "M0" and variant == "balanced" and (SURVIVAL_TABLES / "renewal_risk_12_24_months_calibrated_balanced.csv").exists():
-            risk = load_csv(SURVIVAL_TABLES / "renewal_risk_12_24_months_calibrated_balanced.csv")
+        risk_paths = {
+            ("M0", "balanced"): SURVIVAL_TABLES / "renewal_risk_12_24_months_calibrated_balanced.csv",
+            ("M2", "balanced"): SURVIVAL_TABLES / "renewal_risk_12_24_months_m2_balanced.csv",
+        }
+        risk_path = risk_paths.get((method, variant))
+        if risk_path is not None and risk_path.exists():
+            risk = load_csv(risk_path)
             row["operational_risk_indicators_available"] = True
             row["risk_indicator_rows"] = int(len(risk))
             row["median_p_renewal_12m"] = float(pd.to_numeric(risk["p_renewal_12m"], errors="coerce").median())
@@ -1033,6 +1145,19 @@ def main() -> dict:
         },
         "selected_method": selected_method,
         "recommendation": recommendation,
+        "benchmark_preferred_method": benchmark_preferred,
+        "m0_role": m0_role,
+        "best_alternative_role": alternative_role,
+        "promotion_criteria": promotion_criteria,
+        "text_similarity_backend": TEXT_SIMILARITY_BACKEND,
+        "synthetic_real_text_shift": {
+            str(row["method"]): (None if pd.isna(row["synthetic_real_text_shift"]) else float(row["synthetic_real_text_shift"]))
+            for _, row in balanced.iterrows()
+        },
+        "manual_audit_role": (
+            "Diagnostic only: audit sample stratified on the pre-calibration baseline's links; "
+            "mapped audit precision is baseline-anchored and excluded from selection scores."
+        ),
         "selected_thresholds": threshold_selection.to_dict(orient="records"),
         "real_boamp_event_counts": real_comparison[["method", "variant", "event_count", "event_rate"]].to_dict(orient="records"),
         "synthetic_benchmark_metrics_all": synthetic_comparison[synthetic_comparison["scenario"].eq("all")][
@@ -1054,7 +1179,12 @@ def main() -> dict:
     for path in summary["files_created"]:
         print(f"  - {path}")
     print("Methods tested: M0, M1, M2")
+    print(f"Text similarity backend (synthetic pairs): {TEXT_SIMILARITY_BACKEND}")
     print(f"Selected method: {selected_method} ({recommendation})")
+    print(f"Benchmark-preferred method: {benchmark_preferred}; M0 role: {m0_role}; alternative role: {alternative_role}")
+    print("Promotion criteria:")
+    for name, passed in promotion_criteria.items():
+        print(f"  - {name}: {'PASS' if passed else 'FAIL'}")
     print("Selected thresholds:")
     for row in summary["selected_thresholds"]:
         print(f"  - {row['method']} {row['variant']}: threshold={row['threshold']}, text={row['text_threshold']}, composite={row['composite_threshold']}")

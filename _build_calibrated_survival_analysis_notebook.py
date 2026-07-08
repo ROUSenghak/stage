@@ -29,9 +29,13 @@ cells.append(md(
     """
 # Calibrated BOAMP Survival Analysis
 
-This notebook reruns core survival diagnostics using the calibrated broad, balanced, and strict proxy-event definitions. The balanced definition is treated as the main specification; broad and strict are sensitivity bounds.
+This notebook runs the core survival diagnostics for the current event definitions:
 
-Real BOAMP event labels remain proxy recurrences: identifiable reappearances of similar procurement needs under the selected matching rule, not certified recurrence chains.
+- **M2 balanced** (`m2_balanced`) — the **selected main method** from the 2026-07-08 method-comparison rerun (probabilistic/active-learning-assisted linkage, threshold 0.65, 254 proxy events).
+- **M0 balanced** (`balanced`) — the calibrated composite rule, kept as the **conservative transparent baseline** sensitivity.
+- **M0 broad / M0 strict** — upper- and high-precision sensitivity bounds.
+
+Real BOAMP event labels remain proxy recurrences: identifiable reappearances of similar procurement needs under the selected matching rule, not certified recurrence chains. The mapped manual audit is a plausibility diagnostic only (its sample was stratified on the pre-calibration baseline's links), and only the synthetic benchmark provides directly observable precision/recall.
 """
 ))
 
@@ -94,6 +98,8 @@ rule_paths = {
     "broad": PROCESSED / "boamp_phase2_survival_calibrated_broad.csv",
     "balanced": PROCESSED / "boamp_phase2_survival_calibrated_balanced.csv",
     "strict": PROCESSED / "boamp_phase2_survival_calibrated_strict.csv",
+    # Selected main method (2026-07-08 method comparison): M2 balanced.
+    "m2_balanced": PROCESSED / "boamp_phase2_survival_method_m2_balanced.csv",
 }
 missing = [name for name, path in rule_paths.items() if not path.exists()]
 if missing:
@@ -169,11 +175,11 @@ def savefig(name):
     print(path)
 
 fig, ax = plt.subplots(figsize=(7.0, 4.6))
-for name in ["broad", "balanced", "strict"]:
+for name in ["broad", "balanced", "m2_balanced", "strict"]:
     d = dfs[name]
     kmf.fit(d["observed_duration_months"], event_observed=d["event"], label=f"{name} ({int(d['event'].sum())} events)")
     kmf.plot_survival_function(ax=ax, ci_show=False, linewidth=1.4)
-ax.set_title("Kaplan-Meier curves under calibrated proxy-event definitions")
+ax.set_title("Kaplan-Meier curves under current proxy-event definitions")
 ax.set_xlabel("Observed duration (months)")
 ax.set_ylabel("Survival probability")
 savefig("calibrated_rules_km_curves.png")
@@ -231,11 +237,11 @@ if not coef_plot.empty:
     y_positions = []
     pos = 0
     for var in plot_vars:
-        for rule in ["broad", "balanced", "strict"]:
+        for rule in ["broad", "balanced", "m2_balanced", "strict"]:
             r = coef_plot[(coef_plot["variable"].eq(var)) & (coef_plot["rule_name"].eq(rule))]
             if len(r):
                 rr = r.iloc[0]
-                ax.errorbar(rr["hr"], pos, xerr=[[rr["hr"] - rr["hr_low"]], [rr["hr_high"] - rr["hr"]]], fmt="o", capsize=2, label=rule if pos < 3 else None)
+                ax.errorbar(rr["hr"], pos, xerr=[[rr["hr"] - rr["hr_low"]], [rr["hr_high"] - rr["hr"]]], fmt="o", capsize=2, label=rule if pos < 4 else None)
                 y_labels.append(f"{var} | {rule}")
                 y_positions.append(pos)
                 pos += 1
@@ -249,34 +255,89 @@ if not coef_plot.empty:
 """
 ))
 
-cells.append(md("## 4. Parametric AFT Check for Balanced Rule"))
+cells.append(md(
+    """
+## 3b. Cox PH Assumption Check (Official Reduced Spec, M0 and M2 Balanced)
+
+Schoenfeld residual test on the reduced 3-covariate spec (`declared_duration_months`, `dur_was_imputed`, `start_year`; penalizer 0.05) used in the method-comparison rerun, for the selected main method (M2 balanced) and the conservative baseline (M0 balanced).
+"""
+))
 
 cells.append(code(
     r"""
-balanced = dfs["balanced"].copy()
-aft_df = balanced[["observed_duration_months", "event", "declared_duration_months", "start_year", "dur_was_imputed"]].dropna()
-aft_rows = []
-for model_name, cls in [
-    ("WeibullAFT", WeibullAFTFitter),
-    ("LogNormalAFT", LogNormalAFTFitter),
-    ("LogLogisticAFT", LogLogisticAFTFitter),
-]:
-    try:
-        m = cls(penalizer=0.01)
-        m.fit(aft_df, duration_col="observed_duration_months", event_col="event")
-        aft_rows.append({
-            "model": model_name,
-            "AIC": float(m.AIC_),
-            "log_likelihood": float(m.log_likelihood_),
-            "n_rows": len(aft_df),
-            "n_events": int(aft_df["event"].sum()),
-        })
-    except Exception as exc:
-        aft_rows.append({"model": model_name, "AIC": np.nan, "log_likelihood": np.nan, "error": str(exc)})
+from lifelines.statistics import proportional_hazard_test
 
-aft_comparison = pd.DataFrame(aft_rows).sort_values("AIC")
+ph_specs = [
+    ("M0_balanced", PROCESSED / "boamp_phase2_survival_method_m0_balanced.csv",
+     REPORT_TABLES / "m0_balanced_cox_ph_assumption_test.csv"),
+    ("M2_balanced", PROCESSED / "boamp_phase2_survival_method_m2_balanced.csv",
+     REPORT_TABLES / "m2_balanced_cox_ph_assumption_test.csv"),
+]
+ph_results = {}
+for rule_name, data_path, table_out in ph_specs:
+    ph_df = pd.read_csv(data_path, parse_dates=["start_date"])
+    ph_df["event"] = pd.to_numeric(ph_df["event"], errors="coerce").fillna(0).astype(int)
+    spec = ph_df[["observed_duration_months", "event", "declared_duration_months", "dur_was_imputed", "start_date"]].copy()
+    spec["declared_duration_months"] = pd.to_numeric(spec["declared_duration_months"], errors="coerce")
+    spec["dur_was_imputed"] = pd.to_numeric(spec["dur_was_imputed"], errors="coerce").fillna(0)
+    spec["start_year"] = pd.to_datetime(spec["start_date"], errors="coerce").dt.year
+    spec = spec.drop(columns=["start_date"]).dropna().rename(columns={"observed_duration_months": "duration"})
+    cph_official = CoxPHFitter(penalizer=0.05)
+    cph_official.fit(spec, duration_col="duration", event_col="event")
+    ph_test = proportional_hazard_test(cph_official, spec, time_transform="rank")
+    ph_summary = ph_test.summary.reset_index().rename(columns={"index": "variable"})
+    ph_summary["rule_name"] = rule_name
+    ph_summary["cox_c_index"] = cph_official.concordance_index_
+    ph_summary["n_rows"] = len(spec)
+    ph_summary["n_events"] = int(spec["event"].sum())
+    ph_summary.to_csv(table_out, index=False)
+    ph_results[rule_name] = ph_summary
+    print(f"{rule_name}: C-index {cph_official.concordance_index_:.4f}, events {int(spec['event'].sum())}")
+    display(ph_summary[["variable", "test_statistic", "p", "cox_c_index"]])
+    violated = ph_summary[ph_summary["p"] < 0.05]["variable"].tolist()
+    print(f"Covariates violating PH (p<0.05): {violated if violated else 'none'}\n")
+"""
+))
+
+cells.append(md("## 4. Parametric AFT Check (Selected M2 Balanced and M0 Balanced Baseline)"))
+
+cells.append(code(
+    r"""
+def aft_comparison_for(d: pd.DataFrame):
+    aft_df = d[["observed_duration_months", "event", "declared_duration_months", "start_year", "dur_was_imputed"]].dropna()
+    rows = []
+    for model_name, cls in [
+        ("WeibullAFT", WeibullAFTFitter),
+        ("LogNormalAFT", LogNormalAFTFitter),
+        ("LogLogisticAFT", LogLogisticAFTFitter),
+    ]:
+        try:
+            m = cls(penalizer=0.01)
+            m.fit(aft_df, duration_col="observed_duration_months", event_col="event")
+            rows.append({
+                "model": model_name,
+                "AIC": float(m.AIC_),
+                "log_likelihood": float(m.log_likelihood_),
+                "n_rows": len(aft_df),
+                "n_events": int(aft_df["event"].sum()),
+            })
+        except Exception as exc:
+            rows.append({"model": model_name, "AIC": np.nan, "log_likelihood": np.nan, "error": str(exc)})
+    return pd.DataFrame(rows).sort_values("AIC")
+
+aft_comparison = aft_comparison_for(dfs["balanced"])
 aft_comparison.to_csv(REPORT_TABLES / "calibrated_balanced_aft_comparison.csv", index=False)
+print("M0 balanced (conservative baseline):")
 display(aft_comparison)
+
+m2_aft_comparison = aft_comparison_for(dfs["m2_balanced"])
+m2_aft_comparison.to_csv(REPORT_TABLES / "m2_balanced_aft_comparison.csv", index=False)
+print("M2 balanced (selected main method):")
+display(m2_aft_comparison)
+
+# AIC values are comparable across models fitted on the SAME dataset, not
+# across event definitions: M0 and M2 define different event sets, so their
+# likelihoods are not on a common scale.
 """
 ))
 
@@ -288,6 +349,9 @@ expected = [
     REPORT_TABLES / "calibrated_rule_km_summary.csv",
     REPORT_TABLES / "calibrated_rule_cox_comparison.csv",
     REPORT_TABLES / "calibrated_balanced_aft_comparison.csv",
+    REPORT_TABLES / "m2_balanced_aft_comparison.csv",
+    REPORT_TABLES / "m0_balanced_cox_ph_assumption_test.csv",
+    REPORT_TABLES / "m2_balanced_cox_ph_assumption_test.csv",
     REPORT_FIGURES / "calibrated_rules_km_curves.png",
     REPORT_FIGURES / "calibrated_rules_cox_hazard_ratios.png",
 ]
@@ -301,11 +365,13 @@ display(verification)
 if (verification["status"] != "PASS").any():
     raise SystemExit("Verification failed.")
 
-balanced_summary = km_summary[km_summary["rule_name"].eq("balanced")].iloc[0]
+m2_summary = km_summary[km_summary["rule_name"].eq("m2_balanced")].iloc[0]
+m0_summary = km_summary[km_summary["rule_name"].eq("balanced")].iloc[0]
 print("FINAL STATUS: PASS")
-print(f"Balanced events: {int(balanced_summary['events'])} / {int(balanced_summary['n'])} ({balanced_summary['event_rate']:.1%})")
-print(f"Balanced KM median: {balanced_summary['km_median_months']}")
-print("Use broad and strict as sensitivity bounds in the report.")
+print(f"Selected main (M2 balanced) events: {int(m2_summary['events'])} / {int(m2_summary['n'])} ({m2_summary['event_rate']:.1%})")
+print(f"Conservative baseline (M0 balanced) events: {int(m0_summary['events'])} / {int(m0_summary['n'])} ({m0_summary['event_rate']:.1%})")
+print(f"M2 balanced KM median: {m2_summary['km_median_months']}")
+print("Report M0 balanced, broad, and strict as sensitivity specifications.")
 """
 ))
 
@@ -313,9 +379,11 @@ cells.append(md(
     """
 ## Final Interpretation
 
-The balanced calibrated proxy-event definition produces enough events for the main survival analysis and avoids the very high runner-up pass rate of the broad rule. The strict rule remains useful as a robustness lower bound but has far fewer events.
+The **selected main method is M2 balanced** (254 proxy events / 1,210 eligible, 21.0%), promoted by the 2026-07-08 method-comparison rerun: with the synthetic benchmark scored by the same Sentence-Transformer encoder as the real pipeline, M2 balanced improves benchmark-estimated precision (0.612 vs 0.575) and recall (0.733 vs 0.568) over M0 balanced, has a lower real-data negative-control acceptance rate (7.9% vs 9.4%), a smaller synthetic-to-real accepted-link profile shift, and enough events for stable Cox/AFT estimation. **M0 balanced** (269 events, 22.2%) is retained as the conservative, fully transparent rule-based baseline; broad and strict are sensitivity bounds. Headline survival results are stable across M0 and M2 balanced (12-month survival 95.9% vs 95.6%; 24-month 92.3% vs 92.1%), so the substantive conclusions do not hinge on the method choice.
 
-The survival conclusions should be reported as conditional on the proxy-event construction. Real BOAMP does not supply certified recurrence-chain labels.
+The mapped manual-audit precision is a plausibility diagnostic only: the audit sample was stratified on the pre-calibration baseline's own links, so it cannot fairly arbitrate between M0, M1, and M2.
+
+The survival conclusions should be reported as conditional on the proxy-event construction. Real BOAMP does not supply certified recurrence-chain labels; benchmark precision/recall are estimated on a controlled BOAMP-like synthetic dataset, not on real BOAMP.
 """
 ))
 
