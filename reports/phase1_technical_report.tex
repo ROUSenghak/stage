@@ -522,9 +522,12 @@ Phase 1 produces a BOAMP-only output table: one row per eligible
 procurement need was found by the selected linking rule, while
 \texttt{event = 0} means that no such link was observed under that rule. After
 the 2026-07-08 method-comparison experiment, the current Phase-2 handoff is
-\texttt{boamp\_phase2\_survival\_method\_m0\_balanced.csv}. The older
-\texttt{boamp\_phase2\_survival.csv} file is retained as the historical
-pre-calibration 665-event baseline.
+\texttt{boamp\_phase2\_survival\_method\_m2\_balanced.csv} (M2 balanced, 254
+events). The conservative-baseline
+\texttt{boamp\_phase2\_survival\_method\_m0\_balanced.csv} (M0 balanced, 269
+events) and the older \texttt{boamp\_phase2\_survival.csv} file (historical
+pre-calibration 665-event baseline) are retained for comparison and
+provenance.
 
 % =============================================================================
 \section{Input Data and Column Dictionary}
@@ -2573,8 +2576,9 @@ survival-modeling deliverable.
 
 The detailed section below is retained for provenance from the original
 pre-calibration handoff. The current selected survival interpretation is the
-2026-07-08 M0 balanced method-comparison result reported near the front of this
-document. The historical analysis fitted survival models on
+2026-07-08 M2 balanced method-comparison result reported near the front of this
+document (M0 balanced is retained only as the conservative baseline). The
+historical analysis fitted survival models on
 \texttt{boamp\_phase2\_survival.csv}. The survival time is
 \texttt{observed\_duration\_months} ($= g(i, j^*)$ for linked contracts;
 time-to-study-end for censored ones). The historical event indicator is
@@ -2813,6 +2817,15 @@ invalidate the whole analysis. It indicates that a time-varying or alternative
 specification may be preferable for that covariate.
 
 \section{Survival Results}
+
+\paragraph{Historical pre-calibration results.} The results in this section are
+fitted on the historical pre-calibration event definition (665 events, 55.0\%;
+\texttt{boamp\_phase2\_survival.csv}), retained for provenance and
+methodological detail. They are \textbf{not} the current selected result. The
+current selected survival result is the 2026-07-08 M2 balanced method
+comparison reported in the abstract and in the ``Method-comparison update ---
+2026-07-08'' section near the front of this document (254 events; M0 balanced,
+269 events, is the conservative baseline).
 
 \subsection{Kaplan--Meier Survival Estimates}
 
@@ -3163,6 +3176,14 @@ late times.}
 \end{figure}
 
 \section{Sensitivity and Robustness}
+
+\paragraph{Historical pre-calibration results.} Models A, B, and C below are
+built on the historical pre-calibration event definitions (665 / 400 / 75
+events), retained for methodological reference. They are superseded, for
+reporting purposes, by the 2026-07-08 method-comparison sensitivity results
+(M2 balanced selected, M0 balanced conservative baseline, M0 strict
+high-confidence sensitivity) summarized in the ``Method-comparison update ---
+2026-07-08'' section near the front of this document.
 
 \subsection{Sensitivity Analysis: Model A vs.\ Model B vs.\ Model C}
 
@@ -3696,6 +3717,14 @@ below document the pre-calibration run.
 
 \subsection{Operational 12/24-Month Renewal Risk Prediction}
 \label{sec:prediction}
+
+\paragraph{Historical pre-calibration run.} The detailed prediction model,
+tables, and rankings below (including AIC~=~7\,068.4) are computed on the
+historical pre-calibration event definition (665 events) and are retained for
+methodology reference. The current operational indicators, computed under the
+selected M2 balanced method (254 events), are summarized above in the
+event-definition note at the start of this section; current output files are
+\nolinkurl{reports/tables/survival/*_m2_balanced.csv}.
 
 \paragraph{Business purpose.} The preceding survival analysis estimates the
 \emph{historical} timing of renewals: how long, on average, a digital-sector public
