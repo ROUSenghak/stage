@@ -1,0 +1,586 @@
+buyer_name_raw,buyer_name_normalized,buyer_siren_enriched,buyer_siret_enriched,buyer_enrichment_source,buyer_enrichment_confidence,buyer_enrichment_status,buyer_enrichment_score,buyer_enrichment_margin,buyer_enrichment_candidate_count,buyer_enrichment_name,buyer_enrichment_note
+3RD'ANJOU,3rd anjou,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=3rd anjou
+44 CHU,44 chu,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,44.0,,1,CHU NANTES (CHU),query=chu 44 chu
+ACOSS,acoss,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,26.5,5.2,3,AGENCE CENTRALE DES ORGANISMES DE SECURITE SOCIALE (ACOSS),query=acoss
+ADAR44,adar44,841871932,84187193200015,previous_high_confidence_cache,HIGH,matched,100.0,,1,ADAR44,seeded from existing high-confidence buyer enrichment
+ADEME,ademe,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,79.4,0.0,10,CSE ADEME,query=ademe
+AGCE POUR L ENST FR A L ETRANGER,agce enst fr etranger,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=agce enst fr etranger
+ALTER Public,alter public,528848153,52884815300029,previous_high_confidence_cache,HIGH,matched,100.0,37.2,4,ALTER PUBLIC,seeded from existing high-confidence buyer enrichment
+ANGERS LOIRE ECO,angers loire eco,840423198,84042319800026,previous_high_confidence_cache,HIGH,matched,100.0,31.5,4,ANGERS LOIRE ECO,seeded from existing high-confidence buyer enrichment
+ANGERS LOIRE TOURISME EXPO CONGRES,angers loire tourisme expo congres,830955068,83095506800044,previous_high_confidence_cache,HIGH,matched,100.0,,1,ANGERS LOIRE TOURISME EXPO CONGRES,seeded from existing high-confidence buyer enrichment
+ANGERS NANTES OPERA syndicat mixte,angers nantes opera syndicat mixte,254902505,25490250500018,previous_high_confidence_cache,HIGH,matched,97.3,,1,SYNDICAT MIXTE DE L'OPERA ANGERS NANTES (SMANO),seeded from existing high-confidence buyer enrichment
+ARAFER,arafer,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,23.8,,1,L'A.R.A.F.L' ASSOCIATION RUGBALISTIQUE POUR LE AKA FRANCAIS LIBRE,query=arafer
+ARS Pays de La Loire,ars pays loire,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,62.9,32.9,2,AGENCE REGIONALE DE SANTE PAYS DE LOIRE (ARS),query=ars pays loire
+ASSOCIATION E-TOILE,association e toile,445400104,44540010400011,previous_high_confidence_cache,HIGH,matched,100.0,18.3,10,E-TOILE,seeded from existing high-confidence buyer enrichment
+AUDENCIA EESC,audencia eesc,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=audencia eesc
+AUTORITE REGULATION ACTIVITES FERROVIA,autorite regulation activites ferrovia,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=autorite regulation activites ferrovia
+Adoma,adoma,788058030,78805803009579,previous_high_confidence_cache,HIGH,matched,100.0,15.1,10,ADOMA,seeded from existing high-confidence buyer enrichment
+Afac-Agroforesteries,afac agroforesteries,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,55.6,,1,ASSOCIATION FRANCAISE ARBRES CHAMPETRES ET AGROFORESTERIES (AFAC AGROFORESTERIES),query=afac agroforesteries
+Agence Régionale Pays de la Loire TI,agence regionale pays loire ti,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=agence regionale pays loire ti
+Agence Régionale de Santé (ARS),agence regionale sante ars,130008071,13000807100123,previous_high_confidence_cache,HIGH,matched,79.2,,1,AGENCE REGIONALE DE SANTE AUVERGNE-RHONE-ALPES (ARS),seeded from existing high-confidence buyer enrichment
+Agence de l'eau Loire-Bretagne,agence eau loire bretagne,184503019,18450301900012,previous_high_confidence_cache,HIGH,matched,100.0,47.6,2,AGENCE DE L'EAU LOIRE-BRETAGNE,seeded from existing high-confidence buyer enrichment
+Agrocampus Ouest,agrocampus ouest,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,61.3,3.2,10,ASSOCIATION AU DEVELOPPEMENT DURABLE DE L'AGROCAMPUS OUEST (ADDAO),query=agrocampus ouest
+Angers Loire Metropole (49),angers loire metropole 49,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=angers loire metropole 49
+Angers Loire Métropole,angers loire metropole,244900015,24490001500011,previous_high_confidence_cache,HIGH,matched,77.8,18.0,10,COMMUNAUTE URBAINE ANGERS LOIRE METROPOLE,seeded from existing high-confidence buyer enrichment
+Association E-TOILE,association e toile,445400104,44540010400011,previous_high_confidence_cache,HIGH,matched,100.0,18.3,10,E-TOILE,seeded from existing high-confidence buyer enrichment
+BACKNET SOLUTIONS,backnet solutions,487566580,48756658000014,previous_high_confidence_cache,HIGH,matched,100.0,,1,BACKNET SOLUTIONS,seeded from existing high-confidence buyer enrichment
+BATIMENT CFA NORMANDIE,batiment cfa normandie,778116087,77811608700157,previous_high_confidence_cache,HIGH,matched,100.0,,1,BATIMENT CFA NORMANDIE,seeded from existing high-confidence buyer enrichment
+Baie de Somme Habitat,baie somme habitat,278000013,27800001300013,previous_high_confidence_cache,HIGH,matched,78.6,43.6,3,BAIE DE SOMME HABITAT - OPH DE LA BAIE DE SOMME,seeded from existing high-confidence buyer enrichment
+Bretagne Développement Innovation,bretagne developpement innovation,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,30.4,,1,GIE KAUFMAN ET BROAD,query=bretagne developpement innovation
+C.H.D La Roche Sur Yon-Luçon-Montaigu,c h roche yon lucon montaigu,268502424,26850242400016,previous_high_confidence_cache,HIGH,matched,100.0,,1,CHD LA ROCHE SUR YON LUCON MONTAIGU,seeded from existing high-confidence buyer enrichment
+C.H.S. de la Sarthe,c h s sarthe,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,44.1,6.8,5,H & V (H & V),query=c h s sarthe
+C.S.T.B.,c s t b,411516768,41151676800420,api_recherche_entreprises_current,HIGH,matched,91.7,48.0,10,L O B S T,query=c s t b
+CA Agglomération du Choletais,ca agglomeration choletais,200071678,20007167800011,previous_high_confidence_cache,HIGH,matched,99.2,,1,CA CHOLET AGGLOMERATION,seeded from existing high-confidence buyer enrichment
+CA LES SABLES D OLONNE AGGLOMERATION,ca sables olonne agglomeration,200071165,20007116500167,previous_high_confidence_cache,HIGH,matched,100.0,,1,CA LES SABLES D'OLONNE AGGLOMERATION,seeded from existing high-confidence buyer enrichment
+CA PORNIC AGGLO PAYS DE RETZ,ca pornic agglo pays retz,200067346,20006734600011,previous_high_confidence_cache,HIGH,matched,100.0,,1,CA PORNIC AGGLO PAYS DE RETZ,seeded from existing high-confidence buyer enrichment
+CA SAUMUR VAL DE LOIRE,ca saumur val loire,200071876,20007187600011,previous_high_confidence_cache,HIGH,matched,100.0,,1,CA SAUMUR VAL DE LOIRE,seeded from existing high-confidence buyer enrichment
+CAF de la Somme,caf somme,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,43.3,,1,CAISSE ALLOCATIONS FAMILIALES DE LA SOMME (CAF 80),query=caf somme
+CAP ATLANTIQUE,cap atlantique,353686934,35368693400079,api_recherche_entreprises_current,HIGH,matched,90.4,17.7,10,CAP MAREE ATLANTIQUE,query=cap atlantique
+CARENE,carene,524795564,52479556400011,api_recherche_entreprises_current,HIGH,matched,90.9,20.3,10,CAREN,query=carene
+CARIFOREF,cariforef,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=cariforef
+CC DU PAYS DE CHANTONNAY,cc pays chantonnay,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,46.3,,1,SYND INTERCOM REG NORD EST CHANTONNAY,query=cc pays chantonnay
+CC DU PAYS DE ST FULGENT LES ESSARTS,cc pays st fulgent essarts,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,60.7,,1,CENTRE INTERCOMMUNAL D'ACTION SOCIALE DU PAYS DE SAINT FULGENT/LES ESSARTS (CIAS),query=cc pays st fulgent essarts
+CC Estuaire et Sillon,cc estuaire sillon,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=cc estuaire sillon
+CC Loire Layon Aubance,cc loire layon aubance,200071553,20007155300016,previous_high_confidence_cache,HIGH,matched,100.0,,1,CC LOIRE LAYON AUBANCE,seeded from existing high-confidence buyer enrichment
+CC Océan Marais de Monts,cc ocean marais monts,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=cc ocean marais monts
+CC PAYS DE CRAON,cc pays craon,200048551,20004855100010,previous_high_confidence_cache,HIGH,matched,100.0,,1,CC DU PAYS DE CRAON,seeded from existing high-confidence buyer enrichment
+CC Sud Vendée Littoral,cc sud vendee littoral,200073260,20007326000016,previous_high_confidence_cache,HIGH,matched,100.0,,1,CC SUD VENDEE LITTORAL,seeded from existing high-confidence buyer enrichment
+CCAS coulaines,ccas coulaines,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,55.1,,1,CTRE COM ACTION SOCIALE DE COULAINES,query=ccas ccas coulaines
+CCAS d'Angers,ccas angers,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,39.0,0.0,4,CENTRE COMMUNAL D'ACTION SOCIALE,query=ccas ccas d angers
+CCI DE REG CTRE VAL DE LOIRE,cci reg ctre val loire,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=cci reg ctre val loire
+CCI METROPOLITAINE BRETAGNE OUEST,cci metropolitaine bretagne ouest,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,46.9,,1,BREST METROPOLE AMENAGEMENT (BMA),query=cci metropolitaine bretagne ouest
+CCI Nantes Saint-Nazaire,cci nantes saint nazaire,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,72.0,18.4,10,CHAMBRE COMMERCE INDUSTRIE NANTES - SAINT-NAZAIRE (CCI),query=cci nantes saint nazaire
+CCI Pays de la Loire,cci pays loire,924715238,92471523800011,previous_high_confidence_cache,HIGH,matched,95.5,61.0,6,CSE CCI PAYS DE LA LOIRE,seeded from existing high-confidence buyer enrichment
+CCI Région Pays de la Loire,cci region pays loire,234400034,23440003400026,previous_high_confidence_cache,HIGH,matched,95.5,,1,REGION DES PAYS DE LA LOIRE,seeded from existing high-confidence buyer enrichment
+CCI de Maine et Loire,cci maine loire,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,60.6,10.6,7,CHAMBRE DE COMMERCE D INDUSTRIE DE MAINE LOIRE (CCI),query=cci maine loire
+CCI de la région Pays de la Loire,cci region pays loire,234400034,23440003400026,previous_high_confidence_cache,HIGH,matched,95.5,,1,REGION DES PAYS DE LA LOIRE,seeded from existing high-confidence buyer enrichment
+CCI de région Bretagne,cci region bretagne,233500016,23350001600040,previous_high_confidence_cache,HIGH,matched,93.6,,1,REGION BRETAGNE,seeded from existing high-confidence buyer enrichment
+CCIR Pays de la Loire,ccir pays loire,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,54.9,,1,CHAMBRE DE COMMERCE ET D INDUSTRIE DE REGION PAYS DE LA LOIRE (CCIR),query=ccir pays loire
+CD 44,cd 44,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,53.5,26.6,8,CD 44 (CD 44) (CD 44),query=cd 44
+CDC du Pays de Saint Gilles Cx de Vie,cdc pays saint gilles cx vie,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=cdc pays saint gilles cx vie
+CENOVIA,cenovia,576150270,57615027000063,api_recherche_entreprises_current,HIGH,matched,100.0,22.0,6,CENOVIA (SEM),query=cenovia
+CENOVIA CITES,cenovia cites,834692402,83469240200011,previous_high_confidence_cache,HIGH,matched,100.0,,1,CENOVIA CITES,seeded from existing high-confidence buyer enrichment
+CENTRE COMMUNAL D ACTION SOCIALE,centre communal action sociale,264901893,26490189300042,previous_high_confidence_cache,HIGH,matched,100.0,0.0,10,CENTRE COMMUNAL ACTION SOCIALE (CCAS),seeded from existing high-confidence buyer enrichment
+CENTRE DE GESTION 87,centre gestion 87,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=centre gestion 87
+CENTRE DE GESTION DE LA FONCTION PUBLI,centre gestion fonction publi,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=centre gestion fonction publi
+CEREMA - DTerMed,cerema dtermed,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=cerema dtermed
+CESAME - CH de Sainte Gemmes sur Loire,cesame ch sainte gemmes loire,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,44.8,,1,ASSOCIATION DES INTERNES DE PSYCHIATRIE ANGEVINS,query=centre hospitalier sainte gemmes sur loire
+CETIM,cetim,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,70.5,20.8,4,CETIM (CETIM),query=cetim
+CG49,cg49,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=cg49
+CH DU MANS,ch mans,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,67.2,24.5,10,HOPITAL LE MANS,query=ch mans
+CHAMBRE DE COMMERCE D INDUSTRIE DE MAINE LOIRE,chambre commerce industrie maine loire,130004609,13000460900017,previous_high_confidence_cache,HIGH,matched,100.0,65.4,7,CHAMBRE DE COMMERCE D INDUSTRIE DE MAINE LOIRE (CCI),seeded from existing high-confidence buyer enrichment
+CHAMBRE REG AGRI PAYS DE LA LOIRE,chambre reg agri pays loire,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=chambre reg agri pays loire
+CHBR REG METIERS ARTISANAT NOUV AQUIT,chbr reg metiers artisanat nouv aquit,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=chbr reg metiers artisanat nouv aquit
+CHD VENDEE,chd vendee,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,54.0,0.0,10,SYNDICAT DES INTERNES DU CHD LA ROCHE SUR YON,query=chd vendee
+CHD Vendée - Etablissement support du GHT Vendée,chd vendee etablissement support ght vendee,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=chd vendee support ght vendee
+CHU ANGERS Etablissement support du Groupement Hospitalier de Territoire de Maine et Loire,chu angers etablissement support groupement hospitalier territoire maine loire,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=chu chu angers etablissement support du groupement hospitalier de territoire de maine et loire
+CHU NANTES,chu nantes,264400136,26440013600471,previous_high_confidence_cache,HIGH,matched,91.3,,1,CHU NANTES (CHU),seeded from existing high-confidence buyer enrichment
+CHU d'Angers,chu angers,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,44.8,,1,CENTRE HOSPITALIER UNIVERSITAIRE D'ANGERS,query=chu chu d angers
+CHU de  Nantes,chu nantes,264400136,26440013600471,previous_high_confidence_cache,HIGH,matched,91.3,,1,CHU NANTES (CHU),seeded from existing high-confidence buyer enrichment
+CHU de NANTES,chu nantes,264400136,26440013600471,previous_high_confidence_cache,HIGH,matched,91.3,,1,CHU NANTES (CHU),seeded from existing high-confidence buyer enrichment
+CHU de Nantes,chu nantes,264400136,26440013600471,previous_high_confidence_cache,HIGH,matched,91.3,,1,CHU NANTES (CHU),seeded from existing high-confidence buyer enrichment
+CHU de Nnates,chu nnates,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=chu nnates
+CIAS de La Roche-sur-Yon (85),cias roche yon 85,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=cias roche yon 85
+CIAS de La Roche-sur-Yon Agglomération(85),cias roche yon agglomeration 85,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=cias roche yon agglomeration 85
+CIF GIE GEIPCI,cif gie geipci,379774177,37977417700016,previous_high_confidence_cache,HIGH,matched,100.0,,1,CIF GIE GEIPCI,seeded from existing high-confidence buyer enrichment
+CMAR Pays de La Loire,cmar pays loire,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,55.6,21.5,2,CHAMBRE DE METIERS ET DE L'ARTISANAT DE REGION DES PAYS DE LA LOIRE (CMAR),query=cmar pays loire
+CNAM,cnam,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,52.4,8.0,10,ASSOCIATION PERSONNEL CNAM,query=cnam
+CNDP,cndp,940022890,94002289000013,previous_high_confidence_cache,HIGH,matched,100.0,0.0,10,CNDP,seeded from existing high-confidence buyer enrichment
+CNIEG,cnieg,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,29.3,,1,CAISSE NAT INDUSTRIES ELECT GAZIERES (CNIEG),query=cnieg
+CNIEG (Caisse Nationale des Industries Electriques et Gazières),cnieg caisse nationale industries electriques gazieres,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=cnieg caisse nationale industries electriques gazieres
+COM D AGGLO REG NAZAIRIENNE ESTUAIRE,com agglo reg nazairienne estuaire,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=com agglo reg nazairienne estuaire
+COM DE COMMUNES DE BELLE ILE EN MER,com communes belle ile mer,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=com communes belle ile mer
+COMMUNAUTE COMMUNES HUISNE SARTHOISE,communaute communes huisne sarthoise,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=communaute communes huisne sarthoise
+COMMUNAUTE COMMUNES PAYS DE REDON,communaute communes pays redon,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,30.4,,1,SEMBREIZH (SEMAEB),query=communaute communes pays redon
+COMMUNAUTE D AGGLOMERATION LA ROCHELLE,communaute agglomeration rochelle,241700434,24170043400020,previous_high_confidence_cache,HIGH,matched,100.0,27.9,10,COMMUNAUTE D'AGGLOMERATION LA ROCHELLE,seeded from existing high-confidence buyer enrichment
+COMMUNAUTE DE COMMUNES DE L ERNEE,communaute communes ernee,245300355,24530035500030,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNAUTE DE COMMUNES DE L'ERNEE,seeded from existing high-confidence buyer enrichment
+COMMUNAUTE DE COMMUNES DU SUD ESTUAIRE,communaute communes sud estuaire,244400586,24440058600065,previous_high_confidence_cache,HIGH,matched,100.0,64.4,3,COMMUNAUTE DE COMMUNES DU SUD ESTUAIRE (CCSE),seeded from existing high-confidence buyer enrichment
+COMMUNAUTE de COMMUNES des COEVRONS,communaute communes coevrons,200033298,20003329800015,previous_high_confidence_cache,HIGH,matched,100.0,61.3,2,COMMUNAUTE DE COMMUNES DES COEVRONS,seeded from existing high-confidence buyer enrichment
+COMMUNAUTÉ DE COMMUNES LOIRE LAYON AUBANCE,communaute communes loire layon aubance,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,30.2,,1,ALTER ENERGIES,query=communaute communes loire layon aubance
+COMMUNE DE BEAUFORT EN ANJOU,commune beaufort anjou,200058899,20005889900010,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE BEAUFORT-EN-ANJOU,seeded from existing high-confidence buyer enrichment
+COMMUNE DE BEAUFORT-EN-ANJOU,commune beaufort anjou,200058899,20005889900010,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE BEAUFORT-EN-ANJOU,seeded from existing high-confidence buyer enrichment
+COMMUNE DE BOUAYE,commune bouaye,214400186,21440018600018,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE BOUAYE,seeded from existing high-confidence buyer enrichment
+COMMUNE DE CESSON SEVIGNE,commune cesson sevigne,213500515,21350051500019,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE CESSON SEVIGNE,seeded from existing high-confidence buyer enrichment
+COMMUNE DE CHEMILLE EN ANJOU,commune chemille anjou,200053593,20005359300014,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE CHEMILLE-EN-ANJOU,seeded from existing high-confidence buyer enrichment
+COMMUNE DE KOUROU,commune kourou,219733045,21973304500013,api_recherche_entreprises_current,HIGH,matched,100.0,,1,COMMUNE DE KOUROU,query=commune kourou
+COMMUNE DE LA FERTE-BERNARD,commune ferte bernard,217201326,21720132600014,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE LA FERTE BERNARD,seeded from existing high-confidence buyer enrichment
+COMMUNE DE MAUGES SUR LOIRE,commune mauges loire,200054336,20005433600017,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE MAUGES-SUR-LOIRE,seeded from existing high-confidence buyer enrichment
+COMMUNE DE MURS ERIGNE,commune murs erigne,214902231,21490223100148,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE MURS-ERIGNE,seeded from existing high-confidence buyer enrichment
+COMMUNE DE NANTES,commune nantes,214401093,21440109300015,previous_high_confidence_cache,HIGH,matched,100.0,27.0,8,COMMUNE DE NANTES,seeded from existing high-confidence buyer enrichment
+COMMUNE DE OMBREE D ANJOU,commune ombree anjou,200069474,20006947400019,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE OMBREE D'ANJOU,seeded from existing high-confidence buyer enrichment
+COMMUNE DE REZE,commune reze,214401432,21440143200015,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE REZE,seeded from existing high-confidence buyer enrichment
+COMMUNE DE SAINT NAZAIRE,commune saint nazaire,214401846,21440184600016,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE SAINT-NAZAIRE,seeded from existing high-confidence buyer enrichment
+COMMUNE DE VERRIERES EN ANJOU,commune verrieres anjou,200056679,20005667900018,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE VERRIERES-EN-ANJOU,seeded from existing high-confidence buyer enrichment
+COMMUNE DE VERTOU,commune vertou,214402158,21440215800015,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE VERTOU,seeded from existing high-confidence buyer enrichment
+COMMUNE DU CROISIC,commune croisic,214400491,21440049100129,previous_high_confidence_cache,HIGH,matched,100.0,73.1,2,COMMUNE DU CROISIC,seeded from existing high-confidence buyer enrichment
+COMMUNE LES SABLES D OLONNE,commune sables olonne,200082139,20008213900011,previous_high_confidence_cache,HIGH,matched,100.0,41.5,9,COMMUNE LES SABLES-D'OLONNE,seeded from existing high-confidence buyer enrichment
+COMSOPGN,comsopgn,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=comsopgn
+CONSEIL DEPARTEMENTAL DE LOIRE-ATLANTI,conseil departemental loire atlanti,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,63.8,,1,DAC LOIRE-ATLANTIQUE,query=conseil departemental loire atlanti
+CORLAB,corlab,100492784,10049278400010,previous_high_confidence_cache,HIGH,matched,100.0,72.6,3,CORLAB,seeded from existing high-confidence buyer enrichment
+CPAM de Loire-Atlantique,cpam loire atlantique,515163749,51516374900010,previous_high_confidence_cache,HIGH,matched,97.4,27.6,2,CPAM DE LOIRE ATLANTIQUE (CPAM),seeded from existing high-confidence buyer enrichment
+CPAM de la Sarthe,cpam sarthe,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,47.3,,1,CAISSE PRIMAIRE ASSURANCE MALADIE SARTHE (CPAM),query=cpam sarthe
+CRDC LE LIEU UNIQUE,crdc lieu unique,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,61.3,,1,LIEU UNIQUE SCENE NATIONALE DE NANTES ASSOCIATION CRDC (CRDC),query=crdc lieu unique
+CREHA Ouest,creha ouest,327822177,32782217700025,previous_high_confidence_cache,HIGH,matched,100.0,,1,CREHA OUEST,seeded from existing high-confidence buyer enrichment
+CROUS d'Orléans Tours,crous orleans tours,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,47.1,,1,CENTRE REGIONAL OEUVRES UNIV SCOLAIRES (CROUS),query=crous orleans tours
+CROUS de Nantes,crous nantes,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,50.5,10.8,2,CHOEUR UNIVERSITAIRE DE NANTES (CUN),query=crous nantes
+CROUS de Nantes Pays de la Loire,crous nantes pays loire,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=crous nantes pays loire
+CROUS de Rennes,crous rennes,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,63.3,20.0,4,CAPHANDI'RENNES,query=crous rennes
+CTE REG PECHES MARITIMES ELEVAGES MARI,cte reg peches maritimes elevages mari,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=cte reg peches maritimes elevages mari
+CTRE HOSP UNIVERSITAIRE ANGERS,ctre hosp universitaire angers,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=ctre hosp universitaire angers
+CTRE NATIONAL D ENST A DISTANCE,ctre national enst distance,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=ctre national enst distance
+Casier judiciaire national,casier judiciaire national,130025158,13002515800010,previous_high_confidence_cache,HIGH,matched,94.7,45.5,3,SERVICE DU CASIER JUDICIAIRE NATIONAL,seeded from existing high-confidence buyer enrichment
+Centre Hospitalier Loire Vendée Océan,centre hospitalier loire vendee ocean,268504453,26850445300013,previous_high_confidence_cache,HIGH,matched,100.0,68.0,7,CENTRE HOSPITALIER LOIRE VENDEE OCEAN (CHLVO),seeded from existing high-confidence buyer enrichment
+Centre Hospitalier Spécialisé de Blain,centre hospitalier specialise blain,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=centre hospitalier centre hospitalier specialise de blain
+Centre Hospitalier de Cholet,centre hospitalier cholet,264900390,26490039000016,previous_high_confidence_cache,HIGH,matched,100.0,7.3,10,CENTRE HOSPITALIER DE CHOLET,seeded from existing high-confidence buyer enrichment
+Centre Hospitalier de Laval (53),centre hospitalier laval 53,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,32.3,,1,GIE  IRM 53,query=centre hospitalier laval 53
+Centre Hospitalier de Saint-Nazaire,centre hospitalier saint nazaire,264400268,26440026800456,previous_high_confidence_cache,HIGH,matched,100.0,20.9,10,CENTRE HOSPITALIER SAINT NAZAIRE,seeded from existing high-confidence buyer enrichment
+Centre Hospitalier du Haut Anjou,centre hospitalier haut anjou,265300087,26530008700011,previous_high_confidence_cache,HIGH,matched,100.0,26.8,10,CENTRE HOSPITALIER DU HAUT ANJOU,seeded from existing high-confidence buyer enrichment
+Centre de Gestion FPT Loire-Atlantique,centre gestion fpt loire atlantique,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=centre gestion fpt loire atlantique
+Centre de Gestion de Loire-Atlantique,centre gestion loire atlantique,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,64.0,14.8,6,CENTRE GESTION AGREE BOULANGERIE (CGAHBP),query=centre gestion loire atlantique
+Centre de Gestion de la fonction publique territoriale de Loire-Atlantique,centre gestion fonction publique territoriale loire atlantique,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=centre gestion fonction publique territoriale loire atlantique
+Centre des monuments nationaux,centre monuments nationaux,180046013,18004601300017,previous_high_confidence_cache,HIGH,matched,100.0,14.4,2,CENTRE DES MONUMENTS NATIONAUX (CMN),seeded from existing high-confidence buyer enrichment
+Centre hospitalier de Laval,centre hospitalier laval,265300236,26530023600014,previous_high_confidence_cache,HIGH,matched,100.0,80.0,10,CENTRE HOSPITALIER DE LAVAL,seeded from existing high-confidence buyer enrichment
+Centre hospitalier de Saumur,centre hospitalier saumur,264900523,26490052300012,previous_high_confidence_cache,HIGH,matched,100.0,45.9,9,CENTRE HOSPITALIER DE SAUMUR,seeded from existing high-confidence buyer enrichment
+Chambre Agriculture Pays de la Loire,chambre agriculture pays loire,130031487,13003148700015,previous_high_confidence_cache,HIGH,matched,97.6,65.0,10,CHAMBRE D'AGRICULTURE DE REGION PAYS DE LA LOIRE,seeded from existing high-confidence buyer enrichment
+Chambre de Commerce et d'Industrie,chambre commerce industrie,188500490,18850049000019,previous_high_confidence_cache,HIGH,matched,100.0,22.7,8,CHAMBRE DE COMMERCE ET DE L'INDUSTRIE (CCI),seeded from existing high-confidence buyer enrichment
+Chambre de Commerce et d'Industrie Région Pays de la Loire,chambre commerce industrie region pays loire,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,59.7,,1,REGION DES PAYS DE LA LOIRE,query=region pays de la loire
+Cholet Agglomération,cholet agglomeration,200071678,20007167800011,previous_high_confidence_cache,HIGH,matched,100.0,54.8,3,CA CHOLET AGGLOMERATION,seeded from existing high-confidence buyer enrichment
+Clisson Sèvre et Maine Agglo,clisson sevre maine agglo,200067635,20006763500132,previous_high_confidence_cache,HIGH,matched,100.0,35.6,4,CA CLISSON SEVRE ET MAINE AGGLO,seeded from existing high-confidence buyer enrichment
+Com Communes du Pays d'Ancenis,com communes pays ancenis,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=com communes pays ancenis
+ComCom des Vallées du Haut-Anjou,comcom vallees haut anjou,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=comcom vallees haut anjou
+Comcom Estuaire et Sillon,comcom estuaire sillon,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=comcom estuaire sillon
+Comm Comm de Doué la Fontaine,comm comm doue fontaine,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=comm comm doue fontaine
+Communauté Communes La Chataigneraie,communaute communes chataigneraie,248500415,24850041500067,previous_high_confidence_cache,HIGH,matched,100.0,67.3,5,COMMUNAUTE COMMUNES PAYS CHATAIGNERAIE,seeded from existing high-confidence buyer enrichment
+Communauté Communes Parthenay-Gâtine,communaute communes parthenay gatine,200041333,20004133300267,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNAUTE DE COMMUNES DE PARTHENAY-GATINE,seeded from existing high-confidence buyer enrichment
+Communauté d'Agglomération du Niortais,communaute agglomeration niortais,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,50.7,4.3,4,SOCIETE DES EAUX DU NIORTAIS (SEN),query=communaute agglomeration niortais
+Communauté d'agglomération Saumur Val de Loire (49),communaute agglomeration saumur val loire 49,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=communaute agglomeration saumur val loire 49
+Communauté de Cnes Terres de Montaigu,communaute cnes terres montaigu,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=communaute cnes terres montaigu
+Communauté de Communes Sud Vendée Littoral,communaute communes sud vendee littoral,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,54.8,16.9,2,VENDEE DU SUD ATTRACTIVITE,query=communaute communes sud vendee littoral
+Communauté de Communes Vie et Boulogne,communaute communes vie boulogne,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=communaute communes vie boulogne
+Communauté de Communes de Grand Lieu,communaute communes grand lieu,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,32.7,,1,SYDELA ENERGIE SIX PIECES,query=communaute communes grand lieu
+Communauté de Communes de Nozay,communaute communes nozay,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=communaute communes nozay
+Communauté de Communes du Pays de Saint-Fulgent - Les Essarts (85),communaute communes pays saint fulgent essarts 85,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=communaute communes pays saint fulgent essarts 85
+Communauté de Communes du Perche,communaute communes perche,200006971,20000697100069,previous_high_confidence_cache,HIGH,matched,100.0,44.2,6,COMMUNAUTE DE COMMUNES DU PERCHE,seeded from existing high-confidence buyer enrichment
+Communauté de communes BAUGEOIS VALLEE,communaute communes baugeois vallee,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=communaute communes baugeois vallee
+Communauté de communes Pays Fléchois,communaute communes pays flechois,247200348,24720034800115,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNAUTE DE COMMUNES DU PAYS FLECHOIS,seeded from existing high-confidence buyer enrichment
+Communauté de communes de l'Ernée,communaute communes ernee,245300355,24530035500030,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNAUTE DE COMMUNES DE L'ERNEE,seeded from existing high-confidence buyer enrichment
+Communauté de communes de sablé,communaute communes sable,247200090,24720009000014,previous_high_confidence_cache,HIGH,matched,91.5,,1,COMMUNAUTE DE COMMUNES DU PAYS SABOLIEN,seeded from existing high-confidence buyer enrichment
+Communauté de communes des Coëvrons (53),communaute communes coevrons 53,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=communaute communes coevrons 53
+Communauté de communes du Pays Sabolien,communaute communes pays sabolien,247200090,24720009000014,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNAUTE DE COMMUNES DU PAYS SABOLIEN,seeded from existing high-confidence buyer enrichment
+Communauté urbaine d'Alençon,communaute urbaine alencon,246100663,24610066300011,previous_high_confidence_cache,HIGH,matched,100.0,12.0,8,COMMUNAUTE URBAINE D'ALENCON,seeded from existing high-confidence buyer enrichment
+Commune Bagnoles de l'Orne Normandie,commune bagnoles orne normandie,200055812,20005581200016,previous_high_confidence_cache,HIGH,matched,100.0,45.2,3,COMMUNE DE BAGNOLES DE L'ORNE NORMANDIE,seeded from existing high-confidence buyer enrichment
+Commune Mauges sur Loire,commune mauges loire,200054336,20005433600017,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE MAUGES-SUR-LOIRE,seeded from existing high-confidence buyer enrichment
+Commune d'Ancenis-Saint-Géréon,commune ancenis saint gereon,200083228,20008322800011,previous_high_confidence_cache,HIGH,matched,100.0,37.4,4,COMMUNE DE ANCENIS-SAINT-GEREON,seeded from existing high-confidence buyer enrichment
+Commune d'Indre,commune indre,214400749,21440074900013,previous_high_confidence_cache,HIGH,matched,100.0,48.7,2,COMMUNE D'INDRE,seeded from existing high-confidence buyer enrichment
+Commune de Beaupréau en Mauges,commune beaupreau mauges,200053619,20005361900017,previous_high_confidence_cache,HIGH,matched,100.0,31.0,2,COMMUNE DE BEAUPREAU-EN-MAUGES,seeded from existing high-confidence buyer enrichment
+Commune de Challans,commune challans,218500478,21850047800209,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE CHALLANS,seeded from existing high-confidence buyer enrichment
+Commune de Champagné,commune champagne,217200542,21720054200017,previous_high_confidence_cache,HIGH,matched,100.0,9.1,9,COMMUNE DE CHAMPAGNE,seeded from existing high-confidence buyer enrichment
+Commune de La Baule,commune baule,214400558,21440055800018,previous_high_confidence_cache,HIGH,matched,80.2,,1,COMMUNE DE LA BAULE-ESCOUBLAC,seeded from existing high-confidence buyer enrichment
+Commune de La Flèche,commune fleche,217201540,21720154000010,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE LA FLECHE,seeded from existing high-confidence buyer enrichment
+Commune de Notre Dame des Landes,commune notre dame landes,214401119,21440111900018,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE NOTRE-DAME-DES-LANDES,seeded from existing high-confidence buyer enrichment
+Commune de Pornic,commune pornic,214401317,21440131700018,previous_high_confidence_cache,HIGH,matched,100.0,43.1,6,COMMUNE DE PORNIC,seeded from existing high-confidence buyer enrichment
+Commune de Saint Mars du Désert,commune saint mars desert,214401796,21440179600088,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE SAINT-MARS-DU-DESERT,seeded from existing high-confidence buyer enrichment
+Commune de Saint-Herblain,commune saint herblain,214401622,21440162200011,previous_high_confidence_cache,HIGH,matched,100.0,40.2,2,COMMUNE DE SAINT-HERBLAIN,seeded from existing high-confidence buyer enrichment
+Commune de Saint-Nazaire,commune saint nazaire,214401846,21440184600016,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE SAINT-NAZAIRE,seeded from existing high-confidence buyer enrichment
+Commune de Saintes,commune saintes,211704150,21170415000351,previous_high_confidence_cache,HIGH,matched,100.0,21.7,10,COMMUNE DE SAINTES,seeded from existing high-confidence buyer enrichment
+Commune de VALLONS-DE-L'ERDRE,commune vallons erdre,200078079,20007807900015,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE VALLONS-DE-L'ERDRE,seeded from existing high-confidence buyer enrichment
+Commune de la Chevrolière,commune chevroliere,214400418,21440041800098,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE LA CHEVROLIERE,seeded from existing high-confidence buyer enrichment
+Commune des Herbiers,commune herbiers,218501096,21850109600018,previous_high_confidence_cache,HIGH,matched,100.0,30.7,6,COMMUNE DES HERBIERS,seeded from existing high-confidence buyer enrichment
+Concarneau Cornouaille Agglomération,concarneau cornouaille agglomeration,242900769,24290076900124,previous_high_confidence_cache,HIGH,matched,100.0,28.0,2,CONCARNEAU CORNOUAILLE AGGLOMERATION,seeded from existing high-confidence buyer enrichment
+Conseil Départemental de la Mayenne,conseil departemental mayenne,225300011,22530001100015,previous_high_confidence_cache,HIGH,matched,81.8,,1,DEPARTEMENT DE LA MAYENNE,seeded from existing high-confidence buyer enrichment
+Conseil Général de la Sarthe,conseil general sarthe,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,52.7,,1,DEPARTEMENT DE LA SARTHE,query=departement la sarthe
+Conseil départemental Loire Atlantique,conseil departemental loire atlantique,935367433,93536743300015,previous_high_confidence_cache,HIGH,matched,93.4,5.4,10,CONSEIL DEPARTEMENTAL DES MOSQUEES DE LOIRE-ATLANTIQUE (CDM),seeded from existing high-confidence buyer enrichment
+Conseil départemental Loire-Atlantique,conseil departemental loire atlantique,935367433,93536743300015,previous_high_confidence_cache,HIGH,matched,93.4,5.4,10,CONSEIL DEPARTEMENTAL DES MOSQUEES DE LOIRE-ATLANTIQUE (CDM),seeded from existing high-confidence buyer enrichment
+Conseil départemental de la Mayenne,conseil departemental mayenne,225300011,22530001100015,previous_high_confidence_cache,HIGH,matched,81.8,,1,DEPARTEMENT DE LA MAYENNE,seeded from existing high-confidence buyer enrichment
+Conseil général de Loire-Atlantique,conseil general loire atlantique,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,70.7,,1,DEPARTEMENT DE LA LOIRE-ATLANTIQUE,query=departement loire atlantique
+Conseil général de la Vendée,conseil general vendee,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,52.7,,1,DEPARTEMENT DE VENDEE,query=departement la vendee
+Conseil régional des Pays de la Loire,conseil regional pays loire,234400034,23440003400026,previous_high_confidence_cache,HIGH,matched,81.3,,1,REGION DES PAYS DE LA LOIRE,seeded from existing high-confidence buyer enrichment
+Conservatoire du littoral,conservatoire littoral,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,71.8,5.1,2,CONSERVATOIRE DE L'ESPACE LITTORAL ET DES RIVAGES LACUSTRES,query=conservatoire littoral
+Conservatoire national des arts et métiers,conservatoire national arts metiers,197534712,19753471200017,api_recherche_entreprises_current,HIGH,matched,100.0,,1,CONSERVATOIRE NATIONAL DES ARTS ET METIERS (CNAM),query=conservatoire national arts metiers
+Cour d'Appel de Rennes,cour appel rennes,173501115,17350111500013,previous_high_confidence_cache,HIGH,matched,100.0,44.1,3,COUR D APPEL DE RENNES,seeded from existing high-confidence buyer enrichment
+Cté Cnes Coeur d'Estuaire,cte cnes coeur estuaire,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=cte cnes coeur estuaire
+Cté Cnes LES PORTES BRIARDES,cte cnes portes briardes,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=cte cnes portes briardes
+Cté cnes du Pays de Château de Gontier,cte cnes pays chateau gontier,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=cte cnes pays chateau gontier
+Cté d'Agglomération du Choletais,cte agglomeration choletais,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,41.0,,1,ALTER PUBLIC,query=cte agglomeration choletais
+Cté de Cnes de l'Ile de Noirmoutier,cte cnes ile noirmoutier,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=cte cnes ile noirmoutier
+Cté de Cnes de la Vallée de Clisson,cte cnes vallee clisson,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=cte cnes vallee clisson
+Cté de Cnes du Pays d'Ancenis,cte cnes pays ancenis,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=cte cnes pays ancenis
+Cté de Communes d'Erdre et Gesvres,cte communes erdre gesvres,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=cte communes erdre gesvres
+Cté de Communes de la Région de Blain,cte communes region blain,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,71.9,3.6,6,COMICE AGRICOLE DE LA REGION DE BLAIN,query=region blain
+Cté de Communes du Pays des Herbiers,cte communes pays herbiers,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=cte communes pays herbiers
+DAP...,dap,539220020,53922002000033,api_recherche_entreprises_current,HIGH,matched,100.0,0.0,10,DAP,query=dap
+DEPAFI,depafi,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=depafi
+DEPARTEMENT DE LA MAYENNE,departement mayenne,225300011,22530001100015,previous_high_confidence_cache,HIGH,matched,100.0,14.4,10,DEPARTEMENT DE LA MAYENNE,seeded from existing high-confidence buyer enrichment
+DEPARTEMENT DE LA SARTHE,departement sarthe,227200029,22720002900014,previous_high_confidence_cache,HIGH,matched,100.0,,1,DEPARTEMENT DE LA SARTHE,seeded from existing high-confidence buyer enrichment
+DEPARTEMENT DE VENDEE,departement vendee,228500013,22850001300658,previous_high_confidence_cache,HIGH,matched,100.0,,1,DEPARTEMENT DE VENDEE,seeded from existing high-confidence buyer enrichment
+DESTINATION RENNES Tourisme Congrès,destination rennes tourisme congres,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,70.7,,1,DESTINATION RENNES (DESTINATION RENNES),query=destination rennes tourisme congres
+DGAC DSNA,dgac dsna,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,30.9,,1,DIRECTION DES SERVICES DE LA NAVIGATION AERIENNE (DSNA),query=dgac dsna
+DIR INTERDEPARTEMENTALE DES RTE OUEST,dir interdepartementale rte ouest,130001704,13000170400589,previous_high_confidence_cache,HIGH,matched,89.5,4.9,5,DIRECTION INTERDEPARTEMENTALE DES ROUTES OUEST (DIR),seeded from existing high-confidence buyer enrichment
+DIR INTERDEPARTEMENTALE ROUTES OUEST,dir interdepartementale routes ouest,130001704,13000170400589,previous_high_confidence_cache,HIGH,matched,95.8,,1,DIRECTION INTERDEPARTEMENTALE DES ROUTES OUEST (DIR),seeded from existing high-confidence buyer enrichment
+DIR INTERREGIONALE SCES PENITENTIAIRES,dir interregionale sces penitentiaires,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=dir interregionale sces penitentiaires
+DIR Ouest,dir ouest,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,40.7,15.7,2,DIRECTION INTERDEPARTEMENTALE DES ROUTES OUEST (DIR),query=dir ouest
+DIR REG ENVIR AMENAGEMENT LOGT BRETAGN,dir reg envir amenagement logt bretagn,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=dir reg envir amenagement logt bretagn
+DIRISI,dirisi,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,21.4,5.6,3,ASSOCIATION CARIBEENNE DE TIR A L'ARC (A.C.T.A),query=dirisi
+DRAC Pays de la Loire,drac pays loire,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,50.3,,1,DIRECTION REGIONALE AFFAIRES CULTURELLES PAYS DE LA LOIRE (DRAC),query=drac pays loire
+DRAGAGES PORTS,dragages ports,317665420,31766542000046,previous_high_confidence_cache,HIGH,matched,100.0,,1,DRAGAGES PORTS,seeded from existing high-confidence buyer enrichment
+DREAL BRETAGNE,dreal bretagne,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,41.7,,1,DIRECTION REGIONALE DE L'ENVIRONNEMENT DE L'AMENAGEMENT ET DU LOGEMENT BRETAGNE (DREAL),query=dreal bretagne
+DREAL Pays de la Loire,dreal pays loire,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,44.8,9.0,2,DIRECTION REGIONALE DE L'ENVIRONNEMENT DE L'AMENAGEMENT ET DU LOGEMENT PAYS DE LA LOIRE (DREAL),query=dreal pays loire
+DSI de Pôle emploi,dsi pole emploi,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,20.7,,1,FRANCE TRAVAIL,query=dsi pole emploi
+DSNA,dsna,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,25.0,18.2,2,DIRECTION DES SERVICES DE LA NAVIGATION AERIENNE (DSNA),query=dsna
+Destination Angers,destination angers,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,74.0,23.2,3,CLUB DESTINATION ANJOU,query=destination angers
+"Direction Cybersécurité, Cloud et IA",direction cybersecurite cloud ia,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=direction cybersecurite cloud ia
+Direction de l'administration pénitentiaire,direction administration penitentiaire,120012018,12001201800111,previous_high_confidence_cache,HIGH,matched,97.4,,1,DIRECTION GENERALE DE L'ADMINISTRATION PENITENTIAIRE,seeded from existing high-confidence buyer enrichment
+Direction interdépartementale des routes ouest DIR Ouest,direction interdepartementale routes ouest dir ouest,130001704,13000170400589,previous_high_confidence_cache,HIGH,matched,100.0,,1,DIRECTION INTERDEPARTEMENTALE DES ROUTES OUEST (DIR),seeded from existing high-confidence buyer enrichment
+Département de Maine-et-Loire,departement maine loire,224900019,22490001900015,previous_high_confidence_cache,HIGH,matched,100.0,,1,DEPARTEMENT DE MAINE ET LOIRE,seeded from existing high-confidence buyer enrichment
+Département de la Sarthe,departement sarthe,227200029,22720002900014,previous_high_confidence_cache,HIGH,matched,100.0,,1,DEPARTEMENT DE LA SARTHE,seeded from existing high-confidence buyer enrichment
+Département de la Vendée,departement vendee,228500013,22850001300658,previous_high_confidence_cache,HIGH,matched,100.0,,1,DEPARTEMENT DE VENDEE,seeded from existing high-confidence buyer enrichment
+Département des Côtes d'Armor,departement cotes armor,222200016,22220001600327,previous_high_confidence_cache,HIGH,matched,100.0,,1,DEPARTEMENT DES COTES D'ARMOR,seeded from existing high-confidence buyer enrichment
+E-TOILE Coordonnateur groupement comm,e toile coordonnateur groupement comm,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=e toile coordonnateur groupement comm
+E.C.A.S. gendarmerie nationale,e c s gendarmerie nationale,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,66.6,,1,COMMANDEMENT DU SOUTIEN OPERATIONNEL DE LA GENDARMERIE NATIONALE,query=e c s gendarmerie nationale
+EC SUP BEAUX ARTS TOURS ANGERS MANS,ec sup beaux arts tours angers mans,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=ec sup beaux arts tours angers mans
+ECOLE CENTRALE DE NANTES,ecole centrale nantes,194401006,19440100600011,previous_high_confidence_cache,HIGH,matched,100.0,18.3,10,ECOLE CENTRALE DE NANTES,seeded from existing high-confidence buyer enrichment
+ECOLE NATIONALE SUPERIEURE D'ARTS ET METIERS,ecole nationale superieure arts metiers,197534720,19753472000010,previous_high_confidence_cache,HIGH,matched,94.7,12.4,5,ECOLE NATIONALE SUPERIEURE D'ARTS ET METIERS (ENSAM) (ENSAM),seeded from existing high-confidence buyer enrichment
+ECOLE NATIONALE SUPERIEURE MARITIME,ecole nationale superieure maritime,130013097,13001309700071,previous_high_confidence_cache,HIGH,matched,100.0,,1,ECOLE NATIONALE SUPERIEURE MARITIME (ENSM),seeded from existing high-confidence buyer enrichment
+EHPAD RESIDENCES LES LIGERIENNES,ehpad residences ligeriennes,264900259,26490025900062,previous_high_confidence_cache,HIGH,matched,98.3,,1,EHPAD RESIDENCES LES LIGERIENNES (EHPAD),seeded from existing high-confidence buyer enrichment
+ENSA Nantes,ensa nantes,922749635,92274963500012,previous_high_confidence_cache,HIGH,matched,79.0,35.5,7,ASSOCIATION SPORTIVE DE L'ENSA NANTES,seeded from existing high-confidence buyer enrichment
+ENSAM,ensam,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,28.6,0.0,7,LES GADZ'ARTS,query=ensam
+EPCC Les Quinconces & L'Espal,epcc quinconces espal,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=epcc quinconces espal
+"EPF DE LA VENDEE
+123 BOULEVARD LOUIS BLANC
+85000 LA ROCHE SUR YON",epf vendee 123 boulevard louis blanc 85000 roche yon,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,47.0,,1,ETABLISSEMENT PUBLIC FONCIER DE LA VENDEE (EPF DE LA VENDEE),"query=epf vendee
+123 boulevard louis blanc
+85000 roche yon"
+EPF de la Vendée,epf vendee,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,55.6,,1,ETABLISSEMENT PUBLIC FONCIER DE LA VENDEE (EPF DE LA VENDEE),query=epf vendee
+EPMP,epmp,521005819,52100581900011,previous_high_confidence_cache,HIGH,matched,100.0,30.5,7,EPMP,seeded from existing high-confidence buyer enrichment
+EPSILON CENTRALE D'ACHAT INFORMATIQUE,epsilon centrale achat informatique,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=epsilon centrale achat informatique
+ESAT Foyers,esat foyers,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,64.9,9.5,7,LES FOYERS DE CLUNY,query=esat foyers
+ETABLISSEMENT PUBLIC DU MARAIS POITEVI,etablissement public marais poitevi,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=public marais poitevi
+Ecole Centrale de Nantes,ecole centrale nantes,194401006,19440100600011,previous_high_confidence_cache,HIGH,matched,100.0,18.3,10,ECOLE CENTRALE DE NANTES,seeded from existing high-confidence buyer enrichment
+Ecole National Sup. d'Arts et Métiers,ecole national sup arts metiers,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,29.2,,1,PARFAIRE (PARFAIRE),query=ecole national sup arts metiers
+Ecole Nationale Supérieure d'Arts et Métiers,ecole nationale superieure arts metiers,197534720,19753472000010,previous_high_confidence_cache,HIGH,matched,94.7,12.4,5,ECOLE NATIONALE SUPERIEURE D'ARTS ET METIERS (ENSAM) (ENSAM),seeded from existing high-confidence buyer enrichment
+Ecole des Mines de Nantes,ecole mines nantes,523699148,52369914800012,previous_high_confidence_cache,HIGH,matched,78.6,16.7,8,FONDS DE DOTATION DE L'ECOLE DES MINES DE NANTES,seeded from existing high-confidence buyer enrichment
+Espacil Habitat,espacil habitat,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,62.5,9.7,3,ESPACIL HABITAT SA D'HABITATIONS A LOYER MODERE,query=espacil habitat
+FONDAT REGION OUEST LIGUE CANCER,fondat region ouest ligue cancer,777739160,77773916000011,previous_high_confidence_cache,HIGH,matched,100.0,,1,FONDAT REGION OUEST LIGUE CANCER,seeded from existing high-confidence buyer enrichment
+FONDATION PARTENARIALE POLYTECH,fondation partenariale polytech,831928452,83192845200075,previous_high_confidence_cache,HIGH,matched,100.0,,1,FONDATION PARTENARIALE POLYTECH,seeded from existing high-confidence buyer enrichment
+France Velo Tourisme,france velo tourisme,515329514,51532951400035,previous_high_confidence_cache,HIGH,matched,100.0,,1,FRANCE VELO TOURISME,seeded from existing high-confidence buyer enrichment
+GCS BIOLOGIE 85,gcs biologie 85,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,55.6,,1,GROUPEMENT DE COOPERATION SANITAIRE BIOLOGIE 85 (GCS),query=gcs biologie 85
+GCS E SANTE PAYS DE LA LOIRE,gcs e sante pays loire,538208455,53820845500021,previous_high_confidence_cache,HIGH,matched,100.0,,1,GCS E-SANTE PAYS DE LA LOIRE,seeded from existing high-confidence buyer enrichment
+GCS eSanté Pays de la Loire,gcs esante pays loire,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=gcs esante pays loire
+GCSMS PART'AGE 72,gcsms part age 72,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=gcsms part age 72
+GEVES,geves,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,28.8,15.8,2,GROUPE D ETUDES ET DE CONTROLE DES VARIETES ET DES SEMENCES (GIP GEVES),query=geves
+GIE LOIRE OCEAN,gie loire ocean,539616508,53961650800021,api_recherche_entreprises_current,HIGH,matched,100.0,16.1,10,GIE LOIRE OCEAN,query=loire ocean
+GIE SESAM VITALE,gie sesam vitale,391722881,39172288100052,previous_high_confidence_cache,HIGH,matched,100.0,,1,GIE SESAM VITALE,seeded from existing high-confidence buyer enrichment
+GIE SESAM Vitale,gie sesam vitale,391722881,39172288100052,previous_high_confidence_cache,HIGH,matched,100.0,,1,GIE SESAM VITALE,seeded from existing high-confidence buyer enrichment
+GIE SESAM-Vitale,gie sesam vitale,391722881,39172288100052,previous_high_confidence_cache,HIGH,matched,100.0,,1,GIE SESAM VITALE,seeded from existing high-confidence buyer enrichment
+GIE des EPL de Vendée,gie epl vendee,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=epl vendee
+GIE des EPL des Pays de la Loire,gie epl pays loire,529210809,52921080900016,previous_high_confidence_cache,HIGH,matched,76.3,,1,GIE DES EPL DES PAYS DE LA LOIRE (SOLUTIONS&CO),seeded from existing high-confidence buyer enrichment
+GIP ATLANPOLE (44),gip atlanpole 44,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=gip atlanpole 44
+GIP RESAH,gip resah,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=gip resah
+GIP Vendée Numérique,gip vendee numerique,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,68.6,,1,GROUPEMENT D'INTERET PUBLIC VENDEE NUMERIQUE (GIP),query=gip vendee numerique
+GPM de Nantes - St Nazaire,gpm nantes st nazaire,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=gpm nantes st nazaire
+GRETA-CFA LOIRE-ATLANTIQUE,greta cfa loire atlantique,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=greta cfa loire atlantique
+GROUPEMENT D INTERET PUBLIC PIX,groupement interet public pix,130023435,13002343500022,previous_high_confidence_cache,HIGH,matched,100.0,,1,GROUPEMENT D INTERET PUBLIC PIX (GIP),seeded from existing high-confidence buyer enrichment
+GROUPEMENT TRANSAMO - CENOVIA,groupement transamo cenovia,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=groupement transamo cenovia
+Gcs E-Sante Pays de la Loire,gcs e sante pays loire,538208455,53820845500021,previous_high_confidence_cache,HIGH,matched,100.0,,1,GCS E-SANTE PAYS DE LA LOIRE,seeded from existing high-confidence buyer enrichment
+Grand Lieu Communauté,grand lieu communaute,244400438,24440043800127,previous_high_confidence_cache,HIGH,matched,100.0,37.5,4,GRAND LIEU COMMUNAUTE,seeded from existing high-confidence buyer enrichment
+Grand Port Maritime de Nantes Saint-Nazaire,grand port maritime nantes saint nazaire,775604853,77560485300041,previous_high_confidence_cache,HIGH,matched,100.0,59.3,2,GRAND PORT MARITIME DE NANTES SAINT-NAZAIRE,seeded from existing high-confidence buyer enrichment
+Groupe d'étude et de contrôle des vari,groupe etude controle vari,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=etude controle vari
+"Groupement TRANSAMO / La SET, agissant au nom et pour le compte du Syndicat des mobilités de Touraine (SMT), maître d'ouvrage",groupement transamo set agissant nom compte syndicat mobilites touraine smt maitre ouvrage,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=groupement transamo set agissant nom compte mobilites touraine smt maitre ouvrage
+Groupement d'achats de l'Herm,groupement achats herm,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=groupement achats herm
+Groupement d'intérêt public GIGALIS,groupement interet public gigalis,254402530,25440253000011,api_recherche_entreprises_current,HIGH,matched,100.0,,1,GROUPEMENT D'INTERET PUBLIC GIGALIS,query=groupement interet public gigalis
+Groupement d'intérêt public Vendée Numérique,groupement interet public vendee numerique,130018559,13001855900018,previous_high_confidence_cache,HIGH,matched,100.0,,1,GROUPEMENT D'INTERET PUBLIC VENDEE NUMERIQUE (GIP),seeded from existing high-confidence buyer enrichment
+HOP INTERCOMMUNAL DU BAUGEOIS ET VAL,hop intercommunal baugeois val,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=hop intercommunal baugeois val
+Hopital Intercommunal Sèvre et Loire,hopital intercommunal sevre loire,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,25.6,,1,HOPSIS,query=hopital intercommunal sevre loire
+I.F.C.E,i f c e,920503430,92050343000018,api_recherche_entreprises_current,HIGH,matched,77.4,52.4,3,E-O-I-F,query=i f c e
+IMT ATLANTIQUE BRETAGNE - PAYS DE LA LOIRE,imt atlantique bretagne pays loire,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,41.6,,1,INSTITUT MINES-TELECOM (IMT),query=imt atlantique bretagne pays loire
+INESAAE - L'Institut Agro,inesaae institut agro,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=inesaae institut agro
+INRA - Formation permanente nationale,inra formation permanente nationale,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=inra formation permanente nationale
+INRA ANGERS NANTES,inra angers nantes,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=inra angers nantes
+INSEE,insee,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,31.3,6.4,3,A.S.C.I.B.ASSOC SPORT CULT INSEE BEAULIE,query=insee
+INSERM,inserm,924405756,92440575600017,api_recherche_entreprises_current,HIGH,matched,100.0,37.5,10,FONDATION INSERM,query=inserm
+INSTITUT 4.10,institut 4 10,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=institut 4 10
+IPHV LES HAUTS THEBAUDIERES,iphv hauts thebaudieres,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=iphv hauts thebaudieres
+IRA DE LYON,ira lyon,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,58.5,14.5,5,IRA,query=ira lyon
+IRCANTEC,ircantec,784301525,78430152500050,previous_high_confidence_cache,HIGH,matched,100.0,,1,IRCANTEC,seeded from existing high-confidence buyer enrichment
+IRCEC,ircec,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=ircec
+Inst. Interdpt bassin Sèvre Niortaise,inst interdpt bassin sevre niortaise,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=inst interdpt bassin sevre niortaise
+Institut Mines-Télécom Atlantique,institut mines telecom atlantique,180092025,18009202500154,previous_high_confidence_cache,HIGH,matched,87.4,,1,INSTITUT MINES-TELECOM (IMT),seeded from existing high-confidence buyer enrichment
+Institut Polytechnique de Grenoble,institut polytechnique grenoble,193819125,19381912500017,api_recherche_entreprises_current,HIGH,matched,100.0,10.4,7,INSTITUT POLYTECHNIQUE DE GRENOBLE (IPG),query=institut polytechnique grenoble
+Institut Régional Administration Lyon,institut regional administration lyon,832970024,83297002400010,previous_high_confidence_cache,HIGH,matched,94.0,9.7,2,LES AMIS DE L'INSTITUT REGIONAL D'ADMINISTRATION DE LYON (AMIRAL),seeded from existing high-confidence buyer enrichment
+LA GARNACHE,garnache,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,74.7,0.0,10,COMMUNE DE LA GARNACHE,query=garnache
+LA ROCHE-SUR-YON AGGLOMERATION,roche yon agglomeration,248500589,24850058900317,previous_high_confidence_cache,HIGH,matched,100.0,39.1,9,LA ROCHE-SUR-YON AGGLOMERATION,seeded from existing high-confidence buyer enrichment
+LAVAL SPLA,laval spla,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=laval spla
+LE PLONGEOIR - CITE DU CIRQUE,plongeoir cite cirque,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,73.6,58.2,2,LE PLONGEOIR- CITE DU CIRQUE (LE PLONGEOIR - CITE DU CIRQUE),query=plongeoir cite cirque
+LPO Touchard Washington,lpo touchard washington,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,52.7,,1,LYCEE POLYVALENT GABRIEL TOUCHARD-WASHINGTON - LYCEE DES METIERS PROTHESE DENTAIRE (LPO),query=lpo touchard washington
+LYCEE GENERAL ET TECHNOLOGIQUE ALBERT CAMUS,lycee general technologique albert camus,194402889,19440288900019,api_recherche_entreprises_current,HIGH,matched,100.0,,1,LYCEE GENERAL ET TECHNOLOGIQUE ALBERT CAMUS,query=lycee general technologique albert camus
+LYCEE POLYVALENT LEONARD DE VINCI,lycee polyvalent leonard vinci,198513905,19851390500028,previous_high_confidence_cache,HIGH,matched,100.0,,1,LYCEE POLYVALENT LEONARD DE VINCI,seeded from existing high-confidence buyer enrichment
+La Cité des Congrès de Nantes,cite congres nantes,381053768,38105376800028,previous_high_confidence_cache,HIGH,matched,92.4,16.5,10,LA CITE LE CENTRE DES CONGRES DE NANTES,seeded from existing high-confidence buyer enrichment
+La Cité des Congrès de Nantes agissant au nom et pour le compte de Nantes Métropole,cite congres nantes agissant nom compte nantes metropole,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=cite congres nantes agissant nom compte nantes metropole
+La Roche sur Yon Agglomération (85),roche yon agglomeration 85,521017848,52101784800016,previous_high_confidence_cache,HIGH,matched,88.0,,1,NAT'YON LA ROCHE AGGLOMERATION 85(N Y R A 85),seeded from existing high-confidence buyer enrichment
+La Roche-sur-Yon Agglomération,roche yon agglomeration,248500589,24850058900317,previous_high_confidence_cache,HIGH,matched,100.0,39.1,9,LA ROCHE-SUR-YON AGGLOMERATION,seeded from existing high-confidence buyer enrichment
+Laval Agglomération,laval agglomeration,200083392,20008339200015,previous_high_confidence_cache,HIGH,matched,100.0,9.4,10,LAVAL AGGLOMERATION,seeded from existing high-confidence buyer enrichment
+Le Grand T - Théâtre Loire-Atlantique,grand t theatre loire atlantique,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,34.5,,1,CENTRE DE CONSEIL ET DE SERVICE -CCS,query=grand t theatre loire atlantique
+Le Mans Métropole,mans metropole,488538877,48853887700025,api_recherche_entreprises_current,HIGH,matched,88.0,0.0,10,BOXING LE MANS METROPOLE,query=mans metropole
+Le Mans Métropole - Communauté Urbaine,mans metropole communaute urbaine,247200132,24720013200014,previous_high_confidence_cache,HIGH,matched,100.0,60.5,4,LE MANS METROPOLE COMMUNAUTE URBAINE,seeded from existing high-confidence buyer enrichment
+Le Mans Université,mans universite,197209166,19720916600010,api_recherche_entreprises_current,HIGH,matched,100.0,,1,UNIVERSITE DU MANS,query=mans universite
+Le Voyage à Nantes,voyage nantes,482414216,48241421600044,previous_high_confidence_cache,HIGH,matched,100.0,67.4,10,LE VOYAGE A NANTES,seeded from existing high-confidence buyer enrichment
+Les Quinconces l'Espal,quinconces espal,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,73.3,13.7,2,LES QUINCONCES & L'ESPAL (LES QUINCONCES & L'ESPAL),query=quinconces espal
+Les Sables d'Olonne Agglomération,sables olonne agglomeration,200071165,20007116500167,previous_high_confidence_cache,HIGH,matched,100.0,34.6,7,CA LES SABLES D'OLONNE AGGLOMERATION,seeded from existing high-confidence buyer enrichment
+Loire Atlantique Développement - GIE,loire atlantique developpement gie,860800077,86080007700098,previous_high_confidence_cache,HIGH,matched,100.0,0.0,10,LOIRE ATLANTIQUE DEVELOPPEMENT SELA (SELA),seeded from existing high-confidence buyer enrichment
+Loire Atlantique développement,loire atlantique developpement,860800077,86080007700098,previous_high_confidence_cache,HIGH,matched,100.0,0.0,10,LOIRE ATLANTIQUE DEVELOPPEMENT SELA (SELA),seeded from existing high-confidence buyer enrichment
+Loire Ocean developpement,loire ocean developpement,865800767,86580076700069,previous_high_confidence_cache,HIGH,matched,100.0,5.8,4,LOIRE OCEAN DEVELOPPEMENT,seeded from existing high-confidence buyer enrichment
+Loire Océan Métropole Aménagement,loire ocean metropole amenagement,535164412,53516441200020,previous_high_confidence_cache,HIGH,matched,100.0,46.0,2,LOIRE OCEAN METROPOLE AMENAGEMENT,seeded from existing high-confidence buyer enrichment
+Loire-Atlantique développement - GIE,loire atlantique developpement gie,860800077,86080007700098,previous_high_confidence_cache,HIGH,matched,100.0,0.0,10,LOIRE ATLANTIQUE DEVELOPPEMENT SELA (SELA),seeded from existing high-confidence buyer enrichment
+MAINE LOIRE HABITAT OFFICE PUB HABITAT,maine loire habitat office pub habitat,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=maine loire habitat office pub habitat
+MAIRIE DE BAUGE EN ANJOU,mairie bauge anjou,200052702,20005270200012,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE BAUGE-EN-ANJOU,seeded from existing high-confidence buyer enrichment
+MAIRIE DE CORDEMAIS,mairie cordemais,214400459,21440045900019,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE CORDEMAIS,seeded from existing high-confidence buyer enrichment
+MAIRIE DE LA CHAPELLE SUR ERDRE,mairie chapelle erdre,214400350,21440035000010,previous_high_confidence_cache,HIGH,matched,100.0,47.3,2,COMMUNE DE LA CHAPELLE-SUR-ERDRE,seeded from existing high-confidence buyer enrichment
+MAIRIE DE REZE,mairie reze,214401432,21440143200015,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE REZE,seeded from existing high-confidence buyer enrichment
+MAIRIE DE SAINT SATURNIN,mairie saint saturnin,217203207,21720320700071,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE SAINT SATURNIN,seeded from existing high-confidence buyer enrichment
+MASH,mash,983291931,98329193100019,previous_high_confidence_cache,HIGH,matched,100.0,47.6,4,MASH,seeded from existing high-confidence buyer enrichment
+MAUGES COMMUNAUTE,mauges communaute,200060010,20006001000010,previous_high_confidence_cache,HIGH,matched,100.0,42.7,10,MAUGES COMMUNAUTE,seeded from existing high-confidence buyer enrichment
+MAYENNE TRES HAUT DEBIT,mayenne tres haut debit,200061778,20006177800011,previous_high_confidence_cache,HIGH,matched,100.0,,1,MAYENNE TRES HAUT DEBIT,seeded from existing high-confidence buyer enrichment
+MEDDE / DGAC / SCN / SSIM,medde dgac scn ssim,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=medde dgac scn ssim
+METROPOLE NANTES METROPOLE,metropole nantes metropole,244400404,24440040400129,previous_high_confidence_cache,HIGH,matched,100.0,13.6,10,METROPOLE NANTES METROPOLE,seeded from existing high-confidence buyer enrichment
+MINDEF/DGA/DO/S2A,mindef dga do s2a,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=mindef dga do s2a
+MINDEF/DGA/DT/SCAT,mindef dga dt scat,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=mindef dga dt scat
+MINDEF/EMA/DC SCA/PFAF CO Rennes,mindef ema dc sca pfaf co rennes,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=mindef ema dc sca pfaf co rennes
+MINDEF/SGA/DCSID/ESID Bordeaux,mindef sga dcsid esid bordeaux,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=mindef sga dcsid esid bordeaux
+MINDEF/SGA/SPAC/S-Direction des achats,mindef sga spac s direction achats,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=mindef sga spac s direction achats
+MONTREVAULT-SUR-ÈVRE,montrevault evre,200054302,20005430200019,previous_high_confidence_cache,HIGH,matched,88.0,-6.5,10,COMMUNE DE MONTREVAULT-SUR-EVRE,seeded from existing high-confidence buyer enrichment
+MTE/DGPR/SRN/service central Vigicrues,mte dgpr srn service central vigicrues,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=mte dgpr srn service central vigicrues
+Mairie Tours,mairie tours,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,75.4,8.5,10,LES AMIS DE PARIS-TOURS,query=mairie tours
+Mairie de Blain,mairie blain,214400152,21440015200051,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE BLAIN,seeded from existing high-confidence buyer enrichment
+Mairie de Clisson,mairie clisson,214400434,21440043400012,previous_high_confidence_cache,HIGH,matched,100.0,23.8,4,COMMUNE DE CLISSON,seeded from existing high-confidence buyer enrichment
+Mairie de Coueron,mairie coueron,214400475,21440047500015,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE COUERON,seeded from existing high-confidence buyer enrichment
+Mairie de Guérande,mairie guerande,214400699,21440069900143,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE GUERANDE,seeded from existing high-confidence buyer enrichment
+Mairie de La Baule-Escoublac,mairie baule escoublac,214400558,21440055800018,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE LA BAULE-ESCOUBLAC,seeded from existing high-confidence buyer enrichment
+Mairie de Montoir de Bretagne,mairie montoir bretagne,214401036,21440103600121,api_recherche_entreprises_current,HIGH,matched,86.2,,1,COMMUNE DE MONTOIR-DE-BRETAGNE,query=commune montoir de bretagne
+Mairie de Saint Etienne de Montluc,mairie saint etienne montluc,214401580,21440158000011,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE SAINT-ETIENNE-DE-MONTLUC,seeded from existing high-confidence buyer enrichment
+Mairie de Saint-Gilles-Croix-de-Vie,mairie saint gilles croix vie,218502227,21850222700018,previous_high_confidence_cache,HIGH,matched,100.0,66.6,2,COMMUNE DE SAINT-GILLES-CROIX-DE-VIE,seeded from existing high-confidence buyer enrichment
+Mairie de Saint-Herblain,mairie saint herblain,214401622,21440162200011,previous_high_confidence_cache,HIGH,matched,100.0,40.2,2,COMMUNE DE SAINT-HERBLAIN,seeded from existing high-confidence buyer enrichment
+Mairie de Sucé sur Erdre,mairie suce erdre,214402018,21440201800011,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE SUCE-SUR-ERDRE,seeded from existing high-confidence buyer enrichment
+Mairie du croisic,mairie croisic,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,60.4,1.9,10,AMICALE DES RETRAITES DU CROISIC,query=mairie croisic
+Mancelle d'habitation,mancelle habitation,575850490,57585049000021,previous_high_confidence_cache,HIGH,matched,100.0,84.6,3,MANCELLE D HABITATION,seeded from existing high-confidence buyer enrichment
+Mauges Communauté,mauges communaute,200060010,20006001000010,previous_high_confidence_cache,HIGH,matched,100.0,42.7,10,MAUGES COMMUNAUTE,seeded from existing high-confidence buyer enrichment
+Mayenne Très Haut Débit,mayenne tres haut debit,200061778,20006177800011,previous_high_confidence_cache,HIGH,matched,100.0,,1,MAYENNE TRES HAUT DEBIT,seeded from existing high-confidence buyer enrichment
+Ministère de l'éducation nationale,ministere education nationale,110043015,11004301500012,previous_high_confidence_cache,HIGH,matched,100.0,44.2,5,MINISTERE DE L’EDUCATION NATIONALE,seeded from existing high-confidence buyer enrichment
+Ministère de la Justice,ministere justice,110010014,11001001400014,api_recherche_entreprises_current,HIGH,matched,100.0,19.7,10,MINISTERE DE LA JUSTICE,query=ministere justice
+Ministère de la justice,ministere justice,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,80.3,2.9,6,MUTUELLE DU MINISTERE DE LA JUSTICE (MMJ),query=ministere justice
+Ministère de la justice - SG/2S2M/SDIT,ministere justice sg 2s2m sdit,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=ministere justice sg 2s2m sdit
+Ministère des Affaires étrangères,ministere affaires etrangeres,110006012,11000601200014,previous_high_confidence_cache,HIGH,matched,97.2,20.2,10,MINISTERE DE L'EUROPE ET DES AFFAIRES ETRANGERES,seeded from existing high-confidence buyer enrichment
+"Ministères de la Transition Ecologique, de l’Aménagement du Territoire, des Transports, de la Ville et du Logement",ministeres transition ecologique amenagement territoire transports ville logement,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=ministeres transition ecologique amenagement territoire transports ville logement
+"Ministères de l’Aménagement du territoire et de la Décentralisation ; Ministère de la Transition écologique, de la Biodiversité, de la Forêt, de la Mer et de la Pêche",ministeres amenagement territoire decentralisation ministere transition ecologique biodiversite foret mer peche,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=ministeres amenagement territoire decentralisation ministere transition ecologique biodiversite foret mer peche
+NANTES UNIVERSITE,nantes universite,130029747,13002974700016,previous_high_confidence_cache,HIGH,matched,100.0,34.1,2,NANTES UNIVERSITE,seeded from existing high-confidence buyer enrichment
+NIORT AGGLOMERATION,niort agglomeration,814598785,81459878500032,api_recherche_entreprises_current,HIGH,matched,88.9,9.2,10,TRANSDEV NIORT AGGLOMERATION,query=niort agglomeration
+Nantes Métropole,nantes metropole,794304097,79430409700023,api_recherche_entreprises_current,HIGH,matched,92.2,4.2,10,TAXIS NANTES METROPOLE,query=nantes metropole
+Nantes Métropole Habitat,nantes metropole habitat,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,59.6,18.6,5,NANTES METROPOLE HABITAT-OFFICE PUBLIC DE L'HABITAT DE LA METROPOLE NANTAISE (NMH),query=nantes metropole habitat
+Nantes Université,nantes universite,130029747,13002974700016,previous_high_confidence_cache,HIGH,matched,100.0,34.1,2,NANTES UNIVERSITE,seeded from existing high-confidence buyer enrichment
+O.P.H LE MANS HABITAT,o p h mans habitat,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=o p h mans habitat
+OFFICE FRANCAIS DE LA BIODIVERSITE,office francais biodiversite,130025919,13002591900015,previous_high_confidence_cache,HIGH,matched,100.0,8.4,2,OFFICE FRANCAIS DE LA BIODIVERSITE (OFB),seeded from existing high-confidence buyer enrichment
+ONIRIS,oniris,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,52.4,6.9,10,GALA ONIRIS INGENIEUR,query=oniris
+OPCO SANTE,opco sante,854033115,85403311500015,api_recherche_entreprises_current,HIGH,matched,100.0,,1,OPCO SANTE,query=opco sante
+Office Français de la Biodiversité,office francais biodiversite,130025919,13002591900015,previous_high_confidence_cache,HIGH,matched,100.0,8.4,2,OFFICE FRANCAIS DE LA BIODIVERSITE (OFB),seeded from existing high-confidence buyer enrichment
+Office Public de l'Habitat,office public habitat,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,63.3,,1,OFFICE PUBLIC DE L'HABITAT SAUMUR HABITAT (SAUMUR HABITAT) (OPH),query=office public habitat
+Orchestre National des Pays de la Loir,orchestre national pays loir,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=orchestre national pays loir
+PETR Pays Vallée du Loir,petr pays vallee loir,200076396,20007639600015,previous_high_confidence_cache,HIGH,matched,100.0,,1,PETR PAYS VALLEE DU LOIR,seeded from existing high-confidence buyer enrichment
+PODELIHA,podeliha,927831396,92783139600019,previous_high_confidence_cache,HIGH,matched,88.0,58.9,10,CSE PODELIHA,seeded from existing high-confidence buyer enrichment
+PREFECTURE D'EURE-ET-LOIR,prefecture eure loir,172800013,17280001300010,previous_high_confidence_cache,HIGH,matched,84.9,54.7,2,PREFECTURE DE DEPARTEMENT EURE-ET-LOIR,seeded from existing high-confidence buyer enrichment
+Pays de Blain Communauté,pays blain communaute,244400453,24440045300035,previous_high_confidence_cache,HIGH,matched,92.0,,1,CC PAYS DE BLAIN COMMUNAUTE (CCRB),seeded from existing high-confidence buyer enrichment
+Pays de Saint Gilles Croix de Vie Agglomération (85),pays saint gilles croix vie agglomeration 85,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=pays saint gilles croix vie agglomeration 85
+Plate Forme Achats Finances Nord Est,plate forme achats finances nord est,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=plate forme achats finances nord est
+Plateforme régionale des achats (PFRA) des Pays de la Loire,plateforme regionale achats pfra pays loire,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=plateforme regionale achats pfra pays loire
+Podeliha,podeliha,927831396,92783139600019,previous_high_confidence_cache,HIGH,matched,88.0,58.9,10,CSE PODELIHA,seeded from existing high-confidence buyer enrichment
+Pole Santé Sarthe et Loire,pole sante sarthe loire,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,35.3,,1,NAPO OUSSEY,query=pole sante sarthe loire
+Préfecture,prefecture,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,74.7,0.0,8,MB NANTES PREFECTURE,query=prefecture
+Préfecture 85,prefecture 85,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,52.1,17.3,2,ASSOCIATION SPORTIVE CONSEIL GENERAL PREFECTURE 85 (ASCGP85),query=prefecture 85
+REGION DES PAYS DE LA LOIRE,region pays loire,234400034,23440003400026,previous_high_confidence_cache,HIGH,matched,100.0,40.5,10,REGION DES PAYS DE LA LOIRE,seeded from existing high-confidence buyer enrichment
+REGION PAYS DE LA LOIRE,region pays loire,234400034,23440003400026,previous_high_confidence_cache,HIGH,matched,100.0,40.5,10,REGION DES PAYS DE LA LOIRE,seeded from existing high-confidence buyer enrichment
+RESIDENCES SAINT ALEXANDRE,residences saint alexandre,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,59.8,,1,ALEXANDRE VIGIER,query=residences saint alexandre
+Rectorat Division Scus,rectorat division scus,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=rectorat division scus
+Rectorat de NANTES,rectorat nantes,449078492,44907849200013,api_recherche_entreprises_current,HIGH,matched,86.9,0.0,5,AMICALE DU RECTORAT DE NANTES,query=rectorat nantes
+Rectorat de Rennes,rectorat rennes,173504309,17350430900019,previous_high_confidence_cache,HIGH,matched,84.9,27.6,4,RECTORAT DE L'ACADEMIE DE RENNES,seeded from existing high-confidence buyer enrichment
+Rectorat de l'Académie de Dijon,rectorat academie dijon,172104309,17210430900155,previous_high_confidence_cache,HIGH,matched,100.0,22.3,2,RECTORAT DE L'ACADEMIE DE DIJON,seeded from existing high-confidence buyer enrichment
+Rectorat de l'Académie de Nantes,rectorat academie nantes,174404301,17440430100015,previous_high_confidence_cache,HIGH,matched,100.0,,1,RECTORAT DE L'ACADEMIE DE NANTES,seeded from existing high-confidence buyer enrichment
+"Rectorat de la région académique Grand Est, rectorat de l'académie de Nancy-Metz",rectorat region academique grand est rectorat academie nancy metz,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=region academique grand est rectorat de l academie de nancy metz
+Régie Dépt Passages d'Eau de Vendée,regie dept passages eau vendee,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=regie dept passages eau vendee
+Région Bretagne,region bretagne,233500016,23350001600040,previous_high_confidence_cache,HIGH,matched,100.0,,1,REGION BRETAGNE,seeded from existing high-confidence buyer enrichment
+Région Pays de la Loire,region pays loire,234400034,23440003400026,previous_high_confidence_cache,HIGH,matched,100.0,40.5,10,REGION DES PAYS DE LA LOIRE,seeded from existing high-confidence buyer enrichment
+Région des Pays de la Loire,region pays loire,234400034,23440003400026,previous_high_confidence_cache,HIGH,matched,100.0,40.5,10,REGION DES PAYS DE LA LOIRE,seeded from existing high-confidence buyer enrichment
+Réseau Canopé,reseau canope,180043010,18004301001485,previous_high_confidence_cache,HIGH,matched,100.0,,1,RESEAU CANOPE,seeded from existing high-confidence buyer enrichment
+S. M. Sarthois d'Aménagement Numérique,s m sarthois amenagement numerique,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=s m sarthois amenagement numerique
+S.I. d' énergies de Maine et Loire,s i energies maine loire,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=s i energies maine loire
+SAELSI,saelsi,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,16.0,0.4,2,MINISTERE DE L'INTERIEUR,query=saelsi
+SAEM VENDEE - Vendée Globe,saem vendee vendee globe,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=saem vendee vendee globe
+SAEM Vendée,saem vendee,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=saem vendee
+SAEML Loire Atlantique Pêche et Plaisance,saeml loire atlantique peche plaisance,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=saeml loire atlantique peche plaisance
+SAINT NAZAIRE AGGLOMERATION TOURISME,saint nazaire agglomeration tourisme,828620831,82862083100010,previous_high_confidence_cache,HIGH,matched,100.0,58.9,2,SAINT-NAZAIRE AGGLOMERATION TOURISME,seeded from existing high-confidence buyer enrichment
+SATT OUEST VALORISATION,satt ouest valorisation,753000611,75300061100032,previous_high_confidence_cache,HIGH,matched,100.0,,1,SATT OUEST VALORISATION,seeded from existing high-confidence buyer enrichment
+SCA/PFAF SO,sca pfaf so,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=sca pfaf so
+SDE35,sde35,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=sde35
+SDEGM,sdegm,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=sdegm
+SDIS 17,sdis 17,281700252,28170025200097,previous_high_confidence_cache,HIGH,matched,100.0,40.3,5,SCE DEPARTEMENTAL INCENDIE ET SECOURS (SDIS),seeded from existing high-confidence buyer enrichment
+SDIS 44,sdis 44,284400017,28440001700018,previous_high_confidence_cache,HIGH,matched,100.0,42.3,10,SCE DEPARTEMENTAL INCENDIE ET SECOURS (SDIS),seeded from existing high-confidence buyer enrichment
+SDIS 44 Loire Atlantique,sdis 44 loire atlantique,284400017,28440001700018,api_recherche_entreprises_current,HIGH,matched,100.0,38.1,10,SCE DEPARTEMENTAL INCENDIE ET SECOURS (SDIS),query=incendie secours
+SDIS 49,sdis 49,284900016,28490001600023,previous_high_confidence_cache,HIGH,matched,100.0,38.0,3,SCE DEPARTEMENTAL INCENDIE ET SECOURS (SDIS),seeded from existing high-confidence buyer enrichment
+SDIS 49 - MAINE ET LOIRE,sdis 49 maine loire,284900016,28490001600023,api_recherche_entreprises_current,HIGH,matched,100.0,38.0,3,SCE DEPARTEMENTAL INCENDIE ET SECOURS (SDIS),query=incendie secours
+SDIS 53,sdis 53,285300018,28530001800030,api_recherche_entreprises_current,HIGH,matched,100.0,29.2,2,SCE DEPARTEMENTAL INCENDIE ET SECOURS (SDIS),query=incendie secours
+SDIS 85,sdis 85,288500010,28850001000013,previous_high_confidence_cache,HIGH,matched,100.0,52.5,3,SCE DEPARTEMENTAL INCENDIE ET SECOURS (SDIS),seeded from existing high-confidence buyer enrichment
+SDIS de la Sarthe,sdis sarthe,287200265,28720026500018,previous_high_confidence_cache,HIGH,matched,100.0,26.6,9,SCE DEPARTEMENTAL INCENDIE ET SECOURS (SDIS),seeded from existing high-confidence buyer enrichment
+SDIS du Maine et Loire,sdis maine loire,284900016,28490001600023,previous_high_confidence_cache,HIGH,matched,100.0,38.0,3,SCE DEPARTEMENTAL INCENDIE ET SECOURS (SDIS),seeded from existing high-confidence buyer enrichment
+SDIS44,sdis44,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=sdis44
+SDIS49,sdis49,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=sdis49
+SEC GAL POUR L ADM MIN INTERIEUR OUEST,sec gal adm min interieur ouest,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=sec gal adm min interieur ouest
+SEM CENOVIA,sem cenovia,576150270,57615027000063,previous_high_confidence_cache,HIGH,matched,100.0,22.0,6,CENOVIA (SEM),seeded from existing high-confidence buyer enrichment
+SEMITAN,semitan,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,51.8,25.1,3,COMITE ENTREPRISE SEMITAN,query=semitan
+SEMITAN mandataire de Nantes Métropole,semitan mandataire nantes metropole,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=semitan mandataire nantes metropole
+"SEMITAN, mandataire de la CUN",semitan mandataire cun,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=semitan mandataire cun
+SERVICE DEPARTEMENTAL D'INCENDIE ET DE SECOURS DE MAINE ET LOIRE,service departemental incendie secours maine loire,104225453,10422545300018,previous_high_confidence_cache,HIGH,matched,82.3,,1,AMICALE  DU PERSONNEL DE LA DIRECTION DEPARTEMENTALE DES SERVICES D'INCENDIE ET DE SECOURS DE MAINE-ET-LOIRE,seeded from existing high-confidence buyer enrichment
+SERVICES DE L'ETAT,services etat,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,36.1,,1,DIRECTION DES SERVICES DEPARTEMENTAUX DE L'EDUCATION NATIONALE DE LA CHARENTE (DSDEN),query=services etat
+SGAMI OUEST,sgami ouest,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,36.6,,1,SECRETARIAT GENERAL POUR L'ADMINISTRATION DU MINISTERE DE L'INTERIEUR OUEST (SGAMI),query=sgami ouest
+SGAMI OUEST BZAMP,sgami ouest bzamp,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=sgami ouest bzamp
+SGCD72,sgcd72,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=sgcd72
+SHEMA,shema,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,28.0,0.4,10,GROUPEMENT SHEMA FONCIM ELBEUF SUR SEINE (SAS MARIGNAN),query=shema
+SI ENERGIES DE MAINE ET LOIRE,si energies maine loire,254901309,25490130900032,previous_high_confidence_cache,HIGH,matched,96.5,,1,SI ENERGIES DE MAINE ET LOIRE (SIEML),seeded from existing high-confidence buyer enrichment
+SICTIAM,sictiam,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,24.9,5.4,3,SM D'INGENIERIE POUR LES COLLECTIVITES ET TERRITOIRES INNOVANTS DES ALPES-MEDITERRANEE (SICTIAM),query=sictiam
+SICTOM Loir et Sarthe,sictom loir sarthe,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,39.0,,1,"3RD'ANJOU (SYNDICAT POUR LA REDUCTION, LE REEMPLOI ET LE RECYCLAGE DE DECHETS EN ANJOU) (SICTOM)",query=sictom loir sarthe
+SID Nord-Ouest,sid nord ouest,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,65.1,,1,SID NORD OUEST (SID NORD OUEST) (SIDNW),query=sid nord ouest
+SIRI 49,siri 49,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,41.0,,1,SIRI META CONFECTION,query=siri 49
+SISTO,sisto,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,6.9,,1,CC ANJOU BLEU COMMUNAUTE,query=sisto
+SM Mégalis,sm megalis,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=sm megalis
+SMICTOM de la Vallée de l'Authion,smictom vallee authion,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=smictom vallee authion
+SMIDAP,smidap,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,27.7,,1,SYNDICAT MIXTE DEVELOPPEMENT AQUACULTURE ET PECHE EN PAYS DE LA LOIRE (SMIDAP),query=smidap
+SMIRGEOM Est Sarthe,smirgeom est sarthe,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=smirgeom est sarthe
+SNA/ouest,sna ouest,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,45.0,21.9,2,SOC NOUVELLE D ASPHALTES (SNA) (SNA),query=sna ouest
+SOC PUBLIQUE REG ABE DE FONTEVRAUD,soc publique reg abe fontevraud,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=soc publique reg abe fontevraud
+SOCIETE PUBLIQUE REGIONALE ABBAYE DE FONTEVRAUD,societe publique regionale abbaye fontevraud,529260903,52926090300016,previous_high_confidence_cache,HIGH,matched,100.0,54.5,2,SOCIETE PUBLIQUE REGIONALE ABBAYE DE FONTEVRAUD,seeded from existing high-confidence buyer enrichment
+SONADEV,sonadev,804579571,80457957100022,previous_high_confidence_cache,HIGH,matched,100.0,57.0,10,SONADEV,seeded from existing high-confidence buyer enrichment
+SPIC - ARENA LOIRE TRELAZE,spic arena loire trelaze,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=spic arena loire trelaze
+SPL ANGERS LOIRE TOURISME EXPO CONGRES (ALTEC) - DESTINATION ANGERS,spl angers loire tourisme expo congres altec destination angers,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=angers loire tourisme expo congres altec destination angers
+SPL EAU DU BASSIN RENNAIS,spl eau bassin rennais,798203576,79820357600029,previous_high_confidence_cache,HIGH,matched,100.0,25.3,4,SPL EAU DU BASSIN RENNAIS,seeded from existing high-confidence buyer enrichment
+SPL GOLFE DU MORBIHAN VANNES TOURISME,spl golfe morbihan vannes tourisme,789660784,78966078400024,previous_high_confidence_cache,HIGH,matched,100.0,0.0,2,GOLFE DU MORBIHAN VANNES TOURISME,seeded from existing high-confidence buyer enrichment
+SPL LE MANS EVENEMENTS,spl mans evenements,412238065,41223806500012,previous_high_confidence_cache,HIGH,matched,100.0,21.4,10,LE MANS EVENEMENTS,seeded from existing high-confidence buyer enrichment
+SPL Laval Mayenne Aménagements,spl laval mayenne amenagements,555650308,55565030800011,previous_high_confidence_cache,HIGH,matched,100.0,0.0,7,LAVAL MAYENNE AMENAGEMENTS (SEM L.M.A.),seeded from existing high-confidence buyer enrichment
+SPM - DSAF - BCP,spm dsaf bcp,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=spm dsaf bcp
+SPR Pays de la Loire,spr pays loire,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=spr pays loire
+SRD,srd,502035785,50203578500018,previous_high_confidence_cache,HIGH,matched,100.0,49.1,4,SRD,seeded from existing high-confidence buyer enrichment
+SYDELA,sydela,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,46.7,8.6,4,SYDELA ENERGIE SIX PIECES,query=sydela
+SYND DEP D ENERGIE ET D EQPT DE VENDEE,synd dep energie eqpt vendee,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=synd dep energie eqpt vendee
+SYND MIXTE DU PAYS DE COUTANCES,synd mixte pays coutances,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=synd mixte pays coutances
+SYNDICAT MIXTE GIGALIS,syndicat mixte gigalis,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=mixte gigalis
+SYNDICAT MIXTE OUVERT ANJOU NUMERIQUE,syndicat mixte ouvert anjou numerique,200052587,20005258700017,previous_high_confidence_cache,HIGH,matched,100.0,,1,SYNDICAT MIXTE OUVERT ANJOU NUMERIQUE,seeded from existing high-confidence buyer enrichment
+SYNDICAT MIXTE POUR LE DVLPT NUMERIQUE,syndicat mixte dvlpt numerique,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=mixte dvlpt numerique
+Saint-Nazaire Agglomération -  la CARENE,saint nazaire agglomeration carene,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,70.4,22.6,5,SOCIETE DES TRANSPORTS DE L'AGGLOMERATION NAZAIRIENNE (STRAN),query=saint nazaire agglomeration carene
+Sarthe Habitat,sarthe habitat,403040850,40304085000022,previous_high_confidence_cache,HIGH,matched,100.0,0.0,10,SARTHE HABITAT,seeded from existing high-confidence buyer enrichment
+Saumur Agglopropreté,saumur aggloproprete,794885913,79488591300010,previous_high_confidence_cache,HIGH,matched,100.0,34.9,2,SAUMUR AGGLOPROPRETE,seeded from existing high-confidence buyer enrichment
+Sdis de la Mayenne,sdis mayenne,285300018,28530001800030,previous_high_confidence_cache,HIGH,matched,100.0,29.2,2,SCE DEPARTEMENTAL INCENDIE ET SECOURS (SDIS),seeded from existing high-confidence buyer enrichment
+Sembreizh société,sembreizh societe,599200136,59920013600241,previous_high_confidence_cache,HIGH,matched,80.0,27.8,10,SEMBREIZH (SEMAEB),seeded from existing high-confidence buyer enrichment
+Service Informatique,service informatique,535287650,53528765000027,api_recherche_entreprises_current,HIGH,matched,100.0,12.7,10,TJ INFORMATIQUE SERVICE,query=service informatique
+Société Loire Atlantique Développement,societe loire atlantique developpement,860800077,86080007700098,previous_high_confidence_cache,HIGH,matched,100.0,0.0,10,LOIRE ATLANTIQUE DEVELOPPEMENT SELA (SELA),seeded from existing high-confidence buyer enrichment
+Société d'aménagement de la Métropole Ouest Atlantique,societe amenagement metropole ouest atlantique,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=amenagement metropole ouest atlantique
+St Gilles Croix de Vie Agglomération,st gilles croix vie agglomeration,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=st gilles croix vie agglomeration
+Sud Retz Atlantique (44),sud retz atlantique 44,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,34.0,,1,SYDELA ENERGIE SIX PIECES,query=sud retz atlantique 44
+Syndicat Départemental d'Energie,syndicat departemental energie,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,71.6,22.7,4,SYNDICAT DEPARTEMENTAL D'ENERGIE ET D'EQUIPEMENT DE LA VENDEE (SYDEV),query=departemental energie
+Syndicat Départemental d'Energie et d'Equipement de la Vendée (85),syndicat departemental energie equipement vendee 85,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=departemental energie equipement vendee 85
+"Syndicat Mixte "" Sarthe Numérique """,syndicat mixte sarthe numerique,257202432,25720243200015,previous_high_confidence_cache,HIGH,matched,100.0,,1,SYNDICAT MIXTE SARTHE NUMERIQUE,seeded from existing high-confidence buyer enrichment
+Syndicat Mixte e-Collectivités Vendée,syndicat mixte e collectivites vendee,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=mixte e collectivites vendee
+Syndicat Mixte pour le Développement Numérique,syndicat mixte developpement numerique,257202176,25720217600018,previous_high_confidence_cache,HIGH,matched,97.2,,1,SYNDICAT MIXTE POUR LE DEVELOPPEMENT NUMERIQUE (SMIDEN),seeded from existing high-confidence buyer enrichment
+Syndicat Trivalis,syndicat trivalis,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,25.4,,1,SYNDICAT MIXTE ETUDES POUR COORDINATION DEPARTEMENTALE DE TRAITEMENT DECHETS MENAGERS DE VENDEE (TRIVALIS),query=trivalis
+Syndicat Vendée des Iles,syndicat vendee iles,449073014,44907301400028,previous_high_confidence_cache,HIGH,matched,100.0,,1,VENDEE-ILES,seeded from existing high-confidence buyer enrichment
+Syndicat intercommunal d'énergies de Maine-et-Loire (Siéml),syndicat intercommunal energies maine loire sieml,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=intercommunal energies maine loire sieml
+TERRITOIRE D'ENERGIE MAYENNE,territoire energie mayenne,200082477,20008247700015,previous_high_confidence_cache,HIGH,matched,99.2,33.9,2,TERRITOIRE D'ENERGIE MAYENNE (TE53),seeded from existing high-confidence buyer enrichment
+TERRITOIRE ENERGIE LOIRE ATLANTIQUE,territoire energie loire atlantique,200014926,20001492600030,previous_high_confidence_cache,HIGH,matched,95.5,,1,TERRITOIRE D ENERGIE LOIRE ATLANTIQUE (TE44) (TE44),seeded from existing high-confidence buyer enrichment
+"Terres de Montaigu, Communauté d'Agglomération (85)",terres montaigu communaute agglomeration 85,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=terres montaigu communaute agglomeration 85
+Territoire d'Énergie de Mayenne,territoire energie mayenne,200082477,20008247700015,previous_high_confidence_cache,HIGH,matched,99.2,33.9,2,TERRITOIRE D'ENERGIE MAYENNE (TE53),seeded from existing high-confidence buyer enrichment
+Territoire d'énergie Loire-Atlantique,territoire energie loire atlantique,200014926,20001492600030,previous_high_confidence_cache,HIGH,matched,95.5,,1,TERRITOIRE D ENERGIE LOIRE ATLANTIQUE (TE44) (TE44),seeded from existing high-confidence buyer enrichment
+Théatre Le Quai,theatre quai,903807220,90380722000012,previous_high_confidence_cache,HIGH,matched,100.0,21.0,10,THEATRE LE QUAI,seeded from existing high-confidence buyer enrichment
+Tribunal Administratif de Nantes,tribunal administratif nantes,174400051,17440005100010,previous_high_confidence_cache,HIGH,matched,100.0,18.6,2,TRIBUNAL ADMINISTRATIF DE NANTES (TA),seeded from existing high-confidence buyer enrichment
+Tribunal administratif de Nantes,tribunal administratif nantes,174400051,17440005100010,previous_high_confidence_cache,HIGH,matched,100.0,18.6,2,TRIBUNAL ADMINISTRATIF DE NANTES (TA),seeded from existing high-confidence buyer enrichment
+Tribunal administratif de Paris,tribunal administratif paris,177500055,17750005500013,previous_high_confidence_cache,HIGH,matched,100.0,50.0,3,TRIBUNAL ADMINISTRATIF DE PARIS (TA),seeded from existing high-confidence buyer enrichment
+UBS,ubs,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,39.6,11.6,3,UBS SAILING TEAM,query=ubs
+UGECAM Bretagne Pays de La Loire,ugecam bretagne pays loire,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=ugecam bretagne pays loire
+UNICANCER ACHATS,unicancer achats,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=unicancer achats
+UNIVERSITE  BRETAGNE SUD,universite bretagne sud,195617188,19561718800600,api_recherche_entreprises_current,HIGH,matched,100.0,8.4,10,UNIVERSITE DE BRETAGNE SUD (UBS),query=universite bretagne sud
+UNIVERSITE DE RENNES,universite rennes,130030513,13003051300019,api_recherche_entreprises_current,HIGH,matched,100.0,12.9,10,UNIVERSITE DE RENNES,query=universite rennes
+UNIVERSITE GUSTAVE EIFFEL,universite gustave eiffel,130026123,13002612300013,previous_high_confidence_cache,HIGH,matched,100.0,12.6,10,UNIVERSITE GUSTAVE EIFFEL,seeded from existing high-confidence buyer enrichment
+"UNIVERSITÉ  BRETAGNE SUD
+Direction des affaires financières",universite bretagne sud direction affaires financieres,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,"query=universite bretagne sud
+direction affaires financieres"
+URSSAF des Pays de la Loire,urssaf pays loire,535104756,53510475600015,previous_high_confidence_cache,HIGH,matched,100.0,34.4,2,URSSAF DES PAYS DE LA LOIRE,seeded from existing high-confidence buyer enrichment
+UniHA GCS,uniha gcs,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,25.9,,1,GROUPEMENT COOPERATION SANITAIRE - UNION DES HOPITAUX POUR LES ACHATS (GCS UNI.H.A.),query=uniha gcs
+Université Européenne de Bretagne,universite europeenne bretagne,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=universite europeenne bretagne
+Université Rennes 2,universite rennes 2,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,72.0,,1,UNIVERSITE RENNES  II  HAUTE BRETAGNE,query=universite rennes 2
+Université d'Angers,universite angers,194909701,19490970100303,previous_high_confidence_cache,HIGH,matched,100.0,,1,UNIVERSITE D'ANGERS,seeded from existing high-confidence buyer enrichment
+Université de La Rochelle,universite rochelle,191700327,19170032700015,previous_high_confidence_cache,HIGH,matched,100.0,27.6,2,LA ROCHELLE UNIVERSITE,seeded from existing high-confidence buyer enrichment
+Université de Nantes,universite nantes,130029747,13002974700016,previous_high_confidence_cache,HIGH,matched,100.0,34.1,2,NANTES UNIVERSITE,seeded from existing high-confidence buyer enrichment
+Université de Rennes 1,universite rennes 1,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,72.0,,1,UNIVERSITE RENNES  II  HAUTE BRETAGNE,query=universite rennes 1
+Université du Maine,universite maine,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,74.7,9.5,10,CLUB D'ASTRONOMIE DE L'UNIVERSITE DU MAINE,query=universite maine
+VALLET,vallet,439446386,43944638600013,api_recherche_entreprises_current,HIGH,matched,78.6,10.6,10,CLCA VALLET,query=vallet
+VENDEE,vendee,451518641,45151864100043,previous_high_confidence_cache,HIGH,matched,100.0,32.0,10,VENDEE,seeded from existing high-confidence buyer enrichment
+VENDEE EAU,vendee eau,258500222,25850022200033,previous_high_confidence_cache,HIGH,matched,100.0,50.3,10,VENDEE EAU,seeded from existing high-confidence buyer enrichment
+VILLE DE BOUGUENAIS,ville bouguenais,214400202,21440020200013,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE BOUGUENAIS,seeded from existing high-confidence buyer enrichment
+VILLE DE LA BAULE-ESCOUBLAC,ville baule escoublac,214400558,21440055800018,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE LA BAULE-ESCOUBLAC,seeded from existing high-confidence buyer enrichment
+VILLE DE LA ROCHE SUR YON,ville roche yon,218501914,21850191400566,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE LA ROCHE-SUR-YON,seeded from existing high-confidence buyer enrichment
+VILLE DE LAVAL,ville laval,215301300,21530130000012,previous_high_confidence_cache,HIGH,matched,100.0,17.7,3,COMMUNE DE LAVAL,seeded from existing high-confidence buyer enrichment
+VILLE DE PORNICHET,ville pornichet,214401325,21440132500011,previous_high_confidence_cache,HIGH,matched,100.0,41.0,2,COMMUNE DE PORNICHET,seeded from existing high-confidence buyer enrichment
+VILLE DE SAINT NAZAIRE,ville saint nazaire,214401846,21440184600016,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE SAINT-NAZAIRE,seeded from existing high-confidence buyer enrichment
+Vendée Eau,vendee eau,258500222,25850022200033,previous_high_confidence_cache,HIGH,matched,100.0,50.3,10,VENDEE EAU,seeded from existing high-confidence buyer enrichment
+Vendée Eau (85),vendee eau 85,258500222,25850022200033,previous_high_confidence_cache,HIGH,matched,92.3,,1,VENDEE EAU,seeded from existing high-confidence buyer enrichment
+Vendée Expansion,vendee expansion,546650169,54665016900057,previous_high_confidence_cache,HIGH,matched,100.0,0.0,10,VENDEE EXPANSION - SEM,seeded from existing high-confidence buyer enrichment
+Vendée Expansion - SEM,vendee expansion sem,546650169,54665016900057,previous_high_confidence_cache,HIGH,matched,100.0,0.0,7,VENDEE EXPANSION - SEM,seeded from existing high-confidence buyer enrichment
+Vendée Grand Littoral,vendee grand littoral,200071900,20007190000308,previous_high_confidence_cache,HIGH,matched,100.0,8.0,4,CC VENDEE GRAND LITTORAL,seeded from existing high-confidence buyer enrichment
+Vendée Habitat - OPH de Vendée,vendee habitat oph vendee,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,74.7,0.0,2,OFFICE PUBLIC DE L HABITAT DE VENDEE (OPH),query=vendee habitat oph vendee
+Ville d'Alençon,ville alencon,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,74.0,5.5,10,SPL D'ALENCON,query=ville alencon
+Ville d'Allonnes,ville allonnes,791052491,79105249100010,previous_high_confidence_cache,HIGH,matched,85.8,34.7,8,VILLE D ALLONNES RUNNING,seeded from existing high-confidence buyer enrichment
+Ville d'Ancenis-Saint-Géréon,ville ancenis saint gereon,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,57.3,15.2,2,VELO TAF PAYS D'ANCENIS,query=ville ancenis saint gereon
+Ville d'Angers,ville angers,532458809,53245880900029,previous_high_confidence_cache,HIGH,matched,88.0,24.2,10,VIGNE EN VILLE ANGERS,seeded from existing high-confidence buyer enrichment
+Ville d'Angers Loire Metropole (49),ville angers loire metropole 49,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=ville angers loire metropole 49
+Ville d'Arnage,ville arnage,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,73.6,23.6,10,GROUPE MALI ARNAGE,query=ville arnage
+Ville d'Avrillé,ville avrille,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,68.7,4.1,10,CAISSE DES ECOLES D'AVRILLE,query=ville avrille
+Ville d'Ecouflant,ville ecouflant,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=ville ecouflant
+Ville d'Evron,ville evron,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,64.4,5.6,7,ENSEMBLE MUSICAL DE LA VILLE D'EVRON,query=ville evron
+Ville d'Orvault,ville orvault,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,70.7,22.7,10,COEUR DE VILLE,query=ville orvault
+Ville de Beaucouzé,ville beaucouze,214900201,21490020100069,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE BEAUCOUZE,seeded from existing high-confidence buyer enrichment
+Ville de Bouguenais,ville bouguenais,214400202,21440020200013,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE BOUGUENAIS,seeded from existing high-confidence buyer enrichment
+Ville de Carquefou,ville carquefou,214400269,21440026900012,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE CARQUEFOU,seeded from existing high-confidence buyer enrichment
+Ville de Chemillé en Anjou,ville chemille anjou,200053593,20005359300014,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE CHEMILLE-EN-ANJOU,seeded from existing high-confidence buyer enrichment
+Ville de Cholet,ville cholet,214900995,21490099500017,previous_high_confidence_cache,HIGH,matched,100.0,29.8,4,COMMUNE DE CHOLET,seeded from existing high-confidence buyer enrichment
+Ville de Château-Gontier,ville chateau gontier,200084655,20008465500014,previous_high_confidence_cache,HIGH,matched,93.2,35.0,2,COMMUNE DE CHATEAU-GONTIER-SUR-MAYENNE,seeded from existing high-confidence buyer enrichment
+Ville de LE POULIGUEN,ville pouliguen,214401358,21440135800095,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DU POULIGUEN,seeded from existing high-confidence buyer enrichment
+Ville de La Baule Escoublac,ville baule escoublac,214400558,21440055800018,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE LA BAULE-ESCOUBLAC,seeded from existing high-confidence buyer enrichment
+Ville de La Roche sur Yon (85),ville roche yon 85,,,api_recherche_entreprises_current,LOWER_CONFIDENCE,not_upgraded,61.1,,1,COMMUNE DE LA ROCHE-SUR-YON,query=commune la roche sur yon 85
+Ville de La Roche-sur-Yon,ville roche yon,218501914,21850191400566,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE LA ROCHE-SUR-YON,seeded from existing high-confidence buyer enrichment
+Ville de La Rochelle,ville rochelle,211703004,21170300400013,previous_high_confidence_cache,HIGH,matched,100.0,31.1,3,COMMUNE DE LA ROCHELLE,seeded from existing high-confidence buyer enrichment
+Ville de Lagord,ville lagord,211702006,21170200600019,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE LAGORD,seeded from existing high-confidence buyer enrichment
+Ville de Larmor-plage,ville larmor plage,215601071,21560107100016,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE LARMOR PLAGE,seeded from existing high-confidence buyer enrichment
+Ville de Le Pouliguen,ville pouliguen,214401358,21440135800095,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DU POULIGUEN,seeded from existing high-confidence buyer enrichment
+Ville de Luçon (85),ville lucon 85,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=commune lucon 85
+Ville de Montaigu-Vendée,ville montaigu vendee,200081115,20008111500012,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE MONTAIGU-VENDEE,seeded from existing high-confidence buyer enrichment
+Ville de NANTES,ville nantes,214401093,21440109300015,previous_high_confidence_cache,HIGH,matched,100.0,27.0,8,COMMUNE DE NANTES,seeded from existing high-confidence buyer enrichment
+Ville de Nantes,ville nantes,214401093,21440109300015,previous_high_confidence_cache,HIGH,matched,100.0,27.0,8,COMMUNE DE NANTES,seeded from existing high-confidence buyer enrichment
+Ville de Noyal-Châtillon sur Seiche,ville noyal chatillon seiche,213503642,21350364200018,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE NOYAL CHATILLON SUR SEICHE,seeded from existing high-confidence buyer enrichment
+Ville de Parthenay,ville parthenay,217902022,21790202200011,previous_high_confidence_cache,HIGH,matched,100.0,12.9,4,COMMUNE PARTHENAY,seeded from existing high-confidence buyer enrichment
+Ville de Pornichet,ville pornichet,214401325,21440132500011,previous_high_confidence_cache,HIGH,matched,100.0,41.0,2,COMMUNE DE PORNICHET,seeded from existing high-confidence buyer enrichment
+Ville de Rezé,ville reze,214401432,21440143200015,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE REZE,seeded from existing high-confidence buyer enrichment
+Ville de Saint Gilles Croix de Vie (85),ville saint gilles croix vie 85,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=commune saint gilles croix de vie 85
+Ville de Saint Sébastien sur Loire,ville saint sebastien loire,214401903,21440190300155,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE SAINT-SEBASTIEN-SUR-LOIRE,seeded from existing high-confidence buyer enrichment
+Ville de Saint-Hilaire-de-Riez,ville saint hilaire riez,218502268,21850226800012,previous_high_confidence_cache,HIGH,matched,100.0,42.2,4,COMMUNE DE SAINT-HILAIRE-DE-RIEZ,seeded from existing high-confidence buyer enrichment
+Ville de Saint-Malo,ville saint malo,213502883,21350288300019,previous_high_confidence_cache,HIGH,matched,100.0,6.3,2,COMMUNE DE SAINT MALO,seeded from existing high-confidence buyer enrichment
+Ville de Saumur (49),ville saumur 49,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=commune saumur 49
+Ville de Talmont - Saint Hilaire,ville talmont saint hilaire,218502888,21850288800017,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE TALMONT-SAINT-HILAIRE,seeded from existing high-confidence buyer enrichment
+Ville de Talmont Saint Hilaire,ville talmont saint hilaire,218502888,21850288800017,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE TALMONT-SAINT-HILAIRE,seeded from existing high-confidence buyer enrichment
+Ville de Thouaré-sur-Loire,ville thouare loire,214402042,21440204200110,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE THOUARE-SUR-LOIRE,seeded from existing high-confidence buyer enrichment
+Ville de Trélazé (49),ville trelaze 49,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=commune trelaze 49
+Ville de Vertou,ville vertou,214402158,21440215800015,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE VERTOU,seeded from existing high-confidence buyer enrichment
+Ville de Villemomble,ville villemomble,219300779,21930077900200,previous_high_confidence_cache,HIGH,matched,100.0,52.2,2,COMMUNE DE VILLEMOMBLE,seeded from existing high-confidence buyer enrichment
+Ville des Sables d'Olonne,ville sables olonne,414106039,41410603900012,api_recherche_entreprises_current,HIGH,matched,83.4,10.0,10,T VE C85 LES SABLES D'OLONNE,query=ville sables olonne
+Ville du Croisic,ville croisic,451324974,45132497400018,previous_high_confidence_cache,HIGH,matched,100.0,43.1,10,VILLE DU CROISIC V,seeded from existing high-confidence buyer enrichment
+Ville du Mans,ville mans,217500016,21750001600019,api_recherche_entreprises_current,HIGH,matched,80.2,16.6,10,VILLE DE PARIS,query=ville mans
+Ville du POULIGUEN,ville pouliguen,214401358,21440135800095,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DU POULIGUEN,seeded from existing high-confidence buyer enrichment
+association songo,association songo,409104007,40910400700029,previous_high_confidence_cache,HIGH,matched,100.0,60.0,2,SONGO,seeded from existing high-confidence buyer enrichment
+commune de Le Pellerin,commune pellerin,214401200,21440120000016,previous_high_confidence_cache,HIGH,matched,100.0,33.1,2,COMMUNE DU PELLERIN,seeded from existing high-confidence buyer enrichment
+e-Collectivités Vendée,e collectivites vendee,,,api_recherche_entreprises_current,NO_MATCH,not_upgraded,,,0,,query=e collectivites vendee
+préfet de la région Pays de la Loire,prefet region pays loire,234400034,23440003400026,previous_high_confidence_cache,HIGH,matched,88.9,,1,REGION DES PAYS DE LA LOIRE,seeded from existing high-confidence buyer enrichment
+ville de Bouchemaine,ville bouchemaine,214900359,21490035900016,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE BOUCHEMAINE,seeded from existing high-confidence buyer enrichment
+ville de Coulaines,ville coulaines,217200955,21720095500011,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE COULAINES,seeded from existing high-confidence buyer enrichment
+ville de Sainte-Luce-sur-Loire,ville sainte luce loire,214401721,21440172100011,previous_high_confidence_cache,HIGH,matched,100.0,,1,COMMUNE DE SAINTE-LUCE-SUR-LOIRE,seeded from existing high-confidence buyer enrichment

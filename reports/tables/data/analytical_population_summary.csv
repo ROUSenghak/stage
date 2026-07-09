@@ -1,0 +1,5 @@
+stage,rows,note,study_start_date,study_end_date,censoring_date,duration_rule,attribution_date_refinement
+all_current_notices,3656,Downloaded and deduplicated current BOAMP notices,2015-03-02,2026-07-09,2026-07-09,"declared duration, imputed to 48 months when missing/suspect",ATTRIBUTION annonce_lie date_attribution where available
+appel_offre_before_date_filter,2216,APPEL_OFFRE notices,2015-03-02,2026-07-09,2026-07-09,"declared duration, imputed to 48 months when missing/suspect",ATTRIBUTION annonce_lie date_attribution where available
+appel_offre_with_valid_source_date,2215,APPEL_OFFRE with publication/start date before censoring date,2015-03-02,2026-07-09,2026-07-09,"declared duration, imputed to 48 months when missing/suspect",ATTRIBUTION annonce_lie date_attribution where available
+eligible_for_linkage,1661,estimated_end_date + 6 months <= 2026-07-09,2015-03-02,2026-07-09,2026-07-09,"declared duration, imputed to 48 months when missing/suspect",ATTRIBUTION annonce_lie date_attribution where available

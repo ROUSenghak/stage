@@ -1,0 +1,6 @@
+test_area,conclusion
+classifier_benchmark,"M0, M1, M2 and optional classifiers were evaluated on current synthetic/silver labels."
+blocking,Enriched buyer blocking is the implemented default; wider/relaxed variants increase burden.
+text_similarity,Semantic/backend text score is compared with token and string baselines.
+threshold_zones,"Possible-match zone is retained for review prioritization, not as ground truth."
+subgroups,"Generic CPV, name fallback, imputed duration, near-threshold and low-margin links are higher-review groups."

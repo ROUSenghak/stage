@@ -1,0 +1,6 @@
+metric,value
+eligible_sources,1661
+candidate_pairs,7699
+sources_with_candidate,945
+text_similarity_backend,sentence_transformers:paraphrase-multilingual-MiniLM-L12-v2
+candidate_time_window,duration-12 to duration+24 months

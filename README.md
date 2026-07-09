@@ -1,250 +1,69 @@
-# Phase 1 — BOAMP-First Data Exploration and Renewal Linking
+# BOAMP / Gigalis Current Recurrence Study
 
-This repository documents the Phase 1 BOAMP-first workflow for the Gigalis
-predictive-modeling internship. The current official modeling path is
-**BOAMP-only**: raw BOAMP acquisition, BOAMP cleaning, BOAMP renewal linking,
-and export of one survival-analysis-ready table for Phase 2.
+This repository now centers on the **current enriched BOAMP dataset** for the Gigalis internship scope: Pays de la Loire digital BOAMP notices. The current study dataset is built under `data/processed/boamp_current/` from raw BOAMP API extracts cached under `data/raw/boamp_current/`.
 
-Scope: digital contracts (CPV 48 software, 72 IT services, 32 telecom,
-35 security), Pays de la Loire (departments 44/49/53/72/85), 2015–2024.
+Events in this project are **proxy recurrences**: identifiable reappearances of similar procurement needs under a documented linkage rule. They are not legally verified renewals, and real BOAMP precision/recall are not directly observed.
 
-DECP exploration remains in the repository as documented research and a later
-enrichment path, but it is **not part of the current official Phase 2 handoff**.
+## Current Study Snapshot
 
-## Deliverable status (internship guide L1–L6)
+The current run was executed on branch `boamp_enriched_current_dataset` from starting commit `4847230b1024f49e1a41f8d34e7967acd6688c21`.
 
-| # | Deliverable | Status | Notes |
-|---|---|---|---|
-| L1 | Data quality report | Done | `reports/phase1_data_quality_report.md` |
-| L2 | Annotated corpus + NLP model | Partial — handled separately by the team | Rule-based CPV/keyword taxonomy (`data/processed/taxonomy.csv`) used as provisional segment variable; does not block L3; pipeline reruns unchanged once NLP labels are delivered |
-| L3 | Survival analysis notebook | **Done** | KM curves, validated Cox model (C-index 0.553 official reduced spec, PH-checked; 0.606 richer category-aware spec), parametric AFT incl. Weibull (tested, not retained; LogNormalAFT selected), 12/24-month predictions, high-risk contract/buyer/segment tables — all on the selected M2 balanced dataset (`data/processed/boamp_phase2_survival_method_m2_balanced.csv`), with M0 balanced kept as the conservative baseline sensitivity; see `notebooks/07_calibrated_survival_analysis.ipynb` |
-| L4 | Trend report (change-point detection) | Not started | Scoped, Phase 4 |
-| L5 | Final methodological report | In progress | `reports/internship_report.tex`, `reports/phase1_technical_report.tex` |
-| L6 | Documented pipeline, Git repository | Done | see run order below |
+| Item | Current value |
+|---|---:|
+| Study period in downloaded data | 2015-03-02 to 2026-07-09 |
+| Retained BOAMP notices | 3,656 |
+| APPEL_OFFRE notices | 2,216 |
+| Linkage-eligible contracts | 1,661 |
+| Selected proxy-event method | M0 balanced |
+| Proxy recurrence events | 183 |
+| Event rate | 11.0% |
+| Censoring date | 2026-07-09 |
+| Selected AFT model | LogLogisticAFT |
+| Expected 12-month proxy recurrences | 48.4 |
 
-## Reading guide
+The selected method is recorded in `reports/tables/linkage/final_selected_event_definition_current.csv`. M2 balanced remains a useful benchmark, but in this current run it produced too few events for the event-sufficiency rule, so M0 balanced was selected.
 
-- `reports/internship_report.tex`: quick orientation report to scan the internship scope, main tasks, headline results, and where each part of the work sits.
-- `reports/phase1_technical_report.tex`: detailed technical reference for the exact data audit, preprocessing, renewal-linking logic, diagnostics, and modeling choices.
+## Main Current Outputs
 
-## Setup
-
-```bash
-pip install -r requirements.txt
-```
-
-**Environment note (audited 2026-07-05):** a fresh `pip install -r
-requirements.txt` gives one environment with everything. The local machine this
-repo was developed on, however, is split: `.venv` holds
-`sentence-transformers` (used by the linking notebook) but not `lifelines`,
-while the framework Python 3.12 holds `lifelines`/`nbconvert` and is the kernel
-that executes notebooks 02 and 04–07. `sentence-transformers` was installed
-into the framework Python on 2026-07-05, so notebook 04 now scores synthetic
-text similarity with the **same Sentence-Transformer encoder as the real
-pipeline** (`paraphrase-multilingual-MiniLM-L12-v2`); a TF-IDF fallback remains
-in the code only for environments where the package or model is unavailable,
-and the backend actually used is recorded in the notebook's
-algorithm-consistency audit table.
-
-## Official run order (BOAMP-only)
-
-```bash
-# Phase 1 — BOAMP acquisition and profiling
-python scripts/task1b_boamp_full_fetch.py    # full BOAMP download (3,181 notices)
-python scripts/task2_boamp_profile.py        # BOAMP field profiling + deep-dives
-python scripts/task5_duration_analysis.py    # duration-reliability analysis + figures
-
-# Phase 2 — BOAMP cleaning and renewal linking
-python scripts/task_boamp_full_clean.py      # apply cleaning to full BOAMP data
-python scripts/task_boamp_full_survival.py   # BOAMP scripted baseline (Jaccard)
-
-# Phase 3 — historical Phase 2 handoff (from the BOAMP notebooks)
-# Run the BOAMP renewal-linking notebook top-to-bottom first:
-#   boamp_renewal_linking_quality/boamp_renewal_linking_eda_preprocessing.ipynb
-# Note: the notebook auto-downloads paraphrase-multilingual-MiniLM-L12-v2 (~120 MB)
-# from HuggingFace on first run. Internet access required; subsequent runs use
-# the local cache at ~/.cache/huggingface/.
-python scripts/task9_boamp_phase2_handoff.py
-
-# Phase 4 — manual validation of the proxy event (executed 2026-07-02)
-python event_validation/scripts/build_validation_sample.py
-python event_validation/scripts/rebuild_audit_excel.py
-python event_validation/extract_boamp_validation_records_from_json.py
-# Labeled results: event_validation/outputs/manual_validation_audit_labeled.csv
-# Summary: event_validation/manual_validation_summary.md
-
-# Phase 5 — calibrated event-definition workflow (executed 2026-07-05;
-# recalibrated same day with Sentence-Transformer text similarity)
-# Run notebooks 04, 05, 06_apply, and 07 top-to-bottom.
-# (The notebooks are generated by the root _build_*_notebook.py scripts;
-#  edit the builder, regenerate, then re-execute.)
-# Main rule selected for survival rerun:
-# text >= 0.50, composite >= 0.50, W = 6, corrected generic CPV scoring, no margin floor.
-python scripts/task_section16b_calibrated_risk_indicators.py  # 12/24-month risk under the balanced rule
-
-# Phase 6 — method comparison without real BOAMP ground truth
-# (executed 2026-07-08; reassessed same day with ST-scored synthetic pairs and
-#  an audit-free selection score — see AUDIT.md)
-python scripts/linkage_method_comparison_no_ground_truth.py
-# Notebook: notebooks/06_linkage_method_comparison_no_ground_truth.ipynb
-# Final selected method: M2 balanced (promoted by the transparent promotion
-# rule; all five criteria pass). M0 balanced is retained as the conservative
-# transparent baseline sensitivity. The mapped manual audit is a diagnostic
-# only (its sample was stratified on the pre-calibration baseline's links).
-python scripts/task_section16b_calibrated_risk_indicators.py \
-    data/processed/boamp_phase2_survival_method_m2_balanced.csv \
-    _m2_balanced "M2 balanced (selected method)"   # 12/24-month risk under M2 balanced
-python scripts/task_l3_cox_ph_diagnostics_m0_balanced.py  # PH checks, M0 + M2 balanced
-```
-
-**Manual-validation headline (2026-07-02):** on a 150-case stratified audit,
-the proxy `event` has an estimated precision of only **~9–15%** overall
-(0.50 in the HIGH/strict tier, 1.00 at text similarity ≥ 0.80, 0.00 in the LOW
-tier), and ~13% of audited censored contracts hide a missed proxy recurrence.
-Survival results describe algorithm-identifiable same-buyer re-publications,
-not verified renewal-chain outcomes. Because the audit sample was stratified on
-the pre-calibration baseline's own links and confidence tiers, mapped audit
-precision is a baseline-anchored plausibility diagnostic and is **not** used to
-arbitrate between M0, M1, and M2. See
-`event_validation/manual_validation_summary.md`.
-
-**Current selected recommendation (2026-07-08 method comparison, reassessed):**
-the main event definition is **M2 balanced** — a probabilistic
-(active-learning-assisted) match-probability model over the same engineered
-features as the composite rule, applied at threshold 0.65 — promoted because,
-with the synthetic pairs scored by the same Sentence-Transformer encoder as
-the real pipeline, it improves benchmark-estimated precision (0.612 vs 0.575)
-and recall (0.733 vs 0.568) over M0 balanced in every scenario, has a lower
-real-data negative-control acceptance rate (7.9% vs 9.4%), a smaller
-synthetic-to-real accepted-link profile shift (0.045 vs 0.128), and enough
-events for survival modeling. It produces **254 proxy events out of 1,210
-eligible BOAMP source contracts** (21.0%). **M0 balanced** (text ≥ 0.50,
-composite ≥ 0.50, W=6, corrected generic CPV scoring; 269 events, 22.2%) is
-retained as the **conservative, fully transparent rule-based baseline**; M0
-broad = 490 events (40.5%) and M0 strict = 79 events (6.5%; flagged LOW_EVENTS)
-remain sensitivity bounds. All of these are proxy recurrence labels
-(identifiable reappearances of a similar procurement need), not real BOAMP
-ground truth. The mapped manual-audit precision was **excluded from the
-selection score**: the 150-case audit sample was stratified on the
-pre-calibration baseline's own links and confidence tiers, so it is a
-baseline-anchored plausibility diagnostic, not an independent validation set
-for comparing M0, M1, and M2. Headline survival results are stable across M0
-and M2 balanced (12-month survival 95.9% vs 95.6%), so substantive conclusions
-do not hinge on the method choice.
-
-The earlier Phase 2 modeling input is
-`data/processed/boamp_phase2_survival.csv`, exported from the BOAMP renewal-linking
-notebook output `boamp_renewal_linking_quality/outputs/boamp_renewal_links.csv`.
-The current selected input is
-`data/processed/boamp_phase2_survival_method_m2_balanced.csv`; the conservative
-baseline inputs are `data/processed/boamp_phase2_survival_method_m0_balanced.csv`
-and the equivalent calibrated-rule file
-`data/processed/boamp_phase2_survival_calibrated_balanced.csv`.
-
-The original 500-notice sample (`task1_boamp_fetch.py`) is kept for reference
-but superseded by the full download.
-
-## Optional exploratory paths
-
-These files remain useful for source comparison and later enrichment, but are
-currently out of scope for the official BOAMP-only handoff:
-
-```bash
-python scripts/task3_decp_fetch_profile.py   # DECP source exploration
-python scripts/task4_compare.py              # BOAMP vs DECP comparison table
-python scripts/task7_week2_cleaning.py       # shared cleaning functions + DECP cleaning
-python scripts/task6_renewal_linking.py      # DECP renewal-linking baseline
-python scripts/task8_unified_survival.py     # mixed BOAMP + DECP survival dataset
-```
-
-## Outputs
-
-| Path | Content |
+| Output | Role |
 |---|---|
-| `data/raw/boamp_full/` | raw full BOAMP API pages (JSON, verbatim) |
-| `data/raw/boamp_sample/` | original 500-notice sample pages (reference only) |
-| `data/processed/boamp_full_flat.csv` | **3,181 BOAMP notices, flattened** (primary) |
-| `data/processed/boamp_full_clean.csv` | **3,181 notices, cleaned** — buyer keys, amounts, durations, taxonomy |
-| `data/processed/boamp_phase2_survival.csv` | historical BOAMP-only Phase 2 handoff — one row per eligible AO with the pre-calibration 665-event output |
-| `data/processed/boamp_phase2_survival_method_m2_balanced.csv` | **current selected survival input** — M2 balanced, 1,210 rows / 254 proxy events |
-| `data/processed/boamp_phase2_survival_method_m0_balanced.csv` | conservative baseline survival input — M0 balanced, 1,210 rows / 269 proxy events |
-| `data/processed/boamp_phase2_survival_calibrated_balanced.csv` | equivalent calibrated balanced (M0) survival input, 1,210 rows / 269 events |
-| `data/processed/boamp_phase2_survival_calibrated_broad.csv` | broad sensitivity survival input, 1,210 rows / 490 events |
-| `data/processed/boamp_phase2_survival_calibrated_strict.csv` | strict sensitivity survival input, 1,210 rows / 79 events |
-| `reports/tables/survival/renewal_risk_12_24_months_m2_balanced.csv` | 12/24-month risk indicators under the selected M2 balanced method |
-| `reports/tables/survival/renewal_risk_12_24_months_calibrated_balanced.csv` | 12/24-month risk indicators under the M0 balanced baseline rule |
-| `data/processed/boamp_phase2_survival_report.md` | BOAMP-only handoff dataset report |
-| `data/processed/boamp_full_survival.csv` | **1,933 APPEL_OFFRE survival records** — event/censoring, ±6 month window |
-| `data/processed/boamp_full_survival_report.md` | survival dataset composition report |
-| `data/processed/boamp_sample_flat.csv` | 500-notice BOAMP sample (reference only) |
-| `boamp_renewal_linking_quality/outputs/boamp_renewal_links.csv` | **official BOAMP renewal-linking notebook output** — 1,210 eligible AO, 665 linked |
-| `boamp_renewal_linking_quality/outputs/boamp_linking_stats.csv` | linking-rate summary for the BOAMP-only final method |
-| `boamp_renewal_linking_quality/outputs/boamp_bias_report.csv` | bias/failure-reason report for the BOAMP-only final method |
-| `boamp_renewal_linking_quality/outputs/boamp_renewal_candidates.csv` | candidate-pair table before best-match selection |
-| `data/raw/decp/` | DECP download — decp.parquet (git-ignored, re-downloadable; exploratory only) |
-| `data/processed/decp_sample_flat.csv` | filtered DECP contracts (3,039) |
-| `data/processed/decp_clean.csv` | DECP with buyer keys, cleaned amounts/durations, taxonomy tags |
-| `data/processed/decp_renewal_links.csv` | DECP contracts with linked renewal event/censoring durations |
-| `data/processed/unified_survival.csv` | combined BOAMP+DECP survival records (exploratory only) |
-| `data/processed/unified_survival_report.md` | unified dataset composition report |
-| `data/processed/taxonomy.csv` | 10-category tech taxonomy (CPV + keywords) |
-| `data/processed/buyer_bridge.csv` | cross-source canonical buyer key table |
-| `data/processed/week2_cleaning_report.md` | cleaning rules, impacts, limitations |
-| `data/processed/decp_renewal_linking_report.md` | DECP renewal linking method note |
-| `data/processed/*_field_profile.{csv,md}` | field-by-field profiling tables |
-| `data/processed/source_comparison.{csv,md}` | BOAMP vs DECP comparison |
-| `event_validation/outputs/manual_validation_audit_labeled.csv` | **manual audit of the proxy event** — 150 labeled cases (2026-07-02) |
-| `event_validation/outputs/boamp_event_validation_audit.xlsx` | audit workbook (labels + metrics in `Audit_Results` sheet) |
-| `event_validation/manual_validation_summary.md` | **validation summary** — precision/recall estimates and causes |
-| `notebooks/04_synthetic_boamp_benchmark.ipynb` | synthetic BOAMP benchmark with known synthetic true links |
-| `notebooks/05_parameter_calibration_benchmark_and_real.ipynb` | threshold calibration using synthetic benchmark and real diagnostics |
-| `notebooks/06_apply_calibrated_rules_to_real_boamp.ipynb` | applies broad/balanced/strict rules to real BOAMP candidate pairs |
-| `notebooks/06_linkage_method_comparison_no_ground_truth.ipynb` | compares M0/M1/M2 without assuming real BOAMP ground truth |
-| `notebooks/07_calibrated_survival_analysis.ipynb` | survival rerun under calibrated broad/balanced/strict rules |
-| `reports/tables/validation/recommended_event_rules.csv` | selected broad, balanced, and strict parameter rules |
-| `reports/tables/validation/linkage_method_comparison.csv` | real BOAMP M0/M1/M2 event counts, negative controls, mapped-audit diagnostic |
-| `reports/tables/validation/linkage_method_comparison_synthetic_metrics.csv` | synthetic precision/recall/FP/FN for M0/M1/M2 |
-| `reports/tables/validation/final_method_recommendation.csv` | final selected method: M2 balanced (with promotion criteria and roles) |
-| `reports/tables/validation/method_survival_comparison.csv` | survival comparison for M0 balanced, M2 balanced, and M0 strict |
-| `reports/tables/validation/active_learning_review_sample.csv` | 150-pair targeted review queue for active learning |
-| `reports/tables/validation/calibrated_real_event_definition_summary.csv` | real BOAMP event counts and diagnostics under the calibrated rules |
-| `reports/tables/survival/calibrated_rule_km_summary.csv` | Kaplan-Meier summary for calibrated rules |
-| `reports/tables/survival/calibrated_rule_cox_comparison.csv` | Cox comparison for calibrated rules |
-| `reports/figures/` | duration histograms, EDA plots |
-| `reports/week1_summary.md` | **Week-1 summary report** |
-| `archive/obsolete_20260702/` | archived obsolete files (see its README; nothing there is used by the pipeline) |
+| `data/raw/boamp_current/download_metadata.json` | Download source, extraction date, scope, requested and actual date ranges, counts, warnings |
+| `data/processed/boamp_current/boamp_full_clean_enriched.csv` | Current enriched notice-level source of truth |
+| `data/processed/boamp_current/boamp_survival_population_base.csv` | Current APPEL_OFFRE analytical population |
+| `data/processed/boamp_current/boamp_candidate_pairs_enriched.csv` | Current enriched buyer-key candidate pairs |
+| `data/processed/boamp_current/boamp_survival_method_m0_balanced.csv` | Selected current survival input |
+| `reports/tables/linkage/method_comparison_current_dataset.csv` | Current M0/M1/M2 method comparison |
+| `reports/tables/validation/methodology_tests_summary_current.csv` | Current methodology-test conclusions |
+| `reports/tables/survival/operational_risk_scores_current.csv` | Current 12/24-month operational risk scores |
+| `reports/tables/survival/live_contract_risk_scores_current.csv` | Current Gigalis-facing live scoring table |
+| `reports/current_boamp_recurrence_study_report.pdf` | Current final report |
+| `reports/current_source_values_used.csv` | Source trace for reported numbers |
+| `reports/tables/audit/final_current_pipeline_audit.csv` | Final current pipeline audit |
 
-**Source of truth (current selected method-comparison path):**
-`data/processed/boamp_phase2_survival_method_m2_balanced.csv` (1,210 rows /
-254 proxy events, selected main method),
-`data/processed/boamp_phase2_survival_method_m0_balanced.csv` (269 events,
-conservative baseline), `reports/tables/validation/final_method_recommendation.csv`,
-`reports/tables/validation/linkage_method_comparison.csv`, and
-`notebooks/06_linkage_method_comparison_no_ground_truth.ipynb`. The earlier
-`data/processed/boamp_phase2_survival.csv` file (665 events) is retained as the
-pre-calibration baseline. The Jaccard baseline (`boamp_full_survival.csv`, 7.6%
-at W=6) and DECP/unified artefacts are comparison/exploratory only.
+## Reproduce The Current Run
 
-## Key technical notes
+Use the project virtual environment:
 
-- BOAMP is queried via the Opendatasoft Explore API
-  (`boamp-datadila.opendatasoft.com`, dataset `boamp`); `api.boamp.fr`
-  redirects there. The API caps `offset+limit` at 10,000, hence per-year queries.
-- CPV codes live inside the JSON-encoded `donnees` field, in **two formats**:
-  legacy BOAMP forms (≤2023) and EU **eForms/UBL** (2024+). `scripts/utils.py`
-  parses both; server-side CPV filtering uses `LIKE` pre-filters on both
-  serializations, re-verified client-side.
-- DECP has no queryable API. The source used is the **tabular consolidation**
-  `decp.parquet` (dataset "DECP consolidées – format tabulaire" on
-  data.gouv.fr, stable URL
-  `https://www.data.gouv.fr/api/1/datasets/r/11cea8e8-df3e-4ed1-932b-781e2635e432`,
-  ~210 MB, updated daily): full history in one flat SIRENE-enriched table.
-  The official JSON "fichiers consolidés" were explored first but are
-  schema-inconsistent across vintages (`marches: [...]` vs
-  `marches.marche: [...]`) and are not per-year censuses — kept only as a
-  documented fallback.
-- The current official survival-modeling handoff is BOAMP-only because BOAMP
-  and DECP do not share a reliable direct linking key for a robust contract-level
-  merge. DECP remains a later enrichment path rather than a prerequisite for
-  Phase 2.
-- Week 1 deliberately contains **no modeling** (see internship guide §4.1.1).
+```bash
+.venv/bin/python3 scripts/download_boamp_current.py --start-date 2015-01-01 --end-date 2026-07-09
+.venv/bin/python3 scripts/build_boamp_current_enriched.py
+MPLCONFIGDIR=/tmp/matplotlib-stage-1 .venv/bin/python3 scripts/build_current_survival_population.py
+MPLCONFIGDIR=/tmp/matplotlib-stage-1 .venv/bin/python3 scripts/generate_current_candidate_pairs.py
+MPLCONFIGDIR=/tmp/matplotlib-stage-1 .venv/bin/python3 scripts/run_current_linkage_methods.py
+MPLCONFIGDIR=/tmp/matplotlib-stage-1 .venv/bin/python3 scripts/run_current_methodology_tests.py
+MPLCONFIGDIR=/tmp/matplotlib-stage-1 .venv/bin/python3 scripts/run_current_survival_analysis.py
+.venv/bin/python3 scripts/score_live_recurrence_risk_current.py --prediction-date 2026-07-09
+.venv/bin/python3 scripts/build_current_report.py
+latexmk -pdf -cd reports/current_boamp_recurrence_study_report.tex
+.venv/bin/python3 scripts/audit_current_pipeline.py
+```
+
+The downloader and enrichment steps use public network services. Raw files and SIREN lookup cache are stored under `data/raw/boamp_current/`.
+
+## Historical Artifacts
+
+Older 2015-2024 outputs remain in the repository for traceability and Git history, but they are not the current study results. Treat files without the `boamp_current` path or `_current` suffix as historical unless a current report explicitly cites them.
+
+## Environment
+
+The current methodology stack is declared in `requirements.txt`. Important packages include `pandas`, `numpy`, `scipy`, `scikit-learn`, `lifelines`, `sentence-transformers`, `rapidfuzz`, `recordlinkage`, `splink`, `xgboost`, `lightgbm`, `datasketch`, `networkx`, `pyarrow`, and `requests`.

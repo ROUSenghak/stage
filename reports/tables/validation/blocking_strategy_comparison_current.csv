@@ -1,0 +1,6 @@
+strategy,candidate_pairs,sources,note,candidate_pairs_estimate,status
+current_enriched_buyer_blocking,7699.0,945.0,implemented current strategy,,
+wider_time_window,,,diagnostic estimate; wider window increases review burden,9623.0,
+buyer_plus_cpv_division,,,stricter CPV division blocking,2556.0,
+relaxed_imputed_duration,,,diagnostic estimate for imputed durations,1628.0,
+MinHash/SimHash,,,suitable for future semantic top-k blocking after enriched buyer block,,datasketch_available

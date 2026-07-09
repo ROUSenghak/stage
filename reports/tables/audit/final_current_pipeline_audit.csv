@@ -1,0 +1,23 @@
+check,status,detail
+data/raw/boamp_current/download_metadata.json,PASS,exists
+data/processed/boamp_current/boamp_full_flat.csv,PASS,exists
+data/processed/boamp_current/boamp_full_clean_enriched.csv,PASS,exists
+reports/tables/data/buyer_enrichment_summary.csv,PASS,exists
+data/processed/boamp_current/boamp_survival_population_base.csv,PASS,exists
+data/processed/boamp_current/boamp_candidate_pairs_enriched.csv,PASS,exists
+reports/tables/linkage/method_comparison_current_dataset.csv,PASS,exists
+reports/tables/linkage/final_selected_event_definition_current.csv,PASS,exists
+reports/tables/validation/classifier_benchmark_current.csv,PASS,exists
+reports/tables/survival/survival_summary_current.csv,PASS,exists
+reports/tables/survival/live_contract_risk_scores_current.csv,PASS,exists
+reports/current_boamp_recurrence_study_report.tex,PASS,exists
+reports/current_boamp_recurrence_study_report.pdf,PASS,exists
+reports/current_source_values_used.csv,PASS,exists
+scripts/update_current_notebooks.py,PASS,exists
+scripts/validate_current_notebooks.py,PASS,exists
+scripts/mark_legacy_reports_superseded.py,PASS,exists
+validation_robustness/validation_robustness_analysis.ipynb,PASS,exists
+no_stale_old_values_remain,PASS,
+no_broken_required_paths,PASS,required current outputs checked
+compileall,PASS,Python files compile
+current_notebooks_validate,PASS,Current notebooks execute through data/table cells

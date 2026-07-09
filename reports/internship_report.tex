@@ -1,904 +1,407 @@
+
 \documentclass[11pt,a4paper]{article}
-
-% ---------------------------------------------------------------------------
-% Gigalis internship report -- Executive / orientation document.
-% For implementation details, diagnostics, and methodology see
-% phase1_technical_report.tex / phase1_technical_report.pdf.
-% For data-reliability and event-definition detail see data_quality_report.
-% ---------------------------------------------------------------------------
-
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{amsmath}
-\usepackage{booktabs}
-\usepackage{geometry}
+\usepackage[margin=1in]{geometry}
 \usepackage{graphicx}
-\usepackage{pdflscape}
-\usepackage{caption}
-\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{hyperref}
 \usepackage{float}
+\usepackage{caption}
 \usepackage{xcolor}
 \usepackage{enumitem}
-\usepackage{fancyhdr}
-\usepackage{xurl}
-\usepackage[hidelinks]{hyperref}
-
-\geometry{margin=2.3cm}
-\setlength{\parskip}{0.5em}
-\setlength{\parindent}{0pt}
-\setlength{\emergencystretch}{3em}
-\captionsetup{font=small,labelfont=bf}
-
-\definecolor{darkblue}{RGB}{0,51,102}
-\definecolor{done}{RGB}{0,120,50}
-\definecolor{partial}{RGB}{180,100,0}
-\definecolor{notdone}{RGB}{160,0,0}
-\hypersetup{colorlinks=true,linkcolor=darkblue,urlcolor=darkblue,citecolor=darkblue}
-
-\pagestyle{fancy}
-\fancyhf{}
-\rhead{\small Gigalis Internship --- Orientation Report}
-\lhead{\small Predictive Procurement Modeling}
-\cfoot{\thepage}
-\setlength{\headheight}{14pt}
-
-\title{\textbf{Predicting Contract Renewal in Public Digital Procurement}\\[0.4em]
-      \large A Survival-Analysis Approach on BOAMP Notices for Gigalis\\[0.3em]
-      \normalsize Internship Report --- Executive Orientation}
-\author{Internship Report --- Gigalis (Pays de la Loire)}
-\date{June 2026}
+\usepackage{microtype}
+\usepackage{url}
+\setlist{nosep}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=blue,citecolor=black}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\title{From Current BOAMP Notices to Procurement-Recurrence Risk:\\A Current Enriched Proxy-Event and Survival-Analysis Framework for Gigalis}
+\author{Gigalis internship project}
+\date{Generated from current executed outputs on 2026-07-09T14:50:19+00:00}
 
 \begin{document}
 \maketitle
-\thispagestyle{fancy}
 
-% ===========================================================================
 \begin{abstract}
-\noindent
-This is the \textbf{executive report} of the internship: it lets a reader scan
-the project rapidly and understand \emph{what was done}, \emph{why it matters},
-and \emph{what is reliable}. The full implementation and diagnostics are in the
-\textbf{technical report} (\texttt{phase1\_technical\_report.pdf}); the data
-reliability and event-definition detail are in the \textbf{data quality report}.
-
-The work concerns predictive analysis of public digital procurement for
-\textbf{Gigalis}, a central purchasing body in Pays de la Loire. The goal is to
-move from a descriptive view (``what happened?'') towards a predictive one
-(``when will a contract be re-tendered?''). Because BOAMP contains \emph{no
-explicit recurrence-chain field}, the relationship is reconstructed from
-observable signals: a proxy recurrence \texttt{event} built from
-Sentence-Transformer text embeddings combined with CPV, temporal, and buyer
-signals, used as the event variable for survival analysis. A method-comparison
-experiment tested the calibrated composite rule (M0) against probabilistic
-linkage (M1) and active-learning-assisted linkage (M2), with the synthetic
-benchmark scored by the same Sentence-Transformer encoder as the real
-pipeline. The current selected method is \textbf{M2 balanced}
-(match-probability threshold 0.65): on 1{,}210 eligible source contracts it
-records \textbf{254 proxy recurrence events} (\textbf{21.0\%}), improving
-benchmark-estimated precision (0.612 vs.\ 0.575) and recall (0.733 vs.\ 0.568)
-over M0 balanced and lowering the negative-control acceptance rate (7.9\% vs.\
-9.4\%). \textbf{M0 balanced} (text $\geq 0.50$, composite $\geq 0.50$, $W=6$,
-corrected generic CPV handling; 269 events, 22.2\%) is retained as the
-conservative transparent baseline, and the older 665-event output only as the
-pre-calibration baseline. Mapped manual-audit precision was excluded from the
-selection because the audit sample was drawn from the pre-calibration
-baseline's links (a baseline-anchored diagnostic). Under M2 balanced, the
-Kaplan--Meier median is not reached, the official reduced-spec Cox C-index is
-\textbf{0.553} (PH-checked), and the best AFT model is LogNormalAFT (AIC
-3{,}357.9). Operational 12- and 24-month indicators are available for 1{,}204
-contracts, with median probabilities 0.0206 and 0.0634. Headline survival
-results are stable across M0 and M2 balanced. The headline caveat:
-\texttt{event} is a proxy recurrence outcome, not BOAMP ground truth; real
-BOAMP precision and recall are not directly observable.
+This report replaces the earlier 2015--2024 synthesis with a current enriched BOAMP study. It keeps the rich methodological structure of the previous draft, but every headline number is rebuilt from the current files under \protect\path{data/processed/boamp_current/} and current report tables. The event is a proxy recurrence, meaning an identifiable reappearance of a similar procurement need in BOAMP; it is not a legally verified renewal.
 \end{abstract}
 
-\section*{Methodological Note --- From Maximizing Linkage to Maximizing Reliability (2026-07-05)}
-\addcontentsline{toc}{section}{Methodological note --- calibration, 2026-07-05}
+\tableofcontents
+\clearpage
 
-This note explains \emph{why} the event definition changed after the main
-pipeline was first built, not just \emph{what} changed. It is the key to
-reading the rest of this report: numbers in Section~\ref{sec:results} were
-computed under the \textbf{initial} linking method; the numbers in this note
-and in Section~\ref{sec:reliability} reflect the \textbf{calibrated} method
-that should be used for any downstream decision.
+\section{Executive Summary}
+Gigalis needs a practical way to monitor public digital procurement needs before they reappear in BOAMP. The current enriched dataset covers 2015-03-02 to 2026-07-09 and contains 3,656 retained BOAMP notices. Within that source, 2,216 are APPEL\_OFFRE notices. After start-date and duration eligibility rules, 1,661 contracts are eligible for recurrence linkage.
 
-\paragraph{Initial method and its results.}
-The first version of the pipeline (Section~\ref{sec:linking}) linked a source
-contract to \emph{any} later same-buyer notice whose composite score was
-non-negative after passing a soft text-similarity filter. This maximized the
-linking rate: 665 of 1{,}210 eligible contracts (55.0\%) were linked, against a
-7.6\% lexical baseline --- a large apparent improvement.
+The current selected event definition is \textbf{M0 balanced}. It produces 183 proxy recurrence events and 1,478 censored contracts, an event rate of 11.0\%. M2 balanced has the strongest current synthetic/silver F1 (0.928) and very high precision, but it keeps only 68 events. The current selection therefore keeps M0 balanced as the main operational survival definition because it has enough events for survival modeling, transparent thresholds, zero current negative-control acceptance, and stable interpretation.
 
-\paragraph{Challenge discovered.}
-BOAMP has no official field certifying that one notice renews another, so this
-55.0\% figure could not be checked against ground truth directly. A manual
-audit of 150 stratified cases against the full official BOAMP record
-(2026-07-02) showed the initial rule was too permissive: raw precision was only
-$\approx$0.15 (weighted $\approx$0.09 over the 665-event population), rising to
-0.50 in the high-confidence tier and 1.00 only above text similarity 0.80; 12.8\%
-of decided-unlinked sources also hid a plausible missed renewal. In short, the
-initial rule optimized for \emph{linking rate}, not for \emph{link
-correctness}, and there is no legal ground truth against which to prove any
-individual link is right.
+Under the selected definition, Kaplan--Meier survival is 95.5\% at 12 months, 94.4\% at 24 months, 90.2\% at 48 months, and 87.7\% at 60 months. The current Cox model has C-index 0.720; the selected AFT model is LogLogisticAFT with AIC 2676.5. The live scoring table covers 1,661 contracts and gives mean p12/p24 of 0.029/0.051, corresponding to 48.4 expected proxy recurrences within 12 months and 84.6 within 24 months.
 
-\paragraph{Reason for changing method.}
-Because no certified renewal label exists for BOAMP, the true precision/recall
-of any rule cannot be measured on the real data alone. The project therefore
-stopped trying to maximize the number of linked events and instead built a
-\textbf{synthetic BOAMP-like benchmark} with known recurrence truth by
-construction, so that candidate rules could be compared on measurable
-precision, recall, and F1 before being re-applied to real BOAMP. The goal
-changed from \emph{``detect every true renewal''} to \emph{``construct a
-reliable, calibrated proxy-event definition.''}
+\section{Business Context and Interpretation}
+The study supports account monitoring and segment planning. It does not try to prove a legal renewal chain. BOAMP does not contain a complete contract-history identifier linking each call for tender to later renewals. The output is therefore a prioritization layer: it identifies plausible, observable reappearances of similar digital procurement needs.
 
-\paragraph{New calibrated method.}
-The synthetic benchmark generates synthetic source notices, candidate notices,
-and an explicit true-link table under three difficulty scenarios (easy,
-medium, hard), with real-BOAMP-informed design parameters for timing,
-buyer-name variation, generic or drifting CPV codes, missing duration/CPV,
-short or paraphrased text, and large-buyer ambiguity. It is scored with the
-\emph{same Sentence-Transformer encoder as the real pipeline}
-(\nolinkurl{paraphrase-multilingual-MiniLM-L12-v2}), so benchmark performance is
-directly comparable to the operational linking setup. A full threshold grid was
-scored on the benchmark and three explicit rules were selected: \textbf{broad},
-\textbf{balanced}, and \textbf{strict}. The calibrated rule family is called
-\textbf{M0} in the later method comparison; its balanced member --- text
-similarity $\geq 0.50$, composite score $\geq 0.50$,
-temporal window $W=6$, corrected generic CPV scoring, no margin floor --- was
-the recommended main rule until the 2026-07-08 method comparison and is now
-the conservative baseline. On the
-synthetic benchmark, the balanced rule scores precision/recall/F1 of
-0.777/0.806/0.791 (easy), 0.601/0.586/0.593 (medium), and 0.318/0.302/0.310
-(hard, Figure~\ref{fig:scenario-performance}) --- it was chosen over broad and
-strict because it keeps acceptable reliability in the medium (realistic-noise)
-scenario while still preserving enough real events for survival modeling.
+The distinction matters operationally. A high p12 or p24 score means that under the selected proxy-event definition and fitted survival model, a similar BOAMP notice is relatively likely to be observed soon. It does not mean that the buyer has a legal obligation to renew, that an incumbent contract will be extended, or that a future notice is guaranteed.
+
+\section{Current Data Source and Study Period}
+The downloader used the BOAMP Opendatasoft API, Pays de la Loire departments, and digital CPV divisions. It requested 2015-01-01 to 2026-07-09 and retained a verified actual date range of 2015-03-02 to 2026-07-09. Raw JSON pages and metadata are cached under \protect\path{data/raw/boamp_current/} and the flattened current source is \protect\path{data/processed/boamp_current/boamp_full_flat.csv}.
+
+\begin{table}[H]
+\centering
+\caption{Current analytical population funnel. Source: \protect\path{reports/tables/data/analytical_population_summary.csv}.}
+\begin{tabular}{lrl}
+\toprule
+Stage & Rows & Interpretation \\
+\midrule
+All current notices & 3,656 & downloaded and deduplicated BOAMP notices \\
+APPEL\_OFFRE notices & 2,216 & survival source unit \\
+APPEL\_OFFRE with valid source date & 2,215 & usable start date before censoring \\
+Eligible for linkage & 1,661 & expected end date plus search buffer before censoring \\
+\bottomrule
+\end{tabular}
+\end{table}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.92\textwidth]{figures/validation/parameter_selected_rules_scenario_performance}
-\caption{Synthetic-benchmark performance of the broad, balanced, and strict
-rules across the easy/medium/hard scenarios. All three rules degrade under
-harder synthetic noise; the balanced rule was chosen for its stability and its
-yield of real events, not because it is the single most precise option on
-paper.}
-\label{fig:scenario-performance}
+\includegraphics[width=.82\linewidth]{figures/data/analytical_population_funnel.pdf}
+\caption{Current analytical population funnel generated from the refreshed pipeline.}
 \end{figure}
 
-\paragraph{Results after the change.}
-Re-applied to real BOAMP, the balanced rule produces \textbf{269 proxy
-recurrence events} among 1{,}210 eligible source contracts (\textbf{22.2\%}) ---
-down from 665 (55.0\%) under the initial rule. The broad sensitivity gives 490
-events (40.5\%); the strict sensitivity gives 79 events (6.5\%, underpowered for
-Cox/AFT). Figure~\ref{fig:event-rates} shows this drop in scale.
+\section{SIREN/SIRET Enrichment and Buyer-Key Construction}
+The current cleaning pipeline preserves raw buyer names and raw identifiers, then builds cleaned SIRET, cleaned SIREN, SIREN extracted from SIRET, and high-confidence enriched SIREN when possible. The buyer key is assigned in this order: valid SIRET, valid SIREN, SIREN extracted from SIRET, enriched SIREN, and finally normalized-name fallback.
+
+The refreshed dataset has 480 rows with valid SIRET and 2,535 rows with enriched SIREN. Buyer-key quality is central because it controls the blocking step: better buyer grouping increases the chance of finding plausible later notices without opening the candidate pool to unrelated buyers.
+
+\begin{table}[H]
+\centering
+\caption{Buyer-key distribution in the current enriched dataset. Source: \protect\path{reports/tables/data/buyer_key_quality_summary.csv}.}
+\begin{tabular}{lrr}
+\toprule
+Buyer key type & Rows & Distinct buyer keys \\
+\midrule
+NAME & 930 & 202 \\
+SIREN\_ENRICHED & 2,246 & 216 \\
+SIRET & 480 & 132 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Cleaning, Duration, CPV, and Traceability}
+The current dataset normalizes notice identifiers, publication dates, nature, buyer names, SIRET/SIREN, CPV, procurement-object text, duration, and source-date fields. CPV is converted into a cleaned code, hierarchy fields, and generic-CPV flags. Generic codes are treated cautiously because a broad code can make two notices look more similar than they really are. Duration is preserved when plausible and imputed when missing or suspect; the imputation flag remains available downstream so survival models can account for this uncertainty.
+
+Traceability is kept at every stage: raw notice IDs and raw-record fields are preserved in the enriched table, candidate-pair files keep both source and candidate identifiers, selected event datasets keep the method definition, and report values are traced in \protect\path{reports/current_source_values_used.csv} and \protect\path{reports/final_draft/source_values_used.csv}.
+
+\section{Candidate-Pair Generation}
+Candidate pairs are generated within the enriched buyer key. A source APPEL\_OFFRE can link only to a later notice from the same buyer key, and the search window is centered around the expected end date. The candidate table includes text similarity, CPV compatibility, temporal proximity, buyer-key quality, generic-CPV flags, duration features, candidate rank, score margin, and the text backend. The refreshed run used sentence\_transformers:paraphrase-multilingual-MiniLM-L12-v2.
+
+\begin{table}[H]
+\centering
+\caption{Current candidate generation summary. Source: \protect\path{reports/tables/linkage/candidate_generation_summary.csv}.}
+\begin{tabular}{lr}
+\toprule
+Metric & Value \\
+\midrule
+Eligible source contracts & 1,661 \\
+Candidate pairs & 7,699 \\
+Sources with at least one candidate & 945 \\
+Text similarity backend & sentence\_transformers:paraphrase-multilingual-MiniLM-L12-v2 \\
+\bottomrule
+\end{tabular}
+\end{table}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.7\textwidth]{figures/validation/calibrated_real_event_rates}
-\caption{Proxy-event rate on real BOAMP under the three calibrated rules
-(1{,}210 eligible contracts). The balanced rule keeps less than half the events
-of the broad rule, trading linkage quantity for a rule whose behaviour is
-checked on the synthetic benchmark.}
-\label{fig:event-rates}
+\includegraphics[width=.78\linewidth]{figures/linkage/candidate_count_distribution.pdf}
+\caption{Distribution of candidate counts per eligible source contract.}
 \end{figure}
 
-The calibrated survival-ready file is
-\texttt{data/processed/boamp\_phase2\_survival\_calibrated\_balanced.csv},
-row-identical to the M0 balanced baseline file
-\texttt{data/processed/boamp\_phase2\_survival\_method\_m0\_balanced.csv}
-(the selected main input since 2026-07-08 is
-\texttt{boamp\_phase2\_survival\_method\_m2\_balanced.csv}; see the
-method-comparison section below). Its
-Kaplan--Meier median is not reached; survival is 95.9\% at 12 months, 92.3\% at
-24 months, 83.2\% at 48 months, and 75.2\% at 60 months
-(Figure~\ref{fig:km-calibrated}). LogNormalAFT is the best balanced-rule AFT
-model by AIC. Re-scored 12/24-month risk indicators under this rule give a
-mean 12-month recurrence probability of 0.023 and 27.5 expected recurrences
-within 12 months
-(\nolinkurl{reports/tables/survival/renewal_risk_12_24_months_calibrated_balanced.csv}).
-
-\paragraph{Two Cox specifications, one dataset.} Two Cox models were fitted on
-this same 269-event balanced data: an initial richer model with
-category-segment covariates (penalizer 0.1, C-index 0.592, AFT AIC 3{,}544.8,
-notebook \nolinkurl{07_calibrated_survival_analysis.ipynb}), and a reduced
-3-covariate model (\texttt{declared\_duration\_months},
-\texttt{dur\_was\_imputed}, \texttt{start\_year}; penalizer 0.05) used in the
-2026-07-08 method-comparison rerun so that M0, M1, M2, and the strict variant
-are compared on identical covariates
-(\nolinkurl{scripts/linkage_method_comparison_no_ground_truth.py}). Both are
-valid fits; the reduced spec is the official one because it is the
-specification used for the final method-comparison decision. For the M0
-balanced baseline it gives C-index 0.544 (AFT AIC 3{,}542.5; richer
-category-aware spec 0.592), and for the \textbf{selected M2 balanced method
-the official L3 Cox result is the reduced-spec C-index of 0.553} (AFT AIC
-3{,}357.9; richer spec 0.606). The Schoenfeld residual test on the official
-reduced spec flags a PH violation for \texttt{declared\_duration\_months}
-($p<10^{-24}$, both methods) and passes for \texttt{dur\_was\_imputed} and
-\texttt{start\_year} --- the same pattern as the pre-calibration model, for
-which the log-normal AFT above is used as the PH-assumption-free cross-check.
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.85\textwidth]{figures/survival/calibrated_rules_km_curves}
-\caption{Kaplan--Meier survival curves under the current proxy-event
-definitions (M0 broad/balanced/strict and the selected M2 balanced). The
-stricter the rule, the fewer and later the recorded events, and the higher the
-residual survival at any horizon; the M2 balanced curve tracks the M0 balanced
-curve closely.}
-\label{fig:km-calibrated}
-\end{figure}
-
-\paragraph{Limitation.}
-Because BOAMP does not provide an official renewal label, the constructed
-\texttt{event} variable --- under any of the three rules --- should be
-interpreted as a proxy for \emph{likely procurement recurrence}, not as
-verified renewal-chain ground truth. The synthetic benchmark quantifies how the
-linking method behaves under controlled noise; it does not certify that any
-specific real link is a verified renewal-chain link. These labels remain proxy
-recurrences, not externally verified outcomes.
-
-\paragraph{Conclusion of this note.}
-The methodological change is the main deliverable of the calibration phase: the
-project moved from \textbf{maximizing linkage quantity} (665 events, 55.0\%,
-uncalibrated) to \textbf{maximizing analytical reliability} (M0 balanced, 269
-events, 22.2\%, calibrated against a controlled benchmark; then the selected
-M2 balanced, 254 events, 21.0\%, in the method comparison below). The rest of
-this report documents all stages so the reader can see what changed and why. The detailed
-implementation is reproducible from
-\texttt{notebooks/04\_synthetic\_boamp\_benchmark.ipynb} and
-\texttt{notebooks/05\_parameter\_calibration\_benchmark\_and\_real.ipynb}, with
-generated artifacts tracked under \texttt{data/synthetic/} and
-\texttt{reports/tables/validation/}. Section~\ref{sec:reliability} gives the
-full manual-audit and robustness evidence behind this decision.
-
-\section*{Method-Comparison Update --- M0, M1, and M2 (2026-07-08)}
-\addcontentsline{toc}{section}{Method-comparison update --- M0, M1, and M2}
-
-The latest notebook,
-\nolinkurl{notebooks/06_linkage_method_comparison_no_ground_truth.ipynb},
-compares the calibrated rule (M0) with two literature-supported
-alternatives: a probabilistic linkage classifier (M1) and an
-active-learning-assisted variant (M2). Splink and recordlinkage were not
-available in the environment, so M1/M2 were implemented as transparent
-logistic match-probability models trained on synthetic pair labels, with mapped
-manual TP/FP labels added for M2 where available. The synthetic pairs are
-scored with the same Sentence-Transformer encoder as the real pipeline, so all
-methods are benchmarked on a common footing. This is a comparison under
-no legal ground truth: real BOAMP precision and recall are not directly
-observable.
-
-\begin{table}[H]
-\centering
-\caption{Latest real BOAMP method-comparison result. The mapped-audit column
-is a baseline-anchored diagnostic (the audit sample was drawn from the
-pre-calibration baseline's links) and is not a selection criterion.}
-\label{tab:exec-method-comparison}
-\small
-\begin{tabular}{llrrrr}
-\toprule
-Method & Variant & Events & Event rate & Neg.-control accept. & Mapped-audit diagnostic \\
-\midrule
-M0 & Balanced & 269 & 22.2\% & 9.4\% & 43.8\% ($n{=}32$) \\
-M1 & Balanced & 256 & 21.2\% & 8.5\% & 37.1\% ($n{=}35$) \\
-M2 & Balanced & 254 & 21.0\% & 7.9\% & 37.1\% ($n{=}35$) \\
-M0 & Strict   &  79 &  6.5\% & 0.4\% & 85.7\% ($n{=}14$) \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-Across all synthetic scenarios, M0 balanced scores benchmark-estimated
-precision 0.575 and recall 0.568; M1/M2 balanced score 0.612 and 0.733, and
-improve on M0 balanced in every scenario (easy, medium, hard) and on the
-generic-CPV subset. The final recommendation \textbf{promotes M2 balanced to
-the main method}: it passes all five promotion criteria of the transparent,
-audit-free selection rule (selection score 0.797 vs.\ 0.741; negative controls
-7.9\% vs.\ 9.4\%; 254 events; smaller synthetic-to-real accepted-link profile
-shift, 0.045 vs.\ 0.128; same text backend as the real pipeline).
-\textbf{M0 balanced is retained as the conservative transparent baseline}
-sensitivity. Mapped audit precision was excluded from the decision because the
-150-case audit sample was stratified on the pre-calibration baseline's own
-links and confidence tiers; with only 32--35 decided overlapping pairs per
-method, its differences are also within sampling noise. M1 --- which never
-touches the audit labels --- shows nearly identical gains, so the promotion
-does not depend on the audit-informed training. The active-learning output is
-a 150-pair review queue: 25 pairs in each of six review categories
-(near-threshold, high-score generic CPV, event=0 with high nearest candidate,
-low top1--top2 margin, high text with CPV mismatch, and same-buyer/same-CPV
-weak-text); a method-neutral audit of this queue is the recommended next
-validation step.
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.72\textwidth]{figures/validation/method_comparison_synthetic_precision_recall}
-\caption{Synthetic benchmark-estimated precision and recall for M0, M1, and
-M2. The synthetic benchmark supports comparing methods, but it does not prove
-real BOAMP truth.}
-\label{fig:exec-method-pr}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.72\textwidth]{figures/validation/method_survival_km_probabilities}
-\caption{Fixed-horizon Kaplan--Meier survival probabilities for M0 balanced,
-M2 balanced, and M0 strict. M2 balanced is the selected main method; its
-survival profile is close to the M0 balanced baseline.}
-\label{fig:exec-method-km}
-\end{figure}
-
-% ===========================================================================
-\section{Context and Objective}
-
-\subsection{Why this project}
-Gigalis operates a central purchasing body for digital services in Pays de la
-Loire. To anticipate re-tendering workloads, it wants to predict \emph{when}
-digital contracts come up for renewal. The core obstacle: BOAMP publishes calls
-for tenders and awards, but \emph{no notice says ``this renews contract X''}.
-The renewal link must be inferred from text, classification, timing, and buyer
-identity.
-
-\subsection{Objective}
-The internship objective is to build a transparent, reproducible pipeline that
-(i) reconstructs a proxy renewal \texttt{event} from BOAMP signals, (ii) uses it
-as the outcome of a survival model of contract lifetime, and (iii) translates
-the model into operational renewal-risk indicators. This report orients the
-reader to that pipeline and its main results; exact field logic, formulas, and
-diagnostics are deferred to the technical and data quality reports.
-
-% ===========================================================================
-\section{Data Sources and Scope}
-\label{sec:data}
-
-\subsection{Scope}
-\begin{itemize}[leftmargin=1.4em,itemsep=1pt]
-  \item \textbf{Sectors:} CPV divisions 48 (software), 72 (IT services), 32 (telecom), 35 (security).
-  \item \textbf{Territory:} departments 44, 49, 53, 72, 85 (Pays de la Loire).
-  \item \textbf{Period:} 2015--2024. Study end date: 2024-12-31.
-  \item \textbf{Modeling path:} BOAMP only. DECP is documented but not linked
-        (no shared key between the two sources).
-\end{itemize}
-
-\subsection{Corpus numbers}
-\begin{itemize}[leftmargin=1.4em,itemsep=1pt]
-  \item 3{,}181 BOAMP notices downloaded (2015--2024).
-  \item 1{,}933 are \texttt{APPEL\_OFFRE} (source contracts); 1{,}081 are \texttt{ATTRIBUTION}.
-  \item 1{,}210 are \emph{eligible}: their expected renewal window ($\pm 6$ months around the estimated end date) closes before 2024-12-31.
-  \item 723 are structurally censored upfront (too recent to observe a renewal).
-\end{itemize}
-
-DECP (3{,}039 digital contracts, same scope) is far richer (100\% SIRET, 99.4\%
-durations) but cannot be merged to BOAMP at contract level; contract-level DECP
-merging remains a future path.
-
-\subsection{Key data quality issues (modeling consequences)}
-
-\begin{table}[H]
-\centering
-\caption{Key BOAMP data-quality findings and their modeling consequence.
-Full field-level detail is in the data quality report.}
-\label{tab:dq}
-\small
-\begin{tabular}{@{}p{4.8cm}p{2.8cm}p{6.0cm}@{}}
-\toprule
-\textbf{Finding} & \textbf{Value} & \textbf{Consequence} \\
-\midrule
-Buyer SIRET coverage (raw) & $\sim$9\% of corpus & Grouping uses normalised names; SIREN enrichment later consolidates many (see \S3.2). \\
-Amount fill rate (\texttt{APPEL\_OFFRE}) & $\sim$21\% & Amount excluded from linking signals. \\
-Declared duration granularity & 69\% at 12/24/36/48 mo & Duration used as a covariate, not as survival target. \\
-Imputed durations & 25\% of eligible cohort & Flagged with \texttt{dur\_was\_imputed}; imputation is 48 months. \\
-No explicit renewal label & structural & \texttt{event} is a proxy reconstructed by the linking algorithm. \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\subsection{Taxonomy}
-Each contract is tagged with one of eleven technology categories (Software \&
-Applications, IT Services \& Consulting, Telecom \& Networks, Cybersecurity,
-Cloud \& Infrastructure, Data \& AI, etc.) via a \textbf{deterministic
-rule-based mapping} from CPV codes and description keywords. This is \emph{not}
-a trained classifier --- the planned NLP classifier was not implemented.
-Output: \nolinkurl{data/processed/taxonomy.csv}.
-
-% ===========================================================================
-\section{Main Pipeline}
-\label{sec:pipeline}
-
-The pipeline runs end to end from raw BOAMP notices to operational risk
-indicators. Table~\ref{tab:pipeline} summarises each component and where its
-outputs live; the subsections below describe what each stage does, and
-Section~\ref{sec:results} reports the numbers.
-
-\begin{landscape}
-\begin{table}[p]
-\centering
-\caption{Component status and key outputs. Status: \textcolor{done}{Done},
-\textcolor{partial}{Partial}, \textcolor{notdone}{Not started}.}
-\label{tab:pipeline}
-\scriptsize
-\begin{tabular}{@{}p{4.2cm}p{1.6cm}p{5.4cm}p{10.0cm}@{}}
-\toprule
-\textbf{Component} & \textbf{Status} & \textbf{Key result} & \textbf{Where} \\
-\midrule
-Data cleaning \& EDA
-  & \textcolor{done}{Done}
-  & 3,181 notices $\to$ 1,933 source contracts
-  & \nolinkurl{data/processed/boamp_full_clean.csv} \\[3pt]
-Buyer SIREN enrichment
-  & \textcolor{done}{Done}
-  & 724/1,210 eligible rows on a SIREN key
-  & \nolinkurl{buyer_siren_enrichment/} \\[3pt]
-Renewal linking (event reconstruction)
-  & \textcolor{done}{Done}
-  & Selected M2 balanced: 254/1,210 proxy events (21.0\%); M0 balanced baseline: 269 (22.2\%)
-  & \nolinkurl{boamp_renewal_linking_quality/}, \nolinkurl{notebooks/06_linkage_method_comparison_no_ground_truth.ipynb} \\[3pt]
-Survival dataset construction
-  & \textcolor{done}{Done}
-  & 1,210 rows $\times$ 33 cols
-  & \nolinkurl{data/processed/boamp_phase2_survival_method_m2_balanced.csv} \\[3pt]
-Kaplan--Meier \& log-rank
-  & \textcolor{done}{Done}
-  & Median not reached; fewer than half have observed proxy events before censoring
-  & \nolinkurl{notebooks/06_linkage_method_comparison_no_ground_truth.ipynb} \\[3pt]
-Cox PH model
-  & \textcolor{done}{Done}
-  & C-index 0.553 (M2 balanced, reduced spec; PH-checked)
-  & same notebook + \nolinkurl{reports/tables/survival/} \\[3pt]
-Parametric AFT models
-  & \textcolor{done}{Done}
-  & LogNormalAFT best (AIC 3,357.9 under M2 balanced)
-  & same notebook \\[3pt]
-Sensitivity analysis
-  & \textcolor{done}{Done}
-  & M0 balanced conservative baseline; M0 strict high-confidence sensitivity
-  & \nolinkurl{reports/tables/validation/method_survival_comparison.csv} \\[3pt]
-Robustness checks
-  & \textcolor{done}{Done}
-  & Synthetic benchmark, negative controls, threshold sweep, mapped-audit diagnostic
-  & \nolinkurl{reports/tables/validation/} \\[3pt]
-Operational risk indicators
-  & \textcolor{done}{Done}
-  & 1,204 contracts scored; median p12=0.0206, p24=0.0634 (M2 balanced)
-  & \nolinkurl{reports/tables/survival/renewal_risk_12_24_months_m2_balanced.csv} \\[3pt]
-High-risk contract/buyer/segment tables
-  & \textcolor{done}{Done}
-  & Top-20 contracts by 12-month recurrence probability, plus buyer- and
-    segment-level rankings, under the selected M2 balanced method
-  & \nolinkurl{reports/tables/survival/top20_renewal_risk_m2_balanced.csv},
-    \nolinkurl{buyer_renewal_risk_ranking_m2_balanced.csv},
-    \nolinkurl{segment_renewal_risk_ranking_m2_balanced.csv} \\[3pt]
-Manual event validation
-  & \textcolor{done}{Done}
-  & 150 cases audited; precision $\approx$0.09--0.15 (HIGH tier 0.50)
-  & \nolinkurl{event_validation/manual_validation_summary.md} \\[3pt]
-Trained NLP classifier
-  & \textcolor{partial}{Partial}
-  & Scaffolding only: annotation sample (350 rows) + training scripts exist; gold labels and training not yet done
-  & \nolinkurl{scripts/nlp_*.py}, \nolinkurl{notebooks/03_nlp_classification.ipynb} \\[3pt]
-Change-point detection (Phase 4)
-  & \textcolor{notdone}{Not done}
-  & Scoped but not implemented
-  & --- \\
-\bottomrule
-\end{tabular}
-\end{table}
-\end{landscape}
-
-\paragraph{L3 status (internship-guide deliverable).} Mapping the rows above
-to the internship guide's deliverable list: \textbf{L3, the survival analysis
-notebook, is \textcolor{done}{Done}.} All five required L3 components are
-present on the selected M2 balanced dataset (with M0 balanced as the
-conservative baseline sensitivity): Kaplan--Meier curves, a validated
-Cox model (Section~\ref{sec:results} PH check above), a parametric AFT
-comparison including Weibull (tested, not retained; LogNormalAFT selected by
-AIC), individual 12- and 24-month predictions, and the high-risk
-contract/buyer/segment tables. \textbf{L2, the trained NLP classifier, is
-handled separately by the team and does not block L3.} The survival analysis
-above uses the rule-based CPV/keyword taxonomy
-(\nolinkurl{data/processed/taxonomy.csv}) as a provisional segment covariate;
-the survival pipeline (notebooks 06--07 and
-\nolinkurl{scripts/task_section16b_calibrated_risk_indicators.py}) can be
-rerun unchanged once final NLP-classifier labels are delivered.
-
-\subsection{BOAMP cleaning}
-Raw notices are parsed from the BOAMP API, deduplicated, and standardised:
-buyer key construction, contract start-date refinement (using
-\texttt{ATTRIBUTION} back-references where available), duration cleaning and
-imputation (missing eligible durations set to 48 months, flagged), CPV
-normalisation, and text normalisation. Output:
-\nolinkurl{data/processed/boamp_full_clean.csv}.
-
-\subsection{Buyer SIREN enrichment}
-\label{sec:siren}
-Because raw SIRET coverage is weak ($\sim$9\% of the corpus), buyers were
-initially grouped by normalised name, which fragments a single public entity
-across spelling variants. A \textbf{SIREN enrichment step} (completed
-\textbf{2026-06-24}) queries the official \emph{API Recherche d'Entreprises} for
-each buyer name and, for \textbf{HIGH-confidence matches only}, upgrades the
-buyer key from \texttt{NAME:} to \texttt{SIREN:\{9-digit\}}, merging name aliases
-of the same legal entity. Of the 1{,}210 eligible contracts, \textbf{724 carry a
-SIREN key (plus 2 SIRET) and 484 remain name-keyed}; 275 of 525 unique buyers (52.4\%) matched
-with HIGH confidence. Medium/low matches are kept for review but never applied
-automatically. Enrichment is a buyer-resolution improvement, \emph{not} ground
-truth: rare false merges at HIGH confidence remain possible. Outputs:
-\nolinkurl{buyer_siren_enrichment/} and
-\nolinkurl{data/processed/boamp_phase2_survival_siren_enriched.csv}.
-
-\subsection{Renewal-event reconstruction}
-\label{sec:linking}
-Each eligible source contract is matched against later BOAMP notices from the
-same buyer using a four-signal composite score: semantic text embeddings
-(Sentence-Transformer, \nolinkurl{paraphrase-multilingual-MiniLM-L12-v2}), CPV
-hierarchy match, temporal proximity, and buyer-identity agreement (weights
-0.40 / 0.25 / 0.20 / 0.15). The best candidate passing the hard text-similarity
-filter is selected as the renewal successor and sets \texttt{event}~$=1$;
-contracts with no qualifying successor before study end are right-censored
-(\texttt{event}~$=0$). See technical report \S5 for the full formula.
-
-\subsection{Survival modeling}
-\label{sec:survival}
-The survival dataset (\nolinkurl{data/processed/boamp_phase2_survival.csv}) has
-one row per eligible contract with observed/censored duration and covariates
-(\nolinkurl{declared_duration_months}, \nolinkurl{dur_was_imputed},
-\texttt{start\_year}, category, procedure type). Three model families were
-fitted in \nolinkurl{notebooks/02_survival_modeling_boamp.ipynb}: Kaplan--Meier
-(with log-rank tests), a Cox proportional-hazards model, and parametric AFT
-models (Weibull, log-logistic, log-normal). The fitted model was stress-tested
-with a sensitivity analysis over three event definitions and a battery of
-robustness checks.
-
-\subsection{Operational risk indicators}
-\label{sec:operational}
-The best parametric model (log-normal AFT) is applied to all scored contracts to
-produce conditional renewal probabilities at 12 and 24 months ahead, aggregated
-to contract, buyer, and segment level. These are prioritisation indicators, not
-verified renewal-chain probabilities. Output:
-\nolinkurl{reports/tables/survival/renewal_risk_12_24_months_calibrated_balanced.csv}.
-
-% ===========================================================================
-\section{Main Results}
-\label{sec:results}
-
-\emph{Reading note:} the numbers in this section now use the \textbf{selected
-M2 balanced} method, with M0 balanced reported as the conservative baseline.
-The old 665-event result appears only as a historical pre-calibration baseline
-and should not be read as the current main result.
-
-\subsection{Renewal linking}
-
-\begin{table}[H]
-\centering
-\caption{Current proxy-recurrence outcome under the selected M2 balanced method.}
-\label{tab:link}
-\small
-\begin{tabular}{@{}lr@{}}
-\toprule
-\textbf{Quantity} & \textbf{Value} \\
-\midrule
-Source contracts (\texttt{APPEL\_OFFRE}) & 1{,}933 \\
-Eligible (renewal window observable) & 1{,}210 \\
-Proxy recurrence events (\texttt{event}~$=1$) & 254 \quad(21.0\%) \\
-Censored/no observed link under method (\texttt{event}~$=0$) & 956 \quad(79.0\%) \\
-Conservative baseline (M0 balanced) & 269 \quad(22.2\%) \\
-Old pre-calibration baseline & 665 \quad(55.0\%; historical only) \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-The M0 broad sensitivity gives 490 events (40.5\%) and the M0 strict
-sensitivity gives 79 events (6.5\%). M1 balanced (256 events), which never
-uses the mapped audit labels, closely matches the selected M2 balanced (254
-events) and confirms that the method choice does not rest on audit-informed
-training.
-
-\paragraph{Historical category table.}
-The category table below is retained only to document the pre-calibration
-baseline and should not be used as the selected method's event distribution.
-
-\begin{table}[H]
-\centering
-\caption{Historical pre-calibration event rate by technology category
-(1{,}210 eligible contracts; events sum to 665).}
-\label{tab:bycat}
-\small
-\begin{tabular}{@{}lrrr@{}}
-\toprule
-\textbf{Category} & \textbf{n} & \textbf{events} & \textbf{rate \%} \\
-\midrule
-IT Services \& Consulting          & 344 & 208 & 60.5 \\
-Software \& Applications           & 223 & 140 & 62.8 \\
-Telecom \& Networks                & 223 & 116 & 52.0 \\
-Cybersecurity                      & 136 &  73 & 53.7 \\
-Unknown                            & 115 &  49 & 42.6 \\
-Digital Workplace \& Collaboration &  51 &  32 & 62.7 \\
-Data \& AI                         &  40 &  12 & 30.0 \\
-IT Maintenance \& Support          &  22 &  11 & 50.0 \\
-IT Hardware \& Equipment           &  26 &   9 & 34.6 \\
-Cloud \& Infrastructure            &  22 &  11 & 50.0 \\
-GIS \& Mapping                     &   8 &   4 & 50.0 \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\textbf{Link quality.} Of the 665 accepted links: 164 are single-candidate
-(no competing match); of the remaining 501 multi-candidate links, 219 (44\%)
-have a score margin below 0.05, flagging an ambiguous winner. 75 links (11.3\%)
-satisfy the \texttt{high\_confidence\_strict} criterion ($S \geq 0.70$ and margin
-$\geq 0.05$, multi-candidate only); these form the Model~C core
-(Table~\ref{tab:sens}). \textbf{Main unlinked failure mode:} 491 of 545 unlinked
-contracts (90.1\%) have no temporal partner in the search window --- a true absence
-of a candidate notice, not a scoring failure.
-
-\subsection{Survival analysis}
-
-\paragraph{Selected-method survival summary.}
-Under the selected M2 balanced method, the survival dataset has 1{,}210 rows
-and 254 proxy events. The Kaplan--Meier median is not reached, meaning fewer
-than 50\% of contracts experience the proxy event before censoring.
-Fixed-horizon survival is 95.6\% at 12 months, 92.1\% at 24 months, 84.0\% at
-48 months, and 76.0\% at 60 months. The official reduced-spec Cox C-index is
-0.553 (see the two-specification note above; richer category-aware spec
-0.606). LogNormalAFT is the best AFT model by AIC (3{,}357.9), ahead of
-WeibullAFT (3{,}404.4) and LogLogisticAFT (3{,}408.2) --- WeibullAFT was
-tested but not retained since it does not have the lowest AIC. Operational
-12/24-month indicators are available under M2 balanced for 1{,}204 contracts,
-with median probabilities 0.0206 and 0.0634 and expected counts 29.0 and 84.1.
-Under the M0 balanced baseline the corresponding results are 269 events,
-12-month survival 95.9\%, C-index 0.544, LogNormalAFT AIC 3{,}542.5, and
-expected counts 27.5 / 82.3 --- the headline conclusions are stable across the
-two methods.
-
-\paragraph{Historical pre-calibration survival.} The following detailed tables
-come from the old 665-event baseline and are retained as provenance for why
-calibration was needed.
-
-\paragraph{Kaplan--Meier.} Global median survival is \textbf{50.1 months},
-consistent with the prevalence of 48-month framework contracts. Log-rank tests
-(Table~\ref{tab:logrank}): renewal timing is driven by declared duration and
-imputation status ($p<0.001$); category is marginally significant ($p=0.025$).
-
-\begin{table}[H]
-\centering
-\caption{Log-rank tests for differences in renewal timing.}
-\label{tab:logrank}
-\small
-\begin{tabular}{@{}lrrr@{}}
-\toprule
-\textbf{Stratifying variable} & \textbf{statistic} & \textbf{p} & \textbf{df} \\
-\midrule
-Category (multivariate)        & 12.89 & 0.025 & 5 \\
-Duration was imputed           & 19.96 & $<0.001$ & 1 \\
-Declared-duration group        & 41.05 & $<0.001$ & 2 \\
-Procedure type (collapsed)     &  3.48 & 0.176 & 2 \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\paragraph{Cox proportional-hazards model.} In-sample concordance:
-\textbf{0.6317}. Two predictors are significant (Table~\ref{tab:cox}): longer
-declared duration lowers hazard (HR 0.991 per month), and later start year
-raises it (HR 1.071 per year). IT Services \& Consulting shows a positive
-category effect (HR 1.230, $p=0.037$). The positive
-\texttt{start\_year} hazard is partly structural: 2021--2024 contracts are
-right-censored because a typical 48-month contract would renew after the
-2024-12-31 study close.
-
-\begin{table}[H]
-\centering
-\caption{Cox model: significant covariates (multivariate).}
-\label{tab:cox}
-\small
-\begin{tabular}{@{}lrrr@{}}
-\toprule
-\textbf{Covariate} & \textbf{HR} & \textbf{95\% CI} & \textbf{p} \\
-\midrule
-\texttt{declared\_duration\_months} & 0.991 & [0.986, 0.995] & $<0.001$ \\
-\texttt{start\_year}                & 1.071 & [1.031, 1.113] & $<0.001$ \\
-IT Services \& Consulting (vs.\ Cybersecurity) & 1.230 & [1.013, 1.493] & 0.037 \\
-\texttt{dur\_was\_imputed}          & 0.871 & [0.722, 1.049] & 0.146 \\
-Other category / procedure terms    & \multicolumn{3}{c}{not significant ($p>0.1$)} \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\paragraph{Parametric AFT models.} Log-normal fits best (AIC 7{,}068.4,
-concordance 0.655), outperforming log-logistic (7{,}154.7) and Weibull
-(7{,}240.3). Full results:
-\nolinkurl{reports/tables/survival/parametric_aic_comparison.csv}.
-
-\paragraph{Sensitivity to event definition.} Three event definitions were tested
-(Table~\ref{tab:sens}). The Cox concordance drops from 0.632 (Model A) to 0.616
-(Model B, $\geq$0.50) and 0.455 (Model C, strict H.C.), suggesting that
-low-confidence links add predictive signal not present in the strict subset ---
-and that the 75-event strict definition is too sparse for stable estimation.
-
-\begin{table}[H]
-\centering
-\caption{Sensitivity to event definition. ``--'' = KM median never reached.
-KM median in months.}
-\label{tab:sens}
-\small
-\begin{tabular}{@{}lrrrr@{}}
-\toprule
-\textbf{Variant} & \textbf{events} & \textbf{rate \%} & \textbf{KM median} & \textbf{Cox C} \\
-\midrule
-A --- baseline (all links)            & 665 & 55.0 & 50.1 & 0.632 \\
-B --- conservative ($\geq 0.50$)      & 400 & 33.1 & -- & 0.616 \\
-C --- strict H.C.\ ($S\!\geq\!0.70$, $\Delta\!\geq\!0.05$, multi-cand.) &  75 & 6.2 & -- & 0.455 \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\paragraph{Proportional-hazards assumption.} The Schoenfeld test flags a
-violation for \nolinkurl{declared_duration_months} ($p < 10^{-5}$); all other
-covariates pass. Stratification or a time interaction for duration is future
-work. The log-normal AFT avoids the PH assumption and gives the same conclusions.
-
-\paragraph{Temporal hold-out.} A temporal validation (train on contracts
-starting $\leq$2021: 1{,}088 rows / 604 events; test on $\geq$2022: 116 rows /
-60 events) gives a test concordance of 0.543 against 0.612 in-sample ---
-a directional check only, since the small test cohort is structurally dominated
-by early renewals, but it confirms the in-sample C-index is an upper bound.
-
-\subsection{Operational risk indicators}
-
-The table below is computed under the \emph{pre-calibration} baseline event
-definition (665 events). Under the calibrated balanced rule (269 events; see
-the calibration update on p.~1), the re-scored indicators are substantially
-lower: mean 12/24-month probabilities 0.023/0.068, max 12-month probability
-0.073, and 27.5 expected recurrences within 12 months (83\% lower than the
-89.7 below). Files: \nolinkurl{reports/tables/survival/*_calibrated_balanced.csv}.
-
-\begin{table}[H]
-\centering
-\caption{Operational risk summary (1{,}204 scored contracts).}
-\label{tab:risk}
-\small
-\begin{tabular}{@{}lr@{}}
-\toprule
-\textbf{Metric} & \textbf{Value} \\
-\midrule
-Mean 12-month renewal probability & 0.074 \\
-Mean 24-month renewal probability & 0.216 \\
-Max 12-month probability (any contract) & 0.288 \\
-Contracts in \emph{medium} band (0.25--0.50) & 6 \\
-Contracts in \emph{low} band ($<0.25$) & 1{,}198 \\
-Expected renewals within 12 months & 89.7 \\
-Expected renewals within 24 months & 259.9 \\
-Top buyer by expected 12-month volume & SIREN:234400034 (9.3) \\
-Top segment by expected 12-month volume & IT Services \& Consulting (30.4) \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-% ===========================================================================
-\section{Reliability and Limitations}
-\label{sec:reliability}
-
-\subsection{Reliability evidence}
-The event variable was stress-tested with checks in \nolinkurl{validation_robustness/}:
-\begin{itemize}[leftmargin=1.4em,itemsep=1pt]
-  \item \textbf{Threshold sensitivity (7 scenarios: baseline, composite floors
-        0.50--0.90, strict H.C.):} Cox concordance declines gradually from 0.632
-        (baseline) to 0.599 (score $\geq 0.60$), then becomes unstable below
-        $\approx$100 events (0.473 at $\geq 0.70$); hazard-ratio directions stay
-        stable at every threshold with enough events.
-        Full table: \nolinkurl{validation_robustness/outputs/threshold_sensitivity_summary.csv}.
-  \item \textbf{Placebo check:} winning-link mean score 0.554 vs.\ runner-up
-        0.428 vs.\ synthetic no-buyer 0.401 --- the scoring discriminates
-        (14.9\% of winners reach $\geq 0.70$ vs.\ 0.7\% of runner-ups).
-  \item \textbf{Event/censoring bias:} SMD = 0.17 (duration), $-$0.15 (start year)
-        between event and censored groups --- covariates reasonably balanced
-        (SMD $<$ 0.20); the dominant bias is structural right-censoring of
-        2022--2024 contracts.
-  \item \textbf{Manual validation (executed 2026-07-02):} 150 stratified cases
-        audited against the full official BOAMP records
-        (\nolinkurl{event_validation/outputs/manual_validation_audit_labeled.csv}).
-        Result: TP 14 / FP 82 / uncertain 4 on 100 linked pairs
-        (precision $\approx$0.15 raw, $\approx$0.09 weighted to the 665-event
-        population; 0.50 in the HIGH/strict tier; 1.00 at text similarity
-        $\geq$0.80); 6 of 47 decided unlinked sources hid a plausible missed
-        renewal (12.8\%). This is a sample-based audit estimate, not
-        population ground truth; it invalidates the LOW tier and weakens the
-        MEDIUM tier as renewal evidence. Because the sample was stratified on
-        the pre-calibration baseline's own links and confidence tiers, mapped
-        audit precision is a baseline-anchored diagnostic and is not used to
-        arbitrate between M0, M1, and M2 in the method comparison.
-\end{itemize}
-
-\subsection{Key limitations}
-\begin{itemize}[leftmargin=1.4em,itemsep=2pt]
-  \item \textbf{Proxy event, not official ground truth.} Because BOAMP does not
-        provide an official renewal label, the constructed \texttt{event}
-        variable should be interpreted as a proxy for likely procurement
-        recurrence, not as verified renewal-chain ground truth --- under the
-        initial rule (\texttt{event = 1} means a plausible renewal link was
-        found; by composite score, 39.8\% of the 665 links are below 0.50 (low),
-        45.3\% between 0.50 and 0.70 (medium), 14.9\% at or above 0.70 (high))
-        and equally under the calibrated balanced rule.
-  \item \textbf{Residual buyer fragmentation.} SIREN enrichment consolidated 724
-        of the 1{,}210 eligible rows onto a SIREN key (plus 2 SIRET), but 484 remain
-        name-keyed, so spelling variants not resolved by the API can still create
-        false negatives. Enrichment is not ground truth.
-  \item \textbf{Short-text false positives.} Generic descriptions
-        (``prestations informatiques'') can match spuriously.
-  \item \textbf{Structural right-censoring.} Contracts from 2021--2024 are largely
-        censored; the positive start\_year hazard partly reflects study truncation,
-        not a genuine cohort trend.
-  \item \textbf{Modest discrimination.} Concordance $\approx$0.65 --- useful for
-        prioritisation, not sufficient for high-stakes individual decisions.
-\end{itemize}
-
-% ===========================================================================
-\section{Completed Work and Remaining Work}
-\label{sec:open}
-
-\textbf{Completed.} BOAMP acquisition and cleaning; buyer SIREN enrichment
-(2026-06-24); pre-calibration renewal-event reconstruction (665 events,
-55.0\%); synthetic benchmark calibration with the real Sentence-Transformer
-encoder; calibrated balanced event definition (269 events, 22.2\%);
-method comparison M0/M1/M2 with promotion of M2 balanced as the selected main
-method (254 events, 21.0\%; 2026-07-08); survival rerun (KM, Cox with PH
-check, AFT) under M2 balanced and the M0 sensitivity family; operational
-12/24-month risk indicators (pre-calibration, M0 balanced, and M2 balanced
-versions); rule-based technology taxonomy.
-
-\textbf{Remaining.}
-\begin{itemize}[leftmargin=1.4em,itemsep=2pt]
-  \item \textbf{Method-neutral audit of the selected method.} The 150-case
-        audit (executed 2026-07-02) showed the broad baseline was too
-        permissive, but its sample is baseline-anchored. The priority is now a
-        method-neutral manual review of the selected M2 balanced links --- the
-        150-pair active-learning queue
-        (\nolinkurl{reports/tables/validation/active_learning_review_sample.csv})
-        is the prepared starting point --- to confirm the benchmark-based
-        promotion on real data.
-  \item \textbf{Trained NLP classifier (L2).} The technology taxonomy is
-        rule-based (CPV + keywords). The classifier pipeline is scaffolded
-        (\nolinkurl{scripts/nlp_annotation_sample.py} through
-        \nolinkurl{scripts/nlp_propagate_labels.py} and notebook 03), and the
-        350-row annotation sample is drawn, but the gold labels have not been
-        filled in and no model has been trained yet. This L2 work is now
-        handled separately by the team and \textbf{does not block L3}: the
-        survival analysis uses the available CPV/keyword taxonomy as a
-        provisional segment variable, and the pipeline can be rerun unchanged
-        once final NLP-classifier labels are delivered.
-  \item \textbf{Change-point / trend detection (Phase 4).} Scoped but not started.
-  \item \textbf{DECP semantic linking.} Applied to BOAMP only; DECP linking remains
-        at the lexical prototype stage.
-  \item \textbf{Live prediction scoring.} The current model evaluates contract age
-        as of the study end date; a production run would re-evaluate each contract
-        at a live prediction date.
-\end{itemize}
-
-% ===========================================================================
-\section{Conclusion and Next Steps}
-
-The internship delivered a reproducible end-to-end pipeline: BOAMP notice
-acquisition $\to$ cleaning $\to$ buyer SIREN enrichment $\to$ renewal-event
-reconstruction $\to$ survival modeling $\to$ operational risk indicators. The
-main methodological result is not a single number but a \textbf{change in
-method}: the project moved from an initial rule that maximized \emph{linkage
-quantity} (665 events, 55.0\%, later shown by manual audit to be only
-$\approx$9--15\% precise) to calibrated proxy-event definitions selected
-against a controlled synthetic benchmark and real-data diagnostics --- the M0
-broad rule gives 490 events (40.5\%), the M0 balanced baseline 269 events
-(22.2\%), the M0 strict rule 79 events (6.5\%), and the \textbf{selected M2
-balanced method 254 events (21.0\%)}. Under M2 balanced, the Kaplan--Meier
-median is not reached and LogNormalAFT is the best AFT model by AIC
-(3{,}357.9). These outputs translate BOAMP proxy recurrence signals ---
-not externally verified renewal-chain outcomes --- into 12/24-month
-renewal-risk rankings.
-
-\textbf{Immediate next steps (prioritised):}
-\begin{enumerate}[leftmargin=1.4em,itemsep=2pt]
-  \item \textbf{Run the next survival interpretation on the selected M2
-        balanced dataset.} Use M0 balanced, broad, and strict only as
-        sensitivity checks; do not report real precision/recall without manual
-        labels.
-  \item \textbf{Re-score contracts at a live prediction date} (current scores use
-        end-of-study ages).
-  \item \textbf{Review medium/low SIREN matches} to extend buyer consolidation
-        beyond the 724 HIGH-confidence rows already applied.
-  \item \textbf{Replace the rule-based taxonomy} with a trained text classifier.
-  \item \textbf{Implement change-point detection} (Phase 4).
+\section{No-Ground-Truth Validation Framework}
+Real BOAMP does not provide true recurrence-chain labels. This study therefore uses several imperfect but complementary diagnostics:
+\begin{enumerate}
+\item synthetic/silver labels to estimate precision, recall, and F1 under controlled conditions;
+\item negative-control acceptance to detect implausible false-positive behavior;
+\item external-reference diagnostics such as ATTRIBUTION \protect\path{annonce_lie} only as weak signals;
+\item subgroup audits for generic CPV, name-fallback buyers, imputed durations, near-threshold links, and low-margin links;
+\item unique-link diagnostics to identify candidate notices reused too often.
 \end{enumerate}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.92\linewidth]{final_draft/figures/fig_no_ground_truth_validation_framework.pdf}
+\caption{Validation logic for BOAMP recurrence when real legal renewal ground truth is unavailable.}
+\end{figure}
+
+\section{M0, M1, and M2 Linkage Methods}
+M0 is the deterministic composite-rule family. It is transparent and easy to audit: the selected balanced variant applies text, composite score, margin, and generic-CPV logic directly. M1 is a probabilistic classifier over the current pair features. M2 is the probability/review-zone variant: it performs very well on synthetic/silver labels but is intentionally stricter in the current data.
+
+\begin{table}[H]
+\centering
+\caption{Current M0/M1/M2 method comparison. Synthetic/silver metrics are diagnostics, not real BOAMP truth.}
+\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrrrrr}
+\toprule
+Method & Events & Event rate & Precision & Recall & F1 & Neg. control & Generic CPV \\
+\midrule
+M0 balanced & 183 & 11.0\% & 0.377 & 0.986 & 0.545 & 0.0\% & 7.7\% \\
+M0 broad & 447 & 26.9\% & 0.157 & 1.000 & 0.271 & 0.0\% & 13.6\% \\
+M0 strict & 87 & 5.2\% & 0.529 & 0.657 & 0.586 & 0.0\% & 0.0\% \\
+M1 balanced & 173 & 10.4\% & 0.393 & 0.971 & 0.560 & 1.2\% & 2.3\% \\
+M2 balanced & 68 & 4.1\% & 0.941 & 0.914 & 0.928 & 0.0\% & 0.0\% \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.78\linewidth]{figures/linkage/method_event_counts.pdf}
+\caption{Current proxy recurrence event counts by method.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.78\linewidth]{figures/linkage/method_score_distributions.pdf}
+\caption{Current score/probability distributions by method.}
+\end{figure}
+
+\section{Methodology Tests Inspired by Record Linkage Literature}
+The refreshed methodology tables test classifier alternatives, blocking alternatives, text-similarity alternatives, threshold zones, active-learning label budgets, subgroup quality, unique-link reuse, and weak external references. The classifier benchmark does not treat BOAMP as ground truth; it uses current synthetic/silver labels and real-data diagnostics.
+
+\begin{table}[H]
+\centering
+\caption{Current classifier benchmark. LightGBM is blocked by a missing system OpenMP library and is not used as selection evidence.}
+\small
+\begin{tabular}{llrrr}
+\toprule
+Model & Status & Precision & Recall & F1 \\
+\midrule
+lightgbm & blocked & -- & -- & -- \\
+M0 balanced & run & 0.189 & 1.000 & 0.317 \\
+logistic\_regression & run & 0.322 & 0.971 & 0.484 \\
+random\_forest & run & 0.904 & 0.943 & 0.923 \\
+gradient\_boosting & run & 0.952 & 0.857 & 0.902 \\
+svm\_rbf & run & 0.828 & 0.757 & 0.791 \\
+xgboost & run & 0.957 & 0.943 & 0.950 \\
+Fellegi-Sunter/recordlinkage & available\_diagnostic & 0.189 & 1.000 & 0.317 \\
+Splink & available\_diagnostic & 0.941 & 0.914 & 0.928 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Threshold-zone diagnostics are retained for review prioritization rather than replacing the final event definition. The current possible-match zone contains 14 candidate pairs and the strong-match zone contains 68; this distinction is useful for future manual review queues.
+
+\section{Final Selected Proxy-Event Definition}
+The selected current event definition is \textbf{M0 balanced}. It is not selected because it maximizes benchmark F1. It is selected because the current study needs a survival-ready event definition that balances event sufficiency, interpretability, negative-control behavior, generic-CPV risk, and operational stability.
+
+M2 balanced is important evidence, not the selected survival input. It has F1 0.928, precision 0.941, recall 0.914, zero generic-CPV share, and 68 events. That is excellent as a strong-match / review-priority layer, but too sparse to replace the selected event definition in the current survival study without making the event count fragile. The selected M0 balanced definition keeps 183 events, zero current negative-control acceptance, and readable rule logic.
+
+\section{Survival-Analysis Methodology}
+The survival unit remains APPEL\_OFFRE. Each eligible source contract receives an observed duration: either time to selected proxy recurrence, or time to censoring if no selected proxy recurrence is observed. Kaplan--Meier estimates the nonparametric survival curve. Cox PH is used as a ranking and covariate diagnostic. AFT models compare parametric time-to-event shapes and provide the operational p12/p24 scoring layer.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.9\linewidth]{final_draft/figures/fig_survival_modeling_workflow.pdf}
+\caption{Current survival modeling workflow from selected proxy-event definition to operational p12/p24 indicators.}
+\end{figure}
+
+\section{Current Survival Results}
+Under M0 balanced, there are 183 proxy recurrence events among 1,661 eligible contracts. The Kaplan--Meier median is not reached, because fewer than half of contracts experience the selected proxy recurrence before censoring. Survival remains high at the first operational horizons: 95.5\% at 12 months and 94.4\% at 24 months.
+
+\begin{table}[H]
+\centering
+\caption{Current survival headline results. Source: \protect\path{reports/tables/survival/survival_summary_current.csv}.}
+\begin{tabular}{lrrrrr}
+\toprule
+Method & Events & Event rate & S12 & S24 & S60 \\
+\midrule
+M0 balanced & 183 & 11.0\% & 95.5\% & 94.4\% & 87.7\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.78\linewidth]{figures/survival/km_curve_current.pdf}
+\caption{Kaplan--Meier curve under the selected current proxy-event definition.}
+\end{figure}
+
+\section{Cox and AFT Model Diagnostics}
+The current Cox model C-index is 0.720. Duration has a negative coefficient, meaning longer declared duration is associated with lower short-term recurrence hazard in the fitted model. Buyer-key type and segment terms are retained as diagnostics, not causal effects.
+
+\begin{table}[H]
+\centering
+\caption{Selected Cox coefficients. Source: \protect\path{reports/tables/survival/cox_results_current.csv}.}
+\small
+\begin{tabular}{lrrr}
+\toprule
+Variable & Coef. & Hazard ratio & p-value \\
+\midrule
+declared\_duration\_months & -0.012 & 0.988 & 8.35e-05 \\
+duration\_imputed\_flag & 0.019 & 1.019 & 0.892 \\
+start\_year & -0.004 & 0.996 & 0.836 \\
+segment\_model\_IT Services \& Consulting & 0.232 & 1.261 & 0.0588 \\
+segment\_model\_Other & 0.039 & 1.040 & 0.808 \\
+segment\_model\_Software \& Applications & -0.264 & 0.768 & 0.0848 \\
+segment\_model\_Telecom \& Networks & -0.013 & 0.987 & 0.927 \\
+segment\_model\_Unknown & -0.055 & 0.946 & 0.768 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The selected AFT model is LogLogisticAFT. The AFT comparison is useful because fixed-horizon operational probabilities require a full predicted survival curve, not only a relative hazard ranking.
+
+\begin{table}[H]
+\centering
+\caption{Current AFT model comparison. Source: \protect\path{reports/tables/survival/aft_comparison_current.csv}.}
+\begin{tabular}{lrr}
+\toprule
+Model & AIC & Events \\
+\midrule
+LogLogisticAFT & 2676.5 & 183 \\
+WeibullAFT & 2680.8 & 183 \\
+LogNormalAFT & 2757.6 & 183 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.78\linewidth]{figures/survival/aft_model_comparison_current.pdf}
+\caption{AFT comparison under the selected current event definition.}
+\end{figure}
+
+\section{Operational 12/24-Month Indicators}
+The operational layer scores contracts by conditional p12 and p24 under the selected AFT model. These are prioritization scores for visible BOAMP proxy recurrences. Mean p12 is 0.029, mean p24 is 0.051, and the expected current workload is 48.4 proxy recurrences in 12 months and 84.6 in 24 months.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.78\linewidth]{figures/survival/p12_distribution_current.pdf}
+\caption{Distribution of current 12-month proxy-recurrence probabilities.}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\caption{Top buyer-level expected proxy recurrences. Source: \protect\path{reports/tables/survival/buyer_risk_ranking_current.csv}.}
+\small
+\begin{tabular}{llrrr}
+\toprule
+Buyer key & Buyer name & Contracts & Expected 12m & Expected 24m \\
+\midrule
+SIREN:234400034 & Conseil régional des Pays de la Loire & 93 & 3.17 & 5.53 \\
+SIREN:794304097 & Nantes Métropole & 93 & 2.42 & 4.24 \\
+SIREN:264400136 & CHU de Nantes & 51 & 1.47 & 2.56 \\
+SIREN:228500013 & Département de la Vendée & 31 & 1.13 & 1.97 \\
+SIREN:244900015 & Angers Loire Métropole & 35 & 1.10 & 1.91 \\
+SIREN:391722881 & GIE SESAM Vitale & 32 & 1.07 & 1.86 \\
+SIREN:935367433 & Conseil départemental Loire-Atlantique & 29 & 1.03 & 1.79 \\
+SIREN:194909701 & Université d'Angers & 30 & 0.88 & 1.54 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Top segment-level expected proxy recurrences. Source: \protect\path{reports/tables/survival/segment_risk_ranking_current.csv}.}
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Segment & Contracts & Expected 12m & Expected 24m & Mean p12 \\
+\midrule
+IT Services \& Consulting & 478 & 16.29 & 28.35 & 0.034 \\
+Telecom \& Networks & 300 & 8.60 & 15.02 & 0.029 \\
+Cybersecurity & 199 & 6.03 & 10.54 & 0.030 \\
+Software \& Applications & 295 & 6.00 & 10.56 & 0.020 \\
+Unknown & 165 & 4.77 & 8.34 & 0.029 \\
+Digital Workplace \& Collaboration & 72 & 2.09 & 3.65 & 0.029 \\
+Data \& AI & 52 & 1.49 & 2.61 & 0.029 \\
+IT Hardware \& Equipment & 38 & 1.22 & 2.13 & 0.032 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Top contract-level p12/p24 scores. Source: \protect\path{reports/tables/survival/contract_risk_ranking_current.csv}.}
+\small
+\begin{tabular}{lllrr}
+\toprule
+Contract & Buyer & Segment & p12 & p24 \\
+\midrule
+BOAMP:20-100172 & Communauté urbaine d'Alençon & IT Services \& Consulting & 0.050 & 0.087 \\
+BOAMP:25-36671 & Direction Cybersécurité, Cloud et IA & IT Services \& Consulting & 0.050 & 0.086 \\
+BOAMP:25-50085 & Conseil départemental Loire Atlantique & IT Services \& Consulting & 0.049 & 0.084 \\
+BOAMP:25-3181 & Département de la Vendée & IT Services \& Consulting & 0.049 & 0.084 \\
+BOAMP:25-28394 & Conseil départemental Loire Atlantique & IT Services \& Consulting & 0.049 & 0.084 \\
+BOAMP:25-54937 & Conseil Départemental de la Mayenne & IT Services \& Consulting & 0.049 & 0.084 \\
+BOAMP:25-2262 & VILLE DE SAINT NAZAIRE & IT Services \& Consulting & 0.049 & 0.084 \\
+BOAMP:25-13579 & Conseil Départemental de la Mayenne & IT Services \& Consulting & 0.049 & 0.084 \\
+BOAMP:25-41441 & VILLE DE SAINT NAZAIRE & IT Services \& Consulting & 0.049 & 0.084 \\
+BOAMP:24-132180 & Conseil Départemental de la Mayenne & IT Services \& Consulting & 0.049 & 0.084 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.76\linewidth]{figures/survival/top_buyer_risk_current.pdf}
+\caption{Top buyer-level expected 12-month proxy recurrence workload.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.76\linewidth]{figures/survival/top_segment_risk_current.pdf}
+\caption{Top segment-level expected 12-month proxy recurrence workload.}
+\end{figure}
+
+\section{Robustness, Review Priorities, and Remaining Risks}
+The main review priorities are generic CPV links, name-fallback buyer keys, imputed durations, near-threshold links, low-margin links, and large buyers. Unique-link diagnostics show that some candidate notices are reused many times, with the top reused candidate appearing 13 times. This does not invalidate the method, but it marks those cases for manual review because one later framework-style notice can plausibly be similar to several earlier needs.
+
+\begin{longtable}{p{.28\linewidth}p{.31\linewidth}p{.31\linewidth}}
+\caption{Current limitations and mitigations.}\\
+\toprule
+Limitation & Consequence & Mitigation / current status \\
+\midrule
+\endfirsthead
+\toprule
+Limitation & Consequence & Mitigation / current status \\
+\midrule
+\endhead
+No BOAMP legal renewal labels & Real precision and recall are not directly observable & Use proxy wording, synthetic/silver benchmark, negative controls, and review queues \\
+M2 is sparse & Strong-match F1 is high but event count is only 68 & Keep M2 as review/strong-match evidence; select M0 balanced for current survival \\
+Generic CPV ambiguity & Broad CPV codes can create weak semantic evidence & Flag generic CPV and audit those links first \\
+Name-fallback buyers & Residual buyer fragmentation and false grouping risk remain & Continue SIREN/SIRET enrichment and manual buyer checks \\
+Duration imputation & Timing uncertainty can affect expected end dates & Preserve duration-imputation flags in linkage and survival outputs \\
+LightGBM blocked & One optional classifier benchmark cannot run & Record missing \protect\path{libgomp.so.1} and exclude LightGBM from selection evidence \\
+External references are weak & ATTRIBUTION \protect\path{annonce_lie} is not complete ground truth & Use only as diagnostic support, not a label source \\
+\bottomrule
+\end{longtable}
+
+\section{Conclusion and Next Steps}
+The current enriched BOAMP dataset is now the source of truth for this study. The rich report no longer compares old and new results as a main objective. It documents the current data, current enrichment, current linkage, current selected proxy-event definition, current survival outputs, and current operational prioritization layer.
+
+The next substantive work should be method-neutral manual review of possible-match and strong-match zones, targeted review of name-fallback and generic-CPV links, installation or environment support for LightGBM if that benchmark remains desired, and incorporation of reviewed labels into an active-learning loop. The central interpretation should stay conservative: this is a proxy recurrence framework for public BOAMP observability, not a legal renewal detector.
+
+\appendix
+\clearpage
+\section{Pipeline and Source Trace}
+\begin{figure}[H]
+\centering
+\includegraphics[width=.95\linewidth]{final_draft/figures/fig_pipeline_overview.pdf}
+\caption{Current rich-study pipeline from BOAMP download to operational scoring.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.9\linewidth]{final_draft/figures/fig_proxy_event_construction.pdf}
+\caption{Current proxy-event construction logic.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.9\linewidth]{final_draft/figures/fig_m0_m1_m2_method_logic.pdf}
+\caption{Current M0/M1/M2 method roles.}
+\end{figure}
+
+The complete source trace is stored in \protect\path{reports/current_source_values_used.csv} and \protect\path{reports/final_draft/source_values_used.csv}. The active current report table, figure, notebook, and audit outputs were regenerated after the live BOAMP API download.
 
 \end{document}
